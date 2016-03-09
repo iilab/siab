@@ -10,7 +10,7 @@ import codecs
 
 ### Usage
 usage_string = """
-Usage: sia3_to_si4b.py [<nid>] <directory>
+Usage: %s [<nid>] <directory>
 
 <nid>:                The Drupal node ID for a Community Guide "wrapper." If
                       provided, only data from that node will be extracted.
@@ -21,7 +21,7 @@ Usage: sia3_to_si4b.py [<nid>] <directory>
                       .md data structures. 
 
 Python dependencies: python-slugify,  python-xml, ???
-"""
+""" % argv[0]
 
 ### List of underlying guides (not Community Guide "wrappers") to skip
 skip_list = { '342' }
