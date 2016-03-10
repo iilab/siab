@@ -1,0 +1,761 @@
+{
+    "body": {
+        "xx": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Homepage</strong></p>\n\n<ul><li><a href=\"https://jitsi.org/\"><strong>https://jitsi.org/</strong></a></li>\n</ul><p><strong>Computer Requirements</strong></p>\n\n<ul><li>All Windows Versions</li>\n</ul><p><strong>Version used in this guide</strong></p>\n\n<ul><li>2.4</li>\n</ul><p><strong>Last revision of this chapter</strong></p>\n\n<ul><li>January 2014</li>\n</ul><p><strong>License</strong></p>\n\n<ul><li>Free and Open-Source Software</li>\n</ul><p><strong>What you will get in return</strong>:</p>\n\n<ul><li>The ability to have a private and secure integrated communications system, that includes video chat sessions.</li>\n<li>The ability to encrypt your communication independently of your account providers.</li>\n<li>The ability to register and use different accounts (e.g. <strong>Facebook</strong>, <strong>Google Talk</strong>, <strong>Yahoo Messenger</strong>) simultaneously.</li>\n</ul><p><strong>GNU Linux, Mac OS and other Microsoft Windows Compatible Programs</strong>:</p>\n\n<p><strong>Jitsi</strong> is available for <strong>GNU Linux</strong>, <strong>Mac OS</strong>, as well as <strong>MS Windows</strong> (and soon for <strong>Android OS</strong>). Other programs that <strong>Jitsi</strong> can communicate with using independent <strong>OTR</strong> or <strong>ZRTP</strong> encryption are recommended below:</p>\n\n<ul><li><p>For <strong>text messaging</strong>: <a href=\"/en/pidgin_main\"><strong>Pidgin</strong></a> (<strong>MS Windows</strong> and <strong>GNU Linux</strong>), <a href=\"http://www.miranda-im.org/\"><strong>Miranda</strong></a> (<strong>MS Windows</strong>), <a href=\"https://adium.im/\"><strong>Adium</strong></a> (<strong>Mac OS X</strong>), <a href=\"https://guardianproject.info/apps/chatsecure/\"><strong>ChatSecure</strong></a> (<strong>Android OS</strong> and <strong>iOS</strong> formerly known as <a href=\"/en/Gibberbot_main\"><strong>Gibberbot</strong></a>)</p></li>\n<li><p>For <strong>voice calls</strong>: <strong>CSipSimple</strong> (<strong>Android OS</strong>), <a href=\"http://www.linphone.org/\"><strong>Linphone</strong></a> (<strong>GNU Linux</strong>, <strong>MS Windows</strong>, <strong>Mac OS X</strong>, <strong>Android OS</strong>, <strong>iOS</strong>, and others.)</p></li>\n</ul><p><strong>1.1 Things you should know about this tool before you start</strong></p>\n\n<p><strong>Jitsi</strong> supports many different account types and communication protocols and can thus communicate with correspondents who use different programs. Some of those programs will offer similar features to improve the security of your communication (like programs mentioned in section above), which support independent text and voice encryption (<strong>OTR</strong> and <strong>ZRTP</strong>). Other programs, especially proprietary ones (for instance <strong>Facebook</strong> chat or <strong>Google Talk</strong> ), may not have those features implemented. However, you will still be able to communicate with contacts who are using those proprietary programs with help of **Jitsi* just without the added benefits of **Jitsi's* security features.</p>\n\n<p>Regardless of whether you communicate by text, voice or video, providers of services like <strong>Facebook Chat</strong>, <strong>Google Talk</strong>, <strong>Yahoo! Messanger</strong>, <strong>Skype</strong> or <strong>Viber</strong> have access to your communication sessions and may offer this access to third-parties, such as corporations or governments. <strong>Jitsi</strong> lets you communicate in a private and safe manner using your existing accounts with the help of added encryption. This makes the content of your communication inaccessible to account providers and potential third-parties. In order to protect your private chat sessions and conversations, <strong>Jitsi</strong> uses cryptographic methods including <strong>Off-the-Record</strong> (<a href=\"/en/glossary#OTR\"><strong>OTR</strong></a>) for text chats, and <strong>ZRTP/SRTP</strong> for voice calls.</p>\n\n<p>Another notable difference between <strong>Jitsi</strong> and programs like <strong>Skype</strong> is that it enables users to keep using their existing accounts from different service providers, independent of the program developers. This also means that you need to set up an account prior to being able to use <strong>Jitsi</strong>.</p>\n\n<p><strong>Note</strong>: <strong>Jitsi</strong> uses <strong>Java</strong> programming language. As such, the Java program must be installed on your computer in order for it to work. <strong>Oracle Java</strong> is known to contain many security vulnerabilities that may let remote users assume control of your computer and install spyware to access or monitor all your communication and data. It is <strong>strongly</strong> advised that you minimise the number of programs able to use Java on your computer. Please refer to <a href=\"/en/firefox_addons#3.2\"><strong>Disabling Java associated plugins in Firefox</strong></a> and refer to <a href=\"https://www.java.com/en/download/help/disable_browser.xml\"><strong>steps to disable Java for all browsers on your computer</strong></a>. However as you will see later in this chapter, despite the use of <strong>Java</strong>, there are a number of security benefits when using <strong>Jitsi</strong>.</p>\n", 
+                "summary": "", 
+                "value": "**Homepage**\r\n\r\n- [**https://jitsi.org/**](https://jitsi.org/)\r\n\r\n**Computer Requirements**\r\n\r\n- All Windows Versions\r\n\r\n**Version used in this guide**\r\n\r\n- 2.4\r\n\r\n**Last revision of this chapter**\r\n\r\n- January 2014\r\n\r\n**License**\r\n\r\n- Free and Open-Source Software\r\n\r\n**What you will get in return**: \r\n\r\n- The ability to have a private and secure integrated communications system, that includes video chat sessions.\r\n- The ability to encrypt your communication independently of your account providers.\r\n- The ability to register and use different accounts (e.g. **Facebook**, **Google Talk**, **Yahoo Messenger**) simultaneously.\r\n\r\n**GNU Linux, Mac OS and other Microsoft Windows Compatible Programs**:\r\n\r\n**Jitsi** is available for **GNU Linux**, **Mac OS**, as well as **MS Windows** (and soon for **Android OS**). Other programs that **Jitsi** can communicate with using independent **OTR** or **ZRTP** encryption are recommended below:\r\n\r\n- For **text messaging**: [**Pidgin**](/en/pidgin_main) (**MS Windows** and **GNU Linux**), [**Miranda**](http://www.miranda-im.org/) (**MS Windows**), [**Adium**](https://adium.im/) (**Mac OS X**), [**ChatSecure**](https://guardianproject.info/apps/chatsecure/) (**Android OS** and **iOS** formerly known as [**Gibberbot**](/en/Gibberbot_main)) \r\n\r\n- For **voice calls**: **CSipSimple** (**Android OS**), [**Linphone**](http://www.linphone.org/) (**GNU Linux**, **MS Windows**, **Mac OS X**, **Android OS**, **iOS**, and others.)\r\n\r\n**1.1 Things you should know about this tool before you start**\r\n\r\n**Jitsi** supports many different account types and communication protocols and can thus communicate with correspondents who use different programs. Some of those programs will offer similar features to improve the security of your communication (like programs mentioned in section above), which support independent text and voice encryption (**OTR** and **ZRTP**). Other programs, especially proprietary ones (for instance **Facebook** chat or **Google Talk** ), may not have those features implemented. However, you will still be able to communicate with contacts who are using those proprietary programs with help of **Jitsi* just without the added benefits of **Jitsi's* security features.\r\n\r\nRegardless of whether you communicate by text, voice or video, providers of services like **Facebook Chat**, **Google Talk**, **Yahoo! Messanger**, **Skype** or **Viber** have access to your communication sessions and may offer this access to third-parties, such as corporations or governments. **Jitsi** lets you communicate in a private and safe manner using your existing accounts with the help of added encryption. This makes the content of your communication inaccessible to account providers and potential third-parties. In order to protect your private chat sessions and conversations, **Jitsi** uses cryptographic methods including **Off-the-Record** ([**OTR**](/en/glossary#OTR)) for text chats, and **ZRTP/SRTP** for voice calls.\r\n\r\nAnother notable difference between **Jitsi** and programs like **Skype** is that it enables users to keep using their existing accounts from different service providers, independent of the program developers. This also means that you need to set up an account prior to being able to use **Jitsi**.\r\n\r\n**Note**: **Jitsi** uses **Java** programming language. As such, the Java program must be installed on your computer in order for it to work. **Oracle Java** is known to contain many security vulnerabilities that may let remote users assume control of your computer and install spyware to access or monitor all your communication and data. It is **strongly** advised that you minimise the number of programs able to use Java on your computer. Please refer to [**Disabling Java associated plugins in Firefox**](/en/firefox_addons#3.2) and refer to [**steps to disable Java for all browsers on your computer**](https://www.java.com/en/download/help/disable_browser.xml). However as you will see later in this chapter, despite the use of **Java**, there are a number of security benefits when using **Jitsi**."
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2045", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2045", 
+        "link_title": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5191", 
+        "module": "book", 
+        "nid": "2045", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5191", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+        "updated": "0", 
+        "weight": "-4"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "xx": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>List of sections on this page:</p>\n\n<ul><li><a href=\"#2.1\"><strong>2.1 How to Install Jitsi</strong></a></li>\n<li><a href=\"#2.2\"><strong>2.2 How to Add Accounts in Jitsi</strong></a></li>\n<li><a href=\"#2.2.1\"><strong>2.2.1 How to Add a Gmail/Google Account</strong></a></li>\n<li><a href=\"#2.2.2\"><strong>2.2.2 Registering new Jabber/XMPP or SIP account and adding it to Jitsi</strong></a></li>\n<li><a href=\"#2.2.3\"><strong>2.2.3 How to Add a Facebook Account</strong></a></li>\n<li><a href=\"#2.3\"><strong>2.3 How to change password for account with Jitsi</strong></a></li>\n<li><a href=\"#2.4\"><strong>2.4 How to configure Jitsi to improve it's security</strong></a></li>\n<li><a href=\"#2.4.1\"><strong>2.4.1 Disable and remove call and chat history</strong></a></li>\n<li><a href=\"#2.4.2\"><strong>2.4.2 Require private messaging when text chatting</strong></a></li>\n<li><a href=\"#2.4.3\"><strong>2.4.3 Protect passwords to your accounts with master password</strong></a></li>\n</ul><p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1 How to Install Jitsi</h2>\n\n<p>To install <strong>Jitsi</strong>, perform the following steps:</p>\n\n<p><strong>Step 1</strong>. <strong>Double click</strong> {jitsi-latest-x86.exe} or  {jitsi-latest-x64.exe} which you have just downloaded; the <em>Open File - Security Warning</em> dialogue box may appear. If it does, <strong>click</strong> {Run} to activate the <em>Windows Installer</em> screen, followed by the <em>Welcome to the Jitsi Setup Wizard</em> window.</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-001-welcome-to-installation.png\" alt=\"\" /></p>\n\n<p><em>Figure 1: The Jitsi Setup Wizard</em></p>\n\n<p><strong>Step 2</strong>. <strong>Click</strong> {Next} to activate the <em>End User License Agreement</em> window; <strong>check</strong> the <em>I accept the terms in the License Agreement</em> option to enable the <em>Next</em> button, and then <strong>click</strong>  {Next} to activate the <em>Destination Folder</em> window. Afterwards, <strong>Click</strong> {Next} to activate the <em>Additional Tasks</em> window and accept the default settings as presented.</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-004-additional-tasks.png\" alt=\"\" /></p>\n\n<p><em>Figure 2: The Jitsi Additional Task Options</em></p>\n\n<p><strong>Note</strong>: Enabling the <em>Auto-start when computer restarts or reboots</em> option may slow down the overall function of your computer, especially if you already have multiple applications configured to run when your computer starts up.</p>\n\n<p><strong>Step 3</strong>.  <strong>Click</strong> {Next} to activate the <em>Ready to Install Jitsi</em> window, and then <strong>click</strong> {Install} to activate the <em>Installing Jitsi</em> window displaying the installation progress bar. The <em>User Account Control Warning</em> may appear which asks \"Do you want to allow this app to install software on your PC?\", click {Yes} to allow it to install <strong>Jitsi</strong>.</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-006-user-account-control-warning.png\" alt=\"\" /></p>\n\n<p><em>Figure 3: User Control Warning While Installing Jitsi</em></p>\n\n<p><strong>Step 4</strong>. <strong>Click</strong> {Finish} to complete the installation process and automatically launch the <strong>Jitsi</strong> <em>Sign in</em> window as follows:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-012-configure-all-account-in-one-page.png\" alt=\"\" /></p>\n\n<p><em>Figure 4: The Jitsi Sign in Page</em></p>\n\n<p><strong>Note</strong>: In some instances, installing and launching <strong>Jitsi</strong> for the first time triggers a <em>Windows Security Alert</em> prompt screen (<em>Figure 5</em> below). This alert is normal behaviour for the <strong>MS Windows</strong> operating system, it is ok to continue with using <strong>Jitsi</strong>. Even if you do not click any of the buttons, and simply close the prompt window, <strong>Jitsi</strong> is still able to communicate through the usual public servers such as <strong>Jabber/XMPP or SIP</strong>, <strong>Google Hangout</strong> (formerly Google Talk) and <strong>Facebook Chat</strong>, or <strong>Yahoo Messenger</strong>. However, clicking the {Allow access} button enables an advanced feature in <strong>Jitsi</strong> called <em>Registrarless SIP Accounts</em>. For more information about these special accounts, please refer to the <a href=\"https://jitsi.org/Documentation/RegistrarlessSIPAccount\"><strong>Registrarless SIP Accounts</strong></a> page.</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-010-firewall-access-requirement.png\" alt=\"\" /></p>\n\n<p><em>Figure 5: The Windows Security Alert prompt screen</em></p>\n\n<p><strong>Step 6</strong>. <strong>Select</strong> <em>both</em> <strong>Private</strong> and <strong>Public</strong> networks check-boxes, and then <strong>click</strong> {Allow access} to see the <strong>Jitsi</strong> Sign in window (as shown in <em>Figure 1</em> above) or main user interface window (as shown in <em>Figure 4</em> below).</p>\n\n<p><strong>Note</strong>: It may show you \"Error accessing your Mircrosoft Outlook contacts\" window, just <strong>Check</strong> \"Don't show this message again\" and click {OK} to lead to <em>Sgin in</em> window.</p>\n\n<p><a name=\"2.2\" id=\"2.2\"></a></p>\n\n<h2>2.2 How to Add Accounts in Jitsi</h2>\n\n<p>This section describes how to add or set up different kinds of accounts in <strong>Jitsi</strong>. <strong>Jitsi</strong> supports many different account types. Accounts we discuss below are based mostly on the <strong>Jabber/XMPP</strong> and <strong>SIP</strong> communication protocols. Among many services, <strong>Jitsi</strong> lets you use accounts on <strong>Gmail</strong> or <strong>Facebook</strong> to communicate. Since those are one of most popular services used on the Internet, how to add them to Jitsi is shown below, along with how to improve your security when communicating over those accounts, benefiting from <strong>Jitsi</strong>'s independent encryption on the top of protection offered by your account providers. However please note that even with <strong>Jitsi</strong> encryption, account providers like <strong>Google</strong> or <strong>Facebook</strong> are monitoring the very fact that you are communicating (and perhaps with whom you are communicating), and may share this information with third-parties, such as corporations or governments. Therefore it is perhaps best to avoid using those accounts for sensitive communication even with <strong>Jitsi</strong> encryption. We also describe in this section how to create more secure (Jabber/XMPP or SIP) accounts and add them to Jitsi, and we do recommend to use these accounts instead.</p>\n\n<p><a name=\"2.2.1\" id=\"2.2.1\"></a></p>\n\n<h3>2.2.1 How to Add a Gmail/Google Account</h3>\n\n<p><strong>Note</strong>: The example which follows is based on a <strong>Google Hangout</strong> account, the set-up process for the other communication protocols listed in <em>Figure 4</em> above is similar. Communications or some features (like Jitsi independent encryption of text chat and voice - <strong>OTR</strong> and <strong>ZRTP</strong>) may not work between two or more users of different account providers (like Facebook, Gmail, Yahoo, etc.). However, they should work when communicating between two accounts from the same service provider.</p>\n\n<p><strong>Step 1</strong>. <strong>Select <em>Start</em> &gt; <em>Jitsi</em></strong> or <strong>double-click</strong> the <strong>Jitsi</strong> desktop icon to open it.</p>\n\n<p><strong>Step 2</strong>. If you see a window like <em>Figure 4</em> (<em>sign in</em> window), <strong>type in</strong> the username and password of the <strong>Gmail</strong> account you would like to use for chat purposes. If you closed <em>Sign in</em> window, or you want to add another account, you can add it by <strong>selecting <em>File</em> &gt; <em>Add new account...</em></strong> menu. In the new window <strong>select Network</strong> as <em>Google Talk</em> and <strong>type in</strong> the user name and password of the <strong>Gmail</strong> account as shown on the image below:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-015-add-new-account-gmail-completed.png\" alt=\"\" /></p>\n\n<p><em>Figure 6: The Jitsi \"Sign in\" window</em></p>\n\n<p><strong>Note</strong>: You can add multiple accounts using different protocols at the same time.</p>\n\n<p><strong>Step 3</strong>. <strong>Click</strong> {Add} to activate your account chat window as follows:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-026-show-hide-call-history.png\" alt=\"\" /></p>\n\n<p><em>Figure 7: An example of a Jitsi main window after adding a Gmail account</em></p>\n\n<p><strong>Note:</strong> If you are using <a href=\"https://support.google.com/accounts/answer/180744?hl=en\">2-step verification</a> to protect access to your <strong>Gmail</strong> account, when you try to log in from <strong>Jitsi</strong> with your regular password you may see a message like the one below. To log in using <strong>Jitsi</strong>, you will need to generate an \"application-specific password\". See Google's <a href=\"https://support.google.com/accounts/answer/185833?hl=en\">instructions on how to do this</a>.</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-016-gmail-athuntication-error.png\" alt=\"\" /></p>\n\n<p><em>Figure 8: Example of Google Hangout login authentication failure</em></p>\n\n<p>To verify that you have registered <strong>Gmail</strong> account(s) with <strong>Jitsi</strong>, perform the following steps:</p>\n\n<p><strong>Step 1</strong>. <strong>Select <em>Tools</em> &gt; <em>Options</em></strong> in the menu to activate the following window:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-023-list-of-added-accounts.png\" alt=\"\" /></p>\n\n<p><em>Figure 9: The Options window displaying the newly registered Gmail account (resized)</em></p>\n\n<p><a name=\"2.2.2\" id=\"2.2.2\"></a></p>\n\n<h3>2.2.2 Registering new Jabber/XMPP or SIP account and adding it to Jitsi</h3>\n\n<p><strong>Jabber/XMPP</strong> and <strong>SIP</strong> are open standards of text and voice communication. There are <a href=\"https://xmpp.net/directory.php\">many servers</a> that offer free accounts which you can use with Jitsi. Below we are recommending some of the servers that you could use for sensitive communication. Note that it is also possible to download a <a href=\"http://xmpp.org/xmpp-software/servers/\">Jabber/XMPP server software</a> (like <a href=\"http://www.process-one.net/en/ejabberd/\">ejabberd</a> or <a href=\"http://prosody.im/\">Prosody IM</a>), install it on your own server computer and set it up for private and secure communication between the members of your group, community or organisation.</p>\n\n<ul><li><strong>Riseup.net</strong> Jabber/XMPP account</li>\n</ul><p>If you have account on the <a href=\"/en/riseup_main\">Riseup.net secure email service</a> (located in the USA) you may <a href=\"https://www.riseup.net/en/chat\">use this account also to communicate over Jabber/XMPP network</a> by adding this account to Jitsi - see below on how to add existing Jabber/XMPP account.</p>\n\n<ul><li><strong>jit.si</strong> Jabber/XMPP account</li>\n</ul><p>This server is maintained by the developers of the Jitsi program. You can register account on <a href=\"https://jit.si\"><strong>jit.si</strong></a> and many other public Jabber/XMPP servers in the same way as described above in this section. The IM Observatory maintains a <a href=\"https://xmpp.net/directory.php\">list and ranking of the public Jabber/XMPP servers</a>, and also lets you <a href=\"https://xmpp.net/index.php\">test any Jabber/XMPP server for security</a>.</p>\n\n<ul><li>You can register an account on any <strong>Jabber</strong> server by taking following steps:</li>\n</ul><p><strong>Step 1</strong>.  In <strong>Jitsi, select <em>File</em> &gt; <em>Add new account...</em></strong> in the menu. In the new window, <strong>select <em>Network</em>: XMPP</strong> and <strong>check</strong> the <em>Create a new XMPP account*** option. In *Server</em>, <strong>type</strong> jabber.ccc.de, <strong>type</strong> in the XMPP username you would like to create, and <strong>fill in</strong> the <em>Password</em> and <em>Confirm password</em> fields so that it resembles the following:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-035-create-new-xmpp-account.png\" alt=\"\" /></p>\n\n<p><em>Figure 8: Example of the \"Add new account\" window with the \"Create a new XMPP account\" option selected</em></p>\n\n<p><strong>Step 2</strong>. <strong>Click</strong> {Add}. After successful registration you will be presented with a window similar to <em>Figure 8</em> above.</p>\n\n<p>If the username which you requested is already taken by somebody else, the registration process will fail with an error message like <em>User is already exist.</em>  You can try again by repeating the process and selecting a different username.</p>\n\n<p><strong>Note</strong>: In some case, if you do not log in to your account for longer than a certain period of time (e.g. 12 months) your account will be automatically removed from the server and the username will become available for registration by other people.</p>\n\n<ul><li><strong>ostel.co</strong> SIP account</li>\n</ul><p><strong>SIP</strong> accounts cannot be registered from within the <strong>Jitsi</strong> program. The <strong>ostel.co</strong> server (located in USA) offers <a href=\"https://ostel.co/users/sign_up\">registration on their web page</a>. <strong>Select</strong> a username, password and provide your existing email address and <strong>click</strong> the {Sign up} button on the web page. After successful registration come back to Jitsi program. <strong>Select <em>File</em> &gt; <em>Add new account...</em></strong> in the menu, <strong>select Network: SIP</strong>, <strong>type in</strong> your username (e.g. sarah.jozani@ostel.co) and the password you created during the web registration and <strong>click</strong> {Add}. See following image for reference:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-020-add-new-account-sip-completed.png\" alt=\"\" /></p>\n\n<p><em>Figure 9: Example of \"Add new account\" window for SIP account</em></p>\n\n<ul><li><strong>Adding existing Jabber/XMPP or SIP account to Jitsi</strong></li>\n</ul><p>If you already have Jabber/XMPP or SIP account you can add it to <strong>Jitsi</strong> by <strong>selecting <em>File</em> &gt; <em>Add new account...</em></strong> in the menu and selecting the appropriate <strong>Network</strong> (either XMPP or SIP depending on the account type).</p>\n\n<p><a name=\"2.2.3\" id=\"2.2.3\"></a></p>\n\n<h3>2.2.3 How to Add a Facebook Account</h3>\n\n<p><strong>Facebook</strong> has two settings that you may need to change before <strong>Jitsi</strong> can connect to your Facebook Chat.</p>\n\n<ul><li><strong>Facebook Username</strong></li>\n</ul><p><strong>Facebook</strong> requires a username for <strong>Jitsi</strong> to connect to Facebook chat. Many <strong>Facebook</strong> users already have a username. To check your username, <strong>log in</strong> to your <strong>Facebook</strong> account: your username is what appear in the location bar of your browser after <em>https://www.facebook.com/</em> when you view your Timeline or Page. You can see or change the username or get one by going to your <em>Account Settings</em> &gt; <em>General</em> section or by visiting <a href=\"https://www.facebook.com/username\">https://www.facebook.com/username</a>. To set username <strong>Facebook</strong> may ask you for your account verification which may require sending SMS to a mobile phone number which you will need to provide to <strong>Facebook</strong> in the process of verification. For more details see <a href=\"https://www.facebook.com/help/329992603752372/\">Facebook\u2019s explanation of usernames</a>.</p>\n\n<ul><li><strong>App Settings</strong></li>\n</ul><p><strong>Facebook\u2019s</strong> \u201cApps\u201d must be enabled before <strong>Jitsi</strong> can connect to Facebook Chat. Visit your <strong>Facebook</strong> <em>Account Settings</em> &gt; <em>Apps</em> section and check that the setting for <em>Apps, Websites and Plugins</em> is <em>Enabled</em>.</p>\n\n<p><strong>Note</strong> that that turning <strong>Facebook</strong>\u2019s \"Apps\" opens up much of your <strong>Facebook</strong> data to third-party application developers. This data is available not only to the <strong>Facebook</strong> applications that you use, but also <strong>Facebook</strong> applications used by any of your friends. After enabling <strong>Facebook</strong>\u2019s \"Apps\", be sure to check the settings under \"Apps Others Use\". This setting allows you to hide some personal information from applications used by your friends. Unfortunately, <strong>Facebook</strong> does not offer settings to hide all personal information. Certain categories of information (like your friend list, gender, or info you have made public) are visible as long as <strong>Facebook</strong>\u2019s \"application platform\" is turned \"on\". It is up to you to determine whether this is an acceptable trade-off of your privacy.</p>\n\n<p>Now you are prepared to add your <strong>Facebook</strong> account to <strong>Jitsi</strong>. To do this follow the steps below:</p>\n\n<p><strong>Step 1</strong>.  From the main menu <strong>select <em>File &gt; Add New Account...</em></strong></p>\n\n<p><strong>Step 2</strong>.  In the Add New Account dialogue, <strong>Network</strong> menu choose <em>Facebook</em>, <strong>enter your username and password</strong> and <strong>Click</strong> {Add}</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-022-add-new-account-facebook-completed.png\" alt=\"\" /></p>\n\n<p><em>Figure 10: Example of \"Add new account...\" window for a Facebook account</em></p>\n\n<p><a name=\"2.3\" id=\"2.3\"></a></p>\n\n<h2>2.3 How to change password for account with Jitsi</h2>\n\n<p>It is an important element of security to know how to change the password for each account that one has. Many of the accounts that you can use with Jitsi offer changing password as a part of their settings, which are accessible over web interface. However some Jabber/XMPP and SIP account will not have any web interface to manage them. You can change password for those account using <strong>Jitsi</strong> by following steps below:</p>\n\n<p><strong>Step 1</strong>. <strong>select <em>Tools</em> &gt; <em>Options</em></strong> in the menu, <strong>select</strong> the <strong><em>Accounts</em></strong> tab</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-023-list-of-added-accounts.png\" alt=\"\" /></p>\n\n<p><em>Figure 11: List of the Added Accounts to Jitsi</em></p>\n\n<p><strong>Step 2</strong>. <strong>click</strong> on {Edit} button on the bottom to activate following window:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-024-change-account-password-button.png\" alt=\"\" /></p>\n\n<p><em>Figure 12: Account Registration Wizard window with Change account password button on the bottom</em></p>\n\n<p><strong>Step 3</strong>. <strong>click</strong> on {Change account password} to activate <em>Change account password</em> window:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-025-change-account-password.png\" alt=\"\" /></p>\n\n<p><em>Figure 13: Change account password window</em></p>\n\n<p><strong>Step 4</strong>. <strong><em>Enter new password</em> and <em>Re-enter password</em></strong> and <strong>click</strong> on {OK} button to close this window.</p>\n\n<p><a name=\"2.4\" id=\"2.4\"></a></p>\n\n<h2>2.4 How to configure Jitsi to improve it's security</h2>\n\n<p><a name=\"2.4.1\" id=\"2.4.1\"></a></p>\n\n<h3>2.4.1 Disable and remove call and chat history</h3>\n\n<p><strong>Jitsi</strong> by default stores information about the incoming and outgoing voice/video calls and the history of your text chats, all messages that you sent and received. You can access voice/video calls by <strong>clicking</strong> on the clock icon on the main Jitsi window:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-026-show-hide-call-history.png\" alt=\"\" /></p>\n\n<p><em>Figure 14: Top of the Jitsi main window with call history button indicated</em></p>\n\n<p>You can see the text chat history by <strong>clicking</strong> on the egg-timer like icon in the text chat window while chatting with a contact:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-028-chat-history-menu.png\" alt=\"\" /></p>\n\n<p><em>Figure 15: Chat window with chat history button indicated</em></p>\n\n<p>This information is collected and stored on the disk of your computer. <strong>Even if you encrypt the text chat with OTR all the text messages you send and receive are stored on your computer in open text format.</strong> The same information is collected and stored on the disk of the contacts you are communicating with.</p>\n\n<p>To prevent Jitsi collecting this information (and remove already gathered data), <strong>you and your contact should take the following steps</strong>.</p>\n\n<h4>To disable Jitsi from collecting the information:</h4>\n\n<p><strong>Step 1</strong>.  <strong>select <em>Tools</em> &gt; <em>Options</em></strong> in the menu, <strong>select</strong> the <strong><em>General</em></strong> tab and <strong>uncheck</strong> the <strong><em>Log chat history</em></strong> option as shown below:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-029-disable-log-chat-history.png\" alt=\"\" /></p>\n\n<p><em>Figure 16: \"Options\" window, \"General\" tab with \"Log chat history\" option unchecked</em></p>\n\n<p><strong>Step 2</strong>. in the <em>Options</em> window, first <strong>select</strong> the <strong>Advanced</strong> tab, then <strong>select</strong> the <strong>Logging</strong> section, and then <strong>uncheck</strong> the <strong>Enable packet logging</strong> option as shown below:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-032-disable-packet-logging.png\" alt=\"\" /></p>\n\n<p><em>Figure 17: \"Options\" window, \"Advanced\" tab, \"Logging\" section with \"Enable packet logging\" unchecked</em></p>\n\n<p>Your changes will take effect after you <strong>restart Jitsi</strong>.</p>\n\n<h4>To remove already collected information about your calls and text messages:</h4>\n\n<p><strong>Step 1</strong>. <strong>Quit</strong> Jitsi.</p>\n\n<p><strong>Step 2</strong>. Remove the entire log history folder <em>history_ver1.0</em> from the <strong>Jitsi</strong> <em>user profile</em> folder. You can remove a sub-folder of <em>history_ver1.0</em> if you want to dispose of only part of the history. The location of the <em>user profile</em> and <em>log history</em> folders depends on the operating system:</p>\n\n<ul><li>On Windows XP and earlier, this is located in <em>C:\\Documents and Settings\\WINDOWS_USERNAME\\Application Data\\Jitsi\\history_ver1.0</em></li>\n<li>On Windows Vista, 7, 8, this is <em>C:\\Users\\WINDOWS_USERNAME\\AppData\\Roaming\\Jitsi\\history_ver1.0</em> (<strong>Note</strong> that \"AppData\" folder may be hidden. See <a href=\"http://windows.microsoft.com/en-us/windows/show-hidden-files\">how to see hidden files</a>).\n<strong>Note</strong> that you have to put your Windows login credential (username) in place of WINDOWS_USERNAME in the link above. If you use <strong>Windows File Explorer</strong> you need to <strong>click</strong> the folder matches your username.</li>\n<li>Mac OS X: from your home folder <em>~/Library/Application Support/Jitsi/history_ver1.0</em></li>\n<li>Linux: from your home folder <em>~/.jitsi/history_ver1.0</em> (<strong>Note</strong> that the \".jitsi\" folder may be hidden. See <a href=\"http://itsfoss.com/hide-folders-and-show-hidden-files-in-ubuntu-beginner-trick/\">how to see hidden files in Ubuntu</a>)</li>\n</ul><p>See the <a href=\"/en/guide/destroy-sensitive-information\">How to destroy sensitive information</a> chapter for more on how to dispose of information securely.</p>\n\n<p><a name=\"2.4.2\" id=\"2.4.2\"></a></p>\n\n<h3>2.4.2 Require private messaging when text chatting</h3>\n\n<p>It is recommended that you set <strong>Jitsi</strong> up to require private and encrypted text messaging using <a href=\"/en/glossary#OTR\"><em>OTR</em></a> <a href=\"/en/glossary#encryption\"><em>encryption</em></a> whenever possible. To do this, <strong>select <em>Tools</em> &gt; <em>Options</em></strong> in the menu, <strong>select</strong> the <strong>Security</strong> tab, <strong>select</strong> the <strong>Chat</strong> sub-tab and <strong>check <em>Require private messaging</em></strong> at the bottom of the screen as shown below:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-033-require-private-messaging.png\" alt=\"\" /></p>\n\n<p><em>Figure 18: \"Options\" window, \"Security\" tab, \"Chat\" sub-tab with \"Require private messaging\" option indicated</em></p>\n\n<p><a name=\"2.4.3\" id=\"2.4.3\"></a></p>\n\n<h3>2.4.3 Protect passwords to your accounts with master password</h3>\n\n<p>It is best not to let Jitsi remember passwords to your accounts. If you decide otherwise for ease of use anybody who gets access to your computer will be able to log in to your accounts by simply starting Jitsi. It will also be possible to view your passwords in the <em>Options</em> window. It is therefore <strong>strongly recommended</strong> to protect passwords to your accounts with good <strong>master password</strong>. Once you set up  the master password, Jitsi will ask you for it upon starting the program.</p>\n\n<p><strong>Step 1</strong>. <strong>Open</strong> the <em>Options</em> window by <strong>selecting <em>Tools</em> &gt; <em>Options</em></strong> in the menu, <strong>select the <em>Security</em></strong> tab and <strong><em>Passwords</em></strong> sub-tab, and <strong>check <em>Use a master password</em></strong> to activate the <strong><em>Master Password</em></strong> window.</p>\n\n<p><strong>Step 2</strong>. In the new window <strong>type in your password</strong> as shown in the picture below. For more on creating a strong password, see <a href=\"en/guide/passwords\"><strong><em>How to create and maintain secure passwords</em></strong></a>.</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-031-set-a-master-password.png\" alt=\"\" /></p>\n\n<p><em>Figure 19: The \"Master Password\" window</em></p>\n\n<p><strong>Step 3</strong>. <strong>Click</strong> {OK} to confirm the password and activate a new window which should say <strong><em>Master Password successfully set up</em></strong>. <strong>Click</strong> {OK} to close it and come back to the <em>Options</em> window which should resemble below:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-034-change-master-password.png\" alt=\"\" /></p>\n\n<p><em>Figure 20: \"Options\" window, \"Security\" tab, \"Passwords\" sub-tab with the \"Use a master password\" option indicated</em></p>\n\n<p><strong>Note</strong>: The {Change Master Password...} button lets you change the master password and the {Saved Passwords...} button lets you access the list of passwords remembered by Jitsi and remove them if need be.</p>\n", 
+                        "summary": "", 
+                        "value": "List of sections on this page:\r\n\r\n- [**2.1 How to Install Jitsi**](#2.1)\r\n- [**2.2 How to Add Accounts in Jitsi**](#2.2)\r\n- [**2.2.1 How to Add a Gmail/Google Account**](#2.2.1)\r\n- [**2.2.2 Registering new Jabber/XMPP or SIP account and adding it to Jitsi**](#2.2.2)\r\n- [**2.2.3 How to Add a Facebook Account**](#2.2.3)\r\n- [**2.3 How to change password for account with Jitsi**](#2.3)\r\n- [**2.4 How to configure Jitsi to improve it's security**](#2.4)\r\n- [**2.4.1 Disable and remove call and chat history**](#2.4.1)\r\n- [**2.4.2 Require private messaging when text chatting**](#2.4.2)\r\n- [**2.4.3 Protect passwords to your accounts with master password**](#2.4.3)\r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1 How to Install Jitsi ##\r\n\r\nTo install **Jitsi**, perform the following steps:\r\n\r\n**Step 1**. **Double click** {jitsi-latest-x86.exe} or  {jitsi-latest-x64.exe} which you have just downloaded; the *Open File - Security Warning* dialogue box may appear. If it does, **click** {Run} to activate the *Windows Installer* screen, followed by the *Welcome to the Jitsi Setup Wizard* window.  \r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-001-welcome-to-installation.png)\r\n\r\n*Figure 1: The Jitsi Setup Wizard*\r\n\r\n**Step 2**. **Click** {Next} to activate the *End User License Agreement* window; **check** the *I accept the terms in the License Agreement* option to enable the *Next* button, and then **click**  {Next} to activate the *Destination Folder* window. Afterwards, **Click** {Next} to activate the *Additional Tasks* window and accept the default settings as presented.\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-004-additional-tasks.png)\r\n\r\n*Figure 2: The Jitsi Additional Task Options*\r\n\r\n**Note**: Enabling the *Auto-start when computer restarts or reboots* option may slow down the overall function of your computer, especially if you already have multiple applications configured to run when your computer starts up.\r\n\r\n**Step 3**.  **Click** {Next} to activate the *Ready to Install Jitsi* window, and then **click** {Install} to activate the *Installing Jitsi* window displaying the installation progress bar. The *User Account Control Warning* may appear which asks \"Do you want to allow this app to install software on your PC?\", click {Yes} to allow it to install **Jitsi**.\r\n \r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-006-user-account-control-warning.png)\r\n\r\n*Figure 3: User Control Warning While Installing Jitsi*\r\n\r\n**Step 4**. **Click** {Finish} to complete the installation process and automatically launch the **Jitsi** *Sign in* window as follows:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-012-configure-all-account-in-one-page.png)\r\n\r\n*Figure 4: The Jitsi Sign in Page*\r\n\r\n**Note**: In some instances, installing and launching **Jitsi** for the first time triggers a *Windows Security Alert* prompt screen (*Figure 5* below). This alert is normal behaviour for the **MS Windows** operating system, it is ok to continue with using **Jitsi**. Even if you do not click any of the buttons, and simply close the prompt window, **Jitsi** is still able to communicate through the usual public servers such as **Jabber/XMPP or SIP**, **Google Hangout** (formerly Google Talk) and **Facebook Chat**, or **Yahoo Messenger**. However, clicking the {Allow access} button enables an advanced feature in **Jitsi** called *Registrarless SIP Accounts*. For more information about these special accounts, please refer to the [**Registrarless SIP Accounts**](https://jitsi.org/Documentation/RegistrarlessSIPAccount) page.  \r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-010-firewall-access-requirement.png)\r\n\r\n*Figure 5: The Windows Security Alert prompt screen*\r\n\r\n**Step 6**. **Select** *both* **Private** and **Public** networks check-boxes, and then **click** {Allow access} to see the **Jitsi** Sign in window (as shown in *Figure 1* above) or main user interface window (as shown in *Figure 4* below).\r\n\r\n**Note**: It may show you \"Error accessing your Mircrosoft Outlook contacts\" window, just **Check** \"Don't show this message again\" and click {OK} to lead to *Sgin in* window.\r\n\r\n<a name=\"2.2\"></a>\r\n## 2.2 How to Add Accounts in Jitsi ##\r\n\r\nThis section describes how to add or set up different kinds of accounts in **Jitsi**. **Jitsi** supports many different account types. Accounts we discuss below are based mostly on the **Jabber/XMPP** and **SIP** communication protocols. Among many services, **Jitsi** lets you use accounts on **Gmail** or **Facebook** to communicate. Since those are one of most popular services used on the Internet, how to add them to Jitsi is shown below, along with how to improve your security when communicating over those accounts, benefiting from **Jitsi**'s independent encryption on the top of protection offered by your account providers. However please note that even with **Jitsi** encryption, account providers like **Google** or **Facebook** are monitoring the very fact that you are communicating (and perhaps with whom you are communicating), and may share this information with third-parties, such as corporations or governments. Therefore it is perhaps best to avoid using those accounts for sensitive communication even with **Jitsi** encryption. We also describe in this section how to create more secure (Jabber/XMPP or SIP) accounts and add them to Jitsi, and we do recommend to use these accounts instead.\r\n\r\n<a name=\"2.2.1\"></a>\r\n### 2.2.1 How to Add a Gmail/Google Account ###\r\n\r\n**Note**: The example which follows is based on a **Google Hangout** account, the set-up process for the other communication protocols listed in *Figure 4* above is similar. Communications or some features (like Jitsi independent encryption of text chat and voice - **OTR** and **ZRTP**) may not work between two or more users of different account providers (like Facebook, Gmail, Yahoo, etc.). However, they should work when communicating between two accounts from the same service provider.\r\n\r\n**Step 1**. **Select *Start* > *Jitsi*** or **double-click** the **Jitsi** desktop icon to open it.\r\n\r\n**Step 2**. If you see a window like *Figure 4* (*sign in* window), **type in** the username and password of the **Gmail** account you would like to use for chat purposes. If you closed *Sign in* window, or you want to add another account, you can add it by **selecting *File* > *Add new account...*** menu. In the new window **select Network** as *Google Talk* and **type in** the user name and password of the **Gmail** account as shown on the image below:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-015-add-new-account-gmail-completed.png)\r\n\r\n*Figure 6: The Jitsi \"Sign in\" window*\r\n\r\n**Note**: You can add multiple accounts using different protocols at the same time. \r\n\r\n**Step 3**. **Click** {Add} to activate your account chat window as follows:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-026-show-hide-call-history.png)\r\n\r\n*Figure 7: An example of a Jitsi main window after adding a Gmail account*\r\n\r\n**Note:** If you are using [2-step verification](https://support.google.com/accounts/answer/180744?hl=en) to protect access to your **Gmail** account, when you try to log in from **Jitsi** with your regular password you may see a message like the one below. To log in using **Jitsi**, you will need to generate an \"application-specific password\". See Google's [instructions on how to do this](https://support.google.com/accounts/answer/185833?hl=en).\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-016-gmail-athuntication-error.png)\r\n\r\n*Figure 8: Example of Google Hangout login authentication failure*\r\n\r\n\r\n\r\n\r\n\r\n\r\nTo verify that you have registered **Gmail** account(s) with **Jitsi**, perform the following steps:\r\n\r\n**Step 1**. **Select *Tools* > *Options*** in the menu to activate the following window:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-023-list-of-added-accounts.png)\r\n\r\n*Figure 9: The Options window displaying the newly registered Gmail account (resized)*\r\n\r\n<a name=\"2.2.2\"></a>\r\n### 2.2.2 Registering new Jabber/XMPP or SIP account and adding it to Jitsi ###\r\n\r\n**Jabber/XMPP** and **SIP** are open standards of text and voice communication. There are [many servers](https://xmpp.net/directory.php) that offer free accounts which you can use with Jitsi. Below we are recommending some of the servers that you could use for sensitive communication. Note that it is also possible to download a [Jabber/XMPP server software](http://xmpp.org/xmpp-software/servers/) (like [ejabberd](http://www.process-one.net/en/ejabberd/) or [Prosody IM](http://prosody.im/)), install it on your own server computer and set it up for private and secure communication between the members of your group, community or organisation.\r\n\r\n* **Riseup.net** Jabber/XMPP account\r\n\r\nIf you have account on the [Riseup.net secure email service](/en/riseup_main) (located in the USA) you may [use this account also to communicate over Jabber/XMPP network](https://www.riseup.net/en/chat) by adding this account to Jitsi - see below on how to add existing Jabber/XMPP account.\r\n\r\n* **jit.si** Jabber/XMPP account\r\n\r\nThis server is maintained by the developers of the Jitsi program. You can register account on [**jit.si**](https://jit.si) and many other public Jabber/XMPP servers in the same way as described above in this section. The IM Observatory maintains a [list and ranking of the public Jabber/XMPP servers](https://xmpp.net/directory.php), and also lets you [test any Jabber/XMPP server for security](https://xmpp.net/index.php).\r\n\r\n* You can register an account on any **Jabber** server by taking following steps:\r\n\r\n**Step 1**.  In **Jitsi, select *File* > *Add new account...*** in the menu. In the new window, **select *Network*: XMPP** and **check** the *Create a new XMPP account*** option. In *Server*, **type** jabber.ccc.de, **type** in the XMPP username you would like to create, and **fill in** the *Password* and *Confirm password* fields so that it resembles the following:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-035-create-new-xmpp-account.png)\r\n\r\n*Figure 8: Example of the \"Add new account\" window with the \"Create a new XMPP account\" option selected*\r\n\r\n**Step 2**. **Click** {Add}. After successful registration you will be presented with a window similar to *Figure 8* above.\r\n\r\nIf the username which you requested is already taken by somebody else, the registration process will fail with an error message like *User is already exist.*  You can try again by repeating the process and selecting a different username.\r\n\r\n**Note**: In some case, if you do not log in to your account for longer than a certain period of time (e.g. 12 months) your account will be automatically removed from the server and the username will become available for registration by other people.\r\n\r\n* **ostel.co** SIP account\r\n\r\n**SIP** accounts cannot be registered from within the **Jitsi** program. The **ostel.co** server (located in USA) offers [registration on their web page](https://ostel.co/users/sign_up). **Select** a username, password and provide your existing email address and **click** the {Sign up} button on the web page. After successful registration come back to Jitsi program. **Select *File* > *Add new account...*** in the menu, **select Network: SIP**, **type in** your username (e.g. sarah.jozani@ostel.co) and the password you created during the web registration and **click** {Add}. See following image for reference:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-020-add-new-account-sip-completed.png)\r\n\r\n*Figure 9: Example of \"Add new account\" window for SIP account*\r\n\r\n* **Adding existing Jabber/XMPP or SIP account to Jitsi**\r\n\r\nIf you already have Jabber/XMPP or SIP account you can add it to **Jitsi** by **selecting *File* > *Add new account...*** in the menu and selecting the appropriate **Network** (either XMPP or SIP depending on the account type).\r\n\r\n<a name=\"2.2.3\"></a>\r\n### 2.2.3 How to Add a Facebook Account ###\r\n\r\n**Facebook** has two settings that you may need to change before **Jitsi** can connect to your Facebook Chat.\r\n\r\n* **Facebook Username**\r\n\r\n**Facebook** requires a username for **Jitsi** to connect to Facebook chat. Many **Facebook** users already have a username. To check your username, **log in** to your **Facebook** account: your username is what appear in the location bar of your browser after *https://www.facebook.com/* when you view your Timeline or Page. You can see or change the username or get one by going to your *Account Settings* > *General* section or by visiting [https://www.facebook.com/username](https://www.facebook.com/username). To set username **Facebook** may ask you for your account verification which may require sending SMS to a mobile phone number which you will need to provide to **Facebook** in the process of verification. For more details see [Facebook\u2019s explanation of usernames](https://www.facebook.com/help/329992603752372/).\r\n\r\n* **App Settings**\r\n\r\n**Facebook\u2019s** \u201cApps\u201d must be enabled before **Jitsi** can connect to Facebook Chat. Visit your **Facebook** *Account Settings* > *Apps* section and check that the setting for *Apps, Websites and Plugins* is *Enabled*.\r\n\r\n**Note** that that turning **Facebook**\u2019s \"Apps\" opens up much of your **Facebook** data to third-party application developers. This data is available not only to the **Facebook** applications that you use, but also **Facebook** applications used by any of your friends. After enabling **Facebook**\u2019s \"Apps\", be sure to check the settings under \"Apps Others Use\". This setting allows you to hide some personal information from applications used by your friends. Unfortunately, **Facebook** does not offer settings to hide all personal information. Certain categories of information (like your friend list, gender, or info you have made public) are visible as long as **Facebook**\u2019s \"application platform\" is turned \"on\". It is up to you to determine whether this is an acceptable trade-off of your privacy.\r\n\r\nNow you are prepared to add your **Facebook** account to **Jitsi**. To do this follow the steps below:\r\n\r\n**Step 1**.  From the main menu **select *File > Add New Account...***\r\n\r\n**Step 2**.  In the Add New Account dialogue, **Network** menu choose *Facebook*, **enter your username and password** and **Click** {Add}\r\n \r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-022-add-new-account-facebook-completed.png)\r\n\r\n*Figure 10: Example of \"Add new account...\" window for a Facebook account*\r\n\r\n\r\n<a name=\"2.3\"></a>\r\n## 2.3 How to change password for account with Jitsi ##\r\n\r\nIt is an important element of security to know how to change the password for each account that one has. Many of the accounts that you can use with Jitsi offer changing password as a part of their settings, which are accessible over web interface. However some Jabber/XMPP and SIP account will not have any web interface to manage them. You can change password for those account using **Jitsi** by following steps below:\r\n\r\n**Step 1**. **select *Tools* > *Options*** in the menu, **select** the ***Accounts*** tab\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-023-list-of-added-accounts.png)\r\n\r\n*Figure 11: List of the Added Accounts to Jitsi*\r\n\r\n**Step 2**. **click** on {Edit} button on the bottom to activate following window:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-024-change-account-password-button.png)\r\n\r\n*Figure 12: Account Registration Wizard window with Change account password button on the bottom*\r\n\r\n**Step 3**. **click** on {Change account password} to activate *Change account password* window:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-025-change-account-password.png)\r\n\r\n*Figure 13: Change account password window*\r\n\r\n**Step 4**. ***Enter new password* and *Re-enter password*** and **click** on {OK} button to close this window.\r\n\r\n<a name=\"2.4\"></a>\r\n## 2.4 How to configure Jitsi to improve it's security ##\r\n\r\n<a name=\"2.4.1\"></a>\r\n### 2.4.1 Disable and remove call and chat history ###\r\n\r\n**Jitsi** by default stores information about the incoming and outgoing voice/video calls and the history of your text chats, all messages that you sent and received. You can access voice/video calls by **clicking** on the clock icon on the main Jitsi window:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-026-show-hide-call-history.png)\r\n\r\n*Figure 14: Top of the Jitsi main window with call history button indicated*\r\n\r\nYou can see the text chat history by **clicking** on the egg-timer like icon in the text chat window while chatting with a contact:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-028-chat-history-menu.png)\r\n\r\n*Figure 15: Chat window with chat history button indicated*\r\n\r\nThis information is collected and stored on the disk of your computer. **Even if you encrypt the text chat with OTR all the text messages you send and receive are stored on your computer in open text format.** The same information is collected and stored on the disk of the contacts you are communicating with. \r\n\r\nTo prevent Jitsi collecting this information (and remove already gathered data), **you and your contact should take the following steps**.\r\n\r\n#### To disable Jitsi from collecting the information: ####\r\n\r\n**Step 1**.  **select *Tools* > *Options*** in the menu, **select** the ***General*** tab and **uncheck** the ***Log chat history*** option as shown below:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-029-disable-log-chat-history.png)\r\n\r\n*Figure 16: \"Options\" window, \"General\" tab with \"Log chat history\" option unchecked*\r\n\r\n**Step 2**. in the *Options* window, first **select** the **Advanced** tab, then **select** the **Logging** section, and then **uncheck** the **Enable packet logging** option as shown below: \r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-032-disable-packet-logging.png)\r\n\r\n*Figure 17: \"Options\" window, \"Advanced\" tab, \"Logging\" section with \"Enable packet logging\" unchecked*\r\n\r\nYour changes will take effect after you **restart Jitsi**.\r\n\r\n#### To remove already collected information about your calls and text messages: ####\r\n\r\n**Step 1**. **Quit** Jitsi.\r\n\r\n**Step 2**. Remove the entire log history folder *history_ver1.0* from the **Jitsi** *user profile* folder. You can remove a sub-folder of *history_ver1.0* if you want to dispose of only part of the history. The location of the *user profile* and *log history* folders depends on the operating system:\r\n\r\n* On Windows XP and earlier, this is located in *C:\\Documents and Settings\\WINDOWS_USERNAME\\Application Data\\Jitsi\\history_ver1.0*\r\n* On Windows Vista, 7, 8, this is *C:\\Users\\WINDOWS_USERNAME\\AppData\\Roaming\\Jitsi\\history_ver1.0* (**Note** that \"AppData\" folder may be hidden. See [how to see hidden files](http://windows.microsoft.com/en-us/windows/show-hidden-files)).\r\n**Note** that you have to put your Windows login credential (username) in place of WINDOWS_USERNAME in the link above. If you use **Windows File Explorer** you need to **click** the folder matches your username.\r\n* Mac OS X: from your home folder *~/Library/Application Support/Jitsi/history_ver1.0*\r\n* Linux: from your home folder *~/.jitsi/history_ver1.0* (**Note** that the \".jitsi\" folder may be hidden. See [how to see hidden files in Ubuntu](http://itsfoss.com/hide-folders-and-show-hidden-files-in-ubuntu-beginner-trick/))\r\n\r\nSee the [How to destroy sensitive information](/en/guide/destroy-sensitive-information) chapter for more on how to dispose of information securely.\r\n\r\n<a name=\"2.4.2\"></a>\r\n### 2.4.2 Require private messaging when text chatting ###\r\n\r\nIt is recommended that you set **Jitsi** up to require private and encrypted text messaging using [*OTR*](/en/glossary#OTR) [*encryption*](/en/glossary#encryption) whenever possible. To do this, **select *Tools* > *Options*** in the menu, **select** the **Security** tab, **select** the **Chat** sub-tab and **check *Require private messaging*** at the bottom of the screen as shown below:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-033-require-private-messaging.png)\r\n\r\n*Figure 18: \"Options\" window, \"Security\" tab, \"Chat\" sub-tab with \"Require private messaging\" option indicated*\r\n\r\n<a name=\"2.4.3\"></a>\r\n### 2.4.3 Protect passwords to your accounts with master password ###\r\n\r\nIt is best not to let Jitsi remember passwords to your accounts. If you decide otherwise for ease of use anybody who gets access to your computer will be able to log in to your accounts by simply starting Jitsi. It will also be possible to view your passwords in the *Options* window. It is therefore **strongly recommended** to protect passwords to your accounts with good **master password**. Once you set up  the master password, Jitsi will ask you for it upon starting the program.\r\n\r\n**Step 1**. **Open** the *Options* window by **selecting *Tools* > *Options*** in the menu, **select the *Security*** tab and ***Passwords*** sub-tab, and **check *Use a master password*** to activate the ***Master Password*** window.\r\n\r\n**Step 2**. In the new window **type in your password** as shown in the picture below. For more on creating a strong password, see [***How to create and maintain secure passwords***](en/guide/passwords).\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-031-set-a-master-password.png)\r\n\r\n*Figure 19: The \"Master Password\" window*\r\n\r\n**Step 3**. **Click** {OK} to confirm the password and activate a new window which should say ***Master Password successfully set up***. **Click** {OK} to close it and come back to the *Options* window which should resemble below:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-034-change-master-password.png)\r\n\r\n*Figure 20: \"Options\" window, \"Security\" tab, \"Passwords\" sub-tab with the \"Use a master password\" option indicated*\t\r\n\r\n**Note**: The {Change Master Password...} button lets you change the master password and the {Saved Passwords...} button lets you access the list of passwords remembered by Jitsi and remove them if need be."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2046", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2046", 
+                "link_title": "Jitsi - How to Install and Add Different Accounts in Jitsi", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5192", 
+                "module": "book", 
+                "nid": "2046", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5191", 
+                "p3": "5192", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5191", 
+                "router_path": "node/%", 
+                "title": "Jitsi - How to Install and Add Different Accounts in Jitsi", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1455116973", 
+            "comment": "0", 
+            "created": "1441121536", 
+            "current_revision_id": "13196", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "xx": [
+                    {
+                        "format": null, 
+                        "safe_value": "jitsi_account", 
+                        "value": "jitsi_account"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5192": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2046", 
+                    "link_title": "Jitsi - How to Install and Add Different Accounts in Jitsi", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5192", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5191", 
+                    "p3": "5192", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5191", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2046", 
+            "num_revisions": "13", 
+            "path": "https://securityinabox.org/en/jitsi_account", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455116973", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "xx": [
+                    {
+                        "format": null, 
+                        "safe_value": "Jitsi - How to Install and Add Different Accounts in Jitsi", 
+                        "value": "Jitsi - How to Install and Add Different Accounts in Jitsi"
+                    }
+                ]
+            }, 
+            "title_original": "Jitsi - How to Install and Add Different Accounts in Jitsi", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "es": {
+                        "changed": "1442498524", 
+                        "created": "1442498524", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455116973", 
+                        "created": "1455116973", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1454343548", 
+                        "created": "1441193267", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444181024", 
+                        "created": "1444181024", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021510", 
+                        "created": "1443021510", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444729125", 
+                        "created": "1444729125", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446138339", 
+                        "created": "1441121536", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2046", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "609d23a6-ce20-498c-80bd-2673b48949f3", 
+            "vid": "13196", 
+            "vuuid": "2aedc2a9-9922-4ff4-b4d2-6750ddae967d"
+        }, 
+        {
+            "body": {
+                "xx": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>List of sections on this page:</p>\n\n<ul><li><a href=\"#3.1\"><strong>3.1 Add contacts (buddies) to Jitsi</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 Text chat (Instant Messaging) with OTR encryption</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 Voice and video chat with ZRTP encryption</strong></a></li>\n</ul><p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 Add contacts (buddies) to Jitsi</h2>\n\n<p>After adding at least one account to Jitsi and logging in, you are ready to add your contacts and communicate with them.</p>\n\n<p>To add a contact to Jitsi follow steps below:</p>\n\n<p><strong>Step 1</strong>. Open the Jitsi main window by <strong>selecting <em>Start</em> &gt; <em>Jitsi</em></strong> or <strong>double-clicking</strong> the <strong>Jitsi</strong> desktop icon.</p>\n\n<p><strong>Step 2</strong>. <strong>select <em>File</em> &gt; <em>Add contact...</em></strong> which will open the following window:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-036-add-contact.png\" alt=\"\" /></p>\n\n<p><em>Figure 1: Add contact window</em></p>\n\n<p><strong>Step 3</strong>. <strong>Select</strong> which of your accounts you would like to add this contact to (for example <em>sarah.jozani@jit.si</em>).</p>\n\n<p><strong>Optional</strong>: You may also add the contact to a <em>group</em> among your other contacts. However, first you must create the group. You can do this by selecting <strong><em>File</em> &gt; <em>Create group...</em></strong> from the menu).</p>\n\n<p><strong>Step 4</strong>. <strong>Type in</strong> your contact's user name or address into the <strong><em>ID or Number</em></strong> field (for example, <em>sally.the.doer@jit.si</em>). You can choose the name or nickname for the contact, which will be visible in your contacts list in the <strong>Jitsi</strong> main window; <strong>type it into the <em>Display name</em></strong> field. Then, <strong>click</strong> on {Add} to close the <em>Add contact</em> window and come back to Jitsi main window. In your contact list you will now see your new contact added with the note \"Waiting for authorisation\" as indicated below:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-039-buddy-list-wating-for-authentication.png\" alt=\"\" /></p>\n\n<p><em>Figure 2: Jitsi main window with added contact waiting for authorisation</em></p>\n\n<p><strong>Step 5</strong>. When your contact (mansour@riseup.net) logs in to his account, a pop-up window will inform him that you have requested to add him to your list of contacts:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-037-authorization-requested.png\" alt=\"\" /></p>\n\n<p><em>Figure 3: Window requesting authorisation of a new contact</em></p>\n\n<p>Your contact has a choice of selecting the {Ignore} option, in which case your request will continue awaiting authorisation; {Deny}, in which case you will receive information that your request was rejected; and {Authorize}, in which case you will receive information that your contact has accepted your authorisation request, and the entry for your contact in your contact list will become active:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-038-online-buddy.png\" alt=\"\" /></p>\n\n<p><em>Figure 4: Jitsi main window with the new contact authorised</em></p>\n\n<p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 Text chat (Instant Messaging) with OTR encryption</h2>\n\n<p>Now that you added and authorised your contact, you can click on their name in the contact list and initiate text conversation, voice or video calls, and desktop sharing, by choosing the relevant icon under their name:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-038-online-buddy.png\" alt=\"\" /></p>\n\n<p><em>Figure 5: Selected contact in the Jitsi main window with icons for IM, voice or video call and desktop sharing</em></p>\n\n<p><strong>Step 1</strong>. We will now explore one of Jitsi's most important features: the ability to text chat securely, encrypting your messages with <a href=\"/en/glossary#OTR\"><em>OTR</em></a>. OTR functions in a similar manner to <a href=\"/en/glossary#PGP\"><em>GPG/PGP</em></a> described in other chapters in this toolkit. Just as with PGP, before you and your contact can encrypt your communications, you both need to configure <strong>Jitsi</strong> to generate your encryption keys. You can do this by <strong>selecting <em>Tools</em> &gt; <em>Options</em></strong> menu and <strong>selecting the <em>Security</em></strong> tab and <strong><em>Chat</em></strong> sub-tab. You will then see a window similar to one shown in the image below:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-050-no-key-present.png\" alt=\"\" /></p>\n\n<p><em>Figure 6: Part of the chat options window where you can generate encryption keys for your text chats</em></p>\n\n<p><strong>Step 2</strong>. Next, <strong>click</strong> the <strong><em>Generate</em></strong> button. As a result you will see the fingerprint of the key that has been generated:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-051-generated-fingerprint.png\" alt=\"\" /></p>\n\n<p><em>Figure 7: Part of the chat options window showing fingerprint for your generated OTR encrypted text chat</em></p>\n\n<p><strong>Note:</strong> One key is generated per account. You only need to do this again if you add a new account or install Jitsi on another device and do not move the existing keys to it.</p>\n\n<p>Now you are ready to communicate:</p>\n\n<p><strong>Step 3</strong>. <strong>Select a contact</strong> from Jitsi main window and <strong>click</strong> on the {send message} icon (first from the left under the contact's name) to open a text chat window:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-052-start-inssecure-text-chat.png\" alt=\"\" /></p>\n\n<p><em>Figure 8: Text chat window with the OTR encryption indicated but <strong>not</strong> engaged</em></p>\n\n<p>Note the <em>Encrypt chat with OTR</em> icon, the open padlock on the right-top side of the window. This inconspicuous symbol informs you whether the chat is encrypted or not. Now the lock is open (there is a tiny space between handle and the body of the lock!).</p>\n\n<p><strong>Step 4</strong>. <strong>click</strong> on the {Encrypt chat with OTR} icon. Note the changes in the window:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-044-secured-chat.png\" alt=\"\" /></p>\n\n<p><em>Figure 9: Text chat window after clicking on the Encrypt chat with OTR icon</em></p>\n\n<p>Observe that the padlock is now locked. This means that whatever messages you and your contact send to each other are encrypted. Note the message that this is an <em>unverified private conversation</em> and that you should <em>authenticate</em> mansour@riseup.net. In case of setting any display name for this contact, it shows his/her name instead of showing the email address.</p>\n\n<p><strong>Step 5</strong>. <strong>click on the link <em>authenticate Mansour</em></strong> to open the <em>Authenticate Buddy</em> window below. You can choose the method that you'd like to authenticate this person by <strong>clicking</strong> <em>How would you like to authenticate?</em></p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-042-authenticate-buddy-means.png\" alt=\"\" /></p>\n\n<p><em>Figure 10: Authenticate Buddy window</em></p>\n\n<p><strong>Step 6</strong>. <strong>Select</strong> <em>Fingerprint authentication</em> to lead to the following image.</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-043-fingerprint-authentication.png\" alt=\"\" /></p>\n\n<p>*Figure 11: Authenticate Buddy window after selecting \"Fingerprint authentication\"</p>\n\n<p><strong>Step 7</strong>. The message in this window encourages you to compare the fingerprints of your keys with your contact over another channel (not this text chat). In doing this, you can be more certain that you are communicating with your contact and not somebody else. A good choice for key comparisons is to do it face to face, or via video or voice communication as these provide easier means to authenticate the identity of the other person. After you compare fingerprints, <strong>select</strong> the option <strong><em>I have</em> verified</strong> the fingerprint from the pull-down menu and <strong>click</strong> {Authenticate Buddy}:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-043-fingerprint-authenticated.png\" alt=\"\" /></p>\n\n<p><em>Figure 12: Part of the Authenticate Buddy window after selecting \"I have\" verified the fingerprint of your contact</em></p>\n\n<p>Note: In this tutorial we used the <strong>fingerprint</strong> method because it is the most reliable way to authenticate the contact.</p>\n\n<p>Closing the <em>Authenticate Buddy</em> window returns you to the chat window:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-044-secured-chat.png\" alt=\"\" /></p>\n\n<p><em>Figure 13: Text chat window with authenticated OTR encryption</em></p>\n\n<p>Note that padlock no longer includes the orange triangle with the white exclamation mark. This means that you have authenticated your contact. <strong>The authentication should be done only once per contact.</strong> If the triangle with exclamation mark returns, it means that you are chatting to somebody who you have not yet authenticated. This can happen when your contact moves to another device with another encryption key (another installation of Jitsi, or another OTR enabled program, etc.). In this case you will need to re-authenticate each other again to be sure of the identity of person with whom you communicate.</p>\n\n<p><strong>Jitsi</strong> allows you to text chat with more than one person in the same time. OTR encryption will only work when chatting to one person.</p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h2>3.3 Voice and video chat with ZRTP encryption</h2>\n\n<p><strong>Jitsi</strong> offers voice and video chats which can be independently encrypted with open standard called ZRTP. In order to initiate the chat you need to</p>\n\n<p><strong>Step 1</strong>. <strong>Click</strong> on the contact in <strong>Jitsi</strong> contact list and <strong>click</strong> on the voice (second icon from the left under the contact's name) or video (third) icon - see figure 5 above. A new window will appear indicating that <strong>Jitsi</strong> is establishing the connection:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-044-calling-a-buddy.png\" alt=\"\" /></p>\n\n<p><em>Figure 14: Call window indicating Connecting status</em></p>\n\n<p>Your contact will see incoming call notification:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-045-receiving-call.png\" alt=\"\" /></p>\n\n<p><em>Figure 15: Incoming call notification</em></p>\n\n<p><strong>Step 2.</strong> If your contact <strong>accepts the call</strong> you will receive information that you are connected:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-046-voice-chat-connected.png\" alt=\"\" /></p>\n\n<p><em>Figure 16: Received call window without ZRTP encryption</em></p>\n\n<p><strong>Note</strong> the red open padlock. This means that your call is not yet encrypted with ZRTP.</p>\n\n<p><strong>Step 3.</strong> <strong>Wait...</strong> Your and your contact's programs are establishing an encrypted connection, which may take a moment. If they succeed you will see the letters <em>zrtp</em> appear against an orange background with a closed padlock like below. If they don't succeed in establishing a connection, you still can chat but without encryption. You can disconnect, restart <strong>Jitsi</strong> and try again to see if this time the programs will connect with encryption. ZRTP may not work in calls between accounts from different providers (such as between Google and Jit.si).</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-047-zrtp-authentication.png\" alt=\"\" /></p>\n\n<p><em>Figure 17: Part of the Call window with ZRTP encryption engaged but not yet confirmed</em></p>\n\n<p><strong>Step 4</strong>. <strong>Observe</strong> the section under the letters <em>zrtp</em> and padlock with the message \"Compare with partner\" followed by 4 characters. <strong>Read</strong> these letters to your contact and ask if she sees the same characters. If she does, it means that your communication is encrypted and nobody is interfering with it. You can <strong>click <em>Confirm</em></strong>. The orange <em>zrtp</em> field will turn green:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-048-zrtp-authenticated.png\" alt=\"\" /></p>\n\n<p><em>Figure 18: Part of the Call window with confirmed ZRTP encryption engaged</em></p>\n\n<p><strong>Step 5</strong>. You may close the black confirmation section of the window by clicking on the white x sign on upper-right part of the black section:</p>\n\n<p><img src=\"/sites/securityinabox.org/files/media/jitsi-win-en-049-secured-voice-chat.png\" alt=\"\" /></p>\n\n<p><em>Figure 19: Part of the call window with confirmed ZRTP encryption engaged</em></p>\n\n<p><strong>Jitsi</strong> lets you voice and video chat with more than one person. <strong>Note</strong> that with this communication, ZRTP encryption can be engaged between initiator of the call and other parties, but not between parties themselves.</p>\n", 
+                        "summary": "", 
+                        "value": "List of sections on this page:\r\n\r\n- [**3.1 Add contacts (buddies) to Jitsi**](#3.1)\r\n- [**3.2 Text chat (Instant Messaging) with OTR encryption**](#3.2)\r\n- [**3.3 Voice and video chat with ZRTP encryption**](#3.3)\r\n\r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 Add contacts (buddies) to Jitsi ##\r\n\r\nAfter adding at least one account to Jitsi and logging in, you are ready to add your contacts and communicate with them.\r\n\r\nTo add a contact to Jitsi follow steps below:\r\n\r\n**Step 1**. Open the Jitsi main window by **selecting *Start* > *Jitsi*** or **double-clicking** the **Jitsi** desktop icon.\r\n\r\n**Step 2**. **select *File* > *Add contact...*** which will open the following window:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-036-add-contact.png)\r\n\r\n*Figure 1: Add contact window*\r\n\r\n**Step 3**. **Select** which of your accounts you would like to add this contact to (for example *sarah.jozani@jit.si*). \r\n\r\n**Optional**: You may also add the contact to a *group* among your other contacts. However, first you must create the group. You can do this by selecting ***File* > *Create group...*** from the menu). \r\n\r\n**Step 4**. **Type in** your contact's user name or address into the ***ID or Number*** field (for example, *sally.the.doer@jit.si*). You can choose the name or nickname for the contact, which will be visible in your contacts list in the **Jitsi** main window; **type it into the *Display name*** field. Then, **click** on {Add} to close the *Add contact* window and come back to Jitsi main window. In your contact list you will now see your new contact added with the note \"Waiting for authorisation\" as indicated below:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-039-buddy-list-wating-for-authentication.png)\r\n\r\n*Figure 2: Jitsi main window with added contact waiting for authorisation*\r\n \r\n**Step 5**. When your contact (mansour@riseup.net) logs in to his account, a pop-up window will inform him that you have requested to add him to your list of contacts:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-037-authorization-requested.png)\r\n\r\n*Figure 3: Window requesting authorisation of a new contact*\r\n\r\nYour contact has a choice of selecting the {Ignore} option, in which case your request will continue awaiting authorisation; {Deny}, in which case you will receive information that your request was rejected; and {Authorize}, in which case you will receive information that your contact has accepted your authorisation request, and the entry for your contact in your contact list will become active:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-038-online-buddy.png)\r\n\r\n*Figure 4: Jitsi main window with the new contact authorised*\r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 Text chat (Instant Messaging) with OTR encryption\r\n\r\nNow that you added and authorised your contact, you can click on their name in the contact list and initiate text conversation, voice or video calls, and desktop sharing, by choosing the relevant icon under their name:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-038-online-buddy.png)\r\n\r\n*Figure 5: Selected contact in the Jitsi main window with icons for IM, voice or video call and desktop sharing*\r\n\r\n**Step 1**. We will now explore one of Jitsi's most important features: the ability to text chat securely, encrypting your messages with [*OTR*](/en/glossary#OTR). OTR functions in a similar manner to [*GPG/PGP*](/en/glossary#PGP) described in other chapters in this toolkit. Just as with PGP, before you and your contact can encrypt your communications, you both need to configure **Jitsi** to generate your encryption keys. You can do this by **selecting *Tools* > *Options*** menu and **selecting the *Security*** tab and ***Chat*** sub-tab. You will then see a window similar to one shown in the image below:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-050-no-key-present.png)\r\n\r\n*Figure 6: Part of the chat options window where you can generate encryption keys for your text chats*\r\n\r\n**Step 2**. Next, **click** the ***Generate*** button. As a result you will see the fingerprint of the key that has been generated:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-051-generated-fingerprint.png)\r\n\r\n*Figure 7: Part of the chat options window showing fingerprint for your generated OTR encrypted text chat*\r\n\r\n**Note:** One key is generated per account. You only need to do this again if you add a new account or install Jitsi on another device and do not move the existing keys to it.\r\n\r\nNow you are ready to communicate:\r\n\r\n**Step 3**. **Select a contact** from Jitsi main window and **click** on the {send message} icon (first from the left under the contact's name) to open a text chat window:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-052-start-inssecure-text-chat.png)\r\n\r\n*Figure 8: Text chat window with the OTR encryption indicated but **not** engaged*\r\n\r\nNote the *Encrypt chat with OTR* icon, the open padlock on the right-top side of the window. This inconspicuous symbol informs you whether the chat is encrypted or not. Now the lock is open (there is a tiny space between handle and the body of the lock!). \r\n\r\n**Step 4**. **click** on the {Encrypt chat with OTR} icon. Note the changes in the window:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-044-secured-chat.png)\r\n\r\n*Figure 9: Text chat window after clicking on the Encrypt chat with OTR icon*\r\n\r\nObserve that the padlock is now locked. This means that whatever messages you and your contact send to each other are encrypted. Note the message that this is an *unverified private conversation* and that you should *authenticate* mansour@riseup.net. In case of setting any display name for this contact, it shows his/her name instead of showing the email address.\r\n\r\n**Step 5**. **click on the link *authenticate Mansour*** to open the *Authenticate Buddy* window below. You can choose the method that you'd like to authenticate this person by **clicking** *How would you like to authenticate?*\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-042-authenticate-buddy-means.png)\r\n\r\n*Figure 10: Authenticate Buddy window*\r\n\r\n**Step 6**. **Select** *Fingerprint authentication* to lead to the following image.\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-043-fingerprint-authentication.png)\r\n\r\n*Figure 11: Authenticate Buddy window after selecting \"Fingerprint authentication\"\r\n\r\n**Step 7**. The message in this window encourages you to compare the fingerprints of your keys with your contact over another channel (not this text chat). In doing this, you can be more certain that you are communicating with your contact and not somebody else. A good choice for key comparisons is to do it face to face, or via video or voice communication as these provide easier means to authenticate the identity of the other person. After you compare fingerprints, **select** the option ***I have* verified** the fingerprint from the pull-down menu and **click** {Authenticate Buddy}:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-043-fingerprint-authenticated.png)\r\n\r\n*Figure 12: Part of the Authenticate Buddy window after selecting \"I have\" verified the fingerprint of your contact*\r\n\r\nNote: In this tutorial we used the **fingerprint** method because it is the most reliable way to authenticate the contact. \r\n\r\nClosing the *Authenticate Buddy* window returns you to the chat window:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-044-secured-chat.png)\r\n\r\n*Figure 13: Text chat window with authenticated OTR encryption*\r\n\r\nNote that padlock no longer includes the orange triangle with the white exclamation mark. This means that you have authenticated your contact. **The authentication should be done only once per contact.** If the triangle with exclamation mark returns, it means that you are chatting to somebody who you have not yet authenticated. This can happen when your contact moves to another device with another encryption key (another installation of Jitsi, or another OTR enabled program, etc.). In this case you will need to re-authenticate each other again to be sure of the identity of person with whom you communicate.\r\n\r\n**Jitsi** allows you to text chat with more than one person in the same time. OTR encryption will only work when chatting to one person.\r\n\r\n\r\n<a name=\"3.3\"></a>\r\n## 3.3 Voice and video chat with ZRTP encryption ##\r\n\r\n**Jitsi** offers voice and video chats which can be independently encrypted with open standard called ZRTP. In order to initiate the chat you need to \r\n\r\n**Step 1**. **Click** on the contact in **Jitsi** contact list and **click** on the voice (second icon from the left under the contact's name) or video (third) icon - see figure 5 above. A new window will appear indicating that **Jitsi** is establishing the connection:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-044-calling-a-buddy.png)\r\n\r\n*Figure 14: Call window indicating Connecting status*\r\n\r\nYour contact will see incoming call notification:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-045-receiving-call.png)\r\n\r\n*Figure 15: Incoming call notification*\r\n\r\n**Step 2.** If your contact **accepts the call** you will receive information that you are connected:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-046-voice-chat-connected.png)\r\n\r\n*Figure 16: Received call window without ZRTP encryption*\r\n\r\n**Note** the red open padlock. This means that your call is not yet encrypted with ZRTP.\r\n\r\n**Step 3.** **Wait...** Your and your contact's programs are establishing an encrypted connection, which may take a moment. If they succeed you will see the letters *zrtp* appear against an orange background with a closed padlock like below. If they don't succeed in establishing a connection, you still can chat but without encryption. You can disconnect, restart **Jitsi** and try again to see if this time the programs will connect with encryption. ZRTP may not work in calls between accounts from different providers (such as between Google and Jit.si).\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-047-zrtp-authentication.png)\r\n\r\n*Figure 17: Part of the Call window with ZRTP encryption engaged but not yet confirmed*\r\n\r\n**Step 4**. **Observe** the section under the letters *zrtp* and padlock with the message \"Compare with partner\" followed by 4 characters. **Read** these letters to your contact and ask if she sees the same characters. If she does, it means that your communication is encrypted and nobody is interfering with it. You can **click *Confirm***. The orange *zrtp* field will turn green:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-048-zrtp-authenticated.png)\r\n\r\n*Figure 18: Part of the Call window with confirmed ZRTP encryption engaged*\r\n\r\n**Step 5**. You may close the black confirmation section of the window by clicking on the white x sign on upper-right part of the black section:\r\n\r\n![](/sites/securityinabox.org/files/media/jitsi-win-en-049-secured-voice-chat.png)\r\n\r\n*Figure 19: Part of the call window with confirmed ZRTP encryption engaged*\r\n\r\n**Jitsi** lets you voice and video chat with more than one person. **Note** that with this communication, ZRTP encryption can be engaged between initiator of the call and other parties, but not between parties themselves."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2047", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2047", 
+                "link_title": "Jitsi - Add contacts and communicate text & voice", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5193", 
+                "module": "book", 
+                "nid": "2047", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5191", 
+                "p3": "5193", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5191", 
+                "router_path": "node/%", 
+                "title": "Jitsi - Add contacts and communicate text & voice", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1455117062", 
+            "comment": "0", 
+            "created": "1441121583", 
+            "current_revision_id": "13197", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "xx": [
+                    {
+                        "format": null, 
+                        "safe_value": "jitsi_communicate", 
+                        "value": "jitsi_communicate"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5193": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2047", 
+                    "link_title": "Jitsi - Add contacts and communicate text & voice", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5193", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5191", 
+                    "p3": "5193", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5191", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2047", 
+            "num_revisions": "9", 
+            "path": "https://securityinabox.org/en/jitsi_communicate", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455117062", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "xx": [
+                    {
+                        "format": null, 
+                        "safe_value": "Jitsi - Add contacts and communicate text &amp; voice", 
+                        "value": "Jitsi - Add contacts and communicate text & voice"
+                    }
+                ]
+            }, 
+            "title_original": "Jitsi - Add contacts and communicate text & voice", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "es": {
+                        "changed": "1442498676", 
+                        "created": "1442498676", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455117062", 
+                        "created": "1455117062", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441193486", 
+                        "created": "1441193486", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444181060", 
+                        "created": "1444181060", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021533", 
+                        "created": "1443021533", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444729180", 
+                        "created": "1444729180", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446206682", 
+                        "created": "1441121583", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2047", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "bd49a0d8-dc77-4cc6-a339-5e74de093b65", 
+            "vid": "13197", 
+            "vuuid": "89dee112-daa7-447a-95a8-f0c676035751"
+        }
+    ], 
+    "changed": "1455874911", 
+    "comment": "0", 
+    "created": "1441121486", 
+    "current_revision_id": "13269", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "xx": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "xx": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Installing Jitsi</strong></p>\n\n<ul><li><em>Read the brief <a href=\"/en/handsonguides\">Hands-on Guide</a> Introduction</em></li>\n<li><em><strong>Click the Jitsi icon below</strong> and 'Open' or 'Run' the installer. If necessary, save the installer first, then find it and double click it</em></li>\n<li><em>Read the 'Installation instructions' in the next section before you continue</em></li>\n<li><em>If you saved the installer to your computer, you may delete it after installation</em></li>\n</ul><p><strong>Jitsi</strong>:<br /><a href=\"/sbox/programs/jitsi.exe\"><img src=\"/sbox/screen/jitsi-en/01.pngf\" alt=\"\" /></a></p>\n", 
+                "value": "**Installing Jitsi**\r\n\r\n- *Read the brief [Hands-on Guide](/en/handsonguides) Introduction*\r\n- ***Click the Jitsi icon below** and 'Open' or 'Run' the installer. If necessary, save the installer first, then find it and double click it*\r\n- *Read the 'Installation instructions' in the next section before you continue*\r\n- *If you saved the installer to your computer, you may delete it after installation*\r\n\r\n**Jitsi**:  \r\n[![](/sbox/screen/jitsi-en/01.pngf)](/sbox/programs/jitsi.exe)\r\n"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "xx": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Downloading Jitsi</strong></p>\n\n<ul><li><em>Read the brief <a href=\"/en/handsonguides\"><strong>Hands-on Guide</strong></a> Introduction</em></li>\n<li><em><strong>Click</strong> the <strong>Jitsi</strong> icon below to open the <strong>https://jitsi.org/Main/Download</strong> web site</em></li>\n<li><em><strong>Click</strong> <strong>Microsoft Windows installers</strong> link in <strong>Jitsi 2.4 and stable build line</strong> section to save the installer file, then <strong>locate</strong> and <strong>double click</strong> it</em></li>\n</ul><p><a href=\"https://jitsi.org/Main/Download\"><img src=\"/sbox/screen/jitsi-en/01.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Downloading Jitsi**\r\n\r\n- *Read the brief [**Hands-on Guide**](/en/handsonguides) Introduction*\r\n- ***Click** the **Jitsi** icon below to open the **https://jitsi.org/Main/Download** web site*\r\n- ***Click** **Microsoft Windows installers** link in **Jitsi 2.4 and stable build line** section to save the installer file, then **locate** and **double click** it*\r\n\r\n[![](/sbox/screen/jitsi-en/01.png)](https://jitsi.org/Main/Download)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "xx": [
+            {
+                "format": null, 
+                "safe_value": "Jitsi - Secure Audio, Video and Text Com", 
+                "value": "Jitsi - Secure Audio, Video and Text Com"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "xx": [
+            {
+                "format": null, 
+                "safe_value": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+                "value": "Jitsi - Secure Audio, Video and Instant Text Messaging "
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "xx": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Jitsi</strong> is a cross-platform, <a href=\"/en/glossary#FOSS\"><strong>free and open-source</strong></a> program which supports <strong>Instant Messaging</strong> (<strong>IM</strong>), voice and video chat over the Internet. It supports many of the most popular and widely used <strong>IM</strong> and telephony protocols, among them <strong>SIP</strong> (<strong>Session Initiated Protocol</strong>), <strong>Jabber/XMPP</strong> (used by <strong>Facebook</strong> and <strong>Google Talk</strong>), <strong>AIM</strong>, <strong>ICQ</strong>, <strong>MSN</strong>, and <strong>Yahoo! Messenger</strong>. It offers additional independent encryption for text chats through the <a href=\"/en/glossary#OTR\"><strong>OTR</strong> (<strong>Off-the-Record)</strong></a> protocol, and voice and video (<strong>ZRTP</strong>, <strong>SRTP</strong>) sessions. <strong>Jitsi</strong> runs on <strong>Microsoft Windows</strong>, <strong>Mac OS</strong> and <strong>Linux</strong>. The <strong>Android</strong> version is forthcoming.</p>\n", 
+                "value": "**Jitsi** is a cross-platform, [**free and open-source**](/en/glossary#FOSS) program which supports **Instant Messaging** (**IM**), voice and video chat over the Internet. It supports many of the most popular and widely used **IM** and telephony protocols, among them **SIP** (**Session Initiated Protocol**), **Jabber/XMPP** (used by **Facebook** and **Google Talk**), **AIM**, **ICQ**, **MSN**, and **Yahoo! Messenger**. It offers additional independent encryption for text chats through the [**OTR** (**Off-the-Record)**](/en/glossary#OTR) protocol, and voice and video (**ZRTP**, **SRTP**) sessions. **Jitsi** runs on **Microsoft Windows**, **Mac OS** and **Linux**. The **Android** version is forthcoming."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-09-29 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "xx": [
+            {
+                "format": null, 
+                "safe_value": "jitsi", 
+                "value": "jitsi"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "12"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "12"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5191": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2045", 
+            "link_title": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5191", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5191", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-4"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2045", 
+    "num_revisions": "22", 
+    "path": "https://securityinabox.org/en/jitsi", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1455874911", 
+    "revision_uid": "479", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "xx": [
+            {
+                "format": null, 
+                "safe_value": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+                "value": "Jitsi - Secure Audio, Video and Instant Text Messaging "
+            }
+        ]
+    }, 
+    "title_original": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "es": {
+                "changed": "1442498418", 
+                "created": "1442498418", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "km": {
+                "changed": "1455116722", 
+                "created": "1455116722", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441193003", 
+                "created": "1441193003", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444180883", 
+                "created": "1444180883", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1455874911", 
+                "created": "1443015977", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1443525711", 
+                "created": "1443525711", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1455116881", 
+                "created": "1441121486", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2045", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445434736", 
+                "created": "1445434736", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "c64c289a-517c-42ba-bc85-a98292e5bed2", 
+    "vid": "13269", 
+    "vuuid": "9788da55-67bd-40db-a7bd-6d85299e6780"
+}

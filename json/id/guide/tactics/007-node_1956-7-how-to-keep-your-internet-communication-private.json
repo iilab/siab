@@ -1,0 +1,1954 @@
+{
+    "body": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p>Kenyamanan, hematnya biaya serta fleksibilitas email dan pesan instan membuatnya banyak dipilih oleh individu maupun organisasi, termasuk mereka yang terbatas akses Internetnya. Software seperti <a href=\"/id/glossary#Skype\"><em>Skype</em></a> dan alat <em>Voice-over-IP</em> <a href=\"/id/glossary#VoIP\"><em>VoIP</em></a> sering digunakan oleh mereka yang mempunyai akses Internet yang cepat dan stabil. Sayangnya, penggunaan alat-alat digital ini sebagai alternatif cara komunikasi tradisional membuat penyimpanan informasi rahasia menjadi lebih sulit. Tentu saja ini bukan hal baru, sebab surat pos, panggilan telepon, dan pesan singkat juga rentan terhadap pengintaian, terutama untuk orang-orang yang menjadi sasaran pengintaian oleh pihak yang berwenang.</p>\n\n<p>Salah satu perbedaan penting antara teknik komunikasi digital berbasis Internet dengan metode tradisional adalah cara digital memungkinkan anda untuk mengatur tingkat keamanan yang anda inginkan. Jika anda mengirim email, pesan instan dan percakapan <a href=\"/id/glossary#VoIP\"><em>VoIP</em></a> dengan metode yang tidak aman, tentu saja tingkat kerahasiaan akan lebih rendah dibandingkan surat atau panggilan telepon. Ini antara lain disebabkan oleh adanya komputer yang dapat secara otomatis menelusuri sejumlah besar informasi digital untuk mengidentifikasi pengirim, penerima dan kata kunci tertentu. Sedangkan dalam cara tradisional akan dibutuhkan sumber daya yang lebih banyak untuk melakukan hal yang sama. Sebaliknya, jika anda lebih berhati-hati, fleksibilitas dari alat komunikasi internet dan kekuatan enkripsi/<a href=\"/id/glossary#Encryption\"><em>encryption</em></a> modern dapat memberikan tingkat kerahasiaan tinggi, yang dahulu hanya tersedia bagi organisasi intelijen dan militer nasional</p>\n\n<p>Dengan mengikuti panduan dan menelusuri software yang dibahas di bab ini anda dapat meningkatkan keamanan komunikasi anda. Layanan email <a href=\"/id/glossary#RiseUp\"><em>RiseUp</em></a>, tambahan Off the Record <a href=\"/id/glossary#OTR\"><em>OTR</em></a> untuk program pesan instan <a href=\"/id/glossary#Pidgin\"><em>Pidgin</em></a> , Mozilla <a href=\"/id/glossary#Firefox\"><em>Firefox</em></a>  dan tambahan <a href=\"/id/glossary#Enigmail\"><em>Enigmail</em></a> untuk klien email Mozilla <a href=\"/id/glossary#Thunderbird\"><em>Thunderbird</em></a> adalah beberapa alat yang bisa anda gunakan. Namun demikian, saat anda menggunakan alat-alat tersebut, anda tetap harus ingat bahwa tidak mungkin kerahasiaan anda terjaga seratus persen. Selalu ada ancaman yang mungkin tidak terpikirkan oleh anda, seperti <a href=\"/id/glossary#Keylogger\"><em>keylogger</em></a> di komputer anda, orang yang menguping pembicaraan, atau koresponden email yang ceroboh atau karena hal-hal lainnya. Tujuan dari bab ini adalah untuk membantu anda mengurangi ancaman,  yang mungkin juga tidak terjadi pada anda.</p>\n\n<div class=\"background\">\n\n<p>Claudia dan Pablo bekerja untuk sebuah LSM hak asasi manusia di sebuah negara di Amerika Selatan. Setelah berbulan-bulan mengumpulkan kesaksian dari para saksi pelanggaran hak asasi manusia yang dilakukan oleh anggota militer di daerah mereka, Claudia dan Pablo mulai mengambil langkah untuk melindungi data mereka. Mereka hanya menyimpan informasi yang mereka butuhkan dalam sebuah partisi TrueCrypt yang telah dibuat backupnya, yang disimpan di beberapa lokasi yang berbeda. Saat sedang mempersiapkan sebuah laporan yang berisi aspek-aspek dari kesaksian tersebut, mereka menyadari bahwa mereka harus mendiskusikan beberapa informasi rahasia dengan kolega yang berada di negara lain. Walaupun mereka sudah sepakat untuk tidak menyebutkan nama dan lokasi, mereka tetap ingin agar email dan percakapan pesan instan mereka tetap rahasia. Setelah mengundang rapat untuk mendiskusikan pentingnya keamanan komunikasi, Claudia memberikan kesempatan bertanya bagi para karyawan di kantornya.</p>\n\n</div>\n\n<h3>What you can learn from this chapter</h3>\n\n<ul><li><p>Mengapa sebagian besar layanan webmail dan pesan instan tidak aman</p></li>\n<li><p>Cara membuat akun email baru yang lebih aman</p></li>\n<li><p>Cara meningkatkan keamanan di akun email anda saat ini</p></li>\n<li><p>Cara menggunakan layanan pesan instan yang aman</p></li>\n<li><p>Apa yang harus dilakukan saat ada orang lain yang mungkin sudah mengakses email anda</p></li>\n<li><p>Cara mem-verifikasi identitas dari koresponden email anda</p></li>\n</ul>", 
+                "summary": "", 
+                "value": "Kenyamanan, hematnya biaya serta fleksibilitas email dan pesan instan membuatnya banyak dipilih oleh individu maupun organisasi, termasuk mereka yang terbatas akses Internetnya. Software seperti [*Skype*](/id/glossary#Skype) dan alat *Voice-over-IP* [*VoIP*](/id/glossary#VoIP) sering digunakan oleh mereka yang mempunyai akses Internet yang cepat dan stabil. Sayangnya, penggunaan alat-alat digital ini sebagai alternatif cara komunikasi tradisional membuat penyimpanan informasi rahasia menjadi lebih sulit. Tentu saja ini bukan hal baru, sebab surat pos, panggilan telepon, dan pesan singkat juga rentan terhadap pengintaian, terutama untuk orang-orang yang menjadi sasaran pengintaian oleh pihak yang berwenang. \r\n\r\nSalah satu perbedaan penting antara teknik komunikasi digital berbasis Internet dengan metode tradisional adalah cara digital memungkinkan anda untuk mengatur tingkat keamanan yang anda inginkan. Jika anda mengirim email, pesan instan dan percakapan [*VoIP*](/id/glossary#VoIP) dengan metode yang tidak aman, tentu saja tingkat kerahasiaan akan lebih rendah dibandingkan surat atau panggilan telepon. Ini antara lain disebabkan oleh adanya komputer yang dapat secara otomatis menelusuri sejumlah besar informasi digital untuk mengidentifikasi pengirim, penerima dan kata kunci tertentu. Sedangkan dalam cara tradisional akan dibutuhkan sumber daya yang lebih banyak untuk melakukan hal yang sama. Sebaliknya, jika anda lebih berhati-hati, fleksibilitas dari alat komunikasi internet dan kekuatan enkripsi/[*encryption*](/id/glossary#Encryption) modern dapat memberikan tingkat kerahasiaan tinggi, yang dahulu hanya tersedia bagi organisasi intelijen dan militer nasional\r\n\r\nDengan mengikuti panduan dan menelusuri software yang dibahas di bab ini anda dapat meningkatkan keamanan komunikasi anda. Layanan email [*RiseUp*](/id/glossary#RiseUp), tambahan Off the Record [*OTR*](/id/glossary#OTR) untuk program pesan instan [*Pidgin*](/id/glossary#Pidgin) , Mozilla [*Firefox*](/id/glossary#Firefox)  dan tambahan [*Enigmail*](/id/glossary#Enigmail) untuk klien email Mozilla [*Thunderbird*](/id/glossary#Thunderbird) adalah beberapa alat yang bisa anda gunakan. Namun demikian, saat anda menggunakan alat-alat tersebut, anda tetap harus ingat bahwa tidak mungkin kerahasiaan anda terjaga seratus persen. Selalu ada ancaman yang mungkin tidak terpikirkan oleh anda, seperti [*keylogger*](/id/glossary#Keylogger) di komputer anda, orang yang menguping pembicaraan, atau koresponden email yang ceroboh atau karena hal-hal lainnya. Tujuan dari bab ini adalah untuk membantu anda mengurangi ancaman,  yang mungkin juga tidak terjadi pada anda. \r\n\r\n<div class=\"background\" markdown=\"1\">\r\nClaudia dan Pablo bekerja untuk sebuah LSM hak asasi manusia di sebuah negara di Amerika Selatan. Setelah berbulan-bulan mengumpulkan kesaksian dari para saksi pelanggaran hak asasi manusia yang dilakukan oleh anggota militer di daerah mereka, Claudia dan Pablo mulai mengambil langkah untuk melindungi data mereka. Mereka hanya menyimpan informasi yang mereka butuhkan dalam sebuah partisi TrueCrypt yang telah dibuat backupnya, yang disimpan di beberapa lokasi yang berbeda. Saat sedang mempersiapkan sebuah laporan yang berisi aspek-aspek dari kesaksian tersebut, mereka menyadari bahwa mereka harus mendiskusikan beberapa informasi rahasia dengan kolega yang berada di negara lain. Walaupun mereka sudah sepakat untuk tidak menyebutkan nama dan lokasi, mereka tetap ingin agar email dan percakapan pesan instan mereka tetap rahasia. Setelah mengundang rapat untuk mendiskusikan pentingnya keamanan komunikasi, Claudia memberikan kesempatan bertanya bagi para karyawan di kantornya. \r\n</div>\r\n\r\n\r\n### What you can learn from this chapter ###\r\n\r\n* Mengapa sebagian besar layanan webmail dan pesan instan tidak aman\r\n\r\n* Cara membuat akun email baru yang lebih aman\r\n\r\n* Cara meningkatkan keamanan di akun email anda saat ini\r\n\r\n* Cara menggunakan layanan pesan instan yang aman\r\n\r\n* Apa yang harus dilakukan saat ada orang lain yang mungkin sudah mengakses email anda\r\n\r\n* Cara mem-verifikasi identitas dari koresponden email anda"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1925", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/1956", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/1956", 
+        "link_title": "7. How to keep your Internet communication private", 
+        "menu_name": "book-toc-1925", 
+        "mlid": "5101", 
+        "module": "book", 
+        "nid": "1956", 
+        "options": [], 
+        "p1": "5030", 
+        "p2": "5101", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5030", 
+        "router_path": "node/%", 
+        "title": "7. How to keep your Internet communication private", 
+        "updated": "0", 
+        "weight": "7"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Ada beberapa langkah penting yang dapat anda ambil untuk meningkatkan keamanan komunikasi email anda. Pertama, anda harus memastikan bahwa hanya orang yang anda kirimi email lah yang bisa membaca pesan tersebut. Hal ini dibahas di bagian <a href=\"/id/chapter_7_1#Menjaga_webmail_anda_tetap_private\"><em>Menjaga webmail anda tetap private</em></a> dan <a href=\"/id/chapter_7_1#Beralih_ke_akun_email_yang_lebih_aman\"><em>Beralih ke akun email yang lebih aman</em></a>. Terkadang penting bagi penerima email untuk dapat memverifikasi bahwa pesan yang di terima benar-benar berasal dari anda, bukannya orang lain yang menyamar sebagai anda. Salah satu cara melakukannya dijelaskan dalam <a href=\"/id/chapter_7_4\"><em>Keamanan Email Tingkat lanjut</em></a> di bagian <a href=\"/id/chapter_7_4#Encrypting_and_authenticating_individual_email_messages\"><em>Enkripsi dan otentikasi pesan email individu</em></a></p>\n\n<p>Anda juga harus mengetahui apa yang harus dilakukan jika anda kerahasiaan email anda terbongkar. Bagian <a href=\"/id/chapter_7_2\"><em>Tips merespon email yang diduga email surveillance</em></a> akan menjawab pertanyaan ini</p>\n\n<p>Ingat juga bahwa email yang aman tidak akan berguna jika apa yang anda ketik terekam oleh spyware dan secara berkala dikirim ke pihak ketiga melalui Internet. <a href=\"/id/chapter-1\"><em>Bab 1:  Cara melindungi komputer dari malware dan hacker/peretas</em></a> menyediakan beberapa cara untuk mencegah hal tersebut, dan <a href=\"/id/chapter-3\"><em>Bab 3: Cara membuat dan merawat password yang aman</em></a> untuk melindungi akun email dan pesan instan anda, seperti dijelaskan di bawah ini</p>\n\n<h3>Membuat webmail anda tetap privat</h3>\n\n<p>Internet adalah jaringan terbuka dimana informasi dapat terkirim dalam bentuk yang dapat dibaca. Jika sebuah pesan email dibajak sebelum sampai ke sang penerima, isinya dapat dengan mudah dibaca. Dan karena Internet merupakan satu jaringan yang mendunia yang bergantung pada banyak komputer perantara sebagai pengarah lalu lintasnya, maka banyak sekali orang yang berkesempatan untuk membajak pesan anda dengan cara ini. Penyedia Jasa Internet (<em>Internet Service Provider <a href=\"/id/glossary#ISP\"><em>ISP</em></a></em>) anda adalah penerima pertama dari sebuah pesan email yang anda kirimkan, dalam perjalanannya sampai ke si penerima. Begitu juga dengan email yang dikirmkan untuk anda, <a href=\"/id/glossary#ISP\"><em>ISP</em></a>  adalah perhentian terakhir sebelum pesan tersebut sampai ke tangan anda. Jika anda tidak melakukan langkah tertentu, pesan anda dapat dibaca atau diganggu pada kedua titik tersebut, atau diantaranya</p>\n\n<div class=\"background\">\n\n<p>Pablo: Aku baru saja berbicara dengan salah satu mitra kita tentang hal ini. Katanya, dia dan koleganya kadang hanya menyimpan pesan-pesan penting di folder 'Draft' webmailnya, yang kata sandinya mereka ketahui bersama. Kedengarannya aneh, tapi apakah efektif? Maksudku, bukankah itu bisa mencegah pihak yang tidak dikehendaki membaca pesannya, karena pesan itu sebenarnya tidak pernah dikirimkan?</p>\n\n<p>Claudia: Setiap saat kita membaca email di komputer, walaupun hanya 'draft', isinya terkirim kepada kita melalui internet. Kalau tidak, mana mungkin muncul di layar, kan? Masalahnya, jika ada orang yang mengintai kita, mereka tidak hanya memonitor email kita saja, tapi juga segala bentuk informasi yang masuk dan keluar dari komputer kita. Dengan kata lain, trik itu tidak akan berhasil kalau yang mebuka email tidak terhubung dengan jaringan Internet aman. Jika terhubung, tidak ada salahnya membuat akun terpisah dan mereka bisa saling berkirim email.</p>\n\n</div>\n\n<p>Sudah lama kita bisa mengamankan koneksi Internet antara komputer kita dengan situs web yang kita kunjungi. Biasanya ini dijumpai saat kita harus memasukkan password atau informasi kartu kredit ke dalam situs web. Teknologi yang digunakan disebut dengan <a href=\"/glossary#Encryption\"><em>enkripsi</em></a> Secure Socket Layer/ <a href=\"/id/glossary#SSL\"><em>SSL</em></a>. Kita dapat mengetahui saat kita menggunakan <a href=\"/id/glossary#SSL\"><em>SSL</em></a> atau tidak dengan melihat ke <strong>address bar</strong> dari browser yang kita gunakan.</p>\n\n<p>Semua alamat web biasanya diawali dengan huruf <strong>HTTP</strong>, seperti terlihat pada contoh dibawah:</p>\n\n<p><img src=\"/sites/securitybkp.ngoinabox.org/files/u7/01.png\" alt=\"\" /></p>\n\n<p>Saat anda mengunjungi situs yang aman, alamatnya akan diawali dengan <strong>HTTPS</strong>.</p>\n\n<p><img src=\"/sites/securitybkp.ngoinabox.org/files/u7/02.png\" alt=\"\" /></p>\n\n<p>Tambahan huruf <strong>S</strong> di akhir menunjukkan bahwa komputer anda telah membuka koneksi aman (secure) ke situs web tersebut. Ada dapat juga melihat symbol 'kunci/gembok', di <strong>address bar</strong> atau di <strong>status bar</strong>  yang ada di sisi bawah jendela browser anda. Ini merupakan tanda bahwa siapapun yang mungkin ingin memonitor koneksi internet anda tidak akan bisa 'menguping' komunikasi anda dengan situs web tersebut</p>\n\n<p>Selain melindungi kata sandi dan transaksi keuangan anda, <a href=\"/id/discussion#Encryption\"><em>enkripsi</em></a> jenis ini juga dapat melindungi webmail anda dengan sempurna. Namun, banyak penyedia webmail yang tidak menawarkan akses yang aman, beberapa yang lain mengharuskan anda untuk mengaktifkannya secara ekplisit, dengan cara memilihnya di bagian pengaturan atau dengan mengetikkan <strong>HTTPS</strong> secara manual. Anda harus selalu memastikan bahwa koneksi anda aman sebelum masuk, membaca email atau mengirimkan pesan.</p>\n\n<p>Perhatikanlah saat browser anda mengeluhkan <a href=\"/id/glossary#Security_certificate\"><em>sertifikat keamanan</em></a> yang cacat saat anda mencoba mengakses akun webmail yang aman. Ini dapat berarti bahwa seseorang merusak komunikasi antara komputer anda dan server dengan tujuan membajak pesan anda. Lalu, jika anda mengandalkan webmail untuk bertukar informasi rahasia, penting untuk memastikan bahwa anda menggunakan browser yang handal. Pertimbangkan untuk meng-install Mozilla <a href=\"/id/glossary#Firefox\"><em>Firefox</em></a> dan tambahan-tambahannya yang berkaitan dengan keamanan.</p>\n\n<div class=\"getstarted\">\n\n<p>Hands-on: Memulai Penggunaan <a href=\"/firefox_main\"><em>Panduan Firefox</em></a></p>\n\n</div>\n\n<div class=\"background\">\n\n<p>Pablo: Salah satu orang yang akan mengerjakan laporan ini sering menggunakan akun Yahoo-nya saat ia di luar kantor. Ada satu lagi yang menggunakan Hotmail. Apa orang lain bisa membacanya kalau aku kirim email ke mereka?</p>\n\n<p>Claudia: Mungkin saja. Yahoo, Hotmail dan banyak penyedia webmail lainnya menggunakan situs web yang tidak melindungi kerahasiaan pesan penggunanya. Kita harus merubah kebiasaan orang-orang agar kita bisa membahas kesaksian ini dengan aman.</p>\n\n</div>\n\n<h3>Beralih ke akun email yang lebih aman</h3>\n\n<p>Hanya sedikit penyedia webmail yang menawarkan akses <a href=\"/id/glossary#SSL\"><em>SSL</em></a> untuk email anda. Misalnya Yahoo dan Hotmail, keduanya memberikan koneksi yang aman untuk melindungi password saat anda masuk, tetapi pesan-pesan anda tidak dikirim dan diterima dengan aman. Selain itu Yahoo, Hotmail dan beberapa penyedia layanan webmail gratis mengikutkan <a href=\"/id/glossary#IP_address\"><em>IP address</em></a> komputer yang anda gunakan di semua pesan yang anda kirim</p>\n\n<p>Sebaliknya, akun Gmail dapat digunakan sepenuhnya melalu koneksi yang aman, selama anda masuk ke akun melalui <a href=\"https://mail.google.com\"><em>https://mail.google.com</em></a>(menggunakan <strong>HTTPS</strong>), dibandingkan dengan  <a href=\"http://mail.google.com\"><em>http://mail.google.com</em></a>. Bahkan, anda sekarang bisa mengatur pilihan agar Gmail selalu menggunakan koneksi yang aman. Tidak seperti Yahoo atau Hotmail , Gmail tidak memberitahukan <a href=\"/id/glossary#IP_address\"><em>IP address</em></a> anda kepada si penerima email. Namun, anda tidak disarankan untuk mengandalkan Google sepenuhnya untuk menjaga kerahasiaan komunikasi email anda. Google men-scan dan merekam isi pesan-pesan penggunanya untuk berbagai keperluan, dan di masa lalu mereka sudah pernah memberikannya sesuai permintaan pemerintah negara yang membatasi kebebasan digital. Untuk informasi lebih lanjut mengenai kebijakan privasi Google, lihat bagian <a href=\"/id/chapter_7_5\"><strong><em>Bacaan lanjutan</em></strong></a></p>\n\n<p>Jika memungkinkan buatlah akun email baru di <a href=\"/id/glossary#RiseUp\"><em>RiseUp</em></a> dengan mengunjungi <a href=\"https://mail.riseup.net\"><em>https://mail.riseup.net</em></a>. <a href=\"/id/glossary#RiseUp\"><em>RiseUp</em></a> menawarkan email gratis untuk para aktivis di seluruh dunia dan sebaik mungkin melindungi informasi yang tertampung dalam server mereka. RiseUp sudah dipercaya sejak dahulu sebagai sumberdaya bagi mereka yang membutuhkan solusi email yang aman. Tidak seperti Google, RiseUp memiliki kebijakan yang sangat ketat berkenaan dengan privasi penggunanya dan tidak memiliki ketertarikan komersil yang suatu hari dapat bertentangan dengan kebijakan tersebut. Untuk membuat akun <a href=\"/id/glossary#RiseUp\"><em>RiseUp</em></a> baru anda membutuhkan dua 'kode undangan'. Kode ini dapat diberikan oleh seseorang yang sudah mempunyai akun RiseUp. Jika anda mempunyai versi cetak dari buklet ini berarti anda sudah menerima 'kode undangan' tersebut bersama dengan buku ini. Jika tidak, anda harus mencari dua pengguna <a href=\"/id/glossary#RiseUp\"><em>RiseUp</em></a> dan memintanya untuk mengirimkan kode tersebut untuk anda.</p>\n\n<div class=\"getstarted\">\n\n<p>Hands-on: Memulai Penggunaan<a href=\"/riseup_main\">* Panduan RiseUp*</a></p>\n\n</div>\n\n<p>Gmail maupun <a href=\"/id/glossary#RiseUp\"><em>RiseUp</em></a> lebih dari sekerdar penyedia webmail. Keduanya dapat digunakan dengan email client seperti Mozilla <a href=\"/id/glossary#Thunderbird\"><em>Thunderbird</em></a> yang mendukung teknik-teknik yang dibahas dalam <a href=\"/id/chapter_7_4\"><strong><em>Keamanan email tingkat lanjut</em></strong></a>. Memastikan klien email anda membuat koneksi ter<a href=\"/id/glossary#Encryption\"><em>enkripsi</em></a> ke penyedia email sama pentingnya dengan mengakses email anda melalui <strong>HTTPS</strong>. Jika anda menggunakan email client, lihat <a href=\"/thunderbird_main\"><strong><em>Panduan Thunderbird</em></strong></a> untuk informasi tambahan. Namun setidaknya anda harus selalu mengaktifkan <a href=\"/id/glossary#SSL\"><em>SSL</em></a> atau <a href=\"/id/glossary#Encryption\"><em>enkripsi</em></a> untuk server email baik yang masuk maupun keluar.</p>\n\n<div class=\"background\">\n\n<p>Pablo: Jadi, haruskah aku beralih menggunakan RiseUp, atau tetap bisa menggunakan Gmail dengan alamat 'https'-nya?</p>\n\n<p>Claudia: Terserah padamu. Tetapi ada beberapa hal yang harus kamu pertimbangkan saat memilih penyedia email. Yang pertama, apakah mereka menyediakan koneksi yang aman untuk akun mu? Gmail menyediakannya, jadi OK saja. Kedua, apakah kau mempercayai administrator akan tetap menjaga kerahasiaan email mu dan tidak akan membacanya atau memperlihatkannya kepada orang lain? Itu semua tergantung padamu. Lalu, yang terakhir, kamu juga perlu memikirkan apa kamu boleh diidentifikasikan dengan penyedia email tersebut. Dengan kata lain, apakah kamu akan mendapat masalah karena menggunakan 'riseup.net' yang popular di kalangan aktivis, atau kamu perlu alamat 'gmail.com' yang lebih umum?</p>\n\n</div>\n\n<p>Apapun alat email aman yang akan anda gunakan, ingatlah bahwa setiap email memiliki seorang pengirim dan seorang atau lebih penerima. Anda hanyalah bagian dari gambaran yang ada. Walaupun anda mengakses dengan cara yang aman, pertimbangkan juga cara apa yang kontak anda lakukan untuk menjaga keamanan saat mengirim, membaca dan membalas pesan. Pelajarilah juga dimana lokasi penyedia email kontak anda. Beberapa negara mungkin lebih agresif dibandingkan dengan yang lain, berkenaan dengan surveilans email. Untuk memastikan komunikasi anda bersifat personal, sebaiknya anda dan kontak anda menggunakan layanan email yang aman yang host-nya berada di negara yang aman. Jika anda ingin lebih yakin bahwa pesan anda tidak tertangkap dalam perjalanannya dari server email anda ke server kontak anda, ada baiknya anda dan kontak anda menggunakan akun dari penyedia email yang sama.  <a href=\"/id/glossary#RiseUp\"><em>RiseUp</em></a> adalah salah satu pilihan yang baik.</p>\n\n<h3>Tip tambahan untuk meningkatkan keamanan email anda</h3>\n\n<ul><li><p>Berhati-hatilah saat membuka lampiran email yang tidak anda harapkan, yang datang dari orang yang tidak dikenal atau memiliki judul yang mencurigakan. Saat membuka email seperti ini, anda harus memastikan software anti-virus anda up-to-date dan perhatikanlah peringatan yang muncul di browser atau program email anda.</p></li>\n<li><p>Menggunakan software anonimitas seperti  <a href=\"/id/glossary#Tor\"><em>Tor</em></a>, yang dijelaskan di [<strong><em>Bab 8: Cara untuk tetap anonim dan menembus sensor di Internet</em></strong>], dapat membantu anda menyembunyikan layanan email pilihan anda dari siapapun yang mungkin memonitor koneksi Internet anda. Tergantung sejauh mana pemfilteran Internet di negara anda, anda mungkin perlu menggunakan <a href=\"/id/glossary#Tor\"><em>Tor</em></a> atau alat <a href=\"/id/glossary#Circumvention\"><em>circumvention</em></a>yang dijelaskan di bab 8 untuk mengakses penyedia email aman seperti <a href=\"/id/glossary#RiseUp\"><em>RiseUp</em></a> atau Gmail.</p></li>\n<li><p>Saat membuat akun yang akan anda gunakan secara anonym dari penerima email anda, atau dari forum publik dimana anda akan mengirim pesan lewat email, anda harus berhati-hati untuk tidak mendaftarkan nama pengguna/username  atau 'Full Name'/Nama Lengkap yang berkaitan dengan kehidupan pribadi maupun professional anda. Dalam hal ini, sebaiknya hindari penggunaan Hotmail, Yahoo atau penyedia webmail lain yang menampilkan<a href=\"/id/glossary#IP_address\"><em>IP address</em></a> di dalam pesan yang anda kirim.</p></li>\n<li><p>Tergantung juga pada siapa yang dapat mengakses komputer anda secara fisik, membersihkan jejak-jejak yang berkaitan dengan email dalam berkas sementara anda, sama pentingnya dengan melindungi pesan anda saat sedang terkirim melalui internet. Lihat <a href=\"/id/chapter-6\"><strong><em>Bab 6:  Cara menghancurkan informasi rahasia</em></strong></a> dan <a href=\"/ccleaner_main\"><strong><em>Panduan CCleaner</em></strong></a> untuk keterangan lebih lanjut.</p></li>\n</ul>", 
+                        "summary": "", 
+                        "value": "Ada beberapa langkah penting yang dapat anda ambil untuk meningkatkan keamanan komunikasi email anda. Pertama, anda harus memastikan bahwa hanya orang yang anda kirimi email lah yang bisa membaca pesan tersebut. Hal ini dibahas di bagian [*Menjaga webmail anda tetap private*](/id/chapter_7_1#Menjaga_webmail_anda_tetap_private) dan [*Beralih ke akun email yang lebih aman*](/id/chapter_7_1#Beralih_ke_akun_email_yang_lebih_aman). Terkadang penting bagi penerima email untuk dapat memverifikasi bahwa pesan yang di terima benar-benar berasal dari anda, bukannya orang lain yang menyamar sebagai anda. Salah satu cara melakukannya dijelaskan dalam [*Keamanan Email Tingkat lanjut*](/id/chapter_7_4) di bagian [*Enkripsi dan otentikasi pesan email individu*](/id/chapter_7_4#Encrypting_and_authenticating_individual_email_messages)\r\n\r\nAnda juga harus mengetahui apa yang harus dilakukan jika anda kerahasiaan email anda terbongkar. Bagian [*Tips merespon email yang diduga email surveillance*](/id/chapter_7_2) akan menjawab pertanyaan ini\r\n\r\nIngat juga bahwa email yang aman tidak akan berguna jika apa yang anda ketik terekam oleh spyware dan secara berkala dikirim ke pihak ketiga melalui Internet. [*Bab 1:  Cara melindungi komputer dari malware dan hacker/peretas*](/id/chapter-1) menyediakan beberapa cara untuk mencegah hal tersebut, dan [*Bab 3: Cara membuat dan merawat password yang aman*](/id/chapter-3) untuk melindungi akun email dan pesan instan anda, seperti dijelaskan di bawah ini \r\n\r\n### Membuat webmail anda tetap privat ###\r\n\r\nInternet adalah jaringan terbuka dimana informasi dapat terkirim dalam bentuk yang dapat dibaca. Jika sebuah pesan email dibajak sebelum sampai ke sang penerima, isinya dapat dengan mudah dibaca. Dan karena Internet merupakan satu jaringan yang mendunia yang bergantung pada banyak komputer perantara sebagai pengarah lalu lintasnya, maka banyak sekali orang yang berkesempatan untuk membajak pesan anda dengan cara ini. Penyedia Jasa Internet (*Internet Service Provider [*ISP*](/id/glossary#ISP)*) anda adalah penerima pertama dari sebuah pesan email yang anda kirimkan, dalam perjalanannya sampai ke si penerima. Begitu juga dengan email yang dikirmkan untuk anda, [*ISP*](/id/glossary#ISP)  adalah perhentian terakhir sebelum pesan tersebut sampai ke tangan anda. Jika anda tidak melakukan langkah tertentu, pesan anda dapat dibaca atau diganggu pada kedua titik tersebut, atau diantaranya\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo: Aku baru saja berbicara dengan salah satu mitra kita tentang hal ini. Katanya, dia dan koleganya kadang hanya menyimpan pesan-pesan penting di folder 'Draft' webmailnya, yang kata sandinya mereka ketahui bersama. Kedengarannya aneh, tapi apakah efektif? Maksudku, bukankah itu bisa mencegah pihak yang tidak dikehendaki membaca pesannya, karena pesan itu sebenarnya tidak pernah dikirimkan?\r\n\r\nClaudia: Setiap saat kita membaca email di komputer, walaupun hanya 'draft', isinya terkirim kepada kita melalui internet. Kalau tidak, mana mungkin muncul di layar, kan? Masalahnya, jika ada orang yang mengintai kita, mereka tidak hanya memonitor email kita saja, tapi juga segala bentuk informasi yang masuk dan keluar dari komputer kita. Dengan kata lain, trik itu tidak akan berhasil kalau yang mebuka email tidak terhubung dengan jaringan Internet aman. Jika terhubung, tidak ada salahnya membuat akun terpisah dan mereka bisa saling berkirim email.\r\n</div>\r\n\r\nSudah lama kita bisa mengamankan koneksi Internet antara komputer kita dengan situs web yang kita kunjungi. Biasanya ini dijumpai saat kita harus memasukkan password atau informasi kartu kredit ke dalam situs web. Teknologi yang digunakan disebut dengan [*enkripsi*](/glossary#Encryption) Secure Socket Layer/ [*SSL*](/id/glossary#SSL). Kita dapat mengetahui saat kita menggunakan [*SSL*](/id/glossary#SSL) atau tidak dengan melihat ke **address bar** dari browser yang kita gunakan.\r\n\r\nSemua alamat web biasanya diawali dengan huruf **HTTP**, seperti terlihat pada contoh dibawah:\r\n\r\n![](/sites/securitybkp.ngoinabox.org/files/u7/01.png)\r\n\r\nSaat anda mengunjungi situs yang aman, alamatnya akan diawali dengan **HTTPS**.\r\n \r\n![](/sites/securitybkp.ngoinabox.org/files/u7/02.png)\r\n\r\nTambahan huruf **S** di akhir menunjukkan bahwa komputer anda telah membuka koneksi aman (secure) ke situs web tersebut. Ada dapat juga melihat symbol 'kunci/gembok', di **address bar** atau di **status bar**  yang ada di sisi bawah jendela browser anda. Ini merupakan tanda bahwa siapapun yang mungkin ingin memonitor koneksi internet anda tidak akan bisa 'menguping' komunikasi anda dengan situs web tersebut\r\n\r\nSelain melindungi kata sandi dan transaksi keuangan anda, [*enkripsi*](/id/discussion#Encryption) jenis ini juga dapat melindungi webmail anda dengan sempurna. Namun, banyak penyedia webmail yang tidak menawarkan akses yang aman, beberapa yang lain mengharuskan anda untuk mengaktifkannya secara ekplisit, dengan cara memilihnya di bagian pengaturan atau dengan mengetikkan **HTTPS** secara manual. Anda harus selalu memastikan bahwa koneksi anda aman sebelum masuk, membaca email atau mengirimkan pesan. \r\n\r\nPerhatikanlah saat browser anda mengeluhkan [*sertifikat keamanan*](/id/glossary#Security_certificate) yang cacat saat anda mencoba mengakses akun webmail yang aman. Ini dapat berarti bahwa seseorang merusak komunikasi antara komputer anda dan server dengan tujuan membajak pesan anda. Lalu, jika anda mengandalkan webmail untuk bertukar informasi rahasia, penting untuk memastikan bahwa anda menggunakan browser yang handal. Pertimbangkan untuk meng-install Mozilla [*Firefox*](/id/glossary#Firefox) dan tambahan-tambahannya yang berkaitan dengan keamanan. \r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nHands-on: Memulai Penggunaan [*Panduan Firefox*](/firefox_main)\r\n</div>\t\t\t\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo: Salah satu orang yang akan mengerjakan laporan ini sering menggunakan akun Yahoo-nya saat ia di luar kantor. Ada satu lagi yang menggunakan Hotmail. Apa orang lain bisa membacanya kalau aku kirim email ke mereka?\r\n\r\nClaudia: Mungkin saja. Yahoo, Hotmail dan banyak penyedia webmail lainnya menggunakan situs web yang tidak melindungi kerahasiaan pesan penggunanya. Kita harus merubah kebiasaan orang-orang agar kita bisa membahas kesaksian ini dengan aman. \r\n</div>\t\t\r\n\r\n### Beralih ke akun email yang lebih aman ###\r\n\r\nHanya sedikit penyedia webmail yang menawarkan akses [*SSL*](/id/glossary#SSL) untuk email anda. Misalnya Yahoo dan Hotmail, keduanya memberikan koneksi yang aman untuk melindungi password saat anda masuk, tetapi pesan-pesan anda tidak dikirim dan diterima dengan aman. Selain itu Yahoo, Hotmail dan beberapa penyedia layanan webmail gratis mengikutkan [*IP address*](/id/glossary#IP_address) komputer yang anda gunakan di semua pesan yang anda kirim\r\n\r\nSebaliknya, akun Gmail dapat digunakan sepenuhnya melalu koneksi yang aman, selama anda masuk ke akun melalui [*https://mail.google.com*](https://mail.google.com)(menggunakan **HTTPS**), dibandingkan dengan  [*http://mail.google.com*](http://mail.google.com). Bahkan, anda sekarang bisa mengatur pilihan agar Gmail selalu menggunakan koneksi yang aman. Tidak seperti Yahoo atau Hotmail , Gmail tidak memberitahukan [*IP address*](/id/glossary#IP_address) anda kepada si penerima email. Namun, anda tidak disarankan untuk mengandalkan Google sepenuhnya untuk menjaga kerahasiaan komunikasi email anda. Google men-scan dan merekam isi pesan-pesan penggunanya untuk berbagai keperluan, dan di masa lalu mereka sudah pernah memberikannya sesuai permintaan pemerintah negara yang membatasi kebebasan digital. Untuk informasi lebih lanjut mengenai kebijakan privasi Google, lihat bagian [***Bacaan lanjutan***](/id/chapter_7_5)\r\n\r\nJika memungkinkan buatlah akun email baru di [*RiseUp*](/id/glossary#RiseUp) dengan mengunjungi [*https://mail.riseup.net*](https://mail.riseup.net). [*RiseUp*](/id/glossary#RiseUp) menawarkan email gratis untuk para aktivis di seluruh dunia dan sebaik mungkin melindungi informasi yang tertampung dalam server mereka. RiseUp sudah dipercaya sejak dahulu sebagai sumberdaya bagi mereka yang membutuhkan solusi email yang aman. Tidak seperti Google, RiseUp memiliki kebijakan yang sangat ketat berkenaan dengan privasi penggunanya dan tidak memiliki ketertarikan komersil yang suatu hari dapat bertentangan dengan kebijakan tersebut. Untuk membuat akun [*RiseUp*](/id/glossary#RiseUp) baru anda membutuhkan dua 'kode undangan'. Kode ini dapat diberikan oleh seseorang yang sudah mempunyai akun RiseUp. Jika anda mempunyai versi cetak dari buklet ini berarti anda sudah menerima 'kode undangan' tersebut bersama dengan buku ini. Jika tidak, anda harus mencari dua pengguna [*RiseUp*](/id/glossary#RiseUp) dan memintanya untuk mengirimkan kode tersebut untuk anda. \r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nHands-on: Memulai Penggunaan[* Panduan RiseUp*](/riseup_main)\r\n</div>\t\r\n\r\nGmail maupun [*RiseUp*](/id/glossary#RiseUp) lebih dari sekerdar penyedia webmail. Keduanya dapat digunakan dengan email client seperti Mozilla [*Thunderbird*](/id/glossary#Thunderbird) yang mendukung teknik-teknik yang dibahas dalam [***Keamanan email tingkat lanjut***](/id/chapter_7_4). Memastikan klien email anda membuat koneksi ter[*enkripsi*](/id/glossary#Encryption) ke penyedia email sama pentingnya dengan mengakses email anda melalui **HTTPS**. Jika anda menggunakan email client, lihat [***Panduan Thunderbird***](/thunderbird_main) untuk informasi tambahan. Namun setidaknya anda harus selalu mengaktifkan [*SSL*](/id/glossary#SSL) atau [*enkripsi*](/id/glossary#Encryption) untuk server email baik yang masuk maupun keluar.\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo: Jadi, haruskah aku beralih menggunakan RiseUp, atau tetap bisa menggunakan Gmail dengan alamat 'https'-nya?\r\n\r\nClaudia: Terserah padamu. Tetapi ada beberapa hal yang harus kamu pertimbangkan saat memilih penyedia email. Yang pertama, apakah mereka menyediakan koneksi yang aman untuk akun mu? Gmail menyediakannya, jadi OK saja. Kedua, apakah kau mempercayai administrator akan tetap menjaga kerahasiaan email mu dan tidak akan membacanya atau memperlihatkannya kepada orang lain? Itu semua tergantung padamu. Lalu, yang terakhir, kamu juga perlu memikirkan apa kamu boleh diidentifikasikan dengan penyedia email tersebut. Dengan kata lain, apakah kamu akan mendapat masalah karena menggunakan 'riseup.net' yang popular di kalangan aktivis, atau kamu perlu alamat 'gmail.com' yang lebih umum?\r\n</div>\r\n\r\nApapun alat email aman yang akan anda gunakan, ingatlah bahwa setiap email memiliki seorang pengirim dan seorang atau lebih penerima. Anda hanyalah bagian dari gambaran yang ada. Walaupun anda mengakses dengan cara yang aman, pertimbangkan juga cara apa yang kontak anda lakukan untuk menjaga keamanan saat mengirim, membaca dan membalas pesan. Pelajarilah juga dimana lokasi penyedia email kontak anda. Beberapa negara mungkin lebih agresif dibandingkan dengan yang lain, berkenaan dengan surveilans email. Untuk memastikan komunikasi anda bersifat personal, sebaiknya anda dan kontak anda menggunakan layanan email yang aman yang host-nya berada di negara yang aman. Jika anda ingin lebih yakin bahwa pesan anda tidak tertangkap dalam perjalanannya dari server email anda ke server kontak anda, ada baiknya anda dan kontak anda menggunakan akun dari penyedia email yang sama.  [*RiseUp*](/id/glossary#RiseUp) adalah salah satu pilihan yang baik. \r\n \r\n### Tip tambahan untuk meningkatkan keamanan email anda  ### \r\n\r\n* Berhati-hatilah saat membuka lampiran email yang tidak anda harapkan, yang datang dari orang yang tidak dikenal atau memiliki judul yang mencurigakan. Saat membuka email seperti ini, anda harus memastikan software anti-virus anda up-to-date dan perhatikanlah peringatan yang muncul di browser atau program email anda. \r\n\r\n* Menggunakan software anonimitas seperti  [*Tor*](/id/glossary#Tor), yang dijelaskan di [***Bab 8: Cara untuk tetap anonim dan menembus sensor di Internet***], dapat membantu anda menyembunyikan layanan email pilihan anda dari siapapun yang mungkin memonitor koneksi Internet anda. Tergantung sejauh mana pemfilteran Internet di negara anda, anda mungkin perlu menggunakan [*Tor*](/id/glossary#Tor) atau alat [*circumvention*](/id/glossary#Circumvention)yang dijelaskan di bab 8 untuk mengakses penyedia email aman seperti [*RiseUp*](/id/glossary#RiseUp) atau Gmail.\r\n\r\n* Saat membuat akun yang akan anda gunakan secara anonym dari penerima email anda, atau dari forum publik dimana anda akan mengirim pesan lewat email, anda harus berhati-hati untuk tidak mendaftarkan nama pengguna/username  atau 'Full Name'/Nama Lengkap yang berkaitan dengan kehidupan pribadi maupun professional anda. Dalam hal ini, sebaiknya hindari penggunaan Hotmail, Yahoo atau penyedia webmail lain yang menampilkan[*IP address*](/id/glossary#IP_address) di dalam pesan yang anda kirim.\r\n\r\n* Tergantung juga pada siapa yang dapat mengakses komputer anda secara fisik, membersihkan jejak-jejak yang berkaitan dengan email dalam berkas sementara anda, sama pentingnya dengan melindungi pesan anda saat sedang terkirim melalui internet. Lihat [***Bab 6:  Cara menghancurkan informasi rahasia***](/id/chapter-6) dan [***Panduan CCleaner***](/ccleaner_main) untuk keterangan lebih lanjut. "
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1957", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1957", 
+                "link_title": "Securing your email", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5102", 
+                "module": "book", 
+                "nid": "1957", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5101", 
+                "p3": "5102", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5101", 
+                "router_path": "node/%", 
+                "title": "Securing your email", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1454081557", 
+            "comment": "0", 
+            "created": "1441104534", 
+            "current_revision_id": "13079", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_7_1", 
+                        "value": "chapter_7_1"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5102": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1957", 
+                    "link_title": "Securing your email", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5102", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5101", 
+                    "p3": "5102", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5101", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1957", 
+            "num_revisions": "25", 
+            "path": "https://securityinabox.org/en/node/1957", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1454081557", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Mengamankan email anda ", 
+                        "value": "Mengamankan email anda "
+                    }
+                ]
+            }, 
+            "title_original": "Securing your email", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442917043", 
+                        "created": "1442917043", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454081557", 
+                        "created": "1441807179", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096698", 
+                        "created": "1443096698", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442413432", 
+                        "created": "1442413432", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441207829", 
+                        "created": "1441207829", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447108474", 
+                        "created": "1442761442", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443706061", 
+                        "created": "1443706061", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452610039", 
+                        "created": "1452610039", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457185", 
+                        "created": "1443457185", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441116016", 
+                        "created": "1441116016", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443806117", 
+                        "created": "1443805205", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443101101", 
+                        "created": "1443101101", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443093824", 
+                        "created": "1443093824", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441104534", 
+                        "created": "1441104534", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1957", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444582341", 
+                        "created": "1443623639", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "07c38f73-e0e7-4b89-bac6-c5c1f1dcec3b", 
+            "vid": "13079", 
+            "vuuid": "e8200cc9-4527-4ece-a5c9-9001bbf011c7"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Jika anda curiga bahwa seseorang telah memonitor email anda, anda sebaiknya membuat akun baru dan menggunakan yang lama sebagai samaran. Ingatlah bahwa akun manapun yang pernah berkorespondensi dengan anda mungkin juga ikut diawasi. Maka dari itu, anda harus tetap waspada dan melakukan hal-hal berikut ini:</p>\n\n<ul><li><p>Baik anda maupun kontak email anda harus membuat akun baru dan membukanya hanya dari lokasi yang belum pernah anda gunakan sebelumnya, seperti warnet. Strategi ini ditujukan untuk mencegah diketahuinya alamat baru anda melalui koneksi dari komputer anda yang kemungkinan dimonitor. Sebagai alternatif, jika pun anda harus membuka akun baru dari lokasi biasanya, anda dapat menggunakan salah satu alat yang dijelaskan di <a href=\"/id/chapter-8\"><strong><em>Bab 8: Cara untuk tetap anonim dan menembus sensor di Internet</em></strong></a> untuk menyembunyikan koneksi yang dilakukan.</p></li>\n<li><p>Pastikan anda hanya bertikar informasi tentang alamat email baru ini melalui kanal yang aman seperti pertemuan tatap muka, pesan instan yang aman atau percakapan <a href=\"/id/glossary#VoIP\"><em>VoIP</em></a> terenkripsi.</p></li>\n<li><p>Jagalah agar lalu lintas komunikasi akun lama anda seperti sebelumnya, setidaknya untuk beberapa saat. Orang yang mengintai anda akan mengira anda masih menggunakannya untuk komunikasi rahasia. Namun sebaiknya hindari mengirim informasi  penting dengan akun ini, tapi anda harus berusaha agar hal ini juga tidak terlalu terlalu terlihat. Dapat anda duga, hal ini tidak mudah dilakukan.</p></li>\n<li><p>Buatlah agar identitas anda tidak terhubung dengan akun baru anda. Jangan mengirim email antara akun baru dan lama anda (atau ke akun kontak anda yang mungkin juga dimonitor).</p></li>\n<li><p>Berhati-hatilah akan apa yang anda tulis saat menggunakan akun baru. Sebaiknya hindari penggunaan nama atau alamat sebenarnya, atau kata-kata seperti 'hak asasi manusia' atau 'penyiksaan.' Buatlah sistem kode informal dengan kontak email anda dan gantilah secara berkala.</p></li>\n<li><p>Ingatlah, keamanan email tidak berakhir pada pertahanan teknis yang kuat. Ini juga tentang bagaimana anda memperhatikan cara anda dan kontak email anda berkomunikasi satu sama lain, serta kedisiplinan anda dalam kebiasaan keamanan yang non-teknis.</p></li>\n</ul>", 
+                        "summary": "", 
+                        "value": "Jika anda curiga bahwa seseorang telah memonitor email anda, anda sebaiknya membuat akun baru dan menggunakan yang lama sebagai samaran. Ingatlah bahwa akun manapun yang pernah berkorespondensi dengan anda mungkin juga ikut diawasi. Maka dari itu, anda harus tetap waspada dan melakukan hal-hal berikut ini:\r\n\r\n* Baik anda maupun kontak email anda harus membuat akun baru dan membukanya hanya dari lokasi yang belum pernah anda gunakan sebelumnya, seperti warnet. Strategi ini ditujukan untuk mencegah diketahuinya alamat baru anda melalui koneksi dari komputer anda yang kemungkinan dimonitor. Sebagai alternatif, jika pun anda harus membuka akun baru dari lokasi biasanya, anda dapat menggunakan salah satu alat yang dijelaskan di [***Bab 8: Cara untuk tetap anonim dan menembus sensor di Internet***](/id/chapter-8) untuk menyembunyikan koneksi yang dilakukan. \r\n\r\n* Pastikan anda hanya bertikar informasi tentang alamat email baru ini melalui kanal yang aman seperti pertemuan tatap muka, pesan instan yang aman atau percakapan [*VoIP*](/id/glossary#VoIP) terenkripsi.\r\n \r\n* Jagalah agar lalu lintas komunikasi akun lama anda seperti sebelumnya, setidaknya untuk beberapa saat. Orang yang mengintai anda akan mengira anda masih menggunakannya untuk komunikasi rahasia. Namun sebaiknya hindari mengirim informasi  penting dengan akun ini, tapi anda harus berusaha agar hal ini juga tidak terlalu terlalu terlihat. Dapat anda duga, hal ini tidak mudah dilakukan. \r\n\r\n* Buatlah agar identitas anda tidak terhubung dengan akun baru anda. Jangan mengirim email antara akun baru dan lama anda (atau ke akun kontak anda yang mungkin juga dimonitor). \r\n\r\n* Berhati-hatilah akan apa yang anda tulis saat menggunakan akun baru. Sebaiknya hindari penggunaan nama atau alamat sebenarnya, atau kata-kata seperti 'hak asasi manusia' atau 'penyiksaan.' Buatlah sistem kode informal dengan kontak email anda dan gantilah secara berkala. \r\n\r\n* Ingatlah, keamanan email tidak berakhir pada pertahanan teknis yang kuat. Ini juga tentang bagaimana anda memperhatikan cara anda dan kontak email anda berkomunikasi satu sama lain, serta kedisiplinan anda dalam kebiasaan keamanan yang non-teknis."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1958", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1958", 
+                "link_title": "Tips on responding to suspected email hacking and surveillance", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5103", 
+                "module": "book", 
+                "nid": "1958", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5101", 
+                "p3": "5103", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5101", 
+                "router_path": "node/%", 
+                "title": "Tips on responding to suspected email hacking and surveillance", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1456314319", 
+            "comment": "0", 
+            "created": "1441104684", 
+            "current_revision_id": "13350", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_7_2", 
+                        "value": "chapter_7_2"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5103": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1958", 
+                    "link_title": "Tips on responding to suspected email hacking and surveillance", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5103", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5101", 
+                    "p3": "5103", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5101", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1958", 
+            "num_revisions": "22", 
+            "path": "https://securityinabox.org/en/node/1958", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456314319", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Tip untuk meningkatkan keamanan email anda  ", 
+                        "value": "Tip untuk meningkatkan keamanan email anda  "
+                    }
+                ]
+            }, 
+            "title_original": "Tips on responding to suspected email hacking and surveillance", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442917116", 
+                        "created": "1442917116", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227788", 
+                        "created": "1441807318", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096676", 
+                        "created": "1443096676", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442413573", 
+                        "created": "1442413573", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441207916", 
+                        "created": "1441207916", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1456314319", 
+                        "created": "1442761461", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443706033", 
+                        "created": "1443706033", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452610504", 
+                        "created": "1452610504", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457261", 
+                        "created": "1443457261", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441116181", 
+                        "created": "1441116181", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443805722", 
+                        "created": "1443805722", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443101121", 
+                        "created": "1443101121", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443093895", 
+                        "created": "1443093895", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441104684", 
+                        "created": "1441104684", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1958", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444582600", 
+                        "created": "1443623680", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "cf780b4a-f28f-4c52-b681-ce93e073893d", 
+            "vid": "13350", 
+            "vuuid": "c5a40ec8-b1ba-4b47-897e-75ff58cc2fd0"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Sama seperti email, pesan instan dan software <a href=\"/id/glossary#VoIP\"><em>VoIP</em></a> bisa menjadi aman maupun sebaliknya, tergantung pada alat yang anda pakai dan bagaimana anda menggunakannya.</p>\n\n<p><strong>Mengamankan softwre pesan instan anda</strong></p>\n\n<p>Pesan instan atau disebut 'chat' pada dasarnya tidak aman dan rentan terhadap surveilans seperti email. Untungnya, ada program-program yang dapat membantu mengamankan kerahasiaan dari sesi chat anda. Seperti pada email, kanal komunikasi yang aman mengharuskan anda dan kontak pesan instan anda untuk menggunakan software yang sama dan mengambil langkah-langkah pengamanan yang sama.</p>\n\n<p>Terdapat sebuah program chat yang disebut <a href=\"/id/glossary#Pidgin\"><em>Pidgin</em></a> yang mendukung banyak protokol pesan instan yang ada saat ini, artinya, anda dapat mulai menggunakannya dengan mudah tanpa harus mengganti nama akun anda atau membuat ulang daftar kontak anda. Untuk dapat melakukan percakapan personal yang ter<a href=\"/glossary#Encryption\"><em>enkripsi</em></a> melalui <a href=\"/id/glossary#Pidgin\"><em>Pidgin</em></a> anda pelu menginstal dan mengaktifkan tambahan <em>Off-the-Record <a href=\"/id/glossary#OTR\"><em>OTR</em></a></em>. Untungnya, caranya sangat mudah.</p>\n\n<div class=\"getstarted\">\n\n<p><strong>Hands-on: Memulai penggunaan</strong> <a href=\"pidgin_main\"><em>Panduan Pidgin</em></a></p>\n\n</div>\n\n<p><a href=\"/id/glossary#Skype\"><em>Skype</em></a> yang adalah alat <a href=\"/id/glossary#VoIP\"><em>VoIP</em></a>, juga mendukung pesan instan. Menggunakan <a href=\"/id/glossary#Skype\"><em>Skype</em></a> mungkin lebih aman daripada menggunakan pilihan lainnya tanpa tambahan<a href=\"/id/glossary#OTR\"><em>OTR</em></a>, akan tetapi terdapat dua kekurangan dari alat ini. Pertama, anda hanya dapat mengirim pesan instan ke sesama pengguna <a href=\"/id/glossary#Skype\"><em>Skype</em></a>, sedangkan <a href=\"/id/glossary#Pidgin\"><em>Pidgin</em></a> dapat digunakan untuk berkomunikasi dengan aman dengan hampir semua layanan pesan instan lainnya. Kedua, karena ini adalah alat closed-source, kekuatan <a href=\"/glossary#Encryption\"><em>enkripsi</em></a>nya hampir tidak mungkin diverifikasi.  <a href=\"/id/chapter-1\"><strong><em>Bab 1: Cara melindungi komputer anda dari malware dan hackers/peretas</em></strong></a> membahas kelebihan dari Software gratis dan open-source *Free and Open-Source Software <a href=\"/id/glossary#FOSS\"><em>FOSS</em></a> di bagian <a href=\"/id/chapter_1_4\"><strong><em>Membuat software anda tetap up-to-date</em></strong></a> . Singkat kata, sebaiknya anda menggunakan <a href=\"/id/glossary#Pidgin\"><em>Pidgin</em></a> dengan tambahan <a href=\"/id/glossary#OTR\"><em>OTR</em></a>-nya untuk pesan instan yang aman.</p>\n\n<div class=\"background\">\n\n<p>Pablo: Kalau Yahoo webmail tidak aman, apa itu berarti Yahoo Chat juga tidak aman?</p>\n\n<p>Claudia: Yang perlu diingat, kalau kita ingin menggunakan pesan instan untuk membahas laporan ini, kita harus memastikan bahwa semua yang terlibat punya Pidgin dan OTR. Jika mereka punya, kita bisa menggunakan Yahoo Chat atau layanan chat lainnya.</p>\n\n</div>\n\n<p><strong>Mengamankan software VoIP anda</strong></p>\n\n<p>Panggilan <a href=\"/id/glossary#VoIP\"><em>VoIP</em></a> ke pengguna <a href=\"/id/glossary#VoIP\"><em>VoIP</em></a>lain biasanya bebas biaya. Beberapa program memungkinkan anda untuk membuat panggilan biaya murah ke telepon biasa, termasuk nomor internasional. Tentu saja fitur ini bisa sangat berguna. Beberapa dari program <a href=\"/id/glossary#VoIP\"><em>VoIP</em></a> yang populer saat ini diantaranya adalah <a href=\"http://www.skype.com\">Skype</a>, <a href=\"http://www.gizmoproject.com/\">Gizmo</a>, <a href=\"http://www.google.com/talk\">Google Talk</a>, <a href=\"http://voice.yahoo.com/\">Yahoo! Voice</a> dan <a href=\"http://get.live.com/messenger\">MSN Messenger</a>.</p>\n\n<p>Biasanya, komunikasi suara melalui internet tidak lebih aman dari email tanpa proteksi dan pesan instan. Hanya <a href=\"/id/glossary#Skype\"><em>Skype</em></a> dan <a href=\"/id/glossary#Gizmo\"><em>Gizmo</em></a> yang menawarkan enkripsi untuk percakapan suara, dan hanya saat anda melakukan panggilan ke pengguna <a href=\"/id/glossary#VoIP\"><em>VoIP</em></a>lain, bukan ke telepon biasa atau ponsel. Selain itu, karena kedua aplikasi tersebut bukan open-source, para pakar independen berlum berhasil mengujui sepenuhnya dan memastikan keamanannya.</p>\n", 
+                        "summary": "", 
+                        "value": "Sama seperti email, pesan instan dan software [*VoIP*](/id/glossary#VoIP) bisa menjadi aman maupun sebaliknya, tergantung pada alat yang anda pakai dan bagaimana anda menggunakannya. \r\n\r\n**Mengamankan softwre pesan instan anda**\r\n\r\nPesan instan atau disebut 'chat' pada dasarnya tidak aman dan rentan terhadap surveilans seperti email. Untungnya, ada program-program yang dapat membantu mengamankan kerahasiaan dari sesi chat anda. Seperti pada email, kanal komunikasi yang aman mengharuskan anda dan kontak pesan instan anda untuk menggunakan software yang sama dan mengambil langkah-langkah pengamanan yang sama.\r\n\r\nTerdapat sebuah program chat yang disebut [*Pidgin*](/id/glossary#Pidgin) yang mendukung banyak protokol pesan instan yang ada saat ini, artinya, anda dapat mulai menggunakannya dengan mudah tanpa harus mengganti nama akun anda atau membuat ulang daftar kontak anda. Untuk dapat melakukan percakapan personal yang ter[*enkripsi*](/glossary#Encryption) melalui [*Pidgin*](/id/glossary#Pidgin) anda pelu menginstal dan mengaktifkan tambahan *Off-the-Record [*OTR*](/id/glossary#OTR)*. Untungnya, caranya sangat mudah.\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\n**Hands-on: Memulai penggunaan** [*Panduan Pidgin*](pidgin_main)\r\n</div>\r\n\r\n[*Skype*](/id/glossary#Skype) yang adalah alat [*VoIP*](/id/glossary#VoIP), juga mendukung pesan instan. Menggunakan [*Skype*](/id/glossary#Skype) mungkin lebih aman daripada menggunakan pilihan lainnya tanpa tambahan[*OTR*](/id/glossary#OTR), akan tetapi terdapat dua kekurangan dari alat ini. Pertama, anda hanya dapat mengirim pesan instan ke sesama pengguna [*Skype*](/id/glossary#Skype), sedangkan [*Pidgin*](/id/glossary#Pidgin) dapat digunakan untuk berkomunikasi dengan aman dengan hampir semua layanan pesan instan lainnya. Kedua, karena ini adalah alat closed-source, kekuatan [*enkripsi*](/glossary#Encryption)nya hampir tidak mungkin diverifikasi.  [***Bab 1: Cara melindungi komputer anda dari malware dan hackers/peretas***](/id/chapter-1) membahas kelebihan dari Software gratis dan open-source *Free and Open-Source Software [*FOSS*](/id/glossary#FOSS) di bagian [***Membuat software anda tetap up-to-date***](/id/chapter_1_4) . Singkat kata, sebaiknya anda menggunakan [*Pidgin*](/id/glossary#Pidgin) dengan tambahan [*OTR*](/id/glossary#OTR)-nya untuk pesan instan yang aman. \r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo: Kalau Yahoo webmail tidak aman, apa itu berarti Yahoo Chat juga tidak aman? \r\n\t\t\t\r\nClaudia: Yang perlu diingat, kalau kita ingin menggunakan pesan instan untuk membahas laporan ini, kita harus memastikan bahwa semua yang terlibat punya Pidgin dan OTR. Jika mereka punya, kita bisa menggunakan Yahoo Chat atau layanan chat lainnya. \r\n</div>\r\n\r\n**Mengamankan software VoIP anda**\r\n\r\nPanggilan [*VoIP*](/id/glossary#VoIP) ke pengguna [*VoIP*](/id/glossary#VoIP)lain biasanya bebas biaya. Beberapa program memungkinkan anda untuk membuat panggilan biaya murah ke telepon biasa, termasuk nomor internasional. Tentu saja fitur ini bisa sangat berguna. Beberapa dari program [*VoIP*](/id/glossary#VoIP) yang populer saat ini diantaranya adalah [Skype](http://www.skype.com), [Gizmo](http://www.gizmoproject.com/), [Google Talk](http://www.google.com/talk), [Yahoo! Voice](http://voice.yahoo.com/) dan [MSN Messenger](http://get.live.com/messenger). \r\n\r\nBiasanya, komunikasi suara melalui internet tidak lebih aman dari email tanpa proteksi dan pesan instan. Hanya [*Skype*](/id/glossary#Skype) dan [*Gizmo*](/id/glossary#Gizmo) yang menawarkan enkripsi untuk percakapan suara, dan hanya saat anda melakukan panggilan ke pengguna [*VoIP*](/id/glossary#VoIP)lain, bukan ke telepon biasa atau ponsel. Selain itu, karena kedua aplikasi tersebut bukan open-source, para pakar independen berlum berhasil mengujui sepenuhnya dan memastikan keamanannya."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1959", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1959", 
+                "link_title": "Securing other Internet communication tools", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5104", 
+                "module": "book", 
+                "nid": "1959", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5101", 
+                "p3": "5104", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5101", 
+                "router_path": "node/%", 
+                "title": "Securing other Internet communication tools", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1455895666", 
+            "comment": "0", 
+            "created": "1441104731", 
+            "current_revision_id": "13282", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_7_3", 
+                        "value": "chapter_7_3"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5104": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1959", 
+                    "link_title": "Securing other Internet communication tools", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5104", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5101", 
+                    "p3": "5104", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5101", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1959", 
+            "num_revisions": "21", 
+            "path": "https://securityinabox.org/en/node/1959", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455895666", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Mengamankan alat komunikasi Internet yang lain ", 
+                        "value": "Mengamankan alat komunikasi Internet yang lain "
+                    }
+                ]
+            }, 
+            "title_original": "Securing other Internet communication tools", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1455886970", 
+                        "created": "1442917218", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227836", 
+                        "created": "1441807403", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096655", 
+                        "created": "1443096655", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442413732", 
+                        "created": "1442413732", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441207972", 
+                        "created": "1441207972", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447108634", 
+                        "created": "1442761759", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443706016", 
+                        "created": "1443706016", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452610615", 
+                        "created": "1452610615", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457311", 
+                        "created": "1443457311", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441116268", 
+                        "created": "1441116268", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443806255", 
+                        "created": "1443806255", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443101141", 
+                        "created": "1443101141", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443094015", 
+                        "created": "1443094015", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441104731", 
+                        "created": "1441104731", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1959", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1455895666", 
+                        "created": "1443623710", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "71dcb597-9831-4996-a0ca-6e6a31dd4cd8", 
+            "vid": "13282", 
+            "vuuid": "d8aea876-2f6c-41fc-b038-53e3841c9d17"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Alat-alat dan konsep yang dibahas berikut ini direkomendasikan bagi pengguna komputer yang berpengalaman.</p>\n\n<h3>Menggunakan kunci enkripsi publik pada email</h3>\n\n<p>Anda bisa mendapatkan tingkat kerahasiaan email yang lebih tinggi, bahkan pada akun email yang tidak aman. Untuk melakukannya, anda perlu mempelajari tentang kunci <a href=\"/id/glossary#Encryption\"><em>enkripsi</em></a> publik. Teknik ini memungkinkan anda untuk menyandi pesan individu, membuatnya tidak dapat terbaca oleh siapapun kecuali si penerima yang dituju. Aspek pintar dari kunci <a href=\"/id/glossary#Encryption\"><em>enkripsi</em></a> publik adalah anda tidak perlu bertukar informasi rahasia dengan kontak tentang cara menyandi pesan-pesan anda di masa mendatang.</p>\n\n<div class=\"background\">\n\n<p>Pablo: Tapi bagaimana cara kerjanya?</p>\n\n<p>Claudia: Matematika yang pintar! Kita menyandi pesan-pesan ke kontak email menggunakan 'kunci publik' khusus yang dapat ia sebarkan secara bebas. Lalu dia menggunakan 'kunci persobal' rahasia, yang harus ia jaga dengan hati-hati, untuk dapat membaca pesan tersebut. Demikian juga sebaliknya, kontakmu menggunakan kunci publik untuk mengenkripsi pesan-pesan yang ia tulis untukmu. Jadi pada akhirnya kamu harus bertukar kunci publik. Kamu bisa membagikan dengan terbuka tanpa harus khawatir jika orang yang menginginkan kunci tersebut bisa mengetahuinya.</p>\n\n</div>\n\n<p>Teknik ini dapat digunakan dengan layanan email apa saja. Bahkan untuk layanan yang tidak memiliki kanal komunikasi yang aman. Ini karena pesan-pesan di <a href=\"/id/glossary#Encryption\"><em>enkripsi</em></a> sebelum pesan tersebut meninggalkan komputer anda.</p>\n\n<p>Ingatlah bahwa menggunakan <a href=\"/id/glossary#Encryption\"><em>enkripsi</em></a> ada dapat mengundang perhatian ke diri anda sendiri. Jenis <a href=\"/id/glossary#Encryption\"><em>enkripsi</em></a> yang digunakan saat anda mengakses situs web aman, termasuk akun webmail, sering kali tidak terlalu dicurigai, lain halnya dengan kunci <a href=\"/id/glossary#Encryption\"><em>enkripsi</em></a> publik yang dibahas disini. Dalam beberapa situasi, jika sebuah email berisi data yang  di<a href=\"/id/glossary#Encryption\"><em>enkripsi</em></a> ditampilkan di forum publik, email tersebut dapat memberatkan orang yang mengirimkannya, apapun isi pesan tersebut. Anda terkadang harus memilih antara kerahasiaan pesan anda atau menjaga agar tidak terlalu menarik perhatian.</p>\n\n<h3>Mengenkripsi dan mengotentikasi pesan-pesan individu</h3>\n\n<p>Kunci <a href=\"/id/glossary#Encryption\"><em>enkripsi</em></a> publik mungkin terlihat rumit, tetapi akan mudah digunakan setelah anda mengerti dasar-dasarnya, serta alat-alat yang mudah digunakan. Program email Mozilla <a href=\"/id/glossary#Thunderbird\"><em>Thunderbird</em></a> dapat digunakan dengan ekstensi <a href=\"/id/glossary#Enigmail\"><em>Enigmail</em></a>untuk mengenkripsi dan mendekripsi pesan email dengan mudah.</p>\n\n<div class=\"getstarted\">\n\n<p><strong>Hands-on: Memulai Penggunaan</strong>  <a href=\"/thunderbird_main\"><strong><em>Panduan Thunderbird</em></strong></a></p>\n\n</div>\n\n<p><a href=\"/id/glossary#VautletSuite\"><em>VaultletSuite 2 Go</em></a>, sebuah program freeware email terenkripsi lebih mudah digunakan dari Thunderbird jika anda mau mempercayakan penyedia layanannya untuk mengerjakannya untuk anda.</p>\n\n<div class=\"getstarted\">\n\n<p><strong>Hands-on: Get started with the</strong> <a href=\"/vaultletsuite_main\"><strong><em>VaultletSuite 2 Go Guide</em></strong></a></p>\n\n</div>\n\n<p>Otentisitas/keaslian email anda adalah aspek penting lain dari keamanan komunikasi. Siapapun yang memiliki akses internet dan alat yang tepat dapat menyamar sebagai anda dengan mengirim email dari alamat-alamat palsu yang identik dengan alamat anda. Bahanyanya disini lebih dirasakan oleh si penerima email. Bayangkan adanya ancaman yang datang melalui email, yang sepertinya datang dari kontak terpercaya, padahal berasal dari seseorang yang ingin mengganggu aktivitas anda, atau ingin mengetahui informasi tentang organisasi anda.</p>\n\n<p>Karena kita tidak dapat melihat ataupun mendengar koresponden kita melalui email, kita biasa mengandalkan alamat si pengirim untuk memastikan identitasnya, inilah sebabnya kita mudah tertipu oleh email palsu. <a href=\"/id/glossary#Digital_signature\"><em>Tanda tangan digital</em></a> yang juga mengandalkan kunci <a href=\"/id/glossary#Encryption\"><em>enkripsi</em></a> publik, memberikan cara yang aman untuk membuktikan identitas seseorang saat mengirim email. Bagian <a href=\"thunderbird_main\"><strong><em>Cara menggunakan Enigmail pada Thunderbird</em></strong></a> dalam <a href=\"thunderbird_main\"><strong><em>Panduan Thunderbird</em></strong></a> menjelaskan lebih rinci tentang cara kerjanya.</p>\n\n<div class=\"background\">\n\n<p>Pablo:Ada seorang kolegaku yang pernah menerima email yang tidak aku kirim. Lalu kami berkesimpulan kalau itu adalah spam. Tapi aku jadi berpikir, apa jadinya kalau ada email palsu itu diterima oleh orang yang salah pada saat yang salah pula. Aku dengar kita bisa mencegahnya dengan tanda tangan digital. Apa sih tanda tangan digital itu?</p>\n\n<p>Claudia:Tanda tangan digital itu seperti cap lilin yang ditempelkan di tutup amplop yang berisi surat di dalamnya. Tapi tanda tangan itu tidak bisa dipalsukan. Itu bukti bahwa kamu adalah pengirim asli dari pesan itu dan bahwa pesan itu belum dirusak saat dikirim.</p>\n\n</div>\n", 
+                        "summary": "", 
+                        "value": "Alat-alat dan konsep yang dibahas berikut ini direkomendasikan bagi pengguna komputer yang berpengalaman. \r\n\r\n### Menggunakan kunci enkripsi publik pada email ###\r\n \r\nAnda bisa mendapatkan tingkat kerahasiaan email yang lebih tinggi, bahkan pada akun email yang tidak aman. Untuk melakukannya, anda perlu mempelajari tentang kunci [*enkripsi*](/id/glossary#Encryption) publik. Teknik ini memungkinkan anda untuk menyandi pesan individu, membuatnya tidak dapat terbaca oleh siapapun kecuali si penerima yang dituju. Aspek pintar dari kunci [*enkripsi*](/id/glossary#Encryption) publik adalah anda tidak perlu bertukar informasi rahasia dengan kontak tentang cara menyandi pesan-pesan anda di masa mendatang.\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo: Tapi bagaimana cara kerjanya? \r\n\r\nClaudia: Matematika yang pintar! Kita menyandi pesan-pesan ke kontak email menggunakan 'kunci publik' khusus yang dapat ia sebarkan secara bebas. Lalu dia menggunakan 'kunci persobal' rahasia, yang harus ia jaga dengan hati-hati, untuk dapat membaca pesan tersebut. Demikian juga sebaliknya, kontakmu menggunakan kunci publik untuk mengenkripsi pesan-pesan yang ia tulis untukmu. Jadi pada akhirnya kamu harus bertukar kunci publik. Kamu bisa membagikan dengan terbuka tanpa harus khawatir jika orang yang menginginkan kunci tersebut bisa mengetahuinya. \r\n</div>\r\n\r\nTeknik ini dapat digunakan dengan layanan email apa saja. Bahkan untuk layanan yang tidak memiliki kanal komunikasi yang aman. Ini karena pesan-pesan di [*enkripsi*](/id/glossary#Encryption) sebelum pesan tersebut meninggalkan komputer anda.\r\n\r\nIngatlah bahwa menggunakan [*enkripsi*](/id/glossary#Encryption) ada dapat mengundang perhatian ke diri anda sendiri. Jenis [*enkripsi*](/id/glossary#Encryption) yang digunakan saat anda mengakses situs web aman, termasuk akun webmail, sering kali tidak terlalu dicurigai, lain halnya dengan kunci [*enkripsi*](/id/glossary#Encryption) publik yang dibahas disini. Dalam beberapa situasi, jika sebuah email berisi data yang  di[*enkripsi*](/id/glossary#Encryption) ditampilkan di forum publik, email tersebut dapat memberatkan orang yang mengirimkannya, apapun isi pesan tersebut. Anda terkadang harus memilih antara kerahasiaan pesan anda atau menjaga agar tidak terlalu menarik perhatian. \r\n\r\n### Mengenkripsi dan mengotentikasi pesan-pesan individu ###\r\n \r\nKunci [*enkripsi*](/id/glossary#Encryption) publik mungkin terlihat rumit, tetapi akan mudah digunakan setelah anda mengerti dasar-dasarnya, serta alat-alat yang mudah digunakan. Program email Mozilla [*Thunderbird*](/id/glossary#Thunderbird) dapat digunakan dengan ekstensi [*Enigmail*](/id/glossary#Enigmail)untuk mengenkripsi dan mendekripsi pesan email dengan mudah. \r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\n**Hands-on: Memulai Penggunaan**  [***Panduan Thunderbird***](/thunderbird_main)\r\n</div>\r\n\r\n[*VaultletSuite 2 Go*](/id/glossary#VautletSuite), sebuah program freeware email terenkripsi lebih mudah digunakan dari Thunderbird jika anda mau mempercayakan penyedia layanannya untuk mengerjakannya untuk anda. \r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\n**Hands-on: Get started with the** [***VaultletSuite 2 Go Guide***](/vaultletsuite_main)\r\n</div>\r\n\r\nOtentisitas/keaslian email anda adalah aspek penting lain dari keamanan komunikasi. Siapapun yang memiliki akses internet dan alat yang tepat dapat menyamar sebagai anda dengan mengirim email dari alamat-alamat palsu yang identik dengan alamat anda. Bahanyanya disini lebih dirasakan oleh si penerima email. Bayangkan adanya ancaman yang datang melalui email, yang sepertinya datang dari kontak terpercaya, padahal berasal dari seseorang yang ingin mengganggu aktivitas anda, atau ingin mengetahui informasi tentang organisasi anda. \r\n\r\nKarena kita tidak dapat melihat ataupun mendengar koresponden kita melalui email, kita biasa mengandalkan alamat si pengirim untuk memastikan identitasnya, inilah sebabnya kita mudah tertipu oleh email palsu. [*Tanda tangan digital*](/id/glossary#Digital_signature) yang juga mengandalkan kunci [*enkripsi*](/id/glossary#Encryption) publik, memberikan cara yang aman untuk membuktikan identitas seseorang saat mengirim email. Bagian [***Cara menggunakan Enigmail pada Thunderbird***](thunderbird_main) dalam [***Panduan Thunderbird***](thunderbird_main) menjelaskan lebih rinci tentang cara kerjanya.\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo:Ada seorang kolegaku yang pernah menerima email yang tidak aku kirim. Lalu kami berkesimpulan kalau itu adalah spam. Tapi aku jadi berpikir, apa jadinya kalau ada email palsu itu diterima oleh orang yang salah pada saat yang salah pula. Aku dengar kita bisa mencegahnya dengan tanda tangan digital. Apa sih tanda tangan digital itu?\r\n\t\t\t\r\nClaudia:Tanda tangan digital itu seperti cap lilin yang ditempelkan di tutup amplop yang berisi surat di dalamnya. Tapi tanda tangan itu tidak bisa dipalsukan. Itu bukti bahwa kamu adalah pengirim asli dari pesan itu dan bahwa pesan itu belum dirusak saat dikirim. \r\n</div>"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1960", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1960", 
+                "link_title": "Advanced Email Security", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5105", 
+                "module": "book", 
+                "nid": "1960", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5101", 
+                "p3": "5105", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5101", 
+                "router_path": "node/%", 
+                "title": "Advanced Email Security", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1456151301", 
+            "comment": "0", 
+            "created": "1441104777", 
+            "current_revision_id": "13322", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_7_4", 
+                        "value": "chapter_7_4"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5105": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1960", 
+                    "link_title": "Advanced Email Security", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5105", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5101", 
+                    "p3": "5105", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5101", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1960", 
+            "num_revisions": "32", 
+            "path": "https://securityinabox.org/en/node/1960", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456151301", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Keamanan email tingkat lanjut ", 
+                        "value": "Keamanan email tingkat lanjut "
+                    }
+                ]
+            }, 
+            "title_original": "Advanced Email Security", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1455898226", 
+                        "created": "1442917335", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227911", 
+                        "created": "1441807514", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096633", 
+                        "created": "1443096633", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442413795", 
+                        "created": "1442413795", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1454335668", 
+                        "created": "1441208036", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1453994328", 
+                        "created": "1442761793", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1456151301", 
+                        "created": "1443705997", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452611784", 
+                        "created": "1452611784", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1453981255", 
+                        "created": "1443457374", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441116371", 
+                        "created": "1441116371", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443806592", 
+                        "created": "1443806383", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443101159", 
+                        "created": "1443101159", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443094107", 
+                        "created": "1443094107", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441104777", 
+                        "created": "1441104777", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1960", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1455898865", 
+                        "created": "1443623740", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "8f37a828-200b-481a-953b-bcdf1855e2bc", 
+            "vid": "13322", 
+            "vuuid": "30f25b85-c976-4f55-94aa-c36de97c27d3"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li>Untuk mempelajari cara memalsukan identitas email,  lihat bagian Menipu (<a href=\"http://www.frontlinedefenders.org/manual/en/esecman/chapter2_5.html#2_5b\">Spoofing</a>) di buku Keamanan dan Kerahasiaan Digital untuk Pembela Hak Asasi Manusia (<a href=\"http://www.frontlinedefenders.org/manual/en/esecman/\">Digital Security and Privacy for Human Rights Defenders</a>). </li>\n<li>Selain Panduan Praktis <em>Riseup</em> dan <em>Thunderbird</em> , ada juga sejumlah situs web yang menjelaskan cara menggunakan program email dengan penyedia email populer sambil meninggalkan salinan pesan di mail server:\n\n<ul><li>Situs <a href=\"http://help.riseup.net/mail/mail-clients/\">Riseup website</a></li>\n<li>Instruksi penggunaan Gmail (<a href=\"http://mail.google.com/support/bin/topic.py?topic=12805\">using Gmail</a>.)</li>\n<li>Instruksi cara mengimpor kontak Gmail ke Thunderbird (<a href=\"http://email.about.com/od/mozillathunderbirdtips/qt/et_gmail_addr.htm\">how to import your gmail contacts into Thunderbird</a>)</li>\n<li>Untuk rincian cara penggunaan layanan email lain dengan cara ini, telusuri bagian 'help' (bantuan) dari penyedia situs web menggunakan kata kunci seperti 'POP', 'IMAP' dan 'SMTP'. \n*Ada serangan terhadap keamanan enkripsi SSL yang cukup terkenal, dengan nama  <a href=\"http://www.frontlinedefenders.org/manual/en/esecman/chapter2_7.html#2_7c\">Man in the Middle attack</a>.\n(serangan perantara)</li>\n</ul></li>\n<li>Kebijakan privasi Gmail (<a href=\"http://mail.google.com/mail/help/intl/en/privacy.html\">Gmail Privacy Policy</a>) yang harus anda terima saat membuat akun Gmail mengatakan bahwa \"Google menjaga dan memproses akun Gmail anda beserta isinya untuk memberikan layanan Gmail dan meningkatkan pelayanan kami.\" Pada dasarnya semua penyedia email memindai pesan-pesan anda sampai batas tertentu, supaya mereka dapat memberikan layanan anti-spam atau fitur sejenisnya. Namun Google melangkah lebih jauh untuk menawarkan \u2018iklan bersasaran\u2019 sesuai dengan isi dari email anda. Ini bisa berbahaya jika informasi yang disimpan oleh Google terekspos baik secara sengaja maupun tidak sengaja. </li>\n<li>Sederet wawancara yang didakan pada tahun 2008 membahas kebijakan privasi dan enkripsi (<a href=\"http://news.cnet.com/8301-13578_3-9962106-38.html\">privacy and encryption policies</a>) milik sejumlah penyedia layanan pesan instan utama.</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "* Untuk mempelajari cara memalsukan identitas email,  lihat bagian Menipu ([Spoofing](http://www.frontlinedefenders.org/manual/en/esecman/chapter2_5.html#2_5b)) di buku Keamanan dan Kerahasiaan Digital untuk Pembela Hak Asasi Manusia ([Digital Security and Privacy for Human Rights Defenders](http://www.frontlinedefenders.org/manual/en/esecman/)). \r\n* Selain Panduan Praktis *Riseup* dan *Thunderbird* , ada juga sejumlah situs web yang menjelaskan cara menggunakan program email dengan penyedia email populer sambil meninggalkan salinan pesan di mail server:\r\n * Situs [Riseup website](http://help.riseup.net/mail/mail-clients/)\r\n * Instruksi penggunaan Gmail ([using Gmail](http://mail.google.com/support/bin/topic.py?topic=12805).)\r\n * Instruksi cara mengimpor kontak Gmail ke Thunderbird ([how to import your gmail contacts into Thunderbird](http://email.about.com/od/mozillathunderbirdtips/qt/et_gmail_addr.htm))\r\n * Untuk rincian cara penggunaan layanan email lain dengan cara ini, telusuri bagian 'help' (bantuan) dari penyedia situs web menggunakan kata kunci seperti 'POP', 'IMAP' dan 'SMTP'. \r\n*Ada serangan terhadap keamanan enkripsi SSL yang cukup terkenal, dengan nama  [Man in the Middle attack](http://www.frontlinedefenders.org/manual/en/esecman/chapter2_7.html#2_7c).\r\n(serangan perantara)\r\n* Kebijakan privasi Gmail ([Gmail Privacy Policy](http://mail.google.com/mail/help/intl/en/privacy.html)) yang harus anda terima saat membuat akun Gmail mengatakan bahwa &quot;Google menjaga dan memproses akun Gmail anda beserta isinya untuk memberikan layanan Gmail dan meningkatkan pelayanan kami.&quot; Pada dasarnya semua penyedia email memindai pesan-pesan anda sampai batas tertentu, supaya mereka dapat memberikan layanan anti-spam atau fitur sejenisnya. Namun Google melangkah lebih jauh untuk menawarkan \u2018iklan bersasaran\u2019 sesuai dengan isi dari email anda. Ini bisa berbahaya jika informasi yang disimpan oleh Google terekspos baik secara sengaja maupun tidak sengaja. \r\n* Sederet wawancara yang didakan pada tahun 2008 membahas kebijakan privasi dan enkripsi ([privacy and encryption policies](http://news.cnet.com/8301-13578_3-9962106-38.html)) milik sejumlah penyedia layanan pesan instan utama."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1961", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1961", 
+                "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5106", 
+                "module": "book", 
+                "nid": "1961", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5101", 
+                "p3": "5106", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5101", 
+                "router_path": "node/%", 
+                "title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "updated": "0", 
+                "weight": "5"
+            }, 
+            "changed": "1452611899", 
+            "comment": "0", 
+            "created": "1441104824", 
+            "current_revision_id": "12808", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_7_5", 
+                        "value": "chapter_7_5"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5106": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1961", 
+                    "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5106", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5101", 
+                    "p3": "5106", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5101", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "5"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1961", 
+            "num_revisions": "20", 
+            "path": "https://securityinabox.org/en/node/1961", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452611899", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Bacaan lanjutan", 
+                        "value": "Bacaan lanjutan"
+                    }
+                ]
+            }, 
+            "title_original": "Further reading", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442917398", 
+                        "created": "1442917398", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096611", 
+                        "created": "1443096611", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442414120", 
+                        "created": "1442414120", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441208088", 
+                        "created": "1441208088", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447108763", 
+                        "created": "1442761824", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443705980", 
+                        "created": "1443705980", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452611899", 
+                        "created": "1452611899", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457425", 
+                        "created": "1443457425", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441116530", 
+                        "created": "1441116530", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443806500", 
+                        "created": "1443806500", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443101204", 
+                        "created": "1443101204", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443094182", 
+                        "created": "1443094182", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446473278", 
+                        "created": "1441104824", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444583668", 
+                        "created": "1443623763", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "e4da5eda-78ad-4d95-91e0-7bb9cf506951", 
+            "vid": "12808", 
+            "vuuid": "87e04a64-0e83-424b-8b75-47341f949227"
+        }
+    ], 
+    "changed": "1453893190", 
+    "comment": "0", 
+    "created": "1441104468", 
+    "current_revision_id": "13007", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_menu_title": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "7. How to keep your Internet communicati", 
+                "value": "7. How to keep your Internet communicati"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "7. Cara agar komunikasi internet anda tetap rahasia ", 
+                "value": "7. Cara agar komunikasi internet anda tetap rahasia "
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-09 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "chapter-7", 
+                "value": "chapter-7"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "7"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "7"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5101": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/1956", 
+            "link_title": "7. How to keep your Internet communication private", 
+            "menu_name": "book-toc-1925", 
+            "mlid": "5101", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5030", 
+            "p2": "5101", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5030", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "7"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "1956", 
+    "num_revisions": "28", 
+    "path": "https://securityinabox.org/en/node/1956", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1453893190", 
+    "revision_uid": "228", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "7. Cara agar komunikasi internet anda tetap rahasia ", 
+                "value": "7. Cara agar komunikasi internet anda tetap rahasia "
+            }
+        ]
+    }, 
+    "title_original": "7. How to keep your Internet communication private", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442916972", 
+                "created": "1442916972", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1453893190", 
+                "created": "1441807094", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "bo": {
+                "changed": "1443094027", 
+                "created": "1443094027", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "bo", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "es": {
+                "changed": "1442413328", 
+                "created": "1442413328", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1451917636", 
+                "created": "1441207736", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "fr": {
+                "changed": "1447108427", 
+                "created": "1442759290", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }, 
+            "id": {
+                "changed": "1443693120", 
+                "created": "1443693120", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "km": {
+                "changed": "1452609857", 
+                "created": "1452609857", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443457107", 
+                "created": "1443457107", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441115896", 
+                "created": "1441115896", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1443805087", 
+                "created": "1443805087", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "th": {
+                "changed": "1444396529", 
+                "created": "1444396529", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "th", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "tr": {
+                "changed": "1443014757", 
+                "created": "1443014757", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1443093390", 
+                "created": "1443093390", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441104468", 
+                "created": "1441104468", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "1956", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1444578893", 
+                "created": "1443623275", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_how_to_booklet_chapter", 
+    "uid": "70", 
+    "uuid": "8355d317-18f9-4aa5-a7b0-3e34478c80f3", 
+    "vid": "13007", 
+    "vuuid": "c39a5dff-12ca-4b1e-aa05-2401c257eab6"
+}

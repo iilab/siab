@@ -1,0 +1,702 @@
+{
+    "changed": "1416962147", 
+    "comment": "0", 
+    "created": "1416962147", 
+    "current_revision_id": "3017", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_cg_translated_guide_title": {
+        "und": [
+            {
+                "vargs": "[node:nid]", 
+                "vname": "get_translated_guide_title|default"
+            }
+        ]
+    }, 
+    "field_edit_guide_link": [], 
+    "field_guide": {
+        "und": [
+            {
+                "changed": "1454366136", 
+                "comment": "0", 
+                "created": "1416749672", 
+                "current_revision_id": "13141", 
+                "data": "a:6:{s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";s:7:\"contact\";i:1;}", 
+                "field_htb_chapter_element": {
+                    "und": [
+                        {
+                            "changed": "1452602258", 
+                            "comment": "0", 
+                            "created": "1416749601", 
+                            "current_revision_id": "3982", 
+                            "data": "a:6:{s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";s:7:\"contact\";i:1;}", 
+                            "field_chapter_image_zero": [], 
+                            "field_chapter_text_zero": {
+                                "en": [
+                                    {
+                                        "format": "filtered_html", 
+                                        "safe_value": "<p>You can check the metadata of a photo by right-clicking on it and selecting <em>Properties</em>, or by using a metadata viewer software such as <a href=\"http://www.photome.de/download_en.html\">Photome</a>.</p>\n\n<p>You will see the following:</p>\n\n<ul><li><strong>GPS information</strong></li>\n</ul><table border=\"1\"><tr><th>Field</th>\n<th>Content</th>\n</tr><tr><td>GPS Tag Version</td>\n<td>Version 2.2</td>\n</tr><tr><td>North or South Latitude</td>\n<td>North Latitude</td>\n</tr><tr><td>Latitude</td>\n<td>50 28 07, 775</td>\n</tr><tr><td>East or west longitude</td>\n<td>East Longitude</td>\n</tr><tr><td>Longitude</td>\n<td>7 37 32, 75</td>\n\n</tr><tr><td>Atitude Reference</td>\n<td>Sea Level</td>\n</tr><tr><td>Altitude</td>\n<td>262 m</td>\n\n</tr></table><p>The above information can specify your exact location, which is in our example: <strong>1 km northwest of Nauort, Nauort, Westerwaldkreis, Germany, Europe.</strong></p>\n\n<ul><li><strong>Image information</strong></li>\n</ul><table border=\"1\"><tr><th>Field</th>\n<th>Content</th>\n</tr><tr><td>Manufacturer</td>\n<td>Nikon Corporation</td>\n</tr><tr><td>Image input euipment model</td>\n<td>Nikon D80</td>\n</tr><tr><td>File change date and time</td>\n<td>2007-05-20 11:19:41</td>\n</tr><tr><td>Image resolution in width and heigh direction</td>\n<td>300 dpi</td>\n</tr></table><p>In the example above, the metadata shows the exact location where the photo was taken, which device was used to take the photo, the time when the photo was taken, and other image specifications.</p>\n\n<p>These are just a sample of the data inlcuded in the image; it also includes further camera details, JPEG details and much more.</p>\n\n<p>You can prevent a specific kind of metadata like <strong>GPS</strong> location from being captured. For example:</p>\n\n<ol><li><p>Switching off wireless and gps location (under location services) and mobile data (this can be found under data manager -&gt; data delivery).</p></li>\n<li><p>When taking a photo, make sure that the settings of the tag-location from the photo app is off too.</p></li>\n</ol><p>Using tools like <a href=\"metanull/windows\"><strong>Metanull</strong></a>, you can ensure that all metadata is removed before you share it. This tool is discussed in details below.</p>\n\n<p><strong>Note:</strong> Some files like DOCs and PDFs can hold image files within them. If you aren't careful, you can scrub the metadata on the document that is holding the image, but the metadata for the embedded image is still there! Using metanull before adding the image to the DOC would remove all metadata from it beforehand.</p>\n\n<div class=\"getstarted\">\n\n<p>Hands-on: Get started with the <a href=\"metanull/windows\"><em>Metanull Guide</em></a></p>\n\n</div>\n", 
+                                        "value": "You can check the metadata of a photo by right-clicking on it and selecting *Properties*, or by using a metadata viewer software such as [Photome](http://www.photome.de/download_en.html).\r\n\r\nYou will see the following:\r\n\r\n- **GPS information**\r\n\r\n<table border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Field</th>\r\n<th>Content</th>\r\n</tr>\r\n<tr>\r\n<td>GPS Tag Version</td>\r\n<td>Version 2.2</td>\r\n</tr>\r\n<tr>\r\n<td>North or South Latitude</td>\r\n<td>North Latitude</td>\r\n</tr>\r\n<tr>\r\n<td>Latitude</td>\r\n<td>50 28 07, 775</td>\r\n</tr>\r\n<tr>\r\n<td>East or west longitude</td>\r\n<td>East Longitude</td>\r\n</tr>\r\n<tr>\r\n<td>Longitude</td>\r\n<td>7 37 32, 75</td>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>Atitude Reference</td>\r\n<td>Sea Level</td>\r\n</tr>\r\n<tr>\r\n<td>Altitude</td>\r\n<td>262 m</td>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\nThe above information can specify your exact location, which is in our example: **1 km northwest of Nauort, Nauort, Westerwaldkreis, Germany, Europe.**\r\n\r\n- **Image information**\r\n\r\n<table border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Field</th>\r\n<th>Content</th>\r\n</tr>\r\n<tr>\r\n<td>Manufacturer</td>\r\n<td>Nikon Corporation</td>\r\n</tr>\r\n<tr>\r\n<td>Image input euipment model</td>\r\n<td>Nikon D80</td>\r\n</tr>\r\n<tr>\r\n<td>File change date and time</td>\r\n<td>2007-05-20 11:19:41</td>\r\n</tr>\r\n<tr>\r\n<td>Image resolution in width and heigh direction</td>\r\n<td>300 dpi</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\nIn the example above, the metadata shows the exact location where the photo was taken, which device was used to take the photo, the time when the photo was taken, and other image specifications.\r\n\r\nThese are just a sample of the data inlcuded in the image; it also includes further camera details, JPEG details and much more.\r\n\r\nYou can prevent a specific kind of metadata like **GPS** location from being captured. For example:\r\n\r\n1. Switching off wireless and gps location (under location services) and mobile data (this can be found under data manager -> data delivery). \r\n\r\n2. When taking a photo, make sure that the settings of the tag-location from the photo app is off too. \r\n\r\nUsing tools like [**Metanull**](metanull/windows), you can ensure that all metadata is removed before you share it. This tool is discussed in details below.\r\n\r\n**Note:** Some files like DOCs and PDFs can hold image files within them. If you aren't careful, you can scrub the metadata on the document that is holding the image, but the metadata for the embedded image is still there! Using metanull before adding the image to the DOC would remove all metadata from it beforehand.\r\n\r\n<div class=getstarted markdown=1>\r\nHands-on: Get started with the [*Metanull Guide*](metanull/windows)\r\n</div>"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_content_level": {
+                                "und": [
+                                    {
+                                        "tid": "81"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_feature": [], 
+                            "field_htb_chapter_feature_bottom": [], 
+                            "field_htb_chapter_feature_top": {
+                                "und": [
+                                    {
+                                        "title": "Metanull image metadata removal for Windows", 
+                                        "url": "https://securityinabox.org/en/lgbti-mena/metanull/windows"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_image": [], 
+                            "field_htb_chapter_image_two": [], 
+                            "field_htb_chapter_text": [], 
+                            "field_htb_chapter_text_two": [], 
+                            "field_htb_translatable_title": {
+                                "en": [
+                                    {
+                                        "format": null, 
+                                        "safe_value": "Removing metadata from image files", 
+                                        "value": "Removing metadata from image files"
+                                    }
+                                ]
+                            }, 
+                            "field_number_of_columns": {
+                                "und": [
+                                    {
+                                        "tid": "99"
+                                    }
+                                ]
+                            }, 
+                            "is_current": true, 
+                            "is_pending": false, 
+                            "language": "en", 
+                            "log": "", 
+                            "menu_node_links": [], 
+                            "metatags": {
+                                "en": {
+                                    "robots": {
+                                        "value": {
+                                            "follow": 0, 
+                                            "index": 0, 
+                                            "noarchive": "noarchive", 
+                                            "nofollow": "nofollow", 
+                                            "noimageindex": "noimageindex", 
+                                            "noindex": "noindex", 
+                                            "noodp": "noodp", 
+                                            "nosnippet": "nosnippet", 
+                                            "notranslate": "notranslate", 
+                                            "noydir": "noydir"
+                                        }
+                                    }
+                                }
+                            }, 
+                            "name": "asta", 
+                            "nid": "1152", 
+                            "num_revisions": "4", 
+                            "path": "https://securityinabox.org/en/booklet-chapter-content/removing-metadata-image-files", 
+                            "picture": "0", 
+                            "print_html_display": 1, 
+                            "print_html_display_comment": 0, 
+                            "print_html_display_urllist": 1, 
+                            "print_pdf_display": 1, 
+                            "print_pdf_display_comment": 0, 
+                            "print_pdf_display_urllist": 1, 
+                            "print_pdf_orientation": "", 
+                            "print_pdf_size": "", 
+                            "promote": "0", 
+                            "revision_moderation": true, 
+                            "revision_timestamp": "1452602258", 
+                            "revision_uid": "1", 
+                            "status": "1", 
+                            "sticky": "0", 
+                            "title": "Removing metadata from image files", 
+                            "tnid": "0", 
+                            "translate": "0", 
+                            "translations": {
+                                "data": {
+                                    "en": {
+                                        "changed": "1425416891", 
+                                        "created": "1416749601", 
+                                        "entity_id": "1152", 
+                                        "entity_type": "node", 
+                                        "language": "en", 
+                                        "revision_id": null, 
+                                        "source": "", 
+                                        "status": "1", 
+                                        "translate": "0", 
+                                        "uid": "184"
+                                    }
+                                }, 
+                                "original": "en"
+                            }, 
+                            "type": "how_to_booklet_chapter_content", 
+                            "uid": "184", 
+                            "uuid": "8caeb919-ac60-4893-b152-300db9bb9927", 
+                            "vid": "3982", 
+                            "vuuid": "165e14bc-d84e-4e84-8a3a-6af41bee7052"
+                        }, 
+                        {
+                            "changed": "1452602258", 
+                            "comment": "0", 
+                            "created": "1416749451", 
+                            "current_revision_id": "2958", 
+                            "data": "a:6:{s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";s:7:\"contact\";i:1;}", 
+                            "field_chapter_image_zero": [], 
+                            "field_chapter_text_zero": {
+                                "en": [
+                                    {
+                                        "format": "filtered_html", 
+                                        "safe_value": "<p>As noted above, other commonly used file types such as Portable Document Files (PDFs) or word processing documents created by applications such as Microsoft Office or LibreOffice contain metadata which may include:</p>\n\n<ul><li>The username of the person who created a document</li>\n<li>The name of the person who most recently edited saved a document</li>\n<li>The date when a document was created and modified</li>\n</ul><p>In some cases, your document might also contain additional kinds of personally identifiable information such as such as the addresses, e-mail addresses, government ID, IP addresses, or any unique identifier associated with personally identifiable information in another program on your computer.</p>\n\n<p>Some of this information is easily accessible by viewing the file properties (which can be accessed by right clicking on the file icon and selecting <em>properties</em>). Other information or hidden data need specific softwares to be viewed. In any case, depending on your context, this information might put you at risk if you are working and exchanging sensitive information.</p>\n", 
+                                        "value": "As noted above, other commonly used file types such as Portable Document Files (PDFs) or word processing documents created by applications such as Microsoft Office or LibreOffice contain metadata which may include:\r\n\r\n- The username of the person who created a document\r\n- The name of the person who most recently edited saved a document\r\n- The date when a document was created and modified\r\n\r\nIn some cases, your document might also contain additional kinds of personally identifiable information such as such as the addresses, e-mail addresses, government ID, IP addresses, or any unique identifier associated with personally identifiable information in another program on your computer.\r\n\r\nSome of this information is easily accessible by viewing the file properties (which can be accessed by right clicking on the file icon and selecting *properties*). Other information or hidden data need specific softwares to be viewed. In any case, depending on your context, this information might put you at risk if you are working and exchanging sensitive information. \r\n"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_content_level": {
+                                "und": [
+                                    {
+                                        "tid": "81"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_feature": [], 
+                            "field_htb_chapter_feature_bottom": [], 
+                            "field_htb_chapter_feature_top": [], 
+                            "field_htb_chapter_image": [], 
+                            "field_htb_chapter_image_two": [], 
+                            "field_htb_chapter_text": [], 
+                            "field_htb_chapter_text_two": [], 
+                            "field_htb_translatable_title": {
+                                "en": [
+                                    {
+                                        "format": null, 
+                                        "safe_value": "Removing metadata from documents and other files", 
+                                        "value": "Removing metadata from documents and other files"
+                                    }
+                                ]
+                            }, 
+                            "field_number_of_columns": {
+                                "und": [
+                                    {
+                                        "tid": "99"
+                                    }
+                                ]
+                            }, 
+                            "is_current": true, 
+                            "is_pending": false, 
+                            "language": "en", 
+                            "log": "", 
+                            "menu_node_links": [], 
+                            "metatags": {
+                                "en": {
+                                    "robots": {
+                                        "value": {
+                                            "follow": 0, 
+                                            "index": 0, 
+                                            "noarchive": "noarchive", 
+                                            "nofollow": "nofollow", 
+                                            "noimageindex": "noimageindex", 
+                                            "noindex": "noindex", 
+                                            "noodp": "noodp", 
+                                            "nosnippet": "nosnippet", 
+                                            "notranslate": "notranslate", 
+                                            "noydir": "noydir"
+                                        }
+                                    }
+                                }
+                            }, 
+                            "name": "asta", 
+                            "nid": "1150", 
+                            "num_revisions": "1", 
+                            "path": "https://securityinabox.org/en/booklet-chapter-content/remove-metadata-documents", 
+                            "picture": "0", 
+                            "print_html_display": 1, 
+                            "print_html_display_comment": 0, 
+                            "print_html_display_urllist": 1, 
+                            "print_pdf_display": 1, 
+                            "print_pdf_display_comment": 0, 
+                            "print_pdf_display_urllist": 1, 
+                            "print_pdf_orientation": "", 
+                            "print_pdf_size": "", 
+                            "promote": "0", 
+                            "revision_moderation": true, 
+                            "revision_timestamp": "1452602258", 
+                            "revision_uid": "1", 
+                            "status": "1", 
+                            "sticky": "0", 
+                            "title": "Remove metadata from documents", 
+                            "tnid": "0", 
+                            "translate": "0", 
+                            "translations": {
+                                "data": {
+                                    "en": {
+                                        "changed": "1416749451", 
+                                        "created": "1416749451", 
+                                        "entity_id": "1150", 
+                                        "entity_type": "node", 
+                                        "language": "en", 
+                                        "revision_id": null, 
+                                        "source": "", 
+                                        "status": "1", 
+                                        "translate": "0", 
+                                        "uid": "184"
+                                    }
+                                }, 
+                                "original": "en"
+                            }, 
+                            "type": "how_to_booklet_chapter_content", 
+                            "uid": "184", 
+                            "uuid": "338aae7b-7731-4adb-aabc-e3eef326e7a3", 
+                            "vid": "2958", 
+                            "vuuid": "2f7d3661-1d59-4c0b-bb21-03ff29719484"
+                        }, 
+                        {
+                            "changed": "1452602258", 
+                            "comment": "0", 
+                            "created": "1416749542", 
+                            "current_revision_id": "2959", 
+                            "data": "a:6:{s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";s:7:\"contact\";i:1;}", 
+                            "field_chapter_image_zero": [], 
+                            "field_chapter_text_zero": {
+                                "en": [
+                                    {
+                                        "format": "filtered_html", 
+                                        "safe_value": "<p><strong>Windows</strong> or <strong>MAC OS</strong> users can use programs such as <strong>Adobe Acrobat XI Pro</strong> (for which a trial version is available) to remove or edit the hidden data from <strong>PDF</strong> files.</p>\n\n<p>Opening any PDF file with Acrobat will allow you to edit the metadata by going to <em>File</em> menu and then selecting <em>properties</em>. Here, you can modify the document author’s name, title, subject, keywords and any additional metadata. Regarding the creation time, modification time, type of device used for creation the file, and other hidden data you don't see, you can remove it by going to <em>Tools</em> menu, then <em>Protection</em>, and selecting <em>Remove hidden information</em>.</p>\n\n<p><strong>Note:</strong> For GNU/Linux users, <a href=\"https://live.gnome.org/PdfMod\"><em>PDF MOD</em></a> is a free and open source tool to edit and remove metadata from PDF files. However, it doesn't remove the creation or modification time, it also doesn't remove the type of device used for creating the PDF.</p>\n", 
+                                        "value": "**Windows** or **MAC OS** users can use programs such as **Adobe Acrobat XI Pro** (for which a trial version is available) to remove or edit the hidden data from **PDF** files.\r\n\r\nOpening any PDF file with Acrobat will allow you to edit the metadata by going to *File* menu and then selecting *properties*. Here, you can modify the document author’s name, title, subject, keywords and any additional metadata. Regarding the creation time, modification time, type of device used for creation the file, and other hidden data you don't see, you can remove it by going to *Tools* menu, then *Protection*, and selecting *Remove hidden information*. \r\n\r\n**Note:** For GNU/Linux users, [*PDF MOD*](https://live.gnome.org/PdfMod) is a free and open source tool to edit and remove metadata from PDF files. However, it doesn't remove the creation or modification time, it also doesn't remove the type of device used for creating the PDF.\r\n"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_content_level": {
+                                "und": [
+                                    {
+                                        "tid": "81"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_feature": [], 
+                            "field_htb_chapter_feature_bottom": [], 
+                            "field_htb_chapter_feature_top": [], 
+                            "field_htb_chapter_image": [], 
+                            "field_htb_chapter_image_two": [], 
+                            "field_htb_chapter_text": [], 
+                            "field_htb_chapter_text_two": [], 
+                            "field_htb_translatable_title": {
+                                "en": [
+                                    {
+                                        "format": null, 
+                                        "safe_value": "Removing metadata from PDF files", 
+                                        "value": "Removing metadata from PDF files"
+                                    }
+                                ]
+                            }, 
+                            "field_number_of_columns": {
+                                "und": [
+                                    {
+                                        "tid": "99"
+                                    }
+                                ]
+                            }, 
+                            "is_current": true, 
+                            "is_pending": false, 
+                            "language": "en", 
+                            "log": "", 
+                            "menu_node_links": [], 
+                            "metatags": {
+                                "en": {
+                                    "robots": {
+                                        "value": {
+                                            "follow": 0, 
+                                            "index": 0, 
+                                            "noarchive": "noarchive", 
+                                            "nofollow": "nofollow", 
+                                            "noimageindex": "noimageindex", 
+                                            "noindex": "noindex", 
+                                            "noodp": "noodp", 
+                                            "nosnippet": "nosnippet", 
+                                            "notranslate": "notranslate", 
+                                            "noydir": "noydir"
+                                        }
+                                    }
+                                }
+                            }, 
+                            "name": "asta", 
+                            "nid": "1151", 
+                            "num_revisions": "1", 
+                            "path": "https://securityinabox.org/en/booklet-chapter-content/remove-metadata-pdf", 
+                            "picture": "0", 
+                            "print_html_display": 1, 
+                            "print_html_display_comment": 0, 
+                            "print_html_display_urllist": 1, 
+                            "print_pdf_display": 1, 
+                            "print_pdf_display_comment": 0, 
+                            "print_pdf_display_urllist": 1, 
+                            "print_pdf_orientation": "", 
+                            "print_pdf_size": "", 
+                            "promote": "0", 
+                            "revision_moderation": true, 
+                            "revision_timestamp": "1452602258", 
+                            "revision_uid": "1", 
+                            "status": "1", 
+                            "sticky": "0", 
+                            "title": "Remove metadata from PDF", 
+                            "tnid": "0", 
+                            "translate": "0", 
+                            "translations": {
+                                "data": {
+                                    "en": {
+                                        "changed": "1416749542", 
+                                        "created": "1416749542", 
+                                        "entity_id": "1151", 
+                                        "entity_type": "node", 
+                                        "language": "en", 
+                                        "revision_id": null, 
+                                        "source": "", 
+                                        "status": "1", 
+                                        "translate": "0", 
+                                        "uid": "184"
+                                    }
+                                }, 
+                                "original": "en"
+                            }, 
+                            "type": "how_to_booklet_chapter_content", 
+                            "uid": "184", 
+                            "uuid": "dd15fe8d-1d96-46ab-91a0-0c9daf409c3f", 
+                            "vid": "2959", 
+                            "vuuid": "89255115-7b3c-4f63-8699-9f6c651408a3"
+                        }, 
+                        {
+                            "changed": "1452602258", 
+                            "comment": "0", 
+                            "created": "1416749646", 
+                            "current_revision_id": "2961", 
+                            "data": "a:6:{s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";s:7:\"contact\";i:1;}", 
+                            "field_chapter_image_zero": [], 
+                            "field_chapter_text_zero": {
+                                "en": [
+                                    {
+                                        "format": "filtered_html", 
+                                        "safe_value": "<p>In LibreOffice documents the metadata can be viewed by selecting the <em>File</em> menu, then <em>Properties</em>. Under the <em>General</em> tab you can click <em>Reset</em> to reset the general user data, such as total editing time and revision number. Also make sure the <em>Apply user data</em> checkbox on this screen is unchecked, so the name of the creator will be removed. When you are done, the next step is to go to the <em>Description</em> and the <em>Custom Properties</em> tabs to clear any data there that you don't want to appear. Lastly, click on the <em>Securit** tab and uncheck the *Record change</em> box if it's not unchecked by default.</p>\n\n<p><strong>Note:</strong></p>\n\n<ul><li><p>If you use the <em>Versions</em> feature, you can delete older versions of the document which may be stored there through going to the <em>File</em> menu and <em>Versions</em>.</p></li>\n<li><p>If you use the <em>Changes</em> feature, go to the <em>Edit</em> menu then <em>Changes</em> to <em>Accept or reject</em> in order to clear the data relating to changes made to the document over time, if you no longer need this information.</p></li>\n</ul><h2>Other Strategies for scrubbing metadata</h2>\n\n<ol><li><p>Some file types contain more metadata than others, so if you don't want to play around with software, and the formatting of a file doesn't matter, you can change files from ones that contain a lot of metadata (such as .DOCs and .JPEGs for example) to ones that don't (.TXTs and .PNGs for example)</p></li>\n<li><p>Avoid using your real name, address, company or organisation name when registering copies of software such as Microsoft Office, Open Office, Libre Office, Adobe Acrobat and others. If you must give a name or address, use a fake one.</p></li>\n</ol>", 
+                                        "value": "In LibreOffice documents the metadata can be viewed by selecting the *File* menu, then *Properties*. Under the *General* tab you can click *Reset* to reset the general user data, such as total editing time and revision number. Also make sure the *Apply user data* checkbox on this screen is unchecked, so the name of the creator will be removed. When you are done, the next step is to go to the *Description* and the *Custom Properties* tabs to clear any data there that you don't want to appear. Lastly, click on the *Securit** tab and uncheck the *Record change* box if it's not unchecked by default. \r\n\r\n\r\n**Note:** \r\n\r\n- If you use the *Versions* feature, you can delete older versions of the document which may be stored there through going to the *File* menu and *Versions*.\r\n\r\n- If you use the *Changes* feature, go to the *Edit* menu then *Changes* to *Accept or reject* in order to clear the data relating to changes made to the document over time, if you no longer need this information.\r\n\r\n## Other Strategies for scrubbing metadata ##\r\n\r\n1. Some file types contain more metadata than others, so if you don't want to play around with software, and the formatting of a file doesn't matter, you can change files from ones that contain a lot of metadata (such as .DOCs and .JPEGs for example) to ones that don't (.TXTs and .PNGs for example)\r\n\r\n2. Avoid using your real name, address, company or organisation name when registering copies of software such as Microsoft Office, Open Office, Libre Office, Adobe Acrobat and others. If you must give a name or address, use a fake one. \r\n"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_content_level": {
+                                "und": [
+                                    {
+                                        "tid": "81"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_feature": [], 
+                            "field_htb_chapter_feature_bottom": [], 
+                            "field_htb_chapter_feature_top": [], 
+                            "field_htb_chapter_image": [], 
+                            "field_htb_chapter_image_two": [], 
+                            "field_htb_chapter_text": [], 
+                            "field_htb_chapter_text_two": [], 
+                            "field_htb_translatable_title": {
+                                "en": [
+                                    {
+                                        "format": null, 
+                                        "safe_value": "Removing metadata from LibreOffice documents", 
+                                        "value": "Removing metadata from LibreOffice documents"
+                                    }
+                                ]
+                            }, 
+                            "field_number_of_columns": {
+                                "und": [
+                                    {
+                                        "tid": "99"
+                                    }
+                                ]
+                            }, 
+                            "is_current": true, 
+                            "is_pending": false, 
+                            "language": "en", 
+                            "log": "", 
+                            "menu_node_links": [], 
+                            "metatags": {
+                                "en": {
+                                    "robots": {
+                                        "value": {
+                                            "follow": 0, 
+                                            "index": 0, 
+                                            "noarchive": "noarchive", 
+                                            "nofollow": "nofollow", 
+                                            "noimageindex": "noimageindex", 
+                                            "noindex": "noindex", 
+                                            "noodp": "noodp", 
+                                            "nosnippet": "nosnippet", 
+                                            "notranslate": "notranslate", 
+                                            "noydir": "noydir"
+                                        }
+                                    }
+                                }
+                            }, 
+                            "name": "asta", 
+                            "nid": "1153", 
+                            "num_revisions": "1", 
+                            "path": "https://securityinabox.org/en/booklet-chapter-content/remove-metadata-libre-office", 
+                            "picture": "0", 
+                            "print_html_display": 1, 
+                            "print_html_display_comment": 0, 
+                            "print_html_display_urllist": 1, 
+                            "print_pdf_display": 1, 
+                            "print_pdf_display_comment": 0, 
+                            "print_pdf_display_urllist": 1, 
+                            "print_pdf_orientation": "", 
+                            "print_pdf_size": "", 
+                            "promote": "0", 
+                            "revision_moderation": true, 
+                            "revision_timestamp": "1452602258", 
+                            "revision_uid": "1", 
+                            "status": "1", 
+                            "sticky": "0", 
+                            "title": "Remove metadata from libre office", 
+                            "tnid": "0", 
+                            "translate": "0", 
+                            "translations": {
+                                "data": {
+                                    "en": {
+                                        "changed": "1416749646", 
+                                        "created": "1416749646", 
+                                        "entity_id": "1153", 
+                                        "entity_type": "node", 
+                                        "language": "en", 
+                                        "revision_id": null, 
+                                        "source": "", 
+                                        "status": "1", 
+                                        "translate": "0", 
+                                        "uid": "184"
+                                    }
+                                }, 
+                                "original": "en"
+                            }, 
+                            "type": "how_to_booklet_chapter_content", 
+                            "uid": "184", 
+                            "uuid": "aae3987f-befd-41b4-84fc-25bb8b44e80a", 
+                            "vid": "2961", 
+                            "vuuid": "0da90fe9-8c96-4f41-92e6-acae9a0c2730"
+                        }
+                    ]
+                }, 
+                "field_htb_further_reading": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>For more information on metadata removal tools, have a look at the following:</p>\n\n<p><a href=\"https://en.wikipedia.org/wiki/Comparison_of_metadata_editors\"><em>Comparison of metadata editors</em></a></p>\n", 
+                            "value": "For more information on metadata removal tools, have a look at the following:\r\n\r\n[*Comparison of metadata editors*](https://en.wikipedia.org/wiki/Comparison_of_metadata_editors)"
+                        }
+                    ]
+                }, 
+                "field_htb_introduction": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>Metadata is information about a file (such as a word document, a PDF, a picture, music file etc.) that is stored within the file itself. This information can include the time and date a file was created, the username of the people who created or edited it, information about the device that created it, and other kinds of information. As a result of this, the metadata in a file could tell someone who created a file, on what computer or device, when, and in what location.</p>\n\n<p>While this information is generated automatically by many devices (like cameras, computers, and phones) it can be edited and manipulated by those who know where to look. This can also be a good thing, as it means you can take control over the metadata you choose to share when you share files.</p>\n\n<p>Let's take pictures as an example. When you take a picture with your digital camera, what happens? If your camera or phone knows where you are, then that information (in the form of GPS coordinates) can be saved in the metadata of the file. If your camera knows what time it is, it records the date and time the picture was taken. If your camera or phone has a serial number that may be recorded in metadata as well. Digital image file formats such as TIFF (Tagged Image File Format) and JPEG (Joint Photographic Experts Group) created by digital cameras or smartphones, contain metadata in a format called EXIF (Exchangeable image file format) which could include all of the above information and even a thumbnail of the original image.</p>\n\n<p>Other files such as text documents include metadata too. A text document's metadata, for example, may contain information about how long the document is, who the author is, when the document was written, and a short summary of the document.</p>\n\n<p>Metadata can be very useful in helping to organise non-sensitive information. For those who share sensitive or media widely, however, unknowingly attaching information to files can be very dangerous. If you take a picture of a police officer doing something illegal, and share it on the internet without taking care to scrub metadata from the file first, the data may be used to identify who took the picture (in this case, you).</p>\n\n<p>In order to ensure that this won't happen, it's important to learn how to \"scrub\" or remove metadata from files when necessary. In part, we have to rely on a special software that removes metadata securely from files. <a href=\"../metanull/windows\"><em>Metanull</em></a> removes metadata from images, is one such tool, and is discussed below. Furthermore, there are many non-technical, but rather behavioural, ways that we can stop meta-data getting into files in the first place.</p>\n", 
+                            "value": "Metadata is information about a file (such as a word document, a PDF, a picture, music file etc.) that is stored within the file itself. This information can include the time and date a file was created, the username of the people who created or edited it, information about the device that created it, and other kinds of information. As a result of this, the metadata in a file could tell someone who created a file, on what computer or device, when, and in what location.\r\n\r\nWhile this information is generated automatically by many devices (like cameras, computers, and phones) it can be edited and manipulated by those who know where to look. This can also be a good thing, as it means you can take control over the metadata you choose to share when you share files. \r\n\r\nLet's take pictures as an example. When you take a picture with your digital camera, what happens? If your camera or phone knows where you are, then that information (in the form of GPS coordinates) can be saved in the metadata of the file. If your camera knows what time it is, it records the date and time the picture was taken. If your camera or phone has a serial number that may be recorded in metadata as well. Digital image file formats such as TIFF (Tagged Image File Format) and JPEG (Joint Photographic Experts Group) created by digital cameras or smartphones, contain metadata in a format called EXIF (Exchangeable image file format) which could include all of the above information and even a thumbnail of the original image. \r\n\r\nOther files such as text documents include metadata too. A text document's metadata, for example, may contain information about how long the document is, who the author is, when the document was written, and a short summary of the document.\r\n\r\nMetadata can be very useful in helping to organise non-sensitive information. For those who share sensitive or media widely, however, unknowingly attaching information to files can be very dangerous. If you take a picture of a police officer doing something illegal, and share it on the internet without taking care to scrub metadata from the file first, the data may be used to identify who took the picture (in this case, you). \r\n\r\nIn order to ensure that this won't happen, it's important to learn how to \"scrub\" or remove metadata from files when necessary. In part, we have to rely on a special software that removes metadata securely from files. [*Metanull*](../metanull/windows) removes metadata from images, is one such tool, and is discussed below. Furthermore, there are many non-technical, but rather behavioural, ways that we can stop meta-data getting into files in the first place."
+                        }
+                    ]
+                }, 
+                "field_htb_learning_goals": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to remove or edit the metadata from files such as image files</p>\n", 
+                            "value": "How to remove or edit the metadata from files such as image files"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to upload photos on the internet without revealing the hidden data in it</p>\n", 
+                            "value": "How to upload photos on the internet without revealing the hidden data in it"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to prevent adding metadata to your files</p>\n", 
+                            "value": "How to prevent adding metadata to your files"
+                        }
+                    ]
+                }, 
+                "field_htb_required_reading_link": {
+                    "und": [
+                        {
+                            "vargs": "[node:nid]", 
+                            "vname": "get_htb_pointer|default"
+                        }
+                    ]
+                }, 
+                "field_htb_translatable_title": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "How to remove hidden information from files", 
+                            "value": "How to remove hidden information from files"
+                        }
+                    ]
+                }, 
+                "field_summary": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "Delete metadata effectively ", 
+                            "value": "Delete metadata effectively "
+                        }
+                    ]
+                }, 
+                "is_current": true, 
+                "is_pending": false, 
+                "language": "en", 
+                "log": "", 
+                "menu_node_links": [], 
+                "name": "asta", 
+                "nid": "1154", 
+                "num_revisions": "6", 
+                "path": "https://securityinabox.org/en/how-to/remove-hidden-information-files", 
+                "picture": "0", 
+                "print_html_display": 1, 
+                "print_html_display_comment": 0, 
+                "print_html_display_urllist": 1, 
+                "print_pdf_display": 1, 
+                "print_pdf_display_comment": 0, 
+                "print_pdf_display_urllist": 1, 
+                "print_pdf_orientation": null, 
+                "print_pdf_size": null, 
+                "promote": "0", 
+                "revision_moderation": true, 
+                "revision_timestamp": "1454366136", 
+                "revision_uid": "1", 
+                "status": "1", 
+                "sticky": "0", 
+                "title": "Remove metadata", 
+                "tnid": "0", 
+                "translate": "0", 
+                "translations": {
+                    "data": {
+                        "en": {
+                            "changed": "1454366136", 
+                            "created": "1416749672", 
+                            "entity_id": "1154", 
+                            "entity_type": "node", 
+                            "language": "en", 
+                            "revision_id": "1154", 
+                            "source": "", 
+                            "status": "1", 
+                            "translate": "0", 
+                            "uid": "184"
+                        }
+                    }, 
+                    "original": "en"
+                }, 
+                "type": "how_to_booklet_chapter", 
+                "uid": "184", 
+                "uuid": "0fd479a1-d78a-4df7-9acb-e7e53c291422", 
+                "vid": "13141", 
+                "vuuid": "d85c78a2-2aff-4610-be01-6af291e4fac0"
+            }
+        ]
+    }, 
+    "field_guide_snippets": [], 
+    "field_hog_categories": [], 
+    "field_htb_categories": {
+        "en": [
+            {
+                "tid": "93"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "en": [
+            {
+                "format": null, 
+                "safe_value": "Remove metadata from files", 
+                "value": "Remove metadata from files"
+            }
+        ]
+    }, 
+    "field_relevant_community": {
+        "en": [
+            {
+                "title": "For the LGBTI community in the Middle East and North Africa", 
+                "value": "lgbti mena"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "20"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "20"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "en", 
+    "log": "", 
+    "menu_node_links": [], 
+    "name": "chris", 
+    "nid": "1186", 
+    "num_revisions": "1", 
+    "path": "https://securityinabox.org/en/lgbti-mena/remove-metadata", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1416962147", 
+    "revision_uid": "70", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": "01-remove-metadata", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "en": {
+                "changed": "1416962147", 
+                "created": "1416962147", 
+                "entity_id": "1186", 
+                "entity_type": "node", 
+                "language": "en", 
+                "revision_id": null, 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }
+        }, 
+        "original": "en"
+    }, 
+    "type": "community_guide", 
+    "uid": "70", 
+    "uuid": "8502e741-d825-40da-9628-106a9c241539", 
+    "vid": "3017", 
+    "vuuid": "71035a9d-0bc6-421d-94c5-03284c995298"
+}

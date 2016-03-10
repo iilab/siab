@@ -1,0 +1,1551 @@
+{
+    "body": {
+        "zh-hans": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>\u7f51\u7ad9</strong></p>\n\n<ul><li><a href=\"http://gpg4usb.cpunk.de/\"><strong>http://gpg4usb.cpunk.de/</strong></a></li>\n</ul><p><strong>\u8ba1\u7b97\u673a\u7cfb\u7edf\u8981\u6c42</strong></p>\n\n<ul><li>\u6240\u6709Windows\u7248\u672c</li>\n</ul><p><strong>\u672c\u6307\u5357\u4e2d\u6240\u4f7f\u7528\u7684\u7248\u672c</strong></p>\n\n<ul><li>0.3.1</li>\n</ul><p><strong>\u6388\u6743\u8bf4\u660e</strong></p>\n\n<ul><li>\u514d\u8d39\u5f00\u6e90\u8f6f\u4ef6</li>\n</ul><p><strong>\u8bf7\u5148\u9605\u8bfb</strong></p>\n\n<ul><li><p>\u6307\u5f15\u624b\u518c <a href=\"/chapter-7\">**7. \u4fdd\u6301\u4f60\u4e92\u8054\u7f51\u901a\u8baf\u7684\u79c1\u5bc6\u6027 **</a></p></li>\n<li><p><a href=\"https://www.frontlinedefenders.org/esecman\">**\u4eba\u6743\u536b\u58eb\u7684\u6570\u5b57\u5b89\u5168\u79c1\u5bc6 **</a>, chapter <strong>2.4 \u52a0\u5bc6\u6280\u672f \u2013\u516c\u94a5\u52a0\u5bc6 (page 38)</strong></p></li>\n</ul><p><strong>\u9002\u7528\u6c34\u5e73</strong>: 1: \u5165\u95e8, <strong>2: \u4e00\u822c</strong> 3: \u4e2d\u7b49, 4: \u6709\u7ecf\u9a8c\u7684, 5: \u9ad8\u7ea7\u4f7f\u7528\u8005</p>\n\n<p>**\u4f7f\u7528\u6b64\u5de5\u5177\u9700\u8981\u7684\u5b66\u4e60\u65f6\u95f4 **: 20 \u5206\u949f</p>\n\n<p><strong>\u4f60\u4f1a\u83b7\u5f97\u5982\u4e0b\u6280\u80fd</strong>:</p>\n\n<ul><li>\u53ef\u4ee5\u5728\u4efb\u4f55\u5730\u65b9\u52a0\u5bc6\u6587\u4ef6 (\u6bd4\u5982\u5728\u7f51\u5427\u6216\u662f\u529e\u516c\u5ba4) </li>\n<li>\u53ef\u4ee5\u5728 <em>\u79bb\u7ebf</em> \u72b6\u6001\u4e0b\u52a0\u5bc6\u4fe1\u606f\u7136\u540e\u5728\u8fde\u63a5\u5230\u4e92\u8054\u7f51\u65f6\u518d\u53d1\u9001.</li>\n</ul><h2>1.1\u5f00\u59cb\u524d,\u60a8\u6240\u9700\u8981\u77e5\u9053\u7684</h2>\n\n<p><strong>gpg4usb</strong>\u662f\u4e00\u4e2a\u7b80\u5355,\u5c0f\u5de7,\u7eff\u8272\u7684\u8f6f\u4ef6,\u5b83\u53ef\u4ee5\u7528\u6765\u52a0\u5bc6\u3001\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f\u4ee5\u53ca\u6587\u4ef6.<strong>gpg4usb</strong>\u57fa\u4e8e\u516c\u94a5\u52a0\u5bc6\u6280\u672f,\u901a\u8fc7\u8fd9\u79cd\u6280\u672f,\u6bcf\u4e2a\u4f7f\u7528\u8005\u9700\u8981\u521b\u5efa\u4ed6\u7684\u4e2a\u4eba\u5bc6\u94a5\u5bf9.\u7b2c\u4e00\u4e2a\u5bc6\u94a5\u662f\u516c\u94a5,\u7b2c\u4e00\u79cd\u5bc6\u94a5\u53eb\u505a\u4e2a\u4eba\u5bc6\u94a5,\u5b83\u901a\u8fc7\u67d0\u4e2a\u5bc6\u7801\u6216\u8005\u53e3\u4ee4\u7b49\u5b9e\u884c\u4fdd\u62a4,\u8fd9\u4e2a\u5bc6\u7801<em>\u7edd\u4e0d\u80fd</em>\u548c\u5176\u4ed6\u4eba\u5206\u4eab.</p>\n\n<p>\u7b2c\u4e8c\u79cd\u5bc6\u94a5\u53eb\u505a<em>\u516c\u5171\u5bc6\u94a5</em>,\u5b83\u662f\u4e00\u79cd\u53ef\u516c\u5f00\u7684\u5bc6\u94a5.\u60a8\u53ef\u4ee5\u540c\u4efb\u610f\u7684\u8054\u7cfb\u4eba\u5171\u4eab\u516c\u94a5,\u4efb\u4f55\u60a8\u7684\u8054\u7cfb\u4eba\u4e5f\u53ef\u4ee5\u4e0e\u60a8\u5171\u4eab.\u5982\u679c\u60a8\u77e5\u9053\u67d0\u4e2a\u7528\u6237\u7684<em>\u516c\u5171\u5bc6\u94a5</em>\u7684\u8bdd,\u60a8\u5c31\u53ef\u4ee5\u7ed9\u8fd9\u4e2a\u4eba\u53d1\u9001\u52a0\u5bc6\u7684\u7535\u5b50\u90ae\u4ef6.\u4f46\u662f,\u53ea\u6709\u5979\u4e00\u4e2a\u4eba\u53ef\u4ee5\u89e3\u5bc6\u5e76\u9605\u8bfb\u60a8\u7684\u90ae\u4ef6,\u56e0\u4e3a\u5979\u662f\u552f\u4e00\u5339\u914d\u7684<em>\u4e2a\u4eba\u5bc6\u94a5</em>.</p>\n\n<p>\u540c\u6837,\u5982\u679c\u60a8\u628a\u81ea\u5df1\u7684<em>\u516c\u5171\u5bc6\u94a5</em>\u5206\u4eab\u7ed9\u90ae\u4ef6\u8054\u7cfb\u4eba,\u5e76\u4e14\u4f7f\u5339\u914d\u7684<em>\u4e2a\u4eba\u5bc6\u94a5</em>\u4fdd\u5bc6,\u90a3\u4e48\u53ea\u6709\u60a8\u53ef\u4ee5\u9605\u8bfb\u6765\u81ea\u8fd9\u4e9b\u8054\u7cfb\u4eba\u7684\u52a0\u5bc6\u4fe1\u606f.</p>\n\n<p>\u4e5f\u53ef\u4ee5\u7ed9\u60a8\u7684\u90ae\u4ef6\u9644\u4e0a\u6570\u5b57\u7b7e\u540d.\u5982\u679c\u6536\u4fe1\u4eba\u6709\u4e00\u4efd\u60a8\u7684\u6709\u6548\u516c\u5171\u5bc6\u94a5\u7684\u8bdd,\u4ed6\u5c31\u53ef\u4ee5\u77e5\u9053\u8fd9\u5c01\u90ae\u4ef6\u7684\u6765\u6e90,\u5e76\u4e14\u5176\u5185\u5bb9\u4e5f\u4e0d\u4f1a\u5728\u53d1\u9001\u9014\u4e2d\u88ab\u7be1\u6539.\u540c\u6837,\u5982\u679c\u60a8\u6709\u53e6\u4e00\u4e2a\u4eba\u7684\u516c\u5171\u5bc6\u94a5\u7684\u8bdd,\u60a8\u4e5f\u53ef\u4ee5\u8bc6\u522b\u5979\u4fe1\u606f\u4e0a\u7684\u6570\u5b57\u7b7e\u540d.</p>\n\n<p>\u60a8\u53ef\u4ee5\u901a\u8fc7<strong>gpg4usb</strong>\u5efa\u7acb\u52a0\u5bc6\u7684\u5bc6\u94a5\u5bf9,\u5bfc\u51fa\u516c\u94a5\u5bf9\u4ee5\u4fbf\u4e0e\u4ed6\u4eba\u5171\u4eab,\u521b\u5efa\u5e76\u52a0\u5bc6\u6587\u672c\u6587\u4ef6.\u60a8\u4e5f\u540c\u6837\u53ef\u4ee5\u5c06\u516c\u94a5\u6216\u8005\u52a0\u5bc6\u4fe1\u606f\u4ece<strong>gpg4usb</strong>\u7c98\u8d34\u81f3\u60a8\u7684\u90ae\u4ef6\u4e2d,\u6216\u8005\u4fdd\u5b58\u4e3a\u6587\u672c\u4ee5\u4fbf\u4ee5\u540e\u4f7f\u7528.\u6587\u4ef6\u4ee5\u53ca\u6587\u6863\u4e5f\u540c\u6837\u53ef\u4ee5\u88ab\u52a0\u5bc6.</p>\n\n<p><strong>\u6ce8\u610f</strong>:\u6ce8\u610f\u539f\u6587\u4ef6,\u5373\u672a\u52a0\u5bc6\u7248\u672c\u7684\u6587\u4ef6\u4ee5\u53ca\u6587\u6863\u4ecd\u7136\u4f1a\u7559\u5728\u60a8\u7684\u7535\u8111\u4e2d,\u6240\u4ee5\u5fc5\u8981\u65f6\u8bf7\u901a\u77e5\u60a8\u7684\u8054\u7cfb\u4eba\u5220\u9664\u5b83\u4eec.</p>\n\n<p><strong>gpg4usb</strong>\u53ef\u4ee5\u901a\u7528\u4e8e\u5176\u4ed6<strong>GPG</strong> \u6216\u8005<strong>PGP</strong>\u7a0b\u5e8f,\u7528\u6765\u4e92\u6362\u5bc6\u94a5\u4ee5\u53ca\u52a0\u5bc6\u4fe1\u606f.</p>\n", 
+                "summary": "", 
+                "value": "**\u7f51\u7ad9**\r\n\r\n- [**http://gpg4usb.cpunk.de/**](http://gpg4usb.cpunk.de/)\r\n\r\n**\u8ba1\u7b97\u673a\u7cfb\u7edf\u8981\u6c42**\r\n\r\n- \u6240\u6709Windows\u7248\u672c\r\n\r\n**\u672c\u6307\u5357\u4e2d\u6240\u4f7f\u7528\u7684\u7248\u672c**\r\n\r\n- 0.3.1\r\n\r\n**\u6388\u6743\u8bf4\u660e**\r\n\r\n- \u514d\u8d39\u5f00\u6e90\u8f6f\u4ef6\r\n\r\n**\u8bf7\u5148\u9605\u8bfb**\r\n\r\n- \u6307\u5f15\u624b\u518c [**7. \u4fdd\u6301\u4f60\u4e92\u8054\u7f51\u901a\u8baf\u7684\u79c1\u5bc6\u6027 **](/chapter-7)\r\n\r\n- [**\u4eba\u6743\u536b\u58eb\u7684\u6570\u5b57\u5b89\u5168\u79c1\u5bc6 **](https://www.frontlinedefenders.org/esecman), chapter **2.4 \u52a0\u5bc6\u6280\u672f \u2013\u516c\u94a5\u52a0\u5bc6 (page 38)**\r\n\r\n**\u9002\u7528\u6c34\u5e73**: 1: \u5165\u95e8, **2: \u4e00\u822c** 3: \u4e2d\u7b49, 4: \u6709\u7ecf\u9a8c\u7684, 5: \u9ad8\u7ea7\u4f7f\u7528\u8005\r\n\r\n**\u4f7f\u7528\u6b64\u5de5\u5177\u9700\u8981\u7684\u5b66\u4e60\u65f6\u95f4 **: 20 \u5206\u949f\r\n\r\n**\u4f60\u4f1a\u83b7\u5f97\u5982\u4e0b\u6280\u80fd**:\r\n\r\n- \u53ef\u4ee5\u5728\u4efb\u4f55\u5730\u65b9\u52a0\u5bc6\u6587\u4ef6 (\u6bd4\u5982\u5728\u7f51\u5427\u6216\u662f\u529e\u516c\u5ba4) \r\n- \u53ef\u4ee5\u5728 *\u79bb\u7ebf* \u72b6\u6001\u4e0b\u52a0\u5bc6\u4fe1\u606f\u7136\u540e\u5728\u8fde\u63a5\u5230\u4e92\u8054\u7f51\u65f6\u518d\u53d1\u9001.\r\n\r\n## 1.1\u5f00\u59cb\u524d,\u60a8\u6240\u9700\u8981\u77e5\u9053\u7684 ##\r\n\r\n**gpg4usb**\u662f\u4e00\u4e2a\u7b80\u5355,\u5c0f\u5de7,\u7eff\u8272\u7684\u8f6f\u4ef6,\u5b83\u53ef\u4ee5\u7528\u6765\u52a0\u5bc6\u3001\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f\u4ee5\u53ca\u6587\u4ef6.**gpg4usb**\u57fa\u4e8e\u516c\u94a5\u52a0\u5bc6\u6280\u672f,\u901a\u8fc7\u8fd9\u79cd\u6280\u672f,\u6bcf\u4e2a\u4f7f\u7528\u8005\u9700\u8981\u521b\u5efa\u4ed6\u7684\u4e2a\u4eba\u5bc6\u94a5\u5bf9.\u7b2c\u4e00\u4e2a\u5bc6\u94a5\u662f\u516c\u94a5,\u7b2c\u4e00\u79cd\u5bc6\u94a5\u53eb\u505a\u4e2a\u4eba\u5bc6\u94a5,\u5b83\u901a\u8fc7\u67d0\u4e2a\u5bc6\u7801\u6216\u8005\u53e3\u4ee4\u7b49\u5b9e\u884c\u4fdd\u62a4,\u8fd9\u4e2a\u5bc6\u7801*\u7edd\u4e0d\u80fd*\u548c\u5176\u4ed6\u4eba\u5206\u4eab.\r\n\r\n\u7b2c\u4e8c\u79cd\u5bc6\u94a5\u53eb\u505a*\u516c\u5171\u5bc6\u94a5*,\u5b83\u662f\u4e00\u79cd\u53ef\u516c\u5f00\u7684\u5bc6\u94a5.\u60a8\u53ef\u4ee5\u540c\u4efb\u610f\u7684\u8054\u7cfb\u4eba\u5171\u4eab\u516c\u94a5,\u4efb\u4f55\u60a8\u7684\u8054\u7cfb\u4eba\u4e5f\u53ef\u4ee5\u4e0e\u60a8\u5171\u4eab.\u5982\u679c\u60a8\u77e5\u9053\u67d0\u4e2a\u7528\u6237\u7684*\u516c\u5171\u5bc6\u94a5*\u7684\u8bdd,\u60a8\u5c31\u53ef\u4ee5\u7ed9\u8fd9\u4e2a\u4eba\u53d1\u9001\u52a0\u5bc6\u7684\u7535\u5b50\u90ae\u4ef6.\u4f46\u662f,\u53ea\u6709\u5979\u4e00\u4e2a\u4eba\u53ef\u4ee5\u89e3\u5bc6\u5e76\u9605\u8bfb\u60a8\u7684\u90ae\u4ef6,\u56e0\u4e3a\u5979\u662f\u552f\u4e00\u5339\u914d\u7684*\u4e2a\u4eba\u5bc6\u94a5*.\r\n\r\n\u540c\u6837,\u5982\u679c\u60a8\u628a\u81ea\u5df1\u7684*\u516c\u5171\u5bc6\u94a5*\u5206\u4eab\u7ed9\u90ae\u4ef6\u8054\u7cfb\u4eba,\u5e76\u4e14\u4f7f\u5339\u914d\u7684*\u4e2a\u4eba\u5bc6\u94a5*\u4fdd\u5bc6,\u90a3\u4e48\u53ea\u6709\u60a8\u53ef\u4ee5\u9605\u8bfb\u6765\u81ea\u8fd9\u4e9b\u8054\u7cfb\u4eba\u7684\u52a0\u5bc6\u4fe1\u606f.\r\n\r\n\u4e5f\u53ef\u4ee5\u7ed9\u60a8\u7684\u90ae\u4ef6\u9644\u4e0a\u6570\u5b57\u7b7e\u540d.\u5982\u679c\u6536\u4fe1\u4eba\u6709\u4e00\u4efd\u60a8\u7684\u6709\u6548\u516c\u5171\u5bc6\u94a5\u7684\u8bdd,\u4ed6\u5c31\u53ef\u4ee5\u77e5\u9053\u8fd9\u5c01\u90ae\u4ef6\u7684\u6765\u6e90,\u5e76\u4e14\u5176\u5185\u5bb9\u4e5f\u4e0d\u4f1a\u5728\u53d1\u9001\u9014\u4e2d\u88ab\u7be1\u6539.\u540c\u6837,\u5982\u679c\u60a8\u6709\u53e6\u4e00\u4e2a\u4eba\u7684\u516c\u5171\u5bc6\u94a5\u7684\u8bdd,\u60a8\u4e5f\u53ef\u4ee5\u8bc6\u522b\u5979\u4fe1\u606f\u4e0a\u7684\u6570\u5b57\u7b7e\u540d.\r\n\r\n\u60a8\u53ef\u4ee5\u901a\u8fc7**gpg4usb**\u5efa\u7acb\u52a0\u5bc6\u7684\u5bc6\u94a5\u5bf9,\u5bfc\u51fa\u516c\u94a5\u5bf9\u4ee5\u4fbf\u4e0e\u4ed6\u4eba\u5171\u4eab,\u521b\u5efa\u5e76\u52a0\u5bc6\u6587\u672c\u6587\u4ef6.\u60a8\u4e5f\u540c\u6837\u53ef\u4ee5\u5c06\u516c\u94a5\u6216\u8005\u52a0\u5bc6\u4fe1\u606f\u4ece**gpg4usb**\u7c98\u8d34\u81f3\u60a8\u7684\u90ae\u4ef6\u4e2d,\u6216\u8005\u4fdd\u5b58\u4e3a\u6587\u672c\u4ee5\u4fbf\u4ee5\u540e\u4f7f\u7528.\u6587\u4ef6\u4ee5\u53ca\u6587\u6863\u4e5f\u540c\u6837\u53ef\u4ee5\u88ab\u52a0\u5bc6.\r\n\r\n**\u6ce8\u610f**:\u6ce8\u610f\u539f\u6587\u4ef6,\u5373\u672a\u52a0\u5bc6\u7248\u672c\u7684\u6587\u4ef6\u4ee5\u53ca\u6587\u6863\u4ecd\u7136\u4f1a\u7559\u5728\u60a8\u7684\u7535\u8111\u4e2d,\u6240\u4ee5\u5fc5\u8981\u65f6\u8bf7\u901a\u77e5\u60a8\u7684\u8054\u7cfb\u4eba\u5220\u9664\u5b83\u4eec.\r\n\r\n**gpg4usb**\u53ef\u4ee5\u901a\u7528\u4e8e\u5176\u4ed6**GPG** \u6216\u8005**PGP**\u7a0b\u5e8f,\u7528\u6765\u4e92\u6362\u5bc6\u94a5\u4ee5\u53ca\u52a0\u5bc6\u4fe1\u606f.\r\n"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2055", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2055", 
+        "link_title": "gpg4usb - email text and files encryption", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5201", 
+        "module": "book", 
+        "nid": "2055", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5201", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "gpg4usb - email text and files encryption", 
+        "updated": "0", 
+        "weight": "-2"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "zh-hans": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>\u672c\u9875\u7684\u9879\u76ee\u5217\u8868:</p>\n\n<ul><li><a href=\"#2.0\"><strong>2.0 \u5982\u4f55\u5b89\u88c5 gpg4usb</strong></a></li>\n</ul><h2>- <a href=\"#2.1\"><strong>2.1\u5982\u4f55\u4f7f\u7528 gpg4usb \u751f\u6210\u5bc6\u94a5\u5bf9</strong></a></h2>\n\n<p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>2.0 \u5982\u4f55\u5b89\u88c5 gpg4usb</h2>\n\n<p>\u5b89\u88c5<strong>gpg4usb</strong>\u7b80\u5355\u6613\u884c; \u8bf7\u6309\u4ee5\u4e0b\u6b65\u9aa4\u5f00\u59cb\u5b89\u88c5:</p>\n\n<p><strong>\u6b65\u9aa4 1</strong>. <strong>\u5b9a\u5411\u81f3</strong>  <strong>gpg4usb</strong>\u538b\u7f29\u6587\u4ef6\u7684\u8def\u5f84, \u7136\u540e <strong>\u89e3\u538b</strong>\u6240\u6709\u7684\u6587\u4ef6\u81f3\u79fb\u52a8\u5b58\u50a8\u8bbe\u5907\u6216\u4f60\u7535\u8111\u6307\u5b9a\u7684\u6587\u4ef6\u5939\u4e0b:\n<img src=\"/sbox/screen/gpg4usb-en/01.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 1:  gpg4usb \u6587\u4ef6\u76ee\u6807\u8def\u5f84</em></p>\n\n<p><strong>\u6b65\u9aa4 2</strong>. \u8981\u5f00\u542f<strong>gpg4usb</strong>\u7a0b\u5e8f, <strong>\u53cc\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/02.png\" alt=\"\" />\u4ee5\u6253\u5f00 <strong>gpg4usb</strong> \u6587\u4ef6\u5939,\u7136\u540e <strong>\u53cc\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/03.png\" alt=\"\" />\u4ee5\u6253\u5f00 <em>\u6253\u5f00\u6587\u4ef6 \u2013 \u5b89\u5168\u8b66\u62a5</em> \u7a97\u53e3.</p>\n\n<p><strong>\u6b65\u9aa4 3</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/04.png\" alt=\"\" /> \u4ee5\u542f\u52a8 <strong>gpg4usb</strong> \u5982\u4e0b\u6240\u793a:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/05.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 2: gpg4usb \u4e3b\u754c\u9762</em></p>\n\n<p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1\u5982\u4f55\u4f7f\u7528 gpg4usb \u751f\u6210\u5bc6\u94a5\u5bf9</h2>\n\n<p>\u5728\u60a8\u5f00\u59cb\u52a0\u5bc6\u6216\u89e3\u5bc6\u6587\u4ef6,\u6587\u6863\u6216\u6587\u5b57\u4fe1\u606f\u65f6,\u60a8\u5fc5\u987b\u5148\u751f\u6210\u4e00\u4e2a\u5bc6\u94a5\u5bf9.\u4f46\u662f,\u5728\u60a8\u53ef\u4ee5\u5411\u5176\u4ed6\u4eba\u53d1\u9001\u52a0\u5bc6\u4fe1\u606f\u65f6,\u4ed6\u4eec\u5fc5\u987b\u5148\u7ed9\u60a8\u4ed6\u4eec\u7684\u516c\u94a5.\u4e0b\u4e00\u7ae0\u4f1a\u4ecb\u7ecd\u5982\u4f55\u5171\u4eab\u516c\u94a5.\u8981\u751f\u6210\u60a8\u7684\u5bc6\u94a5\u5bf9, \u8bf7\u6309\u5982\u4e0b\u6b65\u9aa4\u6267\u884c:</p>\n\n<p><strong>\u6b65\u9aa4 1</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/06.png\" alt=\"\" />\u5f00\u542f\u5982\u4e0b\u7a97\u53e3:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/07.png\" alt=\"\" /></p>\n\n<p>*\u56fe 3:  \u5bc6\u94a5\u7ba1\u7406\u7a97\u53e3\u4e2d\u7684\u751f\u6210\u5bc6\u94a5\u9009\u9879\u88ab\u9009\u4e2d *</p>\n\n<p><strong>\u6b65\u9aa4 2</strong>. <strong>\u9009\u62e9</strong> <em>\u751f\u6210\u5bc6\u94a5</em>\u9009\u9879,\u5728 <em>\u5bc6\u94a5</em> \u83dc\u5355\u4e0b,\u4ee5\u6253\u5f00 <em>\u751f\u6210\u5bc6\u94a5</em>\u7a97\u53e3.</p>\n\n<p><strong>\u6b65\u9aa4 3</strong>. \u5728\u5bf9\u5e94\u7684\u7a97\u53e3\u4e0b<strong>\u8f93\u5165</strong>\u6b63\u786e\u7684\u6570\u636e,\u4f7f\u60a8\u7684\u7a97\u53e3\u5982\u4e0b\u6240\u793a \uff1a\n<img src=\"/sbox/screen/gpg4usb-en/08.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 4: \u4e00\u4e2a\u5b8c\u6574\u7684\u751f\u6210\u5bc6\u94a5\u8868\u683c</em></p>\n\n<p><strong>\u91cd\u8981</strong>\u9009\u62e9\u4e00\u4e2a\u5b89\u5168\u7684\u5bc6\u7801,\u4ee5\u4fdd\u62a4\u60a8\u7684\u79c1\u4eba\u5bc6\u94a5 (\u8bf7\u53c2\u9605\u7ae0\u8282 <a href=\"/en/chapter-3\">**3.\u5982\u4f55\u521b\u5efa\u5e76\u7ef4\u62a4\u5b89\u5168\u7684\u5bc6\u7801 **</a>).</p>\n\n<p><strong>\u63d0\u793a</strong>:\u5728\u60a8\u4e3a\u5bc6\u94a5\u5bf9\u8bbe\u7f6e\u622a\u6b62\u65e5\u671f\u4e4b\u524d\u65f6,\u60a8\u9700\u8981<strong>\u7981\u7528</strong> <strong>\u6c38\u4e0d\u8fc7\u671f</strong>\u9009\u9879\u4ee5\u542f\u7528\u65e5\u7a0b\u8bbe\u7f6e\u529f\u80fd.</p>\n\n<p><strong>\u6ce8\u610f:</strong> <strong>\u5bc6\u94a5\u4f4d\u6570</strong>\u4e0b\u62c9\u680f\u7528\u4e8e\u8bbe\u7f6e\u60a8\u5bc6\u7801\u7684\u957f\u5ea6.\u5bc6\u7801\u8d8a\u957f,\u8d8a\u5b89\u5168,\u4f46\u662f\u540c\u65f6\u4f1a\u9700\u8981\u66f4\u957f\u7684\u521b\u5efa,\u52a0\u5bc6\u4ee5\u53ca\u89e3\u5bc6\u5185\u5bb9\u7684\u65f6\u95f4.</p>\n\n<p><strong>\u6b65\u9aa4 4</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/09.png\" alt=\"\" /> \u4ee5\u751f\u6210\u5bc6\u94a5\u5bf9.\n\u5728\u5bc6\u94a5\u5bf9\u6210\u529f\u751f\u6210\u4ee5\u540e,\u4f1a\u51fa\u73b0\u7c7b\u4f3c\u4e0b\u9762\u7684\u7a97\u53e3\uff1a\n<img src=\"/sbox/screen/gpg4usb-en/10.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 5: \u5bc6\u94a5\u7ba1\u7406\u7a97\u53e3,\u663e\u793a\u65b0\u751f\u6210\u7684\u5bc6\u94a5\u5bf9</em></p>\n\n<p>\u60a8\u5df2\u7ecf\u6210\u529f\u751f\u6210\u4e86\u5bc6\u94a5\u5bf9.\u9664\u6b64\u4ee5\u5916,\u60a8\u8fd8\u9700\u8981\u4e86\u89e3\u5982\u4f55\u5bfc\u51fa\u60a8\u7684\u516c\u94a5,\u5e76\u4e0e\u4ed6\u4eba\u5171\u4eab,\u4ee5\u53ca\u5982\u4f55\u5bfc\u5165\u5176\u4ed6\u8054\u7cfb\u4eba\u7684\u516c\u94a5\u4fe1\u606f.</p>\n", 
+                        "summary": "", 
+                        "value": "\u672c\u9875\u7684\u9879\u76ee\u5217\u8868:\r\n\r\n- [**2.0 \u5982\u4f55\u5b89\u88c5 gpg4usb**](#2.0)\r\n- [**2.1\u5982\u4f55\u4f7f\u7528 gpg4usb \u751f\u6210\u5bc6\u94a5\u5bf9**](#2.1)\r\n-------\r\n\r\n<a name=\"2.0\"></a>\r\n## 2.0 \u5982\u4f55\u5b89\u88c5 gpg4usb ##\r\n\r\n\u5b89\u88c5**gpg4usb**\u7b80\u5355\u6613\u884c; \u8bf7\u6309\u4ee5\u4e0b\u6b65\u9aa4\u5f00\u59cb\u5b89\u88c5:\r\n\r\n**\u6b65\u9aa4 1**. **\u5b9a\u5411\u81f3**  **gpg4usb**\u538b\u7f29\u6587\u4ef6\u7684\u8def\u5f84, \u7136\u540e **\u89e3\u538b**\u6240\u6709\u7684\u6587\u4ef6\u81f3\u79fb\u52a8\u5b58\u50a8\u8bbe\u5907\u6216\u4f60\u7535\u8111\u6307\u5b9a\u7684\u6587\u4ef6\u5939\u4e0b:\r\n![](/sbox/screen/gpg4usb-en/01.png)\r\n\r\n*\u56fe 1:  gpg4usb \u6587\u4ef6\u76ee\u6807\u8def\u5f84*\r\n\r\n**\u6b65\u9aa4 2**. \u8981\u5f00\u542f**gpg4usb**\u7a0b\u5e8f, **\u53cc\u51fb** ![](/sbox/screen/gpg4usb-en/02.png)\u4ee5\u6253\u5f00 **gpg4usb** \u6587\u4ef6\u5939,\u7136\u540e **\u53cc\u51fb** ![](/sbox/screen/gpg4usb-en/03.png)\u4ee5\u6253\u5f00 *\u6253\u5f00\u6587\u4ef6 \u2013 \u5b89\u5168\u8b66\u62a5* \u7a97\u53e3.  \r\n\r\n**\u6b65\u9aa4 3**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/04.png) \u4ee5\u542f\u52a8 **gpg4usb** \u5982\u4e0b\u6240\u793a:\r\n\r\n![](/sbox/screen/gpg4usb-en/05.png)\r\n\r\n*\u56fe 2: gpg4usb \u4e3b\u754c\u9762*\r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1\u5982\u4f55\u4f7f\u7528 gpg4usb \u751f\u6210\u5bc6\u94a5\u5bf9##\r\n\r\n\u5728\u60a8\u5f00\u59cb\u52a0\u5bc6\u6216\u89e3\u5bc6\u6587\u4ef6,\u6587\u6863\u6216\u6587\u5b57\u4fe1\u606f\u65f6,\u60a8\u5fc5\u987b\u5148\u751f\u6210\u4e00\u4e2a\u5bc6\u94a5\u5bf9.\u4f46\u662f,\u5728\u60a8\u53ef\u4ee5\u5411\u5176\u4ed6\u4eba\u53d1\u9001\u52a0\u5bc6\u4fe1\u606f\u65f6,\u4ed6\u4eec\u5fc5\u987b\u5148\u7ed9\u60a8\u4ed6\u4eec\u7684\u516c\u94a5.\u4e0b\u4e00\u7ae0\u4f1a\u4ecb\u7ecd\u5982\u4f55\u5171\u4eab\u516c\u94a5.\u8981\u751f\u6210\u60a8\u7684\u5bc6\u94a5\u5bf9, \u8bf7\u6309\u5982\u4e0b\u6b65\u9aa4\u6267\u884c:\r\n\r\n**\u6b65\u9aa4 1**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/06.png)\u5f00\u542f\u5982\u4e0b\u7a97\u53e3:\r\n\r\n![](/sbox/screen/gpg4usb-en/07.png)\r\n\r\n*\u56fe 3:  \u5bc6\u94a5\u7ba1\u7406\u7a97\u53e3\u4e2d\u7684\u751f\u6210\u5bc6\u94a5\u9009\u9879\u88ab\u9009\u4e2d * \r\n\r\n**\u6b65\u9aa4 2**. **\u9009\u62e9** *\u751f\u6210\u5bc6\u94a5*\u9009\u9879,\u5728 *\u5bc6\u94a5* \u83dc\u5355\u4e0b,\u4ee5\u6253\u5f00 *\u751f\u6210\u5bc6\u94a5*\u7a97\u53e3.\r\n\r\n**\u6b65\u9aa4 3**. \u5728\u5bf9\u5e94\u7684\u7a97\u53e3\u4e0b**\u8f93\u5165**\u6b63\u786e\u7684\u6570\u636e,\u4f7f\u60a8\u7684\u7a97\u53e3\u5982\u4e0b\u6240\u793a \uff1a\r\n![](/sbox/screen/gpg4usb-en/08.png)\r\n\r\n*\u56fe 4: \u4e00\u4e2a\u5b8c\u6574\u7684\u751f\u6210\u5bc6\u94a5\u8868\u683c* \r\n\r\n**\u91cd\u8981**\u9009\u62e9\u4e00\u4e2a\u5b89\u5168\u7684\u5bc6\u7801,\u4ee5\u4fdd\u62a4\u60a8\u7684\u79c1\u4eba\u5bc6\u94a5 (\u8bf7\u53c2\u9605\u7ae0\u8282 [**3.\u5982\u4f55\u521b\u5efa\u5e76\u7ef4\u62a4\u5b89\u5168\u7684\u5bc6\u7801 **](/en/chapter-3)).\r\n\r\n**\u63d0\u793a**:\u5728\u60a8\u4e3a\u5bc6\u94a5\u5bf9\u8bbe\u7f6e\u622a\u6b62\u65e5\u671f\u4e4b\u524d\u65f6,\u60a8\u9700\u8981**\u7981\u7528** **\u6c38\u4e0d\u8fc7\u671f**\u9009\u9879\u4ee5\u542f\u7528\u65e5\u7a0b\u8bbe\u7f6e\u529f\u80fd.\r\n\r\n**\u6ce8\u610f:** **\u5bc6\u94a5\u4f4d\u6570**\u4e0b\u62c9\u680f\u7528\u4e8e\u8bbe\u7f6e\u60a8\u5bc6\u7801\u7684\u957f\u5ea6.\u5bc6\u7801\u8d8a\u957f,\u8d8a\u5b89\u5168,\u4f46\u662f\u540c\u65f6\u4f1a\u9700\u8981\u66f4\u957f\u7684\u521b\u5efa,\u52a0\u5bc6\u4ee5\u53ca\u89e3\u5bc6\u5185\u5bb9\u7684\u65f6\u95f4.\r\n\r\n**\u6b65\u9aa4 4**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/09.png) \u4ee5\u751f\u6210\u5bc6\u94a5\u5bf9.\r\n\u5728\u5bc6\u94a5\u5bf9\u6210\u529f\u751f\u6210\u4ee5\u540e,\u4f1a\u51fa\u73b0\u7c7b\u4f3c\u4e0b\u9762\u7684\u7a97\u53e3\uff1a\r\n![](/sbox/screen/gpg4usb-en/10.png)\r\n\r\n*\u56fe 5: \u5bc6\u94a5\u7ba1\u7406\u7a97\u53e3,\u663e\u793a\u65b0\u751f\u6210\u7684\u5bc6\u94a5\u5bf9* \r\n\r\n\u60a8\u5df2\u7ecf\u6210\u529f\u751f\u6210\u4e86\u5bc6\u94a5\u5bf9.\u9664\u6b64\u4ee5\u5916,\u60a8\u8fd8\u9700\u8981\u4e86\u89e3\u5982\u4f55\u5bfc\u51fa\u60a8\u7684\u516c\u94a5,\u5e76\u4e0e\u4ed6\u4eba\u5171\u4eab,\u4ee5\u53ca\u5982\u4f55\u5bfc\u5165\u5176\u4ed6\u8054\u7cfb\u4eba\u7684\u516c\u94a5\u4fe1\u606f.\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2056", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2056", 
+                "link_title": "How to Install gpg4usb and Generate a Key Pair", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5202", 
+                "module": "book", 
+                "nid": "2056", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5202", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "How to Install gpg4usb and Generate a Key Pair", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1455120164", 
+            "comment": "0", 
+            "created": "1441122201", 
+            "current_revision_id": "13206", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "zh-hans": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb-generatekey", 
+                        "value": "gpg4usb-generatekey"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5202": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2056", 
+                    "link_title": "How to Install gpg4usb and Generate a Key Pair", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5202", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5202", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2056", 
+            "num_revisions": "18", 
+            "path": "https://securityinabox.org/en/gpg4usb-generatekey", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455120164", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "zh-hans": [
+                    {
+                        "format": null, 
+                        "safe_value": "\u5982\u4f55\u5b89\u88c5 gpg4usb \u4ee5\u53ca\u751f\u6210\u5bc6\u94a5\u5bf9", 
+                        "value": "\u5982\u4f55\u5b89\u88c5 gpg4usb \u4ee5\u53ca\u751f\u6210\u5bc6\u94a5\u5bf9"
+                    }
+                ]
+            }, 
+            "title_original": "How to Install gpg4usb and Generate a Key Pair", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933342", 
+                        "created": "1442933342", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442247687", 
+                        "created": "1442247687", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506616", 
+                        "created": "1442506616", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1454338318", 
+                        "created": "1441633727", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733209", 
+                        "created": "1444733209", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455120164", 
+                        "created": "1455120164", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443788661", 
+                        "created": "1443788661", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192518", 
+                        "created": "1441192518", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444188984", 
+                        "created": "1444188984", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024179", 
+                        "created": "1443024179", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834215", 
+                        "created": "1444730139", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122201", 
+                        "created": "1441122201", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2056", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445442821", 
+                        "created": "1445442821", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "663b9d6c-01ee-4dcf-8668-4333cc0bb63f", 
+            "vid": "13206", 
+            "vuuid": "7a9d19a2-fccc-421f-9156-a1c3475bd6da"
+        }, 
+        {
+            "body": {
+                "zh-hans": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>\u672c\u9875\u7684\u9879\u76ee\u5217\u8868:</p>\n\n<ul><li><a href=\"#4.0\">**4.0 \u5982\u4f55\u7528 gpg4usb\u52a0\u5bc6\u6587\u5b57\u4fe1\u606f **</a></li>\n<li><a href=\"#4.1\">**4.1 \u5982\u4f55\u7528 gpg4usb\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f **</a></li>\n<li><a href=\"#4.2\"><strong>4.2 \u5982\u4f55\u7528 gpg4usb\u52a0\u5bc6\u6587\u4ef6</strong></a></li>\n<li><a href=\"#4.3\"><strong>4.3 \u5982\u4f55\u7528 gpg4usb\u89e3\u5bc6\u6587\u4ef6</strong></a></li>\n</ul><hr /><p><a name=\"4.0\" id=\"4.0\"></a></p>\n\n<h2>4.0 \u5982\u4f55\u7528gpg4usb \u52a0\u5bc6\u6587\u5b57\u4fe1\u606f</h2>\n\n<p>\u6587\u5b57\u4fe1\u606f\u7684\u52a0\u5bc6\u8fc7\u7a0b\u7b80\u5355\u6613\u884c.\u5728\u5982\u4e0b\u7684\u793a\u4f8b\u4e2d, Terence\u4f1a\u52a0\u5bc6\u4e00\u5c01\u53d1\u7ed9Salima\u7684\u7535\u5b50\u90ae\u4ef6, \u901a\u8fc7\u5982\u4e0b\u6b65\u9aa4:</p>\n\n<p><strong>\u6b65\u9aa4 1</strong>. <strong>\u53cc\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/03.png\" alt=\"\" />  \u4ee5\u6253\u5f00 <strong>gpg4usb</strong>\u4e3b\u754c\u9762.</p>\n\n<p><strong>\u6b65\u9aa4 2</strong>. \u6309\u7167\u793a\u4f8b\u6240\u793a,<strong>\u7f16\u8f91</strong>\u60a8\u7684\u6587\u5b57\u4fe1\u606f:\n<img src=\"/sbox/screen/gpg4usb-en/19.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 1: gpg4usb \u4e3b\u754c\u9762\u4ee5\u53ca\u793a\u4f8b\u6587\u5b57\u4fe1\u606f</em></p>\n\n<p><strong>\u6b65\u9aa4 3</strong>. <strong>\u52fe\u9009</strong>\u60a8\u7684\u90ae\u4ef6\u63a5\u53d7\u8005\u7684\u590d\u9009\u6846,\u5982\u4e0b:\n<img src=\"/sbox/screen/gpg4usb-en/20.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 2: gpg4usb\u4e3b\u754c\u9762\u663e\u793a\u7684,\u6807\u9ed1\u7684\u90ae\u4ef6\u63a5\u6536\u4eba</em></p>\n\n<p><strong>\u6ce8\u610f:</strong>\u5982\u679c\u8981\u7ed9\u66f4\u591a\u8054\u7cfb\u4eba\u53d1\u9001\u7684\u90ae\u4ef6\u52a0\u5bc6,\u53ea\u9700\u8981\u5728<em>\u4e3a\u2026\u52a0\u5bc6</em>\u680f\u5bf9\u5e94\u7684\u590d\u9009\u6846\u91cc\u52fe\u9009\u4ed6\u4eec\u5c31\u53ef\u4ee5\u4e86.\u6b64\u5916,\u5982\u679c\u5c06\u4fe1\u606f\u5bf9\u81ea\u5df1\u4e5f\u52a0\u5bc6\u53d1\u9001,\u5bf9\u90ae\u4ef6\u5f52\u6863\u4f1a\u6709\u597d\u5904,\u8fd9\u6837\u60a8\u4e5f\u53ef\u4ee5\u77e5\u9053\u81ea\u5df1\u53d1\u9001\u4e86\u4ec0\u4e48\u4fe1\u606f.\n<strong>\u6b65\u9aa4 4</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/21.png\" alt=\"\" /> \u6216\u4ece<strong>\u5bc6\u7801</strong>\u83dc\u5355\u4e2d<strong>\u9009\u62e9 \u52a0\u5bc6</strong>\u9009\u9879\u6765\u52a0\u5bc6\u60a8\u7684\u4fe1\u606f,\u5982\u4e0b\u6240\u793a:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/22.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 3: gpg4usb\u4e3b\u754c\u9762\u663e\u793a\u7684\u52a0\u5bc6\u4fe1\u606f\u7684\u793a\u4f8b</em></p>\n\n<p><strong>\u6b65\u9aa4 5</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/23.png\" alt=\"\" /> \u9009\u62e9\u5168\u90e8\u52a0\u5bc6\u4fe1\u606f,\u7136\u540e <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/24.png\" alt=\"\" />\u5c06\u4fe1\u606f\u590d\u5236\u5230\u526a\u8d34\u677f.\n<strong>\u6ce8\u610f</strong>:\u60a8\u4e5f\u53ef\u4ee5\u4f7f\u7528\u5feb\u6377\u952e<strong>Ctrl + E</strong>.</p>\n\n<p><strong>\u6b65\u9aa4 6</strong>. <strong>\u6253\u5f00</strong>\u60a8\u7684\u90ae\u4ef6\u8d26\u6237,\u7136\u540e <strong>\u6253\u5f00</strong> \u7a7a\u767d\u7684\u4fe1\u606f\u9875,\u7136\u540e\u5c06\u4fe1\u606f <strong>\u7c98\u8d34</strong>\u5230\u4e0a\u9762,\u5982\u4e0b\u6240\u793a:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/25.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 4:\u5c06\u7528gpg4usb\u52a0\u5bc6\u7684\u4fe1\u606f\u6587\u5b57\u7c98\u8d34\u5230\u67d0\u4e2aGmail\u90ae\u4ef6\u8d26\u6237\u91cc</em></p>\n\n<p><strong>\u6ce8\u610f</strong>: <strong>\u5bcc\u6587\u672c\u683c\u5f0f</strong> (<strong>RTF</strong>)\u53ef\u80fd\u4f1a\u7834\u574f\u52a0\u5bc6\u4fe1\u606f\u7684\u683c\u5f0f; \u6240\u4ee5\u6700\u597d\u7528\u7eaf\u6587\u672c\u683c\u5f0f\u7f16\u8f91\u4fe1\u606f.\u5982\u679c\u8981\u628a <strong>RTF</strong> \u8f6c\u6362\u4e3a\u5728<strong>Gmail</strong>\u7684\u7eaf\u6587\u672c\u683c\u5f0f,\u53ea\u9700\u5728\u4fe1\u606f\u680f\u4e0a\u7684\u683c\u5f0f\u5de5\u5177\u6761\u91cc <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/26.png\" alt=\"\" /></p>\n\n<p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h2>4.1 \u5982\u4f55\u7528gpg4usb\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f</h2>\n\n<p>\u8981\u89e3\u5bc6\u4e00\u5c01\u52a0\u5bc6\u7684\u7535\u5b50\u90ae\u4ef6,\u8bf7\u6267\u884c\u5982\u4e0b\u6b65\u9aa4:</p>\n\n<p><strong>\u6b65\u9aa4 1</strong>. <strong>\u53cc\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/03.png\" alt=\"\" />  \u4ee5\u6253\u5f00 <strong>gpg4usb</strong>\u7a0b\u5e8f.</p>\n\n<p><strong>\u6b65\u9aa4 2</strong>. <strong>\u6253\u5f00</strong> \u60a8\u7684\u90ae\u4ef6\u8d26\u6237, \u7136\u540e <strong>\u6253\u5f00</strong> \u90ae\u4ef6.</p>\n\n<p><strong>\u6b65\u9aa4 3</strong>. <strong>\u9009\u62e9</strong>, <strong>\u590d\u5236</strong>\u7136\u540e\u5c06\u52a0\u5bc6\u7684\u4fe1\u606f <strong>\u7c98\u8d34</strong>\u5230 <strong>gpg4usb</strong>\u4e3b\u754c\u9762\u4e0b\u7684<em>\u672a\u547d\u540d1.txt</em>\u8868\u683c\u4e2d,\u5982\u4e0b:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/27.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 5: gpg4usb\u4e3b\u754c\u9762 \u663e\u793a\u8981\u89e3\u5bc6\u7684\u4fe1\u606f</em></p>\n\n<p><strong>\u6ce8\u610f</strong>:\u5982\u679c\u52a0\u5bc6\u4fe1\u606f\u51fa\u73b0<em>\u56fe 6</em>\u4e2d\u7684\u53cc\u6362\u884c\u7b26\u7684\u8bdd,<strong>gpg4usb</strong>\u53ef\u80fd\u65e0\u6cd5\u81ea\u52a8\u89e3\u5bc6\u5b83.\u8981\u79fb\u9664\u4ed6\u4eec,\u5728<strong>\u7f16\u8f91</strong>\u83dc\u5355\u4e2d<strong>\u9009\u62e9</strong> <em>\u79fb\u9664\u53cc\u6362\u884c\u7b26</em>\u9009\u9879\u6765\u79fb\u9664\u4ed6\u4eec,\u5e76\u7ee7\u7eed<strong>\u6b65\u9aa4 4</strong>\u7684\u52a0\u5bc6\u6b65\u9aa4.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/28.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 6: gpg4usb\u4e3b\u754c\u9762 \u663e\u793a\u8981\u89e3\u5bc6\u7684\u5e26\u53cc\u6362\u884c\u7b26\u7684\u4fe1\u606f</em></p>\n\n<p><strong>\u6b65\u9aa4 4</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/29.png\" alt=\"\" /> \u5e76\u952e\u5165\u5bc6\u94a5\u5bf9\u4e2d\u8bbe\u7f6e\u7684\u5bc6\u7801,\u5982\u4e0b\u56fe\u6240\u793a:\n<img src=\"/sbox/screen/gpg4usb-en/30.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 7: \u5bc6\u7801\u8f93\u5165\u5f39\u51fa\u7a97\u53e3</em></p>\n\n<p><strong>\u6b65\u9aa4 5</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/09.png\" alt=\"\" /> \u4ee5\u5f00\u542f<strong>gpg4usb</strong>\u4e3b\u754c\u9762 \u5982 <em>\u56fe 2</em> \u6240\u793a.</p>\n\n<p><a name=\"4.2\" id=\"4.2\"></a></p>\n\n<h2>4.2 \u5982\u4f55\u7528gpg4usb \u52a0\u5bc6\u6587\u4ef6</h2>\n\n<p>\u52a0\u5bc6\u6587\u4ef6\u7684\u65b9\u6cd5\u4e0e\u52a0\u5bc6\u6587\u5b57\u4fe1\u606f\u7684\u65b9\u6cd5\u7c7b\u4f3c.\u5728\u5982\u4e0b\u7684\u793a\u4f8b\u4e2d,Salima\u5c06\u4f1a\u7ed9Terence\u52a0\u5bc6\u4e00\u4e2a\u6587\u4ef6,\u4f7f\u7528\u5982\u4e0b\u6b65\u9aa4:</p>\n\n<p><strong>\u6b65\u9aa4 1</strong>. <strong>\u53cc\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/03.png\" alt=\"\" />  \u4ee5\u6253\u5f00 <strong>gpg4usb</strong>.</p>\n\n<p><strong>\u6b65\u9aa4 2</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/31.png\" alt=\"\" /> \u5f00\u542f\u4ee5\u4e0b\u754c\u9762:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/32.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 8:\u52a0\u5bc6/\u89e3\u5bc6\u6587\u4ef6\u7a97\u53e3, \u9009\u62e9\u89e3\u5bc6\u9009\u9879</em></p>\n\n<p><em>\u52a0\u5bc6/\u89e3\u5bc6\u6587\u4ef6</em> \u7a97\u53e3\u4e0b\u62c9\u680f\uff08\u9ed1\u4f53\u6807\u51fa\uff09\u53ef\u4ee5\u8ba9\u60a8\u9009\u62e9\u8981\u52a0\u5bc6\u4fe1\u606f\u7684\u5bf9\u5e94\u5bc6\u7801\u4ee5\u53ca\u90ae\u4ef6\u8d26\u6237.\n<strong>\u6b65\u9aa4 3</strong>. <strong>\u52fe\u9009</strong> <em>\u542f\u7528</em>\u5355\u9009\u6309\u94ae,\u7136\u540e <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/33.png\" alt=\"\" /> \u5f00\u542f\u4e0b\u5217\u754c\u9762:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/34.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 9: \u6253\u5f00\u6587\u4ef6\u6d4f\u89c8\u7a97\u53e3</em></p>\n\n<p><strong>\u6b65\u9aa4 4</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/35.png\" alt=\"\" />\u6dfb\u52a0\u5c06\u8981\u52a0\u5bc6\u7684\u6587\u4ef6,\u7136\u540e\u56de\u5230<em>\u52a0\u5bc6/ Decrypt</em>\u7a97\u53e3:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/36.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 10: The \u52a0\u5bc6/\u89e3\u5bc6\u6587\u4ef6\u7a97\u53e3\u663e\u793a\u6307\u5b9a\u8981\u52a0\u5bc6\u7684\u6587\u4ef6</em></p>\n\n<p><strong>\u6b65\u9aa4 5</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/09.png\" alt=\"\" /> \u5f00\u542f\u4e0b\u5217\u754c\u9762:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/38.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 11:\u5b8c\u6210\u786e\u8ba4\u5bf9\u8bdd\u6846</em></p>\n\n<p>The <em>\u5b8c\u6210</em>\u786e\u8ba4\u5bf9\u8bdd\u6846\u663e\u793a\u52a0\u5bc6\u6587\u4ef6\u7684\u76ee\u6807\u5730\u5740. \u52a0\u5bc6\u6587\u4ef6\u7684\u540e\u7f00\u662f<em>.asc</em> .\u6bd4\u5982, <em>Technical White Paper.doc.asc</em>.</p>\n\n<p><strong>\u6b65\u9aa4 6</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/09.png\" alt=\"\" /> \u5b8c\u6210\u52a0\u5bc6.</p>\n\n<p><strong>\u6ce8\u610f</strong>:\u60a8\u53ef\u4ee5\u5206\u5f00\u52a0\u5bc6\u6587\u5b57\u548c\u4e00\u8d77\u53d1\u9001\u7684\u6587\u4ef6.</p>\n\n<p><strong>\u6b65\u9aa4 7</strong>.\u6253\u5f00\u60a8\u7684\u7535\u90ae,<strong>\u5b9a\u5411</strong>\u81f3<em>\u5b8c\u6210</em>\u5bf9\u8bdd\u6846(<em>\u56fe 11</em>)\u4e2d\u7684\u6587\u4ef6\u5730\u5740,\u7136\u540e\u5c06\u5df2\u52a0\u5bc6\u7684\u6587\u4ef6\u6dfb\u52a0\u81f3\u90ae\u4ef6\u9644\u4ef6\u4e2d.</p>\n\n<p><strong>\u975e\u5e38\u91cd\u8981</strong>:\u52a0\u5bc6\u6587\u4ef6\u7684\u6587\u4ef6\u540d<strong>\u4e0d\u4f1a\u88ab\u52a0\u5bc6</strong>.\u8bf7\u4e0d\u8981\u5728\u6587\u4ef6\u540d\u4e2d\u6cc4\u9732\u4e86\u5185\u5bb9\u7684\u91cd\u8981\u4fe1\u606f!\u4e5f\u522b\u5fd8\u8bb0,\u52a0\u5bc6\u6587\u4ef6\u7684\u6e90\u6587\u4ef6\u4ecd\u7136\u5728\u60a8\u786c\u76d8\u7684\u5176\u4ed6\u5730\u65b9.</p>\n\n<p><a name=\"4.3\" id=\"4.3\"></a></p>\n\n<h2>4.3 \u5982\u4f55\u7528gpg4usb\u89e3\u5bc6\u6587\u4ef6</h2>\n\n<p>\u5728\u4e0b\u9762\u7684\u793a\u4f8b\u4e2d,Terence\u5c06\u4f1a\u89e3\u5bc6Salima\u7ed9\u4ed6\u53d1\u9001\u7684\u6587\u4ef6,\u901a\u8fc7\u5982\u4e0b\u6b65\u9aa4:</p>\n\n<p><strong>\u6b65\u9aa4 1</strong>. <strong>\u53cc\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/03.png\" alt=\"\" />  \u4ee5\u6253\u5f00 <strong>gpg4usb</strong>.</p>\n\n<p><strong>\u6b65\u9aa4 2</strong>. <strong>\u6253\u5f00</strong> \u60a8\u7684\u90ae\u4ef6\u8d26\u6237, <strong>\u6253\u5f00</strong> \u90ae\u4ef6\u5e76 <strong>\u4e0b\u8f7d</strong> \u90ae\u4ef6\u9644\u4ef6.</p>\n\n<p><strong>\u6ce8\u610f</strong>:\u5982\u679c\u60a8\u7684\u8054\u7cfb\u4eba\u7ed9\u60a8\u53d1\u9001\u52a0\u5bc6\u6587\u4ef6\u7684\u540c\u65f6\u53c8\u53d1\u9001\u4e86\u52a0\u5bc6\u4fe1\u606f,\u60a8\u53ef\u4ee5\u4f7f\u7528<a href=\"zh/gpg4usb-encryptdecrypt\"><strong>4.1 \u5982\u4f55\u7528gpg4usb\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f</strong></a> \u7684\u65b9\u6cd5 \u6765\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f.\n<strong>\u6b65\u9aa4 3</strong>. \u5728 <strong>gpg4usb</strong>\u4e3b\u754c\u9762 (as shown in <em>\u56fe 1</em> above), <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/31.png\" alt=\"\" /> \u542f\u52a8 <strong>\u52a0\u5bc6/\u89e3\u5bc6File</strong> \u7a97\u53e3(\u50cf\u5728 <em>\u56fe 12</em>\u90a3\u6837).</p>\n\n<p><strong>\u6b65\u9aa4 4</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/33.png\" alt=\"\" /> \u6d4f\u89c8\u4e0b\u8f7d\u7684\u52a0\u5bc6\u6587\u4ef6\u5730\u5740:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/37.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 12: The \u52a0\u5bc6/\u89e3\u5bc6\u7a97\u53e3,\u663e\u793a\u52a0\u5bc6\u6587\u4ef6\u7684\u8def\u5f84</em></p>\n\n<p><strong>\u6b65\u9aa4 5</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/09.png\" alt=\"\" /> \u5f00\u542f\u4e0b\u5217\u754c\u9762:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/39.png\" alt=\"\" /></p>\n\n<p>*\u56fe 13: \u5b8c\u6210\u786e\u8ba4\u5bf9\u8bdd\u6846\u663e\u793a\u5df2\u89e3\u5bc6\u6587\u4ef6\u7684\u5b58\u50a8\u8def\u5f84 *</p>\n\n<p><strong>\u91cd\u8981</strong>:\u5982\u679c\u60a8\u5728\u7f51\u5427\u6216\u8005\u5de5\u4f5c\u5730\u70b9\u7b49\u516c\u7528\u7535\u8111\u64cd\u4f5c\u65f6,\u6700\u597d\u628a<em>.asc</em>\u540e\u7f00\u7684\u6587\u4ef6\u590d\u5236\u5230\u60a8\u7684USB\u6216\u5176\u4ed6\u79fb\u52a8\u5b58\u50a8\u8bbe\u5907\u4e0a,\u5e76\u968f\u8eab\u643a\u5e26,\u8fd9\u6837\u5c31\u53ef\u4ee5\u786e\u4fdd\u6700\u5927\u9650\u5ea6\u7684\u5b89\u5168.</p>\n", 
+                        "summary": "", 
+                        "value": "\u672c\u9875\u7684\u9879\u76ee\u5217\u8868:\r\n\r\n- [**4.0 \u5982\u4f55\u7528 gpg4usb\u52a0\u5bc6\u6587\u5b57\u4fe1\u606f **](#4.0)\r\n- [**4.1 \u5982\u4f55\u7528 gpg4usb\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f **](#4.1)\r\n- [**4.2 \u5982\u4f55\u7528 gpg4usb\u52a0\u5bc6\u6587\u4ef6**](#4.2)\r\n- [**4.3 \u5982\u4f55\u7528 gpg4usb\u89e3\u5bc6\u6587\u4ef6**](#4.3)\r\n\r\n-------\r\n\r\n<a name=\"4.0\"></a>\r\n## 4.0 \u5982\u4f55\u7528gpg4usb \u52a0\u5bc6\u6587\u5b57\u4fe1\u606f##\r\n\r\n\u6587\u5b57\u4fe1\u606f\u7684\u52a0\u5bc6\u8fc7\u7a0b\u7b80\u5355\u6613\u884c.\u5728\u5982\u4e0b\u7684\u793a\u4f8b\u4e2d, Terence\u4f1a\u52a0\u5bc6\u4e00\u5c01\u53d1\u7ed9Salima\u7684\u7535\u5b50\u90ae\u4ef6, \u901a\u8fc7\u5982\u4e0b\u6b65\u9aa4:\r\n\r\n**\u6b65\u9aa4 1**. **\u53cc\u51fb** ![](/sbox/screen/gpg4usb-en/03.png)  \u4ee5\u6253\u5f00 **gpg4usb**\u4e3b\u754c\u9762.\r\n\r\n**\u6b65\u9aa4 2**. \u6309\u7167\u793a\u4f8b\u6240\u793a,**\u7f16\u8f91**\u60a8\u7684\u6587\u5b57\u4fe1\u606f:\r\n![](/sbox/screen/gpg4usb-en/19.png)\r\n\r\n*\u56fe 1: gpg4usb \u4e3b\u754c\u9762\u4ee5\u53ca\u793a\u4f8b\u6587\u5b57\u4fe1\u606f*\r\n\r\n**\u6b65\u9aa4 3**. **\u52fe\u9009**\u60a8\u7684\u90ae\u4ef6\u63a5\u53d7\u8005\u7684\u590d\u9009\u6846,\u5982\u4e0b:\r\n![](/sbox/screen/gpg4usb-en/20.png)\r\n\r\n*\u56fe 2: gpg4usb\u4e3b\u754c\u9762\u663e\u793a\u7684,\u6807\u9ed1\u7684\u90ae\u4ef6\u63a5\u6536\u4eba*\r\n\r\n**\u6ce8\u610f:**\u5982\u679c\u8981\u7ed9\u66f4\u591a\u8054\u7cfb\u4eba\u53d1\u9001\u7684\u90ae\u4ef6\u52a0\u5bc6,\u53ea\u9700\u8981\u5728*\u4e3a\u2026\u52a0\u5bc6*\u680f\u5bf9\u5e94\u7684\u590d\u9009\u6846\u91cc\u52fe\u9009\u4ed6\u4eec\u5c31\u53ef\u4ee5\u4e86.\u6b64\u5916,\u5982\u679c\u5c06\u4fe1\u606f\u5bf9\u81ea\u5df1\u4e5f\u52a0\u5bc6\u53d1\u9001,\u5bf9\u90ae\u4ef6\u5f52\u6863\u4f1a\u6709\u597d\u5904,\u8fd9\u6837\u60a8\u4e5f\u53ef\u4ee5\u77e5\u9053\u81ea\u5df1\u53d1\u9001\u4e86\u4ec0\u4e48\u4fe1\u606f.\r\n**\u6b65\u9aa4 4**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/21.png) \u6216\u4ece**\u5bc6\u7801**\u83dc\u5355\u4e2d**\u9009\u62e9 \u52a0\u5bc6**\u9009\u9879\u6765\u52a0\u5bc6\u60a8\u7684\u4fe1\u606f,\u5982\u4e0b\u6240\u793a:\r\n\r\n![](/sbox/screen/gpg4usb-en/22.png)\r\n\r\n*\u56fe 3: gpg4usb\u4e3b\u754c\u9762\u663e\u793a\u7684\u52a0\u5bc6\u4fe1\u606f\u7684\u793a\u4f8b*\r\n\r\n**\u6b65\u9aa4 5**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/23.png) \u9009\u62e9\u5168\u90e8\u52a0\u5bc6\u4fe1\u606f,\u7136\u540e **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/24.png)\u5c06\u4fe1\u606f\u590d\u5236\u5230\u526a\u8d34\u677f.\r\n**\u6ce8\u610f**:\u60a8\u4e5f\u53ef\u4ee5\u4f7f\u7528\u5feb\u6377\u952e**Ctrl + E**.\r\n\r\n**\u6b65\u9aa4 6**. **\u6253\u5f00**\u60a8\u7684\u90ae\u4ef6\u8d26\u6237,\u7136\u540e **\u6253\u5f00** \u7a7a\u767d\u7684\u4fe1\u606f\u9875,\u7136\u540e\u5c06\u4fe1\u606f **\u7c98\u8d34**\u5230\u4e0a\u9762,\u5982\u4e0b\u6240\u793a:\r\n\r\n![](/sbox/screen/gpg4usb-en/25.png)\r\n\r\n*\u56fe 4:\u5c06\u7528gpg4usb\u52a0\u5bc6\u7684\u4fe1\u606f\u6587\u5b57\u7c98\u8d34\u5230\u67d0\u4e2aGmail\u90ae\u4ef6\u8d26\u6237\u91cc*\r\n\r\n**\u6ce8\u610f**: **\u5bcc\u6587\u672c\u683c\u5f0f** (**RTF**)\u53ef\u80fd\u4f1a\u7834\u574f\u52a0\u5bc6\u4fe1\u606f\u7684\u683c\u5f0f; \u6240\u4ee5\u6700\u597d\u7528\u7eaf\u6587\u672c\u683c\u5f0f\u7f16\u8f91\u4fe1\u606f.\u5982\u679c\u8981\u628a **RTF** \u8f6c\u6362\u4e3a\u5728**Gmail**\u7684\u7eaf\u6587\u672c\u683c\u5f0f,\u53ea\u9700\u5728\u4fe1\u606f\u680f\u4e0a\u7684\u683c\u5f0f\u5de5\u5177\u6761\u91cc **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/26.png)\r\n\r\n<a name=\"4.1\"></a>\r\n## 4.1 \u5982\u4f55\u7528gpg4usb\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f##\r\n\r\n\u8981\u89e3\u5bc6\u4e00\u5c01\u52a0\u5bc6\u7684\u7535\u5b50\u90ae\u4ef6,\u8bf7\u6267\u884c\u5982\u4e0b\u6b65\u9aa4:\r\n\r\n**\u6b65\u9aa4 1**. **\u53cc\u51fb** ![](/sbox/screen/gpg4usb-en/03.png)  \u4ee5\u6253\u5f00 **gpg4usb**\u7a0b\u5e8f.\r\n\r\n**\u6b65\u9aa4 2**. **\u6253\u5f00** \u60a8\u7684\u90ae\u4ef6\u8d26\u6237, \u7136\u540e **\u6253\u5f00** \u90ae\u4ef6.\r\n\r\n**\u6b65\u9aa4 3**. **\u9009\u62e9**, **\u590d\u5236**\u7136\u540e\u5c06\u52a0\u5bc6\u7684\u4fe1\u606f **\u7c98\u8d34**\u5230 **gpg4usb**\u4e3b\u754c\u9762\u4e0b\u7684*\u672a\u547d\u540d1.txt*\u8868\u683c\u4e2d,\u5982\u4e0b:\r\n\r\n![](/sbox/screen/gpg4usb-en/27.png)\r\n\r\n*\u56fe 5: gpg4usb\u4e3b\u754c\u9762 \u663e\u793a\u8981\u89e3\u5bc6\u7684\u4fe1\u606f*\r\n\r\n**\u6ce8\u610f**:\u5982\u679c\u52a0\u5bc6\u4fe1\u606f\u51fa\u73b0*\u56fe 6*\u4e2d\u7684\u53cc\u6362\u884c\u7b26\u7684\u8bdd,**gpg4usb**\u53ef\u80fd\u65e0\u6cd5\u81ea\u52a8\u89e3\u5bc6\u5b83.\u8981\u79fb\u9664\u4ed6\u4eec,\u5728**\u7f16\u8f91**\u83dc\u5355\u4e2d**\u9009\u62e9** *\u79fb\u9664\u53cc\u6362\u884c\u7b26*\u9009\u9879\u6765\u79fb\u9664\u4ed6\u4eec,\u5e76\u7ee7\u7eed**\u6b65\u9aa4 4**\u7684\u52a0\u5bc6\u6b65\u9aa4.\r\n\r\n![](/sbox/screen/gpg4usb-en/28.png)\r\n\r\n*\u56fe 6: gpg4usb\u4e3b\u754c\u9762 \u663e\u793a\u8981\u89e3\u5bc6\u7684\u5e26\u53cc\u6362\u884c\u7b26\u7684\u4fe1\u606f*\r\n \r\n**\u6b65\u9aa4 4**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/29.png) \u5e76\u952e\u5165\u5bc6\u94a5\u5bf9\u4e2d\u8bbe\u7f6e\u7684\u5bc6\u7801,\u5982\u4e0b\u56fe\u6240\u793a:\r\n![](/sbox/screen/gpg4usb-en/30.png)\r\n\r\n*\u56fe 7: \u5bc6\u7801\u8f93\u5165\u5f39\u51fa\u7a97\u53e3*\r\n\r\n**\u6b65\u9aa4 5**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/09.png) \u4ee5\u5f00\u542f**gpg4usb**\u4e3b\u754c\u9762 \u5982 *\u56fe 2* \u6240\u793a.\r\n\r\n<a name=\"4.2\"></a>\r\n## 4.2 \u5982\u4f55\u7528gpg4usb \u52a0\u5bc6\u6587\u4ef6##\r\n\r\n\u52a0\u5bc6\u6587\u4ef6\u7684\u65b9\u6cd5\u4e0e\u52a0\u5bc6\u6587\u5b57\u4fe1\u606f\u7684\u65b9\u6cd5\u7c7b\u4f3c.\u5728\u5982\u4e0b\u7684\u793a\u4f8b\u4e2d,Salima\u5c06\u4f1a\u7ed9Terence\u52a0\u5bc6\u4e00\u4e2a\u6587\u4ef6,\u4f7f\u7528\u5982\u4e0b\u6b65\u9aa4:\r\n\r\n**\u6b65\u9aa4 1**. **\u53cc\u51fb** ![](/sbox/screen/gpg4usb-en/03.png)  \u4ee5\u6253\u5f00 **gpg4usb**.\r\n\r\n**\u6b65\u9aa4 2**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/31.png) \u5f00\u542f\u4ee5\u4e0b\u754c\u9762:\r\n\r\n![](/sbox/screen/gpg4usb-en/32.png)\r\n\r\n*\u56fe 8:\u52a0\u5bc6/\u89e3\u5bc6\u6587\u4ef6\u7a97\u53e3, \u9009\u62e9\u89e3\u5bc6\u9009\u9879*\r\n\r\n*\u52a0\u5bc6/\u89e3\u5bc6\u6587\u4ef6* \u7a97\u53e3\u4e0b\u62c9\u680f\uff08\u9ed1\u4f53\u6807\u51fa\uff09\u53ef\u4ee5\u8ba9\u60a8\u9009\u62e9\u8981\u52a0\u5bc6\u4fe1\u606f\u7684\u5bf9\u5e94\u5bc6\u7801\u4ee5\u53ca\u90ae\u4ef6\u8d26\u6237.\r\n**\u6b65\u9aa4 3**. **\u52fe\u9009** *\u542f\u7528*\u5355\u9009\u6309\u94ae,\u7136\u540e **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/33.png) \u5f00\u542f\u4e0b\u5217\u754c\u9762:\r\n\r\n![](/sbox/screen/gpg4usb-en/34.png)\r\n\r\n*\u56fe 9: \u6253\u5f00\u6587\u4ef6\u6d4f\u89c8\u7a97\u53e3*\r\n\r\n**\u6b65\u9aa4 4**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/35.png)\u6dfb\u52a0\u5c06\u8981\u52a0\u5bc6\u7684\u6587\u4ef6,\u7136\u540e\u56de\u5230*\u52a0\u5bc6/ Decrypt*\u7a97\u53e3:\r\n\r\n![](/sbox/screen/gpg4usb-en/36.png)\r\n\r\n*\u56fe 10: The \u52a0\u5bc6/\u89e3\u5bc6\u6587\u4ef6\u7a97\u53e3\u663e\u793a\u6307\u5b9a\u8981\u52a0\u5bc6\u7684\u6587\u4ef6*\r\n\r\n**\u6b65\u9aa4 5**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/09.png) \u5f00\u542f\u4e0b\u5217\u754c\u9762:\r\n\r\n![](/sbox/screen/gpg4usb-en/38.png)\r\n\r\n*\u56fe 11:\u5b8c\u6210\u786e\u8ba4\u5bf9\u8bdd\u6846*\r\n\r\nThe *\u5b8c\u6210*\u786e\u8ba4\u5bf9\u8bdd\u6846\u663e\u793a\u52a0\u5bc6\u6587\u4ef6\u7684\u76ee\u6807\u5730\u5740. \u52a0\u5bc6\u6587\u4ef6\u7684\u540e\u7f00\u662f*.asc* .\u6bd4\u5982, *Technical White Paper.doc.asc*. \r\n\r\n**\u6b65\u9aa4 6**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/09.png) \u5b8c\u6210\u52a0\u5bc6.\r\n\r\n**\u6ce8\u610f**:\u60a8\u53ef\u4ee5\u5206\u5f00\u52a0\u5bc6\u6587\u5b57\u548c\u4e00\u8d77\u53d1\u9001\u7684\u6587\u4ef6.\r\n\r\n**\u6b65\u9aa4 7**.\u6253\u5f00\u60a8\u7684\u7535\u90ae,**\u5b9a\u5411**\u81f3*\u5b8c\u6210*\u5bf9\u8bdd\u6846(*\u56fe 11*)\u4e2d\u7684\u6587\u4ef6\u5730\u5740,\u7136\u540e\u5c06\u5df2\u52a0\u5bc6\u7684\u6587\u4ef6\u6dfb\u52a0\u81f3\u90ae\u4ef6\u9644\u4ef6\u4e2d.\r\n\r\n**\u975e\u5e38\u91cd\u8981**:\u52a0\u5bc6\u6587\u4ef6\u7684\u6587\u4ef6\u540d**\u4e0d\u4f1a\u88ab\u52a0\u5bc6**.\u8bf7\u4e0d\u8981\u5728\u6587\u4ef6\u540d\u4e2d\u6cc4\u9732\u4e86\u5185\u5bb9\u7684\u91cd\u8981\u4fe1\u606f!\u4e5f\u522b\u5fd8\u8bb0,\u52a0\u5bc6\u6587\u4ef6\u7684\u6e90\u6587\u4ef6\u4ecd\u7136\u5728\u60a8\u786c\u76d8\u7684\u5176\u4ed6\u5730\u65b9.\r\n\r\n<a name=\"4.3\"></a>\r\n## 4.3 \u5982\u4f55\u7528gpg4usb\u89e3\u5bc6\u6587\u4ef6 ##\r\n\r\n\u5728\u4e0b\u9762\u7684\u793a\u4f8b\u4e2d,Terence\u5c06\u4f1a\u89e3\u5bc6Salima\u7ed9\u4ed6\u53d1\u9001\u7684\u6587\u4ef6,\u901a\u8fc7\u5982\u4e0b\u6b65\u9aa4:\r\n\r\n**\u6b65\u9aa4 1**. **\u53cc\u51fb** ![](/sbox/screen/gpg4usb-en/03.png)  \u4ee5\u6253\u5f00 **gpg4usb**.\r\n\r\n**\u6b65\u9aa4 2**. **\u6253\u5f00** \u60a8\u7684\u90ae\u4ef6\u8d26\u6237, **\u6253\u5f00** \u90ae\u4ef6\u5e76 **\u4e0b\u8f7d** \u90ae\u4ef6\u9644\u4ef6.\r\n\r\n**\u6ce8\u610f**:\u5982\u679c\u60a8\u7684\u8054\u7cfb\u4eba\u7ed9\u60a8\u53d1\u9001\u52a0\u5bc6\u6587\u4ef6\u7684\u540c\u65f6\u53c8\u53d1\u9001\u4e86\u52a0\u5bc6\u4fe1\u606f,\u60a8\u53ef\u4ee5\u4f7f\u7528[**4.1 \u5982\u4f55\u7528gpg4usb\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f**](zh/gpg4usb-encryptdecrypt) \u7684\u65b9\u6cd5 \u6765\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f.\r\n**\u6b65\u9aa4 3**. \u5728 **gpg4usb**\u4e3b\u754c\u9762 (as shown in *\u56fe 1* above), **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/31.png) \u542f\u52a8 **\u52a0\u5bc6/\u89e3\u5bc6File** \u7a97\u53e3(\u50cf\u5728 *\u56fe 12*\u90a3\u6837). \r\n\r\n**\u6b65\u9aa4 4**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/33.png) \u6d4f\u89c8\u4e0b\u8f7d\u7684\u52a0\u5bc6\u6587\u4ef6\u5730\u5740:\r\n\r\n![](/sbox/screen/gpg4usb-en/37.png) \r\n\r\n*\u56fe 12: The \u52a0\u5bc6/\u89e3\u5bc6\u7a97\u53e3,\u663e\u793a\u52a0\u5bc6\u6587\u4ef6\u7684\u8def\u5f84*\r\n\r\n**\u6b65\u9aa4 5**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/09.png) \u5f00\u542f\u4e0b\u5217\u754c\u9762:\r\n\r\n![](/sbox/screen/gpg4usb-en/39.png) \r\n\r\n*\u56fe 13: \u5b8c\u6210\u786e\u8ba4\u5bf9\u8bdd\u6846\u663e\u793a\u5df2\u89e3\u5bc6\u6587\u4ef6\u7684\u5b58\u50a8\u8def\u5f84 *\r\n\r\n**\u91cd\u8981**:\u5982\u679c\u60a8\u5728\u7f51\u5427\u6216\u8005\u5de5\u4f5c\u5730\u70b9\u7b49\u516c\u7528\u7535\u8111\u64cd\u4f5c\u65f6,\u6700\u597d\u628a*.asc*\u540e\u7f00\u7684\u6587\u4ef6\u590d\u5236\u5230\u60a8\u7684USB\u6216\u5176\u4ed6\u79fb\u52a8\u5b58\u50a8\u8bbe\u5907\u4e0a,\u5e76\u968f\u8eab\u643a\u5e26,\u8fd9\u6837\u5c31\u53ef\u4ee5\u786e\u4fdd\u6700\u5927\u9650\u5ea6\u7684\u5b89\u5168.\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2057", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2057", 
+                "link_title": "How to Export and Import Keys", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5203", 
+                "module": "book", 
+                "nid": "2057", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5203", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "How to Export and Import Keys", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1455120354", 
+            "comment": "0", 
+            "created": "1441122242", 
+            "current_revision_id": "13207", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "zh-hans": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb-keysimportexport", 
+                        "value": "gpg4usb-keysimportexport"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5203": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2057", 
+                    "link_title": "How to Export and Import Keys", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5203", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5203", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2057", 
+            "num_revisions": "16", 
+            "path": "https://securityinabox.org/en/gpg4usb-keysimportexport", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455120354", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "zh-hans": [
+                    {
+                        "format": null, 
+                        "safe_value": "\u5982\u4f55\u4f7f\u7528gpg4usb\u5bfc\u51fa\u548c\u5bfc\u5165\u5bc6\u94a5", 
+                        "value": "\u5982\u4f55\u4f7f\u7528gpg4usb\u5bfc\u51fa\u548c\u5bfc\u5165\u5bc6\u94a5"
+                    }
+                ]
+            }, 
+            "title_original": "How to Export and Import Keys", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933435", 
+                        "created": "1442933435", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442246357", 
+                        "created": "1442246357", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506690", 
+                        "created": "1442506690", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452097777", 
+                        "created": "1441633817", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733270", 
+                        "created": "1444733270", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455120354", 
+                        "created": "1455120354", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443788784", 
+                        "created": "1443788784", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192625", 
+                        "created": "1441192625", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444189052", 
+                        "created": "1444189052", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024203", 
+                        "created": "1443024203", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834259", 
+                        "created": "1444730205", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122242", 
+                        "created": "1441122242", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2057", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445442893", 
+                        "created": "1445442893", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "927bdf66-af92-4bea-811d-b4b792b4602f", 
+            "vid": "13207", 
+            "vuuid": "1535d39a-166a-4f3a-b90d-335003b5c6ca"
+        }, 
+        {
+            "body": {
+                "zh-hans": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>\u672c\u9875\u7684\u9879\u76ee\u5217\u8868:</p>\n\n<ul><li><a href=\"#4.0\">**4.0 \u5982\u4f55\u7528 gpg4usb\u52a0\u5bc6\u6587\u5b57\u4fe1\u606f **</a></li>\n<li><a href=\"#4.1\">**4.1 \u5982\u4f55\u7528 gpg4usb\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f **</a></li>\n<li><a href=\"#4.2\"><strong>4.2 \u5982\u4f55\u7528 gpg4usb\u52a0\u5bc6\u6587\u4ef6</strong></a></li>\n<li><a href=\"#4.3\"><strong>4.3 \u5982\u4f55\u7528 gpg4usb\u89e3\u5bc6\u6587\u4ef6</strong></a></li>\n</ul><hr /><p><a name=\"4.0\" id=\"4.0\"></a></p>\n\n<h2>4.0 \u5982\u4f55\u7528gpg4usb \u52a0\u5bc6\u6587\u5b57\u4fe1\u606f</h2>\n\n<p>\u6587\u5b57\u4fe1\u606f\u7684\u52a0\u5bc6\u8fc7\u7a0b\u7b80\u5355\u6613\u884c.\u5728\u5982\u4e0b\u7684\u793a\u4f8b\u4e2d, Terence\u4f1a\u52a0\u5bc6\u4e00\u5c01\u53d1\u7ed9Salima\u7684\u7535\u5b50\u90ae\u4ef6, \u901a\u8fc7\u5982\u4e0b\u6b65\u9aa4:</p>\n\n<p><strong>\u6b65\u9aa4 1</strong>. <strong>\u53cc\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/03.png\" alt=\"\" />  \u4ee5\u6253\u5f00 <strong>gpg4usb</strong>\u4e3b\u754c\u9762.</p>\n\n<p><strong>\u6b65\u9aa4 2</strong>. \u6309\u7167\u793a\u4f8b\u6240\u793a,<strong>\u7f16\u8f91</strong>\u60a8\u7684\u6587\u5b57\u4fe1\u606f:\n<img src=\"/sbox/screen/gpg4usb-en/19.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 1: gpg4usb \u4e3b\u754c\u9762\u4ee5\u53ca\u793a\u4f8b\u6587\u5b57\u4fe1\u606f</em></p>\n\n<p><strong>\u6b65\u9aa4 3</strong>. <strong>\u52fe\u9009</strong>\u60a8\u7684\u90ae\u4ef6\u63a5\u53d7\u8005\u7684\u590d\u9009\u6846,\u5982\u4e0b:\n<img src=\"/sbox/screen/gpg4usb-en/20.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 2: gpg4usb\u4e3b\u754c\u9762\u663e\u793a\u7684,\u6807\u9ed1\u7684\u90ae\u4ef6\u63a5\u6536\u4eba</em></p>\n\n<p><strong>\u6ce8\u610f:</strong>\u5982\u679c\u8981\u7ed9\u66f4\u591a\u8054\u7cfb\u4eba\u53d1\u9001\u7684\u90ae\u4ef6\u52a0\u5bc6,\u53ea\u9700\u8981\u5728<em>\u4e3a\u2026\u52a0\u5bc6</em>\u680f\u5bf9\u5e94\u7684\u590d\u9009\u6846\u91cc\u52fe\u9009\u4ed6\u4eec\u5c31\u53ef\u4ee5\u4e86.\u6b64\u5916,\u5982\u679c\u5c06\u4fe1\u606f\u5bf9\u81ea\u5df1\u4e5f\u52a0\u5bc6\u53d1\u9001,\u5bf9\u90ae\u4ef6\u5f52\u6863\u4f1a\u6709\u597d\u5904,\u8fd9\u6837\u60a8\u4e5f\u53ef\u4ee5\u77e5\u9053\u81ea\u5df1\u53d1\u9001\u4e86\u4ec0\u4e48\u4fe1\u606f.\n<strong>\u6b65\u9aa4 4</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/21.png\" alt=\"\" /> \u6216\u4ece<strong>\u5bc6\u7801</strong>\u83dc\u5355\u4e2d<strong>\u9009\u62e9 \u52a0\u5bc6</strong>\u9009\u9879\u6765\u52a0\u5bc6\u60a8\u7684\u4fe1\u606f,\u5982\u4e0b\u6240\u793a:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/22.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 3: gpg4usb\u4e3b\u754c\u9762\u663e\u793a\u7684\u52a0\u5bc6\u4fe1\u606f\u7684\u793a\u4f8b</em></p>\n\n<p><strong>\u6b65\u9aa4 5</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/23.png\" alt=\"\" /> \u9009\u62e9\u5168\u90e8\u52a0\u5bc6\u4fe1\u606f,\u7136\u540e <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/24.png\" alt=\"\" />\u5c06\u4fe1\u606f\u590d\u5236\u5230\u526a\u8d34\u677f.\n<strong>\u6ce8\u610f</strong>:\u60a8\u4e5f\u53ef\u4ee5\u4f7f\u7528\u5feb\u6377\u952e<strong>Ctrl + E</strong>.</p>\n\n<p><strong>\u6b65\u9aa4 6</strong>. <strong>\u6253\u5f00</strong>\u60a8\u7684\u90ae\u4ef6\u8d26\u6237,\u7136\u540e <strong>\u6253\u5f00</strong> \u7a7a\u767d\u7684\u4fe1\u606f\u9875,\u7136\u540e\u5c06\u4fe1\u606f <strong>\u7c98\u8d34</strong>\u5230\u4e0a\u9762,\u5982\u4e0b\u6240\u793a:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/25.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 4:\u5c06\u7528gpg4usb\u52a0\u5bc6\u7684\u4fe1\u606f\u6587\u5b57\u7c98\u8d34\u5230\u67d0\u4e2aGmail\u90ae\u4ef6\u8d26\u6237\u91cc</em></p>\n\n<p><strong>\u6ce8\u610f</strong>: <strong>\u5bcc\u6587\u672c\u683c\u5f0f</strong> (<strong>RTF</strong>)\u53ef\u80fd\u4f1a\u7834\u574f\u52a0\u5bc6\u4fe1\u606f\u7684\u683c\u5f0f; \u6240\u4ee5\u6700\u597d\u7528\u7eaf\u6587\u672c\u683c\u5f0f\u7f16\u8f91\u4fe1\u606f.\u5982\u679c\u8981\u628a <strong>RTF</strong> \u8f6c\u6362\u4e3a\u5728<strong>Gmail</strong>\u7684\u7eaf\u6587\u672c\u683c\u5f0f,\u53ea\u9700\u5728\u4fe1\u606f\u680f\u4e0a\u7684\u683c\u5f0f\u5de5\u5177\u6761\u91cc <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/26.png\" alt=\"\" /></p>\n\n<p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h2>4.1 \u5982\u4f55\u7528gpg4usb\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f</h2>\n\n<p>\u8981\u89e3\u5bc6\u4e00\u5c01\u52a0\u5bc6\u7684\u7535\u5b50\u90ae\u4ef6,\u8bf7\u6267\u884c\u5982\u4e0b\u6b65\u9aa4:</p>\n\n<p><strong>\u6b65\u9aa4 1</strong>. <strong>\u53cc\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/03.png\" alt=\"\" />  \u4ee5\u6253\u5f00 <strong>gpg4usb</strong>\u7a0b\u5e8f.</p>\n\n<p><strong>\u6b65\u9aa4 2</strong>. <strong>\u6253\u5f00</strong> \u60a8\u7684\u90ae\u4ef6\u8d26\u6237, \u7136\u540e <strong>\u6253\u5f00</strong> \u90ae\u4ef6.</p>\n\n<p><strong>\u6b65\u9aa4 3</strong>. <strong>\u9009\u62e9</strong>, <strong>\u590d\u5236</strong>\u7136\u540e\u5c06\u52a0\u5bc6\u7684\u4fe1\u606f <strong>\u7c98\u8d34</strong>\u5230 <strong>gpg4usb</strong>\u4e3b\u754c\u9762\u4e0b\u7684<em>\u672a\u547d\u540d1.txt</em>\u8868\u683c\u4e2d,\u5982\u4e0b:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/27.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 5: gpg4usb\u4e3b\u754c\u9762 \u663e\u793a\u8981\u89e3\u5bc6\u7684\u4fe1\u606f</em></p>\n\n<p><strong>\u6ce8\u610f</strong>:\u5982\u679c\u52a0\u5bc6\u4fe1\u606f\u51fa\u73b0<em>\u56fe 6</em>\u4e2d\u7684\u53cc\u6362\u884c\u7b26\u7684\u8bdd,<strong>gpg4usb</strong>\u53ef\u80fd\u65e0\u6cd5\u81ea\u52a8\u89e3\u5bc6\u5b83.\u8981\u79fb\u9664\u4ed6\u4eec,\u5728<strong>\u7f16\u8f91</strong>\u83dc\u5355\u4e2d<strong>\u9009\u62e9</strong> <em>\u79fb\u9664\u53cc\u6362\u884c\u7b26</em>\u9009\u9879\u6765\u79fb\u9664\u4ed6\u4eec,\u5e76\u7ee7\u7eed<strong>\u6b65\u9aa4 4</strong>\u7684\u52a0\u5bc6\u6b65\u9aa4.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/28.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 6: gpg4usb\u4e3b\u754c\u9762 \u663e\u793a\u8981\u89e3\u5bc6\u7684\u5e26\u53cc\u6362\u884c\u7b26\u7684\u4fe1\u606f</em></p>\n\n<p><strong>\u6b65\u9aa4 4</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/29.png\" alt=\"\" /> \u5e76\u952e\u5165\u5bc6\u94a5\u5bf9\u4e2d\u8bbe\u7f6e\u7684\u5bc6\u7801,\u5982\u4e0b\u56fe\u6240\u793a:\n<img src=\"/sbox/screen/gpg4usb-en/30.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 7: \u5bc6\u7801\u8f93\u5165\u5f39\u51fa\u7a97\u53e3</em></p>\n\n<p><strong>\u6b65\u9aa4 5</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/09.png\" alt=\"\" /> \u4ee5\u5f00\u542f<strong>gpg4usb</strong>\u4e3b\u754c\u9762 \u5982 <em>\u56fe 2</em> \u6240\u793a.</p>\n\n<p><a name=\"4.2\" id=\"4.2\"></a></p>\n\n<h2>4.2 \u5982\u4f55\u7528gpg4usb \u52a0\u5bc6\u6587\u4ef6</h2>\n\n<p>\u52a0\u5bc6\u6587\u4ef6\u7684\u65b9\u6cd5\u4e0e\u52a0\u5bc6\u6587\u5b57\u4fe1\u606f\u7684\u65b9\u6cd5\u7c7b\u4f3c.\u5728\u5982\u4e0b\u7684\u793a\u4f8b\u4e2d,Salima\u5c06\u4f1a\u7ed9Terence\u52a0\u5bc6\u4e00\u4e2a\u6587\u4ef6,\u4f7f\u7528\u5982\u4e0b\u6b65\u9aa4:</p>\n\n<p><strong>\u6b65\u9aa4 1</strong>. <strong>\u53cc\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/03.png\" alt=\"\" />  \u4ee5\u6253\u5f00 <strong>gpg4usb</strong>.</p>\n\n<p><strong>\u6b65\u9aa4 2</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/31.png\" alt=\"\" /> \u5f00\u542f\u4ee5\u4e0b\u754c\u9762:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/32.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 8:\u52a0\u5bc6/\u89e3\u5bc6\u6587\u4ef6\u7a97\u53e3, \u9009\u62e9\u89e3\u5bc6\u9009\u9879</em></p>\n\n<p><em>\u52a0\u5bc6/\u89e3\u5bc6\u6587\u4ef6</em> \u7a97\u53e3\u4e0b\u62c9\u680f\uff08\u9ed1\u4f53\u6807\u51fa\uff09\u53ef\u4ee5\u8ba9\u60a8\u9009\u62e9\u8981\u52a0\u5bc6\u4fe1\u606f\u7684\u5bf9\u5e94\u5bc6\u7801\u4ee5\u53ca\u90ae\u4ef6\u8d26\u6237.\n<strong>\u6b65\u9aa4 3</strong>. <strong>\u52fe\u9009</strong> <em>\u542f\u7528</em>\u5355\u9009\u6309\u94ae,\u7136\u540e <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/33.png\" alt=\"\" /> \u5f00\u542f\u4e0b\u5217\u754c\u9762:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/34.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 9: \u6253\u5f00\u6587\u4ef6\u6d4f\u89c8\u7a97\u53e3</em></p>\n\n<p><strong>\u6b65\u9aa4 4</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/35.png\" alt=\"\" />\u6dfb\u52a0\u5c06\u8981\u52a0\u5bc6\u7684\u6587\u4ef6,\u7136\u540e\u56de\u5230<em>\u52a0\u5bc6/ Decrypt</em>\u7a97\u53e3:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/36.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 10: The \u52a0\u5bc6/\u89e3\u5bc6\u6587\u4ef6\u7a97\u53e3\u663e\u793a\u6307\u5b9a\u8981\u52a0\u5bc6\u7684\u6587\u4ef6</em></p>\n\n<p><strong>\u6b65\u9aa4 5</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/09.png\" alt=\"\" /> \u5f00\u542f\u4e0b\u5217\u754c\u9762:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/38.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 11:\u5b8c\u6210\u786e\u8ba4\u5bf9\u8bdd\u6846</em></p>\n\n<p>The <em>\u5b8c\u6210</em>\u786e\u8ba4\u5bf9\u8bdd\u6846\u663e\u793a\u52a0\u5bc6\u6587\u4ef6\u7684\u76ee\u6807\u5730\u5740. \u52a0\u5bc6\u6587\u4ef6\u7684\u540e\u7f00\u662f<em>.asc</em> .\u6bd4\u5982, <em>Technical White Paper.doc.asc</em>.</p>\n\n<p><strong>\u6b65\u9aa4 6</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/09.png\" alt=\"\" /> \u5b8c\u6210\u52a0\u5bc6.</p>\n\n<p><strong>\u6ce8\u610f</strong>:\u60a8\u53ef\u4ee5\u5206\u5f00\u52a0\u5bc6\u6587\u5b57\u548c\u4e00\u8d77\u53d1\u9001\u7684\u6587\u4ef6.</p>\n\n<p><strong>\u6b65\u9aa4 7</strong>.\u6253\u5f00\u60a8\u7684\u7535\u90ae,<strong>\u5b9a\u5411</strong>\u81f3<em>\u5b8c\u6210</em>\u5bf9\u8bdd\u6846(<em>\u56fe 11</em>)\u4e2d\u7684\u6587\u4ef6\u5730\u5740,\u7136\u540e\u5c06\u5df2\u52a0\u5bc6\u7684\u6587\u4ef6\u6dfb\u52a0\u81f3\u90ae\u4ef6\u9644\u4ef6\u4e2d.</p>\n\n<p><strong>\u975e\u5e38\u91cd\u8981</strong>:\u52a0\u5bc6\u6587\u4ef6\u7684\u6587\u4ef6\u540d<strong>\u4e0d\u4f1a\u88ab\u52a0\u5bc6</strong>.\u8bf7\u4e0d\u8981\u5728\u6587\u4ef6\u540d\u4e2d\u6cc4\u9732\u4e86\u5185\u5bb9\u7684\u91cd\u8981\u4fe1\u606f!\u4e5f\u522b\u5fd8\u8bb0,\u52a0\u5bc6\u6587\u4ef6\u7684\u6e90\u6587\u4ef6\u4ecd\u7136\u5728\u60a8\u786c\u76d8\u7684\u5176\u4ed6\u5730\u65b9.</p>\n\n<p><a name=\"4.3\" id=\"4.3\"></a></p>\n\n<h2>4.3 \u5982\u4f55\u7528gpg4usb\u89e3\u5bc6\u6587\u4ef6</h2>\n\n<p>\u5728\u4e0b\u9762\u7684\u793a\u4f8b\u4e2d,Terence\u5c06\u4f1a\u89e3\u5bc6Salima\u7ed9\u4ed6\u53d1\u9001\u7684\u6587\u4ef6,\u901a\u8fc7\u5982\u4e0b\u6b65\u9aa4:</p>\n\n<p><strong>\u6b65\u9aa4 1</strong>. <strong>\u53cc\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/03.png\" alt=\"\" />  \u4ee5\u6253\u5f00 <strong>gpg4usb</strong>.</p>\n\n<p><strong>\u6b65\u9aa4 2</strong>. <strong>\u6253\u5f00</strong> \u60a8\u7684\u90ae\u4ef6\u8d26\u6237, <strong>\u6253\u5f00</strong> \u90ae\u4ef6\u5e76 <strong>\u4e0b\u8f7d</strong> \u90ae\u4ef6\u9644\u4ef6.</p>\n\n<p><strong>\u6ce8\u610f</strong>:\u5982\u679c\u60a8\u7684\u8054\u7cfb\u4eba\u7ed9\u60a8\u53d1\u9001\u52a0\u5bc6\u6587\u4ef6\u7684\u540c\u65f6\u53c8\u53d1\u9001\u4e86\u52a0\u5bc6\u4fe1\u606f,\u60a8\u53ef\u4ee5\u4f7f\u7528<a href=\"/zh/gpg4usb-keysimportexport#4.1\"><strong>4.1 \u5982\u4f55\u7528gpg4usb\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f</strong></a> \u7684\u65b9\u6cd5 \u6765\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f.\n<strong>\u6b65\u9aa4 3</strong>. \u5728 <strong>gpg4usb</strong>\u4e3b\u754c\u9762 (as shown in <em>\u56fe 1</em> above), <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/31.png\" alt=\"\" /> \u542f\u52a8 <strong>\u52a0\u5bc6/\u89e3\u5bc6File</strong> \u7a97\u53e3(\u50cf\u5728 <em>\u56fe 12</em>\u90a3\u6837).</p>\n\n<p><strong>\u6b65\u9aa4 4</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/33.png\" alt=\"\" /> \u6d4f\u89c8\u4e0b\u8f7d\u7684\u52a0\u5bc6\u6587\u4ef6\u5730\u5740:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/37.png\" alt=\"\" /></p>\n\n<p><em>\u56fe 12: The \u52a0\u5bc6/\u89e3\u5bc6\u7a97\u53e3,\u663e\u793a\u52a0\u5bc6\u6587\u4ef6\u7684\u8def\u5f84</em></p>\n\n<p><strong>\u6b65\u9aa4 5</strong>. <strong>\u5355\u51fb</strong> <img src=\"/sbox/screen/gpg4usb-en/09.png\" alt=\"\" /> \u5f00\u542f\u4e0b\u5217\u754c\u9762:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en/39.png\" alt=\"\" /></p>\n\n<p>*\u56fe 13: \u5b8c\u6210\u786e\u8ba4\u5bf9\u8bdd\u6846\u663e\u793a\u5df2\u89e3\u5bc6\u6587\u4ef6\u7684\u5b58\u50a8\u8def\u5f84 *</p>\n\n<p><strong>\u91cd\u8981</strong>:\u5982\u679c\u60a8\u5728\u7f51\u5427\u6216\u8005\u5de5\u4f5c\u5730\u70b9\u7b49\u516c\u7528\u7535\u8111\u64cd\u4f5c\u65f6,\u6700\u597d\u628a<em>.asc</em>\u540e\u7f00\u7684\u6587\u4ef6\u590d\u5236\u5230\u60a8\u7684USB\u6216\u5176\u4ed6\u79fb\u52a8\u5b58\u50a8\u8bbe\u5907\u4e0a,\u5e76\u968f\u8eab\u643a\u5e26,\u8fd9\u6837\u5c31\u53ef\u4ee5\u786e\u4fdd\u6700\u5927\u9650\u5ea6\u7684\u5b89\u5168.</p>\n", 
+                        "summary": "", 
+                        "value": "\u672c\u9875\u7684\u9879\u76ee\u5217\u8868:\r\n\r\n- [**4.0 \u5982\u4f55\u7528 gpg4usb\u52a0\u5bc6\u6587\u5b57\u4fe1\u606f **](#4.0)\r\n- [**4.1 \u5982\u4f55\u7528 gpg4usb\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f **](#4.1)\r\n- [**4.2 \u5982\u4f55\u7528 gpg4usb\u52a0\u5bc6\u6587\u4ef6**](#4.2)\r\n- [**4.3 \u5982\u4f55\u7528 gpg4usb\u89e3\u5bc6\u6587\u4ef6**](#4.3)\r\n\r\n-------\r\n\r\n<a name=\"4.0\"></a>\r\n## 4.0 \u5982\u4f55\u7528gpg4usb \u52a0\u5bc6\u6587\u5b57\u4fe1\u606f##\r\n\r\n\u6587\u5b57\u4fe1\u606f\u7684\u52a0\u5bc6\u8fc7\u7a0b\u7b80\u5355\u6613\u884c.\u5728\u5982\u4e0b\u7684\u793a\u4f8b\u4e2d, Terence\u4f1a\u52a0\u5bc6\u4e00\u5c01\u53d1\u7ed9Salima\u7684\u7535\u5b50\u90ae\u4ef6, \u901a\u8fc7\u5982\u4e0b\u6b65\u9aa4:\r\n\r\n**\u6b65\u9aa4 1**. **\u53cc\u51fb** ![](/sbox/screen/gpg4usb-en/03.png)  \u4ee5\u6253\u5f00 **gpg4usb**\u4e3b\u754c\u9762.\r\n\r\n**\u6b65\u9aa4 2**. \u6309\u7167\u793a\u4f8b\u6240\u793a,**\u7f16\u8f91**\u60a8\u7684\u6587\u5b57\u4fe1\u606f:\r\n![](/sbox/screen/gpg4usb-en/19.png)\r\n\r\n*\u56fe 1: gpg4usb \u4e3b\u754c\u9762\u4ee5\u53ca\u793a\u4f8b\u6587\u5b57\u4fe1\u606f*\r\n\r\n**\u6b65\u9aa4 3**. **\u52fe\u9009**\u60a8\u7684\u90ae\u4ef6\u63a5\u53d7\u8005\u7684\u590d\u9009\u6846,\u5982\u4e0b:\r\n![](/sbox/screen/gpg4usb-en/20.png)\r\n\r\n*\u56fe 2: gpg4usb\u4e3b\u754c\u9762\u663e\u793a\u7684,\u6807\u9ed1\u7684\u90ae\u4ef6\u63a5\u6536\u4eba*\r\n\r\n**\u6ce8\u610f:**\u5982\u679c\u8981\u7ed9\u66f4\u591a\u8054\u7cfb\u4eba\u53d1\u9001\u7684\u90ae\u4ef6\u52a0\u5bc6,\u53ea\u9700\u8981\u5728*\u4e3a\u2026\u52a0\u5bc6*\u680f\u5bf9\u5e94\u7684\u590d\u9009\u6846\u91cc\u52fe\u9009\u4ed6\u4eec\u5c31\u53ef\u4ee5\u4e86.\u6b64\u5916,\u5982\u679c\u5c06\u4fe1\u606f\u5bf9\u81ea\u5df1\u4e5f\u52a0\u5bc6\u53d1\u9001,\u5bf9\u90ae\u4ef6\u5f52\u6863\u4f1a\u6709\u597d\u5904,\u8fd9\u6837\u60a8\u4e5f\u53ef\u4ee5\u77e5\u9053\u81ea\u5df1\u53d1\u9001\u4e86\u4ec0\u4e48\u4fe1\u606f.\r\n**\u6b65\u9aa4 4**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/21.png) \u6216\u4ece**\u5bc6\u7801**\u83dc\u5355\u4e2d**\u9009\u62e9 \u52a0\u5bc6**\u9009\u9879\u6765\u52a0\u5bc6\u60a8\u7684\u4fe1\u606f,\u5982\u4e0b\u6240\u793a:\r\n\r\n![](/sbox/screen/gpg4usb-en/22.png)\r\n\r\n*\u56fe 3: gpg4usb\u4e3b\u754c\u9762\u663e\u793a\u7684\u52a0\u5bc6\u4fe1\u606f\u7684\u793a\u4f8b*\r\n\r\n**\u6b65\u9aa4 5**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/23.png) \u9009\u62e9\u5168\u90e8\u52a0\u5bc6\u4fe1\u606f,\u7136\u540e **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/24.png)\u5c06\u4fe1\u606f\u590d\u5236\u5230\u526a\u8d34\u677f.\r\n**\u6ce8\u610f**:\u60a8\u4e5f\u53ef\u4ee5\u4f7f\u7528\u5feb\u6377\u952e**Ctrl + E**.\r\n\r\n**\u6b65\u9aa4 6**. **\u6253\u5f00**\u60a8\u7684\u90ae\u4ef6\u8d26\u6237,\u7136\u540e **\u6253\u5f00** \u7a7a\u767d\u7684\u4fe1\u606f\u9875,\u7136\u540e\u5c06\u4fe1\u606f **\u7c98\u8d34**\u5230\u4e0a\u9762,\u5982\u4e0b\u6240\u793a:\r\n\r\n![](/sbox/screen/gpg4usb-en/25.png)\r\n\r\n*\u56fe 4:\u5c06\u7528gpg4usb\u52a0\u5bc6\u7684\u4fe1\u606f\u6587\u5b57\u7c98\u8d34\u5230\u67d0\u4e2aGmail\u90ae\u4ef6\u8d26\u6237\u91cc*\r\n\r\n**\u6ce8\u610f**: **\u5bcc\u6587\u672c\u683c\u5f0f** (**RTF**)\u53ef\u80fd\u4f1a\u7834\u574f\u52a0\u5bc6\u4fe1\u606f\u7684\u683c\u5f0f; \u6240\u4ee5\u6700\u597d\u7528\u7eaf\u6587\u672c\u683c\u5f0f\u7f16\u8f91\u4fe1\u606f.\u5982\u679c\u8981\u628a **RTF** \u8f6c\u6362\u4e3a\u5728**Gmail**\u7684\u7eaf\u6587\u672c\u683c\u5f0f,\u53ea\u9700\u5728\u4fe1\u606f\u680f\u4e0a\u7684\u683c\u5f0f\u5de5\u5177\u6761\u91cc **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/26.png)\r\n\r\n<a name=\"4.1\"></a>\r\n## 4.1 \u5982\u4f55\u7528gpg4usb\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f##\r\n\r\n\u8981\u89e3\u5bc6\u4e00\u5c01\u52a0\u5bc6\u7684\u7535\u5b50\u90ae\u4ef6,\u8bf7\u6267\u884c\u5982\u4e0b\u6b65\u9aa4:\r\n\r\n**\u6b65\u9aa4 1**. **\u53cc\u51fb** ![](/sbox/screen/gpg4usb-en/03.png)  \u4ee5\u6253\u5f00 **gpg4usb**\u7a0b\u5e8f.\r\n\r\n**\u6b65\u9aa4 2**. **\u6253\u5f00** \u60a8\u7684\u90ae\u4ef6\u8d26\u6237, \u7136\u540e **\u6253\u5f00** \u90ae\u4ef6.\r\n\r\n**\u6b65\u9aa4 3**. **\u9009\u62e9**, **\u590d\u5236**\u7136\u540e\u5c06\u52a0\u5bc6\u7684\u4fe1\u606f **\u7c98\u8d34**\u5230 **gpg4usb**\u4e3b\u754c\u9762\u4e0b\u7684*\u672a\u547d\u540d1.txt*\u8868\u683c\u4e2d,\u5982\u4e0b:\r\n\r\n![](/sbox/screen/gpg4usb-en/27.png)\r\n\r\n*\u56fe 5: gpg4usb\u4e3b\u754c\u9762 \u663e\u793a\u8981\u89e3\u5bc6\u7684\u4fe1\u606f*\r\n\r\n**\u6ce8\u610f**:\u5982\u679c\u52a0\u5bc6\u4fe1\u606f\u51fa\u73b0*\u56fe 6*\u4e2d\u7684\u53cc\u6362\u884c\u7b26\u7684\u8bdd,**gpg4usb**\u53ef\u80fd\u65e0\u6cd5\u81ea\u52a8\u89e3\u5bc6\u5b83.\u8981\u79fb\u9664\u4ed6\u4eec,\u5728**\u7f16\u8f91**\u83dc\u5355\u4e2d**\u9009\u62e9** *\u79fb\u9664\u53cc\u6362\u884c\u7b26*\u9009\u9879\u6765\u79fb\u9664\u4ed6\u4eec,\u5e76\u7ee7\u7eed**\u6b65\u9aa4 4**\u7684\u52a0\u5bc6\u6b65\u9aa4.\r\n\r\n![](/sbox/screen/gpg4usb-en/28.png)\r\n\r\n*\u56fe 6: gpg4usb\u4e3b\u754c\u9762 \u663e\u793a\u8981\u89e3\u5bc6\u7684\u5e26\u53cc\u6362\u884c\u7b26\u7684\u4fe1\u606f*\r\n \r\n**\u6b65\u9aa4 4**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/29.png) \u5e76\u952e\u5165\u5bc6\u94a5\u5bf9\u4e2d\u8bbe\u7f6e\u7684\u5bc6\u7801,\u5982\u4e0b\u56fe\u6240\u793a:\r\n![](/sbox/screen/gpg4usb-en/30.png)\r\n\r\n*\u56fe 7: \u5bc6\u7801\u8f93\u5165\u5f39\u51fa\u7a97\u53e3*\r\n\r\n**\u6b65\u9aa4 5**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/09.png) \u4ee5\u5f00\u542f**gpg4usb**\u4e3b\u754c\u9762 \u5982 *\u56fe 2* \u6240\u793a.\r\n\r\n<a name=\"4.2\"></a>\r\n## 4.2 \u5982\u4f55\u7528gpg4usb \u52a0\u5bc6\u6587\u4ef6##\r\n\r\n\u52a0\u5bc6\u6587\u4ef6\u7684\u65b9\u6cd5\u4e0e\u52a0\u5bc6\u6587\u5b57\u4fe1\u606f\u7684\u65b9\u6cd5\u7c7b\u4f3c.\u5728\u5982\u4e0b\u7684\u793a\u4f8b\u4e2d,Salima\u5c06\u4f1a\u7ed9Terence\u52a0\u5bc6\u4e00\u4e2a\u6587\u4ef6,\u4f7f\u7528\u5982\u4e0b\u6b65\u9aa4:\r\n\r\n**\u6b65\u9aa4 1**. **\u53cc\u51fb** ![](/sbox/screen/gpg4usb-en/03.png)  \u4ee5\u6253\u5f00 **gpg4usb**.\r\n\r\n**\u6b65\u9aa4 2**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/31.png) \u5f00\u542f\u4ee5\u4e0b\u754c\u9762:\r\n\r\n![](/sbox/screen/gpg4usb-en/32.png)\r\n\r\n*\u56fe 8:\u52a0\u5bc6/\u89e3\u5bc6\u6587\u4ef6\u7a97\u53e3, \u9009\u62e9\u89e3\u5bc6\u9009\u9879*\r\n\r\n*\u52a0\u5bc6/\u89e3\u5bc6\u6587\u4ef6* \u7a97\u53e3\u4e0b\u62c9\u680f\uff08\u9ed1\u4f53\u6807\u51fa\uff09\u53ef\u4ee5\u8ba9\u60a8\u9009\u62e9\u8981\u52a0\u5bc6\u4fe1\u606f\u7684\u5bf9\u5e94\u5bc6\u7801\u4ee5\u53ca\u90ae\u4ef6\u8d26\u6237.\r\n**\u6b65\u9aa4 3**. **\u52fe\u9009** *\u542f\u7528*\u5355\u9009\u6309\u94ae,\u7136\u540e **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/33.png) \u5f00\u542f\u4e0b\u5217\u754c\u9762:\r\n\r\n![](/sbox/screen/gpg4usb-en/34.png)\r\n\r\n*\u56fe 9: \u6253\u5f00\u6587\u4ef6\u6d4f\u89c8\u7a97\u53e3*\r\n\r\n**\u6b65\u9aa4 4**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/35.png)\u6dfb\u52a0\u5c06\u8981\u52a0\u5bc6\u7684\u6587\u4ef6,\u7136\u540e\u56de\u5230*\u52a0\u5bc6/ Decrypt*\u7a97\u53e3:\r\n\r\n![](/sbox/screen/gpg4usb-en/36.png)\r\n\r\n*\u56fe 10: The \u52a0\u5bc6/\u89e3\u5bc6\u6587\u4ef6\u7a97\u53e3\u663e\u793a\u6307\u5b9a\u8981\u52a0\u5bc6\u7684\u6587\u4ef6*\r\n\r\n**\u6b65\u9aa4 5**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/09.png) \u5f00\u542f\u4e0b\u5217\u754c\u9762:\r\n\r\n![](/sbox/screen/gpg4usb-en/38.png)\r\n\r\n*\u56fe 11:\u5b8c\u6210\u786e\u8ba4\u5bf9\u8bdd\u6846*\r\n\r\nThe *\u5b8c\u6210*\u786e\u8ba4\u5bf9\u8bdd\u6846\u663e\u793a\u52a0\u5bc6\u6587\u4ef6\u7684\u76ee\u6807\u5730\u5740. \u52a0\u5bc6\u6587\u4ef6\u7684\u540e\u7f00\u662f*.asc* .\u6bd4\u5982, *Technical White Paper.doc.asc*. \r\n\r\n**\u6b65\u9aa4 6**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/09.png) \u5b8c\u6210\u52a0\u5bc6.\r\n\r\n**\u6ce8\u610f**:\u60a8\u53ef\u4ee5\u5206\u5f00\u52a0\u5bc6\u6587\u5b57\u548c\u4e00\u8d77\u53d1\u9001\u7684\u6587\u4ef6.\r\n\r\n**\u6b65\u9aa4 7**.\u6253\u5f00\u60a8\u7684\u7535\u90ae,**\u5b9a\u5411**\u81f3*\u5b8c\u6210*\u5bf9\u8bdd\u6846(*\u56fe 11*)\u4e2d\u7684\u6587\u4ef6\u5730\u5740,\u7136\u540e\u5c06\u5df2\u52a0\u5bc6\u7684\u6587\u4ef6\u6dfb\u52a0\u81f3\u90ae\u4ef6\u9644\u4ef6\u4e2d.\r\n\r\n**\u975e\u5e38\u91cd\u8981**:\u52a0\u5bc6\u6587\u4ef6\u7684\u6587\u4ef6\u540d**\u4e0d\u4f1a\u88ab\u52a0\u5bc6**.\u8bf7\u4e0d\u8981\u5728\u6587\u4ef6\u540d\u4e2d\u6cc4\u9732\u4e86\u5185\u5bb9\u7684\u91cd\u8981\u4fe1\u606f!\u4e5f\u522b\u5fd8\u8bb0,\u52a0\u5bc6\u6587\u4ef6\u7684\u6e90\u6587\u4ef6\u4ecd\u7136\u5728\u60a8\u786c\u76d8\u7684\u5176\u4ed6\u5730\u65b9.\r\n\r\n<a name=\"4.3\"></a>\r\n## 4.3 \u5982\u4f55\u7528gpg4usb\u89e3\u5bc6\u6587\u4ef6 ##\r\n\r\n\u5728\u4e0b\u9762\u7684\u793a\u4f8b\u4e2d,Terence\u5c06\u4f1a\u89e3\u5bc6Salima\u7ed9\u4ed6\u53d1\u9001\u7684\u6587\u4ef6,\u901a\u8fc7\u5982\u4e0b\u6b65\u9aa4:\r\n\r\n**\u6b65\u9aa4 1**. **\u53cc\u51fb** ![](/sbox/screen/gpg4usb-en/03.png)  \u4ee5\u6253\u5f00 **gpg4usb**.\r\n\r\n**\u6b65\u9aa4 2**. **\u6253\u5f00** \u60a8\u7684\u90ae\u4ef6\u8d26\u6237, **\u6253\u5f00** \u90ae\u4ef6\u5e76 **\u4e0b\u8f7d** \u90ae\u4ef6\u9644\u4ef6.\r\n\r\n**\u6ce8\u610f**:\u5982\u679c\u60a8\u7684\u8054\u7cfb\u4eba\u7ed9\u60a8\u53d1\u9001\u52a0\u5bc6\u6587\u4ef6\u7684\u540c\u65f6\u53c8\u53d1\u9001\u4e86\u52a0\u5bc6\u4fe1\u606f,\u60a8\u53ef\u4ee5\u4f7f\u7528[**4.1 \u5982\u4f55\u7528gpg4usb\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f**](/zh/gpg4usb-keysimportexport#4.1) \u7684\u65b9\u6cd5 \u6765\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f.\r\n**\u6b65\u9aa4 3**. \u5728 **gpg4usb**\u4e3b\u754c\u9762 (as shown in *\u56fe 1* above), **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/31.png) \u542f\u52a8 **\u52a0\u5bc6/\u89e3\u5bc6File** \u7a97\u53e3(\u50cf\u5728 *\u56fe 12*\u90a3\u6837). \r\n\r\n**\u6b65\u9aa4 4**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/33.png) \u6d4f\u89c8\u4e0b\u8f7d\u7684\u52a0\u5bc6\u6587\u4ef6\u5730\u5740:\r\n\r\n![](/sbox/screen/gpg4usb-en/37.png) \r\n\r\n*\u56fe 12: The \u52a0\u5bc6/\u89e3\u5bc6\u7a97\u53e3,\u663e\u793a\u52a0\u5bc6\u6587\u4ef6\u7684\u8def\u5f84*\r\n\r\n**\u6b65\u9aa4 5**. **\u5355\u51fb** ![](/sbox/screen/gpg4usb-en/09.png) \u5f00\u542f\u4e0b\u5217\u754c\u9762:\r\n\r\n![](/sbox/screen/gpg4usb-en/39.png) \r\n\r\n*\u56fe 13: \u5b8c\u6210\u786e\u8ba4\u5bf9\u8bdd\u6846\u663e\u793a\u5df2\u89e3\u5bc6\u6587\u4ef6\u7684\u5b58\u50a8\u8def\u5f84 *\r\n\r\n**\u91cd\u8981**:\u5982\u679c\u60a8\u5728\u7f51\u5427\u6216\u8005\u5de5\u4f5c\u5730\u70b9\u7b49\u516c\u7528\u7535\u8111\u64cd\u4f5c\u65f6,\u6700\u597d\u628a*.asc*\u540e\u7f00\u7684\u6587\u4ef6\u590d\u5236\u5230\u60a8\u7684USB\u6216\u5176\u4ed6\u79fb\u52a8\u5b58\u50a8\u8bbe\u5907\u4e0a,\u5e76\u968f\u8eab\u643a\u5e26,\u8fd9\u6837\u5c31\u53ef\u4ee5\u786e\u4fdd\u6700\u5927\u9650\u5ea6\u7684\u5b89\u5168.\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2058", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2058", 
+                "link_title": "How to Encrypt and Decrypt Text and Files", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5204", 
+                "module": "book", 
+                "nid": "2058", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5204", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "How to Encrypt and Decrypt Text and Files", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1456317301", 
+            "comment": "0", 
+            "created": "1441122281", 
+            "current_revision_id": "13354", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "zh-hans": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb-encryptdecrypt", 
+                        "value": "gpg4usb-encryptdecrypt"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5204": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2058", 
+                    "link_title": "How to Encrypt and Decrypt Text and Files", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5204", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5204", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2058", 
+            "num_revisions": "18", 
+            "path": "https://securityinabox.org/en/gpg4usb-encryptdecrypt", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456317301", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "zh-hans": [
+                    {
+                        "format": null, 
+                        "safe_value": "\u5982\u4f55\u52a0\u5bc6\u3001\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f\u53ca\u6587\u4ef6", 
+                        "value": "\u5982\u4f55\u52a0\u5bc6\u3001\u89e3\u5bc6\u6587\u5b57\u4fe1\u606f\u53ca\u6587\u4ef6"
+                    }
+                ]
+            }, 
+            "title_original": "How to Encrypt and Decrypt Text and Files", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933512", 
+                        "created": "1442933512", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454334177", 
+                        "created": "1442247427", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506774", 
+                        "created": "1442506774", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452097882", 
+                        "created": "1441633923", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733334", 
+                        "created": "1444733334", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455120475", 
+                        "created": "1455120475", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1456317301", 
+                        "created": "1443788863", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192711", 
+                        "created": "1441192711", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444189131", 
+                        "created": "1444189131", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024229", 
+                        "created": "1443024229", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834296", 
+                        "created": "1444730318", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122281", 
+                        "created": "1441122281", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2058", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445442983", 
+                        "created": "1445442983", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "81b92808-4745-49d2-8adb-01d3abc61d18", 
+            "vid": "13354", 
+            "vuuid": "0aa3c679-bfb9-404b-8bb6-749c82542b83"
+        }, 
+        {
+            "body": {
+                "zh-hans": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>\u672c\u9875\u7684\u9879\u76ee\u5217\u8868:</p>\n\n<ul><li><a href=\"#5.0\"><strong>5.0 \u5e38\u89c1\u95ee\u9898\u53ca\u56de\u987e</strong></a></li>\n<li><a href=\"#5.1\"><strong>5.1 \u95ee\u9898\u56de\u987e</strong></a></li>\n</ul><hr /><p>\u5c3d\u7ba1Muhindo \u548cSalima \u8ba4\u4e3a<strong>gpg4usb</strong>\u5f88\u5bb9\u6613\u4e0a\u624b,\u4f46\u662f\u4ed6\u4eec\u8fd8\u662f\u6709\u4e00\u4e9b\u95ee\u9898.</p>\n\n<p><a name=\"5.0\" id=\"5.0\"></a></p>\n\n<h2>5.0\u5e38\u89c1\u95ee\u9898\u53ca\u56de\u987e</h2>\n\n<div class=\"background\">\n\n<p><em><strong>\u95ee</strong>: <strong>gpg4usb</strong>\u5fc5\u987b\u8981\u653e\u5728U\u76d8\u91cc\u624d\u80fd\u7528\u5417?</em></p>\n\n<p><em><strong>\u7b54</strong>:\u4e0d\u662f,\u4e5f\u53ef\u4ee5\u5b89\u88c5\u5728\u786c\u76d8\u91cc\u7528.</em></p>\n\n<p><em><strong>\u95ee</strong>:\u6211\u53ef\u4ee5\u8ddf\u591a\u5c11\u8d26\u6237\u521b\u7acb\u5bc6\u94a5\u5bf9?</em></p>\n\n<p><em><strong>\u7b54</strong>:\u60f3\u5f04\u591a\u5c11\u5c31\u5f04\u591a\u5c11.</em></p>\n\n<p><em><strong>\u95ee</strong>:\u6211\u559c\u6b22\u8fd9\u91cc\u4f7f\u7528\u7684\u7b80\u5355\u526a\u5207\u7c98\u8d34\u529f\u80fd.</em></p>\n\n<p><em><strong>\u7b54</strong>:\u6ca1\u9519.\u4f46\u662f,\u8bf7\u522b\u5fd8\u4e86\u90ae\u4ef6\u7684\u6807\u9898\u662f\u4e0d\u4f1a\u88ab\u52a0\u5bc6\u7684.\u56e0\u6b64\u4e0d\u8981\u4f7f\u7528\u89e3\u91ca\u8bf4\u660e\u6027\u7684\u6807\u9898,\u53ef\u80fd\u4f1a\u9020\u6210\u9690\u79c1\u6cc4\u9732!</em></p>\n\n</div>\n\n<p><a name=\"5.1\" id=\"5.1\"></a></p>\n\n<h2>5.1\u95ee\u9898\u56de\u987e</h2>\n\n<p>-\u7b7e\u7f72\u516c\u94a5\u548c\u9a8c\u8bc1\u516c\u94a5\u6709\u4ec0\u4e48\u4e0d\u540c?\n- \u6307\u7eb9\u662f\u4ec0\u4e48?\u8be5\u5982\u4f55\u4f7f\u7528?</p>\n", 
+                        "summary": "", 
+                        "value": "\u672c\u9875\u7684\u9879\u76ee\u5217\u8868:\r\n\r\n- [**5.0 \u5e38\u89c1\u95ee\u9898\u53ca\u56de\u987e**](#5.0)\r\n- [**5.1 \u95ee\u9898\u56de\u987e**](#5.1)\r\n\r\n-------\r\n\r\n\u5c3d\u7ba1Muhindo \u548cSalima \u8ba4\u4e3a**gpg4usb**\u5f88\u5bb9\u6613\u4e0a\u624b,\u4f46\u662f\u4ed6\u4eec\u8fd8\u662f\u6709\u4e00\u4e9b\u95ee\u9898.\r\n\r\n<a name=\"5.0\"></a>\r\n## 5.0\u5e38\u89c1\u95ee\u9898\u53ca\u56de\u987e##\r\n\r\n<div class=\"background\" markdown=\"1\"> \r\n\r\n***\u95ee**: **gpg4usb**\u5fc5\u987b\u8981\u653e\u5728U\u76d8\u91cc\u624d\u80fd\u7528\u5417?*\r\n\r\n***\u7b54**:\u4e0d\u662f,\u4e5f\u53ef\u4ee5\u5b89\u88c5\u5728\u786c\u76d8\u91cc\u7528.*\r\n\r\n***\u95ee**:\u6211\u53ef\u4ee5\u8ddf\u591a\u5c11\u8d26\u6237\u521b\u7acb\u5bc6\u94a5\u5bf9?*\r\n\r\n***\u7b54**:\u60f3\u5f04\u591a\u5c11\u5c31\u5f04\u591a\u5c11.*\r\n\r\n***\u95ee**:\u6211\u559c\u6b22\u8fd9\u91cc\u4f7f\u7528\u7684\u7b80\u5355\u526a\u5207\u7c98\u8d34\u529f\u80fd.*\r\n\r\n***\u7b54**:\u6ca1\u9519.\u4f46\u662f,\u8bf7\u522b\u5fd8\u4e86\u90ae\u4ef6\u7684\u6807\u9898\u662f\u4e0d\u4f1a\u88ab\u52a0\u5bc6\u7684.\u56e0\u6b64\u4e0d\u8981\u4f7f\u7528\u89e3\u91ca\u8bf4\u660e\u6027\u7684\u6807\u9898,\u53ef\u80fd\u4f1a\u9020\u6210\u9690\u79c1\u6cc4\u9732!*\r\n\r\n</div>\r\n\r\n<a name=\"5.1\"></a>\r\n## 5.1\u95ee\u9898\u56de\u987e##\r\n\r\n-\u7b7e\u7f72\u516c\u94a5\u548c\u9a8c\u8bc1\u516c\u94a5\u6709\u4ec0\u4e48\u4e0d\u540c?\r\n- \u6307\u7eb9\u662f\u4ec0\u4e48?\u8be5\u5982\u4f55\u4f7f\u7528?\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2059", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2059", 
+                "link_title": "FAQ and Review", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5205", 
+                "module": "book", 
+                "nid": "2059", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5205", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "FAQ and Review", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1455121879", 
+            "comment": "0", 
+            "created": "1441122335", 
+            "current_revision_id": "13209", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "zh-hans": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb-faq", 
+                        "value": "gpg4usb-faq"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5205": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2059", 
+                    "link_title": "FAQ and Review", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5205", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5205", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2059", 
+            "num_revisions": "15", 
+            "path": "https://securityinabox.org/en/gpg4usb-faq", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455121879", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "zh-hans": [
+                    {
+                        "format": null, 
+                        "safe_value": "\u5e38\u89c1\u95ee\u9898\u4e0e\u56de\u987e", 
+                        "value": "\u5e38\u89c1\u95ee\u9898\u4e0e\u56de\u987e"
+                    }
+                ]
+            }, 
+            "title_original": "FAQ and Review", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933622", 
+                        "created": "1442933622", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442246882", 
+                        "created": "1442246882", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506854", 
+                        "created": "1442506854", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442325864", 
+                        "created": "1441634027", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733392", 
+                        "created": "1444733392", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455121879", 
+                        "created": "1455121879", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443789030", 
+                        "created": "1443789030", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192792", 
+                        "created": "1441192792", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444189237", 
+                        "created": "1444189237", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024253", 
+                        "created": "1443024253", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834357", 
+                        "created": "1444730386", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122335", 
+                        "created": "1441122335", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2059", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445443061", 
+                        "created": "1445443061", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "857e0192-b870-418f-9001-d60648efc330", 
+            "vid": "13209", 
+            "vuuid": "82ea3467-0eb9-4b93-b0aa-d561230213e7"
+        }
+    ], 
+    "changed": "1456155294", 
+    "comment": "0", 
+    "created": "1441122154", 
+    "current_revision_id": "13327", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "zh-hans": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "zh-hans": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Installing gpg4usb</strong></p>\n\n<ul><li><em><strong>Click</strong> the <strong>gpg4usb</strong> icon below to copy <strong>gpg4usb</strong> zip archive to your computer</em></li>\n<li><em><strong>Locate</strong> the <strong>gpg4usb.zip</strong> file, and <strong>unzip</strong> it.</em> </li>\n<li><em>After you have unzipped and extracted all the files, you may delete the <strong>gpg4usb.zip</strong> file that you saved to your computer</em></li>\n</ul><p><strong>gpg4usb</strong></p>\n\n<p><a href=\"/sbox/programs/gpg4usb.zip\"><img src=\"/sbox/screen/gpg4usb-en/gpg4usb.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Installing gpg4usb**\r\n\r\n- ***Click** the **gpg4usb** icon below to copy **gpg4usb** zip archive to your computer*\r\n- ***Locate** the **gpg4usb.zip** file, and **unzip** it.* \r\n- *After you have unzipped and extracted all the files, you may delete the **gpg4usb.zip** file that you saved to your computer*\r\n\r\n**gpg4usb**\r\n\r\n[![](/sbox/screen/gpg4usb-en/gpg4usb.png)](/sbox/programs/gpg4usb.zip)\r\n"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "zh-hans": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Downloading gpg4usb</strong></p>\n\n<ul><li><em><strong>Click</strong> the <strong>gpg4usb</strong> icon below to open the <strong>http://www.gpg4usb.org/download.html</strong> web page</em></li>\n<li><em><strong>Click</strong> the <strong>gpg4usb-x.x.x.zip</strong> link under <strong>Filename</strong> heading to download the zip archive.</em></li>\n<li><em><strong>Locate</strong> the gpg4usb-x.x.x.zip file, and <strong>unzip</strong> it.</em> </li>\n<li><em>After you have unzipped and extracted all the files, you may delete that .zip file that you saved to your computer</em></li>\n</ul><p><strong>gpg4usb</strong></p>\n\n<p><a href=\"http://www.gpg4usb.org/download.html\"><img src=\"/sbox/screen/gpg4usb-en/gpg4usb.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Downloading gpg4usb**\r\n\r\n- ***Click** the **gpg4usb** icon below to open the **http://www.gpg4usb.org/download.html** web page*\r\n- ***Click** the **gpg4usb-x.x.x.zip** link under **Filename** heading to download the zip archive.*\r\n- ***Locate** the gpg4usb-x.x.x.zip file, and **unzip** it.* \r\n- *After you have unzipped and extracted all the files, you may delete that .zip file that you saved to your computer*\r\n\r\n**gpg4usb**\r\n\r\n[![](/sbox/screen/gpg4usb-en/gpg4usb.png)](http://www.gpg4usb.org/download.html)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "zh-hans": [
+            {
+                "format": null, 
+                "safe_value": "gpg4usb - email text and files encryptio", 
+                "value": "gpg4usb - email text and files encryptio"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "zh-hans": [
+            {
+                "format": null, 
+                "safe_value": "\u4fbf\u643a\u7248 gpg4usb", 
+                "value": "\u4fbf\u643a\u7248 gpg4usb"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "zh-hans": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>gpg4usb</strong>\u662f\u4e00\u6b3e\u514d\u8d39\uff0c\u5f00\u6e90\uff0c\u4fbf\u643a\u5f0f\u8f6f\u7528\u4e8e\u52a0\u5bc6\u6587\u672c\uff08\u7535\u5b50\u90ae\u4ef6\uff09\u548c\u6587\u4ef6\u3002. \u5b83\u7684\u52a0\u5bc6\u539f\u7406\u4e0e <strong>GPG</strong> \u548c <strong>PGP</strong> \u4e00\u6837\u5e76\u4f7f\u7528\u4e00\u6837\u7684\u516c\u94a5\u3002</p>\n", 
+                "value": "**gpg4usb**\u662f\u4e00\u6b3e\u514d\u8d39\uff0c\u5f00\u6e90\uff0c\u4fbf\u643a\u5f0f\u8f6f\u7528\u4e8e\u52a0\u5bc6\u6587\u672c\uff08\u7535\u5b50\u90ae\u4ef6\uff09\u548c\u6587\u4ef6\u3002. \u5b83\u7684\u52a0\u5bc6\u539f\u7406\u4e0e **GPG** \u548c **PGP** \u4e00\u6837\u5e76\u4f7f\u7528\u4e00\u6837\u7684\u516c\u94a5\u3002"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-13 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "zh-hans": [
+            {
+                "format": null, 
+                "safe_value": "gpg4usb_portable", 
+                "value": "gpg4usb_portable"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "14"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "14"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5201": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2055", 
+            "link_title": "gpg4usb - email text and files encryption", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5201", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5201", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-2"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2055", 
+    "num_revisions": "20", 
+    "path": "https://securityinabox.org/en/gpg4usb_portable", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1456155294", 
+    "revision_uid": "479", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "zh-hans": [
+            {
+                "format": null, 
+                "safe_value": "\u4fbf\u643a\u7248 gpg4usb", 
+                "value": "\u4fbf\u643a\u7248 gpg4usb"
+            }
+        ]
+    }, 
+    "title_original": "gpg4usb - email text and files encryption", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1455887654", 
+                "created": "1442933243", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442246235", 
+                "created": "1442246235", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442506493", 
+                "created": "1442506493", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1442325310", 
+                "created": "1441633605", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1444733145", 
+                "created": "1444733145", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "km": {
+                "changed": "1455119984", 
+                "created": "1455119984", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1456155294", 
+                "created": "1443788580", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441192432", 
+                "created": "1441192432", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444187878", 
+                "created": "1444187878", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1443016516", 
+                "created": "1443016516", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1455878109", 
+                "created": "1443525988", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441183378", 
+                "created": "1441122154", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2055", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445442700", 
+                "created": "1445442700", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "4a066479-8db3-4fe8-b68d-d446add181e4", 
+    "vid": "13327", 
+    "vuuid": "b090f0bc-28e1-46a1-b77d-667853d273ed"
+}

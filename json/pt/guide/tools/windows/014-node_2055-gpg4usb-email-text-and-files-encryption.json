@@ -1,0 +1,1551 @@
+{
+    "body": {
+        "pt-pt": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Site</strong></p>\n\n<ul><li><a href=\"http://www.gpg4usb.org/\"><strong>http://www.gpg4usb.org/</strong></a></li>\n</ul><p><strong>Esta ferramenta requer</strong></p>\n\n<ul><li>Qualquer vers\u00e3o de Windows</li>\n</ul><p><strong>Vers\u00e3o usada para este guia</strong></p>\n\n<ul><li>0.3.3</li>\n</ul><p><strong>\u00daltima revis\u00e3o desse cap\u00edtulo</strong></p>\n\n<ul><li>Julho de 2014</li>\n</ul><p><strong>Licen\u00e7a de uso</strong></p>\n\n<ul><li>Software livre e de c\u00f3digo aberto (FOSS)</li>\n</ul><p><strong>Leitura requerida</strong></p>\n\n<ul><li><p>Cap\u00edtulo <a href=\"/pt/chapter-7\"><strong>7. Como manter sua comunica\u00e7\u00e3o por internet segura</strong></a>, do Guia de Refer\u00eancia.</p></li>\n<li><p>cap\u00edtulo <strong>2.4 Criptologia - Criptografia de chave p\u00fablica (p\u00e1gina 38)</strong> do livro <a href=\"https://www.frontlinedefenders.org/esecman\"><strong>Seguran\u00e7a Digital e Privacidade para Defensores dos Direitos Humanos</strong></a> (em ingl\u00eas e espanhol).</p></li>\n</ul><p><strong>O que voc\u00ea pode fazer com o programa</strong>:</p>\n\n<ul><li>Criptografar arquivos e textos de onde voc\u00ea estiver (por exemplo, em um Internet Caf\u00e9 ou no trabalho)</li>\n<li>Criptografar mensagens/e-mails quando o acesso \u00e0 internet n\u00e3o estiver dispon\u00edvel, para envi\u00e1-las depois, de um computador conectado \u00e0 internet.</li>\n</ul><h2>1.1 O que voc\u00ea precisa saber sobre a ferramenta antes de come\u00e7ar</h2>\n\n<p>O <strong>gpg4usb</strong> \u00e9 um programa simples, leve e port\u00e1til que permite criptografar e descriptografar mensagens de texto e arquivos. O software \u00e9 baseado em uma chave de criptografia p\u00fablica, m\u00e9todo segundo o qual cada pessoa deve gerar seu <strong>par de chaves</strong> pessoal.</p>\n\n<p>A primeira dessas chaves \u00e9 conhecida como <strong>chave privada</strong> - protegida por uma senha, deve ser armazenada e <em>nunca</em> compartilhada com ningu\u00e9m. A segunda \u00e9 conhecida como <strong>chave p\u00fablica</strong> - tal chave pode ser compartilhada com quaisquer pessoas com quem voc\u00ea se corresponda, assim como elas podem compartilhar suas respectivas chaves p\u00fablicas com voc\u00ea.</p>\n\n<p>Com a chave p\u00fablica de algu\u00e9m, \u00e9 poss\u00edvel enviar e-mails criptografados de forma que somente aquele algu\u00e9m seja capaz de decodific\u00e1-los para ler seu conte\u00fado (uma vez que apenas ele tem acesso \u00e0 chave privada correspondente). Similarmente, se voc\u00ea enviar uma c\u00f3pia de sua chave p\u00fablica aos seus contatos de e-mail e mantiver sua chave privada protegida, s\u00f3 voc\u00ea ser\u00e1 capaz de ler os e-mails criptografados por estes contatos.</p>\n\n<p>Tamb\u00e9m \u00e9 poss\u00edvel anexar assinaturas digitais \u00e0s mensagens. Uma pessoa que receba uma mensagem sua e tenha uma c\u00f3pia aut\u00eantica de sua chave p\u00fablica ser\u00e1 capaz de verificar que o e-mail veio de voc\u00ea e que o conte\u00fado n\u00e3o foi modificado no caminho. De forma semelhante, se voc\u00ea tem a chave p\u00fablica de uma pessoa com quem deseja se corresponder, pode verificar a assinatura digital das mensagens daquela pessoa.</p>\n\n<p>O <strong>gpg4usb</strong> permite criar um par de chaves de criptografia, exportar a chave p\u00fablica para ser compartilhada, escrever mensagens de texto e criptograf\u00e1-las. Tamb\u00e9m \u00e9 poss\u00edvel copiar e colar uma chave p\u00fablica e/ou uma mensagem criptografada direto do <strong>gpg4usb</strong> para um corpo de e-mail, ou salv\u00e1-la como arquivo de texto para ser enviado depois. Documentos e arquivos tamb\u00e9m podem ser criptografados.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Atente que a vers\u00e3o original, decodificada, dos seus documentos e arquivos ainda podem ficar no computador. Assim, tanto voc\u00ea como a pessoa com quem se correspondeu devem lembrar de remov\u00ea-los quando necess\u00e1rio.</p>\n\n<p>O <strong>gpg4usb</strong> permite trocar chaves e criptografar mensagens com outros programas similares, como o <strong>GPG</strong> ou o <strong>PGP</strong>.</p>\n", 
+                "summary": "", 
+                "value": "**Site**\r\n\r\n- [**http://www.gpg4usb.org/**](http://www.gpg4usb.org/)\r\n\r\n**Esta ferramenta requer**\r\n\r\n- Qualquer vers\u00e3o de Windows\r\n\r\n**Vers\u00e3o usada para este guia**\r\n\r\n- 0.3.3\r\n\r\n**\u00daltima revis\u00e3o desse cap\u00edtulo**\r\n\r\n- Julho de 2014\r\n\r\n**Licen\u00e7a de uso**\r\n\r\n- Software livre e de c\u00f3digo aberto (FOSS)\r\n\r\n**Leitura requerida**\r\n\r\n- Cap\u00edtulo [**7. Como manter sua comunica\u00e7\u00e3o por internet segura**](/pt/chapter-7), do Guia de Refer\u00eancia.\r\n\r\n- cap\u00edtulo **2.4 Criptologia - Criptografia de chave p\u00fablica (p\u00e1gina 38)** do livro [**Seguran\u00e7a Digital e Privacidade para Defensores dos Direitos Humanos**](https://www.frontlinedefenders.org/esecman) (em ingl\u00eas e espanhol).\r\n\r\n**O que voc\u00ea pode fazer com o programa**:\r\n\r\n- Criptografar arquivos e textos de onde voc\u00ea estiver (por exemplo, em um Internet Caf\u00e9 ou no trabalho)\r\n- Criptografar mensagens/e-mails quando o acesso \u00e0 internet n\u00e3o estiver dispon\u00edvel, para envi\u00e1-las depois, de um computador conectado \u00e0 internet.\r\n\r\n\r\n## 1.1 O que voc\u00ea precisa saber sobre a ferramenta antes de come\u00e7ar ##\r\n\r\nO **gpg4usb** \u00e9 um programa simples, leve e port\u00e1til que permite criptografar e descriptografar mensagens de texto e arquivos. O software \u00e9 baseado em uma chave de criptografia p\u00fablica, m\u00e9todo segundo o qual cada pessoa deve gerar seu **par de chaves** pessoal.\r\n\r\nA primeira dessas chaves \u00e9 conhecida como **chave privada** - protegida por uma senha, deve ser armazenada e *nunca* compartilhada com ningu\u00e9m. A segunda \u00e9 conhecida como **chave p\u00fablica** - tal chave pode ser compartilhada com quaisquer pessoas com quem voc\u00ea se corresponda, assim como elas podem compartilhar suas respectivas chaves p\u00fablicas com voc\u00ea.\r\n\r\nCom a chave p\u00fablica de algu\u00e9m, \u00e9 poss\u00edvel enviar e-mails criptografados de forma que somente aquele algu\u00e9m seja capaz de decodific\u00e1-los para ler seu conte\u00fado (uma vez que apenas ele tem acesso \u00e0 chave privada correspondente). Similarmente, se voc\u00ea enviar uma c\u00f3pia de sua chave p\u00fablica aos seus contatos de e-mail e mantiver sua chave privada protegida, s\u00f3 voc\u00ea ser\u00e1 capaz de ler os e-mails criptografados por estes contatos.\r\n\r\nTamb\u00e9m \u00e9 poss\u00edvel anexar assinaturas digitais \u00e0s mensagens. Uma pessoa que receba uma mensagem sua e tenha uma c\u00f3pia aut\u00eantica de sua chave p\u00fablica ser\u00e1 capaz de verificar que o e-mail veio de voc\u00ea e que o conte\u00fado n\u00e3o foi modificado no caminho. De forma semelhante, se voc\u00ea tem a chave p\u00fablica de uma pessoa com quem deseja se corresponder, pode verificar a assinatura digital das mensagens daquela pessoa.\r\n\r\nO **gpg4usb** permite criar um par de chaves de criptografia, exportar a chave p\u00fablica para ser compartilhada, escrever mensagens de texto e criptograf\u00e1-las. Tamb\u00e9m \u00e9 poss\u00edvel copiar e colar uma chave p\u00fablica e/ou uma mensagem criptografada direto do **gpg4usb** para um corpo de e-mail, ou salv\u00e1-la como arquivo de texto para ser enviado depois. Documentos e arquivos tamb\u00e9m podem ser criptografados. \r\n\r\n**Observa\u00e7\u00e3o**: Atente que a vers\u00e3o original, decodificada, dos seus documentos e arquivos ainda podem ficar no computador. Assim, tanto voc\u00ea como a pessoa com quem se correspondeu devem lembrar de remov\u00ea-los quando necess\u00e1rio.\r\n\r\nO **gpg4usb** permite trocar chaves e criptografar mensagens com outros programas similares, como o **GPG** ou o **PGP**."
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2055", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2055", 
+        "link_title": "gpg4usb - email text and files encryption", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5201", 
+        "module": "book", 
+        "nid": "2055", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5201", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "gpg4usb - email text and files encryption", 
+        "updated": "0", 
+        "weight": "-2"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Se\u00e7\u00f5es nessa p\u00e1gina:</p>\n\n<ul><li><a href=\"#2.0\"><strong>2.0 Como instalar o gpg4usb</strong></a></li>\n<li><a href=\"#2.1\"><strong>2.1 Como gerar um par de chaves com o gpg4usb</strong></a></li>\n</ul><p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>2.0 Como instalar o gpg4usb</h2>\n\n<p>O <strong>gpg4usb</strong> \u00e9 uma ferramenta port\u00e1til, que n\u00e3o precisa ser instalada em seu computador. Ele \u00e9 distribu\u00eddo como arquivo zip e deve ser extra\u00eddo diretamente para um pen drive ou para uma pasta do computador. Siga o seguinte passo para come\u00e7ar:</p>\n\n<p><strong>Passo 1</strong>. <strong>Localize</strong> o arquivo zipado do <strong>gpg4usb</strong>. <strong>Extraia</strong> todos os arquivos para um pen drive ou para uma pasta do computador:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/01.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: Local de destino do programa gpg4usb</em></p>\n\n<p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1 Como gerar um par de chaves com o gpg4usb</h2>\n\n<p>Antes de come\u00e7ar a criptografar e descriptografar e-mails, mensagens de texto, documentos e arquivos, \u00e9 preciso tomar tr\u00eas medidas preparat\u00f3rias.</p>\n\n<p>A primeira \u00e9 gerar ou importar para o programa seu par de chaves pessoais de criptografia; a segunda \u00e9 enviar sua chave p\u00fablica para seus contatos; e a terceira \u00e9 receber as chaves p\u00fablicas respectivas \u00e0queles contatos e import\u00e1-las para seu chaveiro. Descreveremos como compartilhar chaves p\u00fablicas na pr\u00f3xima se\u00e7\u00e3o.</p>\n\n<p>O <strong>gpg4usb</strong> te ajudar\u00e1 a gerar um par de chaves assim que for iniciado. Note que sempre \u00e9 poss\u00edvel voltar \u00e0 janela do <em>Auxiliar de primeiro uso</em> em <em>Ajuda</em> -&gt; <em>Abrir o Auxiliar</em>, no menu.</p>\n\n<p><strong>Passo 1</strong>. Para executar o programa <strong>gpg4usb</strong> pela primeira vez, <strong>localize e clique duas vezes</strong> na pasta <img src=\"/sbox/screen/gpg4usb-pt/02.png\" alt=\"\" /> para abri-la. A seguir, <strong>clique duas vezes</strong> em <img src=\"/sbox/screen/gpg4usb-pt/03.png\" alt=\"\" />. Isso ativar\u00e1 o <em>Auxiliar de primeiro uso</em>. Escolha o idioma <em>portugu\u00eas do Brasil (pt_BR)</em> e clique em <em>Avan\u00e7ar</em>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/04.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: O Auxiliar de primeiro uso</em></p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/05.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: Escolha seu idioma</em></p>\n\n<p><strong>Passo 2</strong>. Na tela <em>Selecione sua a\u00e7\u00e3o</em>, clique em <em>criar um novo par de chaves</em></p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/06.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: Selecione sua a\u00e7\u00e3o</em></p>\n\n<p>Observe as outras op\u00e7\u00f5es dispon\u00edveis para importar chaves existentes na tela inicial do auxiliar. Se estiver usando uma vers\u00e3o mais atual, em substitui\u00e7\u00e3o a uma vers\u00e3o anterior do <strong>gpg4usb</strong>, pode escolher <em>importar as configura\u00e7\u00f5es e/ou chaves do gpg4usb</em>. Se estiver usando o <a href=\"/pt/thunderbird_main\">Thunderbird com Enigmail</a>, pode escolher a op\u00e7\u00e3o <em>importar as chaves do GnuPG</em>. Tamb\u00e9m \u00e9 poss\u00edvel importar as chaves em uma fase posterior, executando o auxiliar novamente a partir do menu <em>Ajuda</em> -&gt; <em>Abrir o auxiliar</em>.</p>\n\n<p><strong>Passo 3</strong>. Em <em>Criar um par de chaves</em>, <strong>clique</strong> em <em>Criar nova chave</em></p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/07.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: Criar nova chave</em></p>\n\n<p><strong>Passo 4</strong>. <strong>Preencha</strong> os campos de texto com as informa\u00e7\u00f5es solicitadas. Sua janela deve ficar parecida com esta:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/08.png\" alt=\"\" /></p>\n\n<p><em>Figura 6: Exemplo de um formul\u00e1rio para gerar chave preenchido</em></p>\n\n<p><strong>Importante:</strong></p>\n\n<ul><li>Defina uma senha segura para proteger sua chave privada (veja o cap\u00edtulo <a href=\"/pt/chapter-3\"><strong>3. Como criar e manter senhas seguras</strong></a>, do Guia de Refer\u00eancia).</li>\n<li>Aconselhamos voc\u00ea a usar uma data de expira\u00e7\u00e3o menor do que 5 anos.</li>\n<li>\u00c9 altamente recomend\u00e1vel gerar chaves com pelo menos 2048 bits de tamanho. Chaves maiores s\u00e3o mais seguras, mas tamb\u00e9m levam mais tempo para serem geradas, assim como para criptografar e descriptografar textos.</li>\n</ul><p><strong>Observa\u00e7\u00e3o</strong>: N\u00e3o \u00e9 preciso usar nomes e endere\u00e7os de e-mail reais quando gerar sua chave. No entanto, usar o  e-mail da conta que voc\u00ea for usar para se comunicar torna mais f\u00e1cil para seus contatos associar sua chave a esta conta.</p>\n\n<p><strong>Passo 6</strong>. <strong>Clique</strong> em <em>OK</em> para gerar o par de chaves.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/09.png\" alt=\"\" /></p>\n\n<p><em>Figura 7: Gerando as chaves...</em></p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/10.png\" alt=\"\" /></p>\n\n<p><em>Figura 8: Nova chave criada</em></p>\n\n<p><strong>Passo 7</strong>. <strong>Clique</strong> em <em>OK</em> para voltar \u00e0 janela do <em>Auxiliar de primeiro uso</em> do <strong>gpg4usb</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/11.png\" alt=\"\" /></p>\n\n<p><em>Figura 9: Divirta-se com o gpg4usb</em></p>\n\n<p>Depois clique em <strong>Terminar</strong> para exibir a tela inicial do <strong>gpg4usb</strong>. Com as chaves criadas, voc\u00ea ver\u00e1 uma tela semelhante \u00e0 seguinte:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/12.png\" alt=\"\" /></p>\n\n<p><em>Figura 10: A janela do gpg4usb, exibindo o novo par de chaves</em></p>\n\n<p>Agora que voc\u00ea criou com \u00eaxito um par de chaves, precisa aprender como exportar sua chave p\u00fablica para ser compartilhada e como importar chaves p\u00fablicas das pessoas com quem ir\u00e1 se corresponder.</p>\n", 
+                        "summary": "", 
+                        "value": "Se\u00e7\u00f5es nessa p\u00e1gina:\r\n\r\n- [**2.0 Como instalar o gpg4usb**](#2.0)\r\n- [**2.1 Como gerar um par de chaves com o gpg4usb**](#2.1)\r\n\r\n<a name=\"2.0\"></a>\r\n## 2.0 Como instalar o gpg4usb ##\r\n\r\nO **gpg4usb** \u00e9 uma ferramenta port\u00e1til, que n\u00e3o precisa ser instalada em seu computador. Ele \u00e9 distribu\u00eddo como arquivo zip e deve ser extra\u00eddo diretamente para um pen drive ou para uma pasta do computador. Siga o seguinte passo para come\u00e7ar: \r\n\r\n**Passo 1**. **Localize** o arquivo zipado do **gpg4usb**. **Extraia** todos os arquivos para um pen drive ou para uma pasta do computador: \r\n\r\n![](/sbox/screen/gpg4usb-pt/01.png)\r\n\r\n*Figura 1: Local de destino do programa gpg4usb*\r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1 Como gerar um par de chaves com o gpg4usb ##\r\n\r\nAntes de come\u00e7ar a criptografar e descriptografar e-mails, mensagens de texto, documentos e arquivos, \u00e9 preciso tomar tr\u00eas medidas preparat\u00f3rias.\r\n\r\nA primeira \u00e9 gerar ou importar para o programa seu par de chaves pessoais de criptografia; a segunda \u00e9 enviar sua chave p\u00fablica para seus contatos; e a terceira \u00e9 receber as chaves p\u00fablicas respectivas \u00e0queles contatos e import\u00e1-las para seu chaveiro. Descreveremos como compartilhar chaves p\u00fablicas na pr\u00f3xima se\u00e7\u00e3o.\r\n\r\nO **gpg4usb** te ajudar\u00e1 a gerar um par de chaves assim que for iniciado. Note que sempre \u00e9 poss\u00edvel voltar \u00e0 janela do *Auxiliar de primeiro uso* em *Ajuda* -> *Abrir o Auxiliar*, no menu.\r\n\r\n**Passo 1**. Para executar o programa **gpg4usb** pela primeira vez, **localize e clique duas vezes** na pasta ![](/sbox/screen/gpg4usb-pt/02.png) para abri-la. A seguir, **clique duas vezes** em ![](/sbox/screen/gpg4usb-pt/03.png). Isso ativar\u00e1 o *Auxiliar de primeiro uso*. Escolha o idioma *portugu\u00eas do Brasil (pt_BR)* e clique em *Avan\u00e7ar*.\r\n\r\n![](/sbox/screen/gpg4usb-pt/04.png)\r\n\r\n*Figura 2: O Auxiliar de primeiro uso*\r\n\r\n![](/sbox/screen/gpg4usb-pt/05.png)\r\n\r\n*Figura 3: Escolha seu idioma*\r\n\r\n**Passo 2**. Na tela *Selecione sua a\u00e7\u00e3o*, clique em *criar um novo par de chaves*\r\n\r\n![](/sbox/screen/gpg4usb-pt/06.png)\r\n\r\n*Figura 4: Selecione sua a\u00e7\u00e3o*\r\n\r\nObserve as outras op\u00e7\u00f5es dispon\u00edveis para importar chaves existentes na tela inicial do auxiliar. Se estiver usando uma vers\u00e3o mais atual, em substitui\u00e7\u00e3o a uma vers\u00e3o anterior do **gpg4usb**, pode escolher *importar as configura\u00e7\u00f5es e/ou chaves do gpg4usb*. Se estiver usando o [Thunderbird com Enigmail](/pt/thunderbird_main), pode escolher a op\u00e7\u00e3o *importar as chaves do GnuPG*. Tamb\u00e9m \u00e9 poss\u00edvel importar as chaves em uma fase posterior, executando o auxiliar novamente a partir do menu *Ajuda* -> *Abrir o auxiliar*.\r\n\r\n**Passo 3**. Em *Criar um par de chaves*, **clique** em *Criar nova chave*\r\n\r\n![](/sbox/screen/gpg4usb-pt/07.png)\r\n\r\n*Figura 5: Criar nova chave* \r\n\r\n**Passo 4**. **Preencha** os campos de texto com as informa\u00e7\u00f5es solicitadas. Sua janela deve ficar parecida com esta:\r\n\r\n![](/sbox/screen/gpg4usb-pt/08.png)\r\n\r\n*Figura 6: Exemplo de um formul\u00e1rio para gerar chave preenchido*\r\n\r\n**Importante:** \r\n\r\n  * Defina uma senha segura para proteger sua chave privada (veja o cap\u00edtulo [**3. Como criar e manter senhas seguras**](/pt/chapter-3), do Guia de Refer\u00eancia).\r\n  * Aconselhamos voc\u00ea a usar uma data de expira\u00e7\u00e3o menor do que 5 anos.\r\n  * \u00c9 altamente recomend\u00e1vel gerar chaves com pelo menos 2048 bits de tamanho. Chaves maiores s\u00e3o mais seguras, mas tamb\u00e9m levam mais tempo para serem geradas, assim como para criptografar e descriptografar textos.\r\n\r\n**Observa\u00e7\u00e3o**: N\u00e3o \u00e9 preciso usar nomes e endere\u00e7os de e-mail reais quando gerar sua chave. No entanto, usar o  e-mail da conta que voc\u00ea for usar para se comunicar torna mais f\u00e1cil para seus contatos associar sua chave a esta conta. \r\n\r\n**Passo 6**. **Clique** em *OK* para gerar o par de chaves.\r\n\r\n![](/sbox/screen/gpg4usb-pt/09.png)\r\n\r\n*Figura 7: Gerando as chaves...*\r\n\r\n![](/sbox/screen/gpg4usb-pt/10.png)\r\n\r\n*Figura 8: Nova chave criada*\r\n\r\n**Passo 7**. **Clique** em *OK* para voltar \u00e0 janela do *Auxiliar de primeiro uso* do **gpg4usb**.\r\n\r\n![](/sbox/screen/gpg4usb-pt/11.png)\r\n\r\n*Figura 9: Divirta-se com o gpg4usb*\r\n\r\nDepois clique em **Terminar** para exibir a tela inicial do **gpg4usb**. Com as chaves criadas, voc\u00ea ver\u00e1 uma tela semelhante \u00e0 seguinte:\r\n\r\n![](/sbox/screen/gpg4usb-pt/12.png)\r\n\r\n*Figura 10: A janela do gpg4usb, exibindo o novo par de chaves* \r\n\r\nAgora que voc\u00ea criou com \u00eaxito um par de chaves, precisa aprender como exportar sua chave p\u00fablica para ser compartilhada e como importar chaves p\u00fablicas das pessoas com quem ir\u00e1 se corresponder."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2056", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2056", 
+                "link_title": "How to Install gpg4usb and Generate a Key Pair", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5202", 
+                "module": "book", 
+                "nid": "2056", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5202", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "How to Install gpg4usb and Generate a Key Pair", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1455120164", 
+            "comment": "0", 
+            "created": "1441122201", 
+            "current_revision_id": "13206", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb-generatekey", 
+                        "value": "gpg4usb-generatekey"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5202": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2056", 
+                    "link_title": "How to Install gpg4usb and Generate a Key Pair", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5202", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5202", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2056", 
+            "num_revisions": "18", 
+            "path": "https://securityinabox.org/en/gpg4usb-generatekey", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455120164", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como instalar o gpg4usb e gerar um par de chaves", 
+                        "value": "Como instalar o gpg4usb e gerar um par de chaves"
+                    }
+                ]
+            }, 
+            "title_original": "How to Install gpg4usb and Generate a Key Pair", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933342", 
+                        "created": "1442933342", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442247687", 
+                        "created": "1442247687", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506616", 
+                        "created": "1442506616", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1454338318", 
+                        "created": "1441633727", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733209", 
+                        "created": "1444733209", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455120164", 
+                        "created": "1455120164", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443788661", 
+                        "created": "1443788661", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192518", 
+                        "created": "1441192518", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444188984", 
+                        "created": "1444188984", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024179", 
+                        "created": "1443024179", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834215", 
+                        "created": "1444730139", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122201", 
+                        "created": "1441122201", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2056", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445442821", 
+                        "created": "1445442821", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "663b9d6c-01ee-4dcf-8668-4333cc0bb63f", 
+            "vid": "13206", 
+            "vuuid": "7a9d19a2-fccc-421f-9156-a1c3475bd6da"
+        }, 
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Se\u00e7\u00f5es nessa p\u00e1gina:</p>\n\n<ul><li><a href=\"#3.1\"><strong>3.1 Como exportar sua chave p\u00fablica com o gpg4usb</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 Como importar a chave p\u00fablica de algu\u00e9m com o gpg4usb</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 Como verificar uma chave p\u00fablica com o gpg4usb</strong></a></li>\n</ul><p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 Como exportar sua chave p\u00fablica com o gpg4usb</h2>\n\n<p>Antes que algu\u00e9m possa enviar uma mensagem criptografada para voc\u00ea, \u00e9 preciso enviar sua chave p\u00fablica para aquela pessoa.</p>\n\n<p>Para exportar sua chave p\u00fablica usando o <strong>gpg4usb</strong>, siga os seguintes passos:</p>\n\n<p><strong>Passo 1</strong>. <strong>Clique duas vezes</strong> em <img src=\"/sbox/screen/gpg4usb-pt/02.png\" alt=\"\" /> para abrir a pasta <strong>gpg4usb</strong>.</p>\n\n<p><strong>Passo 2</strong>. <strong>Clique duas vezes</strong> em <img src=\"/sbox/screen/gpg4usb-pt/03.png\" alt=\"\" /> para abrir o programa <strong>gpg4usb</strong>.</p>\n\n<p><strong>Passo3</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/13a.png\" alt=\"\" /> para abrir a janela a seguir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/13.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: A janela do gerenciador de chaves exibindo todos os pares de chaves</em></p>\n\n<p><strong>Passo 3</strong>. <strong>Selecione</strong> sua chave, como demonstrado na <em>Figura 1</em> acima.</p>\n\n<p><strong>Passo 4</strong>. No menu <strong>Chave</strong>, <strong>selecione</strong> o item <em>Exportar para arquivo</em>, como demonstrado abaixo:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/14.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: A janela do gerenciador de chaves com o item 'exportar para arquivo' selecionado</em></p>\n\n<p>Isso ativar\u00e1 a seguinte janela:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/15.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: A janela de navega\u00e7\u00e3o 'exportar para arquivo'</em></p>\n\n<p><strong>Passo 5</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/16.png\" alt=\"\" /> para salvar seu par de chaves na pasta do programa <strong>gpg4usb</strong>.</p>\n\n<p><strong>Passo 6</strong>: <strong>Envie</strong> como anexo o arquivo exportado com sua chave p\u00fablica para a pessoa com quem voc\u00ea ir\u00e1 se corresponder.</p>\n\n<p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 Como importar a chave p\u00fablica de algu\u00e9m com o gpg4usb</h2>\n\n<p>Antes de poder criptografar informa\u00e7\u00f5es para envi\u00e1-las a algu\u00e9m, \u00e9 preciso receber e importar a chave p\u00fablica daquela pessoa. Para isso, siga os seguintes passos:</p>\n\n<p><strong>Passo 1</strong>. D\u00ea um <strong>duplo clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/03.png\" alt=\"\" /> para abrir o programa <strong>gpg4usb</strong>.</p>\n\n<p><strong>Passo 2</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/17a.png\" alt=\"\" /> para ativar a seguinte janela:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/17.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: A caixa de di\u00e1logo de Importar Chave</em></p>\n\n<p><strong>Passo 3</strong>. <strong>Selecione</strong> a chave que deseja importar.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/18.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: Abrir chave</em></p>\n\n<p><strong>Passo 4</strong>. <strong>Clique</strong> em <em>Abrir</em> para ativar a janela a seguir.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/19.png\" alt=\"\" /></p>\n\n<p><em>Figura 6: Detalhes da importa\u00e7\u00e3o da chave</em></p>\n\n<p><strong>Passo 5</strong>. <strong>Clique</strong> em OK para fechar a janela acima e retornar para a tela principal do <strong>gpg4usb</strong>. A chave rec\u00e9m importada ser\u00e1 exibida como mostra a tela abaixo.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/20.png\" alt=\"\" /></p>\n\n<p><em>Figura 7: O console do gpg4usb mostrando a nova chave importada, associada \u00e0 conta correspondente</em></p>\n\n<p>Agora que voc\u00ea conseguiu importar corretamente a chave p\u00fablica da pessoa com quem ir\u00e1 se relaciomar, \u00e9 preciso verificar e assinar a chave importada.</p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h2>3.3 Como verificar uma chave p\u00fablica com o gpg4usb</h2>\n\n<p>Voc\u00ea deve verificar se a chave importada realmente pertence \u00e0 pessoa que supostamente a enviou, para ent\u00e3o consider\u00e1-la como aut\u00eantica. Este \u00e9 um passo importante, que voc\u00ea e seus contatos de e-mail devem seguir para cada chave p\u00fablica recebida.</p>\n\n<p>Para verificar um par de chaves, execute os passos a seguir:</p>\n\n<p><strong>Passo 1</strong>. <strong>Contate</strong> a pessoa dona da chave por algum meio de comunica\u00e7\u00e3o que n\u00e3o seja e-mail.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Voc\u00ea pode usar o telefone, mensagens de texto, programas de <strong>voz sobre IP (VoIP)</strong> ou qualquer outro m\u00e9todo, desde que tenha certeza de estar se comunicando com a pessoa correta. Liga\u00e7\u00f5es telef\u00f4nicas e encontros presenciais proporcionam maior garantia quanto \u00e0 autenticidade da identidade de algu\u00e9m, quando \u00e9 poss\u00edvel faz\u00ea-los com seguran\u00e7a.</p>\n\n<p><strong>Passo 2</strong>. Voc\u00ea e a pessoa com quem ir\u00e1 se corresponder devem verificar se as 'impress\u00f5es digitais' (<em>fingerprints</em>) das chaves p\u00fablicas recebidas s\u00e3o as mesmas das enviadas.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Uma impress\u00e3o digital ou <em>fingerprint</em> \u00e9 uma s\u00e9rie \u00fanica de n\u00fameros e letras que identifica cada chave. A impress\u00e3o digital em si n\u00e3o \u00e9 um segredo, podendo ser guardada e usada quando necess\u00e1ria para verifica\u00e7\u00f5es futuras.</p>\n\n<p>Para ver a impress\u00e3o digital do par de chaves que voc\u00ea criou, ou das chaves que voc\u00ea importou, execute os passos a seguir:</p>\n\n<p><strong>Passo 1</strong>. <strong>Selecione</strong> uma chave. <strong>Clique sobre ela com o bot\u00e3o direito do mouse</strong> para ativar o menu relacionado \u00e0quela chave.</p>\n\n<p><strong>Passo 2</strong>. <strong>Selecione</strong> o item <em>Exibir detalhes da chave</em>, como demonstrado abaixo na <em>Figura 8</em>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/21.png\" alt=\"\" /></p>\n\n<p><em>Figura 8: O menu pop-up da chave de um contato</em></p>\n\n<p>A tela a seguir ser\u00e1 exibida:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/22.png\" alt=\"\" /></p>\n\n<p><em>Figura 9: A janela de 'Detalhes da chave' com a assinatura/impress\u00e3o digital na parte inferior</em></p>\n\n<p><strong>Passo 3</strong>. <strong>Compare</strong> a impress\u00e3o digital desta tela com a que a outra pessoa v\u00ea em seu <strong>gpg4usb</strong>.</p>\n\n<p>Tal pessoa deve repetir estes passos para a sua chave p\u00fablica. \u00c9 preciso confirmar que as impress\u00f5es digitais das chaves que voc\u00eas receberam coincidem com as originais enviadas. Se n\u00e3o coincidirem, troquem as chaves novamente (talvez por um endere\u00e7o de e-mail ou meio de comunica\u00e7\u00e3o diferente). Repitam o processo de verifica\u00e7\u00e3o.</p>\n\n<p>Se as impress\u00f5es digitais coincidem <em>exatamente</em>, poder\u00e3o enviar e receber mensagens e arquivos criptografados de forma segura.</p>\n", 
+                        "summary": "", 
+                        "value": "Se\u00e7\u00f5es nessa p\u00e1gina:\r\n\r\n- [**3.1 Como exportar sua chave p\u00fablica com o gpg4usb**](#3.1)\r\n- [**3.2 Como importar a chave p\u00fablica de algu\u00e9m com o gpg4usb**](#3.2)\r\n- [**3.3 Como verificar uma chave p\u00fablica com o gpg4usb**](#3.3)\r\n\r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 Como exportar sua chave p\u00fablica com o gpg4usb ##\r\n\r\nAntes que algu\u00e9m possa enviar uma mensagem criptografada para voc\u00ea, \u00e9 preciso enviar sua chave p\u00fablica para aquela pessoa.\r\n\r\nPara exportar sua chave p\u00fablica usando o **gpg4usb**, siga os seguintes passos:\r\n\r\n**Passo 1**. **Clique duas vezes** em ![](/sbox/screen/gpg4usb-pt/02.png) para abrir a pasta **gpg4usb**.\r\n\r\n**Passo 2**. **Clique duas vezes** em ![](/sbox/screen/gpg4usb-pt/03.png) para abrir o programa **gpg4usb**. \r\n\r\n**Passo3**. **Clique** em ![](/sbox/screen/gpg4usb-pt/13a.png) para abrir a janela a seguir:\r\n\r\n![](/sbox/screen/gpg4usb-pt/13.png)\r\n\r\n*Figura 1: A janela do gerenciador de chaves exibindo todos os pares de chaves*\r\n\r\n**Passo 3**. **Selecione** sua chave, como demonstrado na *Figura 1* acima.\r\n\r\n**Passo 4**. No menu **Chave**, **selecione** o item *Exportar para arquivo*, como demonstrado abaixo:\r\n\r\n![](/sbox/screen/gpg4usb-pt/14.png)\r\n\r\n*Figura 2: A janela do gerenciador de chaves com o item 'exportar para arquivo' selecionado*\r\n\r\nIsso ativar\u00e1 a seguinte janela:\r\n\r\n![](/sbox/screen/gpg4usb-pt/15.png)\r\n\r\n*Figura 3: A janela de navega\u00e7\u00e3o 'exportar para arquivo'*\r\n\r\n**Passo 5**. **Clique** em ![](/sbox/screen/gpg4usb-pt/16.png) para salvar seu par de chaves na pasta do programa **gpg4usb**.\r\n\r\n**Passo 6**: **Envie** como anexo o arquivo exportado com sua chave p\u00fablica para a pessoa com quem voc\u00ea ir\u00e1 se corresponder.\r\n\r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 Como importar a chave p\u00fablica de algu\u00e9m com o gpg4usb ##\r\n\r\nAntes de poder criptografar informa\u00e7\u00f5es para envi\u00e1-las a algu\u00e9m, \u00e9 preciso receber e importar a chave p\u00fablica daquela pessoa. Para isso, siga os seguintes passos:\r\n\r\n**Passo 1**. D\u00ea um **duplo clique** em ![](/sbox/screen/gpg4usb-pt/03.png) para abrir o programa **gpg4usb**.\r\n\r\n**Passo 2**. **Clique** em ![](/sbox/screen/gpg4usb-pt/17a.png) para ativar a seguinte janela:\r\n\r\n![](/sbox/screen/gpg4usb-pt/17.png)\r\n\r\n*Figura 4: A caixa de di\u00e1logo de Importar Chave*\r\n\r\n**Passo 3**. **Selecione** a chave que deseja importar.\r\n\r\n![](/sbox/screen/gpg4usb-pt/18.png)\r\n\r\n*Figura 5: Abrir chave*\r\n\r\n**Passo 4**. **Clique** em *Abrir* para ativar a janela a seguir.\r\n\r\n![](/sbox/screen/gpg4usb-pt/19.png)\r\n\r\n*Figura 6: Detalhes da importa\u00e7\u00e3o da chave*\r\n\r\n**Passo 5**. **Clique** em OK para fechar a janela acima e retornar para a tela principal do **gpg4usb**. A chave rec\u00e9m importada ser\u00e1 exibida como mostra a tela abaixo.\r\n\r\n![](/sbox/screen/gpg4usb-pt/20.png)\r\n\r\n*Figura 7: O console do gpg4usb mostrando a nova chave importada, associada \u00e0 conta correspondente*\r\n\r\nAgora que voc\u00ea conseguiu importar corretamente a chave p\u00fablica da pessoa com quem ir\u00e1 se relaciomar, \u00e9 preciso verificar e assinar a chave importada.\r\n\r\n\r\n<a name=\"3.3\"></a>\r\n## 3.3 Como verificar uma chave p\u00fablica com o gpg4usb ##\r\n\r\nVoc\u00ea deve verificar se a chave importada realmente pertence \u00e0 pessoa que supostamente a enviou, para ent\u00e3o consider\u00e1-la como aut\u00eantica. Este \u00e9 um passo importante, que voc\u00ea e seus contatos de e-mail devem seguir para cada chave p\u00fablica recebida. \r\n\r\nPara verificar um par de chaves, execute os passos a seguir:\r\n\r\n**Passo 1**. **Contate** a pessoa dona da chave por algum meio de comunica\u00e7\u00e3o que n\u00e3o seja e-mail.\r\n\r\n**Observa\u00e7\u00e3o**: Voc\u00ea pode usar o telefone, mensagens de texto, programas de **voz sobre IP (VoIP)** ou qualquer outro m\u00e9todo, desde que tenha certeza de estar se comunicando com a pessoa correta. Liga\u00e7\u00f5es telef\u00f4nicas e encontros presenciais proporcionam maior garantia quanto \u00e0 autenticidade da identidade de algu\u00e9m, quando \u00e9 poss\u00edvel faz\u00ea-los com seguran\u00e7a. \r\n\r\n**Passo 2**. Voc\u00ea e a pessoa com quem ir\u00e1 se corresponder devem verificar se as 'impress\u00f5es digitais' (*fingerprints*) das chaves p\u00fablicas recebidas s\u00e3o as mesmas das enviadas.\r\n\r\n**Observa\u00e7\u00e3o**: Uma impress\u00e3o digital ou *fingerprint* \u00e9 uma s\u00e9rie \u00fanica de n\u00fameros e letras que identifica cada chave. A impress\u00e3o digital em si n\u00e3o \u00e9 um segredo, podendo ser guardada e usada quando necess\u00e1ria para verifica\u00e7\u00f5es futuras.\r\n\r\nPara ver a impress\u00e3o digital do par de chaves que voc\u00ea criou, ou das chaves que voc\u00ea importou, execute os passos a seguir:\r\n\r\n**Passo 1**. **Selecione** uma chave. **Clique sobre ela com o bot\u00e3o direito do mouse** para ativar o menu relacionado \u00e0quela chave.\r\n\r\n**Passo 2**. **Selecione** o item *Exibir detalhes da chave*, como demonstrado abaixo na *Figura 8*. \r\n\r\n![](/sbox/screen/gpg4usb-pt/21.png)\r\n\r\n*Figura 8: O menu pop-up da chave de um contato*\r\n\r\nA tela a seguir ser\u00e1 exibida:\r\n\r\n![](/sbox/screen/gpg4usb-pt/22.png)\r\n\r\n*Figura 9: A janela de 'Detalhes da chave' com a assinatura/impress\u00e3o digital na parte inferior*\r\n\r\n**Passo 3**. **Compare** a impress\u00e3o digital desta tela com a que a outra pessoa v\u00ea em seu **gpg4usb**.\r\n\r\nTal pessoa deve repetir estes passos para a sua chave p\u00fablica. \u00c9 preciso confirmar que as impress\u00f5es digitais das chaves que voc\u00eas receberam coincidem com as originais enviadas. Se n\u00e3o coincidirem, troquem as chaves novamente (talvez por um endere\u00e7o de e-mail ou meio de comunica\u00e7\u00e3o diferente). Repitam o processo de verifica\u00e7\u00e3o.\r\n\r\nSe as impress\u00f5es digitais coincidem *exatamente*, poder\u00e3o enviar e receber mensagens e arquivos criptografados de forma segura."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2057", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2057", 
+                "link_title": "How to Export and Import Keys", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5203", 
+                "module": "book", 
+                "nid": "2057", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5203", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "How to Export and Import Keys", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1455120354", 
+            "comment": "0", 
+            "created": "1441122242", 
+            "current_revision_id": "13207", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb-keysimportexport", 
+                        "value": "gpg4usb-keysimportexport"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5203": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2057", 
+                    "link_title": "How to Export and Import Keys", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5203", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5203", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2057", 
+            "num_revisions": "16", 
+            "path": "https://securityinabox.org/en/gpg4usb-keysimportexport", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455120354", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como importar e exportar chaves", 
+                        "value": "Como importar e exportar chaves"
+                    }
+                ]
+            }, 
+            "title_original": "How to Export and Import Keys", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933435", 
+                        "created": "1442933435", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442246357", 
+                        "created": "1442246357", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506690", 
+                        "created": "1442506690", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452097777", 
+                        "created": "1441633817", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733270", 
+                        "created": "1444733270", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455120354", 
+                        "created": "1455120354", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443788784", 
+                        "created": "1443788784", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192625", 
+                        "created": "1441192625", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444189052", 
+                        "created": "1444189052", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024203", 
+                        "created": "1443024203", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834259", 
+                        "created": "1444730205", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122242", 
+                        "created": "1441122242", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2057", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445442893", 
+                        "created": "1445442893", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "927bdf66-af92-4bea-811d-b4b792b4602f", 
+            "vid": "13207", 
+            "vuuid": "1535d39a-166a-4f3a-b90d-335003b5c6ca"
+        }, 
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Se\u00e7\u00f5es nessa p\u00e1gina:</p>\n\n<ul><li><a href=\"#4.0\"><strong>4.0 Como criptografar mensagens de texto com o gpg4usb</strong></a></li>\n<li><a href=\"#4.1\"><strong>4.1 Como descriptografar mensagens de texto com o gpg4usb</strong></a></li>\n<li><a href=\"#4.2\"><strong>4.2 Como criptografar arquivos com o gpg4usb</strong></a></li>\n<li><a href=\"#4.3\"><strong>4.3 Como descriptografar arquivos com o gpg4usb</strong></a></li>\n</ul><p><a name=\"4.0\" id=\"4.0\"></a></p>\n\n<h2>4.0 Como criptografar mensagens de texto com o gpg4usb</h2>\n\n<p>No exemplo a seguir, Terence vai criptografar um e-mail para sua amiga Salima. Para fazer como ela, siga os seguintes passos:</p>\n\n<p><strong>Passo 1</strong>. <strong>Clique duas vezes</strong> em <img src=\"/sbox/screen/gpg4usb-pt/03.png\" alt=\"\" /> para abrir o console do <strong>gpg4usb</strong>.</p>\n\n<p><strong>Passo 2</strong>. <strong>Escreva</strong> sua mensagem como demonstrado no exemplo abaixo:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/23.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: O console do gpg4usb mostrando um exemplo de mensagem</em></p>\n\n<p><strong>Passo 3</strong>. <strong>Selecione</strong> a caixa ao lado do e-mail de destino, como a seguir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/24.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: O console gpg4usb mostrando o e-mail de destino</em></p>\n\n<p><strong>Observa\u00e7\u00e3o:</strong> \u00c9 poss\u00edvel criptografar a mensagem para mais de uma pessoa; basta selecionar as caixas ao lado de seus respectivos endere\u00e7os no painel <em>Encriptar para</em>. Al\u00e9m disso, n\u00e3o esque\u00e7a de selecionar a caixa ao lado de seu pr\u00f3prio e-mail. Dessa forma, poder\u00e1 ler depois o que enviou, se quiser.</p>\n\n<p><strong>Passo 4</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/25a.png\" alt=\"\" /> ou <strong>selecione</strong> a op\u00e7\u00e3o <strong>Encriptar</strong> do menu <strong>Encriptar</strong> para criptografar sua mensagem, como a seguir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/25.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: O console gpg4usb mostrando um exemplo de mensagem criptografada</em></p>\n\n<p><strong>Passo 5</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/26a.png\" alt=\"\" /> para selecionar toda a mensagem codificada e ent\u00e3o <strong>clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/26.png\" alt=\"\" /> para copi\u00e1-la para a \u00e1rea de transfer\u00eancia.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Alternativamente, \u00e9 poss\u00edvel usar atalhos de teclado associados a cada item do menu. Neste caso, <strong>Ctrl + E</strong> vai criptografar a mensagem; <strong>Ctrl + A</strong> selecionar\u00e1 todo o conte\u00fado da \u00e1rea de texto; e <strong>Ctrl + C</strong> o copiar\u00e1 para a \u00e1rea de transfer\u00eancia.</p>\n\n<p><strong>Passo 6</strong>. <strong>Abra</strong> sua conta de e-mail. Em seguida, <strong>crie</strong> uma nova mensagem e <strong>cole</strong> o texto codificado no corpo do e-mail. O resultado deve ficar assim:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/27.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: Um exemplo de mensagem criptografada no gpg4usb e colada em uma conta de e-mail do Gmail</em></p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: O formato <strong>Rich Text</strong> (<strong>RTF</strong>) pode corromper o modo como a mensagem criptografada \u00e9 enviada, ao inserir estilos de visualiza\u00e7\u00e3o no texto - principalmente espa\u00e7amento maior entre as linhas. Portanto, em geral \u00e9 melhor compor suas mensagens em um aplicativo de texto sem formata\u00e7\u00e3o. Para converter do formato <strong>RTF</strong> para texto simples no <strong>Gmail</strong>, basta <strong>clicar</strong> em <em>Mais op\u00e7\u00f5es</em> no painel ao rodap\u00e9 da mensagem como demonstrado abaixo (veja a imagem abaixo) e <strong>selecionar</strong> <em>Modo de texto simples</em>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/28.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: Op\u00e7\u00f5es de formata\u00e7\u00e3o do Gmail</em></p>\n\n<p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h2>4.1 Como descriptografar mensagens de texto com o gpg4usb</h2>\n\n<p>Para descriptografar um e-mail recebido, execute os passos a seguir:</p>\n\n<p><strong>Passo 1</strong>. <strong>Clique duas vezes</strong> em <img src=\"/sbox/screen/gpg4usb-pt/03.png\" alt=\"\" /> para abrir o programa <strong>gpg4usb</strong>.</p>\n\n<p><strong>Passo 2</strong>. <strong>Abra</strong> sua conta de e-mail. Ent\u00e3o, <strong>abra</strong> a mensagem criptografada recebida.</p>\n\n<p><strong>Passo 3</strong>. <strong>Selecione</strong> todo o texto em c\u00f3digo, <strong>copie-o</strong> (<strong>Ctrl + C</strong>) e <strong>cole-o</strong> (<strong>Ctrl + V</strong>) na aba <em>Semtitulo1.txt</em> do console do <strong>gpg4usb</strong>, como demonstrado a seguir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/29.png\" alt=\"\" /></p>\n\n<p><em>Figura 6: O console do gpg4usb mostrando uma mensagem para decodificar</em></p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Se o texto criptografado aparecer com espa\u00e7amento duplo entre as linhas, como mostrado na <em>Figura 7</em> abaixo, o <strong>gpg4usb</strong> pode n\u00e3o ser capaz de decodific\u00e1-lo automaticamente. Para remover essa quebra de linha dupla, <strong>clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/29a.png\" alt=\"\" /> (ou <strong>selecione</strong> <em>Remover espa\u00e7amento</em> no menu <strong>Editar</strong>) para continuar o processo de descriptografia no <strong>Passo 4</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/30.png\" alt=\"\" /></p>\n\n<p><em>Figura 7: O console do gpg4usb mostrando uma mensagem para decodificar com espa\u00e7amento duplo entre as linhas</em></p>\n\n<p><strong>Passo 4</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/31a.png\" alt=\"\" /> e insira a senha que voc\u00ea atribuiu quando gerou seu par de chaves, como demonstrado na janela a seguir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/31.png\" alt=\"\" /></p>\n\n<p><em>Figura 8: A janela para inser\u00e7\u00e3o de senha</em></p>\n\n<p><strong>Passo 5</strong>. <strong>Clique</strong> em <em>OK</em> para ativar o console <strong>gpg4usb</strong>, como na <em>Figura 2</em> acima.</p>\n\n<p><a name=\"4.2\" id=\"4.2\"></a></p>\n\n<h2>4.2 Como criptografar arquivos com o gpg4usb</h2>\n\n<p>O processo para criptografar um arquivo \u00e9 similar ao de cifrar e-mails. No exemplo a seguir, Salima vai criptografar um arquivo para Terence, usando os passos a seguir:</p>\n\n<p><strong>Passo 1</strong>. <strong>Clique duas vezes</strong> em <img src=\"/sbox/screen/gpg4usb-pt/03.png\" alt=\"\" /> para abrir o programa <strong>gpg4usb</strong>.</p>\n\n<p><strong>Passo 2</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/32a.png\" alt=\"\" /> e <em>Encriptar arquivo</em> para ativar a tela a seguir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/32.png\" alt=\"\" /></p>\n\n<p><em>Figura 9: A janela de encriptar arquivo</em></p>\n\n<p>A janela <em>Encriptar arquivo</em> possui uma lista de rolagem que permite escolher as contas de e-mail e respectivas chaves a serem utilizadas para criptografar a mensagem.</p>\n\n<p><strong>Passo 3</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/33.png\" alt=\"\" /> ao lado do item <em>Entrada</em> para ativar a janela a seguir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/34.png\" alt=\"\" /></p>\n\n<p><em>Figura 10: A janela de navega\u00e7\u00e3o Abrir arquivo</em></p>\n\n<p><strong>Passo 4</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/35.png\" alt=\"\" /> para anexar o arquivo que ser\u00e1 criptografado e retorne para a janela <em>Encriptar arquivo</em>, como a seguir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/36.png\" alt=\"\" /></p>\n\n<p><em>Figura 11: A janela Encriptar arquivo mostrando arquivo designado para ser criptografado</em></p>\n\n<p><strong>Passo 5</strong>. <strong>Clique</strong> em <em>OK</em> para ativar a janela a seguir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/37.png\" alt=\"\" /></p>\n\n<p><em>Figura 12: A caixa de di\u00e1logo de processo conclu\u00eddo/Done</em></p>\n\n<p>A caixa de di\u00e1logo de processo <em>Conclu\u00eddo/Done</em> mostra onde a c\u00f3pia criptografada do arquivo foi salva. Arquivos criptografados tamb\u00e9m podem ser identificados pela extens\u00e3o <em>.asc</em>. Por exemplo, <em>Anota\u00e7\u00f5es da Reuni\u00e3o.docx.asc</em>.</p>\n\n<p><strong>Passo 6</strong>. <strong>Clique</strong> em <em>OK</em> para completar o processo de criptografia.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Voc\u00ea pode criptografar separadamente uma mensagem de texto, que pode ser enviada junto com o arquivo cifrado.</p>\n\n<p><strong>Passo 7</strong>. Usando sua conta de e-mail, <strong>navegue</strong> para a pasta onde est\u00e1 a c\u00f3pia criptografada do arquivo (<em>Figura 12</em>) e ent\u00e3o anexe-o normalmente, como faria com qualquer outro arquivo.</p>\n\n<p><strong>IMPORTANTE</strong>: Observe que o nome do arquivo <strong>n\u00e3o \u00e9 criptografado</strong>. Certifique-se que este nome n\u00e3o revele nenhuma informa\u00e7\u00e3o importante! E n\u00e3o se esque\u00e7a que ele \u00e9 uma c\u00f3pia - uma vers\u00e3o decodificada do arquivo (a original) continua no seu computador.</p>\n\n<p><a name=\"4.3\" id=\"4.3\"></a></p>\n\n<h2>4.3 Como descriptografar arquivos com o gpg4usb</h2>\n\n<p>No exemplo a seguir, Terence ir\u00e1 decodificar o arquivo que Salima o enviou, usando os passos a seguir:</p>\n\n<p><strong>Passo 1</strong>. <strong>Clique duas vezes</strong> em <img src=\"/sbox/screen/gpg4usb-pt/03.png\" alt=\"\" /> para abrir o programa <strong>gpg4usb</strong>.</p>\n\n<p><strong>Passo 2</strong>. <strong>Abra</strong> sua conta de e-mail, <strong>abra</strong> a mensagem que cont\u00e9m o arquivo criptografado e <strong>baixe-o</strong> para o computador.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Se algu\u00e9m te enviou uma mensagem de texto acompanhando o arquivo criptografado, decodifique-a usando o m\u00e9todo descrito na se\u00e7\u00e3o <a href=\"/pt/gpg4usb-encryptdecrypt#4.1\"><strong>4.1 Como descriptografar mensagens de texto com o gpg4usb</strong></a></p>\n\n<p><strong>Passo 3</strong>. No console do <strong>gpg4usb</strong> (como na <em>Figura 1</em>, acima), <strong>clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/32a.png\" alt=\"\" /> para abrir a janela <strong>Decriptar Arquivo</strong> (como na <em>Figura 13</em>, abaixo).</p>\n\n<p><strong>Passo 4</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/gpg4usb-pt/33.png\" alt=\"\" /> ao lado do item <em>Entrada</em> para escolher o local no computador onde o arquivo criptografado foi salvo, como a seguir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/38.png\" alt=\"\" /></p>\n\n<p><em>Figura 13: A janela Decriptar arquivo, mostrando o caminho para o arquivo criptografado</em></p>\n\n<p><strong>Passo 5</strong>. <strong>Clique</strong> em <em>OK</em> para ativar a janela a seguir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-pt/39.png\" alt=\"\" /></p>\n\n<p><em>Figura 14: A caixa de di\u00e1logo de confirma\u00e7\u00e3o, mostrando a localiza\u00e7\u00e3o do arquivo decodificado</em></p>\n\n<p><strong>Importante</strong>: Se voc\u00ea est\u00e1 trabalhando em uma LAN House, Internet Caf\u00e9 ou em esta\u00e7\u00f5es de trabalho nas quais outras pessoas podem ter acesso \u00e0 vers\u00e3o decodificada do arquivo, \u00e9 melhor copiar o arquivo original <em>.asc</em> para seu pen drive ou HD externo e lev\u00e1-lo para que possa ser descriptografado com mais privacidade em sua casa.</p>\n", 
+                        "summary": "", 
+                        "value": "Se\u00e7\u00f5es nessa p\u00e1gina:\r\n\r\n- [**4.0 Como criptografar mensagens de texto com o gpg4usb**](#4.0)\r\n- [**4.1 Como descriptografar mensagens de texto com o gpg4usb**](#4.1)\r\n- [**4.2 Como criptografar arquivos com o gpg4usb**](#4.2)\r\n- [**4.3 Como descriptografar arquivos com o gpg4usb**](#4.3)\r\n\r\n<a name=\"4.0\"></a>\r\n## 4.0 Como criptografar mensagens de texto com o gpg4usb ##\r\n\r\nNo exemplo a seguir, Terence vai criptografar um e-mail para sua amiga Salima. Para fazer como ela, siga os seguintes passos:\r\n\r\n**Passo 1**. **Clique duas vezes** em ![](/sbox/screen/gpg4usb-pt/03.png) para abrir o console do **gpg4usb**.\r\n\r\n**Passo 2**. **Escreva** sua mensagem como demonstrado no exemplo abaixo:\r\n\r\n![](/sbox/screen/gpg4usb-pt/23.png)\r\n\r\n*Figura 1: O console do gpg4usb mostrando um exemplo de mensagem*\r\n\r\n**Passo 3**. **Selecione** a caixa ao lado do e-mail de destino, como a seguir:\r\n\r\n![](/sbox/screen/gpg4usb-pt/24.png)\r\n\r\n*Figura 2: O console gpg4usb mostrando o e-mail de destino*\r\n\r\n**Observa\u00e7\u00e3o:** \u00c9 poss\u00edvel criptografar a mensagem para mais de uma pessoa; basta selecionar as caixas ao lado de seus respectivos endere\u00e7os no painel *Encriptar para*. Al\u00e9m disso, n\u00e3o esque\u00e7a de selecionar a caixa ao lado de seu pr\u00f3prio e-mail. Dessa forma, poder\u00e1 ler depois o que enviou, se quiser.\r\n\r\n**Passo 4**. **Clique** em ![](/sbox/screen/gpg4usb-pt/25a.png) ou **selecione** a op\u00e7\u00e3o **Encriptar** do menu **Encriptar** para criptografar sua mensagem, como a seguir:\r\n\r\n![](/sbox/screen/gpg4usb-pt/25.png)\r\n\r\n*Figura 3: O console gpg4usb mostrando um exemplo de mensagem criptografada*\r\n\r\n**Passo 5**. **Clique** em ![](/sbox/screen/gpg4usb-pt/26a.png) para selecionar toda a mensagem codificada e ent\u00e3o **clique** em ![](/sbox/screen/gpg4usb-pt/26.png) para copi\u00e1-la para a \u00e1rea de transfer\u00eancia. \r\n\r\n**Observa\u00e7\u00e3o**: Alternativamente, \u00e9 poss\u00edvel usar atalhos de teclado associados a cada item do menu. Neste caso, **Ctrl + E** vai criptografar a mensagem; **Ctrl + A** selecionar\u00e1 todo o conte\u00fado da \u00e1rea de texto; e **Ctrl + C** o copiar\u00e1 para a \u00e1rea de transfer\u00eancia.\r\n\r\n**Passo 6**. **Abra** sua conta de e-mail. Em seguida, **crie** uma nova mensagem e **cole** o texto codificado no corpo do e-mail. O resultado deve ficar assim:\r\n\r\n![](/sbox/screen/gpg4usb-pt/27.png)\r\n\r\n*Figura 4: Um exemplo de mensagem criptografada no gpg4usb e colada em uma conta de e-mail do Gmail*\r\n\r\n**Observa\u00e7\u00e3o**: O formato **Rich Text** (**RTF**) pode corromper o modo como a mensagem criptografada \u00e9 enviada, ao inserir estilos de visualiza\u00e7\u00e3o no texto - principalmente espa\u00e7amento maior entre as linhas. Portanto, em geral \u00e9 melhor compor suas mensagens em um aplicativo de texto sem formata\u00e7\u00e3o. Para converter do formato **RTF** para texto simples no **Gmail**, basta **clicar** em *Mais op\u00e7\u00f5es* no painel ao rodap\u00e9 da mensagem como demonstrado abaixo (veja a imagem abaixo) e **selecionar** *Modo de texto simples*.\r\n\r\n ![](/sbox/screen/gpg4usb-pt/28.png)\r\n\r\n*Figura 5: Op\u00e7\u00f5es de formata\u00e7\u00e3o do Gmail*\r\n\r\n\r\n<a name=\"4.1\"></a>\r\n## 4.1 Como descriptografar mensagens de texto com o gpg4usb ##\r\n\r\nPara descriptografar um e-mail recebido, execute os passos a seguir:\r\n\r\n**Passo 1**. **Clique duas vezes** em ![](/sbox/screen/gpg4usb-pt/03.png) para abrir o programa **gpg4usb**.\r\n\r\n**Passo 2**. **Abra** sua conta de e-mail. Ent\u00e3o, **abra** a mensagem criptografada recebida.\r\n\r\n**Passo 3**. **Selecione** todo o texto em c\u00f3digo, **copie-o** (**Ctrl + C**) e **cole-o** (**Ctrl + V**) na aba *Semtitulo1.txt* do console do **gpg4usb**, como demonstrado a seguir:\r\n\r\n![](/sbox/screen/gpg4usb-pt/29.png)\r\n\r\n*Figura 6: O console do gpg4usb mostrando uma mensagem para decodificar*\r\n\r\n**Observa\u00e7\u00e3o**: Se o texto criptografado aparecer com espa\u00e7amento duplo entre as linhas, como mostrado na *Figura 7* abaixo, o **gpg4usb** pode n\u00e3o ser capaz de decodific\u00e1-lo automaticamente. Para remover essa quebra de linha dupla, **clique** em ![](/sbox/screen/gpg4usb-pt/29a.png) (ou **selecione** *Remover espa\u00e7amento* no menu **Editar**) para continuar o processo de descriptografia no **Passo 4**.\r\n\r\n![](/sbox/screen/gpg4usb-pt/30.png)\r\n\r\n*Figura 7: O console do gpg4usb mostrando uma mensagem para decodificar com espa\u00e7amento duplo entre as linhas*\r\n \r\n**Passo 4**. **Clique** em ![](/sbox/screen/gpg4usb-pt/31a.png) e insira a senha que voc\u00ea atribuiu quando gerou seu par de chaves, como demonstrado na janela a seguir: \r\n\r\n![](/sbox/screen/gpg4usb-pt/31.png)\r\n\r\n*Figura 8: A janela para inser\u00e7\u00e3o de senha*\r\n\r\n**Passo 5**. **Clique** em *OK* para ativar o console **gpg4usb**, como na *Figura 2* acima.\r\n\r\n\r\n<a name=\"4.2\"></a>\r\n## 4.2 Como criptografar arquivos com o gpg4usb ##\r\n\r\nO processo para criptografar um arquivo \u00e9 similar ao de cifrar e-mails. No exemplo a seguir, Salima vai criptografar um arquivo para Terence, usando os passos a seguir:\r\n\r\n**Passo 1**. **Clique duas vezes** em ![](/sbox/screen/gpg4usb-pt/03.png) para abrir o programa **gpg4usb**.\r\n\r\n**Passo 2**. **Clique** em ![](/sbox/screen/gpg4usb-pt/32a.png) e *Encriptar arquivo* para ativar a tela a seguir:\r\n\r\n![](/sbox/screen/gpg4usb-pt/32.png)\r\n\r\n*Figura 9: A janela de encriptar arquivo*\r\n\r\nA janela *Encriptar arquivo* possui uma lista de rolagem que permite escolher as contas de e-mail e respectivas chaves a serem utilizadas para criptografar a mensagem.\r\n\r\n**Passo 3**. **Clique** em ![](/sbox/screen/gpg4usb-pt/33.png) ao lado do item *Entrada* para ativar a janela a seguir:\r\n\r\n![](/sbox/screen/gpg4usb-pt/34.png)\r\n\r\n*Figura 10: A janela de navega\u00e7\u00e3o Abrir arquivo*\r\n\r\n**Passo 4**. **Clique** em ![](/sbox/screen/gpg4usb-pt/35.png) para anexar o arquivo que ser\u00e1 criptografado e retorne para a janela *Encriptar arquivo*, como a seguir:\r\n\r\n![](/sbox/screen/gpg4usb-pt/36.png)\r\n\r\n*Figura 11: A janela Encriptar arquivo mostrando arquivo designado para ser criptografado*\r\n\r\n**Passo 5**. **Clique** em *OK* para ativar a janela a seguir:\r\n\r\n![](/sbox/screen/gpg4usb-pt/37.png)\r\n\r\n*Figura 12: A caixa de di\u00e1logo de processo conclu\u00eddo/Done*\r\n\r\nA caixa de di\u00e1logo de processo *Conclu\u00eddo/Done* mostra onde a c\u00f3pia criptografada do arquivo foi salva. Arquivos criptografados tamb\u00e9m podem ser identificados pela extens\u00e3o *.asc*. Por exemplo, *Anota\u00e7\u00f5es da Reuni\u00e3o.docx.asc*. \r\n\r\n**Passo 6**. **Clique** em *OK* para completar o processo de criptografia.\r\n\r\n**Observa\u00e7\u00e3o**: Voc\u00ea pode criptografar separadamente uma mensagem de texto, que pode ser enviada junto com o arquivo cifrado.\r\n\r\n**Passo 7**. Usando sua conta de e-mail, **navegue** para a pasta onde est\u00e1 a c\u00f3pia criptografada do arquivo (*Figura 12*) e ent\u00e3o anexe-o normalmente, como faria com qualquer outro arquivo.\r\n\r\n**IMPORTANTE**: Observe que o nome do arquivo **n\u00e3o \u00e9 criptografado**. Certifique-se que este nome n\u00e3o revele nenhuma informa\u00e7\u00e3o importante! E n\u00e3o se esque\u00e7a que ele \u00e9 uma c\u00f3pia - uma vers\u00e3o decodificada do arquivo (a original) continua no seu computador.\r\n\r\n\r\n<a name=\"4.3\"></a>\r\n## 4.3 Como descriptografar arquivos com o gpg4usb ##\r\n\r\nNo exemplo a seguir, Terence ir\u00e1 decodificar o arquivo que Salima o enviou, usando os passos a seguir:\r\n\r\n**Passo 1**. **Clique duas vezes** em ![](/sbox/screen/gpg4usb-pt/03.png) para abrir o programa **gpg4usb**.\r\n\r\n**Passo 2**. **Abra** sua conta de e-mail, **abra** a mensagem que cont\u00e9m o arquivo criptografado e **baixe-o** para o computador.\r\n\r\n**Observa\u00e7\u00e3o**: Se algu\u00e9m te enviou uma mensagem de texto acompanhando o arquivo criptografado, decodifique-a usando o m\u00e9todo descrito na se\u00e7\u00e3o [**4.1 Como descriptografar mensagens de texto com o gpg4usb**](/pt/gpg4usb-encryptdecrypt#4.1)\r\n\r\n**Passo 3**. No console do **gpg4usb** (como na *Figura 1*, acima), **clique** em ![](/sbox/screen/gpg4usb-pt/32a.png) para abrir a janela **Decriptar Arquivo** (como na *Figura 13*, abaixo). \r\n\r\n**Passo 4**. **Clique** em ![](/sbox/screen/gpg4usb-pt/33.png) ao lado do item *Entrada* para escolher o local no computador onde o arquivo criptografado foi salvo, como a seguir:\r\n\r\n![](/sbox/screen/gpg4usb-pt/38.png) \r\n\r\n*Figura 13: A janela Decriptar arquivo, mostrando o caminho para o arquivo criptografado*\r\n\r\n**Passo 5**. **Clique** em *OK* para ativar a janela a seguir:\r\n\r\n![](/sbox/screen/gpg4usb-pt/39.png)\r\n\r\n*Figura 14: A caixa de di\u00e1logo de confirma\u00e7\u00e3o, mostrando a localiza\u00e7\u00e3o do arquivo decodificado*\r\n\r\n**Importante**: Se voc\u00ea est\u00e1 trabalhando em uma LAN House, Internet Caf\u00e9 ou em esta\u00e7\u00f5es de trabalho nas quais outras pessoas podem ter acesso \u00e0 vers\u00e3o decodificada do arquivo, \u00e9 melhor copiar o arquivo original *.asc* para seu pen drive ou HD externo e lev\u00e1-lo para que possa ser descriptografado com mais privacidade em sua casa.\r\n\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2058", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2058", 
+                "link_title": "How to Encrypt and Decrypt Text and Files", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5204", 
+                "module": "book", 
+                "nid": "2058", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5204", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "How to Encrypt and Decrypt Text and Files", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1456317301", 
+            "comment": "0", 
+            "created": "1441122281", 
+            "current_revision_id": "13354", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb-encryptdecrypt", 
+                        "value": "gpg4usb-encryptdecrypt"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5204": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2058", 
+                    "link_title": "How to Encrypt and Decrypt Text and Files", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5204", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5204", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2058", 
+            "num_revisions": "18", 
+            "path": "https://securityinabox.org/en/gpg4usb-encryptdecrypt", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456317301", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como criptografar e descriptografar textos e arquivos", 
+                        "value": "Como criptografar e descriptografar textos e arquivos"
+                    }
+                ]
+            }, 
+            "title_original": "How to Encrypt and Decrypt Text and Files", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933512", 
+                        "created": "1442933512", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454334177", 
+                        "created": "1442247427", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506774", 
+                        "created": "1442506774", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452097882", 
+                        "created": "1441633923", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733334", 
+                        "created": "1444733334", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455120475", 
+                        "created": "1455120475", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1456317301", 
+                        "created": "1443788863", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192711", 
+                        "created": "1441192711", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444189131", 
+                        "created": "1444189131", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024229", 
+                        "created": "1443024229", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834296", 
+                        "created": "1444730318", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122281", 
+                        "created": "1441122281", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2058", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445442983", 
+                        "created": "1445442983", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "81b92808-4745-49d2-8adb-01d3abc61d18", 
+            "vid": "13354", 
+            "vuuid": "0aa3c679-bfb9-404b-8bb6-749c82542b83"
+        }, 
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p><a name=\"5.0\" id=\"5.0\"></a></p>\n\n<h2>5.0 Perguntas Frequentes</h2>\n\n<div class=\"background\">\n\n<p><em><strong>P</strong>: O <strong>gpg4usb</strong> tem que ser usado a partir de um pen drive?</em></p>\n\n<p><em><strong>R</strong>: N\u00e3o. O gpg4usb pode ser extra\u00eddo e executado a partir do disco r\u00edgido do seu computador.</em></p>\n\n<p><em><strong>P</strong>: Para quantas contas de e-mail eu posso gerar pares de chaves?</em></p>\n\n<p><em><strong>R</strong>: Para quantas voc\u00ea quiser.</em></p>\n\n<p><em><strong>P</strong>: Eu gosto do fato de que podemos usar opera\u00e7\u00f5es simples como copiar a colar por aqui.</em></p>\n\n<p><em><strong>R</strong>: Correto. No entanto, n\u00e3o esque\u00e7a que o assunto no t\u00edtulo do seu e-mail continua aberto, sem criptografia. Portanto, tenha cuidado e n\u00e3o coloque um assunto que seja descritivo ou possa denunciar o conte\u00fado da mensagem!</em></p>\n\n</div>\n\n<p><a name=\"5.1\" id=\"5.1\"></a></p>\n\n<h2>5.1 Quest\u00f5es de revis\u00e3o</h2>\n\n<ul><li>Qual \u00e9 a diferen\u00e7a entre assinar e verificar uma chave p\u00fablica?</li>\n<li>O que \u00e9 uma impress\u00e3o digital (<em>fingerprint</em>) e como deve ser usada?</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "<a name=\"5.0\"></a>\r\n## 5.0 Perguntas Frequentes ##\r\n\r\n<div class=\"background\" markdown=\"1\"> \r\n***P**: O **gpg4usb** tem que ser usado a partir de um pen drive?*\r\n\r\n***R**: N\u00e3o. O gpg4usb pode ser extra\u00eddo e executado a partir do disco r\u00edgido do seu computador.*\r\n\r\n***P**: Para quantas contas de e-mail eu posso gerar pares de chaves?*\r\n\r\n***R**: Para quantas voc\u00ea quiser.*\r\n\r\n***P**: Eu gosto do fato de que podemos usar opera\u00e7\u00f5es simples como copiar a colar por aqui.*\r\n\r\n***R**: Correto. No entanto, n\u00e3o esque\u00e7a que o assunto no t\u00edtulo do seu e-mail continua aberto, sem criptografia. Portanto, tenha cuidado e n\u00e3o coloque um assunto que seja descritivo ou possa denunciar o conte\u00fado da mensagem!*\r\n</div>\r\n\r\n<a name=\"5.1\"></a>\r\n## 5.1 Quest\u00f5es de revis\u00e3o ##\r\n\r\n\r\n- Qual \u00e9 a diferen\u00e7a entre assinar e verificar uma chave p\u00fablica?\r\n- O que \u00e9 uma impress\u00e3o digital (*fingerprint*) e como deve ser usada?"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2059", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2059", 
+                "link_title": "FAQ and Review", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5205", 
+                "module": "book", 
+                "nid": "2059", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5205", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "FAQ and Review", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1455121879", 
+            "comment": "0", 
+            "created": "1441122335", 
+            "current_revision_id": "13209", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb-faq", 
+                        "value": "gpg4usb-faq"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5205": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2059", 
+                    "link_title": "FAQ and Review", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5205", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5205", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2059", 
+            "num_revisions": "15", 
+            "path": "https://securityinabox.org/en/gpg4usb-faq", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455121879", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Perguntas Frequentes e Revis\u00e3o", 
+                        "value": "Perguntas Frequentes e Revis\u00e3o"
+                    }
+                ]
+            }, 
+            "title_original": "FAQ and Review", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933622", 
+                        "created": "1442933622", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442246882", 
+                        "created": "1442246882", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506854", 
+                        "created": "1442506854", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442325864", 
+                        "created": "1441634027", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733392", 
+                        "created": "1444733392", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455121879", 
+                        "created": "1455121879", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443789030", 
+                        "created": "1443789030", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192792", 
+                        "created": "1441192792", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444189237", 
+                        "created": "1444189237", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024253", 
+                        "created": "1443024253", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834357", 
+                        "created": "1444730386", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122335", 
+                        "created": "1441122335", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2059", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445443061", 
+                        "created": "1445443061", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "857e0192-b870-418f-9001-d60648efc330", 
+            "vid": "13209", 
+            "vuuid": "82ea3467-0eb9-4b93-b0aa-d561230213e7"
+        }
+    ], 
+    "changed": "1456155294", 
+    "comment": "0", 
+    "created": "1441122154", 
+    "current_revision_id": "13327", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "pt-pt": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "pt-pt": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Instalando o gpg4usb</strong></p>\n\n<ul><li><em><strong>Clique</strong> no \u00edcone do <strong>gpg4usb</strong> abaixo para copiar o arquivo zip do programa para o seu computador</em></li>\n<li><em><strong>Localize</strong> o arquivo <strong>gpg4usb.zip</strong>, e <strong>descompacte-o</strong>.</em> </li>\n<li><em>Ap\u00f3s ter descompactado e extra\u00eddo todos os arquivos, o arquivo .zip salvo em seu computador pode ser apagado</em></li>\n</ul><p><strong>gpg4usb</strong></p>\n\n<p><a href=\"/sbox/programs/gpg4usb.zip\"><img src=\"/sbox/screen/gpg4usb-pt/gpg4usb.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Instalando o gpg4usb**\r\n\r\n- ***Clique** no \u00edcone do **gpg4usb** abaixo para copiar o arquivo zip do programa para o seu computador*\r\n- ***Localize** o arquivo **gpg4usb.zip**, e **descompacte-o**.* \r\n- *Ap\u00f3s ter descompactado e extra\u00eddo todos os arquivos, o arquivo .zip salvo em seu computador pode ser apagado*\r\n\r\n**gpg4usb**\r\n\r\n[![](/sbox/screen/gpg4usb-pt/gpg4usb.png)](/sbox/programs/gpg4usb.zip)"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "pt-pt": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Baixando o gpg4usb</strong></p>\n\n<ul><li><em><strong>Clique</strong> no \u00edcone do <strong>gpg4usb</strong> abaixo para abrir o site <strong>http://www.gpg4usb.org/download.html</strong>.</em></li>\n<li>Uma vez no site, <em><strong>clique</strong> no link <strong>gpg4usb-x.x.x.zip</strong>, na coluna com o cabe\u00e7alho <strong>Filename</strong>, para baixar o arquivo zip.</em></li>\n<li><em><strong>Localize</strong> o arquivo gpg4usb-x.x.x.zip, e <strong>descompacte-o</strong>.</em> </li>\n<li><em>Ap\u00f3s ter descompactado e extra\u00eddo todos os arquivos, o arquivo .zip salvo em seu computador pode ser apagado</em></li>\n</ul><p><strong>gpg4usb</strong></p>\n\n<p><a href=\"http://www.gpg4usb.org/download.html\"><img src=\"/sbox/screen/gpg4usb-pt/gpg4usb.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Baixando o gpg4usb**\r\n\r\n- ***Clique** no \u00edcone do **gpg4usb** abaixo para abrir o site **http://www.gpg4usb.org/download.html**.*\r\n- Uma vez no site, ***clique** no link **gpg4usb-x.x.x.zip**, na coluna com o cabe\u00e7alho **Filename**, para baixar o arquivo zip.*\r\n- ***Localize** o arquivo gpg4usb-x.x.x.zip, e **descompacte-o**.* \r\n- *Ap\u00f3s ter descompactado e extra\u00eddo todos os arquivos, o arquivo .zip salvo em seu computador pode ser apagado*\r\n\r\n**gpg4usb**\r\n\r\n[![](/sbox/screen/gpg4usb-pt/gpg4usb.png)](http://www.gpg4usb.org/download.html)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "pt-pt": [
+            {
+                "format": null, 
+                "safe_value": "gpg4usb - email text and files encryptio", 
+                "value": "gpg4usb - email text and files encryptio"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "pt-pt": [
+            {
+                "format": null, 
+                "safe_value": "Gpg4usb - Criptografia de textos de e-mail e arquivos", 
+                "value": "Gpg4usb - Criptografia de textos de e-mail e arquivos"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "pt-pt": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p>O <strong>gpg4usb</strong> \u00e9 um programa livre e de c\u00f3digo aberto (FOSS) port\u00e1til para criptografar mensagens de texto (e-mail) e arquivos, e usa o mesmo algoritmo de Criptografia de Chave P\u00fablica que os programas <strong>GPG</strong> e <strong>PGP</strong>.</p>\n", 
+                "value": "O **gpg4usb** \u00e9 um programa livre e de c\u00f3digo aberto (FOSS) port\u00e1til para criptografar mensagens de texto (e-mail) e arquivos, e usa o mesmo algoritmo de Criptografia de Chave P\u00fablica que os programas **GPG** e **PGP**."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-13 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "pt-pt": [
+            {
+                "format": null, 
+                "safe_value": "gpg4usb_portable", 
+                "value": "gpg4usb_portable"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "14"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "14"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5201": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2055", 
+            "link_title": "gpg4usb - email text and files encryption", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5201", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5201", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-2"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2055", 
+    "num_revisions": "20", 
+    "path": "https://securityinabox.org/en/gpg4usb_portable", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1456155294", 
+    "revision_uid": "479", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "pt-pt": [
+            {
+                "format": null, 
+                "safe_value": "Gpg4usb - Criptografia de textos de e-mail e arquivos", 
+                "value": "Gpg4usb - Criptografia de textos de e-mail e arquivos"
+            }
+        ]
+    }, 
+    "title_original": "gpg4usb - email text and files encryption", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1455887654", 
+                "created": "1442933243", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442246235", 
+                "created": "1442246235", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442506493", 
+                "created": "1442506493", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1442325310", 
+                "created": "1441633605", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1444733145", 
+                "created": "1444733145", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "km": {
+                "changed": "1455119984", 
+                "created": "1455119984", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1456155294", 
+                "created": "1443788580", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441192432", 
+                "created": "1441192432", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444187878", 
+                "created": "1444187878", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1443016516", 
+                "created": "1443016516", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1455878109", 
+                "created": "1443525988", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441183378", 
+                "created": "1441122154", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2055", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445442700", 
+                "created": "1445442700", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "4a066479-8db3-4fe8-b68d-d446add181e4", 
+    "vid": "13327", 
+    "vuuid": "b090f0bc-28e1-46a1-b77d-667853d273ed"
+}

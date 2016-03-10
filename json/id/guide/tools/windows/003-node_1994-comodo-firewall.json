@@ -1,0 +1,1467 @@
+{
+    "body": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Situs Resmi</strong></p>\n\n<p><a href=\"http://www.personalfirewall.comodo.com\"><strong>www.personalfirewall.comodo.com</strong></a></p>\n\n<p><strong>Sistem operasi yang diperlukan</strong></p>\n\n<ul><li>Windows 2000/XP/2003/Vista</li>\n<li>Hak administrator untuk instalasi</li>\n</ul><p><strong>Versi yang digunakan dalam panduan ini</strong></p>\n\n<ul><li>5.0.16</li>\n</ul><p><strong>Lisensi</strong></p>\n\n<ul><li>Gratis</li>\n</ul><p><strong>Petunjuk yang perlu dibaca</strong>:</p>\n\n<ul><li>Petunjuk bagaimana caranya <a href=\"https://securityinabox.org/id/chapter-1\"><strong>1. Cara melindungi komputer dari malware dan peretas (hacker)</strong></a></li>\n</ul><p><strong>Level:</strong> 1: Pemula, 2: Umum, <strong>3: Menengah, 4: Berpengalaman</strong>, 5: Ahli</p>\n\n<p><strong>Waktu yang diperlukan untuk menggunakan alat ini</strong>: 60 menit</p>\n\n<p><strong>Apa yang akan Anda dapatkan</strong>:</p>\n\n<ul><li>Pengetahuan  untuk melindungi komputer Anda dan keamanan jaringan dari pihak jahat, penyusup internet, malware, virus dan ancaman lainnya secara efektif  dan efisien </li>\n<li>Pengetahuan  untuk mengatur permintaan dari program yang ada di komputer ketika mengakses Internet, dengan antarmuka <em>(interface)</em> perangkat  lunak yang mudah di konfigurasi</li>\n</ul><p><strong>GNU Linux, Mac OS dan program Microsoft Windows yang kompatibel:</strong></p>\n\n<p><strong>GNU/Linux</strong> mempunyai <em>firewall</em> di dalamnya (<a href=\"http://www.netfilter.org/\"><strong>netfilter/iptables</strong></a>) dan pengaturan keamanan jaringan yang sangat baik. Di dalam <em>firewall linux</em>, terdapat berbagai interface yang mudah digunakan, kami merekomendasikan <a href=\"https://help.ubuntu.com/community/Gufw\"><strong>GUFW</strong></a> (<strong>Graphical Uncomplicated Firewall</strong>) (see <a href=\"http://blog.bodhizazen.net/linux/firewall-ubuntu-gufw/\"><strong>more information</strong></a>).</p>\n\n<p><strong>Mac OS</strong> juga mempunyai <em>firewall</em> internal yang kuat dan dapat diandalkan, yang bisa digabungkan dengan tambahan interface lainnya, seperti: <a href=\"http://www.hanynet.com/noobproof/\"><strong>NoobProof</strong></a> or <a href=\"http://www.lobotomo.com/products/IPSecuritas/\"><strong>IPSecuritas</strong></a>, yang dapat memberikan kapasitas yang lebih. Untuk pengguna dengan keterbatasan finansial, kami menyarankan <a href=\"http://www.obdev.at/products/littlesnitch/index.html\"><strong>Little Snitch</strong></a>, untuk memberikan privasi dan kemanan serta perlindungan informasi pribadi yang lebih.</p>\n\n<p>Selain <strong>COMODO Firewall</strong>, terdapat alternatif lainnya untuk <strong>Microsoft Windows</strong>. Pengguna dapat menggunakan <a href=\"http://www.zonealarm.com/security/en-us/zonealarm-pc-security-free-firewall.htm\"><strong>ZoneAlarm Free Firewall</strong></a> atau <a href=\"http://free.agnitum.com/\"><strong>Outpost Firewall Free</strong></a> sebagai pengganti yang sama efektifnya.</p>\n\n<h3>1.1 Hal-hal yang perlu Anda ketahui sebelum menggunakan alat ini</h3>\n\n<p><em>Firewall</em> bertugas sebagai penjaga atau pengaman  bagi komputer Anda. Ia mempunyai peraturan yang menentukan informasi mana yang boleh masuk dan keluar dari komputer Anda. <em>Firewall</em> adalah program pertama yang menerima dan menganalisa informasi yang masuk dari Internet dan program terakhir yang memperhatikan informasi yg keluar ke internet.</p>\n\n<p><em>Firewall</em> mencegah pembajak atau penyusup  mengakses informasi pribadi yang disimpan di komputer Anda, serta mencegah program malware mengirimkan informasi ke internet tanpa izin dari Anda. <strong>COMODO Firewall</strong> adalah <em>firewall</em> yang sudah dikenal luas yang merupakan perangkat lunak  gratis, artinya  Anda tidak perlu membeli lisensi untuk menggunakannya.</p>\n\n<p>Menggunakan program <em>firewall</em> yang dimodifikasi akan memerlukan waktu dan usaha untuk memastikan semua pengaturan sudah benar dan cocok untuk digunakan di komputer Anda. Setelah periode belajar, <em>firewall</em> akan bekerja dengan sendirinya dan hanya memerlukan sedikit kontrol dari Anda.</p>\n\n<p><strong>Peringatan!</strong>: Jangan pernah mengakses Internet tanpa memasang <em>firewall</em> yang berfungsi di komputer Anda. Walaupun modem internet atau <em>router</em> mempunyai <em>firewall</em> sendiri, sangat disarankan Anda mempunyai <em>firewall</em> sendiri di komputer Anda.</p>\n", 
+                "summary": "", 
+                "value": "**Situs Resmi**\r\n\r\n[**www.personalfirewall.comodo.com**](http://www.personalfirewall.comodo.com)\r\n\r\n**Sistem operasi yang diperlukan**\r\n\r\n- Windows 2000/XP/2003/Vista\r\n- Hak administrator untuk instalasi\r\n\r\n**Versi yang digunakan dalam panduan ini**\r\n\r\n- 5.0.16\r\n\r\n**Lisensi** \r\n\r\n- Gratis\r\n\r\n**Petunjuk yang perlu dibaca**: \r\n\r\n- Petunjuk bagaimana caranya [**1. Cara melindungi komputer dari malware dan peretas (hacker)**](https://securityinabox.org/id/chapter-1)\r\n\r\n**Level:** 1: Pemula, 2: Umum, **3: Menengah, 4: Berpengalaman**, 5: Ahli\r\n\r\n**Waktu yang diperlukan untuk menggunakan alat ini**: 60 menit \r\n\r\n**Apa yang akan Anda dapatkan**: \r\n \r\n- Pengetahuan  untuk melindungi komputer Anda dan keamanan jaringan dari pihak jahat, penyusup internet, malware, virus dan ancaman lainnya secara efektif  dan efisien \r\n- Pengetahuan  untuk mengatur permintaan dari program yang ada di komputer ketika mengakses Internet, dengan antarmuka *(interface)* perangkat  lunak yang mudah di konfigurasi\r\n\r\n\r\n**GNU Linux, Mac OS dan program Microsoft Windows yang kompatibel:**\r\n\r\n**GNU/Linux** mempunyai *firewall* di dalamnya ([**netfilter/iptables**](http://www.netfilter.org/)) dan pengaturan keamanan jaringan yang sangat baik. Di dalam *firewall linux*, terdapat berbagai interface yang mudah digunakan, kami merekomendasikan [**GUFW**](https://help.ubuntu.com/community/Gufw) (**Graphical Uncomplicated Firewall**) (see [**more information**](http://blog.bodhizazen.net/linux/firewall-ubuntu-gufw/)).\r\n\r\n**Mac OS** juga mempunyai *firewall* internal yang kuat dan dapat diandalkan, yang bisa digabungkan dengan tambahan interface lainnya, seperti: [**NoobProof**](http://www.hanynet.com/noobproof/) or [**IPSecuritas**](http://www.lobotomo.com/products/IPSecuritas/), yang dapat memberikan kapasitas yang lebih. Untuk pengguna dengan keterbatasan finansial, kami menyarankan [**Little Snitch**](http://www.obdev.at/products/littlesnitch/index.html), untuk memberikan privasi dan kemanan serta perlindungan informasi pribadi yang lebih.\r\n\r\nSelain **COMODO Firewall**, terdapat alternatif lainnya untuk **Microsoft Windows**. Pengguna dapat menggunakan [**ZoneAlarm Free Firewall**](http://www.zonealarm.com/security/en-us/zonealarm-pc-security-free-firewall.htm) atau [**Outpost Firewall Free**](http://free.agnitum.com/) sebagai pengganti yang sama efektifnya.\r\n\r\n### 1.1\tHal-hal yang perlu Anda ketahui sebelum menggunakan alat ini ### \r\n\r\n*Firewall* bertugas sebagai penjaga atau pengaman  bagi komputer Anda. Ia mempunyai peraturan yang menentukan informasi mana yang boleh masuk dan keluar dari komputer Anda. *Firewall* adalah program pertama yang menerima dan menganalisa informasi yang masuk dari Internet dan program terakhir yang memperhatikan informasi yg keluar ke internet.\r\n\r\n*Firewall* mencegah pembajak atau penyusup  mengakses informasi pribadi yang disimpan di komputer Anda, serta mencegah program malware mengirimkan informasi ke internet tanpa izin dari Anda. **COMODO Firewall** adalah *firewall* yang sudah dikenal luas yang merupakan perangkat lunak  gratis, artinya  Anda tidak perlu membeli lisensi untuk menggunakannya.  \r\n\r\nMenggunakan program *firewall* yang dimodifikasi akan memerlukan waktu dan usaha untuk memastikan semua pengaturan sudah benar dan cocok untuk digunakan di komputer Anda. Setelah periode belajar, *firewall* akan bekerja dengan sendirinya dan hanya memerlukan sedikit kontrol dari Anda. \r\n\r\n**Peringatan!**: Jangan pernah mengakses Internet tanpa memasang *firewall* yang berfungsi di komputer Anda. Walaupun modem internet atau *router* mempunyai *firewall* sendiri, sangat disarankan Anda mempunyai *firewall* sendiri di komputer Anda."
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/1994", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/1994", 
+        "link_title": "Comodo Firewall", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5140", 
+        "module": "book", 
+        "nid": "1994", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5140", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "Comodo Firewall", 
+        "updated": "0", 
+        "weight": "-13"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bagian-bagian dari halaman ini:</p>\n\n<ul><li><a href=\"#2.0\"><strong>2.0 Selintas tentang pemasangan COMODO Firewall</strong></a></li>\n<li><a href=\"#2.1\"><strong>2.1 Cara mematikan Firewall Windows</strong></a></li>\n<li><a href=\"#2.2\"><strong>2.2 Cara menginstal  COMODO Firewall</strong></a></li>\n</ul><hr /><p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>2.0 Selintas tentang pemasangan COMODO Firewall</h2>\n\n<p>Memasang <strong>COMODO Firewall</strong> relatif mudah dan cepat, dan terbagi dalam dua langkah: pertama dengan mematikan <strong><em>firewall Windows</em></strong> secara manual, dan yang kedua dengan menginstal  <strong>COMODO Firewall</strong>.</p>\n\n<p>Idealnya, Anda hanya menggunakan satu program <em>firewall</em> untuk sistem komputer Anda.  Apabila Anda menggunakan <em>firewall</em>  lain di komputer Anda, matikanlah dulu sebelum Anda memasang <strong>COMODO Firewall</strong>  untuk menghidari kemungkinan adanya konflik antar perangkat lunak yang sejenis .</p>\n\n<p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1 Cara mematikan Firewall Windows</h2>\n\n<p>Untuk mematikan <strong><em>Firewall Windows</em></strong>, silahkan ikuti langkah ini:</p>\n\n<p><strong>Langkah 1. Pilih start &gt; Control Panel &gt; Windows Firewall</strong> untuk memunculkan layar <strong>Windows Firewall</strong>.</p>\n\n<p><strong>Langkah 2.  Centang</strong> pilihan <em>Off (not recommended)</em> untuk mematikan <strong>Windows Firewall</strong> seperti yang ditunjukkan <em>Gambar 1</em> di bawah ini:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/01.png\" alt=\"\" /></p>\n\n<p><em>Gambar 1. Windows Firewall yang sudah dimatikan</em></p>\n\n<p><strong>Langkah 3:  Klik</strong> <img src=\"/sbox/screen/comodo-en/02.png\" alt=\"\" /> untuk mematikan <em>firewall Windows</em>.</p>\n\n<p><a name=\"2.2\" id=\"2.2\"></a></p>\n\n<h2>2.2 Cara menginstal  COMODO Firewall</h2>\n\n<p><strong>Catatan: COMODO Firewall</strong>  tidak dengan otomatis mematikan versi lama dari softwarenya. Anda harus mematikannya secara manual sebelum menginstal  versi yang terbaru.</p>\n\n<p>Lakukan langkah-langkah berikut untuk memulai instalasi  <strong>COMODO Firewall</strong> :</p>\n\n<p><strong>Langkah 1. Klik dua kali <em>(double click)</em></strong> <img src=\"/sbox/screen/comodo-en/03.png\" alt=\"\" /> untuk memulai proses instalasi. Box dialog <em>Open File \u2013 Security Warning</em> akan muncul. Selanjutnya , <strong>klik</strong> <img src=\"/sbox/screen/comodo-en/04.png\" alt=\"\" /> untuk memunculkan box dialog  konfirmasi seperti ini:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/05.png\" alt=\"\" /></p>\n\n<p><em>Gambar 2: Dialog box konfirmasi bahasa yang dipilih</em></p>\n\n<p><strong>Langkah 2. Klik</strong> <img src=\"/sbox/screen/comodo-en/06.png\" alt=\"\" /> untuk mengaktifkan <em>End User License Agreement</em>. Silahkan baca <em>End User License Agreement</em> sebelum melanjutkan proses instalasi, lalu <strong>klik</strong> <img src=\"/sbox/screen/comodo-en/07.png\" alt=\"\" /> untuk mendapatkan layar <em>Free registration</em>.</p>\n\n<p><strong>Langkah 3: Jangan</strong> masukkan alamat email Anda ke dalam kotak teks <em>Enter your email address (optional)</em>; <strong>klik</strong> saja <img src=\"/sbox/screen/comodo-en/09.png\" alt=\"\" /> untuk mengaktifkan layar <em>Extracting the Packages</em>.</p>\n\n<p>Setelah proses ekstrak telah selesai, <em>Firewall Setup Destination Folder</em> akan muncul.</p>\n\n<p><strong>Langkah 4: Klik</strong> <img src=\"/sbox/screen/comodo-en/09.png\" alt=\"\" /> untuk menerima tujuan folder yang telah ditentukan dan menyalakan layar <em>Firewall security level selection</em>, lalu centang  pilihan <em>Firewall Only</em> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/11.png\" alt=\"\" /></p>\n\n<p><em>Gambar 3: Layar Firewall Security level selection</em></p>\n\n<p><strong>Definisi dari pilihan tingkat keamanan <em>firewall (Firewall Security level)</em></strong></p>\n\n<p>Setiap pilihan tingkat keamanan <em>firewall</em> memberikan pelayanan dengan tingkat yang berbeda. Setiap pilihan mempunyai jenis proteksi dengan tingkat kerumitan penggunaan yang berbeda, serta jumlah peringatan keamanan yang akan diterima. Berikut adalah deskripsi singkat dari masing-masing tingkat:</p>\n\n<p><strong>Firewall Only</strong>: Pilihan ini akan menjalankan <strong>COMODO Firewall</strong> tanpa fitur Defense+. Ia akan mengidentifikasi aplikasi populer  yang realtif aman seperti web browser dan email klien, mengurangi jumlah peringatan yang akan Anda terima. Mode ini juga memberikan penjelasan umum kenapa layar peringatan tersebut muncul. Tindakan-tindakan yang harus dilakukan tergolong mudah.</p>\n\n<p><strong>Firewall with Optimum Proactive Defense</strong>: pilihan ini menggabungkan proteksi solid dari modul <em>Firewall Only</em> dengan fitur <em>Defense+</em>. <em>Defense+</em> melakukan proteksi aktif terhadap <em>malware</em> yang didesain untuk menghindari <em>firewall-firewall</em> yang berbeda. <em>COMODO Firewall Alerts</em> memberikan penjelasan lebih dalam kenapa <em>firewall</em> memblokir sebuah aplikasi atau perintah dan Anda mempunyai pilihan untuk setengah mengisolasi  atau memasukkan program atau file yang mencurigakan ke dalam <em>\u2018sandbox\u2019</em>.</p>\n\n<p><strong>Firewall with Maximum Proactive Defense</strong>: pilihan ini menggabungkan keamanan <em>Firewall with Optimum Proactive Defense</em> dengan proteksi \u2018anti-bocor\u2019 melawan ancaman keamanan yang lebih \u2018pasif\u2019, contohnya detail tentang port terbuka di komputer Anda yang dikirim ke internet. Fitur  <em>sandbox</em> bekerja dengan otomatis sepenuhnya di pilihan ini.</p>\n\n<p><strong>Langkah 6. Klik</strong> <img src=\"/sbox/screen/comodo-en/09.png\" alt=\"\" /> untuk mengaktifkan layar <em>COMODO Secure DNS Configuration</em>, dan memberikan pilihan <em>I would like to use COMODO Secure DNS Servers</em> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/12.png\" alt=\"\" /></p>\n\n<p><em>Gambar 4: layar COMODO Secure DNS Configuration</em></p>\n\n<p><strong>Penting</strong>: walaupun tidak ada server <strong><em>Domain Name Systems (DNS)</em></strong> yang betul-betul aman, kelebihan menggunakan server <strong>COMODO Secure DNS</strong> melebihi kekurangannya. Ia menawarkan proteksi tambahan dari <em>pharming</em> dan <em>phishing</em>, yang merupakan metode populer  untuk membajak atau menghubungkan komputer Anda ke website yang berbahaya. Server <strong>COMODO Secure DNS</strong> juga melindungi Anda dari interfensi pemerintah, yang sangat mudah untuk diatur ketika proses instalasi, dan juga memfasilitasi akses yang lebih aman ke websites yang terdaftar di <strong>COMODO</strong>. Contohnya, kesalahan mengetik URL akan mengaktifkan pesan dari server <strong>COMODO Secure DNS</strong> seperti dibawah ini:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/126.png\" alt=\"\" /></p>\n\n<p><em>Gambar 5: Contoh notifikasi dari server COMODO Secure DNS</em></p>\n\n<p><strong>Langkah 7. Klik</strong>  <img src=\"/sbox/screen/comodo-en/09.png\" alt=\"\" /> untuk mengaktifkan layar <em>Ready to Install COMODO Firewall</em> lalu <strong>klik</strong>  <img src=\"/sbox/screen/comodo-en/13.png\" alt=\"\" /> untuk memulai proses penginstalan , dan mendapatkan layar <em>Installing COMODO Firewall</em>. Setelah proses pemasangan berhasi, layar <em>Completed the COMODO Firewall Setup Wizard</em> akan muncul.</p>\n\n<p><strong>Langkah 8. Klik</strong><img src=\"/sbox/screen/comodo-en/14.png\" alt=\"\" /> untuk mengaktifkan layar konfirmasi <em>Done</em>, lalu <strong>klik</strong> <img src=\"/sbox/screen/comodo-en/14.png\" alt=\"\" /> untuk mengaktifasi dialog box konfirmasi seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/15.png\" alt=\"\" /></p>\n\n<p><em>Gambar 6: dialog box konfirmasi Firewall Installer</em></p>\n\n<p><strong>Langkah 9. Klik</strong> <img src=\"/sbox/screen/comodo-en/16.png\" alt=\"\" /> untuk <em>restart</em> komputer Anda dan menyelesaikan instalasi  <strong>COMODO Firewall</strong>.</p>\n\n<p>Setelah computer menyala kembali, layar <em>New Private Network Detected!</em> akan muncul seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/17.png\" alt=\"\" /></p>\n\n<p><em>Gambar 7: layar COMODO Firewall New Private Network Detected!</em></p>\n\n<p><strong>Tips</strong>: apabila Anda bekerja di lingkungan LAN (<em>Local Area Network</em>), silahkan centang  pilihan  <em>I would like to be fully accessible to other PCs in this network</em> (saya ingin memiliki akses penuh dengan komputer lain dalam jaringan ini) untuk membolehkan file/folder/printer dan/atau koneksi berbagi Internet.</p>\n\n<p><strong>Langkah 10. Ketik</strong> sebuah nama di teks field <em>Give a name to this network for your network</em> (beri nama pada jaringan Anda) atau silahkan terima nama yang telah diatur seperti di <em>Gambar 7</em> diatas. Jangan pilih pilihan yang terdaftar di langkah  2 \u2013 <em>Decide if your want to trust the other PCs in this network</em> (Tentukan jika Anda ingin mempercayai komputer lain dalam jaringan ini), lalu <strong>klik</strong> <img src=\"/sbox/screen/comodo-en/06.png\" alt=\"\" /> untuk menyelesaikan instalasi.</p>\n\n<p>Ikon desktop <strong>COMODO Firewall</strong>  dan ikon konektivitas <strong>COMODO Firewall</strong> akan muncul bersama  dengan <em>Gambar 7</em>. Sebelum menghubungkan komputer Anda ke internet, ikon konektivitas akan muncul di <em>System Tray</em> seperti ini:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/18.png\" alt=\"\" /></p>\n\n<p><em>Gambar 8: Ikon konektivitas COMODO Firewall dikelilingi garis hitam  di System Tray</em></p>\n\n<p>Tersambung ke internet (<em>online</em>) atau membuka  program yang terhubung dengan internet  (contoh: web browser) akan memunculkan beberapa panah oranye yang menghadap ke bawah dan/atau panah hijau yang menghadap keatas, yang mengindikasikan permintaan koneksi internet ke dalam maupun keluar, seperti gambar di bawah:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/19.png\" alt=\"\" /></p>\n\n<p><em>Gambar 9:Ikon konektivitas COMODO Firewall aktif</em></p>\n\n<p>Setelah <strong>COMODO Firewall</strong> telah berjalan beberapa waktu, pesan pop-up akan muncul dari <em>COMODO Message Center</em> seperti gambar berikut:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/20.png\" alt=\"\" /></p>\n\n<p><em>Gambar 10: Layar pop-up COMODO Message Center</em></p>\n\n<p><strong>Catatan: klik</strong> <em>hyperlink Learn More</em> untuk diarahkan ke forum <em><strong>COMODO</strong> community-based help</em>.</p>\n\n<p><strong>Tips: klik-kanan</strong> ikon konektivitas <strong>COMODO Firewall</strong> di <em>System Tray</em> (seperti <em>Gambar 8</em>) untuk mengaktifkan menu pop-up berikut, dan juga sub-menu yang berhubungan:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/127.png\" alt=\"\" /></p>\n\n<p><em>Gambar 11: Ikon konfigurasi menu dan sub-menu konektivitas</em></p>\n\n<p>Ikon konektivitas membolehkan Anda mengganti produk <strong>COMODO Firewall</strong> yang Anda gunakan. <strong>Memilih</strong> item <em>Configuration</em> akan mengaktifkan sub-menu \u2018<em>Manage My Configurations</em>\u2019 dimana Anda bisa memilih <em>COMODO Proactive Security</em> atau <em>COMODO \u2013 Internet Security</em> untuk mengaktifkan  fitur <em>sandbox</em>.</p>\n\n<p>Sebagai tambahan, tiap produk mempunyai tingkat keamanan yang disesuaikan dari menu pop-up ikon konektivitas sebagai berikut; tingakat keamanan ini dijelaskan lebih jauh di bagian <strong>4.1 Jendela pengaturan aktifitas Firewall</strong> dan 4.2 Jedela pengaturan Defense+**.</p>\n\n<p><img src=\"/sbox/screen/comodo-en/128.png\" alt=\"\" /></p>\n\n<p><em>Gambar 12: ikon sub-menu konektivitas tingkat keamanan (Firewall Security Level)</em></p>\n", 
+                        "summary": "", 
+                        "value": "Bagian-bagian dari halaman ini:\r\n\r\n- [**2.0 Selintas tentang pemasangan COMODO Firewall**](#2.0)\r\n- [**2.1 Cara mematikan Firewall Windows**](#2.1)\r\n- [**2.2 Cara menginstal  COMODO Firewall**](#2.2)\r\n\r\n-------\r\n\r\n<a name=\"2.0\"></a>\r\n## 2.0 Selintas tentang pemasangan COMODO Firewall ##\r\n\r\nMemasang **COMODO Firewall** relatif mudah dan cepat, dan terbagi dalam dua langkah: pertama dengan mematikan ***firewall Windows*** secara manual, dan yang kedua dengan menginstal  **COMODO Firewall**.\r\n\r\nIdealnya, Anda hanya menggunakan satu program *firewall* untuk sistem komputer Anda.  Apabila Anda menggunakan *firewall*  lain di komputer Anda, matikanlah dulu sebelum Anda memasang **COMODO Firewall**  untuk menghidari kemungkinan adanya konflik antar perangkat lunak yang sejenis .\r\n\r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1 Cara mematikan Firewall Windows ##\r\n\r\nUntuk mematikan ***Firewall Windows***, silahkan ikuti langkah ini:\r\n \r\n**Langkah 1. Pilih start > Control Panel > Windows Firewall** untuk memunculkan layar **Windows Firewall**.\r\n\r\n**Langkah 2.  Centang** pilihan *Off (not recommended)* untuk mematikan **Windows Firewall** seperti yang ditunjukkan *Gambar 1* di bawah ini:\r\n\r\n![](/sbox/screen/comodo-en/01.png)\r\n\r\n*Gambar 1. Windows Firewall yang sudah dimatikan*\r\n\r\n**Langkah 3:  Klik** ![](/sbox/screen/comodo-en/02.png) untuk mematikan *firewall Windows*. \r\n\r\n<a name=\"2.2\"></a>\r\n## 2.2 Cara menginstal  COMODO Firewall ##\r\n\r\n**Catatan: COMODO Firewall**  tidak dengan otomatis mematikan versi lama dari softwarenya. Anda harus mematikannya secara manual sebelum menginstal  versi yang terbaru.\r\n\r\nLakukan langkah-langkah berikut untuk memulai instalasi  **COMODO Firewall** :\r\n\r\n**Langkah 1. Klik dua kali *(double click)*** ![](/sbox/screen/comodo-en/03.png) untuk memulai proses instalasi. Box dialog *Open File \u2013 Security Warning* akan muncul. Selanjutnya , **klik** ![](/sbox/screen/comodo-en/04.png) untuk memunculkan box dialog  konfirmasi seperti ini:\r\n\r\n![](/sbox/screen/comodo-en/05.png)\r\n\r\n*Gambar 2: Dialog box konfirmasi bahasa yang dipilih*\r\n\r\n**Langkah 2. Klik** ![](/sbox/screen/comodo-en/06.png) untuk mengaktifkan *End User License Agreement*. Silahkan baca *End User License Agreement* sebelum melanjutkan proses instalasi, lalu **klik** ![](/sbox/screen/comodo-en/07.png) untuk mendapatkan layar *Free registration*.\r\n\r\n**Langkah 3: Jangan** masukkan alamat email Anda ke dalam kotak teks *Enter your email address (optional)*; **klik** saja ![](/sbox/screen/comodo-en/09.png) untuk mengaktifkan layar *Extracting the Packages*.\r\n  \r\nSetelah proses ekstrak telah selesai, *Firewall Setup Destination Folder* akan muncul.\r\n\r\n**Langkah 4: Klik** ![](/sbox/screen/comodo-en/09.png) untuk menerima tujuan folder yang telah ditentukan dan menyalakan layar *Firewall security level selection*, lalu centang  pilihan *Firewall Only* seperti berikut:\r\n\r\n![](/sbox/screen/comodo-en/11.png)\r\n\r\n*Gambar 3: Layar Firewall Security level selection*\r\n\r\n**Definisi dari pilihan tingkat keamanan *firewall (Firewall Security level)***\r\n\r\nSetiap pilihan tingkat keamanan *firewall* memberikan pelayanan dengan tingkat yang berbeda. Setiap pilihan mempunyai jenis proteksi dengan tingkat kerumitan penggunaan yang berbeda, serta jumlah peringatan keamanan yang akan diterima. Berikut adalah deskripsi singkat dari masing-masing tingkat: \r\n\r\n**Firewall Only**: Pilihan ini akan menjalankan **COMODO Firewall** tanpa fitur Defense+. Ia akan mengidentifikasi aplikasi populer  yang realtif aman seperti web browser dan email klien, mengurangi jumlah peringatan yang akan Anda terima. Mode ini juga memberikan penjelasan umum kenapa layar peringatan tersebut muncul. Tindakan-tindakan yang harus dilakukan tergolong mudah. \r\n\r\n**Firewall with Optimum Proactive Defense**: pilihan ini menggabungkan proteksi solid dari modul *Firewall Only* dengan fitur *Defense+*. *Defense+* melakukan proteksi aktif terhadap *malware* yang didesain untuk menghindari *firewall-firewall* yang berbeda. *COMODO Firewall Alerts* memberikan penjelasan lebih dalam kenapa *firewall* memblokir sebuah aplikasi atau perintah dan Anda mempunyai pilihan untuk setengah mengisolasi  atau memasukkan program atau file yang mencurigakan ke dalam *\u2018sandbox\u2019*.\r\n\r\n**Firewall with Maximum Proactive Defense**: pilihan ini menggabungkan keamanan *Firewall with Optimum Proactive Defense* dengan proteksi \u2018anti-bocor\u2019 melawan ancaman keamanan yang lebih \u2018pasif\u2019, contohnya detail tentang port terbuka di komputer Anda yang dikirim ke internet. Fitur  *sandbox* bekerja dengan otomatis sepenuhnya di pilihan ini. \r\n\r\n**Langkah 6. Klik** ![](/sbox/screen/comodo-en/09.png) untuk mengaktifkan layar *COMODO Secure DNS Configuration*, dan memberikan pilihan *I would like to use COMODO Secure DNS Servers* seperti berikut:\r\n\r\n![](/sbox/screen/comodo-en/12.png)\r\n\r\n*Gambar 4: layar COMODO Secure DNS Configuration*\r\n\r\n**Penting**: walaupun tidak ada server ***Domain Name Systems (DNS)*** yang betul-betul aman, kelebihan menggunakan server **COMODO Secure DNS** melebihi kekurangannya. Ia menawarkan proteksi tambahan dari *pharming* dan *phishing*, yang merupakan metode populer  untuk membajak atau menghubungkan komputer Anda ke website yang berbahaya. Server **COMODO Secure DNS** juga melindungi Anda dari interfensi pemerintah, yang sangat mudah untuk diatur ketika proses instalasi, dan juga memfasilitasi akses yang lebih aman ke websites yang terdaftar di **COMODO**. Contohnya, kesalahan mengetik URL akan mengaktifkan pesan dari server **COMODO Secure DNS** seperti dibawah ini:\r\n\r\n![](/sbox/screen/comodo-en/126.png)\r\n\r\n*Gambar 5: Contoh notifikasi dari server COMODO Secure DNS*\r\n\r\n**Langkah 7. Klik**  ![](/sbox/screen/comodo-en/09.png) untuk mengaktifkan layar *Ready to Install COMODO Firewall* lalu **klik**  ![](/sbox/screen/comodo-en/13.png) untuk memulai proses penginstalan , dan mendapatkan layar *Installing COMODO Firewall*. Setelah proses pemasangan berhasi, layar *Completed the COMODO Firewall Setup Wizard* akan muncul.\r\n\r\n**Langkah 8. Klik**![](/sbox/screen/comodo-en/14.png) untuk mengaktifkan layar konfirmasi *Done*, lalu **klik** ![](/sbox/screen/comodo-en/14.png) untuk mengaktifasi dialog box konfirmasi seperti berikut:\r\n\r\n![](/sbox/screen/comodo-en/15.png)\r\n\r\n*Gambar 6: dialog box konfirmasi Firewall Installer*\r\n\r\n**Langkah 9. Klik** ![](/sbox/screen/comodo-en/16.png) untuk *restart* komputer Anda dan menyelesaikan instalasi  **COMODO Firewall**.\r\n\r\nSetelah computer menyala kembali, layar *New Private Network Detected!* akan muncul seperti berikut: \r\n\r\n![](/sbox/screen/comodo-en/17.png)\r\n\r\n*Gambar 7: layar COMODO Firewall New Private Network Detected!*\r\n\r\n**Tips**: apabila Anda bekerja di lingkungan LAN (*Local Area Network*), silahkan centang  pilihan  *I would like to be fully accessible to other PCs in this network* (saya ingin memiliki akses penuh dengan komputer lain dalam jaringan ini) untuk membolehkan file/folder/printer dan/atau koneksi berbagi Internet.\r\n\r\n**Langkah 10. Ketik** sebuah nama di teks field *Give a name to this network for your network* (beri nama pada jaringan Anda) atau silahkan terima nama yang telah diatur seperti di *Gambar 7* diatas. Jangan pilih pilihan yang terdaftar di langkah  2 \u2013 *Decide if your want to trust the other PCs in this network* (Tentukan jika Anda ingin mempercayai komputer lain dalam jaringan ini), lalu **klik** ![](/sbox/screen/comodo-en/06.png) untuk menyelesaikan instalasi. \r\n\r\nIkon desktop **COMODO Firewall**  dan ikon konektivitas **COMODO Firewall** akan muncul bersama  dengan *Gambar 7*. Sebelum menghubungkan komputer Anda ke internet, ikon konektivitas akan muncul di *System Tray* seperti ini:\r\n\r\n![](/sbox/screen/comodo-en/18.png)\r\n\r\n*Gambar 8: Ikon konektivitas COMODO Firewall dikelilingi garis hitam  di System Tray*\r\n\r\nTersambung ke internet (*online*) atau membuka  program yang terhubung dengan internet  (contoh: web browser) akan memunculkan beberapa panah oranye yang menghadap ke bawah dan/atau panah hijau yang menghadap keatas, yang mengindikasikan permintaan koneksi internet ke dalam maupun keluar, seperti gambar di bawah: \r\n\r\n![](/sbox/screen/comodo-en/19.png)\r\n\r\n*Gambar 9:Ikon konektivitas COMODO Firewall aktif*\r\n\r\nSetelah **COMODO Firewall** telah berjalan beberapa waktu, pesan pop-up akan muncul dari *COMODO Message Center* seperti gambar berikut:\r\n\r\n![](/sbox/screen/comodo-en/20.png)\r\n\r\n*Gambar 10: Layar pop-up COMODO Message Center*\r\n\r\n**Catatan: klik** *hyperlink Learn More* untuk diarahkan ke forum ***COMODO** community-based help*.\r\n\r\n**Tips: klik-kanan** ikon konektivitas **COMODO Firewall** di *System Tray* (seperti *Gambar 8*) untuk mengaktifkan menu pop-up berikut, dan juga sub-menu yang berhubungan:\r\n\r\n![](/sbox/screen/comodo-en/127.png)\r\n\r\n*Gambar 11: Ikon konfigurasi menu dan sub-menu konektivitas*\r\n\r\nIkon konektivitas membolehkan Anda mengganti produk **COMODO Firewall** yang Anda gunakan. **Memilih** item *Configuration* akan mengaktifkan sub-menu \u2018*Manage My Configurations*\u2019 dimana Anda bisa memilih *COMODO Proactive Security* atau *COMODO \u2013 Internet Security* untuk mengaktifkan  fitur *sandbox*. \r\n\r\nSebagai tambahan, tiap produk mempunyai tingkat keamanan yang disesuaikan dari menu pop-up ikon konektivitas sebagai berikut; tingakat keamanan ini dijelaskan lebih jauh di bagian **4.1 Jendela pengaturan aktifitas Firewall** dan 4.2 Jedela pengaturan Defense+**.\r\n\r\n![](/sbox/screen/comodo-en/128.png)\r\n\r\n*Gambar 12: ikon sub-menu konektivitas tingkat keamanan (Firewall Security Level)*\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1995", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1995", 
+                "link_title": "How to Install and Launch COMODO Firewall ", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5141", 
+                "module": "book", 
+                "nid": "1995", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5140", 
+                "p3": "5141", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5140", 
+                "router_path": "node/%", 
+                "title": "How to Install and Launch COMODO Firewall ", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1454082471", 
+            "comment": "0", 
+            "created": "1441114359", 
+            "current_revision_id": "13091", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "comodo_instalasi", 
+                        "value": "comodo_instalasi"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5141": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1995", 
+                    "link_title": "How to Install and Launch COMODO Firewall ", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5141", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5140", 
+                    "p3": "5141", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5140", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1995", 
+            "num_revisions": "21", 
+            "path": "https://securityinabox.org/en/comodo_installation", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1454082471", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Cara Menginstall COMODO Firewall", 
+                        "value": "Cara Menginstall COMODO Firewall"
+                    }
+                ]
+            }, 
+            "title_original": "How to Install and Launch COMODO Firewall ", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442920873", 
+                        "created": "1442920873", 
+                        "entity_id": "1995", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1995", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454082471", 
+                        "created": "1441894269", 
+                        "entity_id": "1995", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1995", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442409027", 
+                        "created": "1441963085", 
+                        "entity_id": "1995", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1995", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441279259", 
+                        "created": "1441279259", 
+                        "entity_id": "1995", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1995", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1442840766", 
+                        "created": "1442840766", 
+                        "entity_id": "1995", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1995", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1443775852", 
+                        "created": "1443775852", 
+                        "entity_id": "1995", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1995", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452861629", 
+                        "created": "1452861629", 
+                        "entity_id": "1995", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1995", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443602143", 
+                        "created": "1443602143", 
+                        "entity_id": "1995", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1995", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444175202", 
+                        "created": "1444175202", 
+                        "entity_id": "1995", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1995", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444830316", 
+                        "created": "1444721208", 
+                        "entity_id": "1995", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1995", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441114693", 
+                        "created": "1441114359", 
+                        "entity_id": "1995", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1995", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445372383", 
+                        "created": "1444058168", 
+                        "entity_id": "1995", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1995", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "0306fe90-1541-4b19-b60a-912880f76358", 
+            "vid": "13091", 
+            "vuuid": "7ed159c5-fa66-4aa9-b3c5-cf64d8dcc3c8"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bagian-bagian dari halaman ini:</p>\n\n<ul><li><a href=\"#3.0\"><strong>3.0 Cara mengizinkan atau memblokir akses menggunakan COMODO Firewall</strong></a></li>\n<li><a href=\"#3.1\"><strong>3.1 Cara membuka Main User Interface COMODO Firewall</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 Sekilas tentang Main User Interface COMODO Firewall</strong></a></li>\n</ul><hr /><p><a name=\"3.0\" id=\"3.0\"></a></p>\n\n<h2>3.0 Cara mengizinkan atau memblokir akses menggunakan COMODO Firewall</h2>\n\n<p>Firewall adalah program yang didesain untuk melindungi komputer Anda dari pembajak ataupun malware. Keduanya ingin mempunyai akses langsung ke dalam komputer Anda, atau mengirim informasi dari komputer ke pihak ketiga. <strong>COMODO Firewall</strong> harus di konfigurasi untuk \u2018belajar\u2019 atau merekam applikasi yang \u2018aman\u2019 dan memberikan akses kepada aplikasi tersebut, ketika memblokir permintaan dari program / aplikasi  yang tidak aman dan proses yang mencurigakan terhadap sistem Anda. Mungkin proses ini akan memerlukan  beberapa waktu untuk memutuskan mana permintaan yang sah dan yang berupa ancaman.</p>\n\n<p>Setiap kali <strong>COMODO Firewall</strong> menerima permintaan koneksi, ia akan mengaktifasi <em>Firewall Alert</em> (Peringatan Firewall) untuk memberitahu Anda untuk \u201callow\u201d (mengizinkan) atau \u201cblock\u201d (memblokir)  akses terhadap sistem Anda dari dan ke internet. Beberapa kali latihan yang melibatkan program aman seperti <strong>Firefox</strong> akan membantu Anda untuk menjadi lebih memahami peringatan firewall dan cara menggunakannya. Walaupun terkadang pengecualian akan dibutuhkan untuk permintaan dari browser yang diterima secara universal dan program email, setiap permintaan koneksi akan memunculkan <em>Firewall Alert</em> seperti yang ditunjukkan dibawah ini</p>\n\n<p><img src=\"/sbox/screen/comodo-en/21.png\" alt=\"\" /></p>\n\n<p><em>Gambar 1: Contoh dari COMODO Firewall Allert (Peringatan firewall COMODO)</em></p>\n\n<p>Firewall bisa dikatakan sebagai peraturan yang mengawasi lalu lintas program atau file. Setiap kali Anda klik  <em>Allow</em> atau <em>Block</em>, <strong>COMODO Firewall</strong> akan membuat peraturan untuk permintaan untuk proses atau jaringan koneksi program. <strong>COMODO Firewall</strong> melakukan ini untuk program atau proses yang baru atau program yang tidak dikenal , serta yang terdaftar di daftar <em>Trusted Software Vendors</em> yang berada di jendela <em>Defense+ - Tasks &gt; Computer Security Policy</em></p>\n\n<p><strong>Remember my answer</strong>: Pilihan ini digunakan untuk mengingat jawaban Anda untuk program tertentu yang mengakses <strong>COMODO Firewall</strong>. Pililhan ini akan secara otomatis mengizinkan  atau memblokir permintaan koneksi dari program ketika kali berikutnya program tersebut meminta koneksi ke dalam komputer Anda, tergantung dengan pilihan yang Anda pilih disini.</p>\n\n<p><strong>Penting!</strong>: kami sangat menyarankan Anda untuk <strong>tidak memilih</strong> <em>Remember my answer</em> (Ingat jawaban saya) ketika pertama kali menggunakan <strong>COMODO Firewall</strong>. Pilihlah mengizinkan  atau memblokir permintaan-permintaan koneksi, lalu awasi apakah pilihan Anda memperngaruhi operasi dari sistem Anda. Pilih <em>Remember my answer</em> hanya jika  Anda yakin dengan pilihan Anda.</p>\n\n<p><strong>Tips</strong>: Teliti dalam membatasi akses ke dalam sistem Anda adalah cara terbaik untuk memastikan keamanan komputer. Jangan ragu untuk memblokir permintaan yang mencurigakan. Apabila hal ini menghentikan  program yang normal  sehingga tidak berfungsi, Anda dapat mengizinkan  proses tersebut untuk bekerja ketika Anda menerima peringatan <em>firewall</em> berikutnya.</p>\n\n<p><strong>Langkah 1. Klik</strong> <img src=\"/sbox/screen/comodo-en/26.png\" alt=\"\" /> akan memunculkan jendela <em>Properties</em> sehingga Anda bisa mempelajari lebih jauh tentang proses atau program yang meminta akses, dalam hal ini, <strong>Firefox</strong>:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/27.png\" alt=\"\" /></p>\n\n<p><em>Gambar 2: Layar Firefox.exe Properties</em></p>\n\n<p><strong>Langkah 2: Klik</strong> <img src=\"/sbox/screen/comodo-en/02.png\" alt=\"\" /> untuk menutup layar <em>Properties</em>.</p>\n\n<p><strong>Langkah 3</strong>: Apabila Anda melihat suatu permintaan yang tidak aman atau tidak meyakinkan, berdasarkan informasi yang ditunjukkan layar program <em>Properties</em>, <strong>klik</strong> <img src=\"/sbox/screen/comodo-en/29.png\" alt=\"\" /> untuk mengarahkan <strong>COMODO Firewall</strong> untuk menolak memberikan akses ke sistem Anda.</p>\n\n<p>ATAU:</p>\n\n<p>Apabila Anda melihat program yang sah yang tidak terlihat untuk meminta akses yang tidak mencurigakan, berdasarkan informasi yang ditunjukkan layar program <em>Properties</em>, <strong>klik</strong> <img src=\"/sbox/screen/comodo-en/28.png\" alt=\"\" /> untuk memberikan akses ke sistem Anda.</p>\n\n<p><strong>Langkah 4. Klik</strong> <img src=\"/sbox/screen/comodo-en/28.png\" alt=\"\" /> untuk membolehkan <strong>Firefox</strong> mengakses sistem Anda melalui <strong>COMODO Firewall</strong>.</p>\n\n<p><strong>Langkah 5</strong>. Karena <strong>Firefox</strong> adalah program yang aman, <strong>centang</strong>  pilihan <img src=\"/sbox/screen/comodo-en/30.png\" alt=\"\" /> agar <strong>COMODO Firewall</strong> akan memberikan izin pada <strong>Firefox</strong> secara otomatis untuk kali berikutnya.</p>\n\n<p><strong>Catatan</strong>: Tombol <em>Allow</em> mengizinkan  Anda untuk memberikan akses kepada proses atau program setiap dijalankan.</p>\n\n<p><strong>Tips: Klik</strong> <img src=\"/sbox/screen/comodo-en/31.png\" alt=\"\" /> untuk mengakses file bantuan online <strong>COMODO Firewall</strong> yang lengkap.</p>\n\n<p>Kemampuan Anda untuk memberikan keputusan akses atau blokir dengan benar akan bertambah baik seiiring dengan bertambahnya rasa percaya diri Anda dan pengalaman Anda menggunakan <strong>COMODO Firewall</strong>.</p>\n\n<p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 Cara membuka Main User Interface COMODO Firewall</h2>\n\n<p><strong>COMODO Firewall</strong> akan secara otomatis bekerja ketika Anda telah memasangnya dan telah merestart sistem Anda. Perangkat lunak  ini mempunyai panel kontrol yang lengkap dengan fitur dan pilihan yang dapat Anda sesuaikan. <strong>Pengguna pemula (<em>Beginner</em>)</strong> akan belajar cepat cara berhadapan dengan peringatan keamanan dari <strong>COMODO Firewall</strong>, sedangkan <strong>Pengguna yang berpengalaman (<em>Experienced</em>)</strong> dan <strong>Ahli (<em>Advanced</em>)</strong> akan belajar lebih tentang manajemen dan konfigurasi <em>firewall</em> yang lebih sulit.</p>\n\n<p><strong>Catatan</strong>: Semua contoh di bawah ini berbasis pada <strong>COMODO Firewall</strong> berada dalam mode  <strong>Optimum Defense</strong>. Ini berarti sistem  <em>Defense+ host intrusion prevention</em> sedang dijalankan . Apabila Anda telah memasang <strong>COMODO Firewall</strong> menggunakan pilihan <em>Firewall only</em>, <em>Defense+</em> tidak akan menyala.</p>\n\n<p>Untuk membuka  <em>Main User Interface <strong>COMODO Firewall</strong></em>, silahkan lakukan langkah berikut:</p>\n\n<p><strong>Langkah 1. Pilih Start &gt; Programs &gt; COMODO &gt; Firewall &gt; COMODO Firewall</strong>.</p>\n\n<p><strong>Catatan</strong>: Selain ini, Anda juga bisa meng-<strong>klik dua kali</strong> ikon desktop atau <strong>klik dua kali</strong> ikon <strong>COMODO Firewall</strong> di dalam <em>System Tray</em> untuk membuka <em>main user interface</em>. Sebagai tambahan, Anda juga boleh <strong>klik kanan</strong> pada ikon <strong>COMODO Firewall</strong> untuk mengaktifkan menu pop-up, lalu <strong>pilih</strong> <em>Open</em> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/35.png\" alt=\"\" /></p>\n\n<p><em>Gambar 3: ikon menu pop-up konektivitas COMODO Firewall</em></p>\n\n<p><img src=\"/sbox/screen/comodo-en/36.png\" alt=\"\" /></p>\n\n<p><em>Gambar 4: User interface COMODO Firewall dalam mode default summary</em></p>\n\n<p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 Sekilas tentang Main User Interface \u2018COMODO Firewal\u2019l</h2>\n\n<p>Jendela <em>Firewall</em> menunjukkan ringkasan yang singkat dan jelas dari permintaan masuk dan keluar dari proses dan program yang ingin melewati <strong>COMODO Firewall</strong>. Seperti biasanya, lebih banyak permintaan keluar  daripada permintaan masuk. Mode operasi  yang sudah teratur adalah <em>Safe Mode</em>, dan mode operasi yang lain akan disebutkan nanti di bagian ini.  <em>Traffic</em>  menunjukkan bermacam proses dan program yang sedang dalam operasi, dan persentase jumlah dari permintaan yang dibuat.</p>\n\n<p><strong>Klik</strong> <img src=\"/sbox/screen/comodo-en/37.png\" alt=\"\" /> untuk mengaktifkan ringkasan dari permintaan keluar <em>at a given moment</em> (saat ini juga) yang detil seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/38.png\" alt=\"\" /></p>\n\n<p><em>Gambar 5: Contoh dari jendela Active connections menunjukkan detail lalu lintas internet</em></p>\n\n<p><strong>Klik</strong> <img src=\"/sbox/screen/comodo-en/39.png\" alt=\"\" /> untuk mengaktifkan jendela <em>Active connections</em> untuk permintaan masuk <em>at a given moment</em>.</p>\n\n<p><strong>Tips: Klik</strong> <img src=\"/sbox/screen/comodo-en/40.png\" alt=\"\" /> untuk memberhentikan semua permintaan masuk dan keluar, apabila layanan  internet Anda tiba-tiba melambat, Anda boleh mencurigai adanya proses atau program merusak yang sedang mengunduh dirinya sendiri ke dalam sistem Anda. Dengan melakukan ini, mode  operasi <em>Firewall</em> akan berubah menjadi <img src=\"/sbox/screen/comodo-en/41.png\" alt=\"\" />. Silahkan lihat kembali detail ringkasan dari jendela <em>Active Connection</em> untuk mengidentifikasi potensi sumber masalah.</p>\n\n<p>Setelah Anda yakin bahwa semua masalah telah teratasi, <strong>klik</strong> <img src=\"/sbox/screen/comodo-en/42.png\" alt=\"\" /> untuk memulai proses permintaan masuk dan keluar ke <strong>COMODO Firewall</strong> dan kembali ke <img src=\"/sbox/screen/comodo-en/43.png\" alt=\"\" /> seperti biasanya.</p>\n\n<h3>3.2.1 Ikon Status COMODO Firewall dan Defense+</h3>\n\n<p>Ketika <strong>COMODO Firewall</strong> dan <strong>Defense+</strong> sedang berjalan bersamaan,  indikasi pada sebelah kiri main user interface akan muncul seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/69.png\" alt=\"\" /></p>\n\n<p><em>Gambar 6: Ikon status COMODO Firewall</em></p>\n\n<p>Apabila salah satu program tidak dijalankan, ikon status akan mengindikasikan apakah <em>firewall</em> atau komponen proteksi proaktif tidak dijalankan seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/70.png\" alt=\"\" /></p>\n\n<p><em>Gambar 7: Ikon status COMODO Firewall tidak dijalankan yang berwarna kuning</em></p>\n\n<p>Akan tetapi, apabila kedua program tidak dijalankan, ikon status akan muncul seperti ini:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/71.png\" alt=\"\" /></p>\n\n<p><em>Gambar 8: Ikon status proteksi ganda COMODO Firewall tidak dijalankan yang berwarna kuning</em></p>\n\n<p>Dalam situasi yang mana pun, <strong>klik</strong> <img src=\"/sbox/screen/comodo-en/72.png\" alt=\"\" /> untuk menjalankan proteksi yang berhubungan.</p>\n", 
+                        "summary": "", 
+                        "value": "Bagian-bagian dari halaman ini:\r\n\r\n- [**3.0 Cara mengizinkan atau memblokir akses menggunakan COMODO Firewall**](#3.0)\r\n- [**3.1 Cara membuka Main User Interface COMODO Firewall**](#3.1)\r\n- [**3.2 Sekilas tentang Main User Interface COMODO Firewall**](#3.2)\r\n\r\n-------\r\n\r\n<a name=\"3.0\"></a>\r\n## 3.0 Cara mengizinkan atau memblokir akses menggunakan COMODO Firewall ##\r\n\r\nFirewall adalah program yang didesain untuk melindungi komputer Anda dari pembajak ataupun malware. Keduanya ingin mempunyai akses langsung ke dalam komputer Anda, atau mengirim informasi dari komputer ke pihak ketiga. **COMODO Firewall** harus di konfigurasi untuk \u2018belajar\u2019 atau merekam applikasi yang \u2018aman\u2019 dan memberikan akses kepada aplikasi tersebut, ketika memblokir permintaan dari program / aplikasi  yang tidak aman dan proses yang mencurigakan terhadap sistem Anda. Mungkin proses ini akan memerlukan  beberapa waktu untuk memutuskan mana permintaan yang sah dan yang berupa ancaman.\r\n\r\nSetiap kali **COMODO Firewall** menerima permintaan koneksi, ia akan mengaktifasi *Firewall Alert* (Peringatan Firewall) untuk memberitahu Anda untuk \u201callow\u201d (mengizinkan) atau \u201cblock\u201d (memblokir)  akses terhadap sistem Anda dari dan ke internet. Beberapa kali latihan yang melibatkan program aman seperti **Firefox** akan membantu Anda untuk menjadi lebih memahami peringatan firewall dan cara menggunakannya. Walaupun terkadang pengecualian akan dibutuhkan untuk permintaan dari browser yang diterima secara universal dan program email, setiap permintaan koneksi akan memunculkan *Firewall Alert* seperti yang ditunjukkan dibawah ini\r\n\r\n![](/sbox/screen/comodo-en/21.png)\r\n\r\n*Gambar 1: Contoh dari COMODO Firewall Allert (Peringatan firewall COMODO)*\r\n\r\nFirewall bisa dikatakan sebagai peraturan yang mengawasi lalu lintas program atau file. Setiap kali Anda klik  *Allow* atau *Block*, **COMODO Firewall** akan membuat peraturan untuk permintaan untuk proses atau jaringan koneksi program. **COMODO Firewall** melakukan ini untuk program atau proses yang baru atau program yang tidak dikenal , serta yang terdaftar di daftar *Trusted Software Vendors* yang berada di jendela *Defense+ - Tasks > Computer Security Policy*\r\n\r\n**Remember my answer**: Pilihan ini digunakan untuk mengingat jawaban Anda untuk program tertentu yang mengakses **COMODO Firewall**. Pililhan ini akan secara otomatis mengizinkan  atau memblokir permintaan koneksi dari program ketika kali berikutnya program tersebut meminta koneksi ke dalam komputer Anda, tergantung dengan pilihan yang Anda pilih disini. \r\n\r\n**Penting!**: kami sangat menyarankan Anda untuk **tidak memilih** *Remember my answer* (Ingat jawaban saya) ketika pertama kali menggunakan **COMODO Firewall**. Pilihlah mengizinkan  atau memblokir permintaan-permintaan koneksi, lalu awasi apakah pilihan Anda memperngaruhi operasi dari sistem Anda. Pilih *Remember my answer* hanya jika  Anda yakin dengan pilihan Anda.\r\n\r\n**Tips**: Teliti dalam membatasi akses ke dalam sistem Anda adalah cara terbaik untuk memastikan keamanan komputer. Jangan ragu untuk memblokir permintaan yang mencurigakan. Apabila hal ini menghentikan  program yang normal  sehingga tidak berfungsi, Anda dapat mengizinkan  proses tersebut untuk bekerja ketika Anda menerima peringatan *firewall* berikutnya. \r\n\r\n**Langkah 1. Klik** ![](/sbox/screen/comodo-en/26.png) akan memunculkan jendela *Properties* sehingga Anda bisa mempelajari lebih jauh tentang proses atau program yang meminta akses, dalam hal ini, **Firefox**:\r\n\r\n![](/sbox/screen/comodo-en/27.png)\r\n\r\n*Gambar 2: Layar Firefox.exe Properties*\r\n\r\n**Langkah 2: Klik** ![](/sbox/screen/comodo-en/02.png) untuk menutup layar *Properties*.\r\n\r\n**Langkah 3**: Apabila Anda melihat suatu permintaan yang tidak aman atau tidak meyakinkan, berdasarkan informasi yang ditunjukkan layar program *Properties*, **klik** ![](/sbox/screen/comodo-en/29.png) untuk mengarahkan **COMODO Firewall** untuk menolak memberikan akses ke sistem Anda.\r\n\r\nATAU:\r\n\r\nApabila Anda melihat program yang sah yang tidak terlihat untuk meminta akses yang tidak mencurigakan, berdasarkan informasi yang ditunjukkan layar program *Properties*, **klik** ![](/sbox/screen/comodo-en/28.png) untuk memberikan akses ke sistem Anda.\r\n\r\n**Langkah 4. Klik** ![](/sbox/screen/comodo-en/28.png) untuk membolehkan **Firefox** mengakses sistem Anda melalui **COMODO Firewall**.\r\n\r\n**Langkah 5**. Karena **Firefox** adalah program yang aman, **centang**  pilihan ![](/sbox/screen/comodo-en/30.png) agar **COMODO Firewall** akan memberikan izin pada **Firefox** secara otomatis untuk kali berikutnya.\r\n\r\n**Catatan**: Tombol *Allow* mengizinkan  Anda untuk memberikan akses kepada proses atau program setiap dijalankan. \r\n\r\n**Tips: Klik** ![](/sbox/screen/comodo-en/31.png) untuk mengakses file bantuan online **COMODO Firewall** yang lengkap.\r\n\r\nKemampuan Anda untuk memberikan keputusan akses atau blokir dengan benar akan bertambah baik seiiring dengan bertambahnya rasa percaya diri Anda dan pengalaman Anda menggunakan **COMODO Firewall**. \r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 Cara membuka Main User Interface COMODO Firewall ##\r\n\r\n**COMODO Firewall** akan secara otomatis bekerja ketika Anda telah memasangnya dan telah merestart sistem Anda. Perangkat lunak  ini mempunyai panel kontrol yang lengkap dengan fitur dan pilihan yang dapat Anda sesuaikan. **Pengguna pemula (*Beginner*)** akan belajar cepat cara berhadapan dengan peringatan keamanan dari **COMODO Firewall**, sedangkan **Pengguna yang berpengalaman (*Experienced*)** dan **Ahli (*Advanced*)** akan belajar lebih tentang manajemen dan konfigurasi *firewall* yang lebih sulit. \r\n\r\n**Catatan**: Semua contoh di bawah ini berbasis pada **COMODO Firewall** berada dalam mode  **Optimum Defense**. Ini berarti sistem  *Defense+ host intrusion prevention* sedang dijalankan . Apabila Anda telah memasang **COMODO Firewall** menggunakan pilihan *Firewall only*, *Defense+* tidak akan menyala.\r\n\r\nUntuk membuka  *Main User Interface **COMODO Firewall***, silahkan lakukan langkah berikut:\r\n\r\n**Langkah 1. Pilih Start > Programs > COMODO > Firewall > COMODO Firewall**.\r\n\r\n**Catatan**: Selain ini, Anda juga bisa meng-**klik dua kali** ikon desktop atau **klik dua kali** ikon **COMODO Firewall** di dalam *System Tray* untuk membuka *main user interface*. Sebagai tambahan, Anda juga boleh **klik kanan** pada ikon **COMODO Firewall** untuk mengaktifkan menu pop-up, lalu **pilih** *Open* seperti berikut:\r\n\r\n![](/sbox/screen/comodo-en/35.png)\r\n\r\n*Gambar 3: ikon menu pop-up konektivitas COMODO Firewall*\r\n\r\n![](/sbox/screen/comodo-en/36.png)\r\n\r\n*Gambar 4: User interface COMODO Firewall dalam mode default summary* \r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 Sekilas tentang Main User Interface \u2018COMODO Firewal\u2019l ##\r\n\r\nJendela *Firewall* menunjukkan ringkasan yang singkat dan jelas dari permintaan masuk dan keluar dari proses dan program yang ingin melewati **COMODO Firewall**. Seperti biasanya, lebih banyak permintaan keluar  daripada permintaan masuk. Mode operasi  yang sudah teratur adalah *Safe Mode*, dan mode operasi yang lain akan disebutkan nanti di bagian ini.  *Traffic*  menunjukkan bermacam proses dan program yang sedang dalam operasi, dan persentase jumlah dari permintaan yang dibuat.\r\n\r\n**Klik** ![](/sbox/screen/comodo-en/37.png) untuk mengaktifkan ringkasan dari permintaan keluar *at a given moment* (saat ini juga) yang detil seperti berikut:\r\n \r\n![](/sbox/screen/comodo-en/38.png)\r\n\r\n*Gambar 5: Contoh dari jendela Active connections menunjukkan detail lalu lintas internet*\r\n\r\n**Klik** ![](/sbox/screen/comodo-en/39.png) untuk mengaktifkan jendela *Active connections* untuk permintaan masuk *at a given moment*.\r\n\r\n**Tips: Klik** ![](/sbox/screen/comodo-en/40.png) untuk memberhentikan semua permintaan masuk dan keluar, apabila layanan  internet Anda tiba-tiba melambat, Anda boleh mencurigai adanya proses atau program merusak yang sedang mengunduh dirinya sendiri ke dalam sistem Anda. Dengan melakukan ini, mode  operasi *Firewall* akan berubah menjadi ![](/sbox/screen/comodo-en/41.png). Silahkan lihat kembali detail ringkasan dari jendela *Active Connection* untuk mengidentifikasi potensi sumber masalah. \r\n\r\nSetelah Anda yakin bahwa semua masalah telah teratasi, **klik** ![](/sbox/screen/comodo-en/42.png) untuk memulai proses permintaan masuk dan keluar ke **COMODO Firewall** dan kembali ke ![](/sbox/screen/comodo-en/43.png) seperti biasanya.\r\n\r\n### 3.2.1 Ikon Status COMODO Firewall dan Defense+ ###\r\n\r\nKetika **COMODO Firewall** dan **Defense+** sedang berjalan bersamaan,  indikasi pada sebelah kiri main user interface akan muncul seperti berikut:\r\n\r\n![](/sbox/screen/comodo-en/69.png)\r\n\r\n*Gambar 6: Ikon status COMODO Firewall*\r\n\r\nApabila salah satu program tidak dijalankan, ikon status akan mengindikasikan apakah *firewall* atau komponen proteksi proaktif tidak dijalankan seperti berikut:\r\n\r\n![](/sbox/screen/comodo-en/70.png)\r\n\r\n*Gambar 7: Ikon status COMODO Firewall tidak dijalankan yang berwarna kuning*\r\n\r\nAkan tetapi, apabila kedua program tidak dijalankan, ikon status akan muncul seperti ini:\r\n\r\n![](/sbox/screen/comodo-en/71.png)\r\n\r\n*Gambar 8: Ikon status proteksi ganda COMODO Firewall tidak dijalankan yang berwarna kuning*\r\n \r\nDalam situasi yang mana pun, **klik** ![](/sbox/screen/comodo-en/72.png) untuk menjalankan proteksi yang berhubungan.\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1996", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1996", 
+                "link_title": "How to Use COMODO Firewall", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5142", 
+                "module": "book", 
+                "nid": "1996", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5140", 
+                "p3": "5142", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5140", 
+                "router_path": "node/%", 
+                "title": "How to Use COMODO Firewall", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1454082251", 
+            "comment": "0", 
+            "created": "1441114888", 
+            "current_revision_id": "13087", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "caramenggunakancomodofirewall", 
+                        "value": "caramenggunakancomodofirewall"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5142": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1996", 
+                    "link_title": "How to Use COMODO Firewall", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5142", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5140", 
+                    "p3": "5142", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5140", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1996", 
+            "num_revisions": "16", 
+            "path": "https://securityinabox.org/en/comodo_howtouse", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1454082251", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Cara Menggunakan COMODO Firewall", 
+                        "value": "Cara Menggunakan COMODO Firewall"
+                    }
+                ]
+            }, 
+            "title_original": "How to Use COMODO Firewall", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "ar": {
+                        "changed": "1454082251", 
+                        "created": "1441894409", 
+                        "entity_id": "1996", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1996", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442409301", 
+                        "created": "1441964208", 
+                        "entity_id": "1996", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1996", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441279331", 
+                        "created": "1441279331", 
+                        "entity_id": "1996", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1996", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1442840880", 
+                        "created": "1442840880", 
+                        "entity_id": "1996", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1996", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1443775870", 
+                        "created": "1443775870", 
+                        "entity_id": "1996", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1996", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452861726", 
+                        "created": "1452861726", 
+                        "entity_id": "1996", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1996", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443602217", 
+                        "created": "1443602217", 
+                        "entity_id": "1996", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1996", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444175261", 
+                        "created": "1444175261", 
+                        "entity_id": "1996", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1996", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444830868", 
+                        "created": "1444721271", 
+                        "entity_id": "1996", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1996", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441114888", 
+                        "created": "1441114888", 
+                        "entity_id": "1996", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1996", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445372482", 
+                        "created": "1444058215", 
+                        "entity_id": "1996", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1996", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "28621d8b-76fb-4280-be89-9c7192c4680f", 
+            "vid": "13087", 
+            "vuuid": "87c55c99-4ea4-4096-8bac-f7a83959421c"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bagian-bagian dari halaman ini:</p>\n\n<ul><li><a href=\"#4.0\"><strong>4.0 Cara mengakses jendela Firewall dan Defense+</strong></a></li>\n<li><a href=\"#4.1\"><strong>4.1 Jendela pengaturan aktifitas Firewall</strong></a></li>\n<li><a href=\"#4.2\"><strong>4.2 Jendela pengaturan Defense+</strong></a></li>\n</ul><hr /><p><a name=\"4.0\" id=\"4.0\"></a></p>\n\n<h2>4.0 Cara mengakses jendela Firewall dan Defense+</h2>\n\n<p>Main user interface dari <strong>COMODO Firewall</strong> dibagi menjadi dua jendela, jendela <em>Firewall</em> dan jendela <em>Defense+</em>.</p>\n\n<p><img src=\"/sbox/screen/comodo-en/80.png\" alt=\"\" /></p>\n\n<p><em>Gambar 1: Main user interface COMODO Firewall menunjukkan kedua jendela, Firewall dan Defense+</em></p>\n\n<p>Jendela  <em>Pengaturan aktifitas firewall</em> dan <em>Defense+</em> dapat diakses dengan meng-<strong>klik</strong> <img src=\"/sbox/screen/comodo-en/43.png\" alt=\"\" /> di masing-masing jendela untuk mengatifkan jendela-jendela  yang diperlukan beserta tab-tabnya.</p>\n\n<p>Atau, Anda juga dapat mengakses salah satu jendela  dengan melakukan langkah berikut:</p>\n\n<p><strong>Langkah 1. Buka</strong> Main User interface dari <strong>COMODO Firewall</strong>.</p>\n\n<p><strong>Langkah 2. Klik</strong> salah satu untuk mendapatkan jendela</p>\n\n<p><img src=\"/sbox/screen/comodo-en/60.png\" alt=\"\" /> OR <img src=\"/sbox/screen/comodo-en/81.png\" alt=\"\" /></p>\n\n<p>to activate the <em>Firewall Tasks</em> ATAU <em>Defense+  Tasks</em> panes respectively.</p>\n\n<p><strong>Langkah 3. Klik</strong> antara</p>\n\n<p><img src=\"/sbox/screen/comodo-en/82.png\" alt=\"\" /> ATAU <img src=\"/sbox/screen/comodo-en/83.png\" alt=\"\" /></p>\n\n<p>untuk mengaktifkan tab dari <em>Firewall Behaviour Settings</em> atau <em>Defense+ Settings</em>.</p>\n\n<p><strong>Tips</strong>: <em>Firewall Security Level, Defense+ Security Level</em> dan <em>Sandbox Security Level</em> yang akan dijelaskan di bagian berikut ini, dapat diatur dengan mudah menggunakan ikon konektifitas <strong>COMODO Firewall</strong> yang terdapat di <em>System Tray</em>.  <strong>Klik kanan</strong> pada ikon konektivitas untuk mendapatkan menu pop-up dan sub-menu seperti ini:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/84.png\" alt=\"\" /></p>\n\n<p><em>Gambar 2: Menu pop-up untuk ikon konektivitas dan sub-menu untuk Firewall Security Level</em></p>\n\n<p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h2>4.1 Jendela pengaturan aktifitas Firewall</h2>\n\n<p>Jendela  <strong>Firewall Behaviour Settings</strong> (Pengaturan aktifitas Firewall) membuat Anda dapat menyesuaikan keamanan <em>firewall</em> dengan menggunakan beramacam-macam fitur dan pilihan, termasuk tingkat keamanan <em>firewall</em>, jumlah dan tipe peringatan keamanan yang diterima dan paket analisis dan monitor.</p>\n\n<p><img src=\"/sbox/screen/comodo-en/44.png\" alt=\"\" /></p>\n\n<p><em>Gambar 3: Jendela aktifitas firewall \u2013 tab pengaturan umum</em></p>\n\n<p>Di tab pengaturan umum (<em>General Settings</em>), Anda dapat menentukan tingkat keamanan yang Anda inginkan untuk <strong>COMODO Firewall</strong> Gunakan penggeser (<em>slider</em>) untuk mengatur tingkat keamanan dari beberapa pilihan berikut:</p>\n\n<p><strong>Block All</strong>: Mode  ini memberhentikan seluruh trafik  yang berhubungan dengan internet dan tidak mengindahkan konfiguras <em>firewall</em> apapun dan aturan yang telah Anda buat. Mode  ini tidak akan mengikuti aturan yang dibuat untuk aplikasi-aplikasi, maupun merekam atau \u2018mempelajari\u2019 aktifitas dari aplikasi-aplikasi.</p>\n\n<p><strong>Custom Policy</strong>: Mode  ini hanya menggunakan peraturan keamanan dan trafik jaringan yang Anda sudah pernah masukkan  di jendela <em>Firewall tasks &gt; Network Security Policy dan Defense+ Tasks &gt; Computer Security Policy</em>.</p>\n\n<p><strong>Safe Mode</strong>: Mode ini merupakan pengaturan otomatis untuk <strong>COMODO Firewall</strong>, termasuk pemasangan <em>Optimum Proactive Defense</em> dan <em>Maximum Proactive Defense</em>.</p>\n\n<p><strong>Tips: COMODO Firewall</strong> mengatur sebuah daftar internal aplikasi yang sering digunakan dan file yang dinilai  aman, sehingga tidak mengeluarkan peringatan pop-up untuk mereka.</p>\n\n<p><strong>Peringatan</strong>: <em>Training mode</em> dan <em>Disabled Mode</em> tidak disarankan karena mereka dapat mengancam tingkat efektifitas dari <strong>COMODO Firewall</strong> dan mengekspos sistem Anda terhadap ancaman infeksi.</p>\n\n<p><a name=\"4.2\" id=\"4.2\"></a></p>\n\n<h3>4.2 Jendela pengaturan Defense+</h3>\n\n<p><strong>Catatan</strong>: Fitur dan pilihan yang dijelaskan di bagian ini lebih diperuntukkan untuk <em>Pengguna yang sudah ahli</em> karena memerlukan pengetahuan yang cukup tentang firewall dan isu-isu mengenai keamanan.</p>\n\n<p><strong>Penting</strong>: Apabila Anda mencentang  pilihan <em>Firewall with Optimum Proactive Defense</em> atau <em>Firewall with Maximum Proactive Defense</em> selama proses instalasi  <strong>COMODO Firewall</strong>, sistem <em>host intrusion prevention</em> akan secara otomatis diaktifkan . Namun, apabila Anda memilih <em>Firewall Only</em>, sistem <em>Defense+</em> masih bisa untuk diaktifkan  secara manual. Pilihan <em>Defense+</em> harus diaktifkan  agar fitur-fitur yang diperlukan bisa  bekerja.</p>\n\n<p><strong>COMODO Firewall Defense+</strong> adalah sistem pencegahan intruksi host. Komputer yang terhubung ke sebuah jaringan (network) bisa dikatakan sebagai komputer host. Sistem <em>Defense+</em> akan terus mengawasi aktifitas semua <em>executable file</em> yang ada di komputer Anda. <em>Executable file</em> adalah aplikasi atau program, atau bagian dari program, yang biasanya (namun tidak selalu), dilihat dari file ekstensinya adalah sebagai  berikut: .bat, .exe, .dll, .sys, dll.</p>\n\n<p><em>Defense+</em> mengeluarkan peringatan pop-up setiap <em>file executable</em> yang tidak diketahui mencoba untuk aktif , dan menanyakan Anda untuk membiarkan atau memblokir file tersebut. Hal ini bisa dikatakan penting ketika Anda berada di situasi dimana sebuah malware ingin memasang aplikasi atau program untuk merusak informasi pribadi Anda, menata  ulang hard disk atau membajak komputer Anda, dan menggunakan komputer Anda untuk menyebarkan malware atau <em>spam</em> \u2013 tanpa seizin Anda.</p>\n\n<h3>4.2.1 Pengaturan Defense+ - tab pengaturan umum</h3>\n\n<p>Untuk menyalakan sistem <em>Defense+</em> dan mengaktifkan window pengaturan <em>Defense+</em> secara manual, ikuti langkah berikut:</p>\n\n<p><strong>Langkah 1. Klik</strong> tab Defense+ di main user interface <strong>COMODO Firewall</strong> lalu <strong>klik</strong> <img src=\"/sbox/screen/comodo-en/50.png\" alt=\"\" /> untuk mengaktifkan layar berikut:</p>\n\n<p><img src=\"/sbox/screen/comodo-en/51.png\" alt=\"\" /></p>\n\n<p><em>Gambar 6: The Defense+ window displaying the default General Settings tab</em></p>\n\n<p><strong>Langkah 2</strong>. <strong>Pindahkan</strong> the slider up the scale to <em>Safe Mode</em> lalu <strong>klik</strong> <img src=\"/sbox/screen/comodo-en/06.png\" alt=\"\" /> untuk mengaktifkan  sistem <em>Defense+</em> seperti di <em>Gambar 6</em>.</p>\n\n<p>Pilihan di <em>Defense+ Security Level</em> sangat mirip dengan <em>Firewall Behaviour Security Level</em>, dan Anda dapat menggunakan slider untuk memilih tingkat  yang optimal untuk proteksi sistem Anda.</p>\n\n<p><strong>Paranoid Mode</strong>: Mode  ini memberikan tingkat keamanan yang paling tinggi dan mengawasi segala <em>executable file</em> selain dari file yang Anda kategorikan sebagai aman dan juga yang terdaftar di <em>Trusted Software Vendor.</em> Mode  ini mempunyai jumlah peringatan keamanan yang paling tinggi dan aktifitas sistem disaring melalui pengaturan konfigurasi Anda.</p>\n\n<p><strong>Safe Mode</strong>: Mode  ini akan secara otomotis \u2018mempelajari\u2019 aktifitas dari berbagai aplikasi yang dapat dieksekusi bersamaan dengan mengawasi sistem aktifitas yang penting. Setiap aplikasi yang tidak memiliki sertifikat akan menimbulkan peringatan keamanan (<em>Security Alert</em>) ketika aplikasi ini berjalan. Mode  ini adalah mode  yang paling sering dianjurkan untuk mayoritas pengguna.</p>\n\n<ul><li><p>Pilihan <em>Block all unknown request if the application is closed</em> akan secara otomatis memblokir semua permintaan dari aplikasi dan program yang tidak diketahui, dan yang tidak Anda sebutkan di <em>Kebijakan keamanan komputer</em> (<em>Computer Security Policy</em>).</p></li>\n<li><p>Pilihan <em>Matikan Defense+ secara permanen (memerlukan restart sistem)</em> (<em>Deactivate the Defense+ permantently (Requires a system restart</em>) membolehkan Anda untuk secara manual mematikan sistem <em>Defense+ host intrusion prevention</em>. Pilihan ini tidak dianjurkan.</p></li>\n</ul><h3>4.2.2 Pengaturan Defense+ - tab pengaturan \u2018Execution Control\u2019</h3>\n\n<p>Tab pengaturan <em>Execution Control</em> membatasi seberapa jauh file yang mencurigakan dapat mengakses sistem sumber Anda, kemudian menyerahkan file tersebut untuk analisis</p>\n\n<p><img src=\"/sbox/screen/comodo-en/54.png\" alt=\"\" /></p>\n\n<p><em>Gambar 7: Tab pengaturan Defense+ Execution Control</em></p>\n\n<p><strong>Tips</strong>: <strong>Pengguna yang sudah ahli</strong> boleh membuat pengecualian untuk tindakan-tindakan yang telah dikatakan dengan meng-<strong>klik</strong> <img src=\"/sbox/screen/comodo-en/55.png\" alt=\"\" /> untuk mengaktifkan jendela <em>Exclusions</em>, dan mencari atau memilih proses yang berbeda atau program untuk pengecualian.</p>\n\n<p><strong>Catatan</strong>: <strong>Pengguna yang berpengalaman</strong> serta ahli sangat disarankan untuk meng-<strong>klik</strong> <img src=\"/sbox/screen/comodo-en/47.png\" alt=\"\" /> Untuk mengakses bantuan online <strong>COMODO</strong> tentang tab pengaturan <em>Execution Control, Sandbox Settings</em> dan <em>Monitoring Settings</em>. Selain itu, Anda juga dapat membuka  <strong>http://help.comodo.com/topic-72-1-155-1074-Introduction-to-Comodo-Internet-Security.html</strong> untuk memilih dari daftar topik bantuan online.</p>\n", 
+                        "summary": "", 
+                        "value": "Bagian-bagian dari halaman ini:\r\n\r\n- [**4.0 Cara mengakses jendela Firewall dan Defense+**](#4.0)\r\n- [**4.1 Jendela pengaturan aktifitas Firewall**](#4.1)\r\n- [**4.2 Jendela pengaturan Defense+**](#4.2)\r\n\r\n-------\r\n\r\n<a name=\"4.0\"></a>\r\n## 4.0 Cara mengakses jendela Firewall dan Defense+ ##\r\n\r\nMain user interface dari **COMODO Firewall** dibagi menjadi dua jendela, jendela *Firewall* dan jendela *Defense+*. \r\n\r\n![](/sbox/screen/comodo-en/80.png)\r\n\r\n*Gambar 1: Main user interface COMODO Firewall menunjukkan kedua jendela, Firewall dan Defense+*\r\n\r\nJendela  *Pengaturan aktifitas firewall* dan *Defense+* dapat diakses dengan meng-**klik** ![](/sbox/screen/comodo-en/43.png) di masing-masing jendela untuk mengatifkan jendela-jendela  yang diperlukan beserta tab-tabnya.\r\n\r\nAtau, Anda juga dapat mengakses salah satu jendela  dengan melakukan langkah berikut:\r\n\r\n**Langkah 1. Buka** Main User interface dari **COMODO Firewall**. \r\n\r\n**Langkah 2. Klik** salah satu untuk mendapatkan jendela\r\n\r\n![](/sbox/screen/comodo-en/60.png) OR ![](/sbox/screen/comodo-en/81.png)\r\n\r\nto activate the *Firewall Tasks* ATAU *Defense+  Tasks* panes respectively.\r\n\r\n**Langkah 3. Klik** antara \r\n\r\n![](/sbox/screen/comodo-en/82.png) ATAU ![](/sbox/screen/comodo-en/83.png) \r\n\r\nuntuk mengaktifkan tab dari *Firewall Behaviour Settings* atau *Defense+ Settings*. \r\n\r\n**Tips**: *Firewall Security Level, Defense+ Security Level* dan *Sandbox Security Level* yang akan dijelaskan di bagian berikut ini, dapat diatur dengan mudah menggunakan ikon konektifitas **COMODO Firewall** yang terdapat di *System Tray*.  **Klik kanan** pada ikon konektivitas untuk mendapatkan menu pop-up dan sub-menu seperti ini:\r\n\r\n![](/sbox/screen/comodo-en/84.png)\r\n\r\n*Gambar 2: Menu pop-up untuk ikon konektivitas dan sub-menu untuk Firewall Security Level* \r\n\r\n<a name=\"4.1\"></a>\r\n## 4.1 Jendela pengaturan aktifitas Firewall ##\r\n\r\nJendela  **Firewall Behaviour Settings** (Pengaturan aktifitas Firewall) membuat Anda dapat menyesuaikan keamanan *firewall* dengan menggunakan beramacam-macam fitur dan pilihan, termasuk tingkat keamanan *firewall*, jumlah dan tipe peringatan keamanan yang diterima dan paket analisis dan monitor.\r\n\r\n![](/sbox/screen/comodo-en/44.png)\r\n\r\n*Gambar 3: Jendela aktifitas firewall \u2013 tab pengaturan umum*\r\n\r\nDi tab pengaturan umum (*General Settings*), Anda dapat menentukan tingkat keamanan yang Anda inginkan untuk **COMODO Firewall** Gunakan penggeser (*slider*) untuk mengatur tingkat keamanan dari beberapa pilihan berikut:\r\n\r\n**Block All**: Mode  ini memberhentikan seluruh trafik  yang berhubungan dengan internet dan tidak mengindahkan konfiguras *firewall* apapun dan aturan yang telah Anda buat. Mode  ini tidak akan mengikuti aturan yang dibuat untuk aplikasi-aplikasi, maupun merekam atau \u2018mempelajari\u2019 aktifitas dari aplikasi-aplikasi.\r\n\r\n**Custom Policy**: Mode  ini hanya menggunakan peraturan keamanan dan trafik jaringan yang Anda sudah pernah masukkan  di jendela *Firewall tasks > Network Security Policy dan Defense+ Tasks > Computer Security Policy*. \r\n\r\n**Safe Mode**: Mode ini merupakan pengaturan otomatis untuk **COMODO Firewall**, termasuk pemasangan *Optimum Proactive Defense* dan *Maximum Proactive Defense*.\r\n\r\n**Tips: COMODO Firewall** mengatur sebuah daftar internal aplikasi yang sering digunakan dan file yang dinilai  aman, sehingga tidak mengeluarkan peringatan pop-up untuk mereka.  \r\n\r\n**Peringatan**: *Training mode* dan *Disabled Mode* tidak disarankan karena mereka dapat mengancam tingkat efektifitas dari **COMODO Firewall** dan mengekspos sistem Anda terhadap ancaman infeksi. \r\n\r\n<a name=\"4.2\"></a>\r\n### 4.2 Jendela pengaturan Defense+ ###\r\n\r\n**Catatan**: Fitur dan pilihan yang dijelaskan di bagian ini lebih diperuntukkan untuk *Pengguna yang sudah ahli* karena memerlukan pengetahuan yang cukup tentang firewall dan isu-isu mengenai keamanan.\r\n\r\n**Penting**: Apabila Anda mencentang  pilihan *Firewall with Optimum Proactive Defense* atau *Firewall with Maximum Proactive Defense* selama proses instalasi  **COMODO Firewall**, sistem *host intrusion prevention* akan secara otomatis diaktifkan . Namun, apabila Anda memilih *Firewall Only*, sistem *Defense+* masih bisa untuk diaktifkan  secara manual. Pilihan *Defense+* harus diaktifkan  agar fitur-fitur yang diperlukan bisa  bekerja. \r\n\r\n**COMODO Firewall Defense+** adalah sistem pencegahan intruksi host. Komputer yang terhubung ke sebuah jaringan (network) bisa dikatakan sebagai komputer host. Sistem *Defense+* akan terus mengawasi aktifitas semua *executable file* yang ada di komputer Anda. *Executable file* adalah aplikasi atau program, atau bagian dari program, yang biasanya (namun tidak selalu), dilihat dari file ekstensinya adalah sebagai  berikut: .bat, .exe, .dll, .sys, dll.\r\n\r\n*Defense+* mengeluarkan peringatan pop-up setiap *file executable* yang tidak diketahui mencoba untuk aktif , dan menanyakan Anda untuk membiarkan atau memblokir file tersebut. Hal ini bisa dikatakan penting ketika Anda berada di situasi dimana sebuah malware ingin memasang aplikasi atau program untuk merusak informasi pribadi Anda, menata  ulang hard disk atau membajak komputer Anda, dan menggunakan komputer Anda untuk menyebarkan malware atau *spam* \u2013 tanpa seizin Anda.\r\n\r\n### 4.2.1 Pengaturan Defense+ - tab pengaturan umum ###\r\n\r\nUntuk menyalakan sistem *Defense+* dan mengaktifkan window pengaturan *Defense+* secara manual, ikuti langkah berikut:\r\n\r\n**Langkah 1. Klik** tab Defense+ di main user interface **COMODO Firewall** lalu **klik** ![](/sbox/screen/comodo-en/50.png) untuk mengaktifkan layar berikut:\r\n\r\n![](/sbox/screen/comodo-en/51.png)\r\n\r\n*Gambar 6: The Defense+ window displaying the default General Settings tab*\r\n\r\n**Langkah 2**. **Pindahkan** the slider up the scale to *Safe Mode* lalu **klik** ![](/sbox/screen/comodo-en/06.png) untuk mengaktifkan  sistem *Defense+* seperti di *Gambar 6*.\r\n\r\nPilihan di *Defense+ Security Level* sangat mirip dengan *Firewall Behaviour Security Level*, dan Anda dapat menggunakan slider untuk memilih tingkat  yang optimal untuk proteksi sistem Anda. \r\n\r\n**Paranoid Mode**: Mode  ini memberikan tingkat keamanan yang paling tinggi dan mengawasi segala *executable file* selain dari file yang Anda kategorikan sebagai aman dan juga yang terdaftar di *Trusted Software Vendor.* Mode  ini mempunyai jumlah peringatan keamanan yang paling tinggi dan aktifitas sistem disaring melalui pengaturan konfigurasi Anda.  \r\n\r\n**Safe Mode**: Mode  ini akan secara otomotis \u2018mempelajari\u2019 aktifitas dari berbagai aplikasi yang dapat dieksekusi bersamaan dengan mengawasi sistem aktifitas yang penting. Setiap aplikasi yang tidak memiliki sertifikat akan menimbulkan peringatan keamanan (*Security Alert*) ketika aplikasi ini berjalan. Mode  ini adalah mode  yang paling sering dianjurkan untuk mayoritas pengguna. \r\n\r\n- Pilihan *Block all unknown request if the application is closed* akan secara otomatis memblokir semua permintaan dari aplikasi dan program yang tidak diketahui, dan yang tidak Anda sebutkan di *Kebijakan keamanan komputer* (*Computer Security Policy*).\r\n\r\n- Pilihan *Matikan Defense+ secara permanen (memerlukan restart sistem)* (*Deactivate the Defense+ permantently (Requires a system restart*) membolehkan Anda untuk secara manual mematikan sistem *Defense+ host intrusion prevention*. Pilihan ini tidak dianjurkan.\r\n\r\n### 4.2.2 Pengaturan Defense+ - tab pengaturan \u2018Execution Control\u2019 ###\r\n\r\nTab pengaturan *Execution Control* membatasi seberapa jauh file yang mencurigakan dapat mengakses sistem sumber Anda, kemudian menyerahkan file tersebut untuk analisis\r\n\r\n![](/sbox/screen/comodo-en/54.png)\r\n\r\n*Gambar 7: Tab pengaturan Defense+ Execution Control*\r\n\r\n**Tips**: **Pengguna yang sudah ahli** boleh membuat pengecualian untuk tindakan-tindakan yang telah dikatakan dengan meng-**klik** ![](/sbox/screen/comodo-en/55.png) untuk mengaktifkan jendela *Exclusions*, dan mencari atau memilih proses yang berbeda atau program untuk pengecualian.\r\n\r\n**Catatan**: **Pengguna yang berpengalaman** serta ahli sangat disarankan untuk meng-**klik** ![](/sbox/screen/comodo-en/47.png) Untuk mengakses bantuan online **COMODO** tentang tab pengaturan *Execution Control, Sandbox Settings* dan *Monitoring Settings*. Selain itu, Anda juga dapat membuka  **http://help.comodo.com/topic-72-1-155-1074-Introduction-to-Comodo-Internet-Security.html** untuk memilih dari daftar topik bantuan online.\r\n\r\n\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1997", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1997", 
+                "link_title": "\u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb\u1798\u17bb\u1781\u1784\u17b6\u179a\u1780\u1798\u17d2\u179a\u17b7\u178f\u1781\u17d2\u1796\u179f\u17cb", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5143", 
+                "module": "book", 
+                "nid": "1997", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5140", 
+                "p3": "5143", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5140", 
+                "router_path": "node/%", 
+                "title": "\u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb\u1798\u17bb\u1781\u1784\u17b6\u179a\u1780\u1798\u17d2\u179a\u17b7\u178f\u1781\u17d2\u1796\u179f\u17cb", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1452861797", 
+            "comment": "0", 
+            "created": "1441114984", 
+            "current_revision_id": "12881", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "comodo_konfigurasi", 
+                        "value": "comodo_konfigurasi"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5143": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1997", 
+                    "link_title": "\u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb\u1798\u17bb\u1781\u1784\u17b6\u179a\u1780\u1798\u17d2\u179a\u17b7\u178f\u1781\u17d2\u1796\u179f\u17cb", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5143", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5140", 
+                    "p3": "5143", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5140", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1997", 
+            "num_revisions": "15", 
+            "path": "https://securityinabox.org/en/comodo_advancedsettings", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452861797", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Konfigurasi Lebih Lanjut dan Pengaturan", 
+                        "value": "Konfigurasi Lebih Lanjut dan Pengaturan"
+                    }
+                ]
+            }, 
+            "title_original": "Advanced Configurations and Settings", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442921003", 
+                        "created": "1442921003", 
+                        "entity_id": "1997", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442409227", 
+                        "created": "1441964368", 
+                        "entity_id": "1997", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441279390", 
+                        "created": "1441279390", 
+                        "entity_id": "1997", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1442841110", 
+                        "created": "1442841110", 
+                        "entity_id": "1997", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1443775885", 
+                        "created": "1443775885", 
+                        "entity_id": "1997", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452861797", 
+                        "created": "1452861797", 
+                        "entity_id": "1997", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443611726", 
+                        "created": "1443611726", 
+                        "entity_id": "1997", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444175310", 
+                        "created": "1444175310", 
+                        "entity_id": "1997", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444830926", 
+                        "created": "1444721336", 
+                        "entity_id": "1997", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441114984", 
+                        "created": "1441114984", 
+                        "entity_id": "1997", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445374141", 
+                        "created": "1444058265", 
+                        "entity_id": "1997", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "17fc678d-ef44-4a0e-97de-2b242c2ebf70", 
+            "vid": "12881", 
+            "vuuid": "f2d8622c-f69e-414e-9af2-78f60ab8a12b"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<h2>5.0 Tanya-Jawab dan Ulasan</h2>\n\n<p>Muhindo dan Salima sangat terkejut dengan kemudahan menggunakan <strong>COMODO Firewall</strong>, dan sangat terkesan dengan cara <strong>COMODO Firewall</strong> bekerja secara diam-diam tanpa terlihat. Akan tetapi, mereka masih mempunyai beberapa pertanyaan.</p>\n\n<div class=\"background\">\n\n<p><strong><em>T</em></strong>: <em>Apabila saya tidak menggunakan firewall, ancaman apa saja yang saya bisa temukan? Program-program apa saja yang bisa masuk ke komputer saya, dan kerusakan apa saja yg bisa mereka akibatkan?</em></p>\n\n<p><strong><em>J</em></strong>: <em>Terdapat beribu-ribu macam program yang dapat masuk ke komputer Anda melalu Internet, apabila komputer bekerja tanpa firewall. Contohnya, terdapat Web crawlers atau \u2018spiders\u2019 yang bertugas untuk mencari komputer yang bekerja tanpa firewall, dan melaporkan alamat Anda untuk pihak komersil ataupun jahat. Selain itu, terdapat program yang dapat \u2018membajak\u2019 sistem Anda, dan menggunakannya untuk melakukan transaksi bisnis yang illegal atau mengirim spam tanpa seizin Anda- dan Anda mungkin bisa terjebak dalam aktifitas illegal yang tidak Anda lakukan!</em></p>\n\n<p><strong><em>T</em></strong>: <em>Apabila <strong>COMODO Firewall</strong> mencegah semua program ini, mengapa saya perlu program anti-virus dan anti spyware?</em></p>\n\n<p><strong><em>J</em></strong>: <em>Firewall bekerja untuk memperketat akses keluar masuk  dari internet secara spesifik. Ia mencegah program atau penyusup untuk masuk ke dalam sistem Anda, tapi tidak dapat melindungi Anda dari malware yang Anda mungkin terunduh dari email, halaman web, ataupun disk eksternal. <strong>COMODO Firewall</strong> dan <strong>Defense+</strong>, sistem anti-host intrusion prevention yang mengawasi jenis file executable yang Anda izinkan untuk berjalan di sistem Anda.  Program anti-virus dan anti-spyware membantu dan mendukung firewall yang baik untuk mencegah infeksi yang tidak terhubung oleh firewall. Dan, tentunya, alat-alat ini dapat menghapus malware yang sudah terpasang di komputer Anda.</em></p>\n\n<p><strong><em>T</em></strong>: <em>Apakah ada jenis malware yang mirip dengan program</em> <strong>Windows</strong> <em>yang saya perlu perhatikan?</em></p>\n\n<p><strong><em>J</em></strong>: <em>Sayangnya, banyak sekali program seperti itu. Anda perlu sangat berhati \u2013hati tentang asal usul dari piranti lunak yang Anda unduh atau pasang. Idealnya, Anda jangan memasang perangkat  lunak yang tidak relevan dan penting untuk pekerjaan Anda, terutama di komputer yang menyimpan banyakdata yang sensitif . Inilah guna dari sistem <strong>COMODO Defense+</strong> host-intrusion prevention; dengan membandingkan \u2018file executable\u2019 baru dari aplikasi yang Anda baru pasang dengan daftar yang ada di Trusted Software Vendros, dan juga analisis potensial aplikasi yang  mencurigakan, akan sangat mengembangkan keamanan dan privasi Internet Anda.</em></p>\n\n<p><strong><em>T</em></strong>: <em>Seberapa bagus COMODO Firewall untuk mencegah hackers?</em></p>\n\n<p><strong><em>J</em></strong>: <strong>COMODO Firewall</strong> menawarkan potensi kontrol yang sangat mendalam dan menyeluruh untuk akses terhadap platform <strong>Windows</strong> Anda. Kekuatan firewall tergantung dari konfigurasinya. Walaupun ada beberapa tantangan di awal, Anda sangat dianjurkan untuk terus menggunakannya. Terus belajar mengenai <strong>COMODO Firewall</strong>; ketika pengalaman Anda beratambah, Anda akan mendapatkan keuntungan yang lengkap dari perlindungan firewall yang luas.</p>\n\n</div>\n\n<h2>5.1 Pertanyaan Ulasan</h2>\n\n<ul><li>Bisakah Anda menggunakan lebih dari satu <em>firewall</em> di saat yang sama?</li>\n<li>Bagaimana Anda memeriksa apakah program yang Anda tidak kenal, cukup aman untuk Anda biarkan masuk ke komputer Anda?  </li>\n<li>Bagaimana cara kerja <em>firewall</em>?</li>\n<li>Apa perbedaan dari <em>firewall</em> dan sistem <em>host intrusion prevention</em>?</li>\n<li>Mengapa Anda perlu memasang <em>firewall</em>?</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "## 5.0 Tanya-Jawab dan Ulasan ##\r\n\r\nMuhindo dan Salima sangat terkejut dengan kemudahan menggunakan **COMODO Firewall**, dan sangat terkesan dengan cara **COMODO Firewall** bekerja secara diam-diam tanpa terlihat. Akan tetapi, mereka masih mempunyai beberapa pertanyaan. \r\n\r\n<div class=\"background\" markdown=\"1\"> \r\n\r\n***T***: *Apabila saya tidak menggunakan firewall, ancaman apa saja yang saya bisa temukan? Program-program apa saja yang bisa masuk ke komputer saya, dan kerusakan apa saja yg bisa mereka akibatkan?*\r\n\r\n***J***: *Terdapat beribu-ribu macam program yang dapat masuk ke komputer Anda melalu Internet, apabila komputer bekerja tanpa firewall. Contohnya, terdapat Web crawlers atau \u2018spiders\u2019 yang bertugas untuk mencari komputer yang bekerja tanpa firewall, dan melaporkan alamat Anda untuk pihak komersil ataupun jahat. Selain itu, terdapat program yang dapat \u2018membajak\u2019 sistem Anda, dan menggunakannya untuk melakukan transaksi bisnis yang illegal atau mengirim spam tanpa seizin Anda- dan Anda mungkin bisa terjebak dalam aktifitas illegal yang tidak Anda lakukan!*\r\n\r\n***T***: *Apabila **COMODO Firewall** mencegah semua program ini, mengapa saya perlu program anti-virus dan anti spyware?*\r\n\r\n***J***: *Firewall bekerja untuk memperketat akses keluar masuk  dari internet secara spesifik. Ia mencegah program atau penyusup untuk masuk ke dalam sistem Anda, tapi tidak dapat melindungi Anda dari malware yang Anda mungkin terunduh dari email, halaman web, ataupun disk eksternal. **COMODO Firewall** dan **Defense+**, sistem anti-host intrusion prevention yang mengawasi jenis file executable yang Anda izinkan untuk berjalan di sistem Anda.  Program anti-virus dan anti-spyware membantu dan mendukung firewall yang baik untuk mencegah infeksi yang tidak terhubung oleh firewall. Dan, tentunya, alat-alat ini dapat menghapus malware yang sudah terpasang di komputer Anda.* \r\n\r\n***T***: *Apakah ada jenis malware yang mirip dengan program* **Windows** *yang saya perlu perhatikan?* \r\n\r\n***J***: *Sayangnya, banyak sekali program seperti itu. Anda perlu sangat berhati \u2013hati tentang asal usul dari piranti lunak yang Anda unduh atau pasang. Idealnya, Anda jangan memasang perangkat  lunak yang tidak relevan dan penting untuk pekerjaan Anda, terutama di komputer yang menyimpan banyakdata yang sensitif . Inilah guna dari sistem **COMODO Defense+** host-intrusion prevention; dengan membandingkan \u2018file executable\u2019 baru dari aplikasi yang Anda baru pasang dengan daftar yang ada di Trusted Software Vendros, dan juga analisis potensial aplikasi yang  mencurigakan, akan sangat mengembangkan keamanan dan privasi Internet Anda.*\r\n\r\n***T***: *Seberapa bagus COMODO Firewall untuk mencegah hackers?*\r\n\r\n***J***: **COMODO Firewall** menawarkan potensi kontrol yang sangat mendalam dan menyeluruh untuk akses terhadap platform **Windows** Anda. Kekuatan firewall tergantung dari konfigurasinya. Walaupun ada beberapa tantangan di awal, Anda sangat dianjurkan untuk terus menggunakannya. Terus belajar mengenai **COMODO Firewall**; ketika pengalaman Anda beratambah, Anda akan mendapatkan keuntungan yang lengkap dari perlindungan firewall yang luas.\r\n\r\n</div>\r\n\r\n## 5.1 Pertanyaan Ulasan ##\r\n\r\n- Bisakah Anda menggunakan lebih dari satu *firewall* di saat yang sama?\r\n- Bagaimana Anda memeriksa apakah program yang Anda tidak kenal, cukup aman untuk Anda biarkan masuk ke komputer Anda?\t\r\n- Bagaimana cara kerja *firewall*?\r\n- Apa perbedaan dari *firewall* dan sistem *host intrusion prevention*?\r\n- Mengapa Anda perlu memasang *firewall*?\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1998", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1998", 
+                "link_title": "\u179f\u17c6\u178e\u17bd\u179a\u178a\u17c2\u179b\u179f\u17bd\u179a\u1789\u17b9\u1780\u1789\u17b6\u1794\u17cb \u1793\u17b7\u1784\u1780\u17b6\u179a\u1796\u17b7\u1793\u17b7\u178f\u17d2\u1799\u1798\u17be\u179b\u17a1\u17be\u1784\u179c\u17b7\u1789", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5144", 
+                "module": "book", 
+                "nid": "1998", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5140", 
+                "p3": "5144", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5140", 
+                "router_path": "node/%", 
+                "title": "\u179f\u17c6\u178e\u17bd\u179a\u178a\u17c2\u179b\u179f\u17bd\u179a\u1789\u17b9\u1780\u1789\u17b6\u1794\u17cb \u1793\u17b7\u1784\u1780\u17b6\u179a\u1796\u17b7\u1793\u17b7\u178f\u17d2\u1799\u1798\u17be\u179b\u17a1\u17be\u1784\u179c\u17b7\u1789", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1452862316", 
+            "comment": "0", 
+            "created": "1441115025", 
+            "current_revision_id": "12882", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "comodo_FAQ", 
+                        "value": "comodo_FAQ"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5144": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1998", 
+                    "link_title": "\u179f\u17c6\u178e\u17bd\u179a\u178a\u17c2\u179b\u179f\u17bd\u179a\u1789\u17b9\u1780\u1789\u17b6\u1794\u17cb \u1793\u17b7\u1784\u1780\u17b6\u179a\u1796\u17b7\u1793\u17b7\u178f\u17d2\u1799\u1798\u17be\u179b\u17a1\u17be\u1784\u179c\u17b7\u1789", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5144", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5140", 
+                    "p3": "5144", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5140", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1998", 
+            "num_revisions": "16", 
+            "path": "https://securityinabox.org/en/comodo_faq", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452862316", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Tanya-Jawab dan Ulasan", 
+                        "value": "Tanya-Jawab dan Ulasan"
+                    }
+                ]
+            }, 
+            "title_original": "FAQ and Review", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442921116", 
+                        "created": "1442921116", 
+                        "entity_id": "1998", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1441894548", 
+                        "created": "1441894548", 
+                        "entity_id": "1998", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442409373", 
+                        "created": "1441964482", 
+                        "entity_id": "1998", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441279459", 
+                        "created": "1441279459", 
+                        "entity_id": "1998", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1442841226", 
+                        "created": "1442841204", 
+                        "entity_id": "1998", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1443775904", 
+                        "created": "1443775904", 
+                        "entity_id": "1998", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452862316", 
+                        "created": "1452862316", 
+                        "entity_id": "1998", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443611810", 
+                        "created": "1443611810", 
+                        "entity_id": "1998", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444175413", 
+                        "created": "1444175413", 
+                        "entity_id": "1998", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444830991", 
+                        "created": "1444721418", 
+                        "entity_id": "1998", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441115025", 
+                        "created": "1441115025", 
+                        "entity_id": "1998", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445374181", 
+                        "created": "1444058299", 
+                        "entity_id": "1998", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "2398650c-1820-4966-80a6-9da26d4602ca", 
+            "vid": "12882", 
+            "vuuid": "3b1583f4-9461-4dd8-9791-9c3ec350b54d"
+        }
+    ], 
+    "changed": "1453977173", 
+    "comment": "0", 
+    "created": "1441114216", 
+    "current_revision_id": "13038", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "id": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Memasang Comodo Firewall</strong></p>\n\n<ul><li><em>Bacalah bagian <strong>Pengantar</strong> <a href=\"https://securityinabox.org/id/petunjukyangmembantu\"><strong>Petunjuk yang membantu</strong></a></em></li>\n<li><em><strong>Klik</strong> ikon <strong>COMODO Firewall</strong> dibawah dan *'Open'</em> atau <em>'Run'</em> installer. Jika perlu, simpan file installer, kemudian klik dua kali file tersebut*.  </li>\n<li><em>Bacalah instruksi pemasangan (Installation instructions) di bagian berikut sebelum Anda melanjutkan</em></li>\n<li><em>Jika Anda menyimpan installer di komputer Anda, Anda dapat menghapus file tersebut setelah instalasi berhasil dilakukan</em></li>\n</ul><p><strong>Comodo Firewall</strong>:<br /><a href=\"/sbox/programs/cfw_installer.exe\"><img src=\"/sbox/screen/comodo-en/comodo.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Memasang Comodo Firewall**\r\n\r\n- *Bacalah bagian **Pengantar** [**Petunjuk yang membantu**](https://securityinabox.org/id/petunjukyangmembantu)*\r\n- ***Klik** ikon **COMODO Firewall** dibawah dan *'Open'* atau *'Run'* installer. Jika perlu, simpan file installer, kemudian klik dua kali file tersebut*.  \r\n- *Bacalah instruksi pemasangan (Installation instructions) di bagian berikut sebelum Anda melanjutkan*\r\n- *Jika Anda menyimpan installer di komputer Anda, Anda dapat menghapus file tersebut setelah instalasi berhasil dilakukan*\r\n\r\n**Comodo Firewall**:  \r\n[![](/sbox/screen/comodo-en/comodo.png)](/sbox/programs/cfw_installer.exe)"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Installing COMODO Firewall</strong></p>\n\n<ul><li><em>Bacalah  <a href=\"/id/petunjukyangmembantu\"><strong>Petunjuk yang membantu</strong></a> <strong>Kata Pengantar</strong>.</em></li>\n<li><em><strong>Klik</strong> ikon <strong>COMODO Firewall</strong> dibawah untuk membuka laman <strong>personalfirewall.comodo.com/free-download.html</strong></em> </li>\n<li><em><strong>Klik</strong> tombol mengunduh di bagian 'Download Comodo Firewall for Windows'.</em></li>\n<li><em><strong>Klik</strong> \u2018Save File\u2019 untuk menyimpan file 'cfw_installer_x86.exe' ke dalam komputer Anda, kemudian <strong>klik dobel</strong> file 'cfw_installer_x86.exe' untuk menjalankan program instalasi</em></li>\n<li><em>Baca bagian <strong>2.0 How to Install COMODO Firewall</strong> sebelum Anda melanjutkan</em></li>\n<li><em>Setelah <strong>COMODO Firewall</strong> berhasil di instal, Anda boleh menghapus program instalasinya dari komputer</em></li>\n</ul><p><strong>COMODO</strong>:<br /><a href=\"http://personalfirewall.comodo.com/free-download.html\"><img src=\"/sbox/screen/comodo-en/comodo.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Installing COMODO Firewall**\r\n\r\n- *Bacalah  [**Petunjuk yang membantu**](/id/petunjukyangmembantu) **Kata Pengantar**.*\r\n- ***Klik** ikon **COMODO Firewall** dibawah untuk membuka laman **personalfirewall.comodo.com/free-download.html*** \r\n- ***Klik** tombol mengunduh di bagian 'Download Comodo Firewall for Windows'.*\r\n- ***Klik** \u2018Save File\u2019 untuk menyimpan file 'cfw_installer_x86.exe' ke dalam komputer Anda, kemudian **klik dobel** file 'cfw_installer_x86.exe' untuk menjalankan program instalasi*\r\n- *Baca bagian **2.0 How to Install COMODO Firewall** sebelum Anda melanjutkan*\r\n- *Setelah **COMODO Firewall** berhasil di instal, Anda boleh menghapus program instalasinya dari komputer*\r\n\r\n**COMODO**:  \r\n[![](/sbox/screen/comodo-en/comodo.png)](http://personalfirewall.comodo.com/free-download.html)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "Comodo Firewall", 
+                "value": "Comodo Firewall"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "COMODO Firewall", 
+                "value": "COMODO Firewall"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<h3>COMODO Firewall</h3>\n\n<p><strong>COMODO Firewall</strong> adalah <em>firewall</em> populer  dengan fitur penuh (<em>full version</em>) dan gratis untuk penggunaan pribadi. <strong>COMODO Firewall</strong> membantu untuk melindungi komputer Anda dari koneksi yang tidak diizinkan ke dan dari Internet. Bab ini dikemas untuk membantu para pengguna pemula dan ahli.</p>\n", 
+                "value": "### COMODO Firewall ###\r\n\r\n**COMODO Firewall** adalah *firewall* populer  dengan fitur penuh (*full version*) dan gratis untuk penggunaan pribadi. **COMODO Firewall** membantu untuk melindungi komputer Anda dari koneksi yang tidak diizinkan ke dan dari Internet. Bab ini dikemas untuk membantu para pengguna pemula dan ahli. "
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-09-29 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "comodofirewall", 
+                "value": "comodofirewall"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "3"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "3"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5140": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/1994", 
+            "link_title": "Comodo Firewall", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5140", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5140", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-13"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "1994", 
+    "num_revisions": "22", 
+    "path": "https://securityinabox.org/en/comodofirewall_main", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1453977173", 
+    "revision_uid": "228", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "COMODO Firewall", 
+                "value": "COMODO Firewall"
+            }
+        ]
+    }, 
+    "title_original": "Comodo Firewall", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442919682", 
+                "created": "1442919682", 
+                "entity_id": "1994", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "1994", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442235517", 
+                "created": "1441894162", 
+                "entity_id": "1994", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "1994", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442408989", 
+                "created": "1441962810", 
+                "entity_id": "1994", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "1994", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1441275396", 
+                "created": "1441275102", 
+                "entity_id": "1994", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "1994", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }, 
+            "fr": {
+                "changed": "1442835344", 
+                "created": "1442835344", 
+                "entity_id": "1994", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "1994", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1443775746", 
+                "created": "1443775746", 
+                "entity_id": "1994", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "1994", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "km": {
+                "changed": "1452861567", 
+                "created": "1452861567", 
+                "entity_id": "1994", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "1994", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443602062", 
+                "created": "1443602062", 
+                "entity_id": "1994", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "1994", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1453977173", 
+                "created": "1444175150", 
+                "entity_id": "1994", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "1994", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "vi": {
+                "changed": "1443523276", 
+                "created": "1443523276", 
+                "entity_id": "1994", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "1994", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441183216", 
+                "created": "1441114216", 
+                "entity_id": "1994", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "1994", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445369676", 
+                "created": "1444057959", 
+                "entity_id": "1994", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "1994", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "29434cd6-6a25-450d-a1da-c14f8ac64d05", 
+    "vid": "13038", 
+    "vuuid": "68f718f1-d62e-4d90-b5da-d3ae2755300f"
+}

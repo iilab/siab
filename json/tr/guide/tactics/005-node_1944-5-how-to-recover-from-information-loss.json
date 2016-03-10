@@ -1,0 +1,2002 @@
+{
+    "body": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p>Dijital verilerin depolanmas\u0131n\u0131n ya da transferinin her yeni y\u00f6ntemi; s\u00f6z konusu bilgilerin kaybedilmesinin, \u00e7al\u0131nmas\u0131n\u0131n ya da tahrip edilmesinin bir\u00e7ok yeni yolunu beraberinde getirmeye e\u011filimlidir. Y\u0131llar\u0131n eme\u011fi; h\u0131rs\u0131zl\u0131k, anl\u0131k dikkatsizlik, bilgisayar donan\u0131mlar\u0131na el konulmas\u0131 sonucunda ya da sadece dijital depolama teknolojisi do\u011fas\u0131 gere\u011fi k\u0131r\u0131lgan oldu\u011fundan bir anda ortadan kaybolabilir. Bilgisayar destekli \u00e7al\u0131\u015fan profesyoneller aras\u0131nda yayg\u0131n bir deyi\u015f vard\u0131r: \"Bu, verilerini <em>kaybedip kaybetmeyece\u011fin</em> sorunu de\u011fil; <em>ne zaman</em> kaybedece\u011fin sorunudur.\" \u00d6yle ise bu sizin ba\u015f\u0131n\u0131za geldi\u011finde, g\u00fcncel bir yede\u011fe ve iyi test edilmi\u015f geri y\u00fckleme ara\u00e7lar\u0131na sahip olman\u0131z \u00e7ok \u00f6nemlidir. Bir yedekleme sisteminin \u00f6neminin size hat\u0131rlat\u0131ld\u0131\u011f\u0131 g\u00fcn, genelde, bir yedekleme sistemine sahip olmaya ihtiya\u00e7 duydu\u011funuz g\u00fcn\u00fcn ertesi g\u00fcn\u00fcd\u00fcr.</p>\n\n<p>Etkili bir yedekleme politikas\u0131 olu\u015fturmak, her ne kadar g\u00fcvenli bilgisayar kullan\u0131m\u0131n\u0131n en temel unsuru olsa da g\u00f6r\u00fcnd\u00fc\u011f\u00fc kadar kolay de\u011fildir. Etkili bir yedekleme politikas\u0131 olu\u015fturmak, bir dizi nedenden dolay\u0131 planlama s\u0131ras\u0131nda \u00f6n\u00fcn\u00fcze ilave engeller \u00e7\u0131karabilir: \u00d6zg\u00fcn verileri ve yedekleri farkl\u0131 fiziksel konumlara kaydetme gereklili\u011fi, yedeklerin gizli tutulmas\u0131n\u0131n \u00f6nemi, her biri kendi ta\u015f\u0131nabilir depolama ayg\u0131t\u0131na sahip olan ve birbirleriyle bilgi payla\u015fan farkl\u0131 insanlar aras\u0131nda koordinasyonun g\u00fc\u00e7l\u00fc\u011f\u00fc... Yedekleme ve dosya kurtarma taktiklerine ek olarak, bu b\u00f6l\u00fcm iki \u00f6zg\u00fcl araca i\u015faret etmektedir, <a href=\"/tr/glossary#Cobian_Backup\"><em>Cobian Backup</em></a> ve <a href=\"/tr/glossary#Recuva\"><em>Recuva</em></a>.</p>\n\n<h3>Arka plan senaryosu</h3>\n\n<div class=\"background\">\n\n<p>Elena Rus\u00e7a konu\u015fulan bir \u00fclkede, b\u00f6lgedeki yasa d\u0131\u015f\u0131 a\u011fa\u00e7 kesiminin hangi boyutlara ula\u015ft\u0131\u011f\u0131n\u0131 g\u00f6stermek i\u00e7in foto\u011fraflar\u0131n, videolar\u0131n, haritalar\u0131n ve \u00f6yk\u00fclerin sunumuna dayanan bir web sitesi olu\u015fturmaya ba\u015flam\u0131\u015f bir \u00e7evrecidir. Y\u0131llard\u0131r a\u011fa\u00e7lar\u0131n kesimi hakk\u0131nda belgeler, medya dosyalar\u0131 ve co\u011frafi bilgiler toplamaktad\u0131r ve bunlar\u0131n bir\u00e7o\u011fu \u00e7al\u0131\u015ft\u0131\u011f\u0131 STK\u2019nin ofisindeki Windows i\u015fletim sistemli eski bir bilgisayarda depolanmaktad\u0131r. Bu bilgiler \u00e7evresinde bir web sitesi tasarlarken, bu bilgilerin korunmas\u0131n\u0131n \u00f6nemini fark etmeye ba\u015flar. \u00d6zellikle her \u015feyi web sitesine kopyalamadan \u00f6nce bilgisayar\u0131n\u0131n zarar g\u00f6rme ihtimali onu endi\u015felendirir. Kurumunun di\u011fer \u00fcyeleri de bu bilgisayar\u0131 zaman zaman kullanmaktad\u0131r. \u00c7al\u0131\u015fmas\u0131n\u0131 i\u00e7eren klas\u00f6r\u00fc biri yanl\u0131\u015fl\u0131kla silerse bu klas\u00f6r\u00fc nas\u0131l kurtarabilece\u011fini \u00f6\u011frenmek istemektedir. Ye\u011feni Nikolai\u2019dan bir yedekleme stratejisi geli\u015ftirmek i\u00e7in yard\u0131m ister.</p>\n\n</div>\n\n<h3>Bu b\u00f6l\u00fcmden ne \u00f6\u011frenebiliriz</h3>\n\n<ul><li>Bilgilerinizi nas\u0131l d\u00fczenler ve yedeklersiniz </li>\n<li>Yedeklerinizi nerede muhafaza etmelisiniz</li>\n<li>Yedeklerinizi g\u00fcvenle nas\u0131l y\u00f6netebilirsiniz </li>\n<li>Yanl\u0131\u015fl\u0131kla silinen dosyalar\u0131 nas\u0131l kurtar\u0131rs\u0131n\u0131z</li>\n</ul>", 
+                "summary": "", 
+                "value": "Dijital verilerin depolanmas\u0131n\u0131n ya da transferinin her yeni y\u00f6ntemi; s\u00f6z konusu bilgilerin kaybedilmesinin, \u00e7al\u0131nmas\u0131n\u0131n ya da tahrip edilmesinin bir\u00e7ok yeni yolunu beraberinde getirmeye e\u011filimlidir. Y\u0131llar\u0131n eme\u011fi; h\u0131rs\u0131zl\u0131k, anl\u0131k dikkatsizlik, bilgisayar donan\u0131mlar\u0131na el konulmas\u0131 sonucunda ya da sadece dijital depolama teknolojisi do\u011fas\u0131 gere\u011fi k\u0131r\u0131lgan oldu\u011fundan bir anda ortadan kaybolabilir. Bilgisayar destekli \u00e7al\u0131\u015fan profesyoneller aras\u0131nda yayg\u0131n bir deyi\u015f vard\u0131r: &quot;Bu, verilerini *kaybedip kaybetmeyece\u011fin* sorunu de\u011fil; *ne zaman* kaybedece\u011fin sorunudur.&quot; \u00d6yle ise bu sizin ba\u015f\u0131n\u0131za geldi\u011finde, g\u00fcncel bir yede\u011fe ve iyi test edilmi\u015f geri y\u00fckleme ara\u00e7lar\u0131na sahip olman\u0131z \u00e7ok \u00f6nemlidir. Bir yedekleme sisteminin \u00f6neminin size hat\u0131rlat\u0131ld\u0131\u011f\u0131 g\u00fcn, genelde, bir yedekleme sistemine sahip olmaya ihtiya\u00e7 duydu\u011funuz g\u00fcn\u00fcn ertesi g\u00fcn\u00fcd\u00fcr.\r\n\r\nEtkili bir yedekleme politikas\u0131 olu\u015fturmak, her ne kadar g\u00fcvenli bilgisayar kullan\u0131m\u0131n\u0131n en temel unsuru olsa da g\u00f6r\u00fcnd\u00fc\u011f\u00fc kadar kolay de\u011fildir. Etkili bir yedekleme politikas\u0131 olu\u015fturmak, bir dizi nedenden dolay\u0131 planlama s\u0131ras\u0131nda \u00f6n\u00fcn\u00fcze ilave engeller \u00e7\u0131karabilir: \u00d6zg\u00fcn verileri ve yedekleri farkl\u0131 fiziksel konumlara kaydetme gereklili\u011fi, yedeklerin gizli tutulmas\u0131n\u0131n \u00f6nemi, her biri kendi ta\u015f\u0131nabilir depolama ayg\u0131t\u0131na sahip olan ve birbirleriyle bilgi payla\u015fan farkl\u0131 insanlar aras\u0131nda koordinasyonun g\u00fc\u00e7l\u00fc\u011f\u00fc... Yedekleme ve dosya kurtarma taktiklerine ek olarak, bu b\u00f6l\u00fcm iki \u00f6zg\u00fcl araca i\u015faret etmektedir, [*Cobian Backup*](/tr/glossary#Cobian_Backup) ve [*Recuva*](/tr/glossary#Recuva). \r\n\r\n### Arka plan senaryosu ###\r\n<div class=\"background\" markdown=\"1\">Elena Rus\u00e7a konu\u015fulan bir \u00fclkede, b\u00f6lgedeki yasa d\u0131\u015f\u0131 a\u011fa\u00e7 kesiminin hangi boyutlara ula\u015ft\u0131\u011f\u0131n\u0131 g\u00f6stermek i\u00e7in foto\u011fraflar\u0131n, videolar\u0131n, haritalar\u0131n ve \u00f6yk\u00fclerin sunumuna dayanan bir web sitesi olu\u015fturmaya ba\u015flam\u0131\u015f bir \u00e7evrecidir. Y\u0131llard\u0131r a\u011fa\u00e7lar\u0131n kesimi hakk\u0131nda belgeler, medya dosyalar\u0131 ve co\u011frafi bilgiler toplamaktad\u0131r ve bunlar\u0131n bir\u00e7o\u011fu \u00e7al\u0131\u015ft\u0131\u011f\u0131 STK\u2019nin ofisindeki Windows i\u015fletim sistemli eski bir bilgisayarda depolanmaktad\u0131r. Bu bilgiler \u00e7evresinde bir web sitesi tasarlarken, bu bilgilerin korunmas\u0131n\u0131n \u00f6nemini fark etmeye ba\u015flar. \u00d6zellikle her \u015feyi web sitesine kopyalamadan \u00f6nce bilgisayar\u0131n\u0131n zarar g\u00f6rme ihtimali onu endi\u015felendirir. Kurumunun di\u011fer \u00fcyeleri de bu bilgisayar\u0131 zaman zaman kullanmaktad\u0131r. \u00c7al\u0131\u015fmas\u0131n\u0131 i\u00e7eren klas\u00f6r\u00fc biri yanl\u0131\u015fl\u0131kla silerse bu klas\u00f6r\u00fc nas\u0131l kurtarabilece\u011fini \u00f6\u011frenmek istemektedir. Ye\u011feni Nikolai\u2019dan bir yedekleme stratejisi geli\u015ftirmek i\u00e7in yard\u0131m ister.\r\n</div>\r\n\r\n### Bu b\u00f6l\u00fcmden ne \u00f6\u011frenebiliriz ###\r\n\r\n- Bilgilerinizi nas\u0131l d\u00fczenler ve yedeklersiniz \r\n- Yedeklerinizi nerede muhafaza etmelisiniz\r\n- Yedeklerinizi g\u00fcvenle nas\u0131l y\u00f6netebilirsiniz \r\n- Yanl\u0131\u015fl\u0131kla silinen dosyalar\u0131 nas\u0131l kurtar\u0131rs\u0131n\u0131z"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1925", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/1944", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/1944", 
+        "link_title": "5. How to recover from information loss", 
+        "menu_name": "book-toc-1925", 
+        "mlid": "5089", 
+        "module": "book", 
+        "nid": "1944", 
+        "options": [], 
+        "p1": "5030", 
+        "p2": "5089", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5030", 
+        "router_path": "node/%", 
+        "title": "5. How to recover from information loss", 
+        "updated": "0", 
+        "weight": "5"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Felaketleri \u00f6nlemek i\u00e7in verilerinizin fiziksel olarak g\u00fcvende, <a href=\"/tr/glossary#Malware\"><em>k\u00f6t\u00fc ama\u00e7l\u0131 yaz\u0131l\u0131mlardan</em></a> ar\u0131nm\u0131\u015f, iyi bir <a href=\"/tr/glossary#Firewall\"><em>g\u00fcvenlik duvar\u0131</em></a> ve g\u00fc\u00e7l\u00fc bir \u015fifreyle korunuyor oldu\u011fundan emin olarak ad\u0131m atman\u0131z her ne kadar \u00e7ok \u00f6nemliyse de bu ad\u0131mlar kendi ba\u015f\u0131na yeterli de\u011fildir. Yanl\u0131\u015f gidebilecek bir\u00e7ok \u015fey vard\u0131r; vir\u00fcs sald\u0131r\u0131lar\u0131, <a href=\"/tr/glossary#Hacker\"><em>hacker'lar</em></a>, elektrik k\u0131sa devreleri, ani voltaj y\u00fckseli\u015fleri, su d\u00f6k\u00fclmeleri, \u00e7al\u0131nma, el konma, m\u0131knat\u0131slanma, i\u015fletim sistemi \u00e7\u00f6kmesi ve donan\u0131m hatas\u0131, bunlardan ad\u0131n\u0131 and\u0131\u011f\u0131m\u0131z sadece birka\u00e7\u0131d\u0131r. Felaketlere haz\u0131rlanmak, ona kar\u015f\u0131 korunmak kadar \u00f6nemlidir.</p>\n\n<div class=\"background\">\n\n<p>Elena: Yedeklemenin \u00f6nemini biliyorum, Nikolai, fakat bu bir ba\u015fkas\u0131n\u0131n benim i\u00e7in bunu kurmas\u0131 gerekti\u011fi anlam\u0131na gelmiyor mu? Demek istedi\u011fim, bunu kendi ba\u015f\u0131ma yapacak kadar zamana, kaynaklara ve deneyime sahip olacak m\u0131y\u0131m?</p>\n\n<p>Nikolai: Can\u0131n\u0131 s\u0131kma. \u0130yi bir yedekleme plan\u0131 yapmak biraz kafa patlatmay\u0131 gerektirir ama o kadar da \u00e7ok zaman ve para gerektirmez. Bilgilerinin t\u00fcm\u00fcn\u00fc kaybetmekle k\u0131yasland\u0131\u011f\u0131nda bir yedekleme plan\u0131 yapman\u0131n k\u00fclfetli oldu\u011funu s\u00f6yleyemezsin, de\u011fil mi? Dahas\u0131, yedekleme kesinlikle kendi ba\u015f\u0131na yapman gereken \u015feylerden biridir. H\u00e2lihaz\u0131rda teknik destek vererek sana yard\u0131m eden ki\u015filer son derece g\u00fcvenilir ve dijital bilgilerini nerede saklad\u0131\u011f\u0131n konusunda son derece bilgi sahibi de\u011filse kendi ba\u015f\u0131na bunu yapman daha iyidir.</p>\n\n</div>\n\n<p>Bir <em>yedekleme politikas\u0131</em> olu\u015fturman\u0131n ilk ad\u0131m\u0131, ki\u015fisel ve i\u015fle ilgili verilerinizin o anda nerede oldu\u011funu g\u00f6z\u00fcn\u00fczde canland\u0131rman\u0131zd\u0131r. \u00d6rne\u011fin e-postan\u0131z internet servis sa\u011flay\u0131c\u0131n\u0131z\u0131n e-posta sunucusunda, bilgisayar\u0131n\u0131zda ya da her iki yerde birden depolan\u0131yor olabilir. Ve elbette birden fazla e-posta hesab\u0131n\u0131z olabilir. O halde \u00f6nemli belgeleriniz, i\u015f yerinizde ya da evinizde kulland\u0131\u011f\u0131n\u0131z bilgisayar\u0131n\u0131zdad\u0131r. Bilgisayarda adres defterleriniz, sohbet ge\u00e7mi\u015fleriniz ve ki\u015fisel program ayarlar\u0131n\u0131z vard\u0131r. Baz\u0131 bilgilerinizin, USB bellekler, ta\u015f\u0131nabilir harici diskler, CD\u2019ler, DVD\u2019ler, ve eski disketler dahil \u00e7\u0131kar\u0131labilir ara\u00e7larda da depolanmas\u0131 olas\u0131d\u0131r. Cep telefonunuzda bir ki\u015filer listesi bulunur ve \u00f6nemli yaz\u0131l\u0131 mesajlar cep telefonunuzda depolanm\u0131\u015f olabilir. Web siteniz varsa y\u0131llar\u0131n eme\u011fi sonucu olu\u015fmu\u015f geni\u015f bir makaleler koleksiyonu i\u00e7erebilir. Ve son olarak, defterler, g\u00fcnl\u00fckler ve mektuplar gibi dijital olmayan bilgilerinizi unutmay\u0131n.</p>\n\n<p>Ard\u0131ndan, bu dosyalar\u0131n hangilerinin 'esas kopya' ve hangilerinin yedek kopya oldu\u011funu belirlemeniz gerekir. Esas kopya, belirli bir dosyan\u0131n ya da dosyalar koleksiyonunun genellikle en g\u00fcncel halidir ve i\u00e7eri\u011fini g\u00fcncellemeniz gerekti\u011finde ger\u00e7ekten \u00fczerinde \u00e7al\u0131\u015ft\u0131\u011f\u0131n\u0131z kopyaya kar\u015f\u0131l\u0131k gelir. A\u00e7\u0131kt\u0131r ki bu ayr\u0131m tek bir kopyas\u0131 olan dosyalara uygulanamaz; ancak belirli t\u00fcrden bilgiler i\u00e7in a\u015f\u0131r\u0131 derecede \u00f6nemlidir. Yayg\u0131n bir felaket senaryosu, \u00f6nemli bir belgenin sadece kopyalar\u0131 yedeklendi\u011finde ve bu kopyalar\u0131n g\u00fcncellenmesinden \u00f6nce, esas kopyan\u0131n kendisinin kayboldu\u011fu ya da tahrip oldu\u011fu anda meydana gelir. \u00d6rne\u011fin bir haftal\u0131\u011f\u0131na seyahat etti\u011finizi ve USB belleklerinizdeki belirli bir tablonun kopyas\u0131n\u0131 g\u00fcncelledi\u011finizi hayal edin. Bu noktada, bu kopyan\u0131n sizin esas kopyan\u0131z oldu\u011funu d\u00fc\u015f\u00fcnmeye ba\u015flamal\u0131s\u0131n\u0131z \u00e7\u00fcnk\u00fc ofisinizdeki g\u00fcncel olmayan kopyan\u0131n d\u00fczenli ve otomatik al\u0131nan yedekleri art\u0131k i\u015fe yarar de\u011fildir.</p>\n\n<p>Yukar\u0131da tan\u0131mlanan bilginin t\u00fcm esas ve yedek kopyalar\u0131n\u0131n fiziksel konumlar\u0131n\u0131 yazmaya \u00e7al\u0131\u015f\u0131n. Bu gereksinimlerinizi belirlemeye ve uygun bir yedekleme politikas\u0131 tan\u0131mlaman\u0131za yard\u0131m edecektir. A\u015fa\u011f\u0131daki tablo olduk\u00e7a temel bir \u00f6rnektir. Elbette listenizin \u00e7ok daha uzun oldu\u011funu ve birden fazla 'veri t\u00fcr\u00fcn\u00fc' kapsayan baz\u0131 'depolama ayg\u0131tlar\u0131n\u0131' i\u00e7erdi\u011fini ve baz\u0131 veri t\u00fcrlerinin de birden fazla ayg\u0131tta bulundu\u011funu fark edeceksiniz.</p>\n\n<table border=\"1\"><tr><th>Veri T\u00fcr\u00fc</th>\n<th>Esas/Yedek</th>\n<th>Depolama Ayg\u0131t\u0131</th>\n<th>Konum</th>\n</tr><tr><td>Elektronik belgeler</td>\n<td>Esas</td>\n<td>Bilgisayar s\u00fcr\u00fcc\u00fcs\u00fc</td>\n<td>\u0130\u015f</td>\n</tr><tr><td>Birka\u00e7 \u00f6nemli elektronik belge</td>\n<td>Yedek</td>\n<td>USB bellek</td>\n<td>Yan\u0131mda</td>\n</tr><tr><td>Program veri tabanlar\u0131 (foto\u011fraflar, adres defteri, ajanda, vb.) </td>\n<td>Esas</td>\n<td>Bilgisayar s\u00fcr\u00fcc\u00fcs\u00fc</td>\n<td>\u0130\u015f</td>\n</tr><tr><td>Birka\u00e7 \u00f6nemli elektronik belge</td>\n<td>Yedek</td>\n<td>CD'ler</td>\n<td>Ev</td>\n</tr><tr><td>E-posta &amp; e-posta ki\u015fileri</td>\n<td>Esas</td>\n<td>Gmail hesab\u0131</td>\n<td>\u0130nternet\n</td>\n</tr><tr><td>SMS'ler &amp; cep telefonu ki\u015filer listesi</td>\n<td>Esas</td>\n<td>Cep telefonu</td>\n<td>Yan\u0131mda</td>\n</tr><tr><td>Bas\u0131l\u0131 belgeler (s\u00f6zle\u015fmeler, faturalar, vb.)</td>\n<td>Esas</td>\n<td>\u00c7al\u0131\u015fma masas\u0131 \u00e7ekmecesi</td>\n<td>\u0130\u015f</td>\n</tr></table><p>Yukar\u0131daki tabloda g\u00f6rebilece\u011finiz gibi:</p>\n\n<ul><li>Ofisinizdeki bilgisayar\u0131n\u0131z\u0131n sabit diski \u00e7\u00f6kt\u00fc\u011f\u00fcnde belgelerinizden geriye kalacak olanlar sadece evinizdeki USB belle\u011finizdekiler ve CD kopyalar\u0131ndaki yedeklerdir. </li>\n<li>E-posta mesajlar\u0131n\u0131z\u0131n ya da adres defterinizin \u00e7evrimd\u0131\u015f\u0131 kopyas\u0131na sahip de\u011filsiniz, \u00f6yle ki \u015fifrenizi unuttu\u011funuzda (ya da biri k\u00f6t\u00fc emellerle \u015fifrenizi de\u011fi\u015ftirdi\u011finde) onlara eri\u015fiminizi yitireceksiniz.</li>\n<li>Cep telefonunuzdaki herhangi bir bilginin kopyas\u0131na sahip de\u011filsiniz. </li>\n<li>S\u00f6zle\u015fmeler ve faturalar gibi bas\u0131l\u0131 belgelerin dijital ya da fiziksel kopyas\u0131na sahip de\u011filsiniz.</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "Felaketleri \u00f6nlemek i\u00e7in verilerinizin fiziksel olarak g\u00fcvende, [*k\u00f6t\u00fc ama\u00e7l\u0131 yaz\u0131l\u0131mlardan*](/tr/glossary#Malware) ar\u0131nm\u0131\u015f, iyi bir [*g\u00fcvenlik duvar\u0131*](/tr/glossary#Firewall) ve g\u00fc\u00e7l\u00fc bir \u015fifreyle korunuyor oldu\u011fundan emin olarak ad\u0131m atman\u0131z her ne kadar \u00e7ok \u00f6nemliyse de bu ad\u0131mlar kendi ba\u015f\u0131na yeterli de\u011fildir. Yanl\u0131\u015f gidebilecek bir\u00e7ok \u015fey vard\u0131r; vir\u00fcs sald\u0131r\u0131lar\u0131, [*hacker'lar*](/tr/glossary#Hacker), elektrik k\u0131sa devreleri, ani voltaj y\u00fckseli\u015fleri, su d\u00f6k\u00fclmeleri, \u00e7al\u0131nma, el konma, m\u0131knat\u0131slanma, i\u015fletim sistemi \u00e7\u00f6kmesi ve donan\u0131m hatas\u0131, bunlardan ad\u0131n\u0131 and\u0131\u011f\u0131m\u0131z sadece birka\u00e7\u0131d\u0131r. Felaketlere haz\u0131rlanmak, ona kar\u015f\u0131 korunmak kadar \u00f6nemlidir. \r\n\r\n<div class=\"background\" markdown=\"1\">\r\nElena: Yedeklemenin \u00f6nemini biliyorum, Nikolai, fakat bu bir ba\u015fkas\u0131n\u0131n benim i\u00e7in bunu kurmas\u0131 gerekti\u011fi anlam\u0131na gelmiyor mu? Demek istedi\u011fim, bunu kendi ba\u015f\u0131ma yapacak kadar zamana, kaynaklara ve deneyime sahip olacak m\u0131y\u0131m?\r\n\r\nNikolai: Can\u0131n\u0131 s\u0131kma. \u0130yi bir yedekleme plan\u0131 yapmak biraz kafa patlatmay\u0131 gerektirir ama o kadar da \u00e7ok zaman ve para gerektirmez. Bilgilerinin t\u00fcm\u00fcn\u00fc kaybetmekle k\u0131yasland\u0131\u011f\u0131nda bir yedekleme plan\u0131 yapman\u0131n k\u00fclfetli oldu\u011funu s\u00f6yleyemezsin, de\u011fil mi? Dahas\u0131, yedekleme kesinlikle kendi ba\u015f\u0131na yapman gereken \u015feylerden biridir. H\u00e2lihaz\u0131rda teknik destek vererek sana yard\u0131m eden ki\u015filer son derece g\u00fcvenilir ve dijital bilgilerini nerede saklad\u0131\u011f\u0131n konusunda son derece bilgi sahibi de\u011filse kendi ba\u015f\u0131na bunu yapman daha iyidir.\r\n</div>\r\n\r\nBir *yedekleme politikas\u0131* olu\u015fturman\u0131n ilk ad\u0131m\u0131, ki\u015fisel ve i\u015fle ilgili verilerinizin o anda nerede oldu\u011funu g\u00f6z\u00fcn\u00fczde canland\u0131rman\u0131zd\u0131r. \u00d6rne\u011fin e-postan\u0131z internet servis sa\u011flay\u0131c\u0131n\u0131z\u0131n e-posta sunucusunda, bilgisayar\u0131n\u0131zda ya da her iki yerde birden depolan\u0131yor olabilir. Ve elbette birden fazla e-posta hesab\u0131n\u0131z olabilir. O halde \u00f6nemli belgeleriniz, i\u015f yerinizde ya da evinizde kulland\u0131\u011f\u0131n\u0131z bilgisayar\u0131n\u0131zdad\u0131r. Bilgisayarda adres defterleriniz, sohbet ge\u00e7mi\u015fleriniz ve ki\u015fisel program ayarlar\u0131n\u0131z vard\u0131r. Baz\u0131 bilgilerinizin, USB bellekler, ta\u015f\u0131nabilir harici diskler, CD\u2019ler, DVD\u2019ler, ve eski disketler dahil \u00e7\u0131kar\u0131labilir ara\u00e7larda da depolanmas\u0131 olas\u0131d\u0131r. Cep telefonunuzda bir ki\u015filer listesi bulunur ve \u00f6nemli yaz\u0131l\u0131 mesajlar cep telefonunuzda depolanm\u0131\u015f olabilir. Web siteniz varsa y\u0131llar\u0131n eme\u011fi sonucu olu\u015fmu\u015f geni\u015f bir makaleler koleksiyonu i\u00e7erebilir. Ve son olarak, defterler, g\u00fcnl\u00fckler ve mektuplar gibi dijital olmayan bilgilerinizi unutmay\u0131n. \r\n\r\nArd\u0131ndan, bu dosyalar\u0131n hangilerinin 'esas kopya' ve hangilerinin yedek kopya oldu\u011funu belirlemeniz gerekir. Esas kopya, belirli bir dosyan\u0131n ya da dosyalar koleksiyonunun genellikle en g\u00fcncel halidir ve i\u00e7eri\u011fini g\u00fcncellemeniz gerekti\u011finde ger\u00e7ekten \u00fczerinde \u00e7al\u0131\u015ft\u0131\u011f\u0131n\u0131z kopyaya kar\u015f\u0131l\u0131k gelir. A\u00e7\u0131kt\u0131r ki bu ayr\u0131m tek bir kopyas\u0131 olan dosyalara uygulanamaz; ancak belirli t\u00fcrden bilgiler i\u00e7in a\u015f\u0131r\u0131 derecede \u00f6nemlidir. Yayg\u0131n bir felaket senaryosu, \u00f6nemli bir belgenin sadece kopyalar\u0131 yedeklendi\u011finde ve bu kopyalar\u0131n g\u00fcncellenmesinden \u00f6nce, esas kopyan\u0131n kendisinin kayboldu\u011fu ya da tahrip oldu\u011fu anda meydana gelir. \u00d6rne\u011fin bir haftal\u0131\u011f\u0131na seyahat etti\u011finizi ve USB belleklerinizdeki belirli bir tablonun kopyas\u0131n\u0131 g\u00fcncelledi\u011finizi hayal edin. Bu noktada, bu kopyan\u0131n sizin esas kopyan\u0131z oldu\u011funu d\u00fc\u015f\u00fcnmeye ba\u015flamal\u0131s\u0131n\u0131z \u00e7\u00fcnk\u00fc ofisinizdeki g\u00fcncel olmayan kopyan\u0131n d\u00fczenli ve otomatik al\u0131nan yedekleri art\u0131k i\u015fe yarar de\u011fildir. \r\n\r\nYukar\u0131da tan\u0131mlanan bilginin t\u00fcm esas ve yedek kopyalar\u0131n\u0131n fiziksel konumlar\u0131n\u0131 yazmaya \u00e7al\u0131\u015f\u0131n. Bu gereksinimlerinizi belirlemeye ve uygun bir yedekleme politikas\u0131 tan\u0131mlaman\u0131za yard\u0131m edecektir. A\u015fa\u011f\u0131daki tablo olduk\u00e7a temel bir \u00f6rnektir. Elbette listenizin \u00e7ok daha uzun oldu\u011funu ve birden fazla 'veri t\u00fcr\u00fcn\u00fc' kapsayan baz\u0131 'depolama ayg\u0131tlar\u0131n\u0131' i\u00e7erdi\u011fini ve baz\u0131 veri t\u00fcrlerinin de birden fazla ayg\u0131tta bulundu\u011funu fark edeceksiniz.\r\n\r\n\r\n<table border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Veri T\u00fcr\u00fc</th>\r\n<th>Esas/Yedek</th>\r\n<th>Depolama Ayg\u0131t\u0131</th>\r\n<th>Konum</th>\r\n</tr>\r\n<tr>\r\n<td>Elektronik belgeler</td>\r\n<td>Esas</td>\r\n<td>Bilgisayar s\u00fcr\u00fcc\u00fcs\u00fc</td>\r\n<td>\u0130\u015f</td>\r\n</tr>\r\n<tr>\r\n<td>Birka\u00e7 \u00f6nemli elektronik belge</td>\r\n<td>Yedek</td>\r\n<td>USB bellek</td>\r\n<td>Yan\u0131mda</td>\r\n</tr>\r\n<tr>\r\n<td>Program veri tabanlar\u0131 (foto\u011fraflar, adres defteri, ajanda, vb.) </td>\r\n<td>Esas</td>\r\n<td>Bilgisayar s\u00fcr\u00fcc\u00fcs\u00fc</td>\r\n<td>\u0130\u015f</td>\r\n</tr>\r\n<tr>\r\n<td>Birka\u00e7 \u00f6nemli elektronik belge</td>\r\n<td>Yedek</td>\r\n<td>CD'ler</td>\r\n<td>Ev</td>\r\n</tr>\r\n<tr>\r\n<td>E-posta &amp; e-posta ki\u015fileri</td>\r\n<td>Esas</td>\r\n<td>Gmail hesab\u0131</td>\r\n<td>\u0130nternet\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>SMS'ler &amp; cep telefonu ki\u015filer listesi</td>\r\n<td>Esas</td>\r\n<td>Cep telefonu</td>\r\n<td>Yan\u0131mda</td>\r\n</tr>\r\n<tr>\r\n<td>Bas\u0131l\u0131 belgeler (s\u00f6zle\u015fmeler, faturalar, vb.)</td>\r\n<td>Esas</td>\r\n<td>\u00c7al\u0131\u015fma masas\u0131 \u00e7ekmecesi</td>\r\n<td>\u0130\u015f</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n\r\nYukar\u0131daki tabloda g\u00f6rebilece\u011finiz gibi:\r\n\r\n- Ofisinizdeki bilgisayar\u0131n\u0131z\u0131n sabit diski \u00e7\u00f6kt\u00fc\u011f\u00fcnde belgelerinizden geriye kalacak olanlar sadece evinizdeki USB belle\u011finizdekiler ve CD kopyalar\u0131ndaki yedeklerdir. \r\n- E-posta mesajlar\u0131n\u0131z\u0131n ya da adres defterinizin \u00e7evrimd\u0131\u015f\u0131 kopyas\u0131na sahip de\u011filsiniz, \u00f6yle ki \u015fifrenizi unuttu\u011funuzda (ya da biri k\u00f6t\u00fc emellerle \u015fifrenizi de\u011fi\u015ftirdi\u011finde) onlara eri\u015fiminizi yitireceksiniz.\r\n- Cep telefonunuzdaki herhangi bir bilginin kopyas\u0131na sahip de\u011filsiniz. \r\n- S\u00f6zle\u015fmeler ve faturalar gibi bas\u0131l\u0131 belgelerin dijital ya da fiziksel kopyas\u0131na sahip de\u011filsiniz."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1945", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1945", 
+                "link_title": "Identifying and organising your information", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5090", 
+                "module": "book", 
+                "nid": "1945", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5089", 
+                "p3": "5090", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5089", 
+                "router_path": "node/%", 
+                "title": "Identifying and organising your information", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1455900289", 
+            "comment": "0", 
+            "created": "1441103649", 
+            "current_revision_id": "13291", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_5_1", 
+                        "value": "chapter_5_1"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5090": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1945", 
+                    "link_title": "Identifying and organising your information", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5090", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5089", 
+                    "p3": "5090", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5089", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1945", 
+            "num_revisions": "28", 
+            "path": "https://securityinabox.org/en/node/1945", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455900289", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Bilgilerinizi tan\u0131mlamak ve d\u00fczenlemek", 
+                        "value": "Bilgilerinizi tan\u0131mlamak ve d\u00fczenlemek"
+                    }
+                ]
+            }, 
+            "title_original": "Identifying and organising your information", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916009", 
+                        "created": "1442916009", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227106", 
+                        "created": "1441804270", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096007", 
+                        "created": "1443096007", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442410852", 
+                        "created": "1442410852", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441206304", 
+                        "created": "1441206304", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089606", 
+                        "created": "1442759368", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695331", 
+                        "created": "1443695331", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452272101", 
+                        "created": "1452272101", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443103070", 
+                        "created": "1443103070", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113820", 
+                        "created": "1441113820", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443724357", 
+                        "created": "1443724014", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1455900289", 
+                        "created": "1444404517", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "tr": {
+                        "changed": "1443100182", 
+                        "created": "1443100182", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092260", 
+                        "created": "1443092260", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1442411004", 
+                        "created": "1441103649", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1945", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577553", 
+                        "created": "1443622323", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "f2ce5e62-c52c-4f9c-aba6-46b0370665c4", 
+            "vid": "13291", 
+            "vuuid": "f13124bd-ac6d-4fc9-8cf7-bfcd0d326190"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Yukar\u0131daki t\u00fcm veri t\u00fcrlerini yedeklemek i\u00e7in yaz\u0131l\u0131m\u0131n ve at\u0131lmas\u0131 gereken bir dizi ad\u0131m\u0131n bir kombinasyonuna gereksiniminiz olacak. Temelde, her bir veri t\u00fcr\u00fcn\u00fcn en az iki ayr\u0131 konumda depoland\u0131\u011f\u0131ndan emin olmal\u0131s\u0131n\u0131z.</p>\n\n<p><strong>Elektronik belgeler</strong> - A\u015fa\u011f\u0131da ayr\u0131nt\u0131lar\u0131yla betimlenen <a href=\"/tr/glossary#Cobian_Backup\"><em>Cobian Backup</em></a> gibi bir program kullanarak bilgisayar\u0131n\u0131zdaki belgelerin eksiksiz bir yede\u011fini olu\u015fturun. Yede\u011fi ta\u015f\u0131nabilir bir \u015feyde muhafaza edin ki evinize ya da bir ba\u015fka g\u00fcvenli yere onu g\u00f6t\u00fcrebilesiniz. Harici sabit diskler, CD/DVD\u2019ler ya da USB bellekler olas\u0131 se\u00e7eneklerdir. Baz\u0131lar\u0131, \u00fczerine yazma ya da yede\u011fini kaybetme riski daha d\u00fc\u015f\u00fck oldu\u011fundan bu i\u015f i\u00e7in CD\u2019leri ya da DVD\u2019leri tercih etmektedir. Bo\u015f CD\u2019ler her yedeklemede yeni bir tane kullanman\u0131za izin verecek kadar ucuz olabilir.</p>\n\n<p>Bu veri kategorisi \u00e7o\u011fu zaman en hassas bilgileri i\u00e7erdi\u011finden elektronik belge yedeklerinizi \u015fifreleme kullanarak yedeklemeniz \u00f6zellikle \u00f6nemlidir. Bunu nas\u0131l yapaca\u011f\u0131n\u0131z\u0131 <a href=\"/tr/chapter-4\"><strong><em>4. B\u00f6l\u00fcm: Bilgisayar\u0131n\u0131zdaki hassas dosyalar\u0131 nas\u0131l korursunuz</em></strong></a>\u2019dan ve <a href=\"/en/truecrypt_main\"><strong><em>TrueCrypt Rehberi</em></strong></a>\u2019nden \u00f6\u011frenebilirsiniz.</p>\n\n<p><strong>Program veri tabanlar\u0131</strong> - Program veri tabanlar\u0131n\u0131z\u0131n konumuna karar verdikten sonra, onlar\u0131 da elektronik belgelerle ayn\u0131 \u015fekilde yedekleyebilirsiniz.</p>\n\n<p><strong>E-posta</strong> - E-postalar\u0131n\u0131za sadece bir web taray\u0131c\u0131s\u0131 arac\u0131l\u0131\u011f\u0131yla eri\u015fmek yerine, <a href=\"/tr/glossary#Thunderbird\"><em>Thunderbird</em></a> gibi lokal bir e-posta program\u0131 kurun ve hesab\u0131n\u0131zla birlikte \u00e7al\u0131\u015facak \u015fekilde onu d\u00fczenleyin. <a href=\"/en/thunderbird_main\"><strong><em>Thunderbird Rehberi</em></strong></a> bunu nas\u0131l yapaca\u011f\u0131n\u0131z\u0131 ayr\u0131nt\u0131lar\u0131yla a\u00e7\u0131klar. Ayr\u0131ca bir\u00e7ok e-posta hizmeti de bu t\u00fcr programlar\u0131 nas\u0131l kullanaca\u011f\u0131n\u0131z ve \u00e7o\u011fu zaman da e-posta adreslerinizi onlara nas\u0131l aktaraca\u011f\u0131n\u0131z konusunda talimatlar sa\u011flar. Bunun hakk\u0131nda daha fazlas\u0131n\u0131 Okumalar k\u0131sm\u0131nda \u00f6\u011frenebilirsiniz. Eski e-posta mesajlar\u0131n\u0131z\u0131n (\u00f6rne\u011fin g\u00fcvenlik gerek\u00e7eleriyle) sunucunuzda depolanmamas\u0131 i\u00e7in bilgisayar\u0131n\u0131za ta\u015f\u0131maya karar verdiyseniz yukar\u0131da betimlenen elektronik belgelerin yedeklenmesine onlar\u0131 da dahil etti\u011finizden emin olun.</p>\n\n<p><strong>Cep telefonu i\u00e7eri\u011fi</strong> - Cep telefonunuzdaki telefon numaralar\u0131n\u0131 ve yaz\u0131l\u0131 mesajlar\u0131 yedeklemek i\u00e7in telefonunuzu, genellikle telefonunuzun \u00fcreticisinin web sitesinde bulabilece\u011finiz uygun bir yaz\u0131l\u0131m kullanarak bilgisayar\u0131n\u0131za ba\u011flayabilirsiniz. Bunun i\u00e7in \u00f6zel bir USB kablo sat\u0131n alman\u0131z gerekebilir.</p>\n\n<p><strong>Bas\u0131l\u0131 belgeler</strong> - M\u00fcmk\u00fcnse t\u00fcm \u00f6nemli ka\u011f\u0131tlar\u0131n\u0131z\u0131 taramal\u0131s\u0131n\u0131z, ard\u0131ndan da yukar\u0131da ele al\u0131nd\u0131\u011f\u0131 gibi, di\u011fer elektronik belgelerinizle birlikte yedeklemelisiniz.</p>\n\n<p>Sonunda; depolama ayg\u0131t\u0131n\u0131z\u0131, veri t\u00fcrlerinizi ve yedeklerinizi, bilgilerinizi felaketlere kar\u015f\u0131 daha diren\u00e7li k\u0131lacak \u015fekilde yeniden d\u00fczenlemelisiniz:</p>\n\n<table width=\"100%\" border=\"1\"><tr><th>Veri T\u00fcr\u00fc</th>\n<th>Esas/Yedek</th>\n<th>Depolama Ayg\u0131t\u0131</th>\n<th>Konum</th>\n\n</tr><tr><td>Elektronik belgeler</td>\n<td>Esas</td>\n<td>Bilgisayar s\u00fcr\u00fcc\u00fcs\u00fc</td>\n<td>\u0130\u015f\n</td>\n</tr><tr><td>Elektronik belgeler</td>\n<td>Yedek</td>\n<td>CD'ler</td>\n<td>Ev\n</td>\n</tr><tr><td>Birka\u00e7 \u00f6nemli elektronik belge</td>\n<td>Yedek</td>\n<td>USB bellek</td>\n<td>Yan\u0131mda\n</td>\n</tr></table><table width=\"100%\" border=\"1\"><tr><th>Veri T\u00fcr\u00fc</th>\n<th>Esas/Yedek</th>\n<th>Depolama Ayg\u0131t\u0131</th>\n<th>Konum</th>\n\n</tr><tr><td>Program veri tabanlar\u0131</td>\n<td>Esas</td>\n<td>Bilgisayar s\u00fcr\u00fcc\u00fcs\u00fc</td>\n<td>\u0130\u015f\n</td>\n</tr><tr><td>Program veri tabanlar\u0131</td>\n<td>Yedek</td>\n<td>CD'ler</td>\n<td>Ev\n</td>\n</tr></table><table width=\"100%\" border=\"1\"><tr><th>Veri T\u00fcr\u00fc</th>\n<th>Esas/Yedek</th>\n<th>Depolama Ayg\u0131t\u0131</th>\n<th>Konum</th>\n\n</tr><tr><td>E-posta &amp; e-posta ki\u015fileri</td>\n<td>Yedek</td>\n<td>Gmail hesab\u0131</td>\n<td>\u0130nternet\n</td>\n</tr><tr><td>E-posta &amp; e-posta ki\u015fileri</td>\n<td>Esas</td>\n<td>\u0130\u015f yeri bilgisayar\u0131ndaki Thunderbird</td>\n<td>\u0130\u015f\n</td>\n</tr></table><table width=\"100%\" border=\"1\"><tr><th>Veri T\u00fcr\u00fc</th>\n<th>Esas/Yedek</th>\n<th>Depolama Ayg\u0131t\u0131</th>\n<th>Konum</th>\n\n</tr><tr><td>SMS'ler &amp; cep telefonu ki\u015filer listesi</td>\n<td>Esas</td>\n<td>Cep telefonu</td>\n<td>Yan\u0131mda\n</td>\n</tr><tr><td>SMS'ler &amp; cep telefonu ki\u015filer listesi</td>\n<td>Yedek</td>\n<td>Bilgisayar s\u00fcr\u00fcc\u00fcs\u00fc</td>\n<td>\u0130\u015f\n</td>\n</tr><tr><td>SMS'ler &amp; cep telefonu ki\u015filer listesi</td>\n<td>Yedek</td>\n<td>SIM kart\u0131nda yedekli</td>\n<td>Ev\n</td>\n</tr></table><table width=\"100%\" border=\"1\"><tr><th>Veri T\u00fcr\u00fc</th>\n<th>Esas/Yedek</th>\n<th>Depolama Ayg\u0131t\u0131</th>\n<th>Konum</th>\n\n</tr><tr><td>Bas\u0131l\u0131 belgeler</td>\n<td>Esas</td>\n<td>\u00c7al\u0131\u015fma masas\u0131 \u00e7ekmecesi</td>\n<td>\u0130\u015f\n</td>\n</tr><tr><td>Taranm\u0131\u015f belgeler</td>\n<td>Yedek</td>\n<td>CD'ler</td>\n<td>Ev\n</td>\n</tr></table><div class=\"background\">\n\n<p>Elena: \u00d6nemli belgelerini, taslaklara ekleyerek ya da kendilerine e-posta g\u00f6ndererek Gmail\u2019de saklayan insanlar tan\u0131yorum. Bu dosyalar\u0131m i\u00e7in 'ikinci fiziksel konum' olarak kabul edilebilir mi?</p>\n\n<p>Nikolai: Bir ya da iki \u00f6nemli belgeni kaybetti\u011finde onlar\u0131 kurtarmana yard\u0131mc\u0131 olabilir ama olduk\u00e7a garip bir y\u00f6ntem. Do\u011fruyu s\u00f6ylemek gerekirse bu \u015fekilde bir haftada ka\u00e7 belgeyi yedeklemek istersin? Dahas\u0131 bu ekli belgelerin g\u00fcvende olup olmad\u0131\u011f\u0131n\u0131 da g\u00f6z \u00f6n\u00fcnde bulundurmal\u0131s\u0131n. \u00d6zellikle de e-postalar\u0131n\u0131n izlendi\u011fi konusunda endi\u015fe ediyorsan... Gmail\u2019e g\u00fcvenli bir \u015fekilde ba\u011flanm\u0131yorsan, bu, hassas bilgilerini g\u00fcm\u00fc\u015f bir tepside sunmaya benzer. K\u00fc\u00e7\u00fck Truecrypt dosyalar\u0131n\u0131 ya da KeePass veri taban\u0131 dosyalar\u0131n\u0131 yedeklemek i\u00e7in Gmail\u2019e ba\u011flanmak i\u00e7in bir HTTPS kullanmak g\u00fcvenli olabilir ama genel ama\u00e7l\u0131 yedekleme stratejisi olarak bunu kesinlikle tavsiye etmiyorum.</p>\n\n</div>\n", 
+                        "summary": "", 
+                        "value": "Yukar\u0131daki t\u00fcm veri t\u00fcrlerini yedeklemek i\u00e7in yaz\u0131l\u0131m\u0131n ve at\u0131lmas\u0131 gereken bir dizi ad\u0131m\u0131n bir kombinasyonuna gereksiniminiz olacak. Temelde, her bir veri t\u00fcr\u00fcn\u00fcn en az iki ayr\u0131 konumda depoland\u0131\u011f\u0131ndan emin olmal\u0131s\u0131n\u0131z.\r\n\r\n**Elektronik belgeler** - A\u015fa\u011f\u0131da ayr\u0131nt\u0131lar\u0131yla betimlenen [*Cobian Backup*](/tr/glossary#Cobian_Backup) gibi bir program kullanarak bilgisayar\u0131n\u0131zdaki belgelerin eksiksiz bir yede\u011fini olu\u015fturun. Yede\u011fi ta\u015f\u0131nabilir bir \u015feyde muhafaza edin ki evinize ya da bir ba\u015fka g\u00fcvenli yere onu g\u00f6t\u00fcrebilesiniz. Harici sabit diskler, CD/DVD\u2019ler ya da USB bellekler olas\u0131 se\u00e7eneklerdir. Baz\u0131lar\u0131, \u00fczerine yazma ya da yede\u011fini kaybetme riski daha d\u00fc\u015f\u00fck oldu\u011fundan bu i\u015f i\u00e7in CD\u2019leri ya da DVD\u2019leri tercih etmektedir. Bo\u015f CD\u2019ler her yedeklemede yeni bir tane kullanman\u0131za izin verecek kadar ucuz olabilir.\r\n\r\nBu veri kategorisi \u00e7o\u011fu zaman en hassas bilgileri i\u00e7erdi\u011finden elektronik belge yedeklerinizi \u015fifreleme kullanarak yedeklemeniz \u00f6zellikle \u00f6nemlidir. Bunu nas\u0131l yapaca\u011f\u0131n\u0131z\u0131 [***4. B\u00f6l\u00fcm: Bilgisayar\u0131n\u0131zdaki hassas dosyalar\u0131 nas\u0131l korursunuz***](/tr/chapter-4)\u2019dan ve [***TrueCrypt Rehberi***](/en/truecrypt_main)\u2019nden \u00f6\u011frenebilirsiniz.\r\n\r\n**Program veri tabanlar\u0131** - Program veri tabanlar\u0131n\u0131z\u0131n konumuna karar verdikten sonra, onlar\u0131 da elektronik belgelerle ayn\u0131 \u015fekilde yedekleyebilirsiniz.\r\n\r\n**E-posta** - E-postalar\u0131n\u0131za sadece bir web taray\u0131c\u0131s\u0131 arac\u0131l\u0131\u011f\u0131yla eri\u015fmek yerine, [*Thunderbird*](/tr/glossary#Thunderbird) gibi lokal bir e-posta program\u0131 kurun ve hesab\u0131n\u0131zla birlikte \u00e7al\u0131\u015facak \u015fekilde onu d\u00fczenleyin. [***Thunderbird Rehberi***](/en/thunderbird_main) bunu nas\u0131l yapaca\u011f\u0131n\u0131z\u0131 ayr\u0131nt\u0131lar\u0131yla a\u00e7\u0131klar. Ayr\u0131ca bir\u00e7ok e-posta hizmeti de bu t\u00fcr programlar\u0131 nas\u0131l kullanaca\u011f\u0131n\u0131z ve \u00e7o\u011fu zaman da e-posta adreslerinizi onlara nas\u0131l aktaraca\u011f\u0131n\u0131z konusunda talimatlar sa\u011flar. Bunun hakk\u0131nda daha fazlas\u0131n\u0131 Okumalar k\u0131sm\u0131nda \u00f6\u011frenebilirsiniz. Eski e-posta mesajlar\u0131n\u0131z\u0131n (\u00f6rne\u011fin g\u00fcvenlik gerek\u00e7eleriyle) sunucunuzda depolanmamas\u0131 i\u00e7in bilgisayar\u0131n\u0131za ta\u015f\u0131maya karar verdiyseniz yukar\u0131da betimlenen elektronik belgelerin yedeklenmesine onlar\u0131 da dahil etti\u011finizden emin olun.\r\n\r\n**Cep telefonu i\u00e7eri\u011fi** - Cep telefonunuzdaki telefon numaralar\u0131n\u0131 ve yaz\u0131l\u0131 mesajlar\u0131 yedeklemek i\u00e7in telefonunuzu, genellikle telefonunuzun \u00fcreticisinin web sitesinde bulabilece\u011finiz uygun bir yaz\u0131l\u0131m kullanarak bilgisayar\u0131n\u0131za ba\u011flayabilirsiniz. Bunun i\u00e7in \u00f6zel bir USB kablo sat\u0131n alman\u0131z gerekebilir.\r\n\r\n**Bas\u0131l\u0131 belgeler** - M\u00fcmk\u00fcnse t\u00fcm \u00f6nemli ka\u011f\u0131tlar\u0131n\u0131z\u0131 taramal\u0131s\u0131n\u0131z, ard\u0131ndan da yukar\u0131da ele al\u0131nd\u0131\u011f\u0131 gibi, di\u011fer elektronik belgelerinizle birlikte yedeklemelisiniz.\r\n\r\nSonunda; depolama ayg\u0131t\u0131n\u0131z\u0131, veri t\u00fcrlerinizi ve yedeklerinizi, bilgilerinizi felaketlere kar\u015f\u0131 daha diren\u00e7li k\u0131lacak \u015fekilde yeniden d\u00fczenlemelisiniz:\r\n\r\n<table width=\"100%\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Veri T\u00fcr\u00fc</th>\r\n<th>Esas/Yedek</th>\r\n<th>Depolama Ayg\u0131t\u0131</th>\r\n<th>Konum</th>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>Elektronik belgeler</td>\r\n<td>Esas</td>\r\n<td>Bilgisayar s\u00fcr\u00fcc\u00fcs\u00fc</td>\r\n<td>\u0130\u015f\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>Elektronik belgeler</td>\r\n<td>Yedek</td>\r\n<td>CD'ler</td>\r\n<td>Ev\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>Birka\u00e7 \u00f6nemli elektronik belge</td>\r\n<td>Yedek</td>\r\n<td>USB bellek</td>\r\n<td>Yan\u0131mda\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n\r\n\r\n\r\n<table width=\"100%\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Veri T\u00fcr\u00fc</th>\r\n<th>Esas/Yedek</th>\r\n<th>Depolama Ayg\u0131t\u0131</th>\r\n<th>Konum</th>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>Program veri tabanlar\u0131</td>\r\n<td>Esas</td>\r\n<td>Bilgisayar s\u00fcr\u00fcc\u00fcs\u00fc</td>\r\n<td>\u0130\u015f\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>Program veri tabanlar\u0131</td>\r\n<td>Yedek</td>\r\n<td>CD'ler</td>\r\n<td>Ev\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n\r\n\r\n\r\n<table width=\"100%\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Veri T\u00fcr\u00fc</th>\r\n<th>Esas/Yedek</th>\r\n<th>Depolama Ayg\u0131t\u0131</th>\r\n<th>Konum</th>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>E-posta &amp; e-posta ki\u015fileri</td>\r\n<td>Yedek</td>\r\n<td>Gmail hesab\u0131</td>\r\n<td>\u0130nternet\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>E-posta &amp; e-posta ki\u015fileri</td>\r\n<td>Esas</td>\r\n<td>\u0130\u015f yeri bilgisayar\u0131ndaki Thunderbird</td>\r\n<td>\u0130\u015f\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n\r\n\r\n\r\n<table width=\"100%\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Veri T\u00fcr\u00fc</th>\r\n<th>Esas/Yedek</th>\r\n<th>Depolama Ayg\u0131t\u0131</th>\r\n<th>Konum</th>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>SMS'ler &amp; cep telefonu ki\u015filer listesi</td>\r\n<td>Esas</td>\r\n<td>Cep telefonu</td>\r\n<td>Yan\u0131mda\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>SMS'ler &amp; cep telefonu ki\u015filer listesi</td>\r\n<td>Yedek</td>\r\n<td>Bilgisayar s\u00fcr\u00fcc\u00fcs\u00fc</td>\r\n<td>\u0130\u015f\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>SMS'ler &amp; cep telefonu ki\u015filer listesi</td>\r\n<td>Yedek</td>\r\n<td>SIM kart\u0131nda yedekli</td>\r\n<td>Ev\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n\r\n\r\n\r\n<table width=\"100%\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Veri T\u00fcr\u00fc</th>\r\n<th>Esas/Yedek</th>\r\n<th>Depolama Ayg\u0131t\u0131</th>\r\n<th>Konum</th>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>Bas\u0131l\u0131 belgeler</td>\r\n<td>Esas</td>\r\n<td>\u00c7al\u0131\u015fma masas\u0131 \u00e7ekmecesi</td>\r\n<td>\u0130\u015f\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>Taranm\u0131\u015f belgeler</td>\r\n<td>Yedek</td>\r\n<td>CD'ler</td>\r\n<td>Ev\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n\r\n\r\n\r\n<div class=\"background\" markdown=\"1\">\r\n\r\nElena: \u00d6nemli belgelerini, taslaklara ekleyerek ya da kendilerine e-posta g\u00f6ndererek Gmail\u2019de saklayan insanlar tan\u0131yorum. Bu dosyalar\u0131m i\u00e7in 'ikinci fiziksel konum' olarak kabul edilebilir mi?\r\n\r\nNikolai: Bir ya da iki \u00f6nemli belgeni kaybetti\u011finde onlar\u0131 kurtarmana yard\u0131mc\u0131 olabilir ama olduk\u00e7a garip bir y\u00f6ntem. Do\u011fruyu s\u00f6ylemek gerekirse bu \u015fekilde bir haftada ka\u00e7 belgeyi yedeklemek istersin? Dahas\u0131 bu ekli belgelerin g\u00fcvende olup olmad\u0131\u011f\u0131n\u0131 da g\u00f6z \u00f6n\u00fcnde bulundurmal\u0131s\u0131n. \u00d6zellikle de e-postalar\u0131n\u0131n izlendi\u011fi konusunda endi\u015fe ediyorsan... Gmail\u2019e g\u00fcvenli bir \u015fekilde ba\u011flanm\u0131yorsan, bu, hassas bilgilerini g\u00fcm\u00fc\u015f bir tepside sunmaya benzer. K\u00fc\u00e7\u00fck Truecrypt dosyalar\u0131n\u0131 ya da KeePass veri taban\u0131 dosyalar\u0131n\u0131 yedeklemek i\u00e7in Gmail\u2019e ba\u011flanmak i\u00e7in bir HTTPS kullanmak g\u00fcvenli olabilir ama genel ama\u00e7l\u0131 yedekleme stratejisi olarak bunu kesinlikle tavsiye etmiyorum.\r\n</div>"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1946", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1946", 
+                "link_title": "\u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb\u1799\u17bb\u1791\u17d2\u1792\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u1790\u178f\u1785\u1798\u17d2\u179b\u1784\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780\u1791\u17bb\u1780", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5091", 
+                "module": "book", 
+                "nid": "1946", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5089", 
+                "p3": "5091", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5089", 
+                "router_path": "node/%", 
+                "title": "\u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb\u1799\u17bb\u1791\u17d2\u1792\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u1790\u178f\u1785\u1798\u17d2\u179b\u1784\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780\u1791\u17bb\u1780", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1452272159", 
+            "comment": "0", 
+            "created": "1441103810", 
+            "current_revision_id": "12775", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_5_2", 
+                        "value": "chapter_5_2"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5091": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1946", 
+                    "link_title": "\u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb\u1799\u17bb\u1791\u17d2\u1792\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u1790\u178f\u1785\u1798\u17d2\u179b\u1784\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780\u1791\u17bb\u1780", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5091", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5089", 
+                    "p3": "5091", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5089", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1946", 
+            "num_revisions": "23", 
+            "path": "https://securityinabox.org/en/node/1946", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452272159", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Yedekleme stratejinizi tan\u0131mlamak", 
+                        "value": "Yedekleme stratejinizi tan\u0131mlamak"
+                    }
+                ]
+            }, 
+            "title_original": "Defining your backup strategy", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916117", 
+                        "created": "1442916117", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227165", 
+                        "created": "1441805243", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096027", 
+                        "created": "1443096027", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442411075", 
+                        "created": "1442411075", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451914848", 
+                        "created": "1441206364", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089642", 
+                        "created": "1442759404", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695358", 
+                        "created": "1443695358", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452272159", 
+                        "created": "1452272159", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443103151", 
+                        "created": "1443103151", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113918", 
+                        "created": "1441113918", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443725005", 
+                        "created": "1443724772", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444405613", 
+                        "created": "1444405613", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "tr": {
+                        "changed": "1443100210", 
+                        "created": "1443100210", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092348", 
+                        "created": "1443092348", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441103830", 
+                        "created": "1441103810", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577596", 
+                        "created": "1443622947", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "d78845e1-d983-4e5d-a60a-d92897aa2812", 
+            "vid": "12775", 
+            "vuuid": "44b7f563-d7f0-45b4-a04e-7d9f314b7121"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Burada ele al\u0131nan veri tiplerinden bir yedekleme stratejisi olu\u015ftururken, insanlar\u0131n hakk\u0131nda en \u00e7ok endi\u015fe duyduklar\u0131 veri tipi \u2018elektronik belgeler\u2019dir. Bu kavram her ne kadar mu\u011flaksa da genellikle, kayd\u0131n\u0131 kendinizin tuttu\u011fu, ya \u00e7ift t\u0131klayarak ya da belirli bir uygulaman\u0131n dosya men\u00fcs\u00fcn\u00fc kullanarak, man\u00fcel olarak a\u00e7t\u0131\u011f\u0131n\u0131z dosyalar\u0131 i\u015faret eder. \u00d6zellikle, di\u011fer \u00f6rneklerin yan\u0131 s\u0131ra metin dosyalar\u0131n\u0131, s\u00f6zc\u00fck i\u015flem belgelerini, sunumlar\u0131, pdf\u2019leri ve veri depolar\u0131n\u0131 kapsar. \u00d6rne\u011fin, e-posta mesajlar\u0131n\u0131n aksine, elektronik belgeler internet \u00fczerinden uzaktaki kopyalar\u0131yla senkronize edilmezler.</p>\n\n<p>Elektronik belgeleri yedeklerken program veritabanlar\u0131n\u0131 da yedeklemeyi hat\u0131rlamal\u0131s\u0131n\u0131z. \u00d6rne\u011fin bir takvim uygulamas\u0131 ya da bir elektronik adres defteri kullan\u0131yorsan\u0131z, bu programlar\u0131n verilerini depolamak i\u00e7in kulland\u0131\u011f\u0131 klas\u00f6r\u00fc de bulman\u0131z gerekir. Umal\u0131m ki bu veritabanlar\u0131 elektronik belgelerinizle ayn\u0131 konumda olsun, bunlar Windows tabanl\u0131 bilgisayarlarda genellikle <em>Belgelerim</em> klas\u00f6r\u00fcn\u00fcn alt\u0131nda saklan\u0131r. Durum bu de\u011filse, uygun klas\u00f6rleri d\u00fczenli yedeklemenize eklemeniz gerekir.</p>\n\n<p><a href=\"/tr/glossary#Thunderbird\"><em>Thunderbird</em></a> gibi uygulamalar taraf\u0131ndan depolanan e-postalar bir program\u0131n veri taban\u0131na \u00f6zel bir \u00f6rnektir. Bir e-posta program\u0131 kullan\u0131yorsan\u0131z, \u00f6zellikle de mesaj\u0131n\u0131z\u0131n sunucuda bir kopyas\u0131n\u0131 depolayam\u0131yorsan\u0131z ya da depolamak istemiyorsan\u0131z, o halde e-posta veri taban\u0131n\u0131z\u0131n d\u00fczenli yedeklemelerinize dahil oldu\u011fundan emin olmal\u0131s\u0131n\u0131z. G\u00f6r\u00fcnt\u00fc ve video dosyalar\u0131n\u0131z\u0131, onlarla nas\u0131l etkile\u015fim halinde oldu\u011funuza ba\u011fl\u0131 olarak, bir program\u0131n veri taban\u0131ndaki elektronik belgeler ya da nesneler olarak d\u00fc\u015f\u00fcnebilirsiniz. \u00d6rne\u011fin Windows Media Player ve iTunes gibi uygulamalar, veri tabanlar\u0131 gibi i\u015fler. Bu gibi programlar\u0131 kullan\u0131yorsan\u0131z, y\u00f6netimine yard\u0131mc\u0131 olduklar\u0131 ger\u00e7ek medya dosyalar\u0131n\u0131 nereye depolad\u0131klar\u0131n\u0131 \u00f6\u011frenmek i\u00e7in sabit diskinizi taraman\u0131z gerekebilir.</p>\n\n<h3>Depolama ayg\u0131tlar\u0131</h3>\n\n<p>Elektronik belgelerinizi yedeklemeden \u00f6nce, ne t\u00fcr bir depolama ayg\u0131t\u0131 kullanaca\u011f\u0131n\u0131za karar vermelisiniz.</p>\n\n<p><strong>USB bellekler</strong> - USB bellekler ucuz olabilir ve geni\u015f kapasiteler sunabilir. Defalarca silmesi ya da \u00fczerine yeniden yazmas\u0131 kolayd\u0131r. USB belleklerin, kullan\u0131m s\u0131kl\u0131\u011f\u0131na ve bi\u00e7imine ba\u011fl\u0131 olarak, s\u0131n\u0131rl\u0131 \u00f6m\u00fcrleri vard\u0131r ama kullan\u0131m s\u00fcreleri genellikle yakla\u015f\u0131k olarak 10 y\u0131l olarak tahmin edilir.</p>\n\n<p><strong>Kompakt Diskler (CD\u2019ler)</strong> CD\u2019ler yakla\u015f\u0131k 700 Megabyte (MB) veri depolar. CD\u2019lere yap\u0131lacak yedekleme i\u00e7in bir <a href=\"/tr/glossary#CD_burner\"><em>CD yaz\u0131c\u0131s\u0131na</em></a> ve bo\u015f disklere gereksiniminiz olacakt\u0131r. Bir CD\u2019yi silmek ve kaydetti\u011finiz dosyalar\u0131 yenilemek i\u00e7in bir CD-RW yaz\u0131c\u0131s\u0131na ve yeniden yaz\u0131labilir CD\u2019lere gereksinimiz olacakt\u0131r. \u015eimdilerde Windows XP dahil, belli ba\u015fl\u0131 t\u00fcm i\u015fletim sistemleri, CD\u2019ler ve CD-RW\u2019ler yazabilen dahili bir yaz\u0131l\u0131m i\u00e7ermektedir. Bu disklere yaz\u0131lan bilgilerin be\u015f ya da on y\u0131l sonra bozulmaya ba\u015flayabilece\u011fini akl\u0131n\u0131zda bulundurmal\u0131s\u0131n\u0131z. Bu s\u00fcreden daha uzun bir s\u00fcre bir yedekleme depolamaya gereksinimiz varsa bu CD\u2019leri zaman zaman yeniden olu\u015fturman\u0131z, \u00f6zel 'uzun \u00f6m\u00fcrl\u00fc' diskler sat\u0131n alman\u0131z ya da farkl\u0131 bir yedekleme y\u00f6ntemi kullanman\u0131z gerekir.</p>\n\n<p><strong>Dijital Video Diskler (DVD\u2019ler)</strong> - DVD\u2019ler 4.7 Gigabyte\u2019a (GB) kadar veri depolar. DVD\u2019ler de CD\u2019lere benzer \u015fekilde \u00e7al\u0131\u015f\u0131r ama biraz daha pahal\u0131 ekipmanlar gerektirir. Bir DVD ya da <a href=\"/tr/glossary#CD_burner\"><em>DVD-RW yaz\u0131c\u0131s\u0131na</em></a> uygun disklere gereksinimiz olacakt\u0131r. Bir CD\u2019de oldu\u011fu gibi normal DVD\u2019ye yaz\u0131lan veri, eninde sonunda silinmeye ba\u015flayacakt\u0131r.</p>\n\n<p><strong>Uzak sunucu</strong> - \u0130yi d\u00fczenlenmi\u015f bir a\u011f yedekleme sunucusu neredeyse s\u0131n\u0131rs\u0131z bir kapasiteye sahip olabilir ama internet ba\u011flant\u0131n\u0131z\u0131n h\u0131z\u0131 ve istikrar\u0131 bunun ger\u00e7ek\u00e7i bir se\u00e7enek olup olmayaca\u011f\u0131n\u0131 belirleyecektir. Ofisinizde bir yedekleme sunucusu \u00e7al\u0131\u015ft\u0131rmak her ne kadar internetten bilgi kopyalamaktan daha h\u0131zl\u0131 olsa da, \u00f6nemli verilerinizin bir kopyas\u0131n\u0131 iki farkl\u0131 fiziksel konumda saklama gereksiniminizi ihlal eder. \u0130nternette \u00fccretsiz depolama hizmetleri bulunmaktad\u0131r ama bilgilerinizi \u00e7evrimi\u00e7i hale getirme riski \u00fczerinde dikkatle d\u00fc\u015f\u00fcnmelisiniz ve bilmedi\u011finiz ya da g\u00fcvenmedi\u011finiz kurulu\u015flar ya da ki\u015filer taraf\u0131ndan i\u015fletilen sunuculara yedeklemelerinizi y\u00fcklemeden \u00f6nce onlar\u0131 daima \u015fifrelemelisiniz. Birka\u00e7 \u00f6rnek i\u00e7in <a href=\"/tr/chapter_5_5\"><strong><em>Okuma \u00f6nerileri</em></strong></a> b\u00f6l\u00fcm\u00fcne bak\u0131n\u0131z.</p>\n\n<h3>Yedekleme Yaz\u0131l\u0131m\u0131</h3>\n\n<p>Cobian Yedekleme; d\u00fczenli olarak planlanm\u0131\u015f zaman aral\u0131klar\u0131yla \u00e7al\u0131\u015fmas\u0131 ve sadece son yedeklemeden sonra de\u011fi\u015ftirilen dosyalar\u0131 i\u00e7ermesi i\u00e7in otomatik olarak ayarlanabilen, kullan\u0131c\u0131 dostu bir ara\u00e7t\u0131r. Ayr\u0131ca yedeklemeleri daha k\u00fc\u00e7\u00fck hale getirmek i\u00e7in onlar\u0131 s\u0131k\u0131\u015ft\u0131rabilir.</p>\n\n<div class=\"getstarted\">\n\n<p>Uygulama: <a href=\"/en/cobian_main\"><em>Cobain Yedekleme Rehberi</em></a> ile uygulamaya ba\u015flay\u0131n</p>\n\n</div>\n\n<p>Her zaman oldu\u011fu gibi, yedekleme dosyalar\u0131n\u0131z\u0131 <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a> gibi bir ara\u00e7 kullanarak \u015fifrelemek iyi bir fikirdir. Veri \u015fifreleme konusunda daha fazla bilgi <a href=\"/tr/chapter-4\"><strong><em>Bilgisayar\u0131n\u0131zdaki hassas dosyalar\u0131 nas\u0131l korursunuz</em></strong></a> ba\u015fl\u0131kl\u0131 <a href=\"/tr/chapter-4\"><strong><em>4. B\u00f6l\u00fcm</em></strong></a>\u2019de bulunabilir.</p>\n\n<div class=\"getstarted\">\n\n<p>Uygulama: <a href=\"/en/truecrypt_main\"><em>TrueCrypt - G\u00fcvenli Dosya Depolama Rehberi</em></a> ile uygulamaya ba\u015flay\u0131n</p>\n\n</div>\n\n<p>Bu yedekleme ara\u00e7lar\u0131n\u0131 kullan\u0131rken yedekleme sisteminizin p\u00fcr\u00fczs\u00fcz bir \u015fekilde i\u015flemesine yard\u0131m etmek i\u00e7in yapabilece\u011finiz birka\u00e7 \u015fey var:</p>\n\n<ul><li>Bilgisayar\u0131n\u0131zdaki dosyalar\u0131 d\u00fczenleyin. Yedeklemeye niyetlendi\u011finiz t\u00fcm elektronik belgeleri i\u00e7eren klas\u00f6rleri tek bir konuma, \u00f6rne\u011fin <strong>Belgelerim</strong> klas\u00f6r\u00fcne ta\u015f\u0131maya \u00e7al\u0131\u015f\u0131n.  </li>\n<li>Verilerini uygulama veri taban\u0131nda depolayan bir yaz\u0131l\u0131m kullan\u0131yorsan\u0131z \u00f6ncelikle bu veri taban\u0131n\u0131n konumunu belirlemeniz gerekir. Bu uygun bir konum de\u011filse program\u0131n\u0131z\u0131n veri taban\u0131 i\u00e7in yeni bir konum se\u00e7menize izin verip vermedi\u011fine bak\u0131n. \u0130zin veriyorsa veri taban\u0131n\u0131, elektronik belgelerinizle ayn\u0131 klas\u00f6re yerle\u015ftirebilirsiniz. </li>\n<li>Yedeklemelerinizi ger\u00e7ekle\u015ftirmek i\u00e7in d\u00fczenli bir zamanlama plan\u0131 olu\u015fturun.</li>\n<li>Ofisinizde g\u00fcvenilir ve g\u00fcvenli bir yedekleme politikas\u0131 olmayan t\u00fcm \u00e7al\u0131\u015fanlar i\u00e7in bir prosed\u00fcr olu\u015fturmaya \u00e7al\u0131\u015f\u0131n. \u0130\u015f arkada\u015flar\u0131n\u0131z\u0131n bu sorunun \u00f6nemini anlamalar\u0131na yard\u0131mc\u0131 olun. </li>\n<li>Yedeklemenizden verilerinizi kurtarma i\u015flemini test etti\u011finizden emin olun. Nihayetinde sizin i\u00e7in ger\u00e7ekten \u00f6nemli olan\u0131n yedekleme prosed\u00fcr\u00fc de\u011fil kurtarma prosed\u00fcr\u00fc oldu\u011funu akl\u0131n\u0131zda bulundurun!</li>\n</ul><div class=\"background\">\n\n<p>Elena: Tamam, i\u015fteyken \u015fifreli bir yedek olu\u015fturdum ve onu bir CD\u2019ye kaydettim. Cobian, yede\u011fimi birka\u00e7 g\u00fcn i\u00e7inde g\u00fcncellemek \u00fczere ayarland\u0131. \u0130\u015f yerindeki masam\u0131n kilitlenebilir bir \u00e7ekmecesi var ve bu yedekleme CD\u2019lerini, kaybolmas\u0131nlar ya da bozulmas\u0131nlar diye, orada saklamay\u0131 planl\u0131yorum.</p>\n\n<p>Nikolai: Ama ya i\u015f yerin yan\u0131p k\u00fcl olursa? Di\u011fer \u015feylerle birlikte, bilgisayar, masa, yedekleme CD\u2019leri de\u2026? Ya da web sitendeki forum b\u00fcy\u00fck bir \u00e7evresel g\u00f6steri planlamaya karar verirse ve yetkililer m\u00fcdahale eder ve i\u015fler \u00e7\u0131\u011f\u0131r\u0131ndan \u00e7\u0131k\u0131p \u00f6rg\u00fct\u00fcne bask\u0131n d\u00fczenlerlerse? K\u00fc\u00e7\u00fck masa kilidinin polislerin o CD\u2019lere el koymas\u0131n\u0131 engelleyebilece\u011fi konusunda \u015f\u00fcpheliyim. Yedeklerini evinde saklamaya ya da senin i\u00e7in saklamas\u0131 i\u00e7in bir arkada\u015f\u0131na sormaya ne dersin?</p>\n\n</div>\n", 
+                        "summary": "", 
+                        "value": "Burada ele al\u0131nan veri tiplerinden bir yedekleme stratejisi olu\u015ftururken, insanlar\u0131n hakk\u0131nda en \u00e7ok endi\u015fe duyduklar\u0131 veri tipi \u2018elektronik belgeler\u2019dir. Bu kavram her ne kadar mu\u011flaksa da genellikle, kayd\u0131n\u0131 kendinizin tuttu\u011fu, ya \u00e7ift t\u0131klayarak ya da belirli bir uygulaman\u0131n dosya men\u00fcs\u00fcn\u00fc kullanarak, man\u00fcel olarak a\u00e7t\u0131\u011f\u0131n\u0131z dosyalar\u0131 i\u015faret eder. \u00d6zellikle, di\u011fer \u00f6rneklerin yan\u0131 s\u0131ra metin dosyalar\u0131n\u0131, s\u00f6zc\u00fck i\u015flem belgelerini, sunumlar\u0131, pdf\u2019leri ve veri depolar\u0131n\u0131 kapsar. \u00d6rne\u011fin, e-posta mesajlar\u0131n\u0131n aksine, elektronik belgeler internet \u00fczerinden uzaktaki kopyalar\u0131yla senkronize edilmezler. \r\n\r\nElektronik belgeleri yedeklerken program veritabanlar\u0131n\u0131 da yedeklemeyi hat\u0131rlamal\u0131s\u0131n\u0131z. \u00d6rne\u011fin bir takvim uygulamas\u0131 ya da bir elektronik adres defteri kullan\u0131yorsan\u0131z, bu programlar\u0131n verilerini depolamak i\u00e7in kulland\u0131\u011f\u0131 klas\u00f6r\u00fc de bulman\u0131z gerekir. Umal\u0131m ki bu veritabanlar\u0131 elektronik belgelerinizle ayn\u0131 konumda olsun, bunlar Windows tabanl\u0131 bilgisayarlarda genellikle *Belgelerim* klas\u00f6r\u00fcn\u00fcn alt\u0131nda saklan\u0131r. Durum bu de\u011filse, uygun klas\u00f6rleri d\u00fczenli yedeklemenize eklemeniz gerekir. \r\n\r\n[*Thunderbird*](/tr/glossary#Thunderbird) gibi uygulamalar taraf\u0131ndan depolanan e-postalar bir program\u0131n veri taban\u0131na \u00f6zel bir \u00f6rnektir. Bir e-posta program\u0131 kullan\u0131yorsan\u0131z, \u00f6zellikle de mesaj\u0131n\u0131z\u0131n sunucuda bir kopyas\u0131n\u0131 depolayam\u0131yorsan\u0131z ya da depolamak istemiyorsan\u0131z, o halde e-posta veri taban\u0131n\u0131z\u0131n d\u00fczenli yedeklemelerinize dahil oldu\u011fundan emin olmal\u0131s\u0131n\u0131z. G\u00f6r\u00fcnt\u00fc ve video dosyalar\u0131n\u0131z\u0131, onlarla nas\u0131l etkile\u015fim halinde oldu\u011funuza ba\u011fl\u0131 olarak, bir program\u0131n veri taban\u0131ndaki elektronik belgeler ya da nesneler olarak d\u00fc\u015f\u00fcnebilirsiniz. \u00d6rne\u011fin Windows Media Player ve iTunes gibi uygulamalar, veri tabanlar\u0131 gibi i\u015fler. Bu gibi programlar\u0131 kullan\u0131yorsan\u0131z, y\u00f6netimine yard\u0131mc\u0131 olduklar\u0131 ger\u00e7ek medya dosyalar\u0131n\u0131 nereye depolad\u0131klar\u0131n\u0131 \u00f6\u011frenmek i\u00e7in sabit diskinizi taraman\u0131z gerekebilir. \r\n\r\n\r\n### Depolama ayg\u0131tlar\u0131 ###\r\n\r\nElektronik belgelerinizi yedeklemeden \u00f6nce, ne t\u00fcr bir depolama ayg\u0131t\u0131 kullanaca\u011f\u0131n\u0131za karar vermelisiniz.\r\n\r\n**USB bellekler** - USB bellekler ucuz olabilir ve geni\u015f kapasiteler sunabilir. Defalarca silmesi ya da \u00fczerine yeniden yazmas\u0131 kolayd\u0131r. USB belleklerin, kullan\u0131m s\u0131kl\u0131\u011f\u0131na ve bi\u00e7imine ba\u011fl\u0131 olarak, s\u0131n\u0131rl\u0131 \u00f6m\u00fcrleri vard\u0131r ama kullan\u0131m s\u00fcreleri genellikle yakla\u015f\u0131k olarak 10 y\u0131l olarak tahmin edilir.\r\n\r\n**Kompakt Diskler (CD\u2019ler)** CD\u2019ler yakla\u015f\u0131k 700 Megabyte (MB) veri depolar. CD\u2019lere yap\u0131lacak yedekleme i\u00e7in bir [*CD yaz\u0131c\u0131s\u0131na*](/tr/glossary#CD_burner) ve bo\u015f disklere gereksiniminiz olacakt\u0131r. Bir CD\u2019yi silmek ve kaydetti\u011finiz dosyalar\u0131 yenilemek i\u00e7in bir CD-RW yaz\u0131c\u0131s\u0131na ve yeniden yaz\u0131labilir CD\u2019lere gereksinimiz olacakt\u0131r. \u015eimdilerde Windows XP dahil, belli ba\u015fl\u0131 t\u00fcm i\u015fletim sistemleri, CD\u2019ler ve CD-RW\u2019ler yazabilen dahili bir yaz\u0131l\u0131m i\u00e7ermektedir. Bu disklere yaz\u0131lan bilgilerin be\u015f ya da on y\u0131l sonra bozulmaya ba\u015flayabilece\u011fini akl\u0131n\u0131zda bulundurmal\u0131s\u0131n\u0131z. Bu s\u00fcreden daha uzun bir s\u00fcre bir yedekleme depolamaya gereksinimiz varsa bu CD\u2019leri zaman zaman yeniden olu\u015fturman\u0131z, \u00f6zel 'uzun \u00f6m\u00fcrl\u00fc' diskler sat\u0131n alman\u0131z ya da farkl\u0131 bir yedekleme y\u00f6ntemi kullanman\u0131z gerekir.\r\n\r\n**Dijital Video Diskler (DVD\u2019ler)** - DVD\u2019ler 4.7 Gigabyte\u2019a (GB) kadar veri depolar. DVD\u2019ler de CD\u2019lere benzer \u015fekilde \u00e7al\u0131\u015f\u0131r ama biraz daha pahal\u0131 ekipmanlar gerektirir. Bir DVD ya da [*DVD-RW yaz\u0131c\u0131s\u0131na*](/tr/glossary#CD_burner) uygun disklere gereksinimiz olacakt\u0131r. Bir CD\u2019de oldu\u011fu gibi normal DVD\u2019ye yaz\u0131lan veri, eninde sonunda silinmeye ba\u015flayacakt\u0131r.\r\n\r\n**Uzak sunucu** - \u0130yi d\u00fczenlenmi\u015f bir a\u011f yedekleme sunucusu neredeyse s\u0131n\u0131rs\u0131z bir kapasiteye sahip olabilir ama internet ba\u011flant\u0131n\u0131z\u0131n h\u0131z\u0131 ve istikrar\u0131 bunun ger\u00e7ek\u00e7i bir se\u00e7enek olup olmayaca\u011f\u0131n\u0131 belirleyecektir. Ofisinizde bir yedekleme sunucusu \u00e7al\u0131\u015ft\u0131rmak her ne kadar internetten bilgi kopyalamaktan daha h\u0131zl\u0131 olsa da, \u00f6nemli verilerinizin bir kopyas\u0131n\u0131 iki farkl\u0131 fiziksel konumda saklama gereksiniminizi ihlal eder. \u0130nternette \u00fccretsiz depolama hizmetleri bulunmaktad\u0131r ama bilgilerinizi \u00e7evrimi\u00e7i hale getirme riski \u00fczerinde dikkatle d\u00fc\u015f\u00fcnmelisiniz ve bilmedi\u011finiz ya da g\u00fcvenmedi\u011finiz kurulu\u015flar ya da ki\u015filer taraf\u0131ndan i\u015fletilen sunuculara yedeklemelerinizi y\u00fcklemeden \u00f6nce onlar\u0131 daima \u015fifrelemelisiniz. Birka\u00e7 \u00f6rnek i\u00e7in [***Okuma \u00f6nerileri***](/tr/chapter_5_5) b\u00f6l\u00fcm\u00fcne bak\u0131n\u0131z.\r\n\r\n### Yedekleme Yaz\u0131l\u0131m\u0131 ###\r\n\r\nCobian Yedekleme; d\u00fczenli olarak planlanm\u0131\u015f zaman aral\u0131klar\u0131yla \u00e7al\u0131\u015fmas\u0131 ve sadece son yedeklemeden sonra de\u011fi\u015ftirilen dosyalar\u0131 i\u00e7ermesi i\u00e7in otomatik olarak ayarlanabilen, kullan\u0131c\u0131 dostu bir ara\u00e7t\u0131r. Ayr\u0131ca yedeklemeleri daha k\u00fc\u00e7\u00fck hale getirmek i\u00e7in onlar\u0131 s\u0131k\u0131\u015ft\u0131rabilir.\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nUygulama: [*Cobain Yedekleme Rehberi*](/en/cobian_main) ile uygulamaya ba\u015flay\u0131n\r\n</div>\r\n\r\nHer zaman oldu\u011fu gibi, yedekleme dosyalar\u0131n\u0131z\u0131 [*TrueCrypt*](/tr/glossary#TrueCrypt) gibi bir ara\u00e7 kullanarak \u015fifrelemek iyi bir fikirdir. Veri \u015fifreleme konusunda daha fazla bilgi [***Bilgisayar\u0131n\u0131zdaki hassas dosyalar\u0131 nas\u0131l korursunuz***](/tr/chapter-4) ba\u015fl\u0131kl\u0131 [***4. B\u00f6l\u00fcm***](/tr/chapter-4)\u2019de bulunabilir.\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nUygulama: [*TrueCrypt - G\u00fcvenli Dosya Depolama Rehberi*](/en/truecrypt_main) ile uygulamaya ba\u015flay\u0131n\r\n</div>\r\n<p>\r\nBu yedekleme ara\u00e7lar\u0131n\u0131 kullan\u0131rken yedekleme sisteminizin p\u00fcr\u00fczs\u00fcz bir \u015fekilde i\u015flemesine yard\u0131m etmek i\u00e7in yapabilece\u011finiz birka\u00e7 \u015fey var:\r\n\r\n- Bilgisayar\u0131n\u0131zdaki dosyalar\u0131 d\u00fczenleyin. Yedeklemeye niyetlendi\u011finiz t\u00fcm elektronik belgeleri i\u00e7eren klas\u00f6rleri tek bir konuma, \u00f6rne\u011fin **Belgelerim** klas\u00f6r\u00fcne ta\u015f\u0131maya \u00e7al\u0131\u015f\u0131n.  \r\n- Verilerini uygulama veri taban\u0131nda depolayan bir yaz\u0131l\u0131m kullan\u0131yorsan\u0131z \u00f6ncelikle bu veri taban\u0131n\u0131n konumunu belirlemeniz gerekir. Bu uygun bir konum de\u011filse program\u0131n\u0131z\u0131n veri taban\u0131 i\u00e7in yeni bir konum se\u00e7menize izin verip vermedi\u011fine bak\u0131n. \u0130zin veriyorsa veri taban\u0131n\u0131, elektronik belgelerinizle ayn\u0131 klas\u00f6re yerle\u015ftirebilirsiniz. \r\n- Yedeklemelerinizi ger\u00e7ekle\u015ftirmek i\u00e7in d\u00fczenli bir zamanlama plan\u0131 olu\u015fturun.\r\n- Ofisinizde g\u00fcvenilir ve g\u00fcvenli bir yedekleme politikas\u0131 olmayan t\u00fcm \u00e7al\u0131\u015fanlar i\u00e7in bir prosed\u00fcr olu\u015fturmaya \u00e7al\u0131\u015f\u0131n. \u0130\u015f arkada\u015flar\u0131n\u0131z\u0131n bu sorunun \u00f6nemini anlamalar\u0131na yard\u0131mc\u0131 olun. \r\n- Yedeklemenizden verilerinizi kurtarma i\u015flemini test etti\u011finizden emin olun. Nihayetinde sizin i\u00e7in ger\u00e7ekten \u00f6nemli olan\u0131n yedekleme prosed\u00fcr\u00fc de\u011fil kurtarma prosed\u00fcr\u00fc oldu\u011funu akl\u0131n\u0131zda bulundurun!\r\n\r\n\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nElena: Tamam, i\u015fteyken \u015fifreli bir yedek olu\u015fturdum ve onu bir CD\u2019ye kaydettim. Cobian, yede\u011fimi birka\u00e7 g\u00fcn i\u00e7inde g\u00fcncellemek \u00fczere ayarland\u0131. \u0130\u015f yerindeki masam\u0131n kilitlenebilir bir \u00e7ekmecesi var ve bu yedekleme CD\u2019lerini, kaybolmas\u0131nlar ya da bozulmas\u0131nlar diye, orada saklamay\u0131 planl\u0131yorum.\r\n\r\n<i>Nikolai: Ama ya i\u015f yerin yan\u0131p k\u00fcl olursa? Di\u011fer \u015feylerle birlikte, bilgisayar, masa, yedekleme CD\u2019leri de\u2026? Ya da web sitendeki forum b\u00fcy\u00fck bir \u00e7evresel g\u00f6steri planlamaya karar verirse ve yetkililer m\u00fcdahale eder ve i\u015fler \u00e7\u0131\u011f\u0131r\u0131ndan \u00e7\u0131k\u0131p \u00f6rg\u00fct\u00fcne bask\u0131n d\u00fczenlerlerse? K\u00fc\u00e7\u00fck masa kilidinin polislerin o CD\u2019lere el koymas\u0131n\u0131 engelleyebilece\u011fi konusunda \u015f\u00fcpheliyim. Yedeklerini evinde saklamaya ya da senin i\u00e7in saklamas\u0131 i\u00e7in bir arkada\u015f\u0131na sormaya ne dersin?\r\n</div>"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1947", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1947", 
+                "link_title": "Creating a digital backup", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5092", 
+                "module": "book", 
+                "nid": "1947", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5089", 
+                "p3": "5092", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5089", 
+                "router_path": "node/%", 
+                "title": "Creating a digital backup", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1454082369", 
+            "comment": "0", 
+            "created": "1441103914", 
+            "current_revision_id": "13089", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_5_3", 
+                        "value": "chapter_5_3"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5092": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1947", 
+                    "link_title": "Creating a digital backup", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5092", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5089", 
+                    "p3": "5092", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5089", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1947", 
+            "num_revisions": "30", 
+            "path": "https://securityinabox.org/en/node/1947", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1454082369", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Dijital bir yedekleme yaratmak", 
+                        "value": "Dijital bir yedekleme yaratmak"
+                    }
+                ]
+            }, 
+            "title_original": "Creating a digital backup", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916199", 
+                        "created": "1442916199", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454082369", 
+                        "created": "1441805637", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096051", 
+                        "created": "1443096051", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442411165", 
+                        "created": "1442411165", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441206521", 
+                        "created": "1441206521", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447107685", 
+                        "created": "1442759428", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695377", 
+                        "created": "1443695377", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452272227", 
+                        "created": "1452272227", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443103218", 
+                        "created": "1443103218", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113995", 
+                        "created": "1441113995", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443726112", 
+                        "created": "1443726050", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444405747", 
+                        "created": "1444405690", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "tr": {
+                        "changed": "1443100234", 
+                        "created": "1443100234", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "xx": {
+                        "changed": "1446485621", 
+                        "created": "1441103914", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1947", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577641", 
+                        "created": "1443622977", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "0b70335e-f66b-407c-ab21-7702e3af4412", 
+            "vid": "13089", 
+            "vuuid": "d5c9b7fd-3ea6-4201-8f33-a51344ca39e7"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Windows\u2019da bir dosyay\u0131 sildi\u011finizde, dosya ortal\u0131ktan kaybolur ama i\u00e7eri\u011fi bilgisayarda kal\u0131r. <strong>Geri D\u00f6n\u00fc\u015f\u00fcm Kutusu</strong>\u2019nu bo\u015faltt\u0131ktan sonra bile, sildi\u011finiz dosyadaki bilgiler genelde hala s\u00fcr\u00fcc\u00fcn\u00fczde bulunabilir. Bu konuda daha fazla \u015fey \u00f6\u011frenmek i\u00e7in <a href=\"/tr/chapter-6\"><strong><em>Hassas bilgiler nas\u0131l imha edilir</em></strong></a> ba\u015fl\u0131kl\u0131 <a href=\"/tr/chapter-6\"><strong><em>6. B\u00f6l\u00fcm</em></strong></a>\u2019e bak\u0131n\u0131z. Zaman zaman \u00f6nemli bir dosyan\u0131z\u0131 ya da klas\u00f6r\u00fcn\u00fcz\u00fc kazara silerseniz, bu g\u00fcvenlik a\u00e7\u0131\u011f\u0131 sizin lehinize i\u015fleyebilir. K\u0131sa s\u00fcre \u00f6nce silinmi\u015f dosyalara eri\u015fimi yeniden sa\u011flayabilecek, <a href=\"/en/recuva_main\"><em>Recuva</em></a> adl\u0131 bir ara\u00e7 dahil, bir\u00e7ok program vard\u0131r.</p>\n\n<div class=\"getstarted\">\n\n<p>Uygulama: <a href=\"/en/recuva_main\"><em>Recuva - Dosya Kurtarma Rehberi</em></a> ile uygulamaya ba\u015flay\u0131n</p>\n\n</div>\n\n<p>Bu ara\u00e7lar her zaman \u00e7al\u0131\u015fmaz \u00e7\u00fcnk\u00fc Windows, silinmi\u015f bilgilerin \u00fczerine yeni veriler yazm\u0131\u015f olabilir. Bu nedenle bir dosyay\u0131 silmeniz ve <a href=\"/en/recuva_main\"><em>Recuva</em></a> gibi bir ara\u00e7la onu kurtarmaya giri\u015fmeniz aras\u0131nda ge\u00e7en s\u00fcrede bilgisayar\u0131n\u0131zla olabildi\u011fince az \u015fey yapman\u0131z \u00f6nemlidir. Dosyay\u0131 kurtarma i\u015fine giri\u015fmeden \u00f6nce bilgisayar\u0131n\u0131z\u0131 ne kadar uzun s\u00fcre kullan\u0131rsan\u0131z, ba\u015far\u0131l\u0131 olma \u015fans\u0131n\u0131z o kadar azal\u0131r. Bu, ayn\u0131 zamanda, \u00f6nemli bir dosyay\u0131 sildikten sonra <em>Recuva</em>\u2019y\u0131 kurmak yerine Recuva\u2019n\u0131n ta\u015f\u0131nabilir bir versiyonunu kullanman\u0131z gerekti\u011fi anlam\u0131na gelir. Bir yaz\u0131l\u0131m\u0131 kurmak dosya sistemine yeni bilgiler yazmay\u0131 gerektirir ki bu bilgiler, kurtarmaya \u00e7al\u0131\u015ft\u0131\u011f\u0131n\u0131z \u00f6nemli verinin \u00fczerine rastlant\u0131sal olarak yaz\u0131labilir.</p>\n\n<p>Bu b\u00f6l\u00fcmde betimlenen politikalar\u0131 uygulamak ve ara\u00e7lar\u0131 \u00f6\u011frenmek her ne kadar b\u00fcy\u00fck bir i\u015fmi\u015f gibi g\u00f6r\u00fcnse de bir kez oturmu\u015f bir sisteme sahip oldu\u011funuzda, yedekleme stratejinizi s\u00fcrd\u00fcrmek, ilk seferine g\u00f6re \u00e7ok daha kolay hale gelecektir. Ve yedekleme, veri g\u00fcvenli\u011finin en \u00f6nemli boyutu oldu\u011fundan, bu s\u00fcreci ge\u00e7mi\u015f olman\u0131z\u0131n \u00e7abalar\u0131n\u0131za de\u011fdi\u011finden emin olabilirsiniz.</p>\n", 
+                        "summary": "", 
+                        "value": "Windows\u2019da bir dosyay\u0131 sildi\u011finizde, dosya ortal\u0131ktan kaybolur ama i\u00e7eri\u011fi bilgisayarda kal\u0131r. **Geri D\u00f6n\u00fc\u015f\u00fcm Kutusu**\u2019nu bo\u015faltt\u0131ktan sonra bile, sildi\u011finiz dosyadaki bilgiler genelde hala s\u00fcr\u00fcc\u00fcn\u00fczde bulunabilir. Bu konuda daha fazla \u015fey \u00f6\u011frenmek i\u00e7in [***Hassas bilgiler nas\u0131l imha edilir***](/tr/chapter-6) ba\u015fl\u0131kl\u0131 [***6. B\u00f6l\u00fcm***](/tr/chapter-6)\u2019e bak\u0131n\u0131z. Zaman zaman \u00f6nemli bir dosyan\u0131z\u0131 ya da klas\u00f6r\u00fcn\u00fcz\u00fc kazara silerseniz, bu g\u00fcvenlik a\u00e7\u0131\u011f\u0131 sizin lehinize i\u015fleyebilir. K\u0131sa s\u00fcre \u00f6nce silinmi\u015f dosyalara eri\u015fimi yeniden sa\u011flayabilecek, [*Recuva*](/en/recuva_main) adl\u0131 bir ara\u00e7 dahil, bir\u00e7ok program vard\u0131r.\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nUygulama: [*Recuva - Dosya Kurtarma Rehberi*](/en/recuva_main) ile uygulamaya ba\u015flay\u0131n\r\n</div>\r\n\r\nBu ara\u00e7lar her zaman \u00e7al\u0131\u015fmaz \u00e7\u00fcnk\u00fc Windows, silinmi\u015f bilgilerin \u00fczerine yeni veriler yazm\u0131\u015f olabilir. Bu nedenle bir dosyay\u0131 silmeniz ve [*Recuva*](/en/recuva_main) gibi bir ara\u00e7la onu kurtarmaya giri\u015fmeniz aras\u0131nda ge\u00e7en s\u00fcrede bilgisayar\u0131n\u0131zla olabildi\u011fince az \u015fey yapman\u0131z \u00f6nemlidir. Dosyay\u0131 kurtarma i\u015fine giri\u015fmeden \u00f6nce bilgisayar\u0131n\u0131z\u0131 ne kadar uzun s\u00fcre kullan\u0131rsan\u0131z, ba\u015far\u0131l\u0131 olma \u015fans\u0131n\u0131z o kadar azal\u0131r. Bu, ayn\u0131 zamanda, \u00f6nemli bir dosyay\u0131 sildikten sonra *Recuva*\u2019y\u0131 kurmak yerine Recuva\u2019n\u0131n ta\u015f\u0131nabilir bir versiyonunu kullanman\u0131z gerekti\u011fi anlam\u0131na gelir. Bir yaz\u0131l\u0131m\u0131 kurmak dosya sistemine yeni bilgiler yazmay\u0131 gerektirir ki bu bilgiler, kurtarmaya \u00e7al\u0131\u015ft\u0131\u011f\u0131n\u0131z \u00f6nemli verinin \u00fczerine rastlant\u0131sal olarak yaz\u0131labilir.\r\n\r\nBu b\u00f6l\u00fcmde betimlenen politikalar\u0131 uygulamak ve ara\u00e7lar\u0131 \u00f6\u011frenmek her ne kadar b\u00fcy\u00fck bir i\u015fmi\u015f gibi g\u00f6r\u00fcnse de bir kez oturmu\u015f bir sisteme sahip oldu\u011funuzda, yedekleme stratejinizi s\u00fcrd\u00fcrmek, ilk seferine g\u00f6re \u00e7ok daha kolay hale gelecektir. Ve yedekleme, veri g\u00fcvenli\u011finin en \u00f6nemli boyutu oldu\u011fundan, bu s\u00fcreci ge\u00e7mi\u015f olman\u0131z\u0131n \u00e7abalar\u0131n\u0131za de\u011fdi\u011finden emin olabilirsiniz."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1948", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1948", 
+                "link_title": "Recovering from accidental file deletion", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5093", 
+                "module": "book", 
+                "nid": "1948", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5089", 
+                "p3": "5093", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5089", 
+                "router_path": "node/%", 
+                "title": "Recovering from accidental file deletion", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1455796357", 
+            "comment": "0", 
+            "created": "1441103974", 
+            "current_revision_id": "13255", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_5_4", 
+                        "value": "chapter_5_4"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5093": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1948", 
+                    "link_title": "Recovering from accidental file deletion", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5093", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5089", 
+                    "p3": "5093", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5089", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1948", 
+            "num_revisions": "23", 
+            "path": "https://securityinabox.org/en/node/1948", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455796357", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Kazara silinen dosyalar\u0131 kurtarmak ", 
+                        "value": "Kazara silinen dosyalar\u0131 kurtarmak "
+                    }
+                ]
+            }, 
+            "title_original": "Recovering from accidental file deletion", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916287", 
+                        "created": "1442916287", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227263", 
+                        "created": "1441805862", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096072", 
+                        "created": "1443096072", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442411235", 
+                        "created": "1442411235", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451915329", 
+                        "created": "1441206636", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089836", 
+                        "created": "1442759449", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1455796357", 
+                        "created": "1443695398", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452272286", 
+                        "created": "1452272286", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443103298", 
+                        "created": "1443103298", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441115004", 
+                        "created": "1441115004", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443726338", 
+                        "created": "1443726338", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444405829", 
+                        "created": "1444405829", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "tr": {
+                        "changed": "1443100255", 
+                        "created": "1443100255", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092467", 
+                        "created": "1443092467", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441103974", 
+                        "created": "1441103974", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1948", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577760", 
+                        "created": "1443623013", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "c0ee2093-6a95-41e0-900e-f0eee3c330de", 
+            "vid": "13255", 
+            "vuuid": "3b23bd32-1050-4c74-aa81-3ed7f19c2e20"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li>Yedekleme ve veri kurtarma hakk\u0131nda daha fazla bilgi <a href=\"http://www.frontlinedefenders.org/esecman\">Digital Security and Privacy for Human Rights Defenders</a> kitab\u0131n\u0131n <em>2.3 Information Backup, Destruction and Recovery</em> b\u00f6l\u00fcm\u00fcnde bulunabilir.</li>\n<li>\u00c7evrimi\u00e7i yedeklemenin yeni riskleri beraberinde getirece\u011fini g\u00f6z \u00f6n\u00fcnde bulundurun. En az\u0131ndan sunucuya y\u00fcklemeden \u00f6nce <strong>hassas bilgilerinizi ayr\u0131ca kendiniz \u015fifrelemeyi hat\u0131rlay\u0131n\u0131z</strong>. Yukar\u0131da belirtilen ad\u0131m\u0131 att\u0131\u011f\u0131n\u0131z\u0131 varsayarak, bilgilerinizi yedeklemenin uygun bir yolu olarak \u00fccretsiz veri depolama hizmetleri bulunmaktad\u0131r. Bunlardan baz\u0131lar\u0131: <a href=\"https://www.wuala.com/\">Wuala</a>, <a href=\"https://spideroak.com/\">SpiderOak</a>, <a href=\"https://drive.google.com/start\">Google\nDrive</a>, <a href=\"https://tahoe-lafs.org/trac/tahoe-lafs\">tahoe-lafs</a>.</li>\n<li>Veri kurtarma \u00fczerine <a href=\"http://en.wikipedia.org/wiki/Data_recovery\">Wikipedia</a>\u2019da m\u00fckemmel bir makale bulunmaktad\u0131r.</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "- Yedekleme ve veri kurtarma hakk\u0131nda daha fazla bilgi [Digital Security and Privacy for Human Rights Defenders](http://www.frontlinedefenders.org/esecman) kitab\u0131n\u0131n *2.3 Information Backup, Destruction and Recovery* b\u00f6l\u00fcm\u00fcnde bulunabilir.\r\n- \u00c7evrimi\u00e7i yedeklemenin yeni riskleri beraberinde getirece\u011fini g\u00f6z \u00f6n\u00fcnde bulundurun. En az\u0131ndan sunucuya y\u00fcklemeden \u00f6nce **hassas bilgilerinizi ayr\u0131ca kendiniz \u015fifrelemeyi hat\u0131rlay\u0131n\u0131z**. Yukar\u0131da belirtilen ad\u0131m\u0131 att\u0131\u011f\u0131n\u0131z\u0131 varsayarak, bilgilerinizi yedeklemenin uygun bir yolu olarak \u00fccretsiz veri depolama hizmetleri bulunmaktad\u0131r. Bunlardan baz\u0131lar\u0131: [Wuala](https://www.wuala.com/), [SpiderOak](https://spideroak.com/), [Google\r\nDrive](https://drive.google.com/start), [tahoe-lafs](https://tahoe-lafs.org/trac/tahoe-lafs).\r\n- Veri kurtarma \u00fczerine [Wikipedia](http://en.wikipedia.org/wiki/Data_recovery)\u2019da m\u00fckemmel bir makale bulunmaktad\u0131r."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1949", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1949", 
+                "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5094", 
+                "module": "book", 
+                "nid": "1949", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5089", 
+                "p3": "5094", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5089", 
+                "router_path": "node/%", 
+                "title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "updated": "0", 
+                "weight": "5"
+            }, 
+            "changed": "1452272402", 
+            "comment": "0", 
+            "created": "1441104021", 
+            "current_revision_id": "12779", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_5_5", 
+                        "value": "chapter_5_5"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5094": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1949", 
+                    "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5094", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5089", 
+                    "p3": "5094", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5089", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "5"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1949", 
+            "num_revisions": "21", 
+            "path": "https://securityinabox.org/en/node/1949", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452272402", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Okuma \u00f6nerileri", 
+                        "value": "Okuma \u00f6nerileri"
+                    }
+                ]
+            }, 
+            "title_original": "Further reading", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916361", 
+                        "created": "1442916361", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096092", 
+                        "created": "1443096092", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442411334", 
+                        "created": "1442411334", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441206695", 
+                        "created": "1441206695", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089894", 
+                        "created": "1442761261", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695601", 
+                        "created": "1443695601", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452272402", 
+                        "created": "1452272365", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443102994", 
+                        "created": "1443102994", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1451988168", 
+                        "created": "1441115117", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443726393", 
+                        "created": "1443726393", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444405941", 
+                        "created": "1444405941", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "tr": {
+                        "changed": "1443100286", 
+                        "created": "1443100286", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092547", 
+                        "created": "1443092547", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441104021", 
+                        "created": "1441104021", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577825", 
+                        "created": "1443623040", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "6bfa16f4-0d0b-45ac-8f03-799179b1f19d", 
+            "vid": "12779", 
+            "vuuid": "950e52a9-bbd7-485f-91ec-8038567f32c6"
+        }
+    ], 
+    "changed": "1453893598", 
+    "comment": "0", 
+    "created": "1441103567", 
+    "current_revision_id": "13008", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_menu_title": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "5. How to recover from information loss ", 
+                "value": "5. How to recover from information loss "
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "5. Veri kay\u0131plar\u0131 nas\u0131l kurtar\u0131l\u0131r", 
+                "value": "5. Veri kay\u0131plar\u0131 nas\u0131l kurtar\u0131l\u0131r"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-09 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "chapter-5", 
+                "value": "chapter-5"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "5"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "5"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5089": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/1944", 
+            "link_title": "5. How to recover from information loss", 
+            "menu_name": "book-toc-1925", 
+            "mlid": "5089", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5030", 
+            "p2": "5089", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5030", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "5"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "1944", 
+    "num_revisions": "23", 
+    "path": "https://securityinabox.org/en/node/1944", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1453893598", 
+    "revision_uid": "228", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "5. Veri kay\u0131plar\u0131 nas\u0131l kurtar\u0131l\u0131r", 
+                "value": "5. Veri kay\u0131plar\u0131 nas\u0131l kurtar\u0131l\u0131r"
+            }
+        ]
+    }, 
+    "title_original": "5. How to recover from information loss", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442915883", 
+                "created": "1442915883", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1453893598", 
+                "created": "1441804186", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "bo": {
+                "changed": "1443093715", 
+                "created": "1443093715", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "bo", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "es": {
+                "changed": "1442410748", 
+                "created": "1442410748", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1441205895", 
+                "created": "1441205895", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "fr": {
+                "changed": "1447089421", 
+                "created": "1442775036", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }, 
+            "id": {
+                "changed": "1443692697", 
+                "created": "1443692697", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "km": {
+                "changed": "1452272011", 
+                "created": "1452272011", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443102836", 
+                "created": "1443102836", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441113643", 
+                "created": "1441113643", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1443721696", 
+                "created": "1443721696", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "th": {
+                "changed": "1444395108", 
+                "created": "1444395108", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "th", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "tr": {
+                "changed": "1443014608", 
+                "created": "1443012792", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1443088924", 
+                "created": "1443088838", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441103567", 
+                "created": "1441103567", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "1944", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1444577499", 
+                "created": "1443622179", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_how_to_booklet_chapter", 
+    "uid": "70", 
+    "uuid": "11cf27ca-845b-4076-893d-8703638bc2d7", 
+    "vid": "13008", 
+    "vuuid": "543dfbbf-76ee-47ca-b115-197528f8138e"
+}

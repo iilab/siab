@@ -1,0 +1,2002 @@
+{
+    "body": {
+        "pt-pt": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p>Cada novo m\u00e9todo de armazenar ou transferir informa\u00e7\u00f5es no formato digital tende a introduzir v\u00e1rias novas formas pelas quais aquelas mesmas informa\u00e7\u00f5es podem ser perdidas, levadas ou destru\u00eddas. Anos de trabalho podem desaparecer em um instante devido a um roubo, um descuido moment\u00e2neo, o confisco de alguma parte de um computador ou simplesmente porque a tecnologia de armazenamento digital \u00e9 inerentemente fr\u00e1gil.</p>\n\n<p>Existe um ditado entre os profissionais de suporte de inform\u00e1tica que diz: \"n\u00e3o \u00e9 uma quest\u00e3o de <em>se</em> voc\u00ea vai perder os seus dados; \u00e9 uma quest\u00e3o de <em>quando</em>.\" Assim, <em>quando</em> isso acontecer, \u00e9 fundamental que voc\u00ea j\u00e1 tenha c\u00f3pias de reserva (<em>backup</em>) atualizadas e meios bem testados de restaur\u00e1-las. O dia que algu\u00e9m se lembra da import\u00e2ncia de ter um sistema de c\u00f3pias de reserva costuma ser o mesmo em que essas c\u00f3pias deveriam estar l\u00e1 para serem usadas.</p>\n\n<p>Embora seja um dos elementos mais b\u00e1sicos para a seguran\u00e7a da informa\u00e7\u00e3o, formular uma pol\u00edtica eficiente de <em>backup</em> n\u00e3o \u00e9 t\u00e3o simples quanto parece. O trabalho pode requerer um esfor\u00e7o grande de planejamento, pois devem ser considerados: a necessidade de guardar os dados originais e as c\u00f3pias em diferentes locais f\u00edsicos; a import\u00e2ncia de manter as c\u00f3pias de reserva confidenciais; e o desafio de coordenar entre diferentes pessoas quem compartilha as informa\u00e7\u00f5es usando os pr\u00f3prios dispositivos port\u00e1teis de armazenamento de dados.</p>\n\n<p>Al\u00e9m das t\u00e1ticas para fazer <em>backup</em> e restaurar arquivos, este cap\u00edtulo fala sobre duas ferramentas espec\u00edficas, o <a href=\"/pt/glossary#Cobian_Backup\"><em>Cobian Backup</em></a> e o <a href=\"/pt/glossary#Recuva\"><em>Recuva</em></a>.</p>\n\n<h3>Pano de fundo</h3>\n\n<div class=\"background\">\n\n<p>Elena \u00e9 uma ativista de causas ambientais em um pa\u00eds de l\u00edngua russa e est\u00e1 come\u00e7ando a fazer um site na internet para evidenciar o quanto o desmatamento ilegal da regi\u00e3o \u00e9 abrangente. Para isso, usar\u00e1 apresenta\u00e7\u00f5es criativas de imagens, v\u00eddeos, mapas e hist\u00f3rias. Faz alguns anos que ela tem juntado documentos, arquivos de m\u00eddia e informa\u00e7\u00f5es geogr\u00e1ficas sobre a extra\u00e7\u00e3o de madeira, e a maior parte desse material est\u00e1 em um computador velho com Windows, no escrit\u00f3rio da ONG em que trabalha. Enquanto come\u00e7ava a desenhar o site, Elena percebeu a import\u00e2ncia do material que tem em m\u00e3os e come\u00e7ou a se perguntar como preserv\u00e1-lo caso a m\u00e1quina seja danificada, em especial se isso acontecer antes de tudo ser copiado para o site. Como \u00e0s vezes outras pessoas da organiza\u00e7\u00e3o tamb\u00e9m usam aquele computador, tamb\u00e9m quer aprender a restaurar os arquivos, na eventualidade de algu\u00e9m acidentalmente apagar a pasta onde est\u00e1 seu trabalho. Ela pede ajuda a um sobrinho, Nikolai, para desenvolver uma estrat\u00e9gia de backup.</p>\n\n</div>\n\n<h3>O que aprender deste cap\u00edtulo</h3>\n\n<ul><li>Como organizar e fazer c\u00f3pias de reserva (<em>backup</em>) de suas informa\u00e7\u00f5es</li>\n<li>Onde as c\u00f3pias de reserva (<em>backup</em>) devem ser armazenadas</li>\n<li>Como gerenciar as c\u00f3pias de reserva (<em>backup</em>) de forma segura</li>\n<li>Como recuperar arquivos apagados de forma acidental</li>\n</ul>", 
+                "summary": "", 
+                "value": "Cada novo m\u00e9todo de armazenar ou transferir informa\u00e7\u00f5es no formato digital tende a introduzir v\u00e1rias novas formas pelas quais aquelas mesmas informa\u00e7\u00f5es podem ser perdidas, levadas ou destru\u00eddas. Anos de trabalho podem desaparecer em um instante devido a um roubo, um descuido moment\u00e2neo, o confisco de alguma parte de um computador ou simplesmente porque a tecnologia de armazenamento digital \u00e9 inerentemente fr\u00e1gil.\r\n\r\nExiste um ditado entre os profissionais de suporte de inform\u00e1tica que diz: &quot;n\u00e3o \u00e9 uma quest\u00e3o de *se* voc\u00ea vai perder os seus dados; \u00e9 uma quest\u00e3o de *quando*.&quot; Assim, *quando* isso acontecer, \u00e9 fundamental que voc\u00ea j\u00e1 tenha c\u00f3pias de reserva (*backup*) atualizadas e meios bem testados de restaur\u00e1-las. O dia que algu\u00e9m se lembra da import\u00e2ncia de ter um sistema de c\u00f3pias de reserva costuma ser o mesmo em que essas c\u00f3pias deveriam estar l\u00e1 para serem usadas.\r\n\r\nEmbora seja um dos elementos mais b\u00e1sicos para a seguran\u00e7a da informa\u00e7\u00e3o, formular uma pol\u00edtica eficiente de *backup* n\u00e3o \u00e9 t\u00e3o simples quanto parece. O trabalho pode requerer um esfor\u00e7o grande de planejamento, pois devem ser considerados: a necessidade de guardar os dados originais e as c\u00f3pias em diferentes locais f\u00edsicos; a import\u00e2ncia de manter as c\u00f3pias de reserva confidenciais; e o desafio de coordenar entre diferentes pessoas quem compartilha as informa\u00e7\u00f5es usando os pr\u00f3prios dispositivos port\u00e1teis de armazenamento de dados.\r\n\r\nAl\u00e9m das t\u00e1ticas para fazer *backup* e restaurar arquivos, este cap\u00edtulo fala sobre duas ferramentas espec\u00edficas, o [*Cobian Backup*](/pt/glossary#Cobian_Backup) e o [*Recuva*](/pt/glossary#Recuva). \r\n\r\n### Pano de fundo ###\r\n<div class=\"background\" markdown=\"1\">\r\nElena \u00e9 uma ativista de causas ambientais em um pa\u00eds de l\u00edngua russa e est\u00e1 come\u00e7ando a fazer um site na internet para evidenciar o quanto o desmatamento ilegal da regi\u00e3o \u00e9 abrangente. Para isso, usar\u00e1 apresenta\u00e7\u00f5es criativas de imagens, v\u00eddeos, mapas e hist\u00f3rias. Faz alguns anos que ela tem juntado documentos, arquivos de m\u00eddia e informa\u00e7\u00f5es geogr\u00e1ficas sobre a extra\u00e7\u00e3o de madeira, e a maior parte desse material est\u00e1 em um computador velho com Windows, no escrit\u00f3rio da ONG em que trabalha. Enquanto come\u00e7ava a desenhar o site, Elena percebeu a import\u00e2ncia do material que tem em m\u00e3os e come\u00e7ou a se perguntar como preserv\u00e1-lo caso a m\u00e1quina seja danificada, em especial se isso acontecer antes de tudo ser copiado para o site. Como \u00e0s vezes outras pessoas da organiza\u00e7\u00e3o tamb\u00e9m usam aquele computador, tamb\u00e9m quer aprender a restaurar os arquivos, na eventualidade de algu\u00e9m acidentalmente apagar a pasta onde est\u00e1 seu trabalho. Ela pede ajuda a um sobrinho, Nikolai, para desenvolver uma estrat\u00e9gia de backup.\r\n</div>\r\n\r\n### O que aprender deste cap\u00edtulo ###\r\n\r\n  * Como organizar e fazer c\u00f3pias de reserva (*backup*) de suas informa\u00e7\u00f5es\r\n  * Onde as c\u00f3pias de reserva (*backup*) devem ser armazenadas\r\n  * Como gerenciar as c\u00f3pias de reserva (*backup*) de forma segura\r\n  * Como recuperar arquivos apagados de forma acidental"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1925", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/1944", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/1944", 
+        "link_title": "5. How to recover from information loss", 
+        "menu_name": "book-toc-1925", 
+        "mlid": "5089", 
+        "module": "book", 
+        "nid": "1944", 
+        "options": [], 
+        "p1": "5030", 
+        "p2": "5089", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5030", 
+        "router_path": "node/%", 
+        "title": "5. How to recover from information loss", 
+        "updated": "0", 
+        "weight": "5"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>\u00c9 claramente importante tomar algumas medidas para evitar desastres, como assegurar que seus dados est\u00e3o seguros fisicamente, livres de <a href=\"/pt/glossary#Malware\"><em>malware</em></a> e protegidos por um bom <a href=\"/pt/glossary#Firewall\"><em>firewall</em></a> e por senhas fortes. Por si s\u00f3, entretanto, tais medidas n\u00e3o s\u00e3o suficientes. H\u00e1 simplesmente coisas demais que podem dar errado, incluindo ataques de v\u00edrus, <a href=\"/pt/glossary#Hacker\"><em>hackers</em></a>, curtos-circuitos el\u00e9tricos, picos de energia, \u00e1gua derramada, roubo, confisco, desmagnetiza\u00e7\u00e3o, falhas do sistema operacional ou de hardware, para citar alguns. Preparar-se para o desastre \u00e9 t\u00e3o importante quanto defender-se dele.</p>\n\n<div class=\"background\">\n\n<p>Elena: Eu sei que as c\u00f3pias de reserva, ou backup, s\u00e3o importantes, Nikolai, mas n\u00e3o \u00e9 melhor pedir a algu\u00e9m que as fa\u00e7a para mim? Quero dizer, eu vou realmente ter tempo, recursos e conhecimento para fazer isso sozinha?</p>\n\n<p>Nikolai: Vai dar tudo certo. Elaborar um bom plano para fazer backup requer pensar um pouco, mas n\u00e3o significa gastar muito tempo ou dinheiro. E, comparado a perder todas as suas informa\u00e7\u00f5es, n\u00e3o se pode dizer que \u00e9 um esfor\u00e7o mal empregado, n\u00e3o \u00e9? Al\u00e9m disso, o backup \u00e9 uma das coisas que voc\u00ea definitivamente deveria fazer sozinha. A n\u00e3o ser que as pessoas que costumam te ajudar em assuntos t\u00e9cnicos sejam extremamente confi\u00e1veis e extremamente bem informadas sobre onde voc\u00ea guarda suas informa\u00e7\u00f5es digitais, \u00e9 melhor assumir o trabalho.</p>\n\n</div>\n\n<p>O primeiro passo na formula\u00e7\u00e3o de uma <em>pol\u00edtica de backup</em> \u00e9 saber onde seus dados pessoais e de trabalho est\u00e3o atualmente localizados. O seu e-mail, por exemplo, pode estar armazenado nos servidores do seu provedor de e-mails, em seu computador ou em ambos os lugares ao mesmo tempo. E, claro, talvez voc\u00ea tenha v\u00e1rias contas de correio eletr\u00f4nico.</p>\n\n<p>Tamb\u00e9m h\u00e1 os documentos importantes nos computadores que voc\u00ea usa, que podem estar em casa ou no local de trabalho. H\u00e1 agendas com endere\u00e7os, hist\u00f3ricos de bate papo em chats e as configura\u00e7\u00f5es pessoais dos programas. Tamb\u00e9m \u00e9 poss\u00edvel que alguns dados estejam em m\u00eddias remov\u00edveis, como pen drives, HDs externos, CDs, DVDs e mesmo disquetes antigos. Seu telefone celular cont\u00e9m uma lista de contatos e pode ter mensagens importantes de texto guardadas ali. Se voc\u00ea tem um site na internet, ele pode conter uma cole\u00e7\u00e3o grande de artigos, formada ao longo de anos de trabalho. Finalmente, n\u00e3o esque\u00e7a as informa\u00e7\u00f5es que n\u00e3o est\u00e3o no formato digital, como cadernos de anota\u00e7\u00f5es, di\u00e1rios e cartas.</p>\n\n<p>Depois, \u00e9 preciso definir quais desses arquivos podem ser considerados 'originais' ou 'vers\u00e3o principal' e quais podem ser considerados 'c\u00f3pias' ou 'duplicatas'. A vers\u00e3o principal de um arquivo ou cole\u00e7\u00e3o de arquivos costuma ser a mais recente, e ela \u00e9 a que voc\u00ea normalmente editaria para atualizar conte\u00fado. Obviamente, tal distin\u00e7\u00e3o n\u00e3o se aplica a arquivos dos quais h\u00e1 apenas uma vers\u00e3o, mas \u00e9 extremamente importante para determinados tipos de dados.</p>\n\n<p>Um cen\u00e1rio comum de desastre ocorre quando se fazem reservas (<em>backup</em>) apenas das c\u00f3pias ou duplicatas de um documento importante, enquanto a vers\u00e3o principal se perde ou \u00e9 destru\u00edda antes que tais c\u00f3pias possam ser atualizadas. Imagine, por exemplo, que voc\u00ea tenha feito v\u00e1rias atualiza\u00e7\u00f5es em uma determinada planilha, mantida em um pen drive, ao longo de uma semana de viagem. Naquele ponto, aquela vers\u00e3o deve ser considerada como principal, uma vez que os backups peri\u00f3dicos, automatizados, da vers\u00e3o antiga do computador do escrit\u00f3rio n\u00e3o s\u00e3o mais \u00fateis.</p>\n\n<p>Tente fazer uma lista com os locais f\u00edsicos de todas as c\u00f3pias - vers\u00e3o principal e c\u00f3pias de reserva - dos dados mencionados acima. Isso ajudar\u00e1 a evidenciar o que \u00e9 preciso fazer e come\u00e7ar\u00e1 a definir uma pol\u00edtica adequada de <em>backup</em>. A tabela abaixo \u00e9 um exemplo bem b\u00e1sico. Claro, voc\u00ea provavelmente vai descobrir que sua lista \u00e9 bem maior e cont\u00eam alguns 'dispositivos de armazenamento' com mais de um 'tipo de dado' e alguns tipos de dados presentes em diversos dispositivos.</p>\n\n<table border=\"1\"><tr><th>Tipo de dado</th>\n<th>Vers\u00e3o principal/Duplicata</th>\n<th>Dispositivo de armazenamento</th>\n<th>Localiza\u00e7\u00e3o</th>\n</tr><tr><td>Documentos eletr\u00f4nicos</td>\n<td>Vers\u00e3o principal</td>\n<td>Computador (disco r\u00edgido)</td>\n<td>Escrit\u00f3rio</td>\n</tr><tr><td>Alguns documentos eletr\u00f4nicos importantes</td>\n<td>Duplicata</td>\n<td>Pen drive</td>\n<td>Comigo</td>\n</tr><tr><td>Bancos de dados de programas (fotos, endere\u00e7os, agendas etc.) </td>\n<td>Vers\u00e3o principal</td>\n<td>Computador (disco r\u00edgido)</td>\n<td>Escrit\u00f3rio</td>\n</tr><tr><td>Alguns documentos eletr\u00f4nicos</td>\n<td>Duplicata</td>\n<td>CDs</td>\n<td>Em casa</td>\n</tr><tr><td>E-mails e contatos de e-mail</td>\n<td>Vers\u00e3o principal</td>\n<td>Conta do Gmail</td>\n<td>Internet</td>\n</tr><tr><td>Mensagens de texto e contatos telef\u00f4nicos</td>\n<td>Vers\u00e3o principal</td>\n<td>Telefone celular</td>\n<td>Comigo</td>\n</tr><tr><td>Documentos impressos (contratos, ordens de pagamento etc.)</td>\n<td>Vers\u00e3o principal</td>\n<td>Gaveta da mesa</td>\n<td>Escrit\u00f3rio</td>\n</tr></table><p>Na tabela acima, vemos que:</p>\n\n<ul><li>Os \u00fanicos documentos que sobreviveriam a uma falha no disco r\u00edgido do computador do escrit\u00f3rio s\u00e3o as duplicatas guardadas no pen drive e nos CDs, em casa.</li>\n<li>N\u00e3o existem c\u00f3pias <em>offline</em> das mensagens de e-mail ou dos endere\u00e7os de contato, ent\u00e3o se a senha for esquecida (ou se algu\u00e9m modific\u00e1-la com m\u00e1s inten\u00e7\u00f5es), o acesso a eles ser\u00e1 perdido.</li>\n<li>N\u00e3o h\u00e1 c\u00f3pias de quaisquer dados que est\u00e3o no telefone celular.</li>\n<li>N\u00e3o h\u00e1 c\u00f3pias, f\u00edsicas ou digitais, dos documentos impressos, como contratos ou ordens de pagamentos.</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "\u00c9 claramente importante tomar algumas medidas para evitar desastres, como assegurar que seus dados est\u00e3o seguros fisicamente, livres de [*malware*](/pt/glossary#Malware) e protegidos por um bom [*firewall*](/pt/glossary#Firewall) e por senhas fortes. Por si s\u00f3, entretanto, tais medidas n\u00e3o s\u00e3o suficientes. H\u00e1 simplesmente coisas demais que podem dar errado, incluindo ataques de v\u00edrus, [*hackers*](/pt/glossary#Hacker), curtos-circuitos el\u00e9tricos, picos de energia, \u00e1gua derramada, roubo, confisco, desmagnetiza\u00e7\u00e3o, falhas do sistema operacional ou de hardware, para citar alguns. Preparar-se para o desastre \u00e9 t\u00e3o importante quanto defender-se dele.\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nElena: Eu sei que as c\u00f3pias de reserva, ou backup, s\u00e3o importantes, Nikolai, mas n\u00e3o \u00e9 melhor pedir a algu\u00e9m que as fa\u00e7a para mim? Quero dizer, eu vou realmente ter tempo, recursos e conhecimento para fazer isso sozinha?\r\n\r\nNikolai: Vai dar tudo certo. Elaborar um bom plano para fazer backup requer pensar um pouco, mas n\u00e3o significa gastar muito tempo ou dinheiro. E, comparado a perder todas as suas informa\u00e7\u00f5es, n\u00e3o se pode dizer que \u00e9 um esfor\u00e7o mal empregado, n\u00e3o \u00e9? Al\u00e9m disso, o backup \u00e9 uma das coisas que voc\u00ea definitivamente deveria fazer sozinha. A n\u00e3o ser que as pessoas que costumam te ajudar em assuntos t\u00e9cnicos sejam extremamente confi\u00e1veis e extremamente bem informadas sobre onde voc\u00ea guarda suas informa\u00e7\u00f5es digitais, \u00e9 melhor assumir o trabalho.\r\n</div>\r\n\r\nO primeiro passo na formula\u00e7\u00e3o de uma *pol\u00edtica de backup* \u00e9 saber onde seus dados pessoais e de trabalho est\u00e3o atualmente localizados. O seu e-mail, por exemplo, pode estar armazenado nos servidores do seu provedor de e-mails, em seu computador ou em ambos os lugares ao mesmo tempo. E, claro, talvez voc\u00ea tenha v\u00e1rias contas de correio eletr\u00f4nico.\r\n\r\nTamb\u00e9m h\u00e1 os documentos importantes nos computadores que voc\u00ea usa, que podem estar em casa ou no local de trabalho. H\u00e1 agendas com endere\u00e7os, hist\u00f3ricos de bate papo em chats e as configura\u00e7\u00f5es pessoais dos programas. Tamb\u00e9m \u00e9 poss\u00edvel que alguns dados estejam em m\u00eddias remov\u00edveis, como pen drives, HDs externos, CDs, DVDs e mesmo disquetes antigos. Seu telefone celular cont\u00e9m uma lista de contatos e pode ter mensagens importantes de texto guardadas ali. Se voc\u00ea tem um site na internet, ele pode conter uma cole\u00e7\u00e3o grande de artigos, formada ao longo de anos de trabalho. Finalmente, n\u00e3o esque\u00e7a as informa\u00e7\u00f5es que n\u00e3o est\u00e3o no formato digital, como cadernos de anota\u00e7\u00f5es, di\u00e1rios e cartas.\r\n\r\nDepois, \u00e9 preciso definir quais desses arquivos podem ser considerados 'originais' ou 'vers\u00e3o principal' e quais podem ser considerados 'c\u00f3pias' ou 'duplicatas'. A vers\u00e3o principal de um arquivo ou cole\u00e7\u00e3o de arquivos costuma ser a mais recente, e ela \u00e9 a que voc\u00ea normalmente editaria para atualizar conte\u00fado. Obviamente, tal distin\u00e7\u00e3o n\u00e3o se aplica a arquivos dos quais h\u00e1 apenas uma vers\u00e3o, mas \u00e9 extremamente importante para determinados tipos de dados.\r\n\r\nUm cen\u00e1rio comum de desastre ocorre quando se fazem reservas (*backup*) apenas das c\u00f3pias ou duplicatas de um documento importante, enquanto a vers\u00e3o principal se perde ou \u00e9 destru\u00edda antes que tais c\u00f3pias possam ser atualizadas. Imagine, por exemplo, que voc\u00ea tenha feito v\u00e1rias atualiza\u00e7\u00f5es em uma determinada planilha, mantida em um pen drive, ao longo de uma semana de viagem. Naquele ponto, aquela vers\u00e3o deve ser considerada como principal, uma vez que os backups peri\u00f3dicos, automatizados, da vers\u00e3o antiga do computador do escrit\u00f3rio n\u00e3o s\u00e3o mais \u00fateis.\r\n\r\nTente fazer uma lista com os locais f\u00edsicos de todas as c\u00f3pias - vers\u00e3o principal e c\u00f3pias de reserva - dos dados mencionados acima. Isso ajudar\u00e1 a evidenciar o que \u00e9 preciso fazer e come\u00e7ar\u00e1 a definir uma pol\u00edtica adequada de *backup*. A tabela abaixo \u00e9 um exemplo bem b\u00e1sico. Claro, voc\u00ea provavelmente vai descobrir que sua lista \u00e9 bem maior e cont\u00eam alguns 'dispositivos de armazenamento' com mais de um 'tipo de dado' e alguns tipos de dados presentes em diversos dispositivos.\r\n\r\n\r\n<table border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Tipo de dado</th>\r\n<th>Vers\u00e3o principal/Duplicata</th>\r\n<th>Dispositivo de armazenamento</th>\r\n<th>Localiza\u00e7\u00e3o</th>\r\n</tr>\r\n<tr>\r\n<td>Documentos eletr\u00f4nicos</td>\r\n<td>Vers\u00e3o principal</td>\r\n<td>Computador (disco r\u00edgido)</td>\r\n<td>Escrit\u00f3rio</td>\r\n</tr>\r\n<tr>\r\n<td>Alguns documentos eletr\u00f4nicos importantes</td>\r\n<td>Duplicata</td>\r\n<td>Pen drive</td>\r\n<td>Comigo</td>\r\n</tr>\r\n<tr>\r\n<td>Bancos de dados de programas (fotos, endere\u00e7os, agendas etc.) </td>\r\n<td>Vers\u00e3o principal</td>\r\n<td>Computador (disco r\u00edgido)</td>\r\n<td>Escrit\u00f3rio</td>\r\n</tr>\r\n<tr>\r\n<td>Alguns documentos eletr\u00f4nicos</td>\r\n<td>Duplicata</td>\r\n<td>CDs</td>\r\n<td>Em casa</td>\r\n</tr>\r\n<tr>\r\n<td >E-mails e contatos de e-mail</td>\r\n<td>Vers\u00e3o principal</td>\r\n<td>Conta do Gmail</td>\r\n<td>Internet</td>\r\n</tr>\r\n<tr>\r\n<td>Mensagens de texto e contatos telef\u00f4nicos</td>\r\n<td>Vers\u00e3o principal</td>\r\n<td>Telefone celular</td>\r\n<td>Comigo</td>\r\n</tr>\r\n<tr>\r\n<td>Documentos impressos (contratos, ordens de pagamento etc.)</td>\r\n<td>Vers\u00e3o principal</td>\r\n<td>Gaveta da mesa</td>\r\n<td>Escrit\u00f3rio</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n\r\nNa tabela acima, vemos que:\r\n\r\n  * Os \u00fanicos documentos que sobreviveriam a uma falha no disco r\u00edgido do computador do escrit\u00f3rio s\u00e3o as duplicatas guardadas no pen drive e nos CDs, em casa.\r\n  * N\u00e3o existem c\u00f3pias *offline* das mensagens de e-mail ou dos endere\u00e7os de contato, ent\u00e3o se a senha for esquecida (ou se algu\u00e9m modific\u00e1-la com m\u00e1s inten\u00e7\u00f5es), o acesso a eles ser\u00e1 perdido.\r\n  * N\u00e3o h\u00e1 c\u00f3pias de quaisquer dados que est\u00e3o no telefone celular.\r\n  * N\u00e3o h\u00e1 c\u00f3pias, f\u00edsicas ou digitais, dos documentos impressos, como contratos ou ordens de pagamentos."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1945", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1945", 
+                "link_title": "Identifying and organising your information", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5090", 
+                "module": "book", 
+                "nid": "1945", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5089", 
+                "p3": "5090", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5089", 
+                "router_path": "node/%", 
+                "title": "Identifying and organising your information", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1455900289", 
+            "comment": "0", 
+            "created": "1441103649", 
+            "current_revision_id": "13291", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_5_1", 
+                        "value": "chapter_5_1"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5090": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1945", 
+                    "link_title": "Identifying and organising your information", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5090", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5089", 
+                    "p3": "5090", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5089", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1945", 
+            "num_revisions": "28", 
+            "path": "https://securityinabox.org/en/node/1945", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455900289", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como identificar e organizar as informa\u00e7\u00f5es", 
+                        "value": "Como identificar e organizar as informa\u00e7\u00f5es"
+                    }
+                ]
+            }, 
+            "title_original": "Identifying and organising your information", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916009", 
+                        "created": "1442916009", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227106", 
+                        "created": "1441804270", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096007", 
+                        "created": "1443096007", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442410852", 
+                        "created": "1442410852", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441206304", 
+                        "created": "1441206304", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089606", 
+                        "created": "1442759368", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695331", 
+                        "created": "1443695331", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452272101", 
+                        "created": "1452272101", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443103070", 
+                        "created": "1443103070", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113820", 
+                        "created": "1441113820", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443724357", 
+                        "created": "1443724014", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1455900289", 
+                        "created": "1444404517", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "tr": {
+                        "changed": "1443100182", 
+                        "created": "1443100182", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092260", 
+                        "created": "1443092260", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1442411004", 
+                        "created": "1441103649", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1945", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577553", 
+                        "created": "1443622323", 
+                        "entity_id": "1945", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1945", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "f2ce5e62-c52c-4f9c-aba6-46b0370665c4", 
+            "vid": "13291", 
+            "vuuid": "f13124bd-ac6d-4fc9-8cf7-bfcd0d326190"
+        }, 
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Para fazer as c\u00f3pias de reserva (<em>backup</em>) de todos os tipos de dados listados acima, ser\u00e1 preciso uma combina\u00e7\u00e3o entre programas e solu\u00e7\u00f5es de processos. Essencialmente, \u00e9 preciso assegurar que cada tipo de dado seja armazenado em, pelo menos, dois locais separados.</p>\n\n<p><strong>Documentos eletr\u00f4nicos</strong> - crie uma c\u00f3pia completa dos documentos em seu computador usando programas como o <a href=\"/pt/glossary#Cobian_Backup\"><em>Cobian Backup</em></a>, descrito com mais detalhes abaixo. Guarde o <em>backup</em> em algum dispositivo port\u00e1til para que possa ser levado para casa ou outro local seguro. HDs externos, CD/DVDs ou pen drives s\u00e3o alternativas poss\u00edveis. Algumas pessoas usam CDs ou DVDs para isso, j\u00e1 que o risco de sobrescrever (e perder) as c\u00f3pias de reserva \u00e9 menor. Essas m\u00eddias s\u00e3o baratas o suficiente para permitir usar uma nova a cada vez que um <em>backup</em> \u00e9 gerado.</p>\n\n<p>Como documentos eletr\u00f4nicos costumam ser a categoria de dados que cont\u00eam as informa\u00e7\u00f5es mais sens\u00edveis, \u00e9 particularmente importante proteger as c\u00f3pias de reserva com criptografia. \u00c9 poss\u00edvel ver como fazer isso no <a href=\"/pt/chapter-4\"><strong><em>Cap\u00edtulo 4: Como proteger os arquivos sens\u00edveis do seu computador</em></strong></a> e no <a href=\"/pt/truecrypt_main\"><strong><em>Guia Pr\u00e1tico do TrueCrypt</em></strong></a>.</p>\n\n<p><strong>Bancos de dados de programas</strong> - Uma vez que voc\u00ea saiba onde est\u00e3o os bancos de dados dos programas, pode fazer as c\u00f3pias de reserva (<em>backup</em>) da mesma forma que os documentos eletr\u00f4nicos.</p>\n\n<p><strong>E-mails</strong> - Em vez de ler sua correspond\u00eancia eletr\u00f4nica apenas por um navegador de internet, instale um cliente de e-mail como o <a href=\"/pt/glossary#Thunderbird\"><em>Thunderbird</em></a> e configure-o para acessar suas contas. O <a href=\"/pt/thunderbird_main\"><strong><em>Guia Pr\u00e1tico do Thunderbird</em></strong></a> explica em detalhes como fazer isso. A maioria dos servi\u00e7os de e-mail tamb\u00e9m fornece instru\u00e7\u00f5es sobre como usar seus endere\u00e7os eletr\u00f4nicos com tais programas. Se optar por mover as mensagens antigas para o computador, de forma que n\u00e3o fiquem armazenadas no servidor (ex. por motivos de seguran\u00e7a), n\u00e3o se esque\u00e7a de inclui-las ao fazer o <em>backup</em> dos documentos eletr\u00f4nicos, como descrito acima.</p>\n\n<p><strong>Conte\u00fado de telefones celulares</strong> - Para copiar os n\u00fameros de telefone e as mensagens de texto de seu celular, conecte-o ao computador com o software apropriado, geralmente dispon\u00edvel no site da empresa fabricante do aparelho. Talvez seja preciso comprar um cabo USB especial para isso.</p>\n\n<p><strong>Documentos impressos</strong> - Quando poss\u00edvel, voc\u00ea deveria fazer c\u00f3pias digitalizadas de pap\u00e9is importantes e guard\u00e1-las junto com os <em>backups</em> de outros documentos eletr\u00f4nicos, como mencionado acima.</p>\n\n<p>Ao fim, voc\u00ea deve estar com os dispositivos de armazenamento, tipos de dados e c\u00f3pias de reserva (<em>backups</em>) reordenados de forma a serem bem mais resistentes a desastres:</p>\n\n<table width=\"100%\" border=\"1\"><tr><th>Tipo de dado</th>\n<th>Vers\u00e3o principal/Duplicata</th>\n<th>Dispositivo de armazenamento</th>\n<th>Localiza\u00e7\u00e3o</th>\n\n</tr><tr><td>Documentos eletr\u00f4nicos</td>\n<td>Vers\u00e3o principal</td>\n<td>Computador (disco r\u00edgido)</td>\n<td>Escrit\u00f3rio</td>\n</tr><tr><td>Documentos eletr\u00f4nicos</td>\n<td>Duplicata</td>\n<td>CDs</td>\n<td>Em casa</td>\n</tr><tr><td>Alguns documentos eletr\u00f4nicos importantes</td>\n<td>Duplicata</td>\n<td>Pen drive</td>\n<td>Comigo</td>\n</tr></table><table width=\"100%\" border=\"1\"><tr><th>Tipo de dado</th>\n<th>Vers\u00e3o principal/Duplicata</th>\n<th>Dispositivo de armazenamento</th>\n<th>Localiza\u00e7\u00e3o</th>\n\n</tr><tr><td>Bancos de dados de programas</td>\n<td>Vers\u00e3o principal</td>\n<td>Computador (disco r\u00edgido)</td>\n<td>Escrit\u00f3rio</td>\n</tr><tr><td>Bancos de dados de programas</td>\n<td>Duplicata</td>\n<td>CDs</td>\n<td>Em casa</td>\n</tr></table><table width=\"100%\" border=\"1\"><tr><th>Tipo de dado</th>\n<th>Vers\u00e3o principal/Duplicata</th>\n<th>Dispositivo de armazenamento</th>\n<th>Localiza\u00e7\u00e3o</th>\n\n</tr><tr><td>E-mails e contatos de e-mail</td>\n<td>Duplicata</td>\n<td>Conta do Gmail</td>\n<td>Internet</td>\n</tr><tr><td>E-mails e contatos de e-mail</td>\n<td>Vers\u00e3o principal</td>\n<td>Thunderbird no computador do escrit\u00f3rio</td>\n<td>Escrit\u00f3rio</td>\n</tr></table><table width=\"100%\" border=\"1\"><tr><th>Tipo de dado</th>\n<th>Vers\u00e3o principal/Duplicata</th>\n<th>Dispositivo de armazenamento</th>\n<th>Localiza\u00e7\u00e3o</th>\n\n</tr><tr><td>Mensagens de texto e contatos telef\u00f4nicos</td>\n<td>Vers\u00e3o principal</td>\n<td>Telefone celular</td>\n<td>Comigo</td>\n</tr><tr><td>Mensagens de texto e contatos telef\u00f4nicos</td>\n<td>Duplicata</td>\n<td>Computador (disco r\u00edgido)</td>\n<td>Escrit\u00f3rio</td>\n</tr><tr><td>Mensagens de texto e contatos telef\u00f4nicos</td>\n<td>Duplicata</td>\n<td>Cart\u00e3o SIM de reserva (backup)</td>\n<td>Em casa</td>\n</tr></table><table width=\"100%\" border=\"1\"><tr><th>Tipo de dado</th>\n<th>Vers\u00e3o principal/Duplicata</th>\n<th>Dispositivo de armazenamento</th>\n<th>Localiza\u00e7\u00e3o</th>\n\n</tr><tr><td>Documentos impressos</td>\n<td>Vers\u00e3o principal</td>\n<td>Gaveta da mesa</td>\n<td>Escrit\u00f3rio</td>\n</tr><tr><td>Documentos digitalizados</td>\n<td>Duplicata</td>\n<td>CDs</td>\n<td>Em casa</td>\n</tr></table><div class=\"background\">\n\n<p>Elena: Conhe\u00e7o algumas pessoas que mant\u00eam todos os documentos importantes no Gmail, anexando-os a mensagens de 'rascunho' ou aos pr\u00f3prios e-mails. Isso contaria como uma 'segunda localiza\u00e7\u00e3o f\u00edsica' para os meus arquivos?</p>\n\n<p>Nikolai: Isso pode te ajudar a recuper\u00e1-los caso perca um ou dois documentos muito importantes, mas \u00e9 bem desajeitado. Sinceramente, quantas c\u00f3pias de reserva de documentos por semana voc\u00ea faria dessa forma? Al\u00e9m disso, voc\u00ea tem que considerar se tais anexos est\u00e3o mesmo seguros, especialmente caso se preocupe que seu e-mail possa estar sendo monitorado. Outra coisa: a menos que voc\u00ea se conecte ao Gmail de forma segura, isso seria como entregar suas informa\u00e7\u00f5es sens\u00edveis em uma bandeja de prata. Usar uma conex\u00e3o HTTPS para entrar no Gmail e fazer c\u00f3pias de pequenos volumes do TrueCrypt ou de bancos de dados do KeePass at\u00e9 \u00e9 bem seguro, porque o conte\u00fado \u00e9 criptografado, mas eu n\u00e3o te recomendaria adotar esse procedimento como uma estrat\u00e9gia geral de <em>backup</em>.</p>\n\n</div>\n", 
+                        "summary": "", 
+                        "value": "Para fazer as c\u00f3pias de reserva (*backup*) de todos os tipos de dados listados acima, ser\u00e1 preciso uma combina\u00e7\u00e3o entre programas e solu\u00e7\u00f5es de processos. Essencialmente, \u00e9 preciso assegurar que cada tipo de dado seja armazenado em, pelo menos, dois locais separados.\r\n\r\n**Documentos eletr\u00f4nicos** - crie uma c\u00f3pia completa dos documentos em seu computador usando programas como o [*Cobian Backup*](/pt/glossary#Cobian_Backup), descrito com mais detalhes abaixo. Guarde o *backup* em algum dispositivo port\u00e1til para que possa ser levado para casa ou outro local seguro. HDs externos, CD/DVDs ou pen drives s\u00e3o alternativas poss\u00edveis. Algumas pessoas usam CDs ou DVDs para isso, j\u00e1 que o risco de sobrescrever (e perder) as c\u00f3pias de reserva \u00e9 menor. Essas m\u00eddias s\u00e3o baratas o suficiente para permitir usar uma nova a cada vez que um *backup* \u00e9 gerado.\r\n\r\nComo documentos eletr\u00f4nicos costumam ser a categoria de dados que cont\u00eam as informa\u00e7\u00f5es mais sens\u00edveis, \u00e9 particularmente importante proteger as c\u00f3pias de reserva com criptografia. \u00c9 poss\u00edvel ver como fazer isso no [***Cap\u00edtulo 4: Como proteger os arquivos sens\u00edveis do seu computador***](/pt/chapter-4) e no [***Guia Pr\u00e1tico do TrueCrypt***](/pt/truecrypt_main).\r\n\r\n**Bancos de dados de programas** - Uma vez que voc\u00ea saiba onde est\u00e3o os bancos de dados dos programas, pode fazer as c\u00f3pias de reserva (*backup*) da mesma forma que os documentos eletr\u00f4nicos.\r\n\r\n**E-mails** - Em vez de ler sua correspond\u00eancia eletr\u00f4nica apenas por um navegador de internet, instale um cliente de e-mail como o [*Thunderbird*](/pt/glossary#Thunderbird) e configure-o para acessar suas contas. O [***Guia Pr\u00e1tico do Thunderbird***](/pt/thunderbird_main) explica em detalhes como fazer isso. A maioria dos servi\u00e7os de e-mail tamb\u00e9m fornece instru\u00e7\u00f5es sobre como usar seus endere\u00e7os eletr\u00f4nicos com tais programas. Se optar por mover as mensagens antigas para o computador, de forma que n\u00e3o fiquem armazenadas no servidor (ex. por motivos de seguran\u00e7a), n\u00e3o se esque\u00e7a de inclui-las ao fazer o *backup* dos documentos eletr\u00f4nicos, como descrito acima.\r\n\r\n**Conte\u00fado de telefones celulares** - Para copiar os n\u00fameros de telefone e as mensagens de texto de seu celular, conecte-o ao computador com o software apropriado, geralmente dispon\u00edvel no site da empresa fabricante do aparelho. Talvez seja preciso comprar um cabo USB especial para isso.\r\n\r\n**Documentos impressos** - Quando poss\u00edvel, voc\u00ea deveria fazer c\u00f3pias digitalizadas de pap\u00e9is importantes e guard\u00e1-las junto com os *backups* de outros documentos eletr\u00f4nicos, como mencionado acima.\r\n\r\nAo fim, voc\u00ea deve estar com os dispositivos de armazenamento, tipos de dados e c\u00f3pias de reserva (*backups*) reordenados de forma a serem bem mais resistentes a desastres:\r\n\r\n<table width=\"100%\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Tipo de dado</th>\r\n<th>Vers\u00e3o principal/Duplicata</th>\r\n<th>Dispositivo de armazenamento</th>\r\n<th>Localiza\u00e7\u00e3o</th>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>Documentos eletr\u00f4nicos</td>\r\n<td>Vers\u00e3o principal</td>\r\n<td>Computador (disco r\u00edgido)</td>\r\n<td>Escrit\u00f3rio</td>\r\n</tr>\r\n<tr>\r\n<td>Documentos eletr\u00f4nicos</td>\r\n<td>Duplicata</td>\r\n<td>CDs</td>\r\n<td>Em casa</td>\r\n</tr>\r\n<tr>\r\n<td>Alguns documentos eletr\u00f4nicos importantes</td>\r\n<td>Duplicata</td>\r\n<td>Pen drive</td>\r\n<td>Comigo</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n\r\n\r\n\r\n<table width=\"100%\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Tipo de dado</th>\r\n<th>Vers\u00e3o principal/Duplicata</th>\r\n<th>Dispositivo de armazenamento</th>\r\n<th>Localiza\u00e7\u00e3o</th>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>Bancos de dados de programas</td>\r\n<td>Vers\u00e3o principal</td>\r\n<td>Computador (disco r\u00edgido)</td>\r\n<td>Escrit\u00f3rio</td>\r\n</tr>\r\n<tr>\r\n<td>Bancos de dados de programas</td>\r\n<td>Duplicata</td>\r\n<td>CDs</td>\r\n<td>Em casa</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n\r\n\r\n\r\n<table width=\"100%\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Tipo de dado</th>\r\n<th>Vers\u00e3o principal/Duplicata</th>\r\n<th>Dispositivo de armazenamento</th>\r\n<th>Localiza\u00e7\u00e3o</th>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>E-mails e contatos de e-mail</td>\r\n<td>Duplicata</td>\r\n<td>Conta do Gmail</td>\r\n<td>Internet</td>\r\n</tr>\r\n<tr>\r\n<td>E-mails e contatos de e-mail</td>\r\n<td>Vers\u00e3o principal</td>\r\n<td>Thunderbird no computador do escrit\u00f3rio</td>\r\n<td>Escrit\u00f3rio</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n\r\n\r\n\r\n<table width=\"100%\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Tipo de dado</th>\r\n<th>Vers\u00e3o principal/Duplicata</th>\r\n<th>Dispositivo de armazenamento</th>\r\n<th>Localiza\u00e7\u00e3o</th>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>Mensagens de texto e contatos telef\u00f4nicos</td>\r\n<td>Vers\u00e3o principal</td>\r\n<td>Telefone celular</td>\r\n<td>Comigo</td>\r\n</tr>\r\n<tr>\r\n<td>Mensagens de texto e contatos telef\u00f4nicos</td>\r\n<td>Duplicata</td>\r\n<td>Computador (disco r\u00edgido)</td>\r\n<td>Escrit\u00f3rio</td>\r\n</tr>\r\n<tr>\r\n<td>Mensagens de texto e contatos telef\u00f4nicos</td>\r\n<td>Duplicata</td>\r\n<td>Cart\u00e3o SIM de reserva (backup)</td>\r\n<td>Em casa</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n\r\n\r\n\r\n<table width=\"100%\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Tipo de dado</th>\r\n<th>Vers\u00e3o principal/Duplicata</th>\r\n<th>Dispositivo de armazenamento</th>\r\n<th>Localiza\u00e7\u00e3o</th>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>Documentos impressos</td>\r\n<td>Vers\u00e3o principal</td>\r\n<td>Gaveta da mesa</td>\r\n<td>Escrit\u00f3rio</td>\r\n</tr>\r\n<tr>\r\n<td>Documentos digitalizados</td>\r\n<td>Duplicata</td>\r\n<td>CDs</td>\r\n<td>Em casa</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n\r\n\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nElena: Conhe\u00e7o algumas pessoas que mant\u00eam todos os documentos importantes no Gmail, anexando-os a mensagens de 'rascunho' ou aos pr\u00f3prios e-mails. Isso contaria como uma 'segunda localiza\u00e7\u00e3o f\u00edsica' para os meus arquivos?\r\n\r\nNikolai: Isso pode te ajudar a recuper\u00e1-los caso perca um ou dois documentos muito importantes, mas \u00e9 bem desajeitado. Sinceramente, quantas c\u00f3pias de reserva de documentos por semana voc\u00ea faria dessa forma? Al\u00e9m disso, voc\u00ea tem que considerar se tais anexos est\u00e3o mesmo seguros, especialmente caso se preocupe que seu e-mail possa estar sendo monitorado. Outra coisa: a menos que voc\u00ea se conecte ao Gmail de forma segura, isso seria como entregar suas informa\u00e7\u00f5es sens\u00edveis em uma bandeja de prata. Usar uma conex\u00e3o HTTPS para entrar no Gmail e fazer c\u00f3pias de pequenos volumes do TrueCrypt ou de bancos de dados do KeePass at\u00e9 \u00e9 bem seguro, porque o conte\u00fado \u00e9 criptografado, mas eu n\u00e3o te recomendaria adotar esse procedimento como uma estrat\u00e9gia geral de *backup*.\r\n</div>"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1946", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1946", 
+                "link_title": "\u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb\u1799\u17bb\u1791\u17d2\u1792\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u1790\u178f\u1785\u1798\u17d2\u179b\u1784\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780\u1791\u17bb\u1780", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5091", 
+                "module": "book", 
+                "nid": "1946", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5089", 
+                "p3": "5091", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5089", 
+                "router_path": "node/%", 
+                "title": "\u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb\u1799\u17bb\u1791\u17d2\u1792\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u1790\u178f\u1785\u1798\u17d2\u179b\u1784\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780\u1791\u17bb\u1780", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1452272159", 
+            "comment": "0", 
+            "created": "1441103810", 
+            "current_revision_id": "12775", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_5_2", 
+                        "value": "chapter_5_2"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5091": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1946", 
+                    "link_title": "\u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb\u1799\u17bb\u1791\u17d2\u1792\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u1790\u178f\u1785\u1798\u17d2\u179b\u1784\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780\u1791\u17bb\u1780", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5091", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5089", 
+                    "p3": "5091", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5089", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1946", 
+            "num_revisions": "23", 
+            "path": "https://securityinabox.org/en/node/1946", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452272159", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como definir a sua estrat\u00e9gia de backup", 
+                        "value": "Como definir a sua estrat\u00e9gia de backup"
+                    }
+                ]
+            }, 
+            "title_original": "Defining your backup strategy", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916117", 
+                        "created": "1442916117", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227165", 
+                        "created": "1441805243", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096027", 
+                        "created": "1443096027", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442411075", 
+                        "created": "1442411075", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451914848", 
+                        "created": "1441206364", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089642", 
+                        "created": "1442759404", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695358", 
+                        "created": "1443695358", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452272159", 
+                        "created": "1452272159", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443103151", 
+                        "created": "1443103151", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113918", 
+                        "created": "1441113918", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443725005", 
+                        "created": "1443724772", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444405613", 
+                        "created": "1444405613", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "tr": {
+                        "changed": "1443100210", 
+                        "created": "1443100210", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092348", 
+                        "created": "1443092348", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441103830", 
+                        "created": "1441103810", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577596", 
+                        "created": "1443622947", 
+                        "entity_id": "1946", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "d78845e1-d983-4e5d-a60a-d92897aa2812", 
+            "vid": "12775", 
+            "vuuid": "44b7f563-d7f0-45b4-a04e-7d9f314b7121"
+        }, 
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Dos v\u00e1rios tipos de dados descritos aqui, os 'documentos eletr\u00f4nicos' s\u00e3o os que as pessoas tendem a se preocupar mais ao elaborar uma pol\u00edtica de <em>backup</em>. Esse termo \u00e9 um pouco amb\u00edguo, mas costuma se referir a arquivos que voc\u00ea sabe onde est\u00e3o e aos quais pode abrir manualmente, seja clicando duas vezes ou ao usar o menu de Arquivo de algum programa espec\u00edfico. O termo engloba arquivos de texto simples, documentos de processadores de texto, apresenta\u00e7\u00f5es, PDFs e planilhas, entre outros exemplos. Diferentemente de mensagens de e-mail, por exemplo, documentos eletr\u00f4nicos n\u00e3o costumam estar sincronizados com c\u00f3pias remotas na internet.</p>\n\n<p>Quando fizer c\u00f3pias de reserva de seus documentos eletr\u00f4nicos, lembre-se de incluir os bancos de dados dos aplicativos. Se voc\u00ea usa calend\u00e1rios ou agendas, por exemplo, ter\u00e1 de encontrar o diret\u00f3rio onde tais programas guardam as informa\u00e7\u00f5es. \u00c9 comum que as bases de dados estejam no mesmo local dos documentos eletr\u00f4nicos, pois costumam ficar dentro da pasta de <strong>Meus Documentos</strong> em computadores que usam Windows. Por\u00e9m, se n\u00e3o estiverem l\u00e1, voc\u00ea deve adicion\u00e1-las ao fazer o <em>backup</em> peri\u00f3dico.</p>\n\n<p>E-mails armazenados por aplicativos como o <a href=\"/pt/glossary#Thunderbird\"><em>Thunderbird</em></a> s\u00e3o um exemplo especial de banco de dados. Se voc\u00ea usa um programa de e-mails, especialmente se n\u00e3o pode ou n\u00e3o quer deixar c\u00f3pias de suas mensagens em um servidor, deve ter certeza de que estar\u00e3o inclu\u00eddos nos <em>backups</em> peri\u00f3dicos. J\u00e1 arquivos de imagem ou de v\u00eddeo podem ser considerados tanto como documentos eletr\u00f4nicos como itens pertencentes \u00e0 base de dados de um programa, dependendo de como voc\u00ea os utiliza. Aplicativos como o Windows Media player e o iTunes, por exemplo, funcionam como bancos de dados, pois gerenciam arquivos reais de m\u00eddia mas exibem apenas uma refer\u00eancia a eles na interface do software. Se voc\u00ea usa programas como esses, talvez tenha de fazer uma busca no computador para descobrir onde est\u00e3o os arquivos reais.</p>\n\n<h3>Dispositivos de armazenamento</h3>\n\n<p>Antes de fazer c\u00f3pias de reserva (<em>backup</em>) dos documentos eletr\u00f4nicos, avalie o tipo de dispositivo de armazenamento a ser usado.</p>\n\n<p><strong>Pen drives ou HDs externos</strong> - Pen drives e HDs externos s\u00e3o op\u00e7\u00f5es baratas e com bastante espa\u00e7o de armazenamento. S\u00e3o f\u00e1ceis de apagar e podem ser reescritos diversas vezes. Possuem um tempo de funcionamento limitado, que depende muito de como e do quanto s\u00e3o usados, mas geralmente estimado em torno de 10 anos.</p>\n\n<p><strong>Compact Discs (CDs)</strong> - CDs podem guardar cerca de 700 Megabytes (MB) de dados. Para criar c\u00f3pias de reserva (<em>backup</em>) nesta m\u00eddia, \u00e9 preciso um <a href=\"/pt/glossary#CD_burner\"><em>gravador de CD</em></a> e discos em branco. Se quiser apagar um CD e atualizar os arquivos gravados nele, precisar\u00e1 de um gravador de CD-RW e discos regrav\u00e1veis. Todos os principais sistemas operacionais, incluindo o Windows XP, v\u00eam com programas j\u00e1 instalados para escrever em CDs e CD-RWs. Tenha em mente que as informa\u00e7\u00f5es gravadas nesses discos podem come\u00e7ar a deteriorar ap\u00f3s 5 ou 10 anos. Se for preciso guardar um <em>backup</em> por mais tempo, use novos CDs, compre discos especiais de 'vida longa' ou use um m\u00e9todo diferente.</p>\n\n<p><strong>Digital Video Discs (DVDs)</strong> - DVDs armazenam at\u00e9 4.7 Gigabytes (GB) de dados. Funcionam de forma bem parecida aos CDs, mas requerem um equipamento levemente mais caro. Ser\u00e1 preciso um <a href=\"/pt/glossary#CD_burner\"><em>gravador de DVD ou DVD-RW</em></a> e as m\u00eddias apropriadas. Como um CD, as informa\u00e7\u00f5es escritas em um DVD normal v\u00e3o eventualmente desvanecer.</p>\n\n<p><strong>Servidor remoto</strong> - Um servidor de <em>backup</em> em rede bem mantido possui capacidade quase ilimitada, mas a velocidade e a estabilidade de sua conex\u00e3o de internet determinar\u00e3o se esta \u00e9 uma op\u00e7\u00e3o realista ou n\u00e3o. Tenha em mente que ter um servidor de <em>backup</em> situado dentro do local de trabalho, embora seja mais r\u00e1pido do que copiar a informa\u00e7\u00e3o por internet, viola o requisito de que as c\u00f3pias das informa\u00e7\u00f5es importantes devem ser mantidas em dois locais f\u00edsicos diferentes.</p>\n\n<p>Tamb\u00e9m h\u00e1 servi\u00e7os gratuitos de armazenamento na internet, mas os riscos de colocar dados online devem ser avaliados com muito cuidado. As c\u00f3pias de reserva devem ser sempre criptografadas antes de colocadas em servidores de organiza\u00e7\u00f5es ou pessoas que voc\u00ea n\u00e3o conhece ou confia. Veja alguns exemplos na se\u00e7\u00e3o de <a href=\"/pt/chapter_5_5\"><strong><em>Leitura extra</em></strong></a>.</p>\n\n<h3>Programa para <em>backup</em></h3>\n\n<p>O Cobian Backup \u00e9 uma ferramenta amig\u00e1vel que pode ser configurada para rodar automaticamente a intervalos regulares de tempo e para incluir apenas arquivos modificados desde a \u00faltima c\u00f3pia de reserva. O programa tamb\u00e9m pode comprimir os <em>backups</em> para que ocupem menos espa\u00e7o.</p>\n\n<div class=\"getstarted\">\n\n<p>Guia Pr\u00e1tico - saiba usar o <a href=\"/en/cobian_main\"><em>Cobian Backup</em></a></p>\n\n</div>\n\n<p>Como sempre, \u00e9 uma boa ideia criptografar os arquivos de <em>backup</em> com uma ferramenta como o <a href=\"/pt/glossary#TrueCrypt\"><em>TrueCrypt</em></a>. Mais informa\u00e7\u00f5es sobre criptografia de dados podem ser vistas no <a href=\"/pt/chapter-4\"><strong><em>Cap\u00edtulo 4: Como proteger os arquivos sens\u00edveis do seu computador</em></strong></a>.</p>\n\n<div class=\"getstarted\">\n\n<p>Guia Pr\u00e1tico - saiba usar o <a href=\"/pt/truecrypt_main\"><em>TrueCrypt - Armazenamento seguro de arquivos</em></a></p>\n\n</div>\n\n<p>Quando usar as ferramentas de <em>backup</em>, h\u00e1 algumas coisas que voc\u00ea pode fazer para que o sistema de gerar c\u00f3pias de reserva funcione sem problemas:</p>\n\n<ul><li>Organize os arquivos do computador. Tente deixar em um \u00fanico local todas as pastas onde est\u00e3o os documentos eletr\u00f4nicos dos quais ser\u00e3o feitas c\u00f3pias de reserva. Um exemplo seria dentro do diret\u00f3rio <strong>Meus Documentos</strong>.</li>\n<li>Se voc\u00ea usa programas que guardam as informa\u00e7\u00f5es em bancos de dados, ache primeiro onde est\u00e3o esses bancos. Caso n\u00e3o estejam em locais convenientes, veja se o programa permite usar outra pasta. Se sim, use o mesmo diret\u00f3rio onde est\u00e3o seus documentos eletr\u00f4nicos.</li>\n<li>Monte uma agenda regular para fazer as c\u00f3pias de reserva (<em>backup</em>).</li>\n<li>Tente estabelecer procedimentos para todas as pessoas da equipe em seu local de trabalho que ainda n\u00e3o t\u00eam uma pol\u00edtica de <em>backup</em> segura ou confi\u00e1vel. Ajude-as a entender a import\u00e2ncia do tema.</li>\n<li>Lembre-se de testar os procedimentos de recupera\u00e7\u00e3o dos dados contidos em c\u00f3pias de reserva. Afinal, quando um problema aparecer, \u00e9 o procedimento de recuperar as informa\u00e7\u00f5es que vai importar, e n\u00e3o o de fazer o <em>backup</em>!</li>\n</ul><div class=\"background\">\n\n<p>Elena: Muito bem, fiz uma c\u00f3pia de reserva criptografada no trabalho e a gravei em um CD. O Cobian est\u00e1 agendado para atualizar meu backup em alguns dias. Minha mesa do escrit\u00f3rio tem uma gaveta com tranca e estou pensando em deixar os CDs ali, para que n\u00e3o se percam ou quebrem.</p>\n\n<p>Nikolai: E se houver um inc\u00eandio no escrit\u00f3rio e o computador, mesa, CDs de backup e tudo o mais queime? Ou se as pessoas que frequentam o f\u00f3rum do seu site comecem a planejar manifesta\u00e7\u00f5es gigantes de protesto e as autoridades entrem em parafuso? As coisas podem sair do controle e sua organiza\u00e7\u00e3o ser invadida. Duvido que a trava da sua mesa segure a pol\u00edcia de levar os CDs. Que tal deix\u00e1-los em casa, ou pedir a um amigo que as guarde para voc\u00ea?</p>\n\n</div>\n", 
+                        "summary": "", 
+                        "value": "Dos v\u00e1rios tipos de dados descritos aqui, os 'documentos eletr\u00f4nicos' s\u00e3o os que as pessoas tendem a se preocupar mais ao elaborar uma pol\u00edtica de *backup*. Esse termo \u00e9 um pouco amb\u00edguo, mas costuma se referir a arquivos que voc\u00ea sabe onde est\u00e3o e aos quais pode abrir manualmente, seja clicando duas vezes ou ao usar o menu de Arquivo de algum programa espec\u00edfico. O termo engloba arquivos de texto simples, documentos de processadores de texto, apresenta\u00e7\u00f5es, PDFs e planilhas, entre outros exemplos. Diferentemente de mensagens de e-mail, por exemplo, documentos eletr\u00f4nicos n\u00e3o costumam estar sincronizados com c\u00f3pias remotas na internet.\r\n\r\nQuando fizer c\u00f3pias de reserva de seus documentos eletr\u00f4nicos, lembre-se de incluir os bancos de dados dos aplicativos. Se voc\u00ea usa calend\u00e1rios ou agendas, por exemplo, ter\u00e1 de encontrar o diret\u00f3rio onde tais programas guardam as informa\u00e7\u00f5es. \u00c9 comum que as bases de dados estejam no mesmo local dos documentos eletr\u00f4nicos, pois costumam ficar dentro da pasta de **Meus Documentos** em computadores que usam Windows. Por\u00e9m, se n\u00e3o estiverem l\u00e1, voc\u00ea deve adicion\u00e1-las ao fazer o *backup* peri\u00f3dico.\r\n\r\nE-mails armazenados por aplicativos como o [*Thunderbird*](/pt/glossary#Thunderbird) s\u00e3o um exemplo especial de banco de dados. Se voc\u00ea usa um programa de e-mails, especialmente se n\u00e3o pode ou n\u00e3o quer deixar c\u00f3pias de suas mensagens em um servidor, deve ter certeza de que estar\u00e3o inclu\u00eddos nos *backups* peri\u00f3dicos. J\u00e1 arquivos de imagem ou de v\u00eddeo podem ser considerados tanto como documentos eletr\u00f4nicos como itens pertencentes \u00e0 base de dados de um programa, dependendo de como voc\u00ea os utiliza. Aplicativos como o Windows Media player e o iTunes, por exemplo, funcionam como bancos de dados, pois gerenciam arquivos reais de m\u00eddia mas exibem apenas uma refer\u00eancia a eles na interface do software. Se voc\u00ea usa programas como esses, talvez tenha de fazer uma busca no computador para descobrir onde est\u00e3o os arquivos reais.\r\n\r\n\r\n### Dispositivos de armazenamento ###\r\n\r\nAntes de fazer c\u00f3pias de reserva (*backup*) dos documentos eletr\u00f4nicos, avalie o tipo de dispositivo de armazenamento a ser usado.\r\n\r\n**Pen drives ou HDs externos** - Pen drives e HDs externos s\u00e3o op\u00e7\u00f5es baratas e com bastante espa\u00e7o de armazenamento. S\u00e3o f\u00e1ceis de apagar e podem ser reescritos diversas vezes. Possuem um tempo de funcionamento limitado, que depende muito de como e do quanto s\u00e3o usados, mas geralmente estimado em torno de 10 anos.\r\n\r\n**Compact Discs (CDs)** - CDs podem guardar cerca de 700 Megabytes (MB) de dados. Para criar c\u00f3pias de reserva (*backup*) nesta m\u00eddia, \u00e9 preciso um [*gravador de CD*](/pt/glossary#CD_burner) e discos em branco. Se quiser apagar um CD e atualizar os arquivos gravados nele, precisar\u00e1 de um gravador de CD-RW e discos regrav\u00e1veis. Todos os principais sistemas operacionais, incluindo o Windows XP, v\u00eam com programas j\u00e1 instalados para escrever em CDs e CD-RWs. Tenha em mente que as informa\u00e7\u00f5es gravadas nesses discos podem come\u00e7ar a deteriorar ap\u00f3s 5 ou 10 anos. Se for preciso guardar um *backup* por mais tempo, use novos CDs, compre discos especiais de 'vida longa' ou use um m\u00e9todo diferente.\r\n\r\n**Digital Video Discs (DVDs)** - DVDs armazenam at\u00e9 4.7 Gigabytes (GB) de dados. Funcionam de forma bem parecida aos CDs, mas requerem um equipamento levemente mais caro. Ser\u00e1 preciso um [*gravador de DVD ou DVD-RW*](/pt/glossary#CD_burner) e as m\u00eddias apropriadas. Como um CD, as informa\u00e7\u00f5es escritas em um DVD normal v\u00e3o eventualmente desvanecer.\r\n\r\n**Servidor remoto** - Um servidor de *backup* em rede bem mantido possui capacidade quase ilimitada, mas a velocidade e a estabilidade de sua conex\u00e3o de internet determinar\u00e3o se esta \u00e9 uma op\u00e7\u00e3o realista ou n\u00e3o. Tenha em mente que ter um servidor de *backup* situado dentro do local de trabalho, embora seja mais r\u00e1pido do que copiar a informa\u00e7\u00e3o por internet, viola o requisito de que as c\u00f3pias das informa\u00e7\u00f5es importantes devem ser mantidas em dois locais f\u00edsicos diferentes.\r\n\r\nTamb\u00e9m h\u00e1 servi\u00e7os gratuitos de armazenamento na internet, mas os riscos de colocar dados online devem ser avaliados com muito cuidado. As c\u00f3pias de reserva devem ser sempre criptografadas antes de colocadas em servidores de organiza\u00e7\u00f5es ou pessoas que voc\u00ea n\u00e3o conhece ou confia. Veja alguns exemplos na se\u00e7\u00e3o de [***Leitura extra***](/pt/chapter_5_5).\r\n\r\n\r\n### Programa para *backup* ###\r\n\r\nO Cobian Backup \u00e9 uma ferramenta amig\u00e1vel que pode ser configurada para rodar automaticamente a intervalos regulares de tempo e para incluir apenas arquivos modificados desde a \u00faltima c\u00f3pia de reserva. O programa tamb\u00e9m pode comprimir os *backups* para que ocupem menos espa\u00e7o.\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nGuia Pr\u00e1tico - saiba usar o [*Cobian Backup*](/en/cobian_main)\r\n</div>\r\n\r\nComo sempre, \u00e9 uma boa ideia criptografar os arquivos de *backup* com uma ferramenta como o [*TrueCrypt*](/pt/glossary#TrueCrypt). Mais informa\u00e7\u00f5es sobre criptografia de dados podem ser vistas no [***Cap\u00edtulo 4: Como proteger os arquivos sens\u00edveis do seu computador***](/pt/chapter-4).\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nGuia Pr\u00e1tico - saiba usar o [*TrueCrypt - Armazenamento seguro de arquivos*](/pt/truecrypt_main)\r\n</div>\r\n<p>\r\n\r\nQuando usar as ferramentas de *backup*, h\u00e1 algumas coisas que voc\u00ea pode fazer para que o sistema de gerar c\u00f3pias de reserva funcione sem problemas:\r\n\r\n  * Organize os arquivos do computador. Tente deixar em um \u00fanico local todas as pastas onde est\u00e3o os documentos eletr\u00f4nicos dos quais ser\u00e3o feitas c\u00f3pias de reserva. Um exemplo seria dentro do diret\u00f3rio **Meus Documentos**.\r\n  * Se voc\u00ea usa programas que guardam as informa\u00e7\u00f5es em bancos de dados, ache primeiro onde est\u00e3o esses bancos. Caso n\u00e3o estejam em locais convenientes, veja se o programa permite usar outra pasta. Se sim, use o mesmo diret\u00f3rio onde est\u00e3o seus documentos eletr\u00f4nicos.\r\n  * Monte uma agenda regular para fazer as c\u00f3pias de reserva (*backup*).\r\n  * Tente estabelecer procedimentos para todas as pessoas da equipe em seu local de trabalho que ainda n\u00e3o t\u00eam uma pol\u00edtica de *backup* segura ou confi\u00e1vel. Ajude-as a entender a import\u00e2ncia do tema.\r\n  * Lembre-se de testar os procedimentos de recupera\u00e7\u00e3o dos dados contidos em c\u00f3pias de reserva. Afinal, quando um problema aparecer, \u00e9 o procedimento de recuperar as informa\u00e7\u00f5es que vai importar, e n\u00e3o o de fazer o *backup*!\r\n\r\n\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nElena: Muito bem, fiz uma c\u00f3pia de reserva criptografada no trabalho e a gravei em um CD. O Cobian est\u00e1 agendado para atualizar meu backup em alguns dias. Minha mesa do escrit\u00f3rio tem uma gaveta com tranca e estou pensando em deixar os CDs ali, para que n\u00e3o se percam ou quebrem.\r\n\r\nNikolai: E se houver um inc\u00eandio no escrit\u00f3rio e o computador, mesa, CDs de backup e tudo o mais queime? Ou se as pessoas que frequentam o f\u00f3rum do seu site comecem a planejar manifesta\u00e7\u00f5es gigantes de protesto e as autoridades entrem em parafuso? As coisas podem sair do controle e sua organiza\u00e7\u00e3o ser invadida. Duvido que a trava da sua mesa segure a pol\u00edcia de levar os CDs. Que tal deix\u00e1-los em casa, ou pedir a um amigo que as guarde para voc\u00ea?\r\n</div>"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1947", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1947", 
+                "link_title": "Creating a digital backup", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5092", 
+                "module": "book", 
+                "nid": "1947", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5089", 
+                "p3": "5092", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5089", 
+                "router_path": "node/%", 
+                "title": "Creating a digital backup", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1454082369", 
+            "comment": "0", 
+            "created": "1441103914", 
+            "current_revision_id": "13089", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_5_3", 
+                        "value": "chapter_5_3"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5092": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1947", 
+                    "link_title": "Creating a digital backup", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5092", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5089", 
+                    "p3": "5092", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5089", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1947", 
+            "num_revisions": "30", 
+            "path": "https://securityinabox.org/en/node/1947", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1454082369", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como fazer c\u00f3pias de reserva / backup digitais", 
+                        "value": "Como fazer c\u00f3pias de reserva / backup digitais"
+                    }
+                ]
+            }, 
+            "title_original": "Creating a digital backup", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916199", 
+                        "created": "1442916199", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454082369", 
+                        "created": "1441805637", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096051", 
+                        "created": "1443096051", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442411165", 
+                        "created": "1442411165", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441206521", 
+                        "created": "1441206521", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447107685", 
+                        "created": "1442759428", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695377", 
+                        "created": "1443695377", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452272227", 
+                        "created": "1452272227", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443103218", 
+                        "created": "1443103218", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113995", 
+                        "created": "1441113995", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443726112", 
+                        "created": "1443726050", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444405747", 
+                        "created": "1444405690", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "tr": {
+                        "changed": "1443100234", 
+                        "created": "1443100234", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "xx": {
+                        "changed": "1446485621", 
+                        "created": "1441103914", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1947", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577641", 
+                        "created": "1443622977", 
+                        "entity_id": "1947", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1947", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "0b70335e-f66b-407c-ab21-7702e3af4412", 
+            "vid": "13089", 
+            "vuuid": "d5c9b7fd-3ea6-4201-8f33-a51344ca39e7"
+        }, 
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Quando um arquivo \u00e9 apagado no Windows, desaparece de vista mas continua no computador. Mesmo ap\u00f3s esvaziar a <strong>Lixeira</strong>, as informa\u00e7\u00f5es removidas ainda podem ser encontradas no disco r\u00edgido (veja o <a href=\"/pt/chapter-6\"><strong><em>Cap\u00edtulo 6: Como destruir informa\u00e7\u00f5es sens\u00edveis</em></strong></a> para saber mais sobre isso). Essa falha de seguran\u00e7a pode ser usada ocasionalmente a seu favor, caso um arquivo ou pasta importante sejam apagados de forma acidental. H\u00e1 v\u00e1rios programas que podem restaurar o acesso a dados rec\u00e9m removidos, incluindo uma ferramenta chamada <a href=\"/en/recuva_main\"><em>Recuva</em></a>.</p>\n\n<div class=\"getstarted\">\n\n<p>Guia Pr\u00e1tico - saiba usar o <a href=\"/en/recuva_main\"><em>Recuva - Recupera\u00e7\u00e3o de arquivos</em></a></p>\n\n</div>\n\n<p>Tais ferramentas nem sempre funcionam, pois o Windows pode haver escrito novos dados sobre a informa\u00e7\u00e3o apagada. Portanto, \u00e9 importante fazer o menor n\u00famero de coisas poss\u00edvel no computador entre os atos de apagar um arquivo e tentar restaur\u00e1-lo com programas como o <a href=\"/en/recuva_main\"><em>Recuva</em></a>. Quanto mais a m\u00e1quina for usada antes da tentativa de recupera\u00e7\u00e3o, menor as chances de sucesso. Isso tamb\u00e9m significa que \u00e9 melhor usar uma vers\u00e3o port\u00e1til do <em>Recuva</em> em vez de instal\u00e1-lo ap\u00f3s apagar algum arquivo importante. Instalar programas exige escrever novas informa\u00e7\u00f5es no sistema, o que pode sobrescrever justamente os dados cr\u00edticos que voc\u00ea estiver tentando recuperar.</p>\n\n<p>Embora pare\u00e7a trabalhoso implementar as pol\u00edticas ou aprender as ferramentas descritas neste cap\u00edtulo, uma vez implementada, manter a estrat\u00e9gia de <em>backup</em> funcionando \u00e9 muito mais f\u00e1cil do que mont\u00e1-la da primeira vez. E posto que ter c\u00f3pias de reserva confi\u00e1veis pode ser, de todos, o aspecto mais importante em todo o escopo da seguran\u00e7a da informa\u00e7\u00e3o, tenha certeza de que passar pelo processo compensa bastante o esfor\u00e7o.</p>\n", 
+                        "summary": "", 
+                        "value": "Quando um arquivo \u00e9 apagado no Windows, desaparece de vista mas continua no computador. Mesmo ap\u00f3s esvaziar a **Lixeira**, as informa\u00e7\u00f5es removidas ainda podem ser encontradas no disco r\u00edgido (veja o [***Cap\u00edtulo 6: Como destruir informa\u00e7\u00f5es sens\u00edveis***](/pt/chapter-6) para saber mais sobre isso). Essa falha de seguran\u00e7a pode ser usada ocasionalmente a seu favor, caso um arquivo ou pasta importante sejam apagados de forma acidental. H\u00e1 v\u00e1rios programas que podem restaurar o acesso a dados rec\u00e9m removidos, incluindo uma ferramenta chamada [*Recuva*](/en/recuva_main).\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nGuia Pr\u00e1tico - saiba usar o [*Recuva - Recupera\u00e7\u00e3o de arquivos*](/en/recuva_main)\r\n</div>\r\n\r\nTais ferramentas nem sempre funcionam, pois o Windows pode haver escrito novos dados sobre a informa\u00e7\u00e3o apagada. Portanto, \u00e9 importante fazer o menor n\u00famero de coisas poss\u00edvel no computador entre os atos de apagar um arquivo e tentar restaur\u00e1-lo com programas como o [*Recuva*](/en/recuva_main). Quanto mais a m\u00e1quina for usada antes da tentativa de recupera\u00e7\u00e3o, menor as chances de sucesso. Isso tamb\u00e9m significa que \u00e9 melhor usar uma vers\u00e3o port\u00e1til do *Recuva* em vez de instal\u00e1-lo ap\u00f3s apagar algum arquivo importante. Instalar programas exige escrever novas informa\u00e7\u00f5es no sistema, o que pode sobrescrever justamente os dados cr\u00edticos que voc\u00ea estiver tentando recuperar.\r\n\r\nEmbora pare\u00e7a trabalhoso implementar as pol\u00edticas ou aprender as ferramentas descritas neste cap\u00edtulo, uma vez implementada, manter a estrat\u00e9gia de *backup* funcionando \u00e9 muito mais f\u00e1cil do que mont\u00e1-la da primeira vez. E posto que ter c\u00f3pias de reserva confi\u00e1veis pode ser, de todos, o aspecto mais importante em todo o escopo da seguran\u00e7a da informa\u00e7\u00e3o, tenha certeza de que passar pelo processo compensa bastante o esfor\u00e7o."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1948", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1948", 
+                "link_title": "Recovering from accidental file deletion", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5093", 
+                "module": "book", 
+                "nid": "1948", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5089", 
+                "p3": "5093", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5089", 
+                "router_path": "node/%", 
+                "title": "Recovering from accidental file deletion", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1455796357", 
+            "comment": "0", 
+            "created": "1441103974", 
+            "current_revision_id": "13255", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_5_4", 
+                        "value": "chapter_5_4"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5093": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1948", 
+                    "link_title": "Recovering from accidental file deletion", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5093", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5089", 
+                    "p3": "5093", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5089", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1948", 
+            "num_revisions": "23", 
+            "path": "https://securityinabox.org/en/node/1948", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455796357", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como recuperar arquivos apagados por engano", 
+                        "value": "Como recuperar arquivos apagados por engano"
+                    }
+                ]
+            }, 
+            "title_original": "Recovering from accidental file deletion", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916287", 
+                        "created": "1442916287", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227263", 
+                        "created": "1441805862", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096072", 
+                        "created": "1443096072", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442411235", 
+                        "created": "1442411235", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451915329", 
+                        "created": "1441206636", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089836", 
+                        "created": "1442759449", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1455796357", 
+                        "created": "1443695398", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452272286", 
+                        "created": "1452272286", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443103298", 
+                        "created": "1443103298", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441115004", 
+                        "created": "1441115004", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443726338", 
+                        "created": "1443726338", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444405829", 
+                        "created": "1444405829", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "tr": {
+                        "changed": "1443100255", 
+                        "created": "1443100255", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092467", 
+                        "created": "1443092467", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441103974", 
+                        "created": "1441103974", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1948", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577760", 
+                        "created": "1443623013", 
+                        "entity_id": "1948", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1948", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "c0ee2093-6a95-41e0-900e-f0eee3c330de", 
+            "vid": "13255", 
+            "vuuid": "3b23bd32-1050-4c74-aa81-3ed7f19c2e20"
+        }, 
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li>\u00c9 poss\u00edvel ler mais sobre <em>backup</em> e recupera\u00e7\u00e3o de dados no cap\u00edtulo <em>2.3 Backup, Destrui\u00e7\u00e3o e Recupera\u00e7\u00e3o de informa\u00e7\u00f5es</em>, do livro <a href=\"http://www.frontlinedefenders.org/esecman\">Seguran\u00e7a Digital e Privacidade para Defensores dos Direitos Humanos</a> (em ingl\u00eas ou espanhol).</li>\n<li>Note que o <em>backup</em> online traz novos riscos. No m\u00ednimo, <strong>lembre-se de criptografar as informa\u00e7\u00f5es sens\u00edveis antes</strong> de coloc\u00e1-las em um servidor. Assumindo que voc\u00ea criptografe os dados, alguns servi\u00e7os online gratuitos de armazenamento podem ser convenientes para guardar c\u00f3pias reserva de seus dados. Algumas op\u00e7\u00f5es s\u00e3o: <a href=\"https://spideroak.com/\">SpiderOak</a>,  <a href=\"https://drive.google.com/start\">Google Drive</a> e <a href=\"https://tahoe-lafs.org/trac/tahoe-lafs\">tahoe-lafs</a>. </li>\n<li>Existe um artigo excelente na <a href=\"http://en.wikipedia.org/wiki/Data_recovery\">Wikipedia</a> sobre a recupera\u00e7\u00e3o de dados (em ingl\u00eas).</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "- \u00c9 poss\u00edvel ler mais sobre *backup* e recupera\u00e7\u00e3o de dados no cap\u00edtulo *2.3 Backup, Destrui\u00e7\u00e3o e Recupera\u00e7\u00e3o de informa\u00e7\u00f5es*, do livro [Seguran\u00e7a Digital e Privacidade para Defensores dos Direitos Humanos](http://www.frontlinedefenders.org/esecman) (em ingl\u00eas ou espanhol).\r\n- Note que o *backup* online traz novos riscos. No m\u00ednimo, **lembre-se de criptografar as informa\u00e7\u00f5es sens\u00edveis antes** de coloc\u00e1-las em um servidor. Assumindo que voc\u00ea criptografe os dados, alguns servi\u00e7os online gratuitos de armazenamento podem ser convenientes para guardar c\u00f3pias reserva de seus dados. Algumas op\u00e7\u00f5es s\u00e3o: [SpiderOak](https://spideroak.com/),  [Google Drive](https://drive.google.com/start) e [tahoe-lafs](https://tahoe-lafs.org/trac/tahoe-lafs). \r\n- Existe um artigo excelente na [Wikipedia](http://en.wikipedia.org/wiki/Data_recovery) sobre a recupera\u00e7\u00e3o de dados (em ingl\u00eas)."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1949", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1949", 
+                "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5094", 
+                "module": "book", 
+                "nid": "1949", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5089", 
+                "p3": "5094", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5089", 
+                "router_path": "node/%", 
+                "title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "updated": "0", 
+                "weight": "5"
+            }, 
+            "changed": "1452272402", 
+            "comment": "0", 
+            "created": "1441104021", 
+            "current_revision_id": "12779", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_5_5", 
+                        "value": "chapter_5_5"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5094": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1949", 
+                    "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5094", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5089", 
+                    "p3": "5094", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5089", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "5"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1949", 
+            "num_revisions": "21", 
+            "path": "https://securityinabox.org/en/node/1949", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452272402", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Leitura extra", 
+                        "value": "Leitura extra"
+                    }
+                ]
+            }, 
+            "title_original": "Further reading", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916361", 
+                        "created": "1442916361", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096092", 
+                        "created": "1443096092", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442411334", 
+                        "created": "1442411334", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441206695", 
+                        "created": "1441206695", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089894", 
+                        "created": "1442761261", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695601", 
+                        "created": "1443695601", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452272402", 
+                        "created": "1452272365", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443102994", 
+                        "created": "1443102994", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1451988168", 
+                        "created": "1441115117", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443726393", 
+                        "created": "1443726393", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444405941", 
+                        "created": "1444405941", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "tr": {
+                        "changed": "1443100286", 
+                        "created": "1443100286", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092547", 
+                        "created": "1443092547", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441104021", 
+                        "created": "1441104021", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577825", 
+                        "created": "1443623040", 
+                        "entity_id": "1949", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "6bfa16f4-0d0b-45ac-8f03-799179b1f19d", 
+            "vid": "12779", 
+            "vuuid": "950e52a9-bbd7-485f-91ec-8038567f32c6"
+        }
+    ], 
+    "changed": "1453893598", 
+    "comment": "0", 
+    "created": "1441103567", 
+    "current_revision_id": "13008", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_menu_title": {
+        "pt-pt": [
+            {
+                "format": null, 
+                "safe_value": "5. Como se recuperar da perda de informa", 
+                "value": "5. Como se recuperar da perda de informa"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "pt-pt": [
+            {
+                "format": null, 
+                "safe_value": "5. Como se recuperar da perda de informa\u00e7\u00f5es", 
+                "value": "5. Como se recuperar da perda de informa\u00e7\u00f5es"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-09 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "pt-pt": [
+            {
+                "format": null, 
+                "safe_value": "chapter-5", 
+                "value": "chapter-5"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "5"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "5"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5089": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/1944", 
+            "link_title": "5. How to recover from information loss", 
+            "menu_name": "book-toc-1925", 
+            "mlid": "5089", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5030", 
+            "p2": "5089", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5030", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "5"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "1944", 
+    "num_revisions": "23", 
+    "path": "https://securityinabox.org/en/node/1944", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1453893598", 
+    "revision_uid": "228", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "pt-pt": [
+            {
+                "format": null, 
+                "safe_value": "5. Como se recuperar da perda de informa\u00e7\u00f5es", 
+                "value": "5. Como se recuperar da perda de informa\u00e7\u00f5es"
+            }
+        ]
+    }, 
+    "title_original": "5. How to recover from information loss", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442915883", 
+                "created": "1442915883", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1453893598", 
+                "created": "1441804186", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "bo": {
+                "changed": "1443093715", 
+                "created": "1443093715", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "bo", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "es": {
+                "changed": "1442410748", 
+                "created": "1442410748", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1441205895", 
+                "created": "1441205895", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "fr": {
+                "changed": "1447089421", 
+                "created": "1442775036", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }, 
+            "id": {
+                "changed": "1443692697", 
+                "created": "1443692697", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "km": {
+                "changed": "1452272011", 
+                "created": "1452272011", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443102836", 
+                "created": "1443102836", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441113643", 
+                "created": "1441113643", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1443721696", 
+                "created": "1443721696", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "th": {
+                "changed": "1444395108", 
+                "created": "1444395108", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "th", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "tr": {
+                "changed": "1443014608", 
+                "created": "1443012792", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1443088924", 
+                "created": "1443088838", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441103567", 
+                "created": "1441103567", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "1944", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1444577499", 
+                "created": "1443622179", 
+                "entity_id": "1944", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "1944", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_how_to_booklet_chapter", 
+    "uid": "70", 
+    "uuid": "11cf27ca-845b-4076-893d-8703638bc2d7", 
+    "vid": "13008", 
+    "vuuid": "543dfbbf-76ee-47ca-b115-197528f8138e"
+}

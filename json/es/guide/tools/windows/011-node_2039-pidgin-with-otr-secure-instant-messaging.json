@@ -1,0 +1,1563 @@
+{
+    "body": {
+        "es": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Sitios web</strong></p>\n\n<ul><li><strong>Pidgin</strong>: <a href=\"http://www.pidgin.im\"><strong>www.pidgin.im</strong></a></li>\n<li><strong>OTR</strong>: <a href=\"https://otr.cypherpunks.ca/\"><strong>https://otr.cypherpunks.ca/</strong></a></li>\n</ul><p><strong>Requisitos del sistema</strong></p>\n\n<ul><li>Conexi\u00f3n a internet</li>\n<li>Todas las versiones de Windows </li>\n</ul><p><strong>Versi\u00f3n utilizada en esta gu\u00eda</strong></p>\n\n<ul><li>Pidgin 2.10.11</li>\n<li>OTR 4.0.1 </li>\n</ul><p><strong>\u00daltima actualizaci\u00f3n de este cap\u00edtulo</strong></p>\n\n<ul><li>Agosto 2015</li>\n</ul><p><strong>Licencia</strong>:</p>\n\n<ul><li>Software gratuito y de c\u00f3digo abierto</li>\n</ul><p><strong>Lectura necesaria</strong></p>\n\n<p>Gu\u00eda Paso a Paso, cap\u00edtulo <a href=\"/es/chapter-7\"><strong>7. Mantener privada tu comunicaci\u00f3n en Internet</strong></a></p>\n\n<p><strong>\u00bfQu\u00e9 recibes a cambio?</strong>:</p>\n\n<ul><li>La capacidad de organizar y administrar algunos de los servicios de mensajer\u00eda instant\u00e1nea m\u00e1s populares por medio de un \u00fanico programa </li>\n<li>La capacidad de mantener sesiones de chat privadas y autenticadas</li>\n</ul><p><strong>GNU Linux, Mac OS y otros programas compatibles con Microsoft Windows:</strong></p>\n\n<p><strong>Nota:</strong> Recomendamos utilizar <a href=\"/es/jitsi\"><strong>Jitsi</strong></a> para sustituir a <strong>Pidgin</strong>. Adem\u00e1s de poder utilizar <strong>Jitsi</strong> para sesiones seguras de chat (tambi\u00e9n con usuarios de Pidgin), tambi\u00e9n puedes utilizarlo para comunicaciones seguras vocales o por v\u00eddeo con otro usuarios de <strong>Jitsi</strong>. <strong>Jitsi</strong> est\u00e1 disponible para <strong>Microsoft Windows</strong>, <strong>GNU/Linux</strong>, <strong>Mac OS</strong> y m\u00e1s.</p>\n\n<p>Tanto <strong>Pidgin</strong> como <strong>OTR</strong> est\u00e1n disponibles para <strong>Microsoft Windows</strong> y para <strong>GNU/Linux</strong>. Otro programa multiprotocolo de <strong>MI</strong> para <strong>Microsoft Windows</strong> que admite <strong>OTR</strong> es <a href=\"http://www.miranda-im.org/\"><strong>Miranda IM</strong></a>. Para <strong>Mac OS</strong> se puede utilizar <a href=\"http://adium.im/\"><strong>Adium</strong></a>, un programa multiprotocolo de <strong>MI</strong> que es compatible con el plugin <strong>OTR</strong>.</p>\n\n<h2>1.1 Cosas que debes saber sobre esta herramienta antes de empezar</h2>\n\n<p>Antes de poder empezar a utilizar <strong>Pidgin</strong> debes tener una cuenta de <strong>MI</strong>, que registrar\u00e1s con <strong>Pidgin</strong>. Por ejemplo, si dispones de una <strong>cuenta Google</strong> puedes utilizar <strong>GoogleTalk</strong>, su servicio de  <strong>MI</strong>, con <strong>Pidgin</strong>. Los datos de acceso a tu cuenta de  <strong>MI</strong> se utilizan para registrarte y acceder a tu cuenta por medio de <strong>Pidgin</strong>.</p>\n\n<p><strong>Nota</strong>: animamos a todos los usuarios a que se informen todo lo posible sobre la pol\u00edtica de privacidad y seguridad de su <strong>proveedor de cuenta de Mensajer\u00eda Instant\u00e1nea</strong>.</p>\n\n<p><strong>Pidgin</strong> es compatible con los siguientes servicios de <strong>MI</strong>: <a href=\"https://www.aim.com/\"><strong>AIM</strong></a>, <a href=\"http://www.apple.com/es/support/bonjour/\"><strong>Bonjour</strong></a>, <a href=\"http://komunikator.gadu-gadu.pl/\"><strong>Gadu-Gadu</strong></a>, <a href=\"http://www.google.com/intl/es/hangouts/\"><strong>Google Hangouts</strong></a>, <strong>Groupwise</strong>, <a href=\"http://www.icq.com\"><strong>ICQ</strong></a>, <strong>IRC</strong>, <a href=\"http://www.msn.com/\"><strong>MSN</strong></a>, <a href=\"http://www.mxit.com/\"><strong>MXit</strong></a>, <a href=\"http://www.myspace.com/guide/im\"><strong>MySpaceIM</strong></a>, <a href=\"http://silcnet.org/\"><strong>SILC</strong></a>, <strong>SIMPLE</strong>, <a href=\"http://www.ibm.com/developerworks/downloads/ls/lst/\"><strong>Sametime</strong></a>, <a href=\"http://es.messenger.yahoo.com\"><strong>Yahoo!</strong></a>, <strong>Zephyr</strong> y cualquier cliente de <strong>MI</strong> que funcione con el protocolo de mensajer\u00eda <strong>XMPP</strong>.</p>\n\n<p><strong>Pidgin</strong> no permite la comunicaci\u00f3n entre diferentes servicios de <strong>MI</strong>. Por ejemplo, si utilizas <strong>Pidgin</strong> para acceder a tu cuenta de <strong>Google Talk</strong>, no podr\u00e1s chatear con un amigo que utilice una cuenta <strong>ICQ</strong>.</p>\n\n<p>Sin embargo, <strong>Pidgin</strong> puede configurarse para administrar m\u00faltiples cuentas que se basen en cualquiera de los protocolos de mensajer\u00eda admitidos. Es decir, que puedes utilizar simult\u00e1neamente cuentas <strong>Gmail</strong> y <strong>ICQ</strong> y chatear con usuarios de <em>uno u otro</em> de esos servicios espec\u00edficos (que son compatibles con <strong>Pidgin</strong>).</p>\n\n<p>El plugin <strong>Off-the-Record (Fuera de Registro)</strong> (<strong>OTR</strong>) est\u00e1 desarrollado espec\u00edficamente para <strong>Pidgin</strong> y ofrece las siguientes funciones de seguridad y privacidad:</p>\n\n<ul><li><strong>Autenticaci\u00f3n</strong>: Garantiza que la persona con la que te comunicas es quien t\u00fa crees que es.</li>\n<li><strong>Rechazo</strong>: Una vez finalizada la sesi\u00f3n de chat, los mensajes no pueden ser identificados como procedentes de ti o de tu interlocutor.</li>\n<li><strong>Cifrado</strong>: Nadie puede tener acceso a tus mensajes y leerlos.</li>\n<li><strong>Perfecta seguridad adicional</strong>: En caso de que terceros obtengan tus claves privadas, ninguna de tus conversaciones anteriores estar\u00e1 en peligro.</li>\n</ul><p><strong>Nota</strong>: <strong>Pidgin</strong> debe necesariamente instalarse antes del plugin <strong>OTR</strong>.</p>\n", 
+                "summary": "", 
+                "value": "**Sitios web**\r\n\r\n- **Pidgin**: [**www.pidgin.im**](http://www.pidgin.im)\r\n- **OTR**: [**https://otr.cypherpunks.ca/**](https://otr.cypherpunks.ca/)\r\n\r\n**Requisitos del sistema**\r\n\r\n- Conexi\u00f3n a internet\r\n- Todas las versiones de Windows \r\n\r\n**Versi\u00f3n utilizada en esta gu\u00eda**\r\n\r\n- Pidgin 2.10.11\r\n- OTR 4.0.1 \r\n\r\n**\u00daltima actualizaci\u00f3n de este cap\u00edtulo**\r\n\r\n- Agosto 2015\r\n\r\n**Licencia**: \r\n\r\n- Software gratuito y de c\u00f3digo abierto\r\n\r\n**Lectura necesaria**\r\n\r\nGu\u00eda Paso a Paso, cap\u00edtulo [**7. Mantener privada tu comunicaci\u00f3n en Internet**](/es/chapter-7)\r\n\r\n**\u00bfQu\u00e9 recibes a cambio?**: \r\n\r\n- La capacidad de organizar y administrar algunos de los servicios de mensajer\u00eda instant\u00e1nea m\u00e1s populares por medio de un \u00fanico programa \r\n- La capacidad de mantener sesiones de chat privadas y autenticadas\r\n\r\n**GNU Linux, Mac OS y otros programas compatibles con Microsoft Windows:**\r\n\r\n**Nota:** Recomendamos utilizar [**Jitsi**](/es/jitsi) para sustituir a **Pidgin**. Adem\u00e1s de poder utilizar **Jitsi** para sesiones seguras de chat (tambi\u00e9n con usuarios de Pidgin), tambi\u00e9n puedes utilizarlo para comunicaciones seguras vocales o por v\u00eddeo con otro usuarios de **Jitsi**. **Jitsi** est\u00e1 disponible para **Microsoft Windows**, **GNU/Linux**, **Mac OS** y m\u00e1s.\r\n\r\nTanto **Pidgin** como **OTR** est\u00e1n disponibles para **Microsoft Windows** y para **GNU/Linux**. Otro programa multiprotocolo de **MI** para **Microsoft Windows** que admite **OTR** es [**Miranda IM**](http://www.miranda-im.org/). Para **Mac OS** se puede utilizar [**Adium**](http://adium.im/), un programa multiprotocolo de **MI** que es compatible con el plugin **OTR**.\r\n\r\n## 1.1 Cosas que debes saber sobre esta herramienta antes de empezar ##\r\n\r\nAntes de poder empezar a utilizar **Pidgin** debes tener una cuenta de **MI**, que registrar\u00e1s con **Pidgin**. Por ejemplo, si dispones de una **cuenta Google** puedes utilizar **GoogleTalk**, su servicio de  **MI**, con **Pidgin**. Los datos de acceso a tu cuenta de  **MI** se utilizan para registrarte y acceder a tu cuenta por medio de **Pidgin**. \r\n\r\n**Nota**: animamos a todos los usuarios a que se informen todo lo posible sobre la pol\u00edtica de privacidad y seguridad de su **proveedor de cuenta de Mensajer\u00eda Instant\u00e1nea**. \r\n\r\n**Pidgin** es compatible con los siguientes servicios de **MI**: [**AIM**](https://www.aim.com/), [**Bonjour**](http://www.apple.com/es/support/bonjour/), [**Gadu-Gadu**](http://komunikator.gadu-gadu.pl/), [**Google Hangouts**](http://www.google.com/intl/es/hangouts/), **Groupwise**, [**ICQ**](http://www.icq.com), **IRC**, [**MSN**](http://www.msn.com/), [**MXit**](http://www.mxit.com/), [**MySpaceIM**](http://www.myspace.com/guide/im), [**SILC**](http://silcnet.org/), **SIMPLE**, [**Sametime**](http://www.ibm.com/developerworks/downloads/ls/lst/), [**Yahoo!**](http://es.messenger.yahoo.com), **Zephyr** y cualquier cliente de **MI** que funcione con el protocolo de mensajer\u00eda **XMPP**.\r\n\r\n**Pidgin** no permite la comunicaci\u00f3n entre diferentes servicios de **MI**. Por ejemplo, si utilizas **Pidgin** para acceder a tu cuenta de **Google Talk**, no podr\u00e1s chatear con un amigo que utilice una cuenta **ICQ**. \r\n\r\nSin embargo, **Pidgin** puede configurarse para administrar m\u00faltiples cuentas que se basen en cualquiera de los protocolos de mensajer\u00eda admitidos. Es decir, que puedes utilizar simult\u00e1neamente cuentas **Gmail** y **ICQ** y chatear con usuarios de *uno u otro* de esos servicios espec\u00edficos (que son compatibles con **Pidgin**). \r\n\r\nEl plugin **Off-the-Record (Fuera de Registro)** (**OTR**) est\u00e1 desarrollado espec\u00edficamente para **Pidgin** y ofrece las siguientes funciones de seguridad y privacidad: \r\n\r\n- **Autenticaci\u00f3n**: Garantiza que la persona con la que te comunicas es quien t\u00fa crees que es.\r\n- **Rechazo**: Una vez finalizada la sesi\u00f3n de chat, los mensajes no pueden ser identificados como procedentes de ti o de tu interlocutor.\r\n- **Cifrado**: Nadie puede tener acceso a tus mensajes y leerlos.\r\n- **Perfecta seguridad adicional**: En caso de que terceros obtengan tus claves privadas, ninguna de tus conversaciones anteriores estar\u00e1 en peligro.\r\n\r\n**Nota**: **Pidgin** debe necesariamente instalarse antes del plugin **OTR**."
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2039", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2039", 
+        "link_title": "Pidgin with OTR - Secure Instant Messaging", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5185", 
+        "module": "book", 
+        "nid": "2039", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5185", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "Pidgin with OTR - Secure Instant Messaging", 
+        "updated": "0", 
+        "weight": "-5"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Lista de secciones en esta p\u00e1gina:</p>\n\n<ul><li><a href=\"#2.0\"><strong>2.0 Acerca de Pidgin</strong></a></li>\n<li><a href=\"#2.0\"><strong>2.1 Instalar Pidgin</strong></a></li>\n<li><a href=\"#2.2\"><strong>2.2 Instalar el plugin Off-The-Record (Fuera de Registro) (OTR)</strong></a></li>\n<li><a href=\"#2.3\"><strong>2.3 Resumen de los procesos de registro de cuenta y configuraci\u00f3n en Pidgin</strong></a></li>\n<li><a href=\"#2.4\"><strong>2.4 Registrar tu cuenta de mensajer\u00eda instant\u00e1nea con Pidgin</strong></a></li>\n<li><a href=\"#2.5\"><strong>2.5 A\u00f1adir un amigo en Pidgin</strong></a></li>\n<li><a href=\"#2.6\"><strong>2.6 Abrir una ventana de MI en Pidgin</strong></a></li>\n<li><a href=\"#2.7\"><strong>2.7 Rehabilitar una cuenta en Pidgin</strong></a></li>\n</ul><p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>2.0 Acerca de Pidgin</h2>\n\n<p>Tanto <strong>Pidgin</strong> como su plugin asociado de cifrado autom\u00e1tico y autenticaci\u00f3n <strong>Off-the-Record (Fuera de Registro)</strong> (<strong>OTR</strong>) deben instalarse adecuadamente para un correcto funcionamiento. Afortunadamente, el proceso de instalaci\u00f3n para ambos programas es f\u00e1cil y r\u00e1pido.</p>\n\n<p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1 Instalar Pidgin</h2>\n\n<p><strong>Paso 1</strong>. <strong>Haz doble clic</strong> <img src=\"/sbox/screen/pidgin-es-1/01.png\" alt=\"\" />; puede aparecer el cuadro de di\u00e1logo <em>Abrir archivo \u2013 Aviso de seguridad</em>. Si as\u00ed ocurre, <strong>haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/02.png\" alt=\"\" /> para mostrar la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/03.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: Cuadro de confirmaci\u00f3n de idioma de instalaci\u00f3n</em></p>\n\n<p><strong>Paso 2</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/04.png\" alt=\"\" /> para mostrar la pantalla de <em>Bienvenido al asistente de instalaci\u00f3n de Pidgin 2.10.11</em>.</p>\n\n<p><strong>Paso 3</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/05.png\" alt=\"\" /> para mostrar la pantalla de  <em>Acuerdo de licencia</em>; despu\u00e9s de haber le\u00eddo el <em>Acuerdo de licencia</em>, <strong>haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/05.png\" alt=\"\" /> para mostrar la pantalla de <em>Instalaci\u00f3n de Pidgin 2.10.11 \u2013 Selecci\u00f3n de componentes</em>.</p>\n\n<p><strong>Paso 4</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/05.png\" alt=\"\" /> para mostrar la pantalla <em>Instalaci\u00f3n de Pidgin 2.10.11 \u2013 Elegir lugar de instalaci\u00f3n</em>.</p>\n\n<p><strong>Paso 5</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/08.png\" alt=\"\" /> para aceptar la ruta de instalaci\u00f3n predeterminada y mostrar la pantalla de <em>Instalaci\u00f3n de Pidgin 2.10.11 - Instalando</em> para comenzar a instalar el programa <strong>Pidgin</strong>.</p>\n\n<p><em>Una serie de carpetas y archivos empezar\u00e1n a instalarse en una r\u00e1pida sucesi\u00f3n. Tras finalizar el proceso de instalaci\u00f3n, aparecer\u00e1 la pantalla Instalaci\u00f3n de Pidgin 2.10.11 \u2013 Instalaci\u00f3n completa.</em></p>\n\n<p><strong>Paso 6</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/05.png\" alt=\"\" /> para mostrar la pantalla  <em>Finalizando el Asistente de instalaci\u00f3n de Pidgin 2.10.11</em>.</p>\n\n<p><strong>Nota</strong>: Durante el <strong>Paso 3</strong> del proceso de instalaci\u00f3n, <strong>Pidgin</strong> fue configurado para ser incluido en la lista de <strong>Inicio &gt; Programas</strong> y podr\u00e1 ser activado desde esa ubicaci\u00f3n en el futuro.</p>\n\n<p><strong>Paso 7</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/11.png\" alt=\"\" /> para terminar la instalaci\u00f3n de <strong>Pidgin</strong>.</p>\n\n<p><a name=\"2.2\" id=\"2.2\"></a></p>\n\n<h2>2.2 Instalar el plugin Off-The-Record (Fuera de Registro)(OTR)</h2>\n\n<p><strong>Paso 1</strong>. <strong>Haz doble clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/12.png\" alt=\"\" />; puede aparecer el cuadro de di\u00e1logo <em>Abrir archivo \u2013 Advertencia de seguridad</em>. Si as\u00ed ocurre, <strong>haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/02.png\" alt=\"\" /> para mostrar la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/14.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: El Asistente de instalaci\u00f3n de pidgin-otr 4.0.0-1</em></p>\n\n<p><strong>Paso 3</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/05.png\" alt=\"\" /> para mostrar la pantalla <em>Acuerdo de licencia</em>; despu\u00e9s de haber le\u00eddo el <em>Acuerdo de licencia</em>, <strong>haz clic</strong> en <img src=\"/sbox/screen/pidgin-es-1/04.png\" alt=\"\" /> para mostrar la pantalla de <em>Instalaci\u00f3n de pidgin-otr 4.0.0-1- Elegir ruta de instalaci\u00f3n</em>.</p>\n\n<p><strong>Paso 4</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/08.png\" alt=\"\" /> para comenzar la instalaci\u00f3n.</p>\n\n<p><strong>Paso 5</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/11.png\" alt=\"\" /> para terminar la instalaci\u00f3n del plugin de mensajer\u00eda <strong>Pidgin-OTR</strong>.</p>\n\n<p>Tras haber terminado la instalaci\u00f3n de <strong>Pidgin</strong> y <strong>OTR</strong> aparecer\u00e1 el siguiente icono en la barra de tareas de Windows cuando se activa Pidgin desde la lista <strong>Inicio &gt; Programas</strong>:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/20.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: el icono de Pidgin-OTR enmarcado en negro</em></p>\n\n<p>\u00a1Enhorabuena! Has finalizado con \u00e9xito la instalaci\u00f3n de los programas <strong>Pidgin</strong> y <strong>OTR</strong></p>\n\n<p><a name=\"2.3\" id=\"2.3\"></a></p>\n\n<h2>2.3 Resumen de los procesos de registro de cuenta y configuraci\u00f3n en Pidgin</h2>\n\n<p>Hay cuatro pasos b\u00e1sicos en el proceso de registro de cuenta y configuraci\u00f3n de <strong>Pidgin</strong>; registrar una cuenta de <strong>MI</strong> en <strong>Pidgin</strong>, a\u00f1adir un interlocutor o <em>amigo</em>, hacer que tu amigo haga lo mismo contigo y por \u00faltimo acceder a la pantalla de chat para tu primera conversaci\u00f3n.</p>\n\n<p>Puesto que las sesiones de chat o <strong>MI</strong> tienen lugar entre dos partes, los ejemplos en esta p\u00e1gina describen c\u00f3mo aparecen los distintos formularios y pantallas para <em>ambos</em> amigos/interlocutores (representados por dos personajes ficticios, Salima y Terence) en las diferentes etapas del proceso de registro de cuenta y configuraci\u00f3n. Todos los ejemplos est\u00e1n basados en el servicio de MI <em>Google</em>.</p>\n\n<p><strong>Nota</strong>: Antes de empezar a utilizar <strong>Pidgin</strong>, ya debes disponer de una cuenta de <strong>Mensajer\u00eda instant\u00e1nea</strong> (<strong>MI</strong>) con uno de los proveedores que aparecen en la <em>Figura 6</em> m\u00e1s abajo. Si deseas crear una cuenta de <strong>MI</strong>, te recomendamos que utilices una cuenta de email de  <strong>Riseup</strong>, la cual podr\u00e1s utilizar m\u00e1s adelante para <a href=\"https://help.riseup.net/en/chat\">comunicaciones por XMPP</a>. Consulta el cap\u00edtulo <a href=\"/es/riseup_principal\"><strong>RiseUp - Secure Email Service</strong></a> para m\u00e1s informaci\u00f3n e instrucciones para configurar tu cuenta <strong>Riseup</strong>. Tambi\u00e9n puedes utilizar cualquiera de los proveedores de cuentas XMPP que figuran en la secci\u00f3n <a href=\"/es/jitsi_account#2.2\">2.2. C\u00f3mo a\u00f1adir cuentas en Jitsi</a>, como por ejemplo: <a href=\"https://jitsi.org/Register/Register\">Jit.si</a> o una cuenta Google.</p>\n\n<p><a name=\"2.4\" id=\"2.4\"></a></p>\n\n<h2>2.4 Registrar tu cuenta de mensajer\u00eda instant\u00e1nea con Pidgin</h2>\n\n<p>Para registrar tu cuenta de <strong>MI</strong> con <strong>Pidgin</strong>, ejecuta los siguientes pasos:</p>\n\n<p><strong>Paso 1</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/21.png\" alt=\"\" /> o <strong>selecciona Inicio &gt; Programas &gt; Pidgin</strong> para iniciar <strong>Pidgin</strong>. La primera vez que utilices <strong>Pidgin</strong> aparecer\u00e1 la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/22.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: Pantalla de confirmaci\u00f3n de cuentas</em></p>\n\n<p><strong>Paso 2</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/23.png\" alt=\"\" /> y aparecer\u00e1 una pantalla vac\u00eda para <em>A\u00f1adir cuenta</em>, como se muestra a continuaci\u00f3n:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/24.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: Pantalla para a\u00f1adir cuenta, mostrando las pesta\u00f1as B\u00e1sica, Avanzada y Pasarela</em></p>\n\n<p><strong>Paso 3</strong>. <strong>Haz clic en</strong> la lista desplegable de <em>Protocolo</em> para ver los protocolos de servicio de <strong>MI</strong> compatibles con <strong>Pidgin</strong>, como se muestra a continuaci\u00f3n:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/25.png\" alt=\"\" /></p>\n\n<p><em>Figura 6: Pantalla A\u00f1adir cuenta, donde se muestra la lista de protocolos de MI compatibles</em></p>\n\n<p><strong>Paso 4</strong>. <strong>Selecciona</strong> el protocolo de <strong>MI</strong> adecuado.</p>\n\n<p><strong>Nota</strong>: Los distintos  proveedores de servicios de <strong>MI</strong> mostrar\u00e1n sus campos de texto espec\u00edficos para que los rellenes. Algunos de ellos se rellenan autom\u00e1ticamente. Sin embargo, todos los servicios requieren que introduzcas un nombre de usuario y una contrase\u00f1a.</p>\n\n<p><strong>Paso 5</strong>. <strong>Introduce</strong> tu direcci\u00f3n de correo electr\u00f3nico (por ejemplo, <a href=\"mailto:terencethetester@gmail.com\"><strong>terencethetester@gmail.com</strong></a>) en el campo <em>Usuario</em>.</p>\n\n<p><strong>Paso 6</strong>. <strong>Introduce</strong> tu contrase\u00f1a para esta cuenta espec\u00edfica en el campo <em>Contrase\u00f1a</em>.</p>\n\n<p><strong>Paso 7</strong>. <strong>Introduce</strong> un apodo con el que quieras ser identificado en el campo <em>Apodo local</em> . (Este campo es opcional)</p>\n\n<p><strong>Importante</strong>: Para optimizar tu privacidad y seguridad, <em>no</em> habilites la opci\u00f3n <em>Recordar contrase\u00f1a</em>. Esto significa que <strong>Pidgin</strong> te solicitar\u00e1 tu contrase\u00f1a cada vez que te conectes o inicies sesi\u00f3n para chatear on-line. Al hacer esto se impide que alg\u00fan impostor se haga pasar por ti y se conecte, en caso de alejarte de tu computadora por alg\u00fan tiempo. Tambi\u00e9n recuerda <strong>seleccionar</strong> la opci\u00f3n <em>Salir</em> del men\u00fa desplegable <em>Amigos</em> tras finalizar tu sesi\u00f3n de chat!</p>\n\n<p>Una pantalla completa de <em>A\u00f1adir cuenta</em> se parecer\u00e1 a la siguiente:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/26.png\" alt=\"\" /></p>\n\n<p><em>Figura 7: Ejemplo de un formulario completo de A\u00f1adir cuenta</em></p>\n\n<p><strong>Paso 8</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/27.png\" alt=\"\" /> para terminar de a\u00f1adir tu cuenta  y a la vez mostrar las pantallas actualizadas de <em>Cuentas</em> y <em>Lista de Amigos</em>, como se muestra a continuaci\u00f3n:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/28.png\" alt=\"\" /><img src=\"/sbox/screen/pidgin-es-1/29.png\" alt=\"\" /></p>\n\n<p><em>Figura 8: Pantalla actualizada de Cuentas;</em>   <em>Figura 9: Lista de Amigos en modo activo</em></p>\n\n<p>Al finalizar estos pasos estar\u00e1s listo para registrar a tus amigos en <strong>Pidgin</strong> introduciendo su informaci\u00f3n de contacto.</p>\n\n<p><a name=\"2.5\" id=\"2.5\"></a></p>\n\n<h2>2.5 A\u00f1adir un amigo en Pidgin</h2>\n\n<p>Para a\u00f1adir amigos o interlocutores en <strong>Pidgin</strong> debes introducir y guardar su informaci\u00f3n de contacto. En el siguiente ejemplo, Terence a\u00f1ade a Salima a su lista de amigos.</p>\n\n<p>Para a\u00f1adir un amigo a tu cuenta de <strong>MI</strong> en <strong>Pidgin</strong> debes ejecutar los siguientes pasos:</p>\n\n<p><strong>Paso 1</strong>. <strong>Haz clic en</strong> <em>Amigos</em> para mostrar el men\u00fa correspondiente y luego <strong>selecciona</strong> la opci\u00f3n <em>+ A\u00f1adir un amigo...</em> como se indica:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/30.png\" alt=\"\" /></p>\n\n<p><em>Figura 10: Men\u00fa de Amigos con la opci\u00f3n \"A\u00f1adir un amigo...\" seleccionada</em></p>\n\n<p>Se activar\u00e1 la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/31.png\" alt=\"\" /></p>\n\n<p><em>Figure 11: La pantalla A\u00f1adir un amigo</em></p>\n\n<p><strong>Paso 2</strong>. Si dispones de varias cuentas, <strong>selecciona</strong> aquella que corresponde al mismo servicio de mensajer\u00eda de tu 'amigo'.</p>\n\n<p><strong>Nota</strong>: Tu amigo y t\u00fa <em>deb\u00e9is</em> utilizar el <em>mismo</em> servicio de mensajer\u00eda, incluso si \u00e9l/ella no utiliza <strong>Pidgin</strong>. No puedes a\u00f1adir a un amigo de <strong>ICQ</strong> o <strong>MSN</strong> a una cuenta de <strong>Google Talk</strong>. Sin embargo, puedes registrar y utilizar m\u00faltiples cuentas de los protocolos admitidos por <strong>Pidgin</strong> y conversar con un amigo utilizando tu cuenta <strong>XMPP</strong> y con otro utilizando tu cuenta <strong>ICQ</strong> o <strong>MSN</strong>.</p>\n\n<p><strong>Paso 3</strong>. <strong>Introduce</strong> la direcci\u00f3n de correo electr\u00f3nico de tu amigo en el campo <em>Nombre de usuario</em>.</p>\n\n<p>El siguiente paso es opcional.</p>\n\n<p><strong>Paso 4</strong>. <strong>Introduce</strong> un <em>Apodo</em> o sobrenombre para tu amigo en el campo <em>(Opcional) Apodo</em>, de modo que tu formulario de <em>A\u00f1adir amigo</em> se parezca a la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/32.png\" alt=\"\" /></p>\n\n<p><em>Figura 12: Ejemplo de un formulario completo de A\u00f1adir amigo</em></p>\n\n<p><strong>Paso 5</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/33.png\" alt=\"\" /> para a\u00f1adir a tu amigo.</p>\n\n<p><strong>Nota</strong>: Esto enviar\u00e1 un mensaje a tu amigo pidi\u00e9ndole la autorizaci\u00f3n de tu solicitud y aparecer\u00e1 en su <em>Lista de amigos</em> como se muestra:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/34.png\" alt=\"\" /></p>\n\n<p><em>Figura 13: La solicitud de autorizaci\u00f3n de amigo tal como aparece en la Lista de amigos de Salima</em></p>\n\n<p>En este momento tu amigo debe llevar a cabo el siguiente paso:</p>\n\n<p><strong>Paso 6</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/35.png\" alt=\"\" /> para a\u00f1adir a esta persona y mostrarlo/a en tu <em>Lista de amigos</em> como se muestra:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/36.png\" alt=\"\" /></p>\n\n<p><em>Figura 14: Lista de amigos de Terence mostrando a Salima como su amiga</em></p>\n\n<p><strong>Nota</strong>: En el ejemplo anterior se muestra el <em>Apodo</em> o sobrenombre de Salima, lo que a\u00f1ade un nivel m\u00e1s de protecci\u00f3n de la identidad.</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/40.png\" alt=\"\" /></p>\n\n<p><em>Figura 15: La pantalla de Lista de Amigos de Terence que muestra a Salima como su amiga reci\u00e9n a\u00f1adida.</em></p>\n\n<p>Tras haber a\u00f1adido, autorizado y confirmado a tu amigo para chatear en <strong>Pidgin</strong>, \u00e9ste/a deber\u00e1 hacer lo mismo con tu informaci\u00f3n de contacto de <strong>MI</strong>, repitiendo los <strong>pasos del 1 al 6</strong> desde su propia cuenta.</p>\n\n<p><a name=\"2.6\" id=\"2.6\"></a></p>\n\n<h2>2.6 Abrir una ventana de MI in Pidgin</h2>\n\n<p>Para abrir una ventana de chat de <strong>MI</strong> en <strong>Pidgin</strong>, ejecuta los siguientes pasos:</p>\n\n<p><strong>Paso 1</strong>. <strong>Haz clic con el bot\u00f3n derecho</strong> sobre el nombre de tu amigo en la <em>Lista de Amigos</em> para activar un men\u00fa emergente que enumera todas las tareas que puedes realizar.</p>\n\n<p><strong>Paso 2</strong>. <strong>Selecciona</strong> la opci\u00f3n de <em>MI</em> del men\u00fa emergente para activar una pantalla de chat t\u00edpica como se muestra :</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/42.png\" alt=\"\" /></p>\n\n<p><em>Figura 17: Pantalla de chat t\u00edpica en Pidgin</em></p>\n\n<p>Casi est\u00e1s listo para chatear con tu amigo utilizando <strong>Pidgin</strong>. Antes, sin embargo, debes configurar el cifrado <strong>OTR</strong> para asegurarte que tus sesiones de chat sean privadas y seguras. Para ello consulta la p\u00e1gina siguiente.</p>\n\n<p><a name=\"2.7\" id=\"2.7\"></a></p>\n\n<h2>2.7 Rehabilitar una cuenta en Pidgin</h2>\n\n<p>De vez en cuando puede ocurrir que tu cuenta de MI se deshabilite en <strong>Pidgin</strong>; quiz\u00e1s porque el programa de <strong>Pidgin</strong> no se haya cerrado correctamente debido a una interrupci\u00f3n en la conexi\u00f3n a Internet o a un bloqueo de la computadora. Afortunadamente, <strong>Pidgin</strong> te permite rehabilitar tu cuenta. Para hacerlo tienes que seguir los siguientes pasos:</p>\n\n<p><strong>Paso 1</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/21.png\" alt=\"\" /> o <strong>selecciona Inicio &gt; Pidgin</strong> para activar <strong>Pidgin</strong>.</p>\n\n<p><strong>Paso 2</strong>. <strong>Abre</strong> el men\u00fa de <em>Cuentas</em> y <strong>selecciona</strong> la opci\u00f3n <em>Administrar cuentas</em> como se indica:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/44.png\" alt=\"\" /></p>\n\n<p><em>Figura 18: Men\u00fa de Cuentas con la opci\u00f3n *Administrar cuentas seleccionada (redimensionada)</em></p>\n\n<p><em>Esto abrir\u00e1 la siguiente pantalla:</em></p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/45.png\" alt=\"\" /></p>\n\n<p><em>Figura 19: La pantalla de Cuentas (redimensionada) mostrando una cuenta deshabilitada</em></p>\n\n<p><strong>Paso 3</strong>. <strong>Selecciona</strong> el cuadro junto a tu cuenta para activar la solicitud de contrase\u00f1a de <strong>Pidgin</strong> como se muestra:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/46.png\" alt=\"\" /></p>\n\n<p><em>Figura 20: Cuadro de di\u00e1logo de solicitud de contrase\u00f1a de Pidgin</em></p>\n\n<p><strong>Paso 4</strong>. <strong>Introduce</strong> tu contrase\u00f1a de forma que el cuadro de di\u00e1logo para contrase\u00f1a de <strong>Pidgin</strong> se parezca al siguiente:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/47.png\" alt=\"\" /></p>\n\n<p><em>Figura 21: Cuadro de di\u00e1logo de solicitud de contrase\u00f1a de Pidgin con el campo Introduzca la contrase\u00f1a completo</em></p>\n\n<p><strong>Paso 5</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/48.png\" alt=\"\" /> para terminar de rehabilitar tu cuenta como sigue:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/49.png\" alt=\"\" /></p>\n\n<p><em>Figura 22: Ejemplo de una cuenta rehabilitada con \u00e9xito</em></p>\n\n<p><strong>Paso 6</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/50.png\" alt=\"\" /> para cerrar la pantalla de <em>Cuentas</em>.</p>\n", 
+                        "summary": "", 
+                        "value": "Lista de secciones en esta p\u00e1gina:\r\n\r\n- [**2.0 Acerca de Pidgin**](#2.0)\r\n- [**2.1 Instalar Pidgin**](#2.0)\r\n- [**2.2 Instalar el plugin Off-The-Record (Fuera de Registro) (OTR)**](#2.2)\r\n- [**2.3 Resumen de los procesos de registro de cuenta y configuraci\u00f3n en Pidgin**](#2.3)\r\n- [**2.4 Registrar tu cuenta de mensajer\u00eda instant\u00e1nea con Pidgin**](#2.4)\r\n- [**2.5 A\u00f1adir un amigo en Pidgin**](#2.5)\r\n- [**2.6 Abrir una ventana de MI en Pidgin**](#2.6)\r\n- [**2.7 Rehabilitar una cuenta en Pidgin**](#2.7)\r\n\r\n\r\n<a name=\"2.0\"></a>\r\n## 2.0 Acerca de Pidgin ##\r\nTanto **Pidgin** como su plugin asociado de cifrado autom\u00e1tico y autenticaci\u00f3n **Off-the-Record (Fuera de Registro)** (**OTR**) deben instalarse adecuadamente para un correcto funcionamiento. Afortunadamente, el proceso de instalaci\u00f3n para ambos programas es f\u00e1cil y r\u00e1pido.\r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1 Instalar Pidgin ##\r\n\r\n**Paso 1**. **Haz doble clic** ![](/sbox/screen/pidgin-es-1/01.png); puede aparecer el cuadro de di\u00e1logo *Abrir archivo \u2013 Aviso de seguridad*. Si as\u00ed ocurre, **haz clic en** ![](/sbox/screen/pidgin-es-1/02.png) para mostrar la siguiente pantalla:\r\n\r\n![](/sbox/screen/pidgin-es-1/03.png) \r\n\r\n*Figura 1: Cuadro de confirmaci\u00f3n de idioma de instalaci\u00f3n*\r\n\r\n**Paso 2**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/04.png) para mostrar la pantalla de *Bienvenido al asistente de instalaci\u00f3n de Pidgin 2.10.11*.\r\n\r\n**Paso 3**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/05.png) para mostrar la pantalla de  *Acuerdo de licencia*; despu\u00e9s de haber le\u00eddo el *Acuerdo de licencia*, **haz clic en** ![](/sbox/screen/pidgin-es-1/05.png) para mostrar la pantalla de *Instalaci\u00f3n de Pidgin 2.10.11 \u2013 Selecci\u00f3n de componentes*.\r\n\r\n**Paso 4**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/05.png) para mostrar la pantalla *Instalaci\u00f3n de Pidgin 2.10.11 \u2013 Elegir lugar de instalaci\u00f3n*. \r\n\r\n**Paso 5**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/08.png) para aceptar la ruta de instalaci\u00f3n predeterminada y mostrar la pantalla de *Instalaci\u00f3n de Pidgin 2.10.11 - Instalando* para comenzar a instalar el programa **Pidgin**.\r\n\r\n*Una serie de carpetas y archivos empezar\u00e1n a instalarse en una r\u00e1pida sucesi\u00f3n. Tras finalizar el proceso de instalaci\u00f3n, aparecer\u00e1 la pantalla Instalaci\u00f3n de Pidgin 2.10.11 \u2013 Instalaci\u00f3n completa.*\r\n\r\n**Paso 6**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/05.png) para mostrar la pantalla  *Finalizando el Asistente de instalaci\u00f3n de Pidgin 2.10.11*.\r\n\r\n**Nota**: Durante el **Paso 3** del proceso de instalaci\u00f3n, **Pidgin** fue configurado para ser incluido en la lista de **Inicio > Programas** y podr\u00e1 ser activado desde esa ubicaci\u00f3n en el futuro. \r\n\r\n**Paso 7**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/11.png) para terminar la instalaci\u00f3n de **Pidgin**.\r\n\r\n<a name=\"2.2\"></a>\r\n## 2.2 Instalar el plugin Off-The-Record (Fuera de Registro)(OTR)##\r\n\r\n**Paso 1**. **Haz doble clic en** ![](/sbox/screen/pidgin-es-1/12.png); puede aparecer el cuadro de di\u00e1logo *Abrir archivo \u2013 Advertencia de seguridad*. Si as\u00ed ocurre, **haz clic en** ![](/sbox/screen/pidgin-es-1/02.png) para mostrar la siguiente pantalla:\r\n\r\n![](/sbox/screen/pidgin-es-1/14.png)\r\n\r\n*Figura 2: El Asistente de instalaci\u00f3n de pidgin-otr 4.0.0-1* \r\n\r\n**Paso 3**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/05.png) para mostrar la pantalla *Acuerdo de licencia*; despu\u00e9s de haber le\u00eddo el *Acuerdo de licencia*, **haz clic** en ![](/sbox/screen/pidgin-es-1/04.png) para mostrar la pantalla de *Instalaci\u00f3n de pidgin-otr 4.0.0-1- Elegir ruta de instalaci\u00f3n*.  \r\n\r\n**Paso 4**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/08.png) para comenzar la instalaci\u00f3n.\r\n\r\n**Paso 5**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/11.png) para terminar la instalaci\u00f3n del plugin de mensajer\u00eda **Pidgin-OTR**.\r\n\r\nTras haber terminado la instalaci\u00f3n de **Pidgin** y **OTR** aparecer\u00e1 el siguiente icono en la barra de tareas de Windows cuando se activa Pidgin desde la lista **Inicio > Programas**:\r\n\r\n![](/sbox/screen/pidgin-es-1/20.png)\r\n\r\n*Figura 3: el icono de Pidgin-OTR enmarcado en negro*\r\n\r\n\u00a1Enhorabuena! Has finalizado con \u00e9xito la instalaci\u00f3n de los programas **Pidgin** y **OTR** \r\n\r\n\r\n\r\n<a name=\"2.3\"></a>\r\n## 2.3 Resumen de los procesos de registro de cuenta y configuraci\u00f3n en Pidgin ##\r\n\r\nHay cuatro pasos b\u00e1sicos en el proceso de registro de cuenta y configuraci\u00f3n de **Pidgin**; registrar una cuenta de **MI** en **Pidgin**, a\u00f1adir un interlocutor o *amigo*, hacer que tu amigo haga lo mismo contigo y por \u00faltimo acceder a la pantalla de chat para tu primera conversaci\u00f3n.\r\n\r\nPuesto que las sesiones de chat o **MI** tienen lugar entre dos partes, los ejemplos en esta p\u00e1gina describen c\u00f3mo aparecen los distintos formularios y pantallas para *ambos* amigos/interlocutores (representados por dos personajes ficticios, Salima y Terence) en las diferentes etapas del proceso de registro de cuenta y configuraci\u00f3n. Todos los ejemplos est\u00e1n basados en el servicio de MI *Google*.\r\n\r\n**Nota**: Antes de empezar a utilizar **Pidgin**, ya debes disponer de una cuenta de **Mensajer\u00eda instant\u00e1nea** (**MI**) con uno de los proveedores que aparecen en la *Figura 6* m\u00e1s abajo. Si deseas crear una cuenta de **MI**, te recomendamos que utilices una cuenta de email de  **Riseup**, la cual podr\u00e1s utilizar m\u00e1s adelante para [comunicaciones por XMPP](https://help.riseup.net/en/chat). Consulta el cap\u00edtulo [**RiseUp - Secure Email Service**](/es/riseup_principal) para m\u00e1s informaci\u00f3n e instrucciones para configurar tu cuenta **Riseup**. Tambi\u00e9n puedes utilizar cualquiera de los proveedores de cuentas XMPP que figuran en la secci\u00f3n [2.2. C\u00f3mo a\u00f1adir cuentas en Jitsi](/es/jitsi_account#2.2), como por ejemplo: [Jit.si](https://jitsi.org/Register/Register) o una cuenta Google.\r\n\r\n<a name=\"2.4\"></a>\r\n## 2.4 Registrar tu cuenta de mensajer\u00eda instant\u00e1nea con Pidgin ##\r\n\r\nPara registrar tu cuenta de **MI** con **Pidgin**, ejecuta los siguientes pasos:\r\n\r\n**Paso 1**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/21.png) o **selecciona Inicio > Programas > Pidgin** para iniciar **Pidgin**. La primera vez que utilices **Pidgin** aparecer\u00e1 la siguiente pantalla:\r\n\r\n![](/sbox/screen/pidgin-es-1/22.png)\r\n\r\n*Figura 4: Pantalla de confirmaci\u00f3n de cuentas*\r\n\r\n**Paso 2**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/23.png) y aparecer\u00e1 una pantalla vac\u00eda para *A\u00f1adir cuenta*, como se muestra a continuaci\u00f3n: \r\n\r\n![](/sbox/screen/pidgin-es-1/24.png) \r\n\r\n*Figura 5: Pantalla para a\u00f1adir cuenta, mostrando las pesta\u00f1as B\u00e1sica, Avanzada y Pasarela*\r\n\r\n**Paso 3**. **Haz clic en** la lista desplegable de *Protocolo* para ver los protocolos de servicio de **MI** compatibles con **Pidgin**, como se muestra a continuaci\u00f3n: \r\n\r\n![](/sbox/screen/pidgin-es-1/25.png) \r\n\r\n*Figura 6: Pantalla A\u00f1adir cuenta, donde se muestra la lista de protocolos de MI compatibles*\r\n\r\n**Paso 4**. **Selecciona** el protocolo de **MI** adecuado.\r\n\r\n**Nota**: Los distintos  proveedores de servicios de **MI** mostrar\u00e1n sus campos de texto espec\u00edficos para que los rellenes. Algunos de ellos se rellenan autom\u00e1ticamente. Sin embargo, todos los servicios requieren que introduzcas un nombre de usuario y una contrase\u00f1a.\r\n\r\n**Paso 5**. **Introduce** tu direcci\u00f3n de correo electr\u00f3nico (por ejemplo, [**terencethetester@gmail.com**](mailto:terencethetester@gmail.com)) en el campo *Usuario*. \r\n\r\n**Paso 6**. **Introduce** tu contrase\u00f1a para esta cuenta espec\u00edfica en el campo *Contrase\u00f1a*. \r\n\r\n**Paso 7**. **Introduce** un apodo con el que quieras ser identificado en el campo *Apodo local* . (Este campo es opcional) \r\n\r\n**Importante**: Para optimizar tu privacidad y seguridad, *no* habilites la opci\u00f3n *Recordar contrase\u00f1a*. Esto significa que **Pidgin** te solicitar\u00e1 tu contrase\u00f1a cada vez que te conectes o inicies sesi\u00f3n para chatear on-line. Al hacer esto se impide que alg\u00fan impostor se haga pasar por ti y se conecte, en caso de alejarte de tu computadora por alg\u00fan tiempo. Tambi\u00e9n recuerda **seleccionar** la opci\u00f3n *Salir* del men\u00fa desplegable *Amigos* tras finalizar tu sesi\u00f3n de chat! \r\n\r\nUna pantalla completa de *A\u00f1adir cuenta* se parecer\u00e1 a la siguiente:\r\n\r\n![](/sbox/screen/pidgin-es-1/26.png) \r\n\r\n*Figura 7: Ejemplo de un formulario completo de A\u00f1adir cuenta*\r\n \r\n**Paso 8**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/27.png) para terminar de a\u00f1adir tu cuenta  y a la vez mostrar las pantallas actualizadas de *Cuentas* y *Lista de Amigos*, como se muestra a continuaci\u00f3n:\r\n\r\n![](/sbox/screen/pidgin-es-1/28.png)      ![](/sbox/screen/pidgin-es-1/29.png)\r\n\r\n*Figura 8: Pantalla actualizada de Cuentas;*   *Figura 9: Lista de Amigos en modo activo*\r\n\r\nAl finalizar estos pasos estar\u00e1s listo para registrar a tus amigos en **Pidgin** introduciendo su informaci\u00f3n de contacto. \r\n\r\n<a name=\"2.5\"></a>\r\n## 2.5 A\u00f1adir un amigo en Pidgin ##\r\nPara a\u00f1adir amigos o interlocutores en **Pidgin** debes introducir y guardar su informaci\u00f3n de contacto. En el siguiente ejemplo, Terence a\u00f1ade a Salima a su lista de amigos.\r\n\r\nPara a\u00f1adir un amigo a tu cuenta de **MI** en **Pidgin** debes ejecutar los siguientes pasos:\r\n\r\n**Paso 1**. **Haz clic en** *Amigos* para mostrar el men\u00fa correspondiente y luego **selecciona** la opci\u00f3n *+ A\u00f1adir un amigo...* como se indica: \r\n\r\n![](/sbox/screen/pidgin-es-1/30.png)\r\n\r\n*Figura 10: Men\u00fa de Amigos con la opci\u00f3n \"A\u00f1adir un amigo...\" seleccionada*\r\n\r\nSe activar\u00e1 la siguiente pantalla: \r\n\r\n![](/sbox/screen/pidgin-es-1/31.png)\r\n\r\n*Figure 11: La pantalla A\u00f1adir un amigo*\r\n\r\n**Paso 2**. Si dispones de varias cuentas, **selecciona** aquella que corresponde al mismo servicio de mensajer\u00eda de tu 'amigo'.  \r\n\r\n**Nota**: Tu amigo y t\u00fa *deb\u00e9is* utilizar el *mismo* servicio de mensajer\u00eda, incluso si \u00e9l/ella no utiliza **Pidgin**. No puedes a\u00f1adir a un amigo de **ICQ** o **MSN** a una cuenta de **Google Talk**. Sin embargo, puedes registrar y utilizar m\u00faltiples cuentas de los protocolos admitidos por **Pidgin** y conversar con un amigo utilizando tu cuenta **XMPP** y con otro utilizando tu cuenta **ICQ** o **MSN**. \r\n\r\n**Paso 3**. **Introduce** la direcci\u00f3n de correo electr\u00f3nico de tu amigo en el campo *Nombre de usuario*.  \r\n\r\nEl siguiente paso es opcional.\r\n\r\n**Paso 4**. **Introduce** un *Apodo* o sobrenombre para tu amigo en el campo *(Opcional) Apodo*, de modo que tu formulario de *A\u00f1adir amigo* se parezca a la siguiente pantalla: \r\n\r\n![](/sbox/screen/pidgin-es-1/32.png)\r\n\r\n*Figura 12: Ejemplo de un formulario completo de A\u00f1adir amigo*\r\n\r\n**Paso 5**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/33.png) para a\u00f1adir a tu amigo.\r\n\r\n**Nota**: Esto enviar\u00e1 un mensaje a tu amigo pidi\u00e9ndole la autorizaci\u00f3n de tu solicitud y aparecer\u00e1 en su *Lista de amigos* como se muestra:  \r\n\r\n![](/sbox/screen/pidgin-es-1/34.png)\r\n\r\n*Figura 13: La solicitud de autorizaci\u00f3n de amigo tal como aparece en la Lista de amigos de Salima*\r\n\r\nEn este momento tu amigo debe llevar a cabo el siguiente paso:\r\n\r\n**Paso 6**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/35.png) para a\u00f1adir a esta persona y mostrarlo/a en tu *Lista de amigos* como se muestra:\r\n\r\n![](/sbox/screen/pidgin-es-1/36.png)\r\n\r\n*Figura 14: Lista de amigos de Terence mostrando a Salima como su amiga*\r\n\r\n**Nota**: En el ejemplo anterior se muestra el *Apodo* o sobrenombre de Salima, lo que a\u00f1ade un nivel m\u00e1s de protecci\u00f3n de la identidad. \r\n\r\n![](/sbox/screen/pidgin-es-1/40.png)\r\n\r\n*Figura 15: La pantalla de Lista de Amigos de Terence que muestra a Salima como su amiga reci\u00e9n a\u00f1adida.*\r\n\r\nTras haber a\u00f1adido, autorizado y confirmado a tu amigo para chatear en **Pidgin**, \u00e9ste/a deber\u00e1 hacer lo mismo con tu informaci\u00f3n de contacto de **MI**, repitiendo los **pasos del 1 al 6** desde su propia cuenta.\r\n\r\n<a name=\"2.6\"></a>\r\n## 2.6 Abrir una ventana de MI in Pidgin #\r\n\r\nPara abrir una ventana de chat de **MI** en **Pidgin**, ejecuta los siguientes pasos:\r\n\r\n**Paso 1**. **Haz clic con el bot\u00f3n derecho** sobre el nombre de tu amigo en la *Lista de Amigos* para activar un men\u00fa emergente que enumera todas las tareas que puedes realizar.\r\n\r\n**Paso 2**. **Selecciona** la opci\u00f3n de *MI* del men\u00fa emergente para activar una pantalla de chat t\u00edpica como se muestra : \r\n\r\n![](/sbox/screen/pidgin-es-1/42.png) \r\n\r\n*Figura 17: Pantalla de chat t\u00edpica en Pidgin*\r\n\r\nCasi est\u00e1s listo para chatear con tu amigo utilizando **Pidgin**. Antes, sin embargo, debes configurar el cifrado **OTR** para asegurarte que tus sesiones de chat sean privadas y seguras. Para ello consulta la p\u00e1gina siguiente.\r\n\r\n<a name=\"2.7\"></a>\r\n## 2.7 Rehabilitar una cuenta en Pidgin ##\r\n\r\nDe vez en cuando puede ocurrir que tu cuenta de MI se deshabilite en **Pidgin**; quiz\u00e1s porque el programa de **Pidgin** no se haya cerrado correctamente debido a una interrupci\u00f3n en la conexi\u00f3n a Internet o a un bloqueo de la computadora. Afortunadamente, **Pidgin** te permite rehabilitar tu cuenta. Para hacerlo tienes que seguir los siguientes pasos:\r\n\r\n**Paso 1**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/21.png) o **selecciona Inicio > Pidgin** para activar **Pidgin**.\r\n\r\n**Paso 2**. **Abre** el men\u00fa de *Cuentas* y **selecciona** la opci\u00f3n *Administrar cuentas* como se indica: \r\n\r\n![](/sbox/screen/pidgin-es-1/44.png)\r\n\r\n*Figura 18: Men\u00fa de Cuentas con la opci\u00f3n *Administrar cuentas seleccionada (redimensionada)*\r\n\r\n*Esto abrir\u00e1 la siguiente pantalla:*\r\n\r\n![](/sbox/screen/pidgin-es-1/45.png)\r\n\r\n*Figura 19: La pantalla de Cuentas (redimensionada) mostrando una cuenta deshabilitada*\r\n\r\n**Paso 3**. **Selecciona** el cuadro junto a tu cuenta para activar la solicitud de contrase\u00f1a de **Pidgin** como se muestra:   \r\n\r\n![](/sbox/screen/pidgin-es-1/46.png)\r\n\r\n*Figura 20: Cuadro de di\u00e1logo de solicitud de contrase\u00f1a de Pidgin*\r\n\r\n**Paso 4**. **Introduce** tu contrase\u00f1a de forma que el cuadro de di\u00e1logo para contrase\u00f1a de **Pidgin** se parezca al siguiente:\r\n\r\n![](/sbox/screen/pidgin-es-1/47.png)\r\n\r\n*Figura 21: Cuadro de di\u00e1logo de solicitud de contrase\u00f1a de Pidgin con el campo Introduzca la contrase\u00f1a completo*\r\n\r\n**Paso 5**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/48.png) para terminar de rehabilitar tu cuenta como sigue:\r\n\r\n![](/sbox/screen/pidgin-es-1/49.png)\r\n\r\n*Figura 22: Ejemplo de una cuenta rehabilitada con \u00e9xito*\r\n\r\n**Paso 6**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/50.png) para cerrar la pantalla de *Cuentas*."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2040", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2040", 
+                "link_title": "How to Install the Pidgin and OTR software and then Register and Set Up Your Account to Pidgin", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5186", 
+                "module": "book", 
+                "nid": "2040", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5185", 
+                "p3": "5186", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5185", 
+                "router_path": "node/%", 
+                "title": "How to Install the Pidgin and OTR software and then Register and Set Up Your Account to Pidgin", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1454337961", 
+            "comment": "0", 
+            "created": "1441120722", 
+            "current_revision_id": "13126", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "usar_pidgin", 
+                        "value": "usar_pidgin"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5186": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2040", 
+                    "link_title": "How to Install the Pidgin and OTR software and then Register and Set Up Your Account to Pidgin", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5186", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5185", 
+                    "p3": "5186", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5185", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2040", 
+            "num_revisions": "33", 
+            "path": "https://securityinabox.org/en/node/2040", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1454337961", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "C\u00f3mo instalar el software de Pidgin y OTR y registrar y configurar tu cuenta con Pidgin", 
+                        "value": "C\u00f3mo instalar el software de Pidgin y OTR y registrar y configurar tu cuenta con Pidgin"
+                    }
+                ]
+            }, 
+            "title_original": "How to Install the Pidgin and OTR software and then Register and Set Up Your Account to Pidgin", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442932261", 
+                        "created": "1442932261", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442398557", 
+                        "created": "1442396537", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442497863", 
+                        "created": "1442497863", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1454337961", 
+                        "created": "1441630593", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1453994797", 
+                        "created": "1442845809", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444660095", 
+                        "created": "1444660095", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1452871889", 
+                        "created": "1452871889", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1453991725", 
+                        "created": "1443621001", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279032", 
+                        "created": "1441279032", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444179872", 
+                        "created": "1444179872", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021162", 
+                        "created": "1443021162", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833676", 
+                        "created": "1444728716", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446477624", 
+                        "created": "1441120722", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2040", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445443444", 
+                        "created": "1445443444", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "3525b723-726d-48ec-b657-f624062f57c8", 
+            "vid": "13126", 
+            "vuuid": "49c17bd9-fdac-4cc0-9c4c-70a7b66d8079"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Lista de secciones en esta p\u00e1gina:</p>\n\n<ul><li><a href=\"#3.0\"><strong>3.0 Acerca de Pidgin y OTR</strong></a></li>\n<li><a href=\"#3.1\"><strong>3.1 Configurar el plugin Pidgin-OTR</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 Primer paso \u2013 Generar una llave privada y mostrar su huella digital</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 Segundo paso \u2013 Autenticar una sesi\u00f3n de mensajer\u00eda</strong></a></li>\n<li><a href=\"#3.4\"><strong>3.4 Tercer paso \u2013 Autenticar la identidad de tu interlocutor</strong></a></li>\n</ul><p><a name=\"3.0\" id=\"3.0\"></a></p>\n\n<h2>3.0 Acerca de Pidgin y OTR</h2>\n\n<p>Tanto t\u00fa como tu interlocutor deb\u00e9is configurar el plugin <strong>OTR</strong> antes de poder tener sesiones de <strong>Mensajer\u00eda instant\u00e1nea</strong> (<strong>MI</strong>) privadas y seguras.  El plugin <strong>OTR</strong> detectar\u00e1 autom\u00e1ticamente cuando ambas partes lo hayan instalado y configurado correctamente.</p>\n\n<p><strong>Nota</strong>: Si solicitas una conversaci\u00f3n privada con un amigo que no tenga instalado ni configurado <strong>OTR</strong>, se le enviar\u00e1 inmediatamente un mensaje explic\u00e1ndole c\u00f3mo puede obtener el plugin <strong>OTR</strong>.</p>\n\n<p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 Configurar el plugin Pidgin-OTR</h2>\n\n<p>Para activar el plugin <strong>OTR</strong> tienes que llevar a cabo los siguientes pasos:</p>\n\n<p><strong>Paso 1</strong>. <strong>Haz doble clic</strong> <img src=\"/sbox/screen/pidgin-es-1/51.png\" alt=\"\" /> o <strong>selecciona</strong> <strong>Inicio &gt;  Programas &gt; Pidgin</strong> para iniciar <strong>Pidgin</strong> y activar la pantalla <em>Lista de Amigos</em> (observa la  <em>Figura 1</em>).</p>\n\n<p><strong>Paso 2</strong>. <strong>Abre</strong> el men\u00fa <em>Herramientas</em> y <strong>selecciona</strong> la opci\u00f3n <em>Complementos (plugins)</em> como se indica:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/52.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: La pantalla Lista de Amigos con la opci\u00f3n Complementos (plugins) seleccionada en el men\u00fa Herramientas</em></p>\n\n<p>Esto activar\u00e1 la pantalla de <em>Complementos (plugins)</em> como se muestra:</p>\n\n<p><strong>Paso 2</strong>. <strong>Despl\u00e1zate</strong> hasta la opci\u00f3n <em>Mensaje Fuera-de-Registro</em> y <strong>selecciona</strong> la casilla correspondiente para activarlo.</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/53.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: Pantalla de Complementos (plugins) de Pidgin con la opci\u00f3n Mensaje Fuera-de-Registro seleccionada</em></p>\n\n<p><strong>Paso 3</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/54.png\" alt=\"\" /> para empezar a configurar <em>Fuera-de-Registro</em>.</p>\n\n<p>A continuaci\u00f3n se explican los 3 pasos necesarios para la configuraci\u00f3n correcta de <strong>OTR</strong>, de manera que permita tener sesiones de <strong>MI</strong> privadas y seguras de manera eficaz:</p>\n\n<ul><li><strong>Primer Paso</strong>: Consiste en generar una llave privada \u00fanica asociada con tu cuenta y que muestra su huella digital.</li>\n</ul><p>Los dos pasos siguientes consisten en asegurar la sesi\u00f3n de <strong>MI</strong> y autenticar a tus amigos.</p>\n\n<ul><li><p><strong>Segundo Paso</strong>: Consiste en que uno de los interlocutores solicite una sesi\u00f3n de mensajer\u00eda privada y segura con otro interlocutor que se encuentre en ese momento on-line.</p></li>\n<li><p>El <strong>Tercer Paso</strong> consiste en <em>autenticar</em> o verificar la identidad de tu <em>amigo</em> en <strong>Pidgin</strong>. (<strong>Nota</strong>: En <strong>Pidgin</strong>, un amigo es todo aquel con quien te comuniques durante tus sesiones de <strong>MI</strong>.) Dicho proceso de verificaci\u00f3n de la identidad de un amigo en <strong>Pidgin</strong> se conoce como <em>autenticaci\u00f3n</em> y supone determinar que tu amigo es <em>exactamente</em> la persona que dice ser.</p></li>\n</ul><p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 Primer Paso \u2013 Generar una llave privada y mostrar su huella digital</h2>\n\n<p>Las sesiones de chat seguras en <strong>Pidgin</strong> se habilitan al generarse una <em>llave privada</em> para la cuenta en cuesti\u00f3n. La pantalla de configuraci\u00f3n de <em>Off-the-Record (Mensaje fuera de Registro)</em> est\u00e1 dividida en dos pesta\u00f1as: la de <em>Config</em> y la de <em>Huellas digitales conocidas</em>. La pesta\u00f1a <em>Config</em> se utiliza para generar una <em>llave</em> para cada una de tus cuentas y para establecer opciones espec\u00edficas de <strong>OTR</strong>. La pesta\u00f1a <em>Huellas digitales conocidas</em> contiene una lista de las huellas digitales de las llaves de tus amigos. Debes tener una llave para cualquier amigo con el que quieras chatear de forma privada.</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/55.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: La pantalla de Mensaje fuera de Registro mostrando la pesta\u00f1a Config</em></p>\n\n<p><strong>Paso 1</strong>. Para optimizar tu privacidad, <strong>selecciona</strong> las opciones <em>Habilitar mensajes privados</em>, <em>Iniciar autom\u00e1ticamente mensajes privados</em> y <em>No grabar conversaciones OTR</em> en la pesta\u00f1a <em>Config</em> , como se muestra en la <em>Figura 3</em>.</p>\n\n<p><strong>Paso 2</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/56.png\" alt=\"\" /> para empezar a generar tu llave segura. A continuaci\u00f3n aparecer\u00e1 una pantalla notific\u00e1ndote que se est\u00e1 generando una llave privada:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/57.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: Cuadro de confirmaci\u00f3n de generaci\u00f3n de llave privada</em></p>\n\n<p><strong>Nota</strong>: Tu amigo debe llevar a cabo los mismos pasos para su propia cuenta.</p>\n\n<p><strong>Paso 3</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/58.png\" alt=\"\" /> una vez que la llave privada  (que se asemeja a la siguiente) se haya generado:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/59.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: Ejemplo de una huella digital de la llave generada por el complemento OTR</em></p>\n\n<p><strong>Importante</strong>: Ya has creado una llave privada para tu cuenta en tu computadora, que servir\u00e1 para cifrar tus conversaciones de forma que nadie m\u00e1s pueda leerlas, incluso si consiguen vigilar tus sesiones de chat. La huella digital es una larga secuencia de letras y n\u00fameros utilizada para identificar la llave para una cuenta en particular, como se muestra en la <em>Figura 5</em>.</p>\n\n<p><strong>Pidgin</strong> guarda autom\u00e1ticamente en la computadora que est\u00e9s utilizando tu huella digital y las de tus amigos, de manera que no tengas que recordarlas. Si vuelves a instalar <strong>Pidgin</strong> o si cambias de computadora tendr\u00e1s que volver a generar tu llave y volver a autenticar a tus amigos, o tendr\u00e1s que trasladar tu llave y las huellas digitales de tus amigos a la nueva computadora. Para ello tendr\u00e1s que copiar el contenido de la carpeta %APPDATA%\\.purple (~/.purple en Linux o Mac) a una carpeta similar en la nueva computadora.</p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h2>3.3 Segundo Paso \u2013 Autenticar una conversaci\u00f3n privada</h2>\n\n<p><strong>Paso 1</strong>. <strong>Haz doble clic en</strong> la cuenta de un amigo que se encuentre actualmente on-line para iniciar una conversaci\u00f3n de <strong>MI</strong>. Si los dos ten\u00e9is el plugin <strong>OTR</strong> instalado y debidamente configurado podr\u00e9is observar que aparece un nuevo bot\u00f3n <strong>OTR</strong>en la esquina inferior derecha de la pantalla de chat.</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/60.png\" alt=\"\" /></p>\n\n<p><em>Figura 6: Pantalla de mensajer\u00eda de Pidgin mostrando el icono de OTR enmarcado en negro</em></p>\n\n<p><strong>Paso 2</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/61.png\" alt=\"\" /> para activar el men\u00fa emergente asociado, y luego <strong>selecciona</strong> la opci\u00f3n <em>Iniciar una conversaci\u00f3n privada</em> como se muestra:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/62.png\" alt=\"\" /></p>\n\n<p><em>Figura 7: Men\u00fa emergente con la opci\u00f3n Iniciar una conversaci\u00f3n privada seleccionada</em></p>\n\n<p><em>Tu pantalla de <strong>MI Pidgin</strong> se parecer\u00e1 a la siguiente:</em></p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/63.png\" alt=\"\" /></p>\n\n<p><em>Figura 8: Pantalla de MI Pidgin mostrando el bot\u00f3n No verificado</em></p>\n\n<p><strong>Nota</strong>: <strong>Pidgin</strong> comienza a comunicarse autom\u00e1ticamente con el programa de <strong>MI</strong> de tu amigo y a generar mensajes siempre que intentes habilitar una sesi\u00f3n de chat privada y segura. Como consecuencia el bot\u00f3n <em>No privado</em> <strong>OTR</strong> cambia a <em>No verificado</em>, indicando que ya puedes tener una conversaci\u00f3n cifrada con tu amigo.</p>\n\n<p><strong>Aviso</strong>! Aunque se trata de una conversaci\u00f3n segura, la identidad de tu amigo no ha sido a\u00fan <em>verificada</em>. Cuidado: Tu amigo puede tratarse otra persona <em>haci\u00e9ndose pasar</em> por tu amigo.</p>\n\n<p><a name=\"3.4\" id=\"3.4\"></a></p>\n\n<h2>3.4 Tercer Paso \u2013 Autenticar la identidad de tu amigo en Pidgin</h2>\n\n<p>Puedes utilizar uno de los tres siguientes m\u00e9todos de identificaci\u00f3n para autenticar a tu amigo en  <strong>Pidgin</strong>: 1). Un c\u00f3digo o palabra secreta pre-establecidos, 2). formular una pregunta, cuya respuesta s\u00f3lo vosotros conoc\u00e9is o 3)verificar manualmente las huella digitales de tu llave por medio de un m\u00e9todo diferente de comunicaci\u00f3n.</p>\n\n<h3>M\u00e9todo del c\u00f3digo o palabra secreta</h3>\n\n<p>Pod\u00e9is establecer un c\u00f3digo o palabra secreta por adelantado, ya sea en persona o por medio de un medio de comunicaci\u00f3n distinto (como el tel\u00e9fono, mensajer\u00eda de voz de <a href=\"/en/jitsi\"><strong>Jitsi</strong></a> o un mensaje por tel\u00e9fono m\u00f3vil). Una vez que ambos hay\u00e1is introducido la misma frase o c\u00f3digo se habr\u00e1 autenticado la sesi\u00f3n.</p>\n\n<p><strong>Nota</strong>: La funci\u00f3n de reconocimiento de c\u00f3digo o palabra secreta de <strong>OTR</strong> distingue entre may\u00fasculas (A,B,C) y min\u00fasculas (a,b,c). \u00a1Es importante recordarlo al crear un c\u00f3digo  o palabra secreta!</p>\n\n<p><strong>Paso 1</strong> . <strong>Haz clic</strong> en el bot\u00f3n <em>OTR</em> en la pantalla de chat y luego <strong>selecciona</strong> la opci\u00f3n <em>Autenticar Amigo</em> como se muestra:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/66.png\" alt=\"\" /></p>\n\n<p><em>Figura 9: Men\u00fa emergente de No Verificado con la opci\u00f3n Autenticar Amigo seleccionada</em></p>\n\n<p>Esto activar\u00e1 la pantalla <em>Autenticar Amigo</em>, solicit\u00e1ndote que selecciones un m\u00e9todo de autenticaci\u00f3n.</p>\n\n<p><strong>Paso 2</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/67.png\" alt=\"\" /> y <strong>selecciona</strong> <em>Shared Secret (secreto compartido)</em> como se muestra:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/68.png\" alt=\"\" /></p>\n\n<p><em>Figura 10: Pantalla de Autenticar Amigo mostrando la lista desplegable</em></p>\n\n<p><strong>Paso 3</strong>. <strong>Introduce</strong> el c\u00f3digo o palabra secreta como se muestra:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/69.png\" alt=\"\" /></p>\n\n<p><em>Figura 11: Pantalla de Shared Secret (secreto compartido)</em></p>\n\n<p><strong>Paso 4</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidgin-es-1/70.png\" alt=\"\" /> para activar la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/71.png\" alt=\"\" /></p>\n\n<p><em>Figura 12: La pantalla Autenticar Amigo para un interlocutor ficticio</em></p>\n\n<p><strong>Nota</strong>: <em>Tu amigo, por su parte, ver\u00e1 en este momento la pantalla que se muestra en la figura 13 y tendr\u00e1 que introducir la misma palabra o c\u00f3digo. Si coinciden se habr\u00e1 autenticado la sesi\u00f3n.</em></p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/72.png\" alt=\"\" /></p>\n\n<p><em>Figura 13: La pantalla Autenticar Amigo para un interlocutor ficticio</em></p>\n\n<p>Una vez se haya autenticado la sesi\u00f3n,  el bot\u00f3n <em>OTR</em> cambiar\u00e1 a <img src=\"/sbox/screen/pidgin-es-1/75.png\" alt=\"\" />. La sesi\u00f3n ser\u00e1 ya segura y tendr\u00e1s la certeza de estar hablando con tu amigo.</p>\n\n<h3>M\u00e9todo de pregunta y respuesta</h3>\n\n<p>Otra forma de autentificar la identidad de los interlocutores es el m\u00e9todo de pregunta y respuesta. Formula una pregunta y elige una respuesta. Tras leer la pregunta, tu amigo debe introducir la respuesta <em>exacta</em> y si coincide con la tuya, la identidad estar\u00e1 de inmediato autentificada.</p>\n\n<p><strong>Paso 1</strong>. <strong>Haz clic en</strong> el men\u00fa <em>OTR</em> en la pantalla de mensaje activa para desplegar el men\u00fa emergente asociado y <strong>selecciona</strong> la opci\u00f3n <em>Autenticar Amigo</em> (observa la <em>Figura 9</em>).</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/76.png\" alt=\"\" /></p>\n\n<p><em>Figura 14: Pantalla de chat de Pidgin mostrando el icono</em> OTR</p>\n\n<p>Aparecer\u00e1 la pantalla <em>Autenticar Amigo</em> solicit\u00e1ndote que elijas el m\u00e9todo de autenticaci\u00f3n.</p>\n\n<p><strong>Paso 2</strong>. <strong>Haz clic en el ** men\u00fa desplegable y **selecciona</strong> la opci\u00f3n <em>Pregunta y respuesta</em> como se muestra:</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/77.png\" alt=\"\" /></p>\n\n<p><em>Figura 15: La pantalla de autenticar amigo</em></p>\n\n<p><strong>Paso 3</strong>. <strong>Introduce</strong> una pregunta y su respuesta correspondiente. Se enviar\u00e1 esta pregunta a tu amigo.</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/78.png\" alt=\"\" /></p>\n\n<p><em>Figura 16: Pantalla de pregunta y respuesta</em></p>\n\n<p>Si la respuesta de tu amigo coincide con la tuya, vuestra identidad se habr\u00e1 verificado y ambas partes ser\u00e1n quienes dicen ser.</p>\n\n<p>Una vez se haya autenticado la sesi\u00f3n el bot\u00f3n de <em>OTR</em> cambiar\u00e1 a <img src=\"/sbox/screen/pidgin-es-1/79.png\" alt=\"\" />. Tu sesi\u00f3n  ser\u00e1 ahora segura y puedes tener la certeza de la identidad de tu amigo de chat.</p>\n\n<h3>Verificaci\u00f3n manual de la huella digital</h3>\n\n<p>El tercer m\u00e9todo de autenticar la identidad es la verificaci\u00f3n de la huella digital. Esto consiste en intercambiar o mostrar tus huellas digitales y las de tu amigo por medio de otro canal de comunicaci\u00f3n (por ejemplo, email seguro o llamada telef\u00f3nica). Si las huellas intercambiadas coinciden puedes seleccionar <strong><em>He verificado</em> que se trata de la huella digital correcta* y **Autenticar</strong> as\u00ed la sesi\u00f3n.</p>\n\n<p>Observa que cuando seleccionas <strong>Seleccionar &gt; Lista de amigos &gt; Herramientas &gt; Plugins &gt; Mensaje Fuera de Registro (OTR) &gt; Configurar plugin</strong>, la pesta\u00f1a de <em>Huellas digitales conocidas</em> ahora muestra la cuenta de tu amigo junto con un mensaje advirtiendo que su identidad ha sido verificada.</p>\n\n<p><img src=\"/sbox/screen/pidgin-es-1/98.png\" alt=\"\" /></p>\n\n<p><em>Figura 18: Pantalla de Mensaje Fuera de Registro (OTR) mostrando la pesta\u00f1a Huellas Digitales Conocidas</em></p>\n\n<p>\u00a1Enhorabuena! Ahora ya pod\u00e9is conversar en privado. La pr\u00f3xima vez que tengas una sesi\u00f3n de  chat con tu amigo (con las mismas computadoras), s\u00f3lo tendr\u00e1s que solicitar una conexi\u00f3n segura (como se muestra en la figura 7) y que tu amigo la acepte. La sesi\u00f3n ya deber\u00e1 estar autenticada.</p>\n", 
+                        "summary": "", 
+                        "value": "Lista de secciones en esta p\u00e1gina:\r\n\r\n- [**3.0 Acerca de Pidgin y OTR**](#3.0)\r\n- [**3.1 Configurar el plugin Pidgin-OTR**](#3.1)\r\n- [**3.2 Primer paso \u2013 Generar una llave privada y mostrar su huella digital**](#3.2)\r\n- [**3.3 Segundo paso \u2013 Autenticar una sesi\u00f3n de mensajer\u00eda**](#3.3)\r\n- [**3.4 Tercer paso \u2013 Autenticar la identidad de tu interlocutor**](#3.4)\r\n\r\n\r\n<a name=\"3.0\"></a>\r\n## 3.0 Acerca de Pidgin y OTR ##\r\n\r\nTanto t\u00fa como tu interlocutor deb\u00e9is configurar el plugin **OTR** antes de poder tener sesiones de **Mensajer\u00eda instant\u00e1nea** (**MI**) privadas y seguras.  El plugin **OTR** detectar\u00e1 autom\u00e1ticamente cuando ambas partes lo hayan instalado y configurado correctamente.\r\n\r\n**Nota**: Si solicitas una conversaci\u00f3n privada con un amigo que no tenga instalado ni configurado **OTR**, se le enviar\u00e1 inmediatamente un mensaje explic\u00e1ndole c\u00f3mo puede obtener el plugin **OTR**. \r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 Configurar el plugin Pidgin-OTR ##\r\n\r\nPara activar el plugin **OTR** tienes que llevar a cabo los siguientes pasos: \r\n\r\n**Paso 1**. **Haz doble clic** ![](/sbox/screen/pidgin-es-1/51.png) o **selecciona** **Inicio >  Programas > Pidgin** para iniciar **Pidgin** y activar la pantalla *Lista de Amigos* (observa la  *Figura 1*).\r\n\r\n**Paso 2**. **Abre** el men\u00fa *Herramientas* y **selecciona** la opci\u00f3n *Complementos (plugins)* como se indica: \r\n\r\n![](/sbox/screen/pidgin-es-1/52.png)\r\n\r\n*Figura 1: La pantalla Lista de Amigos con la opci\u00f3n Complementos (plugins) seleccionada en el men\u00fa Herramientas*\r\n\r\nEsto activar\u00e1 la pantalla de *Complementos (plugins)* como se muestra:\r\n\r\n**Paso 2**. **Despl\u00e1zate** hasta la opci\u00f3n *Mensaje Fuera-de-Registro* y **selecciona** la casilla correspondiente para activarlo. \r\n\r\n![](/sbox/screen/pidgin-es-1/53.png)\r\n\r\n*Figura 2: Pantalla de Complementos (plugins) de Pidgin con la opci\u00f3n Mensaje Fuera-de-Registro seleccionada*\r\n\r\n**Paso 3**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/54.png) para empezar a configurar *Fuera-de-Registro*.\r\n\r\nA continuaci\u00f3n se explican los 3 pasos necesarios para la configuraci\u00f3n correcta de **OTR**, de manera que permita tener sesiones de **MI** privadas y seguras de manera eficaz: \r\n\r\n- **Primer Paso**: Consiste en generar una llave privada \u00fanica asociada con tu cuenta y que muestra su huella digital.\r\n\r\nLos dos pasos siguientes consisten en asegurar la sesi\u00f3n de **MI** y autenticar a tus amigos.\r\n\r\n- **Segundo Paso**: Consiste en que uno de los interlocutores solicite una sesi\u00f3n de mensajer\u00eda privada y segura con otro interlocutor que se encuentre en ese momento on-line. \r\n\r\n- El **Tercer Paso** consiste en *autenticar* o verificar la identidad de tu *amigo* en **Pidgin**. (**Nota**: En **Pidgin**, un amigo es todo aquel con quien te comuniques durante tus sesiones de **MI**.) Dicho proceso de verificaci\u00f3n de la identidad de un amigo en **Pidgin** se conoce como *autenticaci\u00f3n* y supone determinar que tu amigo es *exactamente* la persona que dice ser.   \r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 Primer Paso \u2013 Generar una llave privada y mostrar su huella digital ##\r\n\r\nLas sesiones de chat seguras en **Pidgin** se habilitan al generarse una *llave privada* para la cuenta en cuesti\u00f3n. La pantalla de configuraci\u00f3n de *Off-the-Record (Mensaje fuera de Registro)* est\u00e1 dividida en dos pesta\u00f1as: la de *Config* y la de *Huellas digitales conocidas*. La pesta\u00f1a *Config* se utiliza para generar una *llave* para cada una de tus cuentas y para establecer opciones espec\u00edficas de **OTR**. La pesta\u00f1a *Huellas digitales conocidas* contiene una lista de las huellas digitales de las llaves de tus amigos. Debes tener una llave para cualquier amigo con el que quieras chatear de forma privada. \r\n\r\n![](/sbox/screen/pidgin-es-1/55.png)\r\n\r\n*Figura 3: La pantalla de Mensaje fuera de Registro mostrando la pesta\u00f1a Config*\r\n\r\n**Paso 1**. Para optimizar tu privacidad, **selecciona** las opciones *Habilitar mensajes privados*, *Iniciar autom\u00e1ticamente mensajes privados* y *No grabar conversaciones OTR* en la pesta\u00f1a *Config* , como se muestra en la *Figura 3*. \r\n\r\n**Paso 2**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/56.png) para empezar a generar tu llave segura. A continuaci\u00f3n aparecer\u00e1 una pantalla notific\u00e1ndote que se est\u00e1 generando una llave privada:\r\n\r\n![](/sbox/screen/pidgin-es-1/57.png)\r\n\r\n*Figura 4: Cuadro de confirmaci\u00f3n de generaci\u00f3n de llave privada*\r\n\r\n**Nota**: Tu amigo debe llevar a cabo los mismos pasos para su propia cuenta. \r\n\r\n**Paso 3**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/58.png) una vez que la llave privada  (que se asemeja a la siguiente) se haya generado: \r\n\r\n![](/sbox/screen/pidgin-es-1/59.png)\r\n\r\n*Figura 5: Ejemplo de una huella digital de la llave generada por el complemento OTR*\r\n\r\n**Importante**: Ya has creado una llave privada para tu cuenta en tu computadora, que servir\u00e1 para cifrar tus conversaciones de forma que nadie m\u00e1s pueda leerlas, incluso si consiguen vigilar tus sesiones de chat. La huella digital es una larga secuencia de letras y n\u00fameros utilizada para identificar la llave para una cuenta en particular, como se muestra en la *Figura 5*. \r\n\r\n**Pidgin** guarda autom\u00e1ticamente en la computadora que est\u00e9s utilizando tu huella digital y las de tus amigos, de manera que no tengas que recordarlas. Si vuelves a instalar **Pidgin** o si cambias de computadora tendr\u00e1s que volver a generar tu llave y volver a autenticar a tus amigos, o tendr\u00e1s que trasladar tu llave y las huellas digitales de tus amigos a la nueva computadora. Para ello tendr\u00e1s que copiar el contenido de la carpeta %APPDATA%\\\\.purple (~/.purple en Linux o Mac) a una carpeta similar en la nueva computadora.\r\n\r\n<a name=\"3.3\"></a>\r\n## 3.3 Segundo Paso \u2013 Autenticar una conversaci\u00f3n privada ##\r\n\r\n**Paso 1**. **Haz doble clic en** la cuenta de un amigo que se encuentre actualmente on-line para iniciar una conversaci\u00f3n de **MI**. Si los dos ten\u00e9is el plugin **OTR** instalado y debidamente configurado podr\u00e9is observar que aparece un nuevo bot\u00f3n **OTR**en la esquina inferior derecha de la pantalla de chat. \r\n\r\n![](/sbox/screen/pidgin-es-1/60.png)\r\n\r\n*Figura 6: Pantalla de mensajer\u00eda de Pidgin mostrando el icono de OTR enmarcado en negro*\r\n\r\n**Paso 2**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/61.png) para activar el men\u00fa emergente asociado, y luego **selecciona** la opci\u00f3n *Iniciar una conversaci\u00f3n privada* como se muestra: \r\n\r\n![](/sbox/screen/pidgin-es-1/62.png)\r\n\r\n*Figura 7: Men\u00fa emergente con la opci\u00f3n Iniciar una conversaci\u00f3n privada seleccionada*\r\n\r\n*Tu pantalla de **MI Pidgin** se parecer\u00e1 a la siguiente:*\r\n\r\n![](/sbox/screen/pidgin-es-1/63.png)\r\n\r\n*Figura 8: Pantalla de MI Pidgin mostrando el bot\u00f3n No verificado*\r\n\r\n**Nota**: **Pidgin** comienza a comunicarse autom\u00e1ticamente con el programa de **MI** de tu amigo y a generar mensajes siempre que intentes habilitar una sesi\u00f3n de chat privada y segura. Como consecuencia el bot\u00f3n *No privado* **OTR** cambia a *No verificado*, indicando que ya puedes tener una conversaci\u00f3n cifrada con tu amigo. \r\n\r\n**Aviso**! Aunque se trata de una conversaci\u00f3n segura, la identidad de tu amigo no ha sido a\u00fan *verificada*. Cuidado: Tu amigo puede tratarse otra persona *haci\u00e9ndose pasar* por tu amigo. \r\n\r\n<a name=\"3.4\"></a>\r\n## 3.4 Tercer Paso \u2013 Autenticar la identidad de tu amigo en Pidgin ##\r\n\r\nPuedes utilizar uno de los tres siguientes m\u00e9todos de identificaci\u00f3n para autenticar a tu amigo en  **Pidgin**: 1). Un c\u00f3digo o palabra secreta pre-establecidos, 2). formular una pregunta, cuya respuesta s\u00f3lo vosotros conoc\u00e9is o 3)verificar manualmente las huella digitales de tu llave por medio de un m\u00e9todo diferente de comunicaci\u00f3n.\r\n\r\n### M\u00e9todo del c\u00f3digo o palabra secreta ###\r\n\r\nPod\u00e9is establecer un c\u00f3digo o palabra secreta por adelantado, ya sea en persona o por medio de un medio de comunicaci\u00f3n distinto (como el tel\u00e9fono, mensajer\u00eda de voz de [**Jitsi**](/en/jitsi) o un mensaje por tel\u00e9fono m\u00f3vil). Una vez que ambos hay\u00e1is introducido la misma frase o c\u00f3digo se habr\u00e1 autenticado la sesi\u00f3n. \r\n\r\n**Nota**: La funci\u00f3n de reconocimiento de c\u00f3digo o palabra secreta de **OTR** distingue entre may\u00fasculas (A,B,C) y min\u00fasculas (a,b,c). \u00a1Es importante recordarlo al crear un c\u00f3digo  o palabra secreta!\r\n\r\n**Paso 1** . **Haz clic** en el bot\u00f3n *OTR* en la pantalla de chat y luego **selecciona** la opci\u00f3n *Autenticar Amigo* como se muestra: \r\n\r\n![](/sbox/screen/pidgin-es-1/66.png)\r\n\r\n*Figura 9: Men\u00fa emergente de No Verificado con la opci\u00f3n Autenticar Amigo seleccionada*\r\n\r\nEsto activar\u00e1 la pantalla *Autenticar Amigo*, solicit\u00e1ndote que selecciones un m\u00e9todo de autenticaci\u00f3n. \r\n\r\n**Paso 2**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/67.png) y **selecciona** *Shared Secret (secreto compartido)* como se muestra: \r\n\r\n![](/sbox/screen/pidgin-es-1/68.png)\r\n\r\n*Figura 10: Pantalla de Autenticar Amigo mostrando la lista desplegable* \r\n\r\n**Paso 3**. **Introduce** el c\u00f3digo o palabra secreta como se muestra:\r\n\r\n![](/sbox/screen/pidgin-es-1/69.png)\r\n\r\n*Figura 11: Pantalla de Shared Secret (secreto compartido)* \r\n\r\n**Paso 4**. **Haz clic en** ![](/sbox/screen/pidgin-es-1/70.png) para activar la siguiente pantalla:\r\n\r\n![](/sbox/screen/pidgin-es-1/71.png)\r\n\r\n*Figura 12: La pantalla Autenticar Amigo para un interlocutor ficticio*\r\n\r\n**Nota**: *Tu amigo, por su parte, ver\u00e1 en este momento la pantalla que se muestra en la figura 13 y tendr\u00e1 que introducir la misma palabra o c\u00f3digo. Si coinciden se habr\u00e1 autenticado la sesi\u00f3n.*\r\n\r\n![](/sbox/screen/pidgin-es-1/72.png)\r\n\r\n*Figura 13: La pantalla Autenticar Amigo para un interlocutor ficticio*\r\n\r\nUna vez se haya autenticado la sesi\u00f3n,  el bot\u00f3n *OTR* cambiar\u00e1 a ![](/sbox/screen/pidgin-es-1/75.png). La sesi\u00f3n ser\u00e1 ya segura y tendr\u00e1s la certeza de estar hablando con tu amigo.\r\n\r\n### M\u00e9todo de pregunta y respuesta ###\r\n\r\nOtra forma de autentificar la identidad de los interlocutores es el m\u00e9todo de pregunta y respuesta. Formula una pregunta y elige una respuesta. Tras leer la pregunta, tu amigo debe introducir la respuesta *exacta* y si coincide con la tuya, la identidad estar\u00e1 de inmediato autentificada. \r\n\r\n**Paso 1**. **Haz clic en** el men\u00fa *OTR* en la pantalla de mensaje activa para desplegar el men\u00fa emergente asociado y **selecciona** la opci\u00f3n *Autenticar Amigo* (observa la *Figura 9*).\r\n\r\n![](/sbox/screen/pidgin-es-1/76.png)\r\n\r\n*Figura 14: Pantalla de chat de Pidgin mostrando el icono* OTR \r\n\r\nAparecer\u00e1 la pantalla *Autenticar Amigo* solicit\u00e1ndote que elijas el m\u00e9todo de autenticaci\u00f3n. \r\n\r\n**Paso 2**. **Haz clic en el ** men\u00fa desplegable y **selecciona** la opci\u00f3n *Pregunta y respuesta* como se muestra:  \r\n\r\n![](/sbox/screen/pidgin-es-1/77.png)\r\n\r\n*Figura 15: La pantalla de autenticar amigo*\r\n\r\n**Paso 3**. **Introduce** una pregunta y su respuesta correspondiente. Se enviar\u00e1 esta pregunta a tu amigo. \r\n\r\n![](/sbox/screen/pidgin-es-1/78.png)\r\n\r\n*Figura 16: Pantalla de pregunta y respuesta*\r\n\r\nSi la respuesta de tu amigo coincide con la tuya, vuestra identidad se habr\u00e1 verificado y ambas partes ser\u00e1n quienes dicen ser. \r\n\r\nUna vez se haya autenticado la sesi\u00f3n el bot\u00f3n de *OTR* cambiar\u00e1 a ![](/sbox/screen/pidgin-es-1/79.png). Tu sesi\u00f3n  ser\u00e1 ahora segura y puedes tener la certeza de la identidad de tu amigo de chat.\r\n\r\n### Verificaci\u00f3n manual de la huella digital ###\r\n\r\nEl tercer m\u00e9todo de autenticar la identidad es la verificaci\u00f3n de la huella digital. Esto consiste en intercambiar o mostrar tus huellas digitales y las de tu amigo por medio de otro canal de comunicaci\u00f3n (por ejemplo, email seguro o llamada telef\u00f3nica). Si las huellas intercambiadas coinciden puedes seleccionar ***He verificado* que se trata de la huella digital correcta* y **Autenticar** as\u00ed la sesi\u00f3n.\r\n\r\n\r\nObserva que cuando seleccionas **Seleccionar > Lista de amigos > Herramientas > Plugins > Mensaje Fuera de Registro (OTR) > Configurar plugin**, la pesta\u00f1a de *Huellas digitales conocidas* ahora muestra la cuenta de tu amigo junto con un mensaje advirtiendo que su identidad ha sido verificada. \r\n\r\n![](/sbox/screen/pidgin-es-1/98.png)\r\n\r\n*Figura 18: Pantalla de Mensaje Fuera de Registro (OTR) mostrando la pesta\u00f1a Huellas Digitales Conocidas*\r\n\r\n\u00a1Enhorabuena! Ahora ya pod\u00e9is conversar en privado. La pr\u00f3xima vez que tengas una sesi\u00f3n de  chat con tu amigo (con las mismas computadoras), s\u00f3lo tendr\u00e1s que solicitar una conexi\u00f3n segura (como se muestra en la figura 7) y que tu amigo la acepte. La sesi\u00f3n ya deber\u00e1 estar autenticada."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2041", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2041", 
+                "link_title": "\u5982\u4f55\u4f7f\u7528OTR\u5728Pidgin\u4e2d\u8fdb\u884c\u5b89\u5168\u5bf9\u8bdd", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5187", 
+                "module": "book", 
+                "nid": "2041", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5185", 
+                "p3": "5187", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5185", 
+                "router_path": "node/%", 
+                "title": "\u5982\u4f55\u4f7f\u7528OTR\u5728Pidgin\u4e2d\u8fdb\u884c\u5b89\u5168\u5bf9\u8bdd", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1445443502", 
+            "comment": "0", 
+            "created": "1441120761", 
+            "current_revision_id": "9566", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "pidgin_conversacionsegura", 
+                        "value": "pidgin_conversacionsegura"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5187": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2041", 
+                    "link_title": "\u5982\u4f55\u4f7f\u7528OTR\u5728Pidgin\u4e2d\u8fdb\u884c\u5b89\u5168\u5bf9\u8bdd", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5187", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5185", 
+                    "p3": "5187", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5185", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2041", 
+            "num_revisions": "17", 
+            "path": "https://securityinabox.org/en/pidgin_securechat", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1445443502", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Proteger tu sesi\u00f3n de conversaci\u00f3n con OTR", 
+                        "value": "Proteger tu sesi\u00f3n de conversaci\u00f3n con OTR"
+                    }
+                ]
+            }, 
+            "title_original": "How to Use OTR to Initiate a Secure Messaging Session in Pidgin", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442932417", 
+                        "created": "1442932417", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442396761", 
+                        "created": "1442396740", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442497987", 
+                        "created": "1442497934", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442324892", 
+                        "created": "1441630704", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442845940", 
+                        "created": "1442845940", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444660205", 
+                        "created": "1444660205", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "my": {
+                        "changed": "1443621123", 
+                        "created": "1443621123", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279150", 
+                        "created": "1441279150", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444179985", 
+                        "created": "1444179985", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021280", 
+                        "created": "1443021280", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833714", 
+                        "created": "1444728779", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441120761", 
+                        "created": "1441120761", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445443502", 
+                        "created": "1445443502", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "01dc83ee-8d10-4cf0-add2-c9dd0a538337", 
+            "vid": "9566", 
+            "vuuid": "857724eb-ae85-4ce8-8c94-e7af50cee5a2"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<h2>4.1 Diferencias entre la versi\u00f3n instalada y la port\u00e1til de Pidgin</h2>\n\n<p>Dado que las herramientas port\u00e1tiles <em>no</em> est\u00e1n instaladas en una computadora local, su existencia y uso pasar\u00e1n desapercibidos. Sin embargo, ten en cuenta que tu dispositivo externo o memoria USB y las herramientas port\u00e1tiles son s\u00f3lo seguras si lo es la computadora que utilices, y corres el riesgo de exponerlas a programas de Adware, Malware, Spyware y virus.</p>\n\n<p>No existen otras diferencias entre <strong>Pidgin Port\u00e1til</strong> y la versi\u00f3n dise\u00f1ada para su instalaci\u00f3n en una computadora local.</p>\n\n<h2>4.2 Descargar y extraer Pidgin Port\u00e1til</h2>\n\n<p>Para empezar a descargar y extraer <strong>Pidgin Port\u00e1til</strong> debes seguir los siguientes pasos:</p>\n\n<p><strong>Paso 1</strong>. <strong>Haz clic en</strong> <a href=\"http://portableapps.com/apps/internet/pidgin_portable\"><strong>http://portableapps.com/apps/internet/pidgin_portable</strong></a> para ser redirigido al sitio de descarga pertinente.</p>\n\n<p><strong>Paso 2</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/01.png\" alt=\"\" /> para activar la p\u00e1gina de descarga asociada de <strong>Source Forge</strong>.</p>\n\n<p><strong>Paso 3</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/02.png\" alt=\"\" /> para guardar el archivo de instalaci\u00f3n de <img src=\"/sbox/screen/pidginportable-es-1/03.png\" alt=\"\" /> en tu computadora y luego <strong>ubicarlo</strong>.</p>\n\n<p><strong>Paso 4</strong>. <strong>Haz doble clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/03.png\" alt=\"\" />; puede aparecer el cuadro de di\u00e1logo <em>Abrir archivo \u2013 Aviso de seguridad</em>. Si as\u00ed ocurre, <strong>haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/04.png\" alt=\"\" /> para activar la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/pidginportable-es-1/05.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: Pantalla de idioma de instalaci\u00f3n</em></p>\n\n<p><strong>Paso 5</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/06.png\" alt=\"\" /> para activar la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/pidginportable-es-1/07.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: Pantalla de Pidgin Portable | PortableApps.com</em></p>\n\n<p><strong>Paso 6</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/08.png\" alt=\"\" /> para activar la siguiente pantalla:\n<img src=\"/sbox/screen/pidginportable-es-1/09.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: Pantalla de selecci\u00f3n de componentes</em></p>\n\n<p><strong>Nota</strong>: <strong>Haz clic</strong> para habilitar la opci\u00f3n <img src=\"/sbox/screen/pidginportable-es-1/10.png\" alt=\"\" /> e incluir respaldo multiling\u00fce si prefieres utilizar <strong>Pidgin Port\u00e1til</strong> en un idioma distinto al ingl\u00e9s. Al habilitar esta opci\u00f3n el proceso de extracci\u00f3n se har\u00e1 un poco m\u00e1s largo.</p>\n\n<p><strong>Paso 7</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/08.png\" alt=\"\" /> para activar la pantalla  <em>Elegir lugar de instalaci\u00f3n</em>, y luego en <img src=\"/sbox/screen/pidginportable-es-1/11.png\" alt=\"\" /> para abrir la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/pidginportable-es-1/12.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: Pantalla de Buscar Carpeta</em></p>\n\n<p><strong>Paso 8</strong>. <strong>Despl\u00e1zate</strong> hasta la carpeta de destino en el disco duro externo o memoria USB, <strong>selecci\u00f3nala</strong> y <strong>haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/13.png\" alt=\"\" /> para confirmar su ubicaci\u00f3n y volver a la pantalla de <em>Elegir lugar de instalaci\u00f3n</em>.</p>\n\n<p><strong>Paso 9</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/14.png\" alt=\"\" /> para empezar a extraer  <strong>Pidgin Port\u00e1til</strong> a la carpeta especificada; luego <strong>haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/15.png\" alt=\"\" /> para terminar el proceso de instalaci\u00f3n.</p>\n\n<p><strong>Paso 10</strong>. <strong>Despl\u00e1zate</strong> hasta la carpeta de destino en el disco duro externo o memoria USB, como se muestra en la <em>Figura 5</em> y luego <strong>\u00e1brela</strong> para confirmar que el programa <strong>Pidgin port\u00e1til</strong> se ha extra\u00eddo con \u00e9xito.</p>\n\n<p><img src=\"/sbox/screen/pidginportable-es-1/16.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: Pantalla de buscar carpeta</em></p>\n\n<p>Antes de poder empezar a utilizar <strong>Pidgin Port\u00e1til</strong> de manera segura y garantizada, primero debes descargar y extraer su complemento port\u00e1til, el plugin <strong>Fuera-de-Registro</strong> (<strong>OTR</strong>).</p>\n\n<h2>4.3 Descargar y extraer el OTR de Pidgin Port\u00e1til</h2>\n\n<p><strong>Paso 1</strong>. <strong>Haz clic en</strong> <a href=\"http://sourceforge.net/projects/portableapps/files/Pidgin-OTR%20Portable/Pidgin-OTR%20Portable%203.2%20Rev%202/\"><strong>http://sourceforge.net/projects/portableapps/files/Pidgin-OTR%20Portable/Pidgin-OTR%20Portable%203.2%20Rev%202/</strong></a> para ser redirigido al sitio de descarga pertinente.</p>\n\n<p><strong>Paso 2</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/17.png\" alt=\"\" /> para activar la pantalla de descarga de <em>Pidgin-OTR_Portable_3.2_Rev_2.paf.exe</em> y luego <strong>haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/02.png\" alt=\"\" /> para guardar el archivo de instalaci\u00f3n <img src=\"/sbox/screen/pidginportable-es-1/18.png\" alt=\"\" /> en tu computadora.</p>\n\n<p><strong>Paso 3</strong>. <strong>Haz doble clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/18.png\" alt=\"\" />. Puede aparecer el cuadro de di\u00e1logo <em>Abrir archivo \u2013 Aviso de seguridad</em>. Si as\u00ed ocurre, <strong>haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/04.png\" alt=\"\" /> para activar la pantalla <em>Idioma de instalaci\u00f3n</em>  (consulta la <em>Figura 1</em>).</p>\n\n<p><strong>Paso 4</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/06.png\" alt=\"\" /> para activar la pantalla <em>Pidgin-OTR Portable | PortableApps.com</em> (consulta la <em>Figura 2</em>, a la que cual se parece).</p>\n\n<p><strong>Paso 5</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/08.png\" alt=\"\" /> para activar la pantalla <em>Elegir lugar de instalaci\u00f3n</em> (consulta la <em>Figura 3</em>, a la cual se parece).</p>\n\n<p><strong>Paso 6</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/11.png\" alt=\"\" /> para activar su pantalla asociada <em>Buscar carpeta</em> (consulta la <em>Figura 4</em> m\u00e1s arriba).</p>\n\n<p><strong>Paso 7</strong>. <strong>Despl\u00e1zate</strong> hasta la carpeta de destino en el disco duro externo o memoria USB, <strong>selecci\u00f3nala</strong> y <strong>haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/13.png\" alt=\"\" /> para confirmar su ubicaci\u00f3n y volver a la pantalla de <em>Elegir lugar de instalaci\u00f3n</em>.</p>\n\n<p><strong>Paso 8</strong>. <strong>Haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/14.png\" alt=\"\" /> para empezar a extraer <strong>Pidgin Port\u00e1til</strong> a la carpeta especificada; luego <strong>haz clic en</strong> <img src=\"/sbox/screen/pidginportable-es-1/15.png\" alt=\"\" /> para terminar el proceso de instalaci\u00f3n.</p>\n\n<p><strong>Paso 9</strong>. <strong>Despl\u00e1zate</strong> hasta la carpeta de destino en el disco duro externo o memoria USB, como se muestra en la <em>Figura 5</em> y luego <strong>abre</strong> la carpeta del programa <strong>Pidgin port\u00e1til</strong>.</p>\n\n<p><strong>Paso 10</strong>. <strong>Haz doble  clic</strong> <img src=\"/sbox/screen/pidginportable-es-1/19.png\" alt=\"\" /> para iniciar <strong>Pidgin Port\u00e1til</strong>.</p>\n\n<p>Consulta el cap\u00edtulo <a href=\"/es/pidgin_principal\"><strong>Pidgin</strong></a> para empezar a configurarlo y utilizarlo.</p>\n", 
+                        "summary": "", 
+                        "value": "## 4.1 Diferencias entre la versi\u00f3n instalada y la port\u00e1til de Pidgin ##\r\n\r\nDado que las herramientas port\u00e1tiles *no* est\u00e1n instaladas en una computadora local, su existencia y uso pasar\u00e1n desapercibidos. Sin embargo, ten en cuenta que tu dispositivo externo o memoria USB y las herramientas port\u00e1tiles son s\u00f3lo seguras si lo es la computadora que utilices, y corres el riesgo de exponerlas a programas de Adware, Malware, Spyware y virus. \r\n\r\nNo existen otras diferencias entre **Pidgin Port\u00e1til** y la versi\u00f3n dise\u00f1ada para su instalaci\u00f3n en una computadora local.\r\n\r\n## 4.2 Descargar y extraer Pidgin Port\u00e1til ##\r\n\r\nPara empezar a descargar y extraer **Pidgin Port\u00e1til** debes seguir los siguientes pasos:\r\n\r\n**Paso 1**. **Haz clic en** [**http://portableapps.com/apps/internet/pidgin_portable**](http://portableapps.com/apps/internet/pidgin_portable) para ser redirigido al sitio de descarga pertinente.\r\n\r\n**Paso 2**. **Haz clic en** ![](/sbox/screen/pidginportable-es-1/01.png) para activar la p\u00e1gina de descarga asociada de **Source Forge**.\r\n\r\n**Paso 3**. **Haz clic en** ![](/sbox/screen/pidginportable-es-1/02.png) para guardar el archivo de instalaci\u00f3n de ![](/sbox/screen/pidginportable-es-1/03.png) en tu computadora y luego **ubicarlo**.\r\n\r\n**Paso 4**. **Haz doble clic en** ![](/sbox/screen/pidginportable-es-1/03.png); puede aparecer el cuadro de di\u00e1logo *Abrir archivo \u2013 Aviso de seguridad*. Si as\u00ed ocurre, **haz clic en** ![](/sbox/screen/pidginportable-es-1/04.png) para activar la siguiente pantalla:\r\n\r\n![](/sbox/screen/pidginportable-es-1/05.png)\r\n\r\n*Figura 1: Pantalla de idioma de instalaci\u00f3n*\r\n\r\n**Paso 5**. **Haz clic en** ![](/sbox/screen/pidginportable-es-1/06.png) para activar la siguiente pantalla:\r\n\r\n![](/sbox/screen/pidginportable-es-1/07.png)\r\n\r\n*Figura 2: Pantalla de Pidgin Portable | PortableApps.com*\r\n\r\n**Paso 6**. **Haz clic en** ![](/sbox/screen/pidginportable-es-1/08.png) para activar la siguiente pantalla:\r\n![](/sbox/screen/pidginportable-es-1/09.png)\r\n\r\n*Figura 3: Pantalla de selecci\u00f3n de componentes*\r\n\r\n**Nota**: **Haz clic** para habilitar la opci\u00f3n ![](/sbox/screen/pidginportable-es-1/10.png) e incluir respaldo multiling\u00fce si prefieres utilizar **Pidgin Port\u00e1til** en un idioma distinto al ingl\u00e9s. Al habilitar esta opci\u00f3n el proceso de extracci\u00f3n se har\u00e1 un poco m\u00e1s largo. \r\n\r\n**Paso 7**. **Haz clic en** ![](/sbox/screen/pidginportable-es-1/08.png) para activar la pantalla  *Elegir lugar de instalaci\u00f3n*, y luego en ![](/sbox/screen/pidginportable-es-1/11.png) para abrir la siguiente pantalla:\r\n\r\n![](/sbox/screen/pidginportable-es-1/12.png)\r\n\r\n*Figura 4: Pantalla de Buscar Carpeta*\r\n\r\n**Paso 8**. **Despl\u00e1zate** hasta la carpeta de destino en el disco duro externo o memoria USB, **selecci\u00f3nala** y **haz clic en** ![](/sbox/screen/pidginportable-es-1/13.png) para confirmar su ubicaci\u00f3n y volver a la pantalla de *Elegir lugar de instalaci\u00f3n*. \r\n\r\n**Paso 9**. **Haz clic en** ![](/sbox/screen/pidginportable-es-1/14.png) para empezar a extraer  **Pidgin Port\u00e1til** a la carpeta especificada; luego **haz clic en** ![](/sbox/screen/pidginportable-es-1/15.png) para terminar el proceso de instalaci\u00f3n.\r\n\r\n**Paso 10**. **Despl\u00e1zate** hasta la carpeta de destino en el disco duro externo o memoria USB, como se muestra en la *Figura 5* y luego **\u00e1brela** para confirmar que el programa **Pidgin port\u00e1til** se ha extra\u00eddo con \u00e9xito.\r\n\r\n![](/sbox/screen/pidginportable-es-1/16.png)\r\n\r\n*Figura 5: Pantalla de buscar carpeta*\r\n\r\nAntes de poder empezar a utilizar **Pidgin Port\u00e1til** de manera segura y garantizada, primero debes descargar y extraer su complemento port\u00e1til, el plugin **Fuera-de-Registro** (**OTR**). \r\n\r\n## 4.3 Descargar y extraer el OTR de Pidgin Port\u00e1til ##\r\n\r\n**Paso 1**. **Haz clic en** [**http://sourceforge.net/projects/portableapps/files/Pidgin-OTR%20Portable/Pidgin-OTR%20Portable%203.2%20Rev%202/**](http://sourceforge.net/projects/portableapps/files/Pidgin-OTR%20Portable/Pidgin-OTR%20Portable%203.2%20Rev%202/) para ser redirigido al sitio de descarga pertinente.\r\n\r\n**Paso 2**. **Haz clic en** ![](/sbox/screen/pidginportable-es-1/17.png) para activar la pantalla de descarga de *Pidgin-OTR_Portable_3.2_Rev_2.paf.exe* y luego **haz clic en** ![](/sbox/screen/pidginportable-es-1/02.png) para guardar el archivo de instalaci\u00f3n ![](/sbox/screen/pidginportable-es-1/18.png) en tu computadora.\r\n\r\n**Paso 3**. **Haz doble clic en** ![](/sbox/screen/pidginportable-es-1/18.png). Puede aparecer el cuadro de di\u00e1logo *Abrir archivo \u2013 Aviso de seguridad*. Si as\u00ed ocurre, **haz clic en** ![](/sbox/screen/pidginportable-es-1/04.png) para activar la pantalla *Idioma de instalaci\u00f3n*  (consulta la *Figura 1*).\r\n\r\n**Paso 4**. **Haz clic en** ![](/sbox/screen/pidginportable-es-1/06.png) para activar la pantalla *Pidgin-OTR Portable | PortableApps.com* (consulta la *Figura 2*, a la que cual se parece).\r\n\r\n**Paso 5**. **Haz clic en** ![](/sbox/screen/pidginportable-es-1/08.png) para activar la pantalla *Elegir lugar de instalaci\u00f3n* (consulta la *Figura 3*, a la cual se parece).\r\n\r\n**Paso 6**. **Haz clic en** ![](/sbox/screen/pidginportable-es-1/11.png) para activar su pantalla asociada *Buscar carpeta* (consulta la *Figura 4* m\u00e1s arriba). \r\n\r\n**Paso 7**. **Despl\u00e1zate** hasta la carpeta de destino en el disco duro externo o memoria USB, **selecci\u00f3nala** y **haz clic en** ![](/sbox/screen/pidginportable-es-1/13.png) para confirmar su ubicaci\u00f3n y volver a la pantalla de *Elegir lugar de instalaci\u00f3n*. \r\n\r\n**Paso 8**. **Haz clic en** ![](/sbox/screen/pidginportable-es-1/14.png) para empezar a extraer **Pidgin Port\u00e1til** a la carpeta especificada; luego **haz clic en** ![](/sbox/screen/pidginportable-es-1/15.png) para terminar el proceso de instalaci\u00f3n.\r\n\r\n**Paso 9**. **Despl\u00e1zate** hasta la carpeta de destino en el disco duro externo o memoria USB, como se muestra en la *Figura 5* y luego **abre** la carpeta del programa **Pidgin port\u00e1til**.\r\n\r\n**Paso 10**. **Haz doble  clic** ![](/sbox/screen/pidginportable-es-1/19.png) para iniciar **Pidgin Port\u00e1til**.\r\n\r\nConsulta el cap\u00edtulo [**Pidgin**](/es/pidgin_principal) para empezar a configurarlo y utilizarlo.\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2043", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2043", 
+                "link_title": "\u1021\u102d\u1010\u1039\u1031\u1006\u102c\u1004\u1039 Pidgin \u1014\u1032\u1094 OTR", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5189", 
+                "module": "book", 
+                "nid": "2043", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5185", 
+                "p3": "5189", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5185", 
+                "router_path": "node/%", 
+                "title": "\u1021\u102d\u1010\u1039\u1031\u1006\u102c\u1004\u1039 Pidgin \u1014\u1032\u1094 OTR", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1452173161", 
+            "comment": "0", 
+            "created": "1441121035", 
+            "current_revision_id": "12745", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "pidgin_portatil", 
+                        "value": "pidgin_portatil"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5189": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2043", 
+                    "link_title": "\u1021\u102d\u1010\u1039\u1031\u1006\u102c\u1004\u1039 Pidgin \u1014\u1032\u1094 OTR", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5189", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5185", 
+                    "p3": "5189", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5185", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2043", 
+            "num_revisions": "16", 
+            "path": "https://securityinabox.org/en/pidgin_portable", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452173161", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Pidgin Port\u00e1til y OTR", 
+                        "value": "Pidgin Port\u00e1til y OTR"
+                    }
+                ]
+            }, 
+            "title_original": "Portable Pidgin and OTR", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442932498", 
+                        "created": "1442932498", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442398855", 
+                        "created": "1442398855", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442498076", 
+                        "created": "1442498076", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442324983", 
+                        "created": "1441630904", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444816711", 
+                        "created": "1444816711", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1452173161", 
+                        "created": "1443621213", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279413", 
+                        "created": "1441279413", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444180137", 
+                        "created": "1444180137", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021393", 
+                        "created": "1443021393", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833765", 
+                        "created": "1444728979", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441121035", 
+                        "created": "1441121035", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445517478", 
+                        "created": "1445517478", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "cca081ae-915c-43d7-8fb2-45b590ce6e32", 
+            "vid": "12745", 
+            "vuuid": "a650c258-7371-4aa3-898e-03d3ca5d8cf2"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p><a name=\"5.0\" id=\"5.0\"></a></p>\n\n<h2>5.0 FAQs and Review</h2>\n\n<div class=\"background\">\n\n<p><strong><em>P: \u00bfPuedo utilizar OTR para chatear con amigos en MSN y Yahoo</em></strong>?</p>\n\n<p><em><strong>R</strong>: Aunque <strong>Pidgin-OTR</strong> admite varios servicios de chat y mensajer\u00eda, la mayor parte del tiempo tienes que utilizar el mismo proveedor para iniciar una sesi\u00f3n de <strong>MI</strong> con tu amigo. Ambos ten\u00e9is que utilizar una cuenta de <strong>IRC</strong> o <strong>ICQ</strong>, por ejemplo. Sin embargo, los servicios que utilizan el protocolo <strong>XMPP</strong> (como <strong>RiseUp</strong>, <strong>Google Talk</strong>, <strong>Facebook</strong>, u otros servidores <strong>XMPP</strong>) pueden permitir hacer chat entre sus respectivas cuentas. De este modo puedes hacer chat entre una cuenta en <strong>RiseUp</strong> y otra en <strong>Google Talk</strong>. Ten en cuenta tambi\u00e9n que en <strong>Pidgin</strong> puedes registrar y estar on-line con varias cuentas de <strong>MI</strong> simult\u00e1neamente. Esa es la ventaja de utilizar un cliente de <strong>MI</strong> multiprotocolo</em></p>\n\n<p><strong><em>P: \u00bfC\u00f3mo puedo acceder a mi cuenta Pidgin-OTR en otra computadora?</em></strong></p>\n\n<p><em><strong>R</strong>: Una opci\u00f3n es generar una nueva llave privada para utilizar con tu cuenta de <strong>MI</strong> en esa computadora. Podr\u00e1s iniciar una conversaci\u00f3n con tu amigo utilizando esta nueva llave, pero tendr\u00e1s que volver a autenticar tu sesi\u00f3n. Otra opci\u00f3n es copiar las claves de cifrado a la nueva computadora (puedes localizarlas en %APPDATA%\\.purple en Windows y en ~/.purple en Linux o Mac).</em></p>\n\n<p><strong><em>P: \u00bfQu\u00e9 ocurre si olvido la contrase\u00f1a de mi cuenta de MI? \u00bfo si alguien la roba? \u00bfTendr\u00e1n acceso a mis conversaciones pasadas y futuras?</em></strong></p>\n\n<p><em><strong>R</strong>: Esta es una pregunta importante. En primer lugar, si olvidas tu contrase\u00f1a y no puedes renovarla con las opciones que te ofrece tu proveedor, tendr\u00e1s que generar una nueva cuenta de <strong>MI</strong>. Tras ello, debes informar a tu amigo de la nueva cuenta por medio de email o chat de voz autenticados donde os pod\u00e1is reconocer.</em></p>\n\n<p><em>Por \u00faltimo os deb\u00e9is autenticar el uno al otro como amigos. Si de alg\u00fan modo alguien ha conseguido tu contrase\u00f1a de <strong>MI</strong>, esa persona podr\u00eda intentar hacerse pasar por ti al utilizar <strong>Pidgin</strong>. Afortunadamente, no podr\u00e1 autenticar la sesi\u00f3n sin tus llaves de cifrado o sin conocer tu palabra o c\u00f3digo compartido. Tu amigo podr\u00eda, de esta forma, sospechar. De ah\u00ed la importancia de la autenticaci\u00f3n.</em></p>\n\n<p><em>Adem\u00e1s, si seguiste las instrucciones y estableciste las preferencias recomendadas en la pesta\u00f1a Configuraci\u00f3n de <strong>OTR</strong>, entonces incluso alguien que robe tu contrase\u00f1a o tenga acceso a tu computadora no podr\u00e1 acceder a tus conversaciones anteriores, puesto que elegiste no registrarlas.</em></p>\n\n</div>\n\n<p><a name=\"5.1\" id=\"5.1\"></a></p>\n\n<h2>5.1 Preguntas de revisi\u00f3n</h2>\n\n<ul><li>\u00bfCu\u00e1ntas veces es necesario autenticar tu sesi\u00f3n de chat con un amigo en particular?</li>\n<li>\u00bfEs posible registrar y utilizar simult\u00e1neamente m\u00faltiples cuentas de <strong>MI</strong> en <strong>Pidgin</strong>? </li>\n<li>\u00bfQu\u00e9 es una huella digital en <strong>Pidgin</strong>? </li>\n<li>\u00bfQu\u00e9 ocurrir\u00e1 a tus preferencias <strong>OTR</strong> (incluidas las huellas digitales de las llaves recibidas) cuando instalas  <strong>Pidgin- OTR</strong> en otra computadora?</li>\n<li>\u00bfQu\u00e9 se requiere para iniciar una sesi\u00f3n de chat privada y autenticada en  <strong>Pidgin</strong>?</li>\n<li>\u00bfCu\u00e1les son los requisitos para crear una cuenta en <strong>Pidgin</strong>?</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "<a name=\"5.0\"></a>\r\n## 5.0 FAQs and Review ##\r\n\r\n<div class=\"background\" markdown=\"1\"> \r\n\r\n***P: \u00bfPuedo utilizar OTR para chatear con amigos en MSN y Yahoo***? \r\n\r\n***R**: Aunque **Pidgin-OTR** admite varios servicios de chat y mensajer\u00eda, la mayor parte del tiempo tienes que utilizar el mismo proveedor para iniciar una sesi\u00f3n de **MI** con tu amigo. Ambos ten\u00e9is que utilizar una cuenta de **IRC** o **ICQ**, por ejemplo. Sin embargo, los servicios que utilizan el protocolo **XMPP** (como **RiseUp**, **Google Talk**, **Facebook**, u otros servidores **XMPP**) pueden permitir hacer chat entre sus respectivas cuentas. De este modo puedes hacer chat entre una cuenta en **RiseUp** y otra en **Google Talk**. Ten en cuenta tambi\u00e9n que en **Pidgin** puedes registrar y estar on-line con varias cuentas de **MI** simult\u00e1neamente. Esa es la ventaja de utilizar un cliente de **MI** multiprotocolo*\r\n\r\n***P: \u00bfC\u00f3mo puedo acceder a mi cuenta Pidgin-OTR en otra computadora?***\r\n\r\n***R**: Una opci\u00f3n es generar una nueva llave privada para utilizar con tu cuenta de **MI** en esa computadora. Podr\u00e1s iniciar una conversaci\u00f3n con tu amigo utilizando esta nueva llave, pero tendr\u00e1s que volver a autenticar tu sesi\u00f3n. Otra opci\u00f3n es copiar las claves de cifrado a la nueva computadora (puedes localizarlas en %APPDATA%\\\\.purple en Windows y en ~/.purple en Linux o Mac).*\r\n\r\n***P: \u00bfQu\u00e9 ocurre si olvido la contrase\u00f1a de mi cuenta de MI? \u00bfo si alguien la roba? \u00bfTendr\u00e1n acceso a mis conversaciones pasadas y futuras?***\r\n\r\n***R**: Esta es una pregunta importante. En primer lugar, si olvidas tu contrase\u00f1a y no puedes renovarla con las opciones que te ofrece tu proveedor, tendr\u00e1s que generar una nueva cuenta de **MI**. Tras ello, debes informar a tu amigo de la nueva cuenta por medio de email o chat de voz autenticados donde os pod\u00e1is reconocer.*\r\n\r\n*Por \u00faltimo os deb\u00e9is autenticar el uno al otro como amigos. Si de alg\u00fan modo alguien ha conseguido tu contrase\u00f1a de **MI**, esa persona podr\u00eda intentar hacerse pasar por ti al utilizar **Pidgin**. Afortunadamente, no podr\u00e1 autenticar la sesi\u00f3n sin tus llaves de cifrado o sin conocer tu palabra o c\u00f3digo compartido. Tu amigo podr\u00eda, de esta forma, sospechar. De ah\u00ed la importancia de la autenticaci\u00f3n.*\r\n\r\n*Adem\u00e1s, si seguiste las instrucciones y estableciste las preferencias recomendadas en la pesta\u00f1a Configuraci\u00f3n de **OTR**, entonces incluso alguien que robe tu contrase\u00f1a o tenga acceso a tu computadora no podr\u00e1 acceder a tus conversaciones anteriores, puesto que elegiste no registrarlas.*\r\n\r\n</div>\r\n\r\n<a name=\"5.1\"></a>\r\n## 5.1 Preguntas de revisi\u00f3n ##\r\n\r\n- \u00bfCu\u00e1ntas veces es necesario autenticar tu sesi\u00f3n de chat con un amigo en particular?\r\n- \u00bfEs posible registrar y utilizar simult\u00e1neamente m\u00faltiples cuentas de **MI** en **Pidgin**? \r\n- \u00bfQu\u00e9 es una huella digital en **Pidgin**? \r\n- \u00bfQu\u00e9 ocurrir\u00e1 a tus preferencias **OTR** (incluidas las huellas digitales de las llaves recibidas) cuando instalas  **Pidgin- OTR** en otra computadora?\r\n- \u00bfQu\u00e9 se requiere para iniciar una sesi\u00f3n de chat privada y autenticada en  **Pidgin**?\r\n- \u00bfCu\u00e1les son los requisitos para crear una cuenta en **Pidgin**?"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2044", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2044", 
+                "link_title": "\u5e38\u89c1\u95ee\u9898\u4e0e\u56de\u987e", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5190", 
+                "module": "book", 
+                "nid": "2044", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5185", 
+                "p3": "5190", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5185", 
+                "router_path": "node/%", 
+                "title": "\u5e38\u89c1\u95ee\u9898\u4e0e\u56de\u987e", 
+                "updated": "0", 
+                "weight": "5"
+            }, 
+            "changed": "1445443634", 
+            "comment": "0", 
+            "created": "1441121080", 
+            "current_revision_id": "9567", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "pidgin_preguntas", 
+                        "value": "pidgin_preguntas"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5190": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2044", 
+                    "link_title": "\u5e38\u89c1\u95ee\u9898\u4e0e\u56de\u987e", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5190", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5185", 
+                    "p3": "5190", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5185", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "5"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2044", 
+            "num_revisions": "16", 
+            "path": "https://securityinabox.org/en/pidgin_faq", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1445443634", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Preguntas frecuentes (FAQs) y Revisi\u00f3n", 
+                        "value": "Preguntas frecuentes (FAQs) y Revisi\u00f3n"
+                    }
+                ]
+            }, 
+            "title_original": "FAQ and Review", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442932573", 
+                        "created": "1442932573", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442398982", 
+                        "created": "1442398982", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442498320", 
+                        "created": "1442498206", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441631023", 
+                        "created": "1441631023", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442846033", 
+                        "created": "1442846033", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444660387", 
+                        "created": "1444660387", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "my": {
+                        "changed": "1443621539", 
+                        "created": "1443621313", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279508", 
+                        "created": "1441279508", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444180348", 
+                        "created": "1444180348", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021422", 
+                        "created": "1443021422", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833806", 
+                        "created": "1444729037", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441121080", 
+                        "created": "1441121080", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445443634", 
+                        "created": "1445443634", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "b56146e9-222e-4d0e-bbe7-e54e3b5108e6", 
+            "vid": "9567", 
+            "vuuid": "0f186a67-013a-4d7f-bf11-18903ee3a07f"
+        }
+    ], 
+    "changed": "1456154132", 
+    "comment": "0", 
+    "created": "1441120644", 
+    "current_revision_id": "13324", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "es": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "es": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Para instalar Pidgin y OTR</strong></p>\n\n<ul><li><em>Lee la breve <strong>introducci\u00f3n</strong> de las <a href=\"/es/guiaspracticas\"><strong>Gu\u00edas Pr\u00e1cticas</strong></a>.</em></li>\n<li><em><strong>Pulsa</strong> sobre el \u00edcono de **\nPidgin y OTR** ubicado abajo para guardar y ejecutar el programa de instalaci\u00f3n.</em></li>\n<li><em>Lee la siguiente secci\u00f3n antes de continuar.</em></li>\n<li><em>Despu\u00e9s de haber instalado **\nPidgin with OTR** exitosamente, puedes eliminar el archivo de instalaci\u00f3n de tu computadora.</em></li>\n</ul><p><strong>Pidgin</strong>:  <strong>OTR</strong>:</p>\n\n<p><a href=\"/sbox/programs/pidgin.exe\"><img src=\"/sites/securityinabox.org/files/u12/pidgin.png\" alt=\"\" /></a>\n<a href=\"/sbox/programs/pidgin-otr.exe\"><img src=\"/sites/securityinabox.org/files/u9/off_the_record.jpg\" alt=\"\" /></a></p>\n", 
+                "value": "**Para instalar Pidgin y OTR**\r\n\r\n- *Lee la breve **introducci\u00f3n** de las [**Gu\u00edas Pr\u00e1cticas**](/es/guiaspracticas).*\r\n- ***Pulsa** sobre el \u00edcono de **\r\nPidgin y OTR** ubicado abajo para guardar y ejecutar el programa de instalaci\u00f3n.*\r\n- *Lee la siguiente secci\u00f3n antes de continuar.*\r\n- *Despu\u00e9s de haber instalado **\r\nPidgin with OTR** exitosamente, puedes eliminar el archivo de instalaci\u00f3n de tu computadora.*\r\n\r\n**Pidgin**:  **OTR**:  \r\n\r\n[![](/sites/securityinabox.org/files/u12/pidgin.png)](/sbox/programs/pidgin.exe)\r\n[![](/sites/securityinabox.org/files/u9/off_the_record.jpg)](/sbox/programs/pidgin-otr.exe)"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "es": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Instalar Pidgin y OTR</strong></p>\n\n<ul><li><em>Lee la breve introducci\u00f3n de las <a href=\"/es/handsonguides\"><strong>Gu\u00edas pr\u00e1cticas</strong></a></em></li>\n<li><strong>Haz clic</strong> en el icono de <strong>Pidgin</strong> m\u00e1s abajo para abrir la p\u00e1gina <strong>www.pidgin.im/download/windows</strong></li>\n<li><strong>Haz clic</strong> en el enlace <strong>Download Pidgin for Windows (Descargar Pidgin para Windows)</strong> </li>\n<li><strong>Guarda</strong> el archivo de instalaci\u00f3n, luego <strong>ub\u00edcalo</strong> y haz <strong>doble clic</strong> en \u00e9l</li>\n<li><strong>Haz clic</strong> en el icono de <strong>OTR</strong> que aparece abajo para abrir la p\u00e1gina <strong>https://otr.cypherpunks.ca/index.php#downloads</strong></li>\n<li><strong>Haz clic</strong> en el enlace <strong>Win32 installer for pidgin 2.x (instalador de Win32 para Pidgin 2.x)</strong> en la secci\u00f3n <strong>OTR plugin for Pidgin (plugin OTR para Pidgin)</strong></li>\n<li><em><strong>Guarda</strong> el instalador, luego <strong>ub\u00edcalo</strong> y <strong>haz doble clic</strong> en \u00e9l</em></li>\n<li><em>Tras haber instalado con \u00e9xito <strong>Pidgin</strong> y <strong>OTR</strong> puedes eliminar los archivos de instalaci\u00f3n de tu computadora.</em></li>\n</ul><p><strong>Pidgin</strong>:  <strong>OTR</strong>:<br /><a href=\"http://www.pidgin.im/download/windows/\"><img src=\"/sites/security.ngoinabox.org/files/u12/pidgin.png\" alt=\"\" /></a>\n<a href=\"https://otr.cypherpunks.ca/index.php#downloads\"><img src=\"/sites/security.ngoinabox.org/files/u9/off_the_record.jpg\" alt=\"\" /></a></p>\n", 
+                "value": "**Instalar Pidgin y OTR**\r\n\r\n- *Lee la breve introducci\u00f3n de las [**Gu\u00edas pr\u00e1cticas**](/es/handsonguides)*\r\n- **Haz clic** en el icono de **Pidgin** m\u00e1s abajo para abrir la p\u00e1gina **www.pidgin.im/download/windows**\r\n- **Haz clic** en el enlace **Download Pidgin for Windows (Descargar Pidgin para Windows)** \r\n- **Guarda** el archivo de instalaci\u00f3n, luego **ub\u00edcalo** y haz **doble clic** en \u00e9l\r\n- **Haz clic** en el icono de **OTR** que aparece abajo para abrir la p\u00e1gina **https://otr.cypherpunks.ca/index.php#downloads**\r\n- **Haz clic** en el enlace **Win32 installer for pidgin 2.x (instalador de Win32 para Pidgin 2.x)** en la secci\u00f3n **OTR plugin for Pidgin (plugin OTR para Pidgin)**\r\n- ***Guarda** el instalador, luego **ub\u00edcalo** y **haz doble clic** en \u00e9l*\r\n- *Tras haber instalado con \u00e9xito **Pidgin** y **OTR** puedes eliminar los archivos de instalaci\u00f3n de tu computadora.*\r\n\r\n**Pidgin**:  **OTR**:  \r\n[![](/sites/security.ngoinabox.org/files/u12/pidgin.png)](http://www.pidgin.im/download/windows/)\r\n[![](/sites/security.ngoinabox.org/files/u9/off_the_record.jpg)](https://otr.cypherpunks.ca/index.php#downloads)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "Pidgin with OTR - secure instant messagi", 
+                "value": "Pidgin with OTR - secure instant messagi"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "Pidgin + OTR - mensajer\u00eda instant\u00e1nea segura", 
+                "value": "Pidgin + OTR - mensajer\u00eda instant\u00e1nea segura"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "es": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Pidgin</strong> es un cliente de c\u00f3digo abierto gratuito que te permite organizar y administrar tus distintas cuentas de <strong>Mensajer\u00eda instant\u00e1nea</strong> (<strong>MI</strong>) utilizando una \u00fanica interfaz. El complemento (plugin) <strong>Off-the-Record (Fuera de registro)</strong> (<strong>OTR</strong>), dise\u00f1ado para ser utilizado con <strong>Pidgin</strong>, garantiza que las comunicaciones entre los usuarios de <strong>Pidgin</strong> son autenticadas y seguras.</p>\n", 
+                "value": "**Pidgin** es un cliente de c\u00f3digo abierto gratuito que te permite organizar y administrar tus distintas cuentas de **Mensajer\u00eda instant\u00e1nea** (**MI**) utilizando una \u00fanica interfaz. El complemento (plugin) **Off-the-Record (Fuera de registro)** (**OTR**), dise\u00f1ado para ser utilizado con **Pidgin**, garantiza que las comunicaciones entre los usuarios de **Pidgin** son autenticadas y seguras."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-12 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "pidgin_principal", 
+                "value": "pidgin_principal"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "11"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "11"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5185": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2039", 
+            "link_title": "Pidgin with OTR - Secure Instant Messaging", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5185", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5185", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-5"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2039", 
+    "num_revisions": "29", 
+    "path": "https://securityinabox.org/en/pidgin_main", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1456154132", 
+    "revision_uid": "479", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "Pidgin + OTR - mensajer\u00eda instant\u00e1nea segura", 
+                "value": "Pidgin + OTR - mensajer\u00eda instant\u00e1nea segura"
+            }
+        ]
+    }, 
+    "title_original": "Pidgin with OTR - Secure Instant Messaging", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442932160", 
+                "created": "1442932160", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1456154132", 
+                "created": "1442396294", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442497769", 
+                "created": "1442497769", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1452519946", 
+                "created": "1441625289", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fr": {
+                "changed": "1442845681", 
+                "created": "1442845681", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1444659916", 
+                "created": "1444659916", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "km": {
+                "changed": "1452871743", 
+                "created": "1452871743", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443620905", 
+                "created": "1443620905", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441278398", 
+                "created": "1441278398", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444178998", 
+                "created": "1444178998", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1443016048", 
+                "created": "1443016048", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1443525344", 
+                "created": "1443525344", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1446134667", 
+                "created": "1441120644", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2039", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445443378", 
+                "created": "1445443378", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "231488d5-7ec3-4270-82ef-e14aef62ca93", 
+    "vid": "13324", 
+    "vuuid": "98a5c848-cb58-48b4-a2da-b828dfa3c12a"
+}

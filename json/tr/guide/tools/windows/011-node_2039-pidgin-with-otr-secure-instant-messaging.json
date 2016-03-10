@@ -1,0 +1,1563 @@
+{
+    "body": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Ana Sayfa</strong></p>\n\n<ul><li><strong>Pidgin</strong>: <a href=\"http://www.pidgin.im\"><strong>www.pidgin.im</strong></a></li>\n<li><strong>OTR</strong>: <a href=\"https://otr.cypherpunks.ca/\"><strong>https://otr.cypherpunks.ca/</strong></a></li>\n</ul><p><strong>Bilgisayar Gereksinimleri</strong></p>\n\n<ul><li>\u0130nternet ba\u011flant\u0131s\u0131</li>\n<li>B\u00fct\u00fcn Windows s\u00fcr\u00fcmleri</li>\n</ul><p><strong>Bu rehberde kullan\u0131lan s\u00fcr\u00fcmler</strong></p>\n\n<ul><li>Pidgin 2.10.9 </li>\n<li>OTR 4.0.0-1 </li>\n</ul><p><strong>Bu b\u00f6l\u00fcm\u00fcn son g\u00fcncellenme tarihi</strong></p>\n\n<ul><li>A\u011fustos 2014</li>\n</ul><p><strong>Lisans</strong>:</p>\n\n<ul><li>\u00dccretsiz ve A\u00e7\u0131k-Kaynak Yaz\u0131l\u0131m</li>\n</ul><p><strong>Gerekli Okuma</strong></p>\n\n<p>Nas\u0131l Yapmal\u0131 Kitap\u00e7\u0131\u011f\u0131n\u0131n <a href=\"/tr/chapter-7\">7. B\u00f6l\u00fcm\u00fc, \u0130nternet \u0130leti\u015fiminizin Gizlili\u011fi Nas\u0131l Korunur</a></p>\n\n<p><strong>Buradan sa\u011flayaca\u011f\u0131n\u0131z faydalar</strong>:</p>\n\n<ul><li>En pop\u00fcler anl\u0131k mesajla\u015fma servislerinden baz\u0131lar\u0131n\u0131 tek bir program ile organize edip y\u00f6netebilme olana\u011f\u0131</li>\n<li>\u00d6zel ve kimlik denetimli sohbet edebilme olana\u011f\u0131</li>\n</ul><p><strong>GNU Linux, Mac ve Microsoft Windows\u2019a Uyumlu Di\u011fer Programlar</strong></p>\n\n<p><strong>Not:</strong> <strong>Pidgin\u2019e</strong> alternatif olarak <a href=\"/en/jitsi\"><strong>Jitsi\u2019yi</strong></a> \u00f6neriyoruz. <strong>Jitsi\u2019yi</strong> g\u00fcvenli metin bazl\u0131 sohbetlerin yan\u0131nda (ki bunu <strong>Jitsi</strong> \u00fczerinden <strong>Pidgin</strong> kullan\u0131c\u0131lar\u0131yla da yapabilirsiniz), di\u011fer <strong>Jitsi</strong> kullan\u0131c\u0131lar\u0131yla g\u00fcvenli ses ve video ileti\u015fimleri kurmak i\u00e7in kullanabilirsiniz. <strong>Jitsi</strong> <strong>Microsoft Windows</strong>, <strong>GNU/Linux</strong>, <strong>Mac OS</strong> ve di\u011fer i\u015fletim sistemleri i\u00e7in kullan\u0131ma a\u00e7\u0131kt\u0131r.</p>\n\n<p>Hem <strong>Pidgin</strong> hem de <strong>OTR</strong>; <strong>Microsoft Windows</strong> ve <strong>GNU/Linux</strong> i\u00e7in kullan\u0131ma a\u00e7\u0131kt\u0131r. <strong>OTR\u2019yi</strong> destekleyen <strong>Microsoft Windows</strong> i\u00e7in bir di\u011fer anl\u0131k mesajla\u015fla program\u0131 da <a href=\"http://www.miranda-im.org/\"><strong>Miranda IM\u2019dir</strong></a>. <strong>Mac OS</strong> i\u00e7in <strong>OTR</strong> eklentisini destekleyen cok protokoll\u00fc <a href=\"http://adium.im/\">Adium\u2019u</a> kullanabilirsiniz.</p>\n\n<h2>1.1 Ba\u015flamadan \u00f6nce bu ara\u00e7 hakk\u0131nda bilmeniz gerekenler</h2>\n\n<p><strong>Pidgin\u2019i</strong> kullanmaya ba\u015flamadan \u00f6nce bir <strong>anl\u0131k mesajla\u015fma</strong> hesab\u0131n\u0131z olmal\u0131, ancak bundan sonra o hesab\u0131 <strong>Pidgin\u2019e</strong> kaydedebilirsiniz. \u00d6rnek olarak, bir <strong>Google</strong> hesab\u0131n\u0131z varsa, onlar\u0131n <strong>anl\u0131k mesajla\u015fma</strong> servisi <strong>GoogleTalk\u2019\u0131</strong> <strong>Pidgin</strong> ile kullanabilirsiniz. Varolan <strong>anl\u0131k mesajla\u015fma</strong> hesab\u0131n\u0131z\u0131n giri\u015f detaylar\u0131 hesab\u0131n\u0131za <strong>Pidgin</strong> arac\u0131l\u0131\u011f\u0131yla ula\u015fabilmek i\u00e7in kullan\u0131l\u0131r.</p>\n\n<p><strong>Not:</strong> B\u00fct\u00fcn kullan\u0131c\u0131lar <strong>Anl\u0131k Mesajla\u015fma hesab\u0131 sa\u011flay\u0131c\u0131lar\u0131n\u0131n</strong> gizlilik ve g\u00fcvenlik politikalar\u0131 hakk\u0131nda m\u00fcmk\u00fcn oldu\u011funca bilgi edinmeye te\u015fvik edilir.</p>\n\n<p><strong>Pidgin</strong> \u015fu <strong>anl\u0131k mesajla\u015fma</strong> servislerini destekler: <a href=\"http://dashboard.aim.com/aim\"><strong>AIM</strong></a>, <a href=\"http://www.apple.com/support/bonjour/\"><strong>Bonjour</strong></a>, <a href=\"http://komunikator.gadu-gadu.pl/\"><strong>Gadu-Gadu</strong></a>, <a href=\"http://www.google.com/talk/\"><strong>Google Talk</strong></a>, <strong>Groupwise</strong>, <a href=\"http://www.icq.com\"><strong>ICQ</strong></a>, <strong>IRC</strong>, <a href=\"http://www.msn.com/\"><strong>MSN</strong></a>, <a href=\"http://www.mxit.com/\"><strong>MXit</strong></a>, <a href=\"http://www.myspace.com/guide/im\"><strong>MySpaceIM</strong></a>, <a href=\"http://silcnet.org/\"><strong>SILC</strong></a>, <strong>SIMPLE</strong>, <a href=\"http://www.ibm.com/developerworks/downloads/ls/lst/\"><strong>Sametime</strong></a>, <a href=\"http://messenger.yahoo.com/\"><strong>Yahoo!</strong></a>, <strong>Zephyr</strong> ve <strong>XMPP</strong> mesajla\u015fma protokol\u00fcn\u00fc takip eden b\u00fct\u00fcn <strong>anl\u0131k mesajla\u015fma</strong> istemcileri.</p>\n\n<p><strong>Pidgin</strong> de\u011fi\u015fik <strong>anl\u0131k mesajla\u015fma</strong> servisleri aras\u0131nda ileti\u015fime izin vermez.  \u00d6rnek olarak siz <strong>Pidgin\u2019i</strong> <strong>GoogleTalk</strong> hesab\u0131n\u0131za ula\u015fmak i\u00e7in kullan\u0131yorsan\u0131z, <strong>ICQ</strong> hesab\u0131n\u0131 kullanan bir arkada\u015f\u0131n\u0131zla sohbet etmeniz m\u00fcmk\u00fcn de\u011fildir.</p>\n\n<p>Yine de, <strong>Pidgin</strong> destekledi\u011fi b\u00fct\u00fcn mesajla\u015fma protolleri \u00fcst\u00fcnden \u00e7al\u0131\u015fan hesaplar\u0131n\u0131z\u0131n hepsini birden y\u00f6netmeniz i\u00e7in yap\u0131land\u0131r\u0131labilir. B\u00f6ylece, hem <strong>Gmail</strong> hem de <strong>ICQ</strong> hesab\u0131n\u0131z\u0131 ayn\u0131 anda kullanabilir, ve arkada\u015flar\u0131n\u0131zla bunlardan <strong>biri</strong> arac\u0131l\u0131\u011f\u0131yla (\u00e7\u00fcnk\u00fc ikisi de <strong>Pidgin</strong> taraf\u0131ndan desteklenir) sohbet edebilirsiniz.</p>\n\n<p><strong>Off-the Record</strong> (<strong>OTR</strong>) mesajla\u015fma \u00f6zellikle <strong>Pidgin</strong> i\u00e7in geli\u015ftirilmi\u015f bir eklentidir. A\u015fa\u011f\u0131daki gizlilik ve g\u00fcvenlik \u00f6zelliklerini kullan\u0131m\u0131n\u0131za sunar:</p>\n\n<ul><li><strong>Kimlik Denetleme</strong>: \u0130rtibatta oldu\u011funuz kimsenin kimli\u011finden hep emin olursunuz.</li>\n<li><strong>\u0130nkar Edebilme</strong>: Sohbet oturumu bittikten sonra, mesajlar\u0131n\u0131z\u0131n sizden ya da irtibatta bulundu\u011funuz ki\u015fiden kaynakland\u0131\u011f\u0131 g\u00f6sterilemez.</li>\n<li><strong>\u015eifreleme</strong>: Sizden ba\u015fka kimse anl\u0131k mesajlar\u0131n\u0131za ula\u015famaz ya da onlar\u0131 okuyamaz.</li>\n<li><strong>M\u00fckemmel \u0130leri Y\u00f6nlendirme G\u00fcvenli\u011fi</strong>: \u00dc\u00e7\u00fcnc\u00fc \u015fah\u0131slar \u00f6zel anahtarlar\u0131n\u0131z\u0131 ele ge\u00e7irecek dahi olsa, eski sohbetlerinizden hi\u00e7biri tehlike alt\u0131nda de\u011fildir.</li>\n</ul><p><strong>Not</strong>: <strong>OTR</strong> eklentisinden \u00f6nce <strong>Pidgin</strong> indirilmelidir.</p>\n", 
+                "summary": "", 
+                "value": "**Ana Sayfa**\r\n\r\n- **Pidgin**: [**www.pidgin.im**](http://www.pidgin.im)\r\n- **OTR**: [**https://otr.cypherpunks.ca/**](https://otr.cypherpunks.ca/)\r\n\r\n**Bilgisayar Gereksinimleri**\r\n\r\n- \u0130nternet ba\u011flant\u0131s\u0131\r\n- B\u00fct\u00fcn Windows s\u00fcr\u00fcmleri\r\n\r\n**Bu rehberde kullan\u0131lan s\u00fcr\u00fcmler**\r\n\r\n- Pidgin 2.10.9 \r\n- OTR 4.0.0-1 \r\n\r\n**Bu b\u00f6l\u00fcm\u00fcn son g\u00fcncellenme tarihi**\r\n\r\n- A\u011fustos 2014\r\n\r\n**Lisans**: \r\n\r\n- \u00dccretsiz ve A\u00e7\u0131k-Kaynak Yaz\u0131l\u0131m\r\n\r\n**Gerekli Okuma**\r\n\r\nNas\u0131l Yapmal\u0131 Kitap\u00e7\u0131\u011f\u0131n\u0131n [7. B\u00f6l\u00fcm\u00fc, \u0130nternet \u0130leti\u015fiminizin Gizlili\u011fi Nas\u0131l Korunur](/tr/chapter-7) \r\n\r\n**Buradan sa\u011flayaca\u011f\u0131n\u0131z faydalar**: \r\n\r\n- En pop\u00fcler anl\u0131k mesajla\u015fma servislerinden baz\u0131lar\u0131n\u0131 tek bir program ile organize edip y\u00f6netebilme olana\u011f\u0131\r\n- \u00d6zel ve kimlik denetimli sohbet edebilme olana\u011f\u0131\r\n\r\n**GNU Linux, Mac ve Microsoft Windows\u2019a Uyumlu Di\u011fer Programlar**\r\n\r\n**Not:** **Pidgin\u2019e** alternatif olarak [**Jitsi\u2019yi**](/en/jitsi) \u00f6neriyoruz. **Jitsi\u2019yi** g\u00fcvenli metin bazl\u0131 sohbetlerin yan\u0131nda (ki bunu **Jitsi** \u00fczerinden **Pidgin** kullan\u0131c\u0131lar\u0131yla da yapabilirsiniz), di\u011fer **Jitsi** kullan\u0131c\u0131lar\u0131yla g\u00fcvenli ses ve video ileti\u015fimleri kurmak i\u00e7in kullanabilirsiniz. **Jitsi** **Microsoft Windows**, **GNU/Linux**, **Mac OS** ve di\u011fer i\u015fletim sistemleri i\u00e7in kullan\u0131ma a\u00e7\u0131kt\u0131r.\r\n\r\nHem **Pidgin** hem de **OTR**; **Microsoft Windows** ve **GNU/Linux** i\u00e7in kullan\u0131ma a\u00e7\u0131kt\u0131r. **OTR\u2019yi** destekleyen **Microsoft Windows** i\u00e7in bir di\u011fer anl\u0131k mesajla\u015fla program\u0131 da [**Miranda IM\u2019dir**](http://www.miranda-im.org/). **Mac OS** i\u00e7in **OTR** eklentisini destekleyen cok protokoll\u00fc [Adium\u2019u](http://adium.im/) kullanabilirsiniz.\r\n\r\n## 1.1 Ba\u015flamadan \u00f6nce bu ara\u00e7 hakk\u0131nda bilmeniz gerekenler ##\r\n\r\n**Pidgin\u2019i** kullanmaya ba\u015flamadan \u00f6nce bir **anl\u0131k mesajla\u015fma** hesab\u0131n\u0131z olmal\u0131, ancak bundan sonra o hesab\u0131 **Pidgin\u2019e** kaydedebilirsiniz. \u00d6rnek olarak, bir **Google** hesab\u0131n\u0131z varsa, onlar\u0131n **anl\u0131k mesajla\u015fma** servisi **GoogleTalk\u2019\u0131** **Pidgin** ile kullanabilirsiniz. Varolan **anl\u0131k mesajla\u015fma** hesab\u0131n\u0131z\u0131n giri\u015f detaylar\u0131 hesab\u0131n\u0131za **Pidgin** arac\u0131l\u0131\u011f\u0131yla ula\u015fabilmek i\u00e7in kullan\u0131l\u0131r.\r\n\r\n**Not:** B\u00fct\u00fcn kullan\u0131c\u0131lar **Anl\u0131k Mesajla\u015fma hesab\u0131 sa\u011flay\u0131c\u0131lar\u0131n\u0131n** gizlilik ve g\u00fcvenlik politikalar\u0131 hakk\u0131nda m\u00fcmk\u00fcn oldu\u011funca bilgi edinmeye te\u015fvik edilir. \r\n\r\n**Pidgin** \u015fu **anl\u0131k mesajla\u015fma** servislerini destekler: [**AIM**](http://dashboard.aim.com/aim), [**Bonjour**](http://www.apple.com/support/bonjour/), [**Gadu-Gadu**](http://komunikator.gadu-gadu.pl/), [**Google Talk**](http://www.google.com/talk/), **Groupwise**, [**ICQ**](http://www.icq.com), **IRC**, [**MSN**](http://www.msn.com/), [**MXit**](http://www.mxit.com/), [**MySpaceIM**](http://www.myspace.com/guide/im), [**SILC**](http://silcnet.org/), **SIMPLE**, [**Sametime**](http://www.ibm.com/developerworks/downloads/ls/lst/), [**Yahoo!**](http://messenger.yahoo.com/), **Zephyr** ve **XMPP** mesajla\u015fma protokol\u00fcn\u00fc takip eden b\u00fct\u00fcn **anl\u0131k mesajla\u015fma** istemcileri.\r\n\r\n**Pidgin** de\u011fi\u015fik **anl\u0131k mesajla\u015fma** servisleri aras\u0131nda ileti\u015fime izin vermez.  \u00d6rnek olarak siz **Pidgin\u2019i** **GoogleTalk** hesab\u0131n\u0131za ula\u015fmak i\u00e7in kullan\u0131yorsan\u0131z, **ICQ** hesab\u0131n\u0131 kullanan bir arkada\u015f\u0131n\u0131zla sohbet etmeniz m\u00fcmk\u00fcn de\u011fildir.\r\n\r\nYine de, **Pidgin** destekledi\u011fi b\u00fct\u00fcn mesajla\u015fma protolleri \u00fcst\u00fcnden \u00e7al\u0131\u015fan hesaplar\u0131n\u0131z\u0131n hepsini birden y\u00f6netmeniz i\u00e7in yap\u0131land\u0131r\u0131labilir. B\u00f6ylece, hem **Gmail** hem de **ICQ** hesab\u0131n\u0131z\u0131 ayn\u0131 anda kullanabilir, ve arkada\u015flar\u0131n\u0131zla bunlardan **biri** arac\u0131l\u0131\u011f\u0131yla (\u00e7\u00fcnk\u00fc ikisi de **Pidgin** taraf\u0131ndan desteklenir) sohbet edebilirsiniz. \r\n\r\n**Off-the Record** (**OTR**) mesajla\u015fma \u00f6zellikle **Pidgin** i\u00e7in geli\u015ftirilmi\u015f bir eklentidir. A\u015fa\u011f\u0131daki gizlilik ve g\u00fcvenlik \u00f6zelliklerini kullan\u0131m\u0131n\u0131za sunar: \r\n\r\n- **Kimlik Denetleme**: \u0130rtibatta oldu\u011funuz kimsenin kimli\u011finden hep emin olursunuz.\r\n- **\u0130nkar Edebilme**: Sohbet oturumu bittikten sonra, mesajlar\u0131n\u0131z\u0131n sizden ya da irtibatta bulundu\u011funuz ki\u015fiden kaynakland\u0131\u011f\u0131 g\u00f6sterilemez.\r\n- **\u015eifreleme**: Sizden ba\u015fka kimse anl\u0131k mesajlar\u0131n\u0131za ula\u015famaz ya da onlar\u0131 okuyamaz.\r\n- **M\u00fckemmel \u0130leri Y\u00f6nlendirme G\u00fcvenli\u011fi**: \u00dc\u00e7\u00fcnc\u00fc \u015fah\u0131slar \u00f6zel anahtarlar\u0131n\u0131z\u0131 ele ge\u00e7irecek dahi olsa, eski sohbetlerinizden hi\u00e7biri tehlike alt\u0131nda de\u011fildir.\r\n\r\n**Not**: **OTR** eklentisinden \u00f6nce **Pidgin** indirilmelidir."
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2039", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2039", 
+        "link_title": "Pidgin with OTR - Secure Instant Messaging", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5185", 
+        "module": "book", 
+        "nid": "2039", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5185", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "Pidgin with OTR - Secure Instant Messaging", 
+        "updated": "0", 
+        "weight": "-5"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bu sayfadaki k\u0131s\u0131mlar\u0131n listesi:</p>\n\n<ul><li><a href=\"#2.0\"><strong>2.0 Pidgin Hakk\u0131nda</strong></a></li>\n<li><a href=\"#2.0\"><strong>2.1 Pidgin Nas\u0131l Kurulur?</strong></a></li>\n<li><a href=\"#2.2\"><strong>2.2 Off-The-Record (O) Eklentisi Nas\u0131l Kurulur?</strong></a></li>\n<li><a href=\"#2.3\"><strong>2.3 Pidginde Hesap Kayd\u0131 ve Kurulumunu \u0130\u015flemine Genel bir Bak\u0131\u015f</strong></a></li>\n<li><a href=\"#2.4\"><strong>2.4 Anl\u0131k Mesajla\u015fma Hesab\u0131n\u0131z Pidgin\u2019e Nas\u0131l Kaydedilir?</strong></a></li>\n<li><a href=\"#2.5\"><strong>2.5 Pidgin\u2019de Arkada\u015flar Nas\u0131l Eklenir?</strong></a></li>\n<li><a href=\"#2.6\"><strong>2.6 Pidgin\u2019de Anl\u0131k Mesajla\u015fma Penceresi Nas\u0131l A\u00e7\u0131l\u0131r?</strong></a></li>\n<li><a href=\"#2.7\"><strong>2.7 Pidgin\u2019de bir Hesap Nas\u0131l Yeniden Etkinle\u015ftirilir?</strong></a></li>\n</ul><p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>Pidgin Hakk\u0131nda</h2>\n\n<p>Hem <strong>Pidgin</strong> hem de onla ilintili otomatik \u015fifreleme ve kimlik denetimi eklentisi olan <strong>Off-the-Record'un</strong> (<strong>O</strong>) \u00e7al\u0131\u015fabilmesi i\u00e7in ikisinin de kurulmas\u0131 gereklidir. Neyse ki her iki program\u0131n da kurulum i\u015flemi basit ve h\u0131zl\u0131d\u0131r.</p>\n\n<p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1 Pidgin Nas\u0131l Kurulur?</h2>\n\n<p><strong>1. Ad\u0131m</strong>.  <img src=\"/sbox/screen/pidgin-tr/01.png\" alt=\"\" />\u2019ye <strong>\u00e7ift t\u0131klay\u0131n</strong>; <em>Dosyay\u0131 A\u00e7 \u2013 G\u00fcvenlik Uyar\u0131s\u0131</em> kutusu a\u00e7\u0131l\u0131rsa <img src=\"/sbox/screen/pidgin-tr/02.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> a\u015fa\u011f\u0131daki ekran\u0131 g\u00f6r\u00fcnt\u00fcleyin:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/03.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 1: Kurucu Dili onaylamas\u0131 kutusu</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/04.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> <em>Pidgin 2.10.9 Kurulum Sihirbaz\u0131na Ho\u015fgeldiniz</em> ekran\u0131n\u0131 a\u00e7\u0131n.</p>\n\n<p><strong>3. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/05.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> <em>Lisans Anla\u015fmas\u0131</em> ekran\u0131n\u0131 a\u00e7\u0131n; <em>Lisans Anla\u015fmas\u0131\u2019n\u0131</em> okuduktan sonra  <img src=\"/sbox/screen/pidgin-tr/05.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> <em>Pidgin 2.10.9 Kurulumu \u2013 Bile\u015fenleri Se\u00e7in</em> ekran\u0131n\u0131 a\u00e7\u0131n.</p>\n\n<p><strong>4. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/05.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> <em>Pidgin 2.10.9 Kurulumu \u2013 Kurulum Yerini Se\u00e7in</em> penceresini a\u00e7\u0131n.</p>\n\n<p><strong>5. Ad\u0131m</strong> <img src=\"/sbox/screen/pidgin-tr/06.png\" alt=\"\" />'\u0131 <strong>t\u0131klayarak</strong> verili kurulum dizinini kabul edin ve <strong>Pidgin</strong> yaz\u0131l\u0131m\u0131n\u0131 kurmak \u00fczere <em>Pidgin 2.10.9 Kurulumu \u2013 Kuruluyor</em> penceresini a\u00e7\u0131n.</p>\n\n<p><em>Bir miktar klas\u00f6r ve dosya s\u0131rayla h\u0131zl\u0131ca kurulacak; kurulum i\u015flemi bitince Pidgin 2.10.9 Kurulumu \u2013Kurulum Tamamland\u0131 penceresi belirecek.</em></p>\n\n<p><strong>6. Ad\u0131m.</strong><img src=\"/sbox/screen/pidgin-tr/05.png\" alt=\"\" />'i <strong>t\u0131klayarak</strong> <em>Pidgin 2.10.9 Kurulum Sihirbaz\u0131 Tamamlan\u0131yor\u2019u</em> g\u00f6r\u00fcn.</p>\n\n<p><strong>Not</strong>: Kurulum i\u015fleminin <strong>3. ad\u0131m\u0131nda</strong> <strong>Pidgin</strong> <strong>Ba\u015flang\u0131\u00e7&gt; Programlar</strong> listesinde bulunacak \u015fekilde yap\u0131land\u0131r\u0131ld\u0131, ve ileride buradan da ba\u015flat\u0131labilir.</p>\n\n<p><strong>7. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/08.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> <strong>Pidgin\u2019in</strong> kurulumunu tamamlay\u0131n.</p>\n\n<p><a name=\"2.2\" id=\"2.2\"></a></p>\n\n<h2>2.2 Off-The-Record (O) Eklentisi Nas\u0131l Kurulur?</h2>\n\n<p><strong>1. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/09.png\" alt=\"\" />\u2019ye <strong>\u00e7ift t\u0131klay\u0131n</strong>; <em>Dosyay\u0131 A\u00e7 \u2013 G\u00fcvenlik Uyar\u0131s\u0131</em> kutusu a\u00e7\u0131l\u0131rsa <img src=\"/sbox/screen/pidgin-tr/02.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> a\u015fa\u011f\u0131daki ekran\u0131 g\u00f6r\u00fcnt\u00fcleyin:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/10.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 2: Pidgin-o 4.0.0-1 Kurulum Sihirbaz\u0131na Ho\u015fgeldiniz ekran\u0131</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/05.png\" alt=\"\" />\u2019i t\u0131klayarak <em>Lisans Anla\u015fmas\u0131</em> ekran\u0131n\u0131 g\u00f6r\u00fcn; <em>Lisans Anla\u015fmas\u0131'n\u0131</em> okuduktan sonra <img src=\"/sbox/screen/pidgin-tr/11.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> <em>Pidgin-o 4.0.0-1 Kurulumu \u2013 Kurulum Yerini Se\u00e7in</em> ekran\u0131n\u0131 g\u00f6r\u00fcnt\u00fcleyin.</p>\n\n<p><strong>3. Ad\u0131m</strong>.  <img src=\"/sbox/screen/pidgin-tr/06.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> kurulum i\u015flemini ba\u015flat\u0131n.</p>\n\n<p><strong>4. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/08.png\" alt=\"\" />'\u0131 <strong>t\u0131klayarak</strong> <strong>Pidgin-O</strong> mesajla\u015fma yaz\u0131l\u0131m\u0131 eklentisinin kurulumunu tamamlay\u0131n.</p>\n\n<p><strong>Pidgin</strong> ve <strong>O\u2019nin</strong> kurulumunu tamamlad\u0131\u011f\u0131n\u0131zda ve <strong>Pidgin\u2019i</strong> <strong>Ba\u015flang\u0131\u00e7&gt;Programlar</strong> listesinden ba\u015flatt\u0131\u011f\u0131n\u0131zda, Windows g\u00f6rev \u00e7ubu\u011funda \u015fu ikon belirecek:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/12.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 3: Siyahla \u00e7er\u00e7evelenmi\u015f Pidgin-O ikonu</em></p>\n\n<p>Tebrikler! <strong>Pidgin</strong> ve <strong>O</strong> programlar\u0131n\u0131 kurmay\u0131 ba\u015far\u0131 ile tamamlad\u0131n\u0131z!</p>\n\n<p><a name=\"2.3\" id=\"2.3\"></a></p>\n\n<h2>2.3 Pidginde Hesap Kayd\u0131 ve Kurulumunu \u0130\u015flemine Genel bir Bak\u0131\u015f</h2>\n\n<p><strong>Pidgin\u2019de</strong> hesap kayd\u0131 ve kurulumu i\u015fleminde d\u00f6rt temel ad\u0131m vard\u0131r; varolan bir <strong>anl\u0131k mesajla\u015fma</strong> hesab\u0131n\u0131 <strong>Pidgin\u2019e</strong> kaydetme, bir <em>irtibat\u0131 ekleme</em>, irtibat\u0131n\u0131z\u0131n da ayn\u0131s\u0131n\u0131 yapmas\u0131n\u0131 sa\u011flama, ve son olarak ilk sohbet seans\u0131n\u0131z i\u00e7in sohbet penceresine ula\u015fma.</p>\n\n<p>Sohbet ya da <strong>anl\u0131k mesajla\u015fma</strong> oturumlar\u0131n\u0131n iki kat\u0131l\u0131mc\u0131 aras\u0131nda yer ald\u0131\u011f\u0131 i\u00e7in, buradaki \u00f6rnekler de\u011fi\u015fik formatlar\u0131n ya da pencerelerin <strong>her iki</strong> kat\u0131l\u0131mc\u0131ya (Salima ve Terence ad\u0131nda kurgusal karakterlerle temsil edilirler) hesap kayd\u0131 ve kurulumu i\u015flemi esnas\u0131nda nas\u0131l g\u00f6r\u00fcnece\u011fi belirtecek. B\u00fct\u00fcn \u00f6rnekler <strong>Riseup.Net</strong> anl\u0131k mesajla\u015fma servisine dayan\u0131r.</p>\n\n<p><strong>Not</strong>: <strong>Pidgin\u2019i</strong> kullanabilmeniz i\u00e7in, a\u015fa\u011f\u0131daki <em>\u015eekil 6\u2019da</em> listelenmi\u015f sa\u011flay\u0131c\u0131lardan bir tanesinden bir <strong>Anl\u0131k Mesajla\u015fma</strong> (<strong>IM</strong>) hesab\u0131n\u0131z\u0131n olmas\u0131 gerekir. Yeni bir <strong>anl\u0131k mesajla\u015fma</strong> hesab\u0131 kurmak isterseniz, <a href=\"https://help.riseup.net/en/chat\">XMPP ileti\u015fimi</a> i\u00e7in kullan\u0131labilecek olan <strong>Riseup.net</strong> e-posta hesab\u0131n\u0131 kullanman\u0131z\u0131 \u00f6neririz. L\u00fctfen <a href=\"/en/riseup_main\"><strong>Riseup \u2013 G\u00fcvenli Email Servisi</strong></a> b\u00f6l\u00fcm\u00fcne daha fazla bilgi ve <strong>Riseup</strong> e-posta hesab\u0131n\u0131 nas\u0131l kuraca\u011f\u0131n\u0131za dair y\u00f6nergeler i\u00e7in bak\u0131n. Ayn\u0131 zamanda <a href=\"//jitsi_account#2.2\">2.2. Jitside Hesaplar Nas\u0131l Eklenir?</a> k\u0131sm\u0131nda listelenmi\u015f <a href=\"https://jitsi.org/Register/Register\">Jit.si</a> ya da Google Hesab\u0131 gibi gibi XMPP hesab\u0131 sa\u011flay\u0131c\u0131lar\u0131n\u0131 da kullanabilirsiniz.</p>\n\n<p><a name=\"2.4\" id=\"2.4\"></a></p>\n\n<h2>2.4 Anl\u0131k Mesajla\u015fma Hesab\u0131n\u0131z Pidgin\u2019e Nas\u0131l Kaydedilir?</h2>\n\n<p><em>Anl\u0131k mesajla\u015fma</em> hesab\u0131n\u0131z\u0131 <em>Pidgin\u2019e</em> kaydetmek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/13.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> ya da <strong>Ba\u015flang\u0131\u00e7 &gt; Programlar &gt; Pidgin\u2019i</strong> se\u00e7erek <strong>Pidgin\u2019i</strong> a\u00e7\u0131n. <strong>Pidgin\u2019i</strong> ilk defa a\u00e7t\u0131\u011f\u0131n\u0131zda a\u015fa\u011f\u0131daki ekran belirir:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/14.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 4: Hesaplar\u0131 onaylama penceresi</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/15.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> a\u015fa\u011f\u0131daki gibi bo\u015f bir <em>Hesap Ekle</em> penceresi a\u00e7\u0131n:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/16.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 5: Temel, Geli\u015fmi\u015f ve Proxy sekmeleri g\u00f6r\u00fcnen Hesap Ekle ekran\u0131</em></p>\n\n<p><strong>3. Ad\u0131m</strong>. <em>Protokol</em> a\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r listesini t\u0131klayarak a\u015fa\u011f\u0131daki gibi <strong>Pidgin</strong> taraf\u0131ndan desteklenen <strong>anl\u0131k mesajla\u015fma</strong> servisi protokollerini g\u00f6r\u00fcn\u00fcz:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/17.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 6: Desteklenen anl\u0131k mesajla\u015fma protokollerini g\u00f6steren Hesap Ekle penceresi</em></p>\n\n<p><strong>4. Ad\u0131m</strong>. Uygun olan <strong>anl\u0131k mesajla\u015fma</strong> protokol\u00fcn\u00fc <strong>se\u00e7in</strong>.</p>\n\n<p><strong>Not</strong>: Her <strong>anl\u0131k mesajla\u015fma</strong> servisi sa\u011flay\u0131c\u0131s\u0131 i\u00e7in doldurman\u0131z gereken girdi kutucuklar\u0131 farkl\u0131 olacak. Fakat hepsi kesinlikle bir kullan\u0131c\u0131 ad\u0131 ve parola girmenizi isteyecek.</p>\n\n<p><strong>5. Ad\u0131m</strong>. <em>Kullan\u0131c\u0131 Ad\u0131</em> kutusuna e-posta adresinizi girin (mesela, <a href=\"mailto:terencethetester@riseup.net\"><strong>terencethetester@riseup.net</strong></a>).</p>\n\n<p><strong>6. Ad\u0131m</strong>. Bu hesapla ilgili olan parolan\u0131z\u0131 <em>Parola</em> kutusuna <strong>girin</strong>.</p>\n\n<p><strong>7. Ad\u0131m</strong>. <em>Yerel Takma \u0130sim</em> kutusuna diledi\u011finiz bir takma ismi <strong>girin</strong>. (Bu kutuyu doldurmak zorunlu de\u011fildir.)</p>\n\n<p><strong>\u00d6nemli</strong>: Gizlilik ve g\u00fcvenli\u011finizi olabildi\u011fince artt\u0131rabilmek i\u00e7in, <em>Parolay\u0131 hat\u0131rla</em> se\u00e7ene\u011fini <em>etkinle\u015ftirmeyin</em>. Bu haliyle, <strong>Pidgin</strong> \u00e7evrimi\u00e7i sohbetlere ne zaman ba\u011flanmak isterseniz sizi parolan\u0131z\u0131 girmeye davet edecek. B\u00f6ylece ba\u015fkalar\u0131n\u0131n bilgisayar\u0131n\u0131z\u0131n ba\u015f\u0131nda beklemedi\u011finiz anda <strong>Pidgin\u2019e</strong> sizin ad\u0131n\u0131za ba\u011flanmas\u0131n\u0131 engellemi\u015f olursunuz. Ayn\u0131 zamanda, sohbet oturumunuz bitti\u011finde Arkada\u015flar a\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r men\u00fcs\u00fcnden <em>\u00c7\u0131k\u2019\u0131</em> <strong>se\u00e7meyi</strong> unutmay\u0131n!</p>\n\n<p>Tamamlanm\u0131\u015f bir <em>Hesap Ekle</em> ekran\u0131 a\u015fa\u011f\u0131dakine benzer:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/18.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 7: Tamamlanm\u0131\u015f bir Hesap Ekle formu \u00f6rne\u011fi</em></p>\n\n<p><strong>8. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/19.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> hesab\u0131n\u0131z\u0131 eklemeyi tamamlay\u0131n ve ayn\u0131 anda g\u00fcncellenmi\u015f <em>Hesaplar</em> ve <em>Arkada\u015f Listesi</em> ekranlar\u0131n\u0131 a\u015fa\u011f\u0131dakiler gibi g\u00f6r\u00fcn:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/20.png\" alt=\"\" /><img src=\"/sbox/screen/pidgin-tr/21.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 8: G\u00fcncellenmi\u015f Hesaplar Penceresi</em>; <em>\u015eekil 9: Etkin moddaki Arkada\u015flar Listesi</em></p>\n\n<p>Bu ad\u0131mlar\u0131 tamamlad\u0131ktan sonra, art\u0131k <em>Pidgin</em> arkada\u015flar\u0131n\u0131z\u0131 eklemeye ve onlar\u0131n irtibat bilgilerini girmeye haz\u0131rs\u0131n\u0131z.</p>\n\n<p><a name=\"2.5\" id=\"2.5\"></a></p>\n\n<h2>2.5 Pidgin\u2019de Arkada\u015flar Nas\u0131l Eklenir?</h2>\n\n<p><strong>Pidgin\u2019de</strong> arkada\u015flar\u0131n\u0131z ya da irtibatlar\u0131n\u0131z\u0131 eklemek, onlar\u0131n irtibat detaylar\u0131n\u0131 eklemek ve kaydetmeyi i\u00e7erir. Takip eden \u00f6rnekte Terence Salima\u2019y\u0131 arkada\u015f\u0131 olarak ekliyor.</p>\n\n<p><strong>Pidgin\u2019de</strong> <strong>anl\u0131k mesajla\u015fma</strong> hesab\u0131n\u0131za bir arkada\u015f eklemek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <em>Arkada\u015flar\u2019\u0131</em> <strong>t\u0131klayarak</strong> ilgili men\u00fcy\u00fc a\u00e7\u0131n ve sonra <em>+ Arkada\u015f Ekle...\u2019yi</em> a\u015fa\u011f\u0131daki gibi <strong>se\u00e7in</strong>:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/22.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 10: \u2018Arkada\u015f Ekle...\u2019 \u00f6\u011fesi se\u00e7ilmi\u015f Arkada\u015f Listesi men\u00fcs\u00fc</em></p>\n\n<p>Bu a\u015fa\u011f\u0131daki ekran\u0131 a\u00e7acakt\u0131r:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/23.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 11: Arkada\u015f Ekle penceresi</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. Birden fazla hesab\u0131n\u0131z varsa, 'arkada\u015f\u0131n\u0131zla' ayn\u0131 mesajla\u015fma servisiyle alakal\u0131 olan hesab\u0131n\u0131z\u0131 <strong>se\u00e7in</strong>.</p>\n\n<p><strong>Not</strong>: Sizin ve arkada\u015f\u0131n\u0131z\u0131n <strong>ayn\u0131</strong> mesajla\u015fma servisini kullan\u0131yor olmas\u0131 <strong>gerekir</strong>, o <strong>Pidgin</strong> kullanm\u0131yor olsa bile. <strong>Google Talk</strong> hesab\u0131n\u0131za bir <strong>ICQ</strong> ya da <strong>MSN</strong> arkada\u015f\u0131 ekleyemezsiniz. Fakat bu desteklenen protokollere ba\u011fl\u0131 birden fazla hesab\u0131 <strong>Pidgin\u2019de</strong> kaydedip kullanabilirsiniz. B\u00f6ylece <strong>XMPP</strong> hesab\u0131n\u0131zla bir arkada\u015f\u0131n\u0131zla sohbet ederken bir di\u011feriyle <strong>ICQ</strong> ya da <strong>MSN</strong> hesab\u0131n\u0131z\u0131 kullanarak sohbet edebilirsiniz.</p>\n\n<p><strong>3. Ad\u0131m</strong>. <em>Kullan\u0131c\u0131 Ad\u0131</em> kutusuna arkada\u015f\u0131n\u0131z\u0131n e-posta adresini <strong>girin</strong>.</p>\n\n<p>Bir sonraki ad\u0131m zorunlu de\u011fildir.</p>\n\n<p><strong>4. Ad\u0131m</strong>. <em>Takma \u0130sim</em> kutusuna bir <em>takma isim</em> <strong>girin</strong> ve <em>Arkada\u015f Ekle</em> formunuz a\u015fa\u011f\u0131daki ekrana benzesin:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/24.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 12: Tamamlanm\u0131\u015f bir Arkada\u015f Ekle formu \u00f6rne\u011fi</em></p>\n\n<p><strong>5. Ad\u0131m</strong>.  <img src=\"/sbox/screen/pidgin-tr/19.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> arkada\u015f\u0131n\u0131z\u0131 ekleyin.</p>\n\n<p><strong>Not</strong>: Bu arkada\u015f\u0131n\u0131za talebinizin onay\u0131 ya da iznini isteyen bir mesaj yollayacak ve arkada\u015f\u0131n\u0131z\u0131n <em>Arkada\u015f Listesi\u2019nde</em> a\u015fa\u011f\u0131daki gibi belirecek:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/25.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 13: Salima\u2019n\u0131n Arkada\u015f Listesi\u2019nde g\u00f6r\u00fcnd\u00fc\u011f\u00fc \u00fczere arkada\u015f\u0131n\u0131 Onayla talebi</em></p>\n\n<p>Bu noktada, arkada\u015f\u0131n\u0131z \u015fu ad\u0131m\u0131 uygulamal\u0131:</p>\n\n<p><strong>6. Ad\u0131m</strong>:  <img src=\"/sbox/screen/pidgin-tr/26.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong>  bu ki\u015fiyi arkada\u015f\u0131n\u0131z olarak ekleyin ve a\u015fa\u011f\u0131daki gibi Arkada\u015f Listesi\u2019nde g\u00f6r\u00fcn:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/27.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 14: Salima\u2019y\u0131 arkada\u015f\u0131 olarak g\u00f6steren Terence\u2019in  Arkada\u015f Listesi</em></p>\n\n<p><strong>Not</strong>: Yukar\u0131daki \u00f6rnekte, Salima\u2019n\u0131n <em>Takma Ad\u0131</em> g\u00f6sterilmektedir, bu da kimlik korunmas\u0131n\u0131 bir kat daha g\u00fc\u00e7lendirir.</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/30.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 15: Terence\u2019in Salima\u2019y\u0131 yeni eklenmi\u015f arkada\u015f\u0131 olarak g\u00f6steren Arkada\u015f Listesi</em></p>\n\n<p><strong>Pidgin</strong> sohbet arkada\u015f\u0131n\u0131z\u0131 ekleyip, kimli\u011fini do\u011frulay\u0131p teyit ettikten s\u0131nra, onun da kendi hesab\u0131ndan sizin anl\u0131k mesajla\u015fma ileti\u015fim bilgilerini girmesi  <strong>1'den 6'ya</strong> kadarki ad\u0131mlar\u0131 takip etmesi gerekecek.</p>\n\n<p><a name=\"2.6\" id=\"2.6\"></a></p>\n\n<h2>2.6 Pidgin\u2019de Anl\u0131k Mesajla\u015fma Penceresi Nas\u0131l A\u00e7\u0131l\u0131r?</h2>\n\n<p><strong>Pidgin\u2019de</strong> bir <strong>anl\u0131k mesajla\u015fma</strong> penceresi a\u00e7mak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <em>Arkada\u015f listesinde</em> bir arkada\u015f\u0131n\u0131z\u0131n ad\u0131n\u0131 <strong>sa\u011f t\u0131klayarak</strong> yapabilece\u011finiz b\u00fct\u00fcn i\u015flemleri g\u00f6steren men\u00fcy\u00fc a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi a\u00e7\u0131n:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/31.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 16: Arkada\u015f \u0130\u015flemleri men\u00fcs\u00fc</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. A\u00e7\u0131lan men\u00fcde <em>Anl\u0131k Mesajla\u015fma\u2019y\u0131</em> <strong>se\u00e7erek</strong> tipik bir sohbet penceresini a\u015fa\u011f\u0131da g\u00f6sterildi\u011fi gibi a\u00e7\u0131n:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/32.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 17: Pidgin\u2019de tipik bir sohbet penceresi</em></p>\n\n<p>\u015eimdi arkada\u015f\u0131n\u0131zla <strong>Pidgin'i</strong> kullanarak sohbet etmeye nerdeyse haz\u0131rs\u0131n\u0131z. Ama \u00f6nce sohbet oturumunuzun \u00f6zel ve g\u00fcvenli oldu\u011fundan emin olmak i\u00e7in <strong>O</strong> \u015fifrelendirmesini yap\u0131land\u0131rman\u0131z gerek. Bunun i\u00e7in bir sonraki sayfaya bak\u0131n.</p>\n\n<p><a name=\"2.7\" id=\"2.7\"></a></p>\n\n<h2>2.7 Pidgin\u2019de bir Hesap Nas\u0131l Yeniden Etkinle\u015ftirilir?</h2>\n\n<p>Zaman zaman anl\u0131k mesajla\u015fma hesab\u0131n\u0131z\u0131n <strong>Pidgin\u2019de</strong> kendi kendine kapand\u0131\u011f\u0131n\u0131 fark edebilirsiniz; belki <strong>Pidgin</strong> program\u0131 internet ba\u011flant\u0131s\u0131n\u0131n kesilmesi nedeniyle uygun olmayan bir \u015fekilde kapand\u0131\u011f\u0131 i\u00e7in, ya da bilgisayar\u0131n\u0131z dondu\u011fu i\u00e7in. Neyse ki <strong>Pidgin</strong> hesab\u0131n\u0131z\u0131 tekrar etkinle\u015ftirmenin bir yolunu sunuyor. Bunun i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/13.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> ya da <strong>Ba\u015flang\u0131\u00e7 &gt; Pidgin\u2019i</strong> <strong>se\u00e7erek</strong>  <strong>Pidgin\u2019i</strong> a\u00e7\u0131n.</p>\n\n<p><strong>2. Ad\u0131m</strong>. <em>Hesaplar</em> men\u00fcs\u00fcn\u00fc <strong>a\u00e7\u0131n</strong> ve sonras\u0131nda a\u015fa\u011f\u0131da g\u00f6sterildi\u011fi gibi <em>Hesap Y\u00f6netimi</em> maddesini <strong>se\u00e7in</strong>:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/33.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 18: Hesap Y\u00f6netimi maddesi se\u00e7ilmi\u015f (boyutu de\u011fi\u015ftirilmi\u015f) Hesaplar men\u00fcs\u00fc</em></p>\n\n<p><em>Bu a\u015fa\u011f\u0131daki ekran\u0131 a\u00e7acak:</em></p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/34.png\" alt=\"\" /></p>\n\n<p><em>19. \u015eekil: Art\u0131k etkin olmayan bir hesab\u0131 g\u00f6steren Hesaplar penceresi (boyutu de\u011fi\u015ftirilmi\u015f)</em></p>\n\n<p><strong>3. Ad\u0131m</strong>. Hesab\u0131n\u0131z\u0131n yan\u0131ndaki kutuyu <strong>i\u015faretleyerek</strong> <strong>Pidgin</strong> parola sorgulamas\u0131n\u0131 a\u015fa\u011f\u0131daki gibi etkinle\u015ftirin:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/35.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 20: Pidgin parola sorgulama kutusu</em></p>\n\n<p><strong>4. Ad\u0131m</strong>. Parolan\u0131z\u0131 <strong>girin</strong> ve <strong>Pidgin</strong> parola sorgulama kutusu a\u015fa\u011f\u0131dakine benzesin:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/36.png\" alt=\"\" /></p>\n\n<p><em>21. \u015eekil: Parola kutusu doldurulmu\u015f Pidgin parola sorgulama kutusu</em></p>\n\n<p><strong>5. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/37.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong>  hesab\u0131n\u0131z\u0131 tekrar etkinle\u015ftirmeyi a\u015fa\u011f\u0131da g\u00f6r\u00fcld\u00fc\u011f\u00fc gibi sonland\u0131r\u0131n</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/38.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 22: Ba\u015far\u0131yla yeniden etkinle\u015ftirilmi\u015f bir hesap</em></p>\n\n<p><strong>6. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/39.png\" alt=\"\" />'u t\u0131klayarak <em>Hesaplar</em> penceresini kapat\u0131n.</p>\n", 
+                        "summary": "", 
+                        "value": "Bu sayfadaki k\u0131s\u0131mlar\u0131n listesi:\r\n\r\n- [**2.0 Pidgin Hakk\u0131nda**](#2.0)\r\n- [**2.1 Pidgin Nas\u0131l Kurulur?**](#2.0)\r\n- [**2.2 Off-The-Record (O) Eklentisi Nas\u0131l Kurulur?**](#2.2)\r\n- [**2.3 Pidginde Hesap Kayd\u0131 ve Kurulumunu \u0130\u015flemine Genel bir Bak\u0131\u015f**](#2.3)\r\n- [**2.4 Anl\u0131k Mesajla\u015fma Hesab\u0131n\u0131z Pidgin\u2019e Nas\u0131l Kaydedilir?**](#2.4)\r\n- [**2.5 Pidgin\u2019de Arkada\u015flar Nas\u0131l Eklenir?**](#2.5)\r\n- [**2.6 Pidgin\u2019de Anl\u0131k Mesajla\u015fma Penceresi Nas\u0131l A\u00e7\u0131l\u0131r?**](#2.6)\r\n- [**2.7 Pidgin\u2019de bir Hesap Nas\u0131l Yeniden Etkinle\u015ftirilir?**](#2.7)\r\n\r\n\r\n<a name=\"2.0\"></a>\r\n## Pidgin Hakk\u0131nda ##\r\nHem **Pidgin** hem de onla ilintili otomatik \u015fifreleme ve kimlik denetimi eklentisi olan **Off-the-Record'un** (**O**) \u00e7al\u0131\u015fabilmesi i\u00e7in ikisinin de kurulmas\u0131 gereklidir. Neyse ki her iki program\u0131n da kurulum i\u015flemi basit ve h\u0131zl\u0131d\u0131r.\r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1 Pidgin Nas\u0131l Kurulur? ##\r\n\r\n**1. Ad\u0131m**.  ![](/sbox/screen/pidgin-tr/01.png)\u2019ye **\u00e7ift t\u0131klay\u0131n**; *Dosyay\u0131 A\u00e7 \u2013 G\u00fcvenlik Uyar\u0131s\u0131* kutusu a\u00e7\u0131l\u0131rsa ![](/sbox/screen/pidgin-tr/02.png)\u2019\u0131 **t\u0131klayarak** a\u015fa\u011f\u0131daki ekran\u0131 g\u00f6r\u00fcnt\u00fcleyin:\r\n\r\n![](/sbox/screen/pidgin-tr/03.png) \r\n\r\n*\u015eekil 1: Kurucu Dili onaylamas\u0131 kutusu*\r\n\r\n**2. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/04.png)\u2019i **t\u0131klayarak** *Pidgin 2.10.9 Kurulum Sihirbaz\u0131na Ho\u015fgeldiniz* ekran\u0131n\u0131 a\u00e7\u0131n.\r\n\r\n**3. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/05.png)\u2019i **t\u0131klayarak** *Lisans Anla\u015fmas\u0131* ekran\u0131n\u0131 a\u00e7\u0131n; *Lisans Anla\u015fmas\u0131\u2019n\u0131* okuduktan sonra  ![](/sbox/screen/pidgin-tr/05.png)\u2019i **t\u0131klayarak** *Pidgin 2.10.9 Kurulumu \u2013 Bile\u015fenleri Se\u00e7in* ekran\u0131n\u0131 a\u00e7\u0131n.\r\n\r\n**4. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/05.png)\u2019i **t\u0131klayarak** *Pidgin 2.10.9 Kurulumu \u2013 Kurulum Yerini Se\u00e7in* penceresini a\u00e7\u0131n. \r\n\r\n**5. Ad\u0131m** ![](/sbox/screen/pidgin-tr/06.png)'\u0131 **t\u0131klayarak** verili kurulum dizinini kabul edin ve **Pidgin** yaz\u0131l\u0131m\u0131n\u0131 kurmak \u00fczere *Pidgin 2.10.9 Kurulumu \u2013 Kuruluyor* penceresini a\u00e7\u0131n.\r\n\r\n*Bir miktar klas\u00f6r ve dosya s\u0131rayla h\u0131zl\u0131ca kurulacak; kurulum i\u015flemi bitince Pidgin 2.10.9 Kurulumu \u2013Kurulum Tamamland\u0131 penceresi belirecek.*\r\n\r\n**6. Ad\u0131m.**![](/sbox/screen/pidgin-tr/05.png)'i **t\u0131klayarak** *Pidgin 2.10.9 Kurulum Sihirbaz\u0131 Tamamlan\u0131yor\u2019u* g\u00f6r\u00fcn.\r\n\r\n**Not**: Kurulum i\u015fleminin **3. ad\u0131m\u0131nda** **Pidgin** **Ba\u015flang\u0131\u00e7> Programlar** listesinde bulunacak \u015fekilde yap\u0131land\u0131r\u0131ld\u0131, ve ileride buradan da ba\u015flat\u0131labilir.\r\n\r\n**7. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/08.png)\u2019i **t\u0131klayarak** **Pidgin\u2019in** kurulumunu tamamlay\u0131n.\r\n\r\n<a name=\"2.2\"></a>\r\n## 2.2 Off-The-Record (O) Eklentisi Nas\u0131l Kurulur? ##\r\n\r\n**1. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/09.png)\u2019ye **\u00e7ift t\u0131klay\u0131n**; *Dosyay\u0131 A\u00e7 \u2013 G\u00fcvenlik Uyar\u0131s\u0131* kutusu a\u00e7\u0131l\u0131rsa ![](/sbox/screen/pidgin-tr/02.png)\u2019\u0131 **t\u0131klayarak** a\u015fa\u011f\u0131daki ekran\u0131 g\u00f6r\u00fcnt\u00fcleyin:\r\n\r\n![](/sbox/screen/pidgin-tr/10.png)\r\n\r\n*\u015eekil 2: Pidgin-o 4.0.0-1 Kurulum Sihirbaz\u0131na Ho\u015fgeldiniz ekran\u0131* \r\n\r\n**2. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/05.png)\u2019i t\u0131klayarak *Lisans Anla\u015fmas\u0131* ekran\u0131n\u0131 g\u00f6r\u00fcn; *Lisans Anla\u015fmas\u0131'n\u0131* okuduktan sonra ![](/sbox/screen/pidgin-tr/11.png)\u2019i **t\u0131klayarak** *Pidgin-o 4.0.0-1 Kurulumu \u2013 Kurulum Yerini Se\u00e7in* ekran\u0131n\u0131 g\u00f6r\u00fcnt\u00fcleyin.\r\n\r\n**3. Ad\u0131m**.  ![](/sbox/screen/pidgin-tr/06.png)\u2019\u0131 **t\u0131klayarak** kurulum i\u015flemini ba\u015flat\u0131n.\r\n\r\n**4. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/08.png)'\u0131 **t\u0131klayarak** **Pidgin-O** mesajla\u015fma yaz\u0131l\u0131m\u0131 eklentisinin kurulumunu tamamlay\u0131n.\r\n\r\n**Pidgin** ve **O\u2019nin** kurulumunu tamamlad\u0131\u011f\u0131n\u0131zda ve **Pidgin\u2019i** **Ba\u015flang\u0131\u00e7>Programlar** listesinden ba\u015flatt\u0131\u011f\u0131n\u0131zda, Windows g\u00f6rev \u00e7ubu\u011funda \u015fu ikon belirecek:\r\n\r\n![](/sbox/screen/pidgin-tr/12.png)\r\n\r\n*\u015eekil 3: Siyahla \u00e7er\u00e7evelenmi\u015f Pidgin-O ikonu*\r\n\r\nTebrikler! **Pidgin** ve **O** programlar\u0131n\u0131 kurmay\u0131 ba\u015far\u0131 ile tamamlad\u0131n\u0131z!\r\n\r\n\r\n\r\n<a name=\"2.3\"></a>\r\n## 2.3 Pidginde Hesap Kayd\u0131 ve Kurulumunu \u0130\u015flemine Genel bir Bak\u0131\u015f ##\r\n\r\n**Pidgin\u2019de** hesap kayd\u0131 ve kurulumu i\u015fleminde d\u00f6rt temel ad\u0131m vard\u0131r; varolan bir **anl\u0131k mesajla\u015fma** hesab\u0131n\u0131 **Pidgin\u2019e** kaydetme, bir *irtibat\u0131 ekleme*, irtibat\u0131n\u0131z\u0131n da ayn\u0131s\u0131n\u0131 yapmas\u0131n\u0131 sa\u011flama, ve son olarak ilk sohbet seans\u0131n\u0131z i\u00e7in sohbet penceresine ula\u015fma.\r\n\r\nSohbet ya da **anl\u0131k mesajla\u015fma** oturumlar\u0131n\u0131n iki kat\u0131l\u0131mc\u0131 aras\u0131nda yer ald\u0131\u011f\u0131 i\u00e7in, buradaki \u00f6rnekler de\u011fi\u015fik formatlar\u0131n ya da pencerelerin **her iki** kat\u0131l\u0131mc\u0131ya (Salima ve Terence ad\u0131nda kurgusal karakterlerle temsil edilirler) hesap kayd\u0131 ve kurulumu i\u015flemi esnas\u0131nda nas\u0131l g\u00f6r\u00fcnece\u011fi belirtecek. B\u00fct\u00fcn \u00f6rnekler **Riseup.Net** anl\u0131k mesajla\u015fma servisine dayan\u0131r.\r\n\r\n**Not**: **Pidgin\u2019i** kullanabilmeniz i\u00e7in, a\u015fa\u011f\u0131daki *\u015eekil 6\u2019da* listelenmi\u015f sa\u011flay\u0131c\u0131lardan bir tanesinden bir **Anl\u0131k Mesajla\u015fma** (**IM**) hesab\u0131n\u0131z\u0131n olmas\u0131 gerekir. Yeni bir **anl\u0131k mesajla\u015fma** hesab\u0131 kurmak isterseniz, [XMPP ileti\u015fimi](https://help.riseup.net/en/chat) i\u00e7in kullan\u0131labilecek olan **Riseup.net** e-posta hesab\u0131n\u0131 kullanman\u0131z\u0131 \u00f6neririz. L\u00fctfen [**Riseup \u2013 G\u00fcvenli Email Servisi**](/en/riseup_main) b\u00f6l\u00fcm\u00fcne daha fazla bilgi ve **Riseup** e-posta hesab\u0131n\u0131 nas\u0131l kuraca\u011f\u0131n\u0131za dair y\u00f6nergeler i\u00e7in bak\u0131n. Ayn\u0131 zamanda [2.2. Jitside Hesaplar Nas\u0131l Eklenir?](//jitsi_account#2.2) k\u0131sm\u0131nda listelenmi\u015f [Jit.si](https://jitsi.org/Register/Register) ya da Google Hesab\u0131 gibi gibi XMPP hesab\u0131 sa\u011flay\u0131c\u0131lar\u0131n\u0131 da kullanabilirsiniz.\r\n\r\n<a name=\"2.4\"></a>\r\n## 2.4 Anl\u0131k Mesajla\u015fma Hesab\u0131n\u0131z Pidgin\u2019e Nas\u0131l Kaydedilir? ##\r\n\r\n*Anl\u0131k mesajla\u015fma* hesab\u0131n\u0131z\u0131 *Pidgin\u2019e* kaydetmek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz:\r\n\r\n**1. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/13.png)\u2019i **t\u0131klayarak** ya da **Ba\u015flang\u0131\u00e7 > Programlar > Pidgin\u2019i** se\u00e7erek **Pidgin\u2019i** a\u00e7\u0131n. **Pidgin\u2019i** ilk defa a\u00e7t\u0131\u011f\u0131n\u0131zda a\u015fa\u011f\u0131daki ekran belirir:\r\n\r\n![](/sbox/screen/pidgin-tr/14.png)\r\n\r\n*\u015eekil 4: Hesaplar\u0131 onaylama penceresi*\r\n\r\n**2. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/15.png)\u2019i **t\u0131klayarak** a\u015fa\u011f\u0131daki gibi bo\u015f bir *Hesap Ekle* penceresi a\u00e7\u0131n:\r\n\r\n![](/sbox/screen/pidgin-tr/16.png) \r\n\r\n*\u015eekil 5: Temel, Geli\u015fmi\u015f ve Proxy sekmeleri g\u00f6r\u00fcnen Hesap Ekle ekran\u0131*\r\n\r\n**3. Ad\u0131m**. *Protokol* a\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r listesini t\u0131klayarak a\u015fa\u011f\u0131daki gibi **Pidgin** taraf\u0131ndan desteklenen **anl\u0131k mesajla\u015fma** servisi protokollerini g\u00f6r\u00fcn\u00fcz:\r\n\r\n![](/sbox/screen/pidgin-tr/17.png) \r\n\r\n*\u015eekil 6: Desteklenen anl\u0131k mesajla\u015fma protokollerini g\u00f6steren Hesap Ekle penceresi*\r\n\r\n**4. Ad\u0131m**. Uygun olan **anl\u0131k mesajla\u015fma** protokol\u00fcn\u00fc **se\u00e7in**.\r\n\r\n**Not**: Her **anl\u0131k mesajla\u015fma** servisi sa\u011flay\u0131c\u0131s\u0131 i\u00e7in doldurman\u0131z gereken girdi kutucuklar\u0131 farkl\u0131 olacak. Fakat hepsi kesinlikle bir kullan\u0131c\u0131 ad\u0131 ve parola girmenizi isteyecek.\r\n\r\n**5. Ad\u0131m**. *Kullan\u0131c\u0131 Ad\u0131* kutusuna e-posta adresinizi girin (mesela, [**terencethetester@riseup.net**](mailto:terencethetester@riseup.net)).\r\n\r\n**6. Ad\u0131m**. Bu hesapla ilgili olan parolan\u0131z\u0131 *Parola* kutusuna **girin**.\r\n\r\n**7. Ad\u0131m**. *Yerel Takma \u0130sim* kutusuna diledi\u011finiz bir takma ismi **girin**. (Bu kutuyu doldurmak zorunlu de\u011fildir.)\r\n\r\n**\u00d6nemli**: Gizlilik ve g\u00fcvenli\u011finizi olabildi\u011fince artt\u0131rabilmek i\u00e7in, *Parolay\u0131 hat\u0131rla* se\u00e7ene\u011fini *etkinle\u015ftirmeyin*. Bu haliyle, **Pidgin** \u00e7evrimi\u00e7i sohbetlere ne zaman ba\u011flanmak isterseniz sizi parolan\u0131z\u0131 girmeye davet edecek. B\u00f6ylece ba\u015fkalar\u0131n\u0131n bilgisayar\u0131n\u0131z\u0131n ba\u015f\u0131nda beklemedi\u011finiz anda **Pidgin\u2019e** sizin ad\u0131n\u0131za ba\u011flanmas\u0131n\u0131 engellemi\u015f olursunuz. Ayn\u0131 zamanda, sohbet oturumunuz bitti\u011finde Arkada\u015flar a\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r men\u00fcs\u00fcnden *\u00c7\u0131k\u2019\u0131* **se\u00e7meyi** unutmay\u0131n!\r\n\r\nTamamlanm\u0131\u015f bir *Hesap Ekle* ekran\u0131 a\u015fa\u011f\u0131dakine benzer:\r\n\r\n![](/sbox/screen/pidgin-tr/18.png) \r\n\r\n*\u015eekil 7: Tamamlanm\u0131\u015f bir Hesap Ekle formu \u00f6rne\u011fi*\r\n \r\n**8. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/19.png)\u2019i **t\u0131klayarak** hesab\u0131n\u0131z\u0131 eklemeyi tamamlay\u0131n ve ayn\u0131 anda g\u00fcncellenmi\u015f *Hesaplar* ve *Arkada\u015f Listesi* ekranlar\u0131n\u0131 a\u015fa\u011f\u0131dakiler gibi g\u00f6r\u00fcn:\r\n\r\n![](/sbox/screen/pidgin-tr/20.png)      ![](/sbox/screen/pidgin-tr/21.png)\r\n\r\n*\u015eekil 8: G\u00fcncellenmi\u015f Hesaplar Penceresi*; *\u015eekil 9: Etkin moddaki Arkada\u015flar Listesi*\r\n\r\nBu ad\u0131mlar\u0131 tamamlad\u0131ktan sonra, art\u0131k *Pidgin* arkada\u015flar\u0131n\u0131z\u0131 eklemeye ve onlar\u0131n irtibat bilgilerini girmeye haz\u0131rs\u0131n\u0131z.\r\n\r\n<a name=\"2.5\"></a>\r\n## 2.5 Pidgin\u2019de Arkada\u015flar Nas\u0131l Eklenir? ##\r\n**Pidgin\u2019de** arkada\u015flar\u0131n\u0131z ya da irtibatlar\u0131n\u0131z\u0131 eklemek, onlar\u0131n irtibat detaylar\u0131n\u0131 eklemek ve kaydetmeyi i\u00e7erir. Takip eden \u00f6rnekte Terence Salima\u2019y\u0131 arkada\u015f\u0131 olarak ekliyor.\r\n\r\n**Pidgin\u2019de** **anl\u0131k mesajla\u015fma** hesab\u0131n\u0131za bir arkada\u015f eklemek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:\r\n\r\n**1. Ad\u0131m**. *Arkada\u015flar\u2019\u0131* **t\u0131klayarak** ilgili men\u00fcy\u00fc a\u00e7\u0131n ve sonra *+ Arkada\u015f Ekle...\u2019yi* a\u015fa\u011f\u0131daki gibi **se\u00e7in**:\r\n\r\n![](/sbox/screen/pidgin-tr/22.png)\r\n\r\n*\u015eekil 10: \u2018Arkada\u015f Ekle...\u2019 \u00f6\u011fesi se\u00e7ilmi\u015f Arkada\u015f Listesi men\u00fcs\u00fc*\r\n\r\nBu a\u015fa\u011f\u0131daki ekran\u0131 a\u00e7acakt\u0131r: \r\n\r\n![](/sbox/screen/pidgin-tr/23.png)\r\n\r\n*\u015eekil 11: Arkada\u015f Ekle penceresi*\r\n\r\n**2. Ad\u0131m**. Birden fazla hesab\u0131n\u0131z varsa, 'arkada\u015f\u0131n\u0131zla' ayn\u0131 mesajla\u015fma servisiyle alakal\u0131 olan hesab\u0131n\u0131z\u0131 **se\u00e7in**.\r\n\r\n**Not**: Sizin ve arkada\u015f\u0131n\u0131z\u0131n **ayn\u0131** mesajla\u015fma servisini kullan\u0131yor olmas\u0131 **gerekir**, o **Pidgin** kullanm\u0131yor olsa bile. **Google Talk** hesab\u0131n\u0131za bir **ICQ** ya da **MSN** arkada\u015f\u0131 ekleyemezsiniz. Fakat bu desteklenen protokollere ba\u011fl\u0131 birden fazla hesab\u0131 **Pidgin\u2019de** kaydedip kullanabilirsiniz. B\u00f6ylece **XMPP** hesab\u0131n\u0131zla bir arkada\u015f\u0131n\u0131zla sohbet ederken bir di\u011feriyle **ICQ** ya da **MSN** hesab\u0131n\u0131z\u0131 kullanarak sohbet edebilirsiniz.\r\n\r\n**3. Ad\u0131m**. *Kullan\u0131c\u0131 Ad\u0131* kutusuna arkada\u015f\u0131n\u0131z\u0131n e-posta adresini **girin**. \r\n\r\nBir sonraki ad\u0131m zorunlu de\u011fildir.\r\n\r\n**4. Ad\u0131m**. *Takma \u0130sim* kutusuna bir *takma isim* **girin** ve *Arkada\u015f Ekle* formunuz a\u015fa\u011f\u0131daki ekrana benzesin:\r\n\r\n![](/sbox/screen/pidgin-tr/24.png)\r\n\r\n*\u015eekil 12: Tamamlanm\u0131\u015f bir Arkada\u015f Ekle formu \u00f6rne\u011fi*\r\n\r\n**5. Ad\u0131m**.  ![](/sbox/screen/pidgin-tr/19.png)\u2019i **t\u0131klayarak** arkada\u015f\u0131n\u0131z\u0131 ekleyin.\r\n\r\n**Not**: Bu arkada\u015f\u0131n\u0131za talebinizin onay\u0131 ya da iznini isteyen bir mesaj yollayacak ve arkada\u015f\u0131n\u0131z\u0131n *Arkada\u015f Listesi\u2019nde* a\u015fa\u011f\u0131daki gibi belirecek:  \r\n\r\n![](/sbox/screen/pidgin-tr/25.png)\r\n\r\n*\u015eekil 13: Salima\u2019n\u0131n Arkada\u015f Listesi\u2019nde g\u00f6r\u00fcnd\u00fc\u011f\u00fc \u00fczere arkada\u015f\u0131n\u0131 Onayla talebi*\r\n\r\nBu noktada, arkada\u015f\u0131n\u0131z \u015fu ad\u0131m\u0131 uygulamal\u0131:\r\n\r\n**6. Ad\u0131m**:  ![](/sbox/screen/pidgin-tr/26.png)\u2019\u0131 **t\u0131klayarak**  bu ki\u015fiyi arkada\u015f\u0131n\u0131z olarak ekleyin ve a\u015fa\u011f\u0131daki gibi Arkada\u015f Listesi\u2019nde g\u00f6r\u00fcn:\r\n\r\n![](/sbox/screen/pidgin-tr/27.png)\r\n\r\n*\u015eekil 14: Salima\u2019y\u0131 arkada\u015f\u0131 olarak g\u00f6steren Terence\u2019in  Arkada\u015f Listesi*\r\n\r\n**Not**: Yukar\u0131daki \u00f6rnekte, Salima\u2019n\u0131n *Takma Ad\u0131* g\u00f6sterilmektedir, bu da kimlik korunmas\u0131n\u0131 bir kat daha g\u00fc\u00e7lendirir.\r\n\r\n![](/sbox/screen/pidgin-tr/30.png)\r\n\r\n*\u015eekil 15: Terence\u2019in Salima\u2019y\u0131 yeni eklenmi\u015f arkada\u015f\u0131 olarak g\u00f6steren Arkada\u015f Listesi*\r\n\r\n**Pidgin** sohbet arkada\u015f\u0131n\u0131z\u0131 ekleyip, kimli\u011fini do\u011frulay\u0131p teyit ettikten s\u0131nra, onun da kendi hesab\u0131ndan sizin anl\u0131k mesajla\u015fma ileti\u015fim bilgilerini girmesi  **1'den 6'ya** kadarki ad\u0131mlar\u0131 takip etmesi gerekecek.\r\n\r\n<a name=\"2.6\"></a>\r\n## 2.6 Pidgin\u2019de Anl\u0131k Mesajla\u015fma Penceresi Nas\u0131l A\u00e7\u0131l\u0131r? #\r\n\r\n**Pidgin\u2019de** bir **anl\u0131k mesajla\u015fma** penceresi a\u00e7mak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:\r\n\r\n**1. Ad\u0131m**. *Arkada\u015f listesinde* bir arkada\u015f\u0131n\u0131z\u0131n ad\u0131n\u0131 **sa\u011f t\u0131klayarak** yapabilece\u011finiz b\u00fct\u00fcn i\u015flemleri g\u00f6steren men\u00fcy\u00fc a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi a\u00e7\u0131n:\r\n\r\n![](/sbox/screen/pidgin-tr/31.png) \r\n\r\n*\u015eekil 16: Arkada\u015f \u0130\u015flemleri men\u00fcs\u00fc*\r\n\r\n**2. Ad\u0131m**. A\u00e7\u0131lan men\u00fcde *Anl\u0131k Mesajla\u015fma\u2019y\u0131* **se\u00e7erek** tipik bir sohbet penceresini a\u015fa\u011f\u0131da g\u00f6sterildi\u011fi gibi a\u00e7\u0131n:\r\n\r\n![](/sbox/screen/pidgin-tr/32.png) \r\n\r\n*\u015eekil 17: Pidgin\u2019de tipik bir sohbet penceresi*\r\n\r\n\r\n\u015eimdi arkada\u015f\u0131n\u0131zla **Pidgin'i** kullanarak sohbet etmeye nerdeyse haz\u0131rs\u0131n\u0131z. Ama \u00f6nce sohbet oturumunuzun \u00f6zel ve g\u00fcvenli oldu\u011fundan emin olmak i\u00e7in **O** \u015fifrelendirmesini yap\u0131land\u0131rman\u0131z gerek. Bunun i\u00e7in bir sonraki sayfaya bak\u0131n.\r\n\r\n<a name=\"2.7\"></a>\r\n## 2.7 Pidgin\u2019de bir Hesap Nas\u0131l Yeniden Etkinle\u015ftirilir? ##\r\n\r\nZaman zaman anl\u0131k mesajla\u015fma hesab\u0131n\u0131z\u0131n **Pidgin\u2019de** kendi kendine kapand\u0131\u011f\u0131n\u0131 fark edebilirsiniz; belki **Pidgin** program\u0131 internet ba\u011flant\u0131s\u0131n\u0131n kesilmesi nedeniyle uygun olmayan bir \u015fekilde kapand\u0131\u011f\u0131 i\u00e7in, ya da bilgisayar\u0131n\u0131z dondu\u011fu i\u00e7in. Neyse ki **Pidgin** hesab\u0131n\u0131z\u0131 tekrar etkinle\u015ftirmenin bir yolunu sunuyor. Bunun i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:\r\n\r\n**1. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/13.png)\u2019i **t\u0131klayarak** ya da **Ba\u015flang\u0131\u00e7 > Pidgin\u2019i** **se\u00e7erek**  **Pidgin\u2019i** a\u00e7\u0131n.\r\n\r\n**2. Ad\u0131m**. *Hesaplar* men\u00fcs\u00fcn\u00fc **a\u00e7\u0131n** ve sonras\u0131nda a\u015fa\u011f\u0131da g\u00f6sterildi\u011fi gibi *Hesap Y\u00f6netimi* maddesini **se\u00e7in**:\r\n\r\n![](/sbox/screen/pidgin-tr/33.png)\r\n\r\n*\u015eekil 18: Hesap Y\u00f6netimi maddesi se\u00e7ilmi\u015f (boyutu de\u011fi\u015ftirilmi\u015f) Hesaplar men\u00fcs\u00fc*\r\n\r\n*Bu a\u015fa\u011f\u0131daki ekran\u0131 a\u00e7acak:*\r\n\r\n![](/sbox/screen/pidgin-tr/34.png)\r\n\r\n*19. \u015eekil: Art\u0131k etkin olmayan bir hesab\u0131 g\u00f6steren Hesaplar penceresi (boyutu de\u011fi\u015ftirilmi\u015f)*\r\n\r\n**3. Ad\u0131m**. Hesab\u0131n\u0131z\u0131n yan\u0131ndaki kutuyu **i\u015faretleyerek** **Pidgin** parola sorgulamas\u0131n\u0131 a\u015fa\u011f\u0131daki gibi etkinle\u015ftirin:\r\n\r\n![](/sbox/screen/pidgin-tr/35.png)\r\n\r\n*\u015eekil 20: Pidgin parola sorgulama kutusu*\r\n\r\n**4. Ad\u0131m**. Parolan\u0131z\u0131 **girin** ve **Pidgin** parola sorgulama kutusu a\u015fa\u011f\u0131dakine benzesin:\r\n\r\n![](/sbox/screen/pidgin-tr/36.png)\r\n\r\n*21. \u015eekil: Parola kutusu doldurulmu\u015f Pidgin parola sorgulama kutusu*\r\n\r\n**5. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/37.png)\u2019\u0131 **t\u0131klayarak**  hesab\u0131n\u0131z\u0131 tekrar etkinle\u015ftirmeyi a\u015fa\u011f\u0131da g\u00f6r\u00fcld\u00fc\u011f\u00fc gibi sonland\u0131r\u0131n\r\n\r\n![](/sbox/screen/pidgin-tr/38.png)\r\n\r\n*\u015eekil 22: Ba\u015far\u0131yla yeniden etkinle\u015ftirilmi\u015f bir hesap*\r\n\r\n**6. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/39.png)'u t\u0131klayarak *Hesaplar* penceresini kapat\u0131n."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2040", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2040", 
+                "link_title": "How to Install the Pidgin and OTR software and then Register and Set Up Your Account to Pidgin", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5186", 
+                "module": "book", 
+                "nid": "2040", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5185", 
+                "p3": "5186", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5185", 
+                "router_path": "node/%", 
+                "title": "How to Install the Pidgin and OTR software and then Register and Set Up Your Account to Pidgin", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1454337961", 
+            "comment": "0", 
+            "created": "1441120722", 
+            "current_revision_id": "13126", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "pidgin_using", 
+                        "value": "pidgin_using"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5186": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2040", 
+                    "link_title": "How to Install the Pidgin and OTR software and then Register and Set Up Your Account to Pidgin", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5186", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5185", 
+                    "p3": "5186", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5185", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2040", 
+            "num_revisions": "33", 
+            "path": "https://securityinabox.org/en/node/2040", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1454337961", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Pidgin ve OTR yaz\u0131l\u0131mlar\u0131n\u0131 Nas\u0131l Kurabilir ve sonras\u0131nda Hesab\u0131n\u0131z\u0131 Pidgin\u2019e Nas\u0131l Kaydedebilirsiniz?", 
+                        "value": "Pidgin ve OTR yaz\u0131l\u0131mlar\u0131n\u0131 Nas\u0131l Kurabilir ve sonras\u0131nda Hesab\u0131n\u0131z\u0131 Pidgin\u2019e Nas\u0131l Kaydedebilirsiniz?"
+                    }
+                ]
+            }, 
+            "title_original": "How to Install the Pidgin and OTR software and then Register and Set Up Your Account to Pidgin", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442932261", 
+                        "created": "1442932261", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442398557", 
+                        "created": "1442396537", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442497863", 
+                        "created": "1442497863", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1454337961", 
+                        "created": "1441630593", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1453994797", 
+                        "created": "1442845809", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444660095", 
+                        "created": "1444660095", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1452871889", 
+                        "created": "1452871889", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1453991725", 
+                        "created": "1443621001", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279032", 
+                        "created": "1441279032", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444179872", 
+                        "created": "1444179872", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021162", 
+                        "created": "1443021162", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833676", 
+                        "created": "1444728716", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446477624", 
+                        "created": "1441120722", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2040", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445443444", 
+                        "created": "1445443444", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "3525b723-726d-48ec-b657-f624062f57c8", 
+            "vid": "13126", 
+            "vuuid": "49c17bd9-fdac-4cc0-9c4c-70a7b66d8079"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bu sayfadaki k\u0131s\u0131mlar\u0131n listesi:</p>\n\n<ul><li><a href=\"#3.0\"><strong>3.0 Pidgin ve OTR Hakk\u0131nda</strong></a></li>\n<li><a href=\"#3.1\"><strong>3.1 Pidgin-OTR Eklentisi Nas\u0131l Yap\u0131land\u0131r\u0131l\u0131r?</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 \u0130lk Ad\u0131m \u2013 Bir \u00d6zel Anahtar Nas\u0131l Olu\u015fturulur ve Parmak \u0130zi Nas\u0131l G\u00f6r\u00fcnt\u00fclenir?</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 \u0130kinci Ad\u0131m \u2013 Bir Mesajla\u015fma Oturumu Nas\u0131l Onaylan\u0131r?</strong></a></li>\n<li><a href=\"#3.4\"><strong>3.4 \u00dc\u00e7\u00fcnc\u00fc Ad\u0131m \u2013 \u0130rtibatta Oldu\u011funuz Ki\u015finin Kimli\u011fi Nas\u0131l Teyit Edilir?</strong></a></li>\n</ul><p><a name=\"3.0\" id=\"3.0\"></a></p>\n\n<h2>3.0 Pidgin ve OTR Hakk\u0131nda</h2>\n\n<p>Gizli ve g\u00fcvenli <strong>Anl\u0131k Mesajla\u015fma</strong> oturumlar\u0131 a\u00e7abilmeniz i\u00e7in hem sizin hem de irtibatta oldu\u011funuz ki\u015finin <strong>OTR</strong> eklentisini yap\u0131land\u0131rmas\u0131 gerekir. <strong>OTR</strong> eklentisi her iki kat\u0131l\u0131mc\u0131n\u0131n da uygun bir \u015fekilde bu eklentiyi y\u00fckleyip yap\u0131land\u0131rd\u0131\u011f\u0131n\u0131 otomatik olarak saptar.</p>\n\n<p><strong>Not</strong>: <strong>OTR\u2019yi</strong> kurmam\u0131\u015f ya da yap\u0131land\u0131rmam\u0131\u015f oldu\u011funuz bir arkada\u015f\u0131n\u0131za \u00f6zel bir sohbet talebinde bulunursan\u0131z, otomatik olarak <strong>OTR\u2019yi</strong> nereden bulabilece\u011fini a\u00e7\u0131klayan bir mesaj yollan\u0131r.</p>\n\n<p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 Pidgin-OTR Eklentisi Nas\u0131l Yap\u0131land\u0131r\u0131l\u0131r?</h2>\n\n<p><strong>OTR</strong> eklentisini etkinle\u015ftirmek i\u00e7in a\u015fa\u011f\u0131daki  ad\u0131mlar\u0131 takip edin:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/13.png\" alt=\"\" />\u2019e <strong>\u00e7ift t\u0131klayarak</strong>, ya da <strong>Ba\u015flang\u0131\u00e7 &gt; Programlar &gt; Pidgin\u2019i</strong> se\u00e7erek <strong>Pidgin\u2019i</strong> ve <em>Arkada\u015f Listesi</em> penceresini a\u00e7\u0131n (L\u00fctfen \u015eekil 1\u2019e bak\u0131n).</p>\n\n<p><strong>2. Ad\u0131m</strong>. <em>Ara\u00e7lar</em> men\u00fcs\u00fcn\u00fc <strong>A\u00e7\u0131n</strong> ve sonras\u0131nda <em>Eklentiler</em> \u00f6\u011fesini a\u015fa\u011f\u0131daki gibi <strong>se\u00e7in</strong>:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/40.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 1:  Ara\u00e7lar men\u00fcs\u00fcnden Eklentiler \u00f6\u011fesi se\u00e7ilmi\u015f Arkada\u015f Listesi penceresi</em></p>\n\n<p>Bu <em>Eklentiler</em> penceresini a\u015fa\u011f\u0131daki gibi a\u00e7acak:</p>\n\n<p><strong>3. Ad\u0131m</strong>. Pencereyi <em>Off-the-Record Messaging'a</em> do\u011fru <strong>a\u015fa\u011f\u0131 kayd\u0131r\u0131n</strong>, sonras\u0131nda ilintili kutuyu <strong>i\u015faretleyin</strong>.</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/41.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 2: Off-The-Record Messaging'in se\u00e7ili oldu\u011fu\u011fu Pidgin Eklentiler penceresi</em></p>\n\n<p><strong>4. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/42.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> <em>Off-the-Record Mesajla\u015fma</em> pencerelerini yap\u0131land\u0131rmaya ba\u015flay\u0131n.</p>\n\n<p>Etkin bir \u015fekilde \u00f6zel ve g\u00fcvenli <strong>anl\u0131k mesajla\u015fma</strong> oturumlar\u0131 a\u00e7abilmek i\u00e7in <strong>OTR\u2019nin</strong> yap\u0131land\u0131r\u0131lmas\u0131n\u0131n temelde 3 ad\u0131m\u0131 vard\u0131r, ve bunlar a\u015fa\u011f\u0131da a\u00e7\u0131klanm\u0131\u015ft\u0131r.</p>\n\n<ul><li><strong>Birinci Ad\u0131m</strong>: Bu hesab\u0131n\u0131za \u00f6zg\u00fcn bir \u00f6zel anahtar olu\u015fturmay\u0131 ve onun parmak izini g\u00f6r\u00fcnt\u00fclemeyi i\u00e7erir.</li>\n</ul><p>Bir sonraki ad\u0131mlar <em>anl\u0131k mesajla\u015fma</em> oturumunu g\u00fcvenlik alt\u0131na almay\u0131 ve arkada\u015flar\u0131n\u0131z\u0131n kimli\u011fini do\u011frulamay\u0131 i\u00e7erir..</p>\n\n<ul><li><p><strong>\u0130kinci Ad\u0131m</strong>: Bu bir kat\u0131l\u0131mc\u0131n\u0131n o anda \u00e7evrimi\u00e7i olan di\u011fer kat\u0131l\u0131mc\u0131ya \u00f6zel ve g\u00fcvenli bir sohbet oturumu a\u00e7ma talebini i\u00e7erir.</p></li>\n<li><p><strong>\u00dc\u00e7\u00fcnc\u00fc ad\u0131m</strong> <strong>Pidgin</strong> <em>arkada\u015f\u0131n\u0131z\u0131n</em> <em>kimli\u011fini do\u011frulamay\u0131</em> i\u00e7erir. (<strong>Not</strong>: <strong>Pidgin\u2019de</strong>, <strong>anl\u0131k mesajla\u015fma</strong> oturumlar\u0131yla irtibat kurmaya \u00e7al\u0131\u015ft\u0131\u011f\u0131n\u0131z herkes bir arkada\u015ft\u0131r.) Bir arkada\u015f\u0131n kimli\u011fini do\u011frulamaya <strong>Pidgin\u2019de</strong> <strong>kimlik do\u011frulama</strong> denir.  Bu arkada\u015f\u0131n\u0131z\u0131n <em>kesinlikle</em> iddia etti\u011fi ki\u015fi oldu\u011funu tesbit etmek demektir.</p></li>\n</ul><p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 \u0130lk Ad\u0131m \u2013 Bir \u00d6zel Anahtar Nas\u0131l Olu\u015fturulur ve Parmak izi nas\u0131l G\u00f6r\u00fcnt\u00fclenir?</h2>\n\n<p><strong>Pidgin\u2019de</strong> g\u00fcvenli sohbet oturumlar\u0131 ilgili hesap i\u00e7in bir <em>\u00f6zel anahtar</em> olu\u015fturmakla etkinle\u015ftirilebilir. <em>Off-the-Record</em> yap\u0131land\u0131rma penceresi <em>Yap\u0131land\u0131rma</em> ve <em>Tan\u0131nan pakmak izleri</em> sekmeleriyle ayr\u0131lm\u0131\u015ftur. <em>Yap\u0131land\u0131rma</em> sekmesi  her bir hesap i\u00e7in bir <em>\u00f6zel anahtar</em> olu\u015fturmak i\u00e7in ve belirli <em>OTR</em> se\u00e7eneklerini ayarlamak i\u00e7in kullan\u0131l\u0131r. <em>Tan\u0131nan parmak izleri</em> sekmesi  irtibat kurdu\u011funuz ki\u015filerin parkmak izlerinin bir listesini bar\u0131nd\u0131r\u0131r. \u00d6zel bir sohbet yapmak istedi\u011finiz her bir arkada\u015f\u0131n\u0131z i\u00e7in bir anahtar\u0131n\u0131z olmal\u0131.</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/43.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 3: Yap\u0131land\u0131rma sekmesi a\u00e7\u0131lm\u0131\u015f Off-the-Record Mesajla\u015fma ekran\u0131</em></p>\n\n<p><strong>1. Ad\u0131m</strong>. Gizlili\u011finizi olabildi\u011fince art\u0131rmak i\u00e7in <em>Gizli mesajla\u015fmay\u0131 etkinle\u015ftirin</em>, <em>gizli mesajla\u015fmay\u0131 otomatik olarak ba\u015flat</em>, ve <em>OTR sohbetlerini ar\u015fivleme</em> se\u00e7eneklerini \u015eekil 3\u2019teki gibi <strong>i\u015faretleyin</strong>.</p>\n\n<p><strong>2. Ad\u0131m</strong>.<img src=\"/sbox/screen/pidgin-tr/44.png\" alt=\"\" />\u2019i t\u0131klayarak g\u00fcvenli anahtar\u0131n\u0131z\u0131 olu\u015fturmaya ba\u015flay\u0131n; size \u00f6zel anahtar\u0131n olu\u015fturuldu\u011funu belirten a\u015fa\u011f\u0131dakine benzer bir mesaj belirecek:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/45.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 4: \u00d6zel anahtar olu\u015fturuluyor onaylama kutusu</em></p>\n\n<p><strong>Not</strong>: Arkada\u015f\u0131n\u0131z da kendi hesab\u0131 i\u00e7in ayn\u0131 ad\u0131mlar\u0131 takip etmeli</p>\n\n<p><strong>3. Ad\u0131m</strong>. A\u015fa\u011f\u0131dakine benzer bir \u00f6zel anahtar olu\u015fturuldu\u011funda<img src=\"/sbox/screen/pidgin-tr/37.png\" alt=\"\" />\u2019i <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/46.png\" alt=\"\" /></p>\n\n<p>*\u015eekil 5: OTR motoru taraf\u0131ndan olu\u015fturulan bir anahtar\u0131n \u00f6rnek bir parmak izi *</p>\n\n<p><strong>\u00d6nemli</strong>: \u015eimdi hesab\u0131n\u0131z i\u00e7in bilgisayar\u0131n\u0131zda bir \u00f6zel anahtar yaratt\u0131n\u0131z. Bu konu\u015fmalar\u0131n\u0131z\u0131 \u015fifrelemek i\u00e7in kullan\u0131lacak. B\u00f6ylece sohbet oturumlar\u0131n\u0131z g\u00f6zlemlense bile kimse mesajlar\u0131n\u0131z\u0131 okuyamayacak. Parmak izi <em>\u015eekil 5\u2019te</em> g\u00f6sterildi\u011fi gibi belirli bir hesap i\u00e7in bir anahtar\u0131 tan\u0131mlamaya yarayan uzun bir harf ve rakamlar serisidir.</p>\n\n<p><strong>Pidgin</strong> sizin ve arkada\u015flar\u0131n\u0131z\u0131n parmak izlerini otomatik olarak kaydeder, b\u00f6ylelikle sizin bunlar\u0131 hat\u0131rlaman\u0131za gerek kalmaz. <strong>Pidgin\u2019i</strong> yeniden kurar ya da ba\u015fka bir bilgisayara ge\u00e7erseniz, ya anahtar\u0131n\u0131z\u0131 yeniden olu\u015fturmaki ve arkada\u015flar\u0131n\u0131z\u0131n kimli\u011fini yeniden do\u011frulamal\u0131s\u0131n\u0131z, ya da anahtar\u0131n\u0131z\u0131 ve de arkada\u015flar\u0131n\u0131z\u0131n parmak izlerini yeni bilgisayara aktarmal\u0131s\u0131n\u0131z. Bunu yapmak i\u00e7in %APPDATA%.purple (Linux ya da Mac\u2019de  ~/.purple) klas\u00f6r\u00fcn\u00fcn i\u00e7eri\u011fini yeni bilgisayardaki benzer klas\u00f6re kopyalaman\u0131z gerekir.</p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h2>3.3 \u0130kinci Ad\u0131m \u2013 Bir Mesajla\u015fma Oturumu Nas\u0131l Onaylan\u0131r?</h2>\n\n<p><strong>1. Ad\u0131m</strong>. \u015eu an \u00e7evrimi\u00e7i olan bir arkada\u015f\u0131n hesab\u0131 \u00fcst\u00fcne <strong>\u00e7ift t\u0131klayarak</strong> yeni bir <strong>anl\u0131k mesajla\u015fma</strong> oturumu a\u00e7\u0131n. \u0130kiniz de <strong>OTR</strong> eklentisini uygun bir \u015fekilde kurmu\u015f ve yap\u0131land\u0131rm\u0131\u015fsan\u0131z, sohbet pencerenizin sa\u011f alt k\u00f6\u015fesinde yeni bir <strong>OTR</strong> d\u00fc\u011fmesinin belirdi\u011fini fark edeceksiniz.</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/47.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 6: Siyahla \u00e7er\u00e7evelenmi\u015f OTR ikonu g\u00f6r\u00fclen bir Pidgin mesajla\u015fma penceresi</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/48.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> a\u00e7\u0131lan men\u00fcy\u00fc etkinle\u015ftirin ve sonras\u0131nda <em>Gizli oturum ba\u015flat</em> \u00f6\u011fesini a\u015fa\u011f\u0131daki gibi <strong>se\u00e7in</strong>:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/49.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 7:Gizli oturum ba\u015flat \u00f6\u011fesi se\u00e7ilmi\u015f olan men\u00fc</em></p>\n\n<p><em>Pidgin anl\u0131k mesajla\u015fma pencereniz bundan sonra \u015funa benzeyecek:</em></p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/50.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 8: Unverified d\u00fc\u011fmesini g\u00f6steren Pidgin anl\u0131k mesajla\u015fma penceresi</em></p>\n\n<p><strong>Not</strong>: <strong>Pidgin</strong> arkada\u015f\u0131n\u0131z\u0131n <strong>anl\u0131k mesajla\u015fma</strong> program\u0131yla ileti\u015fime otomatik olarak ba\u015flar ve \u00f6zel ve g\u00fcvenli sohbet oturumlar\u0131n\u0131 ba\u015flatmaya yeltendi\u011finizde mesajlar\u0131 otomatik olarak g\u00f6nderir. Bunun sonucunda<img src=\"/sbox/screen/pidgin-tr/48.png\" alt=\"\" /><strong>OTR</strong> d\u00fc\u011fmesi <img src=\"/sbox/screen/pidgin-tr/51a.png\" alt=\"\" />\u2019a d\u00f6ner, bu da \u015fu anda arkada\u015f\u0131n\u0131zla \u015fifreli bir g\u00f6r\u00fc\u015fmede oldu\u011funuzu g\u00f6sterir.</p>\n\n<p><strong>Uyar\u0131</strong>! Bu g\u00f6r\u00fc\u015fme \u015fimdi g\u00fcvenli olsa da arkada\u015f\u0131n\u0131z\u0131n kimli\u011fi hen\u00fcz <em>teyit edilmedi</em>. Dikkat edin: arkada\u015f\u0131n\u0131z sand\u0131\u011f\u0131n\u0131z ki\u015fi asl\u0131nda arkada\u015f\u0131n\u0131zm\u0131\u015f <em>gibi davranan</em> ba\u015fka biri olabilir.</p>\n\n<p><a name=\"3.4\" id=\"3.4\"></a></p>\n\n<h2>3.4 \u00dc\u00e7\u00fcnc\u00fc Ad\u0131m \u2013 \u0130rtibatta Oldu\u011funuz Ki\u015finin Kimli\u011fi Nas\u0131l Teyit Edilir?</h2>\n\n<p><strong>Pidgin</strong> arkada\u015f\u0131n\u0131z\u0131n kimli\u011finden emin olabilmek i\u00e7in \u00fc\u00e7 metoddan birini kullanabilirsiniz, 1) \u00f6nceden belirledi\u011finiz gizli bir kod kullanabilirsiniz, 2) cevab\u0131n\u0131 sadece ikinizin bildi\u011fi bir soru sorabilirsiniz, 3) farkl\u0131 bir ileti\u015fim metoduyla anahtarlar\u0131n\u0131z\u0131n parmak izlerini elle kontrol edebilirsiniz.</p>\n\n<h3>Gizli Kod Metodu</h3>\n\n<p>\u00d6nceden ya y\u00fczy\u00fcze bir konu\u015fmada ya da ba\u015fka bir ileti\u015fim vas\u0131tas\u0131yla (telefon, <a href=\"/en/jitsi\"><strong>Jitsi</strong></a>\u2019de sesli sohbet, ya da cep telefonu mesajlar\u0131 gibi) bir kod kelime ya da c\u00fcmleye karar verebilirsiniz. \u0130kiniz de ayn\u0131 kodu girdi\u011finizde oturumunuz \u00f6zg\u00fcnl\u00fc\u011f\u00fc teyit edilir.</p>\n\n<p><strong>Not</strong>: <strong>OTR</strong> gizli kod tan\u0131ma \u00f6zelli\u011fi b\u00fcy\u00fck (A,B,C) ve k\u00fc\u00e7\u00fck (a,b,c,) harflere duyarl\u0131d\u0131r. Gizli kodunuzu belirlerken bunu akl\u0131n\u0131zda tutun!</p>\n\n<p><strong>1. Ad\u0131m</strong>. Sohbet penceresindeki <em>OTR</em> d\u00fc\u011fmesini <strong>t\u0131klay\u0131n</strong>, ve a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi <em>Arkada\u015f\u0131n\u0131n kimli\u011fini do\u011frula\u2019y\u0131</em> se\u00e7in:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/52.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 9: Arkada\u015f\u0131n\u0131n kimli\u011fini do\u011frula \u00f6\u011fesi se\u00e7ilmi\u015f Teyit edilmemi\u015f men\u00fcs\u00fc</em></p>\n\n<p>Bu sizi do\u011frulama metodunu girmeye davet eden <em>Arkada\u015f\u0131n\u0131n kimli\u011fini do\u011frula</em> penceresini etkinle\u015ftirecek.</p>\n\n<p><strong>2. Ad\u0131m</strong>.  <img src=\"/sbox/screen/pidgin-tr/53.png\" alt=\"\" />\u2019\u0131 t\u0131klay\u0131n ve a\u015fa\u011f\u0131daki gibi <em>Payla\u015f\u0131lan S\u0131r\u2019\u0131</em> se\u00e7in:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/54.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 10: A\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r listesi g\u00f6sterilen Arkada\u015f\u0131n\u0131n kimli\u011fini do\u011frula penceresi</em></p>\n\n<p><strong>3. Ad\u0131m</strong>. Gizli kodu a\u015fa\u011f\u0131daki gibi <strong>girin</strong>:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/55.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 11: Payla\u015f\u0131lan S\u0131r penceresi</em></p>\n\n<p><strong>4. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidgin-tr/56.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> a\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirin:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/58.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 12: Kurmaca bir irbitat i\u00e7in Arkada\u015f\u0131n\u0131n Kimli\u011fini Do\u011frula penceresi</em></p>\n\n<p><strong>Not</strong>: <em>Bu anda arkada\u015f\u0131n\u0131z \u015eekil 13\u2019te g\u00f6r\u00fclen pencereyi g\u00f6recek ve ayn\u0131 kodu girmesi gerekecek. E\u011fer kodlar birbirine uyarsa, oturumunuz teyit edilmi\u015f olacak.</em></p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/57.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 13: Kurmaca bir irtibat i\u00e7in Arkada\u015f\u0131n\u0131n Kimli\u011fini Do\u011frula penceresi</em></p>\n\n<p>Oturum teyit edildi\u011finde <em>OTR</em> d\u00fc\u011fmesi <img src=\"/sbox/screen/pidgin-tr/51.png\" alt=\"\" />\u2019e d\u00f6necek. Bu haliyle oturumunuz g\u00fcvenli ve ger\u00e7ekten arkada\u015f\u0131n\u0131zla konu\u015ftu\u011funuzdan emin olabilirsiniz.</p>\n\n<h3>Soru Cevap Metodu</h3>\n\n<p>Birbirinizin kimli\u011fini do\u011frulaman\u0131n bir ba\u015fka yolu da soru cevap metodudur. Bir Soru ve cevab\u0131n\u0131 yarat\u0131n. Soruyu okuduktan sonra arkada\u015f\u0131n\u0131z <em>tamamen</em> ayn\u0131 cevab\u0131 verebilmeli, ve cevaplar birbirini tutarsa, kimlikleriniz otomatik olarak do\u011frulanacak.</p>\n\n<p><strong>1. Adim</strong>. Etkin olan bir ileti penceresinde <em>OTR</em> men\u00fcs\u00fcn\u00fc <strong>t\u0131klayarak</strong> ilgili a\u00e7\u0131lan men\u00fcy\u00fc etkinle\u015ftirin, ve sonras\u0131nda <em>Arkada\u015f\u0131n\u0131n Kimli\u011fini Do\u011frula</em> \u00f6\u011fesini <strong>se\u00e7in</strong> (l\u00fctfen <em>9. \u015eekil\u2019e</em> bak\u0131n).\n.\n<img src=\"/sbox/screen/pidgin-tr/50.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 14: OTR ikonu g\u00f6r\u00fcnen bir Pidgin sohbet penceresi</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. A\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r men\u00fcy\u00fc <strong>t\u0131klay\u0131n</strong> ve <em>Soru Cevap</em> \u00f6\u011fesini a\u015fa\u011f\u0131daki gibi <strong>se\u00e7in</strong>:</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/60.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 15: Arkada\u015f\u0131n\u0131n kimli\u011fini do\u011frula ekran\u0131</em></p>\n\n<p><strong>3. Ad\u0131m</strong>: Bir soru ve cevab\u0131n\u0131 <strong>girin</strong>. Bu soru arkada\u015f\u0131n\u0131za g\u00f6nderilecek.</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/61.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 16: Soru Cevap ekran\u0131</em></p>\n\n<p>Arkada\u015f\u0131n\u0131z\u0131n cevab\u0131 sizinkiyle ayn\u0131ysa, ikinizin de kimli\u011fi do\u011frulanm\u0131\u015f, ya da her iki kat\u0131l\u0131mc\u0131 da oldu\u011funu iddia etti\u011fi ki\u015fi demektir!</p>\n\n<p>Oturumunuzun \u00f6zg\u00fcnl\u00fc\u011f\u00fc teyit edildi\u011finde <em>OTR</em> d\u00fc\u011fmesi <img src=\"/sbox/screen/pidgin-tr/51.png\" alt=\"\" />\u2019a d\u00f6necek. B\u00f6ylelikle oturumunuz g\u00fcvenli olacak ve arkada\u015f\u0131n\u0131z\u0131n kimli\u011finden emin olabileceksiniz..</p>\n\n<h3>Elle parmak izi kontrol\u00fc</h3>\n\n<p>Birbirinizin kimli\u011fini do\u011frulaman\u0131n \u00fc\u00e7\u00fcnc\u00fc yolu parmak izi kontrol\u00fcd\u00fcr. Bu metodla g\u00f6r\u00fcn\u00fcr parmak izlerinizi ba\u015fka bir ileti\u015fim kanal\u0131ndan (g\u00fcvenli e-posta ya da sesli g\u00f6r\u00fc\u015fme gibi) te\u011fi\u015f toku\u015f etmeniz gerekir (a\u015fa\u011f\u0131daki \u015eekil 17\u2019ye bak\u0131n\u0131z). De\u011fi\u015f toku\u015f edilen parmak izleri ayn\u0131 ise, <em>Bunun ger\u00e7ekten de do\u011fru parkmak izi oldu\u011funu <strong>do\u011frulad\u0131m\u2019\u0131</strong></em> t\u0131klayarak oturumun \u00f6zg\u00fcnl\u00fc\u011f\u00fcn\u00fc <strong>teyit edebilirsiniz.</strong></p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/79.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 17: Elle parmak izi kontrol\u00fc ekran\u0131</em></p>\n\n<p><strong>Arkada\u015f listesi &gt; Ara\u00e7lar &gt; Eklentiler &gt; Off the Record Messaging &gt; Eklenti &gt; Eklentiyi Yap\u0131land\u0131r\u2019\u0131</strong> <strong>se\u00e7ti\u011finizde</strong>, <em>Tan\u0131nan parmak izleri</em> sekmesi arkada\u015f\u0131n\u0131z\u0131n hesab\u0131n\u0131 ve kimli\u011finin do\u011fruland\u0131\u011f\u0131n\u0131 g\u00f6sterir.</p>\n\n<p><img src=\"/sbox/screen/pidgin-tr/62.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 18: Tan\u0131na Parmak \u0130zleri sekmesi g\u00f6r\u00fcnen Off-the-Record Mesajla\u015fma ekran\u0131</em></p>\n\n<p>Tebrikler! \u015eimdi gizli bir \u015fekilde sohbet edebilirsiniz. Arkada\u015f\u0131n\u0131zla bir sonraki sohbetinizde (ayn\u0131 bilgisayarlar\u0131 kullanarak), sadece g\u00fcvenli bir ba\u011flant\u0131 talep etmeniz ve arkada\u015f\u0131n\u0131z\u0131n kabul etmesi yeterli olacak (yukar\u0131daki \u015eekil 7 gibi). Oturumunuz b\u00f6ylelikle teyit edilmi\u015f olacak.</p>\n", 
+                        "summary": "", 
+                        "value": "Bu sayfadaki k\u0131s\u0131mlar\u0131n listesi:\r\n\r\n- [**3.0 Pidgin ve OTR Hakk\u0131nda**](#3.0)\r\n- [**3.1 Pidgin-OTR Eklentisi Nas\u0131l Yap\u0131land\u0131r\u0131l\u0131r?**](#3.1)\r\n- [**3.2 \u0130lk Ad\u0131m \u2013 Bir \u00d6zel Anahtar Nas\u0131l Olu\u015fturulur ve Parmak \u0130zi Nas\u0131l G\u00f6r\u00fcnt\u00fclenir?**](#3.2)\r\n- [**3.3 \u0130kinci Ad\u0131m \u2013 Bir Mesajla\u015fma Oturumu Nas\u0131l Onaylan\u0131r?**](#3.3)\r\n- [**3.4 \u00dc\u00e7\u00fcnc\u00fc Ad\u0131m \u2013 \u0130rtibatta Oldu\u011funuz Ki\u015finin Kimli\u011fi Nas\u0131l Teyit Edilir?**](#3.4)\r\n\r\n\r\n<a name=\"3.0\"></a>\r\n## 3.0 Pidgin ve OTR Hakk\u0131nda ##\r\n\r\nGizli ve g\u00fcvenli **Anl\u0131k Mesajla\u015fma** oturumlar\u0131 a\u00e7abilmeniz i\u00e7in hem sizin hem de irtibatta oldu\u011funuz ki\u015finin **OTR** eklentisini yap\u0131land\u0131rmas\u0131 gerekir. **OTR** eklentisi her iki kat\u0131l\u0131mc\u0131n\u0131n da uygun bir \u015fekilde bu eklentiyi y\u00fckleyip yap\u0131land\u0131rd\u0131\u011f\u0131n\u0131 otomatik olarak saptar. \r\n\r\n**Not**: **OTR\u2019yi** kurmam\u0131\u015f ya da yap\u0131land\u0131rmam\u0131\u015f oldu\u011funuz bir arkada\u015f\u0131n\u0131za \u00f6zel bir sohbet talebinde bulunursan\u0131z, otomatik olarak **OTR\u2019yi** nereden bulabilece\u011fini a\u00e7\u0131klayan bir mesaj yollan\u0131r.\r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 Pidgin-OTR Eklentisi Nas\u0131l Yap\u0131land\u0131r\u0131l\u0131r? ##\r\n\r\n**OTR** eklentisini etkinle\u015ftirmek i\u00e7in a\u015fa\u011f\u0131daki  ad\u0131mlar\u0131 takip edin: \r\n\r\n**1. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/13.png)\u2019e **\u00e7ift t\u0131klayarak**, ya da **Ba\u015flang\u0131\u00e7 > Programlar > Pidgin\u2019i** se\u00e7erek **Pidgin\u2019i** ve *Arkada\u015f Listesi* penceresini a\u00e7\u0131n (L\u00fctfen \u015eekil 1\u2019e bak\u0131n).\r\n\r\n**2. Ad\u0131m**. *Ara\u00e7lar* men\u00fcs\u00fcn\u00fc **A\u00e7\u0131n** ve sonras\u0131nda *Eklentiler* \u00f6\u011fesini a\u015fa\u011f\u0131daki gibi **se\u00e7in**:\r\n\r\n![](/sbox/screen/pidgin-tr/40.png)\r\n\r\n*\u015eekil 1:  Ara\u00e7lar men\u00fcs\u00fcnden Eklentiler \u00f6\u011fesi se\u00e7ilmi\u015f Arkada\u015f Listesi penceresi*\r\n\r\nBu *Eklentiler* penceresini a\u015fa\u011f\u0131daki gibi a\u00e7acak:\r\n\r\n**3. Ad\u0131m**. Pencereyi *Off-the-Record Messaging'a* do\u011fru **a\u015fa\u011f\u0131 kayd\u0131r\u0131n**, sonras\u0131nda ilintili kutuyu **i\u015faretleyin**. \r\n\r\n![](/sbox/screen/pidgin-tr/41.png)\r\n\r\n*\u015eekil 2: Off-The-Record Messaging'in se\u00e7ili oldu\u011fu\u011fu Pidgin Eklentiler penceresi*\r\n\r\n**4. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/42.png)\u2019i **t\u0131klayarak** *Off-the-Record Mesajla\u015fma* pencerelerini yap\u0131land\u0131rmaya ba\u015flay\u0131n.\r\n\r\nEtkin bir \u015fekilde \u00f6zel ve g\u00fcvenli **anl\u0131k mesajla\u015fma** oturumlar\u0131 a\u00e7abilmek i\u00e7in **OTR\u2019nin** yap\u0131land\u0131r\u0131lmas\u0131n\u0131n temelde 3 ad\u0131m\u0131 vard\u0131r, ve bunlar a\u015fa\u011f\u0131da a\u00e7\u0131klanm\u0131\u015ft\u0131r.\r\n\r\n- **Birinci Ad\u0131m**: Bu hesab\u0131n\u0131za \u00f6zg\u00fcn bir \u00f6zel anahtar olu\u015fturmay\u0131 ve onun parmak izini g\u00f6r\u00fcnt\u00fclemeyi i\u00e7erir.\r\n\r\nBir sonraki ad\u0131mlar *anl\u0131k mesajla\u015fma* oturumunu g\u00fcvenlik alt\u0131na almay\u0131 ve arkada\u015flar\u0131n\u0131z\u0131n kimli\u011fini do\u011frulamay\u0131 i\u00e7erir..\r\n\r\n- **\u0130kinci Ad\u0131m**: Bu bir kat\u0131l\u0131mc\u0131n\u0131n o anda \u00e7evrimi\u00e7i olan di\u011fer kat\u0131l\u0131mc\u0131ya \u00f6zel ve g\u00fcvenli bir sohbet oturumu a\u00e7ma talebini i\u00e7erir.\r\n\r\n- **\u00dc\u00e7\u00fcnc\u00fc ad\u0131m** **Pidgin** *arkada\u015f\u0131n\u0131z\u0131n* *kimli\u011fini do\u011frulamay\u0131* i\u00e7erir. (**Not**: **Pidgin\u2019de**, **anl\u0131k mesajla\u015fma** oturumlar\u0131yla irtibat kurmaya \u00e7al\u0131\u015ft\u0131\u011f\u0131n\u0131z herkes bir arkada\u015ft\u0131r.) Bir arkada\u015f\u0131n kimli\u011fini do\u011frulamaya **Pidgin\u2019de** **kimlik do\u011frulama** denir.  Bu arkada\u015f\u0131n\u0131z\u0131n *kesinlikle* iddia etti\u011fi ki\u015fi oldu\u011funu tesbit etmek demektir.  \r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 \u0130lk Ad\u0131m \u2013 Bir \u00d6zel Anahtar Nas\u0131l Olu\u015fturulur ve Parmak izi nas\u0131l G\u00f6r\u00fcnt\u00fclenir?##\r\n\r\n**Pidgin\u2019de** g\u00fcvenli sohbet oturumlar\u0131 ilgili hesap i\u00e7in bir *\u00f6zel anahtar* olu\u015fturmakla etkinle\u015ftirilebilir. *Off-the-Record* yap\u0131land\u0131rma penceresi *Yap\u0131land\u0131rma* ve *Tan\u0131nan pakmak izleri* sekmeleriyle ayr\u0131lm\u0131\u015ftur. *Yap\u0131land\u0131rma* sekmesi  her bir hesap i\u00e7in bir *\u00f6zel anahtar* olu\u015fturmak i\u00e7in ve belirli *OTR* se\u00e7eneklerini ayarlamak i\u00e7in kullan\u0131l\u0131r. *Tan\u0131nan parmak izleri* sekmesi  irtibat kurdu\u011funuz ki\u015filerin parkmak izlerinin bir listesini bar\u0131nd\u0131r\u0131r. \u00d6zel bir sohbet yapmak istedi\u011finiz her bir arkada\u015f\u0131n\u0131z i\u00e7in bir anahtar\u0131n\u0131z olmal\u0131.\r\n\r\n![](/sbox/screen/pidgin-tr/43.png)\r\n\r\n*\u015eekil 3: Yap\u0131land\u0131rma sekmesi a\u00e7\u0131lm\u0131\u015f Off-the-Record Mesajla\u015fma ekran\u0131*\r\n\r\n**1. Ad\u0131m**. Gizlili\u011finizi olabildi\u011fince art\u0131rmak i\u00e7in *Gizli mesajla\u015fmay\u0131 etkinle\u015ftirin*, *gizli mesajla\u015fmay\u0131 otomatik olarak ba\u015flat*, ve *OTR sohbetlerini ar\u015fivleme* se\u00e7eneklerini \u015eekil 3\u2019teki gibi **i\u015faretleyin**.\r\n\r\n**2. Ad\u0131m**.![](/sbox/screen/pidgin-tr/44.png)\u2019i t\u0131klayarak g\u00fcvenli anahtar\u0131n\u0131z\u0131 olu\u015fturmaya ba\u015flay\u0131n; size \u00f6zel anahtar\u0131n olu\u015fturuldu\u011funu belirten a\u015fa\u011f\u0131dakine benzer bir mesaj belirecek:\r\n\r\n![](/sbox/screen/pidgin-tr/45.png)\r\n\r\n*\u015eekil 4: \u00d6zel anahtar olu\u015fturuluyor onaylama kutusu*\r\n\r\n**Not**: Arkada\u015f\u0131n\u0131z da kendi hesab\u0131 i\u00e7in ayn\u0131 ad\u0131mlar\u0131 takip etmeli\r\n\r\n**3. Ad\u0131m**. A\u015fa\u011f\u0131dakine benzer bir \u00f6zel anahtar olu\u015fturuldu\u011funda![](/sbox/screen/pidgin-tr/37.png)\u2019i **t\u0131klay\u0131n**.\r\n\r\n![](/sbox/screen/pidgin-tr/46.png)\r\n\r\n*\u015eekil 5: OTR motoru taraf\u0131ndan olu\u015fturulan bir anahtar\u0131n \u00f6rnek bir parmak izi *\r\n\r\n**\u00d6nemli**: \u015eimdi hesab\u0131n\u0131z i\u00e7in bilgisayar\u0131n\u0131zda bir \u00f6zel anahtar yaratt\u0131n\u0131z. Bu konu\u015fmalar\u0131n\u0131z\u0131 \u015fifrelemek i\u00e7in kullan\u0131lacak. B\u00f6ylece sohbet oturumlar\u0131n\u0131z g\u00f6zlemlense bile kimse mesajlar\u0131n\u0131z\u0131 okuyamayacak. Parmak izi *\u015eekil 5\u2019te* g\u00f6sterildi\u011fi gibi belirli bir hesap i\u00e7in bir anahtar\u0131 tan\u0131mlamaya yarayan uzun bir harf ve rakamlar serisidir.\r\n\r\n**Pidgin** sizin ve arkada\u015flar\u0131n\u0131z\u0131n parmak izlerini otomatik olarak kaydeder, b\u00f6ylelikle sizin bunlar\u0131 hat\u0131rlaman\u0131za gerek kalmaz. **Pidgin\u2019i** yeniden kurar ya da ba\u015fka bir bilgisayara ge\u00e7erseniz, ya anahtar\u0131n\u0131z\u0131 yeniden olu\u015fturmaki ve arkada\u015flar\u0131n\u0131z\u0131n kimli\u011fini yeniden do\u011frulamal\u0131s\u0131n\u0131z, ya da anahtar\u0131n\u0131z\u0131 ve de arkada\u015flar\u0131n\u0131z\u0131n parmak izlerini yeni bilgisayara aktarmal\u0131s\u0131n\u0131z. Bunu yapmak i\u00e7in %APPDATA%\\.purple (Linux ya da Mac\u2019de  ~/.purple) klas\u00f6r\u00fcn\u00fcn i\u00e7eri\u011fini yeni bilgisayardaki benzer klas\u00f6re kopyalaman\u0131z gerekir.\r\n\r\n<a name=\"3.3\"></a>\r\n## 3.3 \u0130kinci Ad\u0131m \u2013 Bir Mesajla\u015fma Oturumu Nas\u0131l Onaylan\u0131r? ##\r\n\r\n**1. Ad\u0131m**. \u015eu an \u00e7evrimi\u00e7i olan bir arkada\u015f\u0131n hesab\u0131 \u00fcst\u00fcne **\u00e7ift t\u0131klayarak** yeni bir **anl\u0131k mesajla\u015fma** oturumu a\u00e7\u0131n. \u0130kiniz de **OTR** eklentisini uygun bir \u015fekilde kurmu\u015f ve yap\u0131land\u0131rm\u0131\u015fsan\u0131z, sohbet pencerenizin sa\u011f alt k\u00f6\u015fesinde yeni bir **OTR** d\u00fc\u011fmesinin belirdi\u011fini fark edeceksiniz. \r\n\r\n![](/sbox/screen/pidgin-tr/47.png)\r\n\r\n*\u015eekil 6: Siyahla \u00e7er\u00e7evelenmi\u015f OTR ikonu g\u00f6r\u00fclen bir Pidgin mesajla\u015fma penceresi*\r\n\r\n**2. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/48.png)\u2019\u0131 **t\u0131klayarak** a\u00e7\u0131lan men\u00fcy\u00fc etkinle\u015ftirin ve sonras\u0131nda *Gizli oturum ba\u015flat* \u00f6\u011fesini a\u015fa\u011f\u0131daki gibi **se\u00e7in**:\r\n\r\n![](/sbox/screen/pidgin-tr/49.png)\r\n\r\n*\u015eekil 7:Gizli oturum ba\u015flat \u00f6\u011fesi se\u00e7ilmi\u015f olan men\u00fc*\r\n\r\n*Pidgin anl\u0131k mesajla\u015fma pencereniz bundan sonra \u015funa benzeyecek:*\r\n\r\n![](/sbox/screen/pidgin-tr/50.png)\r\n\r\n*\u015eekil 8: Unverified d\u00fc\u011fmesini g\u00f6steren Pidgin anl\u0131k mesajla\u015fma penceresi*\r\n\r\n**Not**: **Pidgin** arkada\u015f\u0131n\u0131z\u0131n **anl\u0131k mesajla\u015fma** program\u0131yla ileti\u015fime otomatik olarak ba\u015flar ve \u00f6zel ve g\u00fcvenli sohbet oturumlar\u0131n\u0131 ba\u015flatmaya yeltendi\u011finizde mesajlar\u0131 otomatik olarak g\u00f6nderir. Bunun sonucunda![](/sbox/screen/pidgin-tr/48.png) **OTR** d\u00fc\u011fmesi ![](/sbox/screen/pidgin-tr/51a.png)\u2019a d\u00f6ner, bu da \u015fu anda arkada\u015f\u0131n\u0131zla \u015fifreli bir g\u00f6r\u00fc\u015fmede oldu\u011funuzu g\u00f6sterir.\r\n\r\n**Uyar\u0131**! Bu g\u00f6r\u00fc\u015fme \u015fimdi g\u00fcvenli olsa da arkada\u015f\u0131n\u0131z\u0131n kimli\u011fi hen\u00fcz *teyit edilmedi*. Dikkat edin: arkada\u015f\u0131n\u0131z sand\u0131\u011f\u0131n\u0131z ki\u015fi asl\u0131nda arkada\u015f\u0131n\u0131zm\u0131\u015f *gibi davranan* ba\u015fka biri olabilir.\r\n\r\n<a name=\"3.4\"></a>\r\n## 3.4 \u00dc\u00e7\u00fcnc\u00fc Ad\u0131m \u2013 \u0130rtibatta Oldu\u011funuz Ki\u015finin Kimli\u011fi Nas\u0131l Teyit Edilir? ##\r\n\r\n**Pidgin** arkada\u015f\u0131n\u0131z\u0131n kimli\u011finden emin olabilmek i\u00e7in \u00fc\u00e7 metoddan birini kullanabilirsiniz, 1) \u00f6nceden belirledi\u011finiz gizli bir kod kullanabilirsiniz, 2) cevab\u0131n\u0131 sadece ikinizin bildi\u011fi bir soru sorabilirsiniz, 3) farkl\u0131 bir ileti\u015fim metoduyla anahtarlar\u0131n\u0131z\u0131n parmak izlerini elle kontrol edebilirsiniz.\r\n\r\n### Gizli Kod Metodu ###\r\n\r\n\u00d6nceden ya y\u00fczy\u00fcze bir konu\u015fmada ya da ba\u015fka bir ileti\u015fim vas\u0131tas\u0131yla (telefon, [**Jitsi**](/en/jitsi)\u2019de sesli sohbet, ya da cep telefonu mesajlar\u0131 gibi) bir kod kelime ya da c\u00fcmleye karar verebilirsiniz. \u0130kiniz de ayn\u0131 kodu girdi\u011finizde oturumunuz \u00f6zg\u00fcnl\u00fc\u011f\u00fc teyit edilir.\r\n\r\n**Not**: **OTR** gizli kod tan\u0131ma \u00f6zelli\u011fi b\u00fcy\u00fck (A,B,C) ve k\u00fc\u00e7\u00fck (a,b,c,) harflere duyarl\u0131d\u0131r. Gizli kodunuzu belirlerken bunu akl\u0131n\u0131zda tutun!\r\n\r\n**1. Ad\u0131m**. Sohbet penceresindeki *OTR* d\u00fc\u011fmesini **t\u0131klay\u0131n**, ve a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi *Arkada\u015f\u0131n\u0131n kimli\u011fini do\u011frula\u2019y\u0131* se\u00e7in:\r\n\r\n![](/sbox/screen/pidgin-tr/52.png)\r\n\r\n*\u015eekil 9: Arkada\u015f\u0131n\u0131n kimli\u011fini do\u011frula \u00f6\u011fesi se\u00e7ilmi\u015f Teyit edilmemi\u015f men\u00fcs\u00fc*\r\n\r\nBu sizi do\u011frulama metodunu girmeye davet eden *Arkada\u015f\u0131n\u0131n kimli\u011fini do\u011frula* penceresini etkinle\u015ftirecek.\r\n\r\n**2. Ad\u0131m**.  ![](/sbox/screen/pidgin-tr/53.png)\u2019\u0131 t\u0131klay\u0131n ve a\u015fa\u011f\u0131daki gibi *Payla\u015f\u0131lan S\u0131r\u2019\u0131* se\u00e7in: \r\n\r\n![](/sbox/screen/pidgin-tr/54.png)\r\n\r\n*\u015eekil 10: A\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r listesi g\u00f6sterilen Arkada\u015f\u0131n\u0131n kimli\u011fini do\u011frula penceresi* \r\n\r\n**3. Ad\u0131m**. Gizli kodu a\u015fa\u011f\u0131daki gibi **girin**:\r\n\r\n![](/sbox/screen/pidgin-tr/55.png)\r\n\r\n*\u015eekil 11: Payla\u015f\u0131lan S\u0131r penceresi* \r\n\r\n**4. Ad\u0131m**. ![](/sbox/screen/pidgin-tr/56.png)\u2019i **t\u0131klayarak** a\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirin:\r\n\r\n![](/sbox/screen/pidgin-tr/58.png)\r\n\r\n*\u015eekil 12: Kurmaca bir irbitat i\u00e7in Arkada\u015f\u0131n\u0131n Kimli\u011fini Do\u011frula penceresi*\r\n\r\n**Not**: *Bu anda arkada\u015f\u0131n\u0131z \u015eekil 13\u2019te g\u00f6r\u00fclen pencereyi g\u00f6recek ve ayn\u0131 kodu girmesi gerekecek. E\u011fer kodlar birbirine uyarsa, oturumunuz teyit edilmi\u015f olacak.*\r\n\r\n![](/sbox/screen/pidgin-tr/57.png)\r\n\r\n*\u015eekil 13: Kurmaca bir irtibat i\u00e7in Arkada\u015f\u0131n\u0131n Kimli\u011fini Do\u011frula penceresi*\r\n\r\nOturum teyit edildi\u011finde *OTR* d\u00fc\u011fmesi ![](/sbox/screen/pidgin-tr/51.png)\u2019e d\u00f6necek. Bu haliyle oturumunuz g\u00fcvenli ve ger\u00e7ekten arkada\u015f\u0131n\u0131zla konu\u015ftu\u011funuzdan emin olabilirsiniz.\r\n\r\n### Soru Cevap Metodu ###\r\n\r\nBirbirinizin kimli\u011fini do\u011frulaman\u0131n bir ba\u015fka yolu da soru cevap metodudur. Bir Soru ve cevab\u0131n\u0131 yarat\u0131n. Soruyu okuduktan sonra arkada\u015f\u0131n\u0131z *tamamen* ayn\u0131 cevab\u0131 verebilmeli, ve cevaplar birbirini tutarsa, kimlikleriniz otomatik olarak do\u011frulanacak. \r\n\r\n**1. Adim**. Etkin olan bir ileti penceresinde *OTR* men\u00fcs\u00fcn\u00fc **t\u0131klayarak** ilgili a\u00e7\u0131lan men\u00fcy\u00fc etkinle\u015ftirin, ve sonras\u0131nda *Arkada\u015f\u0131n\u0131n Kimli\u011fini Do\u011frula* \u00f6\u011fesini **se\u00e7in** (l\u00fctfen *9. \u015eekil\u2019e* bak\u0131n).\r\n.\r\n![](/sbox/screen/pidgin-tr/50.png)\r\n\r\n*\u015eekil 14: OTR ikonu g\u00f6r\u00fcnen bir Pidgin sohbet penceresi*\r\n\r\n**2. Ad\u0131m**. A\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r men\u00fcy\u00fc **t\u0131klay\u0131n** ve *Soru Cevap* \u00f6\u011fesini a\u015fa\u011f\u0131daki gibi **se\u00e7in**:\r\n\r\n![](/sbox/screen/pidgin-tr/60.png)\r\n\r\n*\u015eekil 15: Arkada\u015f\u0131n\u0131n kimli\u011fini do\u011frula ekran\u0131*\r\n\r\n**3. Ad\u0131m**: Bir soru ve cevab\u0131n\u0131 **girin**. Bu soru arkada\u015f\u0131n\u0131za g\u00f6nderilecek.\r\n\r\n![](/sbox/screen/pidgin-tr/61.png)\r\n\r\n*\u015eekil 16: Soru Cevap ekran\u0131*\r\n\r\nArkada\u015f\u0131n\u0131z\u0131n cevab\u0131 sizinkiyle ayn\u0131ysa, ikinizin de kimli\u011fi do\u011frulanm\u0131\u015f, ya da her iki kat\u0131l\u0131mc\u0131 da oldu\u011funu iddia etti\u011fi ki\u015fi demektir!\r\n\r\nOturumunuzun \u00f6zg\u00fcnl\u00fc\u011f\u00fc teyit edildi\u011finde *OTR* d\u00fc\u011fmesi ![](/sbox/screen/pidgin-tr/51.png)\u2019a d\u00f6necek. B\u00f6ylelikle oturumunuz g\u00fcvenli olacak ve arkada\u015f\u0131n\u0131z\u0131n kimli\u011finden emin olabileceksiniz..\r\n\r\n###Elle parmak izi kontrol\u00fc ###\r\n\r\nBirbirinizin kimli\u011fini do\u011frulaman\u0131n \u00fc\u00e7\u00fcnc\u00fc yolu parmak izi kontrol\u00fcd\u00fcr. Bu metodla g\u00f6r\u00fcn\u00fcr parmak izlerinizi ba\u015fka bir ileti\u015fim kanal\u0131ndan (g\u00fcvenli e-posta ya da sesli g\u00f6r\u00fc\u015fme gibi) te\u011fi\u015f toku\u015f etmeniz gerekir (a\u015fa\u011f\u0131daki \u015eekil 17\u2019ye bak\u0131n\u0131z). De\u011fi\u015f toku\u015f edilen parmak izleri ayn\u0131 ise, *Bunun ger\u00e7ekten de do\u011fru parkmak izi oldu\u011funu **do\u011frulad\u0131m\u2019\u0131*** t\u0131klayarak oturumun \u00f6zg\u00fcnl\u00fc\u011f\u00fcn\u00fc **teyit edebilirsiniz.**\r\n\r\n![](/sbox/screen/pidgin-tr/79.png)\r\n\r\n*\u015eekil 17: Elle parmak izi kontrol\u00fc ekran\u0131*\r\n\r\n**Arkada\u015f listesi > Ara\u00e7lar > Eklentiler > Off the Record Messaging > Eklenti > Eklentiyi Yap\u0131land\u0131r\u2019\u0131** **se\u00e7ti\u011finizde**, *Tan\u0131nan parmak izleri* sekmesi arkada\u015f\u0131n\u0131z\u0131n hesab\u0131n\u0131 ve kimli\u011finin do\u011fruland\u0131\u011f\u0131n\u0131 g\u00f6sterir. \r\n\r\n![](/sbox/screen/pidgin-tr/62.png)\r\n\r\n*\u015eekil 18: Tan\u0131na Parmak \u0130zleri sekmesi g\u00f6r\u00fcnen Off-the-Record Mesajla\u015fma ekran\u0131*\r\n\r\nTebrikler! \u015eimdi gizli bir \u015fekilde sohbet edebilirsiniz. Arkada\u015f\u0131n\u0131zla bir sonraki sohbetinizde (ayn\u0131 bilgisayarlar\u0131 kullanarak), sadece g\u00fcvenli bir ba\u011flant\u0131 talep etmeniz ve arkada\u015f\u0131n\u0131z\u0131n kabul etmesi yeterli olacak (yukar\u0131daki \u015eekil 7 gibi). Oturumunuz b\u00f6ylelikle teyit edilmi\u015f olacak."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2041", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2041", 
+                "link_title": "\u5982\u4f55\u4f7f\u7528OTR\u5728Pidgin\u4e2d\u8fdb\u884c\u5b89\u5168\u5bf9\u8bdd", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5187", 
+                "module": "book", 
+                "nid": "2041", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5185", 
+                "p3": "5187", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5185", 
+                "router_path": "node/%", 
+                "title": "\u5982\u4f55\u4f7f\u7528OTR\u5728Pidgin\u4e2d\u8fdb\u884c\u5b89\u5168\u5bf9\u8bdd", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1445443502", 
+            "comment": "0", 
+            "created": "1441120761", 
+            "current_revision_id": "9566", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "pidgin_securechat", 
+                        "value": "pidgin_securechat"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5187": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2041", 
+                    "link_title": "\u5982\u4f55\u4f7f\u7528OTR\u5728Pidgin\u4e2d\u8fdb\u884c\u5b89\u5168\u5bf9\u8bdd", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5187", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5185", 
+                    "p3": "5187", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5185", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2041", 
+            "num_revisions": "17", 
+            "path": "https://securityinabox.org/en/pidgin_securechat", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1445443502", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Pidgin\u2019de OTR\u2019yi Kullanarak G\u00fcvenli bir Mesajla\u015fma Oturumu Nas\u0131l A\u00e7\u0131l\u0131r?", 
+                        "value": "Pidgin\u2019de OTR\u2019yi Kullanarak G\u00fcvenli bir Mesajla\u015fma Oturumu Nas\u0131l A\u00e7\u0131l\u0131r?"
+                    }
+                ]
+            }, 
+            "title_original": "How to Use OTR to Initiate a Secure Messaging Session in Pidgin", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442932417", 
+                        "created": "1442932417", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442396761", 
+                        "created": "1442396740", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442497987", 
+                        "created": "1442497934", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442324892", 
+                        "created": "1441630704", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442845940", 
+                        "created": "1442845940", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444660205", 
+                        "created": "1444660205", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "my": {
+                        "changed": "1443621123", 
+                        "created": "1443621123", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279150", 
+                        "created": "1441279150", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444179985", 
+                        "created": "1444179985", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021280", 
+                        "created": "1443021280", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833714", 
+                        "created": "1444728779", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441120761", 
+                        "created": "1441120761", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445443502", 
+                        "created": "1445443502", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "01dc83ee-8d10-4cf0-add2-c9dd0a538337", 
+            "vid": "9566", 
+            "vuuid": "857724eb-ae85-4ce8-8c94-e7af50cee5a2"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "<p><img src=\"/sbox/screen/pidginportable-en/pidgin.png\" alt=\"\" /></p>\n\n<p><strong>Ta\u015f\u0131nabilir Pidgin</strong> tek bir aray\u00fczle farkl\u0131 <strong>Anl\u0131k Mesajla\u015fma</strong> hesaplar\u0131n\u0131z\u0131 d\u00fczenleyip y\u00f6netmenizi sa\u011flayan \u00fccretsiz ve a\u00e7\u0131k kaynak bir istemcidir. <strong>Pidgin\u2019le</strong> kullan\u0131m i\u00e7in tasarlanm\u0131\u015f <strong>Ta\u015f\u0131nabilir Off-the-Record</strong> (<strong>OTR</strong>) eklentisi <strong>Pidgin</strong> kullan\u0131c\u0131lar\u0131 aras\u0131nda kimli\u011fi do\u011frulanm\u0131\u015f ve g\u00fcvenli ileti\u015fimi garanti eder.</p>\n", 
+                        "safe_value": "<h2>4.1 Pidgin\u2019in Kurulumlu ve Ta\u015f\u0131nabilir Versiyonlar\u0131 aras\u0131ndaki Farklar</h2>\n\n<p>Ta\u015f\u0131nabilir ara\u00e7lar bir bilgisayara <strong>kurulmad\u0131\u011f\u0131</strong> i\u00e7in, varkl\u0131klar\u0131 ve kullan\u0131mlar\u0131 saptanamaz. Fakat, harici arac\u0131n\u0131z ya da USB bellek \u00e7ubu\u011funuz ancak kulland\u0131\u011f\u0131n\u0131z  bilgisayar kadar g\u00fcvenlidir, ve reklam destekli, k\u00f6t\u00fc niyetli ve casus yaz\u0131l\u0131mlar ya da vir\u00fcs sald\u0131r\u0131lar\u0131na maruz kalabilir.</p>\n\n<p>Bunun d\u0131\u015f\u0131nda Ta\u015f\u0131nabilir Pidgin ile bilgisayara kurulmak i\u00e7in tasarlanan versiyon aras\u0131nda hi\u00e7bir fark yoktur.</p>\n\n<h2>4.2 Ta\u015f\u0131nabilir Pidgin Nas\u0131l \u0130ndirilip ve \u00c7\u0131kart\u0131l\u0131r?</h2>\n\n<p>Ta\u015f\u0131nabilir Pidgin\u2019i indirip \u00e7\u0131kartmaya ba\u015flamak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 uygulay\u0131n:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <a href=\"http://portableapps.com/apps/internet/pidgin_portable\"><strong>http://portableapps.com/apps/internet/pidgin_portable</strong></a>\u2018\u0131 <strong>t\u0131klayarak</strong> uygun indirme sitesine y\u00f6nlendirilin.</p>\n\n<p><strong>2. Ad\u0131m</strong>.  <img src=\"/sbox/screen/pidginportable-tr/01.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> ilgili <strong>Source Forge</strong> indirme sayfas\u0131n\u0131 etkinle\u015ftirin.</p>\n\n<p><strong>3. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidginportable-tr/02.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> <img src=\"/sbox/screen/pidginportable-tr/03.png\" alt=\"\" /> kurulum dosyas\u0131n\u0131 bilgisayar\u0131n\u0131za kaydedin, ve indirildi\u011fi klas\u00f6r\u00fc <strong>bulun</strong>.</p>\n\n<p><strong>4. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidginportable-tr/03.png\" alt=\"\" />\u2019ye <strong>\u00e7ift t\u0131klay\u0131n</strong>, <em>Dosyay\u0131 A\u00e7 \u2013 G\u00fcvenlik Uyar\u0131s\u0131</em> kutusu belirirse <img src=\"/sbox/screen/pidginportable-tr/04.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> a\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirin:</p>\n\n<p><img src=\"/sbox/screen/pidginportable-tr/05.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 1: Kurulum Dili penceresi</em></p>\n\n<p><strong>5. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidginportable-tr/06.png\" alt=\"\" />'i <strong>t\u0131klayarak</strong> a\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirin:</p>\n\n<p><img src=\"/sbox/screen/pidginportable-tr/07.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 2: Ta\u015f\u0131nabilir Pidgin | PortableApps.com penceresi</em></p>\n\n<p><strong>6. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidginportable-tr/08.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> a\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirin:</p>\n\n<p><img src=\"/sbox/screen/pidginportable-tr/09.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 3: Bile\u015fenleri Se\u00e7 penceresi</em></p>\n\n<p><strong>Not</strong>: <strong>Ta\u015f\u0131nabilir Pidgin\u2019i</strong> \u0130ngilizce\u2019den farkl\u0131 bir dilde kullanmak istiyorsan\u0131z, Di\u011fer Diller se\u00e7ene\u011fini i\u015faretleyerek <img src=\"/sbox/screen/pidginportable-tr/10.png\" alt=\"\" />'i se\u00e7in. Bu se\u00e7ene\u011fin i\u015faretlenmesi \u00e7\u0131karma i\u015fleminin birazc\u0131k uzamas\u0131na sebep olacak.</p>\n\n<p><strong>7. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidginportable-tr/08.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> <em>Kurulum Yerini Se\u00e7</em> penceresini etkinle\u015ftirin, ve <img src=\"/sbox/screen/pidginportable-tr/11.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> a\u015fa\u011f\u0131daki ekran\u0131  etkinle\u015ftirin:</p>\n\n<p><img src=\"/sbox/screen/pidginportable-tr/12.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 4: Klas\u00f6re G\u00f6z At penceresi</em></p>\n\n<p><strong>8. Ad\u0131m</strong>. Harici disk ya da USB bellek \u00e7ubu\u011funa do\u011fru <strong>ilerleyin</strong> ve onu <strong>se\u00e7erek</strong> <img src=\"/sbox/screen/pidginportable-tr/13.png\" alt=\"\" />\u2019i <strong>t\u0131klay\u0131p</strong> onaylay\u0131n, ve <em>Kurulum Yerini Se\u00e7</em> penceresine geri d\u00f6n\u00fcn.</p>\n\n<p><strong>9. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidginportable-tr/14.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> belirledi\u011finiz yere <strong>Ta\u015f\u0131nabilir Pidgin\u2019i</strong> \u00e7\u0131kartma i\u015flemini ba\u015flat\u0131n, sonras\u0131nda <img src=\"/sbox/screen/pidginportable-tr/15.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong>  kurulum i\u015flemini tamamlay\u0131n.</p>\n\n<p><strong>10. Ad\u0131m</strong>. Harici diskiniz ya da USB bellek \u00e7ubu\u011funuzu a\u015fa\u011f\u0131da <em>\u015eekil 5\u2018te</em> g\u00f6sterildi\u011fi gibi <strong>bulup</strong> <strong>a\u00e7arak</strong> <strong>Ta\u015f\u0131nabilir Pidgin</strong> progam\u0131n\u0131n ba\u015far\u0131yla \u00e7\u0131kart\u0131ld\u0131\u011f\u0131n\u0131 teyit edin.</p>\n\n<p><img src=\"/sbox/screen/pidginportable-tr/16.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 5: Klas\u00f6re G\u00f6z At penceresi</em></p>\n\n<p><strong>Ta\u015f\u0131nabilir Pidgin\u2019i</strong> g\u00fcvenli ve korunmal\u0131 bir \u015fekile kullanmaya ba\u015flamad\u0131n \u00f6nce, <strong>Off-the-Record</strong> (<strong>OTR</strong>) eklentisini indirip \u00e7\u0131kartman\u0131z gerekir.</p>\n\n<h2>4.3 Ta\u015f\u0131nabilir Pidgin OTR Nas\u0131l \u0130ndirilip \u00c7\u0131kart\u0131l\u0131r?</h2>\n\n<p><strong>1. Ad\u0131m</strong>. <a href=\"http://sourceforge.net/projects/portableapps/files/Pidgin-OTR%20Portable/Pidgin-OTR%20Portable%203.2%20Rev%202/\"><strong>http://sourceforge.net/projects/portableapps/files/Pidgin-OTR%20Portable/Pidgin-OTR%20Portable%203.2%20Rev%202/</strong></a> <strong>t\u0131klayarak</strong> uygun indirme sitesine y\u00f6nlendirilin.</p>\n\n<p><strong>2. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidginportable-tr/17.png\" alt=\"\" />'yi <strong>t\u0131klayarak</strong> <em>Pidgin-OTR_Portable_3.2_Rev_2.paf.exe</em> indirme penceresini etkinle\u015ftirin, ve sonras\u0131nda <img src=\"/sbox/screen/pidginportable-tr/02.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klay\u0131p</strong> <img src=\"/sbox/screen/pidginportable-tr/18.png\" alt=\"\" /> kurulum dosyas\u0131n\u0131 bilgisayar\u0131n\u0131za kaydedin.</p>\n\n<p><strong>3. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidginportable-tr/18.png\" alt=\"\" />\u2019e <strong>\u00e7ift t\u0131klay\u0131n</strong>. <em>Dosyay\u0131 A\u00e7 \u2013 G\u00fcvenlik Uyar\u0131s\u0131</em> kutusu a\u00e7\u0131l\u0131rsa <img src=\"/sbox/screen/pidginportable-tr/04.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> <em>Kurulum Dili</em> penceresini etkinle\u015ftirin (l\u00fctfen <em>\u015eekil 1\u2019e</em> bak\u0131n).</p>\n\n<p><strong>4. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidginportable-tr/06.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> <em>Pidgin-OTR Portable | PortableApps.com</em> penceresini etkinle\u015ftirin (l\u00fctfen buna benzeyen <em>\u015eekil 2\u2019ye</em> bak\u0131n).</p>\n\n<p><strong>5. Ad\u0131m</strong>.<img src=\"/sbox/screen/pidginportable-tr/08.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> <em>Kurulum Yerini Se\u00e7</em> penceresini etkinle\u015ftirin (l\u00fctfen buna benzeyen <em>\u015eekil 3\u2019e</em> bak\u0131n).</p>\n\n<p><strong>6. Ad\u0131m</strong>.<img src=\"/sbox/screen/pidginportable-tr/11.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> <em>Klas\u00f6re G\u00f6z At</em> penceresini etkinle\u015ftirin (l\u00fctfen buna benzeyen yukar\u0131daki <em>\u015eekil 4\u2019e</em> bak\u0131n).</p>\n\n<p><strong>7. Ad\u0131m</strong>. Harici diskiniz ya da USB bellek \u00e7ubu\u011funuzu <strong>se\u00e7ip</strong> <img src=\"/sbox/screen/pidginportable-tr/13.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> kurulum yerini onaylay\u0131n ve <em>Kurulum Yerini Se\u00e7</em> penceresine geri d\u00f6n\u00fcn.</p>\n\n<p><strong>8. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidginportable-tr/14.png\" alt=\"\" />'\u0131 <strong>t\u0131klayarak</strong> <strong>Ta\u015f\u0131nabilir Pidgin\u2019i</strong> belirledi\u011finiz klas\u00f6re \u00e7\u0131karmaya ba\u015flay\u0131n; <img src=\"/sbox/screen/pidginportable-tr/15.png\" alt=\"\" />\u2019i <strong>t\u0131klayarak</strong> kurulum i\u015flemini tamamlay\u0131n.</p>\n\n<p><strong>9. Ad\u0131m</strong>. Harici diskiniz ya da USB bellek \u00e7ubu\u011funuzu <em>\u015eekil 5\u2019te</em> g\u00f6sterildi\u011fi gibi <strong>bulup</strong> <strong>Ta\u015f\u0131nabilir Pidgin</strong> program\u0131n\u0131n klas\u00f6r\u00fcn\u00fc <strong>a\u00e7\u0131n</strong>.</p>\n\n<p><strong>10. Ad\u0131m</strong>. <img src=\"/sbox/screen/pidginportable-tr/19.png\" alt=\"\" />\u2019ye <strong>\u00e7ift t\u0131klayarak</strong> <strong>Ta\u015f\u0131nabilir Pidgin\u2019i</strong> a\u00e7\u0131n.</p>\n\n<p><strong>Pidgin\u2019i</strong> yap\u0131land\u0131rmaya ve kullanmaya ba\u015flamak i\u00e7in l\u00fctfen <a href=\"/en/pidgin_main\"><strong>Pidgin</strong></a>  b\u00f6l\u00fcm\u00fcne bak\u0131n.</p>\n", 
+                        "summary": "![](/sbox/screen/pidginportable-en/pidgin.png)\r\n\r\n**Ta\u015f\u0131nabilir Pidgin** tek bir aray\u00fczle farkl\u0131 **Anl\u0131k Mesajla\u015fma** hesaplar\u0131n\u0131z\u0131 d\u00fczenleyip y\u00f6netmenizi sa\u011flayan \u00fccretsiz ve a\u00e7\u0131k kaynak bir istemcidir. **Pidgin\u2019le** kullan\u0131m i\u00e7in tasarlanm\u0131\u015f **Ta\u015f\u0131nabilir Off-the-Record** (**OTR**) eklentisi **Pidgin** kullan\u0131c\u0131lar\u0131 aras\u0131nda kimli\u011fi do\u011frulanm\u0131\u015f ve g\u00fcvenli ileti\u015fimi garanti eder.", 
+                        "value": "## 4.1 Pidgin\u2019in Kurulumlu ve Ta\u015f\u0131nabilir Versiyonlar\u0131 aras\u0131ndaki Farklar ##\r\n\r\nTa\u015f\u0131nabilir ara\u00e7lar bir bilgisayara **kurulmad\u0131\u011f\u0131** i\u00e7in, varkl\u0131klar\u0131 ve kullan\u0131mlar\u0131 saptanamaz. Fakat, harici arac\u0131n\u0131z ya da USB bellek \u00e7ubu\u011funuz ancak kulland\u0131\u011f\u0131n\u0131z  bilgisayar kadar g\u00fcvenlidir, ve reklam destekli, k\u00f6t\u00fc niyetli ve casus yaz\u0131l\u0131mlar ya da vir\u00fcs sald\u0131r\u0131lar\u0131na maruz kalabilir.\r\n\r\nBunun d\u0131\u015f\u0131nda Ta\u015f\u0131nabilir Pidgin ile bilgisayara kurulmak i\u00e7in tasarlanan versiyon aras\u0131nda hi\u00e7bir fark yoktur.\r\n\r\n## 4.2 Ta\u015f\u0131nabilir Pidgin Nas\u0131l \u0130ndirilip ve \u00c7\u0131kart\u0131l\u0131r? ##\r\n\r\nTa\u015f\u0131nabilir Pidgin\u2019i indirip \u00e7\u0131kartmaya ba\u015flamak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 uygulay\u0131n:\r\n\r\n**1. Ad\u0131m**. [**http://portableapps.com/apps/internet/pidgin_portable**](http://portableapps.com/apps/internet/pidgin_portable)\u2018\u0131 **t\u0131klayarak** uygun indirme sitesine y\u00f6nlendirilin.\r\n\r\n**2. Ad\u0131m**.  ![](/sbox/screen/pidginportable-tr/01.png)\u2019\u0131 **t\u0131klayarak** ilgili **Source Forge** indirme sayfas\u0131n\u0131 etkinle\u015ftirin.\r\n\r\n**3. Ad\u0131m**. ![](/sbox/screen/pidginportable-tr/02.png)\u2019\u0131 **t\u0131klayarak** ![](/sbox/screen/pidginportable-tr/03.png) kurulum dosyas\u0131n\u0131 bilgisayar\u0131n\u0131za kaydedin, ve indirildi\u011fi klas\u00f6r\u00fc **bulun**.\r\n\r\n**4. Ad\u0131m**. ![](/sbox/screen/pidginportable-tr/03.png)\u2019ye **\u00e7ift t\u0131klay\u0131n**, *Dosyay\u0131 A\u00e7 \u2013 G\u00fcvenlik Uyar\u0131s\u0131* kutusu belirirse ![](/sbox/screen/pidginportable-tr/04.png)\u2019\u0131 **t\u0131klayarak** a\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirin:\r\n\r\n![](/sbox/screen/pidginportable-tr/05.png)\r\n\r\n*\u015eekil 1: Kurulum Dili penceresi*\r\n\r\n**5. Ad\u0131m**. ![](/sbox/screen/pidginportable-tr/06.png)'i **t\u0131klayarak** a\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirin:\r\n\r\n![](/sbox/screen/pidginportable-tr/07.png)\r\n\r\n*\u015eekil 2: Ta\u015f\u0131nabilir Pidgin | PortableApps.com penceresi*\r\n\r\n**6. Ad\u0131m**. ![](/sbox/screen/pidginportable-tr/08.png)\u2019i **t\u0131klayarak** a\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirin:\r\n\r\n![](/sbox/screen/pidginportable-tr/09.png)\r\n\r\n*\u015eekil 3: Bile\u015fenleri Se\u00e7 penceresi*\r\n\r\n**Not**: **Ta\u015f\u0131nabilir Pidgin\u2019i** \u0130ngilizce\u2019den farkl\u0131 bir dilde kullanmak istiyorsan\u0131z, Di\u011fer Diller se\u00e7ene\u011fini i\u015faretleyerek ![](/sbox/screen/pidginportable-tr/10.png)'i se\u00e7in. Bu se\u00e7ene\u011fin i\u015faretlenmesi \u00e7\u0131karma i\u015fleminin birazc\u0131k uzamas\u0131na sebep olacak. \r\n\r\n**7. Ad\u0131m**. ![](/sbox/screen/pidginportable-tr/08.png)\u2019i **t\u0131klayarak** *Kurulum Yerini Se\u00e7* penceresini etkinle\u015ftirin, ve ![](/sbox/screen/pidginportable-tr/11.png)\u2019\u0131 **t\u0131klayarak** a\u015fa\u011f\u0131daki ekran\u0131  etkinle\u015ftirin:\r\n\r\n![](/sbox/screen/pidginportable-tr/12.png)\r\n\r\n*\u015eekil 4: Klas\u00f6re G\u00f6z At penceresi*\r\n\r\n**8. Ad\u0131m**. Harici disk ya da USB bellek \u00e7ubu\u011funa do\u011fru **ilerleyin** ve onu **se\u00e7erek** ![](/sbox/screen/pidginportable-tr/13.png)\u2019i **t\u0131klay\u0131p** onaylay\u0131n, ve *Kurulum Yerini Se\u00e7* penceresine geri d\u00f6n\u00fcn.\r\n\r\n**9. Ad\u0131m**. ![](/sbox/screen/pidginportable-tr/14.png)\u2019\u0131 **t\u0131klayarak** belirledi\u011finiz yere **Ta\u015f\u0131nabilir Pidgin\u2019i** \u00e7\u0131kartma i\u015flemini ba\u015flat\u0131n, sonras\u0131nda ![](/sbox/screen/pidginportable-tr/15.png)\u2019i **t\u0131klayarak**  kurulum i\u015flemini tamamlay\u0131n.\r\n\r\n**10. Ad\u0131m**. Harici diskiniz ya da USB bellek \u00e7ubu\u011funuzu a\u015fa\u011f\u0131da *\u015eekil 5\u2018te* g\u00f6sterildi\u011fi gibi **bulup** **a\u00e7arak** **Ta\u015f\u0131nabilir Pidgin** progam\u0131n\u0131n ba\u015far\u0131yla \u00e7\u0131kart\u0131ld\u0131\u011f\u0131n\u0131 teyit edin.\r\n\r\n![](/sbox/screen/pidginportable-tr/16.png)\r\n\r\n*\u015eekil 5: Klas\u00f6re G\u00f6z At penceresi*\r\n\r\n**Ta\u015f\u0131nabilir Pidgin\u2019i** g\u00fcvenli ve korunmal\u0131 bir \u015fekile kullanmaya ba\u015flamad\u0131n \u00f6nce, **Off-the-Record** (**OTR**) eklentisini indirip \u00e7\u0131kartman\u0131z gerekir. \r\n\r\n## 4.3 Ta\u015f\u0131nabilir Pidgin OTR Nas\u0131l \u0130ndirilip \u00c7\u0131kart\u0131l\u0131r? ##\r\n\r\n**1. Ad\u0131m**. [**http://sourceforge.net/projects/portableapps/files/Pidgin-OTR%20Portable/Pidgin-OTR%20Portable%203.2%20Rev%202/**](http://sourceforge.net/projects/portableapps/files/Pidgin-OTR%20Portable/Pidgin-OTR%20Portable%203.2%20Rev%202/) **t\u0131klayarak** uygun indirme sitesine y\u00f6nlendirilin.\r\n\r\n**2. Ad\u0131m**. ![](/sbox/screen/pidginportable-tr/17.png)'yi **t\u0131klayarak** *Pidgin-OTR_Portable_3.2_Rev_2.paf.exe* indirme penceresini etkinle\u015ftirin, ve sonras\u0131nda ![](/sbox/screen/pidginportable-tr/02.png)\u2019\u0131 **t\u0131klay\u0131p** ![](/sbox/screen/pidginportable-tr/18.png) kurulum dosyas\u0131n\u0131 bilgisayar\u0131n\u0131za kaydedin.\r\n\r\n**3. Ad\u0131m**. ![](/sbox/screen/pidginportable-tr/18.png)\u2019e **\u00e7ift t\u0131klay\u0131n**. *Dosyay\u0131 A\u00e7 \u2013 G\u00fcvenlik Uyar\u0131s\u0131* kutusu a\u00e7\u0131l\u0131rsa ![](/sbox/screen/pidginportable-tr/04.png)\u2019\u0131 **t\u0131klayarak** *Kurulum Dili* penceresini etkinle\u015ftirin (l\u00fctfen *\u015eekil 1\u2019e* bak\u0131n).\r\n\r\n**4. Ad\u0131m**. ![](/sbox/screen/pidginportable-tr/06.png)\u2019i **t\u0131klayarak** *Pidgin-OTR Portable | PortableApps.com* penceresini etkinle\u015ftirin (l\u00fctfen buna benzeyen *\u015eekil 2\u2019ye* bak\u0131n).\r\n\r\n**5. Ad\u0131m**.![](/sbox/screen/pidginportable-tr/08.png)\u2019i **t\u0131klayarak** *Kurulum Yerini Se\u00e7* penceresini etkinle\u015ftirin (l\u00fctfen buna benzeyen *\u015eekil 3\u2019e* bak\u0131n).\r\n\r\n**6. Ad\u0131m**.![](/sbox/screen/pidginportable-tr/11.png)\u2019\u0131 **t\u0131klayarak** *Klas\u00f6re G\u00f6z At* penceresini etkinle\u015ftirin (l\u00fctfen buna benzeyen yukar\u0131daki *\u015eekil 4\u2019e* bak\u0131n).\r\n\r\n**7. Ad\u0131m**. Harici diskiniz ya da USB bellek \u00e7ubu\u011funuzu **se\u00e7ip** ![](/sbox/screen/pidginportable-tr/13.png)\u2019i **t\u0131klayarak** kurulum yerini onaylay\u0131n ve *Kurulum Yerini Se\u00e7* penceresine geri d\u00f6n\u00fcn.\r\n\r\n**8. Ad\u0131m**. ![](/sbox/screen/pidginportable-tr/14.png)'\u0131 **t\u0131klayarak** **Ta\u015f\u0131nabilir Pidgin\u2019i** belirledi\u011finiz klas\u00f6re \u00e7\u0131karmaya ba\u015flay\u0131n; ![](/sbox/screen/pidginportable-tr/15.png)\u2019i **t\u0131klayarak** kurulum i\u015flemini tamamlay\u0131n.\r\n\r\n**9. Ad\u0131m**. Harici diskiniz ya da USB bellek \u00e7ubu\u011funuzu *\u015eekil 5\u2019te* g\u00f6sterildi\u011fi gibi **bulup** **Ta\u015f\u0131nabilir Pidgin** program\u0131n\u0131n klas\u00f6r\u00fcn\u00fc **a\u00e7\u0131n**.\r\n\r\n**10. Ad\u0131m**. ![](/sbox/screen/pidginportable-tr/19.png)\u2019ye **\u00e7ift t\u0131klayarak** **Ta\u015f\u0131nabilir Pidgin\u2019i** a\u00e7\u0131n.\r\n\r\n**Pidgin\u2019i** yap\u0131land\u0131rmaya ve kullanmaya ba\u015flamak i\u00e7in l\u00fctfen [**Pidgin**](/en/pidgin_main)  b\u00f6l\u00fcm\u00fcne bak\u0131n."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2043", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2043", 
+                "link_title": "\u1021\u102d\u1010\u1039\u1031\u1006\u102c\u1004\u1039 Pidgin \u1014\u1032\u1094 OTR", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5189", 
+                "module": "book", 
+                "nid": "2043", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5185", 
+                "p3": "5189", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5185", 
+                "router_path": "node/%", 
+                "title": "\u1021\u102d\u1010\u1039\u1031\u1006\u102c\u1004\u1039 Pidgin \u1014\u1032\u1094 OTR", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1452173161", 
+            "comment": "0", 
+            "created": "1441121035", 
+            "current_revision_id": "12745", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "pidgin_portable", 
+                        "value": "pidgin_portable"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5189": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2043", 
+                    "link_title": "\u1021\u102d\u1010\u1039\u1031\u1006\u102c\u1004\u1039 Pidgin \u1014\u1032\u1094 OTR", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5189", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5185", 
+                    "p3": "5189", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5185", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2043", 
+            "num_revisions": "16", 
+            "path": "https://securityinabox.org/en/pidgin_portable", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452173161", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Ta\u015f\u0131nabilir Pidgin ve OTR", 
+                        "value": "Ta\u015f\u0131nabilir Pidgin ve OTR"
+                    }
+                ]
+            }, 
+            "title_original": "Portable Pidgin and OTR", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442932498", 
+                        "created": "1442932498", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442398855", 
+                        "created": "1442398855", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442498076", 
+                        "created": "1442498076", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442324983", 
+                        "created": "1441630904", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444816711", 
+                        "created": "1444816711", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1452173161", 
+                        "created": "1443621213", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279413", 
+                        "created": "1441279413", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444180137", 
+                        "created": "1444180137", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021393", 
+                        "created": "1443021393", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833765", 
+                        "created": "1444728979", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441121035", 
+                        "created": "1441121035", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445517478", 
+                        "created": "1445517478", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "cca081ae-915c-43d7-8fb2-45b590ce6e32", 
+            "vid": "12745", 
+            "vuuid": "a650c258-7371-4aa3-898e-03d3ca5d8cf2"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p><a name=\"5.0\" id=\"5.0\"></a></p>\n\n<h2>5.0 S\u0131k\u00e7a Sorulan Sorular ve G\u00f6zden Ge\u00e7irme</h2>\n\n<div class=\"background\">\n\n<p><strong><em>Soru: Pidgin-OTR\u2019yi arkada\u015flar\u0131mla MSN ve Yahoo\u2019da sohbet i\u00e7in kullanabilir miyim?</em></strong>?</p>\n\n<p><em><strong>Cevap</strong>: <strong>Pidgin-OTR</strong> farkl\u0131 sohbet ve mesajla\u015fma servislerini desteklese de \u00e7o\u011fu zaman arkada\u015f\u0131n\u0131zla <strong>anl\u0131k mesajla\u015fma</strong> oturumu a\u00e7abilmeniz i\u00e7in ikinizin de ayn\u0131 sa\u011flay\u0131c\u0131y\u0131 kullanman\u0131z gerekir. \u00d6rne\u011fin, ikinizin de <strong>IRC</strong> ya da <strong>ICQ</strong> hesab\u0131n\u0131 kullanmas\u0131 gerekir. Fakat, <strong>XMPP</strong> protokol\u00fcn\u00fc kullanan servisler (<strong>RiseUP</strong>, <strong>Google Talk</strong>, <strong>Facebook</strong>, ya da di\u011fer <strong>XMPP</strong> sunucular\u0131 gibi) birbirlerinin hesaplar\u0131 aras\u0131nda sohbete izin verebilirler. B\u00f6ylelikle <strong>RiseUp</strong> ve <strong>Google Talk</strong> hesaplar\u0131 aras\u0131nda bir sohbet kurulabilir. Bunun yan\u0131nda unutmay\u0131n ki <strong>Pidgin</strong> ile ayn\u0131 anda birka\u00e7 <strong>anl\u0131k mesajla\u015fma</strong> hesab\u0131n\u0131 kaydedip hepsi \u00fczerinden \u00e7evrimi\u00e7i olabilirsiniz. Bu da \u00e7ok protokoll\u00fc anl\u0131k mesajla\u015fma istemcisi kullanman\u0131n iyi yan\u0131.</em></p>\n\n<p><strong><em>Soru: Pidgin-OTR hesab\u0131ma ba\u015fka bir bilgisayardan nas\u0131l ula\u015fabilirim?</em></strong></p>\n\n<p><em><strong>Cevap</strong>: Bunu yapman\u0131n bir yolu o bilgisayar \u00fczerinde <strong>anl\u0131k mesajla\u015fma</strong> hesab\u0131n\u0131zla kullan\u0131lmak \u00fczere yeni bir \u00f6zel anahtar olu\u015fturmakt\u0131r, ama oturumunuzun \u00f6zg\u00fcnl\u00fc\u011f\u00fcn\u00fc yeniden teyit etmeniz gerekecek. Bir ba\u015fka se\u00e7enek de \u015fifreleme anahtarlar\u0131n\u0131z\u0131 yeni bilgisayar\u0131n\u0131za kopyalamakt\u0131r (bunlar\u0131 Windows\u2019ta %APPDATA%.purple i\u00e7inde ve Linux ve Mac\u2019te ~/.purple i\u00e7inde bulabilirsiniz).</em></p>\n\n<p><strong><em>Soru: Ya anl\u0131k mesajla\u015fma hesab\u0131m\u0131n parolas\u0131n\u0131 unutacak olursam? Ya da ba\u015fka biri bunu eline ge\u00e7irirse? Ge\u00e7mi\u015f ve gelecekteki b\u00fct\u00fcn konu\u015fmalar\u0131ma ula\u015fabilecekler mi?</em></strong></p>\n\n<p><em><strong>Cevap</strong>:Bu \u00e7ok \u00f6nemli bir soru. \u00d6ncelikle, parolan\u0131z\u0131 unutursan\u0131z ve hesap sa\u011flay\u0131c\u0131n\u0131z\u0131n \u00f6nerdi\u011fi yollarla yenileyemiyorsan\u0131z yeni bir <strong>anl\u0131k mesajla\u015fma</strong> hesab\u0131 olu\u015fturman\u0131z gerekecek. Bundan sonra, arkada\u015f\u0131n\u0131z\u0131 birbirinizi tan\u0131yabilece\u011finiz g\u00fcvenli ve teyit edilmi\u015f bir e-posta ya da sesli sohbet yoluyla bilgilendirmelisiniz.</em></p>\n\n<p><em>Son olarak birbirinizi arkada\u015f olarak teyit etmelisiniz. Ba\u015fka biri her hangi bir yolla <strong>anl\u0131k me\u015fajla\u015fma</strong> parolan\u0131z\u0131 eline ge\u00e7irmi\u015fse, o ki\u015fi <strong>Pidgin</strong> kullan\u0131rken sizmi\u015f gibi davranmaya yeltenebilir. Neyse ki, sizin \u015fifreleme anahtarlar\u0131n\u0131z ya da sizin payla\u015ft\u0131\u011f\u0131n\u0131z parola kelimeleri bilmedi\u011fi i\u00e7in oturumu teyit edemeceyecek. B\u00f6ylelikle arkada\u015f\u0131n\u0131z ondan s\u00fcphe edebilir. \u0130\u015fte bu y\u00fczden kimlik do\u011frulama <strong>\u00e7ok</strong> \u00f6nemlidir.</em></p>\n\n<p><em>Ek olarak, yukar\u0131daki y\u00f6nergeleri takip edip <strong>OTR\u2019nin</strong> \u2018Yap\u0131land\u0131rma\u2019 sekmesinde tavsiye edilen se\u00e7enekleri ayarlad\u0131ysan\u0131z, parolan\u0131z\u0131 \u00e7alan ya da bilgisayar\u0131n\u0131za ula\u015f\u0131m\u0131 olan biri bile ge\u00e7mi\u015f g\u00f6r\u00fc\u015fmelerinize ula\u015famayacak, \u00e7\u00fcnk\u00fc onlar\u0131 kaydetmemeyi se\u00e7tiniz.</em></p>\n\n</div>\n\n<p><a name=\"5.1\" id=\"5.1\"></a></p>\n\n<h2>5.1 G\u00f6zden Ge\u00e7irme Sorular\u0131</h2>\n\n<ul><li>Bir arkada\u015f\u0131n\u0131zla sohbet oturumunuzu ka\u00e7 defa teyit etmeniz gereklidir?</li>\n<li>Pidgin\u2019de birden fazla anl\u0131k ileti hesab\u0131n\u0131 kaydedip ayn\u0131 anda kullanmak m\u00fcmk\u00fcn m\u00fcd\u00fcr?</li>\n<li>Pidgin\u2019de parmak izi ne demektir?</li>\n<li>Ba\u015fka bir bilgisayarda Pidgin-OTR\u2019yi kurdu\u011funuzda OTR se\u00e7eneklerinize (al\u0131nan anahtarlar\u0131n parmak izleri dahil olmak \u00fczere) ne olacak?</li>\n<li>Pidgin\u2019de \u00f6zel ve teyit edilmi\u015f bir sohbet oturumu a\u00e7mak i\u00e7in neler gereklidir?</li>\n<li>Pidgin\u2019de  bir hesap a\u00e7mak i\u00e7in ne gerekir?</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "<a name=\"5.0\"></a>\r\n## 5.0 S\u0131k\u00e7a Sorulan Sorular ve G\u00f6zden Ge\u00e7irme ##\r\n\r\n<div class=\"background\" markdown=\"1\"> \r\n\r\n***Soru: Pidgin-OTR\u2019yi arkada\u015flar\u0131mla MSN ve Yahoo\u2019da sohbet i\u00e7in kullanabilir miyim?***? \r\n\r\n***Cevap**: **Pidgin-OTR** farkl\u0131 sohbet ve mesajla\u015fma servislerini desteklese de \u00e7o\u011fu zaman arkada\u015f\u0131n\u0131zla **anl\u0131k mesajla\u015fma** oturumu a\u00e7abilmeniz i\u00e7in ikinizin de ayn\u0131 sa\u011flay\u0131c\u0131y\u0131 kullanman\u0131z gerekir. \u00d6rne\u011fin, ikinizin de **IRC** ya da **ICQ** hesab\u0131n\u0131 kullanmas\u0131 gerekir. Fakat, **XMPP** protokol\u00fcn\u00fc kullanan servisler (**RiseUP**, **Google Talk**, **Facebook**, ya da di\u011fer **XMPP** sunucular\u0131 gibi) birbirlerinin hesaplar\u0131 aras\u0131nda sohbete izin verebilirler. B\u00f6ylelikle **RiseUp** ve **Google Talk** hesaplar\u0131 aras\u0131nda bir sohbet kurulabilir. Bunun yan\u0131nda unutmay\u0131n ki **Pidgin** ile ayn\u0131 anda birka\u00e7 **anl\u0131k mesajla\u015fma** hesab\u0131n\u0131 kaydedip hepsi \u00fczerinden \u00e7evrimi\u00e7i olabilirsiniz. Bu da \u00e7ok protokoll\u00fc anl\u0131k mesajla\u015fma istemcisi kullanman\u0131n iyi yan\u0131.*\r\n\r\n\r\n***Soru: Pidgin-OTR hesab\u0131ma ba\u015fka bir bilgisayardan nas\u0131l ula\u015fabilirim?***\r\n\r\n***Cevap**: Bunu yapman\u0131n bir yolu o bilgisayar \u00fczerinde **anl\u0131k mesajla\u015fma** hesab\u0131n\u0131zla kullan\u0131lmak \u00fczere yeni bir \u00f6zel anahtar olu\u015fturmakt\u0131r, ama oturumunuzun \u00f6zg\u00fcnl\u00fc\u011f\u00fcn\u00fc yeniden teyit etmeniz gerekecek. Bir ba\u015fka se\u00e7enek de \u015fifreleme anahtarlar\u0131n\u0131z\u0131 yeni bilgisayar\u0131n\u0131za kopyalamakt\u0131r (bunlar\u0131 Windows\u2019ta %APPDATA%\\.purple i\u00e7inde ve Linux ve Mac\u2019te ~/.purple i\u00e7inde bulabilirsiniz).*\r\n\r\n***Soru: Ya anl\u0131k mesajla\u015fma hesab\u0131m\u0131n parolas\u0131n\u0131 unutacak olursam? Ya da ba\u015fka biri bunu eline ge\u00e7irirse? Ge\u00e7mi\u015f ve gelecekteki b\u00fct\u00fcn konu\u015fmalar\u0131ma ula\u015fabilecekler mi?***\r\n\r\n***Cevap**:Bu \u00e7ok \u00f6nemli bir soru. \u00d6ncelikle, parolan\u0131z\u0131 unutursan\u0131z ve hesap sa\u011flay\u0131c\u0131n\u0131z\u0131n \u00f6nerdi\u011fi yollarla yenileyemiyorsan\u0131z yeni bir **anl\u0131k mesajla\u015fma** hesab\u0131 olu\u015fturman\u0131z gerekecek. Bundan sonra, arkada\u015f\u0131n\u0131z\u0131 birbirinizi tan\u0131yabilece\u011finiz g\u00fcvenli ve teyit edilmi\u015f bir e-posta ya da sesli sohbet yoluyla bilgilendirmelisiniz.*\r\n\r\n*Son olarak birbirinizi arkada\u015f olarak teyit etmelisiniz. Ba\u015fka biri her hangi bir yolla **anl\u0131k me\u015fajla\u015fma** parolan\u0131z\u0131 eline ge\u00e7irmi\u015fse, o ki\u015fi **Pidgin** kullan\u0131rken sizmi\u015f gibi davranmaya yeltenebilir. Neyse ki, sizin \u015fifreleme anahtarlar\u0131n\u0131z ya da sizin payla\u015ft\u0131\u011f\u0131n\u0131z parola kelimeleri bilmedi\u011fi i\u00e7in oturumu teyit edemeceyecek. B\u00f6ylelikle arkada\u015f\u0131n\u0131z ondan s\u00fcphe edebilir. \u0130\u015fte bu y\u00fczden kimlik do\u011frulama **\u00e7ok** \u00f6nemlidir.*\r\n\r\n\r\n*Ek olarak, yukar\u0131daki y\u00f6nergeleri takip edip **OTR\u2019nin** \u2018Yap\u0131land\u0131rma\u2019 sekmesinde tavsiye edilen se\u00e7enekleri ayarlad\u0131ysan\u0131z, parolan\u0131z\u0131 \u00e7alan ya da bilgisayar\u0131n\u0131za ula\u015f\u0131m\u0131 olan biri bile ge\u00e7mi\u015f g\u00f6r\u00fc\u015fmelerinize ula\u015famayacak, \u00e7\u00fcnk\u00fc onlar\u0131 kaydetmemeyi se\u00e7tiniz.*\r\n\r\n</div>\r\n\r\n<a name=\"5.1\"></a>\r\n## 5.1 G\u00f6zden Ge\u00e7irme Sorular\u0131 ##\r\n\r\n- Bir arkada\u015f\u0131n\u0131zla sohbet oturumunuzu ka\u00e7 defa teyit etmeniz gereklidir?\r\n- Pidgin\u2019de birden fazla anl\u0131k ileti hesab\u0131n\u0131 kaydedip ayn\u0131 anda kullanmak m\u00fcmk\u00fcn m\u00fcd\u00fcr?\r\n- Pidgin\u2019de parmak izi ne demektir?\r\n- Ba\u015fka bir bilgisayarda Pidgin-OTR\u2019yi kurdu\u011funuzda OTR se\u00e7eneklerinize (al\u0131nan anahtarlar\u0131n parmak izleri dahil olmak \u00fczere) ne olacak?\r\n- Pidgin\u2019de \u00f6zel ve teyit edilmi\u015f bir sohbet oturumu a\u00e7mak i\u00e7in neler gereklidir?\r\n- Pidgin\u2019de  bir hesap a\u00e7mak i\u00e7in ne gerekir?\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2044", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2044", 
+                "link_title": "\u5e38\u89c1\u95ee\u9898\u4e0e\u56de\u987e", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5190", 
+                "module": "book", 
+                "nid": "2044", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5185", 
+                "p3": "5190", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5185", 
+                "router_path": "node/%", 
+                "title": "\u5e38\u89c1\u95ee\u9898\u4e0e\u56de\u987e", 
+                "updated": "0", 
+                "weight": "5"
+            }, 
+            "changed": "1445443634", 
+            "comment": "0", 
+            "created": "1441121080", 
+            "current_revision_id": "9567", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "pidgin_faq", 
+                        "value": "pidgin_faq"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5190": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2044", 
+                    "link_title": "\u5e38\u89c1\u95ee\u9898\u4e0e\u56de\u987e", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5190", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5185", 
+                    "p3": "5190", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5185", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "5"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2044", 
+            "num_revisions": "16", 
+            "path": "https://securityinabox.org/en/pidgin_faq", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1445443634", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "S\u0131k\u00e7a Sorulan Sorular ve G\u00f6zden Ge\u00e7irme", 
+                        "value": "S\u0131k\u00e7a Sorulan Sorular ve G\u00f6zden Ge\u00e7irme"
+                    }
+                ]
+            }, 
+            "title_original": "FAQ and Review", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442932573", 
+                        "created": "1442932573", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442398982", 
+                        "created": "1442398982", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442498320", 
+                        "created": "1442498206", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441631023", 
+                        "created": "1441631023", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442846033", 
+                        "created": "1442846033", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444660387", 
+                        "created": "1444660387", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "my": {
+                        "changed": "1443621539", 
+                        "created": "1443621313", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279508", 
+                        "created": "1441279508", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444180348", 
+                        "created": "1444180348", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021422", 
+                        "created": "1443021422", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833806", 
+                        "created": "1444729037", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441121080", 
+                        "created": "1441121080", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445443634", 
+                        "created": "1445443634", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "b56146e9-222e-4d0e-bbe7-e54e3b5108e6", 
+            "vid": "9567", 
+            "vuuid": "0f186a67-013a-4d7f-bf11-18903ee3a07f"
+        }
+    ], 
+    "changed": "1456154132", 
+    "comment": "0", 
+    "created": "1441120644", 
+    "current_revision_id": "13324", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "tr": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>OTR ile Pidgin\u2019i Kurma</strong></p>\n\n<ul><li><em>K\u0131sa <a href=\"/tr/handsonguides\">Uygulamal\u0131 Rehberler\u2019in</a> Giri\u015f b\u00f6l\u00fcm\u00fcn\u00fc okuyun</em></li>\n<li><em>A\u015fa\u011f\u0131daki <strong>OTR ile Pidgin</strong> ikonunu <strong>t\u0131klay\u0131n</strong> ve kurucuyu \u2018A\u00e7\u0131n\u2019 ya da \u2018\u00c7al\u0131\u015ft\u0131r\u0131n\u2019. Gerekirse, \u00f6nce kurucuyu kaydedin, sonra kaydetti\u011finiz yeri bulup \u00fcst\u00fcne \u00e7ift t\u0131klay\u0131n</em></li>\n<li><em>Devam etmeden \u00f6nce bir sonraki k\u0131s\u0131mdaki \u2018Kurulum y\u00f6nergeleri\u2019ni okuyun</em></li>\n<li><em>Kurucuyu bilgisayar\u0131n\u0131za kaydettiyseniz, kurulumdan sonra silebilirsiniz</em></li>\n</ul><p><strong>Pidgin</strong>:  <strong>OTR</strong>:<br /><a href=\"/sbox/programs/pidgin.exe\"><img src=\"/sites/securityinabox.org/files/u12/pidgin.png\" alt=\"\" /></a>\n<a href=\"/sbox/programs/pidgin-otr.exe\"><img src=\"/sites/securityinabox.org/files/u9/off_the_record.jpg\" alt=\"\" /></a></p>\n", 
+                "value": "**OTR ile Pidgin\u2019i Kurma**\r\n\r\n- *K\u0131sa [Uygulamal\u0131 Rehberler\u2019in](/tr/handsonguides) Giri\u015f b\u00f6l\u00fcm\u00fcn\u00fc okuyun*\r\n- *A\u015fa\u011f\u0131daki **OTR ile Pidgin** ikonunu **t\u0131klay\u0131n** ve kurucuyu \u2018A\u00e7\u0131n\u2019 ya da \u2018\u00c7al\u0131\u015ft\u0131r\u0131n\u2019. Gerekirse, \u00f6nce kurucuyu kaydedin, sonra kaydetti\u011finiz yeri bulup \u00fcst\u00fcne \u00e7ift t\u0131klay\u0131n*\r\n- *Devam etmeden \u00f6nce bir sonraki k\u0131s\u0131mdaki \u2018Kurulum y\u00f6nergeleri\u2019ni okuyun*\r\n- *Kurucuyu bilgisayar\u0131n\u0131za kaydettiyseniz, kurulumdan sonra silebilirsiniz*\r\n\r\n**Pidgin**:  **OTR**:  \r\n[![](/sites/securityinabox.org/files/u12/pidgin.png)](/sbox/programs/pidgin.exe)\r\n[![](/sites/securityinabox.org/files/u9/off_the_record.jpg)](/sbox/programs/pidgin-otr.exe)"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Pidgin ve OTR\u2019yi Kurma</strong></p>\n\n<ul><li><em>K\u0131sa <a href=\"/tr/handsonguides\"><strong>Uygulamal\u0131 Rehberler\u2019in</strong></a> Giri\u015f b\u00f6l\u00fcm\u00fcn\u00fc okuyun</em></li>\n<li><em>A\u015fa\u011f\u0131daki <strong>Pidgin</strong> ikonunu <strong>t\u0131klayarak</strong> <strong>www.pidgin.im/download/windows</strong> sayfas\u0131n\u0131 a\u00e7\u0131n</em></li>\n<li><em><strong>Windows i\u00e7in Pidgin\u2019i \u0130ndir</strong> linkini <strong>t\u0131klay\u0131n</strong></em></li>\n<li><em><strong>Kurulum dosyas\u0131n\u0131</strong> bilgisayar\u0131n\u0131za <strong>kaydedin</strong>, yerini <strong>bulup</strong> \u00fcst\u00fcne <strong>\u00e7ift t\u0131klay\u0131n</strong></em></li>\n<li><em>A\u015fa\u011f\u0131daki <strong>OTR</strong> ikonuna <strong>t\u0131klayarak</strong> <strong>https://otr.cypherpunks.ca/index.php#downloads</strong> sayfas\u0131n\u0131 a\u00e7\u0131n</em></li>\n<li><em><strong>OTR plugin for Pidgin</strong> k\u0131sm\u0131nda <strong>Win32 installer for pidgin 2.x</strong> linkini <strong>t\u0131klay\u0131n</strong></em></li>\n<li><em>Kurucuyu bilgisayar\u0131n\u0131za <strong>kaydedin</strong>, yerini <strong>bulup</strong> \u00fcst\u00fcne <strong>\u00e7ift t\u0131klay\u0131n</strong></em></li>\n<li><em><strong>Pidgin</strong> ve <strong>OTR\u2019yi</strong> ba\u015far\u0131yla kurduktan sonra kurulum programlar\u0131n\u0131 bilgisayar\u0131n\u0131zdan silebilirsiniz.</em></li>\n</ul><p><strong>Pidgin</strong>:  <strong>OTR</strong>:<br /><a href=\"http://www.pidgin.im/download/windows/\"><img src=\"/sites/securityinabox.org/files/u12/pidgin.png\" alt=\"\" /></a>\n<a href=\"https://otr.cypherpunks.ca/index.php#downloads\"><img src=\"/sites/securityinabox.org/files/u9/off_the_record.jpg\" alt=\"\" /></a></p>\n", 
+                "value": "**Pidgin ve OTR\u2019yi Kurma**\r\n\r\n- *K\u0131sa [**Uygulamal\u0131 Rehberler\u2019in**](/tr/handsonguides) Giri\u015f b\u00f6l\u00fcm\u00fcn\u00fc okuyun*\r\n- *A\u015fa\u011f\u0131daki **Pidgin** ikonunu **t\u0131klayarak** **www.pidgin.im/download/windows** sayfas\u0131n\u0131 a\u00e7\u0131n*\r\n- ***Windows i\u00e7in Pidgin\u2019i \u0130ndir** linkini **t\u0131klay\u0131n***\r\n- ***Kurulum dosyas\u0131n\u0131** bilgisayar\u0131n\u0131za **kaydedin**, yerini **bulup** \u00fcst\u00fcne **\u00e7ift t\u0131klay\u0131n***\r\n- *A\u015fa\u011f\u0131daki **OTR** ikonuna **t\u0131klayarak** **https://otr.cypherpunks.ca/index.php#downloads** sayfas\u0131n\u0131 a\u00e7\u0131n*\r\n- ***OTR plugin for Pidgin** k\u0131sm\u0131nda **Win32 installer for pidgin 2.x** linkini **t\u0131klay\u0131n***\r\n- *Kurucuyu bilgisayar\u0131n\u0131za **kaydedin**, yerini **bulup** \u00fcst\u00fcne **\u00e7ift t\u0131klay\u0131n***\r\n- ***Pidgin** ve **OTR\u2019yi** ba\u015far\u0131yla kurduktan sonra kurulum programlar\u0131n\u0131 bilgisayar\u0131n\u0131zdan silebilirsiniz.*\r\n\r\n**Pidgin**:  **OTR**:  \r\n[![](/sites/securityinabox.org/files/u12/pidgin.png)](http://www.pidgin.im/download/windows/)\r\n[![](/sites/securityinabox.org/files/u9/off_the_record.jpg)](https://otr.cypherpunks.ca/index.php#downloads)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "Pidgin with OTR - secure instant messagi", 
+                "value": "Pidgin with OTR - secure instant messagi"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "Pidgin ve OTR- G\u00fcvenli Anl\u0131k Mesajla\u015fma", 
+                "value": "Pidgin ve OTR- G\u00fcvenli Anl\u0131k Mesajla\u015fma"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Pidgin</strong> \u00fccretsiz ve a\u00e7\u0131k kaynak olan, tek bir aray\u00fcz kullanarak fark\u0131 <strong>Anl\u0131k Mesajla\u015fma</strong> (<strong>Instant Messaging, IM</strong>) hesaplar\u0131n\u0131z\u0131 organize etmenizi ve y\u00f6netmenizi sa\u011flayan bir istemcidir. Kendisi i\u00e7in tasarlanm\u0131\u015f olan <strong>Off-the-Record</strong> (<strong>OTR</strong>) eklentisiyle beraber <strong>Pidgin</strong>, kullan\u0131c\u0131lar\u0131 aras\u0131nda kimlik do\u011frulamal\u0131 ve g\u00fcvenli bir ileti\u015fim temin eder.</p>\n", 
+                "value": "**Pidgin** \u00fccretsiz ve a\u00e7\u0131k kaynak olan, tek bir aray\u00fcz kullanarak fark\u0131 **Anl\u0131k Mesajla\u015fma** (**Instant Messaging, IM**) hesaplar\u0131n\u0131z\u0131 organize etmenizi ve y\u00f6netmenizi sa\u011flayan bir istemcidir. Kendisi i\u00e7in tasarlanm\u0131\u015f olan **Off-the-Record** (**OTR**) eklentisiyle beraber **Pidgin**, kullan\u0131c\u0131lar\u0131 aras\u0131nda kimlik do\u011frulamal\u0131 ve g\u00fcvenli bir ileti\u015fim temin eder."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-12 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "pidgin", 
+                "value": "pidgin"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "11"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "11"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5185": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2039", 
+            "link_title": "Pidgin with OTR - Secure Instant Messaging", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5185", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5185", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-5"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2039", 
+    "num_revisions": "29", 
+    "path": "https://securityinabox.org/en/pidgin_main", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1456154132", 
+    "revision_uid": "479", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "Pidgin ve OTR- G\u00fcvenli Anl\u0131k Mesajla\u015fma", 
+                "value": "Pidgin ve OTR- G\u00fcvenli Anl\u0131k Mesajla\u015fma"
+            }
+        ]
+    }, 
+    "title_original": "Pidgin with OTR - Secure Instant Messaging", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442932160", 
+                "created": "1442932160", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1456154132", 
+                "created": "1442396294", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442497769", 
+                "created": "1442497769", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1452519946", 
+                "created": "1441625289", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fr": {
+                "changed": "1442845681", 
+                "created": "1442845681", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1444659916", 
+                "created": "1444659916", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "km": {
+                "changed": "1452871743", 
+                "created": "1452871743", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443620905", 
+                "created": "1443620905", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441278398", 
+                "created": "1441278398", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444178998", 
+                "created": "1444178998", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1443016048", 
+                "created": "1443016048", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1443525344", 
+                "created": "1443525344", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1446134667", 
+                "created": "1441120644", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2039", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445443378", 
+                "created": "1445443378", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "231488d5-7ec3-4270-82ef-e14aef62ca93", 
+    "vid": "13324", 
+    "vuuid": "98a5c848-cb58-48b4-a2da-b828dfa3c12a"
+}

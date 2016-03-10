@@ -1,0 +1,786 @@
+{
+    "changed": "1417702486", 
+    "comment": "0", 
+    "created": "1416537400", 
+    "current_revision_id": "2936", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_cg_translated_guide_title": {
+        "und": [
+            {
+                "vargs": "[node:nid]", 
+                "vname": "get_translated_guide_title|default"
+            }
+        ]
+    }, 
+    "field_edit_guide_link": [], 
+    "field_guide": {
+        "und": [
+            {
+                "changed": "1452602048", 
+                "comment": "0", 
+                "created": "1416489862", 
+                "current_revision_id": "4699", 
+                "data": "a:6:{s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";s:7:\"contact\";i:1;}", 
+                "field_htb_chapter_element": {
+                    "und": [
+                        {
+                            "changed": "1456110639", 
+                            "comment": "0", 
+                            "created": "1416489605", 
+                            "current_revision_id": "13307", 
+                            "data": "a:6:{s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";s:7:\"contact\";i:1;}", 
+                            "field_chapter_image_zero": [], 
+                            "field_chapter_text_zero": {
+                                "en": [
+                                    {
+                                        "format": "filtered_html", 
+                                        "safe_value": "<p>The first step to ensuring that you are communicating as securely as possible is to secure your email by:</p>\n\n<ul><li>Choosing to open an email account with a trusted email service such as Gmail instead of Yahoo, not known for security and privacy, or Hotmail, which inserts the <a href=\"https://securityinabox.org/en/glossary#IP_address\">IP address</a> of the computer you are using into all of the messages you send.</li>\n<li>If you are using Gmail or certain other web services, using two-step verification to add a layer of security to your email login. Basically, Gmail’s two-step means that once you sign in with your password, Google will send a verification code to your phone via SMS, voice call or the Google Authenticator app, depending on your choice. You must enter this code to access your account. Google Authenticator is available for Android, iPhone and Blackberry phones. This <a href=\"http://en.wikipedia.org/wiki/Two-step_verification\">Wikipedia article</a> explains more, and lists web services which also use two-step verification</li>\n<li>Creating a strong password for your email account. Find out how you can create a strong password by reading the <a href=\"https://securityinabox.org/en/chapter-3\">How to create and maintain secure paswords</a> section of Security in-a-box.</li>\n<li>Accessing your webmail through a browser that has added security features. Mozilla Firefox is a good free and open source browser you can use since it is more secure and can be <a href=\"https://securityinabox.org/en/firefox_main\">extended</a> to make your experience safer.</li>\n<li>Using a secure connection when using webmail accounts. You can learn more about secure connections, how to know if you’re on a secure connection and how you can force your browser to connect securely by reading the <a href=\"https://securityinabox.org/en/chapter_7_1#Keeping_your_webmail_private\">Keeping your webmail private</a> section of Security in-a-box. </li>\n<li>Opening a secure email account which has more security features, such as Riseup.net. Riseup is free and you can find out how you can do this by reading the <a href=\"https://securityinabox.org/en/chapter_7_1#Switching_to_a_more_secure_email_account\">Switching to a more secure email account section</a> of Security in-a-box.</li>\n<li>Encrypting the content of your email to protect it from prying eyes. You can encrypt your message using GPG but this might be a little difficult for those without advanced computer knowledge. An easier option would be to use Mozilla Thunderbird with Enigmail and GPG since you only have to set it up once. Find out how you can do this by reading the <a href=\"https://securityinabox.org/en/chapter_7_4#Encrypting_and_authenticating_individual_email_messages\">Encrypting and Authenticating Individual Messages</a> section of Security in-a-box.</li>\n</ul>", 
+                                        "value": "The first step to ensuring that you are communicating as securely as possible is to secure your email by:\r\n\r\n- Choosing to open an email account with a trusted email service such as Gmail instead of Yahoo, not known for security and privacy, or Hotmail, which inserts the [IP address](https://securityinabox.org/en/glossary#IP_address) of the computer you are using into all of the messages you send.\r\n- If you are using Gmail or certain other web services, using two-step verification to add a layer of security to your email login. Basically, Gmail’s two-step means that once you sign in with your password, Google will send a verification code to your phone via SMS, voice call or the Google Authenticator app, depending on your choice. You must enter this code to access your account. Google Authenticator is available for Android, iPhone and Blackberry phones. This [Wikipedia article](http://en.wikipedia.org/wiki/Two-step_verification) explains more, and lists web services which also use two-step verification\r\n- Creating a strong password for your email account. Find out how you can create a strong password by reading the [How to create and maintain secure paswords](https://securityinabox.org/en/chapter-3) section of Security in-a-box.\r\n- Accessing your webmail through a browser that has added security features. Mozilla Firefox is a good free and open source browser you can use since it is more secure and can be [extended](https://securityinabox.org/en/firefox_main) to make your experience safer.\r\n- Using a secure connection when using webmail accounts. You can learn more about secure connections, how to know if you’re on a secure connection and how you can force your browser to connect securely by reading the [Keeping your webmail private](https://securityinabox.org/en/chapter_7_1#Keeping_your_webmail_private) section of Security in-a-box. \r\n- Opening a secure email account which has more security features, such as Riseup.net. Riseup is free and you can find out how you can do this by reading the [Switching to a more secure email account section](https://securityinabox.org/en/chapter_7_1#Switching_to_a_more_secure_email_account) of Security in-a-box.\r\n- Encrypting the content of your email to protect it from prying eyes. You can encrypt your message using GPG but this might be a little difficult for those without advanced computer knowledge. An easier option would be to use Mozilla Thunderbird with Enigmail and GPG since you only have to set it up once. Find out how you can do this by reading the [Encrypting and Authenticating Individual Messages](https://securityinabox.org/en/chapter_7_4#Encrypting_and_authenticating_individual_email_messages) section of Security in-a-box.\r\n"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_content_level": {
+                                "und": [
+                                    {
+                                        "tid": "81"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_feature": [], 
+                            "field_htb_chapter_feature_bottom": [], 
+                            "field_htb_chapter_feature_top": {
+                                "und": [
+                                    {
+                                        "title": "Snippet 1 for the eco rights africa community", 
+                                        "value": "In January 2013, a lone hacker, Shahin Ramezany, was able to exploit a hole in Yahoo’s servers by leveraging a vulnerability – described as DOM-based XSS vulnerability – that is exploitable in all major browsers thus putting more than 400 million yahoo accounts at risk. As recently as April 2014, Yahoo mail was still being attacked due to similar vulnerabilities. – Emil Protalinski, TheNextWeb.\r\n"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_image": [], 
+                            "field_htb_chapter_image_two": [], 
+                            "field_htb_chapter_text": [], 
+                            "field_htb_chapter_text_two": [], 
+                            "field_htb_translatable_title": {
+                                "en": [
+                                    {
+                                        "format": null, 
+                                        "safe_value": "Securing your email", 
+                                        "value": "Securing your email"
+                                    }
+                                ]
+                            }, 
+                            "field_number_of_columns": {
+                                "und": [
+                                    {
+                                        "tid": "99"
+                                    }
+                                ]
+                            }, 
+                            "is_current": true, 
+                            "is_pending": false, 
+                            "language": "en", 
+                            "log": "", 
+                            "menu_node_links": [], 
+                            "name": "asta", 
+                            "nid": "1105", 
+                            "num_revisions": "5", 
+                            "path": "https://securityinabox.org/en/booklet-chapter-content/securing-your-email-0", 
+                            "picture": "0", 
+                            "print_html_display": 1, 
+                            "print_html_display_comment": 0, 
+                            "print_html_display_urllist": 1, 
+                            "print_pdf_display": 1, 
+                            "print_pdf_display_comment": 0, 
+                            "print_pdf_display_urllist": 1, 
+                            "print_pdf_orientation": "", 
+                            "print_pdf_size": "", 
+                            "promote": "0", 
+                            "revision_moderation": true, 
+                            "revision_timestamp": "1456110639", 
+                            "revision_uid": "70", 
+                            "status": "1", 
+                            "sticky": "0", 
+                            "title": "Securing your email", 
+                            "tnid": "0", 
+                            "translate": "0", 
+                            "translations": {
+                                "data": {
+                                    "en": {
+                                        "changed": "1456110639", 
+                                        "created": "1416489605", 
+                                        "entity_id": "1105", 
+                                        "entity_type": "node", 
+                                        "language": "en", 
+                                        "revision_id": "1105", 
+                                        "source": "", 
+                                        "status": "1", 
+                                        "translate": "0", 
+                                        "uid": "184"
+                                    }
+                                }, 
+                                "original": "en"
+                            }, 
+                            "type": "how_to_booklet_chapter_content", 
+                            "uid": "184", 
+                            "uuid": "7042b123-cfea-42d3-adc5-fbd75a5fc904", 
+                            "vid": "13307", 
+                            "vuuid": "28055ab7-2c55-47b9-8c65-68a72eda0f24"
+                        }, 
+                        {
+                            "changed": "1456110685", 
+                            "comment": "0", 
+                            "created": "1416489801", 
+                            "current_revision_id": "13308", 
+                            "data": "a:6:{s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";s:7:\"contact\";i:1;}", 
+                            "field_chapter_image_zero": [], 
+                            "field_chapter_text_zero": [], 
+                            "field_htb_chapter_content_level": {
+                                "und": [
+                                    {
+                                        "tid": "81"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_feature": {
+                                "und": [
+                                    {
+                                        "title": "Snippet 2 for the eco rights africa community", 
+                                        "value": "***Human Rights Defender Testimonies*** \r\n\r\n“In time of peace, prepare for war. We have a good government now, but we don’t know how the next regime will be like.”  – Anonymous Environmental Rights Defender in Liberia.\r\n"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_feature_bottom": [], 
+                            "field_htb_chapter_feature_top": [], 
+                            "field_htb_chapter_image": [], 
+                            "field_htb_chapter_image_two": [], 
+                            "field_htb_chapter_text": {
+                                "en": [
+                                    {
+                                        "format": "filtered_html", 
+                                        "safe_value": "<p>Once your email account and communication is secure, you can then extend the protection to your email groups and lists. You can move from your current groups and mailing lists such as Yahoo and Google groups to the more secure lists provided by technology collectives including Riseup.net, aktivix.org and autistici.org depending on the level of privacy you need. However, remember that if members of the email list continue to use insecure email providers, any unencrypted content shared on the list can still be accessed and shared by these providers.</p>\n\n<p><a href=\"https://help.riseup.net/en\">Riseup.net</a> allows you to create a mailing list through which you can send secure emails to your partners or within your network. Anyone can create a list at Riseup, but lists have to be approved before you can use them. They usually have criteria for accepting lists, including the proviso that your list should be of “progressive, radical, or revolutionary nature.” It can take more than a week for your list to be approved but once it is approved you will be able to use one of the most secure lists available. Riseup has also developed a new tool for secure chat but as of July 2014 this is still being tested. Riseup, like other independent free services, needs donations to keep them running.</p>\n\n<p><a href=\"https://aktivix.org/\">Aktivix.org</a> provides you with the opportunity to create a mailing list to collaborate within your network using Gnu/Mailman. You can only get a list from Aktivix if you share their ideology which is clearly spelled out on their website (https://aktivix.org/more). You also need to be recommended by someone who already has an Aktivix account. If, however you don’t know such a person, you can request them to ask for recommendations from selected activists and tech collectives that you know. You are also requested to donate to keep this service running and free.</p>\n\n<p><a href=\"http://www.autistici.org/en/index.html\">Autistici.org</a> was started more than a decade ago. It provides internet support to activists and collectives from grassroots and social movements. Apart from mailing lists, they also provide anonymous remailing, chat, and instant messaging, among other services. The services are free but they recommend that you donate to enable them keep these services free.</p>\n\n<p>To find out how to access and use the services mentioned above, you should go to their websites and read their instructions. Since we recommend Riseup.net, you can also find a brief explanation on how to get started with Riseup in the <a href=\"https://securityinabox.org/en/riseup_main\">RiseUp - Secure Email Service</a> section of Security in-a-box.</p>\n", 
+                                        "value": "Once your email account and communication is secure, you can then extend the protection to your email groups and lists. You can move from your current groups and mailing lists such as Yahoo and Google groups to the more secure lists provided by technology collectives including Riseup.net, aktivix.org and autistici.org depending on the level of privacy you need. However, remember that if members of the email list continue to use insecure email providers, any unencrypted content shared on the list can still be accessed and shared by these providers.\r\n\r\n[Riseup.net](https://help.riseup.net/en) allows you to create a mailing list through which you can send secure emails to your partners or within your network. Anyone can create a list at Riseup, but lists have to be approved before you can use them. They usually have criteria for accepting lists, including the proviso that your list should be of “progressive, radical, or revolutionary nature.” It can take more than a week for your list to be approved but once it is approved you will be able to use one of the most secure lists available. Riseup has also developed a new tool for secure chat but as of July 2014 this is still being tested. Riseup, like other independent free services, needs donations to keep them running. \r\n\r\n[Aktivix.org](https://aktivix.org/) provides you with the opportunity to create a mailing list to collaborate within your network using Gnu/Mailman. You can only get a list from Aktivix if you share their ideology which is clearly spelled out on their website (https://aktivix.org/more). You also need to be recommended by someone who already has an Aktivix account. If, however you don’t know such a person, you can request them to ask for recommendations from selected activists and tech collectives that you know. You are also requested to donate to keep this service running and free.\r\n\r\n[Autistici.org](http://www.autistici.org/en/index.html) was started more than a decade ago. It provides internet support to activists and collectives from grassroots and social movements. Apart from mailing lists, they also provide anonymous remailing, chat, and instant messaging, among other services. The services are free but they recommend that you donate to enable them keep these services free.\r\n\r\nTo find out how to access and use the services mentioned above, you should go to their websites and read their instructions. Since we recommend Riseup.net, you can also find a brief explanation on how to get started with Riseup in the [RiseUp - Secure Email Service](https://securityinabox.org/en/riseup_main) section of Security in-a-box.\r\n"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_text_two": [], 
+                            "field_htb_translatable_title": {
+                                "en": [
+                                    {
+                                        "format": null, 
+                                        "safe_value": "Securing your email groups and lists", 
+                                        "value": "Securing your email groups and lists"
+                                    }
+                                ]
+                            }, 
+                            "field_number_of_columns": {
+                                "und": [
+                                    {
+                                        "tid": "99"
+                                    }
+                                ]
+                            }, 
+                            "is_current": true, 
+                            "is_pending": false, 
+                            "language": "en", 
+                            "log": "", 
+                            "menu_node_links": [], 
+                            "name": "asta", 
+                            "nid": "1106", 
+                            "num_revisions": "4", 
+                            "path": "https://securityinabox.org/en/booklet-chapter-content/secure-email-groups", 
+                            "picture": "0", 
+                            "print_html_display": 1, 
+                            "print_html_display_comment": 0, 
+                            "print_html_display_urllist": 1, 
+                            "print_pdf_display": 1, 
+                            "print_pdf_display_comment": 0, 
+                            "print_pdf_display_urllist": 1, 
+                            "print_pdf_orientation": "", 
+                            "print_pdf_size": "", 
+                            "promote": "0", 
+                            "revision_moderation": true, 
+                            "revision_timestamp": "1456110685", 
+                            "revision_uid": "70", 
+                            "status": "1", 
+                            "sticky": "0", 
+                            "title": "Secure email groups", 
+                            "tnid": "0", 
+                            "translate": "0", 
+                            "translations": {
+                                "data": {
+                                    "en": {
+                                        "changed": "1456110685", 
+                                        "created": "1416489801", 
+                                        "entity_id": "1106", 
+                                        "entity_type": "node", 
+                                        "language": "en", 
+                                        "revision_id": "1106", 
+                                        "source": "", 
+                                        "status": "1", 
+                                        "translate": "0", 
+                                        "uid": "184"
+                                    }
+                                }, 
+                                "original": "en"
+                            }, 
+                            "type": "how_to_booklet_chapter_content", 
+                            "uid": "184", 
+                            "uuid": "4a5f4a6a-78fa-4293-aea3-ccae80c9b1b9", 
+                            "vid": "13308", 
+                            "vuuid": "8516277c-dd43-483a-8153-9cac5bd1b7fe"
+                        }, 
+                        {
+                            "changed": "1452602262", 
+                            "comment": "0", 
+                            "created": "1416490045", 
+                            "current_revision_id": "4006", 
+                            "data": "a:6:{s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";s:7:\"contact\";i:1;}", 
+                            "field_chapter_image_zero": [], 
+                            "field_chapter_text_zero": {
+                                "en": [
+                                    {
+                                        "format": "filtered_html", 
+                                        "safe_value": "<p>ERDs are often geographically dispersed, using Voice over Internet Protocol (VOIP) technology to hold virtual meetings and discuss sensitive issues.  Skype is popular, used on both computers and smartphones. Chat, or Instant Messaging (IM), is often used for communication in real time.</p>\n\n<p>The main problem with Skype is that it is a closed commercial product, and its technology is therefore not available to the public to analyse its security features and assess how safe it is. Alternative free and open source platforms whose technology is open for assessment, such as Jitsi, may be a better alternative for this community.</p>\n\n<p>There are several options you can use to keep your voice and chat communications secure. We recommend Pidgin with OTR for chat, and Jitsi for voice, video and chat.</p>\n\n<p><a href=\"pidgin/windows\">Pidgin</a> is a free and open source instant messaging platform that allows you to manage several IM accounts in one place. It works with most IM platforms, including the chat functions in Gmail and Yahoo. Off-The-Record (OTR) is a plugin developed for Pidgin which adds more security to your Pidgin sessions. You can learn more about working with Pidgin and OTR by reading the Pidgin with <a href=\"pidgin/windows\">OTR – Secure Instant Messaging section in Security in-a-box</a>.</p>\n\n<p><a href=\"jitsi/windows\">Jitsi</a> is a free and open source program that allows you to use voice, video and chat over the internet. It works with most the popular platforms available today, including Google Talk, Yahoo and Facebook. The advantage of Jitsi is that it offers voice and video encryption, allowing you to call other activists and defenders securely. Jitsi also supports voice conference calls. You can learn how to use it by reading the Jitsi - Secure Audio, Video and Instant Text Messaging section in Security in-a-box.</p>\n", 
+                                        "value": "ERDs are often geographically dispersed, using Voice over Internet Protocol (VOIP) technology to hold virtual meetings and discuss sensitive issues.  Skype is popular, used on both computers and smartphones. Chat, or Instant Messaging (IM), is often used for communication in real time.\r\n\r\nThe main problem with Skype is that it is a closed commercial product, and its technology is therefore not available to the public to analyse its security features and assess how safe it is. Alternative free and open source platforms whose technology is open for assessment, such as Jitsi, may be a better alternative for this community.\r\n\r\nThere are several options you can use to keep your voice and chat communications secure. We recommend Pidgin with OTR for chat, and Jitsi for voice, video and chat.\r\n\r\n[Pidgin](pidgin/windows) is a free and open source instant messaging platform that allows you to manage several IM accounts in one place. It works with most IM platforms, including the chat functions in Gmail and Yahoo. Off-The-Record (OTR) is a plugin developed for Pidgin which adds more security to your Pidgin sessions. You can learn more about working with Pidgin and OTR by reading the Pidgin with [OTR – Secure Instant Messaging section in Security in-a-box](pidgin/windows).\r\n\r\n[Jitsi](jitsi/windows) is a free and open source program that allows you to use voice, video and chat over the internet. It works with most the popular platforms available today, including Google Talk, Yahoo and Facebook. The advantage of Jitsi is that it offers voice and video encryption, allowing you to call other activists and defenders securely. Jitsi also supports voice conference calls. You can learn how to use it by reading the Jitsi - Secure Audio, Video and Instant Text Messaging section in Security in-a-box.\r\n"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_content_level": {
+                                "und": [
+                                    {
+                                        "tid": "81"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_feature": [], 
+                            "field_htb_chapter_feature_bottom": [], 
+                            "field_htb_chapter_feature_top": [], 
+                            "field_htb_chapter_image": [], 
+                            "field_htb_chapter_image_two": [], 
+                            "field_htb_chapter_text": [], 
+                            "field_htb_chapter_text_two": [], 
+                            "field_htb_translatable_title": {
+                                "en": [
+                                    {
+                                        "format": null, 
+                                        "safe_value": "Secure voice and chat communication", 
+                                        "value": "Secure voice and chat communication"
+                                    }
+                                ]
+                            }, 
+                            "field_number_of_columns": {
+                                "und": [
+                                    {
+                                        "tid": "99"
+                                    }
+                                ]
+                            }, 
+                            "is_current": true, 
+                            "is_pending": false, 
+                            "language": "en", 
+                            "log": "", 
+                            "menu_node_links": [], 
+                            "metatags": {
+                                "en": {
+                                    "robots": {
+                                        "value": {
+                                            "follow": 0, 
+                                            "index": 0, 
+                                            "noarchive": "noarchive", 
+                                            "nofollow": "nofollow", 
+                                            "noimageindex": "noimageindex", 
+                                            "noindex": "noindex", 
+                                            "noodp": "noodp", 
+                                            "nosnippet": "nosnippet", 
+                                            "notranslate": "notranslate", 
+                                            "noydir": "noydir"
+                                        }
+                                    }
+                                }
+                            }, 
+                            "name": "asta", 
+                            "nid": "1108", 
+                            "num_revisions": "2", 
+                            "path": "https://securityinabox.org/en/booklet-chapter-content/voica-and-chat", 
+                            "picture": "0", 
+                            "print_html_display": 1, 
+                            "print_html_display_comment": 0, 
+                            "print_html_display_urllist": 1, 
+                            "print_pdf_display": 1, 
+                            "print_pdf_display_comment": 0, 
+                            "print_pdf_display_urllist": 1, 
+                            "print_pdf_orientation": "", 
+                            "print_pdf_size": "", 
+                            "promote": "0", 
+                            "revision_moderation": true, 
+                            "revision_timestamp": "1452602262", 
+                            "revision_uid": "1", 
+                            "status": "1", 
+                            "sticky": "0", 
+                            "title": "Voica and Chat", 
+                            "tnid": "0", 
+                            "translate": "0", 
+                            "translations": {
+                                "data": {
+                                    "en": {
+                                        "changed": "1425419150", 
+                                        "created": "1416490045", 
+                                        "entity_id": "1108", 
+                                        "entity_type": "node", 
+                                        "language": "en", 
+                                        "revision_id": null, 
+                                        "source": "", 
+                                        "status": "1", 
+                                        "translate": "0", 
+                                        "uid": "184"
+                                    }
+                                }, 
+                                "original": "en"
+                            }, 
+                            "type": "how_to_booklet_chapter_content", 
+                            "uid": "184", 
+                            "uuid": "a04e6708-973c-43aa-b6f5-46d33b376b1d", 
+                            "vid": "4006", 
+                            "vuuid": "60125cbc-bb45-4037-8086-8a63e28644ab"
+                        }, 
+                        {
+                            "changed": "1456110580", 
+                            "comment": "0", 
+                            "created": "1416490111", 
+                            "current_revision_id": "13306", 
+                            "data": "a:6:{s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";s:7:\"contact\";i:1;}", 
+                            "field_chapter_image_zero": [], 
+                            "field_chapter_text_zero": {
+                                "en": [
+                                    {
+                                        "format": "filtered_html", 
+                                        "safe_value": "<p>Environmental rights defenders, like most rights defenders, sometimes have to depend on mass information dissemination to create public outcry, urging action from governments and companies when diplomatic channels fail and legal channels are compromised.</p>\n\n<p>The growth of social media platforms such as Facebook and Twitter has made them vital advocacy tools for ERDs, and most are using them to expose major transparency, rights and ecological violation activities.</p>\n\n<p>The risk here is that social media profiles can also be used to monitor and locate ERDs who are targeted by either governments or companies. Sensitive information such as names and phone numbers, as well as photos of self, family and home can be extracted from social media platforms and used to piece together your movement and association patterns, making it easy for adversaries to find and harass you, arrest you or disrupt your work. Sometimes, adversaries may use your social media pages and accounts to maliciously spread propaganda and try to discredit your work.</p>\n", 
+                                        "value": "Environmental rights defenders, like most rights defenders, sometimes have to depend on mass information dissemination to create public outcry, urging action from governments and companies when diplomatic channels fail and legal channels are compromised. \r\n\r\nThe growth of social media platforms such as Facebook and Twitter has made them vital advocacy tools for ERDs, and most are using them to expose major transparency, rights and ecological violation activities. \r\n\r\nThe risk here is that social media profiles can also be used to monitor and locate ERDs who are targeted by either governments or companies. Sensitive information such as names and phone numbers, as well as photos of self, family and home can be extracted from social media platforms and used to piece together your movement and association patterns, making it easy for adversaries to find and harass you, arrest you or disrupt your work. Sometimes, adversaries may use your social media pages and accounts to maliciously spread propaganda and try to discredit your work."
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_content_level": {
+                                "und": [
+                                    {
+                                        "tid": "81"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_feature": [], 
+                            "field_htb_chapter_feature_bottom": [], 
+                            "field_htb_chapter_feature_top": {
+                                "und": [
+                                    {
+                                        "title": "Snippet 3 for the eco rights africa community", 
+                                        "value": "***Human Rights Defender Testimonies***\r\n\r\n*\"“In our campaign to fight the construction of a mega-dam and establishment of vast plantations along the Omo River in Ethiopia, activities which will drastically reduce the flow of the river and how much water comes into Lake Turkana, thus leading to catastrophic shrinkage and increase of salinity of the lake, we use both Twitter and Facebook to raise awareness and rally support for our cause. A particularly vocal supporter of the dam always attacks us on our Facebook page terming us enemies of Ethiopia and agents of the west who have been paid by Western governments to keep Ethiopians poor.” -- Anonymous Environmental Rights Defender"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_image": [], 
+                            "field_htb_chapter_image_two": [], 
+                            "field_htb_chapter_text": [], 
+                            "field_htb_chapter_text_two": [], 
+                            "field_htb_translatable_title": {
+                                "en": [
+                                    {
+                                        "format": null, 
+                                        "safe_value": "Safer use of social networking sites", 
+                                        "value": "Safer use of social networking sites"
+                                    }
+                                ]
+                            }, 
+                            "field_number_of_columns": {
+                                "und": [
+                                    {
+                                        "tid": "99"
+                                    }
+                                ]
+                            }, 
+                            "is_current": true, 
+                            "is_pending": false, 
+                            "language": "en", 
+                            "log": "", 
+                            "menu_node_links": [], 
+                            "name": "asta", 
+                            "nid": "1109", 
+                            "num_revisions": "4", 
+                            "path": "https://securityinabox.org/en/booklet-chapter-content/social-networking-sites", 
+                            "picture": "0", 
+                            "print_html_display": 1, 
+                            "print_html_display_comment": 0, 
+                            "print_html_display_urllist": 1, 
+                            "print_pdf_display": 1, 
+                            "print_pdf_display_comment": 0, 
+                            "print_pdf_display_urllist": 1, 
+                            "print_pdf_orientation": "", 
+                            "print_pdf_size": "", 
+                            "promote": "0", 
+                            "revision_moderation": true, 
+                            "revision_timestamp": "1456110580", 
+                            "revision_uid": "70", 
+                            "status": "1", 
+                            "sticky": "0", 
+                            "title": "social networking sites", 
+                            "tnid": "0", 
+                            "translate": "0", 
+                            "translations": {
+                                "data": {
+                                    "en": {
+                                        "changed": "1456110580", 
+                                        "created": "1416490111", 
+                                        "entity_id": "1109", 
+                                        "entity_type": "node", 
+                                        "language": "en", 
+                                        "revision_id": "1109", 
+                                        "source": "", 
+                                        "status": "1", 
+                                        "translate": "0", 
+                                        "uid": "184"
+                                    }
+                                }, 
+                                "original": "en"
+                            }, 
+                            "type": "how_to_booklet_chapter_content", 
+                            "uid": "184", 
+                            "uuid": "1c2a13ca-706e-469a-92b3-4a403688b692", 
+                            "vid": "13306", 
+                            "vuuid": "fa415ef1-429a-44a6-826a-ea83628332fa"
+                        }, 
+                        {
+                            "changed": "1452602262", 
+                            "comment": "0", 
+                            "created": "1416490226", 
+                            "current_revision_id": "4007", 
+                            "data": "a:6:{s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";s:7:\"contact\";i:1;}", 
+                            "field_chapter_image_zero": [], 
+                            "field_chapter_text_zero": {
+                                "en": [
+                                    {
+                                        "format": "filtered_html", 
+                                        "safe_value": "<p>To improve your security when using social networking sites, you should take a precautionary approach to how you engage with these networks. A general precaution is to be aware of how much of your personal and sensitive information you are sharing on social networks, and how this can put you and your networks at risk. A good explanation of why you should take precautions when using social media tools can be found in the <a href=\"social-networking\">How to protect yourself and your data when using social networking sites</a> section of Security in-a-box.</p>\n\n<p>You can take precautions by:</p>\n\n<ul><li>Assessing and adjusting how you interact with social media sites: see <a href=\"social-networking#528\">General tips on using social networking tools</a>, in Security in-a-box. </li>\n<li>Considering what information you should be sharing on social media: see the section on <a href=\"social-networking#529\">Posting personal details</a> in Security in-a-box. </li>\n</ul><p>There are also alternatives to popular social media platforms (such as Facebook and Twitter) in development. Riseup.net, for instance is currently developing Crabgrass , a social networking and collaboration tool that, in the words of the collective, is designed to suit “the complexity of relationships that activist organizations face in the real world.” See the <a href=\"crabgrass/internet\">Crabgrass guide</a> or read <a href=\"https://we.riseup.net/\">more about Crabgrass in the Riseup.net</a> website.</p>\n", 
+                                        "value": "To improve your security when using social networking sites, you should take a precautionary approach to how you engage with these networks. A general precaution is to be aware of how much of your personal and sensitive information you are sharing on social networks, and how this can put you and your networks at risk. A good explanation of why you should take precautions when using social media tools can be found in the [How to protect yourself and your data when using social networking sites](social-networking) section of Security in-a-box.\r\n\r\nYou can take precautions by: \r\n\r\n- Assessing and adjusting how you interact with social media sites: see [General tips on using social networking tools](social-networking#528), in Security in-a-box. \r\n- Considering what information you should be sharing on social media: see the section on [Posting personal details](social-networking#529) in Security in-a-box. \r\n\r\nThere are also alternatives to popular social media platforms (such as Facebook and Twitter) in development. Riseup.net, for instance is currently developing Crabgrass , a social networking and collaboration tool that, in the words of the collective, is designed to suit “the complexity of relationships that activist organizations face in the real world.” See the [Crabgrass guide](crabgrass/internet) or read [more about Crabgrass in the Riseup.net](https://we.riseup.net/) website.\r\n"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_content_level": {
+                                "und": [
+                                    {
+                                        "tid": "81"
+                                    }
+                                ]
+                            }, 
+                            "field_htb_chapter_feature": [], 
+                            "field_htb_chapter_feature_bottom": [], 
+                            "field_htb_chapter_feature_top": [], 
+                            "field_htb_chapter_image": [], 
+                            "field_htb_chapter_image_two": [], 
+                            "field_htb_chapter_text": [], 
+                            "field_htb_chapter_text_two": [], 
+                            "field_htb_translatable_title": {
+                                "en": [
+                                    {
+                                        "format": null, 
+                                        "safe_value": "Increase your security when using social networking sites", 
+                                        "value": "Increase your security when using social networking sites"
+                                    }
+                                ]
+                            }, 
+                            "field_number_of_columns": {
+                                "und": [
+                                    {
+                                        "tid": "99"
+                                    }
+                                ]
+                            }, 
+                            "is_current": true, 
+                            "is_pending": false, 
+                            "language": "en", 
+                            "log": "", 
+                            "menu_node_links": [], 
+                            "metatags": {
+                                "en": {
+                                    "robots": {
+                                        "value": {
+                                            "follow": 0, 
+                                            "index": 0, 
+                                            "noarchive": "noarchive", 
+                                            "nofollow": "nofollow", 
+                                            "noimageindex": "noimageindex", 
+                                            "noindex": "noindex", 
+                                            "noodp": "noodp", 
+                                            "nosnippet": "nosnippet", 
+                                            "notranslate": "notranslate", 
+                                            "noydir": "noydir"
+                                        }
+                                    }
+                                }
+                            }, 
+                            "name": "asta", 
+                            "nid": "1110", 
+                            "num_revisions": "2", 
+                            "path": "https://securityinabox.org/en/booklet-chapter-content/security-when-using-social-networking-sites", 
+                            "picture": "0", 
+                            "print_html_display": 1, 
+                            "print_html_display_comment": 0, 
+                            "print_html_display_urllist": 1, 
+                            "print_pdf_display": 1, 
+                            "print_pdf_display_comment": 0, 
+                            "print_pdf_display_urllist": 1, 
+                            "print_pdf_orientation": "", 
+                            "print_pdf_size": "", 
+                            "promote": "0", 
+                            "revision_moderation": true, 
+                            "revision_timestamp": "1452602262", 
+                            "revision_uid": "1", 
+                            "status": "1", 
+                            "sticky": "0", 
+                            "title": "security when using social networking sites", 
+                            "tnid": "0", 
+                            "translate": "0", 
+                            "translations": {
+                                "data": {
+                                    "en": {
+                                        "changed": "1425419273", 
+                                        "created": "1416490226", 
+                                        "entity_id": "1110", 
+                                        "entity_type": "node", 
+                                        "language": "en", 
+                                        "revision_id": null, 
+                                        "source": "", 
+                                        "status": "1", 
+                                        "translate": "0", 
+                                        "uid": "184"
+                                    }
+                                }, 
+                                "original": "en"
+                            }, 
+                            "type": "how_to_booklet_chapter_content", 
+                            "uid": "184", 
+                            "uuid": "5545a7cb-5890-49e7-abbe-e1c51e0b6f52", 
+                            "vid": "4007", 
+                            "vuuid": "5051ff28-712b-43f3-bf3a-76ab353df8be"
+                        }
+                    ]
+                }, 
+                "field_htb_further_reading": [], 
+                "field_htb_introduction": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>Due to the nature of the work, environmental rights defenders tend to form networks, often sharing information through online platforms with low security. Most have email groups that allow for sharing of reports, photos, evidence and other information that may be sensitive. Yahoo Groups and Google Groups are among the most commonly used.</p>\n\n<p>The Yahoo mail system that forms the basis for Yahoo Groups has faced many attacks due to what analysts think of as laxity in Yahoo security policy.</p>\n\n<p>Any information posted on open Yahoo and Google groups can also be accessed by anyone doing a simple Google search. Real names, email addresses, phone numbers, location and other sensitive information can often easily be found in the pages of these groups. There is no indication that defenders are taking any precautions when using these services.</p>\n\n<p>Reports of attacks on rights and ERDs based on these vulnerabilities are largely unavailable, but this could be because of a lack of awareness. The mere existence of this threat should be sufficient cause for taking precautions. Secure online collaboration platforms such as Crabgrass on Riseup.net become should be considered in areas where environmental rights defenders may be at risk.</p>\n\n<p>As an environmental rights defender, you will often find yourself working together with partners and needing to exchange information and documents via email. You may also be part of a network that shares information through an email group such as Yahoo Groups or Google Group. You can keep your online communication secure by taking the steps outlined below.</p>\n", 
+                            "value": "Due to the nature of the work, environmental rights defenders tend to form networks, often sharing information through online platforms with low security. Most have email groups that allow for sharing of reports, photos, evidence and other information that may be sensitive. Yahoo Groups and Google Groups are among the most commonly used. \r\n\r\nThe Yahoo mail system that forms the basis for Yahoo Groups has faced many attacks due to what analysts think of as laxity in Yahoo security policy. \r\n\r\nAny information posted on open Yahoo and Google groups can also be accessed by anyone doing a simple Google search. Real names, email addresses, phone numbers, location and other sensitive information can often easily be found in the pages of these groups. There is no indication that defenders are taking any precautions when using these services.\r\n\r\nReports of attacks on rights and ERDs based on these vulnerabilities are largely unavailable, but this could be because of a lack of awareness. The mere existence of this threat should be sufficient cause for taking precautions. Secure online collaboration platforms such as Crabgrass on Riseup.net become should be considered in areas where environmental rights defenders may be at risk.\r\n\r\nAs an environmental rights defender, you will often find yourself working together with partners and needing to exchange information and documents via email. You may also be part of a network that shares information through an email group such as Yahoo Groups or Google Group. You can keep your online communication secure by taking the steps outlined below.\r\n"
+                        }
+                    ]
+                }, 
+                "field_htb_learning_goals": [], 
+                "field_htb_required_reading_link": {
+                    "und": [
+                        {
+                            "vargs": "[node:nid]", 
+                            "vname": "get_htb_pointer|default"
+                        }
+                    ]
+                }, 
+                "field_htb_translatable_title": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "How to secure your online collaborations", 
+                            "value": "How to secure your online collaborations"
+                        }
+                    ]
+                }, 
+                "field_summary": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "Secure your online collaborations", 
+                            "value": "Secure your online collaborations"
+                        }
+                    ]
+                }, 
+                "is_current": true, 
+                "is_pending": false, 
+                "language": "en", 
+                "log": "", 
+                "menu_node_links": [], 
+                "metatags": {
+                    "en": {
+                        "robots": {
+                            "value": {
+                                "follow": 0, 
+                                "index": 0, 
+                                "noarchive": "noarchive", 
+                                "nofollow": "nofollow", 
+                                "noimageindex": "noimageindex", 
+                                "noindex": "noindex", 
+                                "noodp": "noodp", 
+                                "nosnippet": "nosnippet", 
+                                "notranslate": "notranslate", 
+                                "noydir": "noydir"
+                            }
+                        }
+                    }
+                }, 
+                "name": "asta", 
+                "nid": "1107", 
+                "num_revisions": "11", 
+                "path": "https://securityinabox.org/en/how-to/secure-your-online-collaborations", 
+                "picture": "0", 
+                "print_html_display": 1, 
+                "print_html_display_comment": 0, 
+                "print_html_display_urllist": 1, 
+                "print_pdf_display": 1, 
+                "print_pdf_display_comment": 0, 
+                "print_pdf_display_urllist": 1, 
+                "print_pdf_orientation": null, 
+                "print_pdf_size": null, 
+                "promote": "0", 
+                "revision_moderation": true, 
+                "revision_timestamp": "1452602048", 
+                "revision_uid": "1", 
+                "status": "1", 
+                "sticky": "0", 
+                "title": "online collaborations", 
+                "tnid": "0", 
+                "translate": "0", 
+                "translations": {
+                    "data": {
+                        "en": {
+                            "changed": "1426000726", 
+                            "created": "1416489862", 
+                            "entity_id": "1107", 
+                            "entity_type": "node", 
+                            "language": "en", 
+                            "revision_id": null, 
+                            "source": "", 
+                            "status": "1", 
+                            "translate": "0", 
+                            "uid": "184"
+                        }
+                    }, 
+                    "original": "en"
+                }, 
+                "type": "how_to_booklet_chapter", 
+                "uid": "184", 
+                "uuid": "3c0dda48-e510-4e84-9be7-0f557b3fdc95", 
+                "vid": "4699", 
+                "vuuid": "ef3772d6-4480-421d-8103-f40be73a8a31"
+            }
+        ]
+    }, 
+    "field_guide_snippets": {
+        "und": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p>In January 2013, a lone hacker, Shahin Ramezany, was able to exploit a hole in Yahoo’s servers by leveraging a vulnerability – described as DOM-based XSS vulnerability – that is exploitable in all major browsers thus putting more than 400 million yahoo accounts at risk. As recently as April 2014, Yahoo mail was still being attacked due to similar vulnerabilities. – Emil Protalinski, TheNextWeb.</p>\n", 
+                "value": "In January 2013, a lone hacker, Shahin Ramezany, was able to exploit a hole in Yahoo’s servers by leveraging a vulnerability – described as DOM-based XSS vulnerability – that is exploitable in all major browsers thus putting more than 400 million yahoo accounts at risk. As recently as April 2014, Yahoo mail was still being attacked due to similar vulnerabilities. – Emil Protalinski, TheNextWeb.\r\n"
+            }, 
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong><em>Human Rights Defender Testimonies</em></strong></p>\n\n<p>“In time of peace, prepare for war. We have a good government now, but we don’t know how the next regime will be like.”  – Anonymous Environmental Rights Defender in Liberia.</p>\n", 
+                "value": "***Human Rights Defender Testimonies*** \r\n\r\n“In time of peace, prepare for war. We have a good government now, but we don’t know how the next regime will be like.”  – Anonymous Environmental Rights Defender in Liberia.\r\n"
+            }, 
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong><em>Human Rights Defender Testimonies</em></strong></p>\n\n<p>*\"“In our campaign to fight the construction of a mega-dam and establishment of vast plantations along the Omo River in Ethiopia, activities which will drastically reduce the flow of the river and how much water comes into Lake Turkana, thus leading to catastrophic shrinkage and increase of salinity of the lake, we use both Twitter and Facebook to raise awareness and rally support for our cause. A particularly vocal supporter of the dam always attacks us on our Facebook page terming us enemies of Ethiopia and agents of the west who have been paid by Western governments to keep Ethiopians poor.” -- Anonymous Environmental Rights Defender</p>\n", 
+                "value": "***Human Rights Defender Testimonies***\r\n\r\n*\"“In our campaign to fight the construction of a mega-dam and establishment of vast plantations along the Omo River in Ethiopia, activities which will drastically reduce the flow of the river and how much water comes into Lake Turkana, thus leading to catastrophic shrinkage and increase of salinity of the lake, we use both Twitter and Facebook to raise awareness and rally support for our cause. A particularly vocal supporter of the dam always attacks us on our Facebook page terming us enemies of Ethiopia and agents of the west who have been paid by Western governments to keep Ethiopians poor.” -- Anonymous Environmental Rights Defender"
+            }
+        ]
+    }, 
+    "field_hog_categories": [], 
+    "field_htb_categories": {
+        "en": [
+            {
+                "tid": "93"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "en": [
+            {
+                "format": null, 
+                "safe_value": "Secure your online collaborations", 
+                "value": "Secure your online collaborations"
+            }
+        ]
+    }, 
+    "field_relevant_community": {
+        "en": [
+            {
+                "title": "For environmental rights defenders in Sub-Saharan Africa", 
+                "value": "eco rights africa"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "28"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "28"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "en", 
+    "log": "", 
+    "menu_node_links": [], 
+    "name": "chris", 
+    "nid": "1142", 
+    "num_revisions": "1", 
+    "path": "https://securityinabox.org/en/eco-rights-africa/online-collaborations", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1417702486", 
+    "revision_uid": "184", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": "04-online collaborations", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "en": {
+                "changed": "1417702486", 
+                "created": "1416537400", 
+                "entity_id": "1142", 
+                "entity_type": "node", 
+                "language": "en", 
+                "revision_id": null, 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }
+        }, 
+        "original": "en"
+    }, 
+    "type": "community_guide", 
+    "uid": "70", 
+    "uuid": "c5907242-95e4-4591-8af3-a1ca29d57c01", 
+    "vid": "2936", 
+    "vuuid": "3b56aa5d-a6cd-4bf4-abe6-039f8e7c9a46"
+}

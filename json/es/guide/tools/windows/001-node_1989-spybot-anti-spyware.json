@@ -1,0 +1,1539 @@
+{
+    "body": {
+        "es": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Sitio Web en espa\u00f1ol</strong></p>\n\n<p><a href=\"http://www.safer-networking.org/es/index.html\">www.safer-networking.org/es</a></p>\n\n<p><strong>Requisitos del Sistema</strong></p>\n\n<ul><li>Todas las versiones de Windows</li>\n</ul><p><strong>Versi\u00f3n usada en esta gu\u00eda</strong></p>\n\n<ul><li>1.6.2  </li>\n</ul><p><strong>Licencia</strong></p>\n\n<ul><li>Software gratuito </li>\n</ul><p><strong>Lectura necesaria</strong></p>\n\n<ul><li>Gu\u00eda paso a paso, cap\u00edtulo <a href=\"/chapter-1\" title=\"1. Proteger tu computadora de software malicioso (malware) y piratas inform\u00e1ticos (hackers)\"><strong>1. Proteger tu computadora de software malicioso (malware) y piratas inform\u00e1ticos (hackers)</strong></a></li>\n</ul><p><strong>Nivel de usuario</strong>: 1: principiante, <strong>2: regular</strong>, 3: intermedio, 4: experimentado, 5: avanzado</p>\n\n<p><strong>Tiempo necesario para empezar a utilizar esta herramienta</strong>: 20 minutos</p>\n\n<p><strong>\u00bfQu\u00e9 recibir\u00e1s a cambio?</strong>:</p>\n\n<ul><li>La capacidad de <strong>remover</strong> tipos diferentes de software malicioso (malware) y software esp\u00eda (spyware) </li>\n<li>La capacidad de <strong>inmunizar</strong> el sistema de tu computadora <strong>antes</strong> de que sea infectada con problemas y amenazas maliciosas. </li>\n</ul><p><strong>GNU Linux, Mac OS y otros Programas Compatibles con Microsoft Windows</strong>:</p>\n\n<p>Los sistemas operativos como <strong>GNU Linux</strong> y <strong>Mac OS</strong> est\u00e1n, en la actualidad, virtualmente libres de software malicioso (malware) (software esp\u00eda (spyware), virus, etc.). Para protegerte, te recomendamos que: <strong>1)</strong> actualices regularmente tu sistema operativo, y todos los programas instalados para este; <strong>2)</strong> utiliza el programa antivirus incluido en el cap\u00edtulo de <a href=\"/es/avast_principal\"><em>Avast</em></a>; <strong>3)</strong> utiliza el programa de cortafuegos (firewall) incluido <a href=\"/es/comodo_principal\"><em>Comodo</em></a>; <strong>4)</strong> utiliza un navegador seguro como el <a href=\"/es/firefox_principal\"><em>Firefox</em></a> con el complemento <a href=\"/es/firefox_noscript\"><em>NoScript</em></a> que impide que se ejecute cualquier archivo de \u00f3rdenes (script) descargado junto con las p\u00e1ginas web. Estas medidas preventivas mantendr\u00e1n tu computador con <strong>GNU Linux</strong> o <strong>Mac OS</strong> bien protegidas.</p>\n\n<p>Es estado de seguridad de las computadoras con el sistema operativo de <strong>Microsoft Windows</strong> es muy distinto. Existen miles de nuevos softwares maliciosos (malware) en creaci\u00f3n a diario. Los m\u00e9todos de ataque se est\u00e1n volviendo cada d\u00eda m\u00e1s sofisticados. Las medidas preventivas esbozadas en el p\u00e1rrafo anterior son <strong>obligatorias</strong> para computadoras con <strong>Microsoft Windows</strong>. Adem\u00e1s, te recomendamos enf\u00e1ticamente el uso de <strong>Spybot</strong> como se describe en este cap\u00edtulo.</p>\n\n<p>Sin embargo, si tu computadora es infectada a pesar de estas precauciones, y te hallas en la situaci\u00f3n de requerir herramientas adicionales, te recomendamos las siguientes:</p>\n\n<ol><li>Instala <a href=\"http://superantispyware.com\"><strong>SuperAntiSpyware</strong></a>, actualiza las definiciones de software esp\u00eda (spyware), y luego escanea tu computadora.</li>\n<li>Instala <a href=\"http://www.malwarebytes.org/\"><strong>Malwarebytes Anti-Malware</strong></a>, ejecuta un <em>Escaneado R\u00e1pido (Quick Scan)</em> y posteriormente un <em>Escaneado (Scan)</em> cuando este concluye, elimina culaquier software malicioso (malware) detectado mostrado en la pantalla <em>Mostrar Resultados (Show Results)</em></li>\n<li>Utiliza otros programas contra software esp\u00eda como:<a href=\"http://www.microsoft.com/windows/products/winfamily/defender\"><strong>Microsoft Windows Defender</strong></a>, <a href=\"http://www.lavasoft.com/\"><strong>Ad-Aware Internet Security</strong></a> o <a href=\"http://www.javacoolsoftware.com/spywareblaster.html\"><strong>SpywareBlaster</strong></a>.</li>\n</ol><h3>1.1 Cosas que debes saber sobre esta herramienta antes de empezar</h3>\n\n<p><strong>Spybot S&amp;D</strong> es una aplicaci\u00f3n libre y popular utilizada para detectar y remover distintos tipos de software publicitario (adware), software malicioso (malware) y software esp\u00eda (spyware) de tu computadora. Tambi\u00e9n te permite inmunizar tu sistema de software publicitario (adware), software malicioso (malware) y software esp\u00eda (spyware), impidiendo que infecten tu computadora una vez que hayas instalado <strong>Spybot</strong></p>\n\n<ul><li><p>El software publicitario (adware), es cualquier software que muestra material publicitario en tu computadora. Excepcionalmente  algunos tipos de software publicitario se comportan como software esp\u00eda y pueden constituirse en invasores de tu privacidad y seguridad.</p></li>\n<li><p>El software malicioso (malware) (p. ej. troyanos y gusanos), es cualquier tipo de programa dise\u00f1ado para da\u00f1ar o usurpar la operaci\u00f3n de tu computadora sin tu conocimiento o  consentimiento.</p></li>\n<li><p>El software esp\u00eda (spyware), es cualquier  programa que recolecta datos, sigue y registra tu informaci\u00f3n privada y  rastrea tus h\u00e1bitos de navegaci\u00f3n en Internet. Del mismo modo que el software malicioso (malware), este se ejecuta secretamente en tu computadora. Por ello, la instalaci\u00f3n de un programa como <strong>Spybot</strong> te ayudar\u00e1 a proteger tu sistema y a ti mismo</p></li>\n</ul><p><strong>Spybot</strong> tambi\u00e9n instala una aplicaci\u00f3n adicional llamada <strong>TeaTimer</strong>. Este roteger\u00e1 tu computadora de nuevas infecciones de software malicioso (malware).</p>\n\n<p><strong>Nota</strong>: El <strong>Windows Vista</strong> tiene su propio software para controlar el software esp\u00eda (spyware) llamado <strong>Windows Defender</strong>. Sin embargo, <strong>Windows Vista</strong> parece permitir trabajar al <strong>Spybot</strong> sin conflicto alguno.</p>\n", 
+                "summary": "", 
+                "value": "**Sitio Web en espa\u00f1ol**\r\n \r\n[www.safer-networking.org/es](http://www.safer-networking.org/es/index.html)\r\n\r\n**Requisitos del Sistema** \r\n\r\n- Todas las versiones de Windows\r\n\r\n**Versi\u00f3n usada en esta gu\u00eda** \r\n\r\n- 1.6.2  \r\n\r\n**Licencia**\r\n\r\n- Software gratuito \r\n\r\n**Lectura necesaria**\r\n\r\n- Gu\u00eda paso a paso, cap\u00edtulo <a href=\"/chapter-1\" title=\"1. Proteger tu computadora de software malicioso (malware) y piratas inform\u00e1ticos (hackers)\">**1. Proteger tu computadora de software malicioso (malware) y piratas inform\u00e1ticos (hackers)**</a>\r\n\r\n**Nivel de usuario**: 1: principiante, **2: regular**, 3: intermedio, 4: experimentado, 5: avanzado \r\n\r\n**Tiempo necesario para empezar a utilizar esta herramienta**: 20 minutos \r\n\r\n\r\n**\u00bfQu\u00e9 recibir\u00e1s a cambio?**: \r\n\r\n- La capacidad de **remover** tipos diferentes de software malicioso (malware) y software esp\u00eda (spyware) \r\n- La capacidad de **inmunizar** el sistema de tu computadora **<em>antes</em>** de que sea infectada con problemas y amenazas maliciosas. \r\n\r\n**GNU Linux, Mac OS y otros Programas Compatibles con Microsoft Windows**:\r\n\r\nLos sistemas operativos como **GNU Linux** y **Mac OS** est\u00e1n, en la actualidad, virtualmente libres de software malicioso (malware) (software esp\u00eda (spyware), virus, etc.). Para protegerte, te recomendamos que: **1)** actualices regularmente tu sistema operativo, y todos los programas instalados para este; **2)** utiliza el programa antivirus incluido en el cap\u00edtulo de [*Avast*](/es/avast_principal); **3)** utiliza el programa de cortafuegos (firewall) incluido [*Comodo*](/es/comodo_principal); **4)** utiliza un navegador seguro como el [*Firefox*](/es/firefox_principal) con el complemento [*NoScript*](/es/firefox_noscript) que impide que se ejecute cualquier archivo de \u00f3rdenes (script) descargado junto con las p\u00e1ginas web. Estas medidas preventivas mantendr\u00e1n tu computador con **GNU Linux** o **Mac OS** bien protegidas.\r\n\r\nEs estado de seguridad de las computadoras con el sistema operativo de **Microsoft Windows** es muy distinto. Existen miles de nuevos softwares maliciosos (malware) en creaci\u00f3n a diario. Los m\u00e9todos de ataque se est\u00e1n volviendo cada d\u00eda m\u00e1s sofisticados. Las medidas preventivas esbozadas en el p\u00e1rrafo anterior son **obligatorias** para computadoras con **Microsoft Windows**. Adem\u00e1s, te recomendamos enf\u00e1ticamente el uso de **Spybot** como se describe en este cap\u00edtulo.\r\n\r\nSin embargo, si tu computadora es infectada a pesar de estas precauciones, y te hallas en la situaci\u00f3n de requerir herramientas adicionales, te recomendamos las siguientes:\r\n\r\n1. Instala [**SuperAntiSpyware**](http://superantispyware.com), actualiza las definiciones de software esp\u00eda (spyware), y luego escanea tu computadora.\r\n2. Instala [**Malwarebytes Anti-Malware**](http://www.malwarebytes.org/), ejecuta un *Escaneado R\u00e1pido (Quick Scan)* y posteriormente un *Escaneado (Scan)* cuando este concluye, elimina culaquier software malicioso (malware) detectado mostrado en la pantalla *Mostrar Resultados (Show Results)*\r\n3. Utiliza otros programas contra software esp\u00eda como:[**Microsoft Windows Defender**](http://www.microsoft.com/windows/products/winfamily/defender), [**Ad-Aware Internet Security**](http://www.lavasoft.com/) o [**SpywareBlaster**](http://www.javacoolsoftware.com/spywareblaster.html).\r\n\r\n\r\n### 1.1 Cosas que debes saber sobre esta herramienta antes de empezar ###\r\n\r\n**Spybot S&amp;D** es una aplicaci\u00f3n libre y popular utilizada para detectar y remover distintos tipos de software publicitario (adware), software malicioso (malware) y software esp\u00eda (spyware) de tu computadora. Tambi\u00e9n te permite inmunizar tu sistema de software publicitario (adware), software malicioso (malware) y software esp\u00eda (spyware), impidiendo que infecten tu computadora una vez que hayas instalado **Spybot** \r\n\r\n\r\n- El software publicitario (adware), es cualquier software que muestra material publicitario en tu computadora. Excepcionalmente  algunos tipos de software publicitario se comportan como software esp\u00eda y pueden constituirse en invasores de tu privacidad y seguridad. \r\n\r\n\r\n- El software malicioso (malware) (p. ej. troyanos y gusanos), es cualquier tipo de programa dise\u00f1ado para da\u00f1ar o usurpar la operaci\u00f3n de tu computadora sin tu conocimiento o  consentimiento. \r\n\r\n\r\n- El software esp\u00eda (spyware), es cualquier  programa que recolecta datos, sigue y registra tu informaci\u00f3n privada y  rastrea tus h\u00e1bitos de navegaci\u00f3n en Internet. Del mismo modo que el software malicioso (malware), este se ejecuta secretamente en tu computadora. Por ello, la instalaci\u00f3n de un programa como **Spybot** te ayudar\u00e1 a proteger tu sistema y a ti mismo \r\n\r\n\r\n**Spybot** tambi\u00e9n instala una aplicaci\u00f3n adicional llamada **TeaTimer**. Este roteger\u00e1 tu computadora de nuevas infecciones de software malicioso (malware). \r\n\r\n\r\n**Nota**: El **Windows Vista** tiene su propio software para controlar el software esp\u00eda (spyware) llamado **Windows Defender**. Sin embargo, **Windows Vista** parece permitir trabajar al **Spybot** sin conflicto alguno. "
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/1989", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/1989", 
+        "link_title": "Spybot - Anti-Spyware", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5135", 
+        "module": "book", 
+        "nid": "1989", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5135", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "Spybot - Anti-Spyware", 
+        "updated": "0", 
+        "weight": "-14"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Lista de secciones en esta p\u00e1gina:</p>\n\n<ul><li><a href=\"#2.0\"><strong>2.0 Instalar Spybot</strong></a></li>\n<li><a href=\"#2.1\"><strong>2.1 Acerca de Spybot</strong></a></li>\n<li><a href=\"#2.2\"><strong>2.2 Utilizar Spybot por Primera Vez</strong></a></li>\n<li><a href=\"#2.3\"><strong>2.3 Actualizar las Reglas de Detecci\u00f3n de Spybot y las Bases de Datos de Inmunizaci\u00f3n de Spybot</strong></a></li>\n<li><a href=\"#2.4\"><strong>2.4 Inmunizar tu Sistema</strong></a></li>\n<li><a href=\"#2.5\"><strong>2.5 Buscar Problemas</strong></a></li>\n<li><a href=\"#2.6\"><strong>2.6 TeaTimer Residente</strong></a></li>\n<li><a href=\"#2.7\"><strong>2.7 Utilizar la Herramienta de Recuperaci\u00f3n</strong></a></li>\n</ul><hr /><p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>2.0 Instalar Spybot</h2>\n\n<p><strong>Paso 1</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/01.png\" alt=\"\" />; el cuadro de dialogo <em>Abrir archivo - Advertencia de seguridad</em> puede aparecer. Si lo hace, <strong>pulsa</strong> <img src=\"/sbox/screen/spybot-es/02.png\" alt=\"\" /> para activar la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/03.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: La pantalla de selecci\u00f3n de lenguaje de instalaci\u00f3n</em></p>\n\n<p><strong>Paso 2</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/04.png\" alt=\"\" /> para activar la pantalla de <em>Instalar - Spybot - Search &amp; Destroy - Bienvenido al asistente de instalaci\u00f3n de Spybot - Search and Destroy</em>.</p>\n\n<p><strong>Paso 3</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/05.png\" alt=\"\" /> para activar la pantalla del <em>Acuerdo de Licencia</em>. Por favor lee el <em>Acuerdo de Licencia</em> cuidadosamente antes de proceder con el resto del proceso instalaci\u00f3n.</p>\n\n<p><strong>Paso 4</strong>. <strong>Habilita</strong> la opci\u00f3n <em>Acepto el acuerdo</em> para habilitar el bot\u00f3n siguiente, y entonces <strong>pulsa</strong> <img src=\"/sbox/screen/spybot-es/05.png\" alt=\"\" /> para activar la pantalla de <em>Seleccione la Carpeta de Destino</em>.\n<strong>Paso 5</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/05.png\" alt=\"\" /> para activar la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/06.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: Pantalla de Seleccione los Componentes</em></p>\n\n<p><strong>Paso 6</strong>. <strong>Selecciona</strong> los componentes apropiados de manera que tu pantalla se asemeje a la <em>Figura 2</em> y entonces <strong>pulsa</strong> <img src=\"/sbox/screen/spybot-es/05.png\" alt=\"\" /> para activar el <em>Seleccione la Carpeta del Men\u00fa Inicio</em></p>\n\n<p><strong>Paso 7</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/05.png\" alt=\"\" /> para aceptar la ruta por defecto y activar la pantalla de <em>Seleccione las Tareas Adicionales</em>.</p>\n\n<p><strong>Paso 8</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/05.png\" alt=\"\" /> para activar la pantalla de <em>Listo para instalar</em>, despu\u00e9s <strong>pulsa</strong> <img src=\"/sbox/screen/spybot-es/07.png\" alt=\"\" /> para activar la pantalla de <em>Instalando</em>.</p>\n\n<p><strong>Paso 9</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/08.png\" alt=\"\" /> para completar el proceso de instalaci\u00f3n y lanzar <strong>Spybot - Search &amp; Destroy</strong>.</p>\n\n<p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1 Acerca de Spybot</h2>\n\n<p>Existen, b\u00e1sicamente, dos pasos involucrados en el uso efectivo de <strong>Spybot</strong>:</p>\n\n<ul><li><p>Actualizar las <em>Reglas de Detecci\u00f3n</em> y <em>Bases de datos de inmunizaci\u00f3n</em> con las mejoras m\u00e1s recientes y relevantes de <strong>Spybot</strong>.</p></li>\n<li><p>Ejecutar <strong>Spybot</strong>. Esto implica inmunizar tu sistema con las reglas de detecci\u00f3n o bases de datos de inmunizaci\u00f3n o las actualizaciones que previamente has descargado, luego revisa tu sistema en busca de epidemias de software esp\u00eda (spyware) y remu\u00e9velos.</p></li>\n</ul><p><strong>Nota</strong>: Para dar un vistazo a las principales opciones avanzadas, por favor dir\u00edgete a la secci\u00f3n <a href=\"/spybot_modoavanzado\"><strong>3.0 Acerca del Modo Avanzado</strong></a>.</p>\n\n<p><a name=\"2.2\" id=\"2.2\"></a></p>\n\n<h2>2.2 Utilizar Spybot por Primera Vez</h2>\n\n<p><em>Despu\u00e9s de haber completado el proceso de instalaci\u00f3n y configuraci\u00f3n,  <strong>Spybot</strong> *Se iniciar\u00e1 autom\u00e1ticamente y mostrar\u00e1 la pantalla de</em> T\u00e9rminos Legales <em>como sigue</em>:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/09.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: Pantalla de T\u00e9rminos Legales</em></p>\n\n<p><strong>Nota</strong>: Para activar <strong>Spybot</strong> la siguiente vez, <strong>pulsa dos veces</strong>\n<img src=\"/sbox/screen/spybot-es/10.png\" alt=\"\" /> o <strong>seleciona Inicio &gt; Programas &gt; Spybot - Search &amp; Destroy &gt; Spybot - Search &amp; Destroy.</strong></p>\n\n<p><strong>Paso 1</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/11.png\" alt=\"\" /> Para activar las pantallas <em>tanto</em> del <em>Spybot - Search &amp; Destroy</em> (<em>Figura 8</em>) como la de <em>Crear copia de seguridad del registro (Create registry backup</em> screens como sigue:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/67.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: La pantalla del asistente de creaci\u00f3n de copia de seguridad de registro de Spybot-S&amp;D</em></p>\n\n<p><strong>Nota</strong>: Te recomendamos enf\u00e1ticamente que crees una copia de seguridad de tu registro. Para tener una visi\u00f3n general del <strong>Registro de Windows</strong>, por favor consulta en <a href=\"//securityinabox.org/es/ccleaner_registrowindows\"><strong>CCleaner</strong></a> para m\u00e1s informaci\u00f3n.</p>\n\n<p><strong>Paso 2</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/14.png\" alt=\"\" /> en la <em>Figura 4</em> para crear y guardar una copia de seguridad de tu registro de sistema.</p>\n\n<p><strong>Paso 3</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/15.png\" alt=\"\" /> para activar la pantalla de <em>Spybot - Search for Updates (Buscar Actualizaciones)</em>. Si est\u00e1s conectado a Internet realiza el siguiente paso:</p>\n\n<p><strong>Paso 4</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/16.png\" alt=\"\" /> Para activar la ventana de <em>Busqueda de Actualizaciones</em>, y continua directamente a la secci\u00f3n<a href=\"#2.3\"><strong>2.3 Actualizar las Reglas de Detecci\u00f3n y la Base de Datos de Inmunizaci\u00f3n de Spybot</strong></a>.</p>\n\n<ul><li>Si <em>no</em> est\u00e1s conectado a Internet, realiza el siguiente paso:</li>\n</ul><p><strong>Paso 5</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/17.png\" alt=\"\" /> para activar la ventana de <em>Inmuniza este sistema</em> y comenzar la inmunizaci\u00f3n de tu sistema como se ve a continuaci\u00f3n:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/18.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: La barra de estado de progreso de la inmunizaci\u00f3n</em></p>\n\n<p><strong>Nota</strong>: Si has dejado, por alguna raz\u00f3n, tu navegador abierto, la siguiente pantalla aparecer\u00e1 antes de comenzar tu proceso de inmunizaci\u00f3n:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/19.png\" alt=\"\" /></p>\n\n<p><em>Figura 6: La pantalla de Navegador Abierto Detectado</em></p>\n\n<p><strong>Paso 6</strong>. <strong>Cierra</strong> cualquier ventana de navegador abierta y luego  <strong>pulsa</strong> <img src=\"/sbox/screen/spybot-es/04.png\" alt=\"\" /> para comenzar a inmunizar tu sistema.</p>\n\n<p><strong>Paso 7</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/15.png\" alt=\"\" /> y luego <strong>pulsa</strong> <img src=\"/sbox/screen/spybot-es/22.png\" alt=\"\" /> para regresar  a la consola de <em>Spybot - Search &amp; Destroy</em> en el modo  <em>Inmunizar</em> .</p>\n\n<p><img src=\"/sbox/screen/spybot-es/13.png\" alt=\"\" /></p>\n\n<p><em>Figura 8: La consola de Spybot - Search &amp; Destroy</em></p>\n\n<p><a name=\"2.3\" id=\"2.3\"></a></p>\n\n<h2>2.3 Actualizar las Reglas de Detecci\u00f3n y las Bases de Datos de Inmunizaci\u00f3n de Spybot</h2>\n\n<p><strong>Importante</strong>: Es absolutamente vital que mantengas  <strong>Spybot</strong> actualizado con las \u00faltimas definiciones.</p>\n\n<p><strong>Paso 1</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/68.png\" alt=\"\" /> en el men\u00fa de la barra izquierda de <em>Spybot-S&amp;D para activar el  la ventana de *Spybot-S&amp;D Actualizar</em> mostrando una lista de localizaciones desde donde descargar las actualizaciones.</p>\n\n<p><strong>Paso 2</strong>. <strong>Elige</strong> la ubicaci\u00f3n m\u00e1s cercana  a tu pa\u00eds de residencia,  luego <strong>pulsa con el bot\u00f3n derecho del rat\u00f3n</strong> sobre esta, y  <strong>selecciona</strong> <em>Fijar este servidor como la ubicaci\u00f3n de descarga preferida (Set this server as the preferred download location), como se muestra en la  *Figura 9</em>.</p>\n\n<ul><li><p>Si has cambiado recientemente tus reglas de detecci\u00f3n, una ventana emergente aparecer\u00e1 advirti\u00e9ndote que <strong>No existen nuevas actualizaciones disponibles</strong>.</p></li>\n<li><p>Si no has actualizado tus reglas de detecci\u00f3n, la pantalla del <em>Actualizador de Spybot-S&amp;D</em> aparecer\u00e1, mostrando una lista de servidores desde donde podr\u00e1s descargar las actualizaciones, como sigue:</p></li>\n</ul><p><img src=\"/sbox/screen/spybot-es/24.png\" alt=\"\" /></p>\n\n<p><em>Figura 9: La ventana de actualizaci\u00f3n de Spybot-S&amp;D</em></p>\n\n<p><strong>Paso 3</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/25.png\" alt=\"\" /> para activar la ventana de <em>Actualizaci\u00f3n de Spybot-S&amp;D - Por favor selecciona las actualizaciones a descargar aqu\u00ed</em>.</p>\n\n<p><strong>Paso 4</strong>. <strong>Habilita</strong> todas las opciones presentadas, luego <strong>pulsa</strong> <img src=\"/sbox/screen/spybot-es/26.png\" alt=\"\" /> para comenzar a descargar estas actualizaciones.</p>\n\n<p><img src=\"/sbox/screen/spybot-es/27.png\" alt=\"\" /></p>\n\n<p><em>Figura 10: Pantalla de actualizaci\u00f3n de Spybot-S&amp;D mostrando reglas de detecci\u00f3n, archivos de ayuda y bases de datos de inmunizaci\u00f3n</em></p>\n\n<p><strong>Nota</strong>: Si ocurriera un error durante la descarga de estas actualizaciones,  <strong>Spybot</strong> te ofrecer\u00e1 la oportunidad de intentarlo nuevamente. Despu\u00e9s de una descarga exitosa, se te pedir\u00e1 imnunizar tu sistema y buscar problemas como se muestra en la siguiente imagen:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/28.png\" alt=\"\" /></p>\n\n<p><em>Figura 11: La pantalla de informaci\u00f3n</em></p>\n\n<p><strong>Paso 6</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/04.png\" alt=\"\" />, y luego <strong>pulsa</strong> <img src=\"/sbox/screen/spybot-es/29.png\" alt=\"\" />.</p>\n\n<p><em>Regresar\u00e1s a la pantalla principal de Spybot - Search &amp; Destroy</em></p>\n\n<p><strong>Nota</strong>: Puedes actualizar <strong>Spybot</strong> en cualquier momento: <strong>Seleciona Inicio &gt; Programas &gt; Spybot - Search&amp;Destroy &gt; Update Spybot -S&amp;D</strong>.</p>\n\n<p><a name=\"2.4\" id=\"2.4\"></a></p>\n\n<h2>2.4 Inmunizar tu Sistema</h2>\n\n<p><strong>Spybot</strong> ayuda a proteger tu sistema de software esp\u00eda (spyware) conocido \"inmuniz\u00e1ndolo\". Esto es como recibir una vacuna contra nuevas enfermedades infecciosas.</p>\n\n<p>Para inmunizar el sistema de tu computadora, ejecuta los siguientes pasos:</p>\n\n<p><strong>Paso 1</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/30.png\" alt=\"\" /> en la barra lateral de <strong>Spybot-S&amp;D</strong> o <img src=\"/sbox/screen/spybot-es/31.png\" alt=\"\" /> para iniciar autom\u00e1ticamente el proceso de inmunizaci\u00f3n como se ve en la <em>Figura 6</em>.</p>\n\n<p>Puedes necesitar maximizar tu ventana para ver todas las protecciones aplicadas en el panel <em>Inmunizar</em>.</p>\n\n<p><strong>Nota</strong>: Puedes revertir o deshacer el proceso de inmunizaci\u00f3n si sospechas que este ha afectado negativamente el desempe\u00f1o general de tu computadora. Puedes <strong>pulsar</strong> <img src=\"/sbox/screen/spybot-es/32.png\" alt=\"\" /> para revertir el proceso de inmunizaci\u00f3n y restaurar tu sistema a su estado previo.</p>\n\n<p><a name=\"2.5\" id=\"2.5\"></a></p>\n\n<h2>2.5 Buscar Problemas</h2>\n\n<p><strong>Recordatorio</strong>: Antes de comenzar la b\u00fasqueda de potenciales amenazas, por favor actualiza las <em>Reglas de Detecci\u00f3n</em> y las <em>Bases de Datos de Inmunizaci\u00f3n</em> de <strong>Spybot</strong>.</p>\n\n<p>Para iniciar una revisi\u00f3n en busca de problemas o amenazas, da los siguientes pasos:</p>\n\n<p><strong>Paso 1</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/33.png\" alt=\"\" /> para activar el panel de <strong>Spybot</strong> <em>Search and Destroy</em>.</p>\n\n<p><strong>Paso 2</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/34.png\" alt=\"\" /> para comenzar a escanear tu sistema en busca de amenazas (Si tienes mucha informaci\u00f3n, archivos, programas etc. puede llegar a tomar entre 20 minutos y una hora).La pantalla de dialogo de <strong>Spybot</strong> ser\u00e1 similar a la que aparece a continuaci\u00f3n:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/35.png\" alt=\"\" /></p>\n\n<p><em>Figura 12: Programa Spybot - Search &amp; Destroy buscando problemas</em></p>\n\n<p><strong>Paso 3</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/36.png\" alt=\"\" /> para empezar a buscar problemas en tu sistema como sigue:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/37.png\" alt=\"\" /></p>\n\n<p><em>Figura 13 Spybot - Search &amp; Destroy buscando problemas</em></p>\n\n<p><em>Despu\u00e9s que el escaneo ha concluido, el n\u00famero y tipo de problemas ser\u00e1 listado en el panel como se muestra</em>:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/38.png\" alt=\"\" /></p>\n\n<p><em>Figura 14: La pantalla de The Spybot - Search &amp; Destroy screen mostrando posibles problemas o amenazas</em></p>\n\n<p><strong>Paso 4</strong>. <strong>Habilita</strong> solamente los elementos que deseas borrar. Algunos pueden ser software de marketing que desear\u00edas conservar (por alguna raz\u00f3n).</p>\n\n<p><strong>Tip</strong>: Cualquier elemento mostrado en letras rojas es generalmente tratado como un problema o amenaza. Cualquier elemento en letras verdes est\u00e1 generando registros de tu actividad en Internet. Para mantener un elemento en particular deshabilita la caja asociada con \u00e9l y no ser\u00e1 borrado.</p>\n\n<p><strong>Importante</strong>: Antes que borres o ignores el software malicioso (malware) que hayas encontrado, te recomendamos enf\u00e1ticamente que indagues el origen y comportamiento de cada uno de ellos.</p>\n\n<p><strong>Paso 5</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/39.png\" alt=\"\" /> en el lado derecho de la pantalla de resultados de <strong>Spybot</strong> para revelar m\u00e1s informaci\u00f3n sobre cada elemento. Si no se muestra nada, tambi\u00e9n puedes investigarlo en Internet. Encuentra como opera y como puede comprometer la integridad y seguridad de tu sistema. un mejor conocimiento e informaci\u00f3n sobre los problemas y amenazas te conducen a mayor privacidad y seguridad para ti.</p>\n\n<p><img src=\"/sbox/screen/spybot-es/40.png\" alt=\"\" /></p>\n\n<p><em>Figura 15: El panel Mostrar m\u00e1s informaci\u00f3n de Spybot-S&amp;D</em></p>\n\n<p><strong>Paso 5</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/41.png\" alt=\"\" /> para activar la eliminaci\u00f3n de software malicioso (malware).</p>\n\n<p><em>Una ventana de dialogo de confirmaci\u00f3n aparecer\u00e1 preguntandote si deseas borrar todos los problemas encontrados.</em></p>\n\n<p><strong>Paso 6</strong>. <strong>Pulsa</strong> el bot\u00f3n <em>Si</em> si deseas borrarlos.</p>\n\n<p><strong>Nota</strong>: en general es una buena idea el escanear tu sistema en busca de problemas cada semana.</p>\n\n<p><a name=\"2.6\" id=\"2.6\"></a></p>\n\n<h2>2.6 Resident TeaTimer</h2>\n\n<p>El <strong>Resident TeaTimer</strong> es una utilidad de  <strong>Spybot</strong> que corre constantemente en segundo plano (esto es, incluso, cuando no estas usando activamente <strong>Spybot</strong>). Monitorea, constantemente, los procesos vitales del sistema para asegurarse que posibles amenazas no est\u00e9n cambiando confuguraciones o ajustes criticos del sistema. <strong>TeaTimer</strong> alerta al usuario cuando detecta un proceso malicioso conocido o sospechoso, y deja que decidas si permites o rechazas ese proceso (en caso que sea efectivamente maliciosos). un ejemplo de tal pantalla emergente aparece a continuaci\u00f3n:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/69.png\" alt=\"\" /></p>\n\n<p><em>Figura 16: La alerta del Resident TeaTimer de  Spybot - Search &amp; Destroy, mostrando la pantalla de Aceptar/Rechazar cambio</em></p>\n\n<p>Dado que muchos programas (tanto necesarios como maliciosos) requieren acceso a los procesos internos del sistema <strong>TeaTimer</strong> te solicitar\u00e1 frecuentemente <em>Permitir</em> o <em>Rechazar</em> cambios. En este ejemplo, <strong>Skype</strong> est\u00e1 siendo borrado del <strong>Men\u00fa de inicio de Windows</strong>. Esto usualmente ocurre cuando desinstalas un programa (y esto no ocurre necesariamente unicamente durante el arranque del sistema). En este caso, esta es una solicitud v\u00e1lidad de cambio de una peque\u00f1a configuraci\u00f3n del sistema y puedes permitirla.</p>\n\n<p><strong>Consejo</strong>: Si no est\u00e1s seguro acerca de una consulta en una ventana de <strong>TeaTimer</strong>, <strong>pulsa</strong> <img src=\"/sbox/screen/spybot-es/43.png\" alt=\"\" /> para m\u00e1s informaci\u00f3n, como sigue:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/70.png\" alt=\"\" /></p>\n\n<p><em>Figura 17: La ventana de inicio de Spybot - Search &amp; Destroy</em></p>\n\n<p>Es seguro denegar una solicitud si no est\u00e1s seguro de sus efectos. Sin embargo, si est\u00e1s seguro que la solicitud es v\u00e1lida, habilita la casilla <em>Recuerda esta decisi\u00f3n</em> y <strong>Spybot</strong> no te mostrar\u00e1 nuevamente esta alerta.</p>\n\n<p><strong>Nota</strong>: Es frecuenta ver activarse al <strong>TeaTimer</strong> cuando instalas un nuevo programa y este trata de a\u00f1adirse a los procesos de arranque. Lo mismo ocurrir\u00e1 cuando desinstalas un programa.</p>\n\n<p><strong>Consejo</strong>: Se te recomienda enf\u00e1ticamente que actualices el <strong>TeaTimer</strong> cada vez que haya una actualizaci\u00f3n disponible.</p>\n\n<p><a name=\"2.7\" id=\"2.7\"></a></p>\n\n<h2>2.7 Utilizar la Herramienta de Recupearaci\u00f3n</h2>\n\n<p>La <em>Herramienta de Recuperaci\u00f3n</em> te permite la recuperaci\u00f3n o el rescate de cualquier elemento reparado o eliminado. Esto puede ocurrir gracias a que <strong>Spybot</strong> crear\u00e1 una copia de respaldo de cada elemento que ha borrado previamente. Si la eliminaci\u00f3n de una pieza de software malicioso (malware) provoca un mal funcionamiento en tu computadora, es posible que la recuperes utilizando la <em>Herramienta de Recuperaci\u00f3n</em>.</p>\n\n<p>Para recuperar un elemento previamente borrado, ejecuta los siguientes pasos:</p>\n\n<p><strong>Paso 1</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/45.png\" alt=\"\" /> para activar la pantalla de <em>Recuperaci\u00f3n</em> como sigue:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/46.png\" alt=\"\" /></p>\n\n<p><em>Figura 18: La pantalla de recuperaci\u00f3n de Spybot Search &amp; Destroy</em></p>\n\n<p><strong>Paso 2</strong>. <strong>Selecciona</strong> los elementos que desees recuperar de la lista de elementos previamente borrados, luego <strong>pulsa</strong> <img src=\"/sbox/screen/spybot-es/47.png\" alt=\"\" />.</p>\n\n<p><em>Se activar\u00e1 un cuadro de di\u00e1logo de Confirmaci\u00f3n como la siguiente:</em></p>\n\n<p><img src=\"/sbox/screen/spybot-es/48.png\" alt=\"\" /></p>\n\n<p><em>Figura 19: Cuadro de di\u00e1logo de Confirmaci\u00f3n</em></p>\n\n<p><strong>Paso 3</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/49.png\" alt=\"\" /> para recuperar el elemento seleccionado.</p>\n\n<p><strong>Paso 4</strong>. Alternativamente, <strong>pulsa</strong> <img src=\"/sbox/screen/spybot-es/50.png\" alt=\"\" /> para eliminar definitivamente todos los archivos seleccionados. Sin embargo, debes tener presente que los elementos purgados de esta manera no son recuperables.</p>\n", 
+                        "summary": "", 
+                        "value": "Lista de secciones en esta p\u00e1gina:\r\n\r\n- [**2.0 Instalar Spybot**](#2.0)\r\n- [**2.1 Acerca de Spybot**](#2.1)\r\n- [**2.2 Utilizar Spybot por Primera Vez**](#2.2)\r\n- [**2.3 Actualizar las Reglas de Detecci\u00f3n de Spybot y las Bases de Datos de Inmunizaci\u00f3n de Spybot**](#2.3)\r\n- [**2.4 Inmunizar tu Sistema**](#2.4)\r\n- [**2.5 Buscar Problemas**](#2.5)\r\n- [**2.6 TeaTimer Residente**](#2.6)\r\n- [**2.7 Utilizar la Herramienta de Recuperaci\u00f3n**](#2.7)\r\n\r\n-------\r\n\r\n<a name=\"2.0\"></a>\r\n## 2.0 Instalar Spybot ##\r\n\r\n**Paso 1**. **Pulsa** ![](/sbox/screen/spybot-es/01.png); el cuadro de dialogo *Abrir archivo - Advertencia de seguridad* puede aparecer. Si lo hace, **pulsa** ![](/sbox/screen/spybot-es/02.png) para activar la siguiente pantalla:\r\n\r\n![](/sbox/screen/spybot-es/03.png)\r\n\r\n*Figura 1: La pantalla de selecci\u00f3n de lenguaje de instalaci\u00f3n*\r\n\r\n**Paso 2**. **Pulsa** ![](/sbox/screen/spybot-es/04.png) para activar la pantalla de *Instalar - Spybot - Search & Destroy - Bienvenido al asistente de instalaci\u00f3n de Spybot - Search and Destroy*.\r\n\r\n**Paso 3**. **Pulsa** ![](/sbox/screen/spybot-es/05.png) para activar la pantalla del *Acuerdo de Licencia*. Por favor lee el *Acuerdo de Licencia* cuidadosamente antes de proceder con el resto del proceso instalaci\u00f3n.\r\n\r\n**Paso 4**. **Habilita** la opci\u00f3n *Acepto el acuerdo* para habilitar el bot\u00f3n siguiente, y entonces **pulsa** ![](/sbox/screen/spybot-es/05.png) para activar la pantalla de *Seleccione la Carpeta de Destino*.\r\n**Paso 5**. **Pulsa** ![](/sbox/screen/spybot-es/05.png) para activar la siguiente pantalla:\r\n\r\n![](/sbox/screen/spybot-es/06.png)\r\n\r\n*Figura 2: Pantalla de Seleccione los Componentes*\r\n\r\n**Paso 6**. **Selecciona** los componentes apropiados de manera que tu pantalla se asemeje a la *Figura 2* y entonces **pulsa** ![](/sbox/screen/spybot-es/05.png) para activar el *Seleccione la Carpeta del Men\u00fa Inicio*\r\n\r\n**Paso 7**. **Pulsa** ![](/sbox/screen/spybot-es/05.png) para aceptar la ruta por defecto y activar la pantalla de *Seleccione las Tareas Adicionales*.\r\n\r\n**Paso 8**. **Pulsa** ![](/sbox/screen/spybot-es/05.png) para activar la pantalla de *Listo para instalar*, despu\u00e9s **pulsa** ![](/sbox/screen/spybot-es/07.png) para activar la pantalla de *Instalando*.\r\n\r\n**Paso 9**. **Pulsa** ![](/sbox/screen/spybot-es/08.png) para completar el proceso de instalaci\u00f3n y lanzar **Spybot - Search & Destroy**.\r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1 Acerca de Spybot ##\r\n\r\nExisten, b\u00e1sicamente, dos pasos involucrados en el uso efectivo de **Spybot**:\r\n\r\n- Actualizar las *Reglas de Detecci\u00f3n* y *Bases de datos de inmunizaci\u00f3n* con las mejoras m\u00e1s recientes y relevantes de **Spybot**.\r\n\r\n- Ejecutar **Spybot**. Esto implica inmunizar tu sistema con las reglas de detecci\u00f3n o bases de datos de inmunizaci\u00f3n o las actualizaciones que previamente has descargado, luego revisa tu sistema en busca de epidemias de software esp\u00eda (spyware) y remu\u00e9velos.\r\n\r\n**Nota**: Para dar un vistazo a las principales opciones avanzadas, por favor dir\u00edgete a la secci\u00f3n [**3.0 Acerca del Modo Avanzado**](/spybot_modoavanzado).\r\n\r\n<a name=\"2.2\"></a>\r\n## 2.2 Utilizar Spybot por Primera Vez ##\r\n\r\n*Despu\u00e9s de haber completado el proceso de instalaci\u00f3n y configuraci\u00f3n,  **Spybot** *Se iniciar\u00e1 autom\u00e1ticamente y mostrar\u00e1 la pantalla de* T\u00e9rminos Legales *como sigue*:\r\n\r\n![](/sbox/screen/spybot-es/09.png)\r\n\r\n*Figura 3: Pantalla de T\u00e9rminos Legales*\r\n\r\n**Nota**: Para activar **Spybot** la siguiente vez, **pulsa dos veces**\r\n![](/sbox/screen/spybot-es/10.png) o **seleciona Inicio > Programas > Spybot - Search & Destroy > Spybot - Search & Destroy.**\r\n\r\n**Paso 1**. **Pulsa** ![](/sbox/screen/spybot-es/11.png) Para activar las pantallas *tanto* del *Spybot - Search & Destroy* (*Figura 8*) como la de *Crear copia de seguridad del registro (Create registry backup* screens como sigue:\r\n\r\n![](/sbox/screen/spybot-es/67.png)\r\n\r\n*Figura 4: La pantalla del asistente de creaci\u00f3n de copia de seguridad de registro de Spybot-S&D*\r\n\r\n**Nota**: Te recomendamos enf\u00e1ticamente que crees una copia de seguridad de tu registro. Para tener una visi\u00f3n general del **Registro de Windows**, por favor consulta en [**CCleaner**](//securityinabox.org/es/ccleaner_registrowindows) para m\u00e1s informaci\u00f3n.\r\n\r\n**Paso 2**. **Pulsa** ![](/sbox/screen/spybot-es/14.png) en la *Figura 4* para crear y guardar una copia de seguridad de tu registro de sistema.\r\n\r\n**Paso 3**. **Pulsa** ![](/sbox/screen/spybot-es/15.png) para activar la pantalla de *Spybot - Search for Updates (Buscar Actualizaciones)*. Si est\u00e1s conectado a Internet realiza el siguiente paso:\r\n\r\n**Paso 4**. **Pulsa** ![](/sbox/screen/spybot-es/16.png) Para activar la ventana de *Busqueda de Actualizaciones*, y continua directamente a la secci\u00f3n[**2.3 Actualizar las Reglas de Detecci\u00f3n y la Base de Datos de Inmunizaci\u00f3n de Spybot**](#2.3).\r\n\r\n- Si *no* est\u00e1s conectado a Internet, realiza el siguiente paso:\r\n\r\n**Paso 5**. **Pulsa** ![](/sbox/screen/spybot-es/17.png) para activar la ventana de *Inmuniza este sistema* y comenzar la inmunizaci\u00f3n de tu sistema como se ve a continuaci\u00f3n:\r\n\r\n![](/sbox/screen/spybot-es/18.png)\r\n\r\n*Figura 5: La barra de estado de progreso de la inmunizaci\u00f3n*\r\n\r\n**Nota**: Si has dejado, por alguna raz\u00f3n, tu navegador abierto, la siguiente pantalla aparecer\u00e1 antes de comenzar tu proceso de inmunizaci\u00f3n:\r\n\r\n![](/sbox/screen/spybot-es/19.png)\r\n\r\n*Figura 6: La pantalla de Navegador Abierto Detectado*\r\n\r\n**Paso 6**. **Cierra** cualquier ventana de navegador abierta y luego  **pulsa** ![](/sbox/screen/spybot-es/04.png) para comenzar a inmunizar tu sistema.\r\n\r\n**Paso 7**. **Pulsa** ![](/sbox/screen/spybot-es/15.png) y luego **pulsa** ![](/sbox/screen/spybot-es/22.png) para regresar  a la consola de *Spybot - Search & Destroy* en el modo  *Inmunizar* .\r\n\r\n![](/sbox/screen/spybot-es/13.png)\r\n\r\n*Figura 8: La consola de Spybot - Search & Destroy*\r\n\r\n<a name=\"2.3\"></a>\r\n## 2.3 Actualizar las Reglas de Detecci\u00f3n y las Bases de Datos de Inmunizaci\u00f3n de Spybot ##\r\n\r\n**Importante**: Es absolutamente vital que mantengas  **Spybot** actualizado con las \u00faltimas definiciones.\r\n\r\n**Paso 1**. **Pulsa** ![](/sbox/screen/spybot-es/68.png) en el men\u00fa de la barra izquierda de *Spybot-S&D para activar el  la ventana de *Spybot-S&D Actualizar* mostrando una lista de localizaciones desde donde descargar las actualizaciones.\r\n\r\n**Paso 2**. **Elige** la ubicaci\u00f3n m\u00e1s cercana  a tu pa\u00eds de residencia,  luego **pulsa con el bot\u00f3n derecho del rat\u00f3n** sobre esta, y  **selecciona** *Fijar este servidor como la ubicaci\u00f3n de descarga preferida (Set this server as the preferred download location), como se muestra en la  *Figura 9*.\r\n\r\n- Si has cambiado recientemente tus reglas de detecci\u00f3n, una ventana emergente aparecer\u00e1 advirti\u00e9ndote que **No existen nuevas actualizaciones disponibles**.\r\n\r\n- Si no has actualizado tus reglas de detecci\u00f3n, la pantalla del *Actualizador de Spybot-S&D* aparecer\u00e1, mostrando una lista de servidores desde donde podr\u00e1s descargar las actualizaciones, como sigue:\r\n\r\n![](/sbox/screen/spybot-es/24.png)\r\n\r\n*Figura 9: La ventana de actualizaci\u00f3n de Spybot-S&D*\r\n\r\n**Paso 3**. **Pulsa** ![](/sbox/screen/spybot-es/25.png) para activar la ventana de *Actualizaci\u00f3n de Spybot-S&D - Por favor selecciona las actualizaciones a descargar aqu\u00ed*.\r\n\r\n**Paso 4**. **Habilita** todas las opciones presentadas, luego **pulsa** ![](/sbox/screen/spybot-es/26.png) para comenzar a descargar estas actualizaciones.\r\n\r\n![](/sbox/screen/spybot-es/27.png)\r\n\r\n*Figura 10: Pantalla de actualizaci\u00f3n de Spybot-S&D mostrando reglas de detecci\u00f3n, archivos de ayuda y bases de datos de inmunizaci\u00f3n*\r\n\r\n**Nota**: Si ocurriera un error durante la descarga de estas actualizaciones,  **Spybot** te ofrecer\u00e1 la oportunidad de intentarlo nuevamente. Despu\u00e9s de una descarga exitosa, se te pedir\u00e1 imnunizar tu sistema y buscar problemas como se muestra en la siguiente imagen:\r\n\r\n![](/sbox/screen/spybot-es/28.png)\r\n\r\n*Figura 11: La pantalla de informaci\u00f3n*\r\n\r\n**Paso 6**. **Pulsa** ![](/sbox/screen/spybot-es/04.png), y luego **pulsa** ![](/sbox/screen/spybot-es/29.png).\r\n\r\n*Regresar\u00e1s a la pantalla principal de Spybot - Search & Destroy*\r\n\r\n**Nota**: Puedes actualizar **Spybot** en cualquier momento: **Seleciona Inicio > Programas > Spybot - Search&Destroy > Update Spybot -S&D**.\r\n\r\n<a name=\"2.4\"></a>\r\n## 2.4 Inmunizar tu Sistema ##\r\n\r\n**Spybot** ayuda a proteger tu sistema de software esp\u00eda (spyware) conocido \"inmuniz\u00e1ndolo\". Esto es como recibir una vacuna contra nuevas enfermedades infecciosas.\r\n\r\nPara inmunizar el sistema de tu computadora, ejecuta los siguientes pasos:\r\n\r\n**Paso 1**. **Pulsa** ![](/sbox/screen/spybot-es/30.png) en la barra lateral de **Spybot-S&D** o ![](/sbox/screen/spybot-es/31.png) para iniciar autom\u00e1ticamente el proceso de inmunizaci\u00f3n como se ve en la *Figura 6*.\r\n\r\nPuedes necesitar maximizar tu ventana para ver todas las protecciones aplicadas en el panel *Inmunizar*.\r\n\r\n**Nota**: Puedes revertir o deshacer el proceso de inmunizaci\u00f3n si sospechas que este ha afectado negativamente el desempe\u00f1o general de tu computadora. Puedes **pulsar** ![](/sbox/screen/spybot-es/32.png) para revertir el proceso de inmunizaci\u00f3n y restaurar tu sistema a su estado previo.\r\n\r\n<a name=\"2.5\"></a>\r\n## 2.5 Buscar Problemas ##\r\n\r\n**Recordatorio**: Antes de comenzar la b\u00fasqueda de potenciales amenazas, por favor actualiza las *Reglas de Detecci\u00f3n* y las *Bases de Datos de Inmunizaci\u00f3n* de **Spybot**.\r\n\r\nPara iniciar una revisi\u00f3n en busca de problemas o amenazas, da los siguientes pasos:\r\n\r\n**Paso 1**. **Pulsa** ![](/sbox/screen/spybot-es/33.png) para activar el panel de **Spybot** *Search and Destroy*.\r\n\r\n**Paso 2**. **Pulsa** ![](/sbox/screen/spybot-es/34.png) para comenzar a escanear tu sistema en busca de amenazas (Si tienes mucha informaci\u00f3n, archivos, programas etc. puede llegar a tomar entre 20 minutos y una hora).La pantalla de dialogo de **Spybot** ser\u00e1 similar a la que aparece a continuaci\u00f3n:\r\n\r\n![](/sbox/screen/spybot-es/35.png)\r\n\r\n*Figura 12: Programa Spybot - Search & Destroy buscando problemas*\r\n\r\n**Paso 3**. **Pulsa** ![](/sbox/screen/spybot-es/36.png) para empezar a buscar problemas en tu sistema como sigue:\r\n\r\n![](/sbox/screen/spybot-es/37.png)\r\n\r\n*Figura 13 Spybot - Search & Destroy buscando problemas*\r\n\r\n*Despu\u00e9s que el escaneo ha concluido, el n\u00famero y tipo de problemas ser\u00e1 listado en el panel como se muestra*:\r\n\r\n![](/sbox/screen/spybot-es/38.png)\r\n\r\n*Figura 14: La pantalla de The Spybot - Search & Destroy screen mostrando posibles problemas o amenazas*\r\n\r\n**Paso 4**. **Habilita** solamente los elementos que deseas borrar. Algunos pueden ser software de marketing que desear\u00edas conservar (por alguna raz\u00f3n).\r\n\r\n**Tip**: Cualquier elemento mostrado en letras rojas es generalmente tratado como un problema o amenaza. Cualquier elemento en letras verdes est\u00e1 generando registros de tu actividad en Internet. Para mantener un elemento en particular deshabilita la caja asociada con \u00e9l y no ser\u00e1 borrado.\r\n\r\n**Importante**: Antes que borres o ignores el software malicioso (malware) que hayas encontrado, te recomendamos enf\u00e1ticamente que indagues el origen y comportamiento de cada uno de ellos.\r\n\r\n**Paso 5**. **Pulsa** ![](/sbox/screen/spybot-es/39.png) en el lado derecho de la pantalla de resultados de **Spybot** para revelar m\u00e1s informaci\u00f3n sobre cada elemento. Si no se muestra nada, tambi\u00e9n puedes investigarlo en Internet. Encuentra como opera y como puede comprometer la integridad y seguridad de tu sistema. un mejor conocimiento e informaci\u00f3n sobre los problemas y amenazas te conducen a mayor privacidad y seguridad para ti.\r\n\r\n![](/sbox/screen/spybot-es/40.png)\r\n\r\n*Figura 15: El panel Mostrar m\u00e1s informaci\u00f3n de Spybot-S&D*\r\n\r\n**Paso 5**. **Pulsa** ![](/sbox/screen/spybot-es/41.png) para activar la eliminaci\u00f3n de software malicioso (malware).\r\n\r\n*Una ventana de dialogo de confirmaci\u00f3n aparecer\u00e1 preguntandote si deseas borrar todos los problemas encontrados.*\r\n\r\n**Paso 6**. **Pulsa** el bot\u00f3n *Si* si deseas borrarlos.\r\n\r\n**Nota**: en general es una buena idea el escanear tu sistema en busca de problemas cada semana. \r\n\r\n<a name=\"2.6\"></a>\r\n## 2.6 Resident TeaTimer ##\r\n\r\nEl **Resident TeaTimer** es una utilidad de  **Spybot** que corre constantemente en segundo plano (esto es, incluso, cuando no estas usando activamente **Spybot**). Monitorea, constantemente, los procesos vitales del sistema para asegurarse que posibles amenazas no est\u00e9n cambiando confuguraciones o ajustes criticos del sistema. **TeaTimer** alerta al usuario cuando detecta un proceso malicioso conocido o sospechoso, y deja que decidas si permites o rechazas ese proceso (en caso que sea efectivamente maliciosos). un ejemplo de tal pantalla emergente aparece a continuaci\u00f3n:\r\n\r\n![](/sbox/screen/spybot-es/69.png)\r\n\r\n*Figura 16: La alerta del Resident TeaTimer de  Spybot - Search & Destroy, mostrando la pantalla de Aceptar/Rechazar cambio*\r\n\r\nDado que muchos programas (tanto necesarios como maliciosos) requieren acceso a los procesos internos del sistema **TeaTimer** te solicitar\u00e1 frecuentemente *Permitir* o *Rechazar* cambios. En este ejemplo, **Skype** est\u00e1 siendo borrado del **Men\u00fa de inicio de Windows**. Esto usualmente ocurre cuando desinstalas un programa (y esto no ocurre necesariamente unicamente durante el arranque del sistema). En este caso, esta es una solicitud v\u00e1lidad de cambio de una peque\u00f1a configuraci\u00f3n del sistema y puedes permitirla.\r\n\r\n**Consejo**: Si no est\u00e1s seguro acerca de una consulta en una ventana de **TeaTimer**, **pulsa** ![](/sbox/screen/spybot-es/43.png) para m\u00e1s informaci\u00f3n, como sigue:\r\n\r\n![](/sbox/screen/spybot-es/70.png)\r\n\r\n*Figura 17: La ventana de inicio de Spybot - Search & Destroy*\r\n\r\nEs seguro denegar una solicitud si no est\u00e1s seguro de sus efectos. Sin embargo, si est\u00e1s seguro que la solicitud es v\u00e1lida, habilita la casilla *Recuerda esta decisi\u00f3n* y **Spybot** no te mostrar\u00e1 nuevamente esta alerta.\r\n\r\n**Nota**: Es frecuenta ver activarse al **TeaTimer** cuando instalas un nuevo programa y este trata de a\u00f1adirse a los procesos de arranque. Lo mismo ocurrir\u00e1 cuando desinstalas un programa.\r\n\r\n**Consejo**: Se te recomienda enf\u00e1ticamente que actualices el **TeaTimer** cada vez que haya una actualizaci\u00f3n disponible.\r\n\r\n<a name=\"2.7\"></a>\r\n## 2.7 Utilizar la Herramienta de Recupearaci\u00f3n ##\r\n\r\n\r\nLa *Herramienta de Recuperaci\u00f3n* te permite la recuperaci\u00f3n o el rescate de cualquier elemento reparado o eliminado. Esto puede ocurrir gracias a que **Spybot** crear\u00e1 una copia de respaldo de cada elemento que ha borrado previamente. Si la eliminaci\u00f3n de una pieza de software malicioso (malware) provoca un mal funcionamiento en tu computadora, es posible que la recuperes utilizando la *Herramienta de Recuperaci\u00f3n*.\r\n\r\nPara recuperar un elemento previamente borrado, ejecuta los siguientes pasos:\r\n\r\n**Paso 1**. **Pulsa** ![](/sbox/screen/spybot-es/45.png) para activar la pantalla de *Recuperaci\u00f3n* como sigue:\r\n\r\n![](/sbox/screen/spybot-es/46.png)\r\n\r\n*Figura 18: La pantalla de recuperaci\u00f3n de Spybot Search & Destroy*\r\n\r\n**Paso 2**. **Selecciona** los elementos que desees recuperar de la lista de elementos previamente borrados, luego **pulsa** ![](/sbox/screen/spybot-es/47.png).\r\n\r\n*Se activar\u00e1 un cuadro de di\u00e1logo de Confirmaci\u00f3n como la siguiente:*\r\n\r\n![](/sbox/screen/spybot-es/48.png)\r\n\r\n*Figura 19: Cuadro de di\u00e1logo de Confirmaci\u00f3n*\r\n\r\n**Paso 3**. **Pulsa** ![](/sbox/screen/spybot-es/49.png) para recuperar el elemento seleccionado.\r\n\r\n**Paso 4**. Alternativamente, **pulsa** ![](/sbox/screen/spybot-es/50.png) para eliminar definitivamente todos los archivos seleccionados. Sin embargo, debes tener presente que los elementos purgados de esta manera no son recuperables."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1990", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1990", 
+                "link_title": "How to Install and Use Spybot", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5136", 
+                "module": "book", 
+                "nid": "1990", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5135", 
+                "p3": "5136", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5135", 
+                "router_path": "node/%", 
+                "title": "How to Install and Use Spybot", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1453995086", 
+            "comment": "0", 
+            "created": "1441113890", 
+            "current_revision_id": "13064", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "spybot_instalar", 
+                        "value": "spybot_instalar"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5136": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1990", 
+                    "link_title": "How to Install and Use Spybot", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5136", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5135", 
+                    "p3": "5136", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5135", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1990", 
+            "num_revisions": "20", 
+            "path": "https://securityinabox.org/en/spybot_gettingstarted", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1453995086", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Instalar y Usar Spybot", 
+                        "value": "Instalar y Usar Spybot"
+                    }
+                ]
+            }, 
+            "title_original": "How to Install and Use Spybot", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442919397", 
+                        "created": "1442919397", 
+                        "entity_id": "1990", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1990", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1441895045", 
+                        "created": "1441799174", 
+                        "entity_id": "1990", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1990", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442408754", 
+                        "created": "1441898176", 
+                        "entity_id": "1990", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1990", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441280029", 
+                        "created": "1441280029", 
+                        "entity_id": "1990", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1990", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1453995086", 
+                        "created": "1442834426", 
+                        "entity_id": "1990", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1990", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1443775667", 
+                        "created": "1443775667", 
+                        "entity_id": "1990", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1990", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452861116", 
+                        "created": "1452861116", 
+                        "entity_id": "1990", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1990", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443601709", 
+                        "created": "1443601709", 
+                        "entity_id": "1990", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1990", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441187376", 
+                        "created": "1441187376", 
+                        "entity_id": "1990", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1990", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444174840", 
+                        "created": "1444174840", 
+                        "entity_id": "1990", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1990", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444829880", 
+                        "created": "1444720919", 
+                        "entity_id": "1990", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1990", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441187295", 
+                        "created": "1441113890", 
+                        "entity_id": "1990", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1990", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445369465", 
+                        "created": "1444057050", 
+                        "entity_id": "1990", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1990", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "6e342dab-4ffd-48d1-aee3-8e1ccc508971", 
+            "vid": "13064", 
+            "vuuid": "6ba15fc4-d4d0-4d10-9822-feb82cadaa08"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li><a href=\"#3.0\"><strong>3.0 Acerca del Modo Avanzado</strong></a></li>\n<li><a href=\"#3.1\"><strong>3.1 Activar el Modo Avanzado</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 Utilizar las Herramientas del Modo Avanzado</strong></a></li>\n</ul><hr /><p><a name=\"3.0\" id=\"3.0\"></a></p>\n\n<h2>3.0 Acerca del Modo Avanzado</h2>\n\n<p><strong>Spybot</strong> funciona en los modos  <em>Por defecto</em> y <em>Avanzado</em>. El <em>Modo Avanzado</em>  permite acceder a configuraciones del programa y herramientas adicionales.</p>\n\n<p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 Activar el Modo Avanzado</h2>\n\n<p>Para activar <strong>Spybot</strong> en <em>Modo Avanzado</em>, ejecuta los siguientes pasos:</p>\n\n<p><strong>Paso 1</strong>. <strong>Selecciona Modo &gt; Modo Avanzado</strong> de la barra de men\u00fa como sigue:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/51.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: Opciones del men\u00fa Modo</em></p>\n\n<p><em>Esto activar\u00e1 la siguiente pantalla</em>:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/52.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: La ventana de Advertencia</em></p>\n\n<p><strong>Paso 2</strong>. <strong>Haz click en</strong> <img src=\"/sbox/screen/spybot-/es/49.png\" alt=\"\" /> para confirmar este modo.</p>\n\n<p>En <em>Modo Avanzado</em>, la barra lateral en la consola de <strong>Spybot</strong> aparecer\u00e1 con m\u00e1s opciones:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/53.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: Spybot - Search &amp; Destroy Pantalla de Configuraci\u00f3n del Modo avanzado</em></p>\n\n<p><strong>Paso 3</strong>. <strong>Pulsa dos veces en</strong> <em>Configuraci\u00f3n</em> para ver las descripciones de distintos elementos y opciones en el panel de la pantalla, como sigue:</p>\n\n<p><img src=\"/sbox/screen/spybot-es/54.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: La pantalla de Configuraci\u00f3n</em></p>\n\n<p><strong>Paso 4</strong>. <strong>Pulsa dos veces</strong> en <em>Herramientas</em> para ver las herramientas que te ayudar\u00e1n a identificar software esp\u00eda (spyware) no detectado por los procesos normales de escaneado y volver a escanear tu sistema.</p>\n\n<p><img src=\"/sbox/screen/spybot-es/55.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: La pantalla de Herramientas</em></p>\n\n<p><strong>Paso 3</strong>. <strong>Haz doble click</strong> en <em>Informaci\u00f3n y Licencia</em> para mostrar informaci\u00f3n general y de licenciamiento sobre <strong>Spybot 1.6.2</strong>.</p>\n\n<p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 Utilizar las Herramientas del Modo Avanzado</h2>\n\n<p>Los usuarios <strong>Avanzados</strong> apreciar\u00e1n las siguientes caracter\u00edsticas avanzadas provistas por <strong>Spybot</strong>: <em>Modificaciones de IE</em>, <em>Eliminaci\u00f3n segura</em>, <em>Partes Internas del Sistema</em> e <em>Inicio del Sistema</em>.</p>\n\n<h3>3.2.1 Modificaciones de IE</h3>\n\n<p>La opci\u00f3n <em>Modificaciones de IE</em> se utiliza para la configuraci\u00f3n de  <strong>Internet Explorer</strong>. Este te permite fijar un par de configuraciones de seguridad importantes en Internet Explorer, especialmente en situaciones en las que m\u00e1s de una persona esta utilizando un sistema.</p>\n\n<p><img src=\"/sbox/screen/spybot-es/56.png\" alt=\"\" /></p>\n\n<p><em>Figura 6: Pantalla de Modificaciones de IE</em></p>\n\n<p>Debes dejar habilitada la primera opci\u00f3n, como se muestra en el ejemplo anterior.</p>\n\n<h3>3.2.2  Eliminaci\u00f3n segura</h3>\n\n<p>Esta es una excelente opci\u00f3n para borrar permantemente (wiping) archivos temporales de <strong>Windows</strong> y archivos del navegador de Internet. Para mayor informaci\u00f3n sobre el borrado permanente y los archivos temporales por favor dir\u00edgete a la Gu\u00eda Paso a Paso Capitulo <a href=\"/es/chapter-6\"><strong>6. Destruir informaci\u00f3n sensible</strong></a>.</p>\n\n<p><strong>Paso 1</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-/es/57.png\" alt=\"\" /> para activar la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/spybot-/es/58.png\" alt=\"\" /></p>\n\n<p><em>Figura 7: Lista desplegable de Plantillas en la pantalla de Eliminaci\u00f3n segura de Spybot-S&amp;D</em></p>\n\n<p><strong>Paso 2</strong>. <strong>Pulsa</strong> en el men\u00fa <em>Plantillas</em>  para activar una lista desplegable de archivos temporales de programa como se muestra en la <em>Figura 7</em>, y luego <strong>selecciona</strong> un elemento de dicha lista para alimentar con datos la pantalla de <em>Spybot S&amp;D Eliminaci\u00f3n Segura</em> como se muestra:</p>\n\n<p><img src=\"/sbox/screen/spybot-/es/59.png\" alt=\"\" /></p>\n\n<p><em>Figura 8: Pantalla de Eliminaci\u00f3n segura de Spybot S&amp;D</em></p>\n\n<p><strong>Paso 3</strong>. <strong>Selecciona</strong> un archivo para borrado.</p>\n\n<p><strong>Paso 4</strong>. <strong>Fija</strong> el numero de veces que el archivo ser\u00e1 sobreescrito como sigue:</p>\n\n<p><img src=\"/sbox/screen/spybot-/es/60.png\" alt=\"\" /></p>\n\n<p><em>Figura 9: Control Deslizante del modo de Eliminaci\u00f3n segura</em></p>\n\n<p><strong>Paso 5</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-/es/61.png\" alt=\"\" /> una vez que hayas fijado el n\u00famero de veces que este documento ser\u00e1 sobreescrito.</p>\n\n<p><em>Spybot borrar\u00e1 permanentemente estos innecesarios archivos temporales de tu computadora.</em></p>\n\n<p>Puedes usar tambien <em>Eliminaci\u00f3n segura</em> para borrar permanentemente otros archivos tambien. Para hacerlo, ejecuta los siguientes pasos:</p>\n\n<p><strong>Paso 1</strong>. <strong>Selecciona &gt; A\u00f1adir archivo(s) a la lista...</strong> para activar la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/spybot-/es/65.png\" alt=\"\" /></p>\n\n<p><em>Figura 10: Ventana de navegaci\u00f3n de Selecci\u00f3n de Archivo(s) para eliminar</em></p>\n\n<p><strong>Paso 2</strong>. <strong>Seleciona</strong> el archivo que desees eliminar.</p>\n\n<p><strong>Paso 3</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/66.png\" alt=\"\" /> para mostrar el archivo en la <em>Figura 8</em> y luego <strong>pulsa</strong> <img src=\"/sbox/screen/spybot-es/61.png\" alt=\"\" /> para borrar y eliminar permanentemente el archivo.</p>\n\n<h3>3.2.3 Partes internas del Sistema (\u00a1S\u00f3lo para Usuarios Avanzados!)</h3>\n\n<p>La herramienta <em>Partes internas del Sistema</em> buscar\u00e1 archivos incoherentes o incorrectamente nombrados dentro del <strong>Registro de Windows</strong>. Para un vistazo general del <strong>Registro de Windows</strong>, por favor dir\u00edgete a <a href=\"//securityinabox.org/es/ccleaner_registrowindows#4.0\"><strong>CCleaner</strong></a> para mayor informaci\u00f3n.</p>\n\n<p><img src=\"/sbox/screen/spybot-es/62.png\" alt=\"\" /></p>\n\n<p><em>Figura 11: Pantalla de Partes internas del Sistema</em></p>\n\n<p><strong>Paso 1</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/63.png\" alt=\"\" /> para empezar a buscar problemas en el <strong>Registro de Windows</strong>.</p>\n\n<p><strong>Paso 2</strong>. Despu\u00e9s de completado el escaneo, <strong>pulsa</strong> <img src=\"/sbox/screen/spybot-es/41.png\" alt=\"\" /> para corregir todos los problemas encontrados durante este.</p>\n\n<h3>3.2.4 Inicio del Sistema (\u00a1S\u00f3lo para Usuarios Avanzados!)</h3>\n\n<p>La herramienta <em>Inicio del Sistema</em> muestra en secuencia todos los programas cargados por <strong>Windows</strong> al iniciar tu computadora. Este te permite decidir cu\u00e1les son necesarios y cu\u00e1les no son esenciales.</p>\n\n<p><strong>Consejo</strong>: Eliminar los elementos innecesarios de esta lista significa que <strong>Windows</strong> se iniciar\u00e1 m\u00e1s r\u00e1pido.</p>\n\n<p><img src=\"/sbox/screen/spybot-es/64.png\" alt=\"\" /></p>\n\n<p><em>Figura 12: La pantalla de Inicio del sistema</em></p>\n\n<p><strong>Paso 1</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybot-es/39.png\" alt=\"\" /> para activar el panel de informaci\u00f3n.</p>\n\n<p>En el panel de informaci\u00f3n, se describe el comportamiento y la funci\u00f3n de cada elemento resaltado. Lee estas descripciones cuidadosamente antes de decidir si un elemento necesita ser o no cargado al momento de iniciar <strong>Windows</strong>.</p>\n", 
+                        "summary": "", 
+                        "value": "- [**3.0 Acerca del Modo Avanzado**](#3.0)\r\n- [**3.1 Activar el Modo Avanzado**](#3.1)\r\n- [**3.2 Utilizar las Herramientas del Modo Avanzado**](#3.2)\r\n\r\n-------\r\n\r\n<a name=\"3.0\"></a>\r\n## 3.0 Acerca del Modo Avanzado ##\r\n\r\n**Spybot** funciona en los modos  *Por defecto* y *Avanzado*. El *Modo Avanzado*  permite acceder a configuraciones del programa y herramientas adicionales.\r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 Activar el Modo Avanzado##\r\n\r\nPara activar **Spybot** en *Modo Avanzado*, ejecuta los siguientes pasos:\r\n\r\n**Paso 1**. **Selecciona Modo > Modo Avanzado** de la barra de men\u00fa como sigue:\r\n\r\n![](/sbox/screen/spybot-es/51.png)\r\n\r\n*Figura 1: Opciones del men\u00fa Modo*\r\n\r\n*Esto activar\u00e1 la siguiente pantalla*:\r\n\r\n![](/sbox/screen/spybot-es/52.png)\r\n\r\n*Figura 2: La ventana de Advertencia*\r\n\r\n**Paso 2**. **Haz click en** ![](/sbox/screen/spybot-/es/49.png) para confirmar este modo.\r\n\r\nEn *Modo Avanzado*, la barra lateral en la consola de **Spybot** aparecer\u00e1 con m\u00e1s opciones:\r\n\r\n![](/sbox/screen/spybot-es/53.png)\r\n\r\n*Figura 3: Spybot - Search & Destroy Pantalla de Configuraci\u00f3n del Modo avanzado*\r\n\r\n**Paso 3**. **Pulsa dos veces en** *Configuraci\u00f3n* para ver las descripciones de distintos elementos y opciones en el panel de la pantalla, como sigue:\r\n\r\n![](/sbox/screen/spybot-es/54.png)\r\n\r\n*Figura 4: La pantalla de Configuraci\u00f3n*\r\n\r\n**Paso 4**. **Pulsa dos veces** en *Herramientas* para ver las herramientas que te ayudar\u00e1n a identificar software esp\u00eda (spyware) no detectado por los procesos normales de escaneado y volver a escanear tu sistema.\r\n\r\n![](/sbox/screen/spybot-es/55.png)\r\n\r\n*Figura 5: La pantalla de Herramientas*\r\n\r\n**Paso 3**. **Haz doble click** en *Informaci\u00f3n y Licencia* para mostrar informaci\u00f3n general y de licenciamiento sobre **Spybot 1.6.2**.\r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 Utilizar las Herramientas del Modo Avanzado##\r\n\r\nLos usuarios **Avanzados** apreciar\u00e1n las siguientes caracter\u00edsticas avanzadas provistas por **Spybot**: *Modificaciones de IE*, *Eliminaci\u00f3n segura*, *Partes Internas del Sistema* e *Inicio del Sistema*.\r\n\r\n### 3.2.1 Modificaciones de IE ###\r\n\r\nLa opci\u00f3n *Modificaciones de IE* se utiliza para la configuraci\u00f3n de  **Internet Explorer**. Este te permite fijar un par de configuraciones de seguridad importantes en Internet Explorer, especialmente en situaciones en las que m\u00e1s de una persona esta utilizando un sistema.\r\n\r\n![](/sbox/screen/spybot-es/56.png)\r\n\r\n*Figura 6: Pantalla de Modificaciones de IE*\r\n\r\nDebes dejar habilitada la primera opci\u00f3n, como se muestra en el ejemplo anterior.\r\n\r\n### 3.2.2  Eliminaci\u00f3n segura ###\r\n\r\nEsta es una excelente opci\u00f3n para borrar permantemente (wiping) archivos temporales de **Windows** y archivos del navegador de Internet. Para mayor informaci\u00f3n sobre el borrado permanente y los archivos temporales por favor dir\u00edgete a la Gu\u00eda Paso a Paso Capitulo [**6. Destruir informaci\u00f3n sensible**](/es/chapter-6).\r\n\r\n**Paso 1**. **Pulsa** ![](/sbox/screen/spybot-/es/57.png) para activar la siguiente pantalla:\r\n\r\n![](/sbox/screen/spybot-/es/58.png)\r\n\r\n*Figura 7: Lista desplegable de Plantillas en la pantalla de Eliminaci\u00f3n segura de Spybot-S&D*\r\n\r\n**Paso 2**. **Pulsa** en el men\u00fa *Plantillas*  para activar una lista desplegable de archivos temporales de programa como se muestra en la *Figura 7*, y luego **selecciona** un elemento de dicha lista para alimentar con datos la pantalla de *Spybot S&D Eliminaci\u00f3n Segura* como se muestra:\r\n\r\n![](/sbox/screen/spybot-/es/59.png)\r\n\r\n*Figura 8: Pantalla de Eliminaci\u00f3n segura de Spybot S&D*\r\n\r\n**Paso 3**. **Selecciona** un archivo para borrado.\r\n\r\n**Paso 4**. **Fija** el numero de veces que el archivo ser\u00e1 sobreescrito como sigue:\r\n\r\n![](/sbox/screen/spybot-/es/60.png)\r\n\r\n*Figura 9: Control Deslizante del modo de Eliminaci\u00f3n segura*\r\n\r\n**Paso 5**. **Pulsa** ![](/sbox/screen/spybot-/es/61.png) una vez que hayas fijado el n\u00famero de veces que este documento ser\u00e1 sobreescrito.\r\n\r\n*Spybot borrar\u00e1 permanentemente estos innecesarios archivos temporales de tu computadora.*\r\n\r\nPuedes usar tambien *Eliminaci\u00f3n segura* para borrar permanentemente otros archivos tambien. Para hacerlo, ejecuta los siguientes pasos:\r\n\r\n**Paso 1**. **Selecciona > A\u00f1adir archivo(s) a la lista...** para activar la siguiente pantalla:\r\n\r\n![](/sbox/screen/spybot-/es/65.png)\r\n\r\n*Figura 10: Ventana de navegaci\u00f3n de Selecci\u00f3n de Archivo(s) para eliminar*\r\n\r\n**Paso 2**. **Seleciona** el archivo que desees eliminar.\r\n\r\n**Paso 3**. **Pulsa** ![](/sbox/screen/spybot-es/66.png) para mostrar el archivo en la *Figura 8* y luego **pulsa** ![](/sbox/screen/spybot-es/61.png) para borrar y eliminar permanentemente el archivo.\r\n\r\n### 3.2.3 Partes internas del Sistema (\u00a1S\u00f3lo para Usuarios Avanzados!) ###\r\n\r\nLa herramienta *Partes internas del Sistema* buscar\u00e1 archivos incoherentes o incorrectamente nombrados dentro del **Registro de Windows**. Para un vistazo general del **Registro de Windows**, por favor dir\u00edgete a [**CCleaner**](//securityinabox.org/es/ccleaner_registrowindows#4.0) para mayor informaci\u00f3n.\r\n\r\n![](/sbox/screen/spybot-es/62.png)\r\n\r\n*Figura 11: Pantalla de Partes internas del Sistema*\r\n\r\n**Paso 1**. **Pulsa** ![](/sbox/screen/spybot-es/63.png) para empezar a buscar problemas en el **Registro de Windows**.\r\n\r\n**Paso 2**. Despu\u00e9s de completado el escaneo, **pulsa** ![](/sbox/screen/spybot-es/41.png) para corregir todos los problemas encontrados durante este.\r\n\r\n### 3.2.4 Inicio del Sistema (\u00a1S\u00f3lo para Usuarios Avanzados!) ###\r\n\r\nLa herramienta *Inicio del Sistema* muestra en secuencia todos los programas cargados por **Windows** al iniciar tu computadora. Este te permite decidir cu\u00e1les son necesarios y cu\u00e1les no son esenciales.\r\n\r\n**Consejo**: Eliminar los elementos innecesarios de esta lista significa que **Windows** se iniciar\u00e1 m\u00e1s r\u00e1pido.\r\n\r\n![](/sbox/screen/spybot-es/64.png)\r\n\r\n*Figura 12: La pantalla de Inicio del sistema*\r\n\r\n**Paso 1**. **Pulsa** ![](/sbox/screen/spybot-es/39.png) para activar el panel de informaci\u00f3n.\r\n\r\nEn el panel de informaci\u00f3n, se describe el comportamiento y la funci\u00f3n de cada elemento resaltado. Lee estas descripciones cuidadosamente antes de decidir si un elemento necesita ser o no cargado al momento de iniciar **Windows**.\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1991", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1991", 
+                "link_title": "How to Use Spybot in Advanced Mode", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5137", 
+                "module": "book", 
+                "nid": "1991", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5135", 
+                "p3": "5137", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5135", 
+                "router_path": "node/%", 
+                "title": "How to Use Spybot in Advanced Mode", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1455201855", 
+            "comment": "0", 
+            "created": "1441113933", 
+            "current_revision_id": "13232", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "spybot_modoavanzado", 
+                        "value": "spybot_modoavanzado"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5137": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1991", 
+                    "link_title": "How to Use Spybot in Advanced Mode", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5137", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5135", 
+                    "p3": "5137", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5135", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1991", 
+            "num_revisions": "19", 
+            "path": "https://securityinabox.org/en/spybot_advanced", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455201855", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Utilizar Spybot en Modo Avanzado", 
+                        "value": "Utilizar Spybot en Modo Avanzado"
+                    }
+                ]
+            }, 
+            "title_original": "How to Use Spybot in Advanced Mode", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442919495", 
+                        "created": "1442919495", 
+                        "entity_id": "1991", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1991", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454082415", 
+                        "created": "1441895174", 
+                        "entity_id": "1991", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1991", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1455201855", 
+                        "created": "1441898286", 
+                        "entity_id": "1991", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1991", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452005325", 
+                        "created": "1441280148", 
+                        "entity_id": "1991", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1991", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1442834529", 
+                        "created": "1442834529", 
+                        "entity_id": "1991", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1991", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1443775648", 
+                        "created": "1443775648", 
+                        "entity_id": "1991", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1991", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452861263", 
+                        "created": "1452861263", 
+                        "entity_id": "1991", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1991", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443601817", 
+                        "created": "1443601817", 
+                        "entity_id": "1991", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1991", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441187501", 
+                        "created": "1441187501", 
+                        "entity_id": "1991", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1991", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444174898", 
+                        "created": "1444174898", 
+                        "entity_id": "1991", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1991", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444830101", 
+                        "created": "1444720988", 
+                        "entity_id": "1991", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1991", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441113933", 
+                        "created": "1441113933", 
+                        "entity_id": "1991", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1991", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445369525", 
+                        "created": "1444057189", 
+                        "entity_id": "1991", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1991", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "6a4f31ae-fd13-4720-8305-22041f250927", 
+            "vid": "13232", 
+            "vuuid": "7ca22834-2c76-4da6-a054-d05b1fe8c45a"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<h2>1.0 Diferencias entre las Versiones Instalada y Port\u00e1til de Spybot - Search &amp; Destroy</h2>\n\n<p>Dado que las herramientas port\u00e1tiles no est\u00e1n instaladas en una computadora local, sus existencia y uso pasan inadvertidos. Sin embargo, ten en cuenta que tu dispositivo externo o memoria extra\u00edble USB, y las herramientas port\u00e1tiles son tan seguras como la computadora que est\u00e1s utilizando, y que pueden correr el riesgo de estar expuestas a software publicitario (adware), software malicioso (malware), software esp\u00eda (spyware) y virus.</p>\n\n<p>No existen otras diferencias entre la versi\u00f3n <strong>Port\u00e1til de Spybot</strong> y la versi\u00f3n dise\u00f1ada para ser instalad en una computadora local.</p>\n\n<p><strong>Nota:</strong> Por favor, revisa las muy \u00fatiles herramientas de rescate port\u00e1tiles para eliminar virus, software publicitario (adware), software malicioso (malware), y software esp\u00eda (spyware) en la secci\u00f3n  <a href=\"/es/lidiandoconvirus#4.9\"><strong>M\u00e9todos Avanzados para la Eliminaci\u00f3n de Virus</strong></a> de <em>Analizar y Lidiar con Virus Utilizando avast!</em> en las Gu\u00edas Pr\u00e1cticas.</p>\n\n<h2>2.0 Descargar y Extraer el Spybot Port\u00e1til - Search &amp; Destroy</h2>\n\n<p>Para empezar a descargar y extraer el <strong>Spybot Port\u00e1til - Search &amp; Destroy</strong>, ejecuta los siguientes pasos:</p>\n\n<p><strong>Paso 1</strong>. <strong>Pulsa</strong> <a href=\"http://portableapps.com/apps/security/spybot_portable\"><strong>http://portableapps.com/apps/security/spybot_portable</strong></a> para ser dirigido al sitios de descargas apropiado.</p>\n\n<p><strong>Paso 2</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybotportatil-es/01.png\" alt=\"\" /> para activar la pagina asociada de descarga de <strong>Source Forge</strong>;</p>\n\n<p><strong>Paso 3</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybotportatil-es/02.png\" alt=\"\" /> para guardar el <img src=\"/sbox/screen/spybotportatil-es/03.png\" alt=\"\" /> archivo de instalaci\u00f3n en tu computadora, y luego <strong>explora</strong> para ubicarlo.</p>\n\n<p><strong>Paso 4</strong>. <strong>Pulsa dos veces</strong> <img src=\"/sbox/screen/spybotportatil-es/03.png\" alt=\"\" />; el cuadro de di\u00e1logo de <em>Abrir Archivo - Advertencia de Seguridad</em> puede aparecer; si as\u00ed lo hace, <strong>pulsa</strong> <img src=\"/sbox/screen/spybotportatil-es/04.png\" alt=\"\" /> para activar la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/spybotportatil-es/05.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: Pantalla de Idioma de Instalaci\u00f3n</em></p>\n\n<p><strong>Paso 5</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybotportatil-es/06.png\" alt=\"\" /> para activar la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/spybotportatil-es/07.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: Pantalla de Instalaci\u00f3n de The Spybot - Search &amp; Destroy, Portable Edition | Portableapps.com</em></p>\n\n<p><strong>Paso 6</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybotportatil-es/08.png\" alt=\"\" /> para activar la pantalla de <em>Acuerdo de Licencia</em>.</p>\n\n<p><strong>Paso 7</strong>. <strong>Pulsa</strong> para habilitar la opcion <img src=\"/sbox/screen/spybotportatil-es/09.png\" alt=\"\" /> despu\u00e9s de que hayas le\u00eddo el <em>Acuerdo de Licencia</em>, y luego <strong>pulsa</strong> <img src=\"/sbox/screen/spybotportatil-es/08.png\" alt=\"\" /> para activar la siguiente pantalla:</p>\n\n<p><img src=\"/sbox/screen/spybotportatil-es/10.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: Pantalla de Elegir lugar de instalaci\u00f3n</em></p>\n\n<p><strong>Paso 8</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybotportatil-es/11.png\" alt=\"\" /> para activar una pantalla semejante a la siguiente:</p>\n\n<p><img src=\"/sbox/screen/spybotportatil-es/12.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: Pantalla de Buscar carpeta</em></p>\n\n<p><strong>Paso 9</strong>. <strong>Explora</strong> hasta ubicar la unidad externa de destino o memoria extra\u00edble USB, como se muestra en la <em>Figura 5</em>, luego <strong>pulsa</strong> <img src=\"/sbox/screen/spybotportatil-es/13.png\" alt=\"\" /> para confirmar la ubicaci\u00f3n del archivo de <strong>Spybot - Search &amp; Destroy Portable</strong>, y luego regresa a la pantalla de <em>Elegir lugar de instalaci\u00f3n</em>.</p>\n\n<p><strong>Paso 10</strong>. <strong>Pulsa</strong> <img src=\"/sbox/screen/spybotportatil-es/14.png\" alt=\"\" /> para empezar a instalar el programa <strong>Spybot - Search &amp; Destroy Portable</strong>, luego <strong>pulsa</strong> <img src=\"/sbox/screen/spybotportatil-es/15.png\" alt=\"\" /> para completar el proceso de instalaci\u00f3n, y luego <strong>navega</strong> hasta la unidad o memoria USB extra\u00edbles en el cual el programa <strong>Portable Spybot - Search &amp; Destroy</strong> fue guardado.</p>\n\n<p><img src=\"/sbox/screen/spybotportatil-es/16.png\" alt=\"\" /></p>\n\n<p><em>Figura 7: El programa, recientemente instalado, Portable Spybot - Search &amp; Destroy con su carpeta resaltada en azul</em></p>\n\n<p><strong>Paso 11</strong>. <strong>Abre</strong> la carpeta <strong>Portable Spybot - Search &amp; Destroy</strong>, y luego <strong>pulsa dos veces</strong> <img src=\"/sbox/screen/spybotportatil-es/17.png\" alt=\"\" /> para empezar la ejecuci\u00f3n del <strong>Portable Spybot - Search &amp; Destroy</strong>.</p>\n\n<p>Despu\u00e9s de que hayas extra\u00eddo con \u00e9xito el <strong>Portable Spybot - Search &amp; Destroy</strong>, por favor dir\u00edgete al cap\u00edtulo <a href=\"/es/spybot_principal\"><strong>Spybot - antiesp\u00eda</strong></a> para empezar a utilizarlo.</p>\n", 
+                        "summary": "", 
+                        "value": "## 1.0 Diferencias entre las Versiones Instalada y Port\u00e1til de Spybot - Search & Destroy ##\r\n\r\nDado que las herramientas port\u00e1tiles no est\u00e1n instaladas en una computadora local, sus existencia y uso pasan inadvertidos. Sin embargo, ten en cuenta que tu dispositivo externo o memoria extra\u00edble USB, y las herramientas port\u00e1tiles son tan seguras como la computadora que est\u00e1s utilizando, y que pueden correr el riesgo de estar expuestas a software publicitario (adware), software malicioso (malware), software esp\u00eda (spyware) y virus.\r\n\r\nNo existen otras diferencias entre la versi\u00f3n **Port\u00e1til de Spybot** y la versi\u00f3n dise\u00f1ada para ser instalad en una computadora local.\r\n\r\n**Nota:** Por favor, revisa las muy \u00fatiles herramientas de rescate port\u00e1tiles para eliminar virus, software publicitario (adware), software malicioso (malware), y software esp\u00eda (spyware) en la secci\u00f3n  [**M\u00e9todos Avanzados para la Eliminaci\u00f3n de Virus**](/es/lidiandoconvirus#4.9) de *Analizar y Lidiar con Virus Utilizando avast!* en las Gu\u00edas Pr\u00e1cticas.\r\n\r\n## 2.0 Descargar y Extraer el Spybot Port\u00e1til - Search & Destroy ##\r\n\r\nPara empezar a descargar y extraer el **Spybot Port\u00e1til - Search & Destroy**, ejecuta los siguientes pasos:\r\n\r\n**Paso 1**. **Pulsa** [**http://portableapps.com/apps/security/spybot_portable**](http://portableapps.com/apps/security/spybot_portable) para ser dirigido al sitios de descargas apropiado.\r\n\r\n**Paso 2**. **Pulsa** ![](/sbox/screen/spybotportatil-es/01.png) para activar la pagina asociada de descarga de **Source Forge**; \r\n\r\n**Paso 3**. **Pulsa** ![](/sbox/screen/spybotportatil-es/02.png) para guardar el ![](/sbox/screen/spybotportatil-es/03.png) archivo de instalaci\u00f3n en tu computadora, y luego **explora** para ubicarlo.\r\n\r\n**Paso 4**. **Pulsa dos veces** ![](/sbox/screen/spybotportatil-es/03.png); el cuadro de di\u00e1logo de *Abrir Archivo - Advertencia de Seguridad* puede aparecer; si as\u00ed lo hace, **pulsa** ![](/sbox/screen/spybotportatil-es/04.png) para activar la siguiente pantalla: \r\n\r\n![](/sbox/screen/spybotportatil-es/05.png)\r\n\r\n*Figura 1: Pantalla de Idioma de Instalaci\u00f3n*\r\n\r\n**Paso 5**. **Pulsa** ![](/sbox/screen/spybotportatil-es/06.png) para activar la siguiente pantalla:\r\n\r\n![](/sbox/screen/spybotportatil-es/07.png)\r\n\r\n*Figura 3: Pantalla de Instalaci\u00f3n de The Spybot - Search & Destroy, Portable Edition | Portableapps.com*\r\n\r\n**Paso 6**. **Pulsa** ![](/sbox/screen/spybotportatil-es/08.png) para activar la pantalla de *Acuerdo de Licencia*. \r\n\r\n**Paso 7**. **Pulsa** para habilitar la opcion ![](/sbox/screen/spybotportatil-es/09.png) despu\u00e9s de que hayas le\u00eddo el *Acuerdo de Licencia*, y luego **pulsa** ![](/sbox/screen/spybotportatil-es/08.png) para activar la siguiente pantalla:  \r\n\r\n![](/sbox/screen/spybotportatil-es/10.png)\r\n\r\n*Figura 4: Pantalla de Elegir lugar de instalaci\u00f3n*\r\n\r\n**Paso 8**. **Pulsa** ![](/sbox/screen/spybotportatil-es/11.png) para activar una pantalla semejante a la siguiente:\r\n\r\n![](/sbox/screen/spybotportatil-es/12.png)\r\n\r\n*Figura 5: Pantalla de Buscar carpeta*\r\n\r\n**Paso 9**. **Explora** hasta ubicar la unidad externa de destino o memoria extra\u00edble USB, como se muestra en la *Figura 5*, luego **pulsa** ![](/sbox/screen/spybotportatil-es/13.png) para confirmar la ubicaci\u00f3n del archivo de **Spybot - Search & Destroy Portable**, y luego regresa a la pantalla de *Elegir lugar de instalaci\u00f3n*.\r\n\r\n**Paso 10**. **Pulsa** ![](/sbox/screen/spybotportatil-es/14.png) para empezar a instalar el programa **Spybot - Search & Destroy Portable**, luego **pulsa** ![](/sbox/screen/spybotportatil-es/15.png) para completar el proceso de instalaci\u00f3n, y luego **navega** hasta la unidad o memoria USB extra\u00edbles en el cual el programa **Portable Spybot - Search & Destroy** fue guardado.\r\n\r\n![](/sbox/screen/spybotportatil-es/16.png)\r\n\r\n*Figura 7: El programa, recientemente instalado, Portable Spybot - Search & Destroy con su carpeta resaltada en azul*\r\n\r\n**Paso 11**. **Abre** la carpeta **Portable Spybot - Search & Destroy**, y luego **pulsa dos veces** ![](/sbox/screen/spybotportatil-es/17.png) para empezar la ejecuci\u00f3n del **Portable Spybot - Search & Destroy**.\r\n\r\nDespu\u00e9s de que hayas extra\u00eddo con \u00e9xito el **Portable Spybot - Search & Destroy**, por favor dir\u00edgete al cap\u00edtulo [**Spybot - antiesp\u00eda**](/es/spybot_principal) para empezar a utilizarlo.\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1992", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1992", 
+                "link_title": "Portable Spybot (\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8 Spybot \u178a\u17c2\u179b\u17a2\u17b6\u1785\u1799\u1780\u178f\u17b6\u1798\u1781\u17d2\u179b\u17bd\u1793\u1794\u17b6\u1793)", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5138", 
+                "module": "book", 
+                "nid": "1992", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5135", 
+                "p3": "5138", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5135", 
+                "router_path": "node/%", 
+                "title": "Portable Spybot (\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8 Spybot \u178a\u17c2\u179b\u17a2\u17b6\u1785\u1799\u1780\u178f\u17b6\u1798\u1781\u17d2\u179b\u17bd\u1793\u1794\u17b6\u1793)", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1452861359", 
+            "comment": "0", 
+            "created": "1441113982", 
+            "current_revision_id": "12876", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "spybot_portatil", 
+                        "value": "spybot_portatil"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5138": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1992", 
+                    "link_title": "Portable Spybot (\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8 Spybot \u178a\u17c2\u179b\u17a2\u17b6\u1785\u1799\u1780\u178f\u17b6\u1798\u1781\u17d2\u179b\u17bd\u1793\u1794\u17b6\u1793)", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5138", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5135", 
+                    "p3": "5138", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5135", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1992", 
+            "num_revisions": "16", 
+            "path": "https://securityinabox.org/en/spybot_portable", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452861359", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Spybot Port\u00e1til", 
+                        "value": "Spybot Port\u00e1til"
+                    }
+                ]
+            }, 
+            "title_original": "Portable Spybot", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442929376", 
+                        "created": "1442929376", 
+                        "entity_id": "1992", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442240934", 
+                        "created": "1442240934", 
+                        "entity_id": "1992", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442408869", 
+                        "created": "1441898432", 
+                        "entity_id": "1992", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441280197", 
+                        "created": "1441280197", 
+                        "entity_id": "1992", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "id": {
+                        "changed": "1444815892", 
+                        "created": "1444815892", 
+                        "entity_id": "1992", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1452861359", 
+                        "created": "1452861359", 
+                        "entity_id": "1992", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443601883", 
+                        "created": "1443601883", 
+                        "entity_id": "1992", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441187953", 
+                        "created": "1441187953", 
+                        "entity_id": "1992", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444174958", 
+                        "created": "1444174958", 
+                        "entity_id": "1992", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444830163", 
+                        "created": "1444721050", 
+                        "entity_id": "1992", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441113982", 
+                        "created": "1441113982", 
+                        "entity_id": "1992", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445504921", 
+                        "created": "1445504921", 
+                        "entity_id": "1992", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "523947d7-e8c5-4d43-9de4-3152ac1591ac", 
+            "vid": "12876", 
+            "vuuid": "9d78c143-37b1-4383-9998-6378ea5148cf"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h2>4.0 Preguntas y Revisi\u00f3n</h2>\n\n<p>Tanto Elena como Nikolai creen que el <strong>Spybot</strong> es un programa integral y de f\u00e1cil uso. Su m\u00e1s importante fucni\u00f3n - mantener a la computadora libre de software esp\u00eda (spyware) - opera autom\u00e1ticamente. Aunque se encuentran un poco nervisosos respecto a permitir o bloquear cambios ante las diferentes consultas del <strong>TeaTimer</strong>, ambos sienten que aprender\u00e1n a diferenciar entre procesos leg\u00edtmos y maliciosos a mediad que ganen experiencia en el uso del programa.</p>\n\n<div class=\"background\">\n\n<p><strong>Elena</strong>: \u00bfQu\u00e9 ocurre con los programas esp\u00eda (spyware) que el <strong>Spybot</strong> hall\u00f3 en b\u00fasquedas anteriores si desinstalo el programa? \u00bfSe mantienen en mi computadora en 'cuarentena', o en realidad han sido eliminados?</p>\n\n<p><strong>Nikolai</strong>: Cuando desinstalas el <strong>Spybot</strong>, este borrar\u00e1 tambi\u00e9n todos los elementos que se mantienen en cuarentena.</p>\n\n<p><strong>Elena</strong>: Nikolai, sigo perdiendo algunos registros de verificaci\u00f3n (cookies) y rastreadores que considero \u00fatiles. \u00bfC\u00f3mo puedo impedir que estos sean inmovilizados o eliminados?</p>\n\n<p><strong>Nikolai</strong>: No te preocupes. Existe un par de maneras para proteger registros de verificaci\u00f3n (cookies) y rastreadores \u00fatiles. Primero, despu\u00e9s que el <strong>Spybot</strong> haya escaneado tu sistema, este listar\u00e1 todos los problemas y amenazas que haya detectado en el. <strong>Pulsa</strong> en cad uno de ellos para develar mayor informaci\u00f3n acerca de cada elemento, y para ayudarte a decidir si lo que deseas es borrarlo o mantenerlo. Alternativamente,<strong>ejecuta Spybot</strong> y luego <strong>selecciona Modo &gt; Modo Avanzado &gt; Configuraci\u00f3n</strong>. Aqui, puedes especificar en mayor detalle que elementos deseas omitir de tus misiones de b\u00fasqueda y destrucci\u00f3n.</p>\n\n<p><strong>Elena</strong>: \u00bfEs dif\u00edcil desinstalar el <strong>Spybot</strong>?</p>\n\n<p><strong>Nikolai</strong>: En realidad, es muy f\u00e1cil. Simplemente <strong>Selecciona &gt; Incio &gt; Programas &gt; Spybot - Search &amp; Destroy &gt; Uninstall Spybot-S&amp;D</strong>.</p>\n\n<p><strong>Elena</strong>: Tengo una conexi\u00f3n lenta a la Internet. \u00bfC\u00f3mo puedo optimizar la velocidad de descarga para las normas de detecci\u00f3n y las bases de datos de inmunizaci\u00f3n?</p>\n\n<p><strong>Nikolai</strong>: Aseg\u00farate de seleccionar las bases de datos que corresponden a tu \u00e1rea o regi\u00f3n en el mundo donde residas. No tiene sentido realizar la actualizaci\u00f3n de bases de datos desde un servidor ubicado en Asia cuando tu vives en Europa, en el caso en el que no puedas ser generoso con el ancho de banda. Las regiones est\u00e1n claramente marcadas por banderas, de modo que puedas ser capaz de identificar f\u00e1cilmente el servidor m\u00e1s cercano a ti.</p>\n\n<p><strong>Elena</strong>: \u00bfPor qu\u00e9 no es posible que el <strong>Spybot</strong> actualice autom\u00e1ticamente sus normas de detecci\u00f3n y las bases de datos de inmunizaci\u00f3n cuando lo ejecut\u00f3?</p>\n\n<p><strong>Nikolai</strong>: Las actualizaciones autom\u00e1ticas son posibles en las versiones para redes y las profesionales del <strong>Spybot</strong>. Dado que estas utilizando una versi\u00f3n gratuita, algunas de las caracter\u00edsticas no est\u00e1n disponibles. A\u00fan as\u00ed, la actualizaci\u00f3n manual de las normas de detecci\u00f3n y de las bases de datos de inmunizaci\u00f3n del <strong>Spybot</strong>, es relativamente f\u00e1cil. Aqu\u00ed podr\u00e1s encontrar una pr\u00e1ctica animaci\u00f3n en <strong>Flash</strong> para mostrarte c\u00f3mo actualizar tu sistema de forma manual: <a href=\"http://www.safer-networking.org/en/howto/update.hs.html\"><strong>www.safer-networking.org</strong></a></p>\n\n</div>\n\n<p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h2>4.1 Preguntas de Revisi\u00f3n</h2>\n\n<ul><li>\u00bfQu\u00e9 es el software malicioso (malware) y c\u00f3mo puede infectar tu computadora?</li>\n<li>\u00bfCu\u00e1l es el prop\u00f3sito del <strong>TeaTimer</strong>?</li>\n<li>\u00bfCu\u00e1ndo borras algo con el <strong>Spybot</strong>, es posible recuperarlo posteriormente?</li>\n<li>Aparte de buscar y destruir software malicioso (malware), \u00bfCu\u00e1les son las otras funciones del <strong>Spybot</strong>?</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "<a name=\"4.1\"></a>\r\n## 4.0 Preguntas y Revisi\u00f3n ##\r\n\r\nTanto Elena como Nikolai creen que el **Spybot** es un programa integral y de f\u00e1cil uso. Su m\u00e1s importante fucni\u00f3n - mantener a la computadora libre de software esp\u00eda (spyware) - opera autom\u00e1ticamente. Aunque se encuentran un poco nervisosos respecto a permitir o bloquear cambios ante las diferentes consultas del **TeaTimer**, ambos sienten que aprender\u00e1n a diferenciar entre procesos leg\u00edtmos y maliciosos a mediad que ganen experiencia en el uso del programa. \r\n\r\n<div class=\"background\" markdown=\"1\">\r\n\r\n**Elena**: \u00bfQu\u00e9 ocurre con los programas esp\u00eda (spyware) que el **Spybot** hall\u00f3 en b\u00fasquedas anteriores si desinstalo el programa? \u00bfSe mantienen en mi computadora en 'cuarentena', o en realidad han sido eliminados?\r\n\r\n**Nikolai**: Cuando desinstalas el **Spybot**, este borrar\u00e1 tambi\u00e9n todos los elementos que se mantienen en cuarentena.\r\n\r\n**Elena**: Nikolai, sigo perdiendo algunos registros de verificaci\u00f3n (cookies) y rastreadores que considero \u00fatiles. \u00bfC\u00f3mo puedo impedir que estos sean inmovilizados o eliminados?\r\n\r\n**Nikolai**: No te preocupes. Existe un par de maneras para proteger registros de verificaci\u00f3n (cookies) y rastreadores \u00fatiles. Primero, despu\u00e9s que el **Spybot** haya escaneado tu sistema, este listar\u00e1 todos los problemas y amenazas que haya detectado en el. **Pulsa** en cad uno de ellos para develar mayor informaci\u00f3n acerca de cada elemento, y para ayudarte a decidir si lo que deseas es borrarlo o mantenerlo. Alternativamente,**ejecuta Spybot** y luego **selecciona Modo > Modo Avanzado > Configuraci\u00f3n**. Aqui, puedes especificar en mayor detalle que elementos deseas omitir de tus misiones de b\u00fasqueda y destrucci\u00f3n.\r\n\r\n**Elena**: \u00bfEs dif\u00edcil desinstalar el **Spybot**?\r\n\r\n**Nikolai**: En realidad, es muy f\u00e1cil. Simplemente **Selecciona > Incio > Programas > Spybot - Search & Destroy > Uninstall Spybot-S&D**.\r\n\r\n**Elena**: Tengo una conexi\u00f3n lenta a la Internet. \u00bfC\u00f3mo puedo optimizar la velocidad de descarga para las normas de detecci\u00f3n y las bases de datos de inmunizaci\u00f3n?\r\n\r\n**Nikolai**: Aseg\u00farate de seleccionar las bases de datos que corresponden a tu \u00e1rea o regi\u00f3n en el mundo donde residas. No tiene sentido realizar la actualizaci\u00f3n de bases de datos desde un servidor ubicado en Asia cuando tu vives en Europa, en el caso en el que no puedas ser generoso con el ancho de banda. Las regiones est\u00e1n claramente marcadas por banderas, de modo que puedas ser capaz de identificar f\u00e1cilmente el servidor m\u00e1s cercano a ti.\r\n\r\n**Elena**: \u00bfPor qu\u00e9 no es posible que el **Spybot** actualice autom\u00e1ticamente sus normas de detecci\u00f3n y las bases de datos de inmunizaci\u00f3n cuando lo ejecut\u00f3?\r\n\r\n**Nikolai**: Las actualizaciones autom\u00e1ticas son posibles en las versiones para redes y las profesionales del **Spybot**. Dado que estas utilizando una versi\u00f3n gratuita, algunas de las caracter\u00edsticas no est\u00e1n disponibles. A\u00fan as\u00ed, la actualizaci\u00f3n manual de las normas de detecci\u00f3n y de las bases de datos de inmunizaci\u00f3n del **Spybot**, es relativamente f\u00e1cil. Aqu\u00ed podr\u00e1s encontrar una pr\u00e1ctica animaci\u00f3n en **Flash** para mostrarte c\u00f3mo actualizar tu sistema de forma manual: [**www.safer-networking.org**](http://www.safer-networking.org/en/howto/update.hs.html)\r\n\r\n</div>\r\n\r\n<a name=\"4.1\"></a>\r\n## 4.1 Preguntas de Revisi\u00f3n ##\r\n\r\n- \u00bfQu\u00e9 es el software malicioso (malware) y c\u00f3mo puede infectar tu computadora?\r\n- \u00bfCu\u00e1l es el prop\u00f3sito del **TeaTimer**?\r\n- \u00bfCu\u00e1ndo borras algo con el **Spybot**, es posible recuperarlo posteriormente?\r\n- Aparte de buscar y destruir software malicioso (malware), \u00bfCu\u00e1les son las otras funciones del **Spybot**?"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1993", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1993", 
+                "link_title": "\u179f\u17c6\u178e\u17bd\u179a\u178a\u17c2\u179b\u179f\u17bd\u179a\u1789\u17b9\u1780\u1789\u17b6\u1794\u17cb \u1793\u17b7\u1784 \u1780\u17b6\u179a\u1796\u17b7\u1793\u17b7\u178f\u17d2\u1799\u1798\u17be\u179b\u17a1\u17be\u1784\u179c\u17b7\u1789 ", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5139", 
+                "module": "book", 
+                "nid": "1993", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5135", 
+                "p3": "5139", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5135", 
+                "router_path": "node/%", 
+                "title": "\u179f\u17c6\u178e\u17bd\u179a\u178a\u17c2\u179b\u179f\u17bd\u179a\u1789\u17b9\u1780\u1789\u17b6\u1794\u17cb \u1793\u17b7\u1784 \u1780\u17b6\u179a\u1796\u17b7\u1793\u17b7\u178f\u17d2\u1799\u1798\u17be\u179b\u17a1\u17be\u1784\u179c\u17b7\u1789 ", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1452861458", 
+            "comment": "0", 
+            "created": "1441114046", 
+            "current_revision_id": "12877", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "spybot_preguntas", 
+                        "value": "spybot_preguntas"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5139": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1993", 
+                    "link_title": "\u179f\u17c6\u178e\u17bd\u179a\u178a\u17c2\u179b\u179f\u17bd\u179a\u1789\u17b9\u1780\u1789\u17b6\u1794\u17cb \u1793\u17b7\u1784 \u1780\u17b6\u179a\u1796\u17b7\u1793\u17b7\u178f\u17d2\u1799\u1798\u17be\u179b\u17a1\u17be\u1784\u179c\u17b7\u1789 ", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5139", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5135", 
+                    "p3": "5139", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5135", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1993", 
+            "num_revisions": "20", 
+            "path": "https://securityinabox.org/en/spybot_faq", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452861458", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Preguntas y Revisi\u00f3n", 
+                        "value": "Preguntas y Revisi\u00f3n"
+                    }
+                ]
+            }, 
+            "title_original": "FAQ and Review", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442919558", 
+                        "created": "1442919558", 
+                        "entity_id": "1993", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1441895404", 
+                        "created": "1441895375", 
+                        "entity_id": "1993", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442408914", 
+                        "created": "1441898670", 
+                        "entity_id": "1993", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441280245", 
+                        "created": "1441280245", 
+                        "entity_id": "1993", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1442835156", 
+                        "created": "1442835156", 
+                        "entity_id": "1993", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1443775631", 
+                        "created": "1443775596", 
+                        "entity_id": "1993", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452861458", 
+                        "created": "1452861458", 
+                        "entity_id": "1993", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443601937", 
+                        "created": "1443601937", 
+                        "entity_id": "1993", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441188183", 
+                        "created": "1441188183", 
+                        "entity_id": "1993", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444175008", 
+                        "created": "1444175008", 
+                        "entity_id": "1993", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444830224", 
+                        "created": "1444721116", 
+                        "entity_id": "1993", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441898730", 
+                        "created": "1441114046", 
+                        "entity_id": "1993", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445369577", 
+                        "created": "1444057257", 
+                        "entity_id": "1993", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "1a9d3e39-7259-4f80-82d6-eeb10eb6707c", 
+            "vid": "12877", 
+            "vuuid": "b52bd873-2a4c-4b63-aa81-c6424f7fabc7"
+        }
+    ], 
+    "changed": "1456155116", 
+    "comment": "0", 
+    "created": "1441113816", 
+    "current_revision_id": "13326", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "es": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "es": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Para instalar Spybot</strong></p>\n\n<ul><li>Lee la breve <strong>Introduci\u00f3n</strong> de las <a href=\"/es/guiaspracticas\">Gu\u00edas Pr\u00e1cticas</a></li>\n<li><em><strong>Pulsa</strong> sobre el \u00edcono de <strong>Spybot</strong> (ver abajo) y 'Abre' o 'Ejecuta' el archivo de instalaci\u00f3n. Si es necesario, primero guarda el archivo de instalaci\u00f3n, luego ub\u00edcalo y pulsa dos veces sobre el mismo</em>.</li>\n<li><em>Si guardaste el archivo de instalaci\u00f3n en tu computadora, puedes borrarlo despu\u00e9s de la instalaci\u00f3n.</em></li>\n</ul><p><strong>Spybot:</strong>\n<a href=\"/sbox/programs/spybot.exe\"><img src=\"/sites/securityinabox.org/files/u12/spybot.jpg\" alt=\"\" /></a></p>\n", 
+                "value": "**Para instalar Spybot** \r\n\r\n- Lee la breve **Introduci\u00f3n** de las [Gu\u00edas Pr\u00e1cticas](/es/guiaspracticas)\r\n- ***Pulsa** sobre el \u00edcono de **Spybot** (ver abajo) y 'Abre' o 'Ejecuta' el archivo de instalaci\u00f3n. Si es necesario, primero guarda el archivo de instalaci\u00f3n, luego ub\u00edcalo y pulsa dos veces sobre el mismo*.\r\n- *Si guardaste el archivo de instalaci\u00f3n en tu computadora, puedes borrarlo despu\u00e9s de la instalaci\u00f3n.*\r\n\r\n**Spybot:**\r\n[![](/sites/securityinabox.org/files/u12/spybot.jpg)](/sbox/programs/spybot.exe)\r\n\t\t\t\r\n"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "es": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Para instalar Spybot</strong></p>\n\n<ul><li>Lee la breve <strong>Introduci\u00f3n</strong> de las <a href=\"/es/guiaspracticas\">Gu\u00edas Pr\u00e1cticas</a></li>\n<li><strong>Pulsa</strong> sobre el \u00edcono de <strong>Spybot</strong> (ver abajo) para abrir la p\u00e1gina de descarga <strong>http://www.safer-networking.org/es/mirrors/index.html</strong></li>\n<li>Selecciona cualquier ubicaci\u00f3n de descarga de la lista en la p\u00e1gina abierta pulsando sobre el bot\u00f3n <strong>\"Download here\"</strong> (Descarga aqui).</li>\n<li>Descarga el archivo de instalaci\u00f3n. Luego ub\u00edcalo y pulsa dos veces sobre el.</li>\n<li>Despu\u00e9s de haber instalado <strong>Spybot</strong> con \u00e9xito puedes borrar el archivo de instalaci\u00f3n de tu computadora.</li>\n</ul><p><strong>Spybot:</strong></p>\n\n<p><a href=\"http://www.safer-networking.org/en/mirrors/\"><img src=\"/sites/securityinabox.org/files/u12/spybot.jpg\" alt=\"\" /></a></p>\n", 
+                "value": "**Para instalar Spybot**\r\n\r\n- Lee la breve **Introduci\u00f3n** de las [Gu\u00edas Pr\u00e1cticas](/es/guiaspracticas)\r\n- **Pulsa** sobre el \u00edcono de **Spybot** (ver abajo) para abrir la p\u00e1gina de descarga **http://www.safer-networking.org/es/mirrors/index.html**\r\n- Selecciona cualquier ubicaci\u00f3n de descarga de la lista en la p\u00e1gina abierta pulsando sobre el bot\u00f3n **\"Download here\"** (Descarga aqui).\r\n- Descarga el archivo de instalaci\u00f3n. Luego ub\u00edcalo y pulsa dos veces sobre el.\r\n- Despu\u00e9s de haber instalado **Spybot** con \u00e9xito puedes borrar el archivo de instalaci\u00f3n de tu computadora.\r\n\r\n**Spybot:**\r\n\r\n[![](/sites/securityinabox.org/files/u12/spybot.jpg)](http://www.safer-networking.org/en/mirrors/)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "Spybot - anti-spyware", 
+                "value": "Spybot - anti-spyware"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "Spybot - anti-esp\u00eda", 
+                "value": "Spybot - anti-esp\u00eda"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "es": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p>El <strong>Spybot S&amp;D</strong> se utiliza para detectar y remover distintos tipos de software malicioso (malware), software publicitario (adware)y software esp\u00eda (spyware) de tu computadora. Este ofrece actualizaciones gratuitas y te permite inmunizar tu navegador de Internet de futuras infecciones producidas por software malicioso (malware) conocido.</p>\n", 
+                "value": "El **Spybot S&amp;D** se utiliza para detectar y remover distintos tipos de software malicioso (malware), software publicitario (adware)y software esp\u00eda (spyware) de tu computadora. Este ofrece actualizaciones gratuitas y te permite inmunizar tu navegador de Internet de futuras infecciones producidas por software malicioso (malware) conocido."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-09-29 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "spybot_principal", 
+                "value": "spybot_principal"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5135": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/1989", 
+            "link_title": "Spybot - Anti-Spyware", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5135", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5135", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-14"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "1989", 
+    "num_revisions": "34", 
+    "path": "https://securityinabox.org/en/spybot_main", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1456155116", 
+    "revision_uid": "479", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "Spybot - anti-esp\u00eda", 
+                "value": "Spybot - anti-esp\u00eda"
+            }
+        ]
+    }, 
+    "title_original": "Spybot - Anti-Spyware", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442919315", 
+                "created": "1442919315", 
+                "entity_id": "1989", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "1989", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442235230", 
+                "created": "1441798957", 
+                "entity_id": "1989", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "1989", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442408705", 
+                "created": "1441898084", 
+                "entity_id": "1989", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "1989", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1452004901", 
+                "created": "1441279631", 
+                "entity_id": "1989", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "1989", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "fr": {
+                "changed": "1442834272", 
+                "created": "1442834272", 
+                "entity_id": "1989", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "1989", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1455880283", 
+                "created": "1443775281", 
+                "entity_id": "1989", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "1989", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "km": {
+                "changed": "1452861013", 
+                "created": "1452861013", 
+                "entity_id": "1989", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "1989", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1456155116", 
+                "created": "1443601613", 
+                "entity_id": "1989", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "1989", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441187056", 
+                "created": "1441187056", 
+                "entity_id": "1989", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "1989", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1453895010", 
+                "created": "1444174788", 
+                "entity_id": "1989", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "1989", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "vi": {
+                "changed": "1443523070", 
+                "created": "1443523070", 
+                "entity_id": "1989", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "1989", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1444140439", 
+                "created": "1441113816", 
+                "entity_id": "1989", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "1989", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445369399", 
+                "created": "1444056985", 
+                "entity_id": "1989", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "1989", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "c90a4b7f-3748-4ea4-8bff-454e67d296b5", 
+    "vid": "13326", 
+    "vuuid": "abae9475-fc97-4872-9695-d1e41b672df5"
+}

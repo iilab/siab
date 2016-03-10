@@ -1,0 +1,1551 @@
+{
+    "body": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Ana Sayfa</strong></p>\n\n<ul><li><a href=\"http://www.gpg4usb.org/\"><strong>http://www.gpg4usb.org/</strong></a></li>\n</ul><p><strong>Bilgisayar Gereksinimleri</strong></p>\n\n<ul><li>T\u00fcm Windows s\u00fcr\u00fcmleri</li>\n</ul><p><strong>Bu k\u0131lavuzda kullan\u0131lan s\u00fcr\u00fcmler</strong></p>\n\n<ul><li>0.3.3</li>\n</ul><p><strong>Bu b\u00f6l\u00fcm\u00fcn son g\u00fcncellenme tarihi</strong></p>\n\n<ul><li>Temmuz 2014</li>\n</ul><p><strong>Lisans</strong></p>\n\n<ul><li>\u00d6zg\u00fcr ve A\u00e7\u0131k Kaynak Yaz\u0131l\u0131m</li>\n</ul><p><strong>Gerekli Okuma</strong></p>\n\n<ul><li><p>Nas\u0131l Yapmal\u0131 Kitap\u00e7\u0131\u011f\u0131'n\u0131n <a href=\"/tr/chapter-7\"><strong>7. \u0130nternet ileti\u015fiminizin gizlili\u011fi nas\u0131l korunur</strong></a> b\u00f6l\u00fcm\u00fc</p></li>\n<li><p><a href=\"https://www.frontlinedefenders.org/esecman\">**\u0130nsan Haklar\u0131 Koruyucular\u0131 i\u00e7in Dijital G\u00fcvenlik ve Gizlilik **</a>, <strong>2.4 Kriptoloji \u2013 A\u00e7\u0131k Anahtar \u015eifreleme</strong> b\u00f6l\u00fcm\u00fc (38. Sayfa)</p></li>\n</ul><p><strong>Buradan sa\u011flayaca\u011f\u0131n\u0131z faydalar:</strong>:</p>\n\n<ul><li>Nerede olursan\u0131z olun (\u00f6rne\u011fin \u0130nternet kafe veya i\u015f), dosya ve yaz\u0131l\u0131 iletilerinizi \u015fifreleyebilme</li>\n<li>\u0130letilerinizi \u00e7evrim d\u0131\u015f\u0131 oldu\u011funuz veya \u0130nternet eri\u015fiminizin olmad\u0131\u011f\u0131 durumlarda \u015fifreleyebilme ve daha sonra \u0130nternet ba\u011flant\u0131s\u0131 olan bir bilgisayardan g\u00f6nderebilme</li>\n</ul><h2>1.1 Ba\u015flamadan \u00f6nce bu ara\u00e7 hakk\u0131nda bilmeniz gerekenler</h2>\n\n<p><strong>gpg4usb</strong> yaz\u0131l\u0131 ileti ve dosyalar\u0131 \u015fifrelemenize ve \u015fifrelerini \u00e7\u00f6zmenize olanak veren, basit, hafif ve ta\u015f\u0131nabilir bir programd\u0131r. <strong>gpg4usb</strong>, <strong>a\u00e7\u0131k-anahtar kriptografisi</strong> ile \u00e7al\u0131\u015f\u0131r. Bu y\u00f6ntemle, her kullan\u0131c\u0131 kendi <strong>anahtar \u00e7iftini</strong> olu\u015fturmal\u0131d\u0131r. \u0130lk anahtar <strong>ki\u015fisel anahtar</strong> olarak bilinir. Bir parola veya \u015fifreyle korunur ve <em>asla</em> kimseyle payla\u015f\u0131lmamal\u0131d\u0131r.</p>\n\n<p>\u0130kinci anahtar <strong>a\u00e7\u0131k anahtar</strong> olarak bilinir. Bu anahtar\u0131 ileti\u015fimde oldu\u011funuz insanlarla payla\u015fabilirsiniz ve onlar da kendi a\u00e7\u0131k anahtarlar\u0131n\u0131 sizinle payla\u015fabilir. Birisinin a\u00e7\u0131k anahtar\u0131n\u0131 edindi\u011finiz anda ona \u015fifreli mesajlar g\u00f6ndermeye ba\u015flayabilirsiniz. Uyumlu olan tek a\u00e7\u0131k anahtara sahip olan bu ki\u015fi oldu\u011fu i\u00e7in, \u015fifreli mesajlar\u0131n\u0131z\u0131 okuyabilecek olan tek ki\u015fi de odur.</p>\n\n<p>Ayn\u0131 \u015fekilde, kendi a\u00e7\u0131k anahtar\u0131n\u0131z\u0131 e-posta ile ileti\u015fime ge\u00e7ti\u011finiz ki\u015filere g\u00f6nderir ve onunla e\u015fle\u015fen a\u00e7\u0131k anahtar\u0131 saklarsan\u0131z, bu ki\u015filerden gelecek \u015fifreli mesajlar\u0131 okuyabilecek tek ki\u015fi de siz olursunuz.</p>\n\n<p>Ayr\u0131ca, mesajlar\u0131n\u0131za dijital imza da ekleyebilirsiniz. Sizin a\u00e7\u0131k anahtar\u0131n\u0131za sahip olan ve mesaj\u0131n\u0131z\u0131 alan ki\u015fi bu sayede e-postan\u0131n sizden geldi\u011fini onaylayabilir ve i\u00e7eri\u011finin de\u011fi\u015ftirilmedi\u011finden emin olabilir. Ayn\u0131 \u015fekilde, kar\u015f\u0131 taraf\u0131n a\u00e7\u0131k anahtar\u0131na sahipseniz, onun mesajlar\u0131ndaki dijital imzay\u0131 kontrol edebilirsiniz.</p>\n\n<p><strong>gpg4usb</strong> ile \u015fifreleme anahtar \u00e7ifti olu\u015fturabilir, a\u00e7\u0131k anahtar\u0131 ba\u015fkalar\u0131yla payla\u015fmak \u00fczere \u00e7\u0131karabilir, yaz\u0131l\u0131 mesaj olu\u015fturup onu \u015fifreleyebilirsiniz. A\u00e7\u0131k anahtar\u0131 ya/ya da \u015fifrelenmi\u015f mesaj\u0131 <strong>gpg4usb\u2019ten</strong> kendi e-postan\u0131za kopyalay\u0131p yap\u0131\u015ft\u0131rabilirsiniz ya da daha sonra g\u00f6ndermek \u00fczere metin dosyas\u0131 olarak kaydedebilirsiniz. Belge ve dosyalar da \u015fifrelenebilir.</p>\n\n<p><strong>Not</strong>: Akl\u0131n\u0131zda tutun ki, belge ve dosyalar\u0131n\u0131z\u0131n orijinal, \u015fifrelenmemi\u015f versiyonlar\u0131 bilgisayar\u0131n\u0131zda durmaya devam eder. Bu y\u00fczden, hem siz hem de ileti\u015fimde oldu\u011funuz ki\u015filer, gerekti\u011fi zaman bunlar\u0131 bilgisayardan silmeyi unutmamal\u0131d\u0131r.</p>\n\n<p><strong>gpg4usb</strong>, benzer <strong>GPG</strong> ve <strong>PGP</strong> programlar\u0131 ile anahtar ve \u015fifrelenmi\u015f mesaj takas\u0131 yapman\u0131za izin verir.</p>\n", 
+                "summary": "", 
+                "value": "**Ana Sayfa**\r\n\r\n- [**http://www.gpg4usb.org/**](http://www.gpg4usb.org/)\r\n\r\n**Bilgisayar Gereksinimleri**\r\n\r\n- T\u00fcm Windows s\u00fcr\u00fcmleri\r\n\r\n**Bu k\u0131lavuzda kullan\u0131lan s\u00fcr\u00fcmler**\r\n\r\n- 0.3.3\r\n\r\n**Bu b\u00f6l\u00fcm\u00fcn son g\u00fcncellenme tarihi**\r\n\r\n- Temmuz 2014\r\n\r\n**Lisans**\r\n\r\n- \u00d6zg\u00fcr ve A\u00e7\u0131k Kaynak Yaz\u0131l\u0131m\r\n\r\n**Gerekli Okuma**\r\n\r\n- Nas\u0131l Yapmal\u0131 Kitap\u00e7\u0131\u011f\u0131'n\u0131n [**7. \u0130nternet ileti\u015fiminizin gizlili\u011fi nas\u0131l korunur**](/tr/chapter-7) b\u00f6l\u00fcm\u00fc\r\n\r\n- [**\u0130nsan Haklar\u0131 Koruyucular\u0131 i\u00e7in Dijital G\u00fcvenlik ve Gizlilik **](https://www.frontlinedefenders.org/esecman), **2.4 Kriptoloji \u2013 A\u00e7\u0131k Anahtar \u015eifreleme** b\u00f6l\u00fcm\u00fc (38. Sayfa)\r\n\r\n**Buradan sa\u011flayaca\u011f\u0131n\u0131z faydalar:**:\r\n\r\n- Nerede olursan\u0131z olun (\u00f6rne\u011fin \u0130nternet kafe veya i\u015f), dosya ve yaz\u0131l\u0131 iletilerinizi \u015fifreleyebilme\r\n- \u0130letilerinizi \u00e7evrim d\u0131\u015f\u0131 oldu\u011funuz veya \u0130nternet eri\u015fiminizin olmad\u0131\u011f\u0131 durumlarda \u015fifreleyebilme ve daha sonra \u0130nternet ba\u011flant\u0131s\u0131 olan bir bilgisayardan g\u00f6nderebilme\r\n\r\n## 1.1 Ba\u015flamadan \u00f6nce bu ara\u00e7 hakk\u0131nda bilmeniz gerekenler ##\r\n\r\n**gpg4usb** yaz\u0131l\u0131 ileti ve dosyalar\u0131 \u015fifrelemenize ve \u015fifrelerini \u00e7\u00f6zmenize olanak veren, basit, hafif ve ta\u015f\u0131nabilir bir programd\u0131r. **gpg4usb**, **a\u00e7\u0131k-anahtar kriptografisi** ile \u00e7al\u0131\u015f\u0131r. Bu y\u00f6ntemle, her kullan\u0131c\u0131 kendi **anahtar \u00e7iftini** olu\u015fturmal\u0131d\u0131r. \u0130lk anahtar **ki\u015fisel anahtar** olarak bilinir. Bir parola veya \u015fifreyle korunur ve *asla* kimseyle payla\u015f\u0131lmamal\u0131d\u0131r.\r\n\r\n\u0130kinci anahtar **a\u00e7\u0131k anahtar** olarak bilinir. Bu anahtar\u0131 ileti\u015fimde oldu\u011funuz insanlarla payla\u015fabilirsiniz ve onlar da kendi a\u00e7\u0131k anahtarlar\u0131n\u0131 sizinle payla\u015fabilir. Birisinin a\u00e7\u0131k anahtar\u0131n\u0131 edindi\u011finiz anda ona \u015fifreli mesajlar g\u00f6ndermeye ba\u015flayabilirsiniz. Uyumlu olan tek a\u00e7\u0131k anahtara sahip olan bu ki\u015fi oldu\u011fu i\u00e7in, \u015fifreli mesajlar\u0131n\u0131z\u0131 okuyabilecek olan tek ki\u015fi de odur. \r\n\r\nAyn\u0131 \u015fekilde, kendi a\u00e7\u0131k anahtar\u0131n\u0131z\u0131 e-posta ile ileti\u015fime ge\u00e7ti\u011finiz ki\u015filere g\u00f6nderir ve onunla e\u015fle\u015fen a\u00e7\u0131k anahtar\u0131 saklarsan\u0131z, bu ki\u015filerden gelecek \u015fifreli mesajlar\u0131 okuyabilecek tek ki\u015fi de siz olursunuz. \r\n\r\nAyr\u0131ca, mesajlar\u0131n\u0131za dijital imza da ekleyebilirsiniz. Sizin a\u00e7\u0131k anahtar\u0131n\u0131za sahip olan ve mesaj\u0131n\u0131z\u0131 alan ki\u015fi bu sayede e-postan\u0131n sizden geldi\u011fini onaylayabilir ve i\u00e7eri\u011finin de\u011fi\u015ftirilmedi\u011finden emin olabilir. Ayn\u0131 \u015fekilde, kar\u015f\u0131 taraf\u0131n a\u00e7\u0131k anahtar\u0131na sahipseniz, onun mesajlar\u0131ndaki dijital imzay\u0131 kontrol edebilirsiniz. \r\n\r\n**gpg4usb** ile \u015fifreleme anahtar \u00e7ifti olu\u015fturabilir, a\u00e7\u0131k anahtar\u0131 ba\u015fkalar\u0131yla payla\u015fmak \u00fczere \u00e7\u0131karabilir, yaz\u0131l\u0131 mesaj olu\u015fturup onu \u015fifreleyebilirsiniz. A\u00e7\u0131k anahtar\u0131 ya/ya da \u015fifrelenmi\u015f mesaj\u0131 **gpg4usb\u2019ten** kendi e-postan\u0131za kopyalay\u0131p yap\u0131\u015ft\u0131rabilirsiniz ya da daha sonra g\u00f6ndermek \u00fczere metin dosyas\u0131 olarak kaydedebilirsiniz. Belge ve dosyalar da \u015fifrelenebilir. \r\n\r\n**Not**: Akl\u0131n\u0131zda tutun ki, belge ve dosyalar\u0131n\u0131z\u0131n orijinal, \u015fifrelenmemi\u015f versiyonlar\u0131 bilgisayar\u0131n\u0131zda durmaya devam eder. Bu y\u00fczden, hem siz hem de ileti\u015fimde oldu\u011funuz ki\u015filer, gerekti\u011fi zaman bunlar\u0131 bilgisayardan silmeyi unutmamal\u0131d\u0131r. \r\n\r\n**gpg4usb**, benzer **GPG** ve **PGP** programlar\u0131 ile anahtar ve \u015fifrelenmi\u015f mesaj takas\u0131 yapman\u0131za izin verir.   \r\n"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2055", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2055", 
+        "link_title": "gpg4usb - email text and files encryption", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5201", 
+        "module": "book", 
+        "nid": "2055", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5201", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "gpg4usb - email text and files encryption", 
+        "updated": "0", 
+        "weight": "-2"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bu sayfadaki b\u00f6l\u00fcmlerin listesi:</p>\n\n<ul><li><a href=\"#2.0\"><strong>2.0 gpg4usb Nas\u0131l Kurulur?</strong></a></li>\n<li><a href=\"#2.1\"><strong>2.1 gpg4usb Kullanarak Nas\u0131l Anahtar \u00c7ifti Olu\u015fturulur?</strong></a></li>\n</ul><p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>2.0 gpg4usb Nas\u0131l Kurulur?</h2>\n\n<p><strong>gpg4usb</strong> ta\u015f\u0131nabilir bir alettir ve bilgisayar\u0131n\u0131za kurman\u0131z gerekmez. Yaz\u0131l\u0131m s\u0131k\u0131\u015ft\u0131r\u0131lm\u0131\u015f dosyada da\u011f\u0131t\u0131l\u0131r ve do\u011frudan USB s\u00fcr\u00fcc\u00fcs\u00fcne veya bilgisayar\u0131n\u0131zdaki bir dosyaya ay\u0131klan\u0131r. Ba\u015flamak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <strong>gpg4usb</strong> s\u0131k\u0131\u015ft\u0131r\u0131lm\u0131\u015f ar\u015fiv dosyas\u0131n\u0131 bulun ve i\u00e7eri\u011finin t\u00fcm\u00fcn\u00fc ta\u015f\u0131nabilir USB s\u00fcr\u00fcc\u00fcs\u00fcne veya bilgisayar\u0131n\u0131zdaki bir  klas\u00f6re <strong>ay\u0131klay\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/01.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 1: gpg4usb program\u0131 hedef klas\u00f6r yeri</em></p>\n\n<p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1 gpg4usb Kullanarak Anahtar \u00c7ifti Nas\u0131l Olu\u015fturulur?</h2>\n\n<p>E-posta, yaz\u0131l\u0131 ileti, belge ve dosyalar\u0131n\u0131z\u0131 \u015fifreleme ve \u015fifrelerini \u00e7\u00f6zmeye ba\u015flamak i\u00e7in, \u00f6ncelikle iki i\u015flem ger\u00e7ekle\u015ftirmelisiniz. \u00d6ncelikle \u015fifreleme anahtar \u00e7ifti olu\u015fturmal\u0131 veya ta\u015f\u0131mal\u0131s\u0131n\u0131z, sonra da ileti\u015fimde olaca\u011f\u0131n\u0131z ki\u015filere a\u00e7\u0131k anahtar\u0131n\u0131z\u0131 g\u00f6ndermeli ve onlar\u0131nkini edinmeli ve kendi anahtarl\u0131\u011f\u0131n\u0131za eklemelisiniz. A\u00e7\u0131k anahtarlar\u0131n nas\u0131l payla\u015f\u0131ld\u0131\u011f\u0131n\u0131 bir sonraki b\u00f6l\u00fcmde anlataca\u011f\u0131z. <strong>gpg4usb</strong>, program\u0131 ilk ba\u015flatt\u0131\u011f\u0131n\u0131z zaman anahtar \u00e7ifti olu\u015fturman\u0131za yard\u0131mc\u0131 olur. Ba\u015flang\u0131\u00e7 (Getting Started) penceresine her zaman <em>Yard\u0131m</em> -&gt; <em>Sihirbaz\u0131 A\u00e7</em> (<em>Help</em> -&gt; <em>Open Wizard</em>) men\u00fcs\u00fcne her zaman gidebilirsiniz.</p>\n\n<p><strong>1. Ad\u0131m</strong>. <strong>gpg4usb</strong> program\u0131n\u0131 ilk defa \u00e7al\u0131\u015ft\u0131rmak i\u00e7in, \u00f6nce <img src=\"/sbox/screen/gpg4usb-en-1/02.png\" alt=\"\" />\u2019yi <strong>bulup</strong> \u00fcst\u00fcne <strong>\u00e7ift t\u0131klay\u0131n</strong> ve <strong>gpg4usb</strong> klas\u00f6r\u00fcn\u00fc a\u00e7\u0131n ve <a href=\"/sbox/screen/gpg4usb-en-1/03.png\">!</a>\u2019e <strong>\u00e7ift t\u0131klay\u0131n</strong>. bu \u015fekilde <em>Getting Started</em> (Ba\u015flang\u0131\u00e7) penceresini etkinle\u015ftireceksiniz. Bir dil se\u00e7in ve <em>Next'i</em> (\u0130leri\u2019yi) <strong>t\u0131klay\u0131n</strong> (Bu program\u0131n ne yaz\u0131k ki T\u00fcrk\u00e7e s\u00fcr\u00fcm\u00fc hen\u00fcz yoktur).</p>\n\n<p><strong>2. Ad\u0131m</strong>. <em>Choose your Action</em> (Eyleminizi Se\u00e7in) ekran\u0131nda, <em>Create a new keypair'i</em> (Yeni bir anahtar \u00e7ifti olu\u015ftur\u2019u) <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/04.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 2: Eyleminizi Se\u00e7in</em></p>\n\n<p>\u0130lk Ba\u015flang\u0131\u00e7 Sihirbaz\u0131 ekran\u0131nda var olan anahtarlar\u0131 buraya ta\u015f\u0131ma se\u00e7eneklerini bulabilirsiniz. E\u011fer <strong>gpg4usb\u2019yi</strong> g\u00fcncelliyorsan\u0131z, <em>import settings and/or keys from <strong>gpg4usb'yi</strong></em> (<strong>gpg4usb\u2019den</strong> ayarlar\u0131 ve/veya anahtarlar\u0131 aktar'\u0131) se\u00e7ebilirsiniz. <a href=\"/tr/thunderbird_main\">Enigmail ile Thunderbird</a> kullan\u0131yorsan\u0131z, <em>import keys from GnuPG</em> (GnuPG\u2019den anahtarlar\u0131 ta\u015f\u0131) se\u00e7ene\u011fini se\u00e7ebilirsiniz. <em>Help</em> -&gt; <em>Open Wizard</em> (Yard\u0131m -&gt; Sihirbaz\u0131 Ba\u015flat) men\u00fcs\u00fcnden sihirbaz\u0131 \u00e7al\u0131\u015ft\u0131rarak anahtarlar\u0131n\u0131z\u0131 daha sonra da ta\u015f\u0131yabilirsiniz.</p>\n\n<p><strong>3. Ad\u0131m</strong>. <em>Create a keypair'de</em> (Anahtar \u00e7ift olu\u015ftur\u2019da) <em>Create New Key'i</em> (Yeni Anahtar Olu\u015ftur\u2019u) <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/05.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 3: Yeni Anahtar Olu\u015ftur</em></p>\n\n<p><strong>4. Ad\u0131m</strong>. \u0130lgili metin alanlar\u0131na verileri <strong>girmenizden</strong> sonra pencereniz a\u015fa\u011f\u0131dakine benzeyecektir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/06.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 4: Doldurulmu\u015f Anahtar Olu\u015fturma formu \u00f6rne\u011fi</em></p>\n\n<p><strong>\u00d6nemli:</strong></p>\n\n<ul><li>Ki\u015fisel anahtar\u0131n\u0131z\u0131 korumak i\u00e7in g\u00fcvenli bir \u015fifre olu\u015fturun (l\u00fctfen <a href=\"/tr/chapter-3\"><strong>3. G\u00fcvenli \u015fifreler nas\u0131l olu\u015fturulur ve muhafaza edilir</strong></a> b\u00f6l\u00fcm\u00fcne bak\u0131n).</li>\n<li>Expiration date (Zaman a\u015f\u0131m\u0131na u\u011frama) se\u00e7ene\u011fini se\u00e7ip 5 y\u0131ldan daha az bir s\u00fcreye ayarlaman\u0131z\u0131 \u00f6neririz.</li>\n<li>En az 2048 bit b\u00fcy\u00fckl\u00fc\u011f\u00fcnde anahtarlar olu\u015fturman\u0131z\u0131 \u015fiddetle tavsiye ederiz. Daha b\u00fcy\u00fck anahtarlar daha g\u00fcvenlidir ama olu\u015fturmas\u0131, metinleri \u015fifrelemesi ve \u015fifre \u00e7\u00f6zmesi daha \u00e7ok zaman al\u0131r. </li>\n</ul><p><strong>Not</strong>: Anahtar\u0131n\u0131z\u0131 olu\u015ftururken ger\u00e7ek isminizi ve ger\u00e7ek e-posta adresinizi kullanman\u0131z gerekmez. Fakat, ileti\u015fim kuraca\u011f\u0131n\u0131z hesab\u0131n e-posta adresini kullanman\u0131z, ileti\u015fim kuraca\u011f\u0131n\u0131z ki\u015filerin anahtar\u0131n\u0131z\u0131 bu hesap ile ba\u011flant\u0131land\u0131rmas\u0131n\u0131 kolayla\u015ft\u0131r\u0131r.</p>\n\n<p><strong>6. Ad\u0131m</strong>. Anahtar \u00e7iftini olu\u015fturmak i\u00e7in <strong>OK'i</strong> (Tamam\u2019\u0131) <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/07.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 5: Anahtar Olu\u015fturuluyor...</em></p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/08.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 6: Yeni Anahtar Olu\u015fturuldu</em></p>\n\n<p><strong>7. Ad\u0131m</strong>. <strong>gpg4usb</strong> penceresine geri d\u00f6nmek i\u00e7in <em>OK'i</em> (Tamam\u2019\u0131) <strong>t\u0131klay\u0131n</strong>. Anahtar \u00e7ifti ba\u015far\u0131 ile olu\u015fturulduktan sonra, a\u015fa\u011f\u0131dakine benzer bir ekran g\u00f6receksiniz:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/09.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 7: Yeni olu\u015fturulmu\u015f anahtar \u00e7iftini g\u00f6steren gpg4usb penceresi</em></p>\n\n<p>Anahtar \u00e7iftinizi olu\u015fturdu\u011funuza g\u00f6re, a\u00e7\u0131k anahtar\u0131n\u0131z\u0131 di\u011fer insanlarla nas\u0131l payla\u015faca\u011f\u0131n\u0131z\u0131 ve onlar\u0131n a\u00e7\u0131k anahtarlar\u0131n\u0131 nas\u0131l ta\u015f\u0131yaca\u011f\u0131n\u0131z\u0131 \u00f6\u011frenebilirsiniz.</p>\n", 
+                        "summary": "", 
+                        "value": "Bu sayfadaki b\u00f6l\u00fcmlerin listesi:\r\n\r\n- [**2.0 gpg4usb Nas\u0131l Kurulur?**](#2.0)\r\n- [**2.1 gpg4usb Kullanarak Nas\u0131l Anahtar \u00c7ifti Olu\u015fturulur?**](#2.1)\r\n\r\n<a name=\"2.0\"></a>\r\n## 2.0 gpg4usb Nas\u0131l Kurulur? ##\r\n\r\n**gpg4usb** ta\u015f\u0131nabilir bir alettir ve bilgisayar\u0131n\u0131za kurman\u0131z gerekmez. Yaz\u0131l\u0131m s\u0131k\u0131\u015ft\u0131r\u0131lm\u0131\u015f dosyada da\u011f\u0131t\u0131l\u0131r ve do\u011frudan USB s\u00fcr\u00fcc\u00fcs\u00fcne veya bilgisayar\u0131n\u0131zdaki bir dosyaya ay\u0131klan\u0131r. Ba\u015flamak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz:\r\n\r\n**1. Ad\u0131m**. **gpg4usb** s\u0131k\u0131\u015ft\u0131r\u0131lm\u0131\u015f ar\u015fiv dosyas\u0131n\u0131 bulun ve i\u00e7eri\u011finin t\u00fcm\u00fcn\u00fc ta\u015f\u0131nabilir USB s\u00fcr\u00fcc\u00fcs\u00fcne veya bilgisayar\u0131n\u0131zdaki bir  klas\u00f6re **ay\u0131klay\u0131n**:\r\n\r\n![](/sbox/screen/gpg4usb-en-1/01.png)\r\n\r\n*\u015eekil 1: gpg4usb program\u0131 hedef klas\u00f6r yeri*\r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1 gpg4usb Kullanarak Anahtar \u00c7ifti Nas\u0131l Olu\u015fturulur? ##\r\n\r\nE-posta, yaz\u0131l\u0131 ileti, belge ve dosyalar\u0131n\u0131z\u0131 \u015fifreleme ve \u015fifrelerini \u00e7\u00f6zmeye ba\u015flamak i\u00e7in, \u00f6ncelikle iki i\u015flem ger\u00e7ekle\u015ftirmelisiniz. \u00d6ncelikle \u015fifreleme anahtar \u00e7ifti olu\u015fturmal\u0131 veya ta\u015f\u0131mal\u0131s\u0131n\u0131z, sonra da ileti\u015fimde olaca\u011f\u0131n\u0131z ki\u015filere a\u00e7\u0131k anahtar\u0131n\u0131z\u0131 g\u00f6ndermeli ve onlar\u0131nkini edinmeli ve kendi anahtarl\u0131\u011f\u0131n\u0131za eklemelisiniz. A\u00e7\u0131k anahtarlar\u0131n nas\u0131l payla\u015f\u0131ld\u0131\u011f\u0131n\u0131 bir sonraki b\u00f6l\u00fcmde anlataca\u011f\u0131z. **gpg4usb**, program\u0131 ilk ba\u015flatt\u0131\u011f\u0131n\u0131z zaman anahtar \u00e7ifti olu\u015fturman\u0131za yard\u0131mc\u0131 olur. Ba\u015flang\u0131\u00e7 (Getting Started) penceresine her zaman *Yard\u0131m* -> *Sihirbaz\u0131 A\u00e7* (*Help* -> *Open Wizard*) men\u00fcs\u00fcne her zaman gidebilirsiniz.\r\n\r\n**1. Ad\u0131m**. **gpg4usb** program\u0131n\u0131 ilk defa \u00e7al\u0131\u015ft\u0131rmak i\u00e7in, \u00f6nce ![](/sbox/screen/gpg4usb-en-1/02.png)\u2019yi **bulup** \u00fcst\u00fcne **\u00e7ift t\u0131klay\u0131n** ve **gpg4usb** klas\u00f6r\u00fcn\u00fc a\u00e7\u0131n ve [!](/sbox/screen/gpg4usb-en-1/03.png)\u2019e **\u00e7ift t\u0131klay\u0131n**. bu \u015fekilde *Getting Started* (Ba\u015flang\u0131\u00e7) penceresini etkinle\u015ftireceksiniz. Bir dil se\u00e7in ve *Next'i* (\u0130leri\u2019yi) **t\u0131klay\u0131n** (Bu program\u0131n ne yaz\u0131k ki T\u00fcrk\u00e7e s\u00fcr\u00fcm\u00fc hen\u00fcz yoktur).\r\n\r\n**2. Ad\u0131m**. *Choose your Action* (Eyleminizi Se\u00e7in) ekran\u0131nda, *Create a new keypair'i* (Yeni bir anahtar \u00e7ifti olu\u015ftur\u2019u) **t\u0131klay\u0131n**.\r\n\r\n![](/sbox/screen/gpg4usb-en-1/04.png)\r\n\r\n*\u015eekil 2: Eyleminizi Se\u00e7in*\r\n\r\n\u0130lk Ba\u015flang\u0131\u00e7 Sihirbaz\u0131 ekran\u0131nda var olan anahtarlar\u0131 buraya ta\u015f\u0131ma se\u00e7eneklerini bulabilirsiniz. E\u011fer **gpg4usb\u2019yi** g\u00fcncelliyorsan\u0131z, *import settings and/or keys from **gpg4usb'yi*** (**gpg4usb\u2019den** ayarlar\u0131 ve/veya anahtarlar\u0131 aktar'\u0131) se\u00e7ebilirsiniz. [Enigmail ile Thunderbird](/tr/thunderbird_main) kullan\u0131yorsan\u0131z, *import keys from GnuPG* (GnuPG\u2019den anahtarlar\u0131 ta\u015f\u0131) se\u00e7ene\u011fini se\u00e7ebilirsiniz. *Help* -> *Open Wizard* (Yard\u0131m -> Sihirbaz\u0131 Ba\u015flat) men\u00fcs\u00fcnden sihirbaz\u0131 \u00e7al\u0131\u015ft\u0131rarak anahtarlar\u0131n\u0131z\u0131 daha sonra da ta\u015f\u0131yabilirsiniz. \r\n\r\n**3. Ad\u0131m**. *Create a keypair'de* (Anahtar \u00e7ift olu\u015ftur\u2019da) *Create New Key'i* (Yeni Anahtar Olu\u015ftur\u2019u) **t\u0131klay\u0131n**.\r\n\r\n![](/sbox/screen/gpg4usb-en-1/05.png)\r\n\r\n*\u015eekil 3: Yeni Anahtar Olu\u015ftur* \r\n\r\n**4. Ad\u0131m**. \u0130lgili metin alanlar\u0131na verileri **girmenizden** sonra pencereniz a\u015fa\u011f\u0131dakine benzeyecektir: \r\n\r\n![](/sbox/screen/gpg4usb-en-1/06.png)\r\n\r\n*\u015eekil 4: Doldurulmu\u015f Anahtar Olu\u015fturma formu \u00f6rne\u011fi*\r\n\r\n**\u00d6nemli:** \r\n\r\n* Ki\u015fisel anahtar\u0131n\u0131z\u0131 korumak i\u00e7in g\u00fcvenli bir \u015fifre olu\u015fturun (l\u00fctfen [**3. G\u00fcvenli \u015fifreler nas\u0131l olu\u015fturulur ve muhafaza edilir**](/tr/chapter-3) b\u00f6l\u00fcm\u00fcne bak\u0131n).\r\n* Expiration date (Zaman a\u015f\u0131m\u0131na u\u011frama) se\u00e7ene\u011fini se\u00e7ip 5 y\u0131ldan daha az bir s\u00fcreye ayarlaman\u0131z\u0131 \u00f6neririz.\r\n* En az 2048 bit b\u00fcy\u00fckl\u00fc\u011f\u00fcnde anahtarlar olu\u015fturman\u0131z\u0131 \u015fiddetle tavsiye ederiz. Daha b\u00fcy\u00fck anahtarlar daha g\u00fcvenlidir ama olu\u015fturmas\u0131, metinleri \u015fifrelemesi ve \u015fifre \u00e7\u00f6zmesi daha \u00e7ok zaman al\u0131r. \r\n\r\n**Not**: Anahtar\u0131n\u0131z\u0131 olu\u015ftururken ger\u00e7ek isminizi ve ger\u00e7ek e-posta adresinizi kullanman\u0131z gerekmez. Fakat, ileti\u015fim kuraca\u011f\u0131n\u0131z hesab\u0131n e-posta adresini kullanman\u0131z, ileti\u015fim kuraca\u011f\u0131n\u0131z ki\u015filerin anahtar\u0131n\u0131z\u0131 bu hesap ile ba\u011flant\u0131land\u0131rmas\u0131n\u0131 kolayla\u015ft\u0131r\u0131r.\r\n\r\n**6. Ad\u0131m**. Anahtar \u00e7iftini olu\u015fturmak i\u00e7in **OK'i** (Tamam\u2019\u0131) **t\u0131klay\u0131n**.\r\n\r\n![](/sbox/screen/gpg4usb-en-1/07.png)\r\n\r\n*\u015eekil 5: Anahtar Olu\u015fturuluyor...*\r\n\r\n![](/sbox/screen/gpg4usb-en-1/08.png)\r\n\r\n*\u015eekil 6: Yeni Anahtar Olu\u015fturuldu*\r\n\r\n**7. Ad\u0131m**. **gpg4usb** penceresine geri d\u00f6nmek i\u00e7in *OK'i* (Tamam\u2019\u0131) **t\u0131klay\u0131n**. Anahtar \u00e7ifti ba\u015far\u0131 ile olu\u015fturulduktan sonra, a\u015fa\u011f\u0131dakine benzer bir ekran g\u00f6receksiniz: \r\n\r\n![](/sbox/screen/gpg4usb-en-1/09.png)\r\n\r\n*\u015eekil 7: Yeni olu\u015fturulmu\u015f anahtar \u00e7iftini g\u00f6steren gpg4usb penceresi* \r\n\r\nAnahtar \u00e7iftinizi olu\u015fturdu\u011funuza g\u00f6re, a\u00e7\u0131k anahtar\u0131n\u0131z\u0131 di\u011fer insanlarla nas\u0131l payla\u015faca\u011f\u0131n\u0131z\u0131 ve onlar\u0131n a\u00e7\u0131k anahtarlar\u0131n\u0131 nas\u0131l ta\u015f\u0131yaca\u011f\u0131n\u0131z\u0131 \u00f6\u011frenebilirsiniz. \r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2056", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2056", 
+                "link_title": "How to Install gpg4usb and Generate a Key Pair", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5202", 
+                "module": "book", 
+                "nid": "2056", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5202", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "How to Install gpg4usb and Generate a Key Pair", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1455120164", 
+            "comment": "0", 
+            "created": "1441122201", 
+            "current_revision_id": "13206", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb_generatekey", 
+                        "value": "gpg4usb_generatekey"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5202": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2056", 
+                    "link_title": "How to Install gpg4usb and Generate a Key Pair", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5202", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5202", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2056", 
+            "num_revisions": "18", 
+            "path": "https://securityinabox.org/en/gpg4usb-generatekey", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455120164", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb Nas\u0131l Kurulur ve Anahtar \u00c7ifti Nas\u0131l Olu\u015fturulur?", 
+                        "value": "gpg4usb Nas\u0131l Kurulur ve Anahtar \u00c7ifti Nas\u0131l Olu\u015fturulur?"
+                    }
+                ]
+            }, 
+            "title_original": "How to Install gpg4usb and Generate a Key Pair", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933342", 
+                        "created": "1442933342", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442247687", 
+                        "created": "1442247687", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506616", 
+                        "created": "1442506616", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1454338318", 
+                        "created": "1441633727", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733209", 
+                        "created": "1444733209", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455120164", 
+                        "created": "1455120164", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443788661", 
+                        "created": "1443788661", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192518", 
+                        "created": "1441192518", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444188984", 
+                        "created": "1444188984", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024179", 
+                        "created": "1443024179", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834215", 
+                        "created": "1444730139", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122201", 
+                        "created": "1441122201", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2056", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445442821", 
+                        "created": "1445442821", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "663b9d6c-01ee-4dcf-8668-4333cc0bb63f", 
+            "vid": "13206", 
+            "vuuid": "7a9d19a2-fccc-421f-9156-a1c3475bd6da"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bu sayfadaki b\u00f6l\u00fcmlerin listesi:</p>\n\n<ul><li><a href=\"#3.1\"><strong>3.1 A\u00e7\u0131k Anahtar\u0131n\u0131z\u0131 gpg4usb Kullanarak Nas\u0131l G\u00f6nderirsiniz</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 \u0130leti\u015fimde Oldu\u011funuz Ki\u015finin A\u00e7\u0131k Anahtar\u0131n\u0131 gpg4usb Kullanarak Nas\u0131l \u0130\u00e7e Aktar\u0131rs\u0131n\u0131z</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 Bir A\u00e7\u0131k Anahtar\u0131 gpg4usb Kullanarak Nas\u0131l Do\u011frulars\u0131n\u0131z</strong></a></li>\n</ul><p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>A\u00e7\u0131k Anahtar\u0131n\u0131z\u0131 gpg4usb Kullanarak Nas\u0131l G\u00f6nderirsiniz</h2>\n\n<p>\u0130leti\u015fim kurdu\u011funuz ki\u015filerin size \u015fifreli mesaj g\u00f6nderebilmesi i\u00e7in onlara a\u00e7\u0131k anahtar\u0131n\u0131z\u0131 g\u00f6ndermeniz gerekir.</p>\n\n<p>A\u00e7\u0131k anahtar\u0131n\u0131z\u0131 <strong>gpg4usb</strong> kullanarak g\u00f6ndermek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <strong>gpg4usb</strong> klas\u00f6r\u00fcn\u00fc a\u00e7mak i\u00e7in <img src=\"/sbox/screen/gpg4usb-en-1/02.png\" alt=\"\" />\u2019ye <strong>\u00e7ift t\u0131klay\u0131n</strong>.</p>\n\n<p><strong>2. Ad\u0131m</strong>. <strong>gpg4usb</strong> program\u0131n\u0131 a\u00e7mak i\u00e7in <img src=\"/sbox/screen/gpg4usb-en-1/03.png\" alt=\"\" />\u2019ye <strong>\u00e7ift t\u0131klay\u0131n</strong>.</p>\n\n<p><strong>3. Ad\u0131m</strong>. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in <img src=\"/sbox/screen/gpg4usb-en-1/10a.png\" alt=\"\" />\u2019e <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/10.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 1: T\u00fcm anahtar \u00e7iftlerini g\u00f6steren Anahtar d\u00fczenleme penceresi</em></p>\n\n<p><strong>3. Ad\u0131m</strong>. Yukar\u0131daki <strong>\u015eekil 1\u2019de</strong> g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi kendi anahtar\u0131n\u0131z\u0131 i\u015faretleyin.</p>\n\n<p><strong>4. Ad\u0131m</strong>. A\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi <strong>Key</strong>(Anahtar) men\u00fcs\u00fcnden <em>Export To File'\u0131</em> (Dosyaya Aktar)'\u0131 <strong>se\u00e7in</strong>:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/11.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 2: Dosyaya Aktar se\u00e7ene\u011fi se\u00e7ili Anahtar d\u00fczenleme penceresi</em></p>\n\n<p>Bu sayede a\u015fa\u011f\u0131daki ekran etkinle\u015fecektir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/12.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 3: Dosyaya Aktar taray\u0131c\u0131 penceresi</em></p>\n\n<p><strong>5. Ad\u0131m</strong>. Anahtar \u00e7iftinizi <strong>gpg4usb</strong> program klas\u00f6r\u00fcne kaydetmek i\u00e7in <img src=\"/sbox/screen/gpg4usb-en-1/13.png\" alt=\"\" /> \u2019i <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><strong>6. Ad\u0131m</strong>. A\u00e7\u0131k anahtar\u0131n\u0131z\u0131 i\u00e7eren dosyay\u0131 istedi\u011finiz ki\u015fiye ek dosya olarak <strong>g\u00f6nderin</strong>.</p>\n\n<p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 \u0130leti\u015fimde Oldu\u011funuz Ki\u015finin A\u00e7\u0131k Anahtar\u0131n\u0131 gpg4usb Kullanarak Nas\u0131l \u0130\u00e7e Aktar\u0131rs\u0131n\u0131z?</h2>\n\n<p>Bilgileri \u015fifreleyip ileti\u015fimde oldu\u011funuz ki\u015fiye g\u00f6ndermeden \u00f6nce, onun a\u00e7\u0131k anahtar\u0131n\u0131 elinizde bulundurmal\u0131s\u0131n\u0131z. \u0130leti\u015fimde oldu\u011funuz ki\u015finin a\u00e7\u0131k anahtar\u0131n\u0131 <strong>gpg4usb</strong> kullanarak i\u00e7e aktarmak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <strong>gpg4usb</strong> program\u0131n\u0131 a\u00e7mak i\u00e7in <img src=\"/sbox/screen/gpg4usb-en-1/03.png\" alt=\"\" />\u2019e <strong>\u00e7ift t\u0131klay\u0131n</strong>.</p>\n\n<p><strong>2. Ad\u0131m</strong>. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in <img src=\"/sbox/screen/gpg4usb-en-1/14.png\" alt=\"\" />\u2019i <strong>t\u0131klay\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/15.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 4: Anahtar\u0131 \u0130\u00e7e Aktar ileti\u015fim kutusu</em></p>\n\n<p><strong>3. Ad\u0131m</strong>. Almak istedi\u011finiz anahtar\u0131 <strong>bulun</strong> ve <strong>se\u00e7in</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/16a.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 5: A\u00e7\u0131k Anahtar</em></p>\n\n<p><strong>4. Ad\u0131m</strong>. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in <em>Open'\u0131</em> (A\u00e7\u2019\u0131) <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/16b.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 6: Anahtar \u0130\u00e7e Aktarma Detaylar\u0131</em></p>\n\n<p><strong>5. Ad\u0131m</strong>. Yukar\u0131daki pencereyi kapatmak i\u00e7in <em>OK'i</em> (Tamam\u2019\u0131) <strong>t\u0131klay\u0131n</strong> ve <strong>gpg4usb</strong> ana penceresine geri d\u00f6n\u00fcn. Yeni i\u00e7e aktar\u0131lm\u0131\u015f anahtar a\u015fa\u011f\u0131daki gibi g\u00f6r\u00fcnecektir.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/16.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 7: Yeni i\u00e7e aktar\u0131lm\u0131\u015f ileti\u015fim kuraca\u011f\u0131n\u0131z ki\u015finin hesab\u0131na ba\u011fl\u0131 olan a\u00e7\u0131k anahtar\u0131 g\u00f6steren gpg4usb konsolu</em></p>\n\n<p>\u0130leti\u015fim kuraca\u011f\u0131n\u0131z ki\u015finin a\u00e7\u0131k anahtar\u0131n\u0131 ba\u015far\u0131 ile i\u00e7e aktard\u0131n\u0131z. \u015eimdi bu anahtar\u0131 do\u011frulayabilir ve imzalayabilirsiniz.</p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h2>3.3 Bir A\u00e7\u0131k Anahtar\u0131 gpg4usb Kullanarak Nas\u0131l Do\u011frulars\u0131n\u0131z?</h2>\n\n<p>Al\u0131nan anahtar\u0131n ger\u00e7ekten onu g\u00f6nderen ki\u015fiye ait olup olmad\u0131\u011f\u0131n\u0131 do\u011frulaman\u0131z gerekir. \u0130\u00e7e aktard\u0131\u011f\u0131n\u0131z her a\u00e7\u0131k anahtar i\u00e7in siz ve ileti\u015fimde oldu\u011funuz ki\u015filer bu \u00f6nemli i\u015flemi tekrarlamal\u0131s\u0131n\u0131z.</p>\n\n<p>Anahtar \u00e7iftini do\u011frulamak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin::</p>\n\n<p><strong>1. Ad\u0131m</strong>. \u0130leti\u015fim kuraca\u011f\u0131n\u0131z ki\u015fi ile e-posta haricinde ba\u015fka bir kanaldan <strong>temas kurun</strong>.</p>\n\n<p><strong>Not</strong>: Telefon, yaz\u0131l\u0131 mesaj, <strong>Voice over Internet Protocol</strong> (<strong>VoIP</strong>) veya ba\u015fka bir y\u00f6ntem kullanabilirsiniz, fakat bunlar\u0131 ileti\u015fim kuraca\u011f\u0131n\u0131z ki\u015finin ger\u00e7ekten o oldu\u011fundan emin iseniz yap\u0131n. G\u00fcvenli bir \u015fekilde ayarland\u0131klar\u0131 zaman, telefon g\u00f6r\u00fc\u015fmeleri ve y\u00fcz y\u00fcze bulu\u015fmalar ki\u015finin kimli\u011fini do\u011frulaman\u0131z i\u00e7in en g\u00fcvenli y\u00f6ntemlerdir.</p>\n\n<p><strong>2. Ad\u0131m</strong>. Siz ve ileti\u015fim kurdu\u011funuz ki\u015fi de\u011fi\u015fti\u011finiz a\u00e7\u0131k anahtarlar\u0131n \u2018parmak izlerini\u2019 do\u011frulamal\u0131s\u0131n\u0131z.</p>\n\n<p><strong>Not</strong>: Parmak izi, her anahtar\u0131n sahip oldu\u011fu kendine \u00f6zg\u00fc say\u0131 ve harflerdir. Parmak izinin kendisi gizli de\u011fildir, daha sonra, gerekti\u011fi zaman do\u011frulama i\u015flemi i\u00e7in kullan\u0131lmak \u00fczere kaydedilebilir.</p>\n\n<p>Yaratt\u0131\u011f\u0131n\u0131z veya ald\u0131\u011f\u0131n\u0131z a\u00e7\u0131k anahtarlar\u0131n parmak izlerini g\u00f6rmek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:</p>\n\n<p><strong>1. Ad\u0131m</strong>. Bir anahtar <strong>se\u00e7in</strong>, a\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r men\u00fcs\u00fcn\u00fc etkinle\u015ftirmek i\u00e7in \u00fczerine <strong>sa\u011f t\u0131klay\u0131n</strong>.</p>\n\n<p><strong>2. Ad\u0131m</strong>. <em>Show Keydetails</em> (Anahtar detaylar\u0131n\u0131 G\u00f6ster) maddesini a\u015fa\u011f\u0131daki <em>\u015eekil 8\u2019de</em> g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi <strong>se\u00e7in</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/17.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 8: \u0130leti\u015fim kuraca\u011f\u0131n\u0131z ki\u015finin anahtar\u0131 ile ili\u015fkili a\u00e7\u0131l\u0131r men\u00fc</em></p>\n\n<p>Bu \u015fekilde a\u015fa\u011f\u0131daki ekran etkinle\u015fecektir:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/18.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 9: A\u015fa\u011f\u0131 b\u00f6l\u00fcm\u00fcnde anahtar parmak izini g\u00f6steren Anahtar detaylar\u0131 penceresi</em></p>\n\n<p><strong>3. Ad\u0131m</strong>. Bu parmak izini, ileti\u015fim kuraca\u011f\u0131n\u0131z ki\u015finin kendi <strong>gpg4usb</strong> program\u0131nda g\u00f6rd\u00fc\u011f\u00fc ile <strong>kar\u015f\u0131la\u015ft\u0131r\u0131n</strong>.</p>\n\n<p>\u0130leti\u015fim kuraca\u011f\u0131n\u0131z ki\u015fi de bu i\u015flemleri ger\u00e7ekle\u015ftirmelidir. Kar\u015f\u0131l\u0131kl\u0131 olarak g\u00f6nderilen anahtar\u0131n g\u00f6nderen ki\u015finin orijinal anahtar\u0131 ile ayn\u0131 olup olmad\u0131\u011f\u0131ndan emin olun. E\u011fer ayn\u0131 de\u011fillerse yeniden a\u00e7\u0131k anahtar payla\u015f\u0131m\u0131 yap\u0131n (farkl\u0131 bir e-posta adresi veya ileti\u015fim y\u00f6ntemi ile) ve do\u011frulama i\u015flemlerini tekrarlay\u0131n.</p>\n\n<p>Parmak izleri <em>tam</em> olarak \u00f6rt\u00fc\u015f\u00fcyorsa birbirinize g\u00fcvenli ve \u015fifreli mesaj ve dosyalar g\u00f6nderebilir hale geldiniz demektir.</p>\n", 
+                        "summary": "", 
+                        "value": "Bu sayfadaki b\u00f6l\u00fcmlerin listesi:\r\n\r\n- [**3.1 A\u00e7\u0131k Anahtar\u0131n\u0131z\u0131 gpg4usb Kullanarak Nas\u0131l G\u00f6nderirsiniz**](#3.1)\r\n- [**3.2 \u0130leti\u015fimde Oldu\u011funuz Ki\u015finin A\u00e7\u0131k Anahtar\u0131n\u0131 gpg4usb Kullanarak Nas\u0131l \u0130\u00e7e Aktar\u0131rs\u0131n\u0131z**](#3.2)\r\n- [**3.3 Bir A\u00e7\u0131k Anahtar\u0131 gpg4usb Kullanarak Nas\u0131l Do\u011frulars\u0131n\u0131z**](#3.3)\r\n\r\n<a name=\"3.1\"></a>\r\n## A\u00e7\u0131k Anahtar\u0131n\u0131z\u0131 gpg4usb Kullanarak Nas\u0131l G\u00f6nderirsiniz ##\r\n\r\n\u0130leti\u015fim kurdu\u011funuz ki\u015filerin size \u015fifreli mesaj g\u00f6nderebilmesi i\u00e7in onlara a\u00e7\u0131k anahtar\u0131n\u0131z\u0131 g\u00f6ndermeniz gerekir. \r\n\r\nA\u00e7\u0131k anahtar\u0131n\u0131z\u0131 **gpg4usb** kullanarak g\u00f6ndermek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz:\r\n\r\n**1. Ad\u0131m**. **gpg4usb** klas\u00f6r\u00fcn\u00fc a\u00e7mak i\u00e7in ![](/sbox/screen/gpg4usb-en-1/02.png)\u2019ye **\u00e7ift t\u0131klay\u0131n**. \r\n\r\n**2. Ad\u0131m**. **gpg4usb** program\u0131n\u0131 a\u00e7mak i\u00e7in ![](/sbox/screen/gpg4usb-en-1/03.png)\u2019ye **\u00e7ift t\u0131klay\u0131n**. \r\n\r\n**3. Ad\u0131m**. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in ![](/sbox/screen/gpg4usb-en-1/10a.png)\u2019e **t\u0131klay\u0131n**.\r\n\r\n![](/sbox/screen/gpg4usb-en-1/10.png)\r\n\r\n*\u015eekil 1: T\u00fcm anahtar \u00e7iftlerini g\u00f6steren Anahtar d\u00fczenleme penceresi*\r\n\r\n**3. Ad\u0131m**. Yukar\u0131daki **\u015eekil 1\u2019de** g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi kendi anahtar\u0131n\u0131z\u0131 i\u015faretleyin.\r\n\r\n**4. Ad\u0131m**. A\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi **Key**(Anahtar) men\u00fcs\u00fcnden *Export To File'\u0131* (Dosyaya Aktar)'\u0131 **se\u00e7in**:\r\n\r\n![](/sbox/screen/gpg4usb-en-1/11.png)\r\n\r\n*\u015eekil 2: Dosyaya Aktar se\u00e7ene\u011fi se\u00e7ili Anahtar d\u00fczenleme penceresi*\r\n\r\nBu sayede a\u015fa\u011f\u0131daki ekran etkinle\u015fecektir: \r\n\r\n![](/sbox/screen/gpg4usb-en-1/12.png)\r\n\r\n*\u015eekil 3: Dosyaya Aktar taray\u0131c\u0131 penceresi*\r\n\r\n**5. Ad\u0131m**. Anahtar \u00e7iftinizi **gpg4usb** program klas\u00f6r\u00fcne kaydetmek i\u00e7in ![](/sbox/screen/gpg4usb-en-1/13.png) \u2019i **t\u0131klay\u0131n**. \r\n\r\n**6. Ad\u0131m**. A\u00e7\u0131k anahtar\u0131n\u0131z\u0131 i\u00e7eren dosyay\u0131 istedi\u011finiz ki\u015fiye ek dosya olarak **g\u00f6nderin**.\r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 \u0130leti\u015fimde Oldu\u011funuz Ki\u015finin A\u00e7\u0131k Anahtar\u0131n\u0131 gpg4usb Kullanarak Nas\u0131l \u0130\u00e7e Aktar\u0131rs\u0131n\u0131z? ##\r\n\r\nBilgileri \u015fifreleyip ileti\u015fimde oldu\u011funuz ki\u015fiye g\u00f6ndermeden \u00f6nce, onun a\u00e7\u0131k anahtar\u0131n\u0131 elinizde bulundurmal\u0131s\u0131n\u0131z. \u0130leti\u015fimde oldu\u011funuz ki\u015finin a\u00e7\u0131k anahtar\u0131n\u0131 **gpg4usb** kullanarak i\u00e7e aktarmak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:\r\n\r\n**1. Ad\u0131m**. **gpg4usb** program\u0131n\u0131 a\u00e7mak i\u00e7in ![](/sbox/screen/gpg4usb-en-1/03.png)\u2019e **\u00e7ift t\u0131klay\u0131n**.\r\n\r\n**2. Ad\u0131m**. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in ![](/sbox/screen/gpg4usb-en-1/14.png)\u2019i **t\u0131klay\u0131n**:\r\n\r\n![](/sbox/screen/gpg4usb-en-1/15.png)\r\n\r\n*\u015eekil 4: Anahtar\u0131 \u0130\u00e7e Aktar ileti\u015fim kutusu*\r\n\r\n**3. Ad\u0131m**. Almak istedi\u011finiz anahtar\u0131 **bulun** ve **se\u00e7in**. \r\n\r\n![](/sbox/screen/gpg4usb-en-1/16a.png)\r\n\r\n*\u015eekil 5: A\u00e7\u0131k Anahtar*\r\n\r\n**4. Ad\u0131m**. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in *Open'\u0131* (A\u00e7\u2019\u0131) **t\u0131klay\u0131n**.\r\n\r\n![](/sbox/screen/gpg4usb-en-1/16b.png)\r\n\r\n*\u015eekil 6: Anahtar \u0130\u00e7e Aktarma Detaylar\u0131*\r\n\r\n**5. Ad\u0131m**. Yukar\u0131daki pencereyi kapatmak i\u00e7in *OK'i* (Tamam\u2019\u0131) **t\u0131klay\u0131n** ve **gpg4usb** ana penceresine geri d\u00f6n\u00fcn. Yeni i\u00e7e aktar\u0131lm\u0131\u015f anahtar a\u015fa\u011f\u0131daki gibi g\u00f6r\u00fcnecektir. \r\n\r\n![](/sbox/screen/gpg4usb-en-1/16.png)\r\n\r\n*\u015eekil 7: Yeni i\u00e7e aktar\u0131lm\u0131\u015f ileti\u015fim kuraca\u011f\u0131n\u0131z ki\u015finin hesab\u0131na ba\u011fl\u0131 olan a\u00e7\u0131k anahtar\u0131 g\u00f6steren gpg4usb konsolu*\r\n\r\n\u0130leti\u015fim kuraca\u011f\u0131n\u0131z ki\u015finin a\u00e7\u0131k anahtar\u0131n\u0131 ba\u015far\u0131 ile i\u00e7e aktard\u0131n\u0131z. \u015eimdi bu anahtar\u0131 do\u011frulayabilir ve imzalayabilirsiniz.\r\n\r\n<a name=\"3.3\"></a>\r\n## 3.3 Bir A\u00e7\u0131k Anahtar\u0131 gpg4usb Kullanarak Nas\u0131l Do\u011frulars\u0131n\u0131z? ##\r\n\r\nAl\u0131nan anahtar\u0131n ger\u00e7ekten onu g\u00f6nderen ki\u015fiye ait olup olmad\u0131\u011f\u0131n\u0131 do\u011frulaman\u0131z gerekir. \u0130\u00e7e aktard\u0131\u011f\u0131n\u0131z her a\u00e7\u0131k anahtar i\u00e7in siz ve ileti\u015fimde oldu\u011funuz ki\u015filer bu \u00f6nemli i\u015flemi tekrarlamal\u0131s\u0131n\u0131z. \r\n\r\nAnahtar \u00e7iftini do\u011frulamak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin::\r\n\r\n**1. Ad\u0131m**. \u0130leti\u015fim kuraca\u011f\u0131n\u0131z ki\u015fi ile e-posta haricinde ba\u015fka bir kanaldan **temas kurun**.\r\n\r\n**Not**: Telefon, yaz\u0131l\u0131 mesaj, **Voice over Internet Protocol** (**VoIP**) veya ba\u015fka bir y\u00f6ntem kullanabilirsiniz, fakat bunlar\u0131 ileti\u015fim kuraca\u011f\u0131n\u0131z ki\u015finin ger\u00e7ekten o oldu\u011fundan emin iseniz yap\u0131n. G\u00fcvenli bir \u015fekilde ayarland\u0131klar\u0131 zaman, telefon g\u00f6r\u00fc\u015fmeleri ve y\u00fcz y\u00fcze bulu\u015fmalar ki\u015finin kimli\u011fini do\u011frulaman\u0131z i\u00e7in en g\u00fcvenli y\u00f6ntemlerdir. \r\n\r\n**2. Ad\u0131m**. Siz ve ileti\u015fim kurdu\u011funuz ki\u015fi de\u011fi\u015fti\u011finiz a\u00e7\u0131k anahtarlar\u0131n \u2018parmak izlerini\u2019 do\u011frulamal\u0131s\u0131n\u0131z.\r\n\r\n**Not**: Parmak izi, her anahtar\u0131n sahip oldu\u011fu kendine \u00f6zg\u00fc say\u0131 ve harflerdir. Parmak izinin kendisi gizli de\u011fildir, daha sonra, gerekti\u011fi zaman do\u011frulama i\u015flemi i\u00e7in kullan\u0131lmak \u00fczere kaydedilebilir. \r\n\r\nYaratt\u0131\u011f\u0131n\u0131z veya ald\u0131\u011f\u0131n\u0131z a\u00e7\u0131k anahtarlar\u0131n parmak izlerini g\u00f6rmek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin: \r\n\r\n**1. Ad\u0131m**. Bir anahtar **se\u00e7in**, a\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r men\u00fcs\u00fcn\u00fc etkinle\u015ftirmek i\u00e7in \u00fczerine **sa\u011f t\u0131klay\u0131n**.\r\n\r\n**2. Ad\u0131m**. *Show Keydetails* (Anahtar detaylar\u0131n\u0131 G\u00f6ster) maddesini a\u015fa\u011f\u0131daki *\u015eekil 8\u2019de* g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi **se\u00e7in**.\r\n\r\n![](/sbox/screen/gpg4usb-en-1/17.png)\r\n\r\n*\u015eekil 8: \u0130leti\u015fim kuraca\u011f\u0131n\u0131z ki\u015finin anahtar\u0131 ile ili\u015fkili a\u00e7\u0131l\u0131r men\u00fc*\r\n\r\nBu \u015fekilde a\u015fa\u011f\u0131daki ekran etkinle\u015fecektir:\r\n\r\n![](/sbox/screen/gpg4usb-en-1/18.png)\r\n\r\n*\u015eekil 9: A\u015fa\u011f\u0131 b\u00f6l\u00fcm\u00fcnde anahtar parmak izini g\u00f6steren Anahtar detaylar\u0131 penceresi*\r\n\r\n**3. Ad\u0131m**. Bu parmak izini, ileti\u015fim kuraca\u011f\u0131n\u0131z ki\u015finin kendi **gpg4usb** program\u0131nda g\u00f6rd\u00fc\u011f\u00fc ile **kar\u015f\u0131la\u015ft\u0131r\u0131n**.\r\n\r\n\u0130leti\u015fim kuraca\u011f\u0131n\u0131z ki\u015fi de bu i\u015flemleri ger\u00e7ekle\u015ftirmelidir. Kar\u015f\u0131l\u0131kl\u0131 olarak g\u00f6nderilen anahtar\u0131n g\u00f6nderen ki\u015finin orijinal anahtar\u0131 ile ayn\u0131 olup olmad\u0131\u011f\u0131ndan emin olun. E\u011fer ayn\u0131 de\u011fillerse yeniden a\u00e7\u0131k anahtar payla\u015f\u0131m\u0131 yap\u0131n (farkl\u0131 bir e-posta adresi veya ileti\u015fim y\u00f6ntemi ile) ve do\u011frulama i\u015flemlerini tekrarlay\u0131n. \r\n\r\nParmak izleri *tam* olarak \u00f6rt\u00fc\u015f\u00fcyorsa birbirinize g\u00fcvenli ve \u015fifreli mesaj ve dosyalar g\u00f6nderebilir hale geldiniz demektir. \r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2057", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2057", 
+                "link_title": "How to Export and Import Keys", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5203", 
+                "module": "book", 
+                "nid": "2057", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5203", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "How to Export and Import Keys", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1455120354", 
+            "comment": "0", 
+            "created": "1441122242", 
+            "current_revision_id": "13207", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb_keysimportexport", 
+                        "value": "gpg4usb_keysimportexport"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5203": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2057", 
+                    "link_title": "How to Export and Import Keys", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5203", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5203", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2057", 
+            "num_revisions": "16", 
+            "path": "https://securityinabox.org/en/gpg4usb-keysimportexport", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455120354", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Anahtarlar Nas\u0131l G\u00f6nderilir ve Al\u0131n\u0131r?", 
+                        "value": "Anahtarlar Nas\u0131l G\u00f6nderilir ve Al\u0131n\u0131r?"
+                    }
+                ]
+            }, 
+            "title_original": "How to Export and Import Keys", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933435", 
+                        "created": "1442933435", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442246357", 
+                        "created": "1442246357", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506690", 
+                        "created": "1442506690", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452097777", 
+                        "created": "1441633817", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733270", 
+                        "created": "1444733270", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455120354", 
+                        "created": "1455120354", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443788784", 
+                        "created": "1443788784", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192625", 
+                        "created": "1441192625", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444189052", 
+                        "created": "1444189052", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024203", 
+                        "created": "1443024203", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834259", 
+                        "created": "1444730205", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122242", 
+                        "created": "1441122242", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2057", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445442893", 
+                        "created": "1445442893", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "927bdf66-af92-4bea-811d-b4b792b4602f", 
+            "vid": "13207", 
+            "vuuid": "1535d39a-166a-4f3a-b90d-335003b5c6ca"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bu sayfadaki b\u00f6l\u00fcmlerin listesi:</p>\n\n<ul><li><a href=\"#4.0\"><strong>4.0 Yaz\u0131l\u0131 \u0130letiler gpg4usb Kullanarak Nas\u0131l \u015eifrelenir</strong></a></li>\n<li><a href=\"#4.1\"><strong>4.1 Yaz\u0131l\u0131 \u0130letilerin \u015eifresi gpg4usb Kullanarak Nas\u0131l \u00c7\u00f6z\u00fcl\u00fcr</strong></a></li>\n<li><a href=\"#4.2\"><strong>4.2 Dosyalar gpg4usb Kullanarak Nas\u0131l \u015eifrelenir</strong></a></li>\n<li><a href=\"#4.3\"><strong>4.3 Dosyalar\u0131n \u015eifresi gpg4usb Kullanarak Nas\u0131l \u00c7\u00f6z\u00fcl\u00fcr</strong></a></li>\n</ul><p><a name=\"4.0\" id=\"4.0\"></a></p>\n\n<h2>4.0 Yaz\u0131l\u0131 Mesajlar gpg4usb Kullanarak Nas\u0131l \u015eifrelenir</h2>\n\n<p>A\u015fa\u011f\u0131daki \u00f6rnekte Terence arkada\u015f\u0131 Salima\u2019ya, a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ederek bir \u015fifreli e-posta g\u00f6nderecek:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <strong>gpg4usb</strong> konsolunu a\u00e7mak i\u00e7in <img src=\"/sbox/screen/gpg4usb-en-1/03.png\" alt=\"\" />\u2019ye <strong>\u00e7ift t\u0131klay\u0131n</strong>.</p>\n\n<p><strong>2. Ad\u0131m</strong>. Mesaj\u0131n\u0131z\u0131 a\u015fa\u011f\u0131daki \u00f6rnekte g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi <strong>yaz\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/19.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 1: Bir mesaj \u00f6rne\u011fi g\u00f6steren gpg4usb konsolu</em></p>\n\n<p><strong>3. Ad\u0131m</strong>. E-postay\u0131 g\u00f6nderece\u011finiz ki\u015fi ile ili\u015fkili kutuyu a\u015fa\u011f\u0131daki gibi <strong>se\u00e7in</strong>:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/20.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 2: E-posta g\u00f6nderilecek ki\u015fiyi g\u00f6steren gpg4usb konsolu</em></p>\n\n<p><strong>Not</strong>: Bir iletiyi, <em>Encrypt for</em> (Bunlar i\u00e7in \u015eifrele) b\u00f6lmesinde bulunan ilgili kutular\u0131 t\u0131klayarak birden fazla al\u0131c\u0131 i\u00e7in \u015fifreleyebilirsiniz. Ki\u015fisel kay\u0131tlar\u0131n\u0131z i\u00e7in, iletiyi kendiniz i\u00e7in de \u015fifrelemeyi faydal\u0131 bulabilirsiniz, \u00e7\u00fcnk, b\u00f6ylece iletiyi daha sonra kendiniz de okuyabilirsiniz.</p>\n\n<p><strong>4. Ad\u0131m</strong>. <img src=\"/sbox/screen/gpg4usb-en-1/21.png\" alt=\"\" />'i t\u0131klayarak yada <strong>Crypt</strong> (\u015eifreleme) men\u00fcs\u00fcnden <strong>select Encrypt'i</strong> (\u015eifrelemeyi Se\u00e7'\u0131) <strong>t\u0131klayarak</strong> iletinizi a\u015fa\u011f\u0131daki gibi \u015fifreleyebilirsiniz:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/22.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 3: \u015eifrelenmi\u015f bir ileti \u00f6rne\u011fini g\u00f6steren gpg4usb konsolu</em></p>\n\n<p><strong>5. Ad\u0131m</strong>. <img src=\"/sbox/screen/gpg4usb-en-1/23.png\" alt=\"\" />'\u0131 <strong>t\u0131klayarak</strong> \u015fifreli iletinin t\u00fcm\u00fcyle se\u00e7in, ve  <img src=\"/sbox/screen/gpg4usb-en-1/24.png\" alt=\"\" />'yi t\u0131klayarak iletiyi panoya kopyalay\u0131n.</p>\n\n<p><strong>Not</strong>: Alternatif olarak, men\u00fcdeki herbir  unsur ile ili\u015fkili klavye k\u0131sa yollar\u0131n\u0131 kullabilirsiniz, bu durumda <strong>Ctrl+E</strong> iletiyi \u015fifreler, <strong>Ctrl+A</strong> iletinin t\u00fcm\u00fcn\u00fc se\u00e7er, <strong>Ctrl+C</strong> iletiyi panoya kopyalar.</p>\n\n<p><strong>6. Ad\u0131m</strong>. E-posta hesab\u0131n\u0131z\u0131 <strong>a\u00e7\u0131n</strong> ve yeni bir ileti yazma penceresini <strong>a\u00e7\u0131n</strong> sonras\u0131nda bu iletiyi a\u015fa\u011f\u0131dakine benzeyecek \u015fekilde yap\u0131\u015ft\u0131r\u0131n:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/25.png\" alt=\"\" /></p>\n\n<p><em>4. \u015eekil: gpg4usb'de \u015fifrelenip Gmail hesab\u0131ndaki bir e-postaya yap\u0131\u015ft\u0131r\u0131lm\u0131\u015f bir \u015fifreli ileti \u00f6rne\u011fi</em></p>\n\n<p><strong>Not</strong>: <strong>Rich Text Formats</strong> (<strong>RTF</strong>, Zengin Metin Formatlar\u0131) \u015fifreli ileti format\u0131n\u0131 bozabilir; bu y\u00fczden, iletilerinizi d\u00fcz metinle yazmak daha iyidir. <strong>Gmail'de</strong> <strong>RTF'yi</strong> d\u00fcz metne \u00e7evirmek i\u00e7in <em>Se\u00e7enekler'i</em> <strong>t\u0131klay\u0131n</strong>, ve ileti b\u00f6l\u00fcm\u00fcn\u00fcn en alt\u0131ndaki <strong>D\u00fcz metin mod'unu</strong> <strong>se\u00e7in</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/26.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 5: Gmail Format Se\u00e7enekleri</em></p>\n\n<p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h2>4.1 Yaz\u0131l\u0131 \u0130letilerin \u015eifresi gpg4usb Kullanarak Nas\u0131l \u00c7\u00f6z\u00fcl\u00fcr</h2>\n\n<p>\u015eifrelenmi\u015f bir e-postan\u0131n \u015fifresini \u00e7\u00f6zmek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <strong>gpg4usb</strong> program\u0131n\u0131 a\u00e7mak i\u00e7in <img src=\"/sbox/screen/gpg4usb-en-1/03.png\" alt=\"\" />\u2019ye <strong>\u00e7ift t\u0131klay\u0131n</strong>.</p>\n\n<p><strong>2. Ad\u0131m</strong>. E-posta hesab\u0131n\u0131z\u0131 ve iletiyi <strong>a\u00e7\u0131n</strong>.</p>\n\n<p><strong>3. Ad\u0131m</strong>. \u015eifrelenmi\u015f mesaj\u0131 <strong>se\u00e7in</strong>, <strong>kopyalay\u0131n</strong> ve <strong>gpg4usb</strong> konsolu <em>untitled1.txt</em> sekmesine a\u015fa\u011f\u0131daki gibi <strong>yap\u0131\u015ft\u0131r\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/27.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 6: \u015eifresi \u00e7\u00f6z\u00fclecek mesaj\u0131 g\u00f6steren gpg4usb konsolu</em></p>\n\n<p><strong>Not</strong>: \u015eifreli metin, a\u015fa\u011f\u0131da <em>\u015eekil 7\u2019de</em> g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi \u00e7ift sat\u0131r aral\u0131klar\u0131 ile g\u00f6r\u00fcn\u00fcyorsa, <strong>gpg4usb</strong> otomatik olarak \u015fifresini \u00e7\u00f6zmeyebilir. Bu \u00e7ift sat\u0131r aral\u0131klar\u0131n\u0131 yok etmek i\u00e7in <img src=\"/sbox/screen/gpg4usb-en-1/27b.png\" alt=\"\" />\u2019e <strong>t\u0131klay\u0131n</strong> (ya da <strong>Edit</strong> [D\u00fczenle] men\u00fcs\u00fcnden <em>Remove double Linebreaks'i</em> [\u00c7ift Sat\u0131r Aral\u0131klar\u0131n\u0131 Kald\u0131r\u2019\u0131] se\u00e7in). B\u00f6ylelikle, <strong>4. Ad\u0131m\u2019da</strong> tarif edilen \u015fifre \u00e7\u00f6zme i\u015flemine devam edebilirsiniz.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/28.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 7: \u00c7ift sat\u0131r aral\u0131klar\u0131na sahip \u015fifresi \u00e7\u00f6z\u00fclecek bir ileti g\u00f6steren gpg4usb konsolu</em></p>\n\n<p><strong>4. Ad\u0131m</strong>. <img src=\"/sbox/screen/gpg4usb-en-1/29.png\" alt=\"\" />\u2019e <strong>t\u0131klay\u0131n</strong> ve a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi anahtar \u00e7ifti olu\u015ftururken yaratt\u0131\u011f\u0131n\u0131z \u015fifreyi <strong>girin</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/30.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 8: \u015eifre Gir uyar\u0131 penceresi</em></p>\n\n<p><strong>5. Ad\u0131m</strong>. Yukar\u0131daki <em>\u015eekil 2\u2019de</em> g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi <strong>gpg4usb</strong> konsolunu etkinle\u015ftirmek i\u00e7in <strong>OK'i</strong> (Tamam\u2019\u0131) <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><a name=\"4.2\" id=\"4.2\"></a></p>\n\n<h2>4.2 Dosyalar gpg4usb Kullanarak Nas\u0131l \u015eifrelenir?</h2>\n\n<p>Bir dosyay\u0131 \u015fifreleme i\u015flemi yaz\u0131l\u0131 iletileri \u015fifrelemeye benzer. A\u015fa\u011f\u0131daki \u00f6rnekte, Salima a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ederek Terence i\u00e7in bir dosyay\u0131 \u015fifreleyecek.</p>\n\n<p><strong>1.Ad\u0131m</strong>. <strong>gpg4usb</strong> program\u0131n\u0131 a\u00e7mak i\u00e7in <img src=\"/sbox/screen/gpg4usb-en-1/03.png\" alt=\"\" />\u2019yi <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><strong>2. Ad\u0131m</strong>. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in <img src=\"/sbox/screen/gpg4usb-en-1/31.png\" alt=\"\" />\u2019\u0131 ve <em>Encrypt File</em>'\u0131 (Dosyay\u0131 \u015eifrele\u2019yi) <strong>t\u0131klay\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/32.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 9: Dosyay\u0131 \u015eifrele penceresi</em></p>\n\n<p><em>Encrypt File</em> Dosyay\u0131 \u015eifrele penceresndeki kayd\u0131rma listesi (siyah ile g\u00f6sterilmi\u015f) iletinin \u015fifrelenecek olan e-posta hesab\u0131n\u0131 ve onunla ba\u011flant\u0131l\u0131 anahtar\u0131 se\u00e7menizi sa\u011flar.</p>\n\n<p><strong>3. Ad\u0131m</strong>. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in <em>Input</em> (Girdi) maddesinin yan\u0131ndaki <img src=\"/sbox/screen/gpg4usb-en-1/33.png\" alt=\"\" />\u2019ya <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/34.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 10: Dosya A\u00e7 tarama penceresi</em></p>\n\n<p><strong>4. Ad\u0131m</strong>. \u015eifrelenecek dosyay\u0131 eklemek i\u00e7in <img src=\"/sbox/screen/gpg4usb-en-1/35.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klay\u0131n</strong> ve <em>Encrypt</em> (\u015eifrele) ekran\u0131na a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi d\u00f6n\u00fcn:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/36.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 11: \u015eifrelenecek olan dosyay\u0131 g\u00f6steren Dosya \u015eifrele penceresi</em></p>\n\n<p><strong>5. Ad\u0131m</strong>. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in <strong>OK'yi</strong> (Tamam\u2019\u0131) <strong>t\u0131klay\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/38.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 12: Tamamland\u0131 onaylama ileti\u015fim kutusu</em></p>\n\n<p><em>Tamamland\u0131</em> onaylama ileti\u015fim kutusu, yeni \u015fifrelenmi\u015f dosyalar\u0131n nerede oldu\u011funu g\u00f6sterir. \u015eifrelenmi\u015f bir dosya, <em>.asc</em> dosya uzant\u0131s\u0131 sayesinde de tan\u0131nabilir, \u00f6rne\u011fin, <em>Meeting Minutes.doc.asc</em>.</p>\n\n<p><strong>6. Ad\u0131m</strong>. Dosya \u015fifreleme i\u015flemini tamamlamak i\u00e7in <em>OK'i</em> (Tamam\u2019\u0131) <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><strong>Not</strong>: \u015eifrelenmi\u015f bir dosya ile g\u00f6nderece\u011finiz iletiyi ayr\u0131ca \u015fifreleyebilirsiniz.</p>\n\n<p><strong>7. Ad\u0131m</strong>. E-posta hesab\u0131n\u0131z\u0131 kullanarak <em>Tamamland\u0131</em> onaylama ileti\u015fim kutusunda belirtilen yere <strong>gidin</strong> (<em>\u015eekil 12</em>) ve \u015fifrelenmi\u015f dosyay\u0131 herhangi bir dosya ekler gibi e-postan\u0131za <strong>ekleyin</strong>.</p>\n\n<p><strong>\u00d6NEML\u0130</strong>: Dosyan\u0131n ad\u0131n\u0131n <strong>\u015fifrelenmemi\u015f</strong> oldu\u011funa dikkatinizi \u00e7ekeriz. Bu ad\u0131n hassas bilgiler i\u00e7ermedi\u011finden emin olun! Ayr\u0131ca, akl\u0131n\u0131zda tutun ki bu dosyan\u0131n \u015fifrelenmemi\u015f bir versiyonu diskinizde yer almaya devam eder.</p>\n\n<p><a name=\"4.3\" id=\"4.3\"></a></p>\n\n<h2>4.3 Dosyalar\u0131n \u015eifresi gpg4usb Kullanarak Nas\u0131l \u00c7\u00f6z\u00fcl\u00fcr</h2>\n\n<p>A\u015fa\u011f\u0131daki \u00f6rnekte, Terence a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ederek Salima\u2019n\u0131n ona g\u00f6nderdi\u011fi dosyan\u0131n \u015fifresini \u00e7\u00f6zecek:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <strong>gpg4usb</strong> program\u0131n\u0131 a\u00e7mak i\u00e7in <img src=\"/sbox/screen/gpg4usb-en-1/03.png\" alt=\"\" />\u2019yi <strong>\u00e7ift t\u0131klay\u0131n</strong>.</p>\n\n<p><strong>2. Ad\u0131m</strong>. E-posta hesab\u0131n\u0131z\u0131 ve iletiyi <strong>a\u00e7\u0131n</strong> ve eklenmi\u015f dosyay\u0131 <strong>indirin</strong>.</p>\n\n<p><strong>Not</strong>: \u0130leti\u015fim i\u00e7inde oldu\u011funuz ki\u015fi \u015fifrelenmi\u015f dosyayla birlikte bir mesaj da g\u00f6ndermi\u015fse, bu mesaj\u0131, <a href=\"/tr/gpg4usb-encryptdecrypt#4.1\"><strong>4.1. Yaz\u0131l\u0131 \u0130letilerin \u015eifresi gpg4usb Kullanarak Nas\u0131l \u00c7\u00f6z\u00fcl\u00fcr?</strong></a> b\u00f6l\u00fcm\u00fcnde anlat\u0131lan y\u00f6ntemi kullanarak \u00e7\u00f6zebilirsiniz.</p>\n\n<p><strong>3. Ad\u0131m</strong>. <strong>gpg4usb</strong> konsolunda (yukar\u0131daki <em>\u015eekil 1\u2019de</em> g\u00f6sterildi\u011fi gibi),  <img src=\"/sbox/screen/gpg4usb-en-1/31.png\" alt=\"\" />\u2019a ve <strong>Decrypt File</strong> (Dosyan\u0131n \u015eifresini \u00c7\u00f6z) penceresine <strong>t\u0131klay\u0131n</strong> (a\u015fa\u011f\u0131daki <em>\u015eekil 13\u2019te</em> g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi).</p>\n\n<p><strong>4. Ad\u0131m</strong>. \u0130ndirilen \u015fifrelenmi\u015f dosyay\u0131 bulmak i\u00e7in a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi <em>Input</em> (Girdi) maddesinin yan\u0131ndaki <img src=\"/sbox/screen/gpg4usb-en-1/33.png\" alt=\"\" />\u2019ya <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/37.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 13: \u015eifrelenmi\u015f dosyaya giden yolu g\u00f6steren \u015eifre \u00c7\u00f6z penceresi</em></p>\n\n<p><strong>5. Ad\u0131m</strong>. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in <em>OK'yi</em> (Tamam\u2019\u0131) <strong>t\u0131klay\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-en-1/39.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 14: \u015eifresi \u00e7\u00f6z\u00fclm\u00fc\u015f dosyan\u0131n yerini g\u00f6steren Tamamland\u0131 onaylama ileti\u015fim kutusu</em></p>\n\n<p><strong>\u00d6nemli</strong>: Bir \u0130nternet kafede veya i\u015f yerinde \u00e7al\u0131\u015f\u0131yorsan\u0131z, di\u011fer ki\u015filerin \u015fifresi \u00e7\u00f6z\u00fclm\u00fc\u015f dosyaya eri\u015fimi olabilir. <strong>.asc</strong> uzant\u0131s\u0131na sahip dosyay\u0131 USB veya ta\u015f\u0131nabilir s\u00fcr\u00fcc\u00fcye kopyalamak ve evinize g\u00f6t\u00fcr\u00fcp \u015fifre \u00e7\u00f6zme i\u015flemini orada g\u00fcvenli bir \u015fekilde yapmak daha iyidir.</p>\n", 
+                        "summary": "", 
+                        "value": "Bu sayfadaki b\u00f6l\u00fcmlerin listesi:\r\n\r\n- [**4.0 Yaz\u0131l\u0131 \u0130letiler gpg4usb Kullanarak Nas\u0131l \u015eifrelenir**](#4.0)\r\n- [**4.1 Yaz\u0131l\u0131 \u0130letilerin \u015eifresi gpg4usb Kullanarak Nas\u0131l \u00c7\u00f6z\u00fcl\u00fcr**](#4.1)\r\n- [**4.2 Dosyalar gpg4usb Kullanarak Nas\u0131l \u015eifrelenir**](#4.2)\r\n- [**4.3 Dosyalar\u0131n \u015eifresi gpg4usb Kullanarak Nas\u0131l \u00c7\u00f6z\u00fcl\u00fcr**](#4.3)\r\n\r\n<a name=\"4.0\"></a>\r\n## 4.0 Yaz\u0131l\u0131 Mesajlar gpg4usb Kullanarak Nas\u0131l \u015eifrelenir ##\r\n\r\nA\u015fa\u011f\u0131daki \u00f6rnekte Terence arkada\u015f\u0131 Salima\u2019ya, a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ederek bir \u015fifreli e-posta g\u00f6nderecek:\r\n\r\n**1. Ad\u0131m**. **gpg4usb** konsolunu a\u00e7mak i\u00e7in ![](/sbox/screen/gpg4usb-en-1/03.png)\u2019ye **\u00e7ift t\u0131klay\u0131n**.\r\n\r\n**2. Ad\u0131m**. Mesaj\u0131n\u0131z\u0131 a\u015fa\u011f\u0131daki \u00f6rnekte g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi **yaz\u0131n**: \r\n\r\n![](/sbox/screen/gpg4usb-en-1/19.png)\r\n\r\n*\u015eekil 1: Bir mesaj \u00f6rne\u011fi g\u00f6steren gpg4usb konsolu*\r\n\r\n**3. Ad\u0131m**. E-postay\u0131 g\u00f6nderece\u011finiz ki\u015fi ile ili\u015fkili kutuyu a\u015fa\u011f\u0131daki gibi **se\u00e7in**:\r\n\r\n![](/sbox/screen/gpg4usb-en-1/20.png)\r\n\r\n*\u015eekil 2: E-posta g\u00f6nderilecek ki\u015fiyi g\u00f6steren gpg4usb konsolu*\r\n\r\n**Not**: Bir iletiyi, *Encrypt for* (Bunlar i\u00e7in \u015eifrele) b\u00f6lmesinde bulunan ilgili kutular\u0131 t\u0131klayarak birden fazla al\u0131c\u0131 i\u00e7in \u015fifreleyebilirsiniz. Ki\u015fisel kay\u0131tlar\u0131n\u0131z i\u00e7in, iletiyi kendiniz i\u00e7in de \u015fifrelemeyi faydal\u0131 bulabilirsiniz, \u00e7\u00fcnk, b\u00f6ylece iletiyi daha sonra kendiniz de okuyabilirsiniz.\r\n\r\n**4. Ad\u0131m**. ![](/sbox/screen/gpg4usb-en-1/21.png)'i t\u0131klayarak yada **Crypt** (\u015eifreleme) men\u00fcs\u00fcnden **select Encrypt'i** (\u015eifrelemeyi Se\u00e7'\u0131) **t\u0131klayarak** iletinizi a\u015fa\u011f\u0131daki gibi \u015fifreleyebilirsiniz:\r\n\r\n![](/sbox/screen/gpg4usb-en-1/22.png)\r\n\r\n*\u015eekil 3: \u015eifrelenmi\u015f bir ileti \u00f6rne\u011fini g\u00f6steren gpg4usb konsolu*\r\n\r\n**5. Ad\u0131m**. ![](/sbox/screen/gpg4usb-en-1/23.png)'\u0131 **t\u0131klayarak** \u015fifreli iletinin t\u00fcm\u00fcyle se\u00e7in, ve  ![](/sbox/screen/gpg4usb-en-1/24.png)'yi t\u0131klayarak iletiyi panoya kopyalay\u0131n.\r\n\r\n**Not**: Alternatif olarak, men\u00fcdeki herbir  unsur ile ili\u015fkili klavye k\u0131sa yollar\u0131n\u0131 kullabilirsiniz, bu durumda **Ctrl+E** iletiyi \u015fifreler, **Ctrl+A** iletinin t\u00fcm\u00fcn\u00fc se\u00e7er, **Ctrl+C** iletiyi panoya kopyalar.\r\n\r\n**6. Ad\u0131m**. E-posta hesab\u0131n\u0131z\u0131 **a\u00e7\u0131n** ve yeni bir ileti yazma penceresini **a\u00e7\u0131n** sonras\u0131nda bu iletiyi a\u015fa\u011f\u0131dakine benzeyecek \u015fekilde yap\u0131\u015ft\u0131r\u0131n:\r\n\r\n![](/sbox/screen/gpg4usb-en-1/25.png)\r\n\r\n*4. \u015eekil: gpg4usb'de \u015fifrelenip Gmail hesab\u0131ndaki bir e-postaya yap\u0131\u015ft\u0131r\u0131lm\u0131\u015f bir \u015fifreli ileti \u00f6rne\u011fi*\r\n\r\n**Not**: **Rich Text Formats** (**RTF**, Zengin Metin Formatlar\u0131) \u015fifreli ileti format\u0131n\u0131 bozabilir; bu y\u00fczden, iletilerinizi d\u00fcz metinle yazmak daha iyidir. **Gmail'de** **RTF'yi** d\u00fcz metne \u00e7evirmek i\u00e7in *Se\u00e7enekler'i* **t\u0131klay\u0131n**, ve ileti b\u00f6l\u00fcm\u00fcn\u00fcn en alt\u0131ndaki **D\u00fcz metin mod'unu** **se\u00e7in**. \r\n\r\n ![](/sbox/screen/gpg4usb-en-1/26.png)\r\n\r\n*\u015eekil 5: Gmail Format Se\u00e7enekleri*\r\n\r\n<a name=\"4.1\"></a>\r\n## 4.1 Yaz\u0131l\u0131 \u0130letilerin \u015eifresi gpg4usb Kullanarak Nas\u0131l \u00c7\u00f6z\u00fcl\u00fcr ##\r\n\r\n\u015eifrelenmi\u015f bir e-postan\u0131n \u015fifresini \u00e7\u00f6zmek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:\r\n\r\n**1. Ad\u0131m**. **gpg4usb** program\u0131n\u0131 a\u00e7mak i\u00e7in ![](/sbox/screen/gpg4usb-en-1/03.png)\u2019ye **\u00e7ift t\u0131klay\u0131n**.\r\n\r\n**2. Ad\u0131m**. E-posta hesab\u0131n\u0131z\u0131 ve iletiyi **a\u00e7\u0131n**. \r\n\r\n**3. Ad\u0131m**. \u015eifrelenmi\u015f mesaj\u0131 **se\u00e7in**, **kopyalay\u0131n** ve **gpg4usb** konsolu *untitled1.txt* sekmesine a\u015fa\u011f\u0131daki gibi **yap\u0131\u015ft\u0131r\u0131n**: \r\n\r\n![](/sbox/screen/gpg4usb-en-1/27.png)\r\n\r\n*\u015eekil 6: \u015eifresi \u00e7\u00f6z\u00fclecek mesaj\u0131 g\u00f6steren gpg4usb konsolu*\r\n\r\n**Not**: \u015eifreli metin, a\u015fa\u011f\u0131da *\u015eekil 7\u2019de* g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi \u00e7ift sat\u0131r aral\u0131klar\u0131 ile g\u00f6r\u00fcn\u00fcyorsa, **gpg4usb** otomatik olarak \u015fifresini \u00e7\u00f6zmeyebilir. Bu \u00e7ift sat\u0131r aral\u0131klar\u0131n\u0131 yok etmek i\u00e7in ![](/sbox/screen/gpg4usb-en-1/27b.png)\u2019e **t\u0131klay\u0131n** (ya da **Edit** [D\u00fczenle] men\u00fcs\u00fcnden *Remove double Linebreaks'i* [\u00c7ift Sat\u0131r Aral\u0131klar\u0131n\u0131 Kald\u0131r\u2019\u0131] se\u00e7in). B\u00f6ylelikle, **4. Ad\u0131m\u2019da** tarif edilen \u015fifre \u00e7\u00f6zme i\u015flemine devam edebilirsiniz. \r\n\r\n![](/sbox/screen/gpg4usb-en-1/28.png)\r\n\r\n*\u015eekil 7: \u00c7ift sat\u0131r aral\u0131klar\u0131na sahip \u015fifresi \u00e7\u00f6z\u00fclecek bir ileti g\u00f6steren gpg4usb konsolu*\r\n \r\n**4. Ad\u0131m**. ![](/sbox/screen/gpg4usb-en-1/29.png)\u2019e **t\u0131klay\u0131n** ve a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi anahtar \u00e7ifti olu\u015ftururken yaratt\u0131\u011f\u0131n\u0131z \u015fifreyi **girin**.\r\n\r\n![](/sbox/screen/gpg4usb-en-1/30.png)\r\n\r\n*\u015eekil 8: \u015eifre Gir uyar\u0131 penceresi*\r\n\r\n**5. Ad\u0131m**. Yukar\u0131daki *\u015eekil 2\u2019de* g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi **gpg4usb** konsolunu etkinle\u015ftirmek i\u00e7in **OK'i** (Tamam\u2019\u0131) **t\u0131klay\u0131n**. \r\n\r\n<a name=\"4.2\"></a>\r\n## 4.2 Dosyalar gpg4usb Kullanarak Nas\u0131l \u015eifrelenir? ##\r\n\r\nBir dosyay\u0131 \u015fifreleme i\u015flemi yaz\u0131l\u0131 iletileri \u015fifrelemeye benzer. A\u015fa\u011f\u0131daki \u00f6rnekte, Salima a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ederek Terence i\u00e7in bir dosyay\u0131 \u015fifreleyecek. \r\n\r\n**1.Ad\u0131m**. **gpg4usb** program\u0131n\u0131 a\u00e7mak i\u00e7in ![](/sbox/screen/gpg4usb-en-1/03.png)\u2019yi **t\u0131klay\u0131n**.\r\n\r\n**2. Ad\u0131m**. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in ![](/sbox/screen/gpg4usb-en-1/31.png)\u2019\u0131 ve *Encrypt File*'\u0131 (Dosyay\u0131 \u015eifrele\u2019yi) **t\u0131klay\u0131n**:\r\n\r\n![](/sbox/screen/gpg4usb-en-1/32.png)\r\n\r\n*\u015eekil 9: Dosyay\u0131 \u015eifrele penceresi*\r\n\r\n*Encrypt File* Dosyay\u0131 \u015eifrele penceresndeki kayd\u0131rma listesi (siyah ile g\u00f6sterilmi\u015f) iletinin \u015fifrelenecek olan e-posta hesab\u0131n\u0131 ve onunla ba\u011flant\u0131l\u0131 anahtar\u0131 se\u00e7menizi sa\u011flar. \r\n\r\n**3. Ad\u0131m**. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in *Input* (Girdi) maddesinin yan\u0131ndaki ![](/sbox/screen/gpg4usb-en-1/33.png)\u2019ya **t\u0131klay\u0131n**.\r\n\r\n![](/sbox/screen/gpg4usb-en-1/34.png)\r\n\r\n*\u015eekil 10: Dosya A\u00e7 tarama penceresi*\r\n\r\n**4. Ad\u0131m**. \u015eifrelenecek dosyay\u0131 eklemek i\u00e7in ![](/sbox/screen/gpg4usb-en-1/35.png)\u2019\u0131 **t\u0131klay\u0131n** ve *Encrypt* (\u015eifrele) ekran\u0131na a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi d\u00f6n\u00fcn:\r\n\r\n![](/sbox/screen/gpg4usb-en-1/36.png)\r\n\r\n*\u015eekil 11: \u015eifrelenecek olan dosyay\u0131 g\u00f6steren Dosya \u015eifrele penceresi*\r\n\r\n**5. Ad\u0131m**. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in **OK'yi** (Tamam\u2019\u0131) **t\u0131klay\u0131n**:\r\n\r\n![](/sbox/screen/gpg4usb-en-1/38.png)\r\n\r\n*\u015eekil 12: Tamamland\u0131 onaylama ileti\u015fim kutusu*\r\n\r\n*Tamamland\u0131* onaylama ileti\u015fim kutusu, yeni \u015fifrelenmi\u015f dosyalar\u0131n nerede oldu\u011funu g\u00f6sterir. \u015eifrelenmi\u015f bir dosya, *.asc* dosya uzant\u0131s\u0131 sayesinde de tan\u0131nabilir, \u00f6rne\u011fin, *Meeting Minutes.doc.asc*.\r\n\r\n**6. Ad\u0131m**. Dosya \u015fifreleme i\u015flemini tamamlamak i\u00e7in *OK'i* (Tamam\u2019\u0131) **t\u0131klay\u0131n**.\r\n\r\n**Not**: \u015eifrelenmi\u015f bir dosya ile g\u00f6nderece\u011finiz iletiyi ayr\u0131ca \u015fifreleyebilirsiniz.\r\n\r\n**7. Ad\u0131m**. E-posta hesab\u0131n\u0131z\u0131 kullanarak *Tamamland\u0131* onaylama ileti\u015fim kutusunda belirtilen yere **gidin** (*\u015eekil 12*) ve \u015fifrelenmi\u015f dosyay\u0131 herhangi bir dosya ekler gibi e-postan\u0131za **ekleyin**. \r\n\r\n**\u00d6NEML\u0130**: Dosyan\u0131n ad\u0131n\u0131n **\u015fifrelenmemi\u015f** oldu\u011funa dikkatinizi \u00e7ekeriz. Bu ad\u0131n hassas bilgiler i\u00e7ermedi\u011finden emin olun! Ayr\u0131ca, akl\u0131n\u0131zda tutun ki bu dosyan\u0131n \u015fifrelenmemi\u015f bir versiyonu diskinizde yer almaya devam eder.\r\n\r\n<a name=\"4.3\"></a>\r\n## 4.3 Dosyalar\u0131n \u015eifresi gpg4usb Kullanarak Nas\u0131l \u00c7\u00f6z\u00fcl\u00fcr ##\r\n\r\nA\u015fa\u011f\u0131daki \u00f6rnekte, Terence a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ederek Salima\u2019n\u0131n ona g\u00f6nderdi\u011fi dosyan\u0131n \u015fifresini \u00e7\u00f6zecek:\r\n\r\n**1. Ad\u0131m**. **gpg4usb** program\u0131n\u0131 a\u00e7mak i\u00e7in ![](/sbox/screen/gpg4usb-en-1/03.png)\u2019yi **\u00e7ift t\u0131klay\u0131n**. \r\n\r\n**2. Ad\u0131m**. E-posta hesab\u0131n\u0131z\u0131 ve iletiyi **a\u00e7\u0131n** ve eklenmi\u015f dosyay\u0131 **indirin**. \r\n\r\n**Not**: \u0130leti\u015fim i\u00e7inde oldu\u011funuz ki\u015fi \u015fifrelenmi\u015f dosyayla birlikte bir mesaj da g\u00f6ndermi\u015fse, bu mesaj\u0131, [**4.1. Yaz\u0131l\u0131 \u0130letilerin \u015eifresi gpg4usb Kullanarak Nas\u0131l \u00c7\u00f6z\u00fcl\u00fcr?**](/tr/gpg4usb-encryptdecrypt#4.1) b\u00f6l\u00fcm\u00fcnde anlat\u0131lan y\u00f6ntemi kullanarak \u00e7\u00f6zebilirsiniz. \r\n\r\n**3. Ad\u0131m**. **gpg4usb** konsolunda (yukar\u0131daki *\u015eekil 1\u2019de* g\u00f6sterildi\u011fi gibi),  ![](/sbox/screen/gpg4usb-en-1/31.png)\u2019a ve **Decrypt File** (Dosyan\u0131n \u015eifresini \u00c7\u00f6z) penceresine **t\u0131klay\u0131n** (a\u015fa\u011f\u0131daki *\u015eekil 13\u2019te* g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi). \r\n\r\n**4. Ad\u0131m**. \u0130ndirilen \u015fifrelenmi\u015f dosyay\u0131 bulmak i\u00e7in a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi *Input* (Girdi) maddesinin yan\u0131ndaki ![](/sbox/screen/gpg4usb-en-1/33.png)\u2019ya **t\u0131klay\u0131n**.\r\n\r\n![](/sbox/screen/gpg4usb-en-1/37.png) \r\n\r\n*\u015eekil 13: \u015eifrelenmi\u015f dosyaya giden yolu g\u00f6steren \u015eifre \u00c7\u00f6z penceresi*\r\n\r\n**5. Ad\u0131m**. A\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirmek i\u00e7in *OK'yi* (Tamam\u2019\u0131) **t\u0131klay\u0131n**: \r\n\r\n![](/sbox/screen/gpg4usb-en-1/39.png) \r\n\r\n*\u015eekil 14: \u015eifresi \u00e7\u00f6z\u00fclm\u00fc\u015f dosyan\u0131n yerini g\u00f6steren Tamamland\u0131 onaylama ileti\u015fim kutusu*\r\n\r\n**\u00d6nemli**: Bir \u0130nternet kafede veya i\u015f yerinde \u00e7al\u0131\u015f\u0131yorsan\u0131z, di\u011fer ki\u015filerin \u015fifresi \u00e7\u00f6z\u00fclm\u00fc\u015f dosyaya eri\u015fimi olabilir. **.asc** uzant\u0131s\u0131na sahip dosyay\u0131 USB veya ta\u015f\u0131nabilir s\u00fcr\u00fcc\u00fcye kopyalamak ve evinize g\u00f6t\u00fcr\u00fcp \u015fifre \u00e7\u00f6zme i\u015flemini orada g\u00fcvenli bir \u015fekilde yapmak daha iyidir. \r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2058", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2058", 
+                "link_title": "How to Encrypt and Decrypt Text and Files", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5204", 
+                "module": "book", 
+                "nid": "2058", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5204", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "How to Encrypt and Decrypt Text and Files", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1456317301", 
+            "comment": "0", 
+            "created": "1441122281", 
+            "current_revision_id": "13354", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb-encryptdecrypt", 
+                        "value": "gpg4usb-encryptdecrypt"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5204": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2058", 
+                    "link_title": "How to Encrypt and Decrypt Text and Files", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5204", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5204", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2058", 
+            "num_revisions": "18", 
+            "path": "https://securityinabox.org/en/gpg4usb-encryptdecrypt", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456317301", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Metin ve Dosyalar Nas\u0131l \u015eifrelenir ve De\u015fifre Edilir?", 
+                        "value": "Metin ve Dosyalar Nas\u0131l \u015eifrelenir ve De\u015fifre Edilir?"
+                    }
+                ]
+            }, 
+            "title_original": "How to Encrypt and Decrypt Text and Files", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933512", 
+                        "created": "1442933512", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454334177", 
+                        "created": "1442247427", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506774", 
+                        "created": "1442506774", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452097882", 
+                        "created": "1441633923", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733334", 
+                        "created": "1444733334", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455120475", 
+                        "created": "1455120475", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1456317301", 
+                        "created": "1443788863", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192711", 
+                        "created": "1441192711", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444189131", 
+                        "created": "1444189131", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024229", 
+                        "created": "1443024229", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834296", 
+                        "created": "1444730318", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122281", 
+                        "created": "1441122281", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2058", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445442983", 
+                        "created": "1445442983", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "81b92808-4745-49d2-8adb-01d3abc61d18", 
+            "vid": "13354", 
+            "vuuid": "0aa3c679-bfb9-404b-8bb6-749c82542b83"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p><a name=\"5.0\" id=\"5.0\"></a></p>\n\n<h2>5.0 S\u0131k\u00e7a Sorulan Sorular</h2>\n\n<div class=\"background\">\n\n<p><em><strong>Soru</strong>: <strong>gpg4usb</strong>, sadece USB \u00e7ubu\u011funda m\u0131 kullan\u0131labillir?</em></p>\n\n<p><em><strong>Cevap:</strong> Hay\u0131r. Bilgisayar\u0131n\u0131z\u0131n sabit diskine \u00e7\u0131kart\u0131l\u0131p oradan da \u00e7al\u0131\u015ft\u0131r\u0131labilir</em>.</p>\n\n<p><em><strong>Soru</strong>: Ka\u00e7 hesap i\u00e7in anahtar \u00e7ifti olu\u015fturabilirim?</em></p>\n\n<p><em><strong>Cevap</strong>: Ne kadar isterseniz</em>.</p>\n\n<p><em><strong>Soru</strong>: Basit kopyalama ve yap\u0131\u015ft\u0131rma i\u015flemleri kullan\u0131lmas\u0131 olduk\u00e7a g\u00fczel</em>.</p>\n\n<p><em><strong>Cevap</strong>: Ger\u00e7ekten de \u00f6yle. Fakat unutmay\u0131n ki e-posta konu kutusunda yaz\u0131lanlar \u015fifrelenmemi\u015f bir \u015fekilde kal\u0131r. Bu y\u00fczden, dikkatli olun ve e-posta i\u00e7eri\u011fi veya sizi ele verecek bir \u015fey yazmay\u0131n!</em></p>\n\n</div>\n\n<p><a name=\"5.1\" id=\"5.1\"></a></p>\n\n<h2>5.1 G\u00f6zden Ge\u00e7irme Sorular\u0131</h2>\n\n<ul><li>A\u00e7\u0131k anahtar\u0131 imzalamak ve do\u011frulamak aras\u0131ndaki fark nedir?</li>\n<li>Parmak izi nedir ve nas\u0131l kullan\u0131l\u0131r?</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "<a name=\"5.0\"></a>\r\n## 5.0 S\u0131k\u00e7a Sorulan Sorular ##\r\n\r\n<div class=\"background\" markdown=\"1\"> \r\n\r\n***Soru**: **gpg4usb**, sadece USB \u00e7ubu\u011funda m\u0131 kullan\u0131labillir?*\r\n\r\n***Cevap:** Hay\u0131r. Bilgisayar\u0131n\u0131z\u0131n sabit diskine \u00e7\u0131kart\u0131l\u0131p oradan da \u00e7al\u0131\u015ft\u0131r\u0131labilir*. \r\n\r\n***Soru**: Ka\u00e7 hesap i\u00e7in anahtar \u00e7ifti olu\u015fturabilirim?*\r\n\r\n***Cevap**: Ne kadar isterseniz*. \r\n\r\n***Soru**: Basit kopyalama ve yap\u0131\u015ft\u0131rma i\u015flemleri kullan\u0131lmas\u0131 olduk\u00e7a g\u00fczel*.\r\n\r\n***Cevap**: Ger\u00e7ekten de \u00f6yle. Fakat unutmay\u0131n ki e-posta konu kutusunda yaz\u0131lanlar \u015fifrelenmemi\u015f bir \u015fekilde kal\u0131r. Bu y\u00fczden, dikkatli olun ve e-posta i\u00e7eri\u011fi veya sizi ele verecek bir \u015fey yazmay\u0131n!*\r\n\r\n</div>\r\n\r\n<a name=\"5.1\"></a>\r\n## 5.1 G\u00f6zden Ge\u00e7irme Sorular\u0131 ##\r\n\r\n- A\u00e7\u0131k anahtar\u0131 imzalamak ve do\u011frulamak aras\u0131ndaki fark nedir?\r\n- Parmak izi nedir ve nas\u0131l kullan\u0131l\u0131r?\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2059", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2059", 
+                "link_title": "FAQ and Review", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5205", 
+                "module": "book", 
+                "nid": "2059", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5205", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "FAQ and Review", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1455121879", 
+            "comment": "0", 
+            "created": "1441122335", 
+            "current_revision_id": "13209", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb-faq", 
+                        "value": "gpg4usb-faq"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5205": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2059", 
+                    "link_title": "FAQ and Review", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5205", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5205", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2059", 
+            "num_revisions": "15", 
+            "path": "https://securityinabox.org/en/gpg4usb-faq", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455121879", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "S\u0131k\u00e7a Sorulan Sorular ve G\u00f6zden Ge\u00e7irme", 
+                        "value": "S\u0131k\u00e7a Sorulan Sorular ve G\u00f6zden Ge\u00e7irme"
+                    }
+                ]
+            }, 
+            "title_original": "FAQ and Review", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933622", 
+                        "created": "1442933622", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442246882", 
+                        "created": "1442246882", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506854", 
+                        "created": "1442506854", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442325864", 
+                        "created": "1441634027", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733392", 
+                        "created": "1444733392", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455121879", 
+                        "created": "1455121879", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443789030", 
+                        "created": "1443789030", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192792", 
+                        "created": "1441192792", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444189237", 
+                        "created": "1444189237", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024253", 
+                        "created": "1443024253", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834357", 
+                        "created": "1444730386", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122335", 
+                        "created": "1441122335", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2059", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445443061", 
+                        "created": "1445443061", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "857e0192-b870-418f-9001-d60648efc330", 
+            "vid": "13209", 
+            "vuuid": "82ea3467-0eb9-4b93-b0aa-d561230213e7"
+        }
+    ], 
+    "changed": "1456155294", 
+    "comment": "0", 
+    "created": "1441122154", 
+    "current_revision_id": "13327", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "tr": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>gpg4usb'yi \u0130ndirme</strong></p>\n\n<ul><li><em>A\u015fa\u011f\u0131daki <strong>gpg4usb</strong> ikonunu <strong>t\u0131klayarak</strong> zip ar\u015fivi dosyas\u0131n\u0131 bilgisayar\u0131n\u0131za kopyalay\u0131nk</em> </li>\n<li><em><strong>gpg4usb.zip</strong> dosyas\u0131n\u0131 <strong>bulun</strong> ve <strong>ay\u0131klay\u0131n</strong></em></li>\n<li><em>T\u00fcm dosyalar\u0131 ay\u0131klad\u0131ktan sonra, bilgisayar\u0131n\u0131za kaydetti\u011finiz <strong>gpg4usb.zip</strong> dosyas\u0131n\u0131 silebilirsiniz.</em></li>\n</ul><p><strong>gpg4usb</strong></p>\n\n<p><a href=\"/sbox/programs/gpg4usb.zip\"><img src=\"/sbox/screen/gpg4usb-en/gpg4usb.png\" alt=\"\" /></a></p>\n", 
+                "value": "**gpg4usb'yi \u0130ndirme**\r\n\r\n- *A\u015fa\u011f\u0131daki **gpg4usb** ikonunu **t\u0131klayarak** zip ar\u015fivi dosyas\u0131n\u0131 bilgisayar\u0131n\u0131za kopyalay\u0131nk* \r\n- ***gpg4usb.zip** dosyas\u0131n\u0131 **bulun** ve **ay\u0131klay\u0131n***\r\n- *T\u00fcm dosyalar\u0131 ay\u0131klad\u0131ktan sonra, bilgisayar\u0131n\u0131za kaydetti\u011finiz **gpg4usb.zip** dosyas\u0131n\u0131 silebilirsiniz.*\r\n\r\n**gpg4usb**\r\n\r\n[![](/sbox/screen/gpg4usb-en/gpg4usb.png)](/sbox/programs/gpg4usb.zip)\r\n"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>gpg4usb'yu \u0130ndirme</strong></p>\n\n<ul><li><em><strong>http://www.gpg4usb.org/download.html</strong> web sayfas\u0131n\u0131 a\u00e7mak i\u00e7in a\u015fa\u011f\u0131daki <strong>gpg4usb</strong> ikonuna <strong>t\u0131klay\u0131n</strong></em></li>\n<li>*zip ar\u015fivini indirmeye gitmek i\u00e7in <strong>File Name</strong> alt\u0131ndaki <strong>gpg4usb-x.x.x.zip</strong> ba\u011flant\u0131s\u0131na <strong>t\u0131klay\u0131n</strong></li>\n<li><em>gpg4usb-x.x.x.zip dosyas\u0131n\u0131 <strong>bulun</strong> ve <strong>ay\u0131klay\u0131n</strong></em> </li>\n<li><em>T\u00fcm dosyalar\u0131 ay\u0131klad\u0131ktan sonra, bilgisayar\u0131n\u0131za kaydetti\u011finiz .zip dosyas\u0131n\u0131 silebilirsiniz</em></li>\n</ul><p><strong>gpg4usb</strong></p>\n\n<p><a href=\"http://www.gpg4usb.org/download.html\"><img src=\"/sbox/screen/gpg4usb-en/gpg4usb.png\" alt=\"\" /></a></p>\n", 
+                "value": "**gpg4usb'yu \u0130ndirme**\r\n\r\n- ***http://www.gpg4usb.org/download.html** web sayfas\u0131n\u0131 a\u00e7mak i\u00e7in a\u015fa\u011f\u0131daki **gpg4usb** ikonuna **t\u0131klay\u0131n***\r\n- *zip ar\u015fivini indirmeye gitmek i\u00e7in **File Name** alt\u0131ndaki **gpg4usb-x.x.x.zip** ba\u011flant\u0131s\u0131na **t\u0131klay\u0131n**\r\n- *gpg4usb-x.x.x.zip dosyas\u0131n\u0131 **bulun** ve **ay\u0131klay\u0131n*** \r\n- *T\u00fcm dosyalar\u0131 ay\u0131klad\u0131ktan sonra, bilgisayar\u0131n\u0131za kaydetti\u011finiz .zip dosyas\u0131n\u0131 silebilirsiniz*\r\n\r\n**gpg4usb**\r\n\r\n[![](/sbox/screen/gpg4usb-en/gpg4usb.png)](http://www.gpg4usb.org/download.html)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "gpg4usb - email text and files encryptio", 
+                "value": "gpg4usb - email text and files encryptio"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "gpg4usb \u2013 E-posta Metni ve Dosya \u015eifreleme", 
+                "value": "gpg4usb \u2013 E-posta Metni ve Dosya \u015eifreleme"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>gpg4usb</strong> metin (e-posta) iletilerini ve dosyalar\u0131n\u0131 \u015fifreleme i\u015flevine sahip, \u00fccretsiz, a\u00e7\u0131k kaynak, ta\u015f\u0131nabilir bir programd\u0131r.<strong>GPG</strong> ve <strong>PGP</strong> programlar\u0131 gibi A\u00e7\u0131k Anahtar \u015eifreleme algoritmalar\u0131 kullan\u0131r.</p>\n", 
+                "value": "**gpg4usb** metin (e-posta) iletilerini ve dosyalar\u0131n\u0131 \u015fifreleme i\u015flevine sahip, \u00fccretsiz, a\u00e7\u0131k kaynak, ta\u015f\u0131nabilir bir programd\u0131r.**GPG** ve **PGP** programlar\u0131 gibi A\u00e7\u0131k Anahtar \u015eifreleme algoritmalar\u0131 kullan\u0131r."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-13 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "gpg4usbportable_main", 
+                "value": "gpg4usbportable_main"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "14"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "14"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5201": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2055", 
+            "link_title": "gpg4usb - email text and files encryption", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5201", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5201", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-2"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2055", 
+    "num_revisions": "20", 
+    "path": "https://securityinabox.org/en/gpg4usb_portable", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1456155294", 
+    "revision_uid": "479", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "gpg4usb \u2013 E-posta Metni ve Dosya \u015eifreleme", 
+                "value": "gpg4usb \u2013 E-posta Metni ve Dosya \u015eifreleme"
+            }
+        ]
+    }, 
+    "title_original": "gpg4usb - email text and files encryption", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1455887654", 
+                "created": "1442933243", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442246235", 
+                "created": "1442246235", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442506493", 
+                "created": "1442506493", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1442325310", 
+                "created": "1441633605", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1444733145", 
+                "created": "1444733145", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "km": {
+                "changed": "1455119984", 
+                "created": "1455119984", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1456155294", 
+                "created": "1443788580", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441192432", 
+                "created": "1441192432", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444187878", 
+                "created": "1444187878", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1443016516", 
+                "created": "1443016516", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1455878109", 
+                "created": "1443525988", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441183378", 
+                "created": "1441122154", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2055", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445442700", 
+                "created": "1445442700", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "4a066479-8db3-4fe8-b68d-d446add181e4", 
+    "vid": "13327", 
+    "vuuid": "b090f0bc-28e1-46a1-b77d-667853d273ed"
+}

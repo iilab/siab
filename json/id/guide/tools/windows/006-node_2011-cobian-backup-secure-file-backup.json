@@ -1,0 +1,1491 @@
+{
+    "body": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Situs Resmi</strong></p>\n\n<p><a href=\"http://www.educ.umu.se/~cobian/cobianbackup.htm\"><strong>www.educ.umu.se/~cobian/cobianbackup.htm</strong></a></p>\n\n<p><strong>Sistem operasi yang diperlukan</strong></p>\n\n<ul><li>XP, 2003, Vista, 2008, Windows 7 </li>\n<li>Windows 95, 98 and ME are compatible with Cobian <a href=\"/sites/securitybkp.ngoinabox.org/security/files/cobian/Cb7Setup.exe\"><strong>version 7</strong></a></li>\n</ul><p><strong>Versi yang digunakan dalam panduan ini</strong></p>\n\n<ul><li>10</li>\n</ul><p><strong>Lisensi</strong></p>\n\n<ul><li>Gratis </li>\n</ul><p><strong>Petunjuk yang perlu dibaca</strong>:</p>\n\n<ul><li>Petunjuk bagaimana caranya Bab <a href=\"https://securityinabox.org/id/chapter-5\"><strong>5. Cara memulihkan informasi yang hilang</strong></a></li>\n</ul><p><strong>Level:</strong> 1: Pemula, 2: Umum, <strong>3: Menengah</strong>, 4: Berpengalaman, 5: Ahli</p>\n\n<p><strong>Waktu yang diperlukan untuk menggunakan alat ini</strong>: 30 menit</p>\n\n<p><strong>Apa yang akan Anda dapatkan</strong>:</p>\n\n<ul><li>Pengetahuan untuk menyalin semua dokumen, file dan folder</li>\n<li>Pengetahuan untuk <em>compress</em> dan <em>decompress</em> file salinan (<em>backup files</em>)</li>\n<li>Pengetahuan untuk untuk melakukan <em>encrypt</em> dan <em>decrypt</em> pada arsip file Anda </li>\n</ul><p><strong>GNU Linux, Mac OS dan Program Microsoft Windows Compatible lain yang kompatibel:</strong></p>\n\n<p>Mengarsip atau membuat salinan dari dokumen, file dan folder bisa menjadi semudah mengopi file dari satu lokasi ke lokasi aman lainnya; untuk ini, alat khusus tidaklah diperlukan. Akan tetapi, ketika mengarsip jumlah dokumen dan file dalam jumlah besar, Anda akan merasakan keuntungan lebih ketika menggunakan program yang didesain untuk menyalin files (seperti <strong>Cobian Backup</strong>) atau alat untuk melakukan <em>sinkronisasi file</em>, program yang dapat memastikan baik lokasi asal atau lokasi \u2018source\u2019 dan lokasi baru mempunyai isi yang betul-betul sama. Selain <strong>Cobian Backup</strong>, terdapat banyak program yang dapat membantu Anda untuk mengarsip atau membuat salinan dari dokumen Anda; berikut beberapa program yang kami rekomendasikan:</p>\n\n<ul><li><a href=\"http://www.freebyte.com/fbbackup/\"><strong>Freebyte Backup</strong></a> program untuk menyalin file yang didesain untuk <strong>Microsoft Windows</strong>;</li>\n<li><a href=\"http://www.cis.upenn.edu/~bcpierce/unison/\"><strong>Unison File Synchronizer</strong></a> adalah sebuah program gratis dan <em>open source</em> untuk  <strong>Microsoft Windows, Mac OS, dan GNU/Linux</strong>;</li>\n<li><a href=\"http://allwaysync.com/\"><strong>Allway Sync</strong></a> adalah alat sinkronisasi file yang gratis untuk <strong>Microsoft Windows</strong>;</li>\n<li><a href=\"http://freefilesync.sourceforge.net/\"><strong>FreeFileSync</strong></a> adalah alat sinkronisasi file yang gratis dan <em>open source</em> untuk <strong>GNU/Linux</strong> dan <strong>Microsoft Windows</strong>;</li>\n<li><a href=\"https://secure.wikimedia.org/wikipedia/en/wiki/Time_Machine_%28Mac_OS%29\"><strong>Time Machine</strong></a> alat menyalin file yang dikembangkan oleh <strong>Apple</strong>, termasuk didalamnya <strong>Mac OS</strong> (version 10.5 ke atas); dan</li>\n<li>Pengguna <strong>Ubuntu GNU/Linux</strong> silahkan membaca panduan  <a href=\"https://help.ubuntu.com/community/BackupYourSystem\"><strong>Backup Your System</strong></a> yang dapat menjelaskan perangkat yang bisa Anda gunakan. </li>\n</ul><h2>1.1 Hal-hal yang perlu Anda ketahui sebelum menggunakan Alat ini</h2>\n\n<p><strong>Cobian Backup</strong> digunakan untuk mengarsip (atau mebuat salinan) dari file dan direktori. Salinan dapat disimpan di direktori lain atau drive di komputer Anda, komputer lain di jaringan kantor, atau di alat-alat protabel (CDs, DVDs dan USB/Flashdisk). Dengan <strong>Cobian Backup</strong> Anda dapat mengarsip direktori dan file secara teratur. Ia bekerja secara diam-diam di belakang sistem Anda (di sistem tray Anda), memeriksa jadwal dan melakukan proses penyalinan ketika diperlukan. <strong>Cobian Backup</strong> juga dapat mengkompress dan melakukan enkripsi pada file ketika mengambil salinan file.</p>\n", 
+                "summary": "", 
+                "value": "**Situs Resmi**\r\n\r\n[**www.educ.umu.se/~cobian/cobianbackup.htm**](http://www.educ.umu.se/~cobian/cobianbackup.htm)\r\n\r\n**Sistem operasi yang diperlukan**\r\n\r\n- XP, 2003, Vista, 2008, Windows 7 \r\n- Windows 95, 98 and ME are compatible with Cobian [**version 7**](/sites/securitybkp.ngoinabox.org/security/files/cobian/Cb7Setup.exe)\r\n\r\n**Versi yang digunakan dalam panduan ini**\r\n\r\n- 10\r\n\r\n**Lisensi** \r\n\r\n- Gratis \r\n\r\n**Petunjuk yang perlu dibaca**: \r\n\r\n- Petunjuk bagaimana caranya Bab [**5. Cara memulihkan informasi yang hilang**](https://securityinabox.org/id/chapter-5)\r\n\r\n**Level:** 1: Pemula, 2: Umum, **3: Menengah**, 4: Berpengalaman, 5: Ahli\r\n\r\n**Waktu yang diperlukan untuk menggunakan alat ini**: 30 menit\r\n\r\n**Apa yang akan Anda dapatkan**:\r\n\r\n- Pengetahuan untuk menyalin semua dokumen, file dan folder\r\n- Pengetahuan untuk *compress* dan *decompress* file salinan (*backup files*)\r\n- Pengetahuan untuk untuk melakukan *encrypt* dan *decrypt* pada arsip file Anda \r\n\r\n**GNU Linux, Mac OS dan Program Microsoft Windows Compatible lain yang kompatibel:**\r\n\r\n\r\nMengarsip atau membuat salinan dari dokumen, file dan folder bisa menjadi semudah mengopi file dari satu lokasi ke lokasi aman lainnya; untuk ini, alat khusus tidaklah diperlukan. Akan tetapi, ketika mengarsip jumlah dokumen dan file dalam jumlah besar, Anda akan merasakan keuntungan lebih ketika menggunakan program yang didesain untuk menyalin files (seperti **Cobian Backup**) atau alat untuk melakukan *sinkronisasi file*, program yang dapat memastikan baik lokasi asal atau lokasi \u2018source\u2019 dan lokasi baru mempunyai isi yang betul-betul sama. Selain **Cobian Backup**, terdapat banyak program yang dapat membantu Anda untuk mengarsip atau membuat salinan dari dokumen Anda; berikut beberapa program yang kami rekomendasikan:\r\n\r\n- [**Freebyte Backup**](http://www.freebyte.com/fbbackup/) program untuk menyalin file yang didesain untuk **Microsoft Windows**;\r\n- [**Unison File Synchronizer**](http://www.cis.upenn.edu/~bcpierce/unison/) adalah sebuah program gratis dan *open source* untuk  **Microsoft Windows, Mac OS, dan GNU/Linux**;\r\n- [**Allway Sync**](http://allwaysync.com/) adalah alat sinkronisasi file yang gratis untuk **Microsoft Windows**;\r\n- [**FreeFileSync**](http://freefilesync.sourceforge.net/) adalah alat sinkronisasi file yang gratis dan *open source* untuk **GNU/Linux** dan **Microsoft Windows**;\r\n- [**Time Machine**](https://secure.wikimedia.org/wikipedia/en/wiki/Time_Machine_%28Mac_OS%29) alat menyalin file yang dikembangkan oleh **Apple**, termasuk didalamnya **Mac OS** (version 10.5 ke atas); dan\r\n- Pengguna **Ubuntu GNU/Linux** silahkan membaca panduan  [**Backup Your System**](https://help.ubuntu.com/community/BackupYourSystem) yang dapat menjelaskan perangkat yang bisa Anda gunakan. \r\n\r\n## 1.1 Hal-hal yang perlu Anda ketahui sebelum menggunakan Alat ini ##\r\n\r\n**Cobian Backup** digunakan untuk mengarsip (atau mebuat salinan) dari file dan direktori. Salinan dapat disimpan di direktori lain atau drive di komputer Anda, komputer lain di jaringan kantor, atau di alat-alat protabel (CDs, DVDs dan USB/Flashdisk). Dengan **Cobian Backup** Anda dapat mengarsip direktori dan file secara teratur. Ia bekerja secara diam-diam di belakang sistem Anda (di sistem tray Anda), memeriksa jadwal dan melakukan proses penyalinan ketika diperlukan. **Cobian Backup** juga dapat mengkompress dan melakukan enkripsi pada file ketika mengambil salinan file.\r\n"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2011", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2011", 
+        "link_title": "Cobian Backup - Secure File Backup", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5157", 
+        "module": "book", 
+        "nid": "2011", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5157", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "Cobian Backup - Secure File Backup", 
+        "updated": "0", 
+        "weight": "-10"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>bagian-bagian dari halaman ini:</p>\n\n<ul><li><a href=\"#2.0\"><strong>2.0 Cara memasang Cobian Backup</strong></a></li>\n<li><a href=\"#2.1\"><strong>2.1 Cara menyalin direktori dan file Anda</strong></a></li>\n<li><a href=\"#2.2\"><strong>2.2 Cara membuat salinan file</strong></a></li>\n<li><a href=\"#2.3\"><strong>2.3 Cara membuat jadwal untuk pembuatan salinan file</strong></a></li>\n</ul><hr /><p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>2.0 Cara memasang Cobian Backup</h2>\n\n<p><strong>Catatan pemasangan</strong>: Sebelum Anda memulai proses pemasangan, pastikan bahwa Anda mempunyai versi terbaru dair <strong>Microsoft Windows Installer</strong> dan juga <strong>Microsoft.NET Framework</strong>.</p>\n\n<p>Memasang <strong>Cobian Backup</strong> termasuk mudah dan cepat. Untuk memasang <strong>Cobian Backup</strong>, ikuti langkah berikut:</p>\n\n<p><strong>Langkah 1. Klik dua kali</strong> <img src=\"/sbox/screen/cobian-en/01.png\" alt=\"\" />; dialog boks <em>Open File - Security Warning</em> akan muncul. Jika sudah muncul, <strong>klik</strong> <img src=\"/sbox/screen/cobian-en/02.png\" alt=\"\" /> untuk mengaktifkan status bar <em>Extracting the resource</em>, dan layar dibawah ini akan muncul beberapa saat kemudian:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/03.png\" alt=\"\" /></p>\n\n<p><em>Gambar 1: Jendela Cobian Setup - Please slect a language (Pilih bahasa)</em></p>\n\n<p><strong>Langkah 2. Klik</strong> <img src=\"/sbox/screen/cobian-en/04.png\" alt=\"\" /> untuk mengaktifkan layar <em>Please read the license agreement</em>; centang pilihan <em>I accept (Saya menerima)</em>, lalu <strong>klik</strong> <img src=\"/sbox/screen/cobian-en/04.png\" alt=\"\" /> sekali lagi untuk mengaktifkan layar berikut:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/05.png\" alt=\"\" /></p>\n\n<p><em>Gambar 2: Jendela Select an installation directory (Pilih direktori instalasi)</em></p>\n\n<p><strong>Langkah 3. Klik</strong> <img src=\"/sbox/screen/cobian-en/04.png\" alt=\"\" /> untuk mengaktifkan layar berikut:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/06.png\" alt=\"\" /></p>\n\n<p><em>Gambar 3: Jendela Installation type dan service options (Tipe instalasi dan pilihan layanan)</em></p>\n\n<p><strong>Langkah 4. Centang</strong> pilihan <em>Use Local System account</em> di jendela <em>Service options</em>, agar jendela Anda persis dengan yang ditunjukkan <em>Gambar 3</em> diatas.</p>\n\n<p><strong>Penting</strong>: Pilihan ini memastikan <strong>Cobian Backup</strong> untuk terus berjalan diam-diam di belakang, sehingga salinan file Anda akan muncul seperti yang telah dijadwalkan.</p>\n\n<p><strong>Langkah 5. Klik</strong> <img src=\"/sbox/screen/cobian-en/04.png\" alt=\"\" /> untuk mengaktifkan pesan berikut:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/07.png\" alt=\"\" /></p>\n\n<p><em>Gambar 4: Cobian Backup 10 message prompt</em></p>\n\n<p><strong>Langkah 6. Klik</strong> <img src=\"/sbox/screen/cobian-en/08.png\" alt=\"\" /> untuk mengaktifkan layar pemasangan berikutnya, lalu <strong>klik</strong> <img src=\"/sbox/screen/cobian-en/04.png\" alt=\"\" /> untuk melanjutkan proses pemasangan.</p>\n\n<p><strong>Langkah 7. Klik</strong> <img src=\"/sbox/screen/cobian-en/09.png\" alt=\"\" /> untuk menyempurnakan proses instalasi. Lalu setelah proses pemasangan telah dilakukan, ikon <strong>Cobian Backup</strong> akan muncul di <strong>Windows System Tray</strong> seperti berikut: <img src=\"/sbox/screen/cobian-en/10.png\" alt=\"\" /></p>\n\n<p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1 Cara menyalin direktori dan file Anda</h2>\n\n<p>Di dalam topik ini Anda akan belajar cara membuat salinan atau arsip dari file atau folder yang Anda pilih. <strong>Cobian Backup</strong> menggunakan <em>backup task</em> yang dapat diatur untuk memasukkan kumpulan file spesifik dan/atau folder. <em>Backup task</em> dapat diatur untuk bekerja pada hari dan waktu yang telah ditentukan.</p>\n\n<p>Untuk membuat <em>backup task</em>, Ikuti langkah berikut:</p>\n\n<p><strong>Langkah 1. Klik</strong> <img src=\"/sbox/screen/cobian-en/11.png\" alt=\"\" /> untuk menciptakan <em>backup task</em> yang baru, dan mengaktifkan jendela <em>New task</em> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/12.png\" alt=\"\" /></p>\n\n<p><em>Gambar 2: Jendela New task</em></p>\n\n<p><em>Sidebar</em> sebelah kiri menjabarkan beberapa tab dan layar-layarnya - yang digunakan untuk mengatur pilihan dan parameter <em>backup</em> yang berbeda- ditunjukkan di jendela di sebelah kanan. Semua pilihan di dalam tab General dijelaskan dibawah ini:</p>\n\n<h3>2.1.1 Definisi pilihan</h3>\n\n<p><strong><em>Task Name</em></strong>: di Kotak teks <em>Task Name</em> ini, Anda memasukkan sebuah nama untuk <em>backup task</em>. Gunakan nama yang mengidentifikasi sifat dari backup tersebut. Contoh, apabila salinan akan berisi file video, Anda dapat memberi nama <em>Video Backup</em>.</p>\n\n<p><strong><em>Disabled</em></strong>: <em>Jangan</em> pilih pilihan ini.</p>\n\n<p><strong>Peringatan</strong>: Dengan menyalakan pilihan <em>Disabled</em>, pilihan lain akan tertutupi dan ini menghalangi backup task dari bekerja dengan benar.</p>\n\n<p><strong><em>Include Subdirectories</em></strong>: Pilihan ini memungkinkan Anda memasukkan semua <em>subdirektori</em> atau folder di dalam sebuah direktori atau folder untuk <em>backup task</em>. Ini adalah metode yang efisien untuk menyalin folder dengan jumlah yang banyak. Sebagai contoh, apabila Anda memilih folder <em>My Documents</em>, semua file dan folder di <em>My Documents</em> akan termasuk di <em>backup task</em>.</p>\n\n<p><strong><em>Create separated backups using timestamps</em></strong>: Dengan pilihan ini, Anda dapat memilih tanggal dan waktu dari <em>backup task</em> tersebut untuk secara otomatis termasuk di dalam nama folder yang berisi file salinan Anda. Hal ini mempermudah Anda untuk mengetahui kapan salinan tersebut dibuat.</p>\n\n<p><strong><em>Use file attribute logic</em></strong>: Pilihan ini akan relevant ketika Anda memilih untuk melakukan salinan <em>incremental</em> atau <em>differential</em> (lihat bawah). Atribut dari file mengandung informasi tentang file.</p>\n\n<p><strong>Catatan</strong>: Berikut ialah pilihan yang hanya tersedia untuk versi <strong>Windows OS</strong> yang lebih baru daripada <em>dan</em> termasuk <strong>Windows XP</strong>.</p>\n\n<p><strong><em>Use Volume Shadow Copy</em></strong>: Pilihan ini memungkinkan Anda membuat salinan file yang terkunci</p>\n\n<p><strong>Cobian Backup</strong> mengecek ulang informasi ini untuk memperkiraan apakah ada perubahan di file sumber/utama dibandingkan dengan ketika file tersebut baru disalin. Apabila Anda menyalakan <em>Differential</em> or <em>Incremental</em>, file akan langsung terbarukan (<em>update</em>).</p>\n\n<p><strong>Catatan</strong>: Anda hanya dapat menjalankan sepenuhnya atau <em>\u201cdummy backup\u201d</em> apabila Anda <em>tidak memilih</em> pilihan ini (<em>dummy backup</em> option dijelaskan di bawah).</p>\n\n<h3>2.1.2 Deskripsi jenis-jenis penyalinan</h3>\n\n<p><strong><em>Full</em></strong>: Dengan pilihan ini, itu berarti bahwa <em>setiap</em> file di lokasi sumber akan dikopi ke dalam direkori salinan Anda. Apabila Anda membolehkan pilihan <em>Create separated backups using timestamp</em>, Anda akan mempunyai beberapa kopi dari sumber yang sama (teridentifikasi dengan waktu dan tanggal dari backcup yang ada di folder). Kalau tidak, <strong>Cobian Backup</strong> akan menimpa versi yang lama (kalau ada).</p>\n\n<p><strong><em>Incremental</em></strong>: Pilihan ini berarti program akan mengkonfirmasi  apabila file yang dipilih untuk disalin mengalami perubahan sejak proses penyalinan terakhir. Apabila tidak ada perubahan, maka ia akan dilewati ketika disalin untuk menghemat waktu penyalinan. Pilihan <em>Use File attribut logic</em> perlu dicentang untuk melakukan prosess penyalinan ini.</p>\n\n<p><strong><em>Differential</em></strong>: Program akan memeriksa apakah file sumber telah berubah sejak <em><strong>full</strong> backup</em> yang terakhir. Apabila tidak perlu untuk menyalin file tersebut, file tersebut akan dilewati, untuk menghemat waktu penyalinan. Apabila Anda telah menyalin file yang sama sebelumnya, maka Anda bisa meneruskan untuk menyalinnya dengan menggunakan metode <em>Differential</em>.</p>\n\n<p><strong><em>Dummy task</em></strong>: Anda dapat menggunakan pilihan ini untuk membuat komputer Anda untuk menjalankan atau mematikan program pada waktu tertentu. Ini adalah pilihan yang lebih rumit yang tidak relevan dengan prosedur penyalinan dasar.</p>\n\n<p><strong>Langkah 2.Klik</strong> <img src=\"/sbox/screen/cobian-en/13.png\" alt=\"\" /> untuk mengkonfirmasi pilihan pencarian Anda dan parameter untuk tugas penyalinan Anda.</p>\n\n<p><a name=\"2.2\" id=\"2.2\"></a></p>\n\n<h2>2.2 Cara membuat salinan file</h2>\n\n<p>Untuk memulai penyalinan file, lakukan langkah berikut:</p>\n\n<p><strong>Langkah 1. Klik</strong> <img src=\"/sbox/screen/cobian-en/14.png\" alt=\"\" /> di <em>sidebar</em> kiri dari jendela <em>New task</em> untuk memunculkan versi <em>Blank</em> dari layar berikut:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/15.png\" alt=\"\" /></p>\n\n<p><em>Gambar 3: Jendela The New task (MyBackup) memunculkan jendela Source and Destination (Lokasi sumber/awal dan lokasi tujuan)</em></p>\n\n<p><strong>Langkah 2.Pilih</strong> file yang Anda ingin salin. (<em>Gambar 3</em> diatas, folder <em>My documents</em> dipilih).</p>\n\n<p><strong>Langkah 3. Klik</strong> <img src=\"/sbox/screen/cobian-en/16.png\" alt=\"\" /> di jendela <em>Source</em> untuk mengaktifkan menu berikut:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/17.png\" alt=\"\" /></p>\n\n<p><em>Gambar 4: Panel Source - Add button menu</em></p>\n\n<p><strong>Langkah 4</strong>. <strong>Pilih</strong> <em>Directory</em> apabila Anda ingin menyalin seluruh direktori, dan <em>Files</em> untuk menyalin file secara individual/satu per satu. Untuk memilih spesifik file individual ataupun direktori untuk disalin, pilih <em>Manually</em>, lalu ketik lokasi tujuan file atau direktori untuk salinan Anda.</p>\n\n<p><strong>Catatan</strong>: Anda dapat menambah file atau direktori sebanyak yang Anda suka. Apabila Anda ingin menyalin file yang sedang berada di server <strong>FTP</strong> Anda, pilihlah <em>FTP site</em> (Anda harus memiliki detil server login yang benar).</p>\n\n<p>Ketika Anda sudah memilih file atau folder, mereka akan muncul di area <em>Source</em>. Seperti yang Anda lihat di <em>Gambar 3</em> diatas, terdapat folder <em>My Documents</em>, yang berarti folder ini akan termasuk di tugas penyalinan.</p>\n\n<p>Jendela <em>Destination</em> menunjukkan dimana salinan akan disimpan.</p>\n\n<p><strong>Langkah 5. Klik</strong> <img src=\"/sbox/screen/cobian-en/16.png\" alt=\"\" /> di jendela <em>Destination</em> untuk mengaktifkan menu berikut:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/18.png\" alt=\"\" /></p>\n\n<p><em>Gambar 5: Panel Destination \u2013 menu Add button</em></p>\n\n<p><strong>Langkah 6.Pilih</strong> <em>Directory</em> untuk membuka jendela browser dimana Anda dapat memilih folder tujuan untuk file salinan Anda.</p>\n\n<p><strong>Catatan</strong>: Apabila Anda ingin membuat beberapa versi file salinan, Anda dapat menentukan beberapa folder disini.Apabila Anda memilih pilihan <em>Manually</em>, Anda harus mengetik sepenuhnya jalur ke folder yang Anda inginkan untuk menyimpan salinan.Untuk menggunakan Internet server yang jauh untuk menyimpan arsip Anda, <strong>pilih</strong> pilihan <em>FTP site</em> (Anda harus memasukkan  detil server login yang benar).</p>\n\n<p>Sekarang layar Anda seharusnya mirip dengan contoh yang di atas dengan file dan folder di area source dan folder di area destinasi. Tetapi, janganlah dulu meng klik <em>OK</em> Anda masih harus mengatur jadwal penyalinan Anda.</p>\n\n<p><a name=\"2.3\" id=\"2.3\"></a></p>\n\n<h2>2.3 Cara membuat jadwal untuk pembuatan salinan file</h2>\n\n<p>Agar penyalinan otomatis Anda bekerja, Anda perlu mengisi bagian <em>Schedule (Jadwal)</em>. Di bagian ini Anda dapat memilih waktu untuk melakukan penyalinan.</p>\n\n<p>Untuk mengatur pilihan jadwal, lakukan langkah-langkah ini:</p>\n\n<p><strong>Langkah 1. Pilih</strong> <img src=\"/sbox/screen/cobian-en/19.png\" alt=\"\" /> dari sidebar kiri, untuk mengaktifkan jendela berikut:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/20.png\" alt=\"\" /></p>\n\n<p><em>Gambar 6: Properties for myBackup menunjukkan panel tipe-tipe penjadwalan (Schedule)</em></p>\n\n<p>Pilihan <em>Schedule type (tipe penjadwalan)</em> terdapat di menu drop-down, dan dijelaskan dibawah ini:</p>\n\n<p><strong><em>Once</em></strong>: Penyalinan akan dilakukan sekali di tanggal dan waktu yang dipilih di area <em>Date/Time</em>.</p>\n\n<p><strong><em>Daily</em></strong>: Penyalinan akan dilakukan setiap hari pada waktu yang dipilih di area <em>Date/Time</em>.</p>\n\n<p><strong><em>Weekly</em></strong>: Penyalinan akan dilakukan pada hari yang dipilih pada setiap minggu. Pada contoh di atas, penyalinan akan dilakukan setiap hari Jum\u2019at. Anda dapat memilih hari lain juga. Penyalinan akan dilakukan sekali pada hari yang dipilih dan waktu yang dipilih di area <em>Date/Time</em>.</p>\n\n<p><strong><em>Monthly</em></strong>: Penyalinan akan dilakukan pada hari yang dimasukan ke boks <em>'days of the month'</em> pada waktu yang telah dipilih di area <em>Date/Time</em>.</p>\n\n<p><strong><em>Yearly</em></strong>: Penyalinan akan dilakukan pada hari yang telah diketik di boks <em>'days of the month'</em>, pada bulan yang dipilih, dan pada waktu yang dipilih di area <em>Date/Time</em>.</p>\n\n<p><strong><em>Timer</em></strong>: Penyalinan akan dilakukan secara berulang dengan interval/jarak waktu yang telah ditentukan pada boks <em>Timer</em> di area <em>Date/Time</em>.</p>\n\n<p><strong><em>Manually</em></strong>: Anda harus melakukan penyalinan sendiri dari jendela <em>main program</em>.</p>\n\n<p><strong>Langkah 2. Klik</strong> <img src=\"/sbox/screen/cobian-en/13.png\" alt=\"\" /> untuk mengkonfirmasikan pilihan dan pengaturan untuk jadwal penyalinan seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/21.png\" alt=\"\" /></p>\n\n<p><em>Gambar 7: Jendela New task menunjukkan panel penjadwalan yang telah ditentukan</em></p>\n\n<p>Ketika Anda sudah memilih jadwal penyalinan, Anda telah melakukan langkah terakhir. Penyalinan sekarang akan berjalan di folder yang telah Anda pilih sesuai dengan jadwal yang Anda tentukan.</p>\n", 
+                        "summary": "", 
+                        "value": "bagian-bagian dari halaman ini:\r\n\r\n- [**2.0 Cara memasang Cobian Backup**](#2.0)\r\n- [**2.1 Cara menyalin direktori dan file Anda**](#2.1)\r\n- [**2.2 Cara membuat salinan file**](#2.2)\r\n- [**2.3 Cara membuat jadwal untuk pembuatan salinan file**](#2.3)\r\n\r\n-------\r\n\r\n<a name=\"2.0\"></a>\r\n## 2.0 Cara memasang Cobian Backup ##\r\n \r\n**Catatan pemasangan**: Sebelum Anda memulai proses pemasangan, pastikan bahwa Anda mempunyai versi terbaru dair **Microsoft Windows Installer** dan juga **Microsoft.NET Framework**.\r\n\r\nMemasang **Cobian Backup** termasuk mudah dan cepat. Untuk memasang **Cobian Backup**, ikuti langkah berikut:\r\n\r\n**Langkah 1. Klik dua kali** ![](/sbox/screen/cobian-en/01.png); dialog boks *Open File - Security Warning* akan muncul. Jika sudah muncul, **klik** ![](/sbox/screen/cobian-en/02.png) untuk mengaktifkan status bar *Extracting the resource*, dan layar dibawah ini akan muncul beberapa saat kemudian:\r\n\r\n![](/sbox/screen/cobian-en/03.png)\r\n\r\n*Gambar 1: Jendela Cobian Setup - Please slect a language (Pilih bahasa)*\r\n\r\n**Langkah 2. Klik** ![](/sbox/screen/cobian-en/04.png) untuk mengaktifkan layar *Please read the license agreement*; centang pilihan *I accept (Saya menerima)*, lalu **klik** ![](/sbox/screen/cobian-en/04.png) sekali lagi untuk mengaktifkan layar berikut:\r\n\r\n![](/sbox/screen/cobian-en/05.png)\r\n\r\n*Gambar 2: Jendela Select an installation directory (Pilih direktori instalasi)*\r\n\r\n**Langkah 3. Klik** ![](/sbox/screen/cobian-en/04.png) untuk mengaktifkan layar berikut:\r\n\r\n![](/sbox/screen/cobian-en/06.png)\r\n\r\n*Gambar 3: Jendela Installation type dan service options (Tipe instalasi dan pilihan layanan)*\r\n \r\n**Langkah 4. Centang** pilihan *Use Local System account* di jendela *Service options*, agar jendela Anda persis dengan yang ditunjukkan *Gambar 3* diatas.\r\n\r\n**Penting**: Pilihan ini memastikan **Cobian Backup** untuk terus berjalan diam-diam di belakang, sehingga salinan file Anda akan muncul seperti yang telah dijadwalkan.\r\n\r\n**Langkah 5. Klik** ![](/sbox/screen/cobian-en/04.png) untuk mengaktifkan pesan berikut:\r\n\r\n![](/sbox/screen/cobian-en/07.png)\r\n\r\n*Gambar 4: Cobian Backup 10 message prompt*\r\n\r\n**Langkah 6. Klik** ![](/sbox/screen/cobian-en/08.png) untuk mengaktifkan layar pemasangan berikutnya, lalu **klik** ![](/sbox/screen/cobian-en/04.png) untuk melanjutkan proses pemasangan.\r\n\r\n**Langkah 7. Klik** ![](/sbox/screen/cobian-en/09.png) untuk menyempurnakan proses instalasi. Lalu setelah proses pemasangan telah dilakukan, ikon **Cobian Backup** akan muncul di **Windows System Tray** seperti berikut: ![](/sbox/screen/cobian-en/10.png) \r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1 Cara menyalin direktori dan file Anda ##\r\n\r\nDi dalam topik ini Anda akan belajar cara membuat salinan atau arsip dari file atau folder yang Anda pilih. **Cobian Backup** menggunakan *backup task* yang dapat diatur untuk memasukkan kumpulan file spesifik dan/atau folder. *Backup task* dapat diatur untuk bekerja pada hari dan waktu yang telah ditentukan.\r\n\r\nUntuk membuat *backup task*, Ikuti langkah berikut:\r\n\r\n**Langkah 1. Klik** ![](/sbox/screen/cobian-en/11.png) untuk menciptakan *backup task* yang baru, dan mengaktifkan jendela *New task* seperti berikut:\r\n\r\n![](/sbox/screen/cobian-en/12.png)\r\n\r\n*Gambar 2: Jendela New task*\r\n\r\n*Sidebar* sebelah kiri menjabarkan beberapa tab dan layar-layarnya - yang digunakan untuk mengatur pilihan dan parameter *backup* yang berbeda- ditunjukkan di jendela di sebelah kanan. Semua pilihan di dalam tab General dijelaskan dibawah ini:\r\n\r\n### 2.1.1 Definisi pilihan ###\r\n\r\n***Task Name***: di Kotak teks *Task Name* ini, Anda memasukkan sebuah nama untuk *backup task*. Gunakan nama yang mengidentifikasi sifat dari backup tersebut. Contoh, apabila salinan akan berisi file video, Anda dapat memberi nama *Video Backup*.\r\n\r\n***Disabled***: *Jangan* pilih pilihan ini.\r\n\r\n**Peringatan**: Dengan menyalakan pilihan *Disabled*, pilihan lain akan tertutupi dan ini menghalangi backup task dari bekerja dengan benar.\r\n\r\n***Include Subdirectories***: Pilihan ini memungkinkan Anda memasukkan semua *subdirektori* atau folder di dalam sebuah direktori atau folder untuk *backup task*. Ini adalah metode yang efisien untuk menyalin folder dengan jumlah yang banyak. Sebagai contoh, apabila Anda memilih folder *My Documents*, semua file dan folder di *My Documents* akan termasuk di *backup task*.\r\n\r\n***Create separated backups using timestamps***: Dengan pilihan ini, Anda dapat memilih tanggal dan waktu dari *backup task* tersebut untuk secara otomatis termasuk di dalam nama folder yang berisi file salinan Anda. Hal ini mempermudah Anda untuk mengetahui kapan salinan tersebut dibuat.\r\n\r\n***Use file attribute logic***: Pilihan ini akan relevant ketika Anda memilih untuk melakukan salinan *incremental* atau *differential* (lihat bawah). Atribut dari file mengandung informasi tentang file.\r\n\r\n**Catatan**: Berikut ialah pilihan yang hanya tersedia untuk versi **Windows OS** yang lebih baru daripada *dan* termasuk **Windows XP**.\r\n\r\n***Use Volume Shadow Copy***: Pilihan ini memungkinkan Anda membuat salinan file yang terkunci \r\n\r\n**Cobian Backup** mengecek ulang informasi ini untuk memperkiraan apakah ada perubahan di file sumber/utama dibandingkan dengan ketika file tersebut baru disalin. Apabila Anda menyalakan *Differential* or *Incremental*, file akan langsung terbarukan (*update*).\r\n\r\n**Catatan**: Anda hanya dapat menjalankan sepenuhnya atau *\u201cdummy backup\u201d* apabila Anda *tidak memilih* pilihan ini (*dummy backup* option dijelaskan di bawah).\r\n\r\n### 2.1.2 Deskripsi jenis-jenis penyalinan ###\r\n\r\n***Full***: Dengan pilihan ini, itu berarti bahwa *setiap* file di lokasi sumber akan dikopi ke dalam direkori salinan Anda. Apabila Anda membolehkan pilihan *Create separated backups using timestamp*, Anda akan mempunyai beberapa kopi dari sumber yang sama (teridentifikasi dengan waktu dan tanggal dari backcup yang ada di folder). Kalau tidak, **Cobian Backup** akan menimpa versi yang lama (kalau ada).\r\n\r\n***Incremental***: Pilihan ini berarti program akan mengkonfirmasi  apabila file yang dipilih untuk disalin mengalami perubahan sejak proses penyalinan terakhir. Apabila tidak ada perubahan, maka ia akan dilewati ketika disalin untuk menghemat waktu penyalinan. Pilihan *Use File attribut logic* perlu dicentang untuk melakukan prosess penyalinan ini.\r\n\r\n***Differential***: Program akan memeriksa apakah file sumber telah berubah sejak ***full** backup* yang terakhir. Apabila tidak perlu untuk menyalin file tersebut, file tersebut akan dilewati, untuk menghemat waktu penyalinan. Apabila Anda telah menyalin file yang sama sebelumnya, maka Anda bisa meneruskan untuk menyalinnya dengan menggunakan metode *Differential*.\r\n\r\n***Dummy task***: Anda dapat menggunakan pilihan ini untuk membuat komputer Anda untuk menjalankan atau mematikan program pada waktu tertentu. Ini adalah pilihan yang lebih rumit yang tidak relevan dengan prosedur penyalinan dasar.\r\n\r\n**Langkah 2.Klik** ![](/sbox/screen/cobian-en/13.png) untuk mengkonfirmasi pilihan pencarian Anda dan parameter untuk tugas penyalinan Anda.\r\n\r\n<a name=\"2.2\"></a>\r\n## 2.2 Cara membuat salinan file ##\r\n\r\nUntuk memulai penyalinan file, lakukan langkah berikut:\r\n\r\n**Langkah 1. Klik** ![](/sbox/screen/cobian-en/14.png) di *sidebar* kiri dari jendela *New task* untuk memunculkan versi *Blank* dari layar berikut:\r\n\r\n![](/sbox/screen/cobian-en/15.png)\r\n\r\n*Gambar 3: Jendela The New task (MyBackup) memunculkan jendela Source and Destination (Lokasi sumber/awal dan lokasi tujuan)*\r\n\r\n**Langkah 2.Pilih** file yang Anda ingin salin. (*Gambar 3* diatas, folder *My documents* dipilih).\r\n\r\n**Langkah 3. Klik** ![](/sbox/screen/cobian-en/16.png) di jendela *Source* untuk mengaktifkan menu berikut:\r\n\r\n![](/sbox/screen/cobian-en/17.png)\r\n\r\n*Gambar 4: Panel Source - Add button menu*\r\n\r\n**Langkah 4**. **Pilih** *Directory* apabila Anda ingin menyalin seluruh direktori, dan *Files* untuk menyalin file secara individual/satu per satu. Untuk memilih spesifik file individual ataupun direktori untuk disalin, pilih *Manually*, lalu ketik lokasi tujuan file atau direktori untuk salinan Anda.\r\n\r\n**Catatan**: Anda dapat menambah file atau direktori sebanyak yang Anda suka. Apabila Anda ingin menyalin file yang sedang berada di server **FTP** Anda, pilihlah *FTP site* (Anda harus memiliki detil server login yang benar).\r\n\r\nKetika Anda sudah memilih file atau folder, mereka akan muncul di area *Source*. Seperti yang Anda lihat di *Gambar 3* diatas, terdapat folder *My Documents*, yang berarti folder ini akan termasuk di tugas penyalinan.\r\n\r\nJendela *Destination* menunjukkan dimana salinan akan disimpan.\r\n\r\n**Langkah 5. Klik** ![](/sbox/screen/cobian-en/16.png) di jendela *Destination* untuk mengaktifkan menu berikut:\r\n\r\n![](/sbox/screen/cobian-en/18.png)\r\n\r\n*Gambar 5: Panel Destination \u2013 menu Add button*\r\n\r\n**Langkah 6.Pilih** *Directory* untuk membuka jendela browser dimana Anda dapat memilih folder tujuan untuk file salinan Anda.\r\n\r\n**Catatan**: Apabila Anda ingin membuat beberapa versi file salinan, Anda dapat menentukan beberapa folder disini.Apabila Anda memilih pilihan *Manually*, Anda harus mengetik sepenuhnya jalur ke folder yang Anda inginkan untuk menyimpan salinan.Untuk menggunakan Internet server yang jauh untuk menyimpan arsip Anda, **pilih** pilihan *FTP site* (Anda harus memasukkan  detil server login yang benar).\r\n\r\nSekarang layar Anda seharusnya mirip dengan contoh yang di atas dengan file dan folder di area source dan folder di area destinasi. Tetapi, janganlah dulu meng klik *OK* Anda masih harus mengatur jadwal penyalinan Anda.\r\n\r\n<a name=\"2.3\"></a>\r\n## 2.3 Cara membuat jadwal untuk pembuatan salinan file ##\r\n\r\nAgar penyalinan otomatis Anda bekerja, Anda perlu mengisi bagian *Schedule (Jadwal)*. Di bagian ini Anda dapat memilih waktu untuk melakukan penyalinan.\r\n\r\nUntuk mengatur pilihan jadwal, lakukan langkah-langkah ini:\r\n\r\n**Langkah 1. Pilih** ![](/sbox/screen/cobian-en/19.png) dari sidebar kiri, untuk mengaktifkan jendela berikut:\r\n\r\n![](/sbox/screen/cobian-en/20.png)\r\n\r\n*Gambar 6: Properties for myBackup menunjukkan panel tipe-tipe penjadwalan (Schedule)*\r\n\r\nPilihan *Schedule type (tipe penjadwalan)* terdapat di menu drop-down, dan dijelaskan dibawah ini:\r\n\r\n***Once***: Penyalinan akan dilakukan sekali di tanggal dan waktu yang dipilih di area *Date/Time*.\r\n\r\n***Daily***: Penyalinan akan dilakukan setiap hari pada waktu yang dipilih di area *Date/Time*.\r\n\r\n***Weekly***: Penyalinan akan dilakukan pada hari yang dipilih pada setiap minggu. Pada contoh di atas, penyalinan akan dilakukan setiap hari Jum\u2019at. Anda dapat memilih hari lain juga. Penyalinan akan dilakukan sekali pada hari yang dipilih dan waktu yang dipilih di area *Date/Time*.\r\n\r\n***Monthly***: Penyalinan akan dilakukan pada hari yang dimasukan ke boks *'days of the month'* pada waktu yang telah dipilih di area *Date/Time*.\r\n\r\n***Yearly***: Penyalinan akan dilakukan pada hari yang telah diketik di boks *'days of the month'*, pada bulan yang dipilih, dan pada waktu yang dipilih di area *Date/Time*.\r\n\r\n***Timer***: Penyalinan akan dilakukan secara berulang dengan interval/jarak waktu yang telah ditentukan pada boks *Timer* di area *Date/Time*.\r\n\r\n***Manually***: Anda harus melakukan penyalinan sendiri dari jendela *main program*.\r\n\r\n**Langkah 2. Klik** ![](/sbox/screen/cobian-en/13.png) untuk mengkonfirmasikan pilihan dan pengaturan untuk jadwal penyalinan seperti berikut:\r\n\r\n![](/sbox/screen/cobian-en/21.png)\r\n\r\n*Gambar 7: Jendela New task menunjukkan panel penjadwalan yang telah ditentukan*\r\n\r\nKetika Anda sudah memilih jadwal penyalinan, Anda telah melakukan langkah terakhir. Penyalinan sekarang akan berjalan di folder yang telah Anda pilih sesuai dengan jadwal yang Anda tentukan."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2012", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2012", 
+                "link_title": "\u179a\u1794\u17c0\u1794\u1794\u1789\u17d2\u1785\u17bc\u179b\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8 Cobian Backup \u1793\u17b7\u1784\u1792\u17d2\u179c\u17be\u1794\u178e\u17d2\u178e\u179f\u17b6\u179a\u17af\u1780\u179f\u17b6\u179a\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5158", 
+                "module": "book", 
+                "nid": "2012", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5157", 
+                "p3": "5158", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5157", 
+                "router_path": "node/%", 
+                "title": "\u179a\u1794\u17c0\u1794\u1794\u1789\u17d2\u1785\u17bc\u179b\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8 Cobian Backup \u1793\u17b7\u1784\u1792\u17d2\u179c\u17be\u1794\u178e\u17d2\u178e\u179f\u17b6\u179a\u17af\u1780\u179f\u17b6\u179a\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1452866139", 
+            "comment": "0", 
+            "created": "1441116571", 
+            "current_revision_id": "12896", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "cobian_howtobackup", 
+                        "value": "cobian_howtobackup"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5158": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2012", 
+                    "link_title": "\u179a\u1794\u17c0\u1794\u1794\u1789\u17d2\u1785\u17bc\u179b\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8 Cobian Backup \u1793\u17b7\u1784\u1792\u17d2\u179c\u17be\u1794\u178e\u17d2\u178e\u179f\u17b6\u179a\u17af\u1780\u179f\u17b6\u179a\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5158", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5157", 
+                    "p3": "5158", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5157", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2012", 
+            "num_revisions": "19", 
+            "path": "https://securityinabox.org/en/cobian_howtobackup", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452866139", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Cara Memasang Cobian Backup dan Mengarsip File Anda", 
+                        "value": "Cara Memasang Cobian Backup dan Mengarsip File Anda"
+                    }
+                ]
+            }, 
+            "title_original": "How to Install Cobian Backup and Archive Your Files", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442926997", 
+                        "created": "1442926997", 
+                        "entity_id": "2012", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442332580", 
+                        "created": "1442332265", 
+                        "entity_id": "2012", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442494419", 
+                        "created": "1442494390", 
+                        "entity_id": "2012", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442327979", 
+                        "created": "1442327979", 
+                        "entity_id": "2012", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442842939", 
+                        "created": "1442842939", 
+                        "entity_id": "2012", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444655410", 
+                        "created": "1444655410", 
+                        "entity_id": "2012", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1452866139", 
+                        "created": "1452866139", 
+                        "entity_id": "2012", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443615294", 
+                        "created": "1443615294", 
+                        "entity_id": "2012", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444176496", 
+                        "created": "1444176496", 
+                        "entity_id": "2012", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444832290", 
+                        "created": "1444722239", 
+                        "entity_id": "2012", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446134522", 
+                        "created": "1441116571", 
+                        "entity_id": "2012", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445419554", 
+                        "created": "1444060346", 
+                        "entity_id": "2012", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "1a2c2125-c6dc-4f4d-ac98-a4511a65cc50", 
+            "vid": "12896", 
+            "vuuid": "8cc1eddb-f79d-44fe-ac89-81d0383af9c8"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bagian-bagian dari halaman ini:</p>\n\n<ul><li><a href=\"#3.0\"><strong>3.0 Cara meng<em>compress</em> salinan file Anda</strong></a></li>\n<li><a href=\"#3.1\"><strong>3.1 Cara me-<em>decompress (melepas compress)</em> salinan file Anda</strong></a></li>\n</ul><hr /><p><a name=\"3.0\" id=\"3.0\"></a></p>\n\n<h2>3.0 Cara meng<em>compress</em> salinan file Anda</h2>\n\n<p><strong>Langkah 1. Buatlah</strong> tugas salinan (<em>backup task</em>) seperti yang dijelaskan di <a href=\"https://securityinabox.org/id/cobian_install#2.2\"><strong>2.2 Cara membuat salinan file</strong></a> yang berisi file salinan yang ingin Anda arsip.</p>\n\n<p><strong>Langkah 2. Pilih</strong> <img src=\"/sbox/screen/cobian-en/22.png\" alt=\"\" /> dari sidebar kiri untuk mengaktifkan layar <em>New Task</em> sebagai berikut:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/23.png\" alt=\"\" /></p>\n\n<p><em>Gambar 1: Layar New task menunjukkan jendela compression dan Strong Encryption</em></p>\n\n<p>Jendela <strong>Compression</strong> digunakan untuk memilih metode untuk melakukan <em>compress</em> pada salinan Anda.</p>\n\n<p><strong>Catatan</strong>: Peng-<em>compress</em>-an digunakan untuk mengurangi ruangan yang terpakai untuk menyimpan file. Apabila Anda mempunyai setumpuk file-file lama yang hanya Anda gunakan sekali-sekali, namun Anda masih ingin menyimpannya, akan lebih nyaman menyimpannya di dalam sebuah format dimana mereka hanya menggunakan sedikit memori/kapasitas disk Anda. Peng-<em>compress</em>-an  bekerja dengan membuang kode-kode yang tidak terlalu penting dari dokumen Anda dengan membiarkan informasi yang penting di dalamnya. Peng-<em>compress</em>-an tidak akan merusak data asli Anda. File-file tersebut tidak dapat dilihat ketika mereka sedang di-<em>compress</em>. Proses ini harus dikembalikan dan peng-<em>compress</em>-an file harus dicopot (<em>decompress</em>) ketika Anda ingin melihat file-file itu kembali.</p>\n\n<p>Tiga sub-pilihan yang ada di daftar drop-down <em>Compression type</em> adalah:</p>\n\n<p><strong><em>No Compression</em></strong>: Pilihan ini tidak melakukan peng-<em>compress</em>-an, seperti yang Anda mungkin duga.</p>\n\n<p><strong><em>Zip Compression</em></strong>: Pilihan ini adalah teknik standar dari pengompresan di dalam sistem <strong>Windows</strong>, dan yang paling mudah. Arsip yang telah terbentuk, dapat dibuka melalui alat standar dari <strong>Windows</strong> (atau Anda dapat mengunduh program <a href=\"http://www.zipgenius.it/\"><strong>ZipGenius</strong></a> untuk mengaksesnya).</p>\n\n<p>Memilih type peng-<em>compress</em>-an yang terdaftar akan secara otomatis menyalakan bagian <em>Split options</em>, dan juga menu drop-down di dalamnya.</p>\n\n<p>The <strong><em>Split options</em></strong> dapat digunakan untuk penyimpanan di media yang dapat dipindahkan, seperti CDs, DVDs, <em>Floppy disks</em> dan juga USB/Flashdisk. Pilihan <em>split</em> yang bermacam-macam akan terus membagi arsip ke dalam ukuran yang nantinya akan muat untuk disimpan ke dalam media penyimpanan yang dipilih.</p>\n\n<p>Contoh: \nMisalnya Anda mengarsip file dalam jumlah besar, dan Anda ingin menaruh file itu ke dalam CD. NAmun, ternyata ukuran arsip Anda lebih besar dari 700MB (Ukuran sebuah CD). Fungsi membagi akan membagi arsip Anda berkeping-koping sehingga kurang dari atau sama dengan 700MB, yang Anda akan dapat masukkan ke CD. Apabila Anda berencana untuk menyalinnya ke <em>hard disk</em> komputer Anda, atau file yang akan Anda salin lebih kecil dari alat di mana file tersebut akan ditaruh, Anda tidak perlu melakukan hal ini.</p>\n\n<p>Pilihan-pilihan berikut akan tersedia untuk Anda ketika Anda meng-klik daftar <em>Split options</em>. Pilihan Anda akan bergantung pada tipe dari media penyimpanan Anda.</p>\n\n<p><img src=\"/sbox/screen/cobian-en/24.png\" alt=\"\" /></p>\n\n<p><em>Figure 2: The Split Options drop-down list</em>\n<em>Gambar 2: Daftar drop-down Split Options</em></p>\n\n<ul><li><p>3,5\" - Floppy disk. Pilihan ini cukup besar untuk melakukan sebuah salinan dari jumlah dokumen yang sedikit</p></li>\n<li><p>Zip - Zip Disk (periksa kapasitas dari yang akan Anda gunakan). Anda akan memerlukan <em>Zip Drive</em> khusus di komputer Anda dan disk yang dibuat dengan penyesuaian.</p></li>\n<li><p>CD-R - CD disk (periksa kapasitasnya). Anda akan memerlukan CD Writer di komputer Anda dan juga program CD writing (Lihat versi <a href=\"http://www.deepburner.com/\"><strong>DeepBurner Free</strong> </a> atau <a href=\"http://www.thefreecountry.com/utilities/dvdcdburning.shtml\"><strong>disk burning tools</strong></a>).</p></li>\n<li><p>DVD - DVD disk (periksa kapasitasnya). Anda akan perlu sebuah DVD Writer di komputer Anda dan juga program DVD writing (Lihat versi <a href=\"http://www.deepburner.com/\"><strong>DeepBurner Free</strong> </a>  <a href=\"http://www.thefreecountry.com/utilities/dvdcdburning.shtml\"><strong>disk burning tools</strong></a>).</p></li>\n</ul><p>Apabila Anda menyalin ke dalam beberapa USB/Flashdisk, Anda mungkin ingin ukurannya disesuaikan</p>\n\n<p>Untuk melakukannya, ikuti langkah-langkah ini:</p>\n\n<p><strong>Langkah 1. Pilih</strong> <em>Custom size</em> (bytes), lalu ketik ukuran dari arsip dalam bentuk bytes di tempat teks seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/25.png\" alt=\"\" /></p>\n\n<p><em>Gambar 10: Field text untuk Custom size</em></p>\n\n<p>Sebagai gambaran:</p>\n\n<ul><li><p>1KB (kilobyte) = 1024 bytes - satu halaman dokumen teks yang di buat di Open Office biasanya sekitar 20kb</p></li>\n<li><p>1MB (megabyte) = 1024 KB - sebuah foto yang diambil di kamera digital biasanya berkisar di 1-3MB</p></li>\n<li><p>1GB (gigabyte) = 1024 MB - kira-kira setengah jam dari film yang berkualitas DVD</p></li>\n</ul><p><strong>Catatan</strong>: Ketika memilih ukuran yg disesuaikan  untuk memecah salinan Anda untuk dimasukkan ke CD atau DVD, <strong>Cobian Backup</strong> tidak akan menyalin file Anda ke dalam alat-alat portable tersebut secara otomatis. Tetapi, ia akan menciptaan arsip dari file tersebut di komputer dan Anda perlu memasukkannya ke dalam kepingan CD atau DVD  secara manual.</p>\n\n<p><strong><em>Password Protect</em></strong>: Dengan pilihan ini Anda dapat memasukkan password untuk melindungi arsip Anda. Ketik password Anda, lalu ketik ulang password di kotak yang disediakan. Ketika Anda ingin mencoba untuk melakukan <em>decompress</em> dari arsip Anda, Anda akan diminta untuk memasukkan password Anda sebelum melakukan tugas Anda.</p>\n\n<p><strong>Catatan</strong>: Apabila Anda ingin mengamankan arsip Anda, Anda harus mempertimbangkan tentang menggunakan metode lain selain menggunakan password. Dengan <strong>Cobian Backup</strong> Anda dapat melakukan <em>encrypt</em> pada arsip Anda. Ini akan dibahas di bagian <a href=\"https://securityinabox.org/id/cobian_encryption\"><strong>4. Cara melalukan enkripsi (<em>encrypt</em>) pada salinan file Anda</strong></a>. Selain itu, Anda juga dapat membaca <a href=\"https://securityinabox.org/id/truecrypt\"><strong>Petunjuk yang membantu - TrueCrypt</strong></a> untuk mengetahui cara menciptakan ruang simpan yang ter<em>encrypt</em> di komputer Anda atau di alat yang dapat dipindahkan.</p>\n\n<p><em>Tambahan</em>: Pilihan ini memungkinkan Anda untuk menulis sesuatu yang deskriptif tentang arsip Anda, tetapi ini bukanlah suat keharusan.</p>\n\n<p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 Cara me-<em>decompress (melepas compress)</em> salinan file Anda</h2>\n\n<p>Untuk melakukan <em>decompress</em>, silahkan lakukan langkah berikut:</p>\n\n<p><strong>Langkah 1. Select &gt; Tools &gt; Decompressor</strong> seperti berikut;</p>\n\n<p><img src=\"/sbox/screen/cobian-en/26.png\" alt=\"\" /></p>\n\n<p><em>Gambar 3: Menu Tools menunjukkan pilihan Decompressor</em></p>\n\n<p>Jendela <strong>Decompressor</strong> akan muncul seperti ini:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/27.png\" alt=\"\" /></p>\n\n<p><em>Gambar 4: Jendela Cobian 10 Backup - Decompressor</em></p>\n\n<p><strong>Langkah 2. Klik</strong> <img src=\"/sbox/screen/cobian-en/28.png\" alt=\"\" /> untuk membuka jendela pencarian  agar Anda dapat memilih arsip yang Anda ingin <em>decompress</em>.</p>\n\n<p><strong>Langkah 3.Pilih</strong> arsip (<em>.zip</em> or <em>.7x</em> file) llu <strong>klik</strong> <img src=\"/sbox/screen/cobian-en/13.png\" alt=\"\" />.</p>\n\n<p><strong>Langkah 4. Pilih</strong> direktori tempat Anda akan membuka arsip file Anda.</p>\n\n<p><strong>Langkah 5. Klik</strong> <img src=\"/sbox/screen/cobian-en/29.png\" alt=\"\" /> untuk membuka jendela lain agar Anda dapat memilih folder dimana Anda dapat membuka arsip.</p>\n\n<p><strong>Langkah 6.Pilih</strong> sebuah folder, lalu <strong>klik</strong> <img src=\"/sbox/screen/cobian-en/13.png\" alt=\"\" />.</p>\n\n<p>Gunakan <strong>Windows Explorer</strong> untuk melihat file yang akan terkirim ke folder tersebut.</p>\n", 
+                        "summary": "", 
+                        "value": "Bagian-bagian dari halaman ini:\r\n\r\n- [**3.0 Cara meng*compress* salinan file Anda**](#3.0)\r\n- [**3.1 Cara me-*decompress (melepas compress)* salinan file Anda**](#3.1)\r\n\r\n-------\r\n\r\n<a name=\"3.0\"></a>\r\n## 3.0 Cara meng*compress* salinan file Anda ##\r\n\r\n**Langkah 1. Buatlah** tugas salinan (*backup task*) seperti yang dijelaskan di [**2.2 Cara membuat salinan file**](https://securityinabox.org/id/cobian_install#2.2) yang berisi file salinan yang ingin Anda arsip.\r\n\r\n**Langkah 2. Pilih** ![](/sbox/screen/cobian-en/22.png) dari sidebar kiri untuk mengaktifkan layar *New Task* sebagai berikut:\r\n\r\n![](/sbox/screen/cobian-en/23.png)\r\n\r\n*Gambar 1: Layar New task menunjukkan jendela compression dan Strong Encryption*\r\n\r\nJendela **Compression** digunakan untuk memilih metode untuk melakukan *compress* pada salinan Anda. \r\n\r\n**Catatan**: Peng-*compress*-an digunakan untuk mengurangi ruangan yang terpakai untuk menyimpan file. Apabila Anda mempunyai setumpuk file-file lama yang hanya Anda gunakan sekali-sekali, namun Anda masih ingin menyimpannya, akan lebih nyaman menyimpannya di dalam sebuah format dimana mereka hanya menggunakan sedikit memori/kapasitas disk Anda. Peng-*compress*-an  bekerja dengan membuang kode-kode yang tidak terlalu penting dari dokumen Anda dengan membiarkan informasi yang penting di dalamnya. Peng-*compress*-an tidak akan merusak data asli Anda. File-file tersebut tidak dapat dilihat ketika mereka sedang di-*compress*. Proses ini harus dikembalikan dan peng-*compress*-an file harus dicopot (*decompress*) ketika Anda ingin melihat file-file itu kembali.\r\n\r\nTiga sub-pilihan yang ada di daftar drop-down *Compression type* adalah:\r\n\r\n***No Compression***: Pilihan ini tidak melakukan peng-*compress*-an, seperti yang Anda mungkin duga.\r\n\r\n***Zip Compression***: Pilihan ini adalah teknik standar dari pengompresan di dalam sistem **Windows**, dan yang paling mudah. Arsip yang telah terbentuk, dapat dibuka melalui alat standar dari **Windows** (atau Anda dapat mengunduh program [**ZipGenius**](http://www.zipgenius.it/) untuk mengaksesnya).\r\n\r\nMemilih type peng-*compress*-an yang terdaftar akan secara otomatis menyalakan bagian *Split options*, dan juga menu drop-down di dalamnya.\r\n\r\nThe ***Split options*** dapat digunakan untuk penyimpanan di media yang dapat dipindahkan, seperti CDs, DVDs, *Floppy disks* dan juga USB/Flashdisk. Pilihan *split* yang bermacam-macam akan terus membagi arsip ke dalam ukuran yang nantinya akan muat untuk disimpan ke dalam media penyimpanan yang dipilih.\r\n\r\nContoh: \r\nMisalnya Anda mengarsip file dalam jumlah besar, dan Anda ingin menaruh file itu ke dalam CD. NAmun, ternyata ukuran arsip Anda lebih besar dari 700MB (Ukuran sebuah CD). Fungsi membagi akan membagi arsip Anda berkeping-koping sehingga kurang dari atau sama dengan 700MB, yang Anda akan dapat masukkan ke CD. Apabila Anda berencana untuk menyalinnya ke *hard disk* komputer Anda, atau file yang akan Anda salin lebih kecil dari alat di mana file tersebut akan ditaruh, Anda tidak perlu melakukan hal ini.\r\n\r\nPilihan-pilihan berikut akan tersedia untuk Anda ketika Anda meng-klik daftar *Split options*. Pilihan Anda akan bergantung pada tipe dari media penyimpanan Anda.\r\n\r\n![](/sbox/screen/cobian-en/24.png)\r\n\r\n*Figure 2: The Split Options drop-down list*\r\n*Gambar 2: Daftar drop-down Split Options*\r\n\r\n- 3,5\" - Floppy disk. Pilihan ini cukup besar untuk melakukan sebuah salinan dari jumlah dokumen yang sedikit\r\n\r\n- Zip - Zip Disk (periksa kapasitas dari yang akan Anda gunakan). Anda akan memerlukan *Zip Drive* khusus di komputer Anda dan disk yang dibuat dengan penyesuaian.\r\n\r\n- CD-R - CD disk (periksa kapasitasnya). Anda akan memerlukan CD Writer di komputer Anda dan juga program CD writing (Lihat versi [**DeepBurner Free** ](http://www.deepburner.com/) atau [**disk burning tools**](http://www.thefreecountry.com/utilities/dvdcdburning.shtml)).\r\n\r\n- DVD - DVD disk (periksa kapasitasnya). Anda akan perlu sebuah DVD Writer di komputer Anda dan juga program DVD writing (Lihat versi [**DeepBurner Free** ](http://www.deepburner.com/)  [**disk burning tools**](http://www.thefreecountry.com/utilities/dvdcdburning.shtml)).\r\n\r\nApabila Anda menyalin ke dalam beberapa USB/Flashdisk, Anda mungkin ingin ukurannya disesuaikan\r\n\r\nUntuk melakukannya, ikuti langkah-langkah ini:\r\n\r\n**Langkah 1. Pilih** *Custom size* (bytes), lalu ketik ukuran dari arsip dalam bentuk bytes di tempat teks seperti berikut:\r\n\r\n![](/sbox/screen/cobian-en/25.png)\r\n\r\n*Gambar 10: Field text untuk Custom size*\r\n\r\nSebagai gambaran:\r\n\r\n- 1KB (kilobyte) = 1024 bytes - satu halaman dokumen teks yang di buat di Open Office biasanya sekitar 20kb\r\n\r\n- 1MB (megabyte) = 1024 KB - sebuah foto yang diambil di kamera digital biasanya berkisar di 1-3MB\r\n\r\n- 1GB (gigabyte) = 1024 MB - kira-kira setengah jam dari film yang berkualitas DVD\r\n\r\n**Catatan**: Ketika memilih ukuran yg disesuaikan  untuk memecah salinan Anda untuk dimasukkan ke CD atau DVD, **Cobian Backup** tidak akan menyalin file Anda ke dalam alat-alat portable tersebut secara otomatis. Tetapi, ia akan menciptaan arsip dari file tersebut di komputer dan Anda perlu memasukkannya ke dalam kepingan CD atau DVD  secara manual.\r\n\r\n***Password Protect***: Dengan pilihan ini Anda dapat memasukkan password untuk melindungi arsip Anda. Ketik password Anda, lalu ketik ulang password di kotak yang disediakan. Ketika Anda ingin mencoba untuk melakukan *decompress* dari arsip Anda, Anda akan diminta untuk memasukkan password Anda sebelum melakukan tugas Anda.\r\n\r\n**Catatan**: Apabila Anda ingin mengamankan arsip Anda, Anda harus mempertimbangkan tentang menggunakan metode lain selain menggunakan password. Dengan **Cobian Backup** Anda dapat melakukan *encrypt* pada arsip Anda. Ini akan dibahas di bagian [**4. Cara melalukan enkripsi (*encrypt*) pada salinan file Anda**](https://securityinabox.org/id/cobian_encryption). Selain itu, Anda juga dapat membaca [**Petunjuk yang membantu - TrueCrypt**](https://securityinabox.org/id/truecrypt) untuk mengetahui cara menciptakan ruang simpan yang ter*encrypt* di komputer Anda atau di alat yang dapat dipindahkan.\r\n\r\n*Tambahan*: Pilihan ini memungkinkan Anda untuk menulis sesuatu yang deskriptif tentang arsip Anda, tetapi ini bukanlah suat keharusan.\r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 Cara me-*decompress (melepas compress)* salinan file Anda ##\r\n\r\nUntuk melakukan *decompress*, silahkan lakukan langkah berikut:\r\n\r\n**Langkah 1. Select > Tools > Decompressor** seperti berikut;\r\n\r\n![](/sbox/screen/cobian-en/26.png)\r\n\r\n*Gambar 3: Menu Tools menunjukkan pilihan Decompressor*\r\n\r\nJendela **Decompressor** akan muncul seperti ini:\r\n\r\n![](/sbox/screen/cobian-en/27.png)\r\n\r\n*Gambar 4: Jendela Cobian 10 Backup - Decompressor*\r\n\r\n**Langkah 2. Klik** ![](/sbox/screen/cobian-en/28.png) untuk membuka jendela pencarian  agar Anda dapat memilih arsip yang Anda ingin *decompress*.\r\n\r\n**Langkah 3.Pilih** arsip (*.zip* or *.7x* file) llu **klik** ![](/sbox/screen/cobian-en/13.png).\r\n\r\n**Langkah 4. Pilih** direktori tempat Anda akan membuka arsip file Anda. \r\n\r\n**Langkah 5. Klik** ![](/sbox/screen/cobian-en/29.png) untuk membuka jendela lain agar Anda dapat memilih folder dimana Anda dapat membuka arsip.\r\n\r\n**Langkah 6.Pilih** sebuah folder, lalu **klik** ![](/sbox/screen/cobian-en/13.png).\r\n\r\nGunakan **Windows Explorer** untuk melihat file yang akan terkirim ke folder tersebut.\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2013", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2013", 
+                "link_title": "How to Compress and Decompress Your Files", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5159", 
+                "module": "book", 
+                "nid": "2013", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5157", 
+                "p3": "5159", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5157", 
+                "router_path": "node/%", 
+                "title": "How to Compress and Decompress Your Files", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1453997200", 
+            "comment": "0", 
+            "created": "1441116616", 
+            "current_revision_id": "13071", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "cobian_compress", 
+                        "value": "cobian_compress"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5159": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2013", 
+                    "link_title": "How to Compress and Decompress Your Files", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5159", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5157", 
+                    "p3": "5159", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5157", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2013", 
+            "num_revisions": "18", 
+            "path": "https://securityinabox.org/en/cobian_compress", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1453997200", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Cara Meng-Compress dan Decompress File Anda", 
+                        "value": "Cara Meng-Compress dan Decompress File Anda"
+                    }
+                ]
+            }, 
+            "title_original": "How to Compress and Decompress Your Files", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442927077", 
+                        "created": "1442927077", 
+                        "entity_id": "2013", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2013", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442332553", 
+                        "created": "1442332366", 
+                        "entity_id": "2013", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2013", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442494513", 
+                        "created": "1442494513", 
+                        "entity_id": "2013", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2013", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442328139", 
+                        "created": "1442328139", 
+                        "entity_id": "2013", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2013", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1453997200", 
+                        "created": "1442843080", 
+                        "entity_id": "2013", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2013", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444655486", 
+                        "created": "1444655486", 
+                        "entity_id": "2013", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2013", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1452866225", 
+                        "created": "1452866225", 
+                        "entity_id": "2013", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2013", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443615405", 
+                        "created": "1443615405", 
+                        "entity_id": "2013", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2013", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444176549", 
+                        "created": "1444176549", 
+                        "entity_id": "2013", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2013", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444832073", 
+                        "created": "1444722375", 
+                        "entity_id": "2013", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2013", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441116616", 
+                        "created": "1441116616", 
+                        "entity_id": "2013", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2013", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445419813", 
+                        "created": "1444060447", 
+                        "entity_id": "2013", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2013", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "0f4c4884-7f1b-4426-99f1-d4f674b8add4", 
+            "vid": "13071", 
+            "vuuid": "69349c51-391e-4494-864d-421a644ae3fa"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bagian-bagian dari halaman ini:</p>\n\n<ul><li><a href=\"#4.0\"><strong>4.0 Tentang <em>Encryption</em></strong></a></li>\n<li><a href=\"#4.1\"><strong>4.1 Cara melakukan Enkripsi (<em>Encrypt</em>) pada salinan file Anda</strong></a></li>\n<li><a href=\"#4.2\"><strong>4.2 Cara melakukan <em>Decrypt</em> pada salinan file Anda</strong></a></li>\n</ul><hr /><p><a name=\"4.0\" id=\"4.0\"></a></p>\n\n<h2>4.0 Tentang Encryption</h2>\n\n<p><em>Encryption</em> menjadi kebutuhan bagi mereka yang ingin menyimpan file salinan yang tidak dapat diakses tanpa izin.</p>\n\n<p><em>Encryption</em> adalah proses membuat sandi atau mengacak data untuk menyelubungi pesan yang sesungguhnya dari orang-orang yang tidak mempunyai kunci khusus untuk membaca pesan tersebut. Untuk informasi lebih lanjut tentang <em>encryption</em>, silakan baca 'Petunjuk bagaimana caranya' Bab <a href=\"https://securityinabox.org/id/chapter-4\"><strong>4.Cara melindungi berkas penting di komputer</strong></a>.</p>\n\n<p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h2>4.1 Cara melakukan Enkripsi (<em>Encrypt</em>) pada salinan file Anda</h2>\n\n<p>Jendela <em>Strong Encryption</em> digunakan untuk memilih metode <em>encryption</em> yang akan digunakan.</p>\n\n<p><strong>Langkah 1. Klik</strong> box <em>Encryption type</em> untuk mengaktifkan daftar dari metode encryption yang berbeda sebagai berikut:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/30.png\" alt=\"\" /></p>\n\n<p><em>Gambar 1: Daftar tipe Encryption</em></p>\n\n<p>Untuk memudahkan, kami menganjurkan Anda memilih metode <em>Blowfish</em> atau <em>Rijndael</em> (128 bits). Ini akan menyediakan keamanan yang baik untuk arsip Anda, dan Anda dapat mengakses data yang di-<em>encrypt</em> dengan password pilihan Anda.</p>\n\n<p><strong>Langkah 2 Pilih</strong> tipe <em>Encryption</em> yang Anda ingin gunakan.</p>\n\n<p><strong>Catatan</strong>: <em>Rijndael</em> dan <em>Blowfish</em> memiliki tingkat keamanan yang rata-rata sama. <em>DES</em> mempunya proses <em>encryption</em> yang lebih lemah namun lebih cepat.</p>\n\n<p><strong>Langkah 3. Ketik</strong> dan <strong>ketik ulang</strong> password ke dalam dua boks yang disediakan seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/31.png\" alt=\"\" /></p>\n\n<p><em>Gambar 2: Boks type Encryption dan Passphrase</em></p>\n\n<p>Kekuatan sebuah password ditunjukkan oleh bar bertuliskan \u2018Passphrase quality\u2019. Semakin jauh bar tersebut bergerak ke kanan, lebih kuat passphrase Anda. Silahkan baca 'Petunjuk bagaimana caranya' Bab <a href=\"https://securityinabox.org/id/chapter-3\"><strong>3. Cara membuat dan mempertahankan kata sandi yang aman</strong></a>dan 'Petunjuk yang membantu' Bab <a href=\"https://securityinabox.org/id/keepass\"><strong>KeePass</strong></a> untuk instruksi panduan cara membuat dan menyimpan <em>passphrases</em> (atau password) dengan aman.</p>\n\n<p><strong>Langkah 4</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/cobian-en/13.png\" alt=\"\" />.</p>\n\n<p><a name=\"4.2\" id=\"4.2\"></a></p>\n\n<h2>4.2 Cara melakukan <em>Decrypt</em> pada salinan file Anda</h2>\n\n<p>Melakukan <em>decrypt</em> untuk file salinan Anda sangat mudah. Silahkan lakukan langkah ini untuk melakukan <em>decrypt</em>:</p>\n\n<p><strong>Langkah 1. Pilih Select &gt; Tools &gt; Decrypter and Keys</strong> seperti yang ditunjukkan di bawah:</p>\n\n<p><img src=\"/sbox/screen/cobian-en/32.png\" alt=\"\" /></p>\n\n<p><em>Gambar 3: Menu Tools dengan Decrypter dan Keys dipilih</em></p>\n\n<p><em>Ini akan mengaktifkan window Decrypter dan keys seperti berikut:</em></p>\n\n<p><img src=\"/sbox/screen/cobian-en/33.png\" alt=\"\" /></p>\n\n<p><em>Gambar 4: Jendela Cobian Backup 10 Decrypter dan Keys</em></p>\n\n<p><strong>Langkah 2. Klik</strong> <img src=\"/sbox/screen/cobian-en/34.png\" alt=\"\" /> untuk memilih arsip yang Anda ingin Anda <em>decrypt</em>.</p>\n\n<p><strong>Langkah 3.Klik</strong> <img src=\"/sbox/screen/cobian-en/35.png\" alt=\"\" /> untuk memilih folder lokasi yang Anda inginkan untuk arsip Anda yang telah di-<em>decrypt</em>.</p>\n\n<p><strong>Langkah 4. Pilih</strong> tipe <em>encryption</em> yang sama dengan yang Anda pilih di bagian  <a href=\"https://securityinabox.org/id/cobian_encryption#4.1\"><strong>4.1 Cara melakukan enkripsi (<em>encrypt</em>) pada salinan file Anda</strong></a>, di daftar <em>Metode</em>.</p>\n\n<p><img src=\"/sbox/screen/cobian-en/36.png\" alt=\"\" /></p>\n\n<p><em>Gambar 5. Daftar New Methods (metode-metode baru)</em></p>\n\n<p><strong>Langkah 4. Pilih</strong> metode yang benar untuk <em>encryption</em> (yang Anda pilih untuk melakukan <em>encrypt</em> pada salinan file Anda).</p>\n\n<p><strong>Langkah 5.Ketik</strong> passphrase Anda ke dalam tempat yand disediakan.</p>\n\n<p><strong>Langkah 6</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/cobian-en/37.png\" alt=\"\" />.</p>\n\n<p>File-file akan langsung ter-<em>decrypt</em> di lokasi yang telah Anda pilih. Apabila file-file juga telah Anda <em>compress</em>, Anda perlu melakukan <em>decompress</em> seperti yang telah dijelaskan pada bab <a href=\"https://securityinabox.org/id/cobian_compress-decompress#3.1\"><strong>3.1 Cara melakukan <em>decompress</em> pada salinan file Anda</strong></a>.</p>\n", 
+                        "summary": "", 
+                        "value": "Bagian-bagian dari halaman ini:\r\n\r\n- [**4.0 Tentang *Encryption***](#4.0)\r\n- [**4.1 Cara melakukan Enkripsi (*Encrypt*) pada salinan file Anda**](#4.1)\r\n- [**4.2 Cara melakukan *Decrypt* pada salinan file Anda**](#4.2)\r\n\r\n-------\r\n\r\n<a name=\"4.0\"></a>\r\n## 4.0 Tentang Encryption ##\r\n\r\n*Encryption* menjadi kebutuhan bagi mereka yang ingin menyimpan file salinan yang tidak dapat diakses tanpa izin.\r\n\r\n*Encryption* adalah proses membuat sandi atau mengacak data untuk menyelubungi pesan yang sesungguhnya dari orang-orang yang tidak mempunyai kunci khusus untuk membaca pesan tersebut. Untuk informasi lebih lanjut tentang *encryption*, silakan baca 'Petunjuk bagaimana caranya' Bab [**4.Cara melindungi berkas penting di komputer**](https://securityinabox.org/id/chapter-4).\r\n\r\n<a name=\"4.1\"></a>\r\n## 4.1 Cara melakukan Enkripsi (*Encrypt*) pada salinan file Anda ##\r\n\r\nJendela *Strong Encryption* digunakan untuk memilih metode *encryption* yang akan digunakan.\r\n\r\n**Langkah 1. Klik** box *Encryption type* untuk mengaktifkan daftar dari metode encryption yang berbeda sebagai berikut:\r\n\r\n![](/sbox/screen/cobian-en/30.png)\r\n\r\n*Gambar 1: Daftar tipe Encryption*\r\n\r\nUntuk memudahkan, kami menganjurkan Anda memilih metode *Blowfish* atau *Rijndael* (128 bits). Ini akan menyediakan keamanan yang baik untuk arsip Anda, dan Anda dapat mengakses data yang di-*encrypt* dengan password pilihan Anda.\r\n\r\n**Langkah 2 Pilih** tipe *Encryption* yang Anda ingin gunakan.\r\n\r\n**Catatan**: *Rijndael* dan *Blowfish* memiliki tingkat keamanan yang rata-rata sama. *DES* mempunya proses *encryption* yang lebih lemah namun lebih cepat.\r\n\r\n**Langkah 3. Ketik** dan **ketik ulang** password ke dalam dua boks yang disediakan seperti berikut:\r\n\r\n![](/sbox/screen/cobian-en/31.png)\r\n\r\n*Gambar 2: Boks type Encryption dan Passphrase*\r\n\r\nKekuatan sebuah password ditunjukkan oleh bar bertuliskan \u2018Passphrase quality\u2019. Semakin jauh bar tersebut bergerak ke kanan, lebih kuat passphrase Anda. Silahkan baca 'Petunjuk bagaimana caranya' Bab [**3. Cara membuat dan mempertahankan kata sandi yang aman**](https://securityinabox.org/id/chapter-3)dan 'Petunjuk yang membantu' Bab [**KeePass**](https://securityinabox.org/id/keepass) untuk instruksi panduan cara membuat dan menyimpan *passphrases* (atau password) dengan aman.\r\n\r\n**Langkah 4**. **Klik** ![](/sbox/screen/cobian-en/13.png).\r\n\r\n<a name=\"4.2\"></a>\r\n## 4.2 Cara melakukan *Decrypt* pada salinan file Anda ##\r\n\r\nMelakukan *decrypt* untuk file salinan Anda sangat mudah. Silahkan lakukan langkah ini untuk melakukan *decrypt*:\r\n\r\n**Langkah 1. Pilih Select > Tools > Decrypter and Keys** seperti yang ditunjukkan di bawah:\r\n\r\n![](/sbox/screen/cobian-en/32.png)\r\n\r\n*Gambar 3: Menu Tools dengan Decrypter dan Keys dipilih*\r\n\r\n*Ini akan mengaktifkan window Decrypter dan keys seperti berikut:*\r\n\r\n![](/sbox/screen/cobian-en/33.png)\r\n\r\n*Gambar 4: Jendela Cobian Backup 10 Decrypter dan Keys*\r\n\r\n**Langkah 2. Klik** ![](/sbox/screen/cobian-en/34.png) untuk memilih arsip yang Anda ingin Anda *decrypt*.\r\n\r\n**Langkah 3.Klik** ![](/sbox/screen/cobian-en/35.png) untuk memilih folder lokasi yang Anda inginkan untuk arsip Anda yang telah di-*decrypt*.\r\n\r\n**Langkah 4. Pilih** tipe *encryption* yang sama dengan yang Anda pilih di bagian  [**4.1 Cara melakukan enkripsi (*encrypt*) pada salinan file Anda**](https://securityinabox.org/id/cobian_encryption#4.1), di daftar *Metode*.\r\n\r\n![](/sbox/screen/cobian-en/36.png)\r\n\r\n*Gambar 5. Daftar New Methods (metode-metode baru)*\r\n\r\n**Langkah 4. Pilih** metode yang benar untuk *encryption* (yang Anda pilih untuk melakukan *encrypt* pada salinan file Anda).\r\n\r\n**Langkah 5.Ketik** passphrase Anda ke dalam tempat yand disediakan.\r\n\r\n**Langkah 6**. **Klik** ![](/sbox/screen/cobian-en/37.png).\r\n\r\nFile-file akan langsung ter-*decrypt* di lokasi yang telah Anda pilih. Apabila file-file juga telah Anda *compress*, Anda perlu melakukan *decompress* seperti yang telah dijelaskan pada bab [**3.1 Cara melakukan *decompress* pada salinan file Anda**](https://securityinabox.org/id/cobian_compress-decompress#3.1)."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2014", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2014", 
+                "link_title": "How to Encrypt Your Backup File", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5160", 
+                "module": "book", 
+                "nid": "2014", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5157", 
+                "p3": "5160", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5157", 
+                "router_path": "node/%", 
+                "title": "How to Encrypt Your Backup File", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1454331444", 
+            "comment": "0", 
+            "created": "1441116655", 
+            "current_revision_id": "13109", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "cobian_encrypt", 
+                        "value": "cobian_encrypt"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5160": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2014", 
+                    "link_title": "How to Encrypt Your Backup File", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5160", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5157", 
+                    "p3": "5160", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5157", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2014", 
+            "num_revisions": "23", 
+            "path": "https://securityinabox.org/en/cobian_encrypt", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1454331444", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Cara Melakukan Enkripsi (Encrypt) pada Salinan File Anda ", 
+                        "value": "Cara Melakukan Enkripsi (Encrypt) pada Salinan File Anda "
+                    }
+                ]
+            }, 
+            "title_original": "How to Encrypt Your Backup File", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442927144", 
+                        "created": "1442927144", 
+                        "entity_id": "2014", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2014", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454331444", 
+                        "created": "1442332501", 
+                        "entity_id": "2014", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2014", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442494581", 
+                        "created": "1442494581", 
+                        "entity_id": "2014", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2014", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442328269", 
+                        "created": "1442328247", 
+                        "entity_id": "2014", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2014", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1453996687", 
+                        "created": "1442843195", 
+                        "entity_id": "2014", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2014", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444655553", 
+                        "created": "1444655553", 
+                        "entity_id": "2014", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2014", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1452866346", 
+                        "created": "1452866346", 
+                        "entity_id": "2014", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2014", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443615461", 
+                        "created": "1443615461", 
+                        "entity_id": "2014", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2014", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444176671", 
+                        "created": "1444176671", 
+                        "entity_id": "2014", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2014", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444832118", 
+                        "created": "1444722441", 
+                        "entity_id": "2014", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2014", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441116836", 
+                        "created": "1441116655", 
+                        "entity_id": "2014", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2014", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445419877", 
+                        "created": "1444060489", 
+                        "entity_id": "2014", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2014", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "b8eb9753-cc33-4a92-aa93-bde4265a3e04", 
+            "vid": "13109", 
+            "vuuid": "e1ee9d92-1619-4dbe-860b-19ddc45b69b5"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p><a name=\"5.0\" id=\"5.0\"></a></p>\n\n<h2>5.0 Tanya-Jawab dan Ulasan</h2>\n\n<p>Elena dan Nikolai sangat menyadari pentingnya untuk melakukan salinan terhadap dokumen mereka; mereka pernah kehilangan file yang sangat penting akibat kerusakan komputer yang diakibatkan penyerangan virus. <strong>Cobian Backup</strong> terlihat seperti solusi yang baik terhadap masalah proses pembuatan salinan, walaupun mereka berpendapat akan diperlukan sedikit waku untuk membiasakan diri mereka dalam penggunaannya.</p>\n\n<p>Ketika telah mengerti cara penggunaannya, Elena puas dengan fungsi dasar dari <strong>Cobian Backup</strong>, dan juga mengetahui bahwa ia dapat membuat salinan file di USB/Flashdisk atau DVD - dimana ia bisa menyimpannya di tempat aman, jauh dari komputer dan kantor miliknya. Elena juga mendapatkan fitur mengkompres salinan file sangat berguna untuk menghemat ruang memory komputernya. Nikolai sangat senang bahwa ia bisa menggunakan satu program untuk melakukan <em>encrypt</em> dan mengarsip dokumen dan juga membuat salinan. Ia juga tertarik untuk mempelajari pilihan <em>Backup to ftp server</em> lebih jauh lagi sehingga ia dapat menyimpan salinan file penting di tempat tersembunyi di server lain di bagian dunia yang lain.</p>\n\n<p>Tetapi, mereka berdua masih memiliki beberapa pertanyaan tentang <strong>Cobian Backup</strong>:</p>\n\n<div class=\"background\">\n\n<p><em><strong>T</strong>: Apabila saya mengarsip file saya di DVD, apakah saya dapat mengkompres dan melakukan decrypt pada file saya di komputer selain dari komputer saya? Bagaimana dengan membuka file tersebut di Warung Internet?</em></p>\n\n<p><em><strong>J</strong>: Anda dapat menyimpan arsip Anda, encrypted maupun compressed, di komputer lain yang mempunyai <strong>Cobian Backup</strong>.</em></p>\n\n<p><em><strong>T</strong>: Saya mempunyai masalah dengan kurangnya ruang memori komputer saya. Saya tidak yakin dengan berapa banyak ruang yang saya bisa saya hemat dengan saya mengkompress file saya. Apakah Anda bisa memberi saya contoh?</em></p>\n\n<p><em><strong>J</strong>: Ruang- ruang di komputer Anda biasanya sebagian besar diisi oleh foto, video, dan juga file audio. Anda dapat melihat berapa banyak ruang telah mereka pakai di komputer dengan meng-klik kanan folder dimana mereka disimpan dan pilihlah properties. Apabila Anda tidak mempunyai ruang banyak di komputer Anda, pertimbangkanlah untuk membuat arsip dari komputer Anda, lalu pindahkan file asli dari komputer Anda.</em></p>\n\n<p><em><strong>T</strong>: Saya selalu ditanya untuk melakukan program update yang saya dapat dari Internet. Apabila ada <strong>Cobian Backup</strong> yang baru dan saya mengunduhnya, saya takut saya akan kehilangan akses kepada file yang saya kompres dan encrypt. Haruskah saya mengunduh update ini?</em></p>\n\n<p><em><strong>J</strong>: Anda harus selalu mengunduh update terbaru karena mereka menyediakan upgrade untuk keamanan dan juga operasional. <strong>Cobian Backup</strong> akan terus bekerja di komputer Anda, dan versi yang baru akan terus menerus kompatibel dengan salinan yang Anda telah buat di verisi yg lebih lama.</em></p>\n\n<p><em><strong>T</strong>: Apakah dengan mempunyai program di komputer ini akan membuat saya terlihat jelas bahwa saya mempunyai material yang saya encrypt?</em></p>\n\n<p><em><strong>J</strong>: Anda tidak perlu menyimpan salinan yang Anda encrypt di komputer Anda. <strong>Cobian Backup</strong> bukanlah program yang terkenal karena data encryption-nya, dan encryption bukan pula fitur utama dari <strong>Cobian Backup</strong>.</em></p>\n\n<p><em><strong>T</strong>: Apakah lebih baik menggunakan program ini atau <strong>TrueCrypt</strong> untuk melakukan encrypt pada file?</em></p>\n\n<p><em><strong>J</strong>: Akan lebih baik Anda menggunakan <strong>TrueCRypt</strong> untuk melakukan encrypt pada file di komputer Anda karena mekanisme yang lebih kuat dan Anda mempunyai pilihan untuk menambah dan menghapus file dari volume yang di-encrypt. Anda juga dapat membuat salinan dari Volume <strong>TrueCrypt</strong> menggunakan <strong>Cobian Backup</strong>.</em></p>\n\n<p><em><strong>T</strong>: Adakah hal lain yang saya perlu tahu apabila saya menggunakan pilihan \u2018Backup to ftp server\u2019?</em></p>\n\n<p><em><strong>J</strong>: Anda perlu tahu apakah provider Anda menyediakan servis <strong>FTP</strong> dan detil dari login yang diperlukan. Akan lebih baik apabila Anda menggunakan versi <strong>FTP</strong> yang aman yang dinamakan <strong>SFTP</strong>, apabila ini disedikan oleh provider Anda.</em></p>\n\n</div>\n\n<p><a name=\"5.1\" id=\"5.1\"></a></p>\n\n<h2>5.1 Pertanyaan Ulasan</h2>\n\n<ul><li><p>Apakah perbedaan dari salinan <em>incremental</em> dan <em>differential</em>?</p></li>\n<li><p>Cara apa yang paling baik untuk mengamankan salinan Anda?</p></li>\n<li><p>Bagaimana cara Anda memuat salinan berukuran 1GB ke dalam sebuah CD?</p></li>\n<li><p>Bagaimana caranya mendapatkan kembali hanya satu file dari salinan?</p></li>\n<li><p>Apakah mungkin untuk membuat komputer Anda untuk melakukan update salinan secara mingguan setiap hari Jum\u2019at siang secara otomatis?? Bagaimana caranya?</p></li>\n</ul>", 
+                        "summary": "", 
+                        "value": "<a name=\"5.0\"></a>\r\n## 5.0 Tanya-Jawab dan Ulasan  ##\r\n\r\nElena dan Nikolai sangat menyadari pentingnya untuk melakukan salinan terhadap dokumen mereka; mereka pernah kehilangan file yang sangat penting akibat kerusakan komputer yang diakibatkan penyerangan virus. **Cobian Backup** terlihat seperti solusi yang baik terhadap masalah proses pembuatan salinan, walaupun mereka berpendapat akan diperlukan sedikit waku untuk membiasakan diri mereka dalam penggunaannya.\r\n\r\nKetika telah mengerti cara penggunaannya, Elena puas dengan fungsi dasar dari **Cobian Backup**, dan juga mengetahui bahwa ia dapat membuat salinan file di USB/Flashdisk atau DVD - dimana ia bisa menyimpannya di tempat aman, jauh dari komputer dan kantor miliknya. Elena juga mendapatkan fitur mengkompres salinan file sangat berguna untuk menghemat ruang memory komputernya. Nikolai sangat senang bahwa ia bisa menggunakan satu program untuk melakukan *encrypt* dan mengarsip dokumen dan juga membuat salinan. Ia juga tertarik untuk mempelajari pilihan *Backup to ftp server* lebih jauh lagi sehingga ia dapat menyimpan salinan file penting di tempat tersembunyi di server lain di bagian dunia yang lain.\r\n\r\nTetapi, mereka berdua masih memiliki beberapa pertanyaan tentang **Cobian Backup**:\r\n\r\n<div class=\"background\" markdown=\"1\">\r\n\r\n***T**: Apabila saya mengarsip file saya di DVD, apakah saya dapat mengkompres dan melakukan decrypt pada file saya di komputer selain dari komputer saya? Bagaimana dengan membuka file tersebut di Warung Internet?*\r\n\r\n***J**: Anda dapat menyimpan arsip Anda, encrypted maupun compressed, di komputer lain yang mempunyai **Cobian Backup**.*\r\n\r\n***T**: Saya mempunyai masalah dengan kurangnya ruang memori komputer saya. Saya tidak yakin dengan berapa banyak ruang yang saya bisa saya hemat dengan saya mengkompress file saya. Apakah Anda bisa memberi saya contoh?*\r\n\r\n***J**: Ruang- ruang di komputer Anda biasanya sebagian besar diisi oleh foto, video, dan juga file audio. Anda dapat melihat berapa banyak ruang telah mereka pakai di komputer dengan meng-klik kanan folder dimana mereka disimpan dan pilihlah properties. Apabila Anda tidak mempunyai ruang banyak di komputer Anda, pertimbangkanlah untuk membuat arsip dari komputer Anda, lalu pindahkan file asli dari komputer Anda.*\r\n\r\n***T**: Saya selalu ditanya untuk melakukan program update yang saya dapat dari Internet. Apabila ada **Cobian Backup** yang baru dan saya mengunduhnya, saya takut saya akan kehilangan akses kepada file yang saya kompres dan encrypt. Haruskah saya mengunduh update ini?*\r\n\r\n***J**: Anda harus selalu mengunduh update terbaru karena mereka menyediakan upgrade untuk keamanan dan juga operasional. **Cobian Backup** akan terus bekerja di komputer Anda, dan versi yang baru akan terus menerus kompatibel dengan salinan yang Anda telah buat di verisi yg lebih lama.*\r\n\r\n***T**: Apakah dengan mempunyai program di komputer ini akan membuat saya terlihat jelas bahwa saya mempunyai material yang saya encrypt?*\r\n\r\n***J**: Anda tidak perlu menyimpan salinan yang Anda encrypt di komputer Anda. **Cobian Backup** bukanlah program yang terkenal karena data encryption-nya, dan encryption bukan pula fitur utama dari **Cobian Backup**.*\r\n\r\n***T**: Apakah lebih baik menggunakan program ini atau **TrueCrypt** untuk melakukan encrypt pada file?*\r\n\r\n***J**: Akan lebih baik Anda menggunakan **TrueCRypt** untuk melakukan encrypt pada file di komputer Anda karena mekanisme yang lebih kuat dan Anda mempunyai pilihan untuk menambah dan menghapus file dari volume yang di-encrypt. Anda juga dapat membuat salinan dari Volume **TrueCrypt** menggunakan **Cobian Backup**.*\r\n\r\n***T**: Adakah hal lain yang saya perlu tahu apabila saya menggunakan pilihan \u2018Backup to ftp server\u2019?*\r\n\r\n***J**: Anda perlu tahu apakah provider Anda menyediakan servis **FTP** dan detil dari login yang diperlukan. Akan lebih baik apabila Anda menggunakan versi **FTP** yang aman yang dinamakan **SFTP**, apabila ini disedikan oleh provider Anda.*\r\n\r\n</div>\r\n\r\n<a name=\"5.1\"></a>\r\n## 5.1 Pertanyaan Ulasan ##\r\n\r\n- Apakah perbedaan dari salinan *incremental* dan *differential*?\r\n\r\n- Cara apa yang paling baik untuk mengamankan salinan Anda?\r\n\r\n- Bagaimana cara Anda memuat salinan berukuran 1GB ke dalam sebuah CD?\r\n\r\n- Bagaimana caranya mendapatkan kembali hanya satu file dari salinan?\r\n\r\n- Apakah mungkin untuk membuat komputer Anda untuk melakukan update salinan secara mingguan setiap hari Jum\u2019at siang secara otomatis?? Bagaimana caranya?\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2016", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2016", 
+                "link_title": "FAQ and Review", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5162", 
+                "module": "book", 
+                "nid": "2016", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5157", 
+                "p3": "5162", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5157", 
+                "router_path": "node/%", 
+                "title": "FAQ and Review", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1454081480", 
+            "comment": "0", 
+            "created": "1441116895", 
+            "current_revision_id": "13078", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "cobian_faq", 
+                        "value": "cobian_faq"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5162": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2016", 
+                    "link_title": "FAQ and Review", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5162", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5157", 
+                    "p3": "5162", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5157", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2016", 
+            "num_revisions": "15", 
+            "path": "https://securityinabox.org/en/cobian_faq", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1454081480", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Tanya-Jawab dan Ulasan", 
+                        "value": "Tanya-Jawab dan Ulasan"
+                    }
+                ]
+            }, 
+            "title_original": "FAQ and Review", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442927438", 
+                        "created": "1442927438", 
+                        "entity_id": "2016", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2016", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454081480", 
+                        "created": "1442332694", 
+                        "entity_id": "2016", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2016", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442494691", 
+                        "created": "1442494691", 
+                        "entity_id": "2016", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2016", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442329222", 
+                        "created": "1442329222", 
+                        "entity_id": "2016", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2016", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442843315", 
+                        "created": "1442843315", 
+                        "entity_id": "2016", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2016", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444655618", 
+                        "created": "1444655618", 
+                        "entity_id": "2016", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2016", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1452866429", 
+                        "created": "1452866429", 
+                        "entity_id": "2016", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2016", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443615536", 
+                        "created": "1443615536", 
+                        "entity_id": "2016", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2016", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444176732", 
+                        "created": "1444176732", 
+                        "entity_id": "2016", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2016", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444832172", 
+                        "created": "1444722535", 
+                        "entity_id": "2016", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2016", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441116895", 
+                        "created": "1441116895", 
+                        "entity_id": "2016", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2016", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445419932", 
+                        "created": "1444060528", 
+                        "entity_id": "2016", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2016", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "b95750a5-8453-467c-b057-619f769b5c96", 
+            "vid": "13078", 
+            "vuuid": "8a107aef-4cf3-4d49-9637-7f7f1faed9f5"
+        }
+    ], 
+    "changed": "1453976799", 
+    "comment": "0", 
+    "created": "1441116442", 
+    "current_revision_id": "13035", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "id": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Menginstal Cobian Backup</strong></p>\n\n<ul><li>Bacalah bagian <strong>Pengantar</strong> <a href=\"https://securityinabox.org/id/petunjukyangmembantu\"><strong>Petunjuk yang membantu</strong></a>*</li>\n<li><strong>Klik</strong> ikon <strong>Cobian Backup</strong> dibawah dan Buka (<em>Open</em>) atau Jalankan (<em>Run</em>) installer. Jika perlu, simpan file installer, kemudian klik dua kali file tersebut*. </li>\n<li><em>Bacalah instruksi pemasangan (Installation instructions) di bagian berikut sebelum Anda melanjutkan</em></li>\n<li><em>Jika Anda menyimpan installer di komputer Anda, Anda dapat menghapus file tersebut setelah instalasi berhasil dilakukan</em></li>\n</ul><p><strong>Cobian Backup</strong>:<br /><a href=\"/sbox/programs/cbSetup.exe\"><img src=\"/sites/securityinabox.org/files/u12/cobian.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Menginstal Cobian Backup**\r\n\r\n- Bacalah bagian **Pengantar** [**Petunjuk yang membantu**](https://securityinabox.org/id/petunjukyangmembantu)*\r\n- **Klik** ikon **Cobian Backup** dibawah dan Buka (*Open*) atau Jalankan (*Run*) installer. Jika perlu, simpan file installer, kemudian klik dua kali file tersebut*. \r\n- *Bacalah instruksi pemasangan (Installation instructions) di bagian berikut sebelum Anda melanjutkan*\r\n- *Jika Anda menyimpan installer di komputer Anda, Anda dapat menghapus file tersebut setelah instalasi berhasil dilakukan*\r\n\r\n**Cobian Backup**:  \r\n[![](/sites/securityinabox.org/files/u12/cobian.png)](/sbox/programs/cbSetup.exe)"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Menginstal Cobian</strong></p>\n\n<ul><li><em>Bacalah  <a href=\"/id/petunjukyangmembantu\"><strong>Petunjuk yang membantu</strong></a> <strong>Kata Pengantar</strong>.</em></li>\n<li><em><strong>Klik icon Cobian di bawah ini</strong> untuk membuka www.educ.umu.se/~cobian/cobianbackup.htm</em></li>\n<li><em><strong>Klik link \"Download Cobian Backup\"</strong> pada laman tersebut.</em></li>\n<li><em>Simpan installer, temukan kembali dan klik dua kali installer tersebut</em></li>\n<li><em>Bacalah 'Installation Note' berikut sebelum Anda melanjutkan</em></li>\n<li><em>Setelah <strong>Cobian</strong> berhasil diinstal, Anda boleh menghapus program instalasinya dari komputer</em></li>\n</ul><p><strong>Cobian</strong>:<br /><a href=\"http://www.educ.umu.se/~cobian/cobianbackup.htm\"><img src=\"/sites/securityinabox.org/files/u12/cobian.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Menginstal Cobian**\r\n\r\n- *Bacalah  [**Petunjuk yang membantu**](/id/petunjukyangmembantu) **Kata Pengantar**.*\r\n- ***Klik icon Cobian di bawah ini** untuk membuka www.educ.umu.se/~cobian/cobianbackup.htm*\r\n- ***Klik link \"Download Cobian Backup\"** pada laman tersebut.*\r\n- *Simpan installer, temukan kembali dan klik dua kali installer tersebut*\r\n- *Bacalah 'Installation Note' berikut sebelum Anda melanjutkan*\r\n- *Setelah **Cobian** berhasil diinstal, Anda boleh menghapus program instalasinya dari komputer*\r\n\r\n**Cobian**:  \r\n[![](/sites/securityinabox.org/files/u12/cobian.png)](http://www.educ.umu.se/~cobian/cobianbackup.htm)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "Cobian Backup - Penyimpanan File yang Am", 
+                "value": "Cobian Backup - Penyimpanan File yang Am"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "Cobian Backup - Penyimpanan File yang Aman", 
+                "value": "Cobian Backup - Penyimpanan File yang Aman"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Cobian Backup</strong> digunakan untuk membuat arsip file-file digital Anda. Arsip tersebut dapat disimpan di komputer Anda, jaringan kantor, alat-alat portable ataupun server-server Internet.</p>\n", 
+                "value": "**Cobian Backup** digunakan untuk membuat arsip file-file digital Anda. Arsip tersebut dapat disimpan di komputer Anda, jaringan kantor, alat-alat portable ataupun server-server Internet."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-12 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "cobian_main", 
+                "value": "cobian_main"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "6"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "6"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5157": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2011", 
+            "link_title": "Cobian Backup - Secure File Backup", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5157", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5157", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-10"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2011", 
+    "num_revisions": "18", 
+    "path": "https://securityinabox.org/en/cobian_main", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1453976799", 
+    "revision_uid": "228", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "Cobian Backup - Penyimpanan File yang Aman", 
+                "value": "Cobian Backup - Penyimpanan File yang Aman"
+            }
+        ]
+    }, 
+    "title_original": "Cobian Backup - Secure File Backup", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442926639", 
+                "created": "1442926639", 
+                "entity_id": "2011", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "2011", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442332603", 
+                "created": "1442332177", 
+                "entity_id": "2011", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2011", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442506322", 
+                "created": "1442494321", 
+                "entity_id": "2011", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2011", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1442327859", 
+                "created": "1442327859", 
+                "entity_id": "2011", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "2011", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fr": {
+                "changed": "1442842842", 
+                "created": "1442842842", 
+                "entity_id": "2011", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "2011", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1444655329", 
+                "created": "1444655329", 
+                "entity_id": "2011", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "2011", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "km": {
+                "changed": "1452865989", 
+                "created": "1452865989", 
+                "entity_id": "2011", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2011", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443615168", 
+                "created": "1443615168", 
+                "entity_id": "2011", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2011", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1453976799", 
+                "created": "1444176447", 
+                "entity_id": "2011", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2011", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "vi": {
+                "changed": "1443524749", 
+                "created": "1443524749", 
+                "entity_id": "2011", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2011", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441183264", 
+                "created": "1441116442", 
+                "entity_id": "2011", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2011", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445419496", 
+                "created": "1444060286", 
+                "entity_id": "2011", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2011", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "2474a943-6022-40e1-b015-271238ac6bf3", 
+    "vid": "13035", 
+    "vuuid": "cdbfc178-b78c-4526-b33e-f69187357c92"
+}

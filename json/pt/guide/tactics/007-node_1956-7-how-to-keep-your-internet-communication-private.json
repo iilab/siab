@@ -1,0 +1,1954 @@
+{
+    "body": {
+        "pt-pt": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p>E-mails e trocas de mensagens instant\u00e2neas s\u00e3o extremamente valiosos para indiv\u00edduos e organiza\u00e7\u00f5es, mesmo as que t\u00eam acesso mais limitado \u00e0 internet, devido \u00e0 sua conveni\u00eancia, boa rela\u00e7\u00e3o custo-benef\u00edcio e flexibilidade. O mesmo \u00e9 verdade para programas de <a href=\"/pt/glossary#VoIP\"><em>voz sobre IP (VoIP)</em></a>, como <a href=\"https://jitsi.org/\"><em>Jitsi</em></a>, <a href=\"/pt/glossary#Skype\"><em>Skype</em></a> e outros, para quem possui conex\u00f5es mais r\u00e1pidas e confi\u00e1veis.</p>\n\n<p>Infelizmente, as alternativas digitais aos meios tradicionais de comunica\u00e7\u00e3o nem sempre s\u00e3o capazes de manter informa\u00e7\u00f5es sens\u00edveis seguras. Claro, os problemas n\u00e3o s\u00e3o novos. Correio tradicional, liga\u00e7\u00f5es telef\u00f4nicas, mensagens escritas: todos tamb\u00e9m s\u00e3o vulner\u00e1veis, em particular quando usados por pessoas que est\u00e3o sendo vigiadas e monitoradas pelas autoridades.</p>\n\n<p>Uma diferen\u00e7a importante entre as t\u00e9cnicas de comunica\u00e7\u00e3o digital, baseadas na internet, e os m\u00e9todos mais tradicionais \u00e9 que a primeira costuma permitir que voc\u00ea determine seu n\u00edvel pr\u00f3prio de seguran\u00e7a. Enviar e-mails ou mensagens instant\u00e2neas, assim como fazer chamadas de <a href=\"/pt/glossary#VoIP\"><em>VoIP</em></a> usando meios inseguros, os torna quase certamente menos privados do que cartas e chamadas por telefone.</p>\n\n<p>Em parte, isso acontece porque alguns computadores poderosos podem fazer buscas autom\u00e1ticas em vastas quantidades de informa\u00e7\u00e3o digital de modo a identificar quem envia, quem recebe e mesmo palavras chave espec\u00edficas. Nos canais tradicionais de comunica\u00e7\u00e3o, para executar o mesmo n\u00edvel de vigil\u00e2ncia s\u00e3o necess\u00e1rios bem mais recursos.</p>\n\n<p>Com algumas medidas de precau\u00e7\u00e3o, entretanto, o oposto pode ser verdadeiro. A flexibilidade das ferramentas de comunica\u00e7\u00e3o na internet e a for\u00e7a da <a href=\"/pt/glossary#Encryption\"><em>criptografia</em></a> moderna permitem desfrutar de um n\u00edvel de privacidade antes dispon\u00edvel apenas aos militares ou \u00e0s ag\u00eancias de intelig\u00eancia.</p>\n\n<p>Ao seguir as guias e explorar os programas discutidos neste cap\u00edtulo, \u00e9 poss\u00edvel aprimorar bastante a seguran\u00e7a das comunica\u00e7\u00f5es. O servi\u00e7o de e-mail <a href=\"/pt/glossary#RiseUp\"><em>RiseUp</em></a>; o plugin <a href=\"/pt/glossary#OTR\"><em>Off the Record - OTR</em></a> para o software de  mensagens instant\u00e2enas <a href=\"/pt/glossary#Pidgin\"><em>Pidgin</em></a>; o Mozilla <a href=\"/pt/glossary#Firefox\"><em>Firefox</em></a>; o add-on <a href=\"/pt/glossary#Enigmail\"><em>Enigmail</em></a> para o cliente de e-mails Mozilla <a href=\"/pt/glossary#Thunderbird\"><em>Thunderbird</em></a>: todos s\u00e3o excelentes ferramentas.</p>\n\n<p>Ao us\u00e1-las, entretanto, tenha em mente que a privacidade de uma conversa\u00e7\u00e3o nunca \u00e9 cem por cento garantida. Sempre h\u00e1 amea\u00e7as que voc\u00ea pode n\u00e3o haver considerado, como um <a href=\"/pt/glossary#Keylogger\"><em>keylogger</em></a> no computador, algu\u00e9m ouvindo atr\u00e1s da porta, um correspondente de e-mail descuidado ou algo completamente diferente disso tudo. O objetivo deste cap\u00edtulo \u00e9 ajudar a reduzir mesmo as amea\u00e7as que podem n\u00e3o te ocorrer, evitando, ao mesmo tempo, a posi\u00e7\u00e3o extremista advogada por alguns grupos de que n\u00e3o se deveria enviar nada usando a internet que n\u00e3o se queira tornar p\u00fablico.</p>\n\n<h3>Pano de fundo</h3>\n\n<div class=\"background\">\n\n<p>Claudia e Pablo trabalham em uma ONG de direitos humanos em um pa\u00eds da Am\u00e9rica Latina. Ap\u00f3s passarem v\u00e1rios meses coletando depoimentos de testemunhas sobre abusos cometidos pelos militares da regi\u00e3o, come\u00e7aram a trabalhar na prote\u00e7\u00e3o do material. Mantiveram apenas as informa\u00e7\u00f5es que realmente precisam, agora armazenadas em uma parti\u00e7\u00e3o TrueCrypt e que possui v\u00e1rias c\u00f3pias de reserva espalhadas por diferentes locais f\u00edsicos. Enquanto se preparam para publicar um relat\u00f3rio com algumas das situa\u00e7\u00f5es descritas nos testemunhos, avaliaram que \u00e9 preciso discutir algumas informa\u00e7\u00f5es sens\u00edveis com colegas de outro pa\u00eds. Embora tenham combinado n\u00e3o mencionar nomes e locais, Claudia e Pablo ainda querem ter certeza de que as conversas por e-mail e por troca de mensagens instant\u00e2neas sobre o assunto permane\u00e7am privadas. Ao chamar uma reuni\u00e3o para discutir a import\u00e2ncia da seguran\u00e7a nas comunica\u00e7\u00f5es, Claudia pergunta se algu\u00e9m tem d\u00favidas.</p>\n\n</div>\n\n<h3>O que aprender deste cap\u00edtulo</h3>\n\n<ul><li>Porque a maioria dos servi\u00e7os de e-mail e de troca de mensagens instant\u00e2neas n\u00e3o \u00e9 segura</li>\n<li>Como criar uma nova conta de e-mail, mais segura</li>\n<li>Como melhorar a seguran\u00e7a de sua conta atual de e-mail</li>\n<li>Como usar um servi\u00e7o seguro de troca de mensagens instant\u00e2neas</li>\n<li>O que fazer caso desconfie que algu\u00e9m est\u00e1 acessando seu correio eletr\u00f4nico</li>\n<li>Como verificar a identidade de um correspondente de e-mail</li>\n</ul>", 
+                "summary": "", 
+                "value": "E-mails e trocas de mensagens instant\u00e2neas s\u00e3o extremamente valiosos para indiv\u00edduos e organiza\u00e7\u00f5es, mesmo as que t\u00eam acesso mais limitado \u00e0 internet, devido \u00e0 sua conveni\u00eancia, boa rela\u00e7\u00e3o custo-benef\u00edcio e flexibilidade. O mesmo \u00e9 verdade para programas de [*voz sobre IP (VoIP)*](/pt/glossary#VoIP), como [*Jitsi*](https://jitsi.org/), [*Skype*](/pt/glossary#Skype) e outros, para quem possui conex\u00f5es mais r\u00e1pidas e confi\u00e1veis. \r\n\r\nInfelizmente, as alternativas digitais aos meios tradicionais de comunica\u00e7\u00e3o nem sempre s\u00e3o capazes de manter informa\u00e7\u00f5es sens\u00edveis seguras. Claro, os problemas n\u00e3o s\u00e3o novos. Correio tradicional, liga\u00e7\u00f5es telef\u00f4nicas, mensagens escritas: todos tamb\u00e9m s\u00e3o vulner\u00e1veis, em particular quando usados por pessoas que est\u00e3o sendo vigiadas e monitoradas pelas autoridades.\r\n\r\nUma diferen\u00e7a importante entre as t\u00e9cnicas de comunica\u00e7\u00e3o digital, baseadas na internet, e os m\u00e9todos mais tradicionais \u00e9 que a primeira costuma permitir que voc\u00ea determine seu n\u00edvel pr\u00f3prio de seguran\u00e7a. Enviar e-mails ou mensagens instant\u00e2neas, assim como fazer chamadas de [*VoIP*](/pt/glossary#VoIP) usando meios inseguros, os torna quase certamente menos privados do que cartas e chamadas por telefone.\r\n\r\nEm parte, isso acontece porque alguns computadores poderosos podem fazer buscas autom\u00e1ticas em vastas quantidades de informa\u00e7\u00e3o digital de modo a identificar quem envia, quem recebe e mesmo palavras chave espec\u00edficas. Nos canais tradicionais de comunica\u00e7\u00e3o, para executar o mesmo n\u00edvel de vigil\u00e2ncia s\u00e3o necess\u00e1rios bem mais recursos.\r\n\r\nCom algumas medidas de precau\u00e7\u00e3o, entretanto, o oposto pode ser verdadeiro. A flexibilidade das ferramentas de comunica\u00e7\u00e3o na internet e a for\u00e7a da [*criptografia*](/pt/glossary#Encryption) moderna permitem desfrutar de um n\u00edvel de privacidade antes dispon\u00edvel apenas aos militares ou \u00e0s ag\u00eancias de intelig\u00eancia.\r\n\r\nAo seguir as guias e explorar os programas discutidos neste cap\u00edtulo, \u00e9 poss\u00edvel aprimorar bastante a seguran\u00e7a das comunica\u00e7\u00f5es. O servi\u00e7o de e-mail [*RiseUp*](/pt/glossary#RiseUp); o plugin [*Off the Record - OTR*](/pt/glossary#OTR) para o software de  mensagens instant\u00e2enas [*Pidgin*](/pt/glossary#Pidgin); o Mozilla [*Firefox*](/pt/glossary#Firefox); o add-on [*Enigmail*](/pt/glossary#Enigmail) para o cliente de e-mails Mozilla [*Thunderbird*](/pt/glossary#Thunderbird): todos s\u00e3o excelentes ferramentas.\r\n\r\nAo us\u00e1-las, entretanto, tenha em mente que a privacidade de uma conversa\u00e7\u00e3o nunca \u00e9 cem por cento garantida. Sempre h\u00e1 amea\u00e7as que voc\u00ea pode n\u00e3o haver considerado, como um [*keylogger*](/pt/glossary#Keylogger) no computador, algu\u00e9m ouvindo atr\u00e1s da porta, um correspondente de e-mail descuidado ou algo completamente diferente disso tudo. O objetivo deste cap\u00edtulo \u00e9 ajudar a reduzir mesmo as amea\u00e7as que podem n\u00e3o te ocorrer, evitando, ao mesmo tempo, a posi\u00e7\u00e3o extremista advogada por alguns grupos de que n\u00e3o se deveria enviar nada usando a internet que n\u00e3o se queira tornar p\u00fablico.\r\n\r\n\r\n### Pano de fundo ###\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nClaudia e Pablo trabalham em uma ONG de direitos humanos em um pa\u00eds da Am\u00e9rica Latina. Ap\u00f3s passarem v\u00e1rios meses coletando depoimentos de testemunhas sobre abusos cometidos pelos militares da regi\u00e3o, come\u00e7aram a trabalhar na prote\u00e7\u00e3o do material. Mantiveram apenas as informa\u00e7\u00f5es que realmente precisam, agora armazenadas em uma parti\u00e7\u00e3o TrueCrypt e que possui v\u00e1rias c\u00f3pias de reserva espalhadas por diferentes locais f\u00edsicos. Enquanto se preparam para publicar um relat\u00f3rio com algumas das situa\u00e7\u00f5es descritas nos testemunhos, avaliaram que \u00e9 preciso discutir algumas informa\u00e7\u00f5es sens\u00edveis com colegas de outro pa\u00eds. Embora tenham combinado n\u00e3o mencionar nomes e locais, Claudia e Pablo ainda querem ter certeza de que as conversas por e-mail e por troca de mensagens instant\u00e2neas sobre o assunto permane\u00e7am privadas. Ao chamar uma reuni\u00e3o para discutir a import\u00e2ncia da seguran\u00e7a nas comunica\u00e7\u00f5es, Claudia pergunta se algu\u00e9m tem d\u00favidas.\r\n</div>\r\n\r\n\r\n### O que aprender deste cap\u00edtulo ###\r\n\r\n  * Porque a maioria dos servi\u00e7os de e-mail e de troca de mensagens instant\u00e2neas n\u00e3o \u00e9 segura\r\n  * Como criar uma nova conta de e-mail, mais segura\r\n  * Como melhorar a seguran\u00e7a de sua conta atual de e-mail\r\n  * Como usar um servi\u00e7o seguro de troca de mensagens instant\u00e2neas\r\n  * O que fazer caso desconfie que algu\u00e9m est\u00e1 acessando seu correio eletr\u00f4nico\r\n  * Como verificar a identidade de um correspondente de e-mail"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1925", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/1956", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/1956", 
+        "link_title": "7. How to keep your Internet communication private", 
+        "menu_name": "book-toc-1925", 
+        "mlid": "5101", 
+        "module": "book", 
+        "nid": "1956", 
+        "options": [], 
+        "p1": "5030", 
+        "p2": "5101", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5030", 
+        "router_path": "node/%", 
+        "title": "7. How to keep your Internet communication private", 
+        "updated": "0", 
+        "weight": "7"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Existem alguns passos importantes que devem ser dados para aumentar a seguran\u00e7a de sua comunica\u00e7\u00e3o por e-mail. O primeiro \u00e9 assegurar que a pessoa para quem voc\u00ea enviou a mensagem \u00e9 a \u00fanica capaz de l\u00ea-la. Isso \u00e9 discutido nas se\u00e7\u00f5es <a href=\"/pt/chapter_7_1\"><em>Como manter seguros e-mails acessados online</em></a> e  <a href=\"/pt/chapter_7_1\"><em>Como mudar para uma conta de e-mail mais segura</em></a>, abaixo. Al\u00e9m do b\u00e1sico, \u00e0s vezes \u00e9 cr\u00edtico que seus contatos de e-mail possam verificar se uma mensagem espec\u00edfica realmente veio de voc\u00ea, e n\u00e3o de algu\u00e9m tentando se passar por voc\u00ea. Uma forma de fazer isso \u00e9 descrita em <a href=\"/pt/chapter_7_4\"><em>Seguran\u00e7a avan\u00e7ada de e-mail</em></a>, na se\u00e7\u00e3o <a href=\"/pt/chapter_7_4\"><em>Como criptografar e autenticar mensagens de e-mail</em></a>.</p>\n\n<p>Tamb\u00e9m \u00e9 bom saber o que fazer caso suspeite que a privacidade de sua conta de e-mail tenha sido violada. A se\u00e7\u00e3o <a href=\"/pt/chapter_7_2\"><em>Dicas sobre como agir no caso de suspeita de monitoramento de e-mails</em></a> discorre sobre isso.</p>\n\n<p>Lembre-se tamb\u00e9m que e-mails seguros n\u00e3o ajudam muito caso todos os textos digitados em um teclado estejam sendo gravados por um programa spyware e enviados periodicamente a algu\u00e9m pela internet. O <a href=\"/pt/chapter-1\"><em>Cap\u00edtulo 1: Como proteger seu computador de programas maliciosos e hackers</em></a> d\u00e1 alguns conselhos sobre como evitar esse tipo de coisa e o <a href=\"/pt/chapter-3\"><em>Cap\u00edtulo 3: Como criar e manter senhas seguras</em></a> vai ajudar a proteger as contas de e-mail e os programas de troca de mensagens instant\u00e2neas descritos abaixo.</p>\n\n<h3>Como manter seguros e-mails acessados online</h3>\n\n<p>A Internet \u00e9 uma rede aberta por meio da qual a informa\u00e7\u00e3o tipicamente viaja em um formato leg\u00edvel. Se uma mensagem normal de e-mail \u00e9 interceptada a caminho de um destinat\u00e1rio, seu conte\u00fado pode ser lido facilmente. Como a Internet n\u00e3o \u00e9 mais do que uma grande rede mundial dependente de computadores intermedi\u00e1rios para direcionar o tr\u00e1fego, muitas pessoas diferentes podem ter a oportunidade de intercept\u00e1-la dessa forma.</p>\n\n<p>O <a href=\"/pt/glossary#ISP\"><em>provedor de servi\u00e7os de internet (em ingl\u00eas, ISP)</em></a> \u00e9 a primeira parada de uma mensagem de e-mail em sua jornada para um destino final; da mesma forma, o <a href=\"/pt/glossary#ISP\"><em>provedor de internet</em></a> do destinat\u00e1rio \u00e9 a \u00faltima parada antes de ela ser entregue. A menos que voc\u00ea tome algumas precau\u00e7\u00f5es, sua comunica\u00e7\u00e3o pode ser lida ou alterada em qualquer um desses pontos, ou em qualquer ponto entre eles.</p>\n\n<div class=\"background\">\n\n<p>Pablo: Eu estava falando sobre tudo isso com uma parceira nossa e ela disse que tanto ela como suas colegas \u00e0s vezes salvam mensagens importantes na pasta de 'Rascunhos' de uma conta online de e-mail, da qual todas sabem a senha. Parece meio estranho, mas voc\u00ea acha que funcionaria? Digo, isso n\u00e3o evitaria outras pessoas de ler as mensagens, j\u00e1 que n\u00e3o chegaram a ser enviadas?</p>\n\n<p>Claudia: Toda vez que voc\u00ea l\u00ea um e-mail no seu computador, mesmo que seja somente um 'rascunho', o conte\u00fado daquela mensagem j\u00e1 foi enviado pela internet. Sen\u00e3o n\u00e3o apareceria na tela, entende? A parte importante \u00e9, se algu\u00e9m est\u00e1 monitorando a sua conta, n\u00e3o monitora apenas as mensagens de e-mail. Essa pessoa pode monitorar todas as informa\u00e7\u00f5es leg\u00edveis que chegam e saem do seu computador. Em outras palavras, o truque n\u00e3o funcionaria a menos que todas se conectassem de forma segura \u00e0quela conta conjunta de e-mail. E, se elas podem se conectar de forma segura, podem muito bem criar contas separadas e passar a enviar as mensagens.</p>\n\n</div>\n\n<p>J\u00e1 \u00e9 poss\u00edvel h\u00e1 algum tempo tornar segura a conex\u00e3o entre o um computador e os sites visitados na internet. A tecnologia que torna isso poss\u00edvel chama-se <em>Secure Sockets Layer</em>, ou <a href=\"/pt/glossary#Encryption\"><em>criptografia</em></a> <a href=\"/pt/glossary#SSL\"><em>SSL</em></a>. \u00c9 comum encontrar esse tipo de seguran\u00e7a em p\u00e1ginas de preenchimento de dados e senha de cart\u00f5es de cr\u00e9dito, e d\u00e1 para saber se est\u00e1 sendo usada olhando com aten\u00e7\u00e3o a <strong>barra de endere\u00e7os</strong> do navegador.</p>\n\n<p>Todos os endere\u00e7os da internet come\u00e7am com as letras <strong>HTTP</strong>, como se v\u00ea no exemplo abaixo:</p>\n\n<p><img src=\"/sites/securitybkp.ngoinabox.org/files/u7/01.png\" alt=\"\" /></p>\n\n<p>Quando voc\u00ea visita um site seguro, o endere\u00e7o come\u00e7ar\u00e1 com <strong>HTTPS</strong>.</p>\n\n<p><img src=\"/sites/securitybkp.ngoinabox.org/files/u7/02.png\" alt=\"\" /></p>\n\n<p>O <strong>S</strong> ao final significa que o computador estabeleceu uma conex\u00e3o segura com o site. Voc\u00ea tamb\u00e9m notar\u00e1 o s\u00edmbolo de um 'cadeado', situado ou na <strong>barra de endere\u00e7os</strong> ou na <strong>barra de status</strong> do navegador, na parte de baixo da janela. Esses sinais visuais querem dizer que pessoas monitorando sua conex\u00e3o de internet n\u00e3o ser\u00e3o mais capazes de interceptar sua comunica\u00e7\u00e3o com aquele site de forma leg\u00edvel.</p>\n\n<p>Al\u00e9m de proteger senhas e transa\u00e7\u00f5es financeiras, esse tipo de <a href=\"/pt/glossary#Encryption\"><em>criptografia</em></a> \u00e9 perfeita para correios eletr\u00f4nicos. O problema \u00e9 que muitos provedores de e-mail n\u00e3o oferecem acesso seguro e outros requerem habilit\u00e1-lo de forma expl\u00edcita, configurando o navegador ou digitando manualmente o <strong>HTTPS</strong>. Antes de fazer login, enviar ou ler uma correspond\u00eancia eletr\u00f4nica, tenha certeza de que a conex\u00e3o \u00e9 segura.</p>\n\n<p>Voc\u00ea tamb\u00e9m deve prestar bastante aten\u00e7\u00e3o caso o navegador comece a emitir avisos sobre <a href=\"/pt/glossary#Security_certificate\"><em>certificados de seguran\u00e7a</em></a> inv\u00e1lidos ao tentar acessar uma conta online segura de e-mails. Isso pode significar que algu\u00e9m esteja interferindo na comunica\u00e7\u00e3o entre o seu computador e o servidor, de modo a interceptar as mensagens. Finalmente, se voc\u00ea depende de servi\u00e7os online de e-mail para trocar informa\u00e7\u00f5es sens\u00edveis, \u00e9 importante usar um navegador o mais seguro poss\u00edvel. Considere instalar o Mozilla <a href=\"/pt/glossary#Firefox\"><em>Firefox</em></a> com seus complementos relacionados a seguran\u00e7a.</p>\n\n<div class=\"getstarted\">\n\n<p>Guia Pr\u00e1tico - saiba usar o <a href=\"/pt/firefox_main\"><em>Firefox com complementos - Navegador seguro de internet</em></a></p>\n\n</div>\n\n<div class=\"background\">\n\n<p>Pablo: Quando n\u00e3o est\u00e1 no trabalho, um dos caras que v\u00e3o trabalhar conosco neste relat\u00f3rio costuma usar uma conta online de e-mail da Yahoo. Tamb\u00e9m lembro de mais algu\u00e9m usar o Hotmail. Se eu mandar uma mensagem a qualquer um deles, elas podem ser lidas por outras pessoas?</p>\n\n<p>Claudia: Provavelmente. O Yahoo, o Hotmail e v\u00e1rios outros provedores de e-mail online t\u00eam sites n\u00e3o seguros que n\u00e3o protegem a privacidade das mensagens. Vamos ter que mudar os h\u00e1bitos de algumas pessoas se queremos discutir os depoimentos de forma segura.</p>\n\n</div>\n\n<h3>Como mudar para uma conta de e-mail mais segura</h3>\n\n<p>Poucos servi\u00e7os online de e-mail oferecem acesso com <a href=\"/pt/glossary#SSL\"><em>SSL</em></a> \u00e0 conta. O Yahoo e o Hotmail, por exemplo, estabelecem uma conex\u00e3o segura <em>apenas</em> na tela de <em>login</em>, para proteger a senha, mas a comunica\u00e7\u00e3o \u00e9 enviada e recebida de forma insegura. Al\u00e9m disso, Yahoo, Hotmail e outros provedores de e-mail online inserem o <a href=\"/pt/glossary#IP_address\"><em>endere\u00e7o de IP</em></a> do computador que voc\u00ea estiver usando em todas as mensagens enviadas.</p>\n\n<p>Contas do Gmail, por outro lado, mant\u00e9m conex\u00f5es seguras desde a tela de <em>login</em>, passando por todo o uso da conta e at\u00e9 o <em>logout</em>, quando voc\u00ea sai dela. \u00c9 poss\u00edvel confirmar isso na barra de endere\u00e7os do navegador, onde a URL inicia a todo o momento com 'https' (o 's' denota uma conex\u00e3o segura). Ao contr\u00e1rio do Yahoo ou Hotmail, o Gmail evita revelar o <a href=\"/pt/glossary#IP_address\"><em>endere\u00e7o de IP</em></a>.</p>\n\n<p>N\u00e3o \u00e9 recomend\u00e1vel, entretanto, confiar inteiramente no Google para manter sigilosas comunica\u00e7\u00f5es sens\u00edveis. O Google analisa e armazena para diversos fins o conte\u00fado das mensagens de seus clientes e, no passado, cedeu a demandas de governos que restringem a liberdade digital. Veja a se\u00e7\u00e3o <a href=\"/pt/chapter_7_5\"><strong><em>Leitura extra</em></strong></a> para mais informa\u00e7\u00f5es sobre a pol\u00edtica de privacidade do Google.</p>\n\n<p>Se poss\u00edvel, crie uma nova conta de e-mail no <a href=\"/pt/glossary#RiseUp\"><em>RiseUp</em></a> em <a href=\"https://mail.riseup.net\"><em>https://mail.riseup.net</em></a>. O <a href=\"/pt/glossary#RiseUp\"><em>RiseUp</em></a> fornece e-mail gratuito para ativistas ao redor do mundo e tem bastante cuidado na prote\u00e7\u00e3o da informa\u00e7\u00e3o guardada em seus servidores. H\u00e1 algum tempo que eles s\u00e3o uma fonte confi\u00e1vel para quem busca solu\u00e7\u00f5es seguras de e-mails. Ao contr\u00e1rio do Google, o <a href=\"/pt/glossary#RiseUp\"><em>RiseUp</em></a> possui pol\u00edticas bastante restritivas de prote\u00e7\u00e3o \u00e0 privacidade de quem o usa, al\u00e9m de n\u00e3o ter interesses comerciais, o que poderia entrar em conflito com essas pol\u00edticas em algum momento. Para criar uma nova conta, \u00e9 preciso obter dois 'convites' em forma de c\u00f3digo, sendo que tais c\u00f3digos podem ser fornecidos por qualquer pessoa que j\u00e1 tenha uma conta no <a href=\"/pt/glossary#RiseUp\"><em>RiseUp</em></a>. Se voc\u00ea possui uma c\u00f3pia f\u00edsica desse Guia de Refer\u00eancia, deve ter recebido seus 'convites' com ela. Caso contr\u00e1rio, ser\u00e1 preciso encontrar duas pessoas que usam o servi\u00e7o e pedi-los a elas.</p>\n\n<div class=\"getstarted\">\n\n<p>Guia Pr\u00e1tico - saiba usar o <a href=\"/pt/riseup_main\"><em>RiseUp - Servi\u00e7o de e-mail seguro</em></a></p>\n\n</div>\n\n<p>Tanto o Gmail como o <a href=\"/pt/glossary#RiseUp\"><em>RiseUp</em></a> s\u00e3o mais do que apenas provedores de correio eletr\u00f4nico online. Ambos podem ser usados com um programa cliente de e-mail como o Mozilla <a href=\"/pt/glossary#Thunderbird\"><em>Thunderbird</em></a>, que permite usar as t\u00e9cnicas descritas em <a href=\"/pt/chapter_7_4\"><strong><em>Seguran\u00e7a avan\u00e7ada de e-mail</em></strong></a>. Assegurar que o seu cliente de e-mails estabele\u00e7a uma conex\u00e3o <a href=\"/pt/glossary#Encryption\"><em>criptografada</em></a> com o provedor \u00e9 t\u00e3o importante quanto acess\u00e1-lo online usando <strong>HTTPS</strong>. Se voc\u00ea usar um cliente de e-mail, veja o <a href=\"/pt/thunderbird_main\"><strong><em>Guia Pr\u00e1tico do Thunderbird</em></strong></a> para mais detalhes. No m\u00ednimo, por\u00e9m, voc\u00ea deve habilitar <a href=\"/pt/glossary#SSL\"><em>SSL</em></a> ou <a href=\"/pt/glossary#Encryption\"><em>criptografia</em></a> para os servidores de e-mail tanto de chegada como de sa\u00edda.</p>\n\n<div class=\"background\">\n\n<p>Pablo: Ent\u00e3o eu deveria mudar para o RiseUp ou posso continuar usando o Gmail e s\u00f3 passar a usar o endere\u00e7o seguro 'https'?</p>\n\n<p>Claudia: Voc\u00ea quem sabe, mas h\u00e1 algumas coisas que  definitivamente deveria considerar ao escolher um provedor de e-mail. Primeiro, ele oferece uma conex\u00e3o segura \u00e0 sua conta? O Gmail sim, ent\u00e3o at\u00e9 a\u00ed tudo bem. Segundo, voc\u00ea confia nos administradores para manter sua correspond\u00eancia privada, n\u00e3o l\u00ea-la ou dividi-la com outras pessoas? Essa \u00e9 com voc\u00ea. Finalmente, pense se \u00e9 aceit\u00e1vel ou n\u00e3o voc\u00ea ser associado a um provedor. Em outras palavras, ter um endere\u00e7o de correio eletr\u00f4nico com final 'riseup.net', conhecido por ser usado por ativistas, vai te criar problemas ou voc\u00ea precisa de um endere\u00e7o mais t\u00edpico, com final 'gmail.com'?</p>\n\n</div>\n\n<p>Independentemente de quais ferramentas de e-mail seguro decida usar, lembre que cada mensagem tem algu\u00e9m como remetente e uma ou mais pessoas como destinat\u00e1rias. Voc\u00ea \u00e9 apenas parte do conjunto. Mesmo que acesse sua conta de e-mail de forma segura, considere as precau\u00e7\u00f5es que seus contatos podem ou n\u00e3o tomar ao enviar, ler e responder mensagens.</p>\n\n<p>Tente saber tamb\u00e9m onde s\u00e3o localizados os provedores de correio eletr\u00f4nico de seus contatos, pois alguns pa\u00edses s\u00e3o mais agressivos que outros na quest\u00e3o da vigil\u00e2ncia de e-mails. <strong>Para ter certeza sobre a privacidade da comunica\u00e7\u00e3o, voc\u00ea e seus contatos devem usar servi\u00e7os seguros de e-mail, hospedados em pa\u00edses relativamente seguros.</strong> Para assegurar que as mensagens n\u00e3o sejam interceptadas entre os diferentes servidores dos provedores de correio eletr\u00f4nico, considere usar contas do mesmo provedor. O <a href=\"/pt/glossary#RiseUp\"><em>RiseUp</em></a> \u00e9 uma boa escolha.</p>\n\n<h3>Dicas extras sobre como melhorar a seguran\u00e7a do seu e-mail</h3>\n\n<ul><li>Tenha sempre cautela ao abrir arquivos anexos que voc\u00ea n\u00e3o estava esperando, vindos de algu\u00e9m que voc\u00ea n\u00e3o conhe\u00e7a ou contenha assuntos suspeitos. Ao abri-los, tenha o antiv\u00edrus atualizado e preste bastante aten\u00e7\u00e3o a quaisquer avisos exibidos pelo navegador de internet ou programa de e-mail.</li>\n<li>Usar programas de anonimato como o <a href=\"/pt/glossary#Tor\"><em>Tor</em></a>, descrito no <a href=\"/pt/chapter-8\"><strong><em>Cap\u00edtulo 8: Como manter o anonimato e contornar a censura na internet</em></strong></a>, podem ajudar a esconder o servi\u00e7o de correio eletr\u00f4nico que voc\u00ea usa de algu\u00e9m monitorando sua conex\u00e3o de internet. Dependendo da extens\u00e3o dos filtros de censura \u00e0 rede em seu pa\u00eds, talvez seja preciso usar o <a href=\"/pt/glossary#Tor\"><em>Tor</em></a> ou outra das ferramentas de <a href=\"/pt/glossary#Circumvention\"><em>circunven\u00e7\u00e3o</em></a> descritas no <a href=\"/pt/chapter-8\"><strong><em>cap\u00edtulo 8</em></strong></a> para acessar provedores de correio eletr\u00f4nico seguro como o <a href=\"/pt/glossary#RiseUp\"><em>RiseUp</em></a> ou o Gmail.</li>\n<li>Ao criar uma conta para ser usada de forma an\u00f4nima dos pr\u00f3prios destinat\u00e1rios de suas mensagens ou em f\u00f3runs p\u00fablicos nos quais seja poss\u00edvel publicar mensagens por e-mail, tome o cuidado de n\u00e3o registrar um <em>username</em> (nome de quem usa a conta) ou 'Nome completo' relacionado \u00e0 sua vida pessoal ou profissional. Em tais casos, \u00e9 importante evitar usar Hotmail, Yahoo e qualquer outro provedor que inclua o <a href=\"/pt/glossary#IP_address\"><em>endere\u00e7o de IP</em></a> nas mensagens enviadas.</li>\n<li>Dependendo de quem tenha acesso f\u00edsico ao seu computador, limpar rastros relacionados a correspond\u00eancias eletr\u00f4nicas nos arquivos tempor\u00e1rios pode ser t\u00e3o importante quanto proteger as mensagens em seu trajeto ao longo da internet. Veja o <a href=\"/pt/chapter-6\"><strong><em>Cap\u00edtulo 6: Como destruir informa\u00e7\u00f5es sens\u00edveis</em></strong></a> e o <a href=\"/pt/ccleaner_main\"><strong><em>Guia Pr\u00e1tico do CCleaner</em></strong></a> para mais detalhes.</li>\n<li>Considere usar diversas contas an\u00f4nimas diferentes ao se comunicar com grupos distintos de pessoas, de forma a proteger sua rede de contatos. Considere tamb\u00e9m usar contas diferentes em servi\u00e7os da internet que requeiram e-mail para se registrar.</li>\n<li>Depois de todas as precau\u00e7\u00f5es acima, ainda \u00e9 muito importante tomar cuidado com o conte\u00fado das mensagens e seu impacto, caso caia em m\u00e3os erradas. Uma forma de aumentar a seguran\u00e7a da comunica\u00e7\u00e3o \u00e9 desenvolver um sistema de c\u00f3digo para informa\u00e7\u00f5es sens\u00edveis, para n\u00e3o precisar usar nomes reais de pessoas, endere\u00e7os reais de lugares etc.</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "Existem alguns passos importantes que devem ser dados para aumentar a seguran\u00e7a de sua comunica\u00e7\u00e3o por e-mail. O primeiro \u00e9 assegurar que a pessoa para quem voc\u00ea enviou a mensagem \u00e9 a \u00fanica capaz de l\u00ea-la. Isso \u00e9 discutido nas se\u00e7\u00f5es [*Como manter seguros e-mails acessados online*](/pt/chapter_7_1) e  [*Como mudar para uma conta de e-mail mais segura*](/pt/chapter_7_1), abaixo. Al\u00e9m do b\u00e1sico, \u00e0s vezes \u00e9 cr\u00edtico que seus contatos de e-mail possam verificar se uma mensagem espec\u00edfica realmente veio de voc\u00ea, e n\u00e3o de algu\u00e9m tentando se passar por voc\u00ea. Uma forma de fazer isso \u00e9 descrita em [*Seguran\u00e7a avan\u00e7ada de e-mail*](/pt/chapter_7_4), na se\u00e7\u00e3o [*Como criptografar e autenticar mensagens de e-mail*](/pt/chapter_7_4).\r\n\r\nTamb\u00e9m \u00e9 bom saber o que fazer caso suspeite que a privacidade de sua conta de e-mail tenha sido violada. A se\u00e7\u00e3o [*Dicas sobre como agir no caso de suspeita de monitoramento de e-mails*](/pt/chapter_7_2) discorre sobre isso.\r\n\r\nLembre-se tamb\u00e9m que e-mails seguros n\u00e3o ajudam muito caso todos os textos digitados em um teclado estejam sendo gravados por um programa spyware e enviados periodicamente a algu\u00e9m pela internet. O [*Cap\u00edtulo 1: Como proteger seu computador de programas maliciosos e hackers*](/pt/chapter-1) d\u00e1 alguns conselhos sobre como evitar esse tipo de coisa e o [*Cap\u00edtulo 3: Como criar e manter senhas seguras*](/pt/chapter-3) vai ajudar a proteger as contas de e-mail e os programas de troca de mensagens instant\u00e2neas descritos abaixo.\r\n\r\n\r\n### Como manter seguros e-mails acessados online ###\r\n\r\nA Internet \u00e9 uma rede aberta por meio da qual a informa\u00e7\u00e3o tipicamente viaja em um formato leg\u00edvel. Se uma mensagem normal de e-mail \u00e9 interceptada a caminho de um destinat\u00e1rio, seu conte\u00fado pode ser lido facilmente. Como a Internet n\u00e3o \u00e9 mais do que uma grande rede mundial dependente de computadores intermedi\u00e1rios para direcionar o tr\u00e1fego, muitas pessoas diferentes podem ter a oportunidade de intercept\u00e1-la dessa forma.\r\n\r\nO [*provedor de servi\u00e7os de internet (em ingl\u00eas, ISP)*](/pt/glossary#ISP) \u00e9 a primeira parada de uma mensagem de e-mail em sua jornada para um destino final; da mesma forma, o [*provedor de internet*](/pt/glossary#ISP) do destinat\u00e1rio \u00e9 a \u00faltima parada antes de ela ser entregue. A menos que voc\u00ea tome algumas precau\u00e7\u00f5es, sua comunica\u00e7\u00e3o pode ser lida ou alterada em qualquer um desses pontos, ou em qualquer ponto entre eles.\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo: Eu estava falando sobre tudo isso com uma parceira nossa e ela disse que tanto ela como suas colegas \u00e0s vezes salvam mensagens importantes na pasta de 'Rascunhos' de uma conta online de e-mail, da qual todas sabem a senha. Parece meio estranho, mas voc\u00ea acha que funcionaria? Digo, isso n\u00e3o evitaria outras pessoas de ler as mensagens, j\u00e1 que n\u00e3o chegaram a ser enviadas?\r\n\r\nClaudia: Toda vez que voc\u00ea l\u00ea um e-mail no seu computador, mesmo que seja somente um 'rascunho', o conte\u00fado daquela mensagem j\u00e1 foi enviado pela internet. Sen\u00e3o n\u00e3o apareceria na tela, entende? A parte importante \u00e9, se algu\u00e9m est\u00e1 monitorando a sua conta, n\u00e3o monitora apenas as mensagens de e-mail. Essa pessoa pode monitorar todas as informa\u00e7\u00f5es leg\u00edveis que chegam e saem do seu computador. Em outras palavras, o truque n\u00e3o funcionaria a menos que todas se conectassem de forma segura \u00e0quela conta conjunta de e-mail. E, se elas podem se conectar de forma segura, podem muito bem criar contas separadas e passar a enviar as mensagens.\r\n</div>\r\n\r\n\r\nJ\u00e1 \u00e9 poss\u00edvel h\u00e1 algum tempo tornar segura a conex\u00e3o entre o um computador e os sites visitados na internet. A tecnologia que torna isso poss\u00edvel chama-se *Secure Sockets Layer*, ou [*criptografia*](/pt/glossary#Encryption) [*SSL*](/pt/glossary#SSL). \u00c9 comum encontrar esse tipo de seguran\u00e7a em p\u00e1ginas de preenchimento de dados e senha de cart\u00f5es de cr\u00e9dito, e d\u00e1 para saber se est\u00e1 sendo usada olhando com aten\u00e7\u00e3o a **barra de endere\u00e7os** do navegador.\r\n\r\nTodos os endere\u00e7os da internet come\u00e7am com as letras **HTTP**, como se v\u00ea no exemplo abaixo:\r\n\r\n![](/sites/securitybkp.ngoinabox.org/files/u7/01.png)\r\n\r\nQuando voc\u00ea visita um site seguro, o endere\u00e7o come\u00e7ar\u00e1 com **HTTPS**. \r\n\r\n![](/sites/securitybkp.ngoinabox.org/files/u7/02.png)\r\n\r\nO **S** ao final significa que o computador estabeleceu uma conex\u00e3o segura com o site. Voc\u00ea tamb\u00e9m notar\u00e1 o s\u00edmbolo de um 'cadeado', situado ou na **barra de endere\u00e7os** ou na **barra de status** do navegador, na parte de baixo da janela. Esses sinais visuais querem dizer que pessoas monitorando sua conex\u00e3o de internet n\u00e3o ser\u00e3o mais capazes de interceptar sua comunica\u00e7\u00e3o com aquele site de forma leg\u00edvel.\r\n\r\nAl\u00e9m de proteger senhas e transa\u00e7\u00f5es financeiras, esse tipo de [*criptografia*](/pt/glossary#Encryption) \u00e9 perfeita para correios eletr\u00f4nicos. O problema \u00e9 que muitos provedores de e-mail n\u00e3o oferecem acesso seguro e outros requerem habilit\u00e1-lo de forma expl\u00edcita, configurando o navegador ou digitando manualmente o **HTTPS**. Antes de fazer login, enviar ou ler uma correspond\u00eancia eletr\u00f4nica, tenha certeza de que a conex\u00e3o \u00e9 segura.\r\n\r\nVoc\u00ea tamb\u00e9m deve prestar bastante aten\u00e7\u00e3o caso o navegador comece a emitir avisos sobre [*certificados de seguran\u00e7a*](/pt/glossary#Security_certificate) inv\u00e1lidos ao tentar acessar uma conta online segura de e-mails. Isso pode significar que algu\u00e9m esteja interferindo na comunica\u00e7\u00e3o entre o seu computador e o servidor, de modo a interceptar as mensagens. Finalmente, se voc\u00ea depende de servi\u00e7os online de e-mail para trocar informa\u00e7\u00f5es sens\u00edveis, \u00e9 importante usar um navegador o mais seguro poss\u00edvel. Considere instalar o Mozilla [*Firefox*](/pt/glossary#Firefox) com seus complementos relacionados a seguran\u00e7a.\r\n\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nGuia Pr\u00e1tico - saiba usar o [*Firefox com complementos - Navegador seguro de internet*](/pt/firefox_main)\r\n</div>\t\t\t\r\n\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo: Quando n\u00e3o est\u00e1 no trabalho, um dos caras que v\u00e3o trabalhar conosco neste relat\u00f3rio costuma usar uma conta online de e-mail da Yahoo. Tamb\u00e9m lembro de mais algu\u00e9m usar o Hotmail. Se eu mandar uma mensagem a qualquer um deles, elas podem ser lidas por outras pessoas?\r\n\r\nClaudia: Provavelmente. O Yahoo, o Hotmail e v\u00e1rios outros provedores de e-mail online t\u00eam sites n\u00e3o seguros que n\u00e3o protegem a privacidade das mensagens. Vamos ter que mudar os h\u00e1bitos de algumas pessoas se queremos discutir os depoimentos de forma segura.\r\n</div>\t\t\r\n\r\n\r\n### Como mudar para uma conta de e-mail mais segura ###\r\n\r\nPoucos servi\u00e7os online de e-mail oferecem acesso com [*SSL*](/pt/glossary#SSL) \u00e0 conta. O Yahoo e o Hotmail, por exemplo, estabelecem uma conex\u00e3o segura *apenas* na tela de *login*, para proteger a senha, mas a comunica\u00e7\u00e3o \u00e9 enviada e recebida de forma insegura. Al\u00e9m disso, Yahoo, Hotmail e outros provedores de e-mail online inserem o [*endere\u00e7o de IP*](/pt/glossary#IP_address) do computador que voc\u00ea estiver usando em todas as mensagens enviadas.\r\n\r\nContas do Gmail, por outro lado, mant\u00e9m conex\u00f5es seguras desde a tela de *login*, passando por todo o uso da conta e at\u00e9 o *logout*, quando voc\u00ea sai dela. \u00c9 poss\u00edvel confirmar isso na barra de endere\u00e7os do navegador, onde a URL inicia a todo o momento com 'https' (o 's' denota uma conex\u00e3o segura). Ao contr\u00e1rio do Yahoo ou Hotmail, o Gmail evita revelar o [*endere\u00e7o de IP*](/pt/glossary#IP_address). \r\n\r\nN\u00e3o \u00e9 recomend\u00e1vel, entretanto, confiar inteiramente no Google para manter sigilosas comunica\u00e7\u00f5es sens\u00edveis. O Google analisa e armazena para diversos fins o conte\u00fado das mensagens de seus clientes e, no passado, cedeu a demandas de governos que restringem a liberdade digital. Veja a se\u00e7\u00e3o [***Leitura extra***](/pt/chapter_7_5) para mais informa\u00e7\u00f5es sobre a pol\u00edtica de privacidade do Google.\r\n\r\nSe poss\u00edvel, crie uma nova conta de e-mail no [*RiseUp*](/pt/glossary#RiseUp) em [*https://mail.riseup.net*](https://mail.riseup.net). O [*RiseUp*](/pt/glossary#RiseUp) fornece e-mail gratuito para ativistas ao redor do mundo e tem bastante cuidado na prote\u00e7\u00e3o da informa\u00e7\u00e3o guardada em seus servidores. H\u00e1 algum tempo que eles s\u00e3o uma fonte confi\u00e1vel para quem busca solu\u00e7\u00f5es seguras de e-mails. Ao contr\u00e1rio do Google, o [*RiseUp*](/pt/glossary#RiseUp) possui pol\u00edticas bastante restritivas de prote\u00e7\u00e3o \u00e0 privacidade de quem o usa, al\u00e9m de n\u00e3o ter interesses comerciais, o que poderia entrar em conflito com essas pol\u00edticas em algum momento. Para criar uma nova conta, \u00e9 preciso obter dois 'convites' em forma de c\u00f3digo, sendo que tais c\u00f3digos podem ser fornecidos por qualquer pessoa que j\u00e1 tenha uma conta no [*RiseUp*](/pt/glossary#RiseUp). Se voc\u00ea possui uma c\u00f3pia f\u00edsica desse Guia de Refer\u00eancia, deve ter recebido seus 'convites' com ela. Caso contr\u00e1rio, ser\u00e1 preciso encontrar duas pessoas que usam o servi\u00e7o e pedi-los a elas.\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nGuia Pr\u00e1tico - saiba usar o [*RiseUp - Servi\u00e7o de e-mail seguro*](/pt/riseup_main)\r\n</div>\t\r\n\r\nTanto o Gmail como o [*RiseUp*](/pt/glossary#RiseUp) s\u00e3o mais do que apenas provedores de correio eletr\u00f4nico online. Ambos podem ser usados com um programa cliente de e-mail como o Mozilla [*Thunderbird*](/pt/glossary#Thunderbird), que permite usar as t\u00e9cnicas descritas em [***Seguran\u00e7a avan\u00e7ada de e-mail***](/pt/chapter_7_4). Assegurar que o seu cliente de e-mails estabele\u00e7a uma conex\u00e3o [*criptografada*](/pt/glossary#Encryption) com o provedor \u00e9 t\u00e3o importante quanto acess\u00e1-lo online usando **HTTPS**. Se voc\u00ea usar um cliente de e-mail, veja o [***Guia Pr\u00e1tico do Thunderbird***](/pt/thunderbird_main) para mais detalhes. No m\u00ednimo, por\u00e9m, voc\u00ea deve habilitar [*SSL*](/pt/glossary#SSL) ou [*criptografia*](/pt/glossary#Encryption) para os servidores de e-mail tanto de chegada como de sa\u00edda.\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo: Ent\u00e3o eu deveria mudar para o RiseUp ou posso continuar usando o Gmail e s\u00f3 passar a usar o endere\u00e7o seguro 'https'?\r\n\r\nClaudia: Voc\u00ea quem sabe, mas h\u00e1 algumas coisas que  definitivamente deveria considerar ao escolher um provedor de e-mail. Primeiro, ele oferece uma conex\u00e3o segura \u00e0 sua conta? O Gmail sim, ent\u00e3o at\u00e9 a\u00ed tudo bem. Segundo, voc\u00ea confia nos administradores para manter sua correspond\u00eancia privada, n\u00e3o l\u00ea-la ou dividi-la com outras pessoas? Essa \u00e9 com voc\u00ea. Finalmente, pense se \u00e9 aceit\u00e1vel ou n\u00e3o voc\u00ea ser associado a um provedor. Em outras palavras, ter um endere\u00e7o de correio eletr\u00f4nico com final 'riseup.net', conhecido por ser usado por ativistas, vai te criar problemas ou voc\u00ea precisa de um endere\u00e7o mais t\u00edpico, com final 'gmail.com'?\r\n</div>\r\n\r\nIndependentemente de quais ferramentas de e-mail seguro decida usar, lembre que cada mensagem tem algu\u00e9m como remetente e uma ou mais pessoas como destinat\u00e1rias. Voc\u00ea \u00e9 apenas parte do conjunto. Mesmo que acesse sua conta de e-mail de forma segura, considere as precau\u00e7\u00f5es que seus contatos podem ou n\u00e3o tomar ao enviar, ler e responder mensagens.\r\n\r\nTente saber tamb\u00e9m onde s\u00e3o localizados os provedores de correio eletr\u00f4nico de seus contatos, pois alguns pa\u00edses s\u00e3o mais agressivos que outros na quest\u00e3o da vigil\u00e2ncia de e-mails. **Para ter certeza sobre a privacidade da comunica\u00e7\u00e3o, voc\u00ea e seus contatos devem usar servi\u00e7os seguros de e-mail, hospedados em pa\u00edses relativamente seguros.** Para assegurar que as mensagens n\u00e3o sejam interceptadas entre os diferentes servidores dos provedores de correio eletr\u00f4nico, considere usar contas do mesmo provedor. O [*RiseUp*](/pt/glossary#RiseUp) \u00e9 uma boa escolha.\r\n\r\n \r\n### Dicas extras sobre como melhorar a seguran\u00e7a do seu e-mail ### \r\n\r\n  * Tenha sempre cautela ao abrir arquivos anexos que voc\u00ea n\u00e3o estava esperando, vindos de algu\u00e9m que voc\u00ea n\u00e3o conhe\u00e7a ou contenha assuntos suspeitos. Ao abri-los, tenha o antiv\u00edrus atualizado e preste bastante aten\u00e7\u00e3o a quaisquer avisos exibidos pelo navegador de internet ou programa de e-mail.\r\n  * Usar programas de anonimato como o [*Tor*](/pt/glossary#Tor), descrito no [***Cap\u00edtulo 8: Como manter o anonimato e contornar a censura na internet***](/pt/chapter-8), podem ajudar a esconder o servi\u00e7o de correio eletr\u00f4nico que voc\u00ea usa de algu\u00e9m monitorando sua conex\u00e3o de internet. Dependendo da extens\u00e3o dos filtros de censura \u00e0 rede em seu pa\u00eds, talvez seja preciso usar o [*Tor*](/pt/glossary#Tor) ou outra das ferramentas de [*circunven\u00e7\u00e3o*](/pt/glossary#Circumvention) descritas no [***cap\u00edtulo 8***](/pt/chapter-8) para acessar provedores de correio eletr\u00f4nico seguro como o [*RiseUp*](/pt/glossary#RiseUp) ou o Gmail.\r\n  * Ao criar uma conta para ser usada de forma an\u00f4nima dos pr\u00f3prios destinat\u00e1rios de suas mensagens ou em f\u00f3runs p\u00fablicos nos quais seja poss\u00edvel publicar mensagens por e-mail, tome o cuidado de n\u00e3o registrar um *username* (nome de quem usa a conta) ou 'Nome completo' relacionado \u00e0 sua vida pessoal ou profissional. Em tais casos, \u00e9 importante evitar usar Hotmail, Yahoo e qualquer outro provedor que inclua o [*endere\u00e7o de IP*](/pt/glossary#IP_address) nas mensagens enviadas.\r\n  * Dependendo de quem tenha acesso f\u00edsico ao seu computador, limpar rastros relacionados a correspond\u00eancias eletr\u00f4nicas nos arquivos tempor\u00e1rios pode ser t\u00e3o importante quanto proteger as mensagens em seu trajeto ao longo da internet. Veja o [***Cap\u00edtulo 6: Como destruir informa\u00e7\u00f5es sens\u00edveis***](/pt/chapter-6) e o [***Guia Pr\u00e1tico do CCleaner***](/pt/ccleaner_main) para mais detalhes.\r\n  * Considere usar diversas contas an\u00f4nimas diferentes ao se comunicar com grupos distintos de pessoas, de forma a proteger sua rede de contatos. Considere tamb\u00e9m usar contas diferentes em servi\u00e7os da internet que requeiram e-mail para se registrar.\r\n  * Depois de todas as precau\u00e7\u00f5es acima, ainda \u00e9 muito importante tomar cuidado com o conte\u00fado das mensagens e seu impacto, caso caia em m\u00e3os erradas. Uma forma de aumentar a seguran\u00e7a da comunica\u00e7\u00e3o \u00e9 desenvolver um sistema de c\u00f3digo para informa\u00e7\u00f5es sens\u00edveis, para n\u00e3o precisar usar nomes reais de pessoas, endere\u00e7os reais de lugares etc."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1957", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1957", 
+                "link_title": "Securing your email", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5102", 
+                "module": "book", 
+                "nid": "1957", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5101", 
+                "p3": "5102", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5101", 
+                "router_path": "node/%", 
+                "title": "Securing your email", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1454081557", 
+            "comment": "0", 
+            "created": "1441104534", 
+            "current_revision_id": "13079", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_7_1", 
+                        "value": "chapter_7_1"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5102": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1957", 
+                    "link_title": "Securing your email", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5102", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5101", 
+                    "p3": "5102", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5101", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1957", 
+            "num_revisions": "25", 
+            "path": "https://securityinabox.org/en/node/1957", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1454081557", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como aumentar a seguran\u00e7a em e-mails", 
+                        "value": "Como aumentar a seguran\u00e7a em e-mails"
+                    }
+                ]
+            }, 
+            "title_original": "Securing your email", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442917043", 
+                        "created": "1442917043", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454081557", 
+                        "created": "1441807179", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096698", 
+                        "created": "1443096698", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442413432", 
+                        "created": "1442413432", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441207829", 
+                        "created": "1441207829", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447108474", 
+                        "created": "1442761442", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443706061", 
+                        "created": "1443706061", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452610039", 
+                        "created": "1452610039", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457185", 
+                        "created": "1443457185", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441116016", 
+                        "created": "1441116016", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443806117", 
+                        "created": "1443805205", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443101101", 
+                        "created": "1443101101", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443093824", 
+                        "created": "1443093824", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441104534", 
+                        "created": "1441104534", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1957", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444582341", 
+                        "created": "1443623639", 
+                        "entity_id": "1957", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1957", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "07c38f73-e0e7-4b89-bac6-c5c1f1dcec3b", 
+            "vid": "13079", 
+            "vuuid": "e8200cc9-4527-4ece-a5c9-9001bbf011c7"
+        }, 
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p><strong>Se voc\u00ea suspeita que sua conta de e-mail tenha sido hackeada ou esteja comprometida</strong>, siga os passos abaixo para reduzir o estrago. Embora seja dif\u00edcil ter certeza, podem existir alguns ind\u00edcios como:</p>\n\n<ul><li>o conte\u00fado ou configura\u00e7\u00e3o da conta parecem estar diferentes, mesmo que voc\u00ea n\u00e3o os tenha mudado;</li>\n<li>seus contatos avisam que receberam algum e-mail seu que voc\u00ea n\u00e3o enviou;</li>\n<li>voc\u00ea n\u00e3o consegue entrar na conta, por mais que saiba que a senha e outras configura\u00e7\u00f5es estejam corretas;</li>\n<li>algumas pessoas que voc\u00ea conhece insistem haver enviado mensagens, mas voc\u00ea n\u00e3o as recebeu;</li>\n<li>algumas informa\u00e7\u00f5es privadas enviadas exclusivamente por correio eletr\u00f4nico chegaram ao conhecimento de terceiros, embora nem voc\u00ea nem a pessoa com quem se correspondia as dividiram com ningu\u00e9m;</li>\n<li>o registro de atividades da sua conta (caso o provedor de e-mail tenha um) mostra que foi acessada em algum hor\u00e1rio estranho ou a partir de um local (endere\u00e7o de IP) que voc\u00ea n\u00e3o tenha estado.</li>\n</ul><p>Nessas situa\u00e7\u00f5es, talvez voc\u00ea queira tomar algumas medidas cautelares:</p>\n\n<ul><li><p><strong>Pare de usar essa conta de e-mail para a troca de informa\u00e7\u00f5es sens\u00edveis</strong>, pelo menos at\u00e9 entender melhor a situa\u00e7\u00e3o.</p></li>\n<li><p><strong>Mude a senha o mais r\u00e1pido poss\u00edvel</strong>. Veja o <a href=\"/pt/chapter-3\"><strong><em>Cap\u00edtulo 3: Como criar e manter senhas seguras</em></strong></a>. Para poder mudar a senha da conta (ou de outras contas), \u00e9 preciso saber como faz\u00ea-lo no sistema que voc\u00ea usa. Assim, quando precisar, poder\u00e1 agir rapidamente. <strong>Mude a senha de quaisquer outras contas que tenham senhas parecidas</strong>, pois tamb\u00e9m podem estar comprometidas. Use senhas fortes e diferentes para cada conta. Talvez voc\u00ea queira mudar as senhas de todas as contas de e-mail que tenha. Considere usar o <a href=\"/pt/keepass_main\"><strong>KeePass</strong></a> para armazenar e gerenciar todas as senhas. <strong>Mude as respostas \u00e0s perguntas de seguran\u00e7a</strong> (caso voc\u00ea as use) de todas as contas, de modo a serem imposs\u00edveis de adivinhar ou deduzidas por meio de buscas por informa\u00e7\u00f5es suas online. Esta \u00e9 uma precau\u00e7\u00e3o caso seu computador esteja infectado por spyware, o que colocaria suas outras contas em risco.</p></li>\n<li><p><strong>Se n\u00e3o \u00e9 poss\u00edvel entrar na conta</strong> para trocar as senhas, considere entrar em contato com o provedor do para tentar reaver o controle do correio eletr\u00f4nico. Alguns provedores j\u00e1 possuem procedimentos especiais para ajudar pessoas nessa situa\u00e7\u00e3o. \u00c9 \u00fatil conhecer tais procedimentos antes de precisar deles.</p></li>\n<li><p><strong>Mitigue a perda de informa\u00e7\u00f5es e o impacto</strong> \u00e0 sua comunidade. \u00c9 importante fazer um plano de avisos. Ao saber que tipos de informa\u00e7\u00f5es sens\u00edveis havia e determinar as pessoas com quem eram trocadas por meio daquela conta, decida quem avisar e quais outras contas voc\u00ea deve revisitar ou fechar. Determine quais servi\u00e7os (de internet, financeiros etc.) \u00e9 preciso revisitar ou cancelar. \u00c9 importante <strong>checar as pastas de sua conta</strong> (se puder) para pesquisar o que poderia ter sido enviado por ela e agir de acordo. Para <strong>informar seus contatos</strong> \u00e9 preciso manter uma c\u00f3pia de reserva (<em>backup</em>) separada com os endere\u00e7os. Tamb\u00e9m <strong>reveja as configura\u00e7\u00f5es da conta</strong> para ver quais mudan\u00e7as podem ter sido feitas. Cheque a op\u00e7\u00e3o de assinatura por links ou malware, as op\u00e7\u00f5es de encaminhar mensagens que permitiriam enviar c\u00f3pias dos e-mails a terceiros, mensagens de aviso de f\u00e9rias ou de aus\u00eancia do escrit\u00f3rio, o nome que \u00e9 exibido quando voc\u00ea envia mensagens etc.</p></li>\n<li><p><strong>Pesquise como sua conta pode ter sido comprometida.</strong> Foi porque voc\u00ea tem uma senha fraca, foi devido a infec\u00e7\u00e3o por malware etc. Quanto mais voc\u00ea souber sobre isso, melhor ser\u00e1 capaz de responder \u00e0 situa\u00e7\u00e3o e melhor ser\u00e1 capaz de proteger seus contatos.</p></li>\n<li><p><strong>Revise a seguran\u00e7a de todos os dispositivos</strong> que acessam e-mails dessa conta e todos nos quais a senha para ela tenha sido armazenada. Veja os cap\u00edtulos <a href=\"/pt/chapter-1\">1. Como proteger seu computador de programas maliciosos e hackers</a>, <a href=\"/pt/chapter-2\">2. Como proteger seus dados de amea\u00e7as f\u00edsicas</a> e <a href=\"/pt/chapter-11\">11. Como usar smartphones da forma mais segura poss\u00edvel</a>. Reveja o seu programa antiv\u00edrus (veja os Guias Pr\u00e1ticos do <a href=\"/pt/avast_main\">Avast! - Antiv\u00edrus</a> e do <a href=\"/pt/spybot_main\">Spybot - Antispyware</a>). Fa\u00e7a uma varredura no seu computador: leia a se\u00e7\u00e3o <a href=\"/pt/dealingwithviruses#4.1\">4.1 Um guia r\u00e1pido sobre como lidar com infec\u00e7\u00f5es de v\u00edrus</a>. Use um CD ou USB de recupera\u00e7\u00e3o para fazer uma varredura profunda - leia a se\u00e7\u00e3o <a href=\"/pt/dealingwithviruses#4.9\">4.9 M\u00e9todos avan\u00e7ados de remo\u00e7\u00e3o de v\u00edrus</a>. Se voc\u00ea n\u00e3o tem certeza de que \u00e9 poss\u00edvel limpar o dispositivo, considere reinstalar todos os programas, incluindo o sistema operacional, a partir de uma fonte limpa. Considere usar programas mais seguros como o <a href=\"/pt/firefox_main\">Firefox</a>, <a href=\"/pt/thunderbird_main\">Thunderbird</a>, <a href=\"http://www.libreoffice.org/\">LibreOffice</a> e outros <a href=\"/pt/glossary#FOSS\">programas livres e de c\u00f3digo aberto (FOSS)</a>. Depois de fazer as melhorias acima relacionadas \u00e0 seguran\u00e7a de seus dispositivos, mude novamente as senhas das contas para novas e mais fortes.</p></li>\n<li><p>Se sua conta foi hackeada, considere reportar o que aconteceu ao provedor do correio eletr\u00f4nico.</p></li>\n<li><p>Considere usar outra conta, mais segura. Por exemplo, uma que te notifique quando o acesso for feito a partir de locais ou dispositivos estranhos ou os bloqueie completamente. Considere usar uma conta hospedada fora de seu pa\u00eds. Considere usar criptografia nos e-mails - veja os Guias Pr\u00e1ticos do <a href=\"/pt/gpg4usb_portable\">gpg4usb port\u00e1til - Criptografia para textos e arquivos de e-mail</a> e do <a href=\"/pt/thunderbird_main\">Thunderbird com Enigmail e GPG - Cliente seguro de e-mail</a>.</p></li>\n<li><p>Considere n\u00e3o deixar e-mails lidos armazenados no servidor de e-mails de seu provedor. Em vez disso, baixe-os para um computador seguro. Avalie a seguran\u00e7a de como voc\u00ea acessa sua conta e os dispositivos  que voc\u00ea usa para faz\u00ea-lo.</p></li>\n</ul><p>\u00c9 importante agir rapidamente e de forma precisa em uma situa\u00e7\u00e3o como essa. Ter um plano preparado e ensaiado pode ajudar bastante.</p>\n\n<p><strong>Se voc\u00ea suspeita que algu\u00e9m j\u00e1 est\u00e1 monitorando o seu e-mail</strong>, pode criar uma conta nova e manter a antiga como chamariz. Lembre-se, por\u00e9m, que quaisquer contas com as quais voc\u00ea tenha trocado e-mails no passado tamb\u00e9m podem estar sob vigil\u00e2ncia agora. Como resultado, tome algumas precau\u00e7\u00f5es extras:</p>\n\n<ul><li>Tanto voc\u00ea como contatos com quem tenha se comunicado mais recentemente devem criar novas contas e us\u00e1-las apenas de locais nunca usados antes, como LAN houses ou Internet Caf\u00e9s. Recomendamos essa estrat\u00e9gia para evitar que conex\u00f5es sa\u00eddas de seu computador usual, que pode estar monitorado, revelem onde est\u00e1 seu novo correio eletr\u00f4nico. Como alternativa, se n\u00e3o puder entrar na conta nova sem sair de sua localiza\u00e7\u00e3o normal, use uma das ferramentas descritas no <a href=\"/pt/chapter-8\"><strong><em>Cap\u00edtulo 8: Como manter o anonimato e contornar a censura na internet</em></strong></a>, para esconder tais conex\u00f5es.</li>\n<li>Fale sobre a exist\u00eancia desse novo endere\u00e7o de correio eletr\u00f4nico apenas por canais seguros como encontros presenciais, ferramentas de mensagens instant\u00e2neas seguras ou conversas por <a href=\"/pt/glossary#VoIP\"><em>VoIP</em></a> criptografadas.</li>\n<li>Mantenha o tr\u00e1fego da conta antiga quase inalterado, pelo menos por um tempo. Deve parecer a quem a estiver monitorando que ainda est\u00e1 sendo usada para comunica\u00e7\u00f5es sens\u00edveis. Voc\u00ea vai querer evitar revelar informa\u00e7\u00f5es cr\u00edticas, mas deve tentar n\u00e3o deixar isso \u00f3bvio. Como se pode imaginar, este passo \u00e9 desafiador.</li>\n<li>Torne dif\u00edcil ligar sua identidade real \u00e0 nova conta de correio eletr\u00f4nico. N\u00e3o mande e-mails entre as contas nova e antiga, ou para as contas de contatos que podem estar sendo monitorados.</li>\n<li>Tenha cautela sobre o que escrever ao usar a conta nova. \u00c9 melhor evitar usar nomes e endere\u00e7os reais, assim como termos como 'direitos humanos' ou 'tortura'. Crie um sistema de c\u00f3digos com seus contatos e mude-o periodicamente.</li>\n<li>Lembre-se: a seguran\u00e7a de e-mails n\u00e3o est\u00e1 relacionada apenas a defesas t\u00e9cnicas fortes. Tamb\u00e9m envolve prestar aten\u00e7\u00e3o em como voc\u00ea e seus contatos se comunicam entre si e em manter a disciplina de h\u00e1bitos de seguran\u00e7a n\u00e3o t\u00e9cnicos.</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "**Se voc\u00ea suspeita que sua conta de e-mail tenha sido hackeada ou esteja comprometida**, siga os passos abaixo para reduzir o estrago. Embora seja dif\u00edcil ter certeza, podem existir alguns ind\u00edcios como:\r\n\r\n  * o conte\u00fado ou configura\u00e7\u00e3o da conta parecem estar diferentes, mesmo que voc\u00ea n\u00e3o os tenha mudado;\r\n  * seus contatos avisam que receberam algum e-mail seu que voc\u00ea n\u00e3o enviou;\r\n  * voc\u00ea n\u00e3o consegue entrar na conta, por mais que saiba que a senha e outras configura\u00e7\u00f5es estejam corretas;\r\n  * algumas pessoas que voc\u00ea conhece insistem haver enviado mensagens, mas voc\u00ea n\u00e3o as recebeu;\r\n  * algumas informa\u00e7\u00f5es privadas enviadas exclusivamente por correio eletr\u00f4nico chegaram ao conhecimento de terceiros, embora nem voc\u00ea nem a pessoa com quem se correspondia as dividiram com ningu\u00e9m;\r\n  * o registro de atividades da sua conta (caso o provedor de e-mail tenha um) mostra que foi acessada em algum hor\u00e1rio estranho ou a partir de um local (endere\u00e7o de IP) que voc\u00ea n\u00e3o tenha estado.\r\n\r\nNessas situa\u00e7\u00f5es, talvez voc\u00ea queira tomar algumas medidas cautelares:\r\n\r\n- **Pare de usar essa conta de e-mail para a troca de informa\u00e7\u00f5es sens\u00edveis**, pelo menos at\u00e9 entender melhor a situa\u00e7\u00e3o.\r\n\r\n- **Mude a senha o mais r\u00e1pido poss\u00edvel**. Veja o [***Cap\u00edtulo 3: Como criar e manter senhas seguras***](/pt/chapter-3). Para poder mudar a senha da conta (ou de outras contas), \u00e9 preciso saber como faz\u00ea-lo no sistema que voc\u00ea usa. Assim, quando precisar, poder\u00e1 agir rapidamente. **Mude a senha de quaisquer outras contas que tenham senhas parecidas**, pois tamb\u00e9m podem estar comprometidas. Use senhas fortes e diferentes para cada conta. Talvez voc\u00ea queira mudar as senhas de todas as contas de e-mail que tenha. Considere usar o [**KeePass**](/pt/keepass_main) para armazenar e gerenciar todas as senhas. **Mude as respostas \u00e0s perguntas de seguran\u00e7a** (caso voc\u00ea as use) de todas as contas, de modo a serem imposs\u00edveis de adivinhar ou deduzidas por meio de buscas por informa\u00e7\u00f5es suas online. Esta \u00e9 uma precau\u00e7\u00e3o caso seu computador esteja infectado por spyware, o que colocaria suas outras contas em risco.\r\n\r\n- **Se n\u00e3o \u00e9 poss\u00edvel entrar na conta** para trocar as senhas, considere entrar em contato com o provedor do para tentar reaver o controle do correio eletr\u00f4nico. Alguns provedores j\u00e1 possuem procedimentos especiais para ajudar pessoas nessa situa\u00e7\u00e3o. \u00c9 \u00fatil conhecer tais procedimentos antes de precisar deles.\r\n\r\n- **Mitigue a perda de informa\u00e7\u00f5es e o impacto** \u00e0 sua comunidade. \u00c9 importante fazer um plano de avisos. Ao saber que tipos de informa\u00e7\u00f5es sens\u00edveis havia e determinar as pessoas com quem eram trocadas por meio daquela conta, decida quem avisar e quais outras contas voc\u00ea deve revisitar ou fechar. Determine quais servi\u00e7os (de internet, financeiros etc.) \u00e9 preciso revisitar ou cancelar. \u00c9 importante **checar as pastas de sua conta** (se puder) para pesquisar o que poderia ter sido enviado por ela e agir de acordo. Para **informar seus contatos** \u00e9 preciso manter uma c\u00f3pia de reserva (*backup*) separada com os endere\u00e7os. Tamb\u00e9m **reveja as configura\u00e7\u00f5es da conta** para ver quais mudan\u00e7as podem ter sido feitas. Cheque a op\u00e7\u00e3o de assinatura por links ou malware, as op\u00e7\u00f5es de encaminhar mensagens que permitiriam enviar c\u00f3pias dos e-mails a terceiros, mensagens de aviso de f\u00e9rias ou de aus\u00eancia do escrit\u00f3rio, o nome que \u00e9 exibido quando voc\u00ea envia mensagens etc.\r\n\r\n- **Pesquise como sua conta pode ter sido comprometida.** Foi porque voc\u00ea tem uma senha fraca, foi devido a infec\u00e7\u00e3o por malware etc. Quanto mais voc\u00ea souber sobre isso, melhor ser\u00e1 capaz de responder \u00e0 situa\u00e7\u00e3o e melhor ser\u00e1 capaz de proteger seus contatos.\r\n\r\n- **Revise a seguran\u00e7a de todos os dispositivos** que acessam e-mails dessa conta e todos nos quais a senha para ela tenha sido armazenada. Veja os cap\u00edtulos [1. Como proteger seu computador de programas maliciosos e hackers](/pt/chapter-1), [2. Como proteger seus dados de amea\u00e7as f\u00edsicas](/pt/chapter-2) e [11. Como usar smartphones da forma mais segura poss\u00edvel](/pt/chapter-11). Reveja o seu programa antiv\u00edrus (veja os Guias Pr\u00e1ticos do [Avast! - Antiv\u00edrus](/pt/avast_main) e do [Spybot - Antispyware](/pt/spybot_main)). Fa\u00e7a uma varredura no seu computador: leia a se\u00e7\u00e3o [4.1 Um guia r\u00e1pido sobre como lidar com infec\u00e7\u00f5es de v\u00edrus](/pt/dealingwithviruses#4.1). Use um CD ou USB de recupera\u00e7\u00e3o para fazer uma varredura profunda - leia a se\u00e7\u00e3o [4.9 M\u00e9todos avan\u00e7ados de remo\u00e7\u00e3o de v\u00edrus](/pt/dealingwithviruses#4.9). Se voc\u00ea n\u00e3o tem certeza de que \u00e9 poss\u00edvel limpar o dispositivo, considere reinstalar todos os programas, incluindo o sistema operacional, a partir de uma fonte limpa. Considere usar programas mais seguros como o [Firefox](/pt/firefox_main), [Thunderbird](/pt/thunderbird_main), [LibreOffice](http://www.libreoffice.org/) e outros [programas livres e de c\u00f3digo aberto (FOSS)](/pt/glossary#FOSS). Depois de fazer as melhorias acima relacionadas \u00e0 seguran\u00e7a de seus dispositivos, mude novamente as senhas das contas para novas e mais fortes.\r\n\r\n- Se sua conta foi hackeada, considere reportar o que aconteceu ao provedor do correio eletr\u00f4nico.\r\n\r\n- Considere usar outra conta, mais segura. Por exemplo, uma que te notifique quando o acesso for feito a partir de locais ou dispositivos estranhos ou os bloqueie completamente. Considere usar uma conta hospedada fora de seu pa\u00eds. Considere usar criptografia nos e-mails - veja os Guias Pr\u00e1ticos do [gpg4usb port\u00e1til - Criptografia para textos e arquivos de e-mail](/pt/gpg4usb_portable) e do [Thunderbird com Enigmail e GPG - Cliente seguro de e-mail](/pt/thunderbird_main). \r\n\r\n- Considere n\u00e3o deixar e-mails lidos armazenados no servidor de e-mails de seu provedor. Em vez disso, baixe-os para um computador seguro. Avalie a seguran\u00e7a de como voc\u00ea acessa sua conta e os dispositivos  que voc\u00ea usa para faz\u00ea-lo.\r\n\r\n\u00c9 importante agir rapidamente e de forma precisa em uma situa\u00e7\u00e3o como essa. Ter um plano preparado e ensaiado pode ajudar bastante.\r\n\r\n\r\n**Se voc\u00ea suspeita que algu\u00e9m j\u00e1 est\u00e1 monitorando o seu e-mail**, pode criar uma conta nova e manter a antiga como chamariz. Lembre-se, por\u00e9m, que quaisquer contas com as quais voc\u00ea tenha trocado e-mails no passado tamb\u00e9m podem estar sob vigil\u00e2ncia agora. Como resultado, tome algumas precau\u00e7\u00f5es extras:\r\n\r\n  * Tanto voc\u00ea como contatos com quem tenha se comunicado mais recentemente devem criar novas contas e us\u00e1-las apenas de locais nunca usados antes, como LAN houses ou Internet Caf\u00e9s. Recomendamos essa estrat\u00e9gia para evitar que conex\u00f5es sa\u00eddas de seu computador usual, que pode estar monitorado, revelem onde est\u00e1 seu novo correio eletr\u00f4nico. Como alternativa, se n\u00e3o puder entrar na conta nova sem sair de sua localiza\u00e7\u00e3o normal, use uma das ferramentas descritas no [***Cap\u00edtulo 8: Como manter o anonimato e contornar a censura na internet***](/pt/chapter-8), para esconder tais conex\u00f5es.\r\n  * Fale sobre a exist\u00eancia desse novo endere\u00e7o de correio eletr\u00f4nico apenas por canais seguros como encontros presenciais, ferramentas de mensagens instant\u00e2neas seguras ou conversas por [*VoIP*](/pt/glossary#VoIP) criptografadas.\r\n  * Mantenha o tr\u00e1fego da conta antiga quase inalterado, pelo menos por um tempo. Deve parecer a quem a estiver monitorando que ainda est\u00e1 sendo usada para comunica\u00e7\u00f5es sens\u00edveis. Voc\u00ea vai querer evitar revelar informa\u00e7\u00f5es cr\u00edticas, mas deve tentar n\u00e3o deixar isso \u00f3bvio. Como se pode imaginar, este passo \u00e9 desafiador.\r\n  * Torne dif\u00edcil ligar sua identidade real \u00e0 nova conta de correio eletr\u00f4nico. N\u00e3o mande e-mails entre as contas nova e antiga, ou para as contas de contatos que podem estar sendo monitorados.\r\n  * Tenha cautela sobre o que escrever ao usar a conta nova. \u00c9 melhor evitar usar nomes e endere\u00e7os reais, assim como termos como 'direitos humanos' ou 'tortura'. Crie um sistema de c\u00f3digos com seus contatos e mude-o periodicamente.\r\n  * Lembre-se: a seguran\u00e7a de e-mails n\u00e3o est\u00e1 relacionada apenas a defesas t\u00e9cnicas fortes. Tamb\u00e9m envolve prestar aten\u00e7\u00e3o em como voc\u00ea e seus contatos se comunicam entre si e em manter a disciplina de h\u00e1bitos de seguran\u00e7a n\u00e3o t\u00e9cnicos."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1958", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1958", 
+                "link_title": "Tips on responding to suspected email hacking and surveillance", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5103", 
+                "module": "book", 
+                "nid": "1958", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5101", 
+                "p3": "5103", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5101", 
+                "router_path": "node/%", 
+                "title": "Tips on responding to suspected email hacking and surveillance", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1456314319", 
+            "comment": "0", 
+            "created": "1441104684", 
+            "current_revision_id": "13350", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_7_2", 
+                        "value": "chapter_7_2"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5103": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1958", 
+                    "link_title": "Tips on responding to suspected email hacking and surveillance", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5103", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5101", 
+                    "p3": "5103", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5101", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1958", 
+            "num_revisions": "22", 
+            "path": "https://securityinabox.org/en/node/1958", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456314319", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Dicas sobre como agir no caso de suspeita de monitoramento de e-mails", 
+                        "value": "Dicas sobre como agir no caso de suspeita de monitoramento de e-mails"
+                    }
+                ]
+            }, 
+            "title_original": "Tips on responding to suspected email hacking and surveillance", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442917116", 
+                        "created": "1442917116", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227788", 
+                        "created": "1441807318", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096676", 
+                        "created": "1443096676", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442413573", 
+                        "created": "1442413573", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441207916", 
+                        "created": "1441207916", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1456314319", 
+                        "created": "1442761461", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443706033", 
+                        "created": "1443706033", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452610504", 
+                        "created": "1452610504", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457261", 
+                        "created": "1443457261", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441116181", 
+                        "created": "1441116181", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443805722", 
+                        "created": "1443805722", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443101121", 
+                        "created": "1443101121", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443093895", 
+                        "created": "1443093895", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441104684", 
+                        "created": "1441104684", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1958", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444582600", 
+                        "created": "1443623680", 
+                        "entity_id": "1958", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1958", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "cf780b4a-f28f-4c52-b681-ce93e073893d", 
+            "vid": "13350", 
+            "vuuid": "c5a40ec8-b1ba-4b47-897e-75ff58cc2fd0"
+        }, 
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Assim como em correios eletr\u00f4nicos, programas de mensagens instant\u00e2neas e de <a href=\"/pt/glossary#VoIP\"><em>voz sobre IP (VoIP)</em></a> podem ser seguros ou inseguros, dependendo das ferramentas escolhidas e de como s\u00e3o usadas.</p>\n\n<p><strong>Tornando seguro o programa de mensagens instant\u00e2neas</strong></p>\n\n<p>A troca de mensagens instant\u00e2neas, tamb\u00e9m conhecida como 'chat' ou 'bate-papo', costuma n\u00e3o ser segura e \u00e9 t\u00e3o vulner\u00e1vel \u00e0 vigil\u00e2ncia como o e-mail. H\u00e1 programas que ajudam a manter privadas as sess\u00f5es de troca de mensagens, mas, assim como acontece com os e-mails, estabelecer um canal seguro de comunica\u00e7\u00f5es exige que as duas ou mais pessoas que se comunicam usem a mesma ferramenta e tomem as mesmas precau\u00e7\u00f5es de seguran\u00e7a.</p>\n\n<p>Existe um software de bate-papo chamado <a href=\"/pt/glossary#Pidgin\"><em>Pidgin</em></a>, que suporta diversos protocolos existentes de mensagens instant\u00e2neas. Isso significa que \u00e9 poss\u00edvel come\u00e7ar a us\u00e1-lo facilmente, sem ter de trocar o nome de sua conta ou recriar sua lista de contatos. Para fazer conversas privadas e <a href=\"/pt/glossary#Encryption\"><em>criptografadas</em></a> pelo programa, \u00e9 preciso instalar e ativar o plug-in <em>Off-the-Record</em> (<a href=\"/pt/glossary#OTR\"><em>OTR</em></a>). Felizmente, este \u00e9 um processo bastante simples.</p>\n\n<div class=\"getstarted\">\n\n<p>Guia Pr\u00e1tico - saiba usar o <a href=\"/pt/pidgin_main\"><em>Pidgin com OTR - Mensagens instant\u00e2neas seguras</em></a></p>\n\n</div>\n\n<div class=\"background\">\n\n<p>Pablo: Se meu e-mail online da Yahoo n\u00e3o \u00e9 seguro, o que se pode dizer sobre o Yahoo Chat? Tamb\u00e9m \u00e9 vulner\u00e1vel?</p>\n\n<p>Claudia: O importante de lembrar \u00e9 que se queremos usar ferramentas de mensagens instant\u00e2neas para discutir este relat\u00f3rio, temos de ter certeza que todas as pessoas envolvidas t\u00eam o Pidgin instalado com OTR. Se elas t\u00eam, podemos usar o bate papo do Yahoo ou qualquer outro servi\u00e7o.</p>\n\n</div>\n\n<p><strong>Tornando seguro o programa de voz sobre IP (VoIP)</strong></p>\n\n<p>N\u00e3o \u00e9 preciso dizer o quanto os programas de <a href=\"/pt/glossary#VoIP\"><em>voz sobre IP (VoIP)</em></a> s\u00e3o \u00fateis. Afinal, chamadas entre pessoas que usam o mesmo servi\u00e7o costumam ser gratuitas e alguns programas permitem ainda ligar para telefones f\u00edsicos, incluindo n\u00fameros internacionais, a pre\u00e7os baixos. Alguns dos aplicativos <a href=\"/pt/glossary#VoIP\"><em>VoIP</em></a> mais populares de hoje s\u00e3o: <a href=\"http://www.skype.com\">Skype</a> (veja abaixo), <a href=\"http://jitsi.org/\">Jitsi</a>, <a href=\"http://www.google.com/hangouts\">Google Hangouts</a> e <a href=\"http://voice.yahoo.com/\">Yahoo! Voice</a>.</p>\n\n<p>Normalmente, a comunica\u00e7\u00e3o por voz pela internet n\u00e3o \u00e9 mais segura do que e-mails e mensagens instant\u00e2neas n\u00e3o protegidos. Para abordar informa\u00e7\u00f5es sens\u00edveis, \u00e9 importante escolher uma ferramenta que criptografe a liga\u00e7\u00e3o por todo o caminho, desde o seu computador at\u00e9 o de quem a recebe. \u00c9 sempre melhor usar programas <a href=\"/pt/glossary#FOSS\"><em>livres e de c\u00f3digo aberto (FOSS)</em></a>, em especial os revistos, testados e recomendados por comunidades confi\u00e1veis. Considerando tais crit\u00e9rios, recomendamos o <a href=\"http://jitsi.org/\"><em>Jitsi</em></a> para fazer chamadas de VoIP.</p>\n\n<div class=\"getstarted\">\n\n<p>Guia Pr\u00e1tico - saiba usar o <a href=\"/pt/jitsi\"><em>Jitsi - \u00c1udio, v\u00eddeo e mensagens instant\u00e2neas de forma segura</em></a></p>\n\n</div>\n\n<p><strong>Observa\u00e7\u00e3o sobre a seguran\u00e7a do Skype</strong></p>\n\n<p>O <a href=\"/pt/glossary#Skype\"><em>Skype</em></a> \u00e9 um programa de mensagens instant\u00e2neas e chamadas de VoIP que tamb\u00e9m permite fazer liga\u00e7\u00f5es para linhas terrestres e telefones celulares. Apesar de sua popularidade, v\u00e1rias quest\u00f5es o desqualificam como escolha segura. Algumas delas s\u00e3o descritas abaixo.</p>\n\n<p>Segundo o Skype, tanto as mensagens de texto como as chamadas por voz s\u00e3o <a href=\"/pt/glossary#Encryption\"><em>criptografadas</em></a>. Por\u00e9m, isso s\u00f3 acontece quando as duas ou mais pontas que se comunicam est\u00e3o usando o programa, e o Skype n\u00e3o criptografa liga\u00e7\u00f5es para telefones ou textos enviados como mensagem SMS. Se as duas pontas estiverem usando o software (genu\u00edno), a criptografia usada tornaria a chamada mais segura do que uma liga\u00e7\u00e3o comum feita por telefone. Por\u00e9m, como o programa tem o c\u00f3digo fechado, \u00e9 imposs\u00edvel fazer uma auditoria ou avalia\u00e7\u00e3o sobre as alega\u00e7\u00f5es relacionadas a tal criptografia, sendo portanto imposs\u00edvel verificar qu\u00e3o bem o Skype protege as pessoas que o usam, suas informa\u00e7\u00f5es e  comunica\u00e7\u00f5es.</p>\n\n<p>O <a href=\"/pt/chapter-1\"><strong><em>Cap\u00edtulo 1: Como proteger seu computador de programas maliciosos e hackers</em></strong></a> fala sobre as vantagens do <a href=\"/pt/glossary#FOSS\"><em>software livre e de c\u00f3digo aberto (FOSS)</em></a> na se\u00e7\u00e3o <a href=\"/pt/chapter_1_4\"><strong><em>Como manter os programas atualizados</em></strong></a>.</p>\n\n<p>Conforme mencionado, embora n\u00e3o possamos recomendar o Skype como ferramenta segura de comunica\u00e7\u00e3o, caso algu\u00e9m ainda queira us\u00e1-lo para falar sobre informa\u00e7\u00f5es sens\u00edveis \u00e9 bastante importante tomar algumas medidas:</p>\n\n<ul><li>Baixe e instale o programa apenas por meio do site oficial <a href=\"http://www.skype.com\">www.skype.com</a>, para evitar uma vers\u00e3o que possa estar infectada por spyware. \u00c9 importante checar com cuidado a URL para ter certeza de que \u00e9 o site oficial. Em alguns pa\u00edses, a p\u00e1gina do Skype \u00e9 bloqueada e/ou v\u00e1rias p\u00e1ginas falsas alegando ser a oficial est\u00e3o em opera\u00e7\u00e3o. Nesses casos, a vers\u00e3o dispon\u00edvel muito provavelmente est\u00e1 infectada por malware desenvolvidos para espionar todas as comunica\u00e7\u00f5es. Use as ferramentas de contorno \u00e0 censura descritas no <a href=\"/pt/chapter-8\">Cap\u00edtulo 8</a> para conectar-se ao site oficial do Skype e baixar uma vers\u00e3o genu\u00edna do programa sempre que quiser instal\u00e1-lo ou atualiz\u00e1-lo.</li>\n<li>\u00c9 extremamente importante mudar a senha de acesso ao Skype regularmente. O programa permite logins m\u00faltiplos de localiza\u00e7\u00f5es diferentes e n\u00e3o informa sobre o n\u00famero simult\u00e2neo de sess\u00f5es abertas. Isso oferece um grande risco caso a senha de acesso seja comprometida, pois qualquer pessoa que a tenha pode fazer login ao mesmo tempo. Todas as sess\u00f5es em vigor recebem toda comunica\u00e7\u00e3o por texto, assim como t\u00eam acesso ao hist\u00f3rico de chamadas. Mudar a senha \u00e9 a \u00fanica forma de desabilitar os acessos indesejados, pois for\u00e7am todas as sess\u00f5es abertas a refazer o login.</li>\n<li>Tamb\u00e9m \u00e9 aconselh\u00e1vel modificar as configura\u00e7\u00f5es do programa para que o hist\u00f3rico das conversas n\u00e3o seja guardado.</li>\n<li>\u00c9 recomend\u00e1vel desabilitar a op\u00e7\u00e3o do Skype que aceita o recebimento autom\u00e1tico de arquivos enviados, pois isso j\u00e1 foi usado para infectar m\u00e1quinas com malware/spyware.</li>\n<li>Verifique sempre de forma independente a identidade da pessoa com quem est\u00e1 se comunicando. \u00c9 mais f\u00e1cil fazer isso em conversas por voz, especialmente quando voc\u00ea conhece quem est\u00e1 do outro lado da linha.</li>\n<li>Decida se o nome que aparece no Skype deve ser identificado ou ter rela\u00e7\u00f5es com seu nome real, ou de sua organiza\u00e7\u00e3o.</li>\n<li>Tenha sempre formas alternativas para se comunicar. Prepare-se para o caso de o Skype ficar indispon\u00edvel.</li>\n<li>Tenha cuidado com o que diz. Desenvolva um sistema de c\u00f3digos para discutir t\u00f3picos sens\u00edveis sem usar terminologias espec\u00edficas.</li>\n</ul><p>Apesar da popularidade do Skype, as preocupa\u00e7\u00f5es acima o tornam question\u00e1vel para uma experi\u00eancia segura. Recomendamos usar ferramentas como o Jitsi para chamadas de voz sobre IP e o <a href=\"/pt/glossary#Pidgin\"><em>Pidgin</em></a> com o plugin <a href=\"/pt/glossary#OTR\"><em>OTR</em></a> para a troca segura de mensagens instant\u00e2neas.</p>\n", 
+                        "summary": "", 
+                        "value": "Assim como em correios eletr\u00f4nicos, programas de mensagens instant\u00e2neas e de [*voz sobre IP (VoIP)*](/pt/glossary#VoIP) podem ser seguros ou inseguros, dependendo das ferramentas escolhidas e de como s\u00e3o usadas.\r\n\r\n\r\n**Tornando seguro o programa de mensagens instant\u00e2neas**\r\n\r\nA troca de mensagens instant\u00e2neas, tamb\u00e9m conhecida como 'chat' ou 'bate-papo', costuma n\u00e3o ser segura e \u00e9 t\u00e3o vulner\u00e1vel \u00e0 vigil\u00e2ncia como o e-mail. H\u00e1 programas que ajudam a manter privadas as sess\u00f5es de troca de mensagens, mas, assim como acontece com os e-mails, estabelecer um canal seguro de comunica\u00e7\u00f5es exige que as duas ou mais pessoas que se comunicam usem a mesma ferramenta e tomem as mesmas precau\u00e7\u00f5es de seguran\u00e7a.\r\n\r\nExiste um software de bate-papo chamado [*Pidgin*](/pt/glossary#Pidgin), que suporta diversos protocolos existentes de mensagens instant\u00e2neas. Isso significa que \u00e9 poss\u00edvel come\u00e7ar a us\u00e1-lo facilmente, sem ter de trocar o nome de sua conta ou recriar sua lista de contatos. Para fazer conversas privadas e [*criptografadas*](/pt/glossary#Encryption) pelo programa, \u00e9 preciso instalar e ativar o plug-in *Off-the-Record* ([*OTR*](/pt/glossary#OTR)). Felizmente, este \u00e9 um processo bastante simples.\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nGuia Pr\u00e1tico - saiba usar o [*Pidgin com OTR - Mensagens instant\u00e2neas seguras*](/pt/pidgin_main)\r\n</div>\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo: Se meu e-mail online da Yahoo n\u00e3o \u00e9 seguro, o que se pode dizer sobre o Yahoo Chat? Tamb\u00e9m \u00e9 vulner\u00e1vel?\r\n\t\t\t\r\nClaudia: O importante de lembrar \u00e9 que se queremos usar ferramentas de mensagens instant\u00e2neas para discutir este relat\u00f3rio, temos de ter certeza que todas as pessoas envolvidas t\u00eam o Pidgin instalado com OTR. Se elas t\u00eam, podemos usar o bate papo do Yahoo ou qualquer outro servi\u00e7o.\r\n</div>\r\n\r\n\r\n**Tornando seguro o programa de voz sobre IP (VoIP)**\r\n\r\n\r\nN\u00e3o \u00e9 preciso dizer o quanto os programas de [*voz sobre IP (VoIP)*](/pt/glossary#VoIP) s\u00e3o \u00fateis. Afinal, chamadas entre pessoas que usam o mesmo servi\u00e7o costumam ser gratuitas e alguns programas permitem ainda ligar para telefones f\u00edsicos, incluindo n\u00fameros internacionais, a pre\u00e7os baixos. Alguns dos aplicativos [*VoIP*](/pt/glossary#VoIP) mais populares de hoje s\u00e3o: [Skype](http://www.skype.com) (veja abaixo), [Jitsi](http://jitsi.org/), [Google Hangouts](http://www.google.com/hangouts) e [Yahoo! Voice](http://voice.yahoo.com/).\r\n\r\nNormalmente, a comunica\u00e7\u00e3o por voz pela internet n\u00e3o \u00e9 mais segura do que e-mails e mensagens instant\u00e2neas n\u00e3o protegidos. Para abordar informa\u00e7\u00f5es sens\u00edveis, \u00e9 importante escolher uma ferramenta que criptografe a liga\u00e7\u00e3o por todo o caminho, desde o seu computador at\u00e9 o de quem a recebe. \u00c9 sempre melhor usar programas [*livres e de c\u00f3digo aberto (FOSS)*](/pt/glossary#FOSS), em especial os revistos, testados e recomendados por comunidades confi\u00e1veis. Considerando tais crit\u00e9rios, recomendamos o [*Jitsi*](http://jitsi.org/) para fazer chamadas de VoIP.\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nGuia Pr\u00e1tico - saiba usar o [*Jitsi - \u00c1udio, v\u00eddeo e mensagens instant\u00e2neas de forma segura*](/pt/jitsi)\r\n</div>\r\n\r\n\r\n**Observa\u00e7\u00e3o sobre a seguran\u00e7a do Skype**\r\n\r\nO [*Skype*](/pt/glossary#Skype) \u00e9 um programa de mensagens instant\u00e2neas e chamadas de VoIP que tamb\u00e9m permite fazer liga\u00e7\u00f5es para linhas terrestres e telefones celulares. Apesar de sua popularidade, v\u00e1rias quest\u00f5es o desqualificam como escolha segura. Algumas delas s\u00e3o descritas abaixo.\r\n\r\nSegundo o Skype, tanto as mensagens de texto como as chamadas por voz s\u00e3o [*criptografadas*](/pt/glossary#Encryption). Por\u00e9m, isso s\u00f3 acontece quando as duas ou mais pontas que se comunicam est\u00e3o usando o programa, e o Skype n\u00e3o criptografa liga\u00e7\u00f5es para telefones ou textos enviados como mensagem SMS. Se as duas pontas estiverem usando o software (genu\u00edno), a criptografia usada tornaria a chamada mais segura do que uma liga\u00e7\u00e3o comum feita por telefone. Por\u00e9m, como o programa tem o c\u00f3digo fechado, \u00e9 imposs\u00edvel fazer uma auditoria ou avalia\u00e7\u00e3o sobre as alega\u00e7\u00f5es relacionadas a tal criptografia, sendo portanto imposs\u00edvel verificar qu\u00e3o bem o Skype protege as pessoas que o usam, suas informa\u00e7\u00f5es e  comunica\u00e7\u00f5es.\r\n\r\nO [***Cap\u00edtulo 1: Como proteger seu computador de programas maliciosos e hackers***](/pt/chapter-1) fala sobre as vantagens do [*software livre e de c\u00f3digo aberto (FOSS)*](/pt/glossary#FOSS) na se\u00e7\u00e3o [***Como manter os programas atualizados***](/pt/chapter_1_4).\r\n\r\nConforme mencionado, embora n\u00e3o possamos recomendar o Skype como ferramenta segura de comunica\u00e7\u00e3o, caso algu\u00e9m ainda queira us\u00e1-lo para falar sobre informa\u00e7\u00f5es sens\u00edveis \u00e9 bastante importante tomar algumas medidas:\r\n\r\n  * Baixe e instale o programa apenas por meio do site oficial [www.skype.com](http://www.skype.com), para evitar uma vers\u00e3o que possa estar infectada por spyware. \u00c9 importante checar com cuidado a URL para ter certeza de que \u00e9 o site oficial. Em alguns pa\u00edses, a p\u00e1gina do Skype \u00e9 bloqueada e/ou v\u00e1rias p\u00e1ginas falsas alegando ser a oficial est\u00e3o em opera\u00e7\u00e3o. Nesses casos, a vers\u00e3o dispon\u00edvel muito provavelmente est\u00e1 infectada por malware desenvolvidos para espionar todas as comunica\u00e7\u00f5es. Use as ferramentas de contorno \u00e0 censura descritas no [Cap\u00edtulo 8](/pt/chapter-8) para conectar-se ao site oficial do Skype e baixar uma vers\u00e3o genu\u00edna do programa sempre que quiser instal\u00e1-lo ou atualiz\u00e1-lo.\r\n  * \u00c9 extremamente importante mudar a senha de acesso ao Skype regularmente. O programa permite logins m\u00faltiplos de localiza\u00e7\u00f5es diferentes e n\u00e3o informa sobre o n\u00famero simult\u00e2neo de sess\u00f5es abertas. Isso oferece um grande risco caso a senha de acesso seja comprometida, pois qualquer pessoa que a tenha pode fazer login ao mesmo tempo. Todas as sess\u00f5es em vigor recebem toda comunica\u00e7\u00e3o por texto, assim como t\u00eam acesso ao hist\u00f3rico de chamadas. Mudar a senha \u00e9 a \u00fanica forma de desabilitar os acessos indesejados, pois for\u00e7am todas as sess\u00f5es abertas a refazer o login.\r\n  * Tamb\u00e9m \u00e9 aconselh\u00e1vel modificar as configura\u00e7\u00f5es do programa para que o hist\u00f3rico das conversas n\u00e3o seja guardado.\r\n  * \u00c9 recomend\u00e1vel desabilitar a op\u00e7\u00e3o do Skype que aceita o recebimento autom\u00e1tico de arquivos enviados, pois isso j\u00e1 foi usado para infectar m\u00e1quinas com malware/spyware.\r\n  * Verifique sempre de forma independente a identidade da pessoa com quem est\u00e1 se comunicando. \u00c9 mais f\u00e1cil fazer isso em conversas por voz, especialmente quando voc\u00ea conhece quem est\u00e1 do outro lado da linha.\r\n  * Decida se o nome que aparece no Skype deve ser identificado ou ter rela\u00e7\u00f5es com seu nome real, ou de sua organiza\u00e7\u00e3o.\r\n  * Tenha sempre formas alternativas para se comunicar. Prepare-se para o caso de o Skype ficar indispon\u00edvel.\r\n  * Tenha cuidado com o que diz. Desenvolva um sistema de c\u00f3digos para discutir t\u00f3picos sens\u00edveis sem usar terminologias espec\u00edficas.\r\n\r\nApesar da popularidade do Skype, as preocupa\u00e7\u00f5es acima o tornam question\u00e1vel para uma experi\u00eancia segura. Recomendamos usar ferramentas como o Jitsi para chamadas de voz sobre IP e o [*Pidgin*](/pt/glossary#Pidgin) com o plugin [*OTR*](/pt/glossary#OTR) para a troca segura de mensagens instant\u00e2neas."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1959", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1959", 
+                "link_title": "Securing other Internet communication tools", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5104", 
+                "module": "book", 
+                "nid": "1959", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5101", 
+                "p3": "5104", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5101", 
+                "router_path": "node/%", 
+                "title": "Securing other Internet communication tools", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1455895666", 
+            "comment": "0", 
+            "created": "1441104731", 
+            "current_revision_id": "13282", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_7_3", 
+                        "value": "chapter_7_3"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5104": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1959", 
+                    "link_title": "Securing other Internet communication tools", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5104", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5101", 
+                    "p3": "5104", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5101", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1959", 
+            "num_revisions": "21", 
+            "path": "https://securityinabox.org/en/node/1959", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455895666", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como tornar seguras outras ferramentas de comunica\u00e7\u00e3o pela internet", 
+                        "value": "Como tornar seguras outras ferramentas de comunica\u00e7\u00e3o pela internet"
+                    }
+                ]
+            }, 
+            "title_original": "Securing other Internet communication tools", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1455886970", 
+                        "created": "1442917218", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227836", 
+                        "created": "1441807403", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096655", 
+                        "created": "1443096655", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442413732", 
+                        "created": "1442413732", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441207972", 
+                        "created": "1441207972", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447108634", 
+                        "created": "1442761759", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443706016", 
+                        "created": "1443706016", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452610615", 
+                        "created": "1452610615", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457311", 
+                        "created": "1443457311", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441116268", 
+                        "created": "1441116268", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443806255", 
+                        "created": "1443806255", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443101141", 
+                        "created": "1443101141", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443094015", 
+                        "created": "1443094015", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441104731", 
+                        "created": "1441104731", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1959", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1455895666", 
+                        "created": "1443623710", 
+                        "entity_id": "1959", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1959", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "71dcb597-9831-4996-a0ca-6e6a31dd4cd8", 
+            "vid": "13282", 
+            "vuuid": "d8aea876-2f6c-41fc-b038-53e3841c9d17"
+        }, 
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>As ferramentas e conceitos discutidos abaixo s\u00e3o recomendados para pessoas com mais experi\u00eancia no uso de computadores.</p>\n\n<h3>Como usar criptografia de chave p\u00fablica em e-mails</h3>\n\n<p>\u00c9 poss\u00edvel obter um n\u00edvel alto de privacidade na troca de e-mails, mesmo em contas n\u00e3o seguras. Para isso, \u00e9 preciso saber mais sobre a <a href=\"/pt/glossary#Encryption\"><strong>criptografia</strong></a> de chave p\u00fablica. Esta t\u00e9cnica permite codificar mensagens individuais, tornando-as ileg\u00edveis a quaisquer pessoas que n\u00e3o os destinat\u00e1rios almejados. O lado engenhoso da <a href=\"/pt/glossary#Encryption\"><strong>criptografia</strong></a> de chave p\u00fablica \u00e9 que voc\u00ea n\u00e3o precisa trocar nenhuma informa\u00e7\u00e3o secreta com seus contatos sobre como vai codificar as mensagens no futuro.</p>\n\n<div class=\"background\">\n\n<p>Pablo: Mas como funciona isso?</p>\n\n<p>Claudia: \u00c9 um uso criativo da Matem\u00e1tica! Voc\u00ea codifica as mensagens para um contato espec\u00edfico de e-mail usando a chamada 'chave p\u00fablica' daquela pessoa. As 'chaves p\u00fablicas' podem ser distribu\u00eddas sem problemas. Para ler as mensagens, aquela pessoa usa uma 'chave privada' pessoal, que deve ser mantida guardada com seguran\u00e7a. No caminho inverso, seu contato usa a chave p\u00fablica que voc\u00ea forneceu a ele para criptografar as mensagens que enviar\u00e1 para voc\u00ea. Assim, voc\u00eas precisam trocar as chaves p\u00fablicas entre si, mas podem faz\u00ea-lo abertamente, sem se preocupar.</p>\n\n</div>\n\n<p>Essa t\u00e9cnica pode ser usada com qualquer servi\u00e7o de correio eletr\u00f4nico, mesmo os que n\u00e3o possuem canais de comunica\u00e7\u00e3o seguros, pois as mensagens individuais s\u00e3o <a href=\"/pt/glossary#Encryption\"><strong>criptografadas</strong></a> antes de deixar o computador.</p>\n\n<p>Lembre-se que o uso de <a href=\"/pt/glossary#Encryption\"><strong>criptografia</strong></a> pode atrair aten\u00e7\u00e3o. O tipo de <a href=\"/pt/glossary#Encryption\"><strong>criptografia</strong></a> usado para acessar sites seguros na internet, incluindo contas online de e-mail, costuma ser visto como menos suspeita do que a de chave p\u00fablica, discutida aqui. Em algumas circunst\u00e2ncias, se um e-mail com este tipo de dados <a href=\"/pt/glossary#Encryption\"><strong>criptografados</strong></a> for interceptado ou publicado em f\u00f3runs p\u00fablicos de discuss\u00e3o, podem incriminar a pessoa que o enviou, independentemente do conte\u00fado da mensagem. \u00c0s vezes, voc\u00ea ter\u00e1 de escolher entre a privacidade das mensagens e a necessidade de se manter inconsp\u00edcuo.</p>\n\n<h3>Como criptografar e autenticar mensagens de e-mail</h3>\n\n<p>A <a href=\"/pt/glossary#Encryption\"><strong>criptografia</strong></a> de chave p\u00fablica pode parecer complicada no come\u00e7o, mas \u00e9 bastante direta depois de entender o b\u00e1sico. Al\u00e9m disso, as ferramentas n\u00e3o s\u00e3o dif\u00edceis de usar. Um programa simples, amig\u00e1vel e port\u00e1til chamado <strong>gpg4usb</strong> pode criptografar mensagens de e-mail e arquivos mesmo sem estar conectado \u00e0 internet.</p>\n\n<div class=\"getstarted\">\n\n<p>Guia Pr\u00e1tico - saiba usar o <a href=\"/pt/gpg4usb_portable\"><strong><em>gpg4usb port\u00e1til - Criptografia para textos e arquivos de e-mail</em></strong></a></p>\n\n</div>\n\n<p>Para criptografar e decodificar mensagens de e-mail de forma f\u00e1cil, o programa de e-mails <strong>Mozilla</strong> <a href=\"/pt/glossary#Thunderbird\"><strong>Thunderbird</strong></a> pode ser usado com uma extens\u00e3o chamada <a href=\"/pt/glossary#Enigmail\"><strong>Enigmail</strong></a>.</p>\n\n<div class=\"getstarted\">\n\n<p>Guia Pr\u00e1tico - saiba usar o <a href=\"/pt/thunderbird_main\"><strong><em>Thunderbird com Enigmail e GPG - Cliente seguro de e-mail</em></strong></a></p>\n\n</div>\n\n<p>A autenticidade dos e-mails tamb\u00e9m \u00e9 outro aspecto importante para a seguran\u00e7a da comunica\u00e7\u00e3o. Qualquer pessoa com acesso \u00e0 internet e as ferramentas apropriadas pode se passar por voc\u00ea, enviando mensagens a partir de um endere\u00e7o de e-mail id\u00eantico ao seu, mas falso. O perigo aqui \u00e9 mais evidente se considerado do lado de quem recebe as mensagens. Imagine, por exemplo, o perigo de um e-mail que parece ser de um contato confi\u00e1vel mas \u00e9, na verdade, de algu\u00e9m cujo objetivo \u00e9 desmobilizar suas atividades ou descobrir informa\u00e7\u00f5es sens\u00edveis sobre sua organiza\u00e7\u00e3o.</p>\n\n<p>Uma vez que n\u00e3o podemos ver ou ouvir quem est\u00e1 do outro lado da mensagem de um e-mail, tipicamente confiamos no endere\u00e7o de emiss\u00e3o para validar uma identidade. \u00c9 por isso que nos enganam de forma t\u00e3o f\u00e1cil com e-mails falsos. As <a href=\"/pt/glossary#Digital_signature\"><strong>assinaturas digitais</strong></a>, que tamb\u00e9m se baseiam na <a href=\"/pt/glossary#Encryption\"><strong>criptografia</strong></a> de chave p\u00fablica, fornecem um meio mais seguro de algu\u00e9m provar a pr\u00f3pria identidade ao enviar uma mensagem. O <a href=\"/pt/gpg4usb_portable\"><strong><em>Guia Pr\u00e1tico do gpg4usb port\u00e1til</em></strong></a> ou a se\u00e7\u00e3o <a href=\"/pt/thuderbird_encryption\"><strong><em>Como usar o Enigmail com o Thunderbird</em></strong></a>, do <a href=\"/pt/thunderbird_main\"><strong><em>Guia Pr\u00e1tico do Thunderbird</em></strong></a>, explicam em detalhes como usar as <a href=\"/pt/glossary#Digital_signature\"><strong>assinaturas digitais</strong></a>.</p>\n\n<div class=\"background\">\n\n<p>Pablo: Uma vez, um colega recebeu um e-mail meu que eu n\u00e3o havia enviado. Decidimos, no fim, que era apenas um spam, mas agora fico pensando o estrago que um e-mail falso poderia causar caso aparecesse na caixa de entrada da pessoa errada, no momento errado. Ouvi dizer que \u00e9 poss\u00edvel evitar isso com assinaturas digitais, mas o que s\u00e3o elas?</p>\n\n<p>Claudia: Uma assinatura digital \u00e9 como um selo de cera com a sua letra dentro, fechando um envelope. Com a diferen\u00e7a que ela n\u00e3o pode ser forjada. Ela prova que voc\u00ea \u00e9 quem realmente emitiu a mensagem e que seu conte\u00fado n\u00e3o foi modificado no meio do caminho.</p>\n\n</div>\n", 
+                        "summary": "", 
+                        "value": "As ferramentas e conceitos discutidos abaixo s\u00e3o recomendados para pessoas com mais experi\u00eancia no uso de computadores.\r\n\r\n### Como usar criptografia de chave p\u00fablica em e-mails ###\r\n\r\n\u00c9 poss\u00edvel obter um n\u00edvel alto de privacidade na troca de e-mails, mesmo em contas n\u00e3o seguras. Para isso, \u00e9 preciso saber mais sobre a [**criptografia**](/pt/glossary#Encryption) de chave p\u00fablica. Esta t\u00e9cnica permite codificar mensagens individuais, tornando-as ileg\u00edveis a quaisquer pessoas que n\u00e3o os destinat\u00e1rios almejados. O lado engenhoso da [**criptografia**](/pt/glossary#Encryption) de chave p\u00fablica \u00e9 que voc\u00ea n\u00e3o precisa trocar nenhuma informa\u00e7\u00e3o secreta com seus contatos sobre como vai codificar as mensagens no futuro.\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo: Mas como funciona isso?\r\n\t\t\t\r\nClaudia: \u00c9 um uso criativo da Matem\u00e1tica! Voc\u00ea codifica as mensagens para um contato espec\u00edfico de e-mail usando a chamada 'chave p\u00fablica' daquela pessoa. As 'chaves p\u00fablicas' podem ser distribu\u00eddas sem problemas. Para ler as mensagens, aquela pessoa usa uma 'chave privada' pessoal, que deve ser mantida guardada com seguran\u00e7a. No caminho inverso, seu contato usa a chave p\u00fablica que voc\u00ea forneceu a ele para criptografar as mensagens que enviar\u00e1 para voc\u00ea. Assim, voc\u00eas precisam trocar as chaves p\u00fablicas entre si, mas podem faz\u00ea-lo abertamente, sem se preocupar.\r\n</div>\r\n\r\nEssa t\u00e9cnica pode ser usada com qualquer servi\u00e7o de correio eletr\u00f4nico, mesmo os que n\u00e3o possuem canais de comunica\u00e7\u00e3o seguros, pois as mensagens individuais s\u00e3o [**criptografadas**](/pt/glossary#Encryption) antes de deixar o computador.\r\n\r\nLembre-se que o uso de [**criptografia**](/pt/glossary#Encryption) pode atrair aten\u00e7\u00e3o. O tipo de [**criptografia**](/pt/glossary#Encryption) usado para acessar sites seguros na internet, incluindo contas online de e-mail, costuma ser visto como menos suspeita do que a de chave p\u00fablica, discutida aqui. Em algumas circunst\u00e2ncias, se um e-mail com este tipo de dados [**criptografados**](/pt/glossary#Encryption) for interceptado ou publicado em f\u00f3runs p\u00fablicos de discuss\u00e3o, podem incriminar a pessoa que o enviou, independentemente do conte\u00fado da mensagem. \u00c0s vezes, voc\u00ea ter\u00e1 de escolher entre a privacidade das mensagens e a necessidade de se manter inconsp\u00edcuo.\r\n\r\n\r\n### Como criptografar e autenticar mensagens de e-mail ###\r\n\r\nA [**criptografia**](/pt/glossary#Encryption) de chave p\u00fablica pode parecer complicada no come\u00e7o, mas \u00e9 bastante direta depois de entender o b\u00e1sico. Al\u00e9m disso, as ferramentas n\u00e3o s\u00e3o dif\u00edceis de usar. Um programa simples, amig\u00e1vel e port\u00e1til chamado **gpg4usb** pode criptografar mensagens de e-mail e arquivos mesmo sem estar conectado \u00e0 internet.\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nGuia Pr\u00e1tico - saiba usar o [***gpg4usb port\u00e1til - Criptografia para textos e arquivos de e-mail***](/pt/gpg4usb_portable)\r\n</div>\r\n\r\nPara criptografar e decodificar mensagens de e-mail de forma f\u00e1cil, o programa de e-mails **Mozilla** [**Thunderbird**](/pt/glossary#Thunderbird) pode ser usado com uma extens\u00e3o chamada [**Enigmail**](/pt/glossary#Enigmail).\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\nGuia Pr\u00e1tico - saiba usar o [***Thunderbird com Enigmail e GPG - Cliente seguro de e-mail***](/pt/thunderbird_main)\r\n</div>\r\n\r\nA autenticidade dos e-mails tamb\u00e9m \u00e9 outro aspecto importante para a seguran\u00e7a da comunica\u00e7\u00e3o. Qualquer pessoa com acesso \u00e0 internet e as ferramentas apropriadas pode se passar por voc\u00ea, enviando mensagens a partir de um endere\u00e7o de e-mail id\u00eantico ao seu, mas falso. O perigo aqui \u00e9 mais evidente se considerado do lado de quem recebe as mensagens. Imagine, por exemplo, o perigo de um e-mail que parece ser de um contato confi\u00e1vel mas \u00e9, na verdade, de algu\u00e9m cujo objetivo \u00e9 desmobilizar suas atividades ou descobrir informa\u00e7\u00f5es sens\u00edveis sobre sua organiza\u00e7\u00e3o.\r\n\r\nUma vez que n\u00e3o podemos ver ou ouvir quem est\u00e1 do outro lado da mensagem de um e-mail, tipicamente confiamos no endere\u00e7o de emiss\u00e3o para validar uma identidade. \u00c9 por isso que nos enganam de forma t\u00e3o f\u00e1cil com e-mails falsos. As [**assinaturas digitais**](/pt/glossary#Digital_signature), que tamb\u00e9m se baseiam na [**criptografia**](/pt/glossary#Encryption) de chave p\u00fablica, fornecem um meio mais seguro de algu\u00e9m provar a pr\u00f3pria identidade ao enviar uma mensagem. O [***Guia Pr\u00e1tico do gpg4usb port\u00e1til***](/pt/gpg4usb_portable) ou a se\u00e7\u00e3o [***Como usar o Enigmail com o Thunderbird***](/pt/thuderbird_encryption), do [***Guia Pr\u00e1tico do Thunderbird***](/pt/thunderbird_main), explicam em detalhes como usar as [**assinaturas digitais**](/pt/glossary#Digital_signature).\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo: Uma vez, um colega recebeu um e-mail meu que eu n\u00e3o havia enviado. Decidimos, no fim, que era apenas um spam, mas agora fico pensando o estrago que um e-mail falso poderia causar caso aparecesse na caixa de entrada da pessoa errada, no momento errado. Ouvi dizer que \u00e9 poss\u00edvel evitar isso com assinaturas digitais, mas o que s\u00e3o elas?\r\n\t\t\t\r\nClaudia: Uma assinatura digital \u00e9 como um selo de cera com a sua letra dentro, fechando um envelope. Com a diferen\u00e7a que ela n\u00e3o pode ser forjada. Ela prova que voc\u00ea \u00e9 quem realmente emitiu a mensagem e que seu conte\u00fado n\u00e3o foi modificado no meio do caminho.\r\n</div>"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1960", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1960", 
+                "link_title": "Advanced Email Security", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5105", 
+                "module": "book", 
+                "nid": "1960", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5101", 
+                "p3": "5105", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5101", 
+                "router_path": "node/%", 
+                "title": "Advanced Email Security", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1456151301", 
+            "comment": "0", 
+            "created": "1441104777", 
+            "current_revision_id": "13322", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_7_4", 
+                        "value": "chapter_7_4"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5105": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1960", 
+                    "link_title": "Advanced Email Security", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5105", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5101", 
+                    "p3": "5105", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5101", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1960", 
+            "num_revisions": "32", 
+            "path": "https://securityinabox.org/en/node/1960", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456151301", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Seguran\u00e7a avan\u00e7ada de e-mail", 
+                        "value": "Seguran\u00e7a avan\u00e7ada de e-mail"
+                    }
+                ]
+            }, 
+            "title_original": "Advanced Email Security", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1455898226", 
+                        "created": "1442917335", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227911", 
+                        "created": "1441807514", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096633", 
+                        "created": "1443096633", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442413795", 
+                        "created": "1442413795", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1454335668", 
+                        "created": "1441208036", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1453994328", 
+                        "created": "1442761793", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1456151301", 
+                        "created": "1443705997", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452611784", 
+                        "created": "1452611784", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1453981255", 
+                        "created": "1443457374", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441116371", 
+                        "created": "1441116371", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443806592", 
+                        "created": "1443806383", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443101159", 
+                        "created": "1443101159", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443094107", 
+                        "created": "1443094107", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441104777", 
+                        "created": "1441104777", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1960", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1455898865", 
+                        "created": "1443623740", 
+                        "entity_id": "1960", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1960", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "8f37a828-200b-481a-953b-bcdf1855e2bc", 
+            "vid": "13322", 
+            "vuuid": "30f25b85-c976-4f55-94aa-c36de97c27d3"
+        }, 
+        {
+            "body": {
+                "pt-pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li>Para saber mais sobre como falsificar uma identidade de e-mail, veja a se\u00e7\u00e3o <em>2.5 Spoofing</em> do livro <a href=\"http://www.frontlinedefenders.org/esecman\">Seguran\u00e7a Digital e Privacidade para Defensores dos Direitos Humanos</a> (em ingl\u00eas ou espanhol).</li>\n<li>Al\u00e9m dos Guias Pr\u00e1ticos do <em>Riseup</em> e do <em>Thunderbird</em>, h\u00e1 v\u00e1rios sites que explicam como usar programas de e-mail com v\u00e1rios dos provedores populares de correio eletr\u00f4nico, deixando uma c\u00f3pia das mensagens no servidor:\n\n<ul><li>O <a href=\"https://help.riseup.net/en/email/clients\">site do Riseup</a>;</li>\n<li>Instru\u00e7\u00f5es sobre <a href=\"https://mail.google.com/support/bin/topic.py?topic=12769\">como usar o Gmail</a>;</li>\n<li>Instru\u00e7\u00f5es sobre <a href=\"http://email.about.com/od/mozillathunderbirdtips/qt/et_gmail_addr.htm\">como importar os contatos do Gmail para o Thunderbird</a>;</li>\n<li>Para detalhes sobre como usar outros servi\u00e7os de e-mail desta forma, veja a se\u00e7\u00e3o de Ajuda dos outros provedores. Busque por palavras chave como 'POP', 'IMAP' e 'SMTP'.</li>\n</ul></li>\n<li>Existe um ataque bastante conhecido \u00e0 seguran\u00e7a da criptografia SSL, chamado <a href=\"https://secure.wikimedia.org/wikipedia/en/wiki/Man-in-the-middle_attack\">Man in the Middle attack</a>.</li>\n<li>A <a href=\"https://www.google.com/intl/pt/privacy/privacy-policy.html\">Pol\u00edtica de Privacidade do Gmail</a>, a qual deve ser aceita ao criar uma conta no Gmail, explica que o Google \"recolhe informa\u00e7\u00f5es para fornecer servi\u00e7os melhores a todos os seus utilizadores\". De fato, todos os provedores de e-mail fazem algum tipo de varredura em suas mensagens para que possam oferecer servi\u00e7os antispam ou outras funcionalidades. Por\u00e9m, o Gmail vai um pouco al\u00e9m para vender 'publicidade dirigida' baseada no conte\u00fado de e-mails espec\u00edficos. Isso pode ser perigoso caso a informa\u00e7\u00e3o armazenada pelo Google seja exposta de forma acidental ou intencional.</li>\n<li>Uma s\u00e9rie de entrevistas realizadas em 2008 teve como tema as <a href=\"http://news.cnet.com/8301-13578_3-9962106-38.html\">pol\u00edticas de privacidade e criptografia</a> de v\u00e1rios dos principais servi\u00e7os de mensagens instant\u00e2neas.</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "- Para saber mais sobre como falsificar uma identidade de e-mail, veja a se\u00e7\u00e3o *2.5 Spoofing* do livro [Seguran\u00e7a Digital e Privacidade para Defensores dos Direitos Humanos](http://www.frontlinedefenders.org/esecman) (em ingl\u00eas ou espanhol).\r\n- Al\u00e9m dos Guias Pr\u00e1ticos do *Riseup* e do *Thunderbird*, h\u00e1 v\u00e1rios sites que explicam como usar programas de e-mail com v\u00e1rios dos provedores populares de correio eletr\u00f4nico, deixando uma c\u00f3pia das mensagens no servidor:\r\n  - O [site do Riseup](https://help.riseup.net/en/email/clients);\r\n  - Instru\u00e7\u00f5es sobre [como usar o Gmail](https://mail.google.com/support/bin/topic.py?topic=12769);\r\n  - Instru\u00e7\u00f5es sobre [como importar os contatos do Gmail para o Thunderbird](http://email.about.com/od/mozillathunderbirdtips/qt/et_gmail_addr.htm);\r\n  - Para detalhes sobre como usar outros servi\u00e7os de e-mail desta forma, veja a se\u00e7\u00e3o de Ajuda dos outros provedores. Busque por palavras chave como 'POP', 'IMAP' e 'SMTP'.\r\n- Existe um ataque bastante conhecido \u00e0 seguran\u00e7a da criptografia SSL, chamado [Man in the Middle attack](https://secure.wikimedia.org/wikipedia/en/wiki/Man-in-the-middle_attack).\r\n- A [Pol\u00edtica de Privacidade do Gmail](https://www.google.com/intl/pt/privacy/privacy-policy.html), a qual deve ser aceita ao criar uma conta no Gmail, explica que o Google &quot;recolhe informa\u00e7\u00f5es para fornecer servi\u00e7os melhores a todos os seus utilizadores&quot;. De fato, todos os provedores de e-mail fazem algum tipo de varredura em suas mensagens para que possam oferecer servi\u00e7os antispam ou outras funcionalidades. Por\u00e9m, o Gmail vai um pouco al\u00e9m para vender 'publicidade dirigida' baseada no conte\u00fado de e-mails espec\u00edficos. Isso pode ser perigoso caso a informa\u00e7\u00e3o armazenada pelo Google seja exposta de forma acidental ou intencional.\r\n- Uma s\u00e9rie de entrevistas realizadas em 2008 teve como tema as [pol\u00edticas de privacidade e criptografia](http://news.cnet.com/8301-13578_3-9962106-38.html) de v\u00e1rios dos principais servi\u00e7os de mensagens instant\u00e2neas."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1961", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1961", 
+                "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5106", 
+                "module": "book", 
+                "nid": "1961", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5101", 
+                "p3": "5106", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5101", 
+                "router_path": "node/%", 
+                "title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "updated": "0", 
+                "weight": "5"
+            }, 
+            "changed": "1452611899", 
+            "comment": "0", 
+            "created": "1441104824", 
+            "current_revision_id": "12808", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_7_5", 
+                        "value": "chapter_7_5"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5106": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1961", 
+                    "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5106", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5101", 
+                    "p3": "5106", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5101", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "5"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1961", 
+            "num_revisions": "20", 
+            "path": "https://securityinabox.org/en/node/1961", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452611899", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt-pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Leitura extra", 
+                        "value": "Leitura extra"
+                    }
+                ]
+            }, 
+            "title_original": "Further reading", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442917398", 
+                        "created": "1442917398", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096611", 
+                        "created": "1443096611", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442414120", 
+                        "created": "1442414120", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441208088", 
+                        "created": "1441208088", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447108763", 
+                        "created": "1442761824", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443705980", 
+                        "created": "1443705980", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452611899", 
+                        "created": "1452611899", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457425", 
+                        "created": "1443457425", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441116530", 
+                        "created": "1441116530", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443806500", 
+                        "created": "1443806500", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443101204", 
+                        "created": "1443101204", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443094182", 
+                        "created": "1443094182", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446473278", 
+                        "created": "1441104824", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444583668", 
+                        "created": "1443623763", 
+                        "entity_id": "1961", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "e4da5eda-78ad-4d95-91e0-7bb9cf506951", 
+            "vid": "12808", 
+            "vuuid": "87e04a64-0e83-424b-8b75-47341f949227"
+        }
+    ], 
+    "changed": "1453893190", 
+    "comment": "0", 
+    "created": "1441104468", 
+    "current_revision_id": "13007", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_menu_title": {
+        "pt-pt": [
+            {
+                "format": null, 
+                "safe_value": "7. How to keep your Internet communicati", 
+                "value": "7. How to keep your Internet communicati"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "pt-pt": [
+            {
+                "format": null, 
+                "safe_value": "7. Como manter sua comunica\u00e7\u00e3o por internet segura", 
+                "value": "7. Como manter sua comunica\u00e7\u00e3o por internet segura"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-09 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "pt-pt": [
+            {
+                "format": null, 
+                "safe_value": "chapter-7", 
+                "value": "chapter-7"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "7"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "7"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5101": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/1956", 
+            "link_title": "7. How to keep your Internet communication private", 
+            "menu_name": "book-toc-1925", 
+            "mlid": "5101", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5030", 
+            "p2": "5101", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5030", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "7"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "1956", 
+    "num_revisions": "28", 
+    "path": "https://securityinabox.org/en/node/1956", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1453893190", 
+    "revision_uid": "228", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "pt-pt": [
+            {
+                "format": null, 
+                "safe_value": "7. Como manter sua comunica\u00e7\u00e3o por internet segura", 
+                "value": "7. Como manter sua comunica\u00e7\u00e3o por internet segura"
+            }
+        ]
+    }, 
+    "title_original": "7. How to keep your Internet communication private", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442916972", 
+                "created": "1442916972", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1453893190", 
+                "created": "1441807094", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "bo": {
+                "changed": "1443094027", 
+                "created": "1443094027", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "bo", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "es": {
+                "changed": "1442413328", 
+                "created": "1442413328", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1451917636", 
+                "created": "1441207736", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "fr": {
+                "changed": "1447108427", 
+                "created": "1442759290", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }, 
+            "id": {
+                "changed": "1443693120", 
+                "created": "1443693120", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "km": {
+                "changed": "1452609857", 
+                "created": "1452609857", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443457107", 
+                "created": "1443457107", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441115896", 
+                "created": "1441115896", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1443805087", 
+                "created": "1443805087", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "th": {
+                "changed": "1444396529", 
+                "created": "1444396529", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "th", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "tr": {
+                "changed": "1443014757", 
+                "created": "1443014757", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1443093390", 
+                "created": "1443093390", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441104468", 
+                "created": "1441104468", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "1956", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1444578893", 
+                "created": "1443623275", 
+                "entity_id": "1956", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "1956", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_how_to_booklet_chapter", 
+    "uid": "70", 
+    "uuid": "8355d317-18f9-4aa5-a7b0-3e34478c80f3", 
+    "vid": "13007", 
+    "vuuid": "c39a5dff-12ca-4b1e-aa05-2401c257eab6"
+}

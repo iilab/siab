@@ -1,0 +1,1356 @@
+{
+    "body": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p>\u2018Sald\u0131rgan\u2019 internet \u00fczerinden verilerinizi okumaya ya da de\u011fi\u015ftirmeye muktedirse, bilgisayar\u0131n\u0131zdaki ya da ta\u015f\u0131nabilir depolama ayg\u0131t\u0131n\u0131zdaki bilgilere yetkilendirilmemi\u015f eri\u015fim uzaktan ger\u00e7ekle\u015ftirilebilir; ya da fiziksel olarak donan\u0131m\u0131n\u0131z ele ge\u00e7irilebilir. Kendinizi her iki t\u00fcrden sald\u0131r\u0131ya kar\u015f\u0131, <a href=\"/tr/chapter-1\"><strong><em>Bilgisayar\u0131n\u0131z\u0131 k\u00f6t\u00fc ama\u00e7l\u0131 yaz\u0131l\u0131mlara ve hacker'lara kar\u015f\u0131 nas\u0131l korursunuz</em></strong></a> ba\u015fl\u0131kl\u0131 <a href=\"/tr/chapter-1\"><strong><em>1. B\u00f6l\u00fcm</em></strong></a>\u2019de ve <a href=\"/tr/chapter-2\"><strong><em>Fiziksel tehditlere kar\u015f\u0131 bilgilerinizi nas\u0131l korursunuz</em></strong></a> ba\u015fl\u0131kl\u0131 <a href=\"/tr/chapter-2\"><strong><em>2. B\u00f6l\u00fcm</em></strong></a>\u2019de ele al\u0131nd\u0131\u011f\u0131 gibi, verilerinizin fiziksel ve a\u011f g\u00fcvenli\u011fini geli\u015ftirerek koruyabilirsiniz. Birden fazla savunma d\u00fczeyini kullanman\u0131z en iyisidir, bu nedenle dosyalar\u0131n\u0131z\u0131n kendilerini de korumal\u0131s\u0131n\u0131z.  B\u00f6ylelikle, di\u011fer g\u00fcvenlik \u00e7abalar\u0131n\u0131z\u0131n yetersiz oldu\u011fu ortaya \u00e7\u0131karsa, hassas verilerinizin g\u00fcvende olma ihtimali korunabilir.</p>\n\n<p>Bu \u015fekilde verilerinizin g\u00fcvenli\u011fini sa\u011flamaya y\u00f6nelik tehditler hakk\u0131nda iki genel yakla\u015f\u0131m bulunmaktad\u0131r. <strong>Dosyalar\u0131n\u0131z\u0131  <em><a href=\"/tr/glossary#Encryption\">\u015fifreleyebilirsiniz</a></em></strong>, b\u00f6ylece onlar\u0131 sizden ba\u015fka herhangi biri i\u00e7in okunmaz k\u0131lars\u0131n\u0131z, ya da sald\u0131rgan\u0131n hassas bilgilerinizi bulamayaca\u011f\u0131n\u0131 umarak <strong>onlar\u0131 gizleyebilirsiniz</strong>. Her iki yakla\u015f\u0131m i\u00e7in size yard\u0131mc\u0131 olabilecek ara\u00e7lar bulunmaktad\u0131r. Bunlara dosyalar\u0131n\u0131z\u0131 hem <em><a href=\"/tr/glossary#Encryption\">\u015fifreleyebilecek</a></em> hem de gizleyebilecek <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a> adl\u0131 bir <a href=\"/tr/glossary#FOSS\"><em>FOSS</em></a> uygulamas\u0131 da dahildir.</p>\n\n<h3>Arka plan senaryosu</h3>\n\n<div class=\"background\">\n\n<p>Claudia ve Pablo bir G\u00fcney Afrika \u00fclkesindeki insan haklar\u0131 STK\u2019siyle birlikte \u00e7al\u0131\u015fmaktad\u0131r. Son birka\u00e7 aylar\u0131n\u0131 b\u00f6lgedeki ordu taraf\u0131ndan ger\u00e7ekle\u015ftirilen insan haklar\u0131 ihlalleri hakk\u0131nda tan\u0131klardan delil ve beyan toplayarak ge\u00e7irmi\u015flerdir. Bu beyanlar\u0131n kimler taraf\u0131ndan sa\u011fland\u0131\u011f\u0131na ili\u015fkin ayr\u0131nt\u0131lar ortaya \u00e7\u0131karsa hem tan\u0131kl\u0131k eden cesur insanlar hem de b\u00f6lgedeki \u00f6rg\u00fct \u00fcyeleri tehlikeye at\u0131lm\u0131\u015f olacakt\u0131r. H\u00e2lihaz\u0131rda bu bilgi STK\u2019nin, Windows XP i\u015fletim sistemiyle \u00e7al\u0131\u015fan bilgisayar\u0131ndaki bir excel tablosunda saklanmaktad\u0131r. G\u00fcvenlik konusunda bilin\u00e7li olan Claudia verilerin bir yede\u011fini, i\u015f yerinin uza\u011f\u0131nda tuttu\u011fu bir CD\u2019ye kaydetmi\u015ftir.</p>\n\n</div>\n\n<h3>Bu b\u00f6l\u00fcmden ne \u00f6\u011frenebilirsiniz</h3>\n\n<ul><li>Bilgisayar\u0131n\u0131zdaki bilgileri nas\u0131l <a href=\"/tr/glossary#Encryption\"><em>\u015fifreleyebilece\u011finizi</em></a></li>\n<li>Bilgilerinizi <a href=\"/tr/glossary#Encryption\">\u015fifrelenmi\u015f</a> olarak saklad\u0131\u011f\u0131n\u0131zda hangi risklerle kar\u015f\u0131 kar\u015f\u0131ya kalabilece\u011finizi</li>\n<li>Kaybolmas\u0131 ya da \u00e7al\u0131nmas\u0131 durumunda USB belleklerinizdeki verileri nas\u0131l koruyabilece\u011finizi</li>\n<li>Fiziksel ya da uzak sald\u0131rganlara kar\u015f\u0131 bilgilerinizi gizlemek i\u00e7in hangi ad\u0131mlar\u0131 atabilece\u011finizi</li>\n</ul>", 
+                "summary": "", 
+                "value": "\u2018Sald\u0131rgan\u2019 internet \u00fczerinden verilerinizi okumaya ya da de\u011fi\u015ftirmeye muktedirse, bilgisayar\u0131n\u0131zdaki ya da ta\u015f\u0131nabilir depolama ayg\u0131t\u0131n\u0131zdaki bilgilere yetkilendirilmemi\u015f eri\u015fim uzaktan ger\u00e7ekle\u015ftirilebilir; ya da fiziksel olarak donan\u0131m\u0131n\u0131z ele ge\u00e7irilebilir. Kendinizi her iki t\u00fcrden sald\u0131r\u0131ya kar\u015f\u0131, [***Bilgisayar\u0131n\u0131z\u0131 k\u00f6t\u00fc ama\u00e7l\u0131 yaz\u0131l\u0131mlara ve hacker'lara kar\u015f\u0131 nas\u0131l korursunuz***](/tr/chapter-1) ba\u015fl\u0131kl\u0131 [***1. B\u00f6l\u00fcm***](/tr/chapter-1)\u2019de ve [***Fiziksel tehditlere kar\u015f\u0131 bilgilerinizi nas\u0131l korursunuz***](/tr/chapter-2) ba\u015fl\u0131kl\u0131 [***2. B\u00f6l\u00fcm***](/tr/chapter-2)\u2019de ele al\u0131nd\u0131\u011f\u0131 gibi, verilerinizin fiziksel ve a\u011f g\u00fcvenli\u011fini geli\u015ftirerek koruyabilirsiniz. Birden fazla savunma d\u00fczeyini kullanman\u0131z en iyisidir, bu nedenle dosyalar\u0131n\u0131z\u0131n kendilerini de korumal\u0131s\u0131n\u0131z.  B\u00f6ylelikle, di\u011fer g\u00fcvenlik \u00e7abalar\u0131n\u0131z\u0131n yetersiz oldu\u011fu ortaya \u00e7\u0131karsa, hassas verilerinizin g\u00fcvende olma ihtimali korunabilir.\r\n\r\n\r\nBu \u015fekilde verilerinizin g\u00fcvenli\u011fini sa\u011flamaya y\u00f6nelik tehditler hakk\u0131nda iki genel yakla\u015f\u0131m bulunmaktad\u0131r. **Dosyalar\u0131n\u0131z\u0131  *[\u015fifreleyebilirsiniz](/tr/glossary#Encryption)***, b\u00f6ylece onlar\u0131 sizden ba\u015fka herhangi biri i\u00e7in okunmaz k\u0131lars\u0131n\u0131z, ya da sald\u0131rgan\u0131n hassas bilgilerinizi bulamayaca\u011f\u0131n\u0131 umarak **onlar\u0131 gizleyebilirsiniz**. Her iki yakla\u015f\u0131m i\u00e7in size yard\u0131mc\u0131 olabilecek ara\u00e7lar bulunmaktad\u0131r. Bunlara dosyalar\u0131n\u0131z\u0131 hem *[\u015fifreleyebilecek](/tr/glossary#Encryption)* hem de gizleyebilecek [*TrueCrypt*](/tr/glossary#TrueCrypt) adl\u0131 bir [*FOSS*](/tr/glossary#FOSS) uygulamas\u0131 da dahildir.\r\n\r\n\r\n\r\n### Arka plan senaryosu ###\r\n<div class=\"background\" markdown=\"1\">\r\nClaudia ve Pablo bir G\u00fcney Afrika \u00fclkesindeki insan haklar\u0131 STK\u2019siyle birlikte \u00e7al\u0131\u015fmaktad\u0131r. Son birka\u00e7 aylar\u0131n\u0131 b\u00f6lgedeki ordu taraf\u0131ndan ger\u00e7ekle\u015ftirilen insan haklar\u0131 ihlalleri hakk\u0131nda tan\u0131klardan delil ve beyan toplayarak ge\u00e7irmi\u015flerdir. Bu beyanlar\u0131n kimler taraf\u0131ndan sa\u011fland\u0131\u011f\u0131na ili\u015fkin ayr\u0131nt\u0131lar ortaya \u00e7\u0131karsa hem tan\u0131kl\u0131k eden cesur insanlar hem de b\u00f6lgedeki \u00f6rg\u00fct \u00fcyeleri tehlikeye at\u0131lm\u0131\u015f olacakt\u0131r. H\u00e2lihaz\u0131rda bu bilgi STK\u2019nin, Windows XP i\u015fletim sistemiyle \u00e7al\u0131\u015fan bilgisayar\u0131ndaki bir excel tablosunda saklanmaktad\u0131r. G\u00fcvenlik konusunda bilin\u00e7li olan Claudia verilerin bir yede\u011fini, i\u015f yerinin uza\u011f\u0131nda tuttu\u011fu bir CD\u2019ye kaydetmi\u015ftir.\r\n</div>\r\n\r\n\r\n\r\n### Bu b\u00f6l\u00fcmden ne \u00f6\u011frenebilirsiniz ### \r\n\r\n- Bilgisayar\u0131n\u0131zdaki bilgileri nas\u0131l [*\u015fifreleyebilece\u011finizi*](/tr/glossary#Encryption)\r\n- Bilgilerinizi [\u015fifrelenmi\u015f](/tr/glossary#Encryption) olarak saklad\u0131\u011f\u0131n\u0131zda hangi risklerle kar\u015f\u0131 kar\u015f\u0131ya kalabilece\u011finizi\r\n- Kaybolmas\u0131 ya da \u00e7al\u0131nmas\u0131 durumunda USB belleklerinizdeki verileri nas\u0131l koruyabilece\u011finizi\r\n- Fiziksel ya da uzak sald\u0131rganlara kar\u015f\u0131 bilgilerinizi gizlemek i\u00e7in hangi ad\u0131mlar\u0131 atabilece\u011finizi\r\n\t"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1925", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/1940", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/1940", 
+        "link_title": "4. How to protect the sensitive files on your computer", 
+        "menu_name": "book-toc-1925", 
+        "mlid": "5085", 
+        "module": "book", 
+        "nid": "1940", 
+        "options": [], 
+        "p1": "5030", 
+        "p2": "5085", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5030", 
+        "router_path": "node/%", 
+        "title": "4. How to protect the sensitive files on your computer", 
+        "updated": "0", 
+        "weight": "4"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<div class=\"background\">\n\n<p>Pablo: Ama bilgisayar\u0131m zaten Windows kullan\u0131c\u0131 hesab\u0131 \u015fifresiyle korunuyor! Bu yeterince iyi de\u011fil mi?</p>\n\n<p>Claudia: Asl\u0131nda Windows kullan\u0131c\u0131 hesab\u0131 \u015fifrelerini k\u0131rmak genelde olduk\u00e7a kolayd\u0131r. Dahas\u0131 bilgisayar\u0131n\u0131 bir LiveCD\u2019yle yeniden ba\u015flatacak kadar uzun s\u00fcre ele ge\u00e7iren herhangi biri, \u015fifre konusunda endi\u015felenmeksizin verilerini kopyalayabilir. Bilgisayar\u0131n\u0131 bir s\u00fcre i\u00e7in al\u0131p g\u00f6t\u00fcrebilirlerse daha da b\u00fcy\u00fck bir sorunun i\u00e7indesin demektir. B\u00f6yle bir durumda endi\u015felenmen gereken sadece Windows \u015fifresi de\u011fildir. Microsoft Word ya da Adobe Acrobat \u015fifrelerine de g\u00fcvenmemelisin.</p>\n\n</div>\n\n<p>Bilgilerinizi <a href=\"/tr/glossary#Encryption\"><em>\u015fifrelemek</em></a>, bilgilerinizi kilitli bir kasada tutmak gibidir. Sadece anahtar\u0131 olanlar ya da kilidin \u015fifresini bilenler (bu durumda bir <a href=\"/tr/glossary#Encryption\"><em>\u015fifreleme</em></a> anahtar\u0131 ya da \u015fifre) bilgilerinize eri\u015febilir. Bu benzetme, \u00f6zellikle <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a> ve onun gibi ara\u00e7lar i\u00e7in uygundur. \u00d6yle ki, bu ara\u00e7lar her seferinde tek bir dosyay\u0131 korumak yerine '\u015fifrelenmi\u015f b\u00f6l\u00fcmler' ad\u0131 verilen g\u00fcvenli b\u00f6l\u00fcmler olu\u015fturur. Bir <a href=\"/tr/glossary#Encryption\"><em>\u015fifrelenmi\u015f</em></a> b\u00f6l\u00fcme \u00e7ok say\u0131da dosyay\u0131 koyabilirsiniz ancak bu ara\u00e7lar bilgisayar\u0131n\u0131z\u0131n ve USB belle\u011finizin di\u011fer b\u00f6l\u00fcmlerinde depolanm\u0131\u015f herhangi bir \u015feyi korumayacakt\u0131r.</p>\n\n<div class=\"getstarted\">\n\n<p><strong>Uygulama:</strong> <a href=\"/en/truecrypt_main\"><strong><em>TrueCrypt  - G\u00fcvenli Dosya Depolama Rehberi</em></strong></a> ile uygulamaya ba\u015flay\u0131n</p>\n\n</div>\n\n<p>Her ne kadar di\u011fer yaz\u0131l\u0131mlar da benzer g\u00fc\u00e7l\u00fc <a href=\"/tr/glossary#Encryption\"><em>\u015fifreleme</em></a> y\u00f6ntemleri sa\u011flasa da, <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a> bilgi g\u00fcvenli\u011fi stratejinizi tasarlaman\u0131za izin veren bir\u00e7ok \u00f6nemli \u00f6zelli\u011fe sahiptir. T\u00fcm dosyalar\u0131n\u0131z, \u00e7al\u0131\u015ft\u0131\u011f\u0131n\u0131z s\u0131rada olu\u015fturulan t\u00fcm ge\u00e7ici dosyalar\u0131n\u0131z, kurdu\u011funuz t\u00fcm programlar\u0131n\u0131z ve t\u00fcm Windows i\u015fletim sistemi dosyalar\u0131n\u0131z dahil, <strong>bilgisayar\u0131n\u0131z\u0131n t\u00fcm diskini kal\u0131c\u0131 olarak \u015fifreleme</strong> olana\u011f\u0131 sunar. TrueCrypt ta\u015f\u0131nabilir depolama ayg\u0131tlar\u0131ndaki <em><a href=\"/tr/glossary#Encryption\">\u015fifrelenmi\u015f</a></em> b\u00f6l\u00fcmleri de destekler. A\u015fa\u011f\u0131daki <a href=\"/tr/chapter_4_2\"><strong><em>Hassas bilgilerinizi gizlemek</em></strong></a> k\u0131sm\u0131nda betimlenen 'ink\u00e2r edebilirlik' \u00f6zelli\u011fini de sunar. Dahas\u0131 TrueCrypt <a href=\"/tr/glossary#FOSS\"><em>\u00fccretsiz ve a\u00e7\u0131k kaynak kodlu</em></a> bir programd\u0131r.</p>\n\n<div class=\"background\">\n\n<p>Pablo: Tamam \u015fimdi beni endi\u015felendirdin. Ayn\u0131 bilgisayardaki farkl\u0131 kullan\u0131c\u0131lara ne olacak? Bu 'Belgelerim' klas\u00f6r\u00fcmdeki dosyalar\u0131 okuyabilecekleri anlam\u0131na m\u0131 geliyor?</p>\n\n<p>Claudia: D\u00fc\u015f\u00fcnme bi\u00e7imin ho\u015fuma gitti! Windows \u015fifren sald\u0131rganlardan seni koruyam\u0131yorsa ayn\u0131 bilgisayarda hesab\u0131 olan di\u011fer insanlara kar\u015f\u0131 seni nas\u0131l koruyacak? 'Belgelerim' klas\u00f6r\u00fcn normalde herkese a\u00e7\u0131kt\u0131r. Di\u011fer kullan\u0131c\u0131lar\u0131n \u015fifrelenmemi\u015f dosyalar\u0131n\u0131 okumak i\u00e7in zekice bir \u015fey yapmalar\u0131na gerek yoktur. Hakl\u0131s\u0131n, klas\u00f6rlerini '\u00f6zel' k\u0131lsan bile, bir \u00e7e\u015fit \u015fifreleme kullanmad\u0131\u011f\u0131n s\u00fcrece g\u00fcvende de\u011filsin.</p>\n\n</div>\n\n<h3>Dosya \u015fiferelemeyi g\u00fcvenle kullanmak i\u00e7in ipu\u00e7lar\u0131</h3>\n\n<p>Gizli verileri depolamak hem sizin i\u00e7in hem de birlikte \u00e7al\u0131\u015ft\u0131\u011f\u0131n\u0131z insanlar i\u00e7in bir risk olu\u015fturabilir. <a href=\"/tr/glossary#Encryption\"><em>\u015eifreleme</em></a> bu riski azalt\u0131r ama onu ortadan kald\u0131rmaz. Hassas verileri koruman\u0131n ilk ad\u0131m\u0131 dola\u015f\u0131mda olan verileri azaltmakt\u0131r. Belirli bir dosyay\u0131 ya da bir dosyadaki belirli bir bilgi kategorisini depolamak i\u00e7in iyi bir nedeniniz yoksa onu silmelisiniz (bunu g\u00fcvenli olarak nas\u0131l yapabilece\u011finiz konusunda daha fazla bilgi i\u00e7in bak\u0131n\u0131z: <a href=\"/tr/chapter-6\"><strong><em>6. B\u00f6l\u00fcm: Hassas bilgiler nas\u0131l imha edilir</em></strong></a>). At\u0131lacak ikinci ad\u0131m ise <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a> gibi iyi bir dosya <a href=\"/tr/glossary#Encryption\"><em>\u015fifreleme</em></a> arac\u0131 kullanmakt\u0131r.</p>\n\n<div class=\"background\">\n\n<p>Claudia: Belki de bu ifadeleri bize veren ki\u015filerin kimliklerini a\u00e7\u0131\u011fa \u00e7\u0131karabilecek ayr\u0131nt\u0131lar\u0131 saklamam\u0131za ger\u00e7ekten de ihtiyac\u0131m\u0131z yok. Ne d\u00fc\u015f\u00fcn\u00fcyorsun?</p>\n\n<p>Pablo: Kat\u0131l\u0131yorum. Bu konuda m\u00fcmk\u00fcn oldu\u011funca az \u015fey kaydetmeliyiz. Dahas\u0131 kesinlikle kaydetmek zorunda oldu\u011fumuz ki\u015fi ve yer adlar\u0131n\u0131 korumak i\u00e7in basit bir \u015fifreleme d\u00fc\u015f\u00fcnmeliyiz.</p>\n\n</div>\n\n<p>Kilitli kasa benzetmesine geri d\u00f6necek olursak <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a> ya da benzer ara\u00e7lar\u0131 kullan\u0131rken akl\u0131n\u0131zda bulundurman\u0131z gereken birka\u00e7 \u015fey vard\u0131r. Kasan\u0131z ne kadar g\u00fc\u00e7l\u00fc olursa olsun kap\u0131s\u0131n\u0131 a\u00e7\u0131k b\u0131rak\u0131rsan\u0131z size bir fayda sa\u011flamayacakt\u0131r. <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a> b\u00f6l\u00fcm\u00fcn\u00fcz kullan\u0131ma haz\u0131r durumdayken (i\u00e7eri\u011fine eri\u015fti\u011finiz her seferinde) verileriniz savunmas\u0131z olabilir; o halde i\u00e7indeki dosyalar\u0131 ger\u00e7ekten okudu\u011funuz ve de\u011fi\u015ftirdi\u011finiz zamanlar d\u0131\u015f\u0131nda onu kapal\u0131 tutmal\u0131s\u0131n\u0131z.</p>\n\n<p><a href=\"/tr/glossary#Encryption\"><em>\u015eifrelenmi\u015f</em></a> b\u00f6l\u00fcmlerinizi kullan\u0131ma haz\u0131r durumda b\u0131rakmaman\u0131z gerekti\u011fini \u00f6zellikle hat\u0131rlaman\u0131z gereken baz\u0131 durumlar \u015funlard\u0131r:</p>\n\n<ul><li>Herhangi bir zaman aral\u0131\u011f\u0131 i\u00e7in bilgisayar\u0131n\u0131zdan uzakla\u015ft\u0131\u011f\u0131n\u0131zda \u015fifrelenmi\u015f b\u00f6l\u00fcmlerinizin ba\u011flant\u0131s\u0131n\u0131 kesin. Bilgisayar\u0131n\u0131z\u0131 gece boyunca \u00e7al\u0131\u015f\u0131r b\u0131rakt\u0131\u011f\u0131n\u0131zda, siz uzaktayken hassas bilgilerinizin fiziksel ya da uzak sald\u0131rganlar\u0131n eri\u015fimine a\u00e7\u0131k b\u0131rak\u0131lmad\u0131\u011f\u0131ndan emin olun.</li>\n<li>Bilgisayar\u0131n\u0131z\u0131 uyku moduna sokmadan \u00f6nce \u015fifrelenmi\u015f b\u00f6l\u00fcmlerinizin ba\u011flant\u0131s\u0131n\u0131 kesin. Bu genel olarak diz\u00fcst\u00fc bilgisayarlar\u0131nda kullan\u0131lan ancak masa\u00fcst\u00fc bilgisayarlar\u0131nda da bulunabilecek, hem 'ask\u0131ya alma' hem de 'uyku modu' \u00f6zellikleri i\u00e7in ge\u00e7erlidir.</li>\n<li>Bilgisayar\u0131n\u0131z\u0131 bir ba\u015fkas\u0131na devretmeden \u00f6nce \u015fifrelenmi\u015f b\u00f6l\u00fcmlerinizin ba\u011flant\u0131s\u0131n\u0131 kesin. Bir g\u00fcvenlik noktas\u0131ndan ya da s\u0131n\u0131r kap\u0131s\u0131ndan bir diz\u00fcst\u00fc bilgisayar\u0131 ge\u00e7irirken t\u00fcm <a href=\"/tr/glossary#Encryption\"><em>\u015fifrelenmi\u015f</em></a> b\u00f6l\u00fcmlerin ba\u011flant\u0131s\u0131n\u0131 kesmeniz ve bilgisayar\u0131n\u0131z\u0131 tamamen kapatman\u0131z \u00f6nemlidir.</li>\n<li>Arkada\u015flar\u0131n\u0131z\u0131nki ya da meslekta\u015flar\u0131n\u0131z\u0131nki dahil g\u00fcvenmedi\u011finiz harici bir depolama ayg\u0131t\u0131n\u0131 ya da USB belle\u011fini bilgisayar\u0131n\u0131za takmadan \u00f6nce \u015fifrelenmi\u015f b\u00f6l\u00fcmlerinizin ba\u011flant\u0131s\u0131n\u0131 kesin.</li>\n<li><a href=\"/tr/glossary#Encryption\"><em>\u015eifrelenmi\u015f</em></a> bir b\u00f6l\u00fcm\u00fc bir USB bellekte saklayacaksan\u0131z, ayg\u0131t\u0131 bilgisayardan ay\u0131rman\u0131z b\u00f6l\u00fcm\u00fcn ba\u011flant\u0131s\u0131n\u0131 hemen kesmez. Dosyalar\u0131n\u0131z\u0131 aceleyle g\u00fcvence alt\u0131na alman\u0131z gerekirse de b\u00f6l\u00fcm\u00fc d\u00fczg\u00fcn bir bi\u00e7imde kald\u0131rmal\u0131s\u0131n\u0131z. Ard\u0131ndan da harici s\u00fcr\u00fcc\u00fcn\u00fcn ya da belle\u011fin ba\u011flant\u0131s\u0131n\u0131 kesmelisiniz ve bilgisayardan ay\u0131rmal\u0131s\u0131n\u0131z. Bunlar\u0131 yapman\u0131n en h\u0131zl\u0131 yolunu buluncaya kadar biraz pratik yapmak isteyebilirsiniz.</li>\n</ul><p><a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a> b\u00f6l\u00fcm\u00fcn\u00fc bir USB bellekte saklamaya karar verdiyseniz, <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a> program\u0131n\u0131n da bir kopyas\u0131n\u0131 onunla birlikte tutabilirsiniz. Bu, verilerinize bir ba\u015fkas\u0131n\u0131n bilgisayar\u0131ndan da eri\u015fmenizi sa\u011flar. Genel kurallar h\u00e2l\u00e2 ge\u00e7erlidir : bilgisayar\u0131n <a href=\"/tr/glossary#Malware\"><em>k\u00f6t\u00fc ama\u00e7l\u0131 yaz\u0131l\u0131mlardan</em></a> ar\u0131nd\u0131r\u0131lm\u0131\u015f oldu\u011fu konusunda g\u00fcveniniz tam de\u011filse \u015fifrenizi girmemeli ve hassas verilerinize eri\u015fmemelisiniz.</p>\n", 
+                        "summary": "", 
+                        "value": "<div class=\"background\" markdown=\"1\">\r\nPablo: Ama bilgisayar\u0131m zaten Windows kullan\u0131c\u0131 hesab\u0131 \u015fifresiyle korunuyor! Bu yeterince iyi de\u011fil mi?\r\n\r\nClaudia: Asl\u0131nda Windows kullan\u0131c\u0131 hesab\u0131 \u015fifrelerini k\u0131rmak genelde olduk\u00e7a kolayd\u0131r. Dahas\u0131 bilgisayar\u0131n\u0131 bir LiveCD\u2019yle yeniden ba\u015flatacak kadar uzun s\u00fcre ele ge\u00e7iren herhangi biri, \u015fifre konusunda endi\u015felenmeksizin verilerini kopyalayabilir. Bilgisayar\u0131n\u0131 bir s\u00fcre i\u00e7in al\u0131p g\u00f6t\u00fcrebilirlerse daha da b\u00fcy\u00fck bir sorunun i\u00e7indesin demektir. B\u00f6yle bir durumda endi\u015felenmen gereken sadece Windows \u015fifresi de\u011fildir. Microsoft Word ya da Adobe Acrobat \u015fifrelerine de g\u00fcvenmemelisin.\r\n</div>\r\n\r\nBilgilerinizi [*\u015fifrelemek*](/tr/glossary#Encryption), bilgilerinizi kilitli bir kasada tutmak gibidir. Sadece anahtar\u0131 olanlar ya da kilidin \u015fifresini bilenler (bu durumda bir [*\u015fifreleme*](/tr/glossary#Encryption) anahtar\u0131 ya da \u015fifre) bilgilerinize eri\u015febilir. Bu benzetme, \u00f6zellikle [*TrueCrypt*](/tr/glossary#TrueCrypt) ve onun gibi ara\u00e7lar i\u00e7in uygundur. \u00d6yle ki, bu ara\u00e7lar her seferinde tek bir dosyay\u0131 korumak yerine '\u015fifrelenmi\u015f b\u00f6l\u00fcmler' ad\u0131 verilen g\u00fcvenli b\u00f6l\u00fcmler olu\u015fturur. Bir [*\u015fifrelenmi\u015f*](/tr/glossary#Encryption) b\u00f6l\u00fcme \u00e7ok say\u0131da dosyay\u0131 koyabilirsiniz ancak bu ara\u00e7lar bilgisayar\u0131n\u0131z\u0131n ve USB belle\u011finizin di\u011fer b\u00f6l\u00fcmlerinde depolanm\u0131\u015f herhangi bir \u015feyi korumayacakt\u0131r.\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\n**Uygulama:** [***TrueCrypt  - G\u00fcvenli Dosya Depolama Rehberi***](/en/truecrypt_main) ile uygulamaya ba\u015flay\u0131n\r\n</div>\r\n\r\nHer ne kadar di\u011fer yaz\u0131l\u0131mlar da benzer g\u00fc\u00e7l\u00fc [*\u015fifreleme*](/tr/glossary#Encryption) y\u00f6ntemleri sa\u011flasa da, [*TrueCrypt*](/tr/glossary#TrueCrypt) bilgi g\u00fcvenli\u011fi stratejinizi tasarlaman\u0131za izin veren bir\u00e7ok \u00f6nemli \u00f6zelli\u011fe sahiptir. T\u00fcm dosyalar\u0131n\u0131z, \u00e7al\u0131\u015ft\u0131\u011f\u0131n\u0131z s\u0131rada olu\u015fturulan t\u00fcm ge\u00e7ici dosyalar\u0131n\u0131z, kurdu\u011funuz t\u00fcm programlar\u0131n\u0131z ve t\u00fcm Windows i\u015fletim sistemi dosyalar\u0131n\u0131z dahil, **bilgisayar\u0131n\u0131z\u0131n t\u00fcm diskini kal\u0131c\u0131 olarak \u015fifreleme** olana\u011f\u0131 sunar. TrueCrypt ta\u015f\u0131nabilir depolama ayg\u0131tlar\u0131ndaki *[\u015fifrelenmi\u015f](/tr/glossary#Encryption)* b\u00f6l\u00fcmleri de destekler. A\u015fa\u011f\u0131daki [***Hassas bilgilerinizi gizlemek***](/tr/chapter_4_2) k\u0131sm\u0131nda betimlenen 'ink\u00e2r edebilirlik' \u00f6zelli\u011fini de sunar. Dahas\u0131 TrueCrypt [*\u00fccretsiz ve a\u00e7\u0131k kaynak kodlu*](/tr/glossary#FOSS) bir programd\u0131r.\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo: Tamam \u015fimdi beni endi\u015felendirdin. Ayn\u0131 bilgisayardaki farkl\u0131 kullan\u0131c\u0131lara ne olacak? Bu 'Belgelerim' klas\u00f6r\u00fcmdeki dosyalar\u0131 okuyabilecekleri anlam\u0131na m\u0131 geliyor?\r\n\r\nClaudia: D\u00fc\u015f\u00fcnme bi\u00e7imin ho\u015fuma gitti! Windows \u015fifren sald\u0131rganlardan seni koruyam\u0131yorsa ayn\u0131 bilgisayarda hesab\u0131 olan di\u011fer insanlara kar\u015f\u0131 seni nas\u0131l koruyacak? 'Belgelerim' klas\u00f6r\u00fcn normalde herkese a\u00e7\u0131kt\u0131r. Di\u011fer kullan\u0131c\u0131lar\u0131n \u015fifrelenmemi\u015f dosyalar\u0131n\u0131 okumak i\u00e7in zekice bir \u015fey yapmalar\u0131na gerek yoktur. Hakl\u0131s\u0131n, klas\u00f6rlerini '\u00f6zel' k\u0131lsan bile, bir \u00e7e\u015fit \u015fifreleme kullanmad\u0131\u011f\u0131n s\u00fcrece g\u00fcvende de\u011filsin.</i>\r\n</div>\r\n\r\n### Dosya \u015fiferelemeyi g\u00fcvenle kullanmak i\u00e7in ipu\u00e7lar\u0131 ###\r\n\r\nGizli verileri depolamak hem sizin i\u00e7in hem de birlikte \u00e7al\u0131\u015ft\u0131\u011f\u0131n\u0131z insanlar i\u00e7in bir risk olu\u015fturabilir. [*\u015eifreleme*](/tr/glossary#Encryption) bu riski azalt\u0131r ama onu ortadan kald\u0131rmaz. Hassas verileri koruman\u0131n ilk ad\u0131m\u0131 dola\u015f\u0131mda olan verileri azaltmakt\u0131r. Belirli bir dosyay\u0131 ya da bir dosyadaki belirli bir bilgi kategorisini depolamak i\u00e7in iyi bir nedeniniz yoksa onu silmelisiniz (bunu g\u00fcvenli olarak nas\u0131l yapabilece\u011finiz konusunda daha fazla bilgi i\u00e7in bak\u0131n\u0131z: [***6. B\u00f6l\u00fcm: Hassas bilgiler nas\u0131l imha edilir***](/tr/chapter-6)). At\u0131lacak ikinci ad\u0131m ise [*TrueCrypt*](/tr/glossary#TrueCrypt) gibi iyi bir dosya [*\u015fifreleme*](/tr/glossary#Encryption) arac\u0131 kullanmakt\u0131r.\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nClaudia: Belki de bu ifadeleri bize veren ki\u015filerin kimliklerini a\u00e7\u0131\u011fa \u00e7\u0131karabilecek ayr\u0131nt\u0131lar\u0131 saklamam\u0131za ger\u00e7ekten de ihtiyac\u0131m\u0131z yok. Ne d\u00fc\u015f\u00fcn\u00fcyorsun?\r\n\r\nPablo: Kat\u0131l\u0131yorum. Bu konuda m\u00fcmk\u00fcn oldu\u011funca az \u015fey kaydetmeliyiz. Dahas\u0131 kesinlikle kaydetmek zorunda oldu\u011fumuz ki\u015fi ve yer adlar\u0131n\u0131 korumak i\u00e7in basit bir \u015fifreleme d\u00fc\u015f\u00fcnmeliyiz.\t\t\t\r\n</div>\r\n\r\nKilitli kasa benzetmesine geri d\u00f6necek olursak [*TrueCrypt*](/tr/glossary#TrueCrypt) ya da benzer ara\u00e7lar\u0131 kullan\u0131rken akl\u0131n\u0131zda bulundurman\u0131z gereken birka\u00e7 \u015fey vard\u0131r. Kasan\u0131z ne kadar g\u00fc\u00e7l\u00fc olursa olsun kap\u0131s\u0131n\u0131 a\u00e7\u0131k b\u0131rak\u0131rsan\u0131z size bir fayda sa\u011flamayacakt\u0131r. [*TrueCrypt*](/tr/glossary#TrueCrypt) b\u00f6l\u00fcm\u00fcn\u00fcz kullan\u0131ma haz\u0131r durumdayken (i\u00e7eri\u011fine eri\u015fti\u011finiz her seferinde) verileriniz savunmas\u0131z olabilir; o halde i\u00e7indeki dosyalar\u0131 ger\u00e7ekten okudu\u011funuz ve de\u011fi\u015ftirdi\u011finiz zamanlar d\u0131\u015f\u0131nda onu kapal\u0131 tutmal\u0131s\u0131n\u0131z. \r\n\r\n\r\n[*\u015eifrelenmi\u015f*](/tr/glossary#Encryption) b\u00f6l\u00fcmlerinizi kullan\u0131ma haz\u0131r durumda b\u0131rakmaman\u0131z gerekti\u011fini \u00f6zellikle hat\u0131rlaman\u0131z gereken baz\u0131 durumlar \u015funlard\u0131r:\r\n\r\n- Herhangi bir zaman aral\u0131\u011f\u0131 i\u00e7in bilgisayar\u0131n\u0131zdan uzakla\u015ft\u0131\u011f\u0131n\u0131zda \u015fifrelenmi\u015f b\u00f6l\u00fcmlerinizin ba\u011flant\u0131s\u0131n\u0131 kesin. Bilgisayar\u0131n\u0131z\u0131 gece boyunca \u00e7al\u0131\u015f\u0131r b\u0131rakt\u0131\u011f\u0131n\u0131zda, siz uzaktayken hassas bilgilerinizin fiziksel ya da uzak sald\u0131rganlar\u0131n eri\u015fimine a\u00e7\u0131k b\u0131rak\u0131lmad\u0131\u011f\u0131ndan emin olun.\r\n- Bilgisayar\u0131n\u0131z\u0131 uyku moduna sokmadan \u00f6nce \u015fifrelenmi\u015f b\u00f6l\u00fcmlerinizin ba\u011flant\u0131s\u0131n\u0131 kesin. Bu genel olarak diz\u00fcst\u00fc bilgisayarlar\u0131nda kullan\u0131lan ancak masa\u00fcst\u00fc bilgisayarlar\u0131nda da bulunabilecek, hem 'ask\u0131ya alma' hem de 'uyku modu' \u00f6zellikleri i\u00e7in ge\u00e7erlidir.\r\n- Bilgisayar\u0131n\u0131z\u0131 bir ba\u015fkas\u0131na devretmeden \u00f6nce \u015fifrelenmi\u015f b\u00f6l\u00fcmlerinizin ba\u011flant\u0131s\u0131n\u0131 kesin. Bir g\u00fcvenlik noktas\u0131ndan ya da s\u0131n\u0131r kap\u0131s\u0131ndan bir diz\u00fcst\u00fc bilgisayar\u0131 ge\u00e7irirken t\u00fcm [*\u015fifrelenmi\u015f*](/tr/glossary#Encryption) b\u00f6l\u00fcmlerin ba\u011flant\u0131s\u0131n\u0131 kesmeniz ve bilgisayar\u0131n\u0131z\u0131 tamamen kapatman\u0131z \u00f6nemlidir.\r\n- Arkada\u015flar\u0131n\u0131z\u0131nki ya da meslekta\u015flar\u0131n\u0131z\u0131nki dahil g\u00fcvenmedi\u011finiz harici bir depolama ayg\u0131t\u0131n\u0131 ya da USB belle\u011fini bilgisayar\u0131n\u0131za takmadan \u00f6nce \u015fifrelenmi\u015f b\u00f6l\u00fcmlerinizin ba\u011flant\u0131s\u0131n\u0131 kesin.\r\n- [*\u015eifrelenmi\u015f*](/tr/glossary#Encryption) bir b\u00f6l\u00fcm\u00fc bir USB bellekte saklayacaksan\u0131z, ayg\u0131t\u0131 bilgisayardan ay\u0131rman\u0131z b\u00f6l\u00fcm\u00fcn ba\u011flant\u0131s\u0131n\u0131 hemen kesmez. Dosyalar\u0131n\u0131z\u0131 aceleyle g\u00fcvence alt\u0131na alman\u0131z gerekirse de b\u00f6l\u00fcm\u00fc d\u00fczg\u00fcn bir bi\u00e7imde kald\u0131rmal\u0131s\u0131n\u0131z. Ard\u0131ndan da harici s\u00fcr\u00fcc\u00fcn\u00fcn ya da belle\u011fin ba\u011flant\u0131s\u0131n\u0131 kesmelisiniz ve bilgisayardan ay\u0131rmal\u0131s\u0131n\u0131z. Bunlar\u0131 yapman\u0131n en h\u0131zl\u0131 yolunu buluncaya kadar biraz pratik yapmak isteyebilirsiniz.\r\n\t\r\n[*TrueCrypt*](/tr/glossary#TrueCrypt) b\u00f6l\u00fcm\u00fcn\u00fc bir USB bellekte saklamaya karar verdiyseniz, [*TrueCrypt*](/tr/glossary#TrueCrypt) program\u0131n\u0131n da bir kopyas\u0131n\u0131 onunla birlikte tutabilirsiniz. Bu, verilerinize bir ba\u015fkas\u0131n\u0131n bilgisayar\u0131ndan da eri\u015fmenizi sa\u011flar. Genel kurallar h\u00e2l\u00e2 ge\u00e7erlidir : bilgisayar\u0131n [*k\u00f6t\u00fc ama\u00e7l\u0131 yaz\u0131l\u0131mlardan*](/tr/glossary#Malware) ar\u0131nd\u0131r\u0131lm\u0131\u015f oldu\u011fu konusunda g\u00fcveniniz tam de\u011filse \u015fifrenizi girmemeli ve hassas verilerinize eri\u015fmemelisiniz.\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1941", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1941", 
+                "link_title": "\u1780\u17b6\u179a\u1792\u17d2\u179c\u17be\u1780\u17bc\u178a\u1793\u17b8\u1799\u1780\u1798\u17d2\u1798\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5086", 
+                "module": "book", 
+                "nid": "1941", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5085", 
+                "p3": "5086", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5085", 
+                "router_path": "node/%", 
+                "title": "\u1780\u17b6\u179a\u1792\u17d2\u179c\u17be\u1780\u17bc\u178a\u1793\u17b8\u1799\u1780\u1798\u17d2\u1798\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1452271807", 
+            "comment": "0", 
+            "created": "1441102942", 
+            "current_revision_id": "12770", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter-4-1", 
+                        "value": "chapter-4-1"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5086": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1941", 
+                    "link_title": "\u1780\u17b6\u179a\u1792\u17d2\u179c\u17be\u1780\u17bc\u178a\u1793\u17b8\u1799\u1780\u1798\u17d2\u1798\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5086", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5085", 
+                    "p3": "5086", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5085", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1941", 
+            "num_revisions": "24", 
+            "path": "https://securityinabox.org/en/node/1941", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452271807", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Bilgilerinizi \u015fifrelemek", 
+                        "value": "Bilgilerinizi \u015fifrelemek"
+                    }
+                ]
+            }, 
+            "title_original": "Encrypting your information", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442915662", 
+                        "created": "1442915662", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442226935", 
+                        "created": "1441803951", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443095737", 
+                        "created": "1443095737", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442410495", 
+                        "created": "1442410495", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451910455", 
+                        "created": "1441205210", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089078", 
+                        "created": "1442759311", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695033", 
+                        "created": "1443695033", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452271807", 
+                        "created": "1452271807", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443102573", 
+                        "created": "1443102573", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113191", 
+                        "created": "1441113191", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443720175", 
+                        "created": "1443719264", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444394814", 
+                        "created": "1444394814", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100019", 
+                        "created": "1443100019", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443091933", 
+                        "created": "1443091933", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441102942", 
+                        "created": "1441102942", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577341", 
+                        "created": "1443601748", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "307aa775-e4c6-4ba2-b5e8-b6754aa35de7", 
+            "vid": "12770", 
+            "vuuid": "40362f67-019c-4f71-98be-f9574a8312cf"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Evinizde ya da ofisinizde bir kasa bulundurmakla ilgili sorun, cebinizde bir tane bulundurman\u0131n s\u00f6z\u00fcn\u00fc bile etmeyelim, fazla g\u00f6ze \u00e7arpma e\u011filiminde olmas\u0131d\u0131r. Bir\u00e7ok insan\u0131n <a href=\"/tr/glossary#Encryption\"><em>\u015fifreleme</em></a> kullanarak kendilerini su\u00e7lu duruma d\u00fc\u015f\u00fcrmek konusunda mant\u0131kl\u0131 endi\u015feleri vard\u0131r. Veri <a href=\"/tr/glossary#Encryption\"><em>\u015fifrelemenin</em></a> me\u015fru nedenleri me\u015fru olmayanlar\u0131n\u0131 kat be kat a\u015fsa bile bu tehdidin ger\u00e7ekli\u011fi g\u00f6z ard\u0131 edilemez. Esas\u0131nda <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a> gibi bir arac\u0131 kullanmaktan ka\u00e7\u0131nmak i\u00e7in iki neden vard\u0131r: kendi kendinizi su\u00e7lu durumuna d\u00fc\u015f\u00fcrme ve en hassas bilgilerinizin konumuna a\u00e7\u0131k\u00e7a i\u015faret etme riski.</p>\n\n<h3>Kendi kendinizi su\u00e7lu durumuna d\u00fc\u015f\u00fcrme riskini g\u00f6z \u00f6n\u00fcnde bulundurmak</h3>\n\n<p><a href=\"/tr/glossary#Encryption\"><em>\u015eifreleme</em></a> bir\u00e7ok \u00fclkede yasa d\u0131\u015f\u0131d\u0131r ki bu da bu t\u00fcr bir yaz\u0131l\u0131m\u0131 indirmenin, kurman\u0131n ve kullanman\u0131n bir su\u00e7 oldu\u011fu anlam\u0131na gelir. Bilgilerinizi, aralar\u0131nda polis, ordu ya da istihbarat servislerinin de oldu\u011fu bir kesim gruptan korumak istiyorsan\u0131z, bu yasalar\u0131 ihlal etmek, etkinliklerinizin ara\u015ft\u0131r\u0131lmas\u0131 ya da \u00f6rg\u00fct\u00fcn\u00fcz\u00fcn yarg\u0131lanmas\u0131 i\u00e7in bir bahane olarak g\u00f6sterilebilir. Bu tarz tehditlerin, burada ele al\u0131nan ara\u00e7lar\u0131n yasall\u0131\u011f\u0131yla ger\u00e7ekte hi\u00e7bir ilgisi olmayabilir. Sadece bir <a href=\"/tr/glossary#Encryption\"><em>\u015fifreleme</em></a> yaz\u0131l\u0131m\u0131yla ili\u015fkilendirilmeniz, su\u00e7 i\u015fledi\u011finiz ya da (<a href=\"/tr/glossary#Encryption\"><em>\u015fifrelenmi\u015f</em></a> b\u00f6l\u00fcm\u00fcn i\u00e7inde ger\u00e7ekte ne oldu\u011fundan ba\u011f\u0131ms\u0131z olarak) casusluk yapt\u0131\u011f\u0131n\u0131z gibi su\u00e7lamalara maruz kalman\u0131z i\u00e7in yeterli olabilir. Bu nedenledir ki bu t\u00fcr ara\u00e7lar\u0131n sizin durumunuza uygun olup olmad\u0131\u011f\u0131n\u0131 dikkatle d\u00fc\u015f\u00fcnmelisiniz.</p>\n\n<p>Durum buysa birka\u00e7 se\u00e7ene\u011finiz bulunmaktad\u0131r:</p>\n\n<ul><li>Veri g\u00fcvenli\u011fi yaz\u0131l\u0131m\u0131 kullanmaktan tamamen vazge\u00e7ebilirsiniz; bu da sadece gizli olmayan bilgileri saklaman\u0131z\u0131 ya da hassas dosyalar\u0131n\u0131z\u0131n \u00f6nemli unsurlar\u0131n\u0131 korumak i\u00e7in bir \u015fifreli s\u00f6zc\u00fck sistemi icat etmenizi gerektirir.</li>\n<li>Hassas bilgilerinizi \u015fifrelemek yerine onlar\u0131 gizlemek i\u00e7in <a href=\"/tr/glossary#Steganography\"><em>steganografi</em></a> olarak adland\u0131r\u0131lan tekni\u011fi kullanabilirsiniz. Bu konuda yard\u0131mc\u0131 olabilecek ara\u00e7lar bulunmaktad\u0131r ama bunlar\u0131 uygun bir \u015fekilde kullanmak \u00e7ok dikkatli bir haz\u0131rl\u0131\u011f\u0131 gerektirir ve kulland\u0131\u011f\u0131n\u0131z ara\u00e7lar\u0131 \u00f6\u011frenen herhangi birinin g\u00f6z\u00fcnde kendi kendinizi su\u00e7lu duruma d\u00fc\u015f\u00fcrme riski h\u00e2l\u00e2 bulunmaktad\u0131r.</li>\n<li>T\u00fcm hassas bilgilerinizi g\u00fcvenli bir webmail hesab\u0131nda depolamay\u0131 deneyebilirsiniz ama bu g\u00fcvenli bir a\u011f ba\u011flant\u0131s\u0131n\u0131 ve g\u00f6rece ileri d\u00fczey bilgisayar ve internet ba\u011flant\u0131s\u0131 bilgisini gerektirir. Bu teknik, a\u011f \u00fczerinden <a href=\"/tr/glossary#Encryption\"><em>\u015fifrelemenin</em></a> dosya <a href=\"/tr/glossary#Encryption\"><em>\u015fifrelemesine</em></a> g\u00f6re daha az su\u00e7 isnad etti\u011fini ve hassas verileri sabit diskinize kazara kopyalamaktan ve orada b\u0131rakmaktan ka\u00e7\u0131nabilece\u011finizi varsayar.</li>\n<li>Hassas bilgilerinizi bir USB bellekte ya da harici sabit diskte saklayarak bilgisayar\u0131n\u0131zdan uzak tutabilirsiniz. Bununla beraber bu t\u00fcr cihazlar kaybedilmeye ya da el konulmaya daha a\u00e7\u0131kt\u0131r; bu nedenle bunlarda hassas, \u015fifrelenmemi\u015f bilgileri ta\u015f\u0131mak genellikle k\u00f6t\u00fc bir fikirdir.</li>\n</ul><p>Gerekliyse bu t\u00fcrden bir dizi taktik kullanabilirsiniz. Bununla beraber, kendi kendinizi su\u00e7lu durumuna d\u00fc\u015f\u00fcrmekten endi\u015fe etti\u011finiz durumlarda bile <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a> kullanmak ve <a href=\"/tr/glossary#Encryption\"><em>\u015fifrelenmi\u015f</em></a> b\u00f6l\u00fcm\u00fcn\u00fcz\u00fc olabildi\u011fince gizlemeye \u00e7al\u0131\u015fmak en g\u00fcvenli yol olabilir.</p>\n\n<p>\u015eifrelenmi\u015f b\u00f6l\u00fcm\u00fcn\u00fcz\u00fc daha az g\u00f6r\u00fcn\u00fcr k\u0131lmak isterseniz onu farkl\u0131 bir dosya t\u00fcr\u00fc gibi g\u00f6r\u00fcnecek \u015fekilde yeniden adland\u0131rabilirsiniz. Yakla\u015f\u0131k 700 MB olan geni\u015f b\u00f6l\u00fcmleri bir CD imaj\u0131ym\u0131\u015f gibi gizlemek i\u00e7in \u201c.iso\u201d dosya uzant\u0131s\u0131n\u0131 kullanmak iyi i\u015fleyen bir se\u00e7enektir. Daha k\u00fc\u00e7\u00fck b\u00f6l\u00fcmler i\u00e7in di\u011fer dosya uzant\u0131lar\u0131 daha ger\u00e7ek\u00e7i olabilir. Bu, kasan\u0131z\u0131 ofisinizin duvar\u0131ndaki bir tablonun ard\u0131na gizlemeye benzer. S\u0131k\u0131 bir aramay\u0131 atlatamayabilir ama az da olsa bir koruma sa\u011flar. <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a> program\u0131n\u0131 bir program olarak kurmak yerine onu sabit diskinize ya da USB belle\u011finize kaydetti\u011finiz s\u0131radan bir dosya gibi yeniden adland\u0131rabilirsiniz. <a href=\"/en/truecrypt_main\"><strong><em>TrueCrypt Rehberi</em></strong></a> bunu nas\u0131l yapaca\u011f\u0131n\u0131z\u0131 a\u00e7\u0131klamaktad\u0131r.</p>\n\n<h3>Hassas bilgilerinizin te\u015fhis edilme riskini g\u00f6z \u00f6n\u00fcnde bulundurmak</h3>\n\n<p>\u00c7o\u011fu zaman bilgisayar\u0131n\u0131zda ya da USB belle\u011finizde bir <a href=\"/tr/glossary#Encryption\"><em>\u015fifreleme</em></a> yaz\u0131l\u0131m\u0131yla 'yakalanmaktan' \u00e7ok; \u015fifrelenmi\u015f b\u00f6l\u00fcm\u00fcn, en \u00e7ok korumak istedi\u011finiz bilgileri tam nerede saklad\u0131\u011f\u0131n\u0131za i\u015faret etmesinden endi\u015fe edersiniz.  Her ne kadar bu bilgileri kimsenin okuyamayaca\u011f\u0131 ger\u00e7ek olsa da bir sald\u0131rgan, onun orada oldu\u011funu ve onu korumak i\u00e7in ad\u0131mlar att\u0131\u011f\u0131n\u0131z\u0131 bilecektir. Bu, sald\u0131rgan\u0131n eri\u015fim elde etmek i\u00e7in giri\u015febilece\u011fi, korkutma, \u015fantaj, sorgulama ve i\u015fkence gibi \u00e7e\u015fitli y\u00f6ntemlere sizi a\u00e7\u0131k hale getirebilir. \u0130\u015fte bu ba\u011flamda, a\u015fa\u011f\u0131da ayr\u0131nt\u0131lar\u0131yla betimlenen, <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a>'in ink\u00e2r edilebilirlik \u00f6zelli\u011fi devreye girmektedir.</p>\n\n<p><a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a>'in ink\u00e2r edilebilirlik \u00f6zelli\u011fi, yaz\u0131l\u0131m\u0131n, dosya <a href=\"/tr/glossary#Encryption\"><em>\u015fifreleme</em></a> ara\u00e7lar\u0131n\u0131n genel olarak sundu\u011funun \u00f6tesine ge\u00e7ti\u011fi \u00f6zelliklerden biridir. Bu \u00f6zellik, en hassas bilgileri, di\u011ferleri gibi yani daha az hassas, gizli veriler gibi g\u00f6steren <a href=\"/tr/glossary#Steganography\"><em>steganografi</em></a>\u2019nin nevi \u015fahs\u0131na m\u00fcnhas\u0131r bir bi\u00e7imi olarak d\u00fc\u015f\u00fcn\u00fclebilir. Bu pek de gizli olmayan bir ofis kasas\u0131n\u0131n i\u00e7ine 'gizli bir taban' kurmaya benzetilebilir. Sald\u0131rgan sizin anahtar\u0131n\u0131z\u0131 \u00e7alarsa ya da kasan\u0131n \u015fifresini vermeniz i\u00e7in sizi korkutursa bulaca\u011f\u0131 \u015fey korumay\u0131 ger\u00e7ekten \u00f6nemsedi\u011finiz bilgiler de\u011fil, baz\u0131 ikna edici 'yem' olarak kulland\u0131\u011f\u0131n\u0131z materyaller olacakt\u0131r.</p>\n\n<p>Kasan\u0131z\u0131n arkas\u0131nda gizli bir b\u00f6lme oldu\u011funu sadece siz bileceksiniz. Bu, sald\u0131rgana vermi\u015f oldu\u011funuzdan ba\u015fka bir s\u0131r saklad\u0131\u011f\u0131n\u0131z\u0131 'ink\u00e2r etmenizi' sa\u011flayacakt\u0131r ve herhangi bir nedenden dolay\u0131 \u015fifrenizi s\u00f6ylemek zorunda kald\u0131\u011f\u0131n\u0131zda bilgilerinizi koruman\u0131za yard\u0131m edecektir. Bu nedenler, sizin ya da meslekta\u015f\u0131n\u0131z\u0131n, tan\u0131d\u0131klar\u0131n\u0131z\u0131n, arkada\u015flar\u0131n\u0131z\u0131n ve aile \u00fcyelerinizin g\u00fcvenli\u011fi i\u00e7in hukuk\u00ee ya da fiziksel tehditleri i\u00e7erebilir. \u0130nk\u00e2r edilebilirli\u011fin amac\u0131, verilerinizi korumay\u0131 se\u00e7seniz bile potansiyel olarak tehlikeli bir durumdan ka\u00e7man\u0131z i\u00e7in size bir \u015fans vermektir. <a href=\"#Considering_the_risk_of_self-incrimination\"><strong><em>Kendi kendinizi su\u00e7lu durumuna d\u00fc\u015f\u00fcrme riskini g\u00f6z \u00f6n\u00fcnde bulundurmak</em></strong></a> k\u0131sm\u0131nda tart\u0131\u015f\u0131ld\u0131\u011f\u0131 gibi, ofisinizde bir kasayla yakalanmak kabul edilemez sonu\u00e7lar\u0131 beraberinde getirmek i\u00e7in yeterliyse, bu \u00f6zellik daha az yararl\u0131d\u0131r.</p>\n\n<p><a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a>'in ink\u00e2r edilebilirlik \u00f6zelli\u011fi, normal <a href=\"/tr/glossary#Encryption\"><em>\u015fifrelenmi\u015f</em></a> b\u00f6l\u00fcm\u00fcn\u00fcz\u00fcn i\u00e7ine 'gizli bir b\u00f6l\u00fcm' daha depolayarak i\u015flev g\u00f6r\u00fcr. Bu gizlenmi\u015f b\u00f6l\u00fcm\u00fc, normal olarak kulland\u0131\u011f\u0131n\u0131zdan farkl\u0131 bir alternatif \u015fifre kullanarak a\u00e7ars\u0131n\u0131z. Teknik bilgiye sahip bir sald\u0131rgan standart b\u00f6l\u00fcm\u00fcn\u00fcze eri\u015fse bile ba\u015fka bir gizli b\u00f6l\u00fcm\u00fcn oldu\u011funu kan\u0131tlayamayacakt\u0131r. Elbette <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a>\u2019in bu yolla bilgi saklayabilece\u011fini \u00e7ok iyi bilebilir, bu nedenle yem olarak kulland\u0131\u011f\u0131n\u0131z \u015fifreyi verir vermez tehdidin ortadan kalkaca\u011f\u0131n\u0131n garantisi yoktur. \u00c7ok say\u0131da insan <a href=\"/tr/glossary#TrueCrypt\"><em>TrueCrypt</em></a>\u2019i, ink\u00e2r edilebilirlik \u00f6zelli\u011fine izin vermeden kullanmaktad\u0131r, bununla beraber verili bir <a href=\"/tr/glossary#Encryption\"><em>\u015fifrelenmi\u015f</em></a> b\u00f6l\u00fcm\u00fcn bu t\u00fcr bir 'gizli taban\u0131'n\u0131n olup olmad\u0131\u011f\u0131n\u0131, analiz yoluyla belirlemenin olanaks\u0131z oldu\u011fu d\u00fc\u015f\u00fcn\u00fclmektedir. Buna ra\u011fmen, gizli b\u00f6l\u00fcm\u00fcn\u00fcz\u00fc a\u00e7\u0131k b\u0131rakmak ya da di\u011fer uygulamalar\u0131n onun i\u00e7erdi\u011fi dosyalara k\u0131sayol olu\u015fturmas\u0131na izin vermek gibi daha az teknik yollarla, gizli b\u00f6l\u00fcm\u00fcn\u00fcz\u00fc a\u00e7\u0131k etmedi\u011finizden emin olmak sizin i\u015finizdir. Alttaki <a href=\"/tr/chapter_4_3\"><strong><em>Okuma \u00f6nerileri</em></strong></a> b\u00f6l\u00fcm\u00fc bu konu hakk\u0131nda sizi daha fazla bilgiye g\u00f6t\u00fcrebilir.</p>\n\n<div class=\"background\">\n\n<p>Claudia: Tamam, o zaman standart b\u00f6l\u00fcm\u00fcn i\u00e7ine baz\u0131 i\u015fe yaramaz dosyalar\u0131 koyal\u0131m ve t\u00fcm tan\u0131kl\u0131klar\u0131 da gizli olana ta\u015f\u0131yal\u0131m. Eski PDF\u2019lerin ya da kullanabilece\u011fimiz ba\u015fka \u015feylerin var m\u0131?</p>\n\n<p>Pablo: Ben de bunu d\u00fc\u015f\u00fcn\u00fcyordum. Demek istedi\u011fim, ba\u015fka se\u00e7ene\u011fimiz yoksa yem olarak kulland\u0131\u011f\u0131m\u0131z \u015fifreyi verece\u011fiz, de\u011fil mi? Ama inand\u0131r\u0131c\u0131 olmak i\u00e7in o dosyalar\u0131n bir \u015fekilde \u00f6nemliymi\u015f gibi g\u00f6r\u00fcnmesini sa\u011flamal\u0131y\u0131z. Aksi halde onlar\u0131 neden \u015fifreleyelim ki? Belki de ilgisiz mal\u00ee dosyalar ya da web sitelerinin \u015fifrelerinin bir listesini ya da bunun gibi bir \u015feyi kullanmal\u0131y\u0131z.</p>\n\n</div>\n", 
+                        "summary": "", 
+                        "value": "Evinizde ya da ofisinizde bir kasa bulundurmakla ilgili sorun, cebinizde bir tane bulundurman\u0131n s\u00f6z\u00fcn\u00fc bile etmeyelim, fazla g\u00f6ze \u00e7arpma e\u011filiminde olmas\u0131d\u0131r. Bir\u00e7ok insan\u0131n [*\u015fifreleme*](/tr/glossary#Encryption) kullanarak kendilerini su\u00e7lu duruma d\u00fc\u015f\u00fcrmek konusunda mant\u0131kl\u0131 endi\u015feleri vard\u0131r. Veri [*\u015fifrelemenin*](/tr/glossary#Encryption) me\u015fru nedenleri me\u015fru olmayanlar\u0131n\u0131 kat be kat a\u015fsa bile bu tehdidin ger\u00e7ekli\u011fi g\u00f6z ard\u0131 edilemez. Esas\u0131nda [*TrueCrypt*](/tr/glossary#TrueCrypt) gibi bir arac\u0131 kullanmaktan ka\u00e7\u0131nmak i\u00e7in iki neden vard\u0131r: kendi kendinizi su\u00e7lu durumuna d\u00fc\u015f\u00fcrme ve en hassas bilgilerinizin konumuna a\u00e7\u0131k\u00e7a i\u015faret etme riski.\r\n\r\n### Kendi kendinizi su\u00e7lu durumuna d\u00fc\u015f\u00fcrme riskini g\u00f6z \u00f6n\u00fcnde bulundurmak ###\r\n\r\n[*\u015eifreleme*](/tr/glossary#Encryption) bir\u00e7ok \u00fclkede yasa d\u0131\u015f\u0131d\u0131r ki bu da bu t\u00fcr bir yaz\u0131l\u0131m\u0131 indirmenin, kurman\u0131n ve kullanman\u0131n bir su\u00e7 oldu\u011fu anlam\u0131na gelir. Bilgilerinizi, aralar\u0131nda polis, ordu ya da istihbarat servislerinin de oldu\u011fu bir kesim gruptan korumak istiyorsan\u0131z, bu yasalar\u0131 ihlal etmek, etkinliklerinizin ara\u015ft\u0131r\u0131lmas\u0131 ya da \u00f6rg\u00fct\u00fcn\u00fcz\u00fcn yarg\u0131lanmas\u0131 i\u00e7in bir bahane olarak g\u00f6sterilebilir. Bu tarz tehditlerin, burada ele al\u0131nan ara\u00e7lar\u0131n yasall\u0131\u011f\u0131yla ger\u00e7ekte hi\u00e7bir ilgisi olmayabilir. Sadece bir [*\u015fifreleme*](/tr/glossary#Encryption) yaz\u0131l\u0131m\u0131yla ili\u015fkilendirilmeniz, su\u00e7 i\u015fledi\u011finiz ya da ([*\u015fifrelenmi\u015f*](/tr/glossary#Encryption) b\u00f6l\u00fcm\u00fcn i\u00e7inde ger\u00e7ekte ne oldu\u011fundan ba\u011f\u0131ms\u0131z olarak) casusluk yapt\u0131\u011f\u0131n\u0131z gibi su\u00e7lamalara maruz kalman\u0131z i\u00e7in yeterli olabilir. Bu nedenledir ki bu t\u00fcr ara\u00e7lar\u0131n sizin durumunuza uygun olup olmad\u0131\u011f\u0131n\u0131 dikkatle d\u00fc\u015f\u00fcnmelisiniz.\r\n\r\nDurum buysa birka\u00e7 se\u00e7ene\u011finiz bulunmaktad\u0131r:\r\n\r\n- Veri g\u00fcvenli\u011fi yaz\u0131l\u0131m\u0131 kullanmaktan tamamen vazge\u00e7ebilirsiniz; bu da sadece gizli olmayan bilgileri saklaman\u0131z\u0131 ya da hassas dosyalar\u0131n\u0131z\u0131n \u00f6nemli unsurlar\u0131n\u0131 korumak i\u00e7in bir \u015fifreli s\u00f6zc\u00fck sistemi icat etmenizi gerektirir.\r\n- Hassas bilgilerinizi \u015fifrelemek yerine onlar\u0131 gizlemek i\u00e7in [*steganografi*](/tr/glossary#Steganography) olarak adland\u0131r\u0131lan tekni\u011fi kullanabilirsiniz. Bu konuda yard\u0131mc\u0131 olabilecek ara\u00e7lar bulunmaktad\u0131r ama bunlar\u0131 uygun bir \u015fekilde kullanmak \u00e7ok dikkatli bir haz\u0131rl\u0131\u011f\u0131 gerektirir ve kulland\u0131\u011f\u0131n\u0131z ara\u00e7lar\u0131 \u00f6\u011frenen herhangi birinin g\u00f6z\u00fcnde kendi kendinizi su\u00e7lu duruma d\u00fc\u015f\u00fcrme riski h\u00e2l\u00e2 bulunmaktad\u0131r.\r\n- T\u00fcm hassas bilgilerinizi g\u00fcvenli bir webmail hesab\u0131nda depolamay\u0131 deneyebilirsiniz ama bu g\u00fcvenli bir a\u011f ba\u011flant\u0131s\u0131n\u0131 ve g\u00f6rece ileri d\u00fczey bilgisayar ve internet ba\u011flant\u0131s\u0131 bilgisini gerektirir. Bu teknik, a\u011f \u00fczerinden [*\u015fifrelemenin*](/tr/glossary#Encryption) dosya [*\u015fifrelemesine*](/tr/glossary#Encryption) g\u00f6re daha az su\u00e7 isnad etti\u011fini ve hassas verileri sabit diskinize kazara kopyalamaktan ve orada b\u0131rakmaktan ka\u00e7\u0131nabilece\u011finizi varsayar.\r\n- Hassas bilgilerinizi bir USB bellekte ya da harici sabit diskte saklayarak bilgisayar\u0131n\u0131zdan uzak tutabilirsiniz. Bununla beraber bu t\u00fcr cihazlar kaybedilmeye ya da el konulmaya daha a\u00e7\u0131kt\u0131r; bu nedenle bunlarda hassas, \u015fifrelenmemi\u015f bilgileri ta\u015f\u0131mak genellikle k\u00f6t\u00fc bir fikirdir.\r\n\t\r\nGerekliyse bu t\u00fcrden bir dizi taktik kullanabilirsiniz. Bununla beraber, kendi kendinizi su\u00e7lu durumuna d\u00fc\u015f\u00fcrmekten endi\u015fe etti\u011finiz durumlarda bile [*TrueCrypt*](/tr/glossary#TrueCrypt) kullanmak ve [*\u015fifrelenmi\u015f*](/tr/glossary#Encryption) b\u00f6l\u00fcm\u00fcn\u00fcz\u00fc olabildi\u011fince gizlemeye \u00e7al\u0131\u015fmak en g\u00fcvenli yol olabilir.\r\n\r\n\u015eifrelenmi\u015f b\u00f6l\u00fcm\u00fcn\u00fcz\u00fc daha az g\u00f6r\u00fcn\u00fcr k\u0131lmak isterseniz onu farkl\u0131 bir dosya t\u00fcr\u00fc gibi g\u00f6r\u00fcnecek \u015fekilde yeniden adland\u0131rabilirsiniz. Yakla\u015f\u0131k 700 MB olan geni\u015f b\u00f6l\u00fcmleri bir CD imaj\u0131ym\u0131\u015f gibi gizlemek i\u00e7in \u201c.iso\u201d dosya uzant\u0131s\u0131n\u0131 kullanmak iyi i\u015fleyen bir se\u00e7enektir. Daha k\u00fc\u00e7\u00fck b\u00f6l\u00fcmler i\u00e7in di\u011fer dosya uzant\u0131lar\u0131 daha ger\u00e7ek\u00e7i olabilir. Bu, kasan\u0131z\u0131 ofisinizin duvar\u0131ndaki bir tablonun ard\u0131na gizlemeye benzer. S\u0131k\u0131 bir aramay\u0131 atlatamayabilir ama az da olsa bir koruma sa\u011flar. [*TrueCrypt*](/tr/glossary#TrueCrypt) program\u0131n\u0131 bir program olarak kurmak yerine onu sabit diskinize ya da USB belle\u011finize kaydetti\u011finiz s\u0131radan bir dosya gibi yeniden adland\u0131rabilirsiniz. [***TrueCrypt Rehberi***](/en/truecrypt_main) bunu nas\u0131l yapaca\u011f\u0131n\u0131z\u0131 a\u00e7\u0131klamaktad\u0131r.\r\n\r\n### Hassas bilgilerinizin te\u015fhis edilme riskini g\u00f6z \u00f6n\u00fcnde bulundurmak ###\r\n\r\n\u00c7o\u011fu zaman bilgisayar\u0131n\u0131zda ya da USB belle\u011finizde bir [*\u015fifreleme*](/tr/glossary#Encryption) yaz\u0131l\u0131m\u0131yla 'yakalanmaktan' \u00e7ok; \u015fifrelenmi\u015f b\u00f6l\u00fcm\u00fcn, en \u00e7ok korumak istedi\u011finiz bilgileri tam nerede saklad\u0131\u011f\u0131n\u0131za i\u015faret etmesinden endi\u015fe edersiniz.  Her ne kadar bu bilgileri kimsenin okuyamayaca\u011f\u0131 ger\u00e7ek olsa da bir sald\u0131rgan, onun orada oldu\u011funu ve onu korumak i\u00e7in ad\u0131mlar att\u0131\u011f\u0131n\u0131z\u0131 bilecektir. Bu, sald\u0131rgan\u0131n eri\u015fim elde etmek i\u00e7in giri\u015febilece\u011fi, korkutma, \u015fantaj, sorgulama ve i\u015fkence gibi \u00e7e\u015fitli y\u00f6ntemlere sizi a\u00e7\u0131k hale getirebilir. \u0130\u015fte bu ba\u011flamda, a\u015fa\u011f\u0131da ayr\u0131nt\u0131lar\u0131yla betimlenen, [*TrueCrypt*](/tr/glossary#TrueCrypt)'in ink\u00e2r edilebilirlik \u00f6zelli\u011fi devreye girmektedir.\r\n\r\n[*TrueCrypt*](/tr/glossary#TrueCrypt)'in ink\u00e2r edilebilirlik \u00f6zelli\u011fi, yaz\u0131l\u0131m\u0131n, dosya [*\u015fifreleme*](/tr/glossary#Encryption) ara\u00e7lar\u0131n\u0131n genel olarak sundu\u011funun \u00f6tesine ge\u00e7ti\u011fi \u00f6zelliklerden biridir. Bu \u00f6zellik, en hassas bilgileri, di\u011ferleri gibi yani daha az hassas, gizli veriler gibi g\u00f6steren [*steganografi*](/tr/glossary#Steganography)\u2019nin nevi \u015fahs\u0131na m\u00fcnhas\u0131r bir bi\u00e7imi olarak d\u00fc\u015f\u00fcn\u00fclebilir. Bu pek de gizli olmayan bir ofis kasas\u0131n\u0131n i\u00e7ine 'gizli bir taban' kurmaya benzetilebilir. Sald\u0131rgan sizin anahtar\u0131n\u0131z\u0131 \u00e7alarsa ya da kasan\u0131n \u015fifresini vermeniz i\u00e7in sizi korkutursa bulaca\u011f\u0131 \u015fey korumay\u0131 ger\u00e7ekten \u00f6nemsedi\u011finiz bilgiler de\u011fil, baz\u0131 ikna edici 'yem' olarak kulland\u0131\u011f\u0131n\u0131z materyaller olacakt\u0131r.\r\n\r\nKasan\u0131z\u0131n arkas\u0131nda gizli bir b\u00f6lme oldu\u011funu sadece siz bileceksiniz. Bu, sald\u0131rgana vermi\u015f oldu\u011funuzdan ba\u015fka bir s\u0131r saklad\u0131\u011f\u0131n\u0131z\u0131 'ink\u00e2r etmenizi' sa\u011flayacakt\u0131r ve herhangi bir nedenden dolay\u0131 \u015fifrenizi s\u00f6ylemek zorunda kald\u0131\u011f\u0131n\u0131zda bilgilerinizi koruman\u0131za yard\u0131m edecektir. Bu nedenler, sizin ya da meslekta\u015f\u0131n\u0131z\u0131n, tan\u0131d\u0131klar\u0131n\u0131z\u0131n, arkada\u015flar\u0131n\u0131z\u0131n ve aile \u00fcyelerinizin g\u00fcvenli\u011fi i\u00e7in hukuk\u00ee ya da fiziksel tehditleri i\u00e7erebilir. \u0130nk\u00e2r edilebilirli\u011fin amac\u0131, verilerinizi korumay\u0131 se\u00e7seniz bile potansiyel olarak tehlikeli bir durumdan ka\u00e7man\u0131z i\u00e7in size bir \u015fans vermektir. [***Kendi kendinizi su\u00e7lu durumuna d\u00fc\u015f\u00fcrme riskini g\u00f6z \u00f6n\u00fcnde bulundurmak***](#Considering_the_risk_of_self-incrimination) k\u0131sm\u0131nda tart\u0131\u015f\u0131ld\u0131\u011f\u0131 gibi, ofisinizde bir kasayla yakalanmak kabul edilemez sonu\u00e7lar\u0131 beraberinde getirmek i\u00e7in yeterliyse, bu \u00f6zellik daha az yararl\u0131d\u0131r.\r\n\r\n[*TrueCrypt*](/tr/glossary#TrueCrypt)'in ink\u00e2r edilebilirlik \u00f6zelli\u011fi, normal [*\u015fifrelenmi\u015f*](/tr/glossary#Encryption) b\u00f6l\u00fcm\u00fcn\u00fcz\u00fcn i\u00e7ine 'gizli bir b\u00f6l\u00fcm' daha depolayarak i\u015flev g\u00f6r\u00fcr. Bu gizlenmi\u015f b\u00f6l\u00fcm\u00fc, normal olarak kulland\u0131\u011f\u0131n\u0131zdan farkl\u0131 bir alternatif \u015fifre kullanarak a\u00e7ars\u0131n\u0131z. Teknik bilgiye sahip bir sald\u0131rgan standart b\u00f6l\u00fcm\u00fcn\u00fcze eri\u015fse bile ba\u015fka bir gizli b\u00f6l\u00fcm\u00fcn oldu\u011funu kan\u0131tlayamayacakt\u0131r. Elbette [*TrueCrypt*](/tr/glossary#TrueCrypt)\u2019in bu yolla bilgi saklayabilece\u011fini \u00e7ok iyi bilebilir, bu nedenle yem olarak kulland\u0131\u011f\u0131n\u0131z \u015fifreyi verir vermez tehdidin ortadan kalkaca\u011f\u0131n\u0131n garantisi yoktur. \u00c7ok say\u0131da insan [*TrueCrypt*](/tr/glossary#TrueCrypt)\u2019i, ink\u00e2r edilebilirlik \u00f6zelli\u011fine izin vermeden kullanmaktad\u0131r, bununla beraber verili bir [*\u015fifrelenmi\u015f*](/tr/glossary#Encryption) b\u00f6l\u00fcm\u00fcn bu t\u00fcr bir 'gizli taban\u0131'n\u0131n olup olmad\u0131\u011f\u0131n\u0131, analiz yoluyla belirlemenin olanaks\u0131z oldu\u011fu d\u00fc\u015f\u00fcn\u00fclmektedir. Buna ra\u011fmen, gizli b\u00f6l\u00fcm\u00fcn\u00fcz\u00fc a\u00e7\u0131k b\u0131rakmak ya da di\u011fer uygulamalar\u0131n onun i\u00e7erdi\u011fi dosyalara k\u0131sayol olu\u015fturmas\u0131na izin vermek gibi daha az teknik yollarla, gizli b\u00f6l\u00fcm\u00fcn\u00fcz\u00fc a\u00e7\u0131k etmedi\u011finizden emin olmak sizin i\u015finizdir. Alttaki [***Okuma \u00f6nerileri***](/tr/chapter_4_3) b\u00f6l\u00fcm\u00fc bu konu hakk\u0131nda sizi daha fazla bilgiye g\u00f6t\u00fcrebilir.\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nClaudia: Tamam, o zaman standart b\u00f6l\u00fcm\u00fcn i\u00e7ine baz\u0131 i\u015fe yaramaz dosyalar\u0131 koyal\u0131m ve t\u00fcm tan\u0131kl\u0131klar\u0131 da gizli olana ta\u015f\u0131yal\u0131m. Eski PDF\u2019lerin ya da kullanabilece\u011fimiz ba\u015fka \u015feylerin var m\u0131?\r\n\r\nPablo: Ben de bunu d\u00fc\u015f\u00fcn\u00fcyordum. Demek istedi\u011fim, ba\u015fka se\u00e7ene\u011fimiz yoksa yem olarak kulland\u0131\u011f\u0131m\u0131z \u015fifreyi verece\u011fiz, de\u011fil mi? Ama inand\u0131r\u0131c\u0131 olmak i\u00e7in o dosyalar\u0131n bir \u015fekilde \u00f6nemliymi\u015f gibi g\u00f6r\u00fcnmesini sa\u011flamal\u0131y\u0131z. Aksi halde onlar\u0131 neden \u015fifreleyelim ki? Belki de ilgisiz mal\u00ee dosyalar ya da web sitelerinin \u015fifrelerinin bir listesini ya da bunun gibi bir \u015feyi kullanmal\u0131y\u0131z.\r\n\r\n</div>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1942", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1942", 
+                "link_title": "\u1780\u17b6\u179a\u179b\u17b6\u1780\u17cb\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u179f\u17be\u1794\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5087", 
+                "module": "book", 
+                "nid": "1942", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5085", 
+                "p3": "5087", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5085", 
+                "router_path": "node/%", 
+                "title": "\u1780\u17b6\u179a\u179b\u17b6\u1780\u17cb\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u179f\u17be\u1794\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1452271865", 
+            "comment": "0", 
+            "created": "1441103039", 
+            "current_revision_id": "12771", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_4_2", 
+                        "value": "chapter_4_2"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5087": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1942", 
+                    "link_title": "\u1780\u17b6\u179a\u179b\u17b6\u1780\u17cb\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u179f\u17be\u1794\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5087", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5085", 
+                    "p3": "5087", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5085", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1942", 
+            "num_revisions": "23", 
+            "path": "https://securityinabox.org/en/node/1942", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452271865", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Hassas bilgilerinizi gizlemek", 
+                        "value": "Hassas bilgilerinizi gizlemek"
+                    }
+                ]
+            }, 
+            "title_original": "Hiding your sensitive information", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442915736", 
+                        "created": "1442915736", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227010", 
+                        "created": "1441804055", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443095770", 
+                        "created": "1443095770", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442410580", 
+                        "created": "1442410580", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451911200", 
+                        "created": "1441205267", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089146", 
+                        "created": "1442759331", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695051", 
+                        "created": "1443695051", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452271865", 
+                        "created": "1452271865", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1452177958", 
+                        "created": "1443102650", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113412", 
+                        "created": "1441113412", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443719893", 
+                        "created": "1443719893", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444394899", 
+                        "created": "1444394899", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100039", 
+                        "created": "1443100039", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092039", 
+                        "created": "1443092039", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441103039", 
+                        "created": "1441103039", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577382", 
+                        "created": "1443601774", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "938065a3-94cc-4d68-a61d-3b850cb1f379", 
+            "vid": "12771", 
+            "vuuid": "2ff8b4c2-d9c7-45f5-babb-4a2fc908e93e"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li>Dosyalar\u0131n\u0131z\u0131 g\u00fcvence alt\u0131na almak i\u00e7in ek bilgi i\u00e7in, bak\u0131n\u0131z: <a href=\"http://www.frontlinedefenders.org/esecman\">Digital Security and Privacy for Human Rights Defenders</a> kitab\u0131n\u0131n <em>2.4 Cryptology</em>, <em>2.8 Steganography</em> ve <em>4.2 Case Study 3</em> b\u00f6l\u00fcmleri.</li>\n<li><a href=\"http://www.truecrypt.org/docs/\">TrueCrypt Documentation</a>, bilgi \u015fifrelemesinin bir\u00e7ok y\u00f6n\u00fcn\u00fc ayr\u0131nt\u0131l\u0131 bir \u015fekilde ele almaktad\u0131r ve <a href=\"http://www.truecrypt.org/faq.php\">TrueCrypt FAQ</a> TrueCrypt hakk\u0131ndaki baz\u0131 genel sorulara yan\u0131t vermektedir.</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "- Dosyalar\u0131n\u0131z\u0131 g\u00fcvence alt\u0131na almak i\u00e7in ek bilgi i\u00e7in, bak\u0131n\u0131z: [Digital Security and Privacy for Human Rights Defenders](http://www.frontlinedefenders.org/esecman) kitab\u0131n\u0131n *2.4 Cryptology*, *2.8 Steganography* ve *4.2 Case Study 3* b\u00f6l\u00fcmleri.\r\n- [TrueCrypt Documentation](http://www.truecrypt.org/docs/), bilgi \u015fifrelemesinin bir\u00e7ok y\u00f6n\u00fcn\u00fc ayr\u0131nt\u0131l\u0131 bir \u015fekilde ele almaktad\u0131r ve [TrueCrypt FAQ](http://www.truecrypt.org/faq.php) TrueCrypt hakk\u0131ndaki baz\u0131 genel sorulara yan\u0131t vermektedir."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1943", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1943", 
+                "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5088", 
+                "module": "book", 
+                "nid": "1943", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5085", 
+                "p3": "5088", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5085", 
+                "router_path": "node/%", 
+                "title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1452271930", 
+            "comment": "0", 
+            "created": "1441103094", 
+            "current_revision_id": "12772", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_4_3", 
+                        "value": "chapter_4_3"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5088": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1943", 
+                    "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5088", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5085", 
+                    "p3": "5088", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5085", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1943", 
+            "num_revisions": "19", 
+            "path": "https://securityinabox.org/en/node/1943", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452271930", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Okuma \u00f6nerileri", 
+                        "value": "Okuma \u00f6nerileri"
+                    }
+                ]
+            }, 
+            "title_original": "Further reading", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442915799", 
+                        "created": "1442915799", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443095860", 
+                        "created": "1443095860", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442410657", 
+                        "created": "1442410657", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441205371", 
+                        "created": "1441205371", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089193", 
+                        "created": "1442759348", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695086", 
+                        "created": "1443695086", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452271930", 
+                        "created": "1452271930", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443102751", 
+                        "created": "1443102751", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113524", 
+                        "created": "1441113524", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443720007", 
+                        "created": "1443720007", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444394983", 
+                        "created": "1444394983", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100057", 
+                        "created": "1443100057", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092145", 
+                        "created": "1443092145", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441103094", 
+                        "created": "1441103094", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577433", 
+                        "created": "1443601812", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "9e143f55-e2d8-4af4-8a8f-0b1548b12359", 
+            "vid": "12772", 
+            "vuuid": "d234accd-4c7d-452c-b4f5-28acefa12bb3"
+        }
+    ], 
+    "changed": "1455879594", 
+    "comment": "0", 
+    "created": "1441102845", 
+    "current_revision_id": "13271", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_menu_title": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "4. How to protect the sensitive files on", 
+                "value": "4. How to protect the sensitive files on"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "4. Bilgisayar\u0131n\u0131zdaki hassas dosyalar\u0131 nas\u0131l korursunuz", 
+                "value": "4. Bilgisayar\u0131n\u0131zdaki hassas dosyalar\u0131 nas\u0131l korursunuz"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-09 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "chapter-4", 
+                "value": "chapter-4"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "4"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "4"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5085": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/1940", 
+            "link_title": "4. How to protect the sensitive files on your computer", 
+            "menu_name": "book-toc-1925", 
+            "mlid": "5085", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5030", 
+            "p2": "5085", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5030", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "4"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "1940", 
+    "num_revisions": "27", 
+    "path": "https://securityinabox.org/en/node/1940", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1455879594", 
+    "revision_uid": "479", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "4. Bilgisayar\u0131n\u0131zdaki hassas dosyalar\u0131 nas\u0131l korursunuz", 
+                "value": "4. Bilgisayar\u0131n\u0131zdaki hassas dosyalar\u0131 nas\u0131l korursunuz"
+            }
+        ]
+    }, 
+    "title_original": "4. How to protect the sensitive files on your computer", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442915564", 
+                "created": "1442915564", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442226854", 
+                "created": "1441803866", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "bo": {
+                "changed": "1443093686", 
+                "created": "1443093686", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "bo", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "es": {
+                "changed": "1442410420", 
+                "created": "1442410420", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1441205100", 
+                "created": "1441205100", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "fr": {
+                "changed": "1447089025", 
+                "created": "1442759170", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }, 
+            "id": {
+                "changed": "1455879594", 
+                "created": "1442925555", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }, 
+            "km": {
+                "changed": "1452271709", 
+                "created": "1452271709", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443102393", 
+                "created": "1443102393", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441112828", 
+                "created": "1441112828", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1443719195", 
+                "created": "1443719195", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "th": {
+                "changed": "1444394711", 
+                "created": "1444394711", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "th", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "tr": {
+                "changed": "1443012697", 
+                "created": "1443012697", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1443089014", 
+                "created": "1443088530", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1443012216", 
+                "created": "1441102845", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "1940", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1444577233", 
+                "created": "1443601722", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_how_to_booklet_chapter", 
+    "uid": "70", 
+    "uuid": "e90ba1ed-c482-4f27-8052-4db852063d19", 
+    "vid": "13271", 
+    "vuuid": "f9599d7a-de57-4e6e-9d99-e4675b980f9a"
+}
