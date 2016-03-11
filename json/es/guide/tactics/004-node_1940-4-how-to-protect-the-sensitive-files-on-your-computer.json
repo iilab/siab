@@ -1,0 +1,1356 @@
+{
+    "body": {
+        "es": [
+            {
+                "format": "full_html", 
+                "safe_summary": "", 
+                "safe_value": "<p>El acceso no autorizado a la informaci\u00f3n en tu computadora o dispositivo de almacenamiento port\u00e1til puede llevarse a cabo de manera remota, si el 'intruso' es capaz de leer o modificar tus datos a trav\u00e9s de la Internet, o f\u00edsicamente, si logra apoderarse tu hardware. Puedes protegerte de estos tipos de amenaza mejorando la seguridad f\u00edsica y de la red de tu datos, como se trat\u00f3 en el cap\u00edtulo <a href=\"/es/chapter-1\" title=\"1. Proteger tu computadora de software malicioso (malware) y de piratas inform\u00e1ticos (hackers)\"><strong>1. Proteger tu computadora de software malicioso (malware) y de piratas inform\u00e1ticos (hackers)</strong></a> y en el cap\u00edtulo <a href=\"/es/chapter-2\" title=\"2. Proteger tu informaci\u00f3n de amenazas f\u00edsicas\"><strong>2. Proteger tu informaci\u00f3n de amenazas f\u00edsicas</strong></a>.</p>\n<p>Sin embargo, es siempre mejor tener varios niveles de defensa, raz\u00f3n por la cual debes proteger tambi\u00e9n los archivos mismos. De esta manera, es probable que tu informaci\u00f3n sensible se mantenga a salvo incluso si tus otras iniciativas en seguridad resultan inadecuadas.</p>\n<p>Existen dos enfoques generales frente al reto de dar seguridad a tus datos de esta forma. Puedes <em><a href=\"/es/glossary#Cifrado\" title=\"Cifrado\">cifrar</a> </em>tus archivos, haci\u00e9ndolos ilegibles a cualquiera que no sea t\u00fa, o puedes esconderlos confiando en que un intruso ser\u00e1 incapaz de encontrar tu informaci\u00f3n sensible. Existen herramientas que te ayudan con cualquiera de los enfoques, incluyendo una aplicaci\u00f3n que es un <a href=\"/es/glossary#FOSS\" title=\"Software Libre y de C\u00f3digo Abierto (FLOSS)\"><em>Software Libre y de C\u00f3digo Abierto (FOSS)</em></a> llamado <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a>, que puede tanto cifrar como esconder tus archivos.</p>\n<p>\u00a0</p>\n<h3 id=\"Contexto\">Contexto</h3>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td>\n<p><em>Claudia y Pablo trabajan con una ONG de derechos humanos en un pa\u00eds de Sudam\u00e9rica. Ellos han pasado muchos meses recolectando testimonios de testigos de violaciones de los derechos humanos que fueron cometidos por el ej\u00e9rcito en su regi\u00f3n. Si los detalles de qui\u00e9n proporcion\u00f3 estos testimonios se hacen conocidos se pondr\u00eda en peligro tanto a la valerosa gente que testific\u00f3, como a los miembros de la organizaci\u00f3n. </em></p>\n<p><em>Esta informaci\u00f3n est\u00e1 actualmente almacenada en una hoja de c\u00e1lculo en la computadora de la ONG que funciona con Windows XP, la cual est\u00e1 conectada a Internet. Siendo conscientes de la seguridad, Claudia se ha asegurado de almacenar en un CD una copia de respaldo de los datos, la cual se mantiene fuera de la oficina. </em></p>\n</td>\n</tr></tbody></table><p>\u00a0</p>\n<h3 id=\"Quepuedesaprender\">\u00bfQu\u00e9 puedes aprender de este cap\u00edtulo?</h3>\n<ul><li>C\u00f3mo <em><a href=\"/es/glossary#Cifrado\" title=\"Cifrado\">cifrar</a> </em>informaci\u00f3n en tu computadora</li>\n<li>Cuales son los riesgos que podr\u00edas afrontar por matener tus datos cifrados</li>\n<li>C\u00f3mo proteger datos en memorias extra\u00edbles USB, en caso de que estas se pierdan o sean robadas</li>\n<li>Qu\u00e9 pasos debes dar para esconder informaci\u00f3n de intrusos f\u00edsicos y remotos</li>\n</ul><p>\u00a0</p>\n", 
+                "summary": "", 
+                "value": "<p>El acceso no autorizado a la informaci\u00f3n en tu computadora o dispositivo de almacenamiento port\u00e1til puede llevarse a cabo de manera remota, si el 'intruso' es capaz de leer o modificar tus datos a trav\u00e9s de la Internet, o f\u00edsicamente, si logra apoderarse tu hardware. Puedes protegerte de estos tipos de amenaza mejorando la seguridad f\u00edsica y de la red de tu datos, como se trat\u00f3 en el cap\u00edtulo <a href=\"/es/chapter-1\" title=\"1. Proteger tu computadora de software malicioso (malware) y de piratas inform\u00e1ticos (hackers)\"><strong>1. Proteger tu computadora de software malicioso (malware) y de piratas inform\u00e1ticos (hackers)</strong></a> y en el cap\u00edtulo <a href=\"/es/chapter-2\" title=\"2. Proteger tu informaci\u00f3n de amenazas f\u00edsicas\"><strong>2. Proteger tu informaci\u00f3n de amenazas f\u00edsicas</strong></a>.</p>\r\n\r\n<p>Sin embargo, es siempre mejor tener varios niveles de defensa, raz\u00f3n por la cual debes proteger tambi\u00e9n los archivos mismos. De esta manera, es probable que tu informaci\u00f3n sensible se mantenga a salvo incluso si tus otras iniciativas en seguridad resultan inadecuadas.</p>\r\n\r\n<p>Existen dos enfoques generales frente al reto de dar seguridad a tus datos de esta forma. Puedes <em><a href=\"/es/glossary#Cifrado\" title=\"Cifrado\">cifrar</a> </em>tus archivos, haci\u00e9ndolos ilegibles a cualquiera que no sea t\u00fa, o puedes esconderlos confiando en que un intruso ser\u00e1 incapaz de encontrar tu informaci\u00f3n sensible. Existen herramientas que te ayudan con cualquiera de los enfoques, incluyendo una aplicaci\u00f3n que es un <a href=\"/es/glossary#FOSS\" title=\"Software Libre y de C\u00f3digo Abierto (FLOSS)\"><em>Software Libre y de C\u00f3digo Abierto (FOSS)</em></a> llamado <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a>, que puede tanto cifrar como esconder tus archivos.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3 id=\"Contexto\">Contexto</h3>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><em>Claudia y Pablo trabajan con una ONG de derechos humanos en un pa\u00eds de Sudam\u00e9rica. Ellos han pasado muchos meses recolectando testimonios de testigos de violaciones de los derechos humanos que fueron cometidos por el ej\u00e9rcito en su regi\u00f3n. Si los detalles de qui\u00e9n proporcion\u00f3 estos testimonios se hacen conocidos se pondr\u00eda en peligro tanto a la valerosa gente que testific\u00f3, como a los miembros de la organizaci\u00f3n. </em></p>\r\n\r\n\t\t\t<p><em>Esta informaci\u00f3n est\u00e1 actualmente almacenada en una hoja de c\u00e1lculo en la computadora de la ONG que funciona con Windows XP, la cual est\u00e1 conectada a Internet. Siendo conscientes de la seguridad, Claudia se ha asegurado de almacenar en un CD una copia de respaldo de los datos, la cual se mantiene fuera de la oficina. </em></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3 id=\"Quepuedesaprender\">\u00bfQu\u00e9 puedes aprender de este cap\u00edtulo?</h3>\r\n\r\n<ul>\r\n\t<li>C\u00f3mo <em><a href=\"/es/glossary#Cifrado\" title=\"Cifrado\">cifrar</a> </em>informaci\u00f3n en tu computadora</li>\r\n\t<li>Cuales son los riesgos que podr\u00edas afrontar por matener tus datos cifrados</li>\r\n\t<li>C\u00f3mo proteger datos en memorias extra\u00edbles USB, en caso de que estas se pierdan o sean robadas</li>\r\n\t<li>Qu\u00e9 pasos debes dar para esconder informaci\u00f3n de intrusos f\u00edsicos y remotos</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1925", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/1940", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/1940", 
+        "link_title": "4. How to protect the sensitive files on your computer", 
+        "menu_name": "book-toc-1925", 
+        "mlid": "5085", 
+        "module": "book", 
+        "nid": "1940", 
+        "options": [], 
+        "p1": "5030", 
+        "p2": "5085", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5030", 
+        "router_path": "node/%", 
+        "title": "4. How to protect the sensitive files on your computer", 
+        "updated": "0", 
+        "weight": "4"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "full_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>\u00a0</p>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td>\n<p><em>Pablo: \u00a1Pero mi computadora ya est\u00e1 protegida por la contrase\u00f1a de acceso de Windows! \u00bfNo es eso lo suficientemente bueno? </em></p>\n<p>\t\t\t<em>Claudia: En realidad, las contrase\u00f1as de acceso de Windows son normalmente muy f\u00e1ciles de descifrar. Adem\u00e1s, cualquiera que ponga sus manos en tu computadora por el tiempo suficiente para reiniciar tu computadora con un LiveCD en la unidad lectora puede copiar tus datos sin siquiera tener que preocuparse sobre la contrase\u00f1a. Si esta persona logra llevarse la computadora por un momento te encontrar\u00e1s con peores problemas a\u00fan. Por ello no es s\u00f3lo la contrase\u00f1a de Windows de lo que necesitas preocuparte. Tampoco debes confiar en las contrase\u00f1as de Microsoft Word o de Adobe Acrobat.</em></p>\n</td>\n</tr></tbody></table><p>\u00a0</p>\n<p>\u00a0</p>\n<p>El <em><a href=\"/es/glossary#Cifrado\" title=\"Cifrado\">cifrar</a> </em>tu informaci\u00f3n se parece un poco a mantenerla encerrada en una caja fuerte. S\u00f3lo aquellos que tengan la llave o conozcan la combinaci\u00f3n de la cerradura pueden acceder a ella. La analog\u00eda es particularmente apropiada para <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a> y herramientas similares, las cuales crean contenedores seguros llamados 'vol\u00famenes cifrados' en vez de simplemente proteger los archivos de uno en uno. Puedes poner un gran n\u00famero de archivos dentro de un volumen cifrado, pero estas herramientas no proteger\u00e1n los archivos que est\u00e9n almacenados en otro lugar en tu computadora o en tu memoria extra\u00edble USB.</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td><img align=\"middle\" height=\"63\" src=\"/sites/securitybkp.ngoinabox.org/files/u9/hand_web_trans.png\" width=\"60\" /><strong>Parte Pr\u00e1ctica: Empieza con la <a href=\"/es/truecrypt_principal\" title=\"Gu\u00eda del TrueCrypt\"><strong>Gu\u00eda del TrueCrypt</strong></a></strong></td>\n</tr></tbody></table><p>\u00a0</p>\n<p>\u00a0</p>\n<p>Mientras que otros software puede proporcionarte un <em><a href=\"/es/glossary#Cifrado\" title=\"Cifrado\">cifrado</a> </em>que sea igualmente fuerte, <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a> contiene varias caracter\u00edsticas importante que te permitir\u00e1 dise\u00f1ar tu estrategia de seguridad inform\u00e1tica. Te da la posibilidad de encriptar permanentemente todo el disco de tu computadora incluyendo todos tus archivos, todos tus archivos temporales creados durante tu trabajo, todos los programas que hayas instalado y todos los archivos del sistema operativo Windows. Truecrypt proporciona respaldo para llevar vol\u00famenes cifrados en dispositivos port\u00e1tiles de almacenamiento. Y provee la opci\u00f3n de 'denegaci\u00f3n' descrita en la secci\u00f3n <a href=\"/es/chapter_4_2\" title=\"Ocultar tu informaci\u00f3n sensible\"><strong>Ocultar tu informaci\u00f3n sensible</strong></a>. Adicionalmente TrueCrypt es un programa <em><a href=\"/es/glossary#FOSS\" title=\"Cifrado\">gratuito y de c\u00f3digo abierto</a></em>.</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td>\n<p><em>Pablo: Est\u00e1 bien, ahora s\u00ed que me tienes preocupado. \u00bfQu\u00e9 sucede con los otros usuarios de la misma computadora? \u00bfEsto significa que pueden leer documentos en la carpeta de 'Mis Documentos'? </em></p>\n<p>\t\t\t<em>Claudia: \u00a1Me gusta la manera en la que piensas! Si tu contrase\u00f1a de Windows no te protege de los intrusos \u00bfc\u00f3mo te podr\u00eda proteger de otras personas con cuentas en la misma computadora?. </em></p>\n<p><em>De hecho, tu carpeta de Mis Documentos est\u00e1 normalmente visible para cualquiera, de modo que otros usuarios no tendr\u00edan siquiera que hacer algo inteligente para leer tus archivos no cifrados. Sin embargo, tienes raz\u00f3n, incluso si la carpeta se hace 'privada,' todav\u00eda no est\u00e1s a salvo a menos que utilices alg\u00fan tipo de cifrado. </em></p>\n</td>\n</tr></tbody></table><p>\u00a0</p>\n<p>\u00a0</p>\n<h3 id=\"Consejosutilizarcifradoarchivos\">Consejos para utilizar el cifrado de archivos de manera segura</h3>\n<p>\u00a0</p>\n<p>Almacenar datos confidenciales puede ser un riesgo para ti y para aquellos con quien trabajas. El <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> reduce el riesgo pero no lo elimina. El primer paso para proteger informaci\u00f3n sensible es el reducir la cantidad de la misma que almacenas. A menos que tengas una buena raz\u00f3n para almacenar un archivo en particular, o una categor\u00eda particular de informaci\u00f3n dentro de un archivo, simplemente deber\u00edas borrarla (dir\u00edgete al cap\u00edtulo <a href=\"/es/chapter-6\" title=\"6. Destruir informaci\u00f3n sensible\"><strong>6. Destruir informaci\u00f3n sensible</strong></a> para obtener m\u00e1s informaci\u00f3n de como hacerlo de manera segura.) El segundo paso es utilizar una buena herramienta de cifrado de archivos, tal como <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a>.</p>\n<p>\u00a0</p>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td><em>Claudia: Bien, tal vez no necesitamos en realidad almacenar informaci\u00f3n que podr\u00eda identificar a las personas que nos dieron sus testimonios. \u00bfQu\u00e9 opinas? </em>\n<p>\t\t\t<em>Pablo: De acuerdo. Probablemente deber\u00edamos escribir lo menos posible sobre ello. Adem\u00e1s, deber\u00edamos pensar en un c\u00f3digo simple que podamos utilizar para proteger los nombres y las ubicaciones que tenemos que registrar de todas maneras. </em></p></td>\n</tr></tbody></table><p>\u00a0</p>\n<p>\u00a0</p>\n<p>Regresando a la analog\u00eda de la caja fuerte cerrada, hay algunas cosas que debes tener en cuenta cuando utilices <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a> u otras herramientas similares. No importa cu\u00e1n robusta sea caja fuerte, no te har\u00e1 mucho bien si dejas la puerta abierta. Cuando tu volumen TrueCrypt est\u00e1 'montado' (el momento en que puedes acceder a su contenido), tus datos pueden ser vulnerables, de modo que debe mantenerse cerrado excepto cuando est\u00e1s, ciertamente, leyendo o modificando los archivos dentro de este.</p>\n<p>\u00a0</p>\n<p>Existen algunas situaciones en las que es especialmente importante que recuerdes no dejar montado tu volumen <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a>:</p>\n<ul><li>Descon\u00e9ctalo cuando debas alejarte de tu computadora por cualquier lapso de tiempo. Incluso si normalmente dejas tu computadora funcionando toda la noche, debes asegurarte de no dejar tus archivos sensibles accesibles a intrusos f\u00edsicos o remotos mientras est\u00e1s ausente.</li>\n<li>Descon\u00e9ctalo antes de poner tu computadora a dormir. Esto se aplica a las opciones de 'suspendido' e 'hibernaci\u00f3n', las cuales son com\u00fanmente usadas en computadoras port\u00e1tiles pero que pueden estar presentes tambi\u00e9n en las computadoras de escritorio.</li>\n<li>Descon\u00e9ctalo antes de permitir a alguien usar tu computadora. Cuando pases tu computadora port\u00e1til a trav\u00e9s de un control de seguridad o frontera, es importante que desconectes todos los vol\u00famenes <a href=\"/glossary#Cifrado\" title=\"Cifrado\"><em>cifrados</em></a> y que apagues completamente tu computadora.</li>\n<li>Descon\u00e9ctalo antes de insertar una memoria extra\u00edble USB no confiable u otro dispositivo de almacenamiento externo, incluyendo aquellos que pertenezcan a tus amigos y colegas.</li>\n<li>Si mantienes un volumen <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> en una memoria extra\u00edble USB, recuerda que el solo hecho de extraer el dispositivo puede no desconectar inmediatamente el volumen. Incluso si necesitas proteger tus archivos con urgencia, necesitas desmontar el volumen de forma apropiada, luego desconectar la unidad externa o la memoria extra\u00edble, y luego retirar el dispositivo. Puedes practicar varias veces hasta que halles la forma m\u00e1s r\u00e1pida de hacer todas estas cosas.</li>\n</ul><p>Si decides mantener tu volumen <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a> en una memoria extra\u00edble USB, tambi\u00e9n puedes mantener una copia del programa TrueCrypt en ella. Esto te permitir\u00e1 tener acceso a tus datos en las computadoras de otras personas. Sin embargo, las reglas normales todav\u00eda se aplican: si no conf\u00edas en que la m\u00e1quina est\u00e9 libre de <a href=\"/es/glossary#Malware\" title=\"Software malicioso (malware)\"><em>software malicioso (malware)</em></a>, probablemente no deber\u00edas ingresar tus contrase\u00f1as o acceder a datos sensibles.</p>\n<p>\u00a0</p>\n", 
+                        "summary": "", 
+                        "value": "<p>&nbsp;</p>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><em>Pablo: \u00a1Pero mi computadora ya est\u00e1 protegida por la contrase\u00f1a de acceso de Windows! \u00bfNo es eso lo suficientemente bueno? </em><br />\r\n\t\t\t<br />\r\n\t\t\t<em>Claudia: En realidad, las contrase\u00f1as de acceso de Windows son normalmente muy f\u00e1ciles de descifrar. Adem\u00e1s, cualquiera que ponga sus manos en tu computadora por el tiempo suficiente para reiniciar tu computadora con un LiveCD en la unidad lectora puede copiar tus datos sin siquiera tener que preocuparse sobre la contrase\u00f1a. Si esta persona logra llevarse la computadora por un momento te encontrar\u00e1s con peores problemas a\u00fan. Por ello no es s\u00f3lo la contrase\u00f1a de Windows de lo que necesitas preocuparte. Tampoco debes confiar en las contrase\u00f1as de Microsoft Word o de Adobe Acrobat.</em></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>El <em><a href=\"/es/glossary#Cifrado\" title=\"Cifrado\">cifrar</a> </em>tu informaci\u00f3n se parece un poco a mantenerla encerrada en una caja fuerte. S\u00f3lo aquellos que tengan la llave o conozcan la combinaci\u00f3n de la cerradura pueden acceder a ella. La analog\u00eda es particularmente apropiada para <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a> y herramientas similares, las cuales crean contenedores seguros llamados 'vol\u00famenes cifrados' en vez de simplemente proteger los archivos de uno en uno. Puedes poner un gran n\u00famero de archivos dentro de un volumen cifrado, pero estas herramientas no proteger\u00e1n los archivos que est\u00e9n almacenados en otro lugar en tu computadora o en tu memoria extra\u00edble USB.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><img align=\"middle\" height=\"63\" src=\"/sites/securitybkp.ngoinabox.org/files/u9/hand_web_trans.png\" width=\"60\" /> <strong>Parte Pr\u00e1ctica: Empieza con la <a href=\"/es/truecrypt_principal\" title=\"Gu\u00eda del TrueCrypt\"><strong>Gu\u00eda del TrueCrypt</strong></a></strong></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Mientras que otros software puede proporcionarte un <em><a href=\"/es/glossary#Cifrado\" title=\"Cifrado\">cifrado</a> </em>que sea igualmente fuerte, <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a> contiene varias caracter\u00edsticas importante que te permitir\u00e1 dise\u00f1ar tu estrategia de seguridad inform\u00e1tica. Te da la posibilidad de encriptar permanentemente todo el disco de tu computadora incluyendo todos tus archivos, todos tus archivos temporales creados durante tu trabajo, todos los programas que hayas instalado y todos los archivos del sistema operativo Windows. Truecrypt proporciona respaldo para llevar vol\u00famenes cifrados en dispositivos port\u00e1tiles de almacenamiento. Y provee la opci\u00f3n de 'denegaci\u00f3n' descrita en la secci\u00f3n <a href=\"/es/chapter_4_2\" title=\"Ocultar tu informaci\u00f3n sensible\"><strong>Ocultar tu informaci\u00f3n sensible</strong></a>. Adicionalmente TrueCrypt es un programa <em><a href=\"/es/glossary#FOSS\" title=\"Cifrado\">gratuito y de c\u00f3digo abierto</a></em>.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><em>Pablo: Est\u00e1 bien, ahora s\u00ed que me tienes preocupado. \u00bfQu\u00e9 sucede con los otros usuarios de la misma computadora? \u00bfEsto significa que pueden leer documentos en la carpeta de 'Mis Documentos'? </em><br />\r\n\t\t\t<br />\r\n\t\t\t<em>Claudia: \u00a1Me gusta la manera en la que piensas! Si tu contrase\u00f1a de Windows no te protege de los intrusos \u00bfc\u00f3mo te podr\u00eda proteger de otras personas con cuentas en la misma computadora?. </em></p>\r\n\r\n\t\t\t<p><em>De hecho, tu carpeta de Mis Documentos est\u00e1 normalmente visible para cualquiera, de modo que otros usuarios no tendr\u00edan siquiera que hacer algo inteligente para leer tus archivos no cifrados. Sin embargo, tienes raz\u00f3n, incluso si la carpeta se hace 'privada,' todav\u00eda no est\u00e1s a salvo a menos que utilices alg\u00fan tipo de cifrado. </em></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3 id=\"Consejosutilizarcifradoarchivos\">Consejos para utilizar el cifrado de archivos de manera segura</h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Almacenar datos confidenciales puede ser un riesgo para ti y para aquellos con quien trabajas. El <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> reduce el riesgo pero no lo elimina. El primer paso para proteger informaci\u00f3n sensible es el reducir la cantidad de la misma que almacenas. A menos que tengas una buena raz\u00f3n para almacenar un archivo en particular, o una categor\u00eda particular de informaci\u00f3n dentro de un archivo, simplemente deber\u00edas borrarla (dir\u00edgete al cap\u00edtulo <a href=\"/es/chapter-6\" title=\"6. Destruir informaci\u00f3n sensible\"><strong>6. Destruir informaci\u00f3n sensible</strong></a> para obtener m\u00e1s informaci\u00f3n de como hacerlo de manera segura.) El segundo paso es utilizar una buena herramienta de cifrado de archivos, tal como <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a>.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><em>Claudia: Bien, tal vez no necesitamos en realidad almacenar informaci\u00f3n que podr\u00eda identificar a las personas que nos dieron sus testimonios. \u00bfQu\u00e9 opinas? </em><br />\r\n\t\t\t<br />\r\n\t\t\t<em>Pablo: De acuerdo. Probablemente deber\u00edamos escribir lo menos posible sobre ello. Adem\u00e1s, deber\u00edamos pensar en un c\u00f3digo simple que podamos utilizar para proteger los nombres y las ubicaciones que tenemos que registrar de todas maneras. </em></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Regresando a la analog\u00eda de la caja fuerte cerrada, hay algunas cosas que debes tener en cuenta cuando utilices <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a> u otras herramientas similares. No importa cu\u00e1n robusta sea caja fuerte, no te har\u00e1 mucho bien si dejas la puerta abierta. Cuando tu volumen TrueCrypt est\u00e1 'montado' (el momento en que puedes acceder a su contenido), tus datos pueden ser vulnerables, de modo que debe mantenerse cerrado excepto cuando est\u00e1s, ciertamente, leyendo o modificando los archivos dentro de este.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Existen algunas situaciones en las que es especialmente importante que recuerdes no dejar montado tu volumen <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a>:</p>\r\n\r\n<ul>\r\n\t<li>Descon\u00e9ctalo cuando debas alejarte de tu computadora por cualquier lapso de tiempo. Incluso si normalmente dejas tu computadora funcionando toda la noche, debes asegurarte de no dejar tus archivos sensibles accesibles a intrusos f\u00edsicos o remotos mientras est\u00e1s ausente.</li>\r\n\t<li>Descon\u00e9ctalo antes de poner tu computadora a dormir. Esto se aplica a las opciones de 'suspendido' e 'hibernaci\u00f3n', las cuales son com\u00fanmente usadas en computadoras port\u00e1tiles pero que pueden estar presentes tambi\u00e9n en las computadoras de escritorio.</li>\r\n\t<li>Descon\u00e9ctalo antes de permitir a alguien usar tu computadora. Cuando pases tu computadora port\u00e1til a trav\u00e9s de un control de seguridad o frontera, es importante que desconectes todos los vol\u00famenes <a href=\"/glossary#Cifrado\" title=\"Cifrado\"><em>cifrados</em></a> y que apagues completamente tu computadora.</li>\r\n\t<li>Descon\u00e9ctalo antes de insertar una memoria extra\u00edble USB no confiable u otro dispositivo de almacenamiento externo, incluyendo aquellos que pertenezcan a tus amigos y colegas.</li>\r\n\t<li>Si mantienes un volumen <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> en una memoria extra\u00edble USB, recuerda que el solo hecho de extraer el dispositivo puede no desconectar inmediatamente el volumen. Incluso si necesitas proteger tus archivos con urgencia, necesitas desmontar el volumen de forma apropiada, luego desconectar la unidad externa o la memoria extra\u00edble, y luego retirar el dispositivo. Puedes practicar varias veces hasta que halles la forma m\u00e1s r\u00e1pida de hacer todas estas cosas.</li>\r\n</ul>\r\n\r\n<p>Si decides mantener tu volumen <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a> en una memoria extra\u00edble USB, tambi\u00e9n puedes mantener una copia del programa TrueCrypt en ella. Esto te permitir\u00e1 tener acceso a tus datos en las computadoras de otras personas. Sin embargo, las reglas normales todav\u00eda se aplican: si no conf\u00edas en que la m\u00e1quina est\u00e9 libre de <a href=\"/es/glossary#Malware\" title=\"Software malicioso (malware)\"><em>software malicioso (malware)</em></a>, probablemente no deber\u00edas ingresar tus contrase\u00f1as o acceder a datos sensibles.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1941", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1941", 
+                "link_title": "\u1780\u17b6\u179a\u1792\u17d2\u179c\u17be\u1780\u17bc\u178a\u1793\u17b8\u1799\u1780\u1798\u17d2\u1798\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5086", 
+                "module": "book", 
+                "nid": "1941", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5085", 
+                "p3": "5086", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5085", 
+                "router_path": "node/%", 
+                "title": "\u1780\u17b6\u179a\u1792\u17d2\u179c\u17be\u1780\u17bc\u178a\u1793\u17b8\u1799\u1780\u1798\u17d2\u1798\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1452271807", 
+            "comment": "0", 
+            "created": "1441102942", 
+            "current_revision_id": "12770", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_4_1", 
+                        "value": "chapter_4_1"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5086": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1941", 
+                    "link_title": "\u1780\u17b6\u179a\u1792\u17d2\u179c\u17be\u1780\u17bc\u178a\u1793\u17b8\u1799\u1780\u1798\u17d2\u1798\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5086", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5085", 
+                    "p3": "5086", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5085", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1941", 
+            "num_revisions": "24", 
+            "path": "https://securityinabox.org/en/node/1941", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452271807", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Cifrar tu informaci\u00f3n", 
+                        "value": "Cifrar tu informaci\u00f3n"
+                    }
+                ]
+            }, 
+            "title_original": "Encrypting your information", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442915662", 
+                        "created": "1442915662", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442226935", 
+                        "created": "1441803951", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443095737", 
+                        "created": "1443095737", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442410495", 
+                        "created": "1442410495", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451910455", 
+                        "created": "1441205210", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089078", 
+                        "created": "1442759311", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695033", 
+                        "created": "1443695033", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452271807", 
+                        "created": "1452271807", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443102573", 
+                        "created": "1443102573", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113191", 
+                        "created": "1441113191", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443720175", 
+                        "created": "1443719264", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444394814", 
+                        "created": "1444394814", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100019", 
+                        "created": "1443100019", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443091933", 
+                        "created": "1443091933", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441102942", 
+                        "created": "1441102942", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577341", 
+                        "created": "1443601748", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "307aa775-e4c6-4ba2-b5e8-b6754aa35de7", 
+            "vid": "12770", 
+            "vuuid": "40362f67-019c-4f71-98be-f9574a8312cf"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "full_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Un problema con el hecho de mantener una caja fuerte en tu casa u oficina, ni que decir de llevarla contigo, es que tiende a ser muy obvio. Muchas personas tienen preocupaciones razonables sobre autoincriminarse por medio del uso del <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a>. S\u00f3lo porque las razones leg\u00edtimas para cifrar<em> </em>datos exceden en n\u00famero aquellas ileg\u00edtimas no hace esta amenaza menos real. Existen dos razones fundamentales por las que querr\u00edas evitar utilizar una herramienta como el <em><a href=\"/es/truecrypt_principal\">TrueCrypt</a></em>: el riesgo de autoincriminaci\u00f3n y el riesgo de identificar claramente la ubicaci\u00f3n de tu informaci\u00f3n m\u00e1s sensible.</p>\n<p>\u00a0</p>\n<h3 id=\"Considerarriesgoautoincriminacion\">Considerar el riesgo de autoincriminaci\u00f3n</h3>\n<p>El <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> es ilegal en algunos pa\u00edses, lo que significa que descargar, instalar o utilizar software de este tipo podr\u00eda ser un crimen en si. Y, si la polic\u00eda, el ej\u00e9rcito o los servicios de inteligencia se hallan entre los grupos de quienes est\u00e1s buscando proteger tu informaci\u00f3n, entonces el violar estas leyes puede proporcionarles un pretexto ideal bajo el cual tus actividades pueden ser investigadas o tu organizaci\u00f3n perseguida. En realidad, amenazas como esta pueden no tener nada que ver con la legalidad de las herramientas en cuesti\u00f3n. En cualquier momento, el mero hecho de estar asociado con software de cifrado ser\u00eda suficiente para exponerte a acusaciones de actividad criminal o espionaje\u2014sin importar lo que realmente est\u00e1 dentro de los vol\u00famenes cifrados-- por tanto debes pensar cuidadosamente respecto a si dichas herramientas son apropiadas o no para tu situaci\u00f3n.</p>\n<p>Si ese es el caso, tienes unas cuantas opciones:</p>\n<ul><li>Puedes evitar completamente el utilizar software de seguridad de datos, lo que requerir\u00e1 que almacenes \u00fanicamente informaci\u00f3n no confidencial o que inventes un sistema de palabras en c\u00f3digo para proteger elementos clave de tus archivos sensibles.</li>\n<li>Puedes confiar en una t\u00e9cnica llamada <a href=\"/es/glossary#Esteganografia\" title=\"Esteganograf\u00eda\"><em>esteganograf\u00eda</em></a> para esconder tu informaci\u00f3n sensible, en vez de cifrarla. Existen herramientas que pueden ayudarte con ello, pero el utilizarlas adecuadamente requiere una preparaci\u00f3n muy cuidadosa, y todav\u00eda corres el riesgo de incriminarte a los ojos de cualquiera que descubra que est\u00e1s usando esta herramienta.</li>\n<li>Puedes intentar almacenar toda tu informaci\u00f3n sensible en una cuenta de correo electr\u00f3nico segura, pero ello requiere de una conexi\u00f3n de red confiable y un relativamente sofisticado nivel de conocimiento de computadoras y de servicios de Internet. Esta t\u00e9cnica tambi\u00e9n da por hecho que el <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> de red es menos incriminatorio que el cifrado de archivos y que puedes evitar copiar accidentalmente datos sensibles en tu disco duro y dejarlos ah\u00ed.</li>\n<li>Puedes mantener la informaci\u00f3n sensible lejos de tu computadora almacen\u00e1ndola en una memoria extra\u00edble USB o en una disco duro port\u00e1til. Sin embargo, tales dispositivos son normalmente incluso m\u00e1s vulnerables que las computadoras a la perdida y a su confiscaci\u00f3n, de modo que estar portando informaci\u00f3n sensible y no cifrada en uno de estos tipos de dispositivos es normalmente una mala idea.</li>\n</ul><p>Si es necesario, puedes emplear varias de estas t\u00e1cticas. Sin embargo, incluso en circunstancias en las que est\u00e1s preocupado sobre la autoincriminaci\u00f3n, lo m\u00e1s seguro ser\u00e1 utilizar <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a>, mientras que a la vez tratas de camuflar tu volumen <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> de la mejor manera posible.</p>\n<p>Si deseas que tu volumen cifrado sea menos llamativo, puedes renombrarlo para que se parezca a un tipo diferente de archivo. Utiliza la extensi\u00f3n '.iso', para camuflarlo como una imagen de CD, es una opci\u00f3n que funciona bien para grandes vol\u00famenes de alrededor de 700 MB. Otras extensiones ser\u00edan m\u00e1s realistas para peque\u00f1os vol\u00famenes. Esto se asemeja a esconder tu caja fuerte detr\u00e1s de una pintura en la pared de tu oficina. Este no ser\u00e1 \u00fatil bajo una inspecci\u00f3n detallada, pero ofrecer\u00e1 alguna protecci\u00f3n. Tambi\u00e9n puedes renombrar el mismo programa <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a>, asumiendo que lo has guardado como har\u00edas con un archivo normal en tu disco duro o memoria extra\u00edble USB, en vez de instalarlo como programa. La <a href=\"/es/truecrypt_principal\" title=\"Gu\u00eda del TrueCrypt\"><strong>gu\u00eda del TrueCrypt</strong></a> te explica c\u00f3mo hacerlo.</p>\n<p>\u00a0</p>\n<h3 id=\"Considerarriesgoidentificarinformacionsensible\">Considerar el riesgo de identificar tu informaci\u00f3n sensible</h3>\n<p>A menudo, debes preocuparte menos de las consecuencias de ser 'capturado' con software de <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> en tu computadora o en tu memoria extra\u00edble USB y hacerlo m\u00e1s porque tu volumen cifrado indique espec\u00edficamente donde almacenas la informaci\u00f3n que deseas proteger m\u00e1s. Aunque pueda ser cierto que nadie m\u00e1s pueda leerla, un intruso sabr\u00e1 que est\u00e1 ah\u00ed, y que has dado pasos para protegerla. Ello te expone a varios m\u00e9todos no t\u00e9cnicos a trav\u00e9s de los cuales dicho intruso podr\u00eda intentar tener acceso, como puede ser la intimidaci\u00f3n, chantaje, interrogatorios o tortura. Es en este contexto que la opci\u00f3n o caracter\u00edstica de denegaci\u00f3n del <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a>, que se trata detalladamente m\u00e1s adelante, entra en juego.</p>\n<p>La opci\u00f3n de denegaci\u00f3n del <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a> es una de las maneras en las cuales este va m\u00e1s all\u00e1 de lo ofrecido por otras herramientas de <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> de archivos. Esta opci\u00f3n puede interpretarse como una forma peculiar de <a href=\"/es/glossary#Esteganografia\" title=\"Esteganograf\u00eda\"><em>esteganograf\u00eda</em></a> que disfraza tu informaci\u00f3n m\u00e1s sensible como otra informaci\u00f3n oculta, menos sensible. Es an\u00e1logo a instalar un astuto 'falso fondo' dentro de una no tan s\u00fatil caja fuerte. Si un intruso roba tus llaves, o te intimida para que le des la combinaci\u00f3n de la caja fuerte, este encontrar\u00e1 alg\u00fan material de 'se\u00f1uelo' convincente, pero no la informaci\u00f3n que realmente te importa proteger.</p>\n<p>S\u00f3lo t\u00fa sabes que tu caja fuerte contiene un compartimiento oculto en su parte trasera. Esto te permite 'negar' que est\u00e1s manteniendo alg\u00fan secreto m\u00e1s all\u00e1 de lo que ya le has dado al intruso, y podr\u00eda ayudar a protegerte en situaciones en las cuales por alguna raz\u00f3n debes reveler una contrase\u00f1a. Tales razones podr\u00edan incluir amenazas legales o f\u00edsicas a tu propia seguridad, o la de tus colegas, asociados, amigos y familiares. El prop\u00f3sito de la denegaci\u00f3n es el de darte una oportunidad de escapar de una situaci\u00f3n potencialmente peligrosa incluso si decides continuar protegiendo tus datos. Sin embargo, como se trata en la secci\u00f3n de <a href=\"#Considerarriesgoautoincriminacion\" title=\"Considerar el riesgo de la autoincriminaci\u00f3n\"><strong>Considerar el riesgo de la autoincriminaci\u00f3n</strong></a>, esta opci\u00f3n es mucho menos \u00fatil si el mero hecho de ser capturado con una caja fuerte en tu oficina es suficiente para provocar consecuencias inaceptables.</p>\n<p>La opci\u00f3n de denegaci\u00f3n del TrueCrypt funciona por medio del almacenamiento de un 'volumen oculto' dentro de un volumen com\u00fan <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a>. Este volumen oculto se abre mediante una contrase\u00f1a diferente a la que normalmente utilizar\u00edas. Incluso si un intruso t\u00e9cnicamente sofisticado logra acceder a tu volumen com\u00fan, \u00e9l ser\u00e1 incapaz de probar que existe uno oculto. Por supuesto, \u00e9l puede saber perfectamente que <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a> es capaz de ocultar informaci\u00f3n de esta forma, de modo que no hay garant\u00eda de que la amenaza desaparezca tan pronto como reveles tu contrase\u00f1a se\u00f1uelo. Muchas personas utilizan el TrueCrypt sin habilitar su opci\u00f3n de denegaci\u00f3n. Sin embargo, se considera en general que es imposible determinar, a trav\u00e9s de un an\u00e1lisis, si un volumen cifrado contiene esta clase de 'falso fondo'. No obstante, es tu trabajo asegurarte de no revelar tu volumen oculto por medio de medios menos t\u00e9cnicos, tales como dejarlo abierto o permitir que otras aplicaciones creen accesos directos a los archivos que contiene. La secci\u00f3n de <a href=\"/es/chapter_4_3\" title=\"Lecturas Adicionales\"><strong>Lecturas Adicionales</strong></a>, que viene a continuaci\u00f3n, te puede indicar c\u00f3mo obtener informaci\u00f3n adicional al respecto.</p>\n<p>\u00a0</p>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td><em>Claudia: Bien, entonces vamos a arrojar algo de basura dentro del volumen com\u00fan, y luego, podemos desplazar todos nuestros testimonios dentro del volumen oculto. \u00bfTienes algunos viejos PDFs o algo que podamos utilizar? </em>\n<p>\t\t\t<em>Pablo: Justamente estuve pensando en ello, es decir, la idea es revelar la contrase\u00f1a se\u00f1uelo si no tenemos otra opci\u00f3n, \u00bfcierto? Pero para que ello sea convincente, necesitamos asegurarnos que dichos archivos se vean importantes, \u00bfno crees? De otro modo, \u00bfPor qu\u00e9 nos molestar\u00edamos en cifrarlos? Tal vez deber\u00edamos utilizar algunos documentos financieros no relacionados o una lista de contrase\u00f1as de sitios web o algo parecido.</em></p></td>\n</tr></tbody></table><p>\u00a0</p>\n<p>\u00a0</p>\n", 
+                        "summary": "", 
+                        "value": "<p>Un problema con el hecho de mantener una caja fuerte en tu casa u oficina, ni que decir de llevarla contigo, es que tiende a ser muy obvio. Muchas personas tienen preocupaciones razonables sobre autoincriminarse por medio del uso del <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a>. S\u00f3lo porque las razones leg\u00edtimas para cifrar<em> </em>datos exceden en n\u00famero aquellas ileg\u00edtimas no hace esta amenaza menos real. Existen dos razones fundamentales por las que querr\u00edas evitar utilizar una herramienta como el <em><a href=\"/es/truecrypt_principal\">TrueCrypt</a></em>: el riesgo de autoincriminaci\u00f3n y el riesgo de identificar claramente la ubicaci\u00f3n de tu informaci\u00f3n m\u00e1s sensible.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3 id=\"Considerarriesgoautoincriminacion\">Considerar el riesgo de autoincriminaci\u00f3n</h3>\r\n\r\n<p>El <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> es ilegal en algunos pa\u00edses, lo que significa que descargar, instalar o utilizar software de este tipo podr\u00eda ser un crimen en si. Y, si la polic\u00eda, el ej\u00e9rcito o los servicios de inteligencia se hallan entre los grupos de quienes est\u00e1s buscando proteger tu informaci\u00f3n, entonces el violar estas leyes puede proporcionarles un pretexto ideal bajo el cual tus actividades pueden ser investigadas o tu organizaci\u00f3n perseguida. En realidad, amenazas como esta pueden no tener nada que ver con la legalidad de las herramientas en cuesti\u00f3n. En cualquier momento, el mero hecho de estar asociado con software de cifrado ser\u00eda suficiente para exponerte a acusaciones de actividad criminal o espionaje\u2014sin importar lo que realmente est\u00e1 dentro de los vol\u00famenes cifrados-- por tanto debes pensar cuidadosamente respecto a si dichas herramientas son apropiadas o no para tu situaci\u00f3n.</p>\r\n\r\n<p>Si ese es el caso, tienes unas cuantas opciones:</p>\r\n\r\n<ul>\r\n\t<li>Puedes evitar completamente el utilizar software de seguridad de datos, lo que requerir\u00e1 que almacenes \u00fanicamente informaci\u00f3n no confidencial o que inventes un sistema de palabras en c\u00f3digo para proteger elementos clave de tus archivos sensibles.</li>\r\n\t<li>Puedes confiar en una t\u00e9cnica llamada <a href=\"/es/glossary#Esteganografia\" title=\"Esteganograf\u00eda\"><em>esteganograf\u00eda</em></a> para esconder tu informaci\u00f3n sensible, en vez de cifrarla. Existen herramientas que pueden ayudarte con ello, pero el utilizarlas adecuadamente requiere una preparaci\u00f3n muy cuidadosa, y todav\u00eda corres el riesgo de incriminarte a los ojos de cualquiera que descubra que est\u00e1s usando esta herramienta.</li>\r\n\t<li>Puedes intentar almacenar toda tu informaci\u00f3n sensible en una cuenta de correo electr\u00f3nico segura, pero ello requiere de una conexi\u00f3n de red confiable y un relativamente sofisticado nivel de conocimiento de computadoras y de servicios de Internet. Esta t\u00e9cnica tambi\u00e9n da por hecho que el <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> de red es menos incriminatorio que el cifrado de archivos y que puedes evitar copiar accidentalmente datos sensibles en tu disco duro y dejarlos ah\u00ed.</li>\r\n\t<li>Puedes mantener la informaci\u00f3n sensible lejos de tu computadora almacen\u00e1ndola en una memoria extra\u00edble USB o en una disco duro port\u00e1til. Sin embargo, tales dispositivos son normalmente incluso m\u00e1s vulnerables que las computadoras a la perdida y a su confiscaci\u00f3n, de modo que estar portando informaci\u00f3n sensible y no cifrada en uno de estos tipos de dispositivos es normalmente una mala idea.</li>\r\n</ul>\r\n\r\n<p>Si es necesario, puedes emplear varias de estas t\u00e1cticas. Sin embargo, incluso en circunstancias en las que est\u00e1s preocupado sobre la autoincriminaci\u00f3n, lo m\u00e1s seguro ser\u00e1 utilizar <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a>, mientras que a la vez tratas de camuflar tu volumen <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> de la mejor manera posible.</p>\r\n\r\n<p>Si deseas que tu volumen cifrado sea menos llamativo, puedes renombrarlo para que se parezca a un tipo diferente de archivo. Utiliza la extensi\u00f3n '.iso', para camuflarlo como una imagen de CD, es una opci\u00f3n que funciona bien para grandes vol\u00famenes de alrededor de 700 MB. Otras extensiones ser\u00edan m\u00e1s realistas para peque\u00f1os vol\u00famenes. Esto se asemeja a esconder tu caja fuerte detr\u00e1s de una pintura en la pared de tu oficina. Este no ser\u00e1 \u00fatil bajo una inspecci\u00f3n detallada, pero ofrecer\u00e1 alguna protecci\u00f3n. Tambi\u00e9n puedes renombrar el mismo programa <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a>, asumiendo que lo has guardado como har\u00edas con un archivo normal en tu disco duro o memoria extra\u00edble USB, en vez de instalarlo como programa. La <a href=\"/es/truecrypt_principal\" title=\"Gu\u00eda del TrueCrypt\"><strong>gu\u00eda del TrueCrypt</strong></a> te explica c\u00f3mo hacerlo.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3 id=\"Considerarriesgoidentificarinformacionsensible\">Considerar el riesgo de identificar tu informaci\u00f3n sensible</h3>\r\n\r\n<p>A menudo, debes preocuparte menos de las consecuencias de ser 'capturado' con software de <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> en tu computadora o en tu memoria extra\u00edble USB y hacerlo m\u00e1s porque tu volumen cifrado indique espec\u00edficamente donde almacenas la informaci\u00f3n que deseas proteger m\u00e1s. Aunque pueda ser cierto que nadie m\u00e1s pueda leerla, un intruso sabr\u00e1 que est\u00e1 ah\u00ed, y que has dado pasos para protegerla. Ello te expone a varios m\u00e9todos no t\u00e9cnicos a trav\u00e9s de los cuales dicho intruso podr\u00eda intentar tener acceso, como puede ser la intimidaci\u00f3n, chantaje, interrogatorios o tortura. Es en este contexto que la opci\u00f3n o caracter\u00edstica de denegaci\u00f3n del <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a>, que se trata detalladamente m\u00e1s adelante, entra en juego.</p>\r\n\r\n<p>La opci\u00f3n de denegaci\u00f3n del <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a> es una de las maneras en las cuales este va m\u00e1s all\u00e1 de lo ofrecido por otras herramientas de <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> de archivos. Esta opci\u00f3n puede interpretarse como una forma peculiar de <a href=\"/es/glossary#Esteganografia\" title=\"Esteganograf\u00eda\"><em>esteganograf\u00eda</em></a> que disfraza tu informaci\u00f3n m\u00e1s sensible como otra informaci\u00f3n oculta, menos sensible. Es an\u00e1logo a instalar un astuto 'falso fondo' dentro de una no tan s\u00fatil caja fuerte. Si un intruso roba tus llaves, o te intimida para que le des la combinaci\u00f3n de la caja fuerte, este encontrar\u00e1 alg\u00fan material de 'se\u00f1uelo' convincente, pero no la informaci\u00f3n que realmente te importa proteger.</p>\r\n\r\n<p>S\u00f3lo t\u00fa sabes que tu caja fuerte contiene un compartimiento oculto en su parte trasera. Esto te permite 'negar' que est\u00e1s manteniendo alg\u00fan secreto m\u00e1s all\u00e1 de lo que ya le has dado al intruso, y podr\u00eda ayudar a protegerte en situaciones en las cuales por alguna raz\u00f3n debes reveler una contrase\u00f1a. Tales razones podr\u00edan incluir amenazas legales o f\u00edsicas a tu propia seguridad, o la de tus colegas, asociados, amigos y familiares. El prop\u00f3sito de la denegaci\u00f3n es el de darte una oportunidad de escapar de una situaci\u00f3n potencialmente peligrosa incluso si decides continuar protegiendo tus datos. Sin embargo, como se trata en la secci\u00f3n de <a href=\"#Considerarriesgoautoincriminacion\" title=\"Considerar el riesgo de la autoincriminaci\u00f3n\"><strong>Considerar el riesgo de la autoincriminaci\u00f3n</strong></a>, esta opci\u00f3n es mucho menos \u00fatil si el mero hecho de ser capturado con una caja fuerte en tu oficina es suficiente para provocar consecuencias inaceptables.</p>\r\n\r\n<p>La opci\u00f3n de denegaci\u00f3n del TrueCrypt funciona por medio del almacenamiento de un 'volumen oculto' dentro de un volumen com\u00fan <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a>. Este volumen oculto se abre mediante una contrase\u00f1a diferente a la que normalmente utilizar\u00edas. Incluso si un intruso t\u00e9cnicamente sofisticado logra acceder a tu volumen com\u00fan, \u00e9l ser\u00e1 incapaz de probar que existe uno oculto. Por supuesto, \u00e9l puede saber perfectamente que <a href=\"/es/glossary#TrueCrypt\" title=\"TrueCrypt\"><em>TrueCrypt</em></a> es capaz de ocultar informaci\u00f3n de esta forma, de modo que no hay garant\u00eda de que la amenaza desaparezca tan pronto como reveles tu contrase\u00f1a se\u00f1uelo. Muchas personas utilizan el TrueCrypt sin habilitar su opci\u00f3n de denegaci\u00f3n. Sin embargo, se considera en general que es imposible determinar, a trav\u00e9s de un an\u00e1lisis, si un volumen cifrado contiene esta clase de 'falso fondo'. No obstante, es tu trabajo asegurarte de no revelar tu volumen oculto por medio de medios menos t\u00e9cnicos, tales como dejarlo abierto o permitir que otras aplicaciones creen accesos directos a los archivos que contiene. La secci\u00f3n de <a href=\"/es/chapter_4_3\" title=\"Lecturas Adicionales\"><strong>Lecturas Adicionales</strong></a>, que viene a continuaci\u00f3n, te puede indicar c\u00f3mo obtener informaci\u00f3n adicional al respecto.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><em>Claudia: Bien, entonces vamos a arrojar algo de basura dentro del volumen com\u00fan, y luego, podemos desplazar todos nuestros testimonios dentro del volumen oculto. \u00bfTienes algunos viejos PDFs o algo que podamos utilizar? </em><br />\r\n\t\t\t<br />\r\n\t\t\t<em>Pablo: Justamente estuve pensando en ello, es decir, la idea es revelar la contrase\u00f1a se\u00f1uelo si no tenemos otra opci\u00f3n, \u00bfcierto? Pero para que ello sea convincente, necesitamos asegurarnos que dichos archivos se vean importantes, \u00bfno crees? De otro modo, \u00bfPor qu\u00e9 nos molestar\u00edamos en cifrarlos? Tal vez deber\u00edamos utilizar algunos documentos financieros no relacionados o una lista de contrase\u00f1as de sitios web o algo parecido.</em></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1942", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1942", 
+                "link_title": "\u1780\u17b6\u179a\u179b\u17b6\u1780\u17cb\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u179f\u17be\u1794\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5087", 
+                "module": "book", 
+                "nid": "1942", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5085", 
+                "p3": "5087", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5085", 
+                "router_path": "node/%", 
+                "title": "\u1780\u17b6\u179a\u179b\u17b6\u1780\u17cb\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u179f\u17be\u1794\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1452271865", 
+            "comment": "0", 
+            "created": "1441103039", 
+            "current_revision_id": "12771", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_4_2", 
+                        "value": "chapter_4_2"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5087": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1942", 
+                    "link_title": "\u1780\u17b6\u179a\u179b\u17b6\u1780\u17cb\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u179f\u17be\u1794\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5087", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5085", 
+                    "p3": "5087", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5085", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1942", 
+            "num_revisions": "23", 
+            "path": "https://securityinabox.org/en/node/1942", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452271865", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Ocultar tu informaci\u00f3n sensible", 
+                        "value": "Ocultar tu informaci\u00f3n sensible"
+                    }
+                ]
+            }, 
+            "title_original": "Hiding your sensitive information", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442915736", 
+                        "created": "1442915736", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227010", 
+                        "created": "1441804055", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443095770", 
+                        "created": "1443095770", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442410580", 
+                        "created": "1442410580", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451911200", 
+                        "created": "1441205267", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089146", 
+                        "created": "1442759331", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695051", 
+                        "created": "1443695051", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452271865", 
+                        "created": "1452271865", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1452177958", 
+                        "created": "1443102650", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113412", 
+                        "created": "1441113412", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443719893", 
+                        "created": "1443719893", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444394899", 
+                        "created": "1444394899", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100039", 
+                        "created": "1443100039", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092039", 
+                        "created": "1443092039", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441103039", 
+                        "created": "1441103039", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577382", 
+                        "created": "1443601774", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "938065a3-94cc-4d68-a61d-3b850cb1f379", 
+            "vid": "12771", 
+            "vuuid": "2ff8b4c2-d9c7-45f5-babb-4a2fc908e93e"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "full_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li>Para informaci\u00f3n adicional sobre c\u00f3mo asegurar tus archivos, dir\u00edgete al <a href=\"http://www.frontlinedefenders.org/esecman\" title=\"Cap\u00edtulo de Criptolog\u00eda\">Cap\u00edtulo de Criptolog\u00eda</a>, y al <a href=\"http://www.frontlinedefenders.org/esecman\" title=\"Cap\u00edtulo de Esteganograf\u00eda\">Cap\u00edtulo de Esteganograf\u00eda</a> y al <a href=\"http://www.frontlinedefenders.org/esecman\" title=\"Caso de Estudio 3\">Caso de Estudio 3</a> del libro de <a href=\"http://www.frontlinedefenders.org/esecman\" title=\"Digital Security and Privacy for Human Rights Defenders\">Seguridad Digital y Privacidad para Defensores de los Derechos Humanos</a>.</li>\n<li>La documentaci\u00f3n sobre Truecrypt contiene en detalle aspectos sobre el cifrado de informaci\u00f3n y las <a href=\"http://www.truecrypt.org/faq.php\" title=\"TrueCrypt FAQ\">Preguntas Frecuentes del TrueCrypt</a> proporcionan respuestas a algunas preguntas comunes sobre el TrueCrypt.</li>\n</ul><p>\u00a0</p>\n", 
+                        "summary": "", 
+                        "value": "<ul>\r\n\t<li>Para informaci\u00f3n adicional sobre c\u00f3mo asegurar tus archivos, dir\u00edgete al <a href=\"http://www.frontlinedefenders.org/esecman\" title=\"Cap\u00edtulo de Criptolog\u00eda\">Cap\u00edtulo de Criptolog\u00eda</a>, y al <a href=\"http://www.frontlinedefenders.org/esecman\" title=\"Cap\u00edtulo de Esteganograf\u00eda\">Cap\u00edtulo de Esteganograf\u00eda</a> y al <a href=\"http://www.frontlinedefenders.org/esecman\" title=\"Caso de Estudio 3\">Caso de Estudio 3</a> del libro de <a href=\"http://www.frontlinedefenders.org/esecman\" title=\"Digital Security and Privacy for Human Rights Defenders\">Seguridad Digital y Privacidad para Defensores de los Derechos Humanos</a>.</li>\r\n\t<li>La documentaci\u00f3n sobre Truecrypt contiene en detalle aspectos sobre el cifrado de informaci\u00f3n y las <a href=\"http://www.truecrypt.org/faq.php\" title=\"TrueCrypt FAQ\">Preguntas Frecuentes del TrueCrypt</a> proporcionan respuestas a algunas preguntas comunes sobre el TrueCrypt.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1943", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1943", 
+                "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5088", 
+                "module": "book", 
+                "nid": "1943", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5085", 
+                "p3": "5088", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5085", 
+                "router_path": "node/%", 
+                "title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1452271930", 
+            "comment": "0", 
+            "created": "1441103094", 
+            "current_revision_id": "12772", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_4_3", 
+                        "value": "chapter_4_3"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5088": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1943", 
+                    "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5088", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5085", 
+                    "p3": "5088", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5085", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1943", 
+            "num_revisions": "19", 
+            "path": "https://securityinabox.org/en/node/1943", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452271930", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Lecturas Adicionales", 
+                        "value": "Lecturas Adicionales"
+                    }
+                ]
+            }, 
+            "title_original": "Further reading", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442915799", 
+                        "created": "1442915799", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443095860", 
+                        "created": "1443095860", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442410657", 
+                        "created": "1442410657", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441205371", 
+                        "created": "1441205371", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089193", 
+                        "created": "1442759348", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695086", 
+                        "created": "1443695086", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452271930", 
+                        "created": "1452271930", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443102751", 
+                        "created": "1443102751", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113524", 
+                        "created": "1441113524", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443720007", 
+                        "created": "1443720007", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444394983", 
+                        "created": "1444394983", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100057", 
+                        "created": "1443100057", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092145", 
+                        "created": "1443092145", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441103094", 
+                        "created": "1441103094", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577433", 
+                        "created": "1443601812", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "9e143f55-e2d8-4af4-8a8f-0b1548b12359", 
+            "vid": "12772", 
+            "vuuid": "d234accd-4c7d-452c-b4f5-28acefa12bb3"
+        }
+    ], 
+    "changed": "1455879594", 
+    "comment": "0", 
+    "created": "1441102845", 
+    "current_revision_id": "13271", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_menu_title": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "4. How to protect the sensitive files on", 
+                "value": "4. How to protect the sensitive files on"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "4. Proteger los archivos sensibles en tu computadora", 
+                "value": "4. Proteger los archivos sensibles en tu computadora"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-09 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "chapter-4", 
+                "value": "chapter-4"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "4"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "4"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5085": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/1940", 
+            "link_title": "4. How to protect the sensitive files on your computer", 
+            "menu_name": "book-toc-1925", 
+            "mlid": "5085", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5030", 
+            "p2": "5085", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5030", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "4"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "1940", 
+    "num_revisions": "27", 
+    "path": "https://securityinabox.org/en/node/1940", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1455879594", 
+    "revision_uid": "479", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "4. Proteger los archivos sensibles en tu computadora", 
+                "value": "4. Proteger los archivos sensibles en tu computadora"
+            }
+        ]
+    }, 
+    "title_original": "4. How to protect the sensitive files on your computer", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442915564", 
+                "created": "1442915564", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442226854", 
+                "created": "1441803866", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "bo": {
+                "changed": "1443093686", 
+                "created": "1443093686", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "bo", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "es": {
+                "changed": "1442410420", 
+                "created": "1442410420", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1441205100", 
+                "created": "1441205100", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "fr": {
+                "changed": "1447089025", 
+                "created": "1442759170", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }, 
+            "id": {
+                "changed": "1455879594", 
+                "created": "1442925555", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }, 
+            "km": {
+                "changed": "1452271709", 
+                "created": "1452271709", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443102393", 
+                "created": "1443102393", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441112828", 
+                "created": "1441112828", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1443719195", 
+                "created": "1443719195", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "th": {
+                "changed": "1444394711", 
+                "created": "1444394711", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "th", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "tr": {
+                "changed": "1443012697", 
+                "created": "1443012697", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1443089014", 
+                "created": "1443088530", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1443012216", 
+                "created": "1441102845", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "1940", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1444577233", 
+                "created": "1443601722", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_how_to_booklet_chapter", 
+    "uid": "70", 
+    "uuid": "e90ba1ed-c482-4f27-8052-4db852063d19", 
+    "vid": "13271", 
+    "vuuid": "f9599d7a-de57-4e6e-9d99-e4675b980f9a"
+}

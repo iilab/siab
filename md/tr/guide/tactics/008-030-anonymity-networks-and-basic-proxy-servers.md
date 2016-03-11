@@ -1,0 +1,64 @@
+
+
+---
+
+lang: tr
+community: guide
+type: tactics
+legacy: True
+child: True
+weight: 3
+depth: 3
+title: Anonymity networks and basic proxy servers
+
+---
+
+### Anonimlik ağları ###
+
+Anonimlik ağları, genel olarak, nereden geldiğinizi ve nereye erişmek istediğinizi gizlemek için internet trafiğinizi farklı güvenli [*proxy*](/tr/glossary#Proxy)’ler arasında ‘sektirir’. Bu, web sitelerini ve diğer internet hizmetlerini yüklerken kullandığınız hızı önemli ölçüde azaltır. Bununla beraber [*Tor*](/tr/glossary#Tor), [proxy](/tr/glossary#Proxy)’lerinizi ve ziyaret ettiğiniz web sitelerini işleten kişilere güvenmek konusunda endişe etmekten sizi kurtararak, sansür aşmanın güvenilir, emin ve kamusal araçlarını size sağlar. Her zaman olduğu gibi, şifreler ve e-postalar gibi hassas bilgileri bir tarayıcı aracılığıyla değiş tokuş etmeden önce, güvenli bir web sitesiyle şifrelenmiş bir bağlantıya, [HTTPS](/tr/glossary#SSL)’e, sahip olduğunuzdan emin olun.
+
+[*Tor*](/tr/glossary#Tor)’u kullanmak için bir yazılım yüklemeniz gerekecektir, bunun sonucunda hem anonimlik hem de sansürü aşmanızı sağlayan bir araca sahip olacaksınız. [*Tor*](/tr/glossary#Tor) ağına bağlandığınız her seferinde, üç ayrı güvenli [*Tor*](/tr/glossary#Tor) [*proxy*](/tr/glossary#Proxy)’si aracılığıyla rastgele bir yol seçersiniz.  Bu, bilgisayarınızın [*IP adresinin*](/tr/glossary#IP_address) ve talepte bulunduğunuz internet servisinin konumunun, [*ISP*](/tr/glossary#ISP)’niz  ve [*proxy*](/tr/glossary#Proxy)’lerin kendileri tarafından bilinmemesini güvence altına alır. Bu araç hakkında daha fazla bilgiyi Tor Rehberi’nden öğrenebilirsiniz.
+
+<div class="getstarted" markdown="1">
+Uygulama: [*Tor – Dijital Anonimlik ve Sansür Aşma Rehberi*](/en/tor_main)
+</div>
+
+Tor'un güçlü yanlarından biri sadece bir internet tarayıcısıyla değil, çeşitli internet yazılımlarıyla birlikte kullanılabilmesidir. Mozilla [*Thunderbird*](/tr/glossary#Thunderbird) dahil e-posta programları, [*Pidgin*](/tr/glossary#Pidgin) dahil farklı mesajlaşma programları Tor aracılığıyla çalışabilir. İster bu hizmetleri kullandığınızı gizlemek için, isterseniz de engellenmiş hizmetlere erişmek için Tor’u kullanabilirsiniz.
+
+### Temel sansür aşma proxy’leri ###
+
+Temel bir sansür aşma [*proxy*](/tr/glossary#Proxy)’si seçerken göz önünde bulundurmanız gereken üç önemli soru vardır. Birincisi, kullanmayı düşündüğünüz sansür aşma proxy’si web-tabanlı bir araç mı; ayarlarınızı değiştirmenizi mi gerektiriyor; yoksa bilgisayarınıza bir yazılım kurmanızı mı gerektiriyor? İkincisi, güvenli mi? Üçüncüsü, özel mi yoksa kamuya açık mı?
+
+#### Web-tabanlı proxy ve diğer proxy’ler:####
+
+Web-tabanlı [*proxy*](/tr/glossary#Proxy)’ler belki de kullanımı en kolay olanlardır. Bunlar tarayıcınızı sadece bir [*proxy*](/tr/glossary#Proxy) web sayfasına yönlendirmenizi, görmek istediğiniz engellenmiş adresi girmenizi ve bir düğmeye tıklamanızı gerektirir.  Ardından [*proxy*](/tr/glossary#Proxy) talep edilen içeriği kendi web sayfası içinde gösterecektir. Her zaman olduğu gibi sayfadaki bağlantıları takip edebilirsiniz ya da farklı bir sayfa görmek istiyorsanız [*proxy*](glossary#Proxy)’e yeni bir adres  girebilirsiniz. Herhangi bir yazılım yüklemek ya da tarayıcı ayarlarını değiştirmek zorunda değilsiniz, bir başka deyişle web-tabanlı [*proxy*](glossary#Proxy)’lerin:
+
+- Kullanımlarının kolay olduğu
+- Program kurmanıza ya da ayarları değiştirmenize izin vermeyen internet kafelerdekiler gibi herkese açık bilgisayarlardan erişilebilir oldukları 
+- Bilgisayarınızda sansür aşma yazılımıyla “yakalanmak”tan endişe duyuyorsanız potansiyel olarak daha güvenli oldukları, söylenebilir. 
+	
+Web tabanlı [*proxy*](/tr/glossary#Proxy)’lerin aynı zamanda belirli dezavantajları da vardır. Her zaman sayfaları doğru biçimde göstermezler ve birçok web tabanlı [*proxy*](/tr/glossary#Proxy), sesli ve görüntülü içerik sunanlar dahil karmaşık web sitelerini yüklemekte başarısız olacaktır. Ayrıca, her ne kadar bütün [*proxy*](/tr/glossary#Proxy)’ler kullanıcı sayısı arttıkça yavaşlasa da, bu  daha çok web tabanlı [*proxy*](/tr/glossary#Proxy)’lerin sorunu olma eğilimindedir. Elbette web tabanlı [*proxy*](/tr/glossary#Proxy)’ler sadece web sayfaları için işler. Web tabanlı [*proxy*](/tr/glossary#Proxy)’ler aracılığıyla engellenmiş bir hizmete erişmek için, örneğin anlık mesajlaşma programını ya da e-posta istemcisini, kullanamazsınız.  Son olarak, güvenli web tabanlı [*proxy*](/tr/glossary#Proxy)’ler sınırlı gizlilik sunar çünkü ziyaret ettiğiniz web sitesinden size dönecek bilgiye erişmek ve onu dönüştürmek zorundadırlar. Bunu yapamazlarsa [*proxy*](/tr/glossary#Proxy)’den çıkmadan bir linke tıklayamaz ve hedefteki web sayfasıyla doğrudan bir bağlantı kurma teşebbüsünde bulunamazsınız . Bu konu ilerideki kısımda daha fazla ele alınacaktır.
+
+[*Proxy*](/tr/glossary#Proxy)’lerin diğer türleri genellikle bir program kurmanızı ya da tarayıcınızı veya işletim sisteminizi harici bir [*proxy*](/tr/glossary#Proxy) adresine göre düzenlemenizi gerektirir. Birinci durumda, sansür aşma programınız, tarayıcınıza [*proxy*](/tr/glossary#Proxy)’i kullanıp kullanmamasını söyleyen aracı açmanın ve kapamanın bazı yollarını sunar. Bu tür yazılımlar, yukarıda ele alındığı gibi [*proxy*](/tr/glossary#Proxy)’lerden biri engellendiğinde otomatik olarak onları değiştirmenize izin verir. Tarayıcınızı ya da işletim sisteminizi harici bir [*proxy*](/tr/glossary#Proxy) adresine göre düzenlemeniz gerekiyorsa, bu  [*proxy*](/tr/glossary#Proxy) engellenirse ya da kullanılamaz hale gelinceye kadar yavaşlarsa değişebilecek olan doğru [*proxy*](/tr/glossary#Proxy) adresini öğrenmeniz gerekecektir.
+
+Bir web-tabanlı [*proxy*](/tr/glossary#Proxy)’e göre kullanımı her ne kadar biraz daha zor olsa da sansür aşmanın bu yönteminin karmaşık sayfaları doğru olarak sergilemesi daha olasıdır ve verili bir [*proxy*](/tr/glossary#Proxy) sunucusunu daha fazla kişi kullanmaya başladığında [*proxy*](/tr/glossary#Proxy)’nin yavaşlaması daha uzun bir süre alabilir. Dahası  bir dizi farklı internet uygulaması için farklı [*proxy*](/tr/glossary#Proxy)’ler mevcuttur. Örnek verecek olursak, engellenmekten kaçınmak için tüm internet trafiğinizi yeniden yönlendirebilen, tarayıcılar için HTTP  [*proxy*](/tr/glossary#Proxy)’leri, e-postalar için SOCKS [*proxy*](/tr/glossary#Proxy)’leri, chat programları için VPN [*proxy*](/tr/glossary#Proxy)’leri bulunmaktadır.
+
+#### Güvenli ve güvensiz proxyler: ####
+
+Bu bölümde, güvenli [*proxy*](/tr/glossary#Proxy) olarak ele aldığımız proxy’den kasıt, kullanıcısından [*şifrelenmiş*](/tr/glossary#Encryption) bağlantıları kabul eden bütün [*proxy*](/tr/glossary#Proxy)’lerdir. Güvensiz bir [*proxy*](/tr/glossary#Proxy) engellemenin birçok türünü aşmanıza izin verecektir ama bu proxy’ler internet bağlantınız anahtar sözcükler için ya da belirli websitesi adresleri için tarandığında güvenlik açısından başarısız kalacaktır. Güvensiz bir [*proxy*](/tr/glossary#Proxy)’i  normalde [*şifrelenmiş*](/tr/glossary#Encryption) e-posta hesapları ya da bankacılık web siteleri gibi sitelere erişmek için kullanmak özellikle kötü bir fikirdir. Bunu yaparak normalde gizli olan hassas bilgileri açığa çıkarabilirsiniz. Daha önce de belirtildiği gibi, güvensiz [*proxy*](/tr/glossary#Proxy)’ler internet engelleme yazılımlarını ve politikalarını güncelleyenler için keşfetmesi ve engellemesi çoğu zaman en kolay olanlardır. Sonuç olarak, ücretsiz, hızlı ve güvenli [*proxy*](/tr/glossary#Proxy)’lerin var olması, güvenli olmayanları kullanmanız için çok az iyi nedenin olduğu anlamına gelir.
+
+Bir web-tabanlı proxy’nin güvenli olduğunu, [*proxy*](/tr/glossary#Proxy) web sayfasının kendisine bir [*HTTPS*](/tr/glossary#HTTPS) adresini kullanarak erişebildiğinizde anlarsınız. Webmail hizmetlerinde olduğu gibi, güvenli ve güvensiz bağlantılar desteklenebilir, bu nedenle güvenli adresleri kullandığınızdan emin olun. Bu tür durumlarda, tarayıcınızdan sık sık devam etmek için bir ‘güvenlik sertifikası uyarısı’nı kabul etmek zorunda kalacaksınız. Bu, aşağıda ele alınan [*Psiphon2*](/tr/glossary#Psiphon) ve [*Peacefire*](/tr/glossary#Peacefire) [*proxy*](/tr/glossary#Proxy)’leri için de geçerli olan bir durumdur. Bu tür uyarılar size, ISP’nizin ya da bir hacker’ın, [*proxy*](/tr/glossary#Proxy)’e olan bağlantınızı izliyor olabileceğini anlatır. Bu uyarılara rağmen, olanaklı olduğu tüm durumlarda güvenli [*proxy*](/tr/glossary#Proxy)’leri kullanmak hâlâ iyi bir fikirdir. Bununla beraber, sansürü aşmak için bu tür [*proxy*](/tr/glossary#Proxy)’lere başvururken,  [*proxy*](/tr/glossary#Proxy)'nin [*SSL*](/tr/glossary#SSL) parmak izini doğrulamadan güvenli web sitelerini ziyaret etmekten,  şifreleri girmekten ya da hassas bilgileri paylaşmaktan kaçınmalısınız. Bunu yapmak için [*proxy*](/tr/glossary#Proxy)'nin yöneticisiyle iletişime geçmenin bir yoluna ihtiyacınız olacak.
+
+Bir web-tabanlı [*proxy*](/tr/glossary#Proxy)’i işleten kişiye güvenmiyorsanız, bu [*proxy*](/tr/glossary#Proxy) aracılığıyla hassas bilgilere erişmekten kaçınmalısınız. Bu, [*proxy*](/tr/glossary#Proxy)’i ziyaret ederken bir güvenlik sertifikası uyarısı görüp görmemenizden bağımsız olarak her zaman geçerlidir. Hatta bu, [*proxy*](/tr/glossary#Proxy) operatörünü, tarayıcınızı uyarıyı kabul etmesi için yönlendirmeden önce sunucunun parmak izini doğrulayacak kadar iyi tanıyor olsanız bile geçerlidir. Sansürü aşmak  için sadece bir [*proxy*](/tr/glossary#Proxy) sunucusuna bağlıysanız, bu [*proxy*](/tr/glossary#Proxy) sunucusunun yöneticisi daima sizin [*IP adresinizi*](/tr/glossary#IP_address) ve hangi web sitelerine eriştiğinizi bilecektir. Bununla beraber daha da önemlisi, eğer bu [*proxy*](/tr/glossary#Proxy) web-tabanlıysa kötü niyetli bir operatör, webmail’inizin içeriği ve şifreniz dahil, tarayıcınızla ziyaret ettiğiniz web siteleri arasındaki tüm bilgi akışına erişim elde edebilir.
+
+Web-tabanlı olmayan [*proxy*](/tr/glossary#Proxy)’ler için güvenli bağlantıların desteklenip desteklenmediğini belirlemek için küçük bir araştırma yapmanız gerekebilir. Bu bölümde önerilen [*proxy*](/tr/glossary#Proxy)’lerin ve anonimlik ağlarının tümü  güvenlidir.
+
+#### Özel proxy’ler ve açık proxy’ler: ####
+
+Açık [*proxy*](/tr/glossary#Proxy)’ler herkesten gelen bağlantı taleplerini kabul ederken, özel [*proxy*](/tr/glossary#Proxy)’ler genellikle bir kullanıcı adı ve parola gerektirir. Açık [*proxy*](/tr/glossary#Proxy)’lerin kolayca erişilebilir olmak gibi aşikâr bir avantajı olsa da, bu [*proxy*](/tr/glossary#Proxy)’ler herkes tarafından bulunabileceğinden, çok hızlı bir şekilde aşırı kalabalık olmaya eğilimlidirler. Sonuçta, her ne kadar açık [*proxy*](/tr/glossary#Proxy)’ler özel olanlar kadar iyi ve teknik olarak gelişmiş olsalar da çoğu zaman görece yavaştırlar. Son olarak, özel [*proxy*](/tr/glossary#Proxy)’ler kâr amaçlı şirketlerce ya da kişisel veya sosyal olarak tanıdıkları kullanıcılara hesaplar oluşturan yöneticilerce işletilmektedir. Bu nedenledir ki özel bir [*proxy*](/tr/glossary#Proxy)’i işletenlerin amacını belirlemek genelde daha kolaydır. Ancak özel [*proxy*](/tr/glossary#Proxy)’lerin bu nedenle daha güvenilir olduğunu varsaymamalısınız. Ne de olsa geçmişte pek çok kez çevrimiçi hizmetler, kâr amacı nedeniyle kullanıcılarını ifşa etmiştir.
+
+Basit, güvensiz, açık [*proxy*](/tr/glossary#Proxy)’ler genellikle bir arama motorunda ‘açık proxy’/ ‘public proxy’ gibi terimleri arayarak bulunabilir. Ama bu şekilde bulunan [*proxy*](/tr/glossary#Proxy)’lere güvenmemelisiniz. Seçme şansınız varsa, kişisel olarak ya da ismen bildiğiniz ve tanıdığınız, hizmetlerini güvenli olarak sürdürebilecek teknik bilgiye sahip insanlarca işletilen özel, güvenli bir [*proxy*](/tr/glossary#Proxy)’i kullanmak daha iyidir. Web tabanlı bir [*proxy*](/tr/glossary#Proxy) kullanıp kullanmamanız kendi özel gereksinimlerinize ve seçimlerinize bağlıdır. Sansürü aşmak için bir [*proxy*](/tr/glossary#Proxy) kullandığınız her seferinde, [*Firefox*](/tr/glossary#Firefox) tarayıcısını kullanmanız ve [*Firefox  Rehberi*](/en/firefox_main)’nde  ele alındığı gibi No Script  eklentisini kurmanız iyi bir fikirdir. Böyle yapmak, hem kötü niyetli [*proxy*](/tr/glossary#Proxy)’lerden  hem de [*IP adresinizi*](/tr/glossary#IP_address) keşfetmeye çalışabilecek web sitelerinden sizi korumaya yardım edebilir. Son olarak, [*şifrelenmiş*](/tr/glossary#Encrypted) bir [*proxy*](/tr/glossary#Proxy)’nin  bile güvenli olmayan bir web sitesini güvenli kılmayacağını göz önünde bulundurun. Hassas bilgileri gönderip almadan önce bir [*HTTPS*](/tr/glossary#SSL) bağlantınız olduğundan emin olmalısınız.
+
+Güvenilebilir, kesenize uygun ve ülkenizden erişilebilir olduğunu düşündüğünüz,  bir bireyin, kuruluşun ya da şirketin [*proxy*](/tr/glossary#Proxy) hizmetini bulamazsanız, [*Anonimlik ağları*](#Anonymity_networks) başlığı altında ele alınan Tor anonimlik ağını kullanmayı göz önünde bulundurmalısınız.
+
+

@@ -1,0 +1,2014 @@
+{
+    "body": {
+        "es": [
+            {
+                "format": "full_html", 
+                "safe_summary": "", 
+                "safe_value": "<p>Muchos pa\u00edses alrededor del mundo han instalado software que evita que los usuarios dentro de ese pa\u00eds puedan acceder a ciertos sitios web y servicios de Internet. Las compa\u00f1\u00edas, colegios y bibliotecas p\u00fablicas a menudo utilizan un software similar para proteger a sus empleados, estudiantes y clientes de material que consideran molesto o da\u00f1ino. Este tipo de tecnolog\u00eda de filtrado viene en diferentes formas. Algunos filtros bloquean sitios de acuerdo a su <a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\"><em>direcci\u00f3n IP</em></a>, mientras otros ponen en su lista negra ciertos <a href=\"/es/glossary#Nombre_dominio\" title=\"Nombre de dominio\"><em>nombres de dominio</em></a> o buscan a trav\u00e9s de todas las comunicaciones no cifradas en Internet palabras claves espec\u00edficas.</p>\n<p>Sin importar que m\u00e9todos de filtrado se hallen presentes, casi siempre es posible evadirlos confiando en computadoras intermediarias, fuera del pa\u00eds, para acceder a servicios bloqueados para ti. Este proceso a menudo se llama <em>evasi\u00f3n de la censura</em>, o simplemente <a href=\"/es/glossary#Evasion\" title=\"Evasi\u00f3n\"><em>evasi\u00f3n</em></a>, y las computadoras intermedias se llaman <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a>. Tambi\u00e9n existen proxies de diferentes formas. Este capitulo incluye un breve tratamiento de redes de anonimato multiproxy, seguido de una descripci\u00f3n m\u00e1s al detalle de proxies de evasi\u00f3n b\u00e1sica y de cu\u00e1l es su forma de funcionamiento.</p>\n<p>Ambos m\u00e9todos son maneras efectivas de evadir los filtros de Internet, aunque el primero es m\u00e1s apropiado si est\u00e1s dispuesto a sacrificar velocidad con el fin de mantener tus actividades en Internet lo m\u00e1s an\u00f3nimas posibles. Si conoces y conf\u00edas en la persona o en la organizaci\u00f3n que opera tu <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a>, o si el desempe\u00f1o es m\u00e1s importante para ti que el anonimato, entonces un proxy de <a href=\"/es/glossary#Evasion\" title=\"Evasi\u00f3n\"><em>evasi\u00f3n</em></a> b\u00e1sica te ser\u00e1 m\u00e1s \u00fatil.</p>\n<p>\u00a0</p>\n<h3 id=\"Contexto\">Contexto</h3>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td><em>Mansour y Magda son hermanos, en un pa\u00eds de habla \u00e1rabe, que mantienen blog en la cual an\u00f3nimamente hacen p\u00fablico abusos de derechos humanos y hacen campa\u00f1a por un cambio pol\u00edtico. Las autoridades en su pa\u00eds no han sido capaces de cerrar su sito web, debido a que est\u00e1 alojado en otro pa\u00eds, pero a menudo han intentado conocer la identidad de los administradores del blog a trav\u00e9s de otros activistas. A Mansour y Magda les preocupa que las autoridades sean capaces de vigilar sus actualizaciones y saber qui\u00e9nes son. Adem\u00e1s, desean prepararse por si finalmente el gobierno filtra su sitio web, para no s\u00f3lo continuar actualiz\u00e1ndolo, sino tambi\u00e9n poder proporcionar un buen consejo de evasi\u00f3n para sus lectores dentro de su propio pa\u00eds, quienes de otro modo perder\u00edan acceso al blog.</em></td>\n</tr></tbody></table><p>\u00a0</p>\n<h3 id=\"Quepuesdesaprender\">\u00bfQu\u00e9 puedes aprender de esta cap\u00edtulo?</h3>\n<ul><li>Acceder a un sitio web que est\u00e9 bloqueado dentro de tu pa\u00eds</li>\n<li>Evitar que los sitios web que visitas sepan tu ubicaci\u00f3n</li>\n<li>Garantizar que ni tu <a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicios de Internet (ISP)\"><em>Proveedor de Servicios de Internet (ISP</em></a><em><a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicios de Internet (ISP)\">)</a> </em>ni una organizaci\u00f3n de vigilancia en tu pa\u00eds puedan determinar qu\u00e9 sitios web o servicios de Internet visitas</li>\n</ul><p>\u00a0</p>\n", 
+                "summary": "", 
+                "value": "<p>Muchos pa\u00edses alrededor del mundo han instalado software que evita que los usuarios dentro de ese pa\u00eds puedan acceder a ciertos sitios web y servicios de Internet. Las compa\u00f1\u00edas, colegios y bibliotecas p\u00fablicas a menudo utilizan un software similar para proteger a sus empleados, estudiantes y clientes de material que consideran molesto o da\u00f1ino. Este tipo de tecnolog\u00eda de filtrado viene en diferentes formas. Algunos filtros bloquean sitios de acuerdo a su <a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\"><em>direcci\u00f3n IP</em></a>, mientras otros ponen en su lista negra ciertos <a href=\"/es/glossary#Nombre_dominio\" title=\"Nombre de dominio\"><em>nombres de dominio</em></a> o buscan a trav\u00e9s de todas las comunicaciones no cifradas en Internet palabras claves espec\u00edficas.</p>\r\n\r\n<p>Sin importar que m\u00e9todos de filtrado se hallen presentes, casi siempre es posible evadirlos confiando en computadoras intermediarias, fuera del pa\u00eds, para acceder a servicios bloqueados para ti. Este proceso a menudo se llama <em>evasi\u00f3n de la censura</em>, o simplemente <a href=\"/es/glossary#Evasion\" title=\"Evasi\u00f3n\"><em>evasi\u00f3n</em></a>, y las computadoras intermedias se llaman <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a>. Tambi\u00e9n existen proxies de diferentes formas. Este capitulo incluye un breve tratamiento de redes de anonimato multiproxy, seguido de una descripci\u00f3n m\u00e1s al detalle de proxies de evasi\u00f3n b\u00e1sica y de cu\u00e1l es su forma de funcionamiento.</p>\r\n\r\n<p>Ambos m\u00e9todos son maneras efectivas de evadir los filtros de Internet, aunque el primero es m\u00e1s apropiado si est\u00e1s dispuesto a sacrificar velocidad con el fin de mantener tus actividades en Internet lo m\u00e1s an\u00f3nimas posibles. Si conoces y conf\u00edas en la persona o en la organizaci\u00f3n que opera tu <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a>, o si el desempe\u00f1o es m\u00e1s importante para ti que el anonimato, entonces un proxy de <a href=\"/es/glossary#Evasion\" title=\"Evasi\u00f3n\"><em>evasi\u00f3n</em></a> b\u00e1sica te ser\u00e1 m\u00e1s \u00fatil.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3 id=\"Contexto\">Contexto</h3>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><em>Mansour y Magda son hermanos, en un pa\u00eds de habla \u00e1rabe, que mantienen blog en la cual an\u00f3nimamente hacen p\u00fablico abusos de derechos humanos y hacen campa\u00f1a por un cambio pol\u00edtico. Las autoridades en su pa\u00eds no han sido capaces de cerrar su sito web, debido a que est\u00e1 alojado en otro pa\u00eds, pero a menudo han intentado conocer la identidad de los administradores del blog a trav\u00e9s de otros activistas. A Mansour y Magda les preocupa que las autoridades sean capaces de vigilar sus actualizaciones y saber qui\u00e9nes son. Adem\u00e1s, desean prepararse por si finalmente el gobierno filtra su sitio web, para no s\u00f3lo continuar actualiz\u00e1ndolo, sino tambi\u00e9n poder proporcionar un buen consejo de evasi\u00f3n para sus lectores dentro de su propio pa\u00eds, quienes de otro modo perder\u00edan acceso al blog.</em></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3 id=\"Quepuesdesaprender\">\u00bfQu\u00e9 puedes aprender de esta cap\u00edtulo?</h3>\r\n\r\n<ul>\r\n\t<li>Acceder a un sitio web que est\u00e9 bloqueado dentro de tu pa\u00eds</li>\r\n\t<li>Evitar que los sitios web que visitas sepan tu ubicaci\u00f3n</li>\r\n\t<li>Garantizar que ni tu <a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicios de Internet (ISP)\"><em>Proveedor de Servicios de Internet (ISP</em></a><em><a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicios de Internet (ISP)\">)</a> </em>ni una organizaci\u00f3n de vigilancia en tu pa\u00eds puedan determinar qu\u00e9 sitios web o servicios de Internet visitas</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1925", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/1962", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/1962", 
+        "link_title": " 8. How to remain anonymous and bypass censorship on the Internet", 
+        "menu_name": "book-toc-1925", 
+        "mlid": "5107", 
+        "module": "book", 
+        "nid": "1962", 
+        "options": [], 
+        "p1": "5030", 
+        "p2": "5107", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5030", 
+        "router_path": "node/%", 
+        "title": " 8. How to remain anonymous and bypass censorship on the Internet", 
+        "updated": "0", 
+        "weight": "8"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "full_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Las investigaciones llevadas a cabo por organizaciones como <a href=\"http://opennet.net/\" title=\"OpenNet Initiative\">OpenNet Initiative (ONI)</a> [1] y <a href=\"http://www.rsf.org/\" title=\"Reporteros Sin Fronteras\">Reporteros Sin Fronteras (RSF)</a> [2] indican que muchos pa\u00edses filtran una amplia variedad de contenido social, pol\u00edtico y de 'seguridad nacional', aunque raramente publican listas precisas de lo que ha sido bloqueado. Naturalmente, aquellos que desean controlar el acceso de sus ciudadanos a la Internet tambi\u00e9n hacen un esfuerzo especial para bloquear <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> y sitios web conocidos que ofrecen herramientas e instrucciones para ayudar a las personas a evadir estos filtros.</p>\n<p>A pesar de la garant\u00eda de libre acceso a la informaci\u00f3n consagrada en el Art\u00edculo 19 de la Declaraci\u00f3n Universal de los Derechos Humanos, el n\u00famero de pa\u00edses involucrados en la censura de Internet se ha incrementado espectacularmente en los \u00faltimos a\u00f1os. Sin embargo, a medida que la pr\u00e1ctica de filtrado de Internet se disemina en el mundo, de igual manera lo hace el acceso a las herramientas de evasi\u00f3n que han sido creadas, utilizadas y publicitadas por activistas, programadores y voluntarios.</p>\n<p>Antes de explorar las distintas maneras de evadir la censura en Internet, primero debes desarrollar un entendimiento b\u00e1sico de c\u00f3mo funcionan estos filtros. Para hacerlo, es muy \u00fatil considerar un modelo altamente simplificado de tu conexi\u00f3n a Internet.</p>\n<p>\u00a0</p>\n<h3 id=\"Tuconexioninternet\">Tu conexi\u00f3n a Internet</h3>\n<p><img border=\"0\" src=\"/sites/securitybkp.ngoinabox.org/security/files/img/1-es.png\" /></p>\n<p>El primer paso de tu conexi\u00f3n a la Internet se hace t\u00edpicamente a trav\u00e9s del <a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a> en tu casa, oficina, colegio, biblioteca o Internet caf\u00e9. El Proveedor de Servicio de Internet (ISP) le asigna a tu computadora una <a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\"><em>direcci\u00f3n IP</em></a>, la cual puede ser utilizada por varios servicios de Internet para identificarte y enviarte informaci\u00f3n, tales como correos electr\u00f3nicos y p\u00e1ginas web que solicites. Cualquiera que conozca tu direcci\u00f3n IP puede saber m\u00e1s o menos en que ciudad te hallas. Sin embargo, algunas organizaciones bien conectadas en tu pa\u00eds pueden utilizar esta informaci\u00f3n para determinar tu ubicaci\u00f3n precisa.</p>\n<ul><li><strong>Tu Proveedor de Servicio de Internet (ISP)</strong> sabr\u00e1 en que edificio est\u00e1s o que l\u00ednea telef\u00f3nica est\u00e1s utilizando si accedes a Internet a trav\u00e9s de un m\u00f3dem.</li>\n<li><strong>Tu Internet caf\u00e9, biblioteca o negocio</strong> sabr\u00e1 qu\u00e9 computadora estuviste utilizando en un momento determinado, as\u00ed como a qu\u00e9 puerto o a qu\u00e9 punto de acceso inal\u00e1mbrico estuviste conectado.</li>\n<li><strong>Las agencias gubernamentales</strong> pueden conocer todos estos detalles, como resultado de su influencia sobre las organizaciones arriba mencionadas.</li>\n</ul><p>Actualmente, tu <em><a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a></em> descansa en la infraestructura de la red en tu pa\u00eds para conectar a sus usuarios, incluy\u00e9ndote a ti, con el resto del mundo. En el otro extremo de tu conexi\u00f3n, el sitio web o el servicio de Internet al cual est\u00e1s accediendo pasa a trav\u00e9s de un proceso similar, habiendo recibido su propia direcci\u00f3n IP de su Proveedor de Servicio de Internet (ISP) en su propio pa\u00eds. Incluso sin todos los detalles t\u00e9cnicos, un modelo b\u00e1sico como este puede ser \u00fatil cuando piensas en las varias herramientas que te permiten evitar los filtros y mantenerte an\u00f3nimo en la Internet.</p>\n<p>\u00a0</p>\n<h3>C\u00f3mo son bloqueados los sitios web</h3>\n<p>Esencialmente, cuando vas a visualizar una p\u00e1gina web, le est\u00e1s mostrando la <a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\"><em>direcci\u00f3n IP</em></a> del sitio a tu <em><a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a></em> y solicit\u00e1ndole conectarte con el Proveedor de Servicio de Internet (ISP) del servidor web. Y - si tienes una conexi\u00f3n de Internet no filtrada - har\u00e1 justamente eso. Sin embargo, si te encuentras en un pa\u00eds que censura Internet, este consultar\u00e1 primero la <em><a href=\"/es/glossary#Lista_negra\" title=\"Lista negra\">lista negra</a></em> de sitios web prohibidos y luego decidir\u00e1 si accede o no a tu solicitud.</p>\n<p>En algunos casos, puede haber una organizaci\u00f3n central que maneja el filtrado en lugar de los mismos <em><a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a></em>. A menudo, una <em><a href=\"/es/glossary#Lista_negra\" title=\"Lista negra\">lista negra</a></em> contendr\u00e1 <em><a href=\"/es/glossary#Nombre_dominio\" title=\"Nombre de dominio\">nombres de dominio</a></em>, tales como <a href=\"http://www.blogger.com\">www.blogger.com</a>, en vez de <em><a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\"><em>direcciones IP</em></a></em>. Y, en algunos pa\u00edses, el software de filtrado controla tu conexi\u00f3n, en vez de intentar bloquear direcciones espec\u00edficas en Internet. Este tipo de software escanea las solicitudes que hiciste y las p\u00e1ginas que regresan a ti, buscando palabras claves sensibles para luego decidir si te permite o no ver los resultados.</p>\n<p>Y, para empeorar las cosas, cuando una p\u00e1gina web es bloqueada, podr\u00edas ni siquiera saberlo. Aunque algunos filtros proporcionan una 'p\u00e1gina de bloqueo' que explica porque una p\u00e1gina en particular ha sido censurada, otras muestran mensajes de error enga\u00f1osos. Estos mensajes pueden decir que la p\u00e1gina no puede ser encontrada, por ejemplo, o que la direcci\u00f3n fue mal ingresada.</p>\n<p>En general, lo m\u00e1s f\u00e1cil es asumir el peor de los casos en cuanto a la censura de Internet, en vez de intentar investigar todas las fortalezas y debilidades de las tecnolog\u00edas de filtrado utilizadas en tu pa\u00eds. En otras palabras, puedes asumir que:</p>\n<ul><li>Tu tr\u00e1fico en Internet est\u00e1 controlado por palabras claves.</li>\n<li>El filtrado est\u00e1 implementado directamente al nivel del <em><em><a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a><em>.</em></em></em></li>\n<li>Los sitios bloqueados son considerados en <em><a href=\"/es/glossary#Lista_negra\" title=\"Lista negra\">listas negras</a></em> tanto por las <em><a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\"><em>direcciones IP</em></a></em> como por <em><a href=\"/es/glossary#Nombre_dominio\" title=\"Nombre de dominio\">nombres de dominio</a>.</em></li>\n<li>Se te pueden dar razones enga\u00f1osas o desorientadoras para explicar porque un sitio bloqueado no se descarga.</li>\n</ul><p>Debido a que las herramientas de evasi\u00f3n m\u00e1s efectivas pueden ser utilizadas sin importar que m\u00e9todos de filtrado est\u00e1n en funcionamiento, generalmente no hace da\u00f1o hacer esta asunci\u00f3n pesimista.</p>\n<p>\u00a0</p>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td><em>Mansour: Entonces, si un d\u00eda me encuentro con que no puedo acceder al blog, pero un amigo en otro pa\u00eds puede verlo sin problemas, \u00bfeso significa que el gobierno lo ha bloqueado? </em>\n<p>\t\t\t<em>Magda: No necesariamente. Podr\u00eda ser alg\u00fan problema que s\u00f3lo afecta a las personas que est\u00e1n tratando de acceder al sitio web desde aqu\u00ed. O, podr\u00eda ser alg\u00fan problema con tu computadora que s\u00f3lo se muestra con ciertos tipos de p\u00e1ginas web. Sin embargo est\u00e1s en la ruta correcta. Podr\u00edas tambi\u00e9n intentar visitarla mientras utilizas una herramienta de evasi\u00f3n. Despu\u00e9s de todo, la mayor\u00eda de estas herramientas descansan en servidores proxy externos, cuyo funcionamiento se parece al hecho de pedirle a un amigo en otro pa\u00eds que pruebe un sitio web para ti, excepto que puedes hacerlo por ti mismo</em></p></td>\n</tr></tbody></table><p>\u00a0</p>\n<p>\u00a0</p>\n", 
+                        "summary": "", 
+                        "value": "<p>Las investigaciones llevadas a cabo por organizaciones como <a href=\"http://opennet.net/\" title=\"OpenNet Initiative\">OpenNet Initiative (ONI)</a> [1] y <a href=\"http://www.rsf.org/\" title=\"Reporteros Sin Fronteras\">Reporteros Sin Fronteras (RSF)</a> [2] indican que muchos pa\u00edses filtran una amplia variedad de contenido social, pol\u00edtico y de 'seguridad nacional', aunque raramente publican listas precisas de lo que ha sido bloqueado. Naturalmente, aquellos que desean controlar el acceso de sus ciudadanos a la Internet tambi\u00e9n hacen un esfuerzo especial para bloquear <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> y sitios web conocidos que ofrecen herramientas e instrucciones para ayudar a las personas a evadir estos filtros.</p>\r\n\r\n<p>A pesar de la garant\u00eda de libre acceso a la informaci\u00f3n consagrada en el Art\u00edculo 19 de la Declaraci\u00f3n Universal de los Derechos Humanos, el n\u00famero de pa\u00edses involucrados en la censura de Internet se ha incrementado espectacularmente en los \u00faltimos a\u00f1os. Sin embargo, a medida que la pr\u00e1ctica de filtrado de Internet se disemina en el mundo, de igual manera lo hace el acceso a las herramientas de evasi\u00f3n que han sido creadas, utilizadas y publicitadas por activistas, programadores y voluntarios.</p>\r\n\r\n<p>Antes de explorar las distintas maneras de evadir la censura en Internet, primero debes desarrollar un entendimiento b\u00e1sico de c\u00f3mo funcionan estos filtros. Para hacerlo, es muy \u00fatil considerar un modelo altamente simplificado de tu conexi\u00f3n a Internet.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3 id=\"Tuconexioninternet\">Tu conexi\u00f3n a Internet</h3>\r\n\r\n<p><img border=\"0\" src=\"/sites/securitybkp.ngoinabox.org/security/files/img/1-es.png\" /></p>\r\n\r\n<p>El primer paso de tu conexi\u00f3n a la Internet se hace t\u00edpicamente a trav\u00e9s del <a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a> en tu casa, oficina, colegio, biblioteca o Internet caf\u00e9. El Proveedor de Servicio de Internet (ISP) le asigna a tu computadora una <a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\"><em>direcci\u00f3n IP</em></a>, la cual puede ser utilizada por varios servicios de Internet para identificarte y enviarte informaci\u00f3n, tales como correos electr\u00f3nicos y p\u00e1ginas web que solicites. Cualquiera que conozca tu direcci\u00f3n IP puede saber m\u00e1s o menos en que ciudad te hallas. Sin embargo, algunas organizaciones bien conectadas en tu pa\u00eds pueden utilizar esta informaci\u00f3n para determinar tu ubicaci\u00f3n precisa.</p>\r\n\r\n<ul>\r\n\t<li><strong>Tu Proveedor de Servicio de Internet (ISP)</strong> sabr\u00e1 en que edificio est\u00e1s o que l\u00ednea telef\u00f3nica est\u00e1s utilizando si accedes a Internet a trav\u00e9s de un m\u00f3dem.</li>\r\n\t<li><strong>Tu Internet caf\u00e9, biblioteca o negocio</strong> sabr\u00e1 qu\u00e9 computadora estuviste utilizando en un momento determinado, as\u00ed como a qu\u00e9 puerto o a qu\u00e9 punto de acceso inal\u00e1mbrico estuviste conectado.</li>\r\n\t<li><strong>Las agencias gubernamentales</strong> pueden conocer todos estos detalles, como resultado de su influencia sobre las organizaciones arriba mencionadas.</li>\r\n</ul>\r\n\r\n<p>Actualmente, tu <em><a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a></em> descansa en la infraestructura de la red en tu pa\u00eds para conectar a sus usuarios, incluy\u00e9ndote a ti, con el resto del mundo. En el otro extremo de tu conexi\u00f3n, el sitio web o el servicio de Internet al cual est\u00e1s accediendo pasa a trav\u00e9s de un proceso similar, habiendo recibido su propia direcci\u00f3n IP de su Proveedor de Servicio de Internet (ISP) en su propio pa\u00eds. Incluso sin todos los detalles t\u00e9cnicos, un modelo b\u00e1sico como este puede ser \u00fatil cuando piensas en las varias herramientas que te permiten evitar los filtros y mantenerte an\u00f3nimo en la Internet.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>C\u00f3mo son bloqueados los sitios web</h3>\r\n\r\n<p>Esencialmente, cuando vas a visualizar una p\u00e1gina web, le est\u00e1s mostrando la <a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\"><em>direcci\u00f3n IP</em></a> del sitio a tu <em><a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a></em> y solicit\u00e1ndole conectarte con el Proveedor de Servicio de Internet (ISP) del servidor web. Y - si tienes una conexi\u00f3n de Internet no filtrada - har\u00e1 justamente eso. Sin embargo, si te encuentras en un pa\u00eds que censura Internet, este consultar\u00e1 primero la <em><a href=\"/es/glossary#Lista_negra\" title=\"Lista negra\">lista negra</a></em> de sitios web prohibidos y luego decidir\u00e1 si accede o no a tu solicitud.</p>\r\n\r\n<p>En algunos casos, puede haber una organizaci\u00f3n central que maneja el filtrado en lugar de los mismos <em><a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a></em>. A menudo, una <em><a href=\"/es/glossary#Lista_negra\" title=\"Lista negra\">lista negra</a></em> contendr\u00e1 <em><a href=\"/es/glossary#Nombre_dominio\" title=\"Nombre de dominio\">nombres de dominio</a></em>, tales como www.blogger.com, en vez de <em><a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\"><em>direcciones IP</em></a></em>. Y, en algunos pa\u00edses, el software de filtrado controla tu conexi\u00f3n, en vez de intentar bloquear direcciones espec\u00edficas en Internet. Este tipo de software escanea las solicitudes que hiciste y las p\u00e1ginas que regresan a ti, buscando palabras claves sensibles para luego decidir si te permite o no ver los resultados.</p>\r\n\r\n<p>Y, para empeorar las cosas, cuando una p\u00e1gina web es bloqueada, podr\u00edas ni siquiera saberlo. Aunque algunos filtros proporcionan una 'p\u00e1gina de bloqueo' que explica porque una p\u00e1gina en particular ha sido censurada, otras muestran mensajes de error enga\u00f1osos. Estos mensajes pueden decir que la p\u00e1gina no puede ser encontrada, por ejemplo, o que la direcci\u00f3n fue mal ingresada.</p>\r\n\r\n<p>En general, lo m\u00e1s f\u00e1cil es asumir el peor de los casos en cuanto a la censura de Internet, en vez de intentar investigar todas las fortalezas y debilidades de las tecnolog\u00edas de filtrado utilizadas en tu pa\u00eds. En otras palabras, puedes asumir que:</p>\r\n\r\n<ul>\r\n\t<li>Tu tr\u00e1fico en Internet est\u00e1 controlado por palabras claves.</li>\r\n\t<li>El filtrado est\u00e1 implementado directamente al nivel del <em><em><a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a><em>.</em></em></em></li>\r\n\t<li>Los sitios bloqueados son considerados en <em><a href=\"/es/glossary#Lista_negra\" title=\"Lista negra\">listas negras</a></em> tanto por las <em><a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\"><em>direcciones IP</em></a></em> como por <em><a href=\"/es/glossary#Nombre_dominio\" title=\"Nombre de dominio\">nombres de dominio</a>.</em></li>\r\n\t<li>Se te pueden dar razones enga\u00f1osas o desorientadoras para explicar porque un sitio bloqueado no se descarga.</li>\r\n</ul>\r\n\r\n<p>Debido a que las herramientas de evasi\u00f3n m\u00e1s efectivas pueden ser utilizadas sin importar que m\u00e9todos de filtrado est\u00e1n en funcionamiento, generalmente no hace da\u00f1o hacer esta asunci\u00f3n pesimista.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><em>Mansour: Entonces, si un d\u00eda me encuentro con que no puedo acceder al blog, pero un amigo en otro pa\u00eds puede verlo sin problemas, \u00bfeso significa que el gobierno lo ha bloqueado? </em><br />\r\n\t\t\t<br />\r\n\t\t\t<em>Magda: No necesariamente. Podr\u00eda ser alg\u00fan problema que s\u00f3lo afecta a las personas que est\u00e1n tratando de acceder al sitio web desde aqu\u00ed. O, podr\u00eda ser alg\u00fan problema con tu computadora que s\u00f3lo se muestra con ciertos tipos de p\u00e1ginas web. Sin embargo est\u00e1s en la ruta correcta. Podr\u00edas tambi\u00e9n intentar visitarla mientras utilizas una herramienta de evasi\u00f3n. Despu\u00e9s de todo, la mayor\u00eda de estas herramientas descansan en servidores proxy externos, cuyo funcionamiento se parece al hecho de pedirle a un amigo en otro pa\u00eds que pruebe un sitio web para ti, excepto que puedes hacerlo por ti mismo</em></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1963", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1963", 
+                "link_title": "\u1780\u17b6\u179a\u1799\u179b\u17cb\u178a\u17b9\u1784\u17a2\u17c6\u1796\u17b8\u1780\u17b6\u179a\u179a\u17b7\u178f\u178f\u17d2\u1794\u17b7\u178f\u179b\u17be\u17a2\u17ca\u17b8\u1793\u1792\u17ba\u178e\u17c1\u178f", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5108", 
+                "module": "book", 
+                "nid": "1963", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5107", 
+                "p3": "5108", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5107", 
+                "router_path": "node/%", 
+                "title": "\u1780\u17b6\u179a\u1799\u179b\u17cb\u178a\u17b9\u1784\u17a2\u17c6\u1796\u17b8\u1780\u17b6\u179a\u179a\u17b7\u178f\u178f\u17d2\u1794\u17b7\u178f\u179b\u17be\u17a2\u17ca\u17b8\u1793\u1792\u17ba\u178e\u17c1\u178f", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1452612159", 
+            "comment": "0", 
+            "created": "1441105008", 
+            "current_revision_id": "12812", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_8_1", 
+                        "value": "chapter_8_1"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5108": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1963", 
+                    "link_title": "\u1780\u17b6\u179a\u1799\u179b\u17cb\u178a\u17b9\u1784\u17a2\u17c6\u1796\u17b8\u1780\u17b6\u179a\u179a\u17b7\u178f\u178f\u17d2\u1794\u17b7\u178f\u179b\u17be\u17a2\u17ca\u17b8\u1793\u1792\u17ba\u178e\u17c1\u178f", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5108", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5107", 
+                    "p3": "5108", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5107", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1963", 
+            "num_revisions": "22", 
+            "path": "https://securityinabox.org/en/node/1963", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452612159", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Comprender la censura en Internet", 
+                        "value": "Comprender la censura en Internet"
+                    }
+                ]
+            }, 
+            "title_original": "Understanding Internet censorship", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442917644", 
+                        "created": "1442917644", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442228024", 
+                        "created": "1441807765", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096894", 
+                        "created": "1443096894", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442414273", 
+                        "created": "1442414273", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451920108", 
+                        "created": "1441208230", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447108918", 
+                        "created": "1442762048", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443706187", 
+                        "created": "1443706187", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452612159", 
+                        "created": "1452612159", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457566", 
+                        "created": "1443457566", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441117487", 
+                        "created": "1441117487", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443811545", 
+                        "created": "1443811545", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444396988", 
+                        "created": "1444396988", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443102031", 
+                        "created": "1443102031", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443094569", 
+                        "created": "1443094569", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441105038", 
+                        "created": "1441105008", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444583830", 
+                        "created": "1443623852", 
+                        "entity_id": "1963", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "e0b8a8fe-9b96-4d4b-bdd8-ca3a86c267ef", 
+            "vid": "12812", 
+            "vuuid": "cf854c2a-4334-4c5b-a232-d5932e466228"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "full_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Si no puedes acceder directamente a un sitio web debido a que est\u00e1 bloqueado por uno de los m\u00e9todos explicados anteriormente, necesitas encontrar una forma de rodear la obstrucci\u00f3n. Un servidor <em><a href=\"/es/glossary#Proxy\" title=\"Proxy\">proxy</a></em> seguro, localizado en un pa\u00eds que no filtra Internet puede proporcionar esta clase de desv\u00edo buscando las p\u00e1ginas web que solicitas y envi\u00e1ndotelas. Desde la perspectiva de tu <a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a>, aparecer\u00e1s simplemente comunic\u00e1ndote de manera segura con una computadora desconocida (el servidor proxy) en alg\u00fan lugar de Internet.</p>\n<p><img border=\"0\" src=\"/sites/securitybkp.ngoinabox.org/security/files/img/2-es.png\" /></p>\n<p>Obviamente, la agencia gubernamental a cargo de la censura de Internet en tu pa\u00eds\u2014o la compa\u00f1\u00eda que proporciona actualizaciones para su software de filtrado\u2014podr\u00eda finalmente saber que esta 'computadora desconocida' es realmente un <em><a href=\"/es/glossary#Proxy\" title=\"Proxy\">proxy</a></em> de evasi\u00f3n. Si esto ocurre, su <a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\"><em>direcci\u00f3n IP</em></a> puede ser a\u00f1adida a la <a href=\"/es/glossary#Lista_negra\" title=\"Lista negra\"><em>lista negra</em></a>, y no funcionar\u00e1 m\u00e1s. Sin embargo, normalmente el bloqueado de los proxies toma cierto tiempo, y quienes crean y actualizan las herramientas de evasi\u00f3n son concientes de esta amenaza. Ellos responden utilizando uno o los dos m\u00e9todos mostrados a continuaci\u00f3n:</p>\n<ul><li>Los <strong>Proxies escondidos</strong> son m\u00e1s dif\u00edciles de identificar. Esta es una de las razones por la que es importante utilizar <em><a href=\"/es/glossary#Proxy\" title=\"Proxy\">proxies</a></em> seguros, los cuales son menos obvios. Sin embargo, el <em><a href=\"/es/glossary#Cifrado\" title=\"Cifrado\">cifrado</a></em> es s\u00f3lo parte de la soluci\u00f3n. Los operadores de un proxy tambi\u00e9n deben ser cuidadosos cuando dan su ubicaci\u00f3n a nuevos usuarios si desean que este se mantenga escondido.</li>\n</ul><ul><li>Los <strong>Proxies desechables</strong> pueden ser reemplazados muy r\u00e1pidamente despu\u00e9s de ser bloqueados. El proceso de informar a los usuarios sobre c\u00f3mo hallar los <em><a href=\"/es/glossary#Proxy\" title=\"Proxy\">proxies</a></em> de reemplazo puede no ser particularmente seguro. En vez de ello, las herramientas de evasi\u00f3n de este tipo simplemente tratan de distribuir nuevos proxies con mayor rapidez que su proceso de bloqueo.</li>\n</ul><p>Al final, mientras sea posible tener a la mano un <em><a href=\"/es/glossary#Proxy\" title=\"Proxy\">proxy</a></em> fiable para que te permita acceder a los servicios que solicitas, todo lo que debes hacer es enviar tu solicitud y ver que la misma regresa utilizando la aplicaci\u00f3n apropiada de Internet. Normalmente, los detalles de este proceso son manejados autom\u00e1ticamente por el software de evasi\u00f3n que instalaste en tu computadora, al modificar las opciones de tu navegador o dirigiendolo a una p\u00e1gina proxy basada en la web. La red an\u00f3nima <em><a href=\"/es/glossary#Tor\" title=\"Tor\">Tor</a></em>, descrita en las secci\u00f3n siguiente, utiliza el primer m\u00e9todo. Tras ello, nos referimos al tema de herramientas de evasi\u00f3n proxy b\u00e1sicas, \u00fanicas, cada una de las cuales funciona de manera ligeramente diferente.</p>\n<p>\u00a0</p>\n", 
+                        "summary": "", 
+                        "value": "<p>Si no puedes acceder directamente a un sitio web debido a que est\u00e1 bloqueado por uno de los m\u00e9todos explicados anteriormente, necesitas encontrar una forma de rodear la obstrucci\u00f3n. Un servidor <em><a href=\"/es/glossary#Proxy\" title=\"Proxy\">proxy</a></em> seguro, localizado en un pa\u00eds que no filtra Internet puede proporcionar esta clase de desv\u00edo buscando las p\u00e1ginas web que solicitas y envi\u00e1ndotelas. Desde la perspectiva de tu <a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a>, aparecer\u00e1s simplemente comunic\u00e1ndote de manera segura con una computadora desconocida (el servidor proxy) en alg\u00fan lugar de Internet.</p>\r\n\r\n<p><img border=\"0\" src=\"/sites/securitybkp.ngoinabox.org/security/files/img/2-es.png\" /></p>\r\n\r\n<p>Obviamente, la agencia gubernamental a cargo de la censura de Internet en tu pa\u00eds\u2014o la compa\u00f1\u00eda que proporciona actualizaciones para su software de filtrado\u2014podr\u00eda finalmente saber que esta 'computadora desconocida' es realmente un <em><a href=\"/es/glossary#Proxy\" title=\"Proxy\">proxy</a></em> de evasi\u00f3n. Si esto ocurre, su <a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\"><em>direcci\u00f3n IP</em></a> puede ser a\u00f1adida a la <a href=\"/es/glossary#Lista_negra\" title=\"Lista negra\"><em>lista negra</em></a>, y no funcionar\u00e1 m\u00e1s. Sin embargo, normalmente el bloqueado de los proxies toma cierto tiempo, y quienes crean y actualizan las herramientas de evasi\u00f3n son concientes de esta amenaza. Ellos responden utilizando uno o los dos m\u00e9todos mostrados a continuaci\u00f3n:</p>\r\n\r\n<ul>\r\n\t<li>Los <strong>Proxies escondidos</strong> son m\u00e1s dif\u00edciles de identificar. Esta es una de las razones por la que es importante utilizar <em><a href=\"/es/glossary#Proxy\" title=\"Proxy\">proxies</a></em> seguros, los cuales son menos obvios. Sin embargo, el <em><a href=\"/es/glossary#Cifrado\" title=\"Cifrado\">cifrado</a></em> es s\u00f3lo parte de la soluci\u00f3n. Los operadores de un proxy tambi\u00e9n deben ser cuidadosos cuando dan su ubicaci\u00f3n a nuevos usuarios si desean que este se mantenga escondido.</li>\r\n</ul>\r\n\r\n<ul>\r\n\t<li>Los <strong>Proxies desechables</strong> pueden ser reemplazados muy r\u00e1pidamente despu\u00e9s de ser bloqueados. El proceso de informar a los usuarios sobre c\u00f3mo hallar los <em><a href=\"/es/glossary#Proxy\" title=\"Proxy\">proxies</a></em> de reemplazo puede no ser particularmente seguro. En vez de ello, las herramientas de evasi\u00f3n de este tipo simplemente tratan de distribuir nuevos proxies con mayor rapidez que su proceso de bloqueo.</li>\r\n</ul>\r\n\r\n<p>Al final, mientras sea posible tener a la mano un <em><a href=\"/es/glossary#Proxy\" title=\"Proxy\">proxy</a></em> fiable para que te permita acceder a los servicios que solicitas, todo lo que debes hacer es enviar tu solicitud y ver que la misma regresa utilizando la aplicaci\u00f3n apropiada de Internet. Normalmente, los detalles de este proceso son manejados autom\u00e1ticamente por el software de evasi\u00f3n que instalaste en tu computadora, al modificar las opciones de tu navegador o dirigiendolo a una p\u00e1gina proxy basada en la web. La red an\u00f3nima <em><a href=\"/es/glossary#Tor\" title=\"Tor\">Tor</a></em>, descrita en las secci\u00f3n siguiente, utiliza el primer m\u00e9todo. Tras ello, nos referimos al tema de herramientas de evasi\u00f3n proxy b\u00e1sicas, \u00fanicas, cada una de las cuales funciona de manera ligeramente diferente.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1964", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1964", 
+                "link_title": "\u1780\u17b6\u179a\u1799\u179b\u17cb\u178a\u17b9\u1784\u17a2\u17c6\u1796\u17b8 \u1780\u17b6\u179a\u1782\u17c1\u1785\u179c\u17b6\u1784\u1796\u17b8\u1780\u17b6\u179a\u178f\u17d2\u179a\u17bd\u178f\u1796\u17b7\u1793\u17b7\u178f\u17d2\u1799", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5109", 
+                "module": "book", 
+                "nid": "1964", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5107", 
+                "p3": "5109", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5107", 
+                "router_path": "node/%", 
+                "title": "\u1780\u17b6\u179a\u1799\u179b\u17cb\u178a\u17b9\u1784\u17a2\u17c6\u1796\u17b8 \u1780\u17b6\u179a\u1782\u17c1\u1785\u179c\u17b6\u1784\u1796\u17b8\u1780\u17b6\u179a\u178f\u17d2\u179a\u17bd\u178f\u1796\u17b7\u1793\u17b7\u178f\u17d2\u1799", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1452612308", 
+            "comment": "0", 
+            "created": "1441105125", 
+            "current_revision_id": "12813", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_8_2", 
+                        "value": "chapter_8_2"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5109": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1964", 
+                    "link_title": "\u1780\u17b6\u179a\u1799\u179b\u17cb\u178a\u17b9\u1784\u17a2\u17c6\u1796\u17b8 \u1780\u17b6\u179a\u1782\u17c1\u1785\u179c\u17b6\u1784\u1796\u17b8\u1780\u17b6\u179a\u178f\u17d2\u179a\u17bd\u178f\u1796\u17b7\u1793\u17b7\u178f\u17d2\u1799", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5109", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5107", 
+                    "p3": "5109", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5107", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1964", 
+            "num_revisions": "22", 
+            "path": "https://securityinabox.org/en/node/1964", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452612308", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Entender la evasi\u00f3n de la censura", 
+                        "value": "Entender la evasi\u00f3n de la censura"
+                    }
+                ]
+            }, 
+            "title_original": "Understanding censorship circumvention", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442917569", 
+                        "created": "1442917569", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442228068", 
+                        "created": "1441807944", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096914", 
+                        "created": "1443096914", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442414335", 
+                        "created": "1442414335", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451920529", 
+                        "created": "1441208278", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447108991", 
+                        "created": "1442762070", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443706228", 
+                        "created": "1443706228", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452612308", 
+                        "created": "1452612308", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457619", 
+                        "created": "1443457619", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441117719", 
+                        "created": "1441117719", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443811646", 
+                        "created": "1443811646", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444397068", 
+                        "created": "1444397068", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443102052", 
+                        "created": "1443102052", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443094668", 
+                        "created": "1443094668", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441105125", 
+                        "created": "1441105125", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444583911", 
+                        "created": "1443623883", 
+                        "entity_id": "1964", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "3fd8e6ec-6a7a-4f4a-9c99-5356d512a52d", 
+            "vid": "12813", 
+            "vuuid": "e423e0ea-137f-428a-abe6-69329912dd92"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "full_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<h3 id=\"Redesanonimas\">Redes an\u00f3nimas<span class=\"anchor\"> </span></h3>\n<p>Las redes an\u00f3nimas normalmente 'hacen rebotar' tu tr\u00e1fico de Internet entre varios <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> seguros con el fin de disfrazar de d\u00f3nde vienes y a qu\u00e9 estas tratando de acceder. Esto puede reducir significativamente la velocidad a la cual eres capaz de descargar las p\u00e1ginas web y otros servicios de Internet. Sin embargo, en el caso de <em><a href=\"/es/glossary#Tor\" title=\"Tor\">Tor</a></em>, este tambi\u00e9n te proporciona un medio fiable, seguro y p\u00fablico de evasi\u00f3n que te ahorra el preocuparte si conf\u00edas o no en las personas que operan tus proxies y los sitios web que visitas. Como siempre, debes garantizar que tienes una conexi\u00f3n cifrada, utilizando <a href=\"/es/glossary#HTTPS\" title=\"HTTPS\"><em>HTTPS</em></a> para un sitio web seguro antes de intercambiar informaci\u00f3n sensible, tal como contrase\u00f1as y correos electr\u00f3nicos, a trav\u00e9s de un navegador.</p>\n<p>Tienes que instalar el software para utilizar <em><a href=\"/es/glossary#Tor\" title=\"Tor\">Tor</a></em>, pero el resultado es una herramienta que te proporciona anonimato as\u00ed como evasi\u00f3n. Cada vez que te conectas a la red de Tor, seleccionas una ruta aleatoria a trav\u00e9s de tres proxies seguros de Tor. Esto garantiza que ni tu <em><a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\">Proveedor de Servicio de Internet (ISP)</a></em> ni los mismos proxies conozcan tanto la <em><a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\">direcci\u00f3n IP</a></em> de tu computadora y como la ubicaci\u00f3n de los servicios de Internet que solicitas. Puedes aprender m\u00e1s sobre esta herramienta en la Gu\u00eda del Tor.</p>\n<p>\u00a0</p>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td><img align=\"middle\" height=\"63\" src=\"/sites/securitybkp.ngoinabox.org/files/u9/hand_web_trans.png\" width=\"60\" /><strong>Parte Pr\u00e1ctica: Empieza con la <a href=\"/es/tor_principal\" title=\"Gu\u00eda del Tor\"><strong>Gu\u00eda del Tor</strong></a> </strong></td>\n</tr></tbody></table><p>\u00a0</p>\n<p>\u00a0</p>\n<p>Una de las fortalezas de <em><a href=\"/es/glossary#Tor\" title=\"Tor\">Tor</a></em> es que no s\u00f3lo trabaja con navegadores sino que puede ser utilizado con varios tipos de software de Internet. Los programas de correo electr\u00f3nico, entre ellos Mozilla <a href=\"/es/glossary#Thunderbird\" title=\"Thunderbird\"><em>Thunderbird</em></a>, y los programas de mensajer\u00eda instant\u00e1nea, incluyendo <a href=\"/es/glossary#Pidgin\" title=\"Pidgin\"><em>Pidgin</em></a>, pueden ser operados a trav\u00e9s del Tor, ya sea para acceder a servicios filtrados o para esconder el uso que le das a dichos servicios.</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n<h3 id=\"Proxiesbasicosevasion\">Proxies b\u00e1sicos de evasi\u00f3n<span class=\"anchor\"> </span></h3>\n<p>Existen tres importantes caracter\u00edsticas que debes considerar cuando seleccionas un <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> b\u00e1sico de evasi\u00f3n. Primero, \u00bfes una herramienta basada en la web, o requiere que cambies las opciones o que instales software en tu computadora? Segundo, \u00bfes seguro? Tercero, \u00bfes p\u00fablico o privado?</p>\n<h4 id=\"Proxiesbasadosweb\">Proxies basados en la web y otros:</h4>\n<p>Los <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> basados en la web son probablemente los m\u00e1s f\u00e1ciles de usar. S\u00f3lo requieren que apuntes tu navegador hacia una p\u00e1gina web proxy, ingreses la direcci\u00f3n filtrada que deseas ver y pulses un bot\u00f3n. El proxy entonces mostrar\u00e1 el contenido solicitado dentro de su propia p\u00e1gina web. Normalmente puedes acceder a los enlaces o ingresar una nueva direcci\u00f3n en el proxy si deseas ver una nueva p\u00e1gina. No necesitas instalar ning\u00fan software o cambiar alguna opci\u00f3n de tu navegador, lo cual significa que los proxies basados en la web son:</p>\n<ul><li>F\u00e1ciles de usar</li>\n<li>Accesibles desde computadoras p\u00fablicas, como aquellas en los Internet caf\u00e9s, las cuales no permiten instalar programas o cambiar opciones</li>\n<li>Son potencialmente seguros si te preocupa ser 'sorprendido' con software de evasi\u00f3n en tu computadora.</li>\n</ul><p>Los <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> basados en la web tambi\u00e9n tienen ciertas desventajas. No siempre muestran correctamente las p\u00e1ginas, y muchos proxies basados en la web no lograr\u00e1n descargar sitios web complejos, entre ellos los que presentan archivos de audio o contenidos de video. Adem\u00e1s, mientras que todo proxy se volver\u00e1 m\u00e1s lento cuantos m\u00e1s usuarios lo est\u00e9n utilizando, esto puede ser especialmente problem\u00e1tico con los proxies p\u00fablicos basados en la web. Y, obviamente, los proxies basados en la web s\u00f3lo funcionan para p\u00e1ginas web. No puedes, por ejemplo, utilizar un programa de mensajer\u00eda instant\u00e1nea o un cliente de correo electr\u00f3nico para acceder a servicios bloqueados a trav\u00e9s de un proxy basado en la web. Finalmente, los proxies seguros basados en la web ofrecen una confidencialidad limitada debido a que ellos mismos deben acceder y modificar la informaci\u00f3n de retorno hacia ti proveniente de los sitios web que visitas. Si no lo hicieran, ser\u00edas incapaz de pulsar en un enlace sin dejar el proxy, realizando una conexi\u00f3n directa con la p\u00e1gina web objetivo. Esto se trata m\u00e1s adelante en la secci\u00f3n siguiente.</p>\n<p>Otros tipos de <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> generalmente requieren que instales un programa o configures una direcci\u00f3n externa de un proxy en tu navegador o sistema operativo. En el primer caso, tu programa de evasi\u00f3n normalmente proporcionar\u00e1 alguna forma de activar y desactivar la herramienta, para indicarle a tu navegador si debe o no utilizar el proxy. El software de este tipo a menudo te permite cambiar autom\u00e1ticamente de proxies si uno de ellos es bloqueado, como se trat\u00f3 anteriormente. En el segundo caso, necesitar\u00e1s saber la direcci\u00f3n correcta del proxy, la cual cambiar\u00e1 si dicho proxy es bloqueado o se vuelve tan lento que deja se der \u00fatil.</p>\n<p>Aunque esto puede ser ligeramente m\u00e1s dif\u00edcil de utilizar que un <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> basado en la web, este m\u00e9todo de evasi\u00f3n est\u00e1 mejor dotado para mostrar p\u00e1ginas complejas de manera correcta y tomar\u00e1 mucho m\u00e1s tiempo en ralentizarse. Adem\u00e1s, pueden encontrarse proxies para varias aplicaciones diferentes de Internet. Los ejemplos incluyen proxies HTTP para navegadores, SOCKS para programas de correo electr\u00f3nico y mensajer\u00eda (chat) y VPN, que pueden redireccionar todo tu tr\u00e1fico de Internet para evitar el filtrado.</p>\n<h4>Proxies seguros e inseguros:</h4>\n<p>Un <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> seguro, en este capitulo, se refiere a cualquier proxy que permita conexiones <em><a href=\"/es/glossary#Cifrado\" title=\"Cifrado\">cifradas</a></em> de sus usuarios. Un proxy inseguro te permitir\u00e1 evadir muchos tipos de filtro pero fracasar\u00e1 si tu conexi\u00f3n de Internet est\u00e1 siendo escaneada en busca de palabras claves o de direcciones de p\u00e1ginas web. Es especialmente malo utilizar un proxy inseguro para acceder a sitios web que normalmente est\u00e1n cifrados, tales como aquellos de cuentas de correo electr\u00f3nico con interfaz web y p\u00e1ginas web bancarias. Al hacerlo, podr\u00edas estar exponiendo informaci\u00f3n sensible que normalmente estar\u00eda escondida. Y, como se mencion\u00f3 anteriormente, los proxies inseguros a menudo son m\u00e1s f\u00e1ciles de descubrir y bloquear por parte de aquellos que actualizan el software y la pol\u00edticas de filtrado de Internet. En definitiva, el hecho de que existan proxies libres, r\u00e1pidos y seguros supone que existen muy pocas razones para decidirse por uno inseguro.</p>\n<p>Sabr\u00e1s si un <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> basado en la web es seguro o inseguro si puedes acceder a las mismas p\u00e1ginas web del proxy utilizando direcciones <a href=\"/es/glossary#HTTPS\" title=\"HTTPS\"><em>HTTPS</em></a>. Del mismo modo que con los servicios de correo con interfaz web, las conexiones seguras e inseguras pueden ser admitidas, de modo que debes estar seguro de utilizar una direcci\u00f3n segura. Puede pasar que, en dichos casos, se te pedir\u00e1 aceptar una 'advertencia de certificado de seguridad' de tu navegador con el fin de continuar. Este es el caso para el proxy <a href=\"/es/glossary#Peacefire\" title=\"Peacefire\"><em>Peacefire</em></a>, que se trata a continuaci\u00f3n. Advertencias como estas te indican que alguien, como tu <a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a> o un <a href=\"/es/glossary#Hacker\" title=\"Pirata inform\u00e1tico (hacker)\"><em>pirata inform\u00e1tico (hacker)</em></a>, podr\u00eda estar vigilando tu conexi\u00f3n al proxy. A pesar de estas advertencias, podr\u00eda ser una buena idea utilizar proxies seguros en la medida de lo posible. Sin embargo, cuando conf\u00edes en tales proxies para evasi\u00f3n, debes evitar visitar sitios web seguros, a menos que verifiques la huella digital <a href=\"/es/glossary#SSL\" title=\"Capa de Conexi\u00f3n Segura (SSL)\"><em>Capa de Conexi\u00f3n Segura (SSL)</em></a> del proxy. Con el fin de hacer esto, necesitar\u00e1s una manera de comunicarte con el administrador del proxy. <strong>En general, es mejor evitar ingresar contrase\u00f1as o intercambiar informaci\u00f3n sensible cuando utilices un proxy web</strong>.</p>\n<p>Tambi\u00e9n debes evitar acceder a informaci\u00f3n sensible a trav\u00e9s de un <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> basado en la web a menos que conf\u00edes en la persona que lo dirige. Esto se aplica sin importar si ves o no una advertencia de certificado de seguridad cuando visitas el proxy. Incluso se aplica si conoces lo suficiente al operador del proxy para verificar la huella digital del servidor antes de dirigir tu navegador a aceptar la advertencia. Cuando conf\u00edas en un \u00fanico proxy para la evasi\u00f3n, su administrador conocer\u00e1 en todo momento tu <em><a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\">direcci\u00f3n IP</a></em> y el sitio web al que est\u00e1s accediendo. Sin embargo, es mucho m\u00e1s importante considerar que si ese proxy est\u00e1 basado en la web, un operador malicioso podr\u00eda tener acceso a toda la informaci\u00f3n que pasa entre tu navegador y los sitios web que visitas, incluyendo el contenido de tu correo con interfaz web y tus contrase\u00f1as.</p>\n<p>Para los <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> que no est\u00e1n basados en la web, debes investigar un poco para determinar si admiten conexiones seguras o inseguras. Todas los proxies y las redes an\u00f3nimas recomendadas en este capitulo son seguros.</p>\n<h4>Proxies privados y p\u00fablicos:</h4>\n<p>Los <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> p\u00fablicos aceptan conexiones de cualquiera, mientras que los privados normalmente requieren un nombre de usuario y una contrase\u00f1a. Mientras que los proxies p\u00fablicos tienen la obvia ventaja de estar disponibles libremente, asumiendo que puedan ser hallados, estos tienden a saturarse r\u00e1pidamente. Como resultado de ello, aunque los proxies p\u00fablicos sean t\u00e9cnicamente tan sofisticados y bien mantenidos como los privados, estos son a menudo relativamente lentos. Finalmente, los proxies privados tienden a ser dirigidos ya sea por lucro o por administradores que crean cuentas para sus usuarios a quienes conocen personal o socialmente. Debido a esto, es generalmente muy f\u00e1cil determinar qu\u00e9 motiva a un operador de un proxy privado. Sin embargo, no debes asumir que los proxies privados son por tanto b\u00e1sicamente m\u00e1s fiables. Despu\u00e9s de todo, algunos de estos servicios han llegado a exponer a sus usuarios en el pasado para lucrarse.</p>\n<p><a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>Proxies</em></a> simples, inseguros y p\u00fablicos pueden a menudo encontrarse ingresando t\u00e9rminos como 'proxy p\u00fablico' en un buscador, pero no debes confiar en proxies descubiertos de esta manera. Dada la oportunidad, es mejor utilizar un proxy seguro y privado conducido por personas que conoces y en las que conf\u00edas, ya sea personalmente o por su reputaci\u00f3n, y quienes tienen las habilidades t\u00e9cnicas para mantener su servidor seguro. Ya sea que utilices o no un proxy basado en la web depender\u00e1 de tus particulares necesidades y preferencias. En cualquier momento en que utilices un proxy para evasi\u00f3n, es una buena idea utilizar tambi\u00e9n el navegador <a href=\"/es/glossary#Firefox\" title=\"Firefox\"><em>Firefox</em></a> e instalar el complemento <a href=\"/es/glossary#NoScript\" title=\"NoScript\"><em>NoScript</em></a>, como se trata en la <a href=\"/es/firefox_principal\" title=\"Gu\u00eda del Firefox\"><strong>Gu\u00eda del Firefox</strong></a>. El hacerlo puede ayudarte a protegerte tanto de proxies maliciosos como de sitios web que pueden tratar de descubrir tu verdadera <em><a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\">direcci\u00f3n IP</a></em>. Finalmente, ten en cuenta que incluso un proxy <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> no tornar\u00e1 un sitio web inseguro en uno seguro. Debes garantizar que tienes una conexi\u00f3n <a href=\"/es/glossary#HTTPS\" title=\"HTTPS\"><em>HTTPS</em></a> antes de enviar o recibir informaci\u00f3n sensible.</p>\n<p>Si eres incapaz de encontrar en tu pa\u00eds una persona, una organizaci\u00f3n o una compa\u00f1\u00eda cuyo servicio <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> consideres fiable, asequible y accesible, debes pensar en utilizar la red an\u00f3nima de <em><a href=\"/es/glossary#Tor\" title=\"Tor\">Tor</a></em>, de la cual nos ocupamos anteriormente en la parte de <a href=\"/es/chapter_8_3#Redesanonimas\" title=\"Redes an\u00f3nimas\"><strong>Redes an\u00f3nimas</strong></a>.</p>\n<p>\u00a0</p>\n", 
+                        "summary": "", 
+                        "value": "<h3 id=\"Redesanonimas\">Redes an\u00f3nimas<span class=\"anchor\"> </span></h3>\r\n\r\n<p>Las redes an\u00f3nimas normalmente 'hacen rebotar' tu tr\u00e1fico de Internet entre varios <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> seguros con el fin de disfrazar de d\u00f3nde vienes y a qu\u00e9 estas tratando de acceder. Esto puede reducir significativamente la velocidad a la cual eres capaz de descargar las p\u00e1ginas web y otros servicios de Internet. Sin embargo, en el caso de <em><a href=\"/es/glossary#Tor\" title=\"Tor\">Tor</a></em>, este tambi\u00e9n te proporciona un medio fiable, seguro y p\u00fablico de evasi\u00f3n que te ahorra el preocuparte si conf\u00edas o no en las personas que operan tus proxies y los sitios web que visitas. Como siempre, debes garantizar que tienes una conexi\u00f3n cifrada, utilizando <a href=\"/es/glossary#HTTPS\" title=\"HTTPS\"><em>HTTPS</em></a> para un sitio web seguro antes de intercambiar informaci\u00f3n sensible, tal como contrase\u00f1as y correos electr\u00f3nicos, a trav\u00e9s de un navegador.</p>\r\n\r\n<p>Tienes que instalar el software para utilizar <em><a href=\"/es/glossary#Tor\" title=\"Tor\">Tor</a></em>, pero el resultado es una herramienta que te proporciona anonimato as\u00ed como evasi\u00f3n. Cada vez que te conectas a la red de Tor, seleccionas una ruta aleatoria a trav\u00e9s de tres proxies seguros de Tor. Esto garantiza que ni tu <em><a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\">Proveedor de Servicio de Internet (ISP)</a></em> ni los mismos proxies conozcan tanto la <em><a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\">direcci\u00f3n IP</a></em> de tu computadora y como la ubicaci\u00f3n de los servicios de Internet que solicitas. Puedes aprender m\u00e1s sobre esta herramienta en la Gu\u00eda del Tor.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><img align=\"middle\" height=\"63\" src=\"/sites/securitybkp.ngoinabox.org/files/u9/hand_web_trans.png\" width=\"60\" /> <strong>Parte Pr\u00e1ctica: Empieza con la <a href=\"/es/tor_principal\" title=\"Gu\u00eda del Tor\"><strong>Gu\u00eda del Tor</strong></a> </strong></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Una de las fortalezas de <em><a href=\"/es/glossary#Tor\" title=\"Tor\">Tor</a></em> es que no s\u00f3lo trabaja con navegadores sino que puede ser utilizado con varios tipos de software de Internet. Los programas de correo electr\u00f3nico, entre ellos Mozilla <a href=\"/es/glossary#Thunderbird\" title=\"Thunderbird\"><em>Thunderbird</em></a>, y los programas de mensajer\u00eda instant\u00e1nea, incluyendo <a href=\"/es/glossary#Pidgin\" title=\"Pidgin\"><em>Pidgin</em></a>, pueden ser operados a trav\u00e9s del Tor, ya sea para acceder a servicios filtrados o para esconder el uso que le das a dichos servicios.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3 id=\"Proxiesbasicosevasion\">Proxies b\u00e1sicos de evasi\u00f3n<span class=\"anchor\"> </span></h3>\r\n\r\n<p>Existen tres importantes caracter\u00edsticas que debes considerar cuando seleccionas un <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> b\u00e1sico de evasi\u00f3n. Primero, \u00bfes una herramienta basada en la web, o requiere que cambies las opciones o que instales software en tu computadora? Segundo, \u00bfes seguro? Tercero, \u00bfes p\u00fablico o privado?</p>\r\n\r\n<h4 id=\"Proxiesbasadosweb\">Proxies basados en la web y otros:</h4>\r\n\r\n<p>Los <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> basados en la web son probablemente los m\u00e1s f\u00e1ciles de usar. S\u00f3lo requieren que apuntes tu navegador hacia una p\u00e1gina web proxy, ingreses la direcci\u00f3n filtrada que deseas ver y pulses un bot\u00f3n. El proxy entonces mostrar\u00e1 el contenido solicitado dentro de su propia p\u00e1gina web. Normalmente puedes acceder a los enlaces o ingresar una nueva direcci\u00f3n en el proxy si deseas ver una nueva p\u00e1gina. No necesitas instalar ning\u00fan software o cambiar alguna opci\u00f3n de tu navegador, lo cual significa que los proxies basados en la web son:</p>\r\n\r\n<ul>\r\n\t<li>F\u00e1ciles de usar</li>\r\n\t<li>Accesibles desde computadoras p\u00fablicas, como aquellas en los Internet caf\u00e9s, las cuales no permiten instalar programas o cambiar opciones</li>\r\n\t<li>Son potencialmente seguros si te preocupa ser 'sorprendido' con software de evasi\u00f3n en tu computadora.</li>\r\n</ul>\r\n\r\n<p>Los <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> basados en la web tambi\u00e9n tienen ciertas desventajas. No siempre muestran correctamente las p\u00e1ginas, y muchos proxies basados en la web no lograr\u00e1n descargar sitios web complejos, entre ellos los que presentan archivos de audio o contenidos de video. Adem\u00e1s, mientras que todo proxy se volver\u00e1 m\u00e1s lento cuantos m\u00e1s usuarios lo est\u00e9n utilizando, esto puede ser especialmente problem\u00e1tico con los proxies p\u00fablicos basados en la web. Y, obviamente, los proxies basados en la web s\u00f3lo funcionan para p\u00e1ginas web. No puedes, por ejemplo, utilizar un programa de mensajer\u00eda instant\u00e1nea o un cliente de correo electr\u00f3nico para acceder a servicios bloqueados a trav\u00e9s de un proxy basado en la web. Finalmente, los proxies seguros basados en la web ofrecen una confidencialidad limitada debido a que ellos mismos deben acceder y modificar la informaci\u00f3n de retorno hacia ti proveniente de los sitios web que visitas. Si no lo hicieran, ser\u00edas incapaz de pulsar en un enlace sin dejar el proxy, realizando una conexi\u00f3n directa con la p\u00e1gina web objetivo. Esto se trata m\u00e1s adelante en la secci\u00f3n siguiente.</p>\r\n\r\n<p>Otros tipos de <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> generalmente requieren que instales un programa o configures una direcci\u00f3n externa de un proxy en tu navegador o sistema operativo. En el primer caso, tu programa de evasi\u00f3n normalmente proporcionar\u00e1 alguna forma de activar y desactivar la herramienta, para indicarle a tu navegador si debe o no utilizar el proxy. El software de este tipo a menudo te permite cambiar autom\u00e1ticamente de proxies si uno de ellos es bloqueado, como se trat\u00f3 anteriormente. En el segundo caso, necesitar\u00e1s saber la direcci\u00f3n correcta del proxy, la cual cambiar\u00e1 si dicho proxy es bloqueado o se vuelve tan lento que deja se der \u00fatil.</p>\r\n\r\n<p>Aunque esto puede ser ligeramente m\u00e1s dif\u00edcil de utilizar que un <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> basado en la web, este m\u00e9todo de evasi\u00f3n est\u00e1 mejor dotado para mostrar p\u00e1ginas complejas de manera correcta y tomar\u00e1 mucho m\u00e1s tiempo en ralentizarse. Adem\u00e1s, pueden encontrarse proxies para varias aplicaciones diferentes de Internet. Los ejemplos incluyen proxies HTTP para navegadores, SOCKS para programas de correo electr\u00f3nico y mensajer\u00eda (chat) y VPN, que pueden redireccionar todo tu tr\u00e1fico de Internet para evitar el filtrado.</p>\r\n\r\n<h4>Proxies seguros e inseguros:</h4>\r\n\r\n<p>Un <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> seguro, en este capitulo, se refiere a cualquier proxy que permita conexiones <em><a href=\"/es/glossary#Cifrado\" title=\"Cifrado\">cifradas</a></em> de sus usuarios. Un proxy inseguro te permitir\u00e1 evadir muchos tipos de filtro pero fracasar\u00e1 si tu conexi\u00f3n de Internet est\u00e1 siendo escaneada en busca de palabras claves o de direcciones de p\u00e1ginas web. Es especialmente malo utilizar un proxy inseguro para acceder a sitios web que normalmente est\u00e1n cifrados, tales como aquellos de cuentas de correo electr\u00f3nico con interfaz web y p\u00e1ginas web bancarias. Al hacerlo, podr\u00edas estar exponiendo informaci\u00f3n sensible que normalmente estar\u00eda escondida. Y, como se mencion\u00f3 anteriormente, los proxies inseguros a menudo son m\u00e1s f\u00e1ciles de descubrir y bloquear por parte de aquellos que actualizan el software y la pol\u00edticas de filtrado de Internet. En definitiva, el hecho de que existan proxies libres, r\u00e1pidos y seguros supone que existen muy pocas razones para decidirse por uno inseguro.</p>\r\n\r\n<p>Sabr\u00e1s si un <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> basado en la web es seguro o inseguro si puedes acceder a las mismas p\u00e1ginas web del proxy utilizando direcciones <a href=\"/es/glossary#HTTPS\" title=\"HTTPS\"><em>HTTPS</em></a>. Del mismo modo que con los servicios de correo con interfaz web, las conexiones seguras e inseguras pueden ser admitidas, de modo que debes estar seguro de utilizar una direcci\u00f3n segura. Puede pasar que, en dichos casos, se te pedir\u00e1 aceptar una 'advertencia de certificado de seguridad' de tu navegador con el fin de continuar. Este es el caso para el proxy <a href=\"/es/glossary#Peacefire\" title=\"Peacefire\"><em>Peacefire</em></a>, que se trata a continuaci\u00f3n. Advertencias como estas te indican que alguien, como tu <a href=\"/es/glossary#ISP\" title=\"Proveedor de Servicio de Internet (ISP)\"><em>Proveedor de Servicio de Internet (ISP)</em></a> o un <a href=\"/es/glossary#Hacker\" title=\"Pirata inform\u00e1tico (hacker)\"><em>pirata inform\u00e1tico (hacker)</em></a>, podr\u00eda estar vigilando tu conexi\u00f3n al proxy. A pesar de estas advertencias, podr\u00eda ser una buena idea utilizar proxies seguros en la medida de lo posible. Sin embargo, cuando conf\u00edes en tales proxies para evasi\u00f3n, debes evitar visitar sitios web seguros, a menos que verifiques la huella digital <a href=\"/es/glossary#SSL\" title=\"Capa de Conexi\u00f3n Segura (SSL)\"><em>Capa de Conexi\u00f3n Segura (SSL)</em></a> del proxy. Con el fin de hacer esto, necesitar\u00e1s una manera de comunicarte con el administrador del proxy. <strong>En general, es mejor evitar ingresar contrase\u00f1as o intercambiar informaci\u00f3n sensible cuando utilices un proxy web</strong>.</p>\r\n\r\n<p>Tambi\u00e9n debes evitar acceder a informaci\u00f3n sensible a trav\u00e9s de un <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> basado en la web a menos que conf\u00edes en la persona que lo dirige. Esto se aplica sin importar si ves o no una advertencia de certificado de seguridad cuando visitas el proxy. Incluso se aplica si conoces lo suficiente al operador del proxy para verificar la huella digital del servidor antes de dirigir tu navegador a aceptar la advertencia. Cuando conf\u00edas en un \u00fanico proxy para la evasi\u00f3n, su administrador conocer\u00e1 en todo momento tu <em><a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\">direcci\u00f3n IP</a></em> y el sitio web al que est\u00e1s accediendo. Sin embargo, es mucho m\u00e1s importante considerar que si ese proxy est\u00e1 basado en la web, un operador malicioso podr\u00eda tener acceso a toda la informaci\u00f3n que pasa entre tu navegador y los sitios web que visitas, incluyendo el contenido de tu correo con interfaz web y tus contrase\u00f1as.</p>\r\n\r\n<p>Para los <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> que no est\u00e1n basados en la web, debes investigar un poco para determinar si admiten conexiones seguras o inseguras. Todas los proxies y las redes an\u00f3nimas recomendadas en este capitulo son seguros.</p>\r\n\r\n<h4>Proxies privados y p\u00fablicos:</h4>\r\n\r\n<p>Los <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> p\u00fablicos aceptan conexiones de cualquiera, mientras que los privados normalmente requieren un nombre de usuario y una contrase\u00f1a. Mientras que los proxies p\u00fablicos tienen la obvia ventaja de estar disponibles libremente, asumiendo que puedan ser hallados, estos tienden a saturarse r\u00e1pidamente. Como resultado de ello, aunque los proxies p\u00fablicos sean t\u00e9cnicamente tan sofisticados y bien mantenidos como los privados, estos son a menudo relativamente lentos. Finalmente, los proxies privados tienden a ser dirigidos ya sea por lucro o por administradores que crean cuentas para sus usuarios a quienes conocen personal o socialmente. Debido a esto, es generalmente muy f\u00e1cil determinar qu\u00e9 motiva a un operador de un proxy privado. Sin embargo, no debes asumir que los proxies privados son por tanto b\u00e1sicamente m\u00e1s fiables. Despu\u00e9s de todo, algunos de estos servicios han llegado a exponer a sus usuarios en el pasado para lucrarse.</p>\r\n\r\n<p><a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>Proxies</em></a> simples, inseguros y p\u00fablicos pueden a menudo encontrarse ingresando t\u00e9rminos como 'proxy p\u00fablico' en un buscador, pero no debes confiar en proxies descubiertos de esta manera. Dada la oportunidad, es mejor utilizar un proxy seguro y privado conducido por personas que conoces y en las que conf\u00edas, ya sea personalmente o por su reputaci\u00f3n, y quienes tienen las habilidades t\u00e9cnicas para mantener su servidor seguro. Ya sea que utilices o no un proxy basado en la web depender\u00e1 de tus particulares necesidades y preferencias. En cualquier momento en que utilices un proxy para evasi\u00f3n, es una buena idea utilizar tambi\u00e9n el navegador <a href=\"/es/glossary#Firefox\" title=\"Firefox\"><em>Firefox</em></a> e instalar el complemento <a href=\"/es/glossary#NoScript\" title=\"NoScript\"><em>NoScript</em></a>, como se trata en la <a href=\"/es/firefox_principal\" title=\"Gu\u00eda del Firefox\"><strong>Gu\u00eda del Firefox</strong></a>. El hacerlo puede ayudarte a protegerte tanto de proxies maliciosos como de sitios web que pueden tratar de descubrir tu verdadera <em><a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (Direcci\u00f3n IP)\">direcci\u00f3n IP</a></em>. Finalmente, ten en cuenta que incluso un proxy <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a> no tornar\u00e1 un sitio web inseguro en uno seguro. Debes garantizar que tienes una conexi\u00f3n <a href=\"/es/glossary#HTTPS\" title=\"HTTPS\"><em>HTTPS</em></a> antes de enviar o recibir informaci\u00f3n sensible.</p>\r\n\r\n<p>Si eres incapaz de encontrar en tu pa\u00eds una persona, una organizaci\u00f3n o una compa\u00f1\u00eda cuyo servicio <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> consideres fiable, asequible y accesible, debes pensar en utilizar la red an\u00f3nima de <em><a href=\"/es/glossary#Tor\" title=\"Tor\">Tor</a></em>, de la cual nos ocupamos anteriormente en la parte de <a href=\"/es/chapter_8_3#Redesanonimas\" title=\"Redes an\u00f3nimas\"><strong>Redes an\u00f3nimas</strong></a>.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1965", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1965", 
+                "link_title": "Anonymity networks and basic proxy servers", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5111", 
+                "module": "book", 
+                "nid": "1965", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5107", 
+                "p3": "5111", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5107", 
+                "router_path": "node/%", 
+                "title": "Anonymity networks and basic proxy servers", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1455879986", 
+            "comment": "0", 
+            "created": "1441105174", 
+            "current_revision_id": "13273", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_8_3", 
+                        "value": "chapter_8_3"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5111": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1965", 
+                    "link_title": "Anonymity networks and basic proxy servers", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5111", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5107", 
+                    "p3": "5111", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5107", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1965", 
+            "num_revisions": "34", 
+            "path": "https://securityinabox.org/en/node/1965", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455879986", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Redes an\u00f3nimas y servidores proxy b\u00e1sicos", 
+                        "value": "Redes an\u00f3nimas y servidores proxy b\u00e1sicos"
+                    }
+                ]
+            }, 
+            "title_original": "Anonymity networks and basic proxy servers", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442917712", 
+                        "created": "1442917712", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454085218", 
+                        "created": "1441808123", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096938", 
+                        "created": "1443096938", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442414469", 
+                        "created": "1442414469", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451920693", 
+                        "created": "1441208337", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1453993997", 
+                        "created": "1442762093", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1455879986", 
+                        "created": "1443706292", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452612381", 
+                        "created": "1452612381", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457707", 
+                        "created": "1443457707", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441121355", 
+                        "created": "1441121355", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443812568", 
+                        "created": "1443811743", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444408294", 
+                        "created": "1444408294", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443102074", 
+                        "created": "1443102074", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443094742", 
+                        "created": "1443094742", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446478113", 
+                        "created": "1441105174", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1965", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444584978", 
+                        "created": "1444584724", 
+                        "entity_id": "1965", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1965", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "b0392703-6346-4566-b47c-4d8b06b1c540", 
+            "vid": "13273", 
+            "vuuid": "0eac1ef1-a055-4ab0-9bbf-34fd4de3807e"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "full_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>A continuaci\u00f3n hay unas cuantas herramientas y <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> espec\u00edficos que pueden ayudarte a evadir el filtrado de Internet. Nuevas herramientas de evasi\u00f3n son producidas regularmente, y las existentes son actualizadas frecuentemente, por lo tanto, para saber m\u00e1s, debes visitar el sitio web en l\u00ednea de la <strong>Caja de Herramientas de Seguridad</strong>, y los sitios mencionados en las secci\u00f3n de <a href=\"/es/chapter_8_5\" title=\"Lecturas Adicionales\"><strong>Lecturas Adicionales</strong></a> que se halla a continuaci\u00f3n.</p>\n<p><strong>Proxies basados en Red Virtual Privada (VPN por sus siglas en ingl\u00e9s)</strong></p>\n<p>Los VPN proxies que se describen a continuaci\u00f3n hacen que toda tu conexi\u00f3n a internet pasen por el proxie mientras est\u00e9s conectado/a. Esto puede ser de mucha utilidad si usas proveedores de correo electr\u00f3nico o mensajer\u00eda instant\u00e1nea que se encuentran filtrados en su pa\u00eds.</p>\n<p>\u00a0</p>\n<p><strong>Riseup VPN</strong>. Es para usuarios que tienen cuentas de correo en el servidor de Riseup. El colectivo ofrece la posibilidad de conectarse a un servidor con un VPN proxy gratuito, privado y seguro. Por favor, lea m\u00e1s sobre Riseup VPN y sobre <a href=\"https://we.riseup.net/riseuphelp+en/vpn-howto\"><em>c\u00f3mo conectarte a \u00e9l</em></a> .</p>\n<p><strong>Hotspot Shield,</strong> es un proxy de evasi\u00f3n p\u00fablico, seguro, VPN y gratuito. Para utilizarlo, necesitas <a href=\"https://sesawe.net/Anchor-Free-Hotspot-Shield.html\" title=\"Descargar Hotspot\">descargar la herramienta</a> [5] e instalarla. La compa\u00f1\u00eda que desarrolla el Hotspot Shield recibe fondos de anunciantes, de modo que veras una \u2018pancarta publicitaria\u2019 en la parte superior de la ventana de tu navegador cada vez que lo uses para visitar sitios web que no proporcionan <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a>. A pesar de que es imposible de verificar, esta compa\u00f1\u00eda afirma que borra la <a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (direcci\u00f3n IP)\"><em>direcci\u00f3n IP</em></a> de quienes utilizan la herramienta, en vez de almacenarla o enviarla a sus anunciantes.</p>\n<p><strong>Your-Freedom</strong> es un <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> de evasi\u00f3n VPN/SOCKS privado, seguro y no basado en la web. Esta es una herramienta de <a href=\"/es/glossary#Freeware\" title=\"Software gratuito (freeware)\"><em>software gratuito (freeware)</em></a> que puede utilizarse para acceder a un servicio de evasi\u00f3n sin costo. Tambi\u00e9n puedes pagar un cargo para acceder a un servicio comercial, el cual es m\u00e1s r\u00e1pido y tiene muchas menos limitaciones. Con el fin de utilizar <a href=\"/es/glossary#Your-Freedom\" title=\"Your-Freedom\"><em>Your-Freedom</em></a>, necesitar\u00e1s <a href=\"http://www.your-freedom.net/index.php?id=3\" title=\"Download Your-Freedom\">descargar la herramienta</a> [7] y <a href=\"http://www.your-freedom.net/index.php?id=170&amp;L=0\" title=\"Create a Your-Freedom account\">crear una cuenta</a> [8], ambas acciones pueden realizarse en el <a href=\"http://your-freedom.net/\" title=\"Your-Freedom Homepage\">sitio web de Your-Freedom</a> [9]. De manera similar ,necesitar\u00e1s configurar tu navegador para utilizar el proxy OpenVPN cuando te conectes a la Internet. Puedes leer mas en el<a href=\"http://sesawe.net/Using-Your-Freedom.html\" title=\"Using Your-Freedom\">sitio web del Proyecto Sesawe</a> [10].</p>\n<p><strong>Freegate</strong> es un proxy de evasi\u00f3n p\u00fablico, seguro, VPN y gratuito. Puedes [descargar la \u00faltima versi\u00f3n de Freegate](<a href=\"http://www.dit-inc.us/freegate\">http://www.dit-inc.us/freegate</a>) o [leer un art\u00edculo muy interesante sobre el mismo](<a href=\"http://www.addictivetips.com/windows-tips/freegate-lets-you-access-blocked-websites-at-optimal-speed/\">http://www.addictivetips.com/windows-tips/freegate-lets-you-access-block...</a>).</p>\n<p><strong>SecurityKISS</strong> es un proxy de evasi\u00f3n p\u00fablico, seguro, VPN y gratuito. Para usarlo debes [descargar el programa gratuito](<a href=\"http://www.securitykiss.com/resources/download/\">http://www.securitykiss.com/resources/download/</a>). No hay necesidad de registrar una cuenta. Los usuarios/as de forma gratuita est\u00e1n restringidos a utilizar un l\u00edmite diario de 300MB del tr\u00e1fico de internet por medio del proxy. Para los/as suscriptores/as no existen restricciones y se ofrecen m\u00e1s servidores VPN para usar. Por favor vea la p\u00e1gina principal de <a href=\"http://www.securitykiss.com\">SecureKISS</a> para aprender m\u00e1s.</p>\n<p><strong>Psiphon3</strong> es un proxy de evasi\u00f3n p\u00fablico y seguro que utiliza tecnolog\u00eda de proxy VPN, SSH y HTTP para facilitar tu acceso a contenido de Internet sin censura. Para usarlo debes bajar el programa de la <a href=\"http://psiphon3.com\">p\u00e1gina principal de Psiphon3*</a> e iniciarlo para seleccionar el modo en el que quieres usarlo, sea VPN, SSH o SSH+. Psiphon3 funciona asimismo con dispositivos Android. Ver la <a href=\"http://psiphon3.com\">p\u00e1gina principal</a> para aprender m\u00e1s.</p>\n<p>\u00a0</p>\n<p><strong>Proxies Web</strong></p>\n<p>El <strong>Peacefire</strong> mantiene un gran n\u00famero de <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a><em> </em>p\u00fablicos basados en la web, los cuales pueden ser seguros e inseguros dependiendo de como accedes a ellos. Cuando utilices el proxy <a href=\"/es/glossary#Peacefire\" title=\"Peacefire\"><em>Peacefire</em></a>, debes ingresar la direcci\u00f3n <a href=\"/es/glossary#HTTPS\" title=\"HTTPS\"><em>HTTPS </em></a>con el fin de tener una conexi\u00f3n segura entre t\u00fa y el proxy. Los nuevos proxies se anuncian a trav\u00e9s de una larga lista de correo de manera regular. Puedes inscribirte para recibir actualizaciones en el <a href=\"http://www.peacefire.org/\" title=\"Sitio web de Peacefire\">sito web de Peacefire</a> [11].</p>\n", 
+                        "summary": "", 
+                        "value": "<p>A continuaci\u00f3n hay unas cuantas herramientas y <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a> espec\u00edficos que pueden ayudarte a evadir el filtrado de Internet. Nuevas herramientas de evasi\u00f3n son producidas regularmente, y las existentes son actualizadas frecuentemente, por lo tanto, para saber m\u00e1s, debes visitar el sitio web en l\u00ednea de la <strong>Caja de Herramientas de Seguridad</strong>, y los sitios mencionados en las secci\u00f3n de <a href=\"/es/chapter_8_5\" title=\"Lecturas Adicionales\"><strong>Lecturas Adicionales</strong></a> que se halla a continuaci\u00f3n.</p>\r\n\r\n<p><strong>Proxies basados en Red Virtual Privada (VPN por sus siglas en ingl\u00e9s)</strong></p>\r\n\r\n<p>Los VPN proxies que se describen a continuaci\u00f3n hacen que toda tu conexi\u00f3n a internet pasen por el proxie mientras est\u00e9s conectado/a. Esto puede ser de mucha utilidad si usas proveedores de correo electr\u00f3nico o mensajer\u00eda instant\u00e1nea que se encuentran filtrados en su pa\u00eds.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Riseup VPN</strong>. Es para usuarios que tienen cuentas de correo en el servidor de Riseup. El colectivo ofrece la posibilidad de conectarse a un servidor con un VPN proxy gratuito, privado y seguro. Por favor, lea m\u00e1s sobre Riseup VPN y sobre <a href=\"https://we.riseup.net/riseuphelp+en/vpn-howto\"><em>c\u00f3mo conectarte a \u00e9l</em></a> .</p>\r\n\r\n<p><strong>Hotspot Shield,</strong> es un proxy de evasi\u00f3n p\u00fablico, seguro, VPN y gratuito. Para utilizarlo, necesitas <a href=\"https://sesawe.net/Anchor-Free-Hotspot-Shield.html\" title=\"Descargar Hotspot\">descargar la herramienta</a> [5] e instalarla. La compa\u00f1\u00eda que desarrolla el Hotspot Shield recibe fondos de anunciantes, de modo que veras una \u2018pancarta publicitaria\u2019 en la parte superior de la ventana de tu navegador cada vez que lo uses para visitar sitios web que no proporcionan <a href=\"/es/glossary#Cifrado\" title=\"Cifrado\"><em>cifrado</em></a>. A pesar de que es imposible de verificar, esta compa\u00f1\u00eda afirma que borra la <a href=\"/es/glossary#IP\" title=\"Direcci\u00f3n de Protocolo de Internet (direcci\u00f3n IP)\"><em>direcci\u00f3n IP</em></a> de quienes utilizan la herramienta, en vez de almacenarla o enviarla a sus anunciantes.</p>\r\n\r\n<p><strong>Your-Freedom</strong> es un <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxy</em></a> de evasi\u00f3n VPN/SOCKS privado, seguro y no basado en la web. Esta es una herramienta de <a href=\"/es/glossary#Freeware\" title=\"Software gratuito (freeware)\"><em>software gratuito (freeware)</em></a> que puede utilizarse para acceder a un servicio de evasi\u00f3n sin costo. Tambi\u00e9n puedes pagar un cargo para acceder a un servicio comercial, el cual es m\u00e1s r\u00e1pido y tiene muchas menos limitaciones. Con el fin de utilizar <a href=\"/es/glossary#Your-Freedom\" title=\"Your-Freedom\"><em>Your-Freedom</em></a>, necesitar\u00e1s <a href=\"http://www.your-freedom.net/index.php?id=3\" title=\"Download Your-Freedom\">descargar la herramienta</a> [7] y <a href=\"http://www.your-freedom.net/index.php?id=170&amp;L=0\" title=\"Create a Your-Freedom account\">crear una cuenta</a> [8], ambas acciones pueden realizarse en el <a href=\"http://your-freedom.net/\" title=\"Your-Freedom Homepage\">sitio web de Your-Freedom</a> [9]. De manera similar ,necesitar\u00e1s configurar tu navegador para utilizar el proxy OpenVPN cuando te conectes a la Internet. Puedes leer mas en el<a href=\"http://sesawe.net/Using-Your-Freedom.html\" title=\"Using Your-Freedom\">sitio web del Proyecto Sesawe</a> [10].</p>\r\n\r\n<p><strong>Freegate</strong> es un proxy de evasi\u00f3n p\u00fablico, seguro, VPN y gratuito. Puedes [descargar la \u00faltima versi\u00f3n de Freegate](http://www.dit-inc.us/freegate) o [leer un art\u00edculo muy interesante sobre el mismo](http://www.addictivetips.com/windows-tips/freegate-lets-you-access-blocked-websites-at-optimal-speed/).</p>\r\n\r\n<p><strong>SecurityKISS</strong> es un proxy de evasi\u00f3n p\u00fablico, seguro, VPN y gratuito. Para usarlo debes [descargar el programa gratuito](http://www.securitykiss.com/resources/download/). No hay necesidad de registrar una cuenta. Los usuarios/as de forma gratuita est\u00e1n restringidos a utilizar un l\u00edmite diario de 300MB del tr\u00e1fico de internet por medio del proxy. Para los/as suscriptores/as no existen restricciones y se ofrecen m\u00e1s servidores VPN para usar. Por favor vea la p\u00e1gina principal de <a href=\"http://www.securitykiss.com\">SecureKISS</a> para aprender m\u00e1s.</p>\r\n\r\n<p><strong>Psiphon3</strong> es un proxy de evasi\u00f3n p\u00fablico y seguro que utiliza tecnolog\u00eda de proxy VPN, SSH y HTTP para facilitar tu acceso a contenido de Internet sin censura. Para usarlo debes bajar el programa de la <a href=\"http://psiphon3.com\">p\u00e1gina principal de Psiphon3*</a> e iniciarlo para seleccionar el modo en el que quieres usarlo, sea VPN, SSH o SSH+. Psiphon3 funciona asimismo con dispositivos Android. Ver la <a href=\"http://psiphon3.com\">p\u00e1gina principal</a> para aprender m\u00e1s.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Proxies Web</strong></p>\r\n\r\n<p>El <strong>Peacefire</strong> mantiene un gran n\u00famero de <a href=\"/es/glossary#Proxy\" title=\"Proxy\"><em>proxies</em></a><em> </em>p\u00fablicos basados en la web, los cuales pueden ser seguros e inseguros dependiendo de como accedes a ellos. Cuando utilices el proxy <a href=\"/es/glossary#Peacefire\" title=\"Peacefire\"><em>Peacefire</em></a>, debes ingresar la direcci\u00f3n <a href=\"/es/glossary#HTTPS\" title=\"HTTPS\"><em>HTTPS </em></a>con el fin de tener una conexi\u00f3n segura entre t\u00fa y el proxy. Los nuevos proxies se anuncian a trav\u00e9s de una larga lista de correo de manera regular. Puedes inscribirte para recibir actualizaciones en el <a href=\"http://www.peacefire.org/\" title=\"Sitio web de Peacefire\">sito web de Peacefire</a> [11].</p>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1966", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1966", 
+                "link_title": "Specific circumvention proxies", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5112", 
+                "module": "book", 
+                "nid": "1966", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5107", 
+                "p3": "5112", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5107", 
+                "router_path": "node/%", 
+                "title": "Specific circumvention proxies", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1456315973", 
+            "comment": "0", 
+            "created": "1441105226", 
+            "current_revision_id": "13353", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_8_4", 
+                        "value": "chapter_8_4"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5112": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1966", 
+                    "link_title": "Specific circumvention proxies", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5112", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5107", 
+                    "p3": "5112", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5107", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1966", 
+            "num_revisions": "25", 
+            "path": "https://securityinabox.org/en/node/1966", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456315973", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Proxies espec\u00edficos de evasi\u00f3n", 
+                        "value": "Proxies espec\u00edficos de evasi\u00f3n"
+                    }
+                ]
+            }, 
+            "title_original": "Specific circumvention proxies", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442917896", 
+                        "created": "1442917896", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442228207", 
+                        "created": "1441808234", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096961", 
+                        "created": "1443096961", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442414563", 
+                        "created": "1442414563", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1456315973", 
+                        "created": "1441208399", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447109242", 
+                        "created": "1442762139", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443706312", 
+                        "created": "1443706312", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452612469", 
+                        "created": "1452612469", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457761", 
+                        "created": "1443457761", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441121481", 
+                        "created": "1441121481", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443812372", 
+                        "created": "1443812372", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444404769", 
+                        "created": "1444404769", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "tr": {
+                        "changed": "1443102113", 
+                        "created": "1443102113", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443094817", 
+                        "created": "1443094817", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441105226", 
+                        "created": "1441105226", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1966", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444585019", 
+                        "created": "1443624675", 
+                        "entity_id": "1966", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1966", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "55f84461-1be4-43fc-8392-399e09247684", 
+            "vid": "13353", 
+            "vuuid": "9af6b134-5ea5-4041-b15f-59cb334075d3"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "full_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li>Dir\u00edgete a los cap\u00edtulos <i>2.5 Vigilancia y Observaci\u00f3n en Internet</i> y <i> 2.6 Evasi\u00f3n de la Censura</i> del libro <a href=\"http://www.frontlinedefenders.org/esecman/\" title=\"Digital Security and Privacy Manual for Human Rights Defenders\">Seguridad Digital y Privacidad para Defensores de los Derechos Humanos</a>.</li>\n<li>El sitio web de los Manuales de Software Libre y de C\u00f3digo Abierto (FOSS) tambi\u00e9n contiene una gu\u00eda sobre <a href=\"http://en.flossmanuals.net/CircumventionTools\" title=\"How to Bypass Internet Censorship\">C\u00f3mo Evadir la Censura en Internet</a>.</li>\n<li>El <a href=\"http://en.cship.org/wiki/Main_Page\" title=\"Internet Censorship Wiki\">Wiki acerca de Censura en Internet</a>, escrita por Freerk se halla disponible en Ingl\u00e9s, Alem\u00e1n y Espa\u00f1ol.</li>\n<li>El CitizenLab ha producido la <a href=\"http://www.civisec.org/sites/securitybkp.ngoinabox.org/themes/civisec/guides/everyone%27s-guide-english.pdf\" title=\"Everyone's guide to by-passing Internet Censorship\">Gu\u00eda General para Evadir la Censura en Internet</a>, la cual est\u00e1 siendo traducida al Birmano, Ingl\u00e9s, Franc\u00e9s, Ruso, Espa\u00f1ol y Urdu.</li>\n<li>Reporteros Sin Fronteras ha lanzado una segunda edici\u00f3n de su <a href=\"http://www.rsf.org/rubrique.php3?id_rubrique=542\" title=\"Handbook for Bloggers and Cyberdissidents\">Gu\u00eda para escritores de bit\u00e1coras (Bloggers) y Ciberdisidentes</a>, el cual est\u00e1 disponible en \u00c1rabe, Birmano, Chino, Ingl\u00e9s, Farsi, Franc\u00e9s, Ruso y Espa\u00f1ol.</li>\n<li>Ethan Zuckerman de Global Voices Online ha publicado una gu\u00eda \u00fatil de <a href=\"http://advocacy.globalvoicesonline.org/projects/guide/\" title=\"Anonymous Blogging with Wordpress and Tor\">A\u00f1adir material a una Bit\u00e1cora (Blog) de manera an\u00f3nima con Wordpress y Tor</a>.</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "<ul>\r\n\t<li>Dir\u00edgete a los cap\u00edtulos <i>2.5 Vigilancia y Observaci\u00f3n en Internet</i> y <i> 2.6 Evasi\u00f3n de la Censura</i> del libro <a href=\"http://www.frontlinedefenders.org/esecman/\" title=\"Digital Security and Privacy Manual for Human Rights Defenders\">Seguridad Digital y Privacidad para Defensores de los Derechos Humanos</a>.</li>\r\n\t<li>El sitio web de los Manuales de Software Libre y de C\u00f3digo Abierto (FOSS) tambi\u00e9n contiene una gu\u00eda sobre <a href=\"http://en.flossmanuals.net/CircumventionTools\" title=\"How to Bypass Internet Censorship\">C\u00f3mo Evadir la Censura en Internet</a>.</li>\r\n\t<li>El <a href=\"http://en.cship.org/wiki/Main_Page\" title=\"Internet Censorship Wiki\">Wiki acerca de Censura en Internet</a>, escrita por Freerk se halla disponible en Ingl\u00e9s, Alem\u00e1n y Espa\u00f1ol.</li>\r\n\t<li>El CitizenLab ha producido la <a href=\"http://www.civisec.org/sites/securitybkp.ngoinabox.org/themes/civisec/guides/everyone%27s-guide-english.pdf\" title=\"Everyone's guide to by-passing Internet Censorship\">Gu\u00eda General para Evadir la Censura en Internet</a>, la cual est\u00e1 siendo traducida al Birmano, Ingl\u00e9s, Franc\u00e9s, Ruso, Espa\u00f1ol y Urdu.</li>\r\n\t<li>Reporteros Sin Fronteras ha lanzado una segunda edici\u00f3n de su <a href=\"http://www.rsf.org/rubrique.php3?id_rubrique=542\" title=\"Handbook for Bloggers and Cyberdissidents\">Gu\u00eda para escritores de bit\u00e1coras (Bloggers) y Ciberdisidentes</a>, el cual est\u00e1 disponible en \u00c1rabe, Birmano, Chino, Ingl\u00e9s, Farsi, Franc\u00e9s, Ruso y Espa\u00f1ol.</li>\r\n\t<li>Ethan Zuckerman de Global Voices Online ha publicado una gu\u00eda \u00fatil de <a href=\"http://advocacy.globalvoicesonline.org/projects/guide/\" title=\"Anonymous Blogging with Wordpress and Tor\">A\u00f1adir material a una Bit\u00e1cora (Blog) de manera an\u00f3nima con Wordpress y Tor</a>.</li>\r\n</ul>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1967", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1967", 
+                "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5113", 
+                "module": "book", 
+                "nid": "1967", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5107", 
+                "p3": "5113", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5107", 
+                "router_path": "node/%", 
+                "title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "updated": "0", 
+                "weight": "5"
+            }, 
+            "changed": "1452612603", 
+            "comment": "0", 
+            "created": "1441105274", 
+            "current_revision_id": "12817", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_8_5", 
+                        "value": "chapter_8_5"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5113": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1967", 
+                    "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5113", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5107", 
+                    "p3": "5113", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5107", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "5"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1967", 
+            "num_revisions": "22", 
+            "path": "https://securityinabox.org/en/node/1967", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452612603", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Lecturas Adicionales", 
+                        "value": "Lecturas Adicionales"
+                    }
+                ]
+            }, 
+            "title_original": "Further reading", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442917813", 
+                        "created": "1442917813", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096984", 
+                        "created": "1443096984", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442414975", 
+                        "created": "1442414975", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441208445", 
+                        "created": "1441208445", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447109299", 
+                        "created": "1442762190", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443706334", 
+                        "created": "1443706334", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452612603", 
+                        "created": "1452612603", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457821", 
+                        "created": "1443457821", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441121594", 
+                        "created": "1441121594", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443812483", 
+                        "created": "1443812457", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444397533", 
+                        "created": "1444397533", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443102180", 
+                        "created": "1443102180", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443094891", 
+                        "created": "1443094891", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441105286", 
+                        "created": "1441105274", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444585055", 
+                        "created": "1443624226", 
+                        "entity_id": "1967", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "fdb5d575-7a94-4732-8e66-4355f8ed7ab7", 
+            "vid": "12817", 
+            "vuuid": "c1267efe-48c1-45c9-978b-7bd9f021c161"
+        }
+    ], 
+    "changed": "1455900381", 
+    "comment": "0", 
+    "created": "1441104927", 
+    "current_revision_id": "13292", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_menu_title": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "8. How to remain anonymous and bypass ce", 
+                "value": "8. How to remain anonymous and bypass ce"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "8. Mantenerse en el anonimato y evadir la censura en Internet", 
+                "value": "8. Mantenerse en el anonimato y evadir la censura en Internet"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-09 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "chapter-8", 
+                "value": "chapter-8"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "8"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "8"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5107": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/1962", 
+            "link_title": " 8. How to remain anonymous and bypass censorship on the Internet", 
+            "menu_name": "book-toc-1925", 
+            "mlid": "5107", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5030", 
+            "p2": "5107", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5030", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "8"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "1962", 
+    "num_revisions": "24", 
+    "path": "https://securityinabox.org/en/node/1962", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1455900381", 
+    "revision_uid": "479", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "8. Mantenerse en el anonimato y evadir la censura en Internet", 
+                "value": "8. Mantenerse en el anonimato y evadir la censura en Internet"
+            }
+        ]
+    }, 
+    "title_original": " 8. How to remain anonymous and bypass censorship on the Internet", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442917461", 
+                "created": "1442917461", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442227971", 
+                "created": "1441807646", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "bo": {
+                "changed": "1443094052", 
+                "created": "1443094052", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "bo", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "es": {
+                "changed": "1442414211", 
+                "created": "1442414211", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1451919362", 
+                "created": "1441208178", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "fr": {
+                "changed": "1447108811", 
+                "created": "1442762025", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }, 
+            "id": {
+                "changed": "1443693016", 
+                "created": "1443693016", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "km": {
+                "changed": "1452612067", 
+                "created": "1452612067", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443457498", 
+                "created": "1443457498", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441117391", 
+                "created": "1441117391", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1443806734", 
+                "created": "1443806734", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "th": {
+                "changed": "1455900381", 
+                "created": "1444396920", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "th", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "tr": {
+                "changed": "1443014809", 
+                "created": "1443014809", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1443094404", 
+                "created": "1443094404", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441104927", 
+                "created": "1441104927", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "1962", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1444583785", 
+                "created": "1443623824", 
+                "entity_id": "1962", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "1962", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_how_to_booklet_chapter", 
+    "uid": "70", 
+    "uuid": "4c011c6d-00c6-4bcf-bd9b-9402c5e71ea5", 
+    "vid": "13292", 
+    "vuuid": "d7623840-fb11-4125-8112-bd45494ea2ec"
+}
