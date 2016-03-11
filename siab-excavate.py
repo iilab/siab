@@ -232,10 +232,10 @@ def fetch_guide(nid, underlying_guides_already_fetched):
         ### Write guide as markdown
         if output_type_segment == "tactics":
             front_matter = [ "en", output_community_segment, output_type_segment, output_ordinal, guide_title ]
-            output_tactic_md( front_matter, cg_data, False)
+            output_tactic_md( front_matter, cg_data)
         elif output_type_segment == "tools":
             front_matter = [ "en", output_community_segment, output_type_segment, output_os_segment, output_ordinal, guide_title ]
-            output_tool_md( front_matter, cg_data, False)
+            output_tool_md( front_matter, cg_data)
 
     else:
         print "Skipping (cg: %s) <- (g: %s) or already have the underlying content." % ( nid, underlying_guide )
@@ -355,17 +355,16 @@ def fetch_legacy_guide(nid, legacy_index):
         output_path = os.path.join(output_path, output_os_segment) if guide_type == 'legacy_hands_on_guide' else output_path
 
         ### Write language-version of full Legacy guide as .json
+        # TODO: Confirm that we want translated .json content as \uXXXX-encoded ascii rather than Unicode.
         output_json(output_path, output_filename, language_version, True)
         
         ### Write language-version of full legacy guide as Markdown
         if output_type_segment == "tactics":
             front_matter = [ output_lang_segment, "guide", output_type_segment, output_ordinal, guide_title ]
-            # TODO: Test then change force_ascii should to False
-            output_legacy_tactic_md( front_matter, language_version, True)
+            output_legacy_tactic_md(front_matter, language_version)
         elif output_type_segment == "tools":
-            # TODO: Test then change force_ascii should to False
             front_matter = [ output_lang_segment, "guide", output_type_segment, output_os_segment, output_ordinal, guide_title ]
-            output_legacy_tool_md( front_matter, language_version, True)
+            output_legacy_tool_md( front_matter, language_version)
 
 ### Request a list of all legacy nids, and their parent nids, from the all-legacy-nodes-feed RSS View
 def create_legacy_guide_index():
@@ -406,12 +405,11 @@ def validate_nid(nid):
 
 ### Format json output and send it to be written
 def output_json(output_path, output_filename, output_data, ascii):
-    ### TODO: Confirm that we want translated content in Unicode rather than as \uXXXX-encoded ascii. In .json? In .md?
     formatted_output = json.dumps(output_data, indent=4, sort_keys=True, ensure_ascii=ascii)
     write_output(output_path, output_filename, formatted_output)
     
 ### Format Markdown output for an English Tactics Guide and send it to be written
-def output_tactic_md(front_matter, output_data, ascii):
+def output_tactic_md(front_matter, output_data):
     guide_lang, guide_community, guide_type, guide_weight, guide_title = front_matter
     formatted_output = """
 ---
@@ -564,7 +562,7 @@ title: %s
 
 ### Format Markdown output for an English Tool Guide and send it to be written
 # TODO: WIP
-def output_tool_md(front_matter, output_data, ascii):
+def output_tool_md(front_matter, output_data):
     guide_lang, guide_community, guide_type, guide_os, guide_weight, guide_title = front_matter
     formatted_output = """
 
@@ -670,8 +668,7 @@ title: %s
     write_output(output_path, output_filename, formatted_output)
 
 ### Format Markdown output for a Legacy Tactics Guide and send it to be written
-# TODO: stub
-def output_legacy_tactic_md(front_matter, output_data, ascii):
+def output_legacy_tactic_md(front_matter, output_data):
     guide_lang, guide_community, guide_type, guide_weight, guide_title = front_matter
     formatted_output = """
 
@@ -736,8 +733,7 @@ title: %s
 
 
 ### Format Markdown output for a Legacy Tool Guide and send it to be written
-# TODO: stub
-def output_legacy_tool_md(front_matter, output_data, ascii):
+def output_legacy_tool_md(front_matter, output_data):
     guide_lang, guide_community, guide_type, guide_os, guide_weight, guide_title = front_matter
     formatted_output = """
 
@@ -809,7 +805,6 @@ def write_output(output_path, output_filename, contents):
     if not os.path.isdir(output_path):
         os.makedirs(output_path)
     output_filepath = os.path.join(output_path, output_filename)
-    ### TODO: Confirm that we want this sutff in Unicode rather than as \uXXXX-encoded ascii. In .json? In .md?
     output_file = codecs.open(output_filepath, mode='w', encoding='utf-8')
     output_file.write(contents)
     output_file.close()
