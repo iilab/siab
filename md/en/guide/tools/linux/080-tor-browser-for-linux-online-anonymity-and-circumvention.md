@@ -72,9 +72,9 @@ The following steps illustrate how the Tor network works:
 
 The **Tor Browser** is available for the **GNU Linux**, **Mac OS**, **Microsoft Windows** and **Android** operating systems. **Tor** is the most rigorously tested tool for keeping your online activities anonymous. Below are a few other tools that are suitable for circumventing online censorship and protecting the confidentiality of your local traffic. Unlike **Tor**, these tools require that you trust the service provider: 
 
-* [**Riseup VPN**](https://help.riseup.net/en/riseup-vpn/) is a free **Virtual Private Network** (**VPN**) proxy server for **Linux**, **MAC**, **Android** and **Microsoft Windows**.
+* [**RiseupVPN**](https://help.riseup.net/en/riseup-vpn/) is a free **Virtual Private Network** (**VPN**) proxy server for **Linux**, **MAC**, **Android** and **Microsoft Windows**.
 * [**Psiphon**](http://www.psiphon.ca/) is a free commercial **Virtual Private Network** (**VPN**) solution for **Microsoft Windows** and **Android**.
-* [**Your Freedom**](http://www.your-freedom.net/) is a commercial proxy tool that also offers a free service. It is available for **Linux**, **Mac OS** and **Microsoft Windows**.
+* [**Lantern**](https://getlantern.org/) is a free and open source circumvention tool for **Linux**, **Mac OS X** and **Windows**.
 
 
 # 2. Download and verify the Tor Browser

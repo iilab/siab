@@ -24,16 +24,16 @@ Python dependencies: python-slugify,  python-xml, ???
 """ % argv[0]
 
 ### List of underlying guides (not Community Guide "wrappers") to skip
-skip_list = { '342' }
+skip_list = { '342', '2525' }
 
 ### DEBUG: All (underlying) Tactics Guide and Tool Guide nids
 # 
-# skip_list = { '342', '1420', '1434', '380', '436', '396', '140', '578', '1466', '2243','2186', '465', '2219', \
-#                   '2222', '473', '597', '484', '620', '494', '638', '656', '512', '656', '527', '674', '693', '639',\
+# skip_list = { '342', '2525', '1420', '1434', '380', '436', '396', '140', '578', '1466', '2243','2186', '465', '2219', \
+#                   '2222', '473', '597', '484', '620', '494', '638', '656', '512', '527', '674', '693', '539', \
 #                   '707', '549', '2216', '2250', '1489', '2225', '2228', '712', '768', '785', '2178', '2182', '2247', \
-#                   '2141', '818', '1402', '1008', '1026', '1032', '1047', '1056', '1064', '1074', '1407', '1185', '1326' \
-#                   '539', '1082', '1084', '1119', '1154', '539', '1326', '1333', '1085', '1104', '1107', '1113', '1115', \
-#                   '1117', '2394', '2409', '2398', '2405', '2422', '2412', '2429' }                  
+#                   '2141', '818', '1402', '1008', '1026', '1032', '1047', '1056', '1064', '1074', '1407', '1185', '1326', \
+#                   '1082', '1084', '1119', '1154', '1333', '1085', '1104', '1107', '1113', '1115', '1117', '2394', '2409' \
+#                   '2398', '2405', '2422', '2412', '2429' }
 
 ### List of legacy Tactics and Tool Guides to skip
 legacy_skip_list = { '2086', '2099', '2119', '2152', '2116', '2121', '2124', '2127', '2128', '2133' }
@@ -263,7 +263,7 @@ def fetch_all_guides():
 Press <Enter> to check %s English guides and fetch all those with 
 unique ("underlying") content. This should include about 70 English
 guides and about 30 multilingual "Legacy" guides. It should total 
-about 1 GB of data and may take up to 45 minutes.
+about 200 MB of data and may take up to 45 minutes.
 Press <Ctrl>-C to exit\n""" % len(guides))
 
 
@@ -279,16 +279,23 @@ Press <Ctrl>-C to exit\n""" % len(guides))
 
     print "\nFetched %s guides" % len(underlying_guides_already_fetched)
 
-### Selectively preserve fields of a particular language in a Legacy page
+### Selectively preserve fields of a particular language in a Legacy book page (parent or child)
 def construct_language_specific_legacy_page(lang, legacy_data):
     language_version = dict()
-    for field in legacy_data:
-        if legacy_data[field] and isinstance(legacy_data[field], dict) and legacy_data[field].has_key(lang):
-            language_version[field] = dict()
-            language_version[field][lang] = legacy_data[field][lang]
-        else:
-            language_version[field] = legacy_data[field]
-    return language_version
+    short_lang = lang.split("-")[0]
+    if not legacy_data['title_field'].has_key(lang):
+        return dict()
+    else:
+        for field in legacy_data:
+        ### DEBUG
+        # print "Field: %s" % field
+            if legacy_data[field] and isinstance(legacy_data[field], dict) and legacy_data[field].has_key(lang):
+                language_version[field] = dict()
+                language_version[field][short_lang] = legacy_data[field][lang]
+            else:
+                language_version[field] = legacy_data[field]
+
+        return language_version
 
 ### Fetch a single Legacy Tactics or Tool Guides and write its contents (including book children) to a json file
 def fetch_legacy_guide(nid, legacy_index):
@@ -307,8 +314,8 @@ def fetch_legacy_guide(nid, legacy_index):
     ### Create language-specific versions of the guide
     for lang in legacy_data['title_field']:
         ### DEBUG
-        # print "  - Fetching %s version" % lang
-
+        print "  - Isolating %s version" % lang
+        
         ### Prune other languages from book_parent
         language_version = construct_language_specific_legacy_page(lang, legacy_data)
 
@@ -343,7 +350,7 @@ def fetch_legacy_guide(nid, legacy_index):
         guide_title = legacy_data['title_field']['xx'][0]['value']
         output_title = slugify(guide_title)
         output_filename = "%s-node_%s-%s.json" % ( output_ordinal, output_node, output_title )
-        output_lang_segment = lang.split("-")[0]
+        output_lang_segment = lang.split("-")[0] 
         output_path = os.path.join(output_directory, "json", output_lang_segment, "guide", output_type_segment)
         output_path = os.path.join(output_path, output_os_segment) if guide_type == 'legacy_hands_on_guide' else output_path
 
@@ -353,8 +360,10 @@ def fetch_legacy_guide(nid, legacy_index):
         ### Write language-version of full legacy guide as Markdown
         if output_type_segment == "tactics":
             front_matter = [ output_lang_segment, "guide", output_type_segment, output_ordinal, guide_title ]
+            # TODO: Test then change force_ascii should to False
             output_legacy_tactic_md( front_matter, language_version, True)
         elif output_type_segment == "tools":
+            # TODO: Test then change force_ascii should to False
             front_matter = [ output_lang_segment, "guide", output_type_segment, output_os_segment, output_ordinal, guide_title ]
             output_legacy_tool_md( front_matter, language_version, True)
 
@@ -671,18 +680,60 @@ def output_legacy_tactic_md(front_matter, output_data, ascii):
 lang: %s
 community: %s
 type: %s
+legacy: True
+child: False
 weight: %s
 title: %s
 
 ---
 
-<stub>
+%s
 
-""" % ( guide_lang, guide_community, guide_type, guide_weight, guide_title )
+""" % ( guide_lang, guide_community, guide_type, guide_weight, guide_title, output_data['body'][guide_lang][0]['value'] )
 
-    output_filename = "%s-%s.md" % ( guide_weight, slugify(guide_title) )
+    output_filename = "%s-000-%s.md" % ( guide_weight, slugify(guide_title) )
     output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type)
     write_output(output_path, output_filename, formatted_output)
+
+    ### Output book_children
+    # TODO: May need to be recursive for three-level books (such as Social Media)
+    #       but we'll first need to enhance the all-legacy-nodes-feed Drupal view 
+
+    for book_child in output_data['book_children']:
+        if book_child:
+            book_child_title = book_child['title_original']
+            book_child_weight = book_child['book']['weight']
+            book_child_depth = book_child['book']['depth']
+            book_child_has_children = book_child['book']['has_children']
+            if book_child_has_children == "1":
+                print "Book child has children. They will be ignored. Fix first in Drupal 'all-legacy-nodes-feed' view"
+            # TODO: make sure grandchildren sort correctly
+            book_child_sorting_trick = book_child_weight.zfill(2) + "0" if book_child_depth == "3" else "999"
+
+            ### Update formatted_child_output
+            formatted_child_output = """
+
+---
+
+lang: %s
+community: %s
+type: %s
+legacy: True
+child: True
+weight: %s
+depth: %s
+title: %s
+
+---
+
+%s
+
+""" % ( guide_lang, guide_community, guide_type, book_child_weight, book_child_depth, book_child_title, book_child['body'][guide_lang][0]['value'] )
+
+            child_output_filename = "%s-%s-%s.md" % ( guide_weight, book_child_sorting_trick, slugify(book_child_title) )
+            child_output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type)
+            write_output(child_output_path, child_output_filename, formatted_child_output)
+
 
 ### Format Markdown output for a Legacy Tool Guide and send it to be written
 # TODO: stub
@@ -695,19 +746,62 @@ def output_legacy_tool_md(front_matter, output_data, ascii):
 lang: %s
 community: %s
 type: %s
+legacy: True
+child: False
 os: %s
 weight: %s
 title: %s
 
 ---
 
-<stub>
+%s
 
-""" % ( guide_lang, guide_community, guide_type, guide_os, guide_weight, guide_title )
+""" % ( guide_lang, guide_community, guide_type, guide_os, guide_weight, guide_title, output_data['body'][guide_lang][0]['value'] )
 
-    output_filename = "%s-%s.md" % ( guide_weight, slugify(guide_title) )
+    output_filename = "%s-000-%s.md" % ( guide_weight, slugify(guide_title) )
     output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, guide_os)
     write_output(output_path, output_filename, formatted_output)
+
+    ### Output book_children
+    # TODO: May need to be recursive for three-level books (such as Social Media)
+    #       but we'll first need to enhance the all-legacy-nodes-feed Drupal view 
+
+    for book_child in output_data['book_children']:
+        if book_child:
+            book_child_title = book_child['title_original']
+            book_child_weight = book_child['book']['weight']
+            book_child_depth = book_child['book']['depth']
+            book_child_has_children = book_child['book']['has_children']
+            if book_child_has_children == "1":
+                print "Book child has children. They will be ignored. Fix first in Drupal 'all-legacy-nodes-feed' view"
+            # TODO: make sure grandchildren sort correctly
+            book_child_sorting_trick = book_child_weight.zfill(2) + "0" if book_child_depth == "3" else "999"
+
+            ### Update formatted_child_output
+            formatted_child_output = """
+
+---
+
+lang: %s
+community: %s
+type: %s
+legacy: True
+child: True
+os: %s
+weight: %s
+depth: %s
+title: %s
+
+---
+
+%s
+
+""" % ( guide_lang, guide_community, guide_type, guide_os, book_child_weight, book_child_depth, book_child_title, book_child['body'][guide_lang][0]['value'] )
+
+            child_output_filename = "%s-%s-%s.md" % ( guide_weight, book_child_sorting_trick, slugify(book_child_title) )
+            child_output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, guide_os)
+            write_output(child_output_path, child_output_filename, formatted_child_output)
+
 
 ### Write content to a file
 def write_output(output_path, output_filename, contents):
@@ -741,9 +835,12 @@ else:
 ### 
 #
 # - Improve Markdown output
+#   - Output legacy content as Unicode Markdown
 #   - All files should use short titles rather than long ones
-#   - Output legacy content as (Unicode) Markdown
+#     - bug: administrative title value may only be displayed through .../xx/api/node/####.json, 
+#       but only .../en/api/node/####.json is accessible without authentication
 #   - Revert to \uXXXX-encoded ascii for .json output?
+#   - Strip html tags (e.g. "<div class="background>" from snippets)?
 # 
 # - Improve fetch_legacy_guide(nid)
 #   - Deal with three-level books such as the Social Networking Tactics Guide (w/out including top-level HtB, HoG and Mobile book roots
@@ -764,6 +861,7 @@ else:
 # - Fetch media
 # 
 # - Clean up code
+#   - Write a function that uses a dict to output both keys and values of YAML front-matter
 #   - fetch_xml() for reading RSS Drupal Views?
 #   - Clean up output_tool_md() and output_tactic_md()
 #   - Use iterator to prune language-versions from legacy nodes?

@@ -63,7 +63,7 @@ The **Tor Browser** is available for **Mac OS X**, **GNU Linux**, **Microsoft Wi
 
 * [**Riseup VPN**](https://help.riseup.net/en/riseup-vpn/) is a free **Virtual Private Network** (**VPN**) proxy server for **Linux**, **Mac OS X**, **Android** and **Microsoft Windows**.
 * [**Psiphon3**](http://www.psiphon3.com/) is a free commercial **Virtual Private Network** (**VPN**) solution for **Microsoft Windows** and **Android**.
-* [**Your Freedom**](http://www.your-freedom.net/) is a commercial proxy tool that also offers a free (though slower) service. It is available for **Linux**, **Mac OS X** and **Microsoft Windows**. 
+* [**Lantern**](https://getlantern.org/) is a free and open source circumvention tool for **Linux**, **Mac OS X** and **Windows**.
 
 # 2. Download and install the Tor Browser
 

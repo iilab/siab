@@ -1,0 +1,24 @@
+
+
+---
+
+lang: xx
+community: guide
+type: tactics
+legacy: True
+child: True
+weight: 5
+depth: 3
+title: Further reading
+
+---
+
+- See the chapter on *Malicious Software and Spam* and the *Appendix on Internet Program Settings* in the [Digital Security and Privacy for Human Rights Defenders](http://www.frontlinedefenders.org/esecman) book.
+- Keep up to-date with news about viruses on the [Virus Bulletin](http://www.virusbtn.com) website.
+- Learn how to determine which 'Windows services' are unnecessary and [disable those you do not need](http://www.marksanborn.net/howto/turn-off-unnecessary-windows-services).
+- Other toolkits from the [Tactical Technology Collective](http://tacticaltech.org) can help you switch to using *FOSS* and *Freeware* tools for all of your software needs. 
+- [Download free bootable rescue CDs](http://www.askvg.com/download-free-bootable-rescue-cds-from-kaspersky-bitdefender-avira-f-secure-and-others/) to scan your computer and remove the viruses, without starting Windows on your computer.
+- If you think your computer is infected with a virus or some other malicious software read [Malware Removal Guide for Windows](http://www.selectrealsecurity.com/malware-removal-guide).
+- [LibreOffice](https://www.libreoffice.org) is the power-packed free, libre and open-source personal productivity suite for Windows, Macintosh and GNU/Linux
+- See [Ubuntu](http://www.ubuntu.com) which is a fast, free and incredibly easy to use operating system. Ubuntu will work with your existing PC files, printers, cameras, music players and smartphones - and it comes with thousands of free apps.
+
