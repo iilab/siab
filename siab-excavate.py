@@ -818,7 +818,6 @@ def pp(json_data):
 ### 
 
 if input_nid == "all":
-    ### DEBUG: 
     fetch_all_guides()
     fetch_all_legacy_guides()
 
@@ -834,7 +833,7 @@ else:
 #     - bug: administrative title value may only be displayed through .../xx/api/node/####.json, 
 #       but only .../en/api/node/####.json is accessible without authentication
 #   - Deal gracefully with html tags in legacy content (e.g. <div class="background"> around snippets)
-#   - Deal gracefully with html content (e.g. chapter-1 in AR, ES, RU)
+#   - Deal gracefully with html content (e.g. chapter-1 in ar, es & fr)
 # 
 # - Improve fetch_legacy_guide(nid)
 #   - Deal with three-level books such as the Social Networking Tactics Guide (w/out including top-level HtB, HoG and Mobile book roots
