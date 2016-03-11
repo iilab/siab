@@ -830,12 +830,11 @@ else:
 ### 
 #
 # - Improve Markdown output
-#   - Output legacy content as Unicode Markdown
 #   - All files should use short titles rather than long ones
 #     - bug: administrative title value may only be displayed through .../xx/api/node/####.json, 
 #       but only .../en/api/node/####.json is accessible without authentication
-#   - Revert to \uXXXX-encoded ascii for .json output?
-#   - Strip html tags (e.g. "<div class="background>" from snippets)?
+#   - Deal gracefully with html tags in legacy content (e.g. <div class="background"> around snippets)
+#   - Deal gracefully with html content (e.g. chapter-1 in AR, ES, RU)
 # 
 # - Improve fetch_legacy_guide(nid)
 #   - Deal with three-level books such as the Social Networking Tactics Guide (w/out including top-level HtB, HoG and Mobile book roots
