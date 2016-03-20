@@ -1,0 +1,1563 @@
+{
+    "body": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Situs Resmi</strong></p>\n\n<ul><li><strong>Pidgin</strong>: <a href=\"http://www.pidgin.im\"><strong>www.pidgin.im</strong></a></li>\n<li><strong>OTR</strong>: <a href=\"http://www.cypherpunks.ca/otr/\"><strong>www.cypherpunks.ca/otr</strong></a></li>\n</ul><p><strong>Sistem operasi yang diperlukan</strong></p>\n\n<ul><li>Semua koneksi internet</li>\n<li>Semua versi Windows</li>\n</ul><p><strong>Versi yang digunakan dalam panduan ini</strong></p>\n\n<ul><li>Pidgin 2.7.11 </li>\n<li>OTR 3.2.0.1 </li>\n</ul><p><strong>Lisensi</strong></p>\n\n<ul><li>Gratis dan bisa didapat siapa saja (<em>Free and Open-Source Software</em>)</li>\n</ul><p><strong>Petunjuk yang perlu dibaca</strong>:</p>\n\n<p>'Petunjuk bagaimana caranya' Bab <a href=\"https://securityinabox.org/id/chapter-7\"><strong>7. Cara agar komunikasi internet Anda tetap rahasia</strong></a></p>\n\n<p><strong>Level:</strong> 1: Pemula, <strong>2: Umum</strong>, 3: Menengah, 4: Berpengalaman, 5: Ahli</p>\n\n<p><strong>Waktu yang diperlukan untuk menggunakan alat ini</strong>: 30 menit</p>\n\n<p><strong>Apa yang akan Anda dapatkan</strong>:</p>\n\n<ul><li>Pengetahuan untuk mengatur dan merapikan beberapa dari pelayanan <em>IM</em> yang populer  melalui satu program</li>\n<li>Pengetahuan untuk untuk melakukan sesi percakapan yang pribadi dan aman.</li>\n</ul><p><strong>GNU Linux, Mac OS dan Program Microsoft Windows lainnya yang kompatibel:</strong></p>\n\n<p>Baik <strong>Pidgin</strong> dan <strong>OTR</strong> tersedia untuk <strong>Microsoft Windows</strong> dan <strong>GNU/Linux</strong>. Program multi-protokol <strong>IM</strong> lainnya untuk <strong>Microsoft Windows</strong> yang bisa menjalankan <strong>OTR</strong> adalah <a href=\"http://www.miranda-im.org/\"><strong>Miranda IM</strong></a>. Pengguna <strong>Mac OS</strong> disarankan untuk menggunakan <a href=\"http://adium.im/\"><strong>Adium</strong></a>, program multi-protokol <strong>IM</strong> yang dapat menjalankan <strong>OTR</strong> plugin.</p>\n\n<h2>1.1  Hal-hal yang perlu Anda ketahui sebelum menggunakan alat ini</h2>\n\n<p><strong>Pidgin</strong> adalah perangkat lunak <strong>IM</strong> yang gratis dan open source yang dapat Anda gunakan untuk mengatur dan merapikan berbagai akun <strong>IM</strong> Anda memalui satu interface. Sebelum Anda memulai <strong>Pidgin</strong> Anda harus mempunyai akun pesan instan, yang akan Anda daftarkan untuk akun <strong>Pidgin</strong> Anda. Contohnya, apabila Anda memiliki akun email Gmail, Anda dapat menggunakan layanan pesan instan GoogleTalk dengan <strong>Pidgin</strong>. Detil log-in dari akun pesan instan Anda digunakan untuk mendaftar dan mengakses akun Anda melalui <strong>Pidgin</strong>.</p>\n\n<p><strong>Catatan</strong>: Semua pengguna disarankan untuk belajar sebanyak mungkin tentang peraturan keamanan dan privasi dari <strong>penyedia layanan pesan instan (<em>Instant Messaging Service Provider</em>)</strong>.</p>\n\n<p><strong>Pidgin</strong> menunjang layanan <strong>IM</strong> berikut: <a href=\"http://dashboard.aim.com/aim\"><strong>AIM</strong></a>, <a href=\"http://www.apple.com/support/bonjour/\"><strong>Bonjour</strong></a>, <a href=\"http://komunikator.gadu-gadu.pl/\"><strong>Gadu-Gadu</strong></a>, <a href=\"http://www.google.com/talk/\"><strong>Google Talk</strong></a>, <strong>Groupwise</strong>, <a href=\"http://www.icq.com\"><strong>ICQ</strong></a>, <strong>IRC</strong>, <a href=\"http://www.mirc.com/\"><strong>MIRC</strong></a>, <a href=\"http://www.msn.com/\"><strong>MSN</strong></a>, \n<a href=\"http://www.mxit.com/\"><strong>MXit</strong></a>, <a href=\"http://www.myspace.com/guide/im\"><strong>MySpaceIM</strong></a>, <a href=\"http://www.qq.com/\"><strong>QQ</strong></a>, <a href=\"http://silcnet.org/\"><strong>SILC</strong></a>, <strong>SIMPLE</strong>, <a href=\"http://www.ibm.com/developerworks/downloads/ls/lst/\"><strong>Sametime</strong></a>, <a href=\"http://messenger.yahoo.com/\"><strong>Yahoo!</strong></a>, <strong>Zephyr</strong> dan semua <strong>IM</strong> yang menjalankan <strong>XMPP</strong> <em>messaging protocol</em>.</p>\n\n<p><strong>Pidgin</strong> tidak mengizinkan komunikasi antar layanan <strong>IM</strong> yang berbeda. Contoh, apabila Anda menggunakan <strong>Pidgin</strong> untuk mengakses <strong>Google Talk</strong> Anda, Anda tidak akan bisa berkomunikasi dengan teman yang menggunakan akun <strong>ICQ</strong>.</p>\n\n<p>Namun, <strong>Pidgin</strong> dapat diatur untuk menjalanakan beberapa akun tergantung dari protocol pesan. Maka, Anda dapat menggunakan <strong>Gmail</strong> dan <strong>ICQ</strong> dalam waktu yang sama, dan bercakap menggunakan salah satu dari layanan tersebut (yang dijalankan oleh <strong>Pidgin</strong>).</p>\n\n<p><strong>Pidgin</strong> sangat dianjurkan untuk sesi-sesi <strong>IM</strong>, karena ia menawarkan tingkat keamanan yang lebih tinggi dibanding klien pesan yang lain, dan juga tidak dipenuhi dengan iklan yang tidak bermanfaat atau <em>spyware</em> yang dapat membahayakan privasi dan keamanan Anda.</p>\n\n<p>Pesan <strong>Off-the-Record (OTR)</strong> adalah plugin yang dikembangkan khusus untuk <strong>Pidgin</strong>. Ia menawarkan fitur  privasi dan keamanan berikut:</p>\n\n<ul><li><strong>Authentication</strong>: Jaminan bahwa koresponden/teman bicara Anda adalah orang yang benar.</li>\n<li><strong>Deniability</strong>: setelah sesi percakapan selesai, pesan yang bersal dari Anda atau koresponden Anda tidak dapat diidentifikasi </li>\n<li><strong>Encryption</strong>: tidak ada orang lain yang dapat mengakses dan membaca pesan instan Anda.</li>\n<li><strong>Perfect Forward Security</strong>: apabila pihak ketiga mengambil kunci rahasia Anda, tidak ada percakapan sebelumnya yang dapat dibaca.</li>\n</ul><p><strong>Catatan</strong>: <strong>Pidgin</strong> harus diinstal sebelum <strong>OTR</strong> plugin.</p>\n", 
+                "summary": "", 
+                "value": "**Situs Resmi**\r\n\r\n- **Pidgin**: [**www.pidgin.im**](http://www.pidgin.im)\r\n- **OTR**: [**www.cypherpunks.ca/otr**](http://www.cypherpunks.ca/otr/)\r\n\r\n**Sistem operasi yang diperlukan**\r\n\r\n- Semua koneksi internet\r\n- Semua versi Windows\r\n\r\n**Versi yang digunakan dalam panduan ini**\r\n\r\n- Pidgin 2.7.11 \r\n- OTR 3.2.0.1 \r\n\r\n**Lisensi** \r\n\r\n- Gratis dan bisa didapat siapa saja (*Free and Open-Source Software*)\r\n\r\n**Petunjuk yang perlu dibaca**: \r\n\r\n'Petunjuk bagaimana caranya' Bab [**7. Cara agar komunikasi internet Anda tetap rahasia**](https://securityinabox.org/id/chapter-7)\r\n\r\n**Level:** 1: Pemula, **2: Umum**, 3: Menengah, 4: Berpengalaman, 5: Ahli \r\n\r\n**Waktu yang diperlukan untuk menggunakan alat ini**: 30 menit \r\n\r\n**Apa yang akan Anda dapatkan**: \r\n\r\n- Pengetahuan untuk mengatur dan merapikan beberapa dari pelayanan *IM* yang populer  melalui satu program\r\n- Pengetahuan untuk untuk melakukan sesi percakapan yang pribadi dan aman.\r\n\r\n**GNU Linux, Mac OS dan Program Microsoft Windows lainnya yang kompatibel:**\r\n\r\nBaik **Pidgin** dan **OTR** tersedia untuk **Microsoft Windows** dan **GNU/Linux**. Program multi-protokol **IM** lainnya untuk **Microsoft Windows** yang bisa menjalankan **OTR** adalah [**Miranda IM**](http://www.miranda-im.org/). Pengguna **Mac OS** disarankan untuk menggunakan [**Adium**](http://adium.im/), program multi-protokol **IM** yang dapat menjalankan **OTR** plugin.\r\n\r\n## 1.1\tHal-hal yang perlu Anda ketahui sebelum menggunakan alat ini ##\r\n\r\n**Pidgin** adalah perangkat lunak **IM** yang gratis dan open source yang dapat Anda gunakan untuk mengatur dan merapikan berbagai akun **IM** Anda memalui satu interface. Sebelum Anda memulai **Pidgin** Anda harus mempunyai akun pesan instan, yang akan Anda daftarkan untuk akun **Pidgin** Anda. Contohnya, apabila Anda memiliki akun email Gmail, Anda dapat menggunakan layanan pesan instan GoogleTalk dengan **Pidgin**. Detil log-in dari akun pesan instan Anda digunakan untuk mendaftar dan mengakses akun Anda melalui **Pidgin**.\r\n\r\n**Catatan**: Semua pengguna disarankan untuk belajar sebanyak mungkin tentang peraturan keamanan dan privasi dari **penyedia layanan pesan instan (*Instant Messaging Service Provider*)**.\r\n\r\n**Pidgin** menunjang layanan **IM** berikut: [**AIM**](http://dashboard.aim.com/aim), [**Bonjour**](http://www.apple.com/support/bonjour/), [**Gadu-Gadu**](http://komunikator.gadu-gadu.pl/), [**Google Talk**](http://www.google.com/talk/), **Groupwise**, [**ICQ**](http://www.icq.com), **IRC**, [**MIRC**](http://www.mirc.com/), [**MSN**](http://www.msn.com/), \r\n[**MXit**](http://www.mxit.com/), [**MySpaceIM**](http://www.myspace.com/guide/im), [**QQ**](http://www.qq.com/), [**SILC**](http://silcnet.org/), **SIMPLE**, [**Sametime**](http://www.ibm.com/developerworks/downloads/ls/lst/), [**Yahoo!**](http://messenger.yahoo.com/), **Zephyr** dan semua **IM** yang menjalankan **XMPP** *messaging protocol*.\r\n\r\n**Pidgin** tidak mengizinkan komunikasi antar layanan **IM** yang berbeda. Contoh, apabila Anda menggunakan **Pidgin** untuk mengakses **Google Talk** Anda, Anda tidak akan bisa berkomunikasi dengan teman yang menggunakan akun **ICQ**.\r\n\r\nNamun, **Pidgin** dapat diatur untuk menjalanakan beberapa akun tergantung dari protocol pesan. Maka, Anda dapat menggunakan **Gmail** dan **ICQ** dalam waktu yang sama, dan bercakap menggunakan salah satu dari layanan tersebut (yang dijalankan oleh **Pidgin**).\r\n\r\n**Pidgin** sangat dianjurkan untuk sesi-sesi **IM**, karena ia menawarkan tingkat keamanan yang lebih tinggi dibanding klien pesan yang lain, dan juga tidak dipenuhi dengan iklan yang tidak bermanfaat atau *spyware* yang dapat membahayakan privasi dan keamanan Anda.\r\n\r\nPesan **Off-the-Record (OTR)** adalah plugin yang dikembangkan khusus untuk **Pidgin**. Ia menawarkan fitur  privasi dan keamanan berikut:\r\n\r\n- **Authentication**: Jaminan bahwa koresponden/teman bicara Anda adalah orang yang benar.\r\n- **Deniability**: setelah sesi percakapan selesai, pesan yang bersal dari Anda atau koresponden Anda tidak dapat diidentifikasi \r\n- **Encryption**: tidak ada orang lain yang dapat mengakses dan membaca pesan instan Anda.\r\n- **Perfect Forward Security**: apabila pihak ketiga mengambil kunci rahasia Anda, tidak ada percakapan sebelumnya yang dapat dibaca.\r\n\r\n**Catatan**: **Pidgin** harus diinstal sebelum **OTR** plugin."
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2039", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2039", 
+        "link_title": "Pidgin with OTR - Secure Instant Messaging", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5185", 
+        "module": "book", 
+        "nid": "2039", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5185", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "Pidgin with OTR - Secure Instant Messaging", 
+        "updated": "0", 
+        "weight": "-5"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bagian-bagian dari halaman ini</p>\n\n<ul><li><a href=\"#2.0\"><strong>2.0 Tentang Pidgin</strong></a></li>\n<li><a href=\"#2.0\"><strong>2.1 Cara menginstal Pidgin</strong></a></li>\n<li><a href=\"#2.2\"><strong>2.2 Cara menginstal Off-The-Record (OTR)</strong></a></li>\n<li><a href=\"#2.3\"><strong>2.3 Sekilas tentang Pendaftaran Akun dan Proses Pengaturan pada Pidgin</strong></a></li>\n<li><a href=\"#2.4\"><strong>2.4 Cara mendaftarkan akun Pesan Instan (<em>Instant Messaging</em>) Anda pada Pidgin</strong></a></li>\n<li><a href=\"#2.5\"><strong>2.5 Cara menambah <em>Buddy (teman)</em> pada Pidgin</strong></a></li>\n<li><a href=\"#2.6\"><strong>2.6 Cara teman Pidgin Anda memasukkan Anda sebagai <em>Buddy (teman)</em></strong></a></li>\n<li><a href=\"#2.7\"><strong>2.7 Cara membuka jendela IM pada Pidgin</strong></a></li>\n<li><a href=\"#2.8\"><strong>2.8 Cara menyalakan kembali sebuah akun di Pidgin</strong></a></li>\n</ul><hr /><p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>2.0 Tentang Pidgin</h2>\n\n<p>Mesin <em>encrypt</em> dan otentifikasi program <strong>Pidgin</strong> dan <strong>Off-the-Record</strong> (<strong>OTR</strong>) harus dipasang dengan benar agar kedua program tersebut dapat bekerja dengan benar. Untungnya, pemasangan kedua program tersebut mudah dan cepat.</p>\n\n<p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1 Cara menginstal Pidgin</h2>\n\n<p><strong>Langkah 1. Klik dua kali</strong> <img src=\"/sbox/screen/pidgin-en/01.png\" alt=\"\" />; dialog <em>Open File \u2013 Security Warning</em> akan muncul. Jika ya, <strong>klik</strong> <img src=\"/sbox/screen/pidgin-en/02.png\" alt=\"\" /> untuk mengaktifkan layar berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/03.png\" alt=\"\" /></p>\n\n<p><em>Gambar 1: Boks konfirmasi bahasa pemasangan</em></p>\n\n<p><strong>Langkah 2. Klik</strong> <img src=\"/sbox/screen/pidgin-en/04.png\" alt=\"\" /> untuk mengaktifkan layar <em>Welcome to the Pidgin 2.7.11 Setup Wizard</em>.</p>\n\n<p><strong>Langkah 3. Klik</strong> <img src=\"/sbox/screen/pidgin-en/05.png\" alt=\"\" /> untuk mengaktifkan layar <em>License Agreement</em>; setelah Anda membaca <em>License Agreement</em>, Klik <img src=\"/sbox/screen/pidgin-en/05.png\" alt=\"\" /> untuk mengaktifkan jendela <em>Pidgin 2.7.11 Setup - Choose Components</em>.</p>\n\n<p><strong>Langkah 4. Klik</strong> <img src=\"/sbox/screen/pidgin-en/05.png\" alt=\"\" /> untuk mengaktifkan tampilan <em>Pidgin 2.7.11 Setup - Choose Install Location</em>.</p>\n\n<p><strong>Langkah 5. Klik</strong> <img src=\"/sbox/screen/pidgin-en/06.png\" alt=\"\" /> untuk menerima lokasi installer  yang telah ditetapkan, dan mengaktifkan jendela <em>Pidgin 2.7.11 Setup - Installing</em> untuk memulai memasang piranti lunak <strong>Pidgin</strong>.</p>\n\n<p><em>Beberapa folder dan file akan mulai memasang diri mereka dengan cepat; setelah proses pemasangan selesai, jendela Pidgin 2.7.11 Setup - Installation Complete (Instalasi selesai) akan muncul.</em></p>\n\n<p><strong>Langkah 6. Klik</strong> <img src=\"/sbox/screen/pidgin-en/05.png\" alt=\"\" /> untuk mengaktifkan <em>Completing the Pidgin 2.7.11 Setup Wizard</em>.</p>\n\n<p>Langkah berikut ini tidak wajib:</p>\n\n<p><strong>Langkah 7. Centang</strong> pilihan <img src=\"/sbox/screen/pidgin-en/07.png\" alt=\"\" />, apabila Anda ingin menjalankan program <strong>Pidgin</strong> secepatnya.</p>\n\n<p><strong>Catatan</strong>: selama <strong>langkah 3</strong> dari proses instalasi, <strong>Pidgin</strong> sudah diatur untuk termasuk dalam daftar <strong>Start &gt; Programs</strong> dan dapat dijalankan dari tempat yang sama di masa mendatang.</p>\n\n<p><strong>Langkah 8. Klik</strong> <img src=\"/sbox/screen/pidgin-en/08.png\" alt=\"\" /> untuk menyelesaikan proses pemasangan <strong>Pidgin</strong>.</p>\n\n<p><a name=\"2.2\" id=\"2.2\"></a></p>\n\n<h2>2.2 Cara menginstal Off-The-Record (OTR)</h2>\n\n<p><strong>Langkah 1. Klik dua kali</strong> <img src=\"/sbox/screen/pidgin-en/09.png\" alt=\"\" />; dialog <em>Open File \u2013 Security Warning</em> akan muncul. <strong>Klik</strong> <img src=\"/sbox/screen/pidgin-en/02.png\" alt=\"\" /> untuk mendapatkan layar berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/10.png\" alt=\"\" /></p>\n\n<p><em>Gambar 2: Welcome to the Pidgin-otr 3.2.0-1 Setup Wizard</em></p>\n\n<p><strong>Langkah 3. Klik</strong> <img src=\"/sbox/screen/pidgin-en/05.png\" alt=\"\" /> untuk mengaktifkan layar <em>License Agreement</em>; setelah Anda dapat selesai membaca <em>License Agreement</em>, <strong>klik</strong> <img src=\"/sbox/screen/pidgin-en/11.png\" alt=\"\" /> untuk mengaktifkan layar <em>pidgin-otr 3.2.0-1 Setup - Choose Install Location</em>.</p>\n\n<p><strong>Langkah 4. Klik</strong> <img src=\"/sbox/screen/pidgin-en/06.png\" alt=\"\" /> untuk memulai proses pemasangan.</p>\n\n<p><strong>Langkah 5. Klik</strong> <img src=\"/sbox/screen/pidgin-en/08.png\" alt=\"\" /> untuk menyelesaikan pemasangan mesin piranti lunak pesan <strong>Pidgin-OTR</strong>.</p>\n\n<p>Setelah Anda selesai memasang <strong>Pidgin</strong> dan <strong>OTR</strong>, ikon berikut akan muncul di <em>Windows task bar</em>:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/12.png\" alt=\"\" /></p>\n\n<p><em>Gambar 3: Ikon Pidgin-OTR dikelilingi kotak hitam</em></p>\n\n<p>Selamat! Anda telah menyelesaikan pemasangan program <strong>Pidgin</strong> dan <strong>OTR</strong> dengan sukses!</p>\n\n<p><a name=\"2.3\" id=\"2.3\"></a></p>\n\n<h2>2.3 Sekilas tentang Pendaftaran Akun dan Proses Pengaturan pada Pidgin</h2>\n\n<p>Terdapat empat langkah dasar di dalam proses pendaftaran dan pengaturan akun <strong>Pidgin</strong>; mendaftarkan akun <strong>IM</strong> yang telah ada di <strong>Pidgin</strong>, menambah koresponden atau <em>buddy</em> di <em>Dunia <strong>Pidgin</strong></em>, mengajak teman Anda melakukan hal yang sama, dan terakhir melakukan sesi percakapan Anda yang pertama.</p>\n\n<p>Karena percakapan atau sesi <strong>IM</strong> melibatkan dua pihak, contoh di halaman ini menjelaskan bagaimana beragam format/jendela dapat muncul di <em>kedua</em> <em>buddies</em> atau koresponden (diperankan oleh dua karakter fiksi, Salima dan Terence) di setiap tingkatan yang berbeda pada proses pendaftaran dan pengaturan. Semua contoh berdasarkan  protokol <strong>Google Talk</strong>.</p>\n\n<p><strong>Catatan</strong>: Sebelum Anda menggunakan <strong>Pidgin</strong>, Anda harus sudah mempunyai akun <strong>Instant Messaging</strong> (<strong>IM</strong>) dengan salah satu penyedia yang terdaftar di <em>Gambar 3</em>. Apabila Anda ingin membuat akun <strong>IM</strong>, kami sangat menyarankan <strong>Google Talk</strong>. Silahkan baca bagian <a href=\"https://securityinabox.org/id/pidgin_akungoogletalk#4.0\"><strong>4.0 Cara membuat akun Google Talk</strong></a> untuk informasi dan instruksi lebih lanjut.</p>\n\n<p><a name=\"2.4\" id=\"2.4\"></a></p>\n\n<h2>2.4 Cara mendaftarkan akun Pesan Instan (<em>Instant Messaging</em>) Anda pada Pidgin</h2>\n\n<p>Untuk mendaftarkan akun <strong>IM</strong> Anda ke <strong>Pidgin</strong>, lakukan langkah-langkah berikut:</p>\n\n<p><strong>Langkah 1</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/pidgin-en/13.png\" alt=\"\" /> atau <strong>select Start &gt; Pidgin</strong> untuk menjalankan program <strong>Pidgin</strong>. Ketika pertama kali Anda menggunakan <strong>Pidgin</strong>, layar berikut akan muncul:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/14.png\" alt=\"\" /></p>\n\n<p><em>Gambar 4: Jendela konfirmasi akun</em></p>\n\n<p><strong>Langkah 2</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/pidgin-en/15.png\" alt=\"\" /> untuk mengaktifkan jendela <em>Add Account</em> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/16.png\" alt=\"\" /></p>\n\n<p><em>Gambar 5: Layar 'Add Account' menampilkan tab Basic, Advanced dan Proxy</em></p>\n\n<p><strong>Langkah 3</strong>. <strong>Klik</strong> daftar <em>Protocol</em> untuk melihat protokol layanan <strong>IM</strong> yang didukung oleh program <strong>Pidgin</strong> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/17.png\" alt=\"\" /></p>\n\n<p><em>Gambar 6: Jendela 'Add Account' menampilkan daftar IM protokol yang didukung Pidgin</em></p>\n\n<p><strong>Langkah 4</strong>. <strong>Pilih</strong> protokol <strong>IM</strong> yang benar.</p>\n\n<p><strong>Catatan</strong>: Penyedial layanan <strong>IM</strong> yang berbeda akan menampilkan kolom-kolom khusus yang harus diisi. Beberapa sudah terisi secara otomatis (misalnya, ketika Anda memilih <strong>Google Talk</strong>, kolom <em>Domain</em> sudah terisi dengan lengkap). Akan tetapi, hampir semua penyedia layanan meminta Anda untuk memasukkan nama pengguna dan password.</p>\n\n<p><strong>Langkah 5</strong>. <strong>Ketik</strong> di kolom alamat email (contoh: <a href=\"mailto:terence.t.thester@gmail.com\"><strong>terence.t.thester@gmail.com</strong></a>) di kolom <em>Username</em>.</p>\n\n<p><strong>Langkah 6</strong>. <strong>Ketik</strong> password di kolom <em>Password</em>.</p>\n\n<p><strong>Langkah 7</strong>. <strong>Ketik</strong> nama panggilan/nama alias yang Anda inginkan (Ini tidak diwajibkan).</p>\n\n<p><strong>Penting</strong>: Untuk mengoptimalkan privasi dan keamanan Anda, <em>jangan</em> nyalakan pilihan <em>Remember password</em>. Ini berarti <strong>Pidgin</strong> akan meminta password Anda kapan saja Anda masuk on-line untuk berkomunikasi. Melakukan ini akan mencegah menyusup dari masuk dan berpura-pura menjadi Anda, apabila Anda meninggalkan komputer tidk terawasi untuk beberapa waktu. Dan juga, ingat untuk <strong>memilih</strong> item <em>Quit</em> dari menu <em>Buddies</em> setelah menyelesaikan sesi percakapan Anda!</p>\n\n<p>Layar <em>Add account</em> yang telah selesai diisi akan terlihat seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/18.png\" alt=\"\" /></p>\n\n<p><em>Gambar 7: Contoh formulir Add Account yang sudah terisi</em></p>\n\n<p><strong>Tip: Google Talk, IRC, SILC</strong> dan <strong>XMPP</strong> dapat dengan mudah meminta koneksi yang ter-<em>encrypt</em>. Silahkan baca bagian <a href=\"https://securityinabox.org/id/pidgin_akungoogletalk#4.1\"><strong>4.1 Cara mendapatkan koneksi yang aman</strong></a> untuk detil lebih lanjut.</p>\n\n<p><strong>Langkah 8. Klik</strong> <img src=\"/sbox/screen/pidgin-en/19.png\" alt=\"\" />untuk menyelesaikan penambahan kontak ke dalam akun Anda , dan juga menyalakan layar <em>updated accounts</em> dan <em>Buddy list (daftar teman)</em> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/20.png\" alt=\"\" /><img src=\"/sbox/screen/pidgin-en/21.png\" alt=\"\" /></p>\n\n<p><em>Gambar 8: Jendela akun yang terbaru;</em>   <em>Gambar 9: Daftar Buddy menyala</em></p>\n\n<p>Setelah menyelesaikan langkah-langkah berikut, Anda sekarang telah siap untuk mendaftarkan teman-teman (<em>buddies</em>) <strong>Pidgin</strong> Anda, dengan memasukkan informasi kontak mereka.</p>\n\n<p><a name=\"2.5\" id=\"2.5\"></a></p>\n\n<h2>2.5 Cara menambah <em>Buddy (teman)</em> pada Pidgin</h2>\n\n<p>Menambah <em>buddies</em> atau koresponden di <strong>Pidgin</strong> melibatkan penambahan dan penyimpanan informasi kontak mereka. Di contoh berikut, Terence akan menambah Salima sebagai <em>buddy</em>-nya.</p>\n\n<p>Untuk menambah <em>buddy</em> ke dalam akun <strong>IM</strong> Anda di <strong>Pidgin</strong>, lakukan langkah berikut:</p>\n\n<p><strong>Langkah 1. Klik</strong> <em>Buddies</em> untuk mengaktifkan menu koresponden, lalu <strong>pilih</strong> item <em>+Add Buddy...</em> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/22.png\" alt=\"\" /></p>\n\n<p><em>Gambar 10: Menu Buddy List dengan item \u2018Add Buddy...\u201d  terpilih</em></p>\n\n<p><em>Ini akan membuat layar berikut muncul</em>:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/23.png\" alt=\"\" /></p>\n\n<p><em>Gambar 11: Jendela Add Buddy</em></p>\n\n<p><strong>Langkah 2</strong>. Apabila Anda memiliki akun lebih dari satu, <strong>pilih</strong> akun yang sama dengan layanan pesan instan milik \u2018buddy (teman)\u2019 Anda.</p>\n\n<p><strong>Catatan</strong>: Anda dan <em>buddy</em> Anda <em>harus</em> menggunakan pelayanan pesan yang sama, walaupun dia tidak menggunakan <strong>Pidgin</strong>. Anda tidak dapat menambah teman yang menggunakan <strong>ICQ</strong> atau <strong>MSN</strong> ke akun <strong>Google Talk</strong>. Namun, Anda dapat mendaftar dan menggunakan akun-akun Anda yang dapat dijalankan di <strong>Pidgin</strong>, dimana Anda dapat bercakap dengan <em>buddy</em> Anda lewat <strong>Google Talk</strong> dan <em>buddy</em> lain menggunakan <strong>ICQ</strong> atau <strong>MSN</strong>.</p>\n\n<p><strong>Langkah 3. Ketik</strong> alamat email <em>buddy</em> Anda di tempat <em>Username</em>.</p>\n\n<p>Langkah ini tidaklah wajib.</p>\n\n<p><strong>Langkah 4. Ketik</strong> <em>nama samaran</em> atau nama panggilan untuk buddy Anda di tempat <em>(Optional) Alias</em>, agar layar formulir <em>Add Buddy</em> Anda terlihat seperti ini:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/24.png\" alt=\"\" /></p>\n\n<p><em>Gambar 12: Contoh dari formulir Add Buddy yang telah diisi</em></p>\n\n<p><strong>Langkah 5. Klik</strong> <img src=\"/sbox/screen/pidgin-en/19.png\" alt=\"\" /> untuk menambah buddy Anda.</p>\n\n<p><strong>Catatan</strong>: Ini akan mengirim pesan permintan kepada korespond Anda untuk izin atau persetujuaan atas permintaan pertemanan Anda, dan akan muncul di <em>Buddy List (daftar buddy)</em> koresponden Anda seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/25.png\" alt=\"\" /></p>\n\n<p><em>Gambar 13: Buddy List milik Terence menunjukkan Salima sebagai buddy-nya</em></p>\n\n<p>Disini, buddy Anda harus sudah melakukan langkah berikut:</p>\n\n<p><strong>Langkah 6. Klik</strong> <img src=\"/sbox/screen/pidgin-en/26.png\" alt=\"\" /> untuk menambah orang ini sebagai buddy Anda dan menunjukkannya di <em>Buddy List</em> Anda seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/27.png\" alt=\"\" /></p>\n\n<p><em>Gambar 14: Authorize buddy request seperti yang muncul di Buddy List Salima</em></p>\n\n<p><strong>Catatan</strong>: Di contoh di atas, <em>Nama samaran</em> atau panggilan Salima ditunjukkan, menambah satu tingkat perlindungan identitas.</p>\n\n<p><a name=\"2.6\" id=\"2.6\"></a></p>\n\n<h2>2.6 Cara teman Pidgin Anda memasukkan Anda sebagai *Buddy (teman)</h2>\n\n<p>Setelah Anda menambah buddy, mengizinkan, dan mengkonfirmasi <em>buddy</em>  <strong>Pidgin</strong> Anda, <em>buddy</em> Anda harus melakukan hal yang sama dengan informasi kontak <strong>IM</strong> Anda.</p>\n\n<p>Di bagian ini, contoh kami menunjukkan bagaimana Salima akan gantian menambah, mengizinkan, dan mengkonfirmasi Terence sebagai buddy di <strong>Pidgin</strong>. Salima akan melakukan <strong>langkah 1 sampai 6</strong> di bagian <a href=\"https://securityinabox.org/id/pidgin_instalasi#2.5\"><strong>2.5 Cara menambah Buddy (teman) pada Pidgin</strong></a>.</p>\n\n<p>Setelah Salima menyelesaikan <strong>langkah 1 sampai 3</strong>, tampilan <em>Add Buddy</em> akan muncul seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/28.png\" alt=\"\" /></p>\n\n<p><em>Gambar 15: Tampilan Add Buddy milik Salima</em></p>\n\n<p>Salima lalu akan <strong>klik</strong> <img src=\"/sbox/screen/pidgin-en/19.png\" alt=\"\" /> untuk meminta Terence menjadi buddy, dan mengirim permintaan izin kepada Terence seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/29.png\" alt=\"\" /></p>\n\n<p><em>Gambar 16: Permintaan izin menjadi buddy yang muncul di Terence</em></p>\n\n<p><strong>Catatan</strong>: Apabila Anda meletakkan kursor Anda di atas buddy di <em>Buddy List</em>, pesan informasi akan muncul sebagai berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/30.png\" alt=\"\" /></p>\n\n<p><em>Gambar 17: Jendela Buddy List Salima menunjukkan Terence sebagai buddy-nya yang baru</em></p>\n\n<p><a name=\"2.7\" id=\"2.7\"></a></p>\n\n<h2>2.7 Cara membuka jendela IM pada Pidgin</h2>\n\n<p>Untuk membuka jendela percakapan pesan singkat <strong>IM</strong> di <strong>Pidgin</strong>, lakukan langkah berikut:</p>\n\n<p><strong>Langkah 1. Klik kanan</strong> nama buddy Anda di <em>Buddy List</em> untuk mengaktifkan menu pop-up yang menjabarkan semua hal yang Anda bisa lakukan seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/31.png\" alt=\"\" /></p>\n\n<p><em>Gambar 18: Menu Buddy Tasks</em></p>\n\n<p><strong>Langkah 2. Pilih</strong> item <em>IM</em> dari menu pop-up untuk mengaktifkan jendela percakapan seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/32.png\" alt=\"\" /></p>\n\n<p><em>Gambar 19: Jendela chat/percakapan di <strong>Pidgin</strong></em></p>\n\n<p>Sekarang Anda hampir siap untuk melakukan percakapan dengan buddy Anda lewat <strong>Pidgin</strong>. Pertama, Anda harus mengatur program <strong>OTR</strong> untuk memastikan sesi percakapan Anda aman dan rahasia.</p>\n\n<p><a name=\"2.8\" id=\"2.8\"></a></p>\n\n<h2>2.8 Cara menyalakan kembali sebuah akun di Pidgin</h2>\n\n<p>Dari waktu ke waktu, Anda mungkin mendapati akun <strong>Pidgin</strong> Anda dimatikan; ini mungkin terjadi akibat koneksi internet Anda yang terganggu, atau komputer Anda <em>hang</em>. Kedua situasi tersebut mungkin mengakibatkan akun <strong>Pidgin</strong> tidak dimatikan dengan benar \u2013 dan tidak dapat digunakan. Untungnya, <strong>Pidgin</strong> menawarkan berbagai cara dimana Anda dapat menyalakan kembali akun Anda.</p>\n\n<p>Untuk menyalakan akun Anda kembali, lakukan langkah berikut:</p>\n\n<p><strong>Langkah 1. Klik</strong> <img src=\"/sbox/screen/pidgin-en/13.png\" alt=\"\" /> atau <strong>pilih Start &gt; Pidgin</strong> untuk meluncurkan <strong>Pidgin</strong>.</p>\n\n<p><strong>Langkah 2. Buka</strong> menu <em>Accounts</em>, lalu <strong>pilih</strong> item <em>Manage Accounts</em> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/33.png\" alt=\"\" /></p>\n\n<p><em>Gambar 20: Menu akun dengan item Manage Accounts terpilih (ukuran disesuaikan)</em></p>\n\n<p><em>Ini akan membuka layar berikut:</em></p>\n\n<p><img src=\"/sbox/screen/pidgin-en/34.png\" alt=\"\" /></p>\n\n<p><em>Gambar 21: Jendela Accounts menunjukkan akun yang dimatikan</em></p>\n\n<p><strong>Langkah 3. Klik</strong> boks disebelah akun Anda untuk mengaktifkan permintaan password <strong>Pidgin</strong> seperti berikut</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/35.png\" alt=\"\" /></p>\n\n<p><em>Gambar 22: Dialog boks permintaan password Pidgin</em></p>\n\n<p><strong>Langkah 4. Ketik</strong> password Anda sehingga boks dialog permintaan password <strong>Pidgin</strong> akan terlihat seperti ini:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/36.png\" alt=\"\" /></p>\n\n<p><em>Gambar 23: Boks dialog  password Pidgin dengan boks Enter password telah terisi</em></p>\n\n<p><strong>Langkah 5. Klik</strong> <img src=\"/sbox/screen/pidgin-en/37.png\" alt=\"\" /> untuk menyelesaikan proses menyalakan akun Anda kembali seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/38.png\" alt=\"\" /></p>\n\n<p><em>Gambar 24: Contoh dari akun yang telah berhasil dinyalakan kembali</em></p>\n\n<p><strong>Langkah 6. Klik</strong> <img src=\"/sbox/screen/pidgin-en/39.png\" alt=\"\" /> untuk menutup jendela <em>Accounts</em>.</p>\n", 
+                        "summary": "", 
+                        "value": "Bagian-bagian dari halaman ini\r\n\r\n- [**2.0 Tentang Pidgin**](#2.0)\r\n- [**2.1 Cara menginstal Pidgin**](#2.0)\r\n- [**2.2 Cara menginstal Off-The-Record (OTR)**](#2.2)\r\n- [**2.3 Sekilas tentang Pendaftaran Akun dan Proses Pengaturan pada Pidgin**](#2.3)\r\n- [**2.4 Cara mendaftarkan akun Pesan Instan (*Instant Messaging*) Anda pada Pidgin**](#2.4)\r\n- [**2.5 Cara menambah *Buddy (teman)* pada Pidgin**](#2.5)\r\n- [**2.6 Cara teman Pidgin Anda memasukkan Anda sebagai *Buddy (teman)***](#2.6)\r\n- [**2.7 Cara membuka jendela IM pada Pidgin**](#2.7)\r\n- [**2.8 Cara menyalakan kembali sebuah akun di Pidgin**](#2.8)\r\n\r\n-------\r\n\r\n<a name=\"2.0\"></a>\r\n## 2.0 Tentang Pidgin ##\r\n\r\nMesin *encrypt* dan otentifikasi program **Pidgin** dan **Off-the-Record** (**OTR**) harus dipasang dengan benar agar kedua program tersebut dapat bekerja dengan benar. Untungnya, pemasangan kedua program tersebut mudah dan cepat.\r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1 Cara menginstal Pidgin ##\r\n\r\n**Langkah 1. Klik dua kali** ![](/sbox/screen/pidgin-en/01.png); dialog *Open File \u2013 Security Warning* akan muncul. Jika ya, **klik** ![](/sbox/screen/pidgin-en/02.png) untuk mengaktifkan layar berikut:\r\n\r\n![](/sbox/screen/pidgin-en/03.png) \r\n\r\n*Gambar 1: Boks konfirmasi bahasa pemasangan*\r\n  \r\n**Langkah 2. Klik** ![](/sbox/screen/pidgin-en/04.png) untuk mengaktifkan layar *Welcome to the Pidgin 2.7.11 Setup Wizard*.\r\n\r\n**Langkah 3. Klik** ![](/sbox/screen/pidgin-en/05.png) untuk mengaktifkan layar *License Agreement*; setelah Anda membaca *License Agreement*, Klik ![](/sbox/screen/pidgin-en/05.png) untuk mengaktifkan jendela *Pidgin 2.7.11 Setup - Choose Components*.\r\n\r\n**Langkah 4. Klik** ![](/sbox/screen/pidgin-en/05.png) untuk mengaktifkan tampilan *Pidgin 2.7.11 Setup - Choose Install Location*.\r\n\r\n**Langkah 5. Klik** ![](/sbox/screen/pidgin-en/06.png) untuk menerima lokasi installer  yang telah ditetapkan, dan mengaktifkan jendela *Pidgin 2.7.11 Setup - Installing* untuk memulai memasang piranti lunak **Pidgin**.\r\n\r\n*Beberapa folder dan file akan mulai memasang diri mereka dengan cepat; setelah proses pemasangan selesai, jendela Pidgin 2.7.11 Setup - Installation Complete (Instalasi selesai) akan muncul.*\r\n\r\n**Langkah 6. Klik** ![](/sbox/screen/pidgin-en/05.png) untuk mengaktifkan *Completing the Pidgin 2.7.11 Setup Wizard*.\r\n\r\nLangkah berikut ini tidak wajib:\r\n\r\n**Langkah 7. Centang** pilihan ![](/sbox/screen/pidgin-en/07.png), apabila Anda ingin menjalankan program **Pidgin** secepatnya.\r\n \r\n**Catatan**: selama **langkah 3** dari proses instalasi, **Pidgin** sudah diatur untuk termasuk dalam daftar **Start > Programs** dan dapat dijalankan dari tempat yang sama di masa mendatang.\r\n\r\n**Langkah 8. Klik** ![](/sbox/screen/pidgin-en/08.png) untuk menyelesaikan proses pemasangan **Pidgin**.\r\n\r\n<a name=\"2.2\"></a>\r\n## 2.2 Cara menginstal Off-The-Record (OTR) ##\r\n\r\n**Langkah 1. Klik dua kali** ![](/sbox/screen/pidgin-en/09.png); dialog *Open File \u2013 Security Warning* akan muncul. **Klik** ![](/sbox/screen/pidgin-en/02.png) untuk mendapatkan layar berikut:\r\n\r\n![](/sbox/screen/pidgin-en/10.png)\r\n\r\n*Gambar 2: Welcome to the Pidgin-otr 3.2.0-1 Setup Wizard*\r\n\r\n**Langkah 3. Klik** ![](/sbox/screen/pidgin-en/05.png) untuk mengaktifkan layar *License Agreement*; setelah Anda dapat selesai membaca *License Agreement*, **klik** ![](/sbox/screen/pidgin-en/11.png) untuk mengaktifkan layar *pidgin-otr 3.2.0-1 Setup - Choose Install Location*.\r\n\r\n**Langkah 4. Klik** ![](/sbox/screen/pidgin-en/06.png) untuk memulai proses pemasangan.\r\n\r\n**Langkah 5. Klik** ![](/sbox/screen/pidgin-en/08.png) untuk menyelesaikan pemasangan mesin piranti lunak pesan **Pidgin-OTR**.\r\n\r\nSetelah Anda selesai memasang **Pidgin** dan **OTR**, ikon berikut akan muncul di *Windows task bar*:\r\n\r\n![](/sbox/screen/pidgin-en/12.png)\r\n\r\n*Gambar 3: Ikon Pidgin-OTR dikelilingi kotak hitam*\r\n\r\nSelamat! Anda telah menyelesaikan pemasangan program **Pidgin** dan **OTR** dengan sukses!\r\n\r\n\r\n<a name=\"2.3\"></a>\r\n## 2.3 Sekilas tentang Pendaftaran Akun dan Proses Pengaturan pada Pidgin ##\r\n\r\nTerdapat empat langkah dasar di dalam proses pendaftaran dan pengaturan akun **Pidgin**; mendaftarkan akun **IM** yang telah ada di **Pidgin**, menambah koresponden atau *buddy* di *Dunia **Pidgin***, mengajak teman Anda melakukan hal yang sama, dan terakhir melakukan sesi percakapan Anda yang pertama.\r\n\r\nKarena percakapan atau sesi **IM** melibatkan dua pihak, contoh di halaman ini menjelaskan bagaimana beragam format/jendela dapat muncul di *kedua* *buddies* atau koresponden (diperankan oleh dua karakter fiksi, Salima dan Terence) di setiap tingkatan yang berbeda pada proses pendaftaran dan pengaturan. Semua contoh berdasarkan  protokol **Google Talk**.\r\n\r\n**Catatan**: Sebelum Anda menggunakan **Pidgin**, Anda harus sudah mempunyai akun **Instant Messaging** (**IM**) dengan salah satu penyedia yang terdaftar di *Gambar 3*. Apabila Anda ingin membuat akun **IM**, kami sangat menyarankan **Google Talk**. Silahkan baca bagian [**4.0 Cara membuat akun Google Talk**](https://securityinabox.org/id/pidgin_akungoogletalk#4.0) untuk informasi dan instruksi lebih lanjut.\r\n\r\n<a name=\"2.4\"></a>\r\n## 2.4 Cara mendaftarkan akun Pesan Instan (*Instant Messaging*) Anda pada Pidgin ##\r\n\r\nUntuk mendaftarkan akun **IM** Anda ke **Pidgin**, lakukan langkah-langkah berikut:\r\n\r\n**Langkah 1**. **Klik** ![](/sbox/screen/pidgin-en/13.png) atau **select Start > Pidgin** untuk menjalankan program **Pidgin**. Ketika pertama kali Anda menggunakan **Pidgin**, layar berikut akan muncul:\r\n\r\n![](/sbox/screen/pidgin-en/14.png)\r\n\r\n*Gambar 4: Jendela konfirmasi akun*\r\n\r\n**Langkah 2**. **Klik** ![](/sbox/screen/pidgin-en/15.png) untuk mengaktifkan jendela *Add Account* seperti berikut: \r\n\r\n![](/sbox/screen/pidgin-en/16.png) \r\n\r\n*Gambar 5: Layar 'Add Account' menampilkan tab Basic, Advanced dan Proxy*\r\n\r\n**Langkah 3**. **Klik** daftar *Protocol* untuk melihat protokol layanan **IM** yang didukung oleh program **Pidgin** seperti berikut: \r\n\r\n![](/sbox/screen/pidgin-en/17.png) \r\n\r\n*Gambar 6: Jendela 'Add Account' menampilkan daftar IM protokol yang didukung Pidgin* \r\n\r\n**Langkah 4**. **Pilih** protokol **IM** yang benar.\r\n\r\n**Catatan**: Penyedial layanan **IM** yang berbeda akan menampilkan kolom-kolom khusus yang harus diisi. Beberapa sudah terisi secara otomatis (misalnya, ketika Anda memilih **Google Talk**, kolom *Domain* sudah terisi dengan lengkap). Akan tetapi, hampir semua penyedia layanan meminta Anda untuk memasukkan nama pengguna dan password. \r\n\r\n**Langkah 5**. **Ketik** di kolom alamat email (contoh: [**terence.t.thester@gmail.com**](mailto:terence.t.thester@gmail.com)) di kolom *Username*. \r\n\r\n**Langkah 6**. **Ketik** password di kolom *Password*. \r\n\r\n**Langkah 7**. **Ketik** nama panggilan/nama alias yang Anda inginkan (Ini tidak diwajibkan). \r\n\r\n**Penting**: Untuk mengoptimalkan privasi dan keamanan Anda, *jangan* nyalakan pilihan *Remember password*. Ini berarti **Pidgin** akan meminta password Anda kapan saja Anda masuk on-line untuk berkomunikasi. Melakukan ini akan mencegah menyusup dari masuk dan berpura-pura menjadi Anda, apabila Anda meninggalkan komputer tidk terawasi untuk beberapa waktu. Dan juga, ingat untuk **memilih** item *Quit* dari menu *Buddies* setelah menyelesaikan sesi percakapan Anda!\r\n\r\nLayar *Add account* yang telah selesai diisi akan terlihat seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/18.png) \r\n\r\n*Gambar 7: Contoh formulir Add Account yang sudah terisi*\r\n \r\n**Tip: Google Talk, IRC, SILC** dan **XMPP** dapat dengan mudah meminta koneksi yang ter-*encrypt*. Silahkan baca bagian [**4.1 Cara mendapatkan koneksi yang aman**](https://securityinabox.org/id/pidgin_akungoogletalk#4.1) untuk detil lebih lanjut.\r\n\r\n**Langkah 8. Klik** ![](/sbox/screen/pidgin-en/19.png)untuk menyelesaikan penambahan kontak ke dalam akun Anda , dan juga menyalakan layar *updated accounts* dan *Buddy list (daftar teman)* seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/20.png)      ![](/sbox/screen/pidgin-en/21.png)\r\n\r\n*Gambar 8: Jendela akun yang terbaru;*   *Gambar 9: Daftar Buddy menyala*\r\n \r\nSetelah menyelesaikan langkah-langkah berikut, Anda sekarang telah siap untuk mendaftarkan teman-teman (*buddies*) **Pidgin** Anda, dengan memasukkan informasi kontak mereka.\r\n\r\n<a name=\"2.5\"></a>\r\n## 2.5 Cara menambah *Buddy (teman)* pada Pidgin ##\r\n\r\nMenambah *buddies* atau koresponden di **Pidgin** melibatkan penambahan dan penyimpanan informasi kontak mereka. Di contoh berikut, Terence akan menambah Salima sebagai *buddy*-nya.\r\n\r\nUntuk menambah *buddy* ke dalam akun **IM** Anda di **Pidgin**, lakukan langkah berikut:\r\n\r\n**Langkah 1. Klik** *Buddies* untuk mengaktifkan menu koresponden, lalu **pilih** item *+Add Buddy...* seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/22.png)\r\n\r\n*Gambar 10: Menu Buddy List dengan item \u2018Add Buddy...\u201d  terpilih*\r\n\r\n*Ini akan membuat layar berikut muncul*:\r\n\r\n![](/sbox/screen/pidgin-en/23.png)\r\n\r\n*Gambar 11: Jendela Add Buddy*\r\n \r\n**Langkah 2**. Apabila Anda memiliki akun lebih dari satu, **pilih** akun yang sama dengan layanan pesan instan milik \u2018buddy (teman)\u2019 Anda.\r\n\r\n**Catatan**: Anda dan *buddy* Anda *harus* menggunakan pelayanan pesan yang sama, walaupun dia tidak menggunakan **Pidgin**. Anda tidak dapat menambah teman yang menggunakan **ICQ** atau **MSN** ke akun **Google Talk**. Namun, Anda dapat mendaftar dan menggunakan akun-akun Anda yang dapat dijalankan di **Pidgin**, dimana Anda dapat bercakap dengan *buddy* Anda lewat **Google Talk** dan *buddy* lain menggunakan **ICQ** atau **MSN**.\r\n\r\n**Langkah 3. Ketik** alamat email *buddy* Anda di tempat *Username*.\r\n\r\nLangkah ini tidaklah wajib.\r\n\r\n**Langkah 4. Ketik** *nama samaran* atau nama panggilan untuk buddy Anda di tempat *(Optional) Alias*, agar layar formulir *Add Buddy* Anda terlihat seperti ini:\r\n\r\n![](/sbox/screen/pidgin-en/24.png)\r\n\r\n*Gambar 12: Contoh dari formulir Add Buddy yang telah diisi*\r\n\r\n**Langkah 5. Klik** ![](/sbox/screen/pidgin-en/19.png) untuk menambah buddy Anda.\r\n  \r\n**Catatan**: Ini akan mengirim pesan permintan kepada korespond Anda untuk izin atau persetujuaan atas permintaan pertemanan Anda, dan akan muncul di *Buddy List (daftar buddy)* koresponden Anda seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/25.png)\r\n\r\n*Gambar 13: Buddy List milik Terence menunjukkan Salima sebagai buddy-nya*\r\n\r\nDisini, buddy Anda harus sudah melakukan langkah berikut:\r\n\r\n**Langkah 6. Klik** ![](/sbox/screen/pidgin-en/26.png) untuk menambah orang ini sebagai buddy Anda dan menunjukkannya di *Buddy List* Anda seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/27.png)\r\n\r\n*Gambar 14: Authorize buddy request seperti yang muncul di Buddy List Salima*\r\n \r\n**Catatan**: Di contoh di atas, *Nama samaran* atau panggilan Salima ditunjukkan, menambah satu tingkat perlindungan identitas.\r\n\r\n<a name=\"2.6\"></a>\r\n## 2.6 Cara teman Pidgin Anda memasukkan Anda sebagai *Buddy (teman) ##\r\n\r\nSetelah Anda menambah buddy, mengizinkan, dan mengkonfirmasi *buddy*  **Pidgin** Anda, *buddy* Anda harus melakukan hal yang sama dengan informasi kontak **IM** Anda.\r\n\r\nDi bagian ini, contoh kami menunjukkan bagaimana Salima akan gantian menambah, mengizinkan, dan mengkonfirmasi Terence sebagai buddy di **Pidgin**. Salima akan melakukan **langkah 1 sampai 6** di bagian [**2.5 Cara menambah Buddy (teman) pada Pidgin**](https://securityinabox.org/id/pidgin_instalasi#2.5). \r\n\r\nSetelah Salima menyelesaikan **langkah 1 sampai 3**, tampilan *Add Buddy* akan muncul seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/28.png)\r\n\r\n*Gambar 15: Tampilan Add Buddy milik Salima*\r\n\r\nSalima lalu akan **klik** ![](/sbox/screen/pidgin-en/19.png) untuk meminta Terence menjadi buddy, dan mengirim permintaan izin kepada Terence seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/29.png)\r\n\r\n*Gambar 16: Permintaan izin menjadi buddy yang muncul di Terence*\r\n\r\n**Catatan**: Apabila Anda meletakkan kursor Anda di atas buddy di *Buddy List*, pesan informasi akan muncul sebagai berikut:\r\n\r\n![](/sbox/screen/pidgin-en/30.png)\r\n\r\n*Gambar 17: Jendela Buddy List Salima menunjukkan Terence sebagai buddy-nya yang baru*\r\n\r\n<a name=\"2.7\"></a>\r\n## 2.7 Cara membuka jendela IM pada Pidgin ##\r\n\r\nUntuk membuka jendela percakapan pesan singkat **IM** di **Pidgin**, lakukan langkah berikut:\r\n \r\n**Langkah 1. Klik kanan** nama buddy Anda di *Buddy List* untuk mengaktifkan menu pop-up yang menjabarkan semua hal yang Anda bisa lakukan seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/31.png) \r\n\r\n*Gambar 18: Menu Buddy Tasks*\r\n\r\n**Langkah 2. Pilih** item *IM* dari menu pop-up untuk mengaktifkan jendela percakapan seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/32.png) \r\n\r\n*Gambar 19: Jendela chat/percakapan di **Pidgin***\r\n\r\nSekarang Anda hampir siap untuk melakukan percakapan dengan buddy Anda lewat **Pidgin**. Pertama, Anda harus mengatur program **OTR** untuk memastikan sesi percakapan Anda aman dan rahasia.\r\n\r\n<a name=\"2.8\"></a>\r\n## 2.8 Cara menyalakan kembali sebuah akun di Pidgin ##\r\n \r\nDari waktu ke waktu, Anda mungkin mendapati akun **Pidgin** Anda dimatikan; ini mungkin terjadi akibat koneksi internet Anda yang terganggu, atau komputer Anda *hang*. Kedua situasi tersebut mungkin mengakibatkan akun **Pidgin** tidak dimatikan dengan benar \u2013 dan tidak dapat digunakan. Untungnya, **Pidgin** menawarkan berbagai cara dimana Anda dapat menyalakan kembali akun Anda.\r\n\r\nUntuk menyalakan akun Anda kembali, lakukan langkah berikut:\r\n\r\n**Langkah 1. Klik** ![](/sbox/screen/pidgin-en/13.png) atau **pilih Start > Pidgin** untuk meluncurkan **Pidgin**.\r\n \r\n**Langkah 2. Buka** menu *Accounts*, lalu **pilih** item *Manage Accounts* seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/33.png)\r\n\r\n*Gambar 20: Menu akun dengan item Manage Accounts terpilih (ukuran disesuaikan)*\r\n\r\n*Ini akan membuka layar berikut:*\r\n\r\n![](/sbox/screen/pidgin-en/34.png)\r\n\r\n*Gambar 21: Jendela Accounts menunjukkan akun yang dimatikan*\r\n \r\n**Langkah 3. Klik** boks disebelah akun Anda untuk mengaktifkan permintaan password **Pidgin** seperti berikut\r\n\r\n![](/sbox/screen/pidgin-en/35.png)\r\n\r\n*Gambar 22: Dialog boks permintaan password Pidgin*\r\n\r\n**Langkah 4. Ketik** password Anda sehingga boks dialog permintaan password **Pidgin** akan terlihat seperti ini:\r\n\r\n![](/sbox/screen/pidgin-en/36.png)\r\n\r\n*Gambar 23: Boks dialog  password Pidgin dengan boks Enter password telah terisi*\r\n\r\n**Langkah 5. Klik** ![](/sbox/screen/pidgin-en/37.png) untuk menyelesaikan proses menyalakan akun Anda kembali seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/38.png)\r\n\r\n*Gambar 24: Contoh dari akun yang telah berhasil dinyalakan kembali*\r\n\r\n**Langkah 6. Klik** ![](/sbox/screen/pidgin-en/39.png) untuk menutup jendela *Accounts*.\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2040", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2040", 
+                "link_title": "How to Install the Pidgin and OTR software and then Register and Set Up Your Account to Pidgin", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5186", 
+                "module": "book", 
+                "nid": "2040", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5185", 
+                "p3": "5186", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5185", 
+                "router_path": "node/%", 
+                "title": "How to Install the Pidgin and OTR software and then Register and Set Up Your Account to Pidgin", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1456951301", 
+            "comment": "0", 
+            "created": "1441120722", 
+            "current_revision_id": "13463", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "pidgin_instalasi", 
+                        "value": "pidgin_instalasi"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5186": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2040", 
+                    "link_title": "How to Install the Pidgin and OTR software and then Register and Set Up Your Account to Pidgin", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5186", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5185", 
+                    "p3": "5186", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5185", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2040", 
+            "num_revisions": "34", 
+            "path": "https://securityinabox.org/en/node/2040", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456951301", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Cara Menginstal Pidgin dan OTR dan Cara Mendaftar dan Mengatur Akun Anda (Your Account) pada Pidgin", 
+                        "value": "Cara Menginstal Pidgin dan OTR dan Cara Mendaftar dan Mengatur Akun Anda (Your Account) pada Pidgin"
+                    }
+                ]
+            }, 
+            "title_original": "How to Install the Pidgin and OTR software and then Register and Set Up Your Account to Pidgin", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442932261", 
+                        "created": "1442932261", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442398557", 
+                        "created": "1442396537", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442497863", 
+                        "created": "1442497863", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1454337961", 
+                        "created": "1441630593", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1453994797", 
+                        "created": "1442845809", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1456951301", 
+                        "created": "1444660095", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1452871889", 
+                        "created": "1452871889", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1453991725", 
+                        "created": "1443621001", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279032", 
+                        "created": "1441279032", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444179872", 
+                        "created": "1444179872", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021162", 
+                        "created": "1443021162", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833676", 
+                        "created": "1444728716", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446477624", 
+                        "created": "1441120722", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2040", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445443444", 
+                        "created": "1445443444", 
+                        "entity_id": "2040", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2040", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "3525b723-726d-48ec-b657-f624062f57c8", 
+            "vid": "13463", 
+            "vuuid": "dd7086d8-60da-49a4-8217-398b96d8cffc"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bagian-bagian dari halaman ini:</p>\n\n<ul><li><a href=\"#3.0\"><strong>3.0 Tentang Pidgin dan OTR</strong></a></li>\n<li><a href=\"#3.1\"><strong>3.1 Cara konfigurasi Pidgin-OTR Plugin</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 Langkah pertama - Cara mendapatkan <em>Private Key</em> (Kunci rahasia) dan menampilkan <em>Fingerprint</em>-nya</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 Langkah kedua - Cara mengesahkan sesi percakapan</strong></a></li>\n<li><a href=\"#3.4\"><strong>3.4 Langkah ketiga - Cara mengesahkan identifikasi koresponden/teman <em>chat</em> Anda</strong></a></li>\n</ul><hr /><p><a name=\"3.0\" id=\"3.0\"></a></p>\n\n<h2>3.0 Tentang Pidgin dan OTR</h2>\n\n<p>Lawan bicara Anda dan juga Anda harus mengkonfigurasi <strong>OTR</strong> plugin sebelum bisa melakukan sesi percakapan yang aman dan rahasia. Karena <strong>OTR</strong> plugin ini didesain khusus untuk <strong>Pidgin</strong>, ia akan secara otomatis mengidentifikasi ketika kedua pihak telah memasang dan mengkonfigurasi <strong>OTR</strong> plugin dengan benar.</p>\n\n<p><strong>Catatan</strong>: Apabila Anda meminta percakapan rahasia dengan teman Anda yang belum memasang atau mengkonfirgurasi <strong>OTR</strong>, <strong>OTR</strong> akan secara otomatis mengirim pesan bagaimana caran mendapatkan <strong>OTR</strong> Plugin.</p>\n\n<p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 Cara konfigurasi Pidgin-OTR Plugin</h2>\n\n<p>Untuk menjalankan <strong>OTR</strong>  plugin, lakukan langkah berikut:</p>\n\n<p><strong>Langkah 1. Klik dua kali</strong> <img src=\"/sbox/screen/pidgin-en/13.png\" alt=\"\" /> atau <strong>pilih</strong> <strong>Start &gt; Programs &gt; Pidgin</strong> untuk meluncurkan <strong>Pidgin</strong> dan mengaktifkan jendela <em>Buddy List</em> (silahkan lihat <em>Gambar 1</em>).</p>\n\n<p><strong>Langkah 2. Buka</strong> menu <em>tools</em>, lalu <strong>pilih</strong> item <em>Plugins</em> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/40.png\" alt=\"\" /></p>\n\n<p><em>Gambar 1: Jendela Buddy List dengan item Plugins yang dipilih dari menu Tools</em></p>\n\n<p>Ini akan mengaktifkan jendela <em>Pugins</em> seperti berikut:</p>\n\n<p><strong>Langkah 2. Geser ke bawah</strong> ke pilihan <em>Off-the-Record Messaging</em>, lalu <strong>klik</strong> <em>cek box</em> nya untuk mengaktifkannya.</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/41.png\" alt=\"\" /></p>\n\n<p><em>Gambar 2: Jendela Pidgin Plugins dengan Off-the-Record Messaging terpilih</em></p>\n\n<p><strong>Langkah 3. Klik</strong> <img src=\"/sbox/screen/pidgin-en/42.png\" alt=\"\" /> untuk memulai mengatur jendela <em>Off-the-Record Messaging</em>.</p>\n\n<p>Pada dasarnya, terdapat 3 langkah yang harus dilakukan ketika mengatur <strong>OTR</strong> secara benar agar dapat bekerja secara efektif dan ketiganya dijelaskan dibawah:</p>\n\n<ul><li><strong>Langkah pertama</strong>: Langkah ini melibatkan pembuatan kunci rahasia yang unik yang berhubungan dengan akun Anda, dan menunjukkan <em>fingerprint</em>. </li>\n</ul><p>Dua langkah selanjutnya melibatkan sesi <strong>IM</strong> dan pengesahan <em>buddy</em> Anda.</p>\n\n<ul><li><p><strong>Langkah kedua</strong>: Dimana salah satu pihak meminta mengatur sesi yang aman dan rahasia dengan pihak yang juga <em>on-line</em>.</p></li>\n<li><p><strong>Langkah ketiga</strong> adalah pengesahan atau meyakinkan idetitas dari buddy <strong>Pidgin</strong> Anda. (<strong>Catatan</strong>: di <strong>Pidgin</strong>, <strong>buddy</strong> adalah seseorang yang berkomunikasi dengan Anda melalui sesi percakapan. Proses ini dikenal dengan nama <em>authentication (pengesahan)</em> di <strong>Pidgin</strong> dan ini meyakinkan bahwa identitas <em>buddy</em> diketahui. Ini berarti mengkonfirmasi bahwa <em>buddy</em> Anda adalah orang yang <em>benar</em> seperti yang dia akui.</p></li>\n</ul><p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 Langkah pertama - Cara mendapatkan <em>Private Key</em> (Kunci rahasia) dan menampilkan <em>Fingerprint</em>-nya</h2>\n\n<p>Sesi percakapan yang aman di <strong>Pidgin</strong> dinyalakan dengan membuat sebuah <em>kunci rahasia</em> dari akun yang relevan. Jendela konfigurasi <em>Off-the-Record</em> dibagi menjadi tab <em>Config</em> dan <em>Known fingerprints</em>. Tab <em>Config</em> digunakan untuk mendapatkan <em>kunci</em> untuk setiap akun Anda dan untuk mengatur pilihan <strong>OTR</strong> yang spesifik. Tab <em>Known fingerprints</em> mengandung kunci rahasia dari teman-teman Anda. Anda juga harus memiliki sebuah kunci untuk setiap <em>buddy</em> yang dengannya Anda ingin bicara secara pribadi.</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/43.png\" alt=\"\" /></p>\n\n<p><em>Gambar 3: Layar Off-the-Record Messaging menunjukkan tab Config</em></p>\n\n<p><strong>Langkah 1</strong>. Untuk mengoptimalkan privasi Anda, centang <em>Enable private messaging (Nyalakan percakapan pribadi)</em>, <em>Automaticall intiate privat message (Lakukan percakapan pribadi secara otomatis)</em> dan <em>Don\u2019t log OTR conversations (Jangan masuk dalam percakapan OTR)</em> di tab <em>Config</em> seperti yang ditunjukkan di <em>Gambar 3</em> diatas.</p>\n\n<p><strong>Langkah 2. Klik</strong> <img src=\"/sbox/screen/pidgin-en/44.png\" alt=\"\" /> untuk memulai pembuatan kunci rahasia Anda; sebuah layar akan muncul, memberitahu Anda bahwa kunci rahasia sedang dibuat:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/45.png\" alt=\"\" /></p>\n\n<p><em>Gambar 4: Boks konfirmasi Generating private key</em></p>\n\n<p><strong>Catatan</strong>: <em>Buddy</em> Anda harus melakukan hal yang sama dengan akunnya sendiri.</p>\n\n<p><strong>Langkah 3. Klik</strong> <img src=\"/sbox/screen/pidgin-en/37.png\" alt=\"\" /> setelah kunci rahasia (yang terlihat seperti ini), telah didapatkan:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/46.png\" alt=\"\" /></p>\n\n<p><em>Gambar 5: contoh dari fingerprint sebuah kunci yang dihasilkan oleh program OTR</em></p>\n\n<p><strong>Penting</strong>: Anda telah menciptakan kunci rahasia untuk akun Anda. Ini akan digunakan untuk meng-<em>encrypt</em> percakapan Anda sehingga tidak ada orang lain yang dapat membacanya, walaupun mereka berhasil mengawasi sesi percakapan Anda. <em>Fingerprint</em> adalah sebuah kumpulan huruf dan angka yang panjang, yang digunakan untuk mengidentifikasi kunci sebuah akun tertentu, yang terlihat seperti <em>Gambar 5</em> diatas.</p>\n\n<p><strong>Pidgin</strong> akan secara otomatis menyimpan dan mengesahkan <em>fingerprint</em> Anda, dan milik <em>buddy</em> Anda, agar Anda tidak harus mengingatnya.</p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h2>3.3 Langkah kedua - Cara mengesahkan sesi percakapan</h2>\n\n<p><strong>Langkah 1. Klik dua kali</strong> akun <em>buddy</em> Anda yang sedang online untuk memulai sesi percakapan baru. Apabila Anda berdua mempunyai <strong>OTR</strong> plugin terpasang dengan benar, Anda akan menyadari bahwa tombol <strong>OTR</strong> baru akan muncul di pojok kanan bawah dari window percakapan Anda.</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/47.png\" alt=\"\" /></p>\n\n<p><em>Gambar 6: Jendela pesan Pidgin menunjukkan ikon OTR dilingkari garis hitam</em></p>\n\n<p><strong>Langkah 2. Klik</strong> <img src=\"/sbox/screen/pidgin-en/48.png\" alt=\"\" /> untuk mengaktifkan menu pop-up, lalu <strong>pilih</strong> item <em>Start private conversation (memulai percakapan pribadi)</em> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/49.png\" alt=\"\" /></p>\n\n<p><em>Gambar 7: Menu pop-up dengan item Start Private conversation terpilih</em></p>\n\n<p><em>Jendela <strong>Pidgin IM</strong> Anda akan terlihat seperti ini:</em></p>\n\n<p><img src=\"/sbox/screen/pidgin-en/50.png\" alt=\"\" /></p>\n\n<p><em>Gambar 8: Jendela Pidgin IM menunjukkan tombol Unverified (belum terverifikasi)</em></p>\n\n<p><strong>Catatan</strong>: <strong>Pidgin</strong> akan secara otomatis memulai komunikasi dengan program <strong>IM</strong> <em>buddy</em> Anda dan mengambil pesan ketika Anda mencoba untuk menyalakan sesi percakapan yang aman dan rahasia. Hasilnya, tombol <img src=\"/sbox/screen/pidgin-en/48.png\" alt=\"\" /><strong>OTR</strong> berubah menjadi <img src=\"/sbox/screen/pidgin-en/51.png\" alt=\"\" />,  menandakan bahwa Anda sekarang dapat meng-encrypt percakapan Anda dengan <em>buddy</em> Anda.</p>\n\n<p><strong>Peringatan!</strong> Walaupun percakapan ini aman, identitas dari <em>buddy</em> Anda belum disahkan. Hati-hati: <em>Buddy</em> Anda bisa jadi seseorang yang <em>berpura-pura</em> menjadi teman Anda.</p>\n\n<p><a name=\"3.4\" id=\"3.4\"></a></p>\n\n<h2>3.4 Langkah ketiga - Cara mengesahkan identifikasi koresponden/teman <em>chat</em> Anda</h2>\n\n<p>Anda dapat menggunakan tiga metode idetifikasi untuk mengesahkan <em>buddy</em> <strong>Pidgin</strong> Anda; Anda dapat menggunakan 1). Kode kata atau kalimat rahasia yang sudah dirancang sebelumnya, 2). Membuat pertanyaan yang jawabannya hanya diketahui Anda berdua atau 3) Secara manual mem-verifikasi <em>fingerprints</em> kunci rahasia Anda menggunakan metode komunikasi yang lain.</p>\n\n<h3>Metode Kode Kata atau Kalimat Rahasia</h3>\n\n<p>Anda dapat mengatur kode berupa kalimat atau kata sebelumnya, dengan bertemu dengan buddy Anda atau menggunakan media komunikasi lain (seperti telepon atau <strong>Skype</strong> atau SMS). Ketika Anda telah mengetik kode yang sama, sesi Anda akan disahkan.</p>\n\n<p><strong>Catatan</strong>: Fitur yang mengenali kode rahasia <strong>OTR</strong> sangatlah sensitif. Ini berarti, fitur ini dapat mengenali perbedaan antara huruf kapital (A,B,C) dan huruf kecil. Ingatlah hal ini ketika sedang menciptakan kode rahasia!</p>\n\n<p><strong>Langkah 1. Klik</strong> tombol <em>OTR</em> di di jendela <em>chat</em>, lalu <strong>pilih</strong> item <em>Authenticate Buddy</em> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/52.png\" alt=\"\" /></p>\n\n<p><em>Gambar 9: Menu Unverified muncul dengan item Authenticate buddy terpilih</em></p>\n\n<p>Ini akan mengaktifkan jendela <em>Authenticate Buddy</em>, meminta Anda untuk memilih metode pengesahan.</p>\n\n<p><strong>Langkah 2. Klik</strong> ![](/sbox/screen/pidgin-en/53.png lalu <strong>pilih</strong> <em>Shared Secret</em> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/54.png\" alt=\"\" /></p>\n\n<p><em>Gambar 10: Layar Autheticate Buddy dengan daftar drop-down ditunjukkan</em></p>\n\n<p><strong>Langkah 3. Masukkan</strong> kode rahasia seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/55.png\" alt=\"\" /></p>\n\n<p>Gambar 11: Layar Shared Secret*</p>\n\n<p><strong>Langkah 4. Klik</strong> <img src=\"/sbox/screen/pidgin-en/56.png\" alt=\"\" /> untuk mengaktifkan layar berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/58.png\" alt=\"\" /></p>\n\n<p><em>Gambar 12: Jendela Authenticate Buddy untuk koresponden fiksi</em></p>\n\n<p><strong>Catatan</strong>: <em>Pada tahap ini, buddy Anda akan melihat jendela yang sama seperti Gambar 13 dan harus memasukkan kode yang sama. Apabila cocok, sesi Anda akan disahkan</em>.</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/57.png\" alt=\"\" /></p>\n\n<p><em>Gambar 13: Jendela Authenticate Buddy untuk koresponden fiksi</em></p>\n\n<p>Setelah sesi disahkan, tombol <em>OTR</em> akan berubah menjadi <img src=\"/sbox/screen/pidgin-en/51.png\" alt=\"\" />. Sesi Anda sekarang aman dan Anda dapat yakin bahwa Anda berbicara dengan <em>buddy</em> Anda.</p>\n\n<h3>Metode Pertanyaan dan Jawaban</h3>\n\n<p>Satu lagi metode pengesahan satu sama lain ialah metode pertanyaan dan jawaban. Ciptakan sebuah pertanyaan dan jawaban. Setelah membaca pertanyaan, <em>buddy</em> Anda harus menjawab pertanyaan dengan <em>persis</em>, apabila jawabannya cocok dengan jawaban Anda, identitas Anda berdua akan langsung disahkan.</p>\n\n<p><strong>Langkah 1. Klik</strong> menu <em>OTR</em> di jendela pesan aktif untuk mengaktifkan menu pop-up yang berhubungan, lalu <strong>pilih</strong> item <em>Authenticate Buddy</em> (silahkan merujuk pada <em>Gambar 9</em>).</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/59.png\" alt=\"\" /></p>\n\n<p><em>Gambar 14: Jendela Pidgin Chat menunjukkan ikon OTR</em></p>\n\n<p>Jendela <em>Authenticate Buddy</em> akan muncul, meminta Anda memilih metode pengesahan.</p>\n\n<p><strong>Langkah 2. Klik</strong> menu lalu <strong>pilih</strong> item <em>Question and Answer</em> seperti berikut:</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/60.png\" alt=\"\" /></p>\n\n<p><em>Gambar 15: Layar Authenticate Buddy</em></p>\n\n<p><strong>Langkah 3. Masukkan</strong> pertanyaan dan jawabannya. Pertanyaan ini akan dikirim ke <em>buddy</em> Anda.</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/61.png\" alt=\"\" /></p>\n\n<p><em>Gambar 16: Layar Questions and Answer</em></p>\n\n<p>Apabila jawaban <em>buddy</em> cocok dengan jawaban Anda, berarti Anda dan <em>buddy</em> Anda telah saling melakukan verifikasi, dan identitas kedua pihak adalah benar-benar seperti yang mereka akui!</p>\n\n<p>Ketika sesi percakapan telah disahkan, tombol <strong>OTR</strong> akan berubah menjadi <img src=\"/sbox/screen/pidgin-en/51.png\" alt=\"\" />. Sesi Anda sekarang aman dan Anda dapat yakin dengan identitas teman <em>chat</em> Anda.</p>\n\n<p>Perhatikan, ketika Anda melakukan <strong>Select &gt; Buddy List &gt; Tools &gt; Plugins &gt; Off the Record Messaging &gt; configure Plugin</strong>, tab **Known fingerpints (fingerprints/sidik jari dikenali)* sekarang ditunjukkan di akun <em>buddy</em> Anda, dan sebuah pesan bahwa identitas mereka sudah diverifikasi.</p>\n\n<p><img src=\"/sbox/screen/pidgin-en/62.png\" alt=\"\" /></p>\n\n<p><em>Gambar 17: Layar Off-the Record menunjukkan tab Known Fingerprints</em></p>\n\n<p>Selamat! Anda sekarang dapat melakukan percakapan secara rahasia. Ketika Anda dan buddy Anda akan melakukan percakapan lagi (dengan komputer yang sama), Anda dapat melewati langkah kesatu dan kedua, diatas. Anda hanya harus melakukan permintaan untuk koneksi yang aman dan buddy Anda hanya harus menerimanya/menyetujuinya.</p>\n", 
+                        "summary": "", 
+                        "value": "Bagian-bagian dari halaman ini:\r\n\r\n- [**3.0 Tentang Pidgin dan OTR**](#3.0)\r\n- [**3.1 Cara konfigurasi Pidgin-OTR Plugin**](#3.1)\r\n- [**3.2 Langkah pertama - Cara mendapatkan *Private Key* (Kunci rahasia) dan menampilkan *Fingerprint*-nya**](#3.2)\r\n- [**3.3 Langkah kedua - Cara mengesahkan sesi percakapan**](#3.3)\r\n- [**3.4 Langkah ketiga - Cara mengesahkan identifikasi koresponden/teman *chat* Anda**](#3.4)\r\n\r\n-------\r\n\r\n<a name=\"3.0\"></a>\r\n## 3.0 Tentang Pidgin dan OTR ##\r\n\r\nLawan bicara Anda dan juga Anda harus mengkonfigurasi **OTR** plugin sebelum bisa melakukan sesi percakapan yang aman dan rahasia. Karena **OTR** plugin ini didesain khusus untuk **Pidgin**, ia akan secara otomatis mengidentifikasi ketika kedua pihak telah memasang dan mengkonfigurasi **OTR** plugin dengan benar.\r\n\r\n**Catatan**: Apabila Anda meminta percakapan rahasia dengan teman Anda yang belum memasang atau mengkonfirgurasi **OTR**, **OTR** akan secara otomatis mengirim pesan bagaimana caran mendapatkan **OTR** Plugin.\r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 Cara konfigurasi Pidgin-OTR Plugin ##\r\n\r\nUntuk menjalankan **OTR**  plugin, lakukan langkah berikut:\r\n\r\n**Langkah 1. Klik dua kali** ![](/sbox/screen/pidgin-en/13.png) atau **pilih** **Start > Programs > Pidgin** untuk meluncurkan **Pidgin** dan mengaktifkan jendela *Buddy List* (silahkan lihat *Gambar 1*).\r\n\r\n**Langkah 2. Buka** menu *tools*, lalu **pilih** item *Plugins* seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/40.png)\r\n\r\n*Gambar 1: Jendela Buddy List dengan item Plugins yang dipilih dari menu Tools*\r\n\r\nIni akan mengaktifkan jendela *Pugins* seperti berikut:\r\n\r\n**Langkah 2. Geser ke bawah** ke pilihan *Off-the-Record Messaging*, lalu **klik** *cek box* nya untuk mengaktifkannya.\r\n\r\n![](/sbox/screen/pidgin-en/41.png)\r\n\r\n*Gambar 2: Jendela Pidgin Plugins dengan Off-the-Record Messaging terpilih*\r\n\r\n**Langkah 3. Klik** ![](/sbox/screen/pidgin-en/42.png) untuk memulai mengatur jendela *Off-the-Record Messaging*.\r\n\r\nPada dasarnya, terdapat 3 langkah yang harus dilakukan ketika mengatur **OTR** secara benar agar dapat bekerja secara efektif dan ketiganya dijelaskan dibawah:\r\n\r\n- **Langkah pertama**: Langkah ini melibatkan pembuatan kunci rahasia yang unik yang berhubungan dengan akun Anda, dan menunjukkan *fingerprint*. \r\n\r\nDua langkah selanjutnya melibatkan sesi **IM** dan pengesahan *buddy* Anda.\r\n\r\n- **Langkah kedua**: Dimana salah satu pihak meminta mengatur sesi yang aman dan rahasia dengan pihak yang juga *on-line*.\r\n\r\n- **Langkah ketiga** adalah pengesahan atau meyakinkan idetitas dari buddy **Pidgin** Anda. (**Catatan**: di **Pidgin**, **buddy** adalah seseorang yang berkomunikasi dengan Anda melalui sesi percakapan. Proses ini dikenal dengan nama *authentication (pengesahan)* di **Pidgin** dan ini meyakinkan bahwa identitas *buddy* diketahui. Ini berarti mengkonfirmasi bahwa *buddy* Anda adalah orang yang *benar* seperti yang dia akui.\r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 Langkah pertama - Cara mendapatkan *Private Key* (Kunci rahasia) dan menampilkan *Fingerprint*-nya ##\r\n\r\nSesi percakapan yang aman di **Pidgin** dinyalakan dengan membuat sebuah *kunci rahasia* dari akun yang relevan. Jendela konfigurasi *Off-the-Record* dibagi menjadi tab *Config* dan *Known fingerprints*. Tab *Config* digunakan untuk mendapatkan *kunci* untuk setiap akun Anda dan untuk mengatur pilihan **OTR** yang spesifik. Tab *Known fingerprints* mengandung kunci rahasia dari teman-teman Anda. Anda juga harus memiliki sebuah kunci untuk setiap *buddy* yang dengannya Anda ingin bicara secara pribadi.\r\n\r\n![](/sbox/screen/pidgin-en/43.png)\r\n\r\n*Gambar 3: Layar Off-the-Record Messaging menunjukkan tab Config*\r\n\r\n**Langkah 1**. Untuk mengoptimalkan privasi Anda, centang *Enable private messaging (Nyalakan percakapan pribadi)*, *Automaticall intiate privat message (Lakukan percakapan pribadi secara otomatis)* dan *Don\u2019t log OTR conversations (Jangan masuk dalam percakapan OTR)* di tab *Config* seperti yang ditunjukkan di *Gambar 3* diatas.\r\n\r\n**Langkah 2. Klik** ![](/sbox/screen/pidgin-en/44.png) untuk memulai pembuatan kunci rahasia Anda; sebuah layar akan muncul, memberitahu Anda bahwa kunci rahasia sedang dibuat:\r\n\r\n![](/sbox/screen/pidgin-en/45.png)\r\n\r\n*Gambar 4: Boks konfirmasi Generating private key*\r\n\r\n**Catatan**: *Buddy* Anda harus melakukan hal yang sama dengan akunnya sendiri.\r\n \r\n**Langkah 3. Klik** ![](/sbox/screen/pidgin-en/37.png) setelah kunci rahasia (yang terlihat seperti ini), telah didapatkan:\r\n\r\n![](/sbox/screen/pidgin-en/46.png)\r\n\r\n*Gambar 5: contoh dari fingerprint sebuah kunci yang dihasilkan oleh program OTR*\r\n \r\n**Penting**: Anda telah menciptakan kunci rahasia untuk akun Anda. Ini akan digunakan untuk meng-*encrypt* percakapan Anda sehingga tidak ada orang lain yang dapat membacanya, walaupun mereka berhasil mengawasi sesi percakapan Anda. *Fingerprint* adalah sebuah kumpulan huruf dan angka yang panjang, yang digunakan untuk mengidentifikasi kunci sebuah akun tertentu, yang terlihat seperti *Gambar 5* diatas.\r\n\r\n**Pidgin** akan secara otomatis menyimpan dan mengesahkan *fingerprint* Anda, dan milik *buddy* Anda, agar Anda tidak harus mengingatnya.\r\n\r\n<a name=\"3.3\"></a>\r\n## 3.3 Langkah kedua - Cara mengesahkan sesi percakapan ##\r\n\r\n**Langkah 1. Klik dua kali** akun *buddy* Anda yang sedang online untuk memulai sesi percakapan baru. Apabila Anda berdua mempunyai **OTR** plugin terpasang dengan benar, Anda akan menyadari bahwa tombol **OTR** baru akan muncul di pojok kanan bawah dari window percakapan Anda.\r\n\r\n![](/sbox/screen/pidgin-en/47.png)\r\n\r\n*Gambar 6: Jendela pesan Pidgin menunjukkan ikon OTR dilingkari garis hitam*\r\n\r\n**Langkah 2. Klik** ![](/sbox/screen/pidgin-en/48.png) untuk mengaktifkan menu pop-up, lalu **pilih** item *Start private conversation (memulai percakapan pribadi)* seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/49.png)\r\n\r\n*Gambar 7: Menu pop-up dengan item Start Private conversation terpilih*\r\n\r\n*Jendela **Pidgin IM** Anda akan terlihat seperti ini:*\r\n\r\n![](/sbox/screen/pidgin-en/50.png)\r\n\r\n*Gambar 8: Jendela Pidgin IM menunjukkan tombol Unverified (belum terverifikasi)*\r\n \r\n**Catatan**: **Pidgin** akan secara otomatis memulai komunikasi dengan program **IM** *buddy* Anda dan mengambil pesan ketika Anda mencoba untuk menyalakan sesi percakapan yang aman dan rahasia. Hasilnya, tombol ![](/sbox/screen/pidgin-en/48.png) **OTR** berubah menjadi ![](/sbox/screen/pidgin-en/51.png),  menandakan bahwa Anda sekarang dapat meng-encrypt percakapan Anda dengan *buddy* Anda.\r\n\r\n**Peringatan!** Walaupun percakapan ini aman, identitas dari *buddy* Anda belum disahkan. Hati-hati: *Buddy* Anda bisa jadi seseorang yang *berpura-pura* menjadi teman Anda.\r\n\r\n<a name=\"3.4\"></a>\r\n## 3.4 Langkah ketiga - Cara mengesahkan identifikasi koresponden/teman *chat* Anda ##\r\n\r\nAnda dapat menggunakan tiga metode idetifikasi untuk mengesahkan *buddy* **Pidgin** Anda; Anda dapat menggunakan 1). Kode kata atau kalimat rahasia yang sudah dirancang sebelumnya, 2). Membuat pertanyaan yang jawabannya hanya diketahui Anda berdua atau 3) Secara manual mem-verifikasi *fingerprints* kunci rahasia Anda menggunakan metode komunikasi yang lain.\r\n\r\n### Metode Kode Kata atau Kalimat Rahasia ###\r\n\r\nAnda dapat mengatur kode berupa kalimat atau kata sebelumnya, dengan bertemu dengan buddy Anda atau menggunakan media komunikasi lain (seperti telepon atau **Skype** atau SMS). Ketika Anda telah mengetik kode yang sama, sesi Anda akan disahkan.\r\n\r\n**Catatan**: Fitur yang mengenali kode rahasia **OTR** sangatlah sensitif. Ini berarti, fitur ini dapat mengenali perbedaan antara huruf kapital (A,B,C) dan huruf kecil. Ingatlah hal ini ketika sedang menciptakan kode rahasia!\r\n\r\n**Langkah 1. Klik** tombol *OTR* di di jendela *chat*, lalu **pilih** item *Authenticate Buddy* seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/52.png)\r\n\r\n*Gambar 9: Menu Unverified muncul dengan item Authenticate buddy terpilih*\r\n\r\nIni akan mengaktifkan jendela *Authenticate Buddy*, meminta Anda untuk memilih metode pengesahan.\r\n\r\n**Langkah 2. Klik** ![](/sbox/screen/pidgin-en/53.png lalu **pilih** *Shared Secret* seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/54.png)\r\n\r\n*Gambar 10: Layar Autheticate Buddy dengan daftar drop-down ditunjukkan*\r\n\r\n**Langkah 3. Masukkan** kode rahasia seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/55.png)\r\n\r\nGambar 11: Layar Shared Secret*\r\n\r\n**Langkah 4. Klik** ![](/sbox/screen/pidgin-en/56.png) untuk mengaktifkan layar berikut:\r\n\r\n![](/sbox/screen/pidgin-en/58.png)\r\n\r\n*Gambar 12: Jendela Authenticate Buddy untuk koresponden fiksi*\r\n\r\n**Catatan**: *Pada tahap ini, buddy Anda akan melihat jendela yang sama seperti Gambar 13 dan harus memasukkan kode yang sama. Apabila cocok, sesi Anda akan disahkan*.\r\n\r\n![](/sbox/screen/pidgin-en/57.png)\r\n\r\n*Gambar 13: Jendela Authenticate Buddy untuk koresponden fiksi*\r\n\r\nSetelah sesi disahkan, tombol *OTR* akan berubah menjadi ![](/sbox/screen/pidgin-en/51.png). Sesi Anda sekarang aman dan Anda dapat yakin bahwa Anda berbicara dengan *buddy* Anda.\r\n\r\n### Metode Pertanyaan dan Jawaban ###\r\n\r\nSatu lagi metode pengesahan satu sama lain ialah metode pertanyaan dan jawaban. Ciptakan sebuah pertanyaan dan jawaban. Setelah membaca pertanyaan, *buddy* Anda harus menjawab pertanyaan dengan *persis*, apabila jawabannya cocok dengan jawaban Anda, identitas Anda berdua akan langsung disahkan.\r\n\r\n**Langkah 1. Klik** menu *OTR* di jendela pesan aktif untuk mengaktifkan menu pop-up yang berhubungan, lalu **pilih** item *Authenticate Buddy* (silahkan merujuk pada *Gambar 9*).\r\n\r\n![](/sbox/screen/pidgin-en/59.png)\r\n\r\n*Gambar 14: Jendela Pidgin Chat menunjukkan ikon OTR*\r\n\r\nJendela *Authenticate Buddy* akan muncul, meminta Anda memilih metode pengesahan.\r\n  \r\n**Langkah 2. Klik** menu lalu **pilih** item *Question and Answer* seperti berikut:\r\n\r\n![](/sbox/screen/pidgin-en/60.png)\r\n\r\n*Gambar 15: Layar Authenticate Buddy*\r\n\r\n**Langkah 3. Masukkan** pertanyaan dan jawabannya. Pertanyaan ini akan dikirim ke *buddy* Anda.\r\n\r\n![](/sbox/screen/pidgin-en/61.png)\r\n\r\n*Gambar 16: Layar Questions and Answer*\r\n\r\nApabila jawaban *buddy* cocok dengan jawaban Anda, berarti Anda dan *buddy* Anda telah saling melakukan verifikasi, dan identitas kedua pihak adalah benar-benar seperti yang mereka akui!\r\n\r\nKetika sesi percakapan telah disahkan, tombol **OTR** akan berubah menjadi ![](/sbox/screen/pidgin-en/51.png). Sesi Anda sekarang aman dan Anda dapat yakin dengan identitas teman *chat* Anda.\r\n\r\nPerhatikan, ketika Anda melakukan **Select > Buddy List > Tools > Plugins > Off the Record Messaging > configure Plugin**, tab **Known fingerpints (fingerprints/sidik jari dikenali)* sekarang ditunjukkan di akun *buddy* Anda, dan sebuah pesan bahwa identitas mereka sudah diverifikasi.\r\n\r\n![](/sbox/screen/pidgin-en/62.png)\r\n\r\n*Gambar 17: Layar Off-the Record menunjukkan tab Known Fingerprints*\r\n\r\nSelamat! Anda sekarang dapat melakukan percakapan secara rahasia. Ketika Anda dan buddy Anda akan melakukan percakapan lagi (dengan komputer yang sama), Anda dapat melewati langkah kesatu dan kedua, diatas. Anda hanya harus melakukan permintaan untuk koneksi yang aman dan buddy Anda hanya harus menerimanya/menyetujuinya."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2041", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2041", 
+                "link_title": "How to Use OTR to Initiate a Secure Messaging Session in Pidgin", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5187", 
+                "module": "book", 
+                "nid": "2041", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5185", 
+                "p3": "5187", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5185", 
+                "router_path": "node/%", 
+                "title": "How to Use OTR to Initiate a Secure Messaging Session in Pidgin", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1456951367", 
+            "comment": "0", 
+            "created": "1441120761", 
+            "current_revision_id": "13464", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "pidgin_tentangpidgindanotr", 
+                        "value": "pidgin_tentangpidgindanotr"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5187": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2041", 
+                    "link_title": "How to Use OTR to Initiate a Secure Messaging Session in Pidgin", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5187", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5185", 
+                    "p3": "5187", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5185", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2041", 
+            "num_revisions": "18", 
+            "path": "https://securityinabox.org/en/pidgin_securechat", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456951367", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Cara Menggunakan OTR untuk Memulai Sesi Percakapan yang Aman di Pidgin", 
+                        "value": "Cara Menggunakan OTR untuk Memulai Sesi Percakapan yang Aman di Pidgin"
+                    }
+                ]
+            }, 
+            "title_original": "How to Use OTR to Initiate a Secure Messaging Session in Pidgin", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442932417", 
+                        "created": "1442932417", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2041", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442396761", 
+                        "created": "1442396740", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2041", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442497987", 
+                        "created": "1442497934", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2041", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442324892", 
+                        "created": "1441630704", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2041", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442845940", 
+                        "created": "1442845940", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2041", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1456951367", 
+                        "created": "1444660205", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2041", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "my": {
+                        "changed": "1443621123", 
+                        "created": "1443621123", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2041", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279150", 
+                        "created": "1441279150", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2041", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444179985", 
+                        "created": "1444179985", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2041", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021280", 
+                        "created": "1443021280", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2041", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833714", 
+                        "created": "1444728779", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2041", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441120761", 
+                        "created": "1441120761", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2041", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445443502", 
+                        "created": "1445443502", 
+                        "entity_id": "2041", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2041", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "01dc83ee-8d10-4cf0-add2-c9dd0a538337", 
+            "vid": "13464", 
+            "vuuid": "7f916cc4-6750-46b1-b946-53da476cbea7"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<h2>1.0 Perbedaan antara versi yang di Install dan Portabel dari Portabel Pidgin</h2>\n\n<p>Mengingat bahwa alat portabel <em>tidak</em> di instal pada komputer lokal, keberadaan mereka dan penggunaannya mungkin tidak terdeteksi. Namun, perlu diingat bahwa perangkat eksternal atau USB stick memori, dan alat-alat portabel Anda hanya aman seperti komputer yang Anda gunakan, dan berisiko terkena <em>adware, spyware, malware</em>, dan <em>virus</em>.</p>\n\n<p>Tidak ada perbedaan lain antara <em>Pidgin Portabel</em> dan versi yang dirancang untuk di instal pada komputer lokal.</p>\n\n<h2>2.0 Cara Download dan Ekstrak Pidgin Portabel</h2>\n\n<p>Untuk mulai <em>Download</em> dan Ekstrak <strong>Pidgin Portabel</strong>, ikuti langkah-langkah berikut:</p>\n\n<p><strong>Langkah 1</strong>. <strong>Klik</strong> <a href=\"http://portableapps.com/apps/internet/pidgin_portable\"><strong>http://portableapps.com/apps/internet/pidgin_portable</strong></a> untuk diarahkan langsung pada situs <em>download</em> yang tepat.</p>\n\n<p><strong>Langkah 2</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/pidginportable-en/01.png\" alt=\"\" /> untuk mengaktifkan halaman <em>download</em> <strong>Source Forge</strong>.</p>\n\n<p><strong>Langkah 3</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/pidginportable-en/02.png\" alt=\"\" /> untuk menyimpan <img src=\"/sbox/screen/pidginportable-en/03.png\" alt=\"\" /> file instalasi pada komputer Anda; kemudian <strong>arahkan</strong> kesana.</p>\n\n<p><strong>Langkah 4</strong>. <strong>Klik dua kali</strong> <img src=\"/sbox/screen/pidginportable-en/03.png\" alt=\"\" />; kotak dialog <em>Open File - Security Warning</em> akan muncul. Jika tidak, <strong>klik</strong> <img src=\"/sbox/screen/pidginportable-en/04.png\" alt=\"\" /> untuk mengaktifkan layar berikut:</p>\n\n<p><img src=\"/sbox/screen/pidginportable-en/05.png\" alt=\"\" /></p>\n\n<p><em>Gambar 1: Jendela Language Installer window</em></p>\n\n<p><strong>Langkah 5</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/pidginportable-en/06.png\" alt=\"\" /> untuk mengaktifkan layar berikut:</p>\n\n<p><img src=\"/sbox/screen/pidginportable-en/07.png\" alt=\"\" /></p>\n\n<p><em>Gambar 2: Jendela Portabel Pidgin | PortableApps.com</em></p>\n\n<p><strong>Langkah 6</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/pidginportable-en/08.png\" alt=\"\" /> untuk mengaktifkan layar berikut:</p>\n\n<p><img src=\"/sbox/screen/pidginportable-en/09.png\" alt=\"\" /></p>\n\n<p><em>Gambar 3: Jendela Choose Components</em></p>\n\n<p><strong>Catatan</strong>: <strong>Klik</strong> untuk mengaktifkan opsi <img src=\"/sbox/screen/pidginportable-en/10.png\" alt=\"\" />,dan termasuk dukungan multibahasa jika Anda lebih memilih untuk menggunakan <strong>Pidgin Portabel</strong> dalam bahasa lain selain bahasa Inggris. Mengaktifkan opsi ini akan memakan waktu ekstraksi yang sedikit lebih lama.</p>\n\n<p><strong>Langkah 7</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/pidginportable-en/08.png\" alt=\"\" /> untuk mengaktifkan jendela <em>Choose Install Location</em> , kemudian <strong>klik</strong> <img src=\"/sbox/screen/pidginportable-en/11.png\" alt=\"\" /> untuk mengaktifkan layar berikut:</p>\n\n<p><img src=\"/sbox/screen/pidginportable-en/12.png\" alt=\"\" /></p>\n\n<p><em>Gambar 4: Jendela Browse for Folder</em></p>\n\n<p><strong>Langkah 8</strong>. <strong>Arahkan</strong> ke perangkat eksternal atau USB memori stik tujuan Anda, <strong>select</strong>  dan kemudian <strong>klik</strong> <img src=\"/sbox/screen/pidginportable-en/13.png\" alt=\"\" /> untuk konfirmasi lokasinya, dan kembali ke jendela <em>Choose Install Location</em>.</p>\n\n<p><strong>Langkah 9</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/pidginportable-en/14.png\" alt=\"\" /> untuk mulai ekstraksi <strong>Pidgin Portabel</strong> pada folder yang spesifik; kemudian <strong>klik</strong> <img src=\"/sbox/screen/pidginportable-en/15.png\" alt=\"\" /> untuk menyelesaikan proses instalasi.</p>\n\n<p><strong>Langkah 10</strong>. <strong>Arahkan</strong> pada perangkat eksternal atau USB memori stik tujuan anda, seperti yang terlihat pada  <em>Gambar 5</em> di bawah ini, kemudian <strong>open</strong> itu untuk konfirmasi bahwa program <strong>Pidgin Portabel</strong> sukses di ekstrak. \n<img src=\"/sbox/screen/pidginportable-en/16.png\" alt=\"\" /></p>\n\n<p><em>Gambar 5: Jendela Browse for Folder</em></p>\n\n<p>Sebelum anda memulai menggunakan <strong>Pidgin Portabel</strong> dengan cara yang aman dan terjamin, terlebih dahulu anda harus men-<em>download</em> dan ekstrak <em>plugin</em> portabel pelengkap <strong>Off-the-Record</strong> (<strong>OTR</strong>).</p>\n\n<h2>3.0 Cara Download dan Ekstrak Pidgin OTR Portabel</h2>\n\n<p><strong>Langkah 1</strong>. <strong>Klik</strong> <a href=\"http://sourceforge.net/projects/portableapps/files/Pidgin-OTR%20Portable/Pidgin-OTR%20Portable%203.2%20Rev%202/\"><strong>http://sourceforge.net/projects/portableapps/files/Pidgin-OTR%20Portable/Pidgin-OTR%20Portable%203.2%20Rev%202/</strong></a> untuk diarahkan pada situs yang tepat.</p>\n\n<p><strong>Langkah 2</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/pidginportable-en/17.png\" alt=\"\" /> untuk mengaktifkan <em>Pidgin-OTR_Portable_3.2_Rev_2.paf.exe</em> jendela download, kemudian <strong>klik</strong> <img src=\"/sbox/screen/pidginportable-en/02.png\" alt=\"\" /> untuk menyimpan \n<img src=\"/sbox/screen/pidginportable-en/18.png\" alt=\"\" /> file instalasi pada komputer Anda.</p>\n\n<p><strong>Langkah 3</strong>. <strong>Klik dua kali</strong> <img src=\"/sbox/screen/pidginportable-en/18.png\" alt=\"\" /> sampai kotak dialog <em>Open File - Security Warning</em> muncul. jika ya, <strong>klik</strong> <img src=\"/sbox/screen/pidginportable-en/04.png\" alt=\"\" /> untuk mengaktifkan jendela <em>Installer Language</em> (silahkan lihat pada <em>Gambar 1</em>).</p>\n\n<p><strong>langkah 4</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/pidginportable-en/06.png\" alt=\"\" /> untuk mengaktifkan jendela <em>Pidgin-OTR Portable | PortableApps.com</em>  (Silahkan lihat pada <em>Gambar 2</em> yang menyerupai).</p>\n\n<p><strong>langkah 5</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/pidginportable-en/08.png\" alt=\"\" /> untuk mengaktifkan jendela <em>Choose Install Location</em> (silahkan lihat pada <em>Gambar 3</em> di atas yang menyerupai).</p>\n\n<p><strong>Langkah 6</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/pidginportable-en/11.png\" alt=\"\" /> untuk mengaktifkan jendela <em>Browse for Folder</em> (Silahkan lihat <em>Gambar 4</em> diatas).</p>\n\n<p><strong>Langkah 7</strong>. <strong>Arahkan</strong> ke perangkat eksternal atau USB memori stik tujuan anda, <strong>select</strong> kemudian <strong>klik</strong> <img src=\"/sbox/screen/pidginportable-en/13.png\" alt=\"\" /> untuk konfirmasi lokasi nya, dan kembali ke jendela <em>Choose Install Location</em>.</p>\n\n<p><strong>Langkah 8</strong>. <strong>Klik</strong> <img src=\"/sbox/screen/pidginportable-en/14.png\" alt=\"\" /> untuk mulai ekstraksi  <strong>Pidgin Portabel</strong> ke folder spesifik; <strong>klik</strong> <img src=\"/sbox/screen/pidginportable-en/15.png\" alt=\"\" /> untuk menyelesaikan proses instalasi.</p>\n\n<p><strong>Langkah 9</strong>. <strong>Arahkan</strong> ke perangkat eksternal atau USB memori stik tujuan Anda, seperti yang terlihat pada <em>Gambar 5</em> di atas, kemudian <strong>open</strong> folder program <strong>Pidgin Portabel</strong> .</p>\n\n<p><strong>Langkah 10</strong>. <strong>Klik dua kali</strong> <img src=\"/sbox/screen/pidginportable-en/19.png\" alt=\"\" /> untuk meluncurkan <strong>Pidgin Portabel</strong>.</p>\n\n<p>Silahkan lihat bab <a href=\"/id/pidgin\"><strong>Pidgin</strong></a> untuk memulai konfigurasi dan menggunakannya.</p>\n", 
+                        "summary": "", 
+                        "value": "## 1.0 Perbedaan antara versi yang di Install dan Portabel dari Portabel Pidgin ##\r\n\r\nMengingat bahwa alat portabel *tidak* di instal pada komputer lokal, keberadaan mereka dan penggunaannya mungkin tidak terdeteksi. Namun, perlu diingat bahwa perangkat eksternal atau USB stick memori, dan alat-alat portabel Anda hanya aman seperti komputer yang Anda gunakan, dan berisiko terkena *adware, spyware, malware*, dan *virus*.\r\n\r\n\r\nTidak ada perbedaan lain antara *Pidgin Portabel* dan versi yang dirancang untuk di instal pada komputer lokal.\r\n\r\n\r\n## 2.0 Cara Download dan Ekstrak Pidgin Portabel ##\r\n\r\nUntuk mulai *Download* dan Ekstrak **Pidgin Portabel**, ikuti langkah-langkah berikut:\r\n\r\n**Langkah 1**. **Klik** [**http://portableapps.com/apps/internet/pidgin_portable**](http://portableapps.com/apps/internet/pidgin_portable) untuk diarahkan langsung pada situs *download* yang tepat.\r\n\r\n**Langkah 2**. **Klik** ![](/sbox/screen/pidginportable-en/01.png) untuk mengaktifkan halaman *download* **Source Forge**.\r\n\r\n**Langkah 3**. **Klik** ![](/sbox/screen/pidginportable-en/02.png) untuk menyimpan ![](/sbox/screen/pidginportable-en/03.png) file instalasi pada komputer Anda; kemudian **arahkan** kesana.\r\n\r\n**Langkah 4**. **Klik dua kali** ![](/sbox/screen/pidginportable-en/03.png); kotak dialog *Open File - Security Warning* akan muncul. Jika tidak, **klik** ![](/sbox/screen/pidginportable-en/04.png) untuk mengaktifkan layar berikut:\r\n\r\n![](/sbox/screen/pidginportable-en/05.png)\r\n\r\n*Gambar 1: Jendela Language Installer window*\r\n\r\n**Langkah 5**. **Klik** ![](/sbox/screen/pidginportable-en/06.png) untuk mengaktifkan layar berikut:\r\n\r\n![](/sbox/screen/pidginportable-en/07.png)\r\n\r\n*Gambar 2: Jendela Portabel Pidgin | PortableApps.com*\r\n\r\n**Langkah 6**. **Klik** ![](/sbox/screen/pidginportable-en/08.png) untuk mengaktifkan layar berikut:\r\n\r\n![](/sbox/screen/pidginportable-en/09.png)\r\n\r\n*Gambar 3: Jendela Choose Components*\r\n\r\n**Catatan**: **Klik** untuk mengaktifkan opsi ![](/sbox/screen/pidginportable-en/10.png),dan termasuk dukungan multibahasa jika Anda lebih memilih untuk menggunakan **Pidgin Portabel** dalam bahasa lain selain bahasa Inggris. Mengaktifkan opsi ini akan memakan waktu ekstraksi yang sedikit lebih lama. \r\n\r\n**Langkah 7**. **Klik** ![](/sbox/screen/pidginportable-en/08.png) untuk mengaktifkan jendela *Choose Install Location* , kemudian **klik** ![](/sbox/screen/pidginportable-en/11.png) untuk mengaktifkan layar berikut:\r\n\r\n![](/sbox/screen/pidginportable-en/12.png)\r\n\r\n*Gambar 4: Jendela Browse for Folder*\r\n\r\n**Langkah 8**. **Arahkan** ke perangkat eksternal atau USB memori stik tujuan Anda, **select**  dan kemudian **klik** ![](/sbox/screen/pidginportable-en/13.png) untuk konfirmasi lokasinya, dan kembali ke jendela *Choose Install Location*. \r\n\r\n**Langkah 9**. **Klik** ![](/sbox/screen/pidginportable-en/14.png) untuk mulai ekstraksi **Pidgin Portabel** pada folder yang spesifik; kemudian **klik** ![](/sbox/screen/pidginportable-en/15.png) untuk menyelesaikan proses instalasi.\r\n\r\n**Langkah 10**. **Arahkan** pada perangkat eksternal atau USB memori stik tujuan anda, seperti yang terlihat pada  *Gambar 5* di bawah ini, kemudian **open** itu untuk konfirmasi bahwa program **Pidgin Portabel** sukses di ekstrak. \r\n![](/sbox/screen/pidginportable-en/16.png)\r\n\r\n*Gambar 5: Jendela Browse for Folder*\r\n\r\nSebelum anda memulai menggunakan **Pidgin Portabel** dengan cara yang aman dan terjamin, terlebih dahulu anda harus men-*download* dan ekstrak *plugin* portabel pelengkap **Off-the-Record** (**OTR**). \r\n\r\n\r\n## 3.0 Cara Download dan Ekstrak Pidgin OTR Portabel ##\r\n\r\n**Langkah 1**. **Klik** [**http://sourceforge.net/projects/portableapps/files/Pidgin-OTR%20Portable/Pidgin-OTR%20Portable%203.2%20Rev%202/**](http://sourceforge.net/projects/portableapps/files/Pidgin-OTR%20Portable/Pidgin-OTR%20Portable%203.2%20Rev%202/) untuk diarahkan pada situs yang tepat.\r\n\r\n**Langkah 2**. **Klik** ![](/sbox/screen/pidginportable-en/17.png) untuk mengaktifkan *Pidgin-OTR_Portable_3.2_Rev_2.paf.exe* jendela download, kemudian **klik** ![](/sbox/screen/pidginportable-en/02.png) untuk menyimpan \r\n![](/sbox/screen/pidginportable-en/18.png) file instalasi pada komputer Anda.\r\n\r\n**Langkah 3**. **Klik dua kali** ![](/sbox/screen/pidginportable-en/18.png) sampai kotak dialog *Open File - Security Warning* muncul. jika ya, **klik** ![](/sbox/screen/pidginportable-en/04.png) untuk mengaktifkan jendela *Installer Language* (silahkan lihat pada *Gambar 1*).\r\n\r\n**langkah 4**. **Klik** ![](/sbox/screen/pidginportable-en/06.png) untuk mengaktifkan jendela *Pidgin-OTR Portable | PortableApps.com*  (Silahkan lihat pada *Gambar 2* yang menyerupai).\r\n\r\n**langkah 5**. **Klik** ![](/sbox/screen/pidginportable-en/08.png) untuk mengaktifkan jendela *Choose Install Location* (silahkan lihat pada *Gambar 3* di atas yang menyerupai).\r\n\r\n**Langkah 6**. **Klik** ![](/sbox/screen/pidginportable-en/11.png) untuk mengaktifkan jendela *Browse for Folder* (Silahkan lihat *Gambar 4* diatas). \r\n\r\n**Langkah 7**. **Arahkan** ke perangkat eksternal atau USB memori stik tujuan anda, **select** kemudian **klik** ![](/sbox/screen/pidginportable-en/13.png) untuk konfirmasi lokasi nya, dan kembali ke jendela *Choose Install Location*.\r\n\r\n**Langkah 8**. **Klik** ![](/sbox/screen/pidginportable-en/14.png) untuk mulai ekstraksi  **Pidgin Portabel** ke folder spesifik; **klik** ![](/sbox/screen/pidginportable-en/15.png) untuk menyelesaikan proses instalasi.\r\n\r\n**Langkah 9**. **Arahkan** ke perangkat eksternal atau USB memori stik tujuan Anda, seperti yang terlihat pada *Gambar 5* di atas, kemudian **open** folder program **Pidgin Portabel** .\r\n\r\n**Langkah 10**. **Klik dua kali** ![](/sbox/screen/pidginportable-en/19.png) untuk meluncurkan **Pidgin Portabel**.\r\n\r\nSilahkan lihat bab [**Pidgin**](/id/pidgin) untuk memulai konfigurasi dan menggunakannya."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2043", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2043", 
+                "link_title": "\u1021\u102d\u1010\u1039\u1031\u1006\u102c\u1004\u1039 Pidgin \u1014\u1032\u1094 OTR", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5189", 
+                "module": "book", 
+                "nid": "2043", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5185", 
+                "p3": "5189", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5185", 
+                "router_path": "node/%", 
+                "title": "\u1021\u102d\u1010\u1039\u1031\u1006\u102c\u1004\u1039 Pidgin \u1014\u1032\u1094 OTR", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1452173161", 
+            "comment": "0", 
+            "created": "1441121035", 
+            "current_revision_id": "12745", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "PidginandOTRPortabel", 
+                        "value": "PidginandOTRPortabel"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5189": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2043", 
+                    "link_title": "\u1021\u102d\u1010\u1039\u1031\u1006\u102c\u1004\u1039 Pidgin \u1014\u1032\u1094 OTR", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5189", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5185", 
+                    "p3": "5189", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5185", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2043", 
+            "num_revisions": "16", 
+            "path": "https://securityinabox.org/en/pidgin_portable", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452173161", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Pidgin and OTR Portabel", 
+                        "value": "Pidgin and OTR Portabel"
+                    }
+                ]
+            }, 
+            "title_original": "Portable Pidgin and OTR", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442932498", 
+                        "created": "1442932498", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442398855", 
+                        "created": "1442398855", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442498076", 
+                        "created": "1442498076", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442324983", 
+                        "created": "1441630904", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444816711", 
+                        "created": "1444816711", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1452173161", 
+                        "created": "1443621213", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279413", 
+                        "created": "1441279413", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444180137", 
+                        "created": "1444180137", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021393", 
+                        "created": "1443021393", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833765", 
+                        "created": "1444728979", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441121035", 
+                        "created": "1441121035", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445517478", 
+                        "created": "1445517478", 
+                        "entity_id": "2043", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "cca081ae-915c-43d7-8fb2-45b590ce6e32", 
+            "vid": "12745", 
+            "vuuid": "a650c258-7371-4aa3-898e-03d3ca5d8cf2"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p><a name=\"6.0\" id=\"6.0\"></a></p>\n\n<h2>5.0 Tanya-Jawab dan Ulasan</h2>\n\n<p>Claudia dan Pablo sudah berhasil memasang dan mengatur <strong>Pidgin</strong> dan <strong>OTR</strong>. Keduanya telah mengambil waktu dua jam untuk melakukan eksplorasi dari fitur dan pilihan yang berbeda, dan mencoba melakukan percakapan antar mereka menggunakan <strong>Google Talk</strong> dan akun lainnya yang dapat dijalankan oleh <strong>Pidgin</strong>.</p>\n\n<p>Namun, Pablo masih mempunyai pertanyaan tentang <strong>Pidgin-OTR</strong></p>\n\n<div class=\"background\">\n\n<p><em><strong>T</strong>: Dapatkan saya menggunakan <strong>Pidgin-OTR</strong> untuk bercakap dengan teman-teman di <strong>MSN</strong> dan <strong>Yahoo</strong>?</em></p>\n\n<p><em><strong>J</strong>: Walaupun <strong>Pidgin-OTR</strong> dapat menjalankan bermacam layanan percakapan, Anda tetap harus menggunakan penyedia yang sama ketika memulai percakapan dengan buddy Anda. Anda perlu mempunyai akun <strong>MSN</strong> atau <strong>Google Talk</strong>, sebagai contoh. Namun, di <strong>Pidgin</strong> Anda dapat mendaftarkan dan on-line dengan beberapa akun <strong>IM</strong> secara bersamaan. Itulah gunanya menggunakan multi-protokol <strong>IM</strong>.</em></p>\n\n<p><em><strong>T</strong>: Bagaimana saya mengakses akun <strong>Pidgin-OTR</strong> di komputer lain?</em></p>\n\n<p><em><strong>J</strong>: Anda harus mendapatkan kunci rahasia yang baru untuk digunakan dengan akun percakapan di komputer tersebut. Anda dapat memulai percakapan dengan buddy Anda menggunakan kunci ini, tapi Anda harus mengesahkan sesi Anda kembali.</em></p>\n\n<p><em><strong>T</strong>: Bagaimana kalau saya lupa password login untuk akun <strong>IM</strong> saya? Atau bagaimana jika seseorang mencurinya? Apakah mereka mempunyai akses ke percakapan terdahulu dan yang akan datang?</em></p>\n\n<p><em><strong>J</strong>: Pablo, ini merupakan pertanyaan sangat penting dan <strong>bagus</strong>. Pertama, apabila Anda lupa password Anda, Anda akan harus membuat akun <strong>IM</strong> yang baru. Setelah itu, Anda harus menginformasikan buddy Anda tentang akun baru tersebut dengan melalui telepon, <strong>Skype</strong>, atau email yang aman.</em></p>\n\n<p><em>Terakhir, Anda harus saling mengesahkan sebagai buddies. Apabila seseorang telah mendapatkan password Anda, berarti orang tersebut dapat memcoba berpura-pura menjadi Anda ketika menggunakan <strong>Pidgin</strong>. Untungnya, dia tidak akan bisa memulai sesi yg tanpa kode yang telah disepakati oleh Anda dan buddy Anda. Dan buddy Anda akan menjadi curiga. Itulah mengapa pengesahan <strong>sangat penting</strong>. Terlebih lagi, apabila Anda mengikuti instruksi di atas dan mengatur pilihan yang disarankan di tab 'Config' <strong>OTR</strong>, maka seseorang yang mencuri password Anda tidak akan bisa mengakses percakapan terdahulu Anda, karena Anda memilih untuk tidak merekamnya.</em></p>\n\n</div>\n\n<p><a name=\"5.1\" id=\"5.1\"></a></p>\n\n<h2>5.1 Pertanyaan Ulasan</h2>\n\n<ul><li><p>Berapa kali Anda perlu 'mengesahkan' sesi percakapan Anda dengan buddy Anda?</p></li>\n<li><p>Mungkinkah untuk mendaftar dan menggunakan beberapa akun <strong>IM</strong> di <strong>Pidgin</strong>?</p></li>\n<li><p>Apakah yang dimaksud dengan <em>fingerprint</em> di <strong>Pidgin</strong>?</p></li>\n<li><p>Apa yang akan terjadi pada pengaturan <strong>OTR</strong> Anda (termasuk kunci <em>fingerprints</em> yang diterima) ketika Anda memasang <strong>Pidgin-OTR</strong> di komputer lain?</p></li>\n<li><p>Apa yang diperlukan untuk memulai sesi percakapan yang rahasia dan otentik di <strong>Pidgin</strong>?</p></li>\n<li><p>Apa saja persyaratan untuk membuat akun di <strong>Pidgin</strong>?</p></li>\n</ul>", 
+                        "summary": "", 
+                        "value": "<a name=\"6.0\"></a>\r\n## 5.0 Tanya-Jawab dan Ulasan ##\r\n\r\nClaudia dan Pablo sudah berhasil memasang dan mengatur **Pidgin** dan **OTR**. Keduanya telah mengambil waktu dua jam untuk melakukan eksplorasi dari fitur dan pilihan yang berbeda, dan mencoba melakukan percakapan antar mereka menggunakan **Google Talk** dan akun lainnya yang dapat dijalankan oleh **Pidgin**. \r\n\r\nNamun, Pablo masih mempunyai pertanyaan tentang **Pidgin-OTR**\r\n\r\n<div class=\"background\" markdown=\"1\"> \r\n\r\n***T**: Dapatkan saya menggunakan **Pidgin-OTR** untuk bercakap dengan teman-teman di **MSN** dan **Yahoo**?*\r\n\r\n***J**: Walaupun **Pidgin-OTR** dapat menjalankan bermacam layanan percakapan, Anda tetap harus menggunakan penyedia yang sama ketika memulai percakapan dengan buddy Anda. Anda perlu mempunyai akun **MSN** atau **Google Talk**, sebagai contoh. Namun, di **Pidgin** Anda dapat mendaftarkan dan on-line dengan beberapa akun **IM** secara bersamaan. Itulah gunanya menggunakan multi-protokol **IM**.*\r\n\r\n***T**: Bagaimana saya mengakses akun **Pidgin-OTR** di komputer lain?*\r\n\r\n***J**: Anda harus mendapatkan kunci rahasia yang baru untuk digunakan dengan akun percakapan di komputer tersebut. Anda dapat memulai percakapan dengan buddy Anda menggunakan kunci ini, tapi Anda harus mengesahkan sesi Anda kembali.*\r\n\r\n***T**: Bagaimana kalau saya lupa password login untuk akun **IM** saya? Atau bagaimana jika seseorang mencurinya? Apakah mereka mempunyai akses ke percakapan terdahulu dan yang akan datang?*\r\n\r\n***J**: Pablo, ini merupakan pertanyaan sangat penting dan **bagus**. Pertama, apabila Anda lupa password Anda, Anda akan harus membuat akun **IM** yang baru. Setelah itu, Anda harus menginformasikan buddy Anda tentang akun baru tersebut dengan melalui telepon, **Skype**, atau email yang aman.*\r\n\r\n*Terakhir, Anda harus saling mengesahkan sebagai buddies. Apabila seseorang telah mendapatkan password Anda, berarti orang tersebut dapat memcoba berpura-pura menjadi Anda ketika menggunakan **Pidgin**. Untungnya, dia tidak akan bisa memulai sesi yg tanpa kode yang telah disepakati oleh Anda dan buddy Anda. Dan buddy Anda akan menjadi curiga. Itulah mengapa pengesahan **sangat penting**. Terlebih lagi, apabila Anda mengikuti instruksi di atas dan mengatur pilihan yang disarankan di tab 'Config' **OTR**, maka seseorang yang mencuri password Anda tidak akan bisa mengakses percakapan terdahulu Anda, karena Anda memilih untuk tidak merekamnya.*\r\n\r\n</div>\r\n\r\n<a name=\"5.1\"></a>\r\n## 5.1 Pertanyaan Ulasan ##\r\n\r\n- Berapa kali Anda perlu 'mengesahkan' sesi percakapan Anda dengan buddy Anda?\r\n\r\n- Mungkinkah untuk mendaftar dan menggunakan beberapa akun **IM** di **Pidgin**?\r\n\r\n- Apakah yang dimaksud dengan *fingerprint* di **Pidgin**?\r\n \r\n- Apa yang akan terjadi pada pengaturan **OTR** Anda (termasuk kunci *fingerprints* yang diterima) ketika Anda memasang **Pidgin-OTR** di komputer lain?\r\n\r\n- Apa yang diperlukan untuk memulai sesi percakapan yang rahasia dan otentik di **Pidgin**?\r\n\r\n- Apa saja persyaratan untuk membuat akun di **Pidgin**?"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2044", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2044", 
+                "link_title": "\u5e38\u89c1\u95ee\u9898\u4e0e\u56de\u987e", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5190", 
+                "module": "book", 
+                "nid": "2044", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5185", 
+                "p3": "5190", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5185", 
+                "router_path": "node/%", 
+                "title": "\u5e38\u89c1\u95ee\u9898\u4e0e\u56de\u987e", 
+                "updated": "0", 
+                "weight": "5"
+            }, 
+            "changed": "1445443634", 
+            "comment": "0", 
+            "created": "1441121080", 
+            "current_revision_id": "9567", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "pidgin_faq", 
+                        "value": "pidgin_faq"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5190": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2044", 
+                    "link_title": "\u5e38\u89c1\u95ee\u9898\u4e0e\u56de\u987e", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5190", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5185", 
+                    "p3": "5190", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5185", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "5"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2044", 
+            "num_revisions": "16", 
+            "path": "https://securityinabox.org/en/pidgin_faq", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1445443634", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Tanya-Jawab dan Ulasan", 
+                        "value": "Tanya-Jawab dan Ulasan"
+                    }
+                ]
+            }, 
+            "title_original": "FAQ and Review", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442932573", 
+                        "created": "1442932573", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442398982", 
+                        "created": "1442398982", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442498320", 
+                        "created": "1442498206", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441631023", 
+                        "created": "1441631023", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442846033", 
+                        "created": "1442846033", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444660387", 
+                        "created": "1444660387", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "my": {
+                        "changed": "1443621539", 
+                        "created": "1443621313", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279508", 
+                        "created": "1441279508", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444180348", 
+                        "created": "1444180348", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021422", 
+                        "created": "1443021422", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833806", 
+                        "created": "1444729037", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441121080", 
+                        "created": "1441121080", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445443634", 
+                        "created": "1445443634", 
+                        "entity_id": "2044", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "b56146e9-222e-4d0e-bbe7-e54e3b5108e6", 
+            "vid": "9567", 
+            "vuuid": "0f186a67-013a-4d7f-bf11-18903ee3a07f"
+        }
+    ], 
+    "changed": "1456951250", 
+    "comment": "0", 
+    "created": "1441120644", 
+    "current_revision_id": "13462", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "id": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Menginstal Pidgin and OTR</strong></p>\n\n<ul><li><em>Bacalah bagian <strong>Pengantar</strong> <a href=\"https://securityinabox.org/id/petunjukyangmembantu\"><strong>Petunjuk yang membantu</strong></a></em></li>\n<li>*<strong>Klik ikon Pidgin dan OTR di bawah</strong> kemudian Buka (Open) atau Jalankan (Run) installernya. Jika perlu, simpan installer di suatu folder, temukan kembali dan klik dua kali untuk menginstal. </li>\n<li><em>Bacalah instruksi pemasangan (Installation instructions) di bagian berikut sebelum Anda melanjutkan</em></li>\n<li><em>Jika Anda menyimpan installer di komputer Anda, Anda dapat menghapus file tersebut setelah instalasi berhasil dilakukan</em></li>\n</ul><p><strong>Pidgin</strong>:  <strong>OTR</strong>:<br /><a href=\"/sbox/programs/pidgin.exe\"><img src=\"/sites/securityinabox.org/files/u12/pidgin.png\" alt=\"\" /></a>\n<a href=\"/sbox/programs/pidgin-otr.exe\"><img src=\"/sites/securityinabox.org/files/u9/off_the_record.jpg\" alt=\"\" /></a></p>\n", 
+                "value": "**Menginstal Pidgin and OTR**\r\n\r\n- *Bacalah bagian **Pengantar** [**Petunjuk yang membantu**](https://securityinabox.org/id/petunjukyangmembantu)*\r\n- ***Klik ikon Pidgin dan OTR di bawah** kemudian Buka (Open) atau Jalankan (Run) installernya. Jika perlu, simpan installer di suatu folder, temukan kembali dan klik dua kali untuk menginstal. \r\n- *Bacalah instruksi pemasangan (Installation instructions) di bagian berikut sebelum Anda melanjutkan*\r\n- *Jika Anda menyimpan installer di komputer Anda, Anda dapat menghapus file tersebut setelah instalasi berhasil dilakukan*\r\n\r\n**Pidgin**:  **OTR**:  \r\n[![](/sites/securityinabox.org/files/u12/pidgin.png)](/sbox/programs/pidgin.exe)\r\n[![](/sites/securityinabox.org/files/u9/off_the_record.jpg)](/sbox/programs/pidgin-otr.exe)\r\n"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Menginstal Pidgin and OTR</strong></p>\n\n<ul><li><em>Bacalah  <a href=\"/id/petunjukyangmembantu\"><strong>Petunjuk yang membantu</strong></a> <strong>Kata Pengantar</strong>.</em></li>\n<li><em><strong>Klik</strong> ikon <strong>Pidgin</strong> di bawah ini untuk membuka laman <strong>www.pidgin.im/download/windows</strong></em></li>\n<li><em><strong>Klik</strong> link <strong>Download Pidgin for Windows</strong></em></li>\n<li><em><strong>Simpan</strong> installer program, <strong>temukan kembali</strong> dan <strong>klik dua kali</strong> installernya.</em> </li>\n<li><em><strong>Klik</strong> ikon <strong>OTR</strong> di bawah untuk membuka laman <strong>www.cypherpunks.ca/otr</strong></em></li>\n<li><em><strong>Klik</strong> link <strong>Win32 installer for pidgin</strong> di bagian <strong>OTR plugin for Pidgin</strong></em></li>\n<li><em><strong>Simpan</strong> installer program, <strong>temukan kembali</strong> dan <strong>klik dua kali</strong> installernya.</em></li>\n<li><em>Setelah <strong>Pidgin</strong> dan <strong>OTR</strong> berhasil diinstal, Anda dapat menghapus program installer dari komputer.</em></li>\n</ul><p><strong>Pidgin</strong>:  <strong>OTR</strong>:<br /><a href=\"http://www.pidgin.im/download/windows/\"><img src=\"/sites/securityinabox.org/files/u12/pidgin.png\" alt=\"\" /></a>\n<a href=\"http://www.cypherpunks.ca/otr/index.php#downloads\"><img src=\"/sites/securityinabox.org/files/u9/off_the_record.jpg\" alt=\"\" /></a></p>\n", 
+                "value": "**Menginstal Pidgin and OTR**\r\n\r\n- *Bacalah  [**Petunjuk yang membantu**](/id/petunjukyangmembantu) **Kata Pengantar**.*\r\n- ***Klik** ikon **Pidgin** di bawah ini untuk membuka laman **www.pidgin.im/download/windows***\r\n- ***Klik** link **Download Pidgin for Windows***\r\n- ***Simpan** installer program, **temukan kembali** dan **klik dua kali** installernya.* \r\n- ***Klik** ikon **OTR** di bawah untuk membuka laman **www.cypherpunks.ca/otr***\r\n- ***Klik** link **Win32 installer for pidgin** di bagian **OTR plugin for Pidgin***\r\n- ***Simpan** installer program, **temukan kembali** dan **klik dua kali** installernya.*\r\n- *Setelah **Pidgin** dan **OTR** berhasil diinstal, Anda dapat menghapus program installer dari komputer.*\r\n\r\n**Pidgin**:  **OTR**:  \r\n[![](/sites/securityinabox.org/files/u12/pidgin.png)](http://www.pidgin.im/download/windows/)\r\n[![](/sites/securityinabox.org/files/u9/off_the_record.jpg)](http://www.cypherpunks.ca/otr/index.php#downloads)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "Pidgin dan OTR - Pesan Instan ", 
+                "value": "Pidgin dan OTR - Pesan Instan "
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "Pidgin dan OTR - Pesan Instan (Instant Messaging) yang Aman", 
+                "value": "Pidgin dan OTR - Pesan Instan (Instant Messaging) yang Aman"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Pidgin</strong> adalah perangkat lunak gratis dan open source yang dapat Anda gunakan untuk mengatur dan merapikan akun-akun <strong>pesan instan selanjutnya disebut IM (<em>Instant Messaging</em>)</strong> Anda dengan satu interface. <strong>Off-the-Record (OTR)</strong> plug in didesain untuk digunakan dengan <strong>Pidgin</strong> dan mengamankan komunikasi antar pengguna <strong>Pidgin</strong>.</p>\n", 
+                "value": "**Pidgin** adalah perangkat lunak gratis dan open source yang dapat Anda gunakan untuk mengatur dan merapikan akun-akun **pesan instan selanjutnya disebut IM (*Instant Messaging*)** Anda dengan satu interface. **Off-the-Record (OTR)** plug in didesain untuk digunakan dengan **Pidgin** dan mengamankan komunikasi antar pengguna **Pidgin**."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-12 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "pidgin", 
+                "value": "pidgin"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "11"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "11"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5185": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2039", 
+            "link_title": "Pidgin with OTR - Secure Instant Messaging", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5185", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5185", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-5"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2039", 
+    "num_revisions": "31", 
+    "path": "https://securityinabox.org/en/pidgin_main", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1456951250", 
+    "revision_uid": "141", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "Pidgin dan OTR - Pesan Instan (Instant Messaging) yang Aman", 
+                "value": "Pidgin dan OTR - Pesan Instan (Instant Messaging) yang Aman"
+            }
+        ]
+    }, 
+    "title_original": "Pidgin with OTR - Secure Instant Messaging", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442932160", 
+                "created": "1442932160", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1456154132", 
+                "created": "1442396294", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442497769", 
+                "created": "1442497769", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1452519946", 
+                "created": "1441625289", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fr": {
+                "changed": "1442845681", 
+                "created": "1442845681", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1456951250", 
+                "created": "1444659916", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "km": {
+                "changed": "1452871743", 
+                "created": "1452871743", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443620905", 
+                "created": "1443620905", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441278398", 
+                "created": "1441278398", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444178998", 
+                "created": "1444178998", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1443016048", 
+                "created": "1443016048", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1456927457", 
+                "created": "1443525344", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1446134667", 
+                "created": "1441120644", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2039", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445443378", 
+                "created": "1445443378", 
+                "entity_id": "2039", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2039", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "231488d5-7ec3-4270-82ef-e14aef62ca93", 
+    "vid": "13462", 
+    "vuuid": "c2e0a539-0ee7-4197-98cd-a377b8dd66a0"
+}

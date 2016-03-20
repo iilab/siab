@@ -1,0 +1,4 @@
+***Human Rights Defender Testimonies***
+
+*"Cellphones are used a lot, especially text messages, and they've been used for cases against people who get arrested. If you are an activist, and you get arrested and your phone is taken away, they use your messages to build a case against you. Also civilians: sometimes if a relationship breaks up and one person does not want to let go, for example in a place like Cameroon... even if I'm a lesbian, and I go to the police and say “look at this person, she's a lesbian, she's been bothering me, look at these messages she's been sending me...”. They're gonna arrest the person, and they don't care about me. If you have money to pay them, especially. They won't look at what I sent to the person, but what the person sent me, and build a case."* -- Anonymous Human Rights Defender
+

@@ -1,0 +1,761 @@
+{
+    "body": {
+        "pt": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Site</strong></p>\n\n<ul><li><a href=\"https://jitsi.org/\"><strong>https://jitsi.org/</strong></a></li>\n</ul><p><strong>Esta ferramenta requer</strong></p>\n\n<ul><li>Qualquer vers\u00e3o do Windows, Mac OS X ou Linux </li>\n</ul><p><strong>Vers\u00e3o usada para este guia</strong></p>\n\n<ul><li>2.4</li>\n</ul><p><strong>\u00daltima revis\u00e3o deste cap\u00edtulo</strong></p>\n\n<ul><li>Janeiro de 2014</li>\n</ul><p><strong>Licen\u00e7a de uso</strong></p>\n\n<ul><li>Software livre e de c\u00f3digo aberto (FOSS)</li>\n</ul><p><strong>O que voc\u00ea pode fazer com o programa</strong>:</p>\n\n<ul><li>Usar um sistema integrado de comunica\u00e7\u00e3o privada e segura, o que inclui chamadas de v\u00eddeo.</li>\n<li>Criptografar suas conversas, independentemente do provedor do servi\u00e7o de comunica\u00e7\u00e3o.</li>\n<li>Criar e utilizar simultaneamente contas de diferentes servi\u00e7os, como <strong>Facebook</strong>, <strong>Google Talk/Hangouts</strong>, <strong>Yahoo! Messenger</strong>.</li>\n</ul><p><strong>GNU Linux, Mac OS e outros programas compat\u00edveis para Windows:</strong></p>\n\n<p>O <strong>Jitsi</strong> est\u00e1 dispon\u00edvel para <strong>GNU Linux</strong>, <strong>Mac OS</strong> e tamb\u00e9m para <strong>MS Windows</strong>. Em breve, estar\u00e1 tamb\u00e9m para <strong>Android OS</strong>. Outros programas com os quais o Jitsi consegue se comunicar usando as criptografias independentes <strong>OTR</strong> e <strong>ZRTP</strong> s\u00e3o recomendados abaixo:</p>\n\n<ul><li><p>Para <strong>conversas de texto</strong>: <a href=\"/pt/pidgin_main\"><strong>Pidgin</strong></a> (<strong>MS Windows</strong> e <strong>GNU Linux</strong>), <a href=\"http://www.miranda-im.org/\"><strong>Miranda</strong></a> (<strong>MS Windows</strong>), <a href=\"https://adium.im/\"><strong>Adium</strong></a> (<strong>Mac OS X</strong>) e <a href=\"https://guardianproject.info/apps/chatsecure/\"><strong>ChatSecure</strong></a> (<strong>Android OS</strong> e <strong>iOS</strong>, antes chamado <a href=\"/pt/Gibberbot_main\"><strong>Gibberbot</strong></a>) .</p></li>\n<li><p>Para <strong>chamadas de voz</strong>: <strong>CSipSimple</strong> (<strong>Android OS</strong>), <a href=\"http://www.linphone.org/\"><strong>Linphone</strong></a> (<strong>GNU Linux</strong>, <strong>MS Windows</strong>, <strong>Mac OS X</strong>, <strong>Android OS</strong>, <strong>iOS</strong> e outros).</p></li>\n</ul><h2>1.1 O que voc\u00ea precisa saber sobre a ferramenta antes de come\u00e7ar</h2>\n\n<p>O <strong>Jitsi</strong> suporta v\u00e1rios tipos de contas e diferentes protocolos de comunica\u00e7\u00e3o, podendo, com isso, se comunicar com interlocutores que utilizem programas distintos.</p>\n\n<p>Alguns desses programas, como os mencionados na se\u00e7\u00e3o anterior, podem oferecer funcionalidades similares de melhoria \u00e0 seguran\u00e7a da comunica\u00e7\u00e3o, com suporte a criptografia independente de texto e voz (<strong>OTR</strong> e <strong>ZRTP</strong>). Outros, especialmente os propriet\u00e1rios (como o <strong>Facebook Chat</strong> ou o <strong>Google Talk/Hangouts</strong>), n\u00e3o possuem essas funcionalidades extras de seguran\u00e7a. Com o <strong>Jitsi</strong>, voc\u00ea ainda poder\u00e1 se comunicar normalmente com contatos que utilizem programas propriet\u00e1rios; a diferen\u00e7a \u00e9 que os recursos extras de prote\u00e7\u00e3o n\u00e3o estar\u00e3o dispon\u00edveis.</p>\n\n<p>Independentemente de a comunica\u00e7\u00e3o ser por texto, fala ou v\u00eddeo, os provedores de servi\u00e7os como o <strong>Facebook Chat</strong>, <strong>Google Talk/Hangouts</strong>, <strong>Yahoo! Messenger</strong>, <strong>Skype</strong> ou <strong>Viber</strong> t\u00eam acesso \u00e0s suas sess\u00f5es de conversa e podem oferecer este acesso a terceiros, como corpora\u00e7\u00f5es e governos. O <strong>Jitsi</strong> permite que voc\u00ea se comunique de maneira privada e segura utilizando suas contas j\u00e1 existentes cobertas por uma nova camada de criptografia. Isso torna o conte\u00fado de sua comunica\u00e7\u00e3o inacess\u00edvel aos provedores dos servi\u00e7os e outros terceiros potenciais. Para proteger sess\u00f5es de conversa\u00e7\u00e3o, o <strong>Jitsi</strong> usa sistemas de criptografia como o <strong>Off-the-Record</strong> (<a href=\"/pt/glossary#OTR\"><strong>OTR</strong></a>) em mensagens de texto, e <strong>ZRTP/SRTP</strong> para chamadas por voz.</p>\n\n<p>Outra diferen\u00e7a not\u00e1vel entre o <strong>Jitsi</strong> e programas como o <strong>Skype</strong> \u00e9 que o <strong>Jitsi</strong> permite \u00e0s pessoas usar contas j\u00e1 existentes, de provedores de servi\u00e7os diferentes e independentes dos desenvolvedores do programa. Isso tamb\u00e9m significa que antes de poder utilizar o <strong>Jitsi</strong> \u00e9 preciso criar uma conta.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: o <strong>Jitsi</strong> utiliza a linguagem de programa\u00e7\u00e3o <strong>Java</strong>, portanto, \u00e9 necess\u00e1rio ter o aplicativo Java instalado no computador para que funcione corretamente. O <strong>Oracle Java</strong> \u00e9 conhecido por conter in\u00fameras vulnerabilidades de seguran\u00e7a, que podem permitir a algu\u00e9m assumir remotamente o controle de um computador e instalar spyware (programas espi\u00f5es) para acessar ou monitorar informa\u00e7\u00f5es e comunica\u00e7\u00f5es. \u00c9 <strong>altamente recomendado</strong> que voc\u00ea reduza o n\u00famero de programas capazes de utilizar Java em seu computador. Veja a se\u00e7\u00e3o <a href=\"/pt/firefox_addons#3.2\"><strong>Como desabilitar ou desinstalar complementos da Mozilla</strong></a> e siga o <a href=\"https://www.java.com/en/download/help/disable_browser.xml\"><strong>passo a passo para desativar o Java de todos os navegadores do seu computador</strong></a> (em ingl\u00eas). Entretanto, como voc\u00ea ver\u00e1 mais para frente neste cap\u00edtulo, apesar da ulitiza\u00e7\u00e3o do <strong>Java</strong> existem in\u00fameros benef\u00edcios de seguran\u00e7a em usar o <strong>Jitsi</strong>.</p>\n", 
+                "summary": "", 
+                "value": "**Site**\r\n\r\n- [**https://jitsi.org/**](https://jitsi.org/)\r\n\r\n**Esta ferramenta requer**\r\n\r\n- Qualquer vers\u00e3o do Windows, Mac OS X ou Linux \r\n\r\n**Vers\u00e3o usada para este guia**\r\n\r\n- 2.4\r\n\r\n**\u00daltima revis\u00e3o deste cap\u00edtulo**\r\n\r\n- Janeiro de 2014\r\n\r\n**Licen\u00e7a de uso**\r\n\r\n- Software livre e de c\u00f3digo aberto (FOSS)\r\n\r\n**O que voc\u00ea pode fazer com o programa**:\r\n\r\n- Usar um sistema integrado de comunica\u00e7\u00e3o privada e segura, o que inclui chamadas de v\u00eddeo.\r\n- Criptografar suas conversas, independentemente do provedor do servi\u00e7o de comunica\u00e7\u00e3o.\r\n- Criar e utilizar simultaneamente contas de diferentes servi\u00e7os, como **Facebook**, **Google Talk/Hangouts**, **Yahoo! Messenger**.\r\n\r\n**GNU Linux, Mac OS e outros programas compat\u00edveis para Windows:**\r\n\r\nO **Jitsi** est\u00e1 dispon\u00edvel para **GNU Linux**, **Mac OS** e tamb\u00e9m para **MS Windows**. Em breve, estar\u00e1 tamb\u00e9m para **Android OS**. Outros programas com os quais o Jitsi consegue se comunicar usando as criptografias independentes **OTR** e **ZRTP** s\u00e3o recomendados abaixo:\r\n\r\n- Para **conversas de texto**: [**Pidgin**](/pt/pidgin_main) (**MS Windows** e **GNU Linux**), [**Miranda**](http://www.miranda-im.org/) (**MS Windows**), [**Adium**](https://adium.im/) (**Mac OS X**) e [**ChatSecure**](https://guardianproject.info/apps/chatsecure/) (**Android OS** e **iOS**, antes chamado [**Gibberbot**](/pt/Gibberbot_main)) .\r\n\r\n- Para **chamadas de voz**: **CSipSimple** (**Android OS**), [**Linphone**](http://www.linphone.org/) (**GNU Linux**, **MS Windows**, **Mac OS X**, **Android OS**, **iOS** e outros).\r\n\r\n\r\n## 1.1 O que voc\u00ea precisa saber sobre a ferramenta antes de come\u00e7ar ##\r\n\r\nO **Jitsi** suporta v\u00e1rios tipos de contas e diferentes protocolos de comunica\u00e7\u00e3o, podendo, com isso, se comunicar com interlocutores que utilizem programas distintos.\r\n\r\nAlguns desses programas, como os mencionados na se\u00e7\u00e3o anterior, podem oferecer funcionalidades similares de melhoria \u00e0 seguran\u00e7a da comunica\u00e7\u00e3o, com suporte a criptografia independente de texto e voz (**OTR** e **ZRTP**). Outros, especialmente os propriet\u00e1rios (como o **Facebook Chat** ou o **Google Talk/Hangouts**), n\u00e3o possuem essas funcionalidades extras de seguran\u00e7a. Com o **Jitsi**, voc\u00ea ainda poder\u00e1 se comunicar normalmente com contatos que utilizem programas propriet\u00e1rios; a diferen\u00e7a \u00e9 que os recursos extras de prote\u00e7\u00e3o n\u00e3o estar\u00e3o dispon\u00edveis.\r\n\r\nIndependentemente de a comunica\u00e7\u00e3o ser por texto, fala ou v\u00eddeo, os provedores de servi\u00e7os como o **Facebook Chat**, **Google Talk/Hangouts**, **Yahoo! Messenger**, **Skype** ou **Viber** t\u00eam acesso \u00e0s suas sess\u00f5es de conversa e podem oferecer este acesso a terceiros, como corpora\u00e7\u00f5es e governos. O **Jitsi** permite que voc\u00ea se comunique de maneira privada e segura utilizando suas contas j\u00e1 existentes cobertas por uma nova camada de criptografia. Isso torna o conte\u00fado de sua comunica\u00e7\u00e3o inacess\u00edvel aos provedores dos servi\u00e7os e outros terceiros potenciais. Para proteger sess\u00f5es de conversa\u00e7\u00e3o, o **Jitsi** usa sistemas de criptografia como o **Off-the-Record** ([**OTR**](/pt/glossary#OTR)) em mensagens de texto, e **ZRTP/SRTP** para chamadas por voz.\r\n\r\nOutra diferen\u00e7a not\u00e1vel entre o **Jitsi** e programas como o **Skype** \u00e9 que o **Jitsi** permite \u00e0s pessoas usar contas j\u00e1 existentes, de provedores de servi\u00e7os diferentes e independentes dos desenvolvedores do programa. Isso tamb\u00e9m significa que antes de poder utilizar o **Jitsi** \u00e9 preciso criar uma conta.\r\n\r\n**Observa\u00e7\u00e3o**: o **Jitsi** utiliza a linguagem de programa\u00e7\u00e3o **Java**, portanto, \u00e9 necess\u00e1rio ter o aplicativo Java instalado no computador para que funcione corretamente. O **Oracle Java** \u00e9 conhecido por conter in\u00fameras vulnerabilidades de seguran\u00e7a, que podem permitir a algu\u00e9m assumir remotamente o controle de um computador e instalar spyware (programas espi\u00f5es) para acessar ou monitorar informa\u00e7\u00f5es e comunica\u00e7\u00f5es. \u00c9 **altamente recomendado** que voc\u00ea reduza o n\u00famero de programas capazes de utilizar Java em seu computador. Veja a se\u00e7\u00e3o [**Como desabilitar ou desinstalar complementos da Mozilla**](/pt/firefox_addons#3.2) e siga o [**passo a passo para desativar o Java de todos os navegadores do seu computador**](https://www.java.com/en/download/help/disable_browser.xml) (em ingl\u00eas). Entretanto, como voc\u00ea ver\u00e1 mais para frente neste cap\u00edtulo, apesar da ulitiza\u00e7\u00e3o do **Java** existem in\u00fameros benef\u00edcios de seguran\u00e7a em usar o **Jitsi**."
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2045", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2045", 
+        "link_title": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5191", 
+        "module": "book", 
+        "nid": "2045", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5191", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+        "updated": "0", 
+        "weight": "-4"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Se\u00e7\u00f5es nessa p\u00e1gina:</p>\n\n<ul><li><a href=\"#2.1\"><strong>2.1 Como instalar o Jitsi</strong></a></li>\n<li><a href=\"#2.2\"><strong>2.2 Como adicionar contas no Jitsi</strong></a></li>\n<li><a href=\"#2.2.1\"><strong>2.2.1 Como adicionar uma conta do Google/Gmail</strong></a></li>\n<li><a href=\"#2.2.2\"><strong>2.2.2 Como criar uma nova conta Jabber/XMPP ou SIP e adicion\u00e1-la ao Jitsi</strong></a></li>\n<li><a href=\"#2.2.3\"><strong>2.2.3 Como adicionar uma conta do Facebook</strong></a></li>\n<li><a href=\"#2.3\"><strong>2.3 Como alterar senhas de contas usando o Jitsi</strong></a></li>\n<li><a href=\"#2.4\"><strong>2.4 Como configurar o Jitsi para aumentar a seguran\u00e7a do programa</strong></a></li>\n<li><a href=\"#2.4.1\"><strong>2.4.1 Como desabilitar e remover o hist\u00f3rico de chamadas e das conversas de bate papo</strong></a></li>\n<li><a href=\"#2.4.2\"><strong>2.4.2 Como requerer que a troca de mensagens em conversas por texto seja privada</strong></a></li>\n<li><a href=\"#2.4.3\"><strong>2.4.3 Proteja as senhas de suas contas com uma senha mestre</strong></a></li>\n</ul><p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1 Como instalar o Jitsi</h2>\n\n<p>Para instalar o <strong>Jitsi</strong>, siga os seguintes passos:</p>\n\n<p><strong>Passo 1</strong>. <strong>Clique duas vezes</strong> em <img src=\"/sbox/screen/jitsi-pt/02.png\" alt=\"\" />. Um alerta com o <em>Aviso de Seguran\u00e7a</em> pode aparecer; caso apare\u00e7a, <strong>clique</strong> em <img src=\"/sbox/screen/jitsi-pt/03.png\" alt=\"\" /> para abrir a janela do <em>Instalador para Windows</em>, que ser\u00e1 seguida pela janela de <em>Boas Vindas ao Assistente de Configura\u00e7\u00e3o do Jitsi</em>.</p>\n\n<p><strong>Passo 2</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/jitsi-pt/04.png\" alt=\"\" /> para seguir para a janela do <em>Termo de Licen\u00e7a do Usu\u00e1rio</em>. Marque a op\u00e7\u00e3o <em>Eu aceito os termos de Licen\u00e7a do Usu\u00e1rio</em> para ativar o bot\u00e3o <em>Pr\u00f3ximo</em>, e <strong>clique</strong> em <img src=\"/sbox/screen/jitsi-pt/04.png\" alt=\"\" /> para seguir para a janela de <em>Pasta de Destino</em>.</p>\n\n<p><strong>Passo 3</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/jitsi-pt/04.png\" alt=\"\" /> para ativar a janela de tarefas adicionais e aceitar as configura\u00e7\u00f5es padr\u00e3o apresentadas.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Ativar a op\u00e7\u00e3o de <em>Inicializa\u00e7\u00e3o autom\u00e1tica quando o computador \u00e9 ligado ou reiniciado</em> pode reduzir a velocidade de inicializa\u00e7\u00e3o do seu computador, especialmente se voc\u00ea j\u00e1 possui outros aplicativos configurados para serem iniciados quando a m\u00e1quina \u00e9 ligada.</p>\n\n<p><strong>Passo 4</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/jitsi-pt/04.png\" alt=\"\" /> para ativar a janela de <em>Jitsi Pronto para Instalar</em> e depois <strong>clique</strong> em <img src=\"/sbox/screen/jitsi-pt/05.png\" alt=\"\" /> para ativar a janela de <em>Instalando Jitsi</em>, que mostra uma barra com o progresso da instala\u00e7\u00e3o.</p>\n\n<p><strong>Passo 5</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/jitsi-pt/06.png\" alt=\"\" /> para completar o processo de instala\u00e7\u00e3o e iniciar automaticamente a janela de configura\u00e7\u00e3o de contas do <strong>Jitsi</strong>, como a seguir:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/07.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: A janela de Configura\u00e7\u00e3o de Contas do Jitsi</em></p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Em alguns casos, instalar e abrir o <strong>Jitsi</strong> pela primeira vez pode ativar um <em>Alerta de Seguran\u00e7a do Windows</em> (<em>Figura 2</em>, abaixo). Este \u00e9 um alerta padr\u00e3o do sistema operacional <strong>MS Windows</strong>, e \u00e9 seguro continuar utilizando o programa. Mesmo se voc\u00ea n\u00e3o clicar em nenhum dos bot\u00f5es e s\u00f3 fechar a janela, o <strong>Jitsi</strong> ainda poder\u00e1 se comunicar a servidores p\u00fablicos como <strong>Jabber/XMPP</strong> ou <strong>SIP</strong>, <strong>Google Chat/Hangouts</strong> e <strong>Facebook Chat</strong>, ou <strong>Yahoo Messenger</strong>. Entretanto, clicar no bot\u00e3o <em>Permitir Acesso</em> libera uma op\u00e7\u00e3o avan\u00e7ada do <strong>Jitsi</strong> chamada <em>Registrarless SIP Accounts</em>. Para mais informa\u00e7\u00f5es sobre estas contas especiais, veja a p\u00e1gina do <a href=\"https://jitsi.org/Documentation/RegistrarlessSIPAccount\"><strong>Registrarless SIP Accounts</strong></a>.</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/08.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: O Alerta de Seguran\u00e7a do Windows</em></p>\n\n<p><strong>Passo 6</strong>. <strong>Selecione</strong> as caixas de op\u00e7\u00e3o tanto para redes <strong>Privadas</strong> quanto <strong>P\u00fablicas</strong> e depois <strong>clique</strong> em <strong>Permitir Acesso</strong> para seguir para a janela de configura\u00e7\u00e3o de contas do <strong>Jitsi</strong> (como na <em>Figura 1</em>, acima) ou para a janela principal (<em>Figura 4</em>, abaixo).</p>\n\n<p><a name=\"2.2\" id=\"2.2\"></a></p>\n\n<h2>2.2 Como adicionar contas no Jitsi</h2>\n\n<p>O <strong>Jitsi</strong> suporta v\u00e1rios tipos diferentes de contas e esta se\u00e7\u00e3o descreve como adicion\u00e1-las ou configur\u00e1-las no programa. As que utilizaremos abaixo s\u00e3o baseadas nos protocolos de comunica\u00e7\u00e3o <strong>Jabber/XMPP</strong> e <strong>SIP</strong>.</p>\n\n<p>Dentre outros servi\u00e7os, o <strong>Jitsi</strong> tamb\u00e9m permite que voc\u00ea use contas do <strong>Gmail</strong> ou <strong>Facebook</strong> para se comunicar. Como estes s\u00e3o dois dos servi\u00e7os mais utilizados na internet, mostraremos abaixo como adicion\u00e1-los ao programa e como melhorar a seguran\u00e7a de conversas que os utilizem. Isso \u00e9 poss\u00edvel devido \u00e0 camada de criptografia independente do <strong>Jitsi</strong> que recai sobre a prote\u00e7\u00e3o oferecida pelos provedores dos servi\u00e7os.</p>\n\n<p>Entretanto, note que mesmo com a criptografia do aplicativo, provedores de servi\u00e7os como <strong>Google</strong> ou <strong>Facebook</strong> (assim como outros) monitoram o simples fato de voc\u00ea estar se comunicando (e talvez com quem voc\u00ea esteja se comunicando), e podem compartilhar esta informa\u00e7\u00e3o com terceiros, como empresas ou governos. Portanto, talvez seja melhor evitar usar estas contas em comunica\u00e7\u00f5es sens\u00edveis, mesmo com a criptografia do <strong>Jitsi</strong>. Tamb\u00e9m mostraremos nesta se\u00e7\u00e3o como criar contas mais seguras (Jabber/XMPP ou SIP) e adicion\u00e1-las ao Jitsi, e recomendamos que voc\u00ea passe a utiliz\u00e1-las.</p>\n\n<p><a name=\"2.2.1\" id=\"2.2.1\"></a></p>\n\n<h3>2.2.1 Como adicionar uma conta do Google/Gmail</h3>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: O exemplo a seguir \u00e9 baseado em uma conta do <strong>Google Talk/Hangouts</strong>. O processo de configura\u00e7\u00e3o \u00e9 similar para os outros protocolos listados na <em>Figura 1</em>, acima. Pode n\u00e3o ser poss\u00edvel estabelecer comunica\u00e7\u00e3o ou usar outras funcionalidades (como a criptografia independente para mensagens de texto e voz - <strong>OTR</strong> e <strong>ZRTP</strong>) entre pessoas usando dois ou mais provedores de servi\u00e7os diferentes (como Facebook, Gmail, Yahoo etc.). Entretanto, isso deve funcionar quando as comunica\u00e7\u1e4des forem feitas entre duas contas do mesmo provedor de servi\u00e7o.</p>\n\n<p><strong>Passo 1</strong>. <strong>Selecione Iniciar &gt; Jitsi</strong> ou <strong>Clique duas vezes</strong> no \u00edcone do <strong>Jitsi</strong> na \u00c1rea de Trabalho para abrir o programa.</p>\n\n<p><strong>Passo 2</strong> Na janela de configura\u00e7\u00e3o de contas, <strong>digite</strong> o login e a senha da conta do <strong>Gmail</strong> que voc\u00ea pretende utilizar para o bate papo (chat), como na figura abaixo:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/09.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: A janela de \"Entrar\" (reduzida)</em></p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Voc\u00ea pode adicionar v\u00e1rias contas de diferentes protocolos ao mesmo tempo.</p>\n\n<p><strong>Passo 3</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/jitsi-pt/09s.png\" alt=\"\" /> para ativar sua conta e seguir para a janela principal, como se v\u00ea a seguir:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/10.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: Um exemplo da janela principal do Jitsi ap\u00f3s adicionada a conta Gmail</em></p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Se voc\u00ea fechou a janela de <em>Configura\u00e7\u00e3o de Contas</em>, ou quer adicionar outra conta, pode faz\u00ea-lo em <strong>Ficheiro &gt; Nova Conta</strong>, no menu. Na nova janela, escolha <em>Google Talk</em> em <strong>Rede</strong> e <strong>digite</strong> o login e senha da conta do Gmail, como na imagem abaixo:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/11.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: A janela de \"Adicionar contas\"</em></p>\n\n<p>Para verificar que sua conta do <strong>Gmail</strong> est\u00e1 registrada no <strong>Jitsi</strong>, siga os seguintes passos:</p>\n\n<p><strong>Passo 1</strong>. <strong>Selecione <em>Ferramentas</em> &gt; <em>Prefer\u00eancias</em></strong> do menu para abrir a seguinte janela:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/12.png\" alt=\"\" /></p>\n\n<p><em>Figura 6: A janela de Prefer\u00eancias mostrando a nova conta Gmail registrada (reduzida)</em></p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Se voc\u00ea usa a <a href=\"https://support.google.com/accounts/answer/180744?hl=pt\">verifica\u00e7\u00e3o em duas etapas</a> para proteger os acessos da sua conta do Gmail, quando tentar entrar usando o <strong>Jitsi</strong> e sua senha normal, uma mensagem como a abaixo pode ser exibida. Para acessar a conta pelo <strong>Jitsi</strong>, voc\u00ea precisa gerar uma \"senha espec\u00edfica para o aplicativo\". Veja as <a href=\"https://support.google.com/accounts/answer/185833?hl=pt\">instru\u00e7\u00f5es do Google de como fazer isto</a>.</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/13.png\" alt=\"\" /></p>\n\n<p><em>Figura 7: Exemplo de falha na autentica\u00e7\u00e3o de entrada do Google Talk/Hangouts</em></p>\n\n<p><a name=\"2.2.2\" id=\"2.2.2\"></a></p>\n\n<h3>2.2.2 Como criar uma nova conta Jabber/XMPP ou SIP e adicion\u00e1-la ao Jitsi</h3>\n\n<p><strong>Jabber/XMPP</strong> e <strong>SIP</strong> s\u00e3o padr\u00f5es livres de comunica\u00e7\u00e3o de texto e de voz. Existem <a href=\"https://xmpp.net/directory.php\">muitos servidores</a> que oferecem contas gratuitas que podem ser utilizadas com Jitsi. Abaixo, recomendamos alguns que voc\u00ea pode usar para comunica\u00e7\u00f5es sens\u00edveis.</p>\n\n<p>Note que tamb\u00e9m existe a possibilidade de baixar o <a href=\"http://xmpp.org/xmpp-software/servers/\">programa de servidor Jabber/XMPP</a> (como <a href=\"http://www.process-one.net/en/ejabberd/\">ejabbered</a> ou <a href=\"http://prosody.im/\">Prosody IM</a>), instalar o seu pr\u00f3prio servidor e configur\u00e1-lo para comunica\u00e7\u00f5es seguras e privadas entre pessoas do seu grupo, comunidade ou organiza\u00e7\u00e3o.</p>\n\n<ul><li>A conta Jabber/XMPP do <strong>Riseup.net</strong> </li>\n</ul><p>Se voc\u00ea possui uma conta no <a href=\"/pt/riseup_main\">servi\u00e7o de e-mail seguro Riseup.net</a> (localizado nos Estados Unidos), tamb\u00e9m pode <a href=\"https://www.riseup.net/en/chat\">us\u00e1-la para comunicar atrav\u00e9s da Rede Jabber/XMPP</a> adicionando-a ao Jitsi - veja abaixo como.</p>\n\n<ul><li><strong>Jit.si</strong> e outras contas Jabber/XMPP</li>\n</ul><p>Voc\u00ea pode registrar uma conta no servidor Jabber.ccc.de (localizado na Alemanha) seguindo os seguintes passos:</p>\n\n<p><strong>Passo 1</strong>. No menu do <strong>Jitsi</strong>, <strong>selecione <em>Ficheiro</em> &gt; <em>Nova Conta</em></strong>. Na nova janela, <strong>selecione</strong> <strong>XMPP</strong> em <em>Rede</em> e <strong>marque</strong> a op\u00e7\u00e3o de <strong>Criar uma nova conta</strong>. Em <em>Servidor</em>, <strong>digite</strong> 'jabber.ccc.de', <strong>digite</strong> o login que voc\u00ea deseja criar no campo de 'username', e <strong>preencha</strong> os campos de <em>Senha</em> e <em>Confirma\u00e7\u00e3o de Senha</em> como na imagem abaixo:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/14.png\" alt=\"\" /></p>\n\n<p><em>Figura 8: Exemplo da janela de \"Nova Conta\" com a op\u00e7\u00e3o de \"Criar uma nova conta XMPP\" selecionada</em></p>\n\n<p><strong>Passo 2</strong>. <strong>Clique <em>Adicionar</em></strong>. Depois de completar o registro, uma janela similar \u00e0 <em>Figura 4</em>, acima, ser\u00e1 exibida.</p>\n\n<p>Se o login que voc\u00ea escolheu j\u00e1 estiver sendo utilizado por algu\u00e9m, o processo de registro falhar\u00e1 e exibir\u00e1 a seguinte mensagem: <em>Falha na cria\u00e7\u00e3o de conta devido ao seguinte erro: N\u00e3o foi poss\u00edvel confirmar os dados.</em> Voc\u00ea pode tentar novamente escolhendo um login diferente e repetindo o processo.</p>\n\n<p><strong>Note</strong> que se voc\u00ea n\u00e3o utilizar sua conta jabber.ccc.de em um per\u00edodo de 12 meses, ela ser\u00e1 apagada do servidor automaticamente e o login ficar\u00e1 dispon\u00edvel para uso por outras pessoas.</p>\n\n<p>Outro servidor Jabber/XMPP que vale a pena ser mencionado \u00e9 o <strong>jit.si</strong>, mantido pelos desenvolvedores do programa <strong>Jitsi</strong>. Voc\u00ea pode criar uma conta no servidor <a href=\"https://jit.si\"><strong>jit.si</strong></a> e em v\u00e1rios outros servidores p\u00fablicos Jabber/XMPP da mesma forma descrita na se\u00e7\u00e3o anterior. O IM Observatory (Observat\u00f3rio de Mensagens Instant\u00e2neas) mant\u00e9m <a href=\"https://xmpp.net/directory.php\">uma lista e um ranking dos servidores p\u00fablicos Jabber/XMPP</a> e tamb\u00e9m permite que voc\u00ea <a href=\"https://xmpp.net/index.php\">teste a seguran\u00e7a de qualquer servidor Jabber/XMPP</a>.</p>\n\n<ul><li><strong>ostel.co</strong> SIP</li>\n</ul><p>Contas <strong>SIP</strong> n\u00e3o podem ser registradas de dentro do programa <strong>Jitsi</strong>. O servidor <strong>ostel.co</strong> (localizado no Estados Unidos) permite o registro <a href=\"https://ostel.co/users/sign_up\">em sua p\u00e1gina</a>. <strong>Escolha</strong> um login e senha, <strong>informe</strong> um endere\u00e7o de e-mail existente e <strong>clique</strong> no bot\u00e3o <strong>Sign up</strong> da p\u00e1gina.</p>\n\n<p>Ap\u00f3s completar o registro, volte para o programa <strong>Jitsi</strong>. No menu, <strong>selecione <em>Ficheiro</em> &gt; <em>Nova conta</em></strong> e depois <strong>selecione a Rede: SIP</strong>, <strong>digite</strong> o login (ex. terence.the.tester@ostel.co) e a senha criados durante o registro online e <strong>clique em <em>Adicionar</em></strong>. Veja a imagem para refer\u00eancia:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/15.png\" alt=\"\" /></p>\n\n<p><em>Figura 9: Exemplo de janela de \"Nova conta\" para contas SIP</em></p>\n\n<ul><li><strong>Como adicionar ao Jitsi uma conta Jabber/XMPP ou SIP j\u00e1 existente</strong></li>\n</ul><p>Se voc\u00ea j\u00e1 possui uma conta Jabber/XMPP ou SIP, pode adicion\u00e1-la ao <strong>Jitsi</strong>. <strong>Selecione <em>Ficheiro</em> &gt; <em>Nova conta</em></strong> no menu do programa e escolha a <strong>Rede</strong> apropriada (XMPP ou SIP, dependendo do tipo de conta).</p>\n\n<p><a name=\"2.2.3\" id=\"2.2.3\"></a></p>\n\n<h3>2.2.3 Como adicionar uma conta do Facebook</h3>\n\n<p>O <strong>Facebook</strong> tem duas configura\u00e7\u00f5es que talvez voc\u00ea tenha que mudar para que o <strong>Jitsi</strong> consiga se conectar com o Facebook Chat.</p>\n\n<ul><li><strong>Facebook username</strong> </li>\n</ul><p>O <strong>Facebook</strong> pede um <em>username</em> (ou nome de usu\u00e1ria/o) para que o <strong>Jitsi</strong> consiga se conectar ao chat do Facebook. Normalmente, quem tem um perfil no <strong>Facebook</strong> j\u00e1 possui esse <em>username</em>. Para verific\u00e1-lo, <strong>acesse</strong> sua conta do <strong>Facebook</strong> e entre na sua P\u00e1gina ou Linha do Tempo: o <em>username</em> \u00e9 o que aparece na barra de endere\u00e7os do navegador depois do <em>https://www.facebook.com/</em>. O <em>username</em> tamb\u00e9m aparece no e-mail do <strong>Facebook</strong> relacionado \u00e0 sua conta pessoal (ex: username@facebook.com).</p>\n\n<p>Voc\u00ea pode ver, mudar ou criar um <em>username</em> (ou nome de usu\u00e1ria/o) na se\u00e7\u00e3o <em>Configura\u00e7\u00f5es de Conta &gt; Configura\u00e7\u00f5es Gerais</em> ou acessando o endere\u00e7o <a href=\"https://www.facebook.com/username\">https://www.facebook.com/username</a>. Para configur\u00e1-lo, o <strong>Facebook</strong> pode requerer uma verifica\u00e7\u00e3o de conta - durante o processo de valida\u00e7\u00e3o, ser\u00e1 preciso fornecer ao <strong>Facebook</strong> um n\u00famero de telefone celular, ao qual ser\u00e1 enviada uma mensagem de texto SMS. Para mais detalhes veja <a href=\"https://www.facebook.com/help/329992603752372/\">a explica\u00e7\u00e3o do Facebook sobre este assunto</a>.</p>\n\n<ul><li><strong>Configura\u00e7\u00f5es de Aplicativos</strong></li>\n</ul><p>A \"plataforma de aplicativos\" do <strong>Facebook</strong> deve estar ativada para que o <strong>Jitsi</strong> consiga se contectar ao chat do servi\u00e7o. Na sua p\u00e1gina do <strong>Facebook</strong>, entre em <em>Configura\u00e7\u00f5es de Conta &gt; Aplicativos</em> e verifique se a op\u00e7\u00e3o para <em>Aplicativos em Uso</em> est\u00e1 ligada (<em>On</em>). Ela ativa a \"plataforma de aplicativos\" relacionados \u00e0 sua conta.</p>\n\n<p><strong>Note</strong> que ativar a \"plataforma de aplicativos\" abre muitos dos seus dados no <strong>Facebook</strong> a desenvolvedores externos de programas. Tais dados ficam dispon\u00edveis n\u00e3o s\u00f3 para os aplicativos que voc\u00ea utiliza; tamb\u00e9m ficam expostos a programas usados por quaisquer pessoas com quem voc\u00ea se relacione.</p>\n\n<p>Depois de ativada a \"plataforma de aplicativos\" do <strong>Facebook</strong>, n\u00e3o se esque\u00e7a de verificar as configura\u00e7\u00f5es em <em>Aplicativos usados por outros</em>. Elas permitem esconder algumas informa\u00e7\u00f5es pessoais suas de programas usados por algu\u00e9m em sua rede de contatos. Infelizmente, o <strong>Facebook</strong> n\u00e3o permite esconder todos os seus dados pessoais. Alguns tipos de informa\u00e7\u00e3o como sua lista de pessoas conhecidas, g\u00eanero ou coisas que voc\u00ea tornou p\u00fablicas ficar\u00e3o dispon\u00edveis enquanto a \"plataforma de aplicativos\" estiver ligada. Cabe a voc\u00ea decidir se compensa abrir essas informa\u00e7\u00f5es como troca para usar o servi\u00e7o de bate papo integrado ao <strong>Jitsi</strong>.</p>\n\n<p>Agora \u00e9 poss\u00edvel adicionar a sua conta do <strong>Facebook</strong> no <strong>Jitsi</strong>. Para isso, siga os passos abaixo:</p>\n\n<p><strong>Passo 1</strong>. No menu princial, <strong>selecione <em>Ficheiro &gt; Nova conta</em></strong>.</p>\n\n<p><strong>Passo 2</strong>. Na janela de Nova conta, <strong>selecione</strong> <em>Facebook</em> no campo <em>Rede</em>, <strong>insira</strong> seu <em>username</em> e <em>senha</em> e <strong>clique</strong> em <strong>Adicionar</strong>.</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/16.png\" alt=\"\" /></p>\n\n<p><em>Figura 10: Exemplo de janela de \"Nova conta\" para contas do Facebook</em></p>\n\n<p><a name=\"2.3\" id=\"2.3\"></a></p>\n\n<h2>2.3 Como alterar senhas de contas usando o Jitsi</h2>\n\n<p>Saber como alterar a senha de cada uma das contas que voc\u00ea possui \u00e9 um fator de seguran\u00e7a importante. Muitos dos servi\u00e7os que podem ser usados com o <strong>Jitsi</strong> permitem modificar a senha de acesso em suas configura\u00e7\u00f5es, acess\u00edveis atrav\u00e9s de uma p\u00e1gina na internet.</p>\n\n<p>Entretanto, algumas contas Jabber/XMPP e SIP n\u00e3o s\u00e3o gerenciadas por p\u00e1ginas na internet. \u00c9 poss\u00edvel alterar suas senhas usando o Jitsi, de acordo com os passos abaixo:</p>\n\n<p><strong>Passo 1</strong>. No menu, <strong>v\u00e1 at\u00e9 <em>Ferramentas</em> &gt; <em>Prefer\u00eancias</em></strong> e <strong>selecione</strong> a aba de <strong>Contas</strong>.</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/17.png\" alt=\"\" /></p>\n\n<p><em>Figura 11: Janela de Prefer\u00eancias com uma conta selecionada</em></p>\n\n<p><strong>Passo 2</strong>. <strong>Clique</strong> no bot\u00e3o <strong>Editar</strong>, na parte de baixo da janela, para ativar a seguinte tela:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/18.png\" alt=\"\" /></p>\n\n<p>*Figura 12: A janela do Menu de Registro de Contas com o bot\u00e3o de alterar senha na parte de baixo.</p>\n\n<p><strong>Passo 3</strong>. <strong>Clique</strong> no bot\u00e3o <strong>Alterar Senha</strong> para ativar a janela de <em>Altera\u00e7\u00e3o de Senhas</em>:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/19.png\" alt=\"\" /></p>\n\n<p><em>Figura 13: A janela de Altera\u00e7\u00e3o de Senhas</em></p>\n\n<p><strong>Passo 4</strong>. <strong>Insira</strong> a nova senha e <strong>repita-a</strong> no campo abaixo. <strong>Clique</strong> no bot\u00e3o <strong>OK</strong> para fechar esta janela.</p>\n\n<p><strong>Passo 5</strong>. Feche o Menu de Registro de Contas.</p>\n\n<p><a name=\"2.4\" id=\"2.4\"></a></p>\n\n<h2>2.4 Como configurar o Jitsi para aumentar a seguran\u00e7a do programa</h2>\n\n<p><a name=\"2.4.1\" id=\"2.4.1\"></a></p>\n\n<h3>2.4.1 Como desabilitar e remover o hist\u00f3rico de chamadas e das conversas de bate papo</h3>\n\n<p>Por padr\u00e3o, o <strong>Jitsi</strong> armazena informa\u00e7\u00f5es sobre as chamadas de voz feitas  e recebidas, assim como o hist\u00f3rico das mensagens de texto - todas as mensagens que voc\u00ea escreveu e recebeu. Voc\u00ea pode acessar as chamadas de voz ou de v\u00eddeo <strong>clicando</strong> no \u00edcone do rel\u00f3gio, na janela principal do programa:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/20.png\" alt=\"\" /></p>\n\n<p><em>Figura 14: Parte de cima da janela principal do Jitsi, com o bot\u00e3o do hist\u00f3rico de chamadas em destaque</em></p>\n\n<p>Voc\u00ea pode ver o hist\u00f3rico das conversas <strong>clicando</strong> no \u00edcone da ampulheta dentro da janela de chat, enquanto estiver conversando com algu\u00e9m:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/21.png\" alt=\"\" /></p>\n\n<p><em>Figura 15: A janela de chat com o bot\u00e3o de hist\u00f3rico em destaque</em></p>\n\n<p>Estas informa\u00e7\u00f5es s\u00e3o coletadas e armazenadas no seu computador. <strong>Mesmo que voc\u00ea criptografe as conversas de bate papo com OTR, todas as mensagens enviadas e recebidas ser\u00e3o salvas no seu computador em formato de texto aberto.</strong> O mesmo acontece nos computadores das pessoas com quem voc\u00ea se comunicar.</p>\n\n<p>Para prevenir que o Jitsi salve esse tipo de informa\u00e7\u00e3o e para remover as j\u00e1 armazenadas, <strong>voc\u00ea e seus contatos devem realizar os seguintes passos</strong>.</p>\n\n<h4>Para desabilitar o armazenamento de dados pelo Jitsi:</h4>\n\n<p><strong>Passo 1</strong>. No menu, <strong>v\u00e1</strong> em <strong><em>Ferramentas</em> &gt; <em>Prefer\u00eancias</em></strong> e <strong>selecione</strong> a aba de <strong>Configura\u00e7\u00f5es Gerais</strong>.</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/22.png\" alt=\"\" /></p>\n\n<p><em>Figura 16: Janela de *Prefer\u00eancias</em>, aba de \"Configura\u00e7\u00f5es Gerais\": a op\u00e7\u00e3o \"Registrar hist\u00f3rico de conversas\" ('Log chat history') desabilitada*</p>\n\n<p><strong>Passo 2</strong>. Na janela de <em>Prefer\u00eancias</em>, <strong>v\u00e1 at\u00e9</strong> a aba <strong>Configura\u00e7\u00f5es Avan\u00e7adas</strong>, <strong>selecione</strong> a se\u00e7\u00e3o <em>Logs</em> e <strong>desmarque</strong> a op\u00e7\u00e3o <em>Habilitar registro de pacotes</em>, como na imagem abaixo:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/23.png\" alt=\"\" /></p>\n\n<p><em>Figura 17: Janela \"Prefer\u00eancias\", aba \"Configura\u00e7\u00f5es Avan\u00e7adas\": a se\u00e7\u00e3o de \"Logs\" com a op\u00e7\u00e3o \"Habilitar guarda de pacotes\" desativada.</em></p>\n\n<p>Suas altera\u00e7\u00f5es entrar\u00e3o em vigor ap\u00f3s <strong>reiniciar o Jitsi</strong>.</p>\n\n<h4>Para remover as informa\u00e7\u00f5es j\u00e1 armazenadas sobre suas chamadas e mensagens de texto:</h4>\n\n<p><strong>Passo 1</strong>. <strong>Feche</strong> o Jitsi.</p>\n\n<p><strong>Passo 2</strong>. Dentro da pasta de <em>perfil do usu\u00e1ria/o</em> do <strong>Jitsi</strong>, apague a pasta inteira de hist\u00f3rico de registros <em>history_ver1.0</em>. Caso queira remover apenas parte dos hist\u00f3ricos, elimine a subpasta correspondente dentro de <em>history_ver1.0</em>. A localiza\u00e7\u00e3o das pastas de <em>perfil do usu\u00e1ria/o</em> e <em>hist\u00f3rico de registros</em> dependem do sistema operacional:</p>\n\n<ul><li>No Windows XP e vers\u00f5es mais antigas, est\u00e3o localizadas em <em>C:\\Documents and Settings\\&lt;Windows login/user name&gt;\\Application Data\\Jitsi\\history_ver1.0</em></li>\n<li>No Windows Vista, Windows 7 e Windows 8, est\u00e3o em <em>C:\\Users\\&lt;Windows login/user name&gt;\\AppData\\Roaming\\Jitsi\\history_ver1.0</em> (<strong>Note</strong> que a pasta \"AppData\" pode estar oculta. Veja <a href=\"http://windows.microsoft.com/en-us/windows/show-hidden-files\">como exibir arquivos ocultos</a>).</li>\n<li>No Mac OS X, no seguinte endere\u00e7o, a partir da sua pasta home: <em>~/Library/Application Support/Jitsi/history_ver1.0</em></li>\n<li>No Linux, no seguinte endere\u00e7o, a partir da sua pasta home: <em>~/.jitsi/history_ver1.0</em> (<strong>Note</strong> que a pasta \".jitsi\" pode estar oculta. Veja como <a href=\"http://itsfoss.com/hide-folders-and-show-hidden-files-in-ubuntu-beginner-trick/\">exibir arquivos ocultos no Ubuntu</a>).</li>\n</ul><p>Veja o Cap\u00edtulo <a href=\"chapter-6\"><strong>6. Como destruir informa\u00e7\u00f5es sens\u00edveis</strong></a>, do <strong>Guia de Refer\u00eancia</strong>, para mais informa\u00e7\u00f5es sobre elimina\u00e7\u00e3o segura de informa\u00e7\u00f5es.</p>\n\n<p><a name=\"2.4.2\" id=\"2.4.2\"></a></p>\n\n<h3>2.4.2 Como requerer que a troca de mensagens em conversas por texto seja privada</h3>\n\n<p>\u00c9 recomendado que voc\u00ea configure o <strong>Jitsi</strong> para solicitar que mensagens de texto sejam privadas e <a href=\"/pt/glossary#encryption\">criptografadas</a> com <a href=\"/pt/glossary#OTR\"><em>OTR</em></a> sempre que poss\u00edvel. Para fazer isto, <strong>v\u00e1 at\u00e9</strong> o menu <strong>Ferramentas</strong>, <strong>selecione</strong> a aba <strong>Seguran\u00e7a</strong>, <strong>selecione</strong> a sub-aba <strong>Conversar</strong> e <strong>marque</strong> as op\u00e7\u00f5es para <strong>Solicitar Mensagens Privadas</strong> na parte de baixo da tela, como demonstrado abaixo:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/24.png\" alt=\"\" /></p>\n\n<p><em>Figura 18: Janela \"Prefer\u00eancias\", aba \"Seguran\u00e7a\", sub-aba \"Conversar\" com a op\u00e7\u00e3o \"Solicitar Mensagens Privadas\" em destaque</em></p>\n\n<p><a name=\"2.4.3\" id=\"2.4.3\"></a></p>\n\n<h3>2.4.3 Proteja as senhas de suas contas com uma senha mestre</h3>\n\n<p>\u00c9 melhor n\u00e3o permitir que o <strong>Jitsi</strong> armazene senhas, pois isso permitir\u00e1 a qualquer pessoa com acesso a seu computador acessar suas contas simplesmente iniciando o programa ou ver suas senhas ao entrar na janela de <em>Prefer\u00eancias</em>.</p>\n\n<p>Portanto, \u00e9 <strong>altamente recomendado</strong> proteger suas senhas com uma <strong>senha mestre</strong> forte. Uma vez configurada, a senha mestre ser\u00e1 solicitada sempre que o programa for iniciado.</p>\n\n<p><strong>Passo 1</strong>. <strong>Abra</strong> a janela de <em>Prefer\u00eancias</em> indo at\u00e9 o menu e <strong>selecionando <em>Ferramentas</em> &gt; <em>Prefer\u00eancias</em></strong>, <strong>v\u00e1 at\u00e9</strong> a aba <strong>Seguran\u00e7a</strong> e a sub-aba <strong><em>Palavra-passe</em></strong>, e <strong>marque <em>Utilizar senha mestre</em></strong> (<em>Use a master password</em>) para ativar a janela de <strong><em>senha mestre</em></strong>.</p>\n\n<p><strong>Passo 2</strong>. Na nova janela, <strong>digite sua senha</strong> como indicado na figura abaixo. Para mais informa\u00e7\u00f5es sobre como criar uma senha segura, veja o Cap\u00edtulo <a href=\"/pt/chapter-3\"><strong>3: Como criar e manter senhas seguras</strong></a>, do <strong>Guia de Refer\u00eancia</strong>.</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/25.png\" alt=\"\" /></p>\n\n<p><em>Figura 19: A janela de \"senha mestre\"</em></p>\n\n<p><strong>Passo 3</strong>. <strong>Clique</strong> em <strong>OK</strong> para confirmar a senha e ativar a nova janela, que deve dizer <strong><em>senha mestre configurada com sucesso</em></strong>. <strong>Clique</strong> em <strong>OK</strong> para fech\u00e1-la e voltar para a janela de <em>Prefer\u00eancias</em>, que deve aparecer como na imagem abaixo:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/26.png\" alt=\"\" /></p>\n\n<p><em>Figura 20: Janela \"Prefer\u00eancias\", aba \"Seguran\u00e7a\", sub-aba \"Palavra-passe\" com a op\u00e7\u00e3o \"Utilizar senha mestre\" indicada</em></p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: O bot\u00e3o de <strong><em>Alterar senha mestre</em></strong> permite que voc\u00ea altere a senha mestre; o bot\u00e3o <strong><em>Senhas Salvas</em></strong> permite que voc\u00ea acesse a lista de senhas salvas pelo Jitsi e as remova quando necess\u00e1rio.</p>\n", 
+                        "summary": "", 
+                        "value": "Se\u00e7\u00f5es nessa p\u00e1gina:\r\n\r\n- [**2.1 Como instalar o Jitsi**](#2.1)\r\n- [**2.2 Como adicionar contas no Jitsi**](#2.2)\r\n- [**2.2.1 Como adicionar uma conta do Google/Gmail**](#2.2.1)\r\n- [**2.2.2 Como criar uma nova conta Jabber/XMPP ou SIP e adicion\u00e1-la ao Jitsi**](#2.2.2)\r\n- [**2.2.3 Como adicionar uma conta do Facebook**](#2.2.3)\r\n- [**2.3 Como alterar senhas de contas usando o Jitsi**](#2.3)\r\n- [**2.4 Como configurar o Jitsi para aumentar a seguran\u00e7a do programa**](#2.4)\r\n- [**2.4.1 Como desabilitar e remover o hist\u00f3rico de chamadas e das conversas de bate papo**](#2.4.1)\r\n- [**2.4.2 Como requerer que a troca de mensagens em conversas por texto seja privada**](#2.4.2)\r\n- [**2.4.3 Proteja as senhas de suas contas com uma senha mestre**](#2.4.3)\r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1 Como instalar o Jitsi ##\r\n\r\nPara instalar o **Jitsi**, siga os seguintes passos:\r\n\r\n**Passo 1**. **Clique duas vezes** em ![](/sbox/screen/jitsi-pt/02.png). Um alerta com o *Aviso de Seguran\u00e7a* pode aparecer; caso apare\u00e7a, **clique** em ![](/sbox/screen/jitsi-pt/03.png) para abrir a janela do *Instalador para Windows*, que ser\u00e1 seguida pela janela de *Boas Vindas ao Assistente de Configura\u00e7\u00e3o do Jitsi*.\r\n\r\n**Passo 2**. **Clique** em ![](/sbox/screen/jitsi-pt/04.png) para seguir para a janela do *Termo de Licen\u00e7a do Usu\u00e1rio*. Marque a op\u00e7\u00e3o *Eu aceito os termos de Licen\u00e7a do Usu\u00e1rio* para ativar o bot\u00e3o *Pr\u00f3ximo*, e **clique** em ![](/sbox/screen/jitsi-pt/04.png) para seguir para a janela de *Pasta de Destino*.\r\n\r\n**Passo 3**. **Clique** em ![](/sbox/screen/jitsi-pt/04.png) para ativar a janela de tarefas adicionais e aceitar as configura\u00e7\u00f5es padr\u00e3o apresentadas.\r\n\r\n**Observa\u00e7\u00e3o**: Ativar a op\u00e7\u00e3o de *Inicializa\u00e7\u00e3o autom\u00e1tica quando o computador \u00e9 ligado ou reiniciado* pode reduzir a velocidade de inicializa\u00e7\u00e3o do seu computador, especialmente se voc\u00ea j\u00e1 possui outros aplicativos configurados para serem iniciados quando a m\u00e1quina \u00e9 ligada.\r\n\r\n**Passo 4**. **Clique** em ![](/sbox/screen/jitsi-pt/04.png) para ativar a janela de *Jitsi Pronto para Instalar* e depois **clique** em ![](/sbox/screen/jitsi-pt/05.png) para ativar a janela de *Instalando Jitsi*, que mostra uma barra com o progresso da instala\u00e7\u00e3o.\r\n\r\n**Passo 5**. **Clique** em ![](/sbox/screen/jitsi-pt/06.png) para completar o processo de instala\u00e7\u00e3o e iniciar automaticamente a janela de configura\u00e7\u00e3o de contas do **Jitsi**, como a seguir:\r\n\r\n![](/sbox/screen/jitsi-pt/07.png)\r\n\r\n*Figura 1: A janela de Configura\u00e7\u00e3o de Contas do Jitsi*\r\n\r\n**Observa\u00e7\u00e3o**: Em alguns casos, instalar e abrir o **Jitsi** pela primeira vez pode ativar um *Alerta de Seguran\u00e7a do Windows* (*Figura 2*, abaixo). Este \u00e9 um alerta padr\u00e3o do sistema operacional **MS Windows**, e \u00e9 seguro continuar utilizando o programa. Mesmo se voc\u00ea n\u00e3o clicar em nenhum dos bot\u00f5es e s\u00f3 fechar a janela, o **Jitsi** ainda poder\u00e1 se comunicar a servidores p\u00fablicos como **Jabber/XMPP** ou **SIP**, **Google Chat/Hangouts** e **Facebook Chat**, ou **Yahoo Messenger**. Entretanto, clicar no bot\u00e3o *Permitir Acesso* libera uma op\u00e7\u00e3o avan\u00e7ada do **Jitsi** chamada *Registrarless SIP Accounts*. Para mais informa\u00e7\u00f5es sobre estas contas especiais, veja a p\u00e1gina do [**Registrarless SIP Accounts**](https://jitsi.org/Documentation/RegistrarlessSIPAccount).\r\n\r\n![](/sbox/screen/jitsi-pt/08.png)\r\n\r\n*Figura 2: O Alerta de Seguran\u00e7a do Windows*\r\n\r\n**Passo 6**. **Selecione** as caixas de op\u00e7\u00e3o tanto para redes **Privadas** quanto **P\u00fablicas** e depois **clique** em **Permitir Acesso** para seguir para a janela de configura\u00e7\u00e3o de contas do **Jitsi** (como na *Figura 1*, acima) ou para a janela principal (*Figura 4*, abaixo).\r\n\r\n\r\n<a name=\"2.2\"></a>\r\n##2.2 Como adicionar contas no Jitsi ##\r\n\r\nO **Jitsi** suporta v\u00e1rios tipos diferentes de contas e esta se\u00e7\u00e3o descreve como adicion\u00e1-las ou configur\u00e1-las no programa. As que utilizaremos abaixo s\u00e3o baseadas nos protocolos de comunica\u00e7\u00e3o **Jabber/XMPP** e **SIP**.\r\n\r\nDentre outros servi\u00e7os, o **Jitsi** tamb\u00e9m permite que voc\u00ea use contas do **Gmail** ou **Facebook** para se comunicar. Como estes s\u00e3o dois dos servi\u00e7os mais utilizados na internet, mostraremos abaixo como adicion\u00e1-los ao programa e como melhorar a seguran\u00e7a de conversas que os utilizem. Isso \u00e9 poss\u00edvel devido \u00e0 camada de criptografia independente do **Jitsi** que recai sobre a prote\u00e7\u00e3o oferecida pelos provedores dos servi\u00e7os.\r\n\r\nEntretanto, note que mesmo com a criptografia do aplicativo, provedores de servi\u00e7os como **Google** ou **Facebook** (assim como outros) monitoram o simples fato de voc\u00ea estar se comunicando (e talvez com quem voc\u00ea esteja se comunicando), e podem compartilhar esta informa\u00e7\u00e3o com terceiros, como empresas ou governos. Portanto, talvez seja melhor evitar usar estas contas em comunica\u00e7\u00f5es sens\u00edveis, mesmo com a criptografia do **Jitsi**. Tamb\u00e9m mostraremos nesta se\u00e7\u00e3o como criar contas mais seguras (Jabber/XMPP ou SIP) e adicion\u00e1-las ao Jitsi, e recomendamos que voc\u00ea passe a utiliz\u00e1-las.\r\n\r\n\r\n<a name=\"2.2.1\"></a>\r\n### 2.2.1 Como adicionar uma conta do Google/Gmail ###\r\n\r\n**Observa\u00e7\u00e3o**: O exemplo a seguir \u00e9 baseado em uma conta do **Google Talk/Hangouts**. O processo de configura\u00e7\u00e3o \u00e9 similar para os outros protocolos listados na *Figura 1*, acima. Pode n\u00e3o ser poss\u00edvel estabelecer comunica\u00e7\u00e3o ou usar outras funcionalidades (como a criptografia independente para mensagens de texto e voz - **OTR** e **ZRTP**) entre pessoas usando dois ou mais provedores de servi\u00e7os diferentes (como Facebook, Gmail, Yahoo etc.). Entretanto, isso deve funcionar quando as comunica\u00e7\u1e4des forem feitas entre duas contas do mesmo provedor de servi\u00e7o.\r\n\r\n**Passo 1**. **Selecione Iniciar > Jitsi** ou **Clique duas vezes** no \u00edcone do **Jitsi** na \u00c1rea de Trabalho para abrir o programa.\r\n\r\n**Passo 2** Na janela de configura\u00e7\u00e3o de contas, **digite** o login e a senha da conta do **Gmail** que voc\u00ea pretende utilizar para o bate papo (chat), como na figura abaixo:\r\n\r\n![](/sbox/screen/jitsi-pt/09.png)\r\n\r\n*Figura 3: A janela de \"Entrar\" (reduzida)*\r\n\r\n**Observa\u00e7\u00e3o**: Voc\u00ea pode adicionar v\u00e1rias contas de diferentes protocolos ao mesmo tempo.\r\n\r\n**Passo 3**. **Clique** em ![](/sbox/screen/jitsi-pt/09s.png) para ativar sua conta e seguir para a janela principal, como se v\u00ea a seguir:\r\n\r\n![](/sbox/screen/jitsi-pt/10.png)\r\n\r\n*Figura 4: Um exemplo da janela principal do Jitsi ap\u00f3s adicionada a conta Gmail*\r\n\r\n**Observa\u00e7\u00e3o**: Se voc\u00ea fechou a janela de *Configura\u00e7\u00e3o de Contas*, ou quer adicionar outra conta, pode faz\u00ea-lo em **Ficheiro > Nova Conta**, no menu. Na nova janela, escolha *Google Talk* em **Rede** e **digite** o login e senha da conta do Gmail, como na imagem abaixo:\r\n\r\n![](/sbox/screen/jitsi-pt/11.png)\r\n\r\n*Figura 5: A janela de \"Adicionar contas\"*\r\n\r\nPara verificar que sua conta do **Gmail** est\u00e1 registrada no **Jitsi**, siga os seguintes passos:\r\n\r\n**Passo 1**. **Selecione *Ferramentas* > *Prefer\u00eancias*** do menu para abrir a seguinte janela:\r\n\r\n![](/sbox/screen/jitsi-pt/12.png)\r\n\r\n*Figura 6: A janela de Prefer\u00eancias mostrando a nova conta Gmail registrada (reduzida)*\r\n\r\n**Observa\u00e7\u00e3o**: Se voc\u00ea usa a [verifica\u00e7\u00e3o em duas etapas](https://support.google.com/accounts/answer/180744?hl=pt) para proteger os acessos da sua conta do Gmail, quando tentar entrar usando o **Jitsi** e sua senha normal, uma mensagem como a abaixo pode ser exibida. Para acessar a conta pelo **Jitsi**, voc\u00ea precisa gerar uma \"senha espec\u00edfica para o aplicativo\". Veja as [instru\u00e7\u00f5es do Google de como fazer isto](https://support.google.com/accounts/answer/185833?hl=pt). \r\n\r\n![](/sbox/screen/jitsi-pt/13.png)\r\n\r\n*Figura 7: Exemplo de falha na autentica\u00e7\u00e3o de entrada do Google Talk/Hangouts*\r\n\r\n\r\n<a name=\"2.2.2\"></a>\r\n### 2.2.2 Como criar uma nova conta Jabber/XMPP ou SIP e adicion\u00e1-la ao Jitsi ###\r\n\r\n**Jabber/XMPP** e **SIP** s\u00e3o padr\u00f5es livres de comunica\u00e7\u00e3o de texto e de voz. Existem [muitos servidores](https://xmpp.net/directory.php) que oferecem contas gratuitas que podem ser utilizadas com Jitsi. Abaixo, recomendamos alguns que voc\u00ea pode usar para comunica\u00e7\u00f5es sens\u00edveis.\r\n\r\nNote que tamb\u00e9m existe a possibilidade de baixar o [programa de servidor Jabber/XMPP](http://xmpp.org/xmpp-software/servers/) (como [ejabbered](http://www.process-one.net/en/ejabberd/) ou [Prosody IM](http://prosody.im/)), instalar o seu pr\u00f3prio servidor e configur\u00e1-lo para comunica\u00e7\u00f5es seguras e privadas entre pessoas do seu grupo, comunidade ou organiza\u00e7\u00e3o.\r\n\r\n  * A conta Jabber/XMPP do **Riseup.net** \r\n\r\nSe voc\u00ea possui uma conta no [servi\u00e7o de e-mail seguro Riseup.net](/pt/riseup_main) (localizado nos Estados Unidos), tamb\u00e9m pode [us\u00e1-la para comunicar atrav\u00e9s da Rede Jabber/XMPP](https://www.riseup.net/en/chat) adicionando-a ao Jitsi - veja abaixo como.\r\n\r\n  * **Jit.si** e outras contas Jabber/XMPP\r\n\r\nVoc\u00ea pode registrar uma conta no servidor Jabber.ccc.de (localizado na Alemanha) seguindo os seguintes passos:\r\n\r\n**Passo 1**. No menu do **Jitsi**, **selecione *Ficheiro* > *Nova Conta***. Na nova janela, **selecione** **XMPP** em *Rede* e **marque** a op\u00e7\u00e3o de **Criar uma nova conta**. Em *Servidor*, **digite** 'jabber.ccc.de', **digite** o login que voc\u00ea deseja criar no campo de 'username', e **preencha** os campos de *Senha* e *Confirma\u00e7\u00e3o de Senha* como na imagem abaixo:\r\n\r\n![](/sbox/screen/jitsi-pt/14.png)\r\n\r\n*Figura 8: Exemplo da janela de \"Nova Conta\" com a op\u00e7\u00e3o de \"Criar uma nova conta XMPP\" selecionada*\r\n\r\n**Passo 2**. **Clique *Adicionar***. Depois de completar o registro, uma janela similar \u00e0 *Figura 4*, acima, ser\u00e1 exibida.\r\n\r\nSe o login que voc\u00ea escolheu j\u00e1 estiver sendo utilizado por algu\u00e9m, o processo de registro falhar\u00e1 e exibir\u00e1 a seguinte mensagem: *Falha na cria\u00e7\u00e3o de conta devido ao seguinte erro: N\u00e3o foi poss\u00edvel confirmar os dados.* Voc\u00ea pode tentar novamente escolhendo um login diferente e repetindo o processo.\r\n\r\n**Note** que se voc\u00ea n\u00e3o utilizar sua conta jabber.ccc.de em um per\u00edodo de 12 meses, ela ser\u00e1 apagada do servidor automaticamente e o login ficar\u00e1 dispon\u00edvel para uso por outras pessoas.\r\n\r\nOutro servidor Jabber/XMPP que vale a pena ser mencionado \u00e9 o **jit.si**, mantido pelos desenvolvedores do programa **Jitsi**. Voc\u00ea pode criar uma conta no servidor [**jit.si**](https://jit.si) e em v\u00e1rios outros servidores p\u00fablicos Jabber/XMPP da mesma forma descrita na se\u00e7\u00e3o anterior. O IM Observatory (Observat\u00f3rio de Mensagens Instant\u00e2neas) mant\u00e9m [uma lista e um ranking dos servidores p\u00fablicos Jabber/XMPP](https://xmpp.net/directory.php) e tamb\u00e9m permite que voc\u00ea [teste a seguran\u00e7a de qualquer servidor Jabber/XMPP](https://xmpp.net/index.php).\r\n\r\n* **ostel.co** SIP\r\n\r\nContas **SIP** n\u00e3o podem ser registradas de dentro do programa **Jitsi**. O servidor **ostel.co** (localizado no Estados Unidos) permite o registro [em sua p\u00e1gina](https://ostel.co/users/sign_up). **Escolha** um login e senha, **informe** um endere\u00e7o de e-mail existente e **clique** no bot\u00e3o **Sign up** da p\u00e1gina.\r\n\r\nAp\u00f3s completar o registro, volte para o programa **Jitsi**. No menu, **selecione *Ficheiro* > *Nova conta*** e depois **selecione a Rede: SIP**, **digite** o login (ex. terence.the.tester@ostel.co) e a senha criados durante o registro online e **clique em *Adicionar***. Veja a imagem para refer\u00eancia:\r\n\r\n![](/sbox/screen/jitsi-pt/15.png)\r\n\r\n*Figura 9: Exemplo de janela de \"Nova conta\" para contas SIP*\r\n\r\n  * **Como adicionar ao Jitsi uma conta Jabber/XMPP ou SIP j\u00e1 existente**\r\n\r\nSe voc\u00ea j\u00e1 possui uma conta Jabber/XMPP ou SIP, pode adicion\u00e1-la ao **Jitsi**. **Selecione *Ficheiro* > *Nova conta*** no menu do programa e escolha a **Rede** apropriada (XMPP ou SIP, dependendo do tipo de conta).\r\n\r\n\r\n<a name=\"2.2.3\"></a>\r\n### 2.2.3 Como adicionar uma conta do Facebook ###\r\n\r\nO **Facebook** tem duas configura\u00e7\u00f5es que talvez voc\u00ea tenha que mudar para que o **Jitsi** consiga se conectar com o Facebook Chat.\r\n\r\n  * **Facebook username** \r\n\r\nO **Facebook** pede um *username* (ou nome de usu\u00e1ria/o) para que o **Jitsi** consiga se conectar ao chat do Facebook. Normalmente, quem tem um perfil no **Facebook** j\u00e1 possui esse *username*. Para verific\u00e1-lo, **acesse** sua conta do **Facebook** e entre na sua P\u00e1gina ou Linha do Tempo: o *username* \u00e9 o que aparece na barra de endere\u00e7os do navegador depois do *https://www.facebook.com/*. O *username* tamb\u00e9m aparece no e-mail do **Facebook** relacionado \u00e0 sua conta pessoal (ex: username@facebook.com).\r\n\r\nVoc\u00ea pode ver, mudar ou criar um *username* (ou nome de usu\u00e1ria/o) na se\u00e7\u00e3o *Configura\u00e7\u00f5es de Conta > Configura\u00e7\u00f5es Gerais* ou acessando o endere\u00e7o [https://www.facebook.com/username](https://www.facebook.com/username). Para configur\u00e1-lo, o **Facebook** pode requerer uma verifica\u00e7\u00e3o de conta - durante o processo de valida\u00e7\u00e3o, ser\u00e1 preciso fornecer ao **Facebook** um n\u00famero de telefone celular, ao qual ser\u00e1 enviada uma mensagem de texto SMS. Para mais detalhes veja [a explica\u00e7\u00e3o do Facebook sobre este assunto](https://www.facebook.com/help/329992603752372/).\r\n\r\n  * **Configura\u00e7\u00f5es de Aplicativos**\r\n\r\nA \"plataforma de aplicativos\" do **Facebook** deve estar ativada para que o **Jitsi** consiga se contectar ao chat do servi\u00e7o. Na sua p\u00e1gina do **Facebook**, entre em *Configura\u00e7\u00f5es de Conta > Aplicativos* e verifique se a op\u00e7\u00e3o para *Aplicativos em Uso* est\u00e1 ligada (*On*). Ela ativa a \"plataforma de aplicativos\" relacionados \u00e0 sua conta.\r\n\r\n**Note** que ativar a \"plataforma de aplicativos\" abre muitos dos seus dados no **Facebook** a desenvolvedores externos de programas. Tais dados ficam dispon\u00edveis n\u00e3o s\u00f3 para os aplicativos que voc\u00ea utiliza; tamb\u00e9m ficam expostos a programas usados por quaisquer pessoas com quem voc\u00ea se relacione. \r\n\r\nDepois de ativada a \"plataforma de aplicativos\" do **Facebook**, n\u00e3o se esque\u00e7a de verificar as configura\u00e7\u00f5es em *Aplicativos usados por outros*. Elas permitem esconder algumas informa\u00e7\u00f5es pessoais suas de programas usados por algu\u00e9m em sua rede de contatos. Infelizmente, o **Facebook** n\u00e3o permite esconder todos os seus dados pessoais. Alguns tipos de informa\u00e7\u00e3o como sua lista de pessoas conhecidas, g\u00eanero ou coisas que voc\u00ea tornou p\u00fablicas ficar\u00e3o dispon\u00edveis enquanto a \"plataforma de aplicativos\" estiver ligada. Cabe a voc\u00ea decidir se compensa abrir essas informa\u00e7\u00f5es como troca para usar o servi\u00e7o de bate papo integrado ao **Jitsi**.\r\n\r\nAgora \u00e9 poss\u00edvel adicionar a sua conta do **Facebook** no **Jitsi**. Para isso, siga os passos abaixo:\r\n\r\n**Passo 1**. No menu princial, **selecione *Ficheiro > Nova conta***.\r\n\r\n**Passo 2**. Na janela de Nova conta, **selecione** *Facebook* no campo *Rede*, **insira** seu *username* e *senha* e **clique** em **Adicionar**.\r\n\r\n![](/sbox/screen/jitsi-pt/16.png)\r\n\r\n*Figura 10: Exemplo de janela de \"Nova conta\" para contas do Facebook*\r\n\r\n\r\n<a name=\"2.3\"></a>\r\n## 2.3 Como alterar senhas de contas usando o Jitsi ##\r\n\r\nSaber como alterar a senha de cada uma das contas que voc\u00ea possui \u00e9 um fator de seguran\u00e7a importante. Muitos dos servi\u00e7os que podem ser usados com o **Jitsi** permitem modificar a senha de acesso em suas configura\u00e7\u00f5es, acess\u00edveis atrav\u00e9s de uma p\u00e1gina na internet.\r\n\r\nEntretanto, algumas contas Jabber/XMPP e SIP n\u00e3o s\u00e3o gerenciadas por p\u00e1ginas na internet. \u00c9 poss\u00edvel alterar suas senhas usando o Jitsi, de acordo com os passos abaixo:\r\n\r\n**Passo 1**. No menu, **v\u00e1 at\u00e9 *Ferramentas* > *Prefer\u00eancias*** e **selecione** a aba de **Contas**.\r\n\r\n![](/sbox/screen/jitsi-pt/17.png)\r\n\r\n*Figura 11: Janela de Prefer\u00eancias com uma conta selecionada*\r\n\r\n**Passo 2**. **Clique** no bot\u00e3o **Editar**, na parte de baixo da janela, para ativar a seguinte tela:\r\n\r\n![](/sbox/screen/jitsi-pt/18.png)\r\n\r\n*Figura 12: A janela do Menu de Registro de Contas com o bot\u00e3o de alterar senha na parte de baixo.\r\n\r\n**Passo 3**. **Clique** no bot\u00e3o **Alterar Senha** para ativar a janela de *Altera\u00e7\u00e3o de Senhas*:\r\n\r\n![](/sbox/screen/jitsi-pt/19.png)\r\n\r\n*Figura 13: A janela de Altera\u00e7\u00e3o de Senhas*\r\n\r\n**Passo 4**. **Insira** a nova senha e **repita-a** no campo abaixo. **Clique** no bot\u00e3o **OK** para fechar esta janela.\r\n\r\n**Passo 5**. Feche o Menu de Registro de Contas.\r\n\r\n\r\n<a name=\"2.4\"></a>\r\n## 2.4 Como configurar o Jitsi para aumentar a seguran\u00e7a do programa ##\r\n\r\n\r\n<a name=\"2.4.1\"></a>\r\n### 2.4.1 Como desabilitar e remover o hist\u00f3rico de chamadas e das conversas de bate papo ##\r\n\r\nPor padr\u00e3o, o **Jitsi** armazena informa\u00e7\u00f5es sobre as chamadas de voz feitas  e recebidas, assim como o hist\u00f3rico das mensagens de texto - todas as mensagens que voc\u00ea escreveu e recebeu. Voc\u00ea pode acessar as chamadas de voz ou de v\u00eddeo **clicando** no \u00edcone do rel\u00f3gio, na janela principal do programa:\r\n\r\n![](/sbox/screen/jitsi-pt/20.png)\r\n\r\n*Figura 14: Parte de cima da janela principal do Jitsi, com o bot\u00e3o do hist\u00f3rico de chamadas em destaque*\r\n\r\nVoc\u00ea pode ver o hist\u00f3rico das conversas **clicando** no \u00edcone da ampulheta dentro da janela de chat, enquanto estiver conversando com algu\u00e9m:\r\n\r\n![](/sbox/screen/jitsi-pt/21.png)\r\n\r\n*Figura 15: A janela de chat com o bot\u00e3o de hist\u00f3rico em destaque*\r\n\r\nEstas informa\u00e7\u00f5es s\u00e3o coletadas e armazenadas no seu computador. **Mesmo que voc\u00ea criptografe as conversas de bate papo com OTR, todas as mensagens enviadas e recebidas ser\u00e3o salvas no seu computador em formato de texto aberto.** O mesmo acontece nos computadores das pessoas com quem voc\u00ea se comunicar.\r\n\r\nPara prevenir que o Jitsi salve esse tipo de informa\u00e7\u00e3o e para remover as j\u00e1 armazenadas, **voc\u00ea e seus contatos devem realizar os seguintes passos**.\r\n\r\n#### Para desabilitar o armazenamento de dados pelo Jitsi: ####\r\n\r\n**Passo 1**. No menu, **v\u00e1** em ***Ferramentas* > *Prefer\u00eancias*** e **selecione** a aba de **Configura\u00e7\u00f5es Gerais**.\r\n\r\n![](/sbox/screen/jitsi-pt/22.png)\r\n\r\n*Figura 16: Janela de *Prefer\u00eancias*, aba de \"Configura\u00e7\u00f5es Gerais\": a op\u00e7\u00e3o \"Registrar hist\u00f3rico de conversas\" ('Log chat history') desabilitada*\r\n\r\n**Passo 2**. Na janela de *Prefer\u00eancias*, **v\u00e1 at\u00e9** a aba **Configura\u00e7\u00f5es Avan\u00e7adas**, **selecione** a se\u00e7\u00e3o *Logs* e **desmarque** a op\u00e7\u00e3o *Habilitar registro de pacotes*, como na imagem abaixo:\r\n\r\n![](/sbox/screen/jitsi-pt/23.png)\r\n\r\n*Figura 17: Janela \"Prefer\u00eancias\", aba \"Configura\u00e7\u00f5es Avan\u00e7adas\": a se\u00e7\u00e3o de \"Logs\" com a op\u00e7\u00e3o \"Habilitar guarda de pacotes\" desativada.*\r\n\r\nSuas altera\u00e7\u00f5es entrar\u00e3o em vigor ap\u00f3s **reiniciar o Jitsi**.\r\n\r\n\r\n#### Para remover as informa\u00e7\u00f5es j\u00e1 armazenadas sobre suas chamadas e mensagens de texto: ####\r\n\r\n**Passo 1**. **Feche** o Jitsi. \r\n\r\n**Passo 2**. Dentro da pasta de *perfil do usu\u00e1ria/o* do **Jitsi**, apague a pasta inteira de hist\u00f3rico de registros *history_ver1.0*. Caso queira remover apenas parte dos hist\u00f3ricos, elimine a subpasta correspondente dentro de *history_ver1.0*. A localiza\u00e7\u00e3o das pastas de *perfil do usu\u00e1ria/o* e *hist\u00f3rico de registros* dependem do sistema operacional:\r\n\r\n  * No Windows XP e vers\u00f5es mais antigas, est\u00e3o localizadas em *C:\\Documents and Settings\\&lt;Windows login/user name&gt;\\Application Data\\Jitsi\\history_ver1.0*\r\n  * No Windows Vista, Windows 7 e Windows 8, est\u00e3o em *C:\\Users\\&lt;Windows login/user name&gt;\\AppData\\Roaming\\Jitsi\\history_ver1.0* (**Note** que a pasta \"AppData\" pode estar oculta. Veja [como exibir arquivos ocultos](http://windows.microsoft.com/en-us/windows/show-hidden-files)).\r\n  * No Mac OS X, no seguinte endere\u00e7o, a partir da sua pasta home: *~/Library/Application Support/Jitsi/history_ver1.0*\r\n  * No Linux, no seguinte endere\u00e7o, a partir da sua pasta home: *~/.jitsi/history_ver1.0* (**Note** que a pasta \".jitsi\" pode estar oculta. Veja como [exibir arquivos ocultos no Ubuntu](http://itsfoss.com/hide-folders-and-show-hidden-files-in-ubuntu-beginner-trick/)).\r\n\r\nVeja o Cap\u00edtulo [**6. Como destruir informa\u00e7\u00f5es sens\u00edveis**](chapter-6), do **Guia de Refer\u00eancia**, para mais informa\u00e7\u00f5es sobre elimina\u00e7\u00e3o segura de informa\u00e7\u00f5es.\r\n\r\n\r\n<a name=\"2.4.2\"></a>\r\n### 2.4.2 Como requerer que a troca de mensagens em conversas por texto seja privada ###\r\n\r\n\u00c9 recomendado que voc\u00ea configure o **Jitsi** para solicitar que mensagens de texto sejam privadas e [criptografadas](/pt/glossary#encryption) com [*OTR*](/pt/glossary#OTR) sempre que poss\u00edvel. Para fazer isto, **v\u00e1 at\u00e9** o menu **Ferramentas**, **selecione** a aba **Seguran\u00e7a**, **selecione** a sub-aba **Conversar** e **marque** as op\u00e7\u00f5es para **Solicitar Mensagens Privadas** na parte de baixo da tela, como demonstrado abaixo:\r\n\r\n![](/sbox/screen/jitsi-pt/24.png)\r\n\r\n*Figura 18: Janela \"Prefer\u00eancias\", aba \"Seguran\u00e7a\", sub-aba \"Conversar\" com a op\u00e7\u00e3o \"Solicitar Mensagens Privadas\" em destaque*\r\n\r\n\r\n\r\n<a name=\"2.4.3\"></a>\r\n### 2.4.3 Proteja as senhas de suas contas com uma senha mestre ###\r\n\r\n\u00c9 melhor n\u00e3o permitir que o **Jitsi** armazene senhas, pois isso permitir\u00e1 a qualquer pessoa com acesso a seu computador acessar suas contas simplesmente iniciando o programa ou ver suas senhas ao entrar na janela de *Prefer\u00eancias*.\r\n\r\nPortanto, \u00e9 **altamente recomendado** proteger suas senhas com uma **senha mestre** forte. Uma vez configurada, a senha mestre ser\u00e1 solicitada sempre que o programa for iniciado.\r\n\r\n**Passo 1**. **Abra** a janela de *Prefer\u00eancias* indo at\u00e9 o menu e **selecionando *Ferramentas* > *Prefer\u00eancias***, **v\u00e1 at\u00e9** a aba **Seguran\u00e7a** e a sub-aba ***Palavra-passe***, e **marque *Utilizar senha mestre*** (*Use a master password*) para ativar a janela de ***senha mestre***.\r\n\r\n**Passo 2**. Na nova janela, **digite sua senha** como indicado na figura abaixo. Para mais informa\u00e7\u00f5es sobre como criar uma senha segura, veja o Cap\u00edtulo [**3: Como criar e manter senhas seguras**](/pt/chapter-3), do **Guia de Refer\u00eancia**.\r\n\r\n![](/sbox/screen/jitsi-pt/25.png)\r\n\r\n*Figura 19: A janela de \"senha mestre\"*\r\n\r\n**Passo 3**. **Clique** em **OK** para confirmar a senha e ativar a nova janela, que deve dizer ***senha mestre configurada com sucesso***. **Clique** em **OK** para fech\u00e1-la e voltar para a janela de *Prefer\u00eancias*, que deve aparecer como na imagem abaixo:\r\n\r\n![](/sbox/screen/jitsi-pt/26.png)\r\n\r\n*Figura 20: Janela \"Prefer\u00eancias\", aba \"Seguran\u00e7a\", sub-aba \"Palavra-passe\" com a op\u00e7\u00e3o \"Utilizar senha mestre\" indicada*\r\n\r\n**Observa\u00e7\u00e3o**: O bot\u00e3o de ***Alterar senha mestre*** permite que voc\u00ea altere a senha mestre; o bot\u00e3o ***Senhas Salvas*** permite que voc\u00ea acesse a lista de senhas salvas pelo Jitsi e as remova quando necess\u00e1rio."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2046", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2046", 
+                "link_title": "Jitsi - How to Install and Add Different Accounts in Jitsi", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5192", 
+                "module": "book", 
+                "nid": "2046", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5191", 
+                "p3": "5192", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5191", 
+                "router_path": "node/%", 
+                "title": "Jitsi - How to Install and Add Different Accounts in Jitsi", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1455116973", 
+            "comment": "0", 
+            "created": "1441121536", 
+            "current_revision_id": "13196", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "jitsi_account", 
+                        "value": "jitsi_account"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5192": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2046", 
+                    "link_title": "Jitsi - How to Install and Add Different Accounts in Jitsi", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5192", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5191", 
+                    "p3": "5192", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5191", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2046", 
+            "num_revisions": "13", 
+            "path": "https://securityinabox.org/en/jitsi_account", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455116973", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "\ufeffComo instalar e adicionar diferentes contas no Jitsi", 
+                        "value": "\ufeffComo instalar e adicionar diferentes contas no Jitsi"
+                    }
+                ]
+            }, 
+            "title_original": "Jitsi - How to Install and Add Different Accounts in Jitsi", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "es": {
+                        "changed": "1442498524", 
+                        "created": "1442498524", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455116973", 
+                        "created": "1455116973", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1454343548", 
+                        "created": "1441193267", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444181024", 
+                        "created": "1444181024", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021510", 
+                        "created": "1443021510", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444729125", 
+                        "created": "1444729125", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446138339", 
+                        "created": "1441121536", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2046", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "609d23a6-ce20-498c-80bd-2673b48949f3", 
+            "vid": "13196", 
+            "vuuid": "2aedc2a9-9922-4ff4-b4d2-6750ddae967d"
+        }, 
+        {
+            "body": {
+                "pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Se\u00e7\u00f5es nessa p\u00e1gina:</p>\n\n<ul><li><a href=\"#3.1\"><strong>3.1 Adicionar contatos (amigas e amigos) no Jitsi</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 Conversas de texto (mensagens instant\u00e2neas) com criptografia OTR</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 Conversas de voz e v\u00eddeo com criptografia ZRTP</strong></a></li>\n</ul><p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 Adicionar contatos (amigas e amigos) no Jitsi</h2>\n\n<p>Ap\u00f3s fazer o login e ter pelo menos uma conta relacionada ao Jitsi, \u00e9 poss\u00edvel adicionar seus contatos e come\u00e7ar a se comunicar.</p>\n\n<p>Para adicionar contatos ao <strong>Jitsi</strong>, siga os passos abaixo.</p>\n\n<p><strong>Passo 1</strong>. Para abrir a janela principal do programa, <strong>clique em Iniciar &gt; Jitsi</strong> ou <strong>de um duplo clique</strong> no \u00edcone do Jitsi em sua \u00c1rea de Trabalho.</p>\n\n<p><strong>Passo 2</strong>. <strong>Selecione <em>Ficheiro</em> &gt; <em>Adicionar Contato</em></strong>, que ir\u00e1 abrir a seguinte janela:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/30.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: A janela de Adicionar Contatos</em></p>\n\n<p><strong>Passo 3</strong>. <strong>Selecione</strong> para quais contas voc\u00ea gostaria de adicionar o contato (por exemplo: <em>guiajitsi@jit.si</em>).</p>\n\n<p><strong>Opcional</strong>: Tamb\u00e9m \u00e9 poss\u00edvel adicionar pessoas a um <em>grupo</em> dentro dos seus contatos. Para isso, \u00e9 preciso primeiro criar o grupo - selecione <strong><em>Ficheiro</em> &gt; <em>Criar Grupo</em></strong>, no menu.</p>\n\n<p><strong>Digite</strong> o nome do contato ou e-mail no campo de <strong><em>ID or Number</em></strong> (por exemplo: <em>contatojitsi@jit.si</em>).</p>\n\n<p>Voc\u00ea pode escolher um nome ou apelido para essa pessoa, que ficar\u00e1 vis\u00edvel em sua lista de contatos, na janela principal do <strong>Jitsi</strong>. <strong>Insira o nome desejado</strong> no campo <strong><em>Display Name</em></strong> (nome a ser exibido).</p>\n\n<p><strong>Passo 4</strong>. <strong>Clique</strong> em <em>Adicionar</em> para fechar a janela de <em>Adicionar Contato</em> e voltar para a janela principal do programa. Em sua lista de contatos, a nova adi\u00e7\u00e3o ser\u00e1 exibida junto com a notifica\u00e7\u00e3o \"Waiting for authorization\" (Aguardando autoriza\u00e7\u00e3o), como na imagem abaixo:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/31.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: A janela principal do Jitsi com o contato adicionado aguardando autoriza\u00e7\u00e3o</em></p>\n\n<p><strong>Passo 5</strong>. Quando seu contato (contatojitsi@jit.si) acessar sua respectiva conta, receber\u00e1 um aviso como o abaixo, informando que voc\u00ea est\u00e1 pedindo permiss\u00e3o para adicion\u00e1-lo \u00e0 sua lista de contatos:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/32.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: Janela requerendo a autoriza\u00e7\u00e3o de um novo contato</em></p>\n\n<p>Seu contato pode escolher a op\u00e7\u00e3o <em>Ignorar</em>, caso em que sua solicita\u00e7\u00e3o vai continuar aguardando autoriza\u00e7\u00e3o; <em>Negar</em>, no qual voc\u00ea receber\u00e1 um aviso de que seu pedido foi rejeitado; ou <em>Autorizar</em>, no qual voc\u00ea receber\u00e1 uma mensagem de confirma\u00e7\u00e3o da autoriza\u00e7\u00e3o e o contato ficar\u00e1 ativo na sua lista de contatos.</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/33.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: A janela principal do Jitsi com o novo contato autorizado</em></p>\n\n<p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 Conversas de texto (mensagens instant\u00e2neas) com criptografia OTR</h2>\n\n<p>Agora que voc\u00ea j\u00e1 adicionou e autorizou seu contato, \u00e9 poss\u00edvel clicar em seu nome na lista de contatos e iniciar uma conversa de texto, fazer chamadas de voz ou v\u00eddeo e at\u00e9 compartilhar sua \u00c1rea de Trabalho, selecionando um dos \u00edcones que aparecem abaixo do nome:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/34.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: Contato selecionado na janela principal do Jitsi com os \u00edcones para bate papo, chamadas de voz e v\u00eddeo e compartilhamento da \u00c1rea de Trabalho</em></p>\n\n<p><strong>Passo 1</strong>. Agora, vamos explorar uma das fun\u00e7\u00f5es mais importantes do programa: a possibilidade de conversar de forma segura via texto, criptografando as mensagens com o <a href=\"/pt/glossary#OTR\"><em>OTR</em></a>. O OTR funciona de maneira similar ao <a href=\"/pt/glossary#PGP\"><em>GPG/PGP</em></a>, descrito em outras se\u00e7\u00f5es deste Kit de Ferramentas. Antes que as conversas possam ser criptografadas, voc\u00ea e seu contato precisam configurar o <strong>Jitsi</strong> para gerar chaves de criptografia. Voc\u00ea pode fazer isto no menu <strong><em>Ferramentas &gt; Prefer\u00eancias</em></strong> e <strong>selecionar</strong> a aba <strong><em>Seguran\u00e7a</em></strong> e a sub-aba <strong><em>Conversar</em></strong>. Voc\u00ea encontrar\u00e1 uma janela similar \u00e0 abaixo:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/35.png\" alt=\"\" /></p>\n\n<p><em>Figura 6: Parte da janela de op\u00e7\u00f5es de bate papo, na qual voc\u00ea pode gerar as chaves de criptografia para suas conversas de texto</em></p>\n\n<p><strong>Passo 2</strong>. <strong>Clique</strong> no bot\u00e3o <strong>Gerar</strong>. Voc\u00ea ver\u00e1 a <strong>Assinatura digital</strong> ('Fingerprint') da chave gerada:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/36.png\" alt=\"\" /></p>\n\n<p><em>Figura 7: Parte da janela de op\u00e7\u00f5es de bate papo mostrando a Assinatura Digital ('Fingerprint') do chat criptografado com OTR</em></p>\n\n<p>Uma chave \u00e9 gerada para cada conta. Voc\u00ea s\u00f3 precisa fazer estes passos de novo se adicionar uma conta nova ou se instalar o <strong>Jitsi</strong> em algum outro dispositivo e n\u00e3o importar as chaves existentes para ele.</p>\n\n<p>Agora j\u00e1 \u00e9 poss\u00edvel se comunicar.</p>\n\n<p><strong>Passo 3</strong>. <strong>Selecione um contato</strong> da lista, na janela principal do Jitsi, e <strong>clique</strong> no \u00edcone de enviar mensagem (o primeiro da esquerda, abaixo do nome do contato) para abrir uma janela de bate papo:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/37.png\" alt=\"\" /></p>\n\n<p><em>Figura 8: Janela de bate papo com o \u00edcone de criptografia OTR <strong>n\u00e3o</strong> ativado em destaque</em></p>\n\n<p>Note o \u00edcone de <em>Criptografar conversa com OTR</em>, o cadeado aberto no canto superior direito da janela. Este s\u00edmbolo quase impercept\u00edvel informa se a conversa est\u00e1 ou n\u00e3o criptografada. Neste momento, o cadeado est\u00e1 aberto (h\u00e1 um espacinho entre a al\u00e7a e o corpo do cadedo!).</p>\n\n<p><strong>Passo 4</strong>. <strong>Clique</strong> no \u00edcone <strong><em>Criptografar conversa com OTR</em></strong>. Note as mudan\u00e7as na janela abaixo:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/38.png\" alt=\"\" /></p>\n\n<p><em>Figura 9: A janela de bate papo depois de habilitar \"Criptografar conversa com OTR\"</em></p>\n\n<p>Observe que o cadeado agora est\u00e1 fechado. Isso significa que, a partir de agora, todas as mensagens trocadas entre voc\u00ea e seu contato estar\u00e3o criptografadas. Note o alerta de que esta \u00e9 uma <em>Conversa privada n\u00e3o verificada</em> ('Unverified private conversation') e que voc\u00ea deve <em>autenticar</em> guiajitsi@jit.si.</p>\n\n<p><strong>Passo 5</strong>. <strong>Clique no link <em>Authenticate guiajitsi@jit.si</em></strong> para abrir a janela de <em>Autenticar Contato</em> ('Authenticate Buddy'):</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/39.png\" alt=\"\" /></p>\n\n<p><em>Figura 10: A janela de Autenticar Contato, com as Assinaturas Digitais ('Fingerprints') sua e de seu contato</em></p>\n\n<p>Veja que a mensagem te encoraja a comparar as Assinaturas Digitais ('Fingerprints') relacionadas \u00e0 sua chave e \u00e0 do seu contato por um outro canal de comunica\u00e7\u00e3o (n\u00e3o este bate papo). Ao fazer isso, \u00e9 poss\u00edvel ter mais certeza de que voc\u00ea est\u00e1 realmente falando com quem deseja, e n\u00e3o com outra pessoa. Boas op\u00e7\u00f5es s\u00e3o checar as chaves presencialmente ou chec\u00e1-las por comunica\u00e7\u00f5es de voz ou de v\u00eddeo, nas quais \u00e9 mais f\u00e1cil reconhecer a outra pessoa. Ap\u00f3s comparar as Assinaturas Digitais, <strong>selecione</strong> a op\u00e7\u00e3o <strong><em>Eu tenho</em></strong> no menu expandido (que completa a frase <em>verified that this is in fact...</em>) e <strong>clique em <em>Authenticate Buddy</em></strong>:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/40.png\" alt=\"\" /></p>\n\n<p><em>Figura 11: Parte da janela de Autenticar Amigo ap\u00f3s selecionar \"Eu tenho a Fingerprint\" do meu contato</em></p>\n\n<p>Feche a janela de <em>Autenticar Amigo</em> e volte para a janela do bate papo:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/41.png\" alt=\"\" /></p>\n\n<p><em>Figura 12: Janela de bate papo com a criptografia OTR autenticada</em></p>\n\n<p>Note que o cadeado n\u00e3o possui mais o tri\u00e2ngulo laranja com o ponto de exclama\u00e7\u00e3o branco. Isso significa que voc\u00ea autenticou o seu contato. <strong>A autentica\u00e7\u00e3o deve ser feita apenas uma vez por contato.</strong> Se o tri\u00e2ngulo com o ponto de exclama\u00e7\u00e3o voltar a aparecer, \u00e9 porque voc\u00ea est\u00e1 conversando com algu\u00e9m ainda n\u00e3o autenticado. Isso pode acontecer caso seu contato use outro dispositivo, com uma chave de criptografia diferente (outra instala\u00e7\u00e3o do Jitsi, outro programa com OTR habilitado etc.). Neste caso, \u00e9 preciso refazer o processo de autentica\u00e7\u00e3o para ter certeza sobre a identidade da pessoa com quem voc\u00ea est\u00e1 se comunicando.</p>\n\n<p>O <strong>Jitsi</strong> permite fazer bate papos com mais de uma pessoa ao mesmo tempo. Por\u00e9m, a criptografia OTR funcionar\u00e1 apenas para conversas entre duas pessoas.</p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h2>3.3 Conversas de voz e v\u00eddeo com criptografia ZRTP</h2>\n\n<p>O <strong>Jitsi</strong> permite fazer chamadas de voz e v\u00eddeo, que podem ser criptografadas de forma independente com o ZRTP, um padr\u00e3o aberto de criptografia. Para iniciar um chamada criptografada, siga os passos abaixo:</p>\n\n<p><strong>Passo 1</strong>. <strong>Selecione</strong> o contato desejado na lista de contatos do <strong>Jitsi</strong> e <strong>clique</strong> no \u00edcone de chamada de voz (o segundo da esquerda, abaixo do nome) ou no \u00edcone de chamadas de v\u00eddeo (terceiro da esquerda) - veja a figura 5, acima. Aparecer\u00e1 uma nova janela, indicando que o <strong>Jitsi</strong> est\u00e1 estabelecendo a conex\u00e3o:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/42.png\" alt=\"\" /></p>\n\n<p><em>Figura 13: A janela de chamadas com status de Chamando</em></p>\n\n<p>Seu contato ver\u00e1 uma notifica\u00e7\u00e3o de chamada recebida:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/43.png\" alt=\"\" /></p>\n\n<p><em>Figura 14: Notifica\u00e7\u00e3o de chamada recebida</em></p>\n\n<p><strong>Passo 2</strong>. Se seu contato <strong>aceitar a chamada</strong>, voc\u00ea ver\u00e1 a mensagem de Liga\u00e7\u00e3o Estabelecida:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/44.png\" alt=\"\" /></p>\n\n<p><em>Figura 15: Janela de chamada recebida sem criptografia ZRTP</em></p>\n\n<p><strong>Note</strong> o cadeado aberto em vermelho. Isso significa que a chamada ainda n\u00e3o est\u00e1 criptografada com ZRTP.</p>\n\n<p><strong>Passo 3</strong>. <strong>Aguarde...</strong> O seu e o programa de seu contato est\u00e3o estabelecendo uma conex\u00e3o criptografada, o que pode levar um tempinho. Se o processo for bem sucedido, as letras <em>zrtp</em> aparecer\u00e3o em um fundo laranja junto a um cadeado fechado, como na imagem abaixo; se n\u00e3o for, ainda ser\u00e1 poss\u00edvel conversar, mas sem critografia. Voc\u00ea pode desconectar, reiniciar o <strong>Jitsi</strong> e tentar novamente para ver se desta vez os programas conseguem se conectar com a criptografia. O ZRTP pode n\u00e3o funcionar em liga\u00e7\u00f5es entre contas de diferentes provedores (como entre Google e Jit.si por exemplo).</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/45.png\" alt=\"\" /></p>\n\n<p><em>Figura 16: Parte da janela de Chamada com a criptografia ZRTP ativada mas ainda n\u00e3o verificada</em></p>\n\n<p><strong>Passo 4</strong>. <strong>Observe</strong> a caixa que aparece abaixo das letras <em>zrtp</em> e do cadeado, com a mensagem <em>Compare com:</em> seguida de quatro letras. <strong>Leia</strong> essas letras para a pessoa com quem voc\u00ea est\u00e1 se comunicando e pergunte se as que ela v\u00ea na tela dela s\u00e3o as mesmas. Se sim, a comunica\u00e7\u00e3o entre voc\u00eas est\u00e1 criptografada e ningu\u00e9m est\u00e1 interferindo. <strong>Clique</strong> em <strong><em>Confirmar</em></strong> e o campo <em>rztp</em> amarelo se tornar\u00e1 verde:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/46.png\" alt=\"\" /></p>\n\n<p><em>Figura 17: Parte da janela de chamada com a criptografia ZRTP ativada</em></p>\n\n<p><strong>Passo 5</strong>. Voc\u00ea pode fechar a \u00e1rea preta de confirma\u00e7\u00e3o clicando no x branco, no canto superior direito:</p>\n\n<p><img src=\"/sbox/screen/jitsi-pt/47.png\" alt=\"\" /></p>\n\n<p><em>Figura 18: Parte da janela de chamada com a criptografia ZRTP ativada</em></p>\n\n<p>O <strong>Jitsi</strong> permite fazer chamadas de voz e v\u00eddeo para mais de uma pessoa ao mesmo tempo. Quando este for o caso, <strong>note</strong> que a criptografia ZRTP poder\u00e1 ser ativada entre quem iniciou a chamada e os outros contatos, mas n\u00e3o os contatos entre eles.</p>\n", 
+                        "summary": "", 
+                        "value": "Se\u00e7\u00f5es nessa p\u00e1gina:\r\n\r\n- [**3.1 Adicionar contatos (amigas e amigos) no Jitsi**](#3.1)\r\n- [**3.2 Conversas de texto (mensagens instant\u00e2neas) com criptografia OTR**](#3.2)\r\n- [**3.3 Conversas de voz e v\u00eddeo com criptografia ZRTP**](#3.3)\r\n\r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 Adicionar contatos (amigas e amigos) no Jitsi ##\r\n\r\nAp\u00f3s fazer o login e ter pelo menos uma conta relacionada ao Jitsi, \u00e9 poss\u00edvel adicionar seus contatos e come\u00e7ar a se comunicar.\r\n\r\nPara adicionar contatos ao **Jitsi**, siga os passos abaixo.\r\n\r\n**Passo 1**. Para abrir a janela principal do programa, **clique em Iniciar > Jitsi** ou **de um duplo clique** no \u00edcone do Jitsi em sua \u00c1rea de Trabalho.\r\n\r\n**Passo 2**. **Selecione *Ficheiro* > *Adicionar Contato***, que ir\u00e1 abrir a seguinte janela:\r\n\r\n![](/sbox/screen/jitsi-pt/30.png)\r\n\r\n*Figura 1: A janela de Adicionar Contatos*\r\n\r\n**Passo 3**. **Selecione** para quais contas voc\u00ea gostaria de adicionar o contato (por exemplo: *guiajitsi@jit.si*).\r\n\r\n**Opcional**: Tamb\u00e9m \u00e9 poss\u00edvel adicionar pessoas a um *grupo* dentro dos seus contatos. Para isso, \u00e9 preciso primeiro criar o grupo - selecione ***Ficheiro* > *Criar Grupo***, no menu.\r\n\r\n**Digite** o nome do contato ou e-mail no campo de ***ID or Number*** (por exemplo: *contatojitsi@jit.si*).\r\n\r\nVoc\u00ea pode escolher um nome ou apelido para essa pessoa, que ficar\u00e1 vis\u00edvel em sua lista de contatos, na janela principal do **Jitsi**. **Insira o nome desejado** no campo ***Display Name*** (nome a ser exibido).\r\n\r\n**Passo 4**. **Clique** em *Adicionar* para fechar a janela de *Adicionar Contato* e voltar para a janela principal do programa. Em sua lista de contatos, a nova adi\u00e7\u00e3o ser\u00e1 exibida junto com a notifica\u00e7\u00e3o \"Waiting for authorization\" (Aguardando autoriza\u00e7\u00e3o), como na imagem abaixo:\r\n\r\n![](/sbox/screen/jitsi-pt/31.png)\r\n\r\n*Figura 2: A janela principal do Jitsi com o contato adicionado aguardando autoriza\u00e7\u00e3o*\r\n\r\n**Passo 5**. Quando seu contato (contatojitsi@jit.si) acessar sua respectiva conta, receber\u00e1 um aviso como o abaixo, informando que voc\u00ea est\u00e1 pedindo permiss\u00e3o para adicion\u00e1-lo \u00e0 sua lista de contatos:\r\n\r\n![](/sbox/screen/jitsi-pt/32.png)\r\n\r\n*Figura 3: Janela requerendo a autoriza\u00e7\u00e3o de um novo contato*\r\n\r\nSeu contato pode escolher a op\u00e7\u00e3o *Ignorar*, caso em que sua solicita\u00e7\u00e3o vai continuar aguardando autoriza\u00e7\u00e3o; *Negar*, no qual voc\u00ea receber\u00e1 um aviso de que seu pedido foi rejeitado; ou *Autorizar*, no qual voc\u00ea receber\u00e1 uma mensagem de confirma\u00e7\u00e3o da autoriza\u00e7\u00e3o e o contato ficar\u00e1 ativo na sua lista de contatos.\r\n\r\n![](/sbox/screen/jitsi-pt/33.png)\r\n\r\n*Figura 4: A janela principal do Jitsi com o novo contato autorizado*\r\n\r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 Conversas de texto (mensagens instant\u00e2neas) com criptografia OTR ##\r\n\r\nAgora que voc\u00ea j\u00e1 adicionou e autorizou seu contato, \u00e9 poss\u00edvel clicar em seu nome na lista de contatos e iniciar uma conversa de texto, fazer chamadas de voz ou v\u00eddeo e at\u00e9 compartilhar sua \u00c1rea de Trabalho, selecionando um dos \u00edcones que aparecem abaixo do nome:  \r\n\r\n![](/sbox/screen/jitsi-pt/34.png)\r\n\r\n*Figura 5: Contato selecionado na janela principal do Jitsi com os \u00edcones para bate papo, chamadas de voz e v\u00eddeo e compartilhamento da \u00c1rea de Trabalho*\r\n\r\n**Passo 1**. Agora, vamos explorar uma das fun\u00e7\u00f5es mais importantes do programa: a possibilidade de conversar de forma segura via texto, criptografando as mensagens com o [*OTR*](/pt/glossary#OTR). O OTR funciona de maneira similar ao [*GPG/PGP*](/pt/glossary#PGP), descrito em outras se\u00e7\u00f5es deste Kit de Ferramentas. Antes que as conversas possam ser criptografadas, voc\u00ea e seu contato precisam configurar o **Jitsi** para gerar chaves de criptografia. Voc\u00ea pode fazer isto no menu ***Ferramentas > Prefer\u00eancias*** e **selecionar** a aba ***Seguran\u00e7a*** e a sub-aba ***Conversar***. Voc\u00ea encontrar\u00e1 uma janela similar \u00e0 abaixo:\r\n\r\n![](/sbox/screen/jitsi-pt/35.png)\r\n\r\n*Figura 6: Parte da janela de op\u00e7\u00f5es de bate papo, na qual voc\u00ea pode gerar as chaves de criptografia para suas conversas de texto*\r\n\r\n**Passo 2**. **Clique** no bot\u00e3o **Gerar**. Voc\u00ea ver\u00e1 a **Assinatura digital** ('Fingerprint') da chave gerada:\r\n\r\n![](/sbox/screen/jitsi-pt/36.png)\r\n\r\n*Figura 7: Parte da janela de op\u00e7\u00f5es de bate papo mostrando a Assinatura Digital ('Fingerprint') do chat criptografado com OTR*\r\n\r\nUma chave \u00e9 gerada para cada conta. Voc\u00ea s\u00f3 precisa fazer estes passos de novo se adicionar uma conta nova ou se instalar o **Jitsi** em algum outro dispositivo e n\u00e3o importar as chaves existentes para ele.\r\n\r\nAgora j\u00e1 \u00e9 poss\u00edvel se comunicar.\r\n\r\n**Passo 3**. **Selecione um contato** da lista, na janela principal do Jitsi, e **clique** no \u00edcone de enviar mensagem (o primeiro da esquerda, abaixo do nome do contato) para abrir uma janela de bate papo:\r\n\r\n![](/sbox/screen/jitsi-pt/37.png)\r\n\r\n*Figura 8: Janela de bate papo com o \u00edcone de criptografia OTR **n\u00e3o** ativado em destaque*\r\n\r\nNote o \u00edcone de *Criptografar conversa com OTR*, o cadeado aberto no canto superior direito da janela. Este s\u00edmbolo quase impercept\u00edvel informa se a conversa est\u00e1 ou n\u00e3o criptografada. Neste momento, o cadeado est\u00e1 aberto (h\u00e1 um espacinho entre a al\u00e7a e o corpo do cadedo!).\r\n\r\n**Passo 4**. **Clique** no \u00edcone ***Criptografar conversa com OTR***. Note as mudan\u00e7as na janela abaixo:\r\n\r\n![](/sbox/screen/jitsi-pt/38.png)\r\n\r\n*Figura 9: A janela de bate papo depois de habilitar \"Criptografar conversa com OTR\"*\r\n\r\nObserve que o cadeado agora est\u00e1 fechado. Isso significa que, a partir de agora, todas as mensagens trocadas entre voc\u00ea e seu contato estar\u00e3o criptografadas. Note o alerta de que esta \u00e9 uma *Conversa privada n\u00e3o verificada* ('Unverified private conversation') e que voc\u00ea deve *autenticar* guiajitsi@jit.si.\r\n\r\n**Passo 5**. **Clique no link *Authenticate guiajitsi@jit.si*** para abrir a janela de *Autenticar Contato* ('Authenticate Buddy'):\r\n\r\n![](/sbox/screen/jitsi-pt/39.png)\r\n\r\n*Figura 10: A janela de Autenticar Contato, com as Assinaturas Digitais ('Fingerprints') sua e de seu contato*\r\n\r\nVeja que a mensagem te encoraja a comparar as Assinaturas Digitais ('Fingerprints') relacionadas \u00e0 sua chave e \u00e0 do seu contato por um outro canal de comunica\u00e7\u00e3o (n\u00e3o este bate papo). Ao fazer isso, \u00e9 poss\u00edvel ter mais certeza de que voc\u00ea est\u00e1 realmente falando com quem deseja, e n\u00e3o com outra pessoa. Boas op\u00e7\u00f5es s\u00e3o checar as chaves presencialmente ou chec\u00e1-las por comunica\u00e7\u00f5es de voz ou de v\u00eddeo, nas quais \u00e9 mais f\u00e1cil reconhecer a outra pessoa. Ap\u00f3s comparar as Assinaturas Digitais, **selecione** a op\u00e7\u00e3o ***Eu tenho*** no menu expandido (que completa a frase *verified that this is in fact...*) e **clique em *Authenticate Buddy***:\r\n\r\n![](/sbox/screen/jitsi-pt/40.png)\r\n\r\n*Figura 11: Parte da janela de Autenticar Amigo ap\u00f3s selecionar \"Eu tenho a Fingerprint\" do meu contato*\r\n\r\nFeche a janela de *Autenticar Amigo* e volte para a janela do bate papo:\r\n\r\n![](/sbox/screen/jitsi-pt/41.png)\r\n\r\n*Figura 12: Janela de bate papo com a criptografia OTR autenticada*\r\n\r\nNote que o cadeado n\u00e3o possui mais o tri\u00e2ngulo laranja com o ponto de exclama\u00e7\u00e3o branco. Isso significa que voc\u00ea autenticou o seu contato. **A autentica\u00e7\u00e3o deve ser feita apenas uma vez por contato.** Se o tri\u00e2ngulo com o ponto de exclama\u00e7\u00e3o voltar a aparecer, \u00e9 porque voc\u00ea est\u00e1 conversando com algu\u00e9m ainda n\u00e3o autenticado. Isso pode acontecer caso seu contato use outro dispositivo, com uma chave de criptografia diferente (outra instala\u00e7\u00e3o do Jitsi, outro programa com OTR habilitado etc.). Neste caso, \u00e9 preciso refazer o processo de autentica\u00e7\u00e3o para ter certeza sobre a identidade da pessoa com quem voc\u00ea est\u00e1 se comunicando.\r\n\r\nO **Jitsi** permite fazer bate papos com mais de uma pessoa ao mesmo tempo. Por\u00e9m, a criptografia OTR funcionar\u00e1 apenas para conversas entre duas pessoas.\r\n\r\n\r\n<a name=\"3.3\"></a>\r\n## 3.3 Conversas de voz e v\u00eddeo com criptografia ZRTP ##\r\n\r\nO **Jitsi** permite fazer chamadas de voz e v\u00eddeo, que podem ser criptografadas de forma independente com o ZRTP, um padr\u00e3o aberto de criptografia. Para iniciar um chamada criptografada, siga os passos abaixo:\r\n\r\n**Passo 1**. **Selecione** o contato desejado na lista de contatos do **Jitsi** e **clique** no \u00edcone de chamada de voz (o segundo da esquerda, abaixo do nome) ou no \u00edcone de chamadas de v\u00eddeo (terceiro da esquerda) - veja a figura 5, acima. Aparecer\u00e1 uma nova janela, indicando que o **Jitsi** est\u00e1 estabelecendo a conex\u00e3o:\r\n\r\n![](/sbox/screen/jitsi-pt/42.png)\r\n\r\n*Figura 13: A janela de chamadas com status de Chamando*\r\n\r\nSeu contato ver\u00e1 uma notifica\u00e7\u00e3o de chamada recebida:\r\n\r\n![](/sbox/screen/jitsi-pt/43.png)\r\n\r\n*Figura 14: Notifica\u00e7\u00e3o de chamada recebida*\r\n\r\n**Passo 2**. Se seu contato **aceitar a chamada**, voc\u00ea ver\u00e1 a mensagem de Liga\u00e7\u00e3o Estabelecida:\r\n\r\n![](/sbox/screen/jitsi-pt/44.png)\r\n\r\n*Figura 15: Janela de chamada recebida sem criptografia ZRTP*\r\n\r\n**Note** o cadeado aberto em vermelho. Isso significa que a chamada ainda n\u00e3o est\u00e1 criptografada com ZRTP.\r\n\r\n**Passo 3**. **Aguarde...** O seu e o programa de seu contato est\u00e3o estabelecendo uma conex\u00e3o criptografada, o que pode levar um tempinho. Se o processo for bem sucedido, as letras *zrtp* aparecer\u00e3o em um fundo laranja junto a um cadeado fechado, como na imagem abaixo; se n\u00e3o for, ainda ser\u00e1 poss\u00edvel conversar, mas sem critografia. Voc\u00ea pode desconectar, reiniciar o **Jitsi** e tentar novamente para ver se desta vez os programas conseguem se conectar com a criptografia. O ZRTP pode n\u00e3o funcionar em liga\u00e7\u00f5es entre contas de diferentes provedores (como entre Google e Jit.si por exemplo).\r\n\r\n![](/sbox/screen/jitsi-pt/45.png)\r\n\r\n*Figura 16: Parte da janela de Chamada com a criptografia ZRTP ativada mas ainda n\u00e3o verificada*\r\n\r\n**Passo 4**. **Observe** a caixa que aparece abaixo das letras *zrtp* e do cadeado, com a mensagem *Compare com:* seguida de quatro letras. **Leia** essas letras para a pessoa com quem voc\u00ea est\u00e1 se comunicando e pergunte se as que ela v\u00ea na tela dela s\u00e3o as mesmas. Se sim, a comunica\u00e7\u00e3o entre voc\u00eas est\u00e1 criptografada e ningu\u00e9m est\u00e1 interferindo. **Clique** em ***Confirmar*** e o campo *rztp* amarelo se tornar\u00e1 verde:\r\n\r\n![](/sbox/screen/jitsi-pt/46.png)\r\n\r\n*Figura 17: Parte da janela de chamada com a criptografia ZRTP ativada*\r\n\r\n**Passo 5**. Voc\u00ea pode fechar a \u00e1rea preta de confirma\u00e7\u00e3o clicando no x branco, no canto superior direito:\r\n\r\n![](/sbox/screen/jitsi-pt/47.png)\r\n\r\n*Figura 18: Parte da janela de chamada com a criptografia ZRTP ativada*\r\n\r\nO **Jitsi** permite fazer chamadas de voz e v\u00eddeo para mais de uma pessoa ao mesmo tempo. Quando este for o caso, **note** que a criptografia ZRTP poder\u00e1 ser ativada entre quem iniciou a chamada e os outros contatos, mas n\u00e3o os contatos entre eles."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2047", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2047", 
+                "link_title": "Jitsi - Add contacts and communicate text & voice", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5193", 
+                "module": "book", 
+                "nid": "2047", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5191", 
+                "p3": "5193", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5191", 
+                "router_path": "node/%", 
+                "title": "Jitsi - Add contacts and communicate text & voice", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1455117062", 
+            "comment": "0", 
+            "created": "1441121583", 
+            "current_revision_id": "13197", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "jitsi_communicate", 
+                        "value": "jitsi_communicate"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5193": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2047", 
+                    "link_title": "Jitsi - Add contacts and communicate text & voice", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5193", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5191", 
+                    "p3": "5193", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5191", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2047", 
+            "num_revisions": "9", 
+            "path": "https://securityinabox.org/en/jitsi_communicate", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455117062", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como adicionar contatos e se comunicar por texto e voz", 
+                        "value": "Como adicionar contatos e se comunicar por texto e voz"
+                    }
+                ]
+            }, 
+            "title_original": "Jitsi - Add contacts and communicate text & voice", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "es": {
+                        "changed": "1442498676", 
+                        "created": "1442498676", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455117062", 
+                        "created": "1455117062", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441193486", 
+                        "created": "1441193486", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444181060", 
+                        "created": "1444181060", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021533", 
+                        "created": "1443021533", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444729180", 
+                        "created": "1444729180", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446206682", 
+                        "created": "1441121583", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2047", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "bd49a0d8-dc77-4cc6-a339-5e74de093b65", 
+            "vid": "13197", 
+            "vuuid": "89dee112-daa7-447a-95a8-f0c676035751"
+        }
+    ], 
+    "changed": "1456930417", 
+    "comment": "0", 
+    "created": "1441121486", 
+    "current_revision_id": "13439", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "pt": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "pt": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Instalando o Jitsi</strong></p>\n\n<ul><li><em>Leia a breve Introdu\u00e7\u00e3o da se\u00e7\u00e3o de <a href=\"/pt/handsonguides\"><strong>Guias Pr\u00e1ticos</strong></a>.</em></li>\n<li><em><strong>Clique no \u00edcone do Jitsi abaixo</strong> e 'Abra' ou 'Execute' o instalador. Se necess\u00e1rio, salve-o primeiro; encontre e d\u00ea um clique duplo no instalador para ativ\u00e1-lo.</em></li>\n<li><em>Leia as 'Instru\u00e7\u00f5es de instala\u00e7\u00e3o' na pr\u00f3xima se\u00e7\u00e3o antes de continuar.</em></li>\n<li><em>Se voc\u00ea salvou o instalador no computador, poder\u00e1 apag\u00e1-lo depois da instala\u00e7\u00e3o.</em></li>\n</ul><p><strong>Jitsi</strong>:\n<a href=\"/sbox/programs/jitsi.exe\"><img src=\"/sbox/screen/jitsi-pt/01.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Instalando o Jitsi**\r\n\r\n- *Leia a breve Introdu\u00e7\u00e3o da se\u00e7\u00e3o de [**Guias Pr\u00e1ticos**](/pt/handsonguides).*\r\n- ***Clique no \u00edcone do Jitsi abaixo** e 'Abra' ou 'Execute' o instalador. Se necess\u00e1rio, salve-o primeiro; encontre e d\u00ea um clique duplo no instalador para ativ\u00e1-lo.*\r\n- *Leia as 'Instru\u00e7\u00f5es de instala\u00e7\u00e3o' na pr\u00f3xima se\u00e7\u00e3o antes de continuar.*\r\n- *Se voc\u00ea salvou o instalador no computador, poder\u00e1 apag\u00e1-lo depois da instala\u00e7\u00e3o.*\r\n\r\n**Jitsi**:\r\n[![](/sbox/screen/jitsi-pt/01.png)](/sbox/programs/jitsi.exe)"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "pt": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Baixando o Jitsi</strong></p>\n\n<ul><li><em>Leia a breve Introdu\u00e7\u00e3o da se\u00e7\u00e3o de <a href=\"/pt/handsonguides\"><strong>Guias Pr\u00e1ticos</strong></a>.</em></li>\n<li><em><strong>Clique</strong> no \u00edcone do Jitsi abaixo para abrir a p\u00e1gina de downloads <strong>https://jitsi.org/Main/Download</strong></em></li>\n<li><em>Na \u00e1rea reservada para as vers\u00f5es est\u00e1veis (stable builds), <strong>clique</strong> em <strong>Microsoft Windows Installers</strong> (instaladores para Windows) para baixar o arquivo de instala\u00e7\u00e3o. Encontre e abra o arquivo.</em></li>\n</ul><p><a href=\"https://jitsi.org/Main/Download\"><img src=\"/sbox/screen/jitsi-pt/01.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Baixando o Jitsi**\r\n\r\n- *Leia a breve Introdu\u00e7\u00e3o da se\u00e7\u00e3o de [**Guias Pr\u00e1ticos**](/pt/handsonguides).*\r\n- ***Clique** no \u00edcone do Jitsi abaixo para abrir a p\u00e1gina de downloads **https://jitsi.org/Main/Download***\r\n- *Na \u00e1rea reservada para as vers\u00f5es est\u00e1veis (stable builds), **clique** em **Microsoft Windows Installers** (instaladores para Windows) para baixar o arquivo de instala\u00e7\u00e3o. Encontre e abra o arquivo.*\r\n\r\n[![](/sbox/screen/jitsi-pt/01.png)](https://jitsi.org/Main/Download)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "Jitsi - Secure Audio, Video and Text Com", 
+                "value": "Jitsi - Secure Audio, Video and Text Com"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "Jitsi - \u00c1udio, v\u00eddeo e mensagens instant\u00e2neas de forma segura", 
+                "value": "Jitsi - \u00c1udio, v\u00eddeo e mensagens instant\u00e2neas de forma segura"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "pt": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p>O <strong>Jitsi</strong> \u00e9 um <a href=\"/pt/glossary#FOSS\"><strong>programa livre e de c\u00f3digo aberto (FOSS)</strong></a> multiplataforma que suporta <strong>mensagens de texto instant\u00e2neas</strong>, conversa\u00e7\u00e3o de voz e v\u00eddeo atrav\u00e9s da internet.</p>\n\n<p>Ele suporta v\u00e1rios dos protocolos mais populares de <strong>mensagens instant\u00e2neas</strong> e telefonia, entre eles o <strong>SIP</strong> (<strong>Session Initiation Protocol</strong>), <strong>Jabber/XMPP</strong> (utilizado pelo <strong>Facebook</strong> e pelo <strong>Google Talk/Hangouts</strong>), <strong>AIM</strong>, <strong>ICQ</strong>, <strong>MSN</strong>, e <strong>Yahoo!Messenger</strong>.</p>\n\n<p>O <strong>Jitsi</strong> oferece criptografia adicional independente para conversas de texto (protocolo <strong>OTR - Off-the-Records</strong>) e para sess\u00f5es de voz e v\u00eddeo (<strong>ZRTP</strong>, <strong>SRTP</strong>). Funciona nas plataformas <strong>Microsoft Windows</strong>, <strong>Mac OS</strong> e <strong>Linux</strong>. Uma vers\u00e3o para <strong>Android</strong> \u00e9 aguardada em breve.</p>\n", 
+                "value": "O **Jitsi** \u00e9 um [**programa livre e de c\u00f3digo aberto (FOSS)**](/pt/glossary#FOSS) multiplataforma que suporta **mensagens de texto instant\u00e2neas**, conversa\u00e7\u00e3o de voz e v\u00eddeo atrav\u00e9s da internet.\r\n\r\nEle suporta v\u00e1rios dos protocolos mais populares de **mensagens instant\u00e2neas** e telefonia, entre eles o **SIP** (**Session Initiation Protocol**), **Jabber/XMPP** (utilizado pelo **Facebook** e pelo **Google Talk/Hangouts**), **AIM**, **ICQ**, **MSN**, e **Yahoo!Messenger**.\r\n\r\nO **Jitsi** oferece criptografia adicional independente para conversas de texto (protocolo **OTR - Off-the-Records**) e para sess\u00f5es de voz e v\u00eddeo (**ZRTP**, **SRTP**). Funciona nas plataformas **Microsoft Windows**, **Mac OS** e **Linux**. Uma vers\u00e3o para **Android** \u00e9 aguardada em breve."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-09-29 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "jitsi", 
+                "value": "jitsi"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "12"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "12"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5191": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2045", 
+            "link_title": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5191", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5191", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-4"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2045", 
+    "num_revisions": "23", 
+    "path": "https://securityinabox.org/en/jitsi", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1456930417", 
+    "revision_uid": "141", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "Jitsi - \u00c1udio, v\u00eddeo e mensagens instant\u00e2neas de forma segura", 
+                "value": "Jitsi - \u00c1udio, v\u00eddeo e mensagens instant\u00e2neas de forma segura"
+            }
+        ]
+    }, 
+    "title_original": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "es": {
+                "changed": "1442498418", 
+                "created": "1442498418", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "km": {
+                "changed": "1455116722", 
+                "created": "1455116722", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441193003", 
+                "created": "1441193003", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444180883", 
+                "created": "1444180883", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1455874911", 
+                "created": "1443015977", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1456930417", 
+                "created": "1443525711", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1455116881", 
+                "created": "1441121486", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2045", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445434736", 
+                "created": "1445434736", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "c64c289a-517c-42ba-bc85-a98292e5bed2", 
+    "vid": "13439", 
+    "vuuid": "d305ec49-63c6-4c46-8576-10aab48735f4"
+}

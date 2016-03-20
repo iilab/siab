@@ -1,0 +1,1583 @@
+{
+    "body": {
+        "pt": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Site</strong></p>\n\n<p><a href=\"https://riseup.net/\"><strong>https://riseup.net/</strong></a></p>\n\n<p><strong>Esta ferramenta requer</strong></p>\n\n<ul><li>Uma conex\u00e3o com a internet </li>\n<li>O <strong>Riseup</strong> funciona melhor com o navegador de internet <strong>Firefox</strong></li>\n</ul><p><strong>\u00daltima revis\u00e3o desse cap\u00edtulo</strong></p>\n\n<ul><li>Agosto 2014</li>\n</ul><p><strong>Licen\u00e7a de uso</strong></p>\n\n<ul><li>Servi\u00e7o livre</li>\n</ul><p><strong>Leitura requerida</strong></p>\n\n<ul><li>Cap\u00edtulo <a href=\"/pt/chapter-7\"><strong>7. Como manter sua comunica\u00e7\u00e3o por internet segura</strong></a>, do Guia de Refer\u00eancia.</li>\n</ul><p><strong>O que voc\u00ea pode fazer com o programa</strong>:</p>\n\n<ul><li>Ter uma conta de e-mail desenvolvida por uma comunidade e livre de propagandas</li>\n<li>Acessar seu correio eletr\u00f4nico pela internet ou por um programa leitor de e-mails, realizar comunica\u00e7\u00f5es de e-mail privado atrav\u00e9s de uma conex\u00e3o criptografada</li>\n<li>Alterar seu endere\u00e7o de e-mail, configurar o tamanho da sua caixa postal e convidar outras pessoas para entrar no <strong>Riseup</strong> </li>\n</ul><p><a name=\"alternatives\" id=\"alternatives\"></a>\n<strong>Servi\u00e7os de email alternativos:</strong></p>\n\n<p>Embora o <strong>Riseup</strong> seja um servi\u00e7o seguro de e-mail, administrado por pessoas confi\u00e1veis que defendem a liberdade e a privacidade da internet, um servi\u00e7o de e-mail incomum pode atrair aten\u00e7\u00e3o indesejada. Em algumas situa\u00e7\u00f5es, pode fazer mais sentido misturar-se \u00e0 multid\u00e3o e usar algum provedor comum de correio eletr\u00f4nico de seu pa\u00eds. O melhor \u00e9 tomar essa decis\u00e3o sem comprometer seus requisitos m\u00ednimos de seguran\u00e7a. Considere os seguintes pontos ao escolher de um servi\u00e7o de e-mail:</p>\n\n<ol><li><p>O servi\u00e7o permite <strong>o uso de canais de criptografia</strong> (como <em>https</em> e outras vers\u00f5es cifradas SSL de protocolos como IMAPs, POP3s, SMTPs) para transfer\u00eancia de todas as informa\u00e7\u00f5es (incluindo informa\u00e7\u00f5es de login e sua correspond\u00eancia)? Existe algum problema relacionado \u00e0 criptografia usada (por exemplo, problemas relacionados aos certificados de criptografia)?</p></li>\n<li><p>Os <strong>servidores de e-mail s\u00e3o administrados de forma segura?</strong> Eles s\u00e3o gerenciados por profissionais que se comprometem com as melhores pr\u00e1ticas de prote\u00e7\u00e3o \u00e0 informa\u00e7\u00e3o? Voc\u00ea confia que <em>n\u00e3o</em> dar\u00e3o acesso a terceiros \u00e0s suas informa\u00e7\u00f5es pessoais por <em>nenhum</em> motivo (comercial, pol\u00edtico, religioso etc.)?</p></li>\n<li><p>Voc\u00ea conhece a localiza\u00e7\u00e3o geogr\u00e1fica dos servidores, <strong>sob qual jurisdi\u00e7\u00e3o territorial est\u00e3o</strong> ou onde a empresa \u00e9 registrada? Voc\u00ea entende como esta informa\u00e7\u00e3o est\u00e1 relacionada \u00e0 privacidade e \u00e0 seguran\u00e7a do seu e-mail e informa\u00e7\u00e3o?</p></li>\n</ol><p>Em algumas partes do mundo, o <strong>e-mail do Google</strong> pode ser uma boa alternativa ao <strong>Riseup</strong>, oferecendo um efeito melhor de \"camuflagem\" sem comprometer demais a seguran\u00e7a (sendo este um servi\u00e7o de natureza comercial).</p>\n\n<h3>1.1 O que voc\u00ea precisa saber sobre a ferramenta antes de come\u00e7ar</h3>\n\n<p>O <strong>Riseup</strong> \u00e9 um coletivo dedicado a prover hospedagem, listas e servi\u00e7os de e-mail privados e seguros a indiv\u00edduos e organiza\u00e7\u00f5es que est\u00e3o comprometidos com uma justi\u00e7a pol\u00edtica e social. Como os servi\u00e7os s\u00e3o gratuitos e o Riseup n\u00e3o monitora suas atividades, a conta do correio eletr\u00f4nico \u00e9 muito menor do que a de outros provedores inseguros, que permitem propaganda. Pessoas que receberam um c\u00f3digo de convite de duas pessoas j\u00e1 membras do Riseup podem abrir uma nova conta. Leia <a href=\"https://help.riseup.net/pt/about-us\">mais sobre o Riseup no site deles</a> (apenas em ingl\u00eas).</p>\n\n<p>O <strong>Riseup</strong> opera exclusivamente sobre o <strong>Secure Sockets Layer</strong> (<strong>SSL</strong>), fornecendo uma conex\u00e3o segura entre seu computador e o servidor do Riseup. Tal seguran\u00e7a \u00e9 mantida quando voc\u00ea l\u00ea sua correspond\u00eancia em um programa cliente de e-mails, sob conex\u00f5es seguras <strong>POP</strong>, <strong>IMAP</strong> e <strong>SMTP</strong> (protocolos usados por programas clientes de e-mail para baixar ou enviar as mensagens). O <strong>Riseup</strong> \u00e9 compat\u00edvel com o <strong>Mozilla Thunderbird</strong>; para aprender como configur\u00e1-lo para acessar seu correio eletr\u00f4nico no <strong>Riseup</strong>, leia o <a href=\"/pt/thunderbird_main\"><strong>Guia Pr\u00e1tico do Thunderbird</strong></a>.</p>\n\n<p>Al\u00e9m de contas de e-mail, o <strong>Riseup</strong> tamb\u00e9m oferece:</p>\n\n<ul><li><a href=\"https://lists.riseup.net/\"><strong>Listas de e-mails</strong></a> para comunica\u00e7\u00e3o em grupo;</li>\n<li><a href=\"https://we.riseup.net/\"><strong>CrabGrass</strong></a>, um aplicativo de rede social livre e aberta do Riseup, desenvolvido para organiza\u00e7\u00e3o de grupos e redes e feito sob medida para as necessidades do movimento de justi\u00e7a global;</li>\n<li><a href=\"https://pad.riseup.net/\"><strong>EtherPad</strong></a>, uma plataforma de edi\u00e7\u00e3o de texto colaborativa, onde v\u00e1rias pessoas podem editar o mesmo documento ao mesmo tempo;</li>\n<li><a href=\"https://help.riseup.net/pt/vpn\"><strong>OpenVPN</strong></a>, um proxy de internet criptografado que permite acessar a rede mundial atrav\u00e9s dos servidores do <strong>Riseup</strong>. Para mais informa\u00e7\u00f5es sobre proxies, veja o Cap\u00edtulo <a href=\"/pt/chapter-8\">8. Como manter o anonimato e contornar a censura na internet</a>, do Guia de Refer\u00eancia;</li>\n<li><a href=\"https://help.riseup.net/pt/chat\"><strong>Jabber/XMPP</strong></a>, um servidor de chat para mensagens instant\u00e2neas de texto, voz e v\u00eddeo. \u00c9 poss\u00edvel us\u00e1-lo com programas como <a href=\"/pt/jitsi\">Jitsi</a>, <a href=\"/pt/pidgin_main\">Pidgin</a>, Adium, ChatSecure entre outros. Veja mais sobre isso na se\u00e7\u00e3o <a href=\"/pt/chapter_7_3\">Como tornar seguras outras ferramentas de comunica\u00e7\u00e3o pela internet</a> ou no cap\u00edtulo <a href=\"/pt/chapter-7\">7. Como manter sua comunica\u00e7\u00e3o por internet segura</a>, do Guia de Refer\u00eancia.</li>\n</ul>", 
+                "summary": "", 
+                "value": "**Site**\r\n\r\n[**https://riseup.net/**](https://riseup.net/)\r\n\r\n**Esta ferramenta requer**\r\n\r\n- Uma conex\u00e3o com a internet \r\n- O **Riseup** funciona melhor com o navegador de internet **Firefox**\r\n\r\n**\u00daltima revis\u00e3o desse cap\u00edtulo**\r\n\r\n- Agosto 2014\r\n\r\n**Licen\u00e7a de uso**\r\n\r\n- Servi\u00e7o livre\r\n\r\n**Leitura requerida**\r\n\r\n- Cap\u00edtulo [**7. Como manter sua comunica\u00e7\u00e3o por internet segura**](/pt/chapter-7), do Guia de Refer\u00eancia.\r\n\r\n**O que voc\u00ea pode fazer com o programa**:\r\n\r\n  * Ter uma conta de e-mail desenvolvida por uma comunidade e livre de propagandas\r\n  * Acessar seu correio eletr\u00f4nico pela internet ou por um programa leitor de e-mails, realizar comunica\u00e7\u00f5es de e-mail privado atrav\u00e9s de uma conex\u00e3o criptografada\r\n  * Alterar seu endere\u00e7o de e-mail, configurar o tamanho da sua caixa postal e convidar outras pessoas para entrar no **Riseup** \r\n\r\n\r\n<a name=\"alternatives\"></a>\r\n**Servi\u00e7os de email alternativos:**\r\n\r\nEmbora o **Riseup** seja um servi\u00e7o seguro de e-mail, administrado por pessoas confi\u00e1veis que defendem a liberdade e a privacidade da internet, um servi\u00e7o de e-mail incomum pode atrair aten\u00e7\u00e3o indesejada. Em algumas situa\u00e7\u00f5es, pode fazer mais sentido misturar-se \u00e0 multid\u00e3o e usar algum provedor comum de correio eletr\u00f4nico de seu pa\u00eds. O melhor \u00e9 tomar essa decis\u00e3o sem comprometer seus requisitos m\u00ednimos de seguran\u00e7a. Considere os seguintes pontos ao escolher de um servi\u00e7o de e-mail:\r\n\r\n  1. O servi\u00e7o permite **o uso de canais de criptografia** (como *https* e outras vers\u00f5es cifradas SSL de protocolos como IMAPs, POP3s, SMTPs) para transfer\u00eancia de todas as informa\u00e7\u00f5es (incluindo informa\u00e7\u00f5es de login e sua correspond\u00eancia)? Existe algum problema relacionado \u00e0 criptografia usada (por exemplo, problemas relacionados aos certificados de criptografia)?\r\n\r\n  2. Os **servidores de e-mail s\u00e3o administrados de forma segura?** Eles s\u00e3o gerenciados por profissionais que se comprometem com as melhores pr\u00e1ticas de prote\u00e7\u00e3o \u00e0 informa\u00e7\u00e3o? Voc\u00ea confia que *n\u00e3o* dar\u00e3o acesso a terceiros \u00e0s suas informa\u00e7\u00f5es pessoais por *nenhum* motivo (comercial, pol\u00edtico, religioso etc.)?\r\n\r\n  3. Voc\u00ea conhece a localiza\u00e7\u00e3o geogr\u00e1fica dos servidores, **sob qual jurisdi\u00e7\u00e3o territorial est\u00e3o** ou onde a empresa \u00e9 registrada? Voc\u00ea entende como esta informa\u00e7\u00e3o est\u00e1 relacionada \u00e0 privacidade e \u00e0 seguran\u00e7a do seu e-mail e informa\u00e7\u00e3o?\r\n\r\nEm algumas partes do mundo, o **e-mail do Google** pode ser uma boa alternativa ao **Riseup**, oferecendo um efeito melhor de \"camuflagem\" sem comprometer demais a seguran\u00e7a (sendo este um servi\u00e7o de natureza comercial).\r\n\r\n\r\n### 1.1 O que voc\u00ea precisa saber sobre a ferramenta antes de come\u00e7ar ###\r\n\r\nO **Riseup** \u00e9 um coletivo dedicado a prover hospedagem, listas e servi\u00e7os de e-mail privados e seguros a indiv\u00edduos e organiza\u00e7\u00f5es que est\u00e3o comprometidos com uma justi\u00e7a pol\u00edtica e social. Como os servi\u00e7os s\u00e3o gratuitos e o Riseup n\u00e3o monitora suas atividades, a conta do correio eletr\u00f4nico \u00e9 muito menor do que a de outros provedores inseguros, que permitem propaganda. Pessoas que receberam um c\u00f3digo de convite de duas pessoas j\u00e1 membras do Riseup podem abrir uma nova conta. Leia [mais sobre o Riseup no site deles](https://help.riseup.net/pt/about-us) (apenas em ingl\u00eas).\r\n\r\nO **Riseup** opera exclusivamente sobre o **Secure Sockets Layer** (**SSL**), fornecendo uma conex\u00e3o segura entre seu computador e o servidor do Riseup. Tal seguran\u00e7a \u00e9 mantida quando voc\u00ea l\u00ea sua correspond\u00eancia em um programa cliente de e-mails, sob conex\u00f5es seguras **POP**, **IMAP** e **SMTP** (protocolos usados por programas clientes de e-mail para baixar ou enviar as mensagens). O **Riseup** \u00e9 compat\u00edvel com o **Mozilla Thunderbird**; para aprender como configur\u00e1-lo para acessar seu correio eletr\u00f4nico no **Riseup**, leia o [**Guia Pr\u00e1tico do Thunderbird**](/pt/thunderbird_main).\r\n\r\nAl\u00e9m de contas de e-mail, o **Riseup** tamb\u00e9m oferece: \r\n\r\n- [**Listas de e-mails**](https://lists.riseup.net/) para comunica\u00e7\u00e3o em grupo;\r\n- [**CrabGrass**](https://we.riseup.net/), um aplicativo de rede social livre e aberta do Riseup, desenvolvido para organiza\u00e7\u00e3o de grupos e redes e feito sob medida para as necessidades do movimento de justi\u00e7a global;\r\n- [**EtherPad**](https://pad.riseup.net/), uma plataforma de edi\u00e7\u00e3o de texto colaborativa, onde v\u00e1rias pessoas podem editar o mesmo documento ao mesmo tempo;\r\n- [**OpenVPN**](https://help.riseup.net/pt/vpn), um proxy de internet criptografado que permite acessar a rede mundial atrav\u00e9s dos servidores do **Riseup**. Para mais informa\u00e7\u00f5es sobre proxies, veja o Cap\u00edtulo [8. Como manter o anonimato e contornar a censura na internet](/pt/chapter-8), do Guia de Refer\u00eancia;\r\n- [**Jabber/XMPP**](https://help.riseup.net/pt/chat), um servidor de chat para mensagens instant\u00e2neas de texto, voz e v\u00eddeo. \u00c9 poss\u00edvel us\u00e1-lo com programas como [Jitsi](/pt/jitsi), [Pidgin](/pt/pidgin_main), Adium, ChatSecure entre outros. Veja mais sobre isso na se\u00e7\u00e3o [Como tornar seguras outras ferramentas de comunica\u00e7\u00e3o pela internet](/pt/chapter_7_3) ou no cap\u00edtulo [7. Como manter sua comunica\u00e7\u00e3o por internet segura](/pt/chapter-7), do Guia de Refer\u00eancia."
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2034", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2034", 
+        "link_title": "RiseUp - Secure Email Service", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5180", 
+        "module": "book", 
+        "nid": "2034", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5180", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "RiseUp - Secure Email Service", 
+        "updated": "0", 
+        "weight": "-6"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>O <strong>Riseup</strong> oferece dois m\u00e9todos diferentes para criar uma nova conta de e-mail. Cada um exige um investimento diferente de tempo e esfor\u00e7o.</p>\n\n<p>1). Requisi\u00e7\u00e3o direta de uma conta \u00e0 equipe do <strong>Riseup</strong>. Tenha em mente que geralmente o <strong>Riseup</strong> vive de doa\u00e7\u00f5es, entusiasmo e boa vontade das pessoas volunt\u00e1rias - este m\u00e9todo pode fazer com que sua conta leve mais tempo para ser aprovada.</p>\n\n<p>2). Ser convidado por duas pessoas que j\u00e1 tenham contas no <strong>Riseup</strong>. Este \u00e9 o m\u00e9todo recomendado para indiv\u00edduos e/ou organiza\u00e7\u00f5es, e requer que duas pessoas membras do <strong>Riseup</strong> enviem a voc\u00ea um c\u00f3digo de convite cada. Para ver como tais c\u00f3digos s\u00e3o gerados, leia a se\u00e7\u00e3o <a href=\"/pt/riseup_changingsettings#4.3\"><strong>4.3 A p\u00e1gina de Convites</strong></a>.</p>\n\n<p>Ap\u00f3s receber seus c\u00f3digos de convite, execute as seguintes etapas para registrar uma conta gratuita no <strong>Riseup</strong>:</p>\n\n<p><strong>Passo 1</strong>. <strong>Digite</strong> <a href=\"https://mail.riseup.net\"><strong>https://mail.riseup.net</strong></a> no seu navegador de internet para entrar no site do <strong>Riseup</strong>, como a seguir:</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/01.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: A p\u00e1gina https://mail.riseup.net/</em></p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: O <strong><em>s</em></strong> no endere\u00e7o <em>http<strong>s</strong>://</em> indica que agora voc\u00ea est\u00e1 se comunicando atrav\u00e9s de uma conex\u00e3o <strong>Secure Sockets Layer</strong> (<strong>SSL</strong>). Para maiores informa\u00e7\u00f5es sobre isso, veja o cap\u00edtulo <a href=\"/pt/chapter-7\"><strong>7. Como manter sua comunica\u00e7\u00e3o por internet segura</strong></a>, do <strong>Guia de Refer\u00eancia</strong>, ou a p\u00e1gina  <a href=\"https://help.riseup.net/security\"><strong>https://help.riseup.net/security</strong></a> (em ingl\u00eas e espanhol).</p>\n\n<p><strong>Passo 2</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/03.png\" alt=\"\" /> para abrir a p\u00e1gina <em>Request account</em> como a seguir. Nesta janela, escolha o idioma no qual deseja acessar o site no menu expandido ao canto superior direito:</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/04.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: A p\u00e1gina de Requisite uma conta no Riseup</em></p>\n\n<p><strong>Passo 3</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/05.png\" alt=\"\" /> para acessar a p\u00e1gina do <strong>Riseup</strong> <em>Sobre nosso servi\u00e7o de e-mail</em>.</p>\n\n<p><strong>Importante</strong>: Voc\u00ea <em>deve</em> concordar com todos os termos e condi\u00e7\u00f5es estabelecidos na p\u00e1gina <em>Sobre nosso servi\u00e7o de e-mail</em> para proseguir com a configura\u00e7\u00e3o da conta.</p>\n\n<p><strong>Passo 4</strong>. Leia o <em>Contrato social</em>, a <em>Pol\u00edtica de privacidade</em> e os <em>Terms of service/Termos de servi\u00e7o</em> (apenas em ingl\u00eas) do <strong>Riseup</strong>. <strong>Clique</strong> nas caixas de sele\u00e7\u00e3o <em>eu aceito o contrato social / a pol\u00edtica de privacidade / os termos de servi\u00e7o do riseup.net.</em> para marcar e confirmar que voc\u00ea concorda com os termos e condi\u00e7\u00f5es.</p>\n\n<p><strong>Passo 5</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/05.png\" alt=\"\" /> para iniciar a cria\u00e7\u00e3o de sua conta no <strong>Riseup</strong> e preencha os formul\u00e1rios online a seguir: <em>Informa\u00e7\u00f5es da conta</em>, <em>Senha</em> e <em>Ativa\u00e7\u00e3o</em>.</p>\n\n<p><strong>Passo 6</strong>. <strong>Insira</strong> o nome de usu\u00e1rio/a desejado para sua conta correio eletr\u00f4nico. Este ser\u00e1 seu login e endere\u00e7o de correspond\u00eancias (neste tutorial, baseamos nosso exemplo em 'ssaayyeedd' para gerar uma conta  <a href=\"mailto:ssaayyeedd@riseup.net\"><strong>ssaayyeedd@riseup.net</strong></a>.</p>\n\n<p><strong>Importante</strong>: N\u00e3o utilize v\u00edrgulas, pontos ou espa\u00e7os no login escolhido.</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/06.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: Um exemplo de um formul\u00e1rio de informa\u00e7\u00f5es de conta</em></p>\n\n<p><strong>Observe</strong> que os campos <em>E-mail alternativo</em>, <em>L\u00edngua</em>, <em>Pa\u00eds</em> e <em>Fuso hor\u00e1rio</em> n\u00e3o foram alterados ou foram deixados vazios, para minimizar a quantidade de informa\u00e7\u00f5es pessoais que voc\u00ea armazenar\u00e1 no servidor. Deixar o campo <em>E-mail alternativo</em> em branco te dar\u00e1 mais privacidade, mas n\u00e3o permitir\u00e1 recuperar a senha dessa conta caso a esque\u00e7a.</p>\n\n<p><strong>Passo 7</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/05.png\" alt=\"\" /> para avan\u00e7ar para o formul\u00e1rio <em>Senha</em>.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Se voc\u00ea escolher um login que j\u00e1 existe, o sistema do Riseup pedir\u00e1 um nome diferente.</p>\n\n<p><strong>Passo 8</strong>. <strong>Preencha</strong> o campo de <em>Senha</em>, <strong>digite</strong> a senha novamente e <strong>clique</strong> em <img src=\"/sbox/screen/riseup-pt/05.png\" alt=\"\" /> para avan\u00e7ar.</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/07.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: O fomul\u00e1rio de senha preenchido</em></p>\n\n<p><strong>Importante:</strong> Sua senha no <strong>Riseup</strong> \u00e9 o fator mais importante de seguran\u00e7a da sua conta. Para aprender a criar uma senha forte, veja o cap\u00edtulo <a href=\"/pt/chapter-3\"><strong>3. Como criar e manter senhas seguras</strong></a>, do <strong>Guia de Refer\u00eancia</strong>, e o <a href=\"/pt/keepass_main\"><strong>Guia Pr\u00e1tico do KeePass</strong></a>.</p>\n\n<p><a name=\"2.4\" id=\"2.4\"></a>\n<strong>Passo 9</strong>.  Preencha o formul\u00e1rio <em>Ativa\u00e7\u00e3o</em>.</p>\n\n<p>Se voc\u00ea recebeu c\u00f3gigos de convite de pessoas usu\u00e1rias do <strong>Riseup</strong> que voc\u00ea conhece pessoalmente, <strong>digite</strong> os c\u00f3gigos convite nos campos respectivos. Cada c\u00f3gigo de convite deve vir de uma pessoa usu\u00e1ria diferente. Alternativamente voc\u00ea pode solicitar uma conta ao <strong>Riseup.net</strong> completando o campo <em>Conte-nos sobre voc\u00ea</em>. Se voc\u00ea fornecer os c\u00f3digos de convite, n\u00e3o preencha o campo <em>Conte-nos sobre voc\u00ea</em>.</p>\n\n<p><strong>Digite</strong> os <em>c\u00f3digos de convite</em> nos respectivos campos de texto.</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/08.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: Um exemplo de formul\u00e1rio de ativa\u00e7\u00e3o preenchido</em></p>\n\n<p><strong>Passo 10</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/09.png\" alt=\"\" /> para requisitar sua conta no <strong>Riseup</strong> ou para finalizar a cria\u00e7\u00e3o da sua conta no <strong>Riseup</strong> como a seguir:</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/10.png\" alt=\"\" /></p>\n\n<p><em>Figura 6: Um exemplo de confirma\u00e7\u00e3o de conta criada com sucesso</em></p>\n\n<p><strong>Passo 11</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/11.png\" alt=\"\" /> no canto superior direito para retornar a p\u00e1gina inicial do email do <strong>Riseup</strong> (veja <em>figura 1</em>).</p>\n\n<p>Parab\u00e9ns! Voc\u00ea criou ou requisitou sua conta de email no <strong>Riseup</strong> com sucesso.</p>\n", 
+                        "summary": "", 
+                        "value": "O **Riseup** oferece dois m\u00e9todos diferentes para criar uma nova conta de e-mail. Cada um exige um investimento diferente de tempo e esfor\u00e7o. \r\n\r\n1). Requisi\u00e7\u00e3o direta de uma conta \u00e0 equipe do **Riseup**. Tenha em mente que geralmente o **Riseup** vive de doa\u00e7\u00f5es, entusiasmo e boa vontade das pessoas volunt\u00e1rias - este m\u00e9todo pode fazer com que sua conta leve mais tempo para ser aprovada.\r\n\r\n2). Ser convidado por duas pessoas que j\u00e1 tenham contas no **Riseup**. Este \u00e9 o m\u00e9todo recomendado para indiv\u00edduos e/ou organiza\u00e7\u00f5es, e requer que duas pessoas membras do **Riseup** enviem a voc\u00ea um c\u00f3digo de convite cada. Para ver como tais c\u00f3digos s\u00e3o gerados, leia a se\u00e7\u00e3o [**4.3 A p\u00e1gina de Convites**](/pt/riseup_changingsettings#4.3).\r\n\r\nAp\u00f3s receber seus c\u00f3digos de convite, execute as seguintes etapas para registrar uma conta gratuita no **Riseup**: \r\n\r\n**Passo 1**. **Digite** [**https://mail.riseup.net**](https://mail.riseup.net) no seu navegador de internet para entrar no site do **Riseup**, como a seguir:\r\n\r\n![](/sbox/screen/riseup-pt/01.png)\r\n\r\n*Figura 1: A p\u00e1gina https://mail.riseup.net/*\r\n\r\n**Observa\u00e7\u00e3o**: O ***s*** no endere\u00e7o *http**s**://* indica que agora voc\u00ea est\u00e1 se comunicando atrav\u00e9s de uma conex\u00e3o **Secure Sockets Layer** (**SSL**). Para maiores informa\u00e7\u00f5es sobre isso, veja o cap\u00edtulo [**7. Como manter sua comunica\u00e7\u00e3o por internet segura**](/pt/chapter-7), do **Guia de Refer\u00eancia**, ou a p\u00e1gina  [**https://help.riseup.net/security**](https://help.riseup.net/security) (em ingl\u00eas e espanhol).\r\n\r\n**Passo 2**. **Clique** em ![](/sbox/screen/riseup-pt/03.png) para abrir a p\u00e1gina *Request account* como a seguir. Nesta janela, escolha o idioma no qual deseja acessar o site no menu expandido ao canto superior direito:\r\n\r\n![](/sbox/screen/riseup-pt/04.png)\r\n\r\n*Figura 2: A p\u00e1gina de Requisite uma conta no Riseup*\r\n\r\n**Passo 3**. **Clique** em ![](/sbox/screen/riseup-pt/05.png) para acessar a p\u00e1gina do **Riseup** *Sobre nosso servi\u00e7o de e-mail*.\r\n\r\n**Importante**: Voc\u00ea *deve* concordar com todos os termos e condi\u00e7\u00f5es estabelecidos na p\u00e1gina *Sobre nosso servi\u00e7o de e-mail* para proseguir com a configura\u00e7\u00e3o da conta.\r\n\r\n**Passo 4**. Leia o *Contrato social*, a *Pol\u00edtica de privacidade* e os *Terms of service/Termos de servi\u00e7o* (apenas em ingl\u00eas) do **Riseup**. **Clique** nas caixas de sele\u00e7\u00e3o *eu aceito o contrato social / a pol\u00edtica de privacidade / os termos de servi\u00e7o do riseup.net.* para marcar e confirmar que voc\u00ea concorda com os termos e condi\u00e7\u00f5es.  \r\n\r\n**Passo 5**. **Clique** em ![](/sbox/screen/riseup-pt/05.png) para iniciar a cria\u00e7\u00e3o de sua conta no **Riseup** e preencha os formul\u00e1rios online a seguir: *Informa\u00e7\u00f5es da conta*, *Senha* e *Ativa\u00e7\u00e3o*.\r\n\r\n**Passo 6**. **Insira** o nome de usu\u00e1rio/a desejado para sua conta correio eletr\u00f4nico. Este ser\u00e1 seu login e endere\u00e7o de correspond\u00eancias (neste tutorial, baseamos nosso exemplo em 'ssaayyeedd' para gerar uma conta  [**ssaayyeedd@riseup.net**](mailto:ssaayyeedd@riseup.net). \r\n\r\n**Importante**: N\u00e3o utilize v\u00edrgulas, pontos ou espa\u00e7os no login escolhido.\r\n\r\n![](/sbox/screen/riseup-pt/06.png)\r\n\r\n*Figura 3: Um exemplo de um formul\u00e1rio de informa\u00e7\u00f5es de conta*\r\n\r\n**Observe** que os campos *E-mail alternativo*, *L\u00edngua*, *Pa\u00eds* e *Fuso hor\u00e1rio* n\u00e3o foram alterados ou foram deixados vazios, para minimizar a quantidade de informa\u00e7\u00f5es pessoais que voc\u00ea armazenar\u00e1 no servidor. Deixar o campo *E-mail alternativo* em branco te dar\u00e1 mais privacidade, mas n\u00e3o permitir\u00e1 recuperar a senha dessa conta caso a esque\u00e7a.\r\n\r\n**Passo 7**. **Clique** em ![](/sbox/screen/riseup-pt/05.png) para avan\u00e7ar para o formul\u00e1rio *Senha*. \r\n\r\n**Observa\u00e7\u00e3o**: Se voc\u00ea escolher um login que j\u00e1 existe, o sistema do Riseup pedir\u00e1 um nome diferente.\r\n\r\n**Passo 8**. **Preencha** o campo de *Senha*, **digite** a senha novamente e **clique** em ![](/sbox/screen/riseup-pt/05.png) para avan\u00e7ar.\r\n\r\n![](/sbox/screen/riseup-pt/07.png)\r\n\r\n*Figura 4: O fomul\u00e1rio de senha preenchido*\r\n\r\n**Importante:** Sua senha no **Riseup** \u00e9 o fator mais importante de seguran\u00e7a da sua conta. Para aprender a criar uma senha forte, veja o cap\u00edtulo [**3. Como criar e manter senhas seguras**](/pt/chapter-3), do **Guia de Refer\u00eancia**, e o [**Guia Pr\u00e1tico do KeePass**](/pt/keepass_main).\r\n\r\n<a name=\"2.4\"></a>\r\n**Passo 9**.  Preencha o formul\u00e1rio *Ativa\u00e7\u00e3o*.\r\n\r\nSe voc\u00ea recebeu c\u00f3gigos de convite de pessoas usu\u00e1rias do **Riseup** que voc\u00ea conhece pessoalmente, **digite** os c\u00f3gigos convite nos campos respectivos. Cada c\u00f3gigo de convite deve vir de uma pessoa usu\u00e1ria diferente. Alternativamente voc\u00ea pode solicitar uma conta ao **Riseup.net** completando o campo *Conte-nos sobre voc\u00ea*. Se voc\u00ea fornecer os c\u00f3digos de convite, n\u00e3o preencha o campo *Conte-nos sobre voc\u00ea*.\r\n \r\n**Digite** os *c\u00f3digos de convite* nos respectivos campos de texto. \r\n\r\n![](/sbox/screen/riseup-pt/08.png)\r\n\r\n*Figura 5: Um exemplo de formul\u00e1rio de ativa\u00e7\u00e3o preenchido*\r\n\r\n**Passo 10**. **Clique** em ![](/sbox/screen/riseup-pt/09.png) para requisitar sua conta no **Riseup** ou para finalizar a cria\u00e7\u00e3o da sua conta no **Riseup** como a seguir:\r\n\r\n![](/sbox/screen/riseup-pt/10.png)\r\n\r\n*Figura 6: Um exemplo de confirma\u00e7\u00e3o de conta criada com sucesso*\r\n\r\n**Passo 11**. **Clique** em ![](/sbox/screen/riseup-pt/11.png) no canto superior direito para retornar a p\u00e1gina inicial do email do **Riseup** (veja *figura 1*).\r\n\r\nParab\u00e9ns! Voc\u00ea criou ou requisitou sua conta de email no **Riseup** com sucesso."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2035", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2035", 
+                "link_title": "How to Create a RiseUp Account", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5181", 
+                "module": "book", 
+                "nid": "2035", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5180", 
+                "p3": "5181", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5180", 
+                "router_path": "node/%", 
+                "title": "How to Create a RiseUp Account", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1456950917", 
+            "comment": "0", 
+            "created": "1441120385", 
+            "current_revision_id": "13460", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "riseup_createaccount", 
+                        "value": "riseup_createaccount"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5181": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2035", 
+                    "link_title": "How to Create a RiseUp Account", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5181", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5180", 
+                    "p3": "5181", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5180", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2035", 
+            "num_revisions": "28", 
+            "path": "https://securityinabox.org/en/node/2035", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456950917", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como criar uma conta no Riseup", 
+                        "value": "Como criar uma conta no Riseup"
+                    }
+                ]
+            }, 
+            "title_original": "How to Create a RiseUp Account", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442931765", 
+                        "created": "1442931765", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2035", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454334594", 
+                        "created": "1442403226", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2035", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506034", 
+                        "created": "1442506034", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2035", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441622172", 
+                        "created": "1441622172", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2035", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442845237", 
+                        "created": "1442845237", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2035", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1456950917", 
+                        "created": "1444659504", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2035", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1452870672", 
+                        "created": "1452870672", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2035", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1452171978", 
+                        "created": "1443619367", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2035", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279839", 
+                        "created": "1441279839", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2035", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444178255", 
+                        "created": "1444178255", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2035", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443020785", 
+                        "created": "1443020509", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2035", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833491", 
+                        "created": "1444728354", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2035", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446478049", 
+                        "created": "1441120385", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2035", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445439552", 
+                        "created": "1445433982", 
+                        "entity_id": "2035", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2035", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "28569902-a83a-4ec9-a3a5-d2f1540d671a", 
+            "vid": "13460", 
+            "vuuid": "d1976832-67ac-42ae-a2af-c478dbd7a170"
+        }, 
+        {
+            "body": {
+                "pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Se\u00e7\u00f5es nessa p\u00e1gina:</p>\n\n<ul><li><a href=\"#3.0\"><strong>3.0 Como acessar sua conta do Riseup</strong></a></li>\n<li><a href=\"#3.1\"><strong>3.1 Como utilizar o teclado virtual</strong></a></li>\n</ul><p><a name=\"3.0\" id=\"3.0\"></a></p>\n\n<h2>3.0 Como acessar sua conta do Riseup</h2>\n\n<p>Para entrar em sua conta, execute as seguintes etapas:</p>\n\n<p><strong>Passo 1</strong>. <strong>Abra</strong> o site do <strong>Riseup</strong> no modo SSL como a seguir: <a href=\"https://mail.riseup.net/\"><strong>https://mail.riseup.net/</strong></a></p>\n\n<p><img src=\"/sbox/screen/riseup-pt/1b.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: P\u00e1gina de login de email do Riseup</em></p>\n\n<p>O <strong>Riseup</strong> atualmente utiliza o <a href=\"http://roundcube.net/\">Roundcube</a>, uma interface de webmail livre e de c\u00f3digo aberto, que requer JavaScript. Se voc\u00ea prefere n\u00e3o permitir o uso de JavaScript pelo navegador, tamb\u00e9m \u00e9 poss\u00edvel acessar o correio eletr\u00f4nico com o SquirrelMail (veja abaixo). O webmail do Riseup tamb\u00e9m necessita que o navegador aceite cookies (veja <a href=\"/pt/firefox_main\">o Guia Pr\u00e1tico do Firefox</a> para maiores informa\u00e7\u00f5es sobre cookies).</p>\n\n<p>A p\u00e1gina de login do webmail do <strong>Riseup</strong> est\u00e1 dividida na \u00e1rea de login, ao centro, e em um grupo de links abaixo:</p>\n\n<ul><li><a href=\"https://mail.riseup.net/sm/src/login.php\">Old webmail (squirrelmail only)</a>: interface alternativa, simples e leve de e-mail online. N\u00e3o requer JavaScript para funcionar;</li>\n<li><a href=\"https://help.riseup.net/email/webmail/where-is-imp\">Where did Horde/IMP go?</a>: a interface Horde/IMP de webmail que era oferecida anteriormente e foi aposentada;</li>\n<li><a href=\"https://help.riseup.net/email\">Email help</a>: leia quando estiver com problemas;</li>\n<li><a href=\"https://user.riseup.net/forms/password_reset\">I forgot my password!</a>: permite recuperar a senha da conta;</li>\n<li><a href=\"https://user.riseup.net/\">Change settings</a>: modificar as configura\u00e7\u00f5es (<a href=\"/pt/riseup_changingsettings\">veja na p\u00e1gina a seguir</a>)</li>\n<li><a href=\"https://user.riseup.net/forms/new_user\">Request account</a>: criar uma conta (<a href=\"/pt/riseup_createaccount\">veja na p\u00e1gina anterior</a>)</li>\n</ul><p><strong>Passo 2</strong>. <strong>Digite</strong> suas informa\u00e7\u00f5es nos campos de texto <em>Usu\u00e1rio:</em> e <em>Senha:</em>. <em>N\u00e3o</em> inclua a parte <em>@riseup.net</em> do seu endere\u00e7o de correio eletr\u00f4nico no campo <em>Usu\u00e1rio:</em>.</p>\n\n<p><strong>Passo 3</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/12.png\" alt=\"\" /> para abrir sua conta, como a seguir:</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/13.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: Um exemplo de conta no Roundcube do Riseup</em></p>\n\n<p><strong>Passos opcionais</strong>: Se quiser alterar a interface do webmail para outra l\u00edngua, execute os passo opcionais a seguir:</p>\n\n<p><strong>Passo 3</strong>. <strong>Selecione</strong> <img src=\"/sbox/screen/riseup-pt/14.png\" alt=\"\" /> no menu ao topo da p\u00e1gina. A janela de configura\u00e7\u00f5es aparecer\u00e1 como a seguir:</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/15.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: Painel de configura\u00e7\u00f5es</em></p>\n\n<p><strong>Passo 5</strong>. <strong>Selecione</strong> <img src=\"/sbox/screen/riseup-pt/16.png\" alt=\"\" /> para ativar o painel de configura\u00e7\u00f5es de <em>Interface de usu\u00e1rio/a</em>, como a seguir:</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/17.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: Configura\u00e7\u00f5es  - Painel de prefer\u00eancias interface de usu\u00e1rio/a</em></p>\n\n<p><strong>Passo 5</strong>. <strong>Localize</strong> o <em>idioma</em> desejado no menu expandido, como mostrado na <em>figura 4</em> acima, ent\u00e3o <strong>selecione</strong> a l\u00edngua apropriada.</p>\n\n<p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 Como utilizar o teclado virtual</h2>\n\n<p>Se estiver usando um computador p\u00fablico ou compartilhado (por exemplo, de um Internet Caf\u00e9, centro comunit\u00e1rio, biblioteca etc), pode utilizar o <strong>teclado virtual</strong> para informar a senha. Isso oferece uma camada de prote\u00e7\u00e3o extra contra programas <em>key-logger</em>. Os <em>key-logger</em> s\u00e3o aplicativos que monitoram as teclas pressionadas no teclado para registrar senhas, nomes de usu\u00e1rios/as e outras informa\u00e7\u00f5es vitais. O teclado virtual permite contornar esta vulnerabilidade de seguran\u00e7a, permitindo digitar a senha usando o mouse.</p>\n\n<p>Para usar o <em>teclado virtual</em> do <strong>Riseup</strong>, execute as seguintes etapas:</p>\n\n<p><strong>Passo 1</strong>. <strong>Abra</strong> o site do <strong>Riseup</strong> <a href=\"https://mail.riseup.net/\"><strong>https://mail.riseup.net/</strong></a>.</p>\n\n<p><strong>Passo 2</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/18.png\" alt=\"\" /> para ativar o teclado virtual, como a seguir:</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/19.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: A p\u00e1gina de login do Riseup com o teclado virtual ativado</em></p>\n\n<p><strong>Passo 3</strong>. Para inserir sua senha, use o mouse para <strong>clicar</strong> nas teclas mostradas na tela. \u00c9 poss\u00edvel escolher um idioma para o <em>teclado virtual</em> no menu ao topo e \u00e0 esquerda no teclado. Voc\u00ea talvez tenha de usar as teclas \"Alt\" ou \"AlrGr\" para acessar alguns caracteres no <em>teclado virtual</em>.</p>\n\n<p><strong>Passo 5</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/12.png\" alt=\"\" /> para acessar sua conta no <strong>Riseup</strong>.</p>\n", 
+                        "summary": "", 
+                        "value": "Se\u00e7\u00f5es nessa p\u00e1gina:\r\n\r\n- [**3.0 Como acessar sua conta do Riseup**](#3.0)\r\n- [**3.1 Como utilizar o teclado virtual**](#3.1)\r\n\r\n<a name=\"3.0\"></a>\r\n## 3.0 Como acessar sua conta do Riseup ##\r\n\r\nPara entrar em sua conta, execute as seguintes etapas: \r\n\r\n**Passo 1**. **Abra** o site do **Riseup** no modo SSL como a seguir: [**https://mail.riseup.net/**](https://mail.riseup.net/)\r\n\r\n![](/sbox/screen/riseup-pt/1b.png)\r\n\r\n*Figura 1: P\u00e1gina de login de email do Riseup*\r\n\r\nO **Riseup** atualmente utiliza o [Roundcube](http://roundcube.net/), uma interface de webmail livre e de c\u00f3digo aberto, que requer JavaScript. Se voc\u00ea prefere n\u00e3o permitir o uso de JavaScript pelo navegador, tamb\u00e9m \u00e9 poss\u00edvel acessar o correio eletr\u00f4nico com o SquirrelMail (veja abaixo). O webmail do Riseup tamb\u00e9m necessita que o navegador aceite cookies (veja [o Guia Pr\u00e1tico do Firefox](/pt/firefox_main) para maiores informa\u00e7\u00f5es sobre cookies).\r\n\r\nA p\u00e1gina de login do webmail do **Riseup** est\u00e1 dividida na \u00e1rea de login, ao centro, e em um grupo de links abaixo:\r\n\r\n- [Old webmail (squirrelmail only)](https://mail.riseup.net/sm/src/login.php): interface alternativa, simples e leve de e-mail online. N\u00e3o requer JavaScript para funcionar;\r\n- [Where did Horde/IMP go?](https://help.riseup.net/email/webmail/where-is-imp): a interface Horde/IMP de webmail que era oferecida anteriormente e foi aposentada;\r\n- [Email help](https://help.riseup.net/email): leia quando estiver com problemas;\r\n- [I forgot my password!](https://user.riseup.net/forms/password_reset): permite recuperar a senha da conta;\r\n- [Change settings](https://user.riseup.net/): modificar as configura\u00e7\u00f5es ([veja na p\u00e1gina a seguir](/pt/riseup_changingsettings))\r\n- [Request account](https://user.riseup.net/forms/new_user): criar uma conta ([veja na p\u00e1gina anterior](/pt/riseup_createaccount))\r\n\r\n**Passo 2**. **Digite** suas informa\u00e7\u00f5es nos campos de texto *Usu\u00e1rio:* e *Senha:*. *N\u00e3o* inclua a parte *@riseup.net* do seu endere\u00e7o de correio eletr\u00f4nico no campo *Usu\u00e1rio:*. \r\n\r\n**Passo 3**. **Clique** em ![](/sbox/screen/riseup-pt/12.png) para abrir sua conta, como a seguir:\r\n\r\n![](/sbox/screen/riseup-pt/13.png)\r\n\r\n*Figura 2: Um exemplo de conta no Roundcube do Riseup*\r\n\r\n**Passos opcionais**: Se quiser alterar a interface do webmail para outra l\u00edngua, execute os passo opcionais a seguir:\r\n\r\n**Passo 3**. **Selecione** ![](/sbox/screen/riseup-pt/14.png) no menu ao topo da p\u00e1gina. A janela de configura\u00e7\u00f5es aparecer\u00e1 como a seguir:\r\n\r\n![](/sbox/screen/riseup-pt/15.png)\r\n\r\n*Figura 3: Painel de configura\u00e7\u00f5es*\r\n\r\n**Passo 5**. **Selecione** ![](/sbox/screen/riseup-pt/16.png) para ativar o painel de configura\u00e7\u00f5es de *Interface de usu\u00e1rio/a*, como a seguir:\r\n\r\n![](/sbox/screen/riseup-pt/17.png)\r\n\r\n*Figura 4: Configura\u00e7\u00f5es  - Painel de prefer\u00eancias interface de usu\u00e1rio/a*\r\n\r\n**Passo 5**. **Localize** o *idioma* desejado no menu expandido, como mostrado na *figura 4* acima, ent\u00e3o **selecione** a l\u00edngua apropriada. \r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 Como utilizar o teclado virtual ##\r\n\r\nSe estiver usando um computador p\u00fablico ou compartilhado (por exemplo, de um Internet Caf\u00e9, centro comunit\u00e1rio, biblioteca etc), pode utilizar o **teclado virtual** para informar a senha. Isso oferece uma camada de prote\u00e7\u00e3o extra contra programas *key-logger*. Os *key-logger* s\u00e3o aplicativos que monitoram as teclas pressionadas no teclado para registrar senhas, nomes de usu\u00e1rios/as e outras informa\u00e7\u00f5es vitais. O teclado virtual permite contornar esta vulnerabilidade de seguran\u00e7a, permitindo digitar a senha usando o mouse.\r\n\r\nPara usar o *teclado virtual* do **Riseup**, execute as seguintes etapas: \r\n\r\n**Passo 1**. **Abra** o site do **Riseup** [**https://mail.riseup.net/**](https://mail.riseup.net/).\r\n\r\n**Passo 2**. **Clique** em ![](/sbox/screen/riseup-pt/18.png) para ativar o teclado virtual, como a seguir:  \r\n\r\n![](/sbox/screen/riseup-pt/19.png)\r\n\r\n*Figura 5: A p\u00e1gina de login do Riseup com o teclado virtual ativado*\r\n\r\n**Passo 3**. Para inserir sua senha, use o mouse para **clicar** nas teclas mostradas na tela. \u00c9 poss\u00edvel escolher um idioma para o *teclado virtual* no menu ao topo e \u00e0 esquerda no teclado. Voc\u00ea talvez tenha de usar as teclas \"Alt\" ou \"AlrGr\" para acessar alguns caracteres no *teclado virtual*. \r\n\r\n**Passo 5**. **Clique** em ![](/sbox/screen/riseup-pt/12.png) para acessar sua conta no **Riseup**."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2036", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2036", 
+                "link_title": "\u179a\u1794\u17c0\u1794\u1794\u17be\u1780\u1785\u17bc\u179b\u1782\u178e\u1793\u17b8 RiseUp \u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5182", 
+                "module": "book", 
+                "nid": "2036", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5180", 
+                "p3": "5182", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5180", 
+                "router_path": "node/%", 
+                "title": "\u179a\u1794\u17c0\u1794\u1794\u17be\u1780\u1785\u17bc\u179b\u1782\u178e\u1793\u17b8 RiseUp \u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1452870847", 
+            "comment": "0", 
+            "created": "1441120434", 
+            "current_revision_id": "12921", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "riseup_loggingin", 
+                        "value": "riseup_loggingin"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5182": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2036", 
+                    "link_title": "\u179a\u1794\u17c0\u1794\u1794\u17be\u1780\u1785\u17bc\u179b\u1782\u178e\u1793\u17b8 RiseUp \u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5182", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5180", 
+                    "p3": "5182", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5180", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2036", 
+            "num_revisions": "24", 
+            "path": "https://securityinabox.org/en/node/2036", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452870847", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como acessar sua conta do Riseup", 
+                        "value": "Como acessar sua conta do Riseup"
+                    }
+                ]
+            }, 
+            "title_original": "How to Log into Your RiseUp Account", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442931862", 
+                        "created": "1442931862", 
+                        "entity_id": "2036", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442403300", 
+                        "created": "1442403300", 
+                        "entity_id": "2036", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506126", 
+                        "created": "1442506094", 
+                        "entity_id": "2036", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441622262", 
+                        "created": "1441622262", 
+                        "entity_id": "2036", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442845335", 
+                        "created": "1442845335", 
+                        "entity_id": "2036", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444659631", 
+                        "created": "1444659631", 
+                        "entity_id": "2036", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1452870847", 
+                        "created": "1452870847", 
+                        "entity_id": "2036", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443620475", 
+                        "created": "1443620475", 
+                        "entity_id": "2036", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441279963", 
+                        "created": "1441279963", 
+                        "entity_id": "2036", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444178299", 
+                        "created": "1444178299", 
+                        "entity_id": "2036", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443020709", 
+                        "created": "1443020709", 
+                        "entity_id": "2036", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833533", 
+                        "created": "1444728419", 
+                        "entity_id": "2036", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446477947", 
+                        "created": "1441120434", 
+                        "entity_id": "2036", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "9f33f08b-1809-4470-b179-3b7122a779f7", 
+            "vid": "12921", 
+            "vuuid": "b7fcec79-9c05-4465-bcb4-e3492b10c65f"
+        }, 
+        {
+            "body": {
+                "pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Se\u00e7\u00f5es nessa p\u00e1gina:</p>\n\n<ul><li><a href=\"#4.0\"><strong>4.0 Como alterar as configura\u00e7\u00f5es de sua conta</strong></a></li>\n<li><a href=\"#4.1\"><strong>4.1 A p\u00e1gina de Minhas configura\u00e7\u00f5es</strong></a></li>\n<li><a href=\"#4.2\"><strong>4.2 A p\u00e1gina de Configura\u00e7\u00f5es de e-mail</strong></a></li>\n<li><a href=\"#4.3\"><strong>4.3 A p\u00e1gina de Convites</strong></a></li>\n</ul><p><a name=\"4.0\" id=\"4.0\"></a></p>\n\n<h2>4.0 Como alterar as configura\u00e7\u00f5es de sua conta</h2>\n\n<p>O <strong>Riseup</strong> permite modificar diferentes configura\u00e7\u00f5es para a sua conta. Voc\u00ea pode especificar o tamanho da caixa de mensagens, alterar o nome e endere\u00e7o da sua conta, adicionar \u00e1lias/pseud\u00f4nimos e muito mais. Tamb\u00e9m \u00e9 poss\u00edvel criar c\u00f3digos de convite para ajudar colegas a criar contas no <strong>Riseup</strong>.</p>\n\n<p><strong>Passo 1</strong>. <strong>Abra</strong> a p\u00e1gina <em>Painel de controle de usu\u00e1rias/os</em> do <strong>Riseup</strong>, como a seguir: <a href=\"https://user.riseup.net/\"><strong>https://user.riseup.net/</strong></a></p>\n\n<p><img src=\"/sbox/screen/riseup-pt/20.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: P\u00e1gina user.riseup.net</em></p>\n\n<p><strong>Passo 2</strong>. <strong>Digite</strong> seu login e senha nos respectivos campos de texto.</p>\n\n<p><strong>Passo 3</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/12.png\" alt=\"\" /> para abrir a seguinte tela:</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/21.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: A p\u00e1gina Painel de controle de usu\u00e1rios/as do Riseup</em></p>\n\n<p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h3>4.1 A p\u00e1gina de Minhas configura\u00e7\u00f5es</h3>\n\n<p>A p\u00e1gina <em>Minhas configura\u00e7\u00f5es</em> mostra toda a informa\u00e7\u00e3o que voc\u00ea inseriu originalmente na p\u00e1gina <a href=\"/pt/riseup_createaccount\"><strong>Criar uma conta no Riseup</strong></a>.</p>\n\n<p><strong>Passo 1</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/22.png\" alt=\"\" /> para abrir a tela a seguir:</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/23.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: A p\u00e1gina de Configura\u00e7\u00f5es</em></p>\n\n<p>Voc\u00ea pode alterar seu nome de usu\u00e1ria/o nesta tela, o que tamb\u00e9m mudar\u00e1 seu endere\u00e7o de e-mail. O novo nome de login precisa ser \u00fanico. Aqui, voc\u00ea ainda pode alterar outros detalhes da sua conta como senha, endere\u00e7o alternativo de e-mail e assim por diante.</p>\n\n<p><strong>Observe</strong> que os campos <em>L\u00edngua</em>, <em>Pa\u00eds</em> e <em>Fuso hor\u00e1rio</em> n\u00e3o devem ser alterados para minimizar a quantidade de informa\u00e7\u00f5es pessoais que voc\u00ea armazena no servidor.</p>\n\n<p><strong>Passo 2</strong>. <strong>Digite</strong> suas novas informa\u00e7\u00f5es e <strong>clique</strong> em <img src=\"/sbox/screen/riseup-pt/24.png\" alt=\"\" /> para mostrar a seguinte mensagem:</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/25.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: Altera\u00e7\u00f5es atualizadas com sucesso</em></p>\n\n<p><a name=\"4.2\" id=\"4.2\"></a></p>\n\n<h2>4.2 A p\u00e1gina de Configura\u00e7\u00f5es de e-mail</h2>\n\n<p>A p\u00e1gina <em>Configura\u00e7\u00f5es de e-mail</em> permite modificar ou visualizar informa\u00e7\u00f5es relacionadas ao armazenamento de mensagens. \u00c9 poss\u00edvel definir uma 'cota' ou quantidade de espa\u00e7o reservado para a sua conta no servidor do <strong>Riseup</strong>.</p>\n\n<p><strong>Passo 1</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/26.png\" alt=\"\" /> para abrir a seguinte tela:</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/27.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: A p\u00e1gina de Configura\u00e7\u00f5es de e-mail</em></p>\n\n<p><strong>Passo 2</strong>. <strong>Insira</strong> um n\u00famero apropriado no campo de texto <em>cota</em>.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Sua conta \u00e9 limitada ao tamanho m\u00e1ximo de sua cota no disco (o padr\u00e3o, neste momento, \u00e9 92 MB). Se voc\u00ea precisa de mais espa\u00e7o, considere baixar suas mensagens com um cliente de e-mail, como o Thunderbird. Dessa forma os e-mails s\u00e3o baixados do servidor para a sua m\u00e1quina.</p>\n\n<p>Nessa p\u00e1gina, tamb\u00e9m \u00e9 poss\u00edvel criar pseud\u00f4nimos ou codinomes para a sua conta. Um \u00e1lias, pseud\u00f4nimo ou codinome funciona como um apelido para a sua conta; seu endere\u00e7o principal continua como antes, mas as pessoas tamb\u00e9m podem enviar mensagens para seu endere\u00e7o alternativo de \u00e1lias.</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/28.png\" alt=\"\" /></p>\n\n<p><em>Figura 6: A se\u00e7\u00e3o de \u00c1lias/pseud\u00f4nimos (traduzido como \"atalhos\") da p\u00e1gina de configura\u00e7\u00f5es de e-mail</em></p>\n\n<p><em>Exemplo</em>: a conta <strong>ssaayyeedd@riseup.net</strong> agora tem dois pseud\u00f4nimos. Mensagens enviadas para <strong>ssayyedas@riseup.net</strong> ou <strong>sayedas@riseup.net</strong> ser\u00e3o encaminhadas para a conta principal (<strong>ssaayyeedd@riseup.net</strong>). Esta pode ser uma pr\u00e1tica \u00fatil para manter privado o endere\u00e7o real da sua conta.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong> Existem outras configura\u00e7\u00f5es dispon\u00edveis nesta p\u00e1gina que voc\u00ea pode acessar pelas abas e links, como demonstrado na <em>Figura 5</em>. Algumas delas s\u00e3o:</p>\n\n<ul><li><em>Configura\u00e7\u00f5es de spam</em> : Permite configurar como o servidor do Riseup gerenciar\u00e1 spam suspeitos (e-mails n\u00e3o desejados);</li>\n<li><em>Filtros de correio</em> : Permite configurar o servidor do Riseup para distribuir as mensagens recebidas em diferentes pastas ou excluir e-mails espec\u00edficos;</li>\n<li><em>Fix mailbox</em> : Pode ajudar em situa\u00e7\u00f5es nais quais sua caixa de correio eletr\u00f4nico tenha parado de funcionar;</li>\n<li><em>Restore mail from backups</em>: Pode recuperar o conte\u00fado da sua caixa de mensagens a partir de uma c\u00f3pia de backup armazenada em um servidor do Riseup;</li>\n<li><em>Destroy mailbox</em> : Remover\u00e1 completamente sua caixa de e-mails, com todas as mensagens, em todas as pastas. Voc\u00ea poder\u00e1 acessar essa conta novamente para criar uma nova caixa de e-mails, vazia.</li>\n</ul><p><strong>Passo 3</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/24.png\" alt=\"\" /> para salvar as novas configura\u00e7\u00f5es.</p>\n\n<p><a name=\"4.3\" id=\"4.3\"></a></p>\n\n<h2>4.3 A p\u00e1gina de Convites</h2>\n\n<p>A p\u00e1gina de <em>Convites</em> permite gerar os <em>c\u00f3digos de convite</em> usados para convidar colegas a abrir contas no <strong>Riseup</strong>.</p>\n\n<p><strong>Importante</strong>: Cada conta nova necessita de um c\u00f3digo de convite duas pessoas diferentes com e-mail Riseup. Voc\u00ea pode gerar quantos c\u00f3digos de convite quiser.</p>\n\n<p><strong>Passo 1</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/29.png\" alt=\"\" /> para ativar a tela a seguir:</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/30.png\" alt=\"\" /></p>\n\n<p><em>Figura 7: A p\u00e1gina de Convites</em></p>\n\n<p><strong>Passo 2</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/31.png\" alt=\"\" /> para gerar um c\u00f3digo de convite, como a seguir:</p>\n\n<p><img src=\"/sbox/screen/riseup-pt/32.png\" alt=\"\" /></p>\n\n<p><em>Figura 8: Exemplo de c\u00f3digo de convite gerado</em></p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Cada c\u00f3digo de convite \u00e9 v\u00e1lido por um m\u00eas.</p>\n\n<p><strong>Passo 3</strong>. <strong>Clique</strong> em <a href=\"/sbox/screen/riseup-pt/33.png\">imprimir convites</a> para imprimir uma c\u00f3pia do c\u00f3digo de convite e entreg\u00e1-la \u00e0 pessoa que deseja criar uma conta de correio eletr\u00f4nico no <strong>Riseup</strong>.</p>\n\n<p><strong>Passo 4</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/riseup-pt/34.png\" alt=\"\" /> para sair do Painel de Controle.</p>\n", 
+                        "summary": "", 
+                        "value": "Se\u00e7\u00f5es nessa p\u00e1gina:\r\n\r\n- [**4.0 Como alterar as configura\u00e7\u00f5es de sua conta**](#4.0)\r\n- [**4.1 A p\u00e1gina de Minhas configura\u00e7\u00f5es**](#4.1)\r\n- [**4.2 A p\u00e1gina de Configura\u00e7\u00f5es de e-mail**](#4.2)\r\n- [**4.3 A p\u00e1gina de Convites**](#4.3)\r\n\r\n\r\n<a name=\"4.0\"></a>\r\n## 4.0 Como alterar as configura\u00e7\u00f5es de sua conta ##\r\n\r\nO **Riseup** permite modificar diferentes configura\u00e7\u00f5es para a sua conta. Voc\u00ea pode especificar o tamanho da caixa de mensagens, alterar o nome e endere\u00e7o da sua conta, adicionar \u00e1lias/pseud\u00f4nimos e muito mais. Tamb\u00e9m \u00e9 poss\u00edvel criar c\u00f3digos de convite para ajudar colegas a criar contas no **Riseup**. \r\n\r\n**Passo 1**. **Abra** a p\u00e1gina *Painel de controle de usu\u00e1rias/os* do **Riseup**, como a seguir: [**https://user.riseup.net/**](https://user.riseup.net/)\r\n\r\n![](/sbox/screen/riseup-pt/20.png)\r\n\r\n*Figura 1: P\u00e1gina user.riseup.net*\r\n\r\n**Passo 2**. **Digite** seu login e senha nos respectivos campos de texto.\r\n\r\n**Passo 3**. **Clique** em ![](/sbox/screen/riseup-pt/12.png) para abrir a seguinte tela:\r\n\r\n![](/sbox/screen/riseup-pt/21.png)\r\n\r\n*Figura 2: A p\u00e1gina Painel de controle de usu\u00e1rios/as do Riseup*\r\n\r\n\r\n<a name=\"4.1\"></a>\r\n### 4.1 A p\u00e1gina de Minhas configura\u00e7\u00f5es ###\r\n\r\nA p\u00e1gina *Minhas configura\u00e7\u00f5es* mostra toda a informa\u00e7\u00e3o que voc\u00ea inseriu originalmente na p\u00e1gina [**Criar uma conta no Riseup**](/pt/riseup_createaccount). \r\n\r\n**Passo 1**. **Clique** em ![](/sbox/screen/riseup-pt/22.png) para abrir a tela a seguir:\r\n\r\n![](/sbox/screen/riseup-pt/23.png)\r\n\r\n*Figura 3: A p\u00e1gina de Configura\u00e7\u00f5es*\r\n\r\nVoc\u00ea pode alterar seu nome de usu\u00e1ria/o nesta tela, o que tamb\u00e9m mudar\u00e1 seu endere\u00e7o de e-mail. O novo nome de login precisa ser \u00fanico. Aqui, voc\u00ea ainda pode alterar outros detalhes da sua conta como senha, endere\u00e7o alternativo de e-mail e assim por diante. \r\n\r\n**Observe** que os campos *L\u00edngua*, *Pa\u00eds* e *Fuso hor\u00e1rio* n\u00e3o devem ser alterados para minimizar a quantidade de informa\u00e7\u00f5es pessoais que voc\u00ea armazena no servidor.\r\n\r\n**Passo 2**. **Digite** suas novas informa\u00e7\u00f5es e **clique** em ![](/sbox/screen/riseup-pt/24.png) para mostrar a seguinte mensagem:\r\n\r\n![](/sbox/screen/riseup-pt/25.png)\r\n\r\n*Figura 4: Altera\u00e7\u00f5es atualizadas com sucesso*\r\n\r\n\r\n<a name=\"4.2\"></a>\r\n## 4.2 A p\u00e1gina de Configura\u00e7\u00f5es de e-mail ##\r\n\r\nA p\u00e1gina *Configura\u00e7\u00f5es de e-mail* permite modificar ou visualizar informa\u00e7\u00f5es relacionadas ao armazenamento de mensagens. \u00c9 poss\u00edvel definir uma 'cota' ou quantidade de espa\u00e7o reservado para a sua conta no servidor do **Riseup**.\r\n\r\n**Passo 1**. **Clique** em ![](/sbox/screen/riseup-pt/26.png) para abrir a seguinte tela:\r\n\r\n![](/sbox/screen/riseup-pt/27.png)\r\n\r\n*Figura 5: A p\u00e1gina de Configura\u00e7\u00f5es de e-mail*\r\n\r\n**Passo 2**. **Insira** um n\u00famero apropriado no campo de texto *cota*. \r\n\r\n**Observa\u00e7\u00e3o**: Sua conta \u00e9 limitada ao tamanho m\u00e1ximo de sua cota no disco (o padr\u00e3o, neste momento, \u00e9 92 MB). Se voc\u00ea precisa de mais espa\u00e7o, considere baixar suas mensagens com um cliente de e-mail, como o Thunderbird. Dessa forma os e-mails s\u00e3o baixados do servidor para a sua m\u00e1quina.\r\n\r\nNessa p\u00e1gina, tamb\u00e9m \u00e9 poss\u00edvel criar pseud\u00f4nimos ou codinomes para a sua conta. Um \u00e1lias, pseud\u00f4nimo ou codinome funciona como um apelido para a sua conta; seu endere\u00e7o principal continua como antes, mas as pessoas tamb\u00e9m podem enviar mensagens para seu endere\u00e7o alternativo de \u00e1lias.\r\n\r\n![](/sbox/screen/riseup-pt/28.png)\r\n\r\n*Figura 6: A se\u00e7\u00e3o de \u00c1lias/pseud\u00f4nimos (traduzido como \"atalhos\") da p\u00e1gina de configura\u00e7\u00f5es de e-mail*\r\n\r\n*Exemplo*: a conta **ssaayyeedd@riseup.net** agora tem dois pseud\u00f4nimos. Mensagens enviadas para **ssayyedas@riseup.net** ou **sayedas@riseup.net** ser\u00e3o encaminhadas para a conta principal (**ssaayyeedd@riseup.net**). Esta pode ser uma pr\u00e1tica \u00fatil para manter privado o endere\u00e7o real da sua conta.\r\n\r\n**Observa\u00e7\u00e3o** Existem outras configura\u00e7\u00f5es dispon\u00edveis nesta p\u00e1gina que voc\u00ea pode acessar pelas abas e links, como demonstrado na *Figura 5*. Algumas delas s\u00e3o:\r\n\r\n  * *Configura\u00e7\u00f5es de spam* : Permite configurar como o servidor do Riseup gerenciar\u00e1 spam suspeitos (e-mails n\u00e3o desejados);\r\n  * *Filtros de correio* : Permite configurar o servidor do Riseup para distribuir as mensagens recebidas em diferentes pastas ou excluir e-mails espec\u00edficos;\r\n  * *Fix mailbox* : Pode ajudar em situa\u00e7\u00f5es nais quais sua caixa de correio eletr\u00f4nico tenha parado de funcionar;\r\n  * *Restore mail from backups*: Pode recuperar o conte\u00fado da sua caixa de mensagens a partir de uma c\u00f3pia de backup armazenada em um servidor do Riseup;\r\n  * *Destroy mailbox* : Remover\u00e1 completamente sua caixa de e-mails, com todas as mensagens, em todas as pastas. Voc\u00ea poder\u00e1 acessar essa conta novamente para criar uma nova caixa de e-mails, vazia.\r\n\r\n**Passo 3**. **Clique** em ![](/sbox/screen/riseup-pt/24.png) para salvar as novas configura\u00e7\u00f5es. \r\n\r\n\r\n<a name=\"4.3\"></a>\r\n## 4.3 A p\u00e1gina de Convites ##\r\n\r\nA p\u00e1gina de *Convites* permite gerar os *c\u00f3digos de convite* usados para convidar colegas a abrir contas no **Riseup**.\r\n\r\n**Importante**: Cada conta nova necessita de um c\u00f3digo de convite duas pessoas diferentes com e-mail Riseup. Voc\u00ea pode gerar quantos c\u00f3digos de convite quiser.\r\n \r\n**Passo 1**. **Clique** em ![](/sbox/screen/riseup-pt/29.png) para ativar a tela a seguir:\r\n\r\n![](/sbox/screen/riseup-pt/30.png)\r\n\r\n*Figura 7: A p\u00e1gina de Convites*\r\n\r\n**Passo 2**. **Clique** em ![](/sbox/screen/riseup-pt/31.png) para gerar um c\u00f3digo de convite, como a seguir:\r\n\r\n![](/sbox/screen/riseup-pt/32.png)\r\n\r\n*Figura 8: Exemplo de c\u00f3digo de convite gerado*\r\n\r\n**Observa\u00e7\u00e3o**: Cada c\u00f3digo de convite \u00e9 v\u00e1lido por um m\u00eas.\r\n\r\n**Passo 3**. **Clique** em [imprimir convites](/sbox/screen/riseup-pt/33.png) para imprimir uma c\u00f3pia do c\u00f3digo de convite e entreg\u00e1-la \u00e0 pessoa que deseja criar uma conta de correio eletr\u00f4nico no **Riseup**.\r\n\r\n**Passo 4**. **Clique** em ![](/sbox/screen/riseup-pt/34.png) para sair do Painel de Controle."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2037", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2037", 
+                "link_title": "How to Change Your Account Settings", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5183", 
+                "module": "book", 
+                "nid": "2037", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5180", 
+                "p3": "5183", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5180", 
+                "router_path": "node/%", 
+                "title": "How to Change Your Account Settings", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1456951011", 
+            "comment": "0", 
+            "created": "1441120477", 
+            "current_revision_id": "13461", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "riseup_changingsettings", 
+                        "value": "riseup_changingsettings"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5183": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2037", 
+                    "link_title": "How to Change Your Account Settings", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5183", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5180", 
+                    "p3": "5183", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5180", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2037", 
+            "num_revisions": "29", 
+            "path": "https://securityinabox.org/en/node/2037", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456951011", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como alterar as configura\u00e7\u00f5es de sua conta", 
+                        "value": "Como alterar as configura\u00e7\u00f5es de sua conta"
+                    }
+                ]
+            }, 
+            "title_original": "How to Change Your Account Settings", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442931934", 
+                        "created": "1442931934", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2037", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442403450", 
+                        "created": "1442403450", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2037", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506220", 
+                        "created": "1442506220", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2037", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1454345391", 
+                        "created": "1441622378", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2037", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1454080699", 
+                        "created": "1442845469", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2037", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1456951011", 
+                        "created": "1444659694", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2037", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1452871062", 
+                        "created": "1452871062", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2037", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1452172338", 
+                        "created": "1443620599", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2037", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441280128", 
+                        "created": "1441280128", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2037", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444178350", 
+                        "created": "1444178350", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2037", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443020652", 
+                        "created": "1443020652", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2037", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833574", 
+                        "created": "1444728480", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2037", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446477702", 
+                        "created": "1441120477", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2037", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1456326766", 
+                        "created": "1445434097", 
+                        "entity_id": "2037", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2037", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "0dfc4c74-6846-478e-ada4-15ca38bb9ec4", 
+            "vid": "13461", 
+            "vuuid": "05becc4f-5ddf-41b4-b879-bb96e55672e7"
+        }, 
+        {
+            "body": {
+                "pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p><a name=\"5.0\" id=\"5.0\"></a></p>\n\n<h2>5.0 Perguntas Frequentes</h2>\n\n<div class=\"background\">\n\n<p><strong><em>P: N\u00e3o consigo acessar minha conta do Riseup</em></strong></p>\n\n<p><em><strong>R</strong>: Por favor, veja a <a href=\"https://help.riseup.net/pt/email/webmail#solu%C3%A7%C3%A3o-de-problemas-de-autentica%C3%A7%C3%A3o-webmail\">solu\u00e7\u00e3o de problemas de autentica\u00e7\u00e3o no webmail</a> na <a href=\"https://help.riseup.net/pt/email\">ajuda do e-mail do Riseup</a>. Veja tamb\u00e9m o final da p\u00e1gina <a href=\"https://help.riseup.net/pt/email\">ajuda Riseup: respostas para d\u00favidas comuns sobre e-mail</a> para outros t\u00f3picos.</em></p>\n\n<p><strong><em>P: Em quais circunst\u00e2ncias devo usar a interface de webmail padr\u00e3o (Roundcube) no lugar do SquirrelMail?</em></strong></p>\n\n<p><em><strong>R</strong>: Se, por alguma raz\u00e3o, uma interface de e-mail estiver fora do ar ou passando por manuten\u00e7\u00e3o de rotina, voc\u00ea poder\u00e1 sempre continuar a trabalhar sem interrup\u00e7\u00f5es usando a outra interface de e-mail. Al\u00e9m disso, o servi\u00e7o <strong>SquirrelMail</strong> n\u00e3o requer JavaScript.</em></p>\n\n<p><strong><em>P: Quando criei minha conta, n\u00e3o estava confort\u00e1vel para fornecer informa\u00e7\u00f5es pessoais. Devo completar estas informa\u00e7\u00f5es?</em></strong></p>\n\n<p><em><strong>R</strong>: N\u00e3o \u00e9 necess\u00e1rio fornecer informa\u00e7\u00f5es pessoais, a menos que voc\u00ea queira.</em></p>\n\n<p><strong><em>P: Como posso criar uma conta de e-mail para uma pessoa ativista que conhe\u00e7o?</em></strong></p>\n\n<p><em><strong>R</strong>: Voc\u00ea precisa conhecer algu\u00e9m que tamb\u00e9m use o <strong>Riseup</strong>. Ent\u00e3o, voc\u00eas precisam gerar os <a href=\"/pt/riseup_changingsettings#4.3\">c\u00f3digos de convite</a> e envi\u00e1-los para tal pessoa. Os c\u00f3digos ser\u00e3o usados quando ela criar sua conta no <strong>Riseup</strong>.</em></p>\n\n<p><strong><em>P: Notei que a interface de webmail do Roundcube permite a autentica\u00e7\u00e3o em duas etapas. Devo us\u00e1-la?</em></strong></p>\n\n<p><em><strong>R</strong>: A autentica\u00e7\u00e3o em duas etapas fornece uma camada adicional de prote\u00e7\u00e3o \u00e0 sua conta, exigindo a inser\u00e7\u00e3o de um c\u00f3digo aleat\u00f3rio al\u00e9m da senha para acessar o e-mail. Por\u00e9m, neste momento, mesmo que voc\u00ea ative esta op\u00e7\u00e3o, ainda poder\u00e1 acessar sua caixa de mensagens sem precisar fazer a autentica\u00e7\u00e3o em duas etapas. Basta entrar na conta pela interface de webmail <strong>SquirrelMail</strong> ou com um cliente de email (como o Thunderbird) pelos protocolos POP/IMAP. Estamos ansiosos com o desenvolvimento e o suporte da autentica\u00e7\u00e3o em duas etapas pelo <strong>Riseup</strong>.</em></p>\n\n</div>\n\n<p><a name=\"5.1\" id=\"5.1\"></a></p>\n\n<h2>5.1 Quest\u00f5es de Revis\u00e3o</h2>\n\n<ul><li>Qual a diferen\u00e7a entre ler suas mensagens pelo webmail ou por um programa cliente de e-mails?</li>\n<li>O que \u00e9 <em>Secure Sockets Layer (SSL)</em> e como funciona? </li>\n<li>O que \u00e9 um teclado virtual e como funciona? </li>\n<li>Como voc\u00ea pode adicionar um \u00e1lias/pseud\u00f4nimo \u00e0 sua conta de e-mail?</li>\n<li>Por quanto tempo um c\u00f3digo de convite criado \u00e9 v\u00e1lido?</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "<a name=\"5.0\"></a>\r\n## 5.0 Perguntas Frequentes ##\r\n\r\n<div class=\"background\" markdown=\"1\"> \r\n\r\n***P: N\u00e3o consigo acessar minha conta do Riseup***\r\n\r\n***R**: Por favor, veja a [solu\u00e7\u00e3o de problemas de autentica\u00e7\u00e3o no webmail](https://help.riseup.net/pt/email/webmail#solu%C3%A7%C3%A3o-de-problemas-de-autentica%C3%A7%C3%A3o-webmail) na [ajuda do e-mail do Riseup](https://help.riseup.net/pt/email). Veja tamb\u00e9m o final da p\u00e1gina [ajuda Riseup: respostas para d\u00favidas comuns sobre e-mail](https://help.riseup.net/pt/email) para outros t\u00f3picos.*\r\n\r\n***P: Em quais circunst\u00e2ncias devo usar a interface de webmail padr\u00e3o (Roundcube) no lugar do SquirrelMail?***\r\n\r\n***R**: Se, por alguma raz\u00e3o, uma interface de e-mail estiver fora do ar ou passando por manuten\u00e7\u00e3o de rotina, voc\u00ea poder\u00e1 sempre continuar a trabalhar sem interrup\u00e7\u00f5es usando a outra interface de e-mail. Al\u00e9m disso, o servi\u00e7o **SquirrelMail** n\u00e3o requer JavaScript.*\r\n\r\n***P: Quando criei minha conta, n\u00e3o estava confort\u00e1vel para fornecer informa\u00e7\u00f5es pessoais. Devo completar estas informa\u00e7\u00f5es?***\r\n\r\n***R**: N\u00e3o \u00e9 necess\u00e1rio fornecer informa\u00e7\u00f5es pessoais, a menos que voc\u00ea queira.*\r\n\r\n***P: Como posso criar uma conta de e-mail para uma pessoa ativista que conhe\u00e7o?***\r\n\r\n***R**: Voc\u00ea precisa conhecer algu\u00e9m que tamb\u00e9m use o **Riseup**. Ent\u00e3o, voc\u00eas precisam gerar os [c\u00f3digos de convite](/pt/riseup_changingsettings#4.3) e envi\u00e1-los para tal pessoa. Os c\u00f3digos ser\u00e3o usados quando ela criar sua conta no **Riseup**.*\r\n\r\n***P: Notei que a interface de webmail do Roundcube permite a autentica\u00e7\u00e3o em duas etapas. Devo us\u00e1-la?*** \r\n\r\n***R**: A autentica\u00e7\u00e3o em duas etapas fornece uma camada adicional de prote\u00e7\u00e3o \u00e0 sua conta, exigindo a inser\u00e7\u00e3o de um c\u00f3digo aleat\u00f3rio al\u00e9m da senha para acessar o e-mail. Por\u00e9m, neste momento, mesmo que voc\u00ea ative esta op\u00e7\u00e3o, ainda poder\u00e1 acessar sua caixa de mensagens sem precisar fazer a autentica\u00e7\u00e3o em duas etapas. Basta entrar na conta pela interface de webmail **SquirrelMail** ou com um cliente de email (como o Thunderbird) pelos protocolos POP/IMAP. Estamos ansiosos com o desenvolvimento e o suporte da autentica\u00e7\u00e3o em duas etapas pelo **Riseup**.*\r\n</div>\r\n\r\n\r\n<a name=\"5.1\"></a>\r\n## 5.1 Quest\u00f5es de Revis\u00e3o ##\r\n\r\n- Qual a diferen\u00e7a entre ler suas mensagens pelo webmail ou por um programa cliente de e-mails?\r\n- O que \u00e9 *Secure Sockets Layer (SSL)* e como funciona? \r\n- O que \u00e9 um teclado virtual e como funciona? \r\n- Como voc\u00ea pode adicionar um \u00e1lias/pseud\u00f4nimo \u00e0 sua conta de e-mail?\r\n- Por quanto tempo um c\u00f3digo de convite criado \u00e9 v\u00e1lido?"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2038", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2038", 
+                "link_title": "FAQ and Review", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5184", 
+                "module": "book", 
+                "nid": "2038", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5180", 
+                "p3": "5184", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5180", 
+                "router_path": "node/%", 
+                "title": "FAQ and Review", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1452871584", 
+            "comment": "0", 
+            "created": "1441120519", 
+            "current_revision_id": "12924", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "riseup_faq", 
+                        "value": "riseup_faq"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5184": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2038", 
+                    "link_title": "FAQ and Review", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5184", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5180", 
+                    "p3": "5184", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5180", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2038", 
+            "num_revisions": "17", 
+            "path": "https://securityinabox.org/en/node/2038", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452871584", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Perguntas Frequentes e Revis\u00e3o", 
+                        "value": "Perguntas Frequentes e Revis\u00e3o"
+                    }
+                ]
+            }, 
+            "title_original": "FAQ and Review", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442932001", 
+                        "created": "1442932001", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442403517", 
+                        "created": "1442403517", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506288", 
+                        "created": "1442506288", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441622506", 
+                        "created": "1441622506", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442845549", 
+                        "created": "1442845549", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444659765", 
+                        "created": "1444659765", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1452871404", 
+                        "created": "1452871404", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443620709", 
+                        "created": "1443620709", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441280427", 
+                        "created": "1441280427", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444178395", 
+                        "created": "1444178395", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443020622", 
+                        "created": "1443020622", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444833620", 
+                        "created": "1444728566", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1452871584", 
+                        "created": "1441120519", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445439807", 
+                        "created": "1445434114", 
+                        "entity_id": "2038", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "da9db442-af04-4980-9d7f-b479ee44703c", 
+            "vid": "12924", 
+            "vuuid": "0d083a99-da16-4e92-8c51-70aadf5c4643"
+        }
+    ], 
+    "changed": "1456950862", 
+    "comment": "0", 
+    "created": "1441120303", 
+    "current_revision_id": "13459", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "pt": [
+            {
+                "tid": "117"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": [], 
+    "field_legacy_online_installation": [], 
+    "field_menu_title": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "Riseup - secure email service", 
+                "value": "Riseup - secure email service"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "Riseup - Servi\u00e7o seguro de e-mails", 
+                "value": "Riseup - Servi\u00e7o seguro de e-mails"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "pt": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><img src=\"/sbox/screen/riseup-pt/riseup-rainbow.png\" alt=\"\" /></p>\n\n<p>O <strong>Riseup</strong> \u00e9 uma organiza\u00e7\u00e3o coletiva dedicada ao fornecimento de e-mails privados e seguros, al\u00e9m de hospedagem de servi\u00e7os para indiv\u00edduos e organiza\u00e7\u00f5es comprometidas com uma justi\u00e7a social e pol\u00edtica.</p>\n", 
+                "value": "![](/sbox/screen/riseup-pt/riseup-rainbow.png)\r\n\r\nO **Riseup** \u00e9 uma organiza\u00e7\u00e3o coletiva dedicada ao fornecimento de e-mails privados e seguros, al\u00e9m de hospedagem de servi\u00e7os para indiv\u00edduos e organiza\u00e7\u00f5es comprometidas com uma justi\u00e7a social e pol\u00edtica."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-12 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "riseup_main", 
+                "value": "riseup_main"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "10"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "10"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5180": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2034", 
+            "link_title": "RiseUp - Secure Email Service", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5180", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5180", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-6"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2034", 
+    "num_revisions": "23", 
+    "path": "https://securityinabox.org/en/node/2034", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1456950862", 
+    "revision_uid": "141", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "Riseup - Servi\u00e7o seguro de e-mails", 
+                "value": "Riseup - Servi\u00e7o seguro de e-mails"
+            }
+        ]
+    }, 
+    "title_original": "RiseUp - Secure Email Service", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442931670", 
+                "created": "1442931670", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "2034", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442403137", 
+                "created": "1442403137", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2034", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442505952", 
+                "created": "1442505952", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2034", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1452093578", 
+                "created": "1441621994", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "2034", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fr": {
+                "changed": "1442845155", 
+                "created": "1442845155", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "2034", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1456950862", 
+                "created": "1444659424", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "2034", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "km": {
+                "changed": "1452870051", 
+                "created": "1452870051", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2034", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443618912", 
+                "created": "1443618912", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2034", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441279692", 
+                "created": "1441279692", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2034", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444178197", 
+                "created": "1444178197", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2034", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1443016100", 
+                "created": "1443016100", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2034", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1456927537", 
+                "created": "1443525562", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2034", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1452869956", 
+                "created": "1441120303", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2034", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445439704", 
+                "created": "1445433963", 
+                "entity_id": "2034", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2034", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "d9221df9-dd4b-4346-9ee2-4920984a6b84", 
+    "vid": "13459", 
+    "vuuid": "5f3b2b9a-ca7f-4a58-92a9-15e25da6a616"
+}

@@ -1,0 +1,1551 @@
+{
+    "body": {
+        "fr": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Site Internet</strong>:</p>\n\n<p><a href=\"http://www.avast.com\"><strong>www.avast.com</strong></a></p>\n\n<p><strong>Configuration requise</strong>:</p>\n\n<ul><li>Compatible avec toutes les versions de Windows</li>\n</ul><p><strong>Version utilis\u00e9e pour r\u00e9diger ce guide</strong>:</p>\n\n<ul><li>5.0</li>\n</ul><p><strong>Licence</strong>:</p>\n\n<ul><li>Gratuiciel </li>\n</ul><p><strong>Lecture pr\u00e9alable</strong>:</p>\n\n<ul><li><strong>Livret pratique</strong> Security-in-a-Box, chapitre <a href=\"/fr/chapter-1\"><strong>1. Prot\u00e9ger votre ordinateur contre les logiciels malveillants et les pirates</strong></a></li>\n</ul><p><strong>Niveau</strong>: 1: D\u00e9butant, <strong>2: Moyen</strong>, 3: Interm\u00e9diaire, 4: Exp\u00e9riment\u00e9, 5: Avanc\u00e9</p>\n\n<p><strong>Temps d'apprentissage</strong>: 20 minutes</p>\n\n<p><strong>Ce que vous apportera l\u2019utilisation de cet outil</strong>:</p>\n\n<ul><li>La capacit\u00e9 de scanner votre ordinateur pour y d\u00e9tecter des virus et les \u00e9liminer.</li>\n<li>La capacit\u00e9 de prot\u00e9ger votre ordinateur contre les nouveaux virus et toute nouvelle infection.</li>\n<li>La capacit\u00e9 de recevoir des mises \u00e0 jour des d\u00e9finitions de virus depuis Internet.</li>\n</ul><p><strong>Autres programmes compatibles avec GNU Linux, Mac OS et/ou Microsoft Windows</strong>:</p>\n\n<p>Bien que nous recommandions l'<strong>antivirus gratuit d'avast!</strong> dans ce chapitre, il existe d'autres programmes compatibles avec <strong>Microsoft Windows</strong> qui valent \u00e9galement la peine qu'on s'y int\u00e9resse:</p>\n\n<ul><li><a href=\"http://www.free-av.com/\"><strong>Avira AntiVir Personal Edition</strong></a> et</li>\n<li><a href=\"http://free.avg.com/\"><strong>AVG Anti-Virus</strong></a>.</li>\n</ul><p>Par ailleurs, si vous avez les moyens d'acheter la version commerciale du programme antivirus pour <strong>Microsoft Windows</strong>, vous en retirerez probablement une protection plus compl\u00e8te.</p>\n\n<p>Bien que les syst\u00e8mes d'exploitation comme <strong>GNU Linux</strong> et <strong>Mac OS</strong> soient pratiquement \u00e9pargn\u00e9s des virus, il existe plusieurs bonnes raisons pour y installer des programmes contre les virus et les programmes malveillants. D'abord, des virus seront \u00e9ventuellement cr\u00e9\u00e9s pour ces syst\u00e8mes d'exploitation, et deuxi\u00e8mement, vous courez le risque de r\u00e9pandre des virus \u00e0 votre insu, m\u00eame si votre propre syst\u00e8me est prot\u00e9g\u00e9.</p>\n\n<p>\u00c0 l'heure actuelle, il n'existe malheureusement aucun programme antivirus <em>gratuit</em> que nous serions \u00e0 l'aise de recommander pour <strong>Linux</strong> et <strong>Mac OS</strong>. Cependant, il existe plusieurs produits <em>commerciaux</em> qui pr\u00e9sentent de nombreux avantages et une excellente protection. Voici la liste des programmes les plus populaires:</p>\n\n<ul><li><a href=\"http://www.avast.com/en-eu/mac-edition\"><strong>avast!</strong></a>,</li>\n<li><a href=\"http://www.kaspersky.co.uk/kaspersky-anti-virus-for-mac\"><strong>Kaspersky</strong></a>,</li>\n<li><a href=\"http://www.mcafee.com/us/small/products/virusscan_for_mac/virusscan_for_mac.html\"><strong>Mcafee</strong></a>,</li>\n<li><a href=\"http://www.sophos.com/products/enterprise/endpoint/security-and-control/\"><strong>Sophos</strong></a>, et</li>\n<li><a href=\"http://www.symantec.com/norton/products\"><strong>Symantec</strong></a>, entre autres.</li>\n</ul><p>Si vous pouvez vous permettre d'acheter une copie de l'un ou l'autre de ces programmes, n'h\u00e9sitez pas \u00e0 le faire.</p>\n\n<h3>1.1 \u00c0 propos de cet outil</h3>\n\n<p>Les virus informatiques sont des programmes malveillants qui peuvent d\u00e9truire des fichiers, ralentir votre ordinateur et utiliser votre carnet d\u2019adresses pour trouver et infecter d\u2019autres ordinateurs. Avast  est un programme antivirus complet qui prot\u00e8ge votre ordinateur contre les virus qui pourraient y acc\u00e9der par t\u00e9l\u00e9chargement depuis Internet, par courriel (pi\u00e8ce jointe) ou par transfert depuis un support amovible (CD, DVD, disquette, cl\u00e9 USB, etc.).</p>\n\n<ul><li><p>Assurez-vous de ne pas avoir deux programmes antivirus install\u00e9s et actifs simultan\u00e9ment. Si vous utilisez pr\u00e9sentement un autre programme et souhaitez changer pour <strong>avast!</strong>, vous devez d\u2019abord d\u00e9sinstaller l\u2019autre programme antivirus avant d\u2019installer <strong>avast!</strong>.</p></li>\n<li><p>De nouveaux virus sont con\u00e7us \u00e0 tous les jours. Pour prot\u00e9ger efficacement votre ordinateur, <strong>avast!</strong> doit \u00eatre en mesure de mettre \u00e0 jour r\u00e9guli\u00e8rement votre base de donn\u00e9es virale.</p></li>\n<li><p>Les virus les plus insidieux sont ceux qui emp\u00eachent carr\u00e9ment l'installation d'<strong>avast!</strong> et ceux qu'<strong>avast!</strong> n'est pas en mesure de d\u00e9tecter et supprimer. Dans une situation comme celle-l\u00e0, il vous faudra recourir \u00e0 des m\u00e9thodes un peu plus avanc\u00e9es, dont certaines sont abord\u00e9es \u00e0 la section <a href=\"/fr/avast_virus#4.9\"><strong>4.9 M\u00e9thodes avanc\u00e9es de suppression des virus</strong></a>.</p></li>\n</ul>", 
+                "summary": "", 
+                "value": "**Site Internet**:\r\n\r\n[**www.avast.com**](http://www.avast.com)\r\n\r\n**Configuration requise**:\r\n\r\n- Compatible avec toutes les versions de Windows\r\n\r\n**Version utilis\u00e9e pour r\u00e9diger ce guide**:\r\n\r\n- 5.0\r\n\r\n**Licence**:\r\n\r\n- Gratuiciel \r\n\t\r\n**Lecture pr\u00e9alable**:\r\n\r\n- **Livret pratique** Security-in-a-Box, chapitre [**1. Prot\u00e9ger votre ordinateur contre les logiciels malveillants et les pirates**](/fr/chapter-1)\r\n\r\n**Niveau**: 1: D\u00e9butant, **2: Moyen**, 3: Interm\u00e9diaire, 4: Exp\u00e9riment\u00e9, 5: Avanc\u00e9  \r\n\r\n**Temps d'apprentissage**: 20 minutes\r\n\r\n**Ce que vous apportera l\u2019utilisation de cet outil**:\r\n\r\n- La capacit\u00e9 de scanner votre ordinateur pour y d\u00e9tecter des virus et les \u00e9liminer.\r\n- La capacit\u00e9 de prot\u00e9ger votre ordinateur contre les nouveaux virus et toute nouvelle infection.\r\n- La capacit\u00e9 de recevoir des mises \u00e0 jour des d\u00e9finitions de virus depuis Internet.\r\n\r\n**Autres programmes compatibles avec GNU Linux, Mac OS et/ou Microsoft Windows**:\r\n\r\nBien que nous recommandions l'**antivirus gratuit d'avast!** dans ce chapitre, il existe d'autres programmes compatibles avec **Microsoft Windows** qui valent \u00e9galement la peine qu'on s'y int\u00e9resse: \r\n\r\n- [**Avira AntiVir Personal Edition**](http://www.free-av.com/) et\r\n- [**AVG Anti-Virus**](http://free.avg.com/).\r\n\r\nPar ailleurs, si vous avez les moyens d'acheter la version commerciale du programme antivirus pour **Microsoft Windows**, vous en retirerez probablement une protection plus compl\u00e8te.\r\n\r\nBien que les syst\u00e8mes d'exploitation comme **GNU Linux** et **Mac OS** soient pratiquement \u00e9pargn\u00e9s des virus, il existe plusieurs bonnes raisons pour y installer des programmes contre les virus et les programmes malveillants. D'abord, des virus seront \u00e9ventuellement cr\u00e9\u00e9s pour ces syst\u00e8mes d'exploitation, et deuxi\u00e8mement, vous courez le risque de r\u00e9pandre des virus \u00e0 votre insu, m\u00eame si votre propre syst\u00e8me est prot\u00e9g\u00e9.\r\n\r\n\u00c0 l'heure actuelle, il n'existe malheureusement aucun programme antivirus *gratuit* que nous serions \u00e0 l'aise de recommander pour **Linux** et **Mac OS**. Cependant, il existe plusieurs produits *commerciaux* qui pr\u00e9sentent de nombreux avantages et une excellente protection. Voici la liste des programmes les plus populaires:\r\n\r\n- [**avast!**](http://www.avast.com/en-eu/mac-edition),\r\n- [**Kaspersky**](http://www.kaspersky.co.uk/kaspersky-anti-virus-for-mac),\r\n- [**Mcafee**](http://www.mcafee.com/us/small/products/virusscan_for_mac/virusscan_for_mac.html),\r\n- [**Sophos**](http://www.sophos.com/products/enterprise/endpoint/security-and-control/), et\r\n- [**Symantec**](http://www.symantec.com/norton/products), entre autres.\r\n\r\nSi vous pouvez vous permettre d'acheter une copie de l'un ou l'autre de ces programmes, n'h\u00e9sitez pas \u00e0 le faire.  \r\n\r\n### 1.1 \u00c0 propos de cet outil ###\r\n\r\nLes virus informatiques sont des programmes malveillants qui peuvent d\u00e9truire des fichiers, ralentir votre ordinateur et utiliser votre carnet d\u2019adresses pour trouver et infecter d\u2019autres ordinateurs. Avast  est un programme antivirus complet qui prot\u00e8ge votre ordinateur contre les virus qui pourraient y acc\u00e9der par t\u00e9l\u00e9chargement depuis Internet, par courriel (pi\u00e8ce jointe) ou par transfert depuis un support amovible (CD, DVD, disquette, cl\u00e9 USB, etc.).\r\n    \r\n- Assurez-vous de ne pas avoir deux programmes antivirus install\u00e9s et actifs simultan\u00e9ment. Si vous utilisez pr\u00e9sentement un autre programme et souhaitez changer pour **avast!**, vous devez d\u2019abord d\u00e9sinstaller l\u2019autre programme antivirus avant d\u2019installer **avast!**.\r\n\r\n- De nouveaux virus sont con\u00e7us \u00e0 tous les jours. Pour prot\u00e9ger efficacement votre ordinateur, **avast!** doit \u00eatre en mesure de mettre \u00e0 jour r\u00e9guli\u00e8rement votre base de donn\u00e9es virale.\r\n\r\n- Les virus les plus insidieux sont ceux qui emp\u00eachent carr\u00e9ment l'installation d'**avast!** et ceux qu'**avast!** n'est pas en mesure de d\u00e9tecter et supprimer. Dans une situation comme celle-l\u00e0, il vous faudra recourir \u00e0 des m\u00e9thodes un peu plus avanc\u00e9es, dont certaines sont abord\u00e9es \u00e0 la section [**4.9 M\u00e9thodes avanc\u00e9es de suppression des virus**](/fr/avast_virus#4.9). "
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/1906", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/1906", 
+        "link_title": "avast! - Anti-Virus", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5011", 
+        "module": "book", 
+        "nid": "1906", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5011", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "avast! - Anti-Virus", 
+        "updated": "0", 
+        "weight": "-15"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "fr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Sommaire des sections de cette page:</p>\n\n<ul><li><a href=\"#2.0\"><strong>2.0 Comment installer avast!</strong></a></li>\n<li><a href=\"#2.1\"><strong>2.1 Comment enregistrer avast!</strong></a></li>\n</ul><hr /><p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h3>2.0 Comment installer avast!</h3>\n\n<p>L'installation d'<strong>avast!</strong> est relativement simple et rapide. Pour commencer, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Double-cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/15.png\" alt=\"\" />; si une fen\u00eatre <em>Fichier ouvert - Avertissement de s\u00e9curit\u00e9</em> s'affiche, <strong>cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/02.png\" alt=\"\" /> pour activer la barre de progression  du d\u00e9compactage, qui peut prendre jusqu'\u00e0 une minute, selon la vitesse de votre ordinateur. Lorsque toutes les composantes d'<strong>avast!</strong> seront d\u00e9compact\u00e9es, la bo\u00eete de dialogue suivante s'affichera (NDT: Si vous installez le programme \u00e0 partir du fichier d'installation fran\u00e7ais, l'assistant passe directement \u00e0 la deuxi\u00e8me \u00e9tape d\u00e9crite ci-dessous.)</p>\n\n<p><img src=\"/sbox/screen/avast-fr/04.png\" alt=\"\" /></p>\n\n<p><em>Figure 1: La fen\u00eatre d'installation d'avast! Free Antivirus</em></p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/05.png\" alt=\"\" /> pour afficher la fen\u00eatre suivante:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/06.png\" alt=\"\" /></p>\n\n<p><em>Figure 2: La fen\u00eatre d'installation d'avast!</em></p>\n\n<p>Lors du processus d'installation d'**avast!*, la fen\u00eatre d'installation s'affiche avec l'option <em>Participer \u00e0 la communaut\u00e9 avast!</em> automatiquement s\u00e9lectionn\u00e9e. Pour des raisons de s\u00e9curit\u00e9 et de confidentialit\u00e9, il est pr\u00e9f\u00e9rable que vous d\u00e9sactiviez cette option, tel qu'illustr\u00e9 \u00e0 la <em>Figure 2</em>, ci-dessus.</p>\n\n<p><strong>Troisi\u00e8me \u00e9tape</strong>. <strong>D\u00e9cochez</strong> la case <em>Participer \u00e0 la communaut\u00e9 avast!</em> pour dess\u00e9lectionner cette option, puis <strong>cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/05.png\" alt=\"\" /> pour afficher la prochaine fen\u00eatre:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/07.png\" alt=\"\" /></p>\n\n<p><em>Figure 3: La fen\u00eatre avast! recommande</em></p>\n\n<p>Lors du processus d'installation d'<strong>avast!</strong>, la fen\u00eatre <em>avast! recommande</em> s'affiche avec l'option <em>Oui, installer le navigateur Google Chrome</em> automatiquement s\u00e9lectionn\u00e9e. Il est pr\u00e9f\u00e9rable de d\u00e9sactiver cette option, tel qu'illustr\u00e9 \u00e0 la figure 3, ci-dessus.</p>\n\n<p><strong>Quatri\u00e8me \u00e9tape</strong>. <strong>D\u00e9cochez</strong> la case <em>Oui, installer le navigateur Google Chrome</em> pour dess\u00e9lectionner cette option, puis <strong>cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/05.png\" alt=\"\" /> pour poursuivre l'installation d'<strong>avast!</strong>.</p>\n\n<p>Un message s'affichera apr\u00e8s quelques minutes pour vous indiquer que le processus d'installation est termin\u00e9.</p>\n\n<p><strong>Cinqui\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/09.png\" alt=\"\" /> pour finaliser le processus d'installation du logiciel. Quelques secondes plus tard, un icone <strong>avast!</strong> appara\u00eet dans votre <em>Barre d'\u00e9tat syst\u00e8me</em>:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/10.png\" alt=\"\" /></p>\n\n<p><em>Figure 4: L'icone avast! surlign\u00e9e en noir dans Barre d'\u00e9tat syst\u00e8me</em></p>\n\n<p>Quelques secondes plus tard, un autre message s'affiche pour confirmer l'installation d'<strong>avast!</strong>:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/11.png\" alt=\"\" /></p>\n\n<p><em>Figure 5: Le message de confirmation de l'installation d'avast!</em></p>\n\n<p>Chaque fois qu'<strong>avast!</strong> op\u00e8re une mise \u00e0 jour automatique du programme ou de la base de donn\u00e9es virale, un message s'affiche au dessus de la <em>Barre d'\u00e9tat syst\u00e8me</em>, tel qu'illustr\u00e9 ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/12.png\" alt=\"\" /></p>\n\n<p><em>Figure 6: Un exemple de message d'avast!</em></p>\n\n<p><strong>Important</strong>: Vous <em>devez</em> enregistrer votre copie du programme pour vous assurer que la base de donn\u00e9es virale et le logiciel lui-m\u00eame soient r\u00e9guli\u00e8rement mis \u00e0 jour automatiquement.</p>\n\n<p>Lorsque vous aurez correctement enregistr\u00e9 votre copie d'<strong>avast!</strong>, le programme prot\u00e9gera automatiquement votre ordinateur contre les virus et les logiciels malveillants. En cas d'attaque, <strong>avast!</strong> affichera des messages d'avertissement comme celui-ci:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/17.png\" alt=\"\" /></p>\n\n<p><em>Figure 7: Un exemple d'avertissement indiquant qu'une menace a \u00e9t\u00e9 bloqu\u00e9e.</em></p>\n\n<p><strong>Sixi\u00e8me \u00e9tape</strong>. <strong>Double-cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/13.png\" alt=\"\" /> dans la  <em>Barre d'\u00e9tat syst\u00e8me</em> (voir la figure 4) pour ouvrir la fen\u00eatre principale d'<strong>avast!</strong>, puis <strong>cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/14.png\" alt=\"\" /> pour afficher les d\u00e9tails de l'<em>\u00c9tat actuel</em>, tel qu'illustr\u00e9 ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/16.png\" alt=\"\" /></p>\n\n<p><em>Figure 8: La fen\u00eatre principale du programme avast!</em></p>\n\n<p><strong>Important</strong>: Vous devez enregistrer <strong>avast!</strong> pour continuer \u00e0 recevoir les mises \u00e0 jour du programme et des d\u00e9finitions de virus, qui sont essentielles \u00e0 la protection de votre ordinateur contre diverses menaces.</p>\n\n<p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h3>2.1 Comment enregistrer avast!</h3>\n\n<p><strong>Commentaire</strong>: Si vous n'enregistrez pas votre copie d'<strong>avast!</strong>, celle-ci cessera de fonctionner apr\u00e8s 30 jours. Il vous faut \u00eatre connect\u00e9 \u00e0 Internet pour enregistrer <strong>avast!</strong>.</p>\n\n<p>Pour enregistrer votre copie d'<strong>avast!</strong>, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/20.png\" alt=\"\" /> pour afficher la fen\u00eatre principale d'<strong>avast!</strong> (<em>Figure 10</em>).</p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/22.png\" alt=\"\" /> (par les menus MAINTENANCE et Enregistrement) pour afficher les deux fen\u00eatres suivantes successivement:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/23.png\" alt=\"\" /></p>\n\n<p><em>Figure 9: Fen\u00eatre d'enregistrement d'avast! antivirus gratuit</em></p>\n\n<p>La fen\u00eatre d'<em>Enregistrement d'avast! antivirus gratuit</em> vous informe que des informations sont en cours de r\u00e9cup\u00e9ration. Une deuxi\u00e8me fen\u00eatre vous avise que votre copie d'<strong>avast!</strong> expirera dans 30 jours si vous ne l'enregistrez pas d'ici l\u00e0. (La m\u00eame fen\u00eatre affiche \u00e9galement des renseignements sur les versions commerciales du logiciel et les promotions en cours.)</p>\n\n<p><img src=\"/sbox/screen/avast-fr/24.png\" alt=\"\" /></p>\n\n<p><em>Figure 10: La fen\u00eatre d'\u00e9tat de votre enregistrement</em></p>\n\n<p><strong>Troisi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/25.png\" alt=\"\" /> pour afficher \u00e0 nouveau la bo\u00eete illustr\u00e9e \u00e0 la <em>figure 2</em>, suivie imm\u00e9diatement de cette fen\u00eatre:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/26.png\" alt=\"\" /></p>\n\n<p><em>Figure 11: Le formulaire d'enregistrement d'avast! antivirus gratuit</em></p>\n\n<p><strong>Commentaire</strong>: Les seuls champs <em>obligatoires</em> sont le <em>Nom</em> et l'<em>E-mail</em>. Ils sont identifi\u00e9s par des ast\u00e9risques et encadr\u00e9s d'une ligne pointill\u00e9e rouge. Les autres champs sont facultatifs.</p>\n\n<p><strong>Quatri\u00e8me \u00e9tape</strong>. <strong>Saisissez</strong> votre nom et votre adresse de courriel dans les champs appropri\u00e9s, puis <strong>cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/28.png\" alt=\"\" /> pour afficher la prochaine fen\u00eatre:\n<img src=\"/sbox/screen/avast-fr/29.png\" alt=\"\" /></p>\n\n<p><em>Figure 12: Fen\u00eatre pop-up Merci pour votre enregistrement</em></p>\n\n<p><strong>Cinqui\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-en/30.png\" alt=\"\" /> pour afficher le panneau <em>VOTRE ENREGISTREMENT</em> dans la fen\u00eatre principale du programme:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/31.png\" alt=\"\" /></p>\n\n<p><em>Figure 13: Le panneau VOTRE ENREGISTREMENT qui confirme l'enregistrement de votre copie d'avast!</em></p>\n\n<p>Vous avez compl\u00e9t\u00e9 l'enregistrement de votre copie d'<strong>avast!</strong> et \u00eates maintenant en position d'apprendre comment mettre manuellement \u00e0 jour le programme et les d\u00e9finitions de virus. Pour ce faire, veuillez lire la section <strong>3.0 Comment mettre \u00e0 jour avast! manuellement</strong>.</p>\n", 
+                        "summary": "", 
+                        "value": "Sommaire des sections de cette page:\r\n\r\n- [**2.0 Comment installer avast!**](#2.0)\r\n- [**2.1 Comment enregistrer avast!**](#2.1)\r\n\r\n-------\r\n\r\n<a name=\"2.0\"></a>\r\n### 2.0 Comment installer avast! ###\r\n\r\nL'installation d'**avast!** est relativement simple et rapide. Pour commencer, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:\r\n\r\n**Premi\u00e8re \u00e9tape**. **Double-cliquez** sur ![](/sbox/screen/avast-fr/15.png); si une fen\u00eatre *Fichier ouvert - Avertissement de s\u00e9curit\u00e9* s'affiche, **cliquez** sur ![](/sbox/screen/avast-fr/02.png) pour activer la barre de progression  du d\u00e9compactage, qui peut prendre jusqu'\u00e0 une minute, selon la vitesse de votre ordinateur. Lorsque toutes les composantes d'**avast!** seront d\u00e9compact\u00e9es, la bo\u00eete de dialogue suivante s'affichera (NDT: Si vous installez le programme \u00e0 partir du fichier d'installation fran\u00e7ais, l'assistant passe directement \u00e0 la deuxi\u00e8me \u00e9tape d\u00e9crite ci-dessous.)\r\n\r\n![](/sbox/screen/avast-fr/04.png)\r\n\r\n*Figure 1: La fen\u00eatre d'installation d'avast! Free Antivirus*\r\n\r\n**Deuxi\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/05.png) pour afficher la fen\u00eatre suivante:\r\n\r\n![](/sbox/screen/avast-fr/06.png)\r\n\r\n*Figure 2: La fen\u00eatre d'installation d'avast!*  \r\n\r\nLors du processus d'installation d'**avast!*, la fen\u00eatre d'installation s'affiche avec l'option *Participer \u00e0 la communaut\u00e9 avast!* automatiquement s\u00e9lectionn\u00e9e. Pour des raisons de s\u00e9curit\u00e9 et de confidentialit\u00e9, il est pr\u00e9f\u00e9rable que vous d\u00e9sactiviez cette option, tel qu'illustr\u00e9 \u00e0 la *Figure 2*, ci-dessus.\r\n\r\n**Troisi\u00e8me \u00e9tape**. **D\u00e9cochez** la case *Participer \u00e0 la communaut\u00e9 avast!* pour dess\u00e9lectionner cette option, puis **cliquez** sur ![](/sbox/screen/avast-fr/05.png) pour afficher la prochaine fen\u00eatre:\r\n\r\n![](/sbox/screen/avast-fr/07.png)\r\n\r\n*Figure 3: La fen\u00eatre avast! recommande*\r\n\r\nLors du processus d'installation d'**avast!**, la fen\u00eatre *avast! recommande* s'affiche avec l'option *Oui, installer le navigateur Google Chrome* automatiquement s\u00e9lectionn\u00e9e. Il est pr\u00e9f\u00e9rable de d\u00e9sactiver cette option, tel qu'illustr\u00e9 \u00e0 la figure 3, ci-dessus.\r\n\r\n**Quatri\u00e8me \u00e9tape**. **D\u00e9cochez** la case *Oui, installer le navigateur Google Chrome* pour dess\u00e9lectionner cette option, puis **cliquez** sur ![](/sbox/screen/avast-fr/05.png) pour poursuivre l'installation d'**avast!**.\r\n\r\nUn message s'affichera apr\u00e8s quelques minutes pour vous indiquer que le processus d'installation est termin\u00e9.\r\n\r\n**Cinqui\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/09.png) pour finaliser le processus d'installation du logiciel. Quelques secondes plus tard, un icone **avast!** appara\u00eet dans votre *Barre d'\u00e9tat syst\u00e8me*:\r\n\r\n![](/sbox/screen/avast-fr/10.png)\r\n\r\n*Figure 4: L'icone avast! surlign\u00e9e en noir dans Barre d'\u00e9tat syst\u00e8me*\r\n\r\nQuelques secondes plus tard, un autre message s'affiche pour confirmer l'installation d'**avast!**:\r\n\r\n![](/sbox/screen/avast-fr/11.png)\r\n\r\n*Figure 5: Le message de confirmation de l'installation d'avast!*\r\n\r\nChaque fois qu'**avast!** op\u00e8re une mise \u00e0 jour automatique du programme ou de la base de donn\u00e9es virale, un message s'affiche au dessus de la *Barre d'\u00e9tat syst\u00e8me*, tel qu'illustr\u00e9 ci-dessous: \r\n\r\n![](/sbox/screen/avast-fr/12.png)\r\n\r\n*Figure 6: Un exemple de message d'avast!* \r\n\r\n**Important**: Vous *devez* enregistrer votre copie du programme pour vous assurer que la base de donn\u00e9es virale et le logiciel lui-m\u00eame soient r\u00e9guli\u00e8rement mis \u00e0 jour automatiquement.\r\n\r\nLorsque vous aurez correctement enregistr\u00e9 votre copie d'**avast!**, le programme prot\u00e9gera automatiquement votre ordinateur contre les virus et les logiciels malveillants. En cas d'attaque, **avast!** affichera des messages d'avertissement comme celui-ci: \r\n\r\n![](/sbox/screen/avast-fr/17.png)\r\n\r\n*Figure 7: Un exemple d'avertissement indiquant qu'une menace a \u00e9t\u00e9 bloqu\u00e9e.*\r\n\r\n**Sixi\u00e8me \u00e9tape**. **Double-cliquez** sur ![](/sbox/screen/avast-fr/13.png) dans la  *Barre d'\u00e9tat syst\u00e8me* (voir la figure 4) pour ouvrir la fen\u00eatre principale d'**avast!**, puis **cliquez** sur ![](/sbox/screen/avast-fr/14.png) pour afficher les d\u00e9tails de l'*\u00c9tat actuel*, tel qu'illustr\u00e9 ci-dessous: \r\n\r\n![](/sbox/screen/avast-fr/16.png)\r\n\r\n*Figure 8: La fen\u00eatre principale du programme avast!*\r\n\r\n**Important**: Vous devez enregistrer **avast!** pour continuer \u00e0 recevoir les mises \u00e0 jour du programme et des d\u00e9finitions de virus, qui sont essentielles \u00e0 la protection de votre ordinateur contre diverses menaces.\r\n\r\n<a name=\"2.1\"></a>\r\n### 2.1 Comment enregistrer avast! ###\r\n\r\n**Commentaire**: Si vous n'enregistrez pas votre copie d'**avast!**, celle-ci cessera de fonctionner apr\u00e8s 30 jours. Il vous faut \u00eatre connect\u00e9 \u00e0 Internet pour enregistrer **avast!**.  \r\n\r\nPour enregistrer votre copie d'**avast!**, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:\r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/20.png) pour afficher la fen\u00eatre principale d'**avast!** (*Figure 10*).\r\n\r\n**Deuxi\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/22.png) (par les menus MAINTENANCE et Enregistrement) pour afficher les deux fen\u00eatres suivantes successivement:\r\n\r\n![](/sbox/screen/avast-fr/23.png)\r\n\r\n*Figure 9: Fen\u00eatre d'enregistrement d'avast! antivirus gratuit*\r\n\r\nLa fen\u00eatre d'*Enregistrement d'avast! antivirus gratuit* vous informe que des informations sont en cours de r\u00e9cup\u00e9ration. Une deuxi\u00e8me fen\u00eatre vous avise que votre copie d'**avast!** expirera dans 30 jours si vous ne l'enregistrez pas d'ici l\u00e0. (La m\u00eame fen\u00eatre affiche \u00e9galement des renseignements sur les versions commerciales du logiciel et les promotions en cours.)\r\n\r\n![](/sbox/screen/avast-fr/24.png)\r\n\r\n*Figure 10: La fen\u00eatre d'\u00e9tat de votre enregistrement*\r\n\r\n**Troisi\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/25.png) pour afficher \u00e0 nouveau la bo\u00eete illustr\u00e9e \u00e0 la *figure 2*, suivie imm\u00e9diatement de cette fen\u00eatre:\r\n\r\n![](/sbox/screen/avast-fr/26.png)\r\n  \r\n*Figure 11: Le formulaire d'enregistrement d'avast! antivirus gratuit*\r\n\r\n**Commentaire**: Les seuls champs *obligatoires* sont le *Nom* et l'*E-mail*. Ils sont identifi\u00e9s par des ast\u00e9risques et encadr\u00e9s d'une ligne pointill\u00e9e rouge. Les autres champs sont facultatifs.\r\n\r\n**Quatri\u00e8me \u00e9tape**. **Saisissez** votre nom et votre adresse de courriel dans les champs appropri\u00e9s, puis **cliquez** sur ![](/sbox/screen/avast-fr/28.png) pour afficher la prochaine fen\u00eatre:\r\n![](/sbox/screen/avast-fr/29.png)\r\n\r\n*Figure 12: Fen\u00eatre pop-up Merci pour votre enregistrement*\r\n\r\n**Cinqui\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-en/30.png) pour afficher le panneau *VOTRE ENREGISTREMENT* dans la fen\u00eatre principale du programme:\r\n\r\n![](/sbox/screen/avast-fr/31.png)\r\n\r\n*Figure 13: Le panneau VOTRE ENREGISTREMENT qui confirme l'enregistrement de votre copie d'avast!*\r\n\r\nVous avez compl\u00e9t\u00e9 l'enregistrement de votre copie d'**avast!** et \u00eates maintenant en position d'apprendre comment mettre manuellement \u00e0 jour le programme et les d\u00e9finitions de virus. Pour ce faire, veuillez lire la section **3.0 Comment mettre \u00e0 jour avast! manuellement**."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1923", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1923", 
+                "link_title": "\u179a\u1794\u17c0\u1794\u1794\u1789\u17d2\u1785\u17bc\u179b \u1785\u17bb\u17c7\u1788\u17d2\u1798\u17c4\u17c7 \u1793\u17b7\u1784 \u1780\u17c6\u178e\u178f\u17cb\u1798\u17bb\u1781\u1784\u17b6\u179a \u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8 avast!", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5028", 
+                "module": "book", 
+                "nid": "1923", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5011", 
+                "p3": "5028", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5011", 
+                "router_path": "node/%", 
+                "title": "\u179a\u1794\u17c0\u1794\u1794\u1789\u17d2\u1785\u17bc\u179b \u1785\u17bb\u17c7\u1788\u17d2\u1798\u17c4\u17c7 \u1793\u17b7\u1784 \u1780\u17c6\u178e\u178f\u17cb\u1798\u17bb\u1781\u1784\u17b6\u179a \u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8 avast!", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1452692361", 
+            "comment": "0", 
+            "created": "1440364817", 
+            "current_revision_id": "12867", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "avast_installation", 
+                        "value": "avast_installation"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5028": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1923", 
+                    "link_title": "\u179a\u1794\u17c0\u1794\u1794\u1789\u17d2\u1785\u17bc\u179b \u1785\u17bb\u17c7\u1788\u17d2\u1798\u17c4\u17c7 \u1793\u17b7\u1784 \u1780\u17c6\u178e\u178f\u17cb\u1798\u17bb\u1781\u1784\u17b6\u179a \u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8 avast!", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5028", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5011", 
+                    "p3": "5028", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5011", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1923", 
+            "num_revisions": "24", 
+            "path": "https://securityinabox.org/en/node/1923", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452692361", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Comment installer et enregistrer avast!", 
+                        "value": "Comment installer et enregistrer avast!"
+                    }
+                ]
+            }, 
+            "title_original": "How to Install, Register and Configure avast!", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442918997", 
+                        "created": "1442918997", 
+                        "entity_id": "1923", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1441724668", 
+                        "created": "1441724668", 
+                        "entity_id": "1923", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442408385", 
+                        "created": "1441896901", 
+                        "entity_id": "1923", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441046238", 
+                        "created": "1441032903", 
+                        "entity_id": "1923", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1442833535", 
+                        "created": "1442833535", 
+                        "entity_id": "1923", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1443713770", 
+                        "created": "1443713770", 
+                        "entity_id": "1923", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452692361", 
+                        "created": "1452692361", 
+                        "entity_id": "1923", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443601258", 
+                        "created": "1443601258", 
+                        "entity_id": "1923", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441026554", 
+                        "created": "1440686390", 
+                        "entity_id": "1923", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "ru": {
+                        "changed": "1444174271", 
+                        "created": "1444174271", 
+                        "entity_id": "1923", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444829505", 
+                        "created": "1444720626", 
+                        "entity_id": "1923", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1440774750", 
+                        "created": "1440364817", 
+                        "entity_id": "1923", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445270311", 
+                        "created": "1444056806", 
+                        "entity_id": "1923", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "61b4e08f-b38f-4bd3-880e-47e3143b7f67", 
+            "vid": "12867", 
+            "vuuid": "7c9ef121-1a5b-4570-b1ec-36f0540ce61c"
+        }, 
+        {
+            "body": {
+                "fr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Sommaire des sections de cette page :</p>\n\n<ul><li><a href=\"#3.0\"><strong>3.0 Avant de commencer</strong></a></li>\n<li><a href=\"#3.1\"><strong>3.1 Comment lancer une mise \u00e0 jour par l'interface principale d'avast!</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 Comment lancer une mise \u00e0 jour par le menu local d'avast!</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 Comment d\u00e9sactiver la fonction de mise \u00e0 jour automatique d'avast!</strong></a></li>\n</ul><hr /><p><a name=\"3.0\" id=\"3.0\"></a></p>\n\n<h3>3.0 Avant de commencer</h3>\n\n<p><strong>avast!</strong> marche discr\u00e8tement en arri\u00e8re-plan de votre ordinateur et ex\u00e9cute automatiquement des mises \u00e0 jour du programme et des d\u00e9finitions de virus chaque fois que vous vous connectez \u00e0 Internet. Cela dit, si votre acc\u00e8s \u00e0 Internet est temporaire ou sporadique, il sera peut-\u00eatre plus pratique ou efficace de lancer les mises \u00e0 jour manuellement lorsque cela vous convient.</p>\n\n<p><strong>Commentaire</strong>: Il existe deux m\u00e9thodes pour lancer les mises \u00e0 jour d'<strong>avast!</strong> manuellement. Vous pouvez lancer une mise \u00e0 jour \u00e0 partir de l'interface principale d'<strong>avast!</strong> ou en passant par le menu local qui se d\u00e9ploie lorsque vous cliquez \u00e0 droite sur l'icone <strong>avast!</strong> de la <em>Barre d'\u00e9tat syst\u00e8me</em>. De plus, il est possible de d\u00e9sactiver l'option de mise \u00e0 jour automatique dans la fen\u00eatre <em>R\u00c9GLAGES PRINCIPAUX</em>, en <strong>cliquant</strong> sur <img src=\"/sbox/screen/avast-fr/90.png\" alt=\"\" /> dans le coin sup\u00e9rieur droit de l'interface principale.</p>\n\n<p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h3>Comment lancer une mise \u00e0 jour par l'interface principale d'avast!</h3>\n\n<p>Pour mettre \u00e0 jour <strong>avast!</strong> manuellement \u00e0 partir de l'interface principale, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/40.png\" alt=\"\" /> pour afficher l'interface principale d'<strong>avast!</strong>, illustr\u00e9e ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/41.png\" alt=\"\" /></p>\n\n<p><em>Figure 1: L'onglet R\u00e9sum\u00e9 affichant le panneau \u00c9tat actuel, o\u00f9 figure un avis typique de mise \u00e0 jour de la Version du programme</em></p>\n\n<p>Une mise \u00e0 jour du programme ou des d\u00e9finitions de virus est indiqu\u00e9e par un icone orange marqu\u00e9 d'un point d'exclamation, au lieu de l'icone vert marqu\u00e9 d'un crochet. La mise \u00e0 jour du programme ou de la d\u00e9finition de virus est affich\u00e9e en rouge et un bouton <em>Mise \u00e0 jour</em> est d\u00e9sormais visible.</p>\n\n<p><img src=\"/sbox/screen/avast-fr/42.png\" alt=\"\" /></p>\n\n<p><em>Figure 2: Une nouvelle version du programme est disponible</em></p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>: <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/43.png\" alt=\"\" /> pour lancer la mise \u00e0 jour. \u00c0 l'issue de la mise \u00e0 jour, la sous-fen\u00eatre <em>Version du programme</em> s'affiche comme ceci:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/44.png\" alt=\"\" /></p>\n\n<p><em>Figure 3: La Version du programme est mise \u00e0 jour</em></p>\n\n<p>Le programme est pass\u00e9 de la version 5.0.677 \u00e0 la version 5.1.889.</p>\n\n<p>La liste ci-dessous d\u00e9crit bri\u00e8vement chacun des items ou icones d'\u00e9tat du panneau <em>\u00c9tat actuel S\u00c9CURIS\u00c9</em>:</p>\n\n<p><strong>Astuce</strong>: <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/14.png\" alt=\"\" /> pour afficher ou cacher les renseignements du panneau <em>\u00c9tat actuel</em></p>\n\n<p><strong>Protection r\u00e9sidente</strong>: Cet icone indique si la protection r\u00e9sidente fonctionne normalement. La protection r\u00e9sidente surveille l'activit\u00e9 de votre ordinateur; il y a des protections r\u00e9sidentes d\u00e9di\u00e9es au courriel, au syst\u00e8me de fichier local, \u00e0 l'activit\u00e9 sur Internet, ainsi qu'\u00e0 d'autre syst\u00e8mes. Lorsqu'une protection r\u00e9sidente est d\u00e9sactiv\u00e9e, que ce soit volontairement ou sous l'effet d'un programme malveillant, l'icone d'<strong>avast</strong> dans la <em>Barre d'\u00e9tat syst\u00e8me</em> change d'apparence pour refl\u00e9ter ce changement d'\u00e9tat: <img src=\"/sbox/screen/avast-fr/40_0.png\" alt=\"\" /></p>\n\n<p><strong>Mise \u00e0 jour automatique de la VPS</strong>: Cet icone indique si le m\u00e9canisme de mise \u00e0 jour automatique est activ\u00e9 ou non.</p>\n\n<p><strong>Version de la base de donn\u00e9es virale VPS</strong>: Cet icone indique la date de publication de la plus r\u00e9cente d\u00e9finition de virus. La date est affich\u00e9e de la fa\u00e7on suivante: 11 r\u00e9f\u00e8re \u00e0 l'ann\u00e9e 2011, 01 r\u00e9f\u00e8re au mois et 17 r\u00e9f\u00e8re au jour.</p>\n\n<p><strong>Version du programme</strong>: Cet icone indique la plus r\u00e9cente mise \u00e0 jour de la version du programme.</p>\n\n<p><strong>Date d'expiration</strong>: Cet item indique la date et l'heure d'expiration de votre copie d'<strong>avast!</strong>; vous devez renouveler ou r\u00e9-enregistrer votre copie avant cette date.</p>\n\n<p><strong>Troisi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/46.png\" alt=\"\" /> pour afficher la fen\u00eatre ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/47.png\" alt=\"\" /></p>\n\n<p><em>Figure 4: L'interface principale affichant le panneau MAINTENANCE MISE \u00c0 JOUR</em></p>\n\n<p>Le panneau  <em>MAINTENANCE MISE \u00c0 JOUR</em> peut \u00eatre utilis\u00e9 pour mettre \u00e0 jour manuellement le programe et les d\u00e9finitions de virus.</p>\n\n<p><strong>Quatri\u00e8me \u00e9tape</strong>: <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/48.png\" alt=\"\" /> pour lancer la mise \u00e0 jour du moteur et des d\u00e9finitions de virus.</p>\n\n<p><strong>Cinqui\u00e8me \u00e9tape</strong>: <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/51.png\" alt=\"\" /> quand la mise \u00e0 jour est compl\u00e9t\u00e9e pour retourner au panneau <em>MAINTENANCE MISE \u00c0 JOUR</em>.</p>\n\n<p>Le processus est le m\u00eame pour mettre \u00e0 jour le programme <strong>avast!</strong>.</p>\n\n<p><strong>Sixi\u00e8me \u00e9tape</strong>: <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/52.png\" alt=\"\" /> pour lancer la mise \u00e0 jour du programme.</p>\n\n<p><strong>Septi\u00e8me \u00e9tape</strong>: <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/51.png\" alt=\"\" /> quand la mise \u00e0 jour est compl\u00e9t\u00e9e pour retourner au panneau <em>MAINTENANCE MISE \u00c0 JOUR</em>.</p>\n\n<p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h3>3.2 Comment lancer une mise \u00e0 jour par le menu local d'avast!</h3>\n\n<p>Les mises \u00e0 jour du programme et des d\u00e9finitions de virus d'<strong>avast!</strong> peuvent \u00eatre ex\u00e9cut\u00e9es \u00e0 partir du menu local <strong>avast!</strong>. Il est possible d'acc\u00e9der directement au panneau <em>MAINTENANCE MISE \u00c0 JOUR</em> d'<strong>avast!</strong> par le menu local qui se trouve dans la <em>Barre d'\u00e9tat syst\u00e8me</em>.</p>\n\n<p>Pour lancer manuellement les mises \u00e0 jour du <em>moteur et de la base de donn\u00e9es virale</em> \u00e0 partir du menu local, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez \u00e0 droite</strong> sur <img src=\"/sbox/screen/avast-fr/40.png\" alt=\"\" /> dans la <em>barre d'\u00e9tat syst\u00e8me</em> pour afficher le menu local illustr\u00e9 ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/55.png\" alt=\"\" /></p>\n\n<p><em>Figure 5: Le menu local d'avast!</em></p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>: <strong>S\u00e9lectionnez Mise \u00e0 jour &gt; Moteur et base de donn\u00e9es virale VPS</strong> pour afficher la <em>Figure 4</em>, puis suivez les <strong>\u00e9tapes 4 et 5</strong>.</p>\n\n<p><strong>Troisi\u00e8me \u00e9tape</strong>: <strong>S\u00e9lectionnez Mise \u00e0 jour &gt; Programme</strong> pour afficher la <em>Figure 6</em>, puis suivez les <em>\u00e9tapes 6 et 7</em> d\u00e9crite \u00e0 la section <strong>3.1 Comment lancer une mise \u00e0 jour par l'interface principale d'avast!</strong></p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h3>3.3 Comment d\u00e9sactiver la fonction de mise \u00e0 jour automatique d'avast!</h3>\n\n<p>En mode par d\u00e9faut, <strong>avast!</strong> est configur\u00e9 pour t\u00e9l\u00e9charger automatiquement les mises \u00e0 jour du programme et de la base de donn\u00e9es virale. Vous pouvez cependant d\u00e9sactiver cette fonction en cliquant sur le bouton <em>Param\u00e8tres</em>, qui se trouve dans le coin sup\u00e9rieur droit de l'interface principale.</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/90.png\" alt=\"\" /> pour activer la fen\u00eatre <em>R\u00c9GLAGES PRINCIPAUX</em> d'<strong>avast!</strong>, puis <strong>s\u00e9lectionnez</strong> <em>Mises \u00e0 jour</em> pour afficher le panneau <em>R\u00c9GLAGES DES MISES \u00c0 JOUR</em>.</p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur l'option <em>Mise \u00e0 jour manuelle</em> dans les rubriques MOTEUR ET BASE DE DONN\u00c9ES VIRALE VPS et PROGRAMME.</p>\n\n<p><img src=\"/sbox/screen/avast-fr/91.png\" alt=\"\" /></p>\n\n<p><em>Figure 6: Le panneau R\u00c9SUM\u00c9 ATTENTION indiquant que la Mise \u00e0 jour automatique de la VPS est d\u00e9sactiv\u00e9e</em></p>\n\n<p>Les utilisateurs avanc\u00e9s voudront peut-\u00eatre raffiner davantage leurs r\u00e9glages dans les rubriques <em>D\u00e9tails</em> et <em>R\u00e9glage du Proxy</em>. Pour ce faire, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:</p>\n\n<p><strong>Troisi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/92.png\" alt=\"\" /> pour d\u00e9velopper les rubriques <em>D\u00e9tails</em> et <em>R\u00e9glage du Proxy</em> et en modifier les param\u00e8tres.</p>\n\n<p>Vous avez appris les diff\u00e9rentes m\u00e9thodes pour mettre \u00e0 jour manuellement <em>le moteur et la base de donn\u00e9es virale</em> et le <em>programme</em> d'<strong>avast!</strong>. Pour commencer \u00e0 utiliser <strong>avast!</strong>, veuillez lire attentivement la section <strong>4.0 Comment utiliser avast! pour d\u00e9tecter et \u00e9liminer des virus</strong></p>\n", 
+                        "summary": "", 
+                        "value": "Sommaire des sections de cette page :  \r\n\r\n- [**3.0 Avant de commencer**](#3.0)\r\n- [**3.1 Comment lancer une mise \u00e0 jour par l'interface principale d'avast!**](#3.1)\r\n- [**3.2 Comment lancer une mise \u00e0 jour par le menu local d'avast!**](#3.2)\r\n- [**3.3 Comment d\u00e9sactiver la fonction de mise \u00e0 jour automatique d'avast!**](#3.3)\r\n\r\n----\r\n\r\n<a name=\"3.0\"></a>\r\n### 3.0 Avant de commencer ###\r\n\r\n**avast!** marche discr\u00e8tement en arri\u00e8re-plan de votre ordinateur et ex\u00e9cute automatiquement des mises \u00e0 jour du programme et des d\u00e9finitions de virus chaque fois que vous vous connectez \u00e0 Internet. Cela dit, si votre acc\u00e8s \u00e0 Internet est temporaire ou sporadique, il sera peut-\u00eatre plus pratique ou efficace de lancer les mises \u00e0 jour manuellement lorsque cela vous convient.\r\n\r\n**Commentaire**: Il existe deux m\u00e9thodes pour lancer les mises \u00e0 jour d'**avast!** manuellement. Vous pouvez lancer une mise \u00e0 jour \u00e0 partir de l'interface principale d'**avast!** ou en passant par le menu local qui se d\u00e9ploie lorsque vous cliquez \u00e0 droite sur l'icone **avast!** de la *Barre d'\u00e9tat syst\u00e8me*. De plus, il est possible de d\u00e9sactiver l'option de mise \u00e0 jour automatique dans la fen\u00eatre *R\u00c9GLAGES PRINCIPAUX*, en **cliquant** sur ![](/sbox/screen/avast-fr/90.png) dans le coin sup\u00e9rieur droit de l'interface principale.\r\n\r\n<a name=\"3.1\"></a>\r\n### Comment lancer une mise \u00e0 jour par l'interface principale d'avast! ###\r\n\r\nPour mettre \u00e0 jour **avast!** manuellement \u00e0 partir de l'interface principale, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous: \r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/40.png) pour afficher l'interface principale d'**avast!**, illustr\u00e9e ci-dessous:\r\n\r\n![](/sbox/screen/avast-fr/41.png)\r\n\r\n*Figure 1: L'onglet R\u00e9sum\u00e9 affichant le panneau \u00c9tat actuel, o\u00f9 figure un avis typique de mise \u00e0 jour de la Version du programme*\r\n\r\nUne mise \u00e0 jour du programme ou des d\u00e9finitions de virus est indiqu\u00e9e par un icone orange marqu\u00e9 d'un point d'exclamation, au lieu de l'icone vert marqu\u00e9 d'un crochet. La mise \u00e0 jour du programme ou de la d\u00e9finition de virus est affich\u00e9e en rouge et un bouton *Mise \u00e0 jour* est d\u00e9sormais visible. \r\n\r\n![](/sbox/screen/avast-fr/42.png)\r\n\r\n*Figure 2: Une nouvelle version du programme est disponible*\r\n\r\n**Deuxi\u00e8me \u00e9tape**: **Cliquez** sur ![](/sbox/screen/avast-fr/43.png) pour lancer la mise \u00e0 jour. \u00c0 l'issue de la mise \u00e0 jour, la sous-fen\u00eatre *Version du programme* s'affiche comme ceci:\r\n\r\n![](/sbox/screen/avast-fr/44.png)\r\n\r\n*Figure 3: La Version du programme est mise \u00e0 jour*\r\n\r\nLe programme est pass\u00e9 de la version 5.0.677 \u00e0 la version 5.1.889.\r\n\r\nLa liste ci-dessous d\u00e9crit bri\u00e8vement chacun des items ou icones d'\u00e9tat du panneau *\u00c9tat actuel S\u00c9CURIS\u00c9*: \r\n\r\n**Astuce**: **Cliquez** sur ![](/sbox/screen/avast-fr/14.png) pour afficher ou cacher les renseignements du panneau *\u00c9tat actuel*\r\n\r\n**Protection r\u00e9sidente**: Cet icone indique si la protection r\u00e9sidente fonctionne normalement. La protection r\u00e9sidente surveille l'activit\u00e9 de votre ordinateur; il y a des protections r\u00e9sidentes d\u00e9di\u00e9es au courriel, au syst\u00e8me de fichier local, \u00e0 l'activit\u00e9 sur Internet, ainsi qu'\u00e0 d'autre syst\u00e8mes. Lorsqu'une protection r\u00e9sidente est d\u00e9sactiv\u00e9e, que ce soit volontairement ou sous l'effet d'un programme malveillant, l'icone d'**avast** dans la *Barre d'\u00e9tat syst\u00e8me* change d'apparence pour refl\u00e9ter ce changement d'\u00e9tat: ![](/sbox/screen/avast-fr/40_0.png)\r\n\r\n**Mise \u00e0 jour automatique de la VPS**: Cet icone indique si le m\u00e9canisme de mise \u00e0 jour automatique est activ\u00e9 ou non.\r\n\r\n**Version de la base de donn\u00e9es virale VPS**: Cet icone indique la date de publication de la plus r\u00e9cente d\u00e9finition de virus. La date est affich\u00e9e de la fa\u00e7on suivante: 11 r\u00e9f\u00e8re \u00e0 l'ann\u00e9e 2011, 01 r\u00e9f\u00e8re au mois et 17 r\u00e9f\u00e8re au jour.\r\n\r\n**Version du programme**: Cet icone indique la plus r\u00e9cente mise \u00e0 jour de la version du programme.\r\n\r\n**Date d'expiration**: Cet item indique la date et l'heure d'expiration de votre copie d'**avast!**; vous devez renouveler ou r\u00e9-enregistrer votre copie avant cette date. \r\n\r\n**Troisi\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/46.png) pour afficher la fen\u00eatre ci-dessous:\r\n\r\n![](/sbox/screen/avast-fr/47.png)\r\n\r\n*Figure 4: L'interface principale affichant le panneau MAINTENANCE MISE \u00c0 JOUR*\r\n\r\nLe panneau  *MAINTENANCE MISE \u00c0 JOUR* peut \u00eatre utilis\u00e9 pour mettre \u00e0 jour manuellement le programe et les d\u00e9finitions de virus. \r\n\r\n**Quatri\u00e8me \u00e9tape**: **Cliquez** sur ![](/sbox/screen/avast-fr/48.png) pour lancer la mise \u00e0 jour du moteur et des d\u00e9finitions de virus.\r\n\r\n**Cinqui\u00e8me \u00e9tape**: **Cliquez** sur ![](/sbox/screen/avast-fr/51.png) quand la mise \u00e0 jour est compl\u00e9t\u00e9e pour retourner au panneau *MAINTENANCE MISE \u00c0 JOUR*.\r\n\r\nLe processus est le m\u00eame pour mettre \u00e0 jour le programme **avast!**.\r\n\r\n**Sixi\u00e8me \u00e9tape**: **Cliquez** sur ![](/sbox/screen/avast-fr/52.png) pour lancer la mise \u00e0 jour du programme.\r\n \r\n**Septi\u00e8me \u00e9tape**: **Cliquez** sur ![](/sbox/screen/avast-fr/51.png) quand la mise \u00e0 jour est compl\u00e9t\u00e9e pour retourner au panneau *MAINTENANCE MISE \u00c0 JOUR*. \r\n\r\n<a name=\"3.2\"></a>\r\n### 3.2 Comment lancer une mise \u00e0 jour par le menu local d'avast! ###\r\n\r\nLes mises \u00e0 jour du programme et des d\u00e9finitions de virus d'**avast!** peuvent \u00eatre ex\u00e9cut\u00e9es \u00e0 partir du menu local **avast!**. Il est possible d'acc\u00e9der directement au panneau *MAINTENANCE MISE \u00c0 JOUR* d'**avast!** par le menu local qui se trouve dans la *Barre d'\u00e9tat syst\u00e8me*.\r\n\r\nPour lancer manuellement les mises \u00e0 jour du *moteur et de la base de donn\u00e9es virale* \u00e0 partir du menu local, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:\r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez \u00e0 droite** sur ![](/sbox/screen/avast-fr/40.png) dans la *barre d'\u00e9tat syst\u00e8me* pour afficher le menu local illustr\u00e9 ci-dessous:\r\n\r\n![](/sbox/screen/avast-fr/55.png)\r\n\r\n*Figure 5: Le menu local d'avast!*\r\n\r\n**Deuxi\u00e8me \u00e9tape**: **S\u00e9lectionnez Mise \u00e0 jour > Moteur et base de donn\u00e9es virale VPS** pour afficher la *Figure 4*, puis suivez les **\u00e9tapes 4 et 5**. \r\n\r\n**Troisi\u00e8me \u00e9tape**: **S\u00e9lectionnez Mise \u00e0 jour > Programme** pour afficher la *Figure 6*, puis suivez les *\u00e9tapes 6 et 7* d\u00e9crite \u00e0 la section **3.1 Comment lancer une mise \u00e0 jour par l'interface principale d'avast!** \r\n\r\n<a name=\"3.3\"></a>\r\n### 3.3 Comment d\u00e9sactiver la fonction de mise \u00e0 jour automatique d'avast! ###\r\n\r\nEn mode par d\u00e9faut, **avast!** est configur\u00e9 pour t\u00e9l\u00e9charger automatiquement les mises \u00e0 jour du programme et de la base de donn\u00e9es virale. Vous pouvez cependant d\u00e9sactiver cette fonction en cliquant sur le bouton *Param\u00e8tres*, qui se trouve dans le coin sup\u00e9rieur droit de l'interface principale. \r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/90.png) pour activer la fen\u00eatre *R\u00c9GLAGES PRINCIPAUX* d'**avast!**, puis **s\u00e9lectionnez** *Mises \u00e0 jour* pour afficher le panneau *R\u00c9GLAGES DES MISES \u00c0 JOUR*.\r\n\r\n**Deuxi\u00e8me \u00e9tape**. **Cliquez** sur l'option *Mise \u00e0 jour manuelle* dans les rubriques MOTEUR ET BASE DE DONN\u00c9ES VIRALE VPS et PROGRAMME. \r\n\r\n![](/sbox/screen/avast-fr/91.png)\r\n\r\n*Figure 6: Le panneau R\u00c9SUM\u00c9 ATTENTION indiquant que la Mise \u00e0 jour automatique de la VPS est d\u00e9sactiv\u00e9e*\r\n\r\nLes utilisateurs avanc\u00e9s voudront peut-\u00eatre raffiner davantage leurs r\u00e9glages dans les rubriques *D\u00e9tails* et *R\u00e9glage du Proxy*. Pour ce faire, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:\r\n\r\n**Troisi\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/92.png) pour d\u00e9velopper les rubriques *D\u00e9tails* et *R\u00e9glage du Proxy* et en modifier les param\u00e8tres.\r\n\r\nVous avez appris les diff\u00e9rentes m\u00e9thodes pour mettre \u00e0 jour manuellement *le moteur et la base de donn\u00e9es virale* et le *programme* d'**avast!**. Pour commencer \u00e0 utiliser **avast!**, veuillez lire attentivement la section **4.0 Comment utiliser avast! pour d\u00e9tecter et \u00e9liminer des virus**"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1920", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1920", 
+                "link_title": "\u179a\u1794\u17c0\u1794\u1792\u17d2\u179c\u17be\u1794\u1785\u17d2\u1785\u17bb\u1794\u17d2\u1794\u1793\u17d2\u1793\u1797\u17b6\u1796 \u1793\u17b7\u1784\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u1787\u1798\u17d2\u179a\u17be\u179f\u1794\u1793\u17d2\u1790\u17c2\u1798\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8 avast! \u178a\u17c4\u1799\u1798\u17b7\u1793\u179f\u17d2\u179c\u17d0\u1799\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5025", 
+                "module": "book", 
+                "nid": "1920", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5011", 
+                "p3": "5025", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5011", 
+                "router_path": "node/%", 
+                "title": "\u179a\u1794\u17c0\u1794\u1792\u17d2\u179c\u17be\u1794\u1785\u17d2\u1785\u17bb\u1794\u17d2\u1794\u1793\u17d2\u1793\u1797\u17b6\u1796 \u1793\u17b7\u1784\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u1787\u1798\u17d2\u179a\u17be\u179f\u1794\u1793\u17d2\u1790\u17c2\u1798\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8 avast! \u178a\u17c4\u1799\u1798\u17b7\u1793\u179f\u17d2\u179c\u17d0\u1799\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1452703617", 
+            "comment": "0", 
+            "created": "1440363948", 
+            "current_revision_id": "12869", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "avast_utiliser", 
+                        "value": "avast_utiliser"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5025": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1920", 
+                    "link_title": "\u179a\u1794\u17c0\u1794\u1792\u17d2\u179c\u17be\u1794\u1785\u17d2\u1785\u17bb\u1794\u17d2\u1794\u1793\u17d2\u1793\u1797\u17b6\u1796 \u1793\u17b7\u1784\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u1787\u1798\u17d2\u179a\u17be\u179f\u1794\u1793\u17d2\u1790\u17c2\u1798\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8 avast! \u178a\u17c4\u1799\u1798\u17b7\u1793\u179f\u17d2\u179c\u17d0\u1799\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5025", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5011", 
+                    "p3": "5025", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5011", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1920", 
+            "num_revisions": "25", 
+            "path": "https://securityinabox.org/en/howtouseavast", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452703617", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Comment mettre \u00e0 jour avast! manuellement", 
+                        "value": "Comment mettre \u00e0 jour avast! manuellement"
+                    }
+                ]
+            }, 
+            "title_original": "How to Manually Update and Use Additional Options in avast!", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442919062", 
+                        "created": "1442919062", 
+                        "entity_id": "1920", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1441724793", 
+                        "created": "1441724793", 
+                        "entity_id": "1920", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442408439", 
+                        "created": "1441897565", 
+                        "entity_id": "1920", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441046229", 
+                        "created": "1441033010", 
+                        "entity_id": "1920", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1442833853", 
+                        "created": "1442833830", 
+                        "entity_id": "1920", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1443713823", 
+                        "created": "1443713823", 
+                        "entity_id": "1920", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452703617", 
+                        "created": "1452703617", 
+                        "entity_id": "1920", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443601329", 
+                        "created": "1443601329", 
+                        "entity_id": "1920", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441026677", 
+                        "created": "1440686398", 
+                        "entity_id": "1920", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "ru": {
+                        "changed": "1444174317", 
+                        "created": "1444174317", 
+                        "entity_id": "1920", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444829660", 
+                        "created": "1444720702", 
+                        "entity_id": "1920", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441897334", 
+                        "created": "1440363948", 
+                        "entity_id": "1920", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445270373", 
+                        "created": "1444056838", 
+                        "entity_id": "1920", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "d48b189a-8883-4f85-a239-0748fe420fe6", 
+            "vid": "12869", 
+            "vuuid": "ba978c99-9579-48d3-9e89-efa0c8e74c4f"
+        }, 
+        {
+            "body": {
+                "fr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Sommaire des sections de cette page:</p>\n\n<ul><li><a href=\"#4.0\"><strong>4.0 Avant de commencer</strong></a></li>\n<li><a href=\"#4.1\"><strong>4.1 Comment faire face efficacement \u00e0 une attaque de virus</strong></a></li>\n<li><a href=\"#4.2\"><strong>4.2 Un survol de l'interface principale d'avast!</strong></a></li>\n<li><a href=\"#4.3\"><strong>4.3 Comment balayer votre ordinateur pour d\u00e9tecter des programmes malveillants et des virus</strong></a></li>\n<li><a href=\"#4.4\"><strong>4.4 Comment ex\u00e9cuter un Scan minutieux du syst\u00e8me</strong></a></li>\n<li><a href=\"#4.5\"><strong>4.5 Comment ex\u00e9cuter un Scan de dossiers</strong></a></li>\n<li><a href=\"#4.6\"><strong>4.6 Comment ex\u00e9cuter un Scan au d\u00e9marrage</strong></a></li>\n<li><a href=\"#4.7\"><strong>4.7 Comment g\u00e9rer les virus d\u00e9tect\u00e9s</strong></a></li>\n<li><a href=\"#4.8\"><strong>4.8 Comment utiliser la Zone de quarantaine</strong></a></li>\n<li><a href=\"#4.9\"><strong>4.9 M\u00e9thodes avanc\u00e9es de suppression de virus</strong></a></li>\n</ul><hr /><p><a name=\"4.0\" id=\"4.0\"></a></p>\n\n<h3>4.0 Avant de commencer</h3>\n\n<p>Le traitement efficace des virus et logiciels malveillants \u00e0 l'aide d'<strong>avast!</strong> comporte deux \u00e9tapes importantes. Il vous faut d'abord balayer (ou scanner) votre ordinateur pour d\u00e9tecter les menaces. Il faut ensuite \u00e9liminer les menaces ou les d\u00e9lacer vers la <em>Zone de quarantaine</em> d'<strong>avast!</strong>. La suppression et/ou le d\u00e9placement des virus et logiciels malveillants emp\u00eache ceux-ci d'interagir avec d'autres syst\u00e8mes, tel que le syst\u00e8me de fichiers ou les programmes de gestion du courrier \u00e9lectronique.</p>\n\n<p>Il peut para\u00eetre \u00e9trange de sauvegarder de tels virus ou logiciels malveillants. Mais si ceux-ci se sont attach\u00e9s \u00e0 des donn\u00e9es importantes ou sensibles, vous voudrez peut-\u00eatre ult\u00e9rieurement r\u00e9cup\u00e9rer ou sauvegarder ces documents, fichiers ou programmes infect\u00e9s. Dans de rares cas, <strong>avast!</strong> peut se tromper en identifiant des codes et programmes l\u00e9gitimes comme malveillants. G\u00e9n\u00e9ralement appel\u00e9s <em>faux positifs</em>, ces codes ou programmes sont potentiellement important pour le bon fonctionnement de votre syst\u00e8me, il vous faudra peut-\u00eatre les r\u00e9cup\u00e9rer ult\u00e9rieurement.</p>\n\n<p>La <em>Zone de quarantaine</em> d'<strong>avast!</strong> est un espace virtuel o\u00f9 vous pouvez examiner un virus et d\u00e9terminer s'il constitue une authentique menace, soit en effectuant une recherche sur Internet, soit en le soumettant \u00e0 l'attention d'un laboratoire sp\u00e9cialis\u00e9 (une option qui s'offre \u00e0 vous dans <strong>avast!</strong> en cliquant \u00e0 droite sur un virus list\u00e9 dans la <em>Zone de quarantaine</em>. Cette op\u00e9ration <em>n'activera pas</em> le virus ou le logiciel malveillant en question car la <em>Zone de quarantaine</em> l'isole du reste de votre syst\u00e8me.</p>\n\n<p><strong>Astuce</strong>: \u00c0 l'inverse, la <em>Zone de quarantaine</em> d'<strong>avast!</strong> peut \u00eatre utilis\u00e9e pour y transf\u00e9rer des donn\u00e9es importantes ou sensibles et les mettre \u00e0 l'abri en cas d'attaque de virus.</p>\n\n<p>Dans cette section:</p>\n\n<ul><li>Nous \u00e9tudierons les pratiques exemplaires pour prot\u00e9ger votre r\u00e9seau et/ou votre ordinateur personnel;</li>\n<li>Nous explorerons l'interface principale, et en particulier les onglets LANCER UN SCAN et MAINTENANCE;</li>\n<li>Nous verrons comment ex\u00e9cuter les divers types de scans; et</li>\n<li>Nous verrons comment utiliser la <em>Zone de quarantaine</em> d'<strong>avast!</strong>.</li>\n</ul><p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h3>4.1 Comment faire face efficacement \u00e0 une attaque de virus</h3>\n\n<p>Il y a un ensemble de pr\u00e9cautions \u00e9l\u00e9mentaires que vous pouvez prendre pour limiter les menaces contre votre ordinateur; par exemple, en \u00e9vitant les sites douteux ou probl\u00e9matiques ou en utilisant r\u00e9guli\u00e8rement des logiciels anti-mouchard et antivirus comme <strong>avast!</strong> et <strong>Spybot</strong>. Cela dit, il est possible que notre syst\u00e8me personnel fasse partie d'un r\u00e9seau local (LAN) et/ou que l'on partage une connexion Internet. Les consid\u00e9rations qui suivent concernent les fa\u00e7ons de r\u00e9agir efficacement \u00e0 une attaque de virus lorsque plusieurs ordinateurs sont en r\u00e9seau, que ce soit en contexte communautaire ou au travail.</p>\n\n<ul><li><p>D\u00e9connectez physiquement votre ordinateur d'Internet et du r\u00e9seau local. Si vous utilisez une connexion sans fil, d\u00e9connectez votre ordinateur du r\u00e9seau sans fil. Si possible, \u00e9teignez la machine et retirez la carte de communications sans fil.</p></li>\n<li><p>Si votre ordinateur fait partie d'un r\u00e9seau, vous devriez imm\u00e9diatement d\u00e9connecter tous les ordinateurs d'Internet et du r\u00e9seau lui-m\u00eame. Chaque utilisateur devrait cesser d'utiliser le r\u00e9seau et lancer <strong>avast!</strong> ou un autre programme antivirus fiable afin de d\u00e9tecter et \u00e9liminer le virus. Cela peut sembler laborieux, mais cette proc\u00e9dure est essentielle \u00e0 la protection des ordinateurs personnels et du r\u00e9seau.</p></li>\n<li><p>Planifiez un Scan au prochain d\u00e9marrage pour chaque ordinateur du r\u00e9seau. Notez bien le nom de chaque virus d\u00e9tect\u00e9, de sorte que vous puissiez effectuer une recherche, puis supprimez-les ou d\u00e9places-les vers la <em>Zone de quarantaine</em> d'<strong>avast!</strong>. Pour vous familiariser avec cette proc\u00e9dure, veuillez consulter la section <strong>4.6 Comment ex\u00e9cuter un Scan au d\u00e9marrage</strong>.</p></li>\n<li><p>M\u00eame si un virus a \u00e9t\u00e9 d\u00e9tect\u00e9 ou r\u00e9par\u00e9, r\u00e9p\u00e9tez les \u00e9tapes pr\u00e9c\u00e9dentes et lancez un scan au d\u00e9marrage sur <em>chaque</em> ordinateur, jusqu'\u00e0 ce qu'<strong>avast!</strong> n'affiche plus aucun message d'avertissement. Selon la gravit\u00e9 de l'attaque, il est possible qu'un seul scan au d\u00e9marrage suffise.</p></li>\n</ul><p>Pour plus de renseignements sur les moyens de d\u00e9fense contre les virus et les logiciels malveillants, veuillez consulter la section <strong>4.9 M\u00e9thodes avanc\u00e9es de suppression de virus</strong></p>\n\n<p><a name=\"4.2\" id=\"4.2\"></a></p>\n\n<h3>4.2 Un survol de l'interface principale d'avast!</h3>\n\n<p>L'interface utilisateur d'<strong>avast!</strong> comporte quatre onglets principaux, situ\u00e9s \u00e0 la gauche de la fen\u00eatre: R\u00c9SUM\u00c9, LANCER UN SCAN, PROTECTION R\u00c9SIDENTE et MAINTENANCE. Chaque onglet est divis\u00e9 en sous-onglets qui permettent d'afficher les panneaux correspondants.</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/60.png\" alt=\"\" /> pour afficher la fen\u00eatre ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/61.png\" alt=\"\" /></p>\n\n<p><em>Figure 1: L'onglet R\u00c9SUM\u00c9 affichant le panneau \u00c9tat actuel S\u00c9CURIS\u00c9</em></p>\n\n<p>La liste ci-dessous d\u00e9taille bri\u00e8vement les fonctions des quatre onglets principaux:</p>\n\n<p><strong>R\u00c9SUM\u00c9</strong>: Cet onglet comprend les sous-onglets <em>\u00c9tat actuel</em> et <em>Statistiques</em>. Le sous-onglet <em>\u00c9tat actuel</em> affiche l'\u00e9tat des composantes principales utilis\u00e9es par <strong>avast!</strong> pour d\u00e9fendre votre ordinateur contre les virus et autres attaques. Le panneau <em>Statistiques</em> affiche les op\u00e9rations des composantes d'<strong>avast!</strong>. Affichage par semaine, mois ou ann\u00e9e.</p>\n\n<p><strong>LANCER UN SCAN</strong>: Cet onglet comporte les sous-onglets <em>Scanner maintenant</em>, <em>Scan au d\u00e9marrage</em> et <em>Rapports de scans</em>. Le panneau <em>SCANNER MAINTENANT</em> affiche les diff\u00e9rentes options de scan manuels. Le panneau <em>SCAN AU D\u00c9MARRAGE</em> vous permet de planifier un scan au prochain d\u00e9marrage de votre ordinateur. Le panneau <em>RAPPORTS DE SCANS</em> affiche un rapport des scans manuels effectu\u00e9s, sous forme de tableau.</p>\n\n<p><strong>PROTECTION R\u00c9SIDENTE</strong>: Cet onglet affiche tous les agents de protection associ\u00e9s aux fonctions de votre ordinateur, dont l'<em>AGENT DES FICHIERS</em>. Vous avez ici un acc\u00e8s direct aux r\u00e9glages des agents de protection, y compris les boutons pour les arr\u00eater et les d\u00e9marrer.</p>\n\n<p><strong>MAINTENANCE</strong>: Cet onglet comporte les sous-onglets <em>Mise \u00e0 jour</em>, <em>Enregistrement</em>, <em>Zone de quarantaine</em> et <em>\u00c0 propos d'avast!</em>. Le panneau <em>MISE \u00c0 JOUR</em> vous permet de lancer manuellement des mises \u00e0 jour du programme et des d\u00e9finitions de virus. Le panneau <em>ENREGISTREMENT</em> vous permet d'enregistrer votre copie d'<strong>avast!</strong>. Le panneau <em>ZONE DE QUARANTAINE</em> affiche les virus et logiciels malveillants d\u00e9tect\u00e9s par <strong>avast!</strong> lors des scans et vous permet de les g\u00e9rer de diff\u00e9rentes fa\u00e7ons, soit en les supprimant, en lan\u00e7ant de nouveaux scans ou en soumettant les virus d\u00e9tect\u00e9s \u00e0 l'analyse de laboratoires sp\u00e9cialis\u00e9s. Le panneau <em>\u00c0 PROPOS D'AVAST</em> affiche des renseignements sur la plus r\u00e9cente version d'<strong>avast!</strong> install\u00e9e sur votre ordinateur.</p>\n\n<p><strong>Commentaire</strong>: Les panneaux <em>LANCER UN SCAN</em> et <em>MAINTENANCE</em> sont particuli\u00e8rement pratiques pour traiter les menaces pos\u00e9es par des virus et des logiciels malveillants.</p>\n\n<p><a name=\"4.3\" id=\"4.3\"></a></p>\n\n<h3>4.3 Comment balayer votre ordinateur pour d\u00e9tecter des programmes malveillants et des virus</h3>\n\n<p>Dans cette section, nous examinerons les diff\u00e9rentes options de scan disponibles, ainsi que leur mode d'emploi. Nous verrons \u00e9galement comment lancer un scan du syst\u00e8me, un scan de dossiers et un scan au d\u00e9marrage.</p>\n\n<p>Le panneau <em>LANCER UN SCAN &gt; SCANNER MAINTENANT</em> pr\u00e9sente les quatre options de scan offertes par <strong>avast!</strong>; pour les afficher, suivez les \u00e9tapes d\u00e9crites ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/62.png\" alt=\"\" /> pour afficher la fen\u00eatre suivante:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/63.png\" alt=\"\" /></p>\n\n<p><em>Figure 2: L'onglet LANCER UN SCAN affichant le panneau SCANNER MAINTENANT</em></p>\n\n<p>Les descriptions suivantes vous aideront \u00e0 choisir le mode de scan le plus appropri\u00e9:</p>\n\n<p><strong>Scan rapide</strong>: Cette option est recommand\u00e9e aux utilisateurs qui ont peu de temps pour d\u00e9tecter de potentielles menaces.</p>\n\n<p><strong>Scan minutieux</strong>: Cette option est recommand\u00e9es aux utilisateurs qui ont assez de temps pour lancer un scan minutieux de leur syst\u00e8me. Ce mode est \u00e9galement recommand\u00e9 si vous utilisez le programme antivirus pour la premi\u00e8re fois sur votre ordinateur. La dur\u00e9e de ce scan d\u00e9pend du nombre de documents, de fichiers, de dossiers et de disques durs sur votre ordinateur, ainsi que la vitesse de la machine. Veuillez consulter la section <strong>4.4 Comment ex\u00e9cuter un Scan minutieux du syst\u00e8me</strong>.</p>\n\n<p><strong>Scan des m\u00e9dias amovibles</strong>: Cette option est recommand\u00e9e pour scanner des disques durs externes, des cl\u00e9s USB et d'autres dispositifs ou supports amovibles, en particulier ceux qui ne vous appartiennent pas. <strong>avast!</strong> tentera de d\u00e9tecter des programmes malveillants con\u00e7us pour s'ex\u00e9cuter lorsque le dispositif est connect\u00e9.</p>\n\n<p><strong>Scan des dossiers s\u00e9lectionn\u00e9s</strong>: Cette option est recommand\u00e9e pour scanner un ou plusieurs dossiers en particulier. Cette option est utile si vous soup\u00e7onnez qu'un fichier ou un dossier est infect\u00e9. Veuillez consulter la section <strong>4.5 Comment ex\u00e9cuter un Scan de dossiers</strong>.</p>\n\n<p><strong>Astuce</strong>: Chaque option de scan vous permet de voir les d\u00e9tails du scan, par exemple, les secteurs qui sont actuellement balay\u00e9s. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/84.png\" alt=\"\" /> pour les afficher. Si vous \u00eates un utilisateur avanc\u00e9 ou expert, <strong>cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/85.png\" alt=\"\" /> pour raffiner les r\u00e9glages pour chaque mode de scan.</p>\n\n<p><a name=\"4.4\" id=\"4.4\"></a></p>\n\n<h3>4.4 Comment ex\u00e9cuter un Scan minutieux du syst\u00e8me</h3>\n\n<p>Pour lancer un scan minutieux du syst\u00e8me, suivez les \u00e9tapes d\u00e9crites ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/64.png\" alt=\"\" /> dans la rubrique du mode <em>Scan minutieux</em> pour afficher la fen\u00eatre suivante:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/65.png\" alt=\"\" /></p>\n\n<p><em>Figure 3: Le panneau SCANNER MAINTENANT affichant le scan minutieux en cours d'ex\u00e9cution</em></p>\n\n<p>\u00c0 l'issue du scan minutieux, si une menace a \u00e9t\u00e9 d\u00e9tect\u00e9e sur votre ordinateur le panneau <em>Scan minutieux</em> ressemblera \u00e0 ceci:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/66.png\" alt=\"\" /></p>\n\n<p><em>Figure 4: La rubrique Scan compl\u00e9t\u00e9 affichant un avertissement MENACE D\u00c9TECT\u00c9E!</em></p>\n\n<p>Le scan minutieux du syst\u00e8me a d\u00e9tect\u00e9 quelques menaces; pour savoir quoi faire \u00e0 partir de l\u00e0, veuillez consulter la section <a href=\"#4.7\"><strong>4.7 Comment g\u00e9rer les virus d\u00e9tect\u00e9s</strong></a>.</p>\n\n<p>La <em>Zone de quarantaine</em> d'<strong>avast!</strong> est un dossier mis en place lors du processus d'installation d'<strong>avast!</strong>; c'est une zone de quarantaine virtuelle o\u00f9 les virus et les logiciels malveillants sont isol\u00e9s de telle sorte qu'ils ne peuvent pas interagir avec, ou parasiter, les autres processus en cours sur votre ordinateur.</p>\n\n<p><a name=\"4.5\" id=\"4.5\"></a></p>\n\n<h3>4.5 Comment ex\u00e9cuter un Scan de dossiers</h3>\n\n<p>Pour scanner vos dossiers, suivez les \u00e9tapes d\u00e9crites ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/64.png\" alt=\"\" /> dans la rubrique du mode <em>Scan des dossiers s\u00e9lectionn\u00e9s</em> pour afficher la fen\u00eatre suivante:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/86.png\" alt=\"\" /></p>\n\n<p><em>Figure 5: La bo\u00eete de dialogue S\u00e9lection des zones</em></p>\n\n<p>La bo\u00eete de dialogue <em>S\u00e9lection des zones</em> vous permet de choisir le dossier que vous souhaitez scanner. Vous pouvez \u00e9galement s\u00e9lectionner plus d'un dossier. Lorsque vous cochez la case correspondant \u00e0 chaque dossier, le chemin d'acc\u00e8s du dossier s'affiche dans le champs <em>Chemins d'acc\u00e8s choisis:</em>.</p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/87.png\" alt=\"\" /> pour lancer le scan de vos dossiers et afficher la fen\u00eatre suivante:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/88.png\" alt=\"\" /></p>\n\n<p><em>Figure 6: Le Scan de dossiers en cours d'ex\u00e9cution</em></p>\n\n<p><strong>Astuce</strong>: <strong>avast!</strong> vous permet de scanner des dossiers \u00e0 partir du menu local <em>Windows</em> standard qui s'affiche lorsque vous cliquez \u00e0 droite sur un dossier donn\u00e9. Vous n'avez qu'\u00e0 <strong>s\u00e9lectionner</strong> l'icone <img src=\"/sbox/screen/avast-fr/13.png\" alt=\"\" /> qui appara\u00eet \u00e0 c\u00f4t\u00e9 du nom du dossier que vous souhaitez scanner.</p>\n\n<p><a name=\"4.6\" id=\"4.6\"></a></p>\n\n<h3>4.6 Comment ex\u00e9cuter un Scan au d\u00e9marrage</h3>\n\n<p>Le scan au d\u00e9marrage d'<strong>avast!</strong> vous permet de planifier un scan complet de votre disque dur avant que le <em>Syst\u00e8me d'exploitation Windows de Microsoft</em> ne soit mis en ex\u00e9cution. Au moment o\u00f9 le scan au d\u00e9marrage s'ex\u00e9cute, la majorit\u00e9 des programmes malveillants sont toujours en dormance, c'est-\u00e0-dire, qu'ils n'ont pas encore eu l'occasion de s'activer ou d'interagir avec d'autres processus du syst\u00e8me. C'est pourquoi ils sont plus facilement d\u00e9tectables \u00e0 cette \u00e9tape.</p>\n\n<p>Le scan au d\u00e9marrage acc\u00e8de directement au disque sans passer par les pilotes du syst\u00e8me de fichier <strong>Windows</strong>, une cible de premier choix pour la plupart des programmes malveillants. Un scan au d\u00e9marrage devrait \u00eatre en mesure de d\u00e9tecter m\u00eame les plus agressifs des \"rootkits\" (c'est le nom employ\u00e9 pour d\u00e9signer un type de logiciel malveillant particuli\u00e8rement pernicieux). Il est <strong>fortement recommand\u00e9</strong> de planifier un scan au d\u00e9marrage si vous avez le moindre soup\u00e7on que votre syst\u00e8me a \u00e9t\u00e9 compromis ou infect\u00e9.</p>\n\n<p>L'option <em>Scan au d\u00e9marrage</em> est recommand\u00e9e pour un scan complet et minutieux de votre syst\u00e8me. Le scan peut prendre un certain temps, selon la vitesse de votre ordinateur, la quantit\u00e9 de donn\u00e9es \u00e0 examiner et le nombre de disques dur branch\u00e9s \u00e0 votre ordinateur. Le <em>Scan au d\u00e9marrage</em> est toujours planifi\u00e9 pour le prochain red\u00e9marrage de votre ordinateur.</p>\n\n<p>Pour scanner votre syst\u00e8me au prochain d\u00e9marrage, suivez les \u00e9tapes d\u00e9crites ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/67.png\" alt=\"\" /> pour afficher le panneau <em>SCAN AU D\u00c9MARRAGE</em>.</p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/68.png\" alt=\"\" /> pour planifier un scan au prochain d\u00e9marrage de votre ordinateur.</p>\n\n<p><strong>Troisi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/69.png\" alt=\"\" /> pour lancer le scan au d\u00e9marrage imm\u00e9diatement si vous pr\u00e9f\u00e9rez.</p>\n\n<p><strong>Commentaire</strong>: Un scan au d\u00e9marrage s'ex\u00e9cute avant que le syst\u00e8me d'exploitation et l'interface utilisateur ne soient charg\u00e9s. C'est pourquoi vous ne verrez qu'un \u00e9cran bleu affichant le progr\u00e8s du scan, tel qu'illustr\u00e9 ci-dessous:</p>\n\n<p><img src=\"/sites/securitybkp.ngoinabox.org/files/u5/Avast_3_2_6.png\" alt=\"\" /></p>\n\n<p><em>Figure 7: Le scan au d\u00e9marrage planifi\u00e9 d'avast!</em></p>\n\n<p>Chaque fois qu'<strong>avast!</strong> d\u00e9tecte une menace, le programme vous demande si vous voulez <em>Supprimer</em>, <em>Ignorer</em>, <em>Mettre en quarantaine</em> ou <em>R\u00e9parer</em> les virus d\u00e9tect\u00e9s. Il est recommand\u00e9 de ne <em>jamais</em> les ignorer. La liste de ces commandes n'appara\u00eet uniquement que si un virus est d\u00e9tect\u00e9 sur votre syst\u00e8me.</p>\n\n<p><a name=\"4.7\" id=\"4.7\"></a></p>\n\n<h3>4.7 Comment g\u00e9rer les virus d\u00e9tect\u00e9s</h3>\n\n<p>Lors du processus d'installation d'<strong>avast!</strong>, la <em>Zone de quarantaine</em> d'<strong>avast!</strong> a \u00e9t\u00e9 cr\u00e9\u00e9e sur votre disque dur. La <em>Zone de quarantaine</em> n'est ni plus ni moins qu'un dossier qui est isol\u00e9 du reste de votre syst\u00e8me et utilis\u00e9 pour stocker les logiciels malveillants ou les virus d\u00e9tect\u00e9s au cours du scan, ainsi que les documents, fichiers et dossiers infect\u00e9s ou compromis.</p>\n\n<p>Si vous avez d\u00e9j\u00e0 mis \u00e0 jour le programme et la base de donn\u00e9es virale, vous \u00eates d\u00e9j\u00e0 familier avec l'onglet <em>MAINTENANCE</em>, par lequel vous pouvez \u00e9galement acc\u00e9der \u00e0 la <em>Zone de quarantaine</em> d'<strong>avast!</strong>.</p>\n\n<p>Pour g\u00e9rer ad\u00e9quatement les virus et logiciels malveillants d\u00e9tect\u00e9s lors du scan, suivez les \u00e9tapes d\u00e9crites ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/70.png\" alt=\"\" /> pour afficher la fen\u00eatre suivante:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/71.png\" alt=\"\" /></p>\n\n<p><em>Figure 8: La fen\u00eatre R\u00c9SULTATS DU SCAN affichant le message d'avertissement MENACE D\u00c9TECT\u00c9E!</em></p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/72.png\" alt=\"\" /> pour afficher le menu d\u00e9roulant pr\u00e9sentant la liste des actions qui peuvent \u00eatre appliqu\u00e9es aux menaces d\u00e9tect\u00e9es, tel qu'illustr\u00e9 \u00e0 la <em>Figure 8</em>, ci-dessus.</p>\n\n<p><strong>Commentaire</strong>: Dans cet exercice, nous voulons d\u00e9placer les fichiers infect\u00e9s vers la <em>Zone de quarantaine</em>. Cependant, le menu d\u00e9roulant pr\u00e9sente trois autres options que nous d\u00e9crivons sommairement ci-dessous:</p>\n\n<p><strong>R\u00e9parer</strong>: Cette action tentera de r\u00e9parer le fichier infect\u00e9.</p>\n\n<p><strong>Supprimer</strong>: Cette action supprimera de fa\u00e7on permanente le fichier infect\u00e9.</p>\n\n<p><strong>Ne rien faire</strong>: Cette action <em>n'est d\u00e9finitivement pas recommand\u00e9e</em> lorsqu'il est question de g\u00e9rer ad\u00e9quatement des virus ou des programmes malveillants.</p>\n\n<p><strong>Troisi\u00e8me \u00e9tape</strong>. <strong>S\u00e9lectionnez</strong> l'action <em>D\u00e9placer vers la zone de quarantaine</em>, puis  <strong>cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/74.png\" alt=\"\" />  pour afficher la fen\u00eatre ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/75.png\" alt=\"\" /></p>\n\n<p><em>Figure 9: Les virus ont \u00e9t\u00e9 d\u00e9plac\u00e9s vers la Zone de quarantaine</em></p>\n\n<p><a name=\"4.8\" id=\"4.8\"></a></p>\n\n<h3>4.8 Comment utiliser la Zone de quarantaine</h3>\n\n<p>Maintenant que le virus a \u00e9t\u00e9 d\u00e9lac\u00e9 vers la <em>Zone de quarantaine</em> d'<strong>avast!</strong>, vous pouvez d\u00e9terminer quelle est la meilleure chose \u00e0 faire.</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/80.png\" alt=\"\" /> puis <strong>cliquez</strong> sur <img src=\"/sbox/screen/avast-fr/81.png\" alt=\"\" /> pour afficher la fen\u00eatre ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/82.png\" alt=\"\" /></p>\n\n<p><em>Figure 10: La Zone de quarantaine affichant deux virus</em></p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>: <strong>Cliquez \u00e0 droite</strong> sur un des virus pour afficher le menu des actions possibles, tel qu'illustr\u00e9 ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/avast-fr/83.png\" alt=\"\" /></p>\n\n<p><em>Figure 11: Le menu d\u00e9roulant des actions \u00e0 appliquer aux virus dans la Zone de quarantaine</em></p>\n\n<p><strong>Commentaire</strong>: Vous n'activerez pas un virus en double-cliquant dessus dans la <em>Zone de quarantaine</em>. Cette action affichera plut\u00f4t les propri\u00e9t\u00e9s du virus, de la m\u00eame fa\u00e7on que si vous cliquiez sur l'option <em>Propri\u00e9t\u00e9s</em> dans le menu local.</p>\n\n<p>La liste ci-dessous d\u00e9crit les diff\u00e9rentes actions du menu d\u00e9roulant:</p>\n\n<p><strong>Supprimer</strong>: Cette action supprimera le virus de fa\u00e7on irr\u00e9versible.</p>\n\n<p><strong>Restaurer</strong>: Cette action restaurera les virus \u00e0 leur emplacement initial.</p>\n\n<p><strong>Extraire...</strong>: Cette action copiera le fichier ou le virus dans un dossier de votre choix.</p>\n\n<p><strong>Scan</strong>: Cette action soumettra le virus \u00e0 un nouveau scan.</p>\n\n<p><strong>Envoyer \u00e0 AVAST Software...</strong>: Cette action vous permet de soumettre le virus \u00e0 une analyse plus pouss\u00e9e. En s\u00e9lectionnant cette action, vous activerez un formulaire \u00e0 remplir et \u00e0 envoyer.</p>\n\n<p><strong>Propri\u00e9t\u00e9s</strong>: Cette action vous permet d'afficher plus de d\u00e9tails concernant le virus en question.</p>\n\n<p><strong>Ajouter...</strong>: Cette action vous permet de naviguer dans votre syst\u00e8me pour chercher d'autres fichiers que vous aimeriez d\u00e9placer vers la <em>Zone de quarantaine</em>. Cette fonction pourrait s'av\u00e9rer tr\u00e8s utile pour prot\u00e9ger certains fichiers lors d'une attaque de virus.</p>\n\n<p><strong>Actualiser tous fichiers</strong>: Cette action permet d'op\u00e9rer une mise \u00e0 jour des fichiers pour \u00eatre certain d'afficher les fichiers les plus r\u00e9cents.</p>\n\n<p><a name=\"4.9\" id=\"4.9\"></a></p>\n\n<h3>4.9 M\u00e9thodes avanc\u00e9es de suppression de virus</h3>\n\n<p>Dans certains cas, la protection fournie par <strong>avast!</strong>, <strong>Comodo Firewall</strong> et <strong>Spybot</strong> n'est tout simplement pas suffisante. Malgr\u00e9 nos efforts les plus rigoureux, nos ordinateurs personnels et de travail sont parfois infect\u00e9s par des programmes malveillants et des virus. Dans la section <strong>4.1 Comment faire face efficacement \u00e0 une attaque de virus</strong>, nous avons vu quelques m\u00e9thodes pour faire face aux virus les plus coriaces. Mais il existe d'autres mesures qui peuvent \u00eatre mises en place pour \u00e9liminer compl\u00e8tement ces menaces.</p>\n\n<p><strong>M\u00e9thode A: Utiliser des CD/DVD de secours anti-logiciel malveillant (Rescue CD)</strong></p>\n\n<p>Certaines des compagnies qui d\u00e9veloppent des outils contre les programmes malveillants offrent \u00e9galement des CD/DVD de secours, ou Rescue CD/DVD. On peut les t\u00e9l\u00e9charger sous forme d'images ISO (un format qui peut \u00eatre facilement grav\u00e9 sur un disque CD ou DVD).</p>\n\n<p>Pour utiliser un CD ou un DVD anti-programme malveillant, veuillez suivre les \u00e9tapes d\u00e9crites ci-dessous:</p>\n\n<ol><li><p>T\u00e9l\u00e9chargez et gravez le programme anti-logiciel malveillant sur un CD.\n<em>Vous pouvez utiliser un logiciel gratuit comme <a href=\"http://www.imgburn.com/\"><strong>ImgBurn</strong></a> pour graver l'image sur un disque.</em></p></li>\n<li><p>Ins\u00e9rez le disque dans le lecteur de CD/DVD de l'ordinateur infect\u00e9, puis red\u00e9marrez l'ordinateur \u00e0 partir du CD/DVD.\n<em>Habituellement, vous pouvez d\u00e9marrer \u00e0 partir d'un disque en appuyant sur la touche F10 ou F12 du clavier imm\u00e9diatement apr\u00e8s avoir allum\u00e9 l'ordinateur. Soyez tr\u00e8s attentif aux consignes qui s'affichent sur l'\u00e9cran lors du d\u00e9marrage pour conna\u00eetre la m\u00e9thode appropri\u00e9e sur votre ordinateur.</em></p></li>\n<li><p>Connectez votre ordinateur \u00e0 Internet pour permettre au programme anti-logiciel malveillant de mettre \u00e0 jour ses d\u00e9finitions de virus, si n\u00e9cessaire. Le programme se mettra automatiquement \u00e0 la recherche des menaces sur votre ordinateur, puis il les supprimera au fur et \u00e0 mesure.</p></li>\n</ol><p>Voici une liste d'images de CD de secours:</p>\n\n<ul><li><a href=\"http://www.avg.com/us-en/avg-rescue-cd\"><strong>AVG Rescue CD</strong></a></li>\n<li><a href=\"http://support.kaspersky.com/viruses/rescuedisk/\"><strong>Kaspersky Rescue CD</strong></a></li>\n<li><a href=\"http://www.f-secure.com/linux-weblog/files/f-secure-rescue-cd-release-3.00.zip\"><strong>F-Secure Rescue CD</strong></a></li>\n<li><a href=\"http://download.bitdefender.com/rescue_cd/\"><strong>BitDefender Rescue CD</strong></a></li>\n</ul><p>Il peut aussi \u00eatre utile de scanner votre ordinateur \u00e0 l'aide des outils suivants, qui se mettent en marche au d\u00e9marrage de <strong>Windows OS</strong>. Par contre, ces outils ne s'ex\u00e9cuteront que si les virus qui infectent votre ordinateur ne les emp\u00eachent pas de fonctionner normalement.</p>\n\n<ul><li><a href=\"http://free.antivirus.com/hijackthis/\"><strong>HijackThis</strong></a> et d'autres outils gratuits <a href=\"http://free.antivirus.com/clean-up-tools/\">Clean-up Tools</a> de la compagnie <strong>Trend Micro</strong>.</li>\n<li><a href=\"http://technet.microsoft.com/en-us/sysinternals/bb897445.aspx\"><strong>RootkitRevealer</strong></a> de <a href=\"http://technet.microsoft.com/en-us/sysinternals\">Sysinternals</a> de <strong>Microsoft</strong>.</li>\n</ul><p><strong>Commentaire:</strong> Il est possible d'utiliser les outils list\u00e9s ci-dessus s\u00e9par\u00e9ment pour maximiser vos chances de nettoyer votre ordinateur compl\u00e8tement.</p>\n\n<p><strong>M\u00e9thode B: R\u00e9installer le syst\u00e8me d'exploitation Windows de Microsoft</strong></p>\n\n<p><em><strong>Commentaire</strong>: Avant d'entamer le processus de r\u00e9installation, assurez vous de disposer de tous les num\u00e9ros de s\u00e9rie et licences n\u00e9cessaires, ainsi que des copies d'installation de <strong>Windows OS</strong> et de tous les programmes dont vous avez besoin. Ce processus peut prendre un certain temps mais en vaut l'effort si vous n'avez pas r\u00e9ussi \u00e0 \u00e9liminer toutes les menaces avec les autres m\u00e9thodes.</em></p>\n\n<p>Dans de rares cas, une infection peut s'av\u00e9rer tellement destructrice que les logiciels recommand\u00e9s ci-dessus s'av\u00e8rent impuissants. Dans de telles situations, il est recommand\u00e9 de suivre les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:</p>\n\n<ol><li><p>Cr\u00e9er une copie de sauvegarde de tous vos fichiers personnels.</p></li>\n<li><p>R\u00e9installer le syst\u00e8me d'exploitation <strong>Microsoft Windows</strong> en formatant le disque au complet.</p></li>\n<li><p>Mettre \u00e0 jour le syst\u00e8me d'exploitation <strong>Microsoft Windows</strong> imm\u00e9diatement apr\u00e8s l'installation.</p></li>\n<li><p>Installer <strong>avast!</strong> (ou un autre programme antivirus recommand\u00e9) et le mettre \u00e0 jour.</p></li>\n<li><p>Installer tous les programmes dont vous avez besoin et t\u00e9l\u00e9charger les plus r\u00e9centes versions, ainsi que toutes les mises \u00e0 jour pour chaque programme.</p>\n\n<p><strong>IMPORTANT</strong>: Vous ne devriez <em>jamais</em> ins\u00e9rer votre disque de sauvegarde dans le lecteur de votre ordinateur <em>avant</em> d'avoir compl\u00e9ter toutes ces t\u00e2ches. Vous risqueriez ainsi de r\u00e9-infecter votre ordinateur.</p></li>\n<li><p>Ins\u00e9rez votre copie de sauvegarde dans le lecteur de l'ordinateur et ex\u00e9cutez un scan minutieux pour d\u00e9tecter et \u00e9liminer tous les probl\u00e8mes potentiels.</p></li>\n<li><p>Lorsque vous aurez d\u00e9tect\u00e9 et supprim\u00e9 tous les probl\u00e8mes, vous pourrez copier vos fichiers du disque de sauvegarde vers votre disque dur.</p></li>\n</ol>", 
+                        "summary": "", 
+                        "value": "Sommaire des sections de cette page:  \r\n\r\n- [**4.0 Avant de commencer**](#4.0)\r\n- [**4.1 Comment faire face efficacement \u00e0 une attaque de virus**](#4.1)\r\n- [**4.2 Un survol de l'interface principale d'avast!**](#4.2)\r\n- [**4.3 Comment balayer votre ordinateur pour d\u00e9tecter des programmes malveillants et des virus**](#4.3)\r\n- [**4.4 Comment ex\u00e9cuter un Scan minutieux du syst\u00e8me**](#4.4)\r\n- [**4.5 Comment ex\u00e9cuter un Scan de dossiers**](#4.5)\r\n- [**4.6 Comment ex\u00e9cuter un Scan au d\u00e9marrage**](#4.6)\r\n- [**4.7 Comment g\u00e9rer les virus d\u00e9tect\u00e9s**](#4.7)\r\n- [**4.8 Comment utiliser la Zone de quarantaine**](#4.8)\r\n- [**4.9 M\u00e9thodes avanc\u00e9es de suppression de virus**](#4.9)\r\n\r\n----\r\n<a name=\"4.0\"></a>\r\n### 4.0 Avant de commencer ###\r\nLe traitement efficace des virus et logiciels malveillants \u00e0 l'aide d'**avast!** comporte deux \u00e9tapes importantes. Il vous faut d'abord balayer (ou scanner) votre ordinateur pour d\u00e9tecter les menaces. Il faut ensuite \u00e9liminer les menaces ou les d\u00e9lacer vers la *Zone de quarantaine* d'**avast!**. La suppression et/ou le d\u00e9placement des virus et logiciels malveillants emp\u00eache ceux-ci d'interagir avec d'autres syst\u00e8mes, tel que le syst\u00e8me de fichiers ou les programmes de gestion du courrier \u00e9lectronique.\r\n\r\nIl peut para\u00eetre \u00e9trange de sauvegarder de tels virus ou logiciels malveillants. Mais si ceux-ci se sont attach\u00e9s \u00e0 des donn\u00e9es importantes ou sensibles, vous voudrez peut-\u00eatre ult\u00e9rieurement r\u00e9cup\u00e9rer ou sauvegarder ces documents, fichiers ou programmes infect\u00e9s. Dans de rares cas, **avast!** peut se tromper en identifiant des codes et programmes l\u00e9gitimes comme malveillants. G\u00e9n\u00e9ralement appel\u00e9s *faux positifs*, ces codes ou programmes sont potentiellement important pour le bon fonctionnement de votre syst\u00e8me, il vous faudra peut-\u00eatre les r\u00e9cup\u00e9rer ult\u00e9rieurement.\r\n\r\nLa *Zone de quarantaine* d'**avast!** est un espace virtuel o\u00f9 vous pouvez examiner un virus et d\u00e9terminer s'il constitue une authentique menace, soit en effectuant une recherche sur Internet, soit en le soumettant \u00e0 l'attention d'un laboratoire sp\u00e9cialis\u00e9 (une option qui s'offre \u00e0 vous dans **avast!** en cliquant \u00e0 droite sur un virus list\u00e9 dans la *Zone de quarantaine*. Cette op\u00e9ration *n'activera pas* le virus ou le logiciel malveillant en question car la *Zone de quarantaine* l'isole du reste de votre syst\u00e8me.\r\n\r\n**Astuce**: \u00c0 l'inverse, la *Zone de quarantaine* d'**avast!** peut \u00eatre utilis\u00e9e pour y transf\u00e9rer des donn\u00e9es importantes ou sensibles et les mettre \u00e0 l'abri en cas d'attaque de virus.\r\n\r\nDans cette section:\r\n\r\n- Nous \u00e9tudierons les pratiques exemplaires pour prot\u00e9ger votre r\u00e9seau et/ou votre ordinateur personnel;\r\n- Nous explorerons l'interface principale, et en particulier les onglets LANCER UN SCAN et MAINTENANCE;\r\n- Nous verrons comment ex\u00e9cuter les divers types de scans; et\r\n- Nous verrons comment utiliser la *Zone de quarantaine* d'**avast!**.\r\n\r\n<a name=\"4.1\"></a>\r\n### 4.1 Comment faire face efficacement \u00e0 une attaque de virus ###\r\n\r\nIl y a un ensemble de pr\u00e9cautions \u00e9l\u00e9mentaires que vous pouvez prendre pour limiter les menaces contre votre ordinateur; par exemple, en \u00e9vitant les sites douteux ou probl\u00e9matiques ou en utilisant r\u00e9guli\u00e8rement des logiciels anti-mouchard et antivirus comme **avast!** et **Spybot**. Cela dit, il est possible que notre syst\u00e8me personnel fasse partie d'un r\u00e9seau local (LAN) et/ou que l'on partage une connexion Internet. Les consid\u00e9rations qui suivent concernent les fa\u00e7ons de r\u00e9agir efficacement \u00e0 une attaque de virus lorsque plusieurs ordinateurs sont en r\u00e9seau, que ce soit en contexte communautaire ou au travail.\r\n\r\n- D\u00e9connectez physiquement votre ordinateur d'Internet et du r\u00e9seau local. Si vous utilisez une connexion sans fil, d\u00e9connectez votre ordinateur du r\u00e9seau sans fil. Si possible, \u00e9teignez la machine et retirez la carte de communications sans fil.\r\n\r\n- Si votre ordinateur fait partie d'un r\u00e9seau, vous devriez imm\u00e9diatement d\u00e9connecter tous les ordinateurs d'Internet et du r\u00e9seau lui-m\u00eame. Chaque utilisateur devrait cesser d'utiliser le r\u00e9seau et lancer **avast!** ou un autre programme antivirus fiable afin de d\u00e9tecter et \u00e9liminer le virus. Cela peut sembler laborieux, mais cette proc\u00e9dure est essentielle \u00e0 la protection des ordinateurs personnels et du r\u00e9seau.\r\n\r\n- Planifiez un Scan au prochain d\u00e9marrage pour chaque ordinateur du r\u00e9seau. Notez bien le nom de chaque virus d\u00e9tect\u00e9, de sorte que vous puissiez effectuer une recherche, puis supprimez-les ou d\u00e9places-les vers la *Zone de quarantaine* d'**avast!**. Pour vous familiariser avec cette proc\u00e9dure, veuillez consulter la section **4.6 Comment ex\u00e9cuter un Scan au d\u00e9marrage**.\r\n\r\n- M\u00eame si un virus a \u00e9t\u00e9 d\u00e9tect\u00e9 ou r\u00e9par\u00e9, r\u00e9p\u00e9tez les \u00e9tapes pr\u00e9c\u00e9dentes et lancez un scan au d\u00e9marrage sur *chaque* ordinateur, jusqu'\u00e0 ce qu'**avast!** n'affiche plus aucun message d'avertissement. Selon la gravit\u00e9 de l'attaque, il est possible qu'un seul scan au d\u00e9marrage suffise.\r\n\r\nPour plus de renseignements sur les moyens de d\u00e9fense contre les virus et les logiciels malveillants, veuillez consulter la section **4.9 M\u00e9thodes avanc\u00e9es de suppression de virus**\r\n\r\n<a name=\"4.2\"></a>\r\n### 4.2 Un survol de l'interface principale d'avast! ###\r\n\r\nL'interface utilisateur d'**avast!** comporte quatre onglets principaux, situ\u00e9s \u00e0 la gauche de la fen\u00eatre: R\u00c9SUM\u00c9, LANCER UN SCAN, PROTECTION R\u00c9SIDENTE et MAINTENANCE. Chaque onglet est divis\u00e9 en sous-onglets qui permettent d'afficher les panneaux correspondants.\r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/60.png) pour afficher la fen\u00eatre ci-dessous:\r\n\r\n![](/sbox/screen/avast-fr/61.png)\r\n\r\n*Figure 1: L'onglet R\u00c9SUM\u00c9 affichant le panneau \u00c9tat actuel S\u00c9CURIS\u00c9*\r\n\r\nLa liste ci-dessous d\u00e9taille bri\u00e8vement les fonctions des quatre onglets principaux: \r\n\r\n**R\u00c9SUM\u00c9**: Cet onglet comprend les sous-onglets *\u00c9tat actuel* et *Statistiques*. Le sous-onglet *\u00c9tat actuel* affiche l'\u00e9tat des composantes principales utilis\u00e9es par **avast!** pour d\u00e9fendre votre ordinateur contre les virus et autres attaques. Le panneau *Statistiques* affiche les op\u00e9rations des composantes d'**avast!**. Affichage par semaine, mois ou ann\u00e9e.\r\n\r\n**LANCER UN SCAN**: Cet onglet comporte les sous-onglets *Scanner maintenant*, *Scan au d\u00e9marrage* et *Rapports de scans*. Le panneau *SCANNER MAINTENANT* affiche les diff\u00e9rentes options de scan manuels. Le panneau *SCAN AU D\u00c9MARRAGE* vous permet de planifier un scan au prochain d\u00e9marrage de votre ordinateur. Le panneau *RAPPORTS DE SCANS* affiche un rapport des scans manuels effectu\u00e9s, sous forme de tableau.\r\n\r\n**PROTECTION R\u00c9SIDENTE**: Cet onglet affiche tous les agents de protection associ\u00e9s aux fonctions de votre ordinateur, dont l'*AGENT DES FICHIERS*. Vous avez ici un acc\u00e8s direct aux r\u00e9glages des agents de protection, y compris les boutons pour les arr\u00eater et les d\u00e9marrer.\r\n\r\n**MAINTENANCE**: Cet onglet comporte les sous-onglets *Mise \u00e0 jour*, *Enregistrement*, *Zone de quarantaine* et *\u00c0 propos d'avast!*. Le panneau *MISE \u00c0 JOUR* vous permet de lancer manuellement des mises \u00e0 jour du programme et des d\u00e9finitions de virus. Le panneau *ENREGISTREMENT* vous permet d'enregistrer votre copie d'**avast!**. Le panneau *ZONE DE QUARANTAINE* affiche les virus et logiciels malveillants d\u00e9tect\u00e9s par **avast!** lors des scans et vous permet de les g\u00e9rer de diff\u00e9rentes fa\u00e7ons, soit en les supprimant, en lan\u00e7ant de nouveaux scans ou en soumettant les virus d\u00e9tect\u00e9s \u00e0 l'analyse de laboratoires sp\u00e9cialis\u00e9s. Le panneau *\u00c0 PROPOS D'AVAST* affiche des renseignements sur la plus r\u00e9cente version d'**avast!** install\u00e9e sur votre ordinateur.\r\n\r\n**Commentaire**: Les panneaux *LANCER UN SCAN* et *MAINTENANCE* sont particuli\u00e8rement pratiques pour traiter les menaces pos\u00e9es par des virus et des logiciels malveillants.\r\n\r\n<a name=\"4.3\"></a>\r\n### 4.3 Comment balayer votre ordinateur pour d\u00e9tecter des programmes malveillants et des virus ###\r\n\r\nDans cette section, nous examinerons les diff\u00e9rentes options de scan disponibles, ainsi que leur mode d'emploi. Nous verrons \u00e9galement comment lancer un scan du syst\u00e8me, un scan de dossiers et un scan au d\u00e9marrage.\r\n\r\nLe panneau *LANCER UN SCAN > SCANNER MAINTENANT* pr\u00e9sente les quatre options de scan offertes par **avast!**; pour les afficher, suivez les \u00e9tapes d\u00e9crites ci-dessous:\r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/62.png) pour afficher la fen\u00eatre suivante:\r\n\r\n![](/sbox/screen/avast-fr/63.png)\r\n\r\n*Figure 2: L'onglet LANCER UN SCAN affichant le panneau SCANNER MAINTENANT*\r\n\r\nLes descriptions suivantes vous aideront \u00e0 choisir le mode de scan le plus appropri\u00e9:\r\n\r\n**Scan rapide**: Cette option est recommand\u00e9e aux utilisateurs qui ont peu de temps pour d\u00e9tecter de potentielles menaces.\r\n\r\n**Scan minutieux**: Cette option est recommand\u00e9es aux utilisateurs qui ont assez de temps pour lancer un scan minutieux de leur syst\u00e8me. Ce mode est \u00e9galement recommand\u00e9 si vous utilisez le programme antivirus pour la premi\u00e8re fois sur votre ordinateur. La dur\u00e9e de ce scan d\u00e9pend du nombre de documents, de fichiers, de dossiers et de disques durs sur votre ordinateur, ainsi que la vitesse de la machine. Veuillez consulter la section **4.4 Comment ex\u00e9cuter un Scan minutieux du syst\u00e8me**.\r\n\r\n**Scan des m\u00e9dias amovibles**: Cette option est recommand\u00e9e pour scanner des disques durs externes, des cl\u00e9s USB et d'autres dispositifs ou supports amovibles, en particulier ceux qui ne vous appartiennent pas. **avast!** tentera de d\u00e9tecter des programmes malveillants con\u00e7us pour s'ex\u00e9cuter lorsque le dispositif est connect\u00e9.\r\n\r\n**Scan des dossiers s\u00e9lectionn\u00e9s**: Cette option est recommand\u00e9e pour scanner un ou plusieurs dossiers en particulier. Cette option est utile si vous soup\u00e7onnez qu'un fichier ou un dossier est infect\u00e9. Veuillez consulter la section **4.5 Comment ex\u00e9cuter un Scan de dossiers**.\r\n\r\n**Astuce**: Chaque option de scan vous permet de voir les d\u00e9tails du scan, par exemple, les secteurs qui sont actuellement balay\u00e9s. **Cliquez** sur ![](/sbox/screen/avast-fr/84.png) pour les afficher. Si vous \u00eates un utilisateur avanc\u00e9 ou expert, **cliquez** sur ![](/sbox/screen/avast-fr/85.png) pour raffiner les r\u00e9glages pour chaque mode de scan.\r\n\r\n<a name=\"4.4\"></a>\r\n### 4.4 Comment ex\u00e9cuter un Scan minutieux du syst\u00e8me ###\r\n\r\nPour lancer un scan minutieux du syst\u00e8me, suivez les \u00e9tapes d\u00e9crites ci-dessous: \r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/64.png) dans la rubrique du mode *Scan minutieux* pour afficher la fen\u00eatre suivante: \r\n\r\n![](/sbox/screen/avast-fr/65.png)\r\n\r\n*Figure 3: Le panneau SCANNER MAINTENANT affichant le scan minutieux en cours d'ex\u00e9cution* \r\n\r\n\u00c0 l'issue du scan minutieux, si une menace a \u00e9t\u00e9 d\u00e9tect\u00e9e sur votre ordinateur le panneau *Scan minutieux* ressemblera \u00e0 ceci: \r\n\r\n![](/sbox/screen/avast-fr/66.png)\r\n\r\n*Figure 4: La rubrique Scan compl\u00e9t\u00e9 affichant un avertissement MENACE D\u00c9TECT\u00c9E!*\r\n\r\nLe scan minutieux du syst\u00e8me a d\u00e9tect\u00e9 quelques menaces; pour savoir quoi faire \u00e0 partir de l\u00e0, veuillez consulter la section [**4.7 Comment g\u00e9rer les virus d\u00e9tect\u00e9s**](#4.7).\r\n\r\nLa *Zone de quarantaine* d'**avast!** est un dossier mis en place lors du processus d'installation d'**avast!**; c'est une zone de quarantaine virtuelle o\u00f9 les virus et les logiciels malveillants sont isol\u00e9s de telle sorte qu'ils ne peuvent pas interagir avec, ou parasiter, les autres processus en cours sur votre ordinateur.\r\n\r\n<a name=\"4.5\"></a>\r\n### 4.5 Comment ex\u00e9cuter un Scan de dossiers ###\r\n\r\nPour scanner vos dossiers, suivez les \u00e9tapes d\u00e9crites ci-dessous:\r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/64.png) dans la rubrique du mode *Scan des dossiers s\u00e9lectionn\u00e9s* pour afficher la fen\u00eatre suivante:\r\n\r\n![](/sbox/screen/avast-fr/86.png)\r\n\r\n*Figure 5: La bo\u00eete de dialogue S\u00e9lection des zones*\r\n\r\nLa bo\u00eete de dialogue *S\u00e9lection des zones* vous permet de choisir le dossier que vous souhaitez scanner. Vous pouvez \u00e9galement s\u00e9lectionner plus d'un dossier. Lorsque vous cochez la case correspondant \u00e0 chaque dossier, le chemin d'acc\u00e8s du dossier s'affiche dans le champs *Chemins d'acc\u00e8s choisis:*.\r\n\r\n**Deuxi\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/87.png) pour lancer le scan de vos dossiers et afficher la fen\u00eatre suivante:\r\n\r\n![](/sbox/screen/avast-fr/88.png)\r\n\r\n*Figure 6: Le Scan de dossiers en cours d'ex\u00e9cution* \r\n\r\n**Astuce**: **avast!** vous permet de scanner des dossiers \u00e0 partir du menu local *Windows* standard qui s'affiche lorsque vous cliquez \u00e0 droite sur un dossier donn\u00e9. Vous n'avez qu'\u00e0 **s\u00e9lectionner** l'icone ![](/sbox/screen/avast-fr/13.png) qui appara\u00eet \u00e0 c\u00f4t\u00e9 du nom du dossier que vous souhaitez scanner.\r\n\r\n<a name=\"4.6\"></a>\r\n### 4.6 Comment ex\u00e9cuter un Scan au d\u00e9marrage ###\r\n\r\nLe scan au d\u00e9marrage d'**avast!** vous permet de planifier un scan complet de votre disque dur avant que le *Syst\u00e8me d'exploitation Windows de Microsoft* ne soit mis en ex\u00e9cution. Au moment o\u00f9 le scan au d\u00e9marrage s'ex\u00e9cute, la majorit\u00e9 des programmes malveillants sont toujours en dormance, c'est-\u00e0-dire, qu'ils n'ont pas encore eu l'occasion de s'activer ou d'interagir avec d'autres processus du syst\u00e8me. C'est pourquoi ils sont plus facilement d\u00e9tectables \u00e0 cette \u00e9tape.\r\n\r\nLe scan au d\u00e9marrage acc\u00e8de directement au disque sans passer par les pilotes du syst\u00e8me de fichier **Windows**, une cible de premier choix pour la plupart des programmes malveillants. Un scan au d\u00e9marrage devrait \u00eatre en mesure de d\u00e9tecter m\u00eame les plus agressifs des \"rootkits\" (c'est le nom employ\u00e9 pour d\u00e9signer un type de logiciel malveillant particuli\u00e8rement pernicieux). Il est **fortement recommand\u00e9** de planifier un scan au d\u00e9marrage si vous avez le moindre soup\u00e7on que votre syst\u00e8me a \u00e9t\u00e9 compromis ou infect\u00e9. \r\n\r\nL'option *Scan au d\u00e9marrage* est recommand\u00e9e pour un scan complet et minutieux de votre syst\u00e8me. Le scan peut prendre un certain temps, selon la vitesse de votre ordinateur, la quantit\u00e9 de donn\u00e9es \u00e0 examiner et le nombre de disques dur branch\u00e9s \u00e0 votre ordinateur. Le *Scan au d\u00e9marrage* est toujours planifi\u00e9 pour le prochain red\u00e9marrage de votre ordinateur. \r\n\r\nPour scanner votre syst\u00e8me au prochain d\u00e9marrage, suivez les \u00e9tapes d\u00e9crites ci-dessous: \r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/67.png) pour afficher le panneau *SCAN AU D\u00c9MARRAGE*.\r\n\r\n**Deuxi\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/68.png) pour planifier un scan au prochain d\u00e9marrage de votre ordinateur.\r\n\r\n**Troisi\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/69.png) pour lancer le scan au d\u00e9marrage imm\u00e9diatement si vous pr\u00e9f\u00e9rez. \r\n\r\n**Commentaire**: Un scan au d\u00e9marrage s'ex\u00e9cute avant que le syst\u00e8me d'exploitation et l'interface utilisateur ne soient charg\u00e9s. C'est pourquoi vous ne verrez qu'un \u00e9cran bleu affichant le progr\u00e8s du scan, tel qu'illustr\u00e9 ci-dessous:\r\n\r\n![](/sites/securitybkp.ngoinabox.org/files/u5/Avast_3_2_6.png)\r\n\r\n*Figure 7: Le scan au d\u00e9marrage planifi\u00e9 d'avast!*\r\n\r\nChaque fois qu'**avast!** d\u00e9tecte une menace, le programme vous demande si vous voulez *Supprimer*, *Ignorer*, *Mettre en quarantaine* ou *R\u00e9parer* les virus d\u00e9tect\u00e9s. Il est recommand\u00e9 de ne *jamais* les ignorer. La liste de ces commandes n'appara\u00eet uniquement que si un virus est d\u00e9tect\u00e9 sur votre syst\u00e8me.\r\n\r\n<a name=\"4.7\"></a>\r\n### 4.7 Comment g\u00e9rer les virus d\u00e9tect\u00e9s ###\r\n\r\nLors du processus d'installation d'**avast!**, la *Zone de quarantaine* d'**avast!** a \u00e9t\u00e9 cr\u00e9\u00e9e sur votre disque dur. La *Zone de quarantaine* n'est ni plus ni moins qu'un dossier qui est isol\u00e9 du reste de votre syst\u00e8me et utilis\u00e9 pour stocker les logiciels malveillants ou les virus d\u00e9tect\u00e9s au cours du scan, ainsi que les documents, fichiers et dossiers infect\u00e9s ou compromis.\r\n\r\nSi vous avez d\u00e9j\u00e0 mis \u00e0 jour le programme et la base de donn\u00e9es virale, vous \u00eates d\u00e9j\u00e0 familier avec l'onglet *MAINTENANCE*, par lequel vous pouvez \u00e9galement acc\u00e9der \u00e0 la *Zone de quarantaine* d'**avast!**.\r\n \r\nPour g\u00e9rer ad\u00e9quatement les virus et logiciels malveillants d\u00e9tect\u00e9s lors du scan, suivez les \u00e9tapes d\u00e9crites ci-dessous: \r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/70.png) pour afficher la fen\u00eatre suivante:\r\n\r\n![](/sbox/screen/avast-fr/71.png)\r\n\r\n*Figure 8: La fen\u00eatre R\u00c9SULTATS DU SCAN affichant le message d'avertissement MENACE D\u00c9TECT\u00c9E!*\r\n\r\n**Deuxi\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/72.png) pour afficher le menu d\u00e9roulant pr\u00e9sentant la liste des actions qui peuvent \u00eatre appliqu\u00e9es aux menaces d\u00e9tect\u00e9es, tel qu'illustr\u00e9 \u00e0 la *Figure 8*, ci-dessus.\r\n\r\n**Commentaire**: Dans cet exercice, nous voulons d\u00e9placer les fichiers infect\u00e9s vers la *Zone de quarantaine*. Cependant, le menu d\u00e9roulant pr\u00e9sente trois autres options que nous d\u00e9crivons sommairement ci-dessous:\r\n\r\n**R\u00e9parer**: Cette action tentera de r\u00e9parer le fichier infect\u00e9.\r\n\r\n**Supprimer**: Cette action supprimera de fa\u00e7on permanente le fichier infect\u00e9.\r\n\r\n**Ne rien faire**: Cette action *n'est d\u00e9finitivement pas recommand\u00e9e* lorsqu'il est question de g\u00e9rer ad\u00e9quatement des virus ou des programmes malveillants.\r\n\r\n**Troisi\u00e8me \u00e9tape**. **S\u00e9lectionnez** l'action *D\u00e9placer vers la zone de quarantaine*, puis  **cliquez** sur ![](/sbox/screen/avast-fr/74.png)  pour afficher la fen\u00eatre ci-dessous:\r\n\r\n![](/sbox/screen/avast-fr/75.png)\r\n\r\n*Figure 9: Les virus ont \u00e9t\u00e9 d\u00e9plac\u00e9s vers la Zone de quarantaine*\r\n\r\n<a name=\"4.8\"></a>\r\n### 4.8 Comment utiliser la Zone de quarantaine ###\r\n\r\nMaintenant que le virus a \u00e9t\u00e9 d\u00e9lac\u00e9 vers la *Zone de quarantaine* d'**avast!**, vous pouvez d\u00e9terminer quelle est la meilleure chose \u00e0 faire.\r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez** sur ![](/sbox/screen/avast-fr/80.png) puis **cliquez** sur ![](/sbox/screen/avast-fr/81.png) pour afficher la fen\u00eatre ci-dessous:\r\n\r\n![](/sbox/screen/avast-fr/82.png)\r\n\r\n*Figure 10: La Zone de quarantaine affichant deux virus*\r\n\r\n**Deuxi\u00e8me \u00e9tape**: **Cliquez \u00e0 droite** sur un des virus pour afficher le menu des actions possibles, tel qu'illustr\u00e9 ci-dessous:\r\n\r\n![](/sbox/screen/avast-fr/83.png)\r\n\r\n*Figure 11: Le menu d\u00e9roulant des actions \u00e0 appliquer aux virus dans la Zone de quarantaine*\r\n\r\n**Commentaire**: Vous n'activerez pas un virus en double-cliquant dessus dans la *Zone de quarantaine*. Cette action affichera plut\u00f4t les propri\u00e9t\u00e9s du virus, de la m\u00eame fa\u00e7on que si vous cliquiez sur l'option *Propri\u00e9t\u00e9s* dans le menu local.\r\n\r\nLa liste ci-dessous d\u00e9crit les diff\u00e9rentes actions du menu d\u00e9roulant: \r\n\r\n**Supprimer**: Cette action supprimera le virus de fa\u00e7on irr\u00e9versible.\r\n\r\n**Restaurer**: Cette action restaurera les virus \u00e0 leur emplacement initial.\r\n\r\n**Extraire...**: Cette action copiera le fichier ou le virus dans un dossier de votre choix.\r\n\r\n**Scan**: Cette action soumettra le virus \u00e0 un nouveau scan.\r\n\r\n**Envoyer \u00e0 AVAST Software...**: Cette action vous permet de soumettre le virus \u00e0 une analyse plus pouss\u00e9e. En s\u00e9lectionnant cette action, vous activerez un formulaire \u00e0 remplir et \u00e0 envoyer.\r\n\r\n**Propri\u00e9t\u00e9s**: Cette action vous permet d'afficher plus de d\u00e9tails concernant le virus en question.\r\n\r\n**Ajouter...**: Cette action vous permet de naviguer dans votre syst\u00e8me pour chercher d'autres fichiers que vous aimeriez d\u00e9placer vers la *Zone de quarantaine*. Cette fonction pourrait s'av\u00e9rer tr\u00e8s utile pour prot\u00e9ger certains fichiers lors d'une attaque de virus.\r\n\r\n**Actualiser tous fichiers**: Cette action permet d'op\u00e9rer une mise \u00e0 jour des fichiers pour \u00eatre certain d'afficher les fichiers les plus r\u00e9cents.\r\n\r\n<a name=\"4.9\"></a>\r\n### 4.9 M\u00e9thodes avanc\u00e9es de suppression de virus ###\r\n\r\nDans certains cas, la protection fournie par **avast!**, **Comodo Firewall** et **Spybot** n'est tout simplement pas suffisante. Malgr\u00e9 nos efforts les plus rigoureux, nos ordinateurs personnels et de travail sont parfois infect\u00e9s par des programmes malveillants et des virus. Dans la section **4.1 Comment faire face efficacement \u00e0 une attaque de virus**, nous avons vu quelques m\u00e9thodes pour faire face aux virus les plus coriaces. Mais il existe d'autres mesures qui peuvent \u00eatre mises en place pour \u00e9liminer compl\u00e8tement ces menaces.\r\n\r\n**M\u00e9thode A: Utiliser des CD/DVD de secours anti-logiciel malveillant (Rescue CD)**\r\n\r\nCertaines des compagnies qui d\u00e9veloppent des outils contre les programmes malveillants offrent \u00e9galement des CD/DVD de secours, ou Rescue CD/DVD. On peut les t\u00e9l\u00e9charger sous forme d'images ISO (un format qui peut \u00eatre facilement grav\u00e9 sur un disque CD ou DVD).\r\n\r\nPour utiliser un CD ou un DVD anti-programme malveillant, veuillez suivre les \u00e9tapes d\u00e9crites ci-dessous:\r\n\r\n1. T\u00e9l\u00e9chargez et gravez le programme anti-logiciel malveillant sur un CD.\r\n*Vous pouvez utiliser un logiciel gratuit comme [**ImgBurn**](http://www.imgburn.com/) pour graver l'image sur un disque.*\r\n\r\n2. Ins\u00e9rez le disque dans le lecteur de CD/DVD de l'ordinateur infect\u00e9, puis red\u00e9marrez l'ordinateur \u00e0 partir du CD/DVD.\r\n*Habituellement, vous pouvez d\u00e9marrer \u00e0 partir d'un disque en appuyant sur la touche F10 ou F12 du clavier imm\u00e9diatement apr\u00e8s avoir allum\u00e9 l'ordinateur. Soyez tr\u00e8s attentif aux consignes qui s'affichent sur l'\u00e9cran lors du d\u00e9marrage pour conna\u00eetre la m\u00e9thode appropri\u00e9e sur votre ordinateur.*\r\n\r\n3. Connectez votre ordinateur \u00e0 Internet pour permettre au programme anti-logiciel malveillant de mettre \u00e0 jour ses d\u00e9finitions de virus, si n\u00e9cessaire. Le programme se mettra automatiquement \u00e0 la recherche des menaces sur votre ordinateur, puis il les supprimera au fur et \u00e0 mesure.\r\n\r\nVoici une liste d'images de CD de secours:\r\n\r\n- [**AVG Rescue CD**](http://www.avg.com/us-en/avg-rescue-cd)\r\n- [**Kaspersky Rescue CD**](http://support.kaspersky.com/viruses/rescuedisk/)\r\n- [**F-Secure Rescue CD**](http://www.f-secure.com/linux-weblog/files/f-secure-rescue-cd-release-3.00.zip)\r\n- [**BitDefender Rescue CD**](http://download.bitdefender.com/rescue_cd/)\r\n\r\nIl peut aussi \u00eatre utile de scanner votre ordinateur \u00e0 l'aide des outils suivants, qui se mettent en marche au d\u00e9marrage de **Windows OS**. Par contre, ces outils ne s'ex\u00e9cuteront que si les virus qui infectent votre ordinateur ne les emp\u00eachent pas de fonctionner normalement.\r\n\r\n- [**HijackThis**](http://free.antivirus.com/hijackthis/) et d'autres outils gratuits [Clean-up Tools](http://free.antivirus.com/clean-up-tools/) de la compagnie **Trend Micro**.\r\n- [**RootkitRevealer**](http://technet.microsoft.com/en-us/sysinternals/bb897445.aspx) de [Sysinternals](http://technet.microsoft.com/en-us/sysinternals) de **Microsoft**.\r\n\r\n**Commentaire:** Il est possible d'utiliser les outils list\u00e9s ci-dessus s\u00e9par\u00e9ment pour maximiser vos chances de nettoyer votre ordinateur compl\u00e8tement.\r\n\r\n**M\u00e9thode B: R\u00e9installer le syst\u00e8me d'exploitation Windows de Microsoft**\r\n\r\n***Commentaire**: Avant d'entamer le processus de r\u00e9installation, assurez vous de disposer de tous les num\u00e9ros de s\u00e9rie et licences n\u00e9cessaires, ainsi que des copies d'installation de **Windows OS** et de tous les programmes dont vous avez besoin. Ce processus peut prendre un certain temps mais en vaut l'effort si vous n'avez pas r\u00e9ussi \u00e0 \u00e9liminer toutes les menaces avec les autres m\u00e9thodes.*\r\n\r\nDans de rares cas, une infection peut s'av\u00e9rer tellement destructrice que les logiciels recommand\u00e9s ci-dessus s'av\u00e8rent impuissants. Dans de telles situations, il est recommand\u00e9 de suivre les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous: \r\n\r\n1. Cr\u00e9er une copie de sauvegarde de tous vos fichiers personnels. \r\n\r\n2. R\u00e9installer le syst\u00e8me d'exploitation **Microsoft Windows** en formatant le disque au complet.\r\n\r\n3. Mettre \u00e0 jour le syst\u00e8me d'exploitation **Microsoft Windows** imm\u00e9diatement apr\u00e8s l'installation. \r\n\r\n4. Installer **avast!** (ou un autre programme antivirus recommand\u00e9) et le mettre \u00e0 jour.\r\n\r\n5. Installer tous les programmes dont vous avez besoin et t\u00e9l\u00e9charger les plus r\u00e9centes versions, ainsi que toutes les mises \u00e0 jour pour chaque programme.\r\n\r\n   **IMPORTANT**: Vous ne devriez *jamais* ins\u00e9rer votre disque de sauvegarde dans le lecteur de votre ordinateur *avant* d'avoir compl\u00e9ter toutes ces t\u00e2ches. Vous risqueriez ainsi de r\u00e9-infecter votre ordinateur.\r\n\r\n6. Ins\u00e9rez votre copie de sauvegarde dans le lecteur de l'ordinateur et ex\u00e9cutez un scan minutieux pour d\u00e9tecter et \u00e9liminer tous les probl\u00e8mes potentiels.\r\n\r\n7. Lorsque vous aurez d\u00e9tect\u00e9 et supprim\u00e9 tous les probl\u00e8mes, vous pourrez copier vos fichiers du disque de sauvegarde vers votre disque dur."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1921", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1921", 
+                "link_title": "How to Scan for and Deal with Viruses Using avast!", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5026", 
+                "module": "book", 
+                "nid": "1921", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5011", 
+                "p3": "5026", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5011", 
+                "router_path": "node/%", 
+                "title": "How to Scan for and Deal with Viruses Using avast!", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1457175929", 
+            "comment": "0", 
+            "created": "1440364036", 
+            "current_revision_id": "13475", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "avast_virus", 
+                        "value": "avast_virus"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5026": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1921", 
+                    "link_title": "How to Scan for and Deal with Viruses Using avast!", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5026", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5011", 
+                    "p3": "5026", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5011", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1921", 
+            "num_revisions": "28", 
+            "path": "https://securityinabox.org/en/dealingwithviruses", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1457175929", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Comment utiliser avast! pour d\u00e9tecter et \u00e9liminer des virus", 
+                        "value": "Comment utiliser avast! pour d\u00e9tecter et \u00e9liminer des virus"
+                    }
+                ]
+            }, 
+            "title_original": "How to Scan for and Deal with Viruses Using avast!", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442919163", 
+                        "created": "1442919163", 
+                        "entity_id": "1921", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1921", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1441724896", 
+                        "created": "1441724896", 
+                        "entity_id": "1921", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1921", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442408544", 
+                        "created": "1441897093", 
+                        "entity_id": "1921", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1921", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441046270", 
+                        "created": "1441033081", 
+                        "entity_id": "1921", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1921", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1442833948", 
+                        "created": "1442833922", 
+                        "entity_id": "1921", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1921", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1443713844", 
+                        "created": "1443713844", 
+                        "entity_id": "1921", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1921", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452860185", 
+                        "created": "1452860185", 
+                        "entity_id": "1921", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1921", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443601408", 
+                        "created": "1443601408", 
+                        "entity_id": "1921", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1921", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441026767", 
+                        "created": "1440686408", 
+                        "entity_id": "1921", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1921", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "ru": {
+                        "changed": "1444174363", 
+                        "created": "1444174363", 
+                        "entity_id": "1921", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1921", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1457175929", 
+                        "created": "1444720766", 
+                        "entity_id": "1921", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1921", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441897393", 
+                        "created": "1440364036", 
+                        "entity_id": "1921", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1921", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445270444", 
+                        "created": "1444056277", 
+                        "entity_id": "1921", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1921", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "e9ac3d53-062b-45bb-a862-f4cd3903bd3b", 
+            "vid": "13475", 
+            "vuuid": "62caa85c-4aaf-47f0-b2ee-938586e00136"
+        }, 
+        {
+            "body": {
+                "fr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Elena et Nikolai trouvent Avast plut\u00f4t facile \u00e0 utiliser, mais ils ne sont pas encore certains de conna\u00eetre assez bien le programme et ses fonctionnalit\u00e9s.</p>\n\n<div class=\"background\">\n\n<p><strong>Q</strong>: <em>Comment puis-je m\u2019assurer que mes documents ne seront pas infect\u00e9s si j\u2019utilise un ordinateur dans un caf\u00e9 Internet, et qu'aucun programme antivirus n'est install\u00e9 sur cet ordinateur?</em></p>\n\n<p><strong>A</strong>: <em>Excellente question! Il est bon de constater que tu te rends compte \u00e0 quel point les virus peuvent s\u2019av\u00e9rer dangereux. L\u2019utilisation d\u2019ordinateurs publics comporte un facteur de risque \u00e9lev\u00e9. On ne sait jamais quel type de programmes malveillants peuvent s\u2019y trouver. Voici un conseil simple : ne jamais utiliser d\u2019ordinateurs publics pour effectuer des t\u00e2ches importantes ou d\u00e9licates, \u00e0 moins de n\u2019avoir absolument aucune alternative.</em></p>\n\n<p><strong>Q</strong>: <em>J\u2019ai plusieurs ordinateurs et une connexion Internet plut\u00f4t lente. Comment puis-je t\u00e9l\u00e9charger la mise \u00e0 jour des d\u00e9finitions de virus pour tous mes ordinateurs?</em></p>\n\n<p><strong>A</strong>: <em>Tu peux <a href=\"http://www.avast.com/download-update\"><strong>t\u00e9l\u00e9charger les plus r\u00e9centes mises \u00e0 jour</strong></a> directement du site Internet d'avast!, puis les distribuer \u00e0 chaque ordinateur de ton r\u00e9seau.</em></p>\n\n<p><strong>Q</strong>: <em>Qu\u2019advient-il des fichiers qui se trouvent dans la Zone de quarantaine si je d\u00e9sinstalle <strong>avast!</strong>?</em></p>\n\n<p><strong>A</strong>: <em>Tous les fichiers contenus dans la Zone de quarantaine seront supprim\u00e9s si tu d\u00e9sinstalles le programme.</em></p>\n\n</div>\n\n<h3>5.1 Questions r\u00e9capitulatives</h3>\n\n<ul><li>Comment peut-on scanner un r\u00e9pertoire en particulier avec <strong>avast!</strong>? </li>\n<li>Combien de jours peut-on utiliser <strong>avast!</strong> avant de devoir l\u2019enregistrer?</li>\n<li>Est-il possible de d\u00e9placer un document qui n'est pas infect\u00e9 par un virus vers la <em>Zone de quarantaine</em>?</li>\n<li>Quelle est la diff\u00e9rence entre supprimer un virus et le d\u00e9placer vers la <em>Zone de quarantaine</em>?</li>\n<li>Quelle est la diff\u00e9rence entre un scan au d\u00e9marrage et un scan minutieux du syst\u00e8me?</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "Elena et Nikolai trouvent Avast plut\u00f4t facile \u00e0 utiliser, mais ils ne sont pas encore certains de conna\u00eetre assez bien le programme et ses fonctionnalit\u00e9s.\r\n\r\n<div class=\"background\" markdown=\"1\">\r\n\r\n**Q**: *Comment puis-je m\u2019assurer que mes documents ne seront pas infect\u00e9s si j\u2019utilise un ordinateur dans un caf\u00e9 Internet, et qu'aucun programme antivirus n'est install\u00e9 sur cet ordinateur?*\r\n\r\n**A**: *Excellente question! Il est bon de constater que tu te rends compte \u00e0 quel point les virus peuvent s\u2019av\u00e9rer dangereux. L\u2019utilisation d\u2019ordinateurs publics comporte un facteur de risque \u00e9lev\u00e9. On ne sait jamais quel type de programmes malveillants peuvent s\u2019y trouver. Voici un conseil simple : ne jamais utiliser d\u2019ordinateurs publics pour effectuer des t\u00e2ches importantes ou d\u00e9licates, \u00e0 moins de n\u2019avoir absolument aucune alternative.*\r\n\r\n**Q**: *J\u2019ai plusieurs ordinateurs et une connexion Internet plut\u00f4t lente. Comment puis-je t\u00e9l\u00e9charger la mise \u00e0 jour des d\u00e9finitions de virus pour tous mes ordinateurs?*\r\n\r\n**A**: *Tu peux [**t\u00e9l\u00e9charger les plus r\u00e9centes mises \u00e0 jour**](http://www.avast.com/download-update) directement du site Internet d'avast!, puis les distribuer \u00e0 chaque ordinateur de ton r\u00e9seau.*\r\n\r\n**Q**: *Qu\u2019advient-il des fichiers qui se trouvent dans la Zone de quarantaine si je d\u00e9sinstalle **avast!**?*\r\n\r\n**A**: *Tous les fichiers contenus dans la Zone de quarantaine seront supprim\u00e9s si tu d\u00e9sinstalles le programme.*\r\n\r\n</div>\r\n\r\n### 5.1 Questions r\u00e9capitulatives ###\r\n\r\n- Comment peut-on scanner un r\u00e9pertoire en particulier avec **avast!**?\t\r\n- Combien de jours peut-on utiliser **avast!** avant de devoir l\u2019enregistrer?\r\n- Est-il possible de d\u00e9placer un document qui n'est pas infect\u00e9 par un virus vers la *Zone de quarantaine*?\r\n- Quelle est la diff\u00e9rence entre supprimer un virus et le d\u00e9placer vers la *Zone de quarantaine*?\r\n- Quelle est la diff\u00e9rence entre un scan au d\u00e9marrage et un scan minutieux du syst\u00e8me?\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1922", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1922", 
+                "link_title": "FAQ and Review ", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5027", 
+                "module": "book", 
+                "nid": "1922", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5011", 
+                "p3": "5027", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5011", 
+                "router_path": "node/%", 
+                "title": "FAQ and Review ", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1456944739", 
+            "comment": "0", 
+            "created": "1440364600", 
+            "current_revision_id": "13445", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "avast_questions", 
+                        "value": "avast_questions"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5027": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1922", 
+                    "link_title": "FAQ and Review ", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5027", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5011", 
+                    "p3": "5027", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5011", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1922", 
+            "num_revisions": "24", 
+            "path": "https://securityinabox.org/en/avastconclusion", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456944739", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Faq et questions r\u00e9capitulatives", 
+                        "value": "Faq et questions r\u00e9capitulatives"
+                    }
+                ]
+            }, 
+            "title_original": "FAQ and Review ", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442919214", 
+                        "created": "1442919214", 
+                        "entity_id": "1922", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1922", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1441725008", 
+                        "created": "1441725008", 
+                        "entity_id": "1922", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1922", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442408576", 
+                        "created": "1441897185", 
+                        "entity_id": "1922", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1922", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441046296", 
+                        "created": "1441033166", 
+                        "entity_id": "1922", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1922", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1442834060", 
+                        "created": "1442834010", 
+                        "entity_id": "1922", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1922", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1443713936", 
+                        "created": "1443713936", 
+                        "entity_id": "1922", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1922", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452860836", 
+                        "created": "1452860836", 
+                        "entity_id": "1922", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1922", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443601495", 
+                        "created": "1443601495", 
+                        "entity_id": "1922", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1922", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441026890", 
+                        "created": "1440686417", 
+                        "entity_id": "1922", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1922", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "ru": {
+                        "changed": "1444174418", 
+                        "created": "1444174418", 
+                        "entity_id": "1922", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1922", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1456944739", 
+                        "created": "1456944739", 
+                        "entity_id": "1922", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1922", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "xx": {
+                        "changed": "1440774816", 
+                        "created": "1440364600", 
+                        "entity_id": "1922", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1922", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445270516", 
+                        "created": "1444056446", 
+                        "entity_id": "1922", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1922", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "701d246f-ac84-45a2-957d-b37196860917", 
+            "vid": "13445", 
+            "vuuid": "85154ce1-437e-41d7-bee3-3bdcd33c6a14"
+        }
+    ], 
+    "changed": "1453895816", 
+    "comment": "0", 
+    "created": "1439499072", 
+    "current_revision_id": "13013", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "fr": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "fr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Pour installer Avast!</strong></p>\n\n<ul><li>*Lisez la courte <strong>Introduction</strong> aux <a href=\"/fr/handsonguides\"><strong>Guides pratiques</strong></a>**</li>\n<li><em><strong>Cliquez sur l'icone Avast! ci-dessous</strong> et 'Ouvrez' ou 'Ex\u00e9cutez' l'assistant d'installation. Si n\u00e9cessaire, sauvegardez d'abord l'ex\u00e9cutable sur votre ordinateur, puis double-cliquez sur l'ic\u00f4ne pour lancer l'assistant.</em></li>\n<li><em>Lisez attentivement les 'Consignes d'installation' dans la prochaine section avant de poursuivre l'installation.</em></li>\n<li><em>Si vous avez sauvegard\u00e9 l'ex\u00e9cutable sur votre ordinateur, vous pouvez le supprimer apr\u00e8s l'installation.</em></li>\n</ul><p><strong>Avast!</strong>:<br /><a href=\"/sbox/programs/avast.exe\"><img src=\"/sbox/screen/avast-en/100.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Pour installer Avast!**\r\n\r\n- *Lisez la courte **Introduction** aux [**Guides pratiques**](/fr/handsonguides)**\r\n- ***Cliquez sur l'icone Avast! ci-dessous** et 'Ouvrez' ou 'Ex\u00e9cutez' l'assistant d'installation. Si n\u00e9cessaire, sauvegardez d'abord l'ex\u00e9cutable sur votre ordinateur, puis double-cliquez sur l'ic\u00f4ne pour lancer l'assistant.*\r\n- *Lisez attentivement les 'Consignes d'installation' dans la prochaine section avant de poursuivre l'installation.*\r\n- *Si vous avez sauvegard\u00e9 l'ex\u00e9cutable sur votre ordinateur, vous pouvez le supprimer apr\u00e8s l'installation.*\r\n\r\n**Avast!**:  \r\n[![](/sbox/screen/avast-en/100.png)](/sbox/programs/avast.exe)\r\n"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "fr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Pour installer avast!</strong></p>\n\n<ul><li><em>Lisez la courte <strong>Introduction</strong> aux <a href=\"/fr/handsonguides\"><strong>Guides pratiques</strong></a></em></li>\n<li><em><strong>Cliquez</strong> sur l'icone <strong>avast!</strong> ci-dessous pour ouvrir la page de t\u00e9l\u00e9chargement d'<strong>www.avast.com</strong>.</em></li>\n<li><em><strong>Cliquez</strong> sur le bouton 'T\u00e9l\u00e9charger' au bas de la colonne 'Antivirus Gratuit', puis <strong>cliquez</strong> sur le lien 'T\u00e9l\u00e9charger' qui s'affiche sur la prochaine page.</em> </li>\n<li><em><strong>Cliquez</strong> sur 'Enregistrer le fichier' pour sauvegarder le fichier 'setup_av_free_fre.exe' sur votre ordinateur, puis <strong>double-cliquez</strong> sur 'setup_av_free_fre.exe' pour lancer l'installation du programme.</em></li>\n<li><em>Lisez attentivement la section <strong>2.0 Comment installer et enregistrer avast!</strong> avant de poursuivre</em>.</li>\n<li><em>Apr\u00e8s avoir compl\u00e9t\u00e9 l'installation d'<strong>avast!</strong> vous pouvez supprimer l'ex\u00e9cutable d'installation de votre ordinateur</em>.</li>\n</ul><p><strong>avast!</strong>:<br /><a href=\"http://www.avast.com/fr-fr/free-antivirus-download\"><img src=\"/sbox/screen/avast-fr/100.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Pour installer avast!**\r\n\r\n- *Lisez la courte **Introduction** aux [**Guides pratiques**](/fr/handsonguides)*\r\n- ***Cliquez** sur l'icone **avast!** ci-dessous pour ouvrir la page de t\u00e9l\u00e9chargement d'**www.avast.com**.*\r\n- ***Cliquez** sur le bouton 'T\u00e9l\u00e9charger' au bas de la colonne 'Antivirus Gratuit', puis **cliquez** sur le lien 'T\u00e9l\u00e9charger' qui s'affiche sur la prochaine page.* \r\n- ***Cliquez** sur 'Enregistrer le fichier' pour sauvegarder le fichier 'setup_av_free_fre.exe' sur votre ordinateur, puis **double-cliquez** sur 'setup_av_free_fre.exe' pour lancer l'installation du programme.*\r\n- *Lisez attentivement la section **2.0 Comment installer et enregistrer avast!** avant de poursuivre*.\r\n- *Apr\u00e8s avoir compl\u00e9t\u00e9 l'installation d'**avast!** vous pouvez supprimer l'ex\u00e9cutable d'installation de votre ordinateur*.\r\n\r\n**avast!**:  \r\n[![](/sbox/screen/avast-fr/100.png)](http://www.avast.com/fr-fr/free-antivirus-download)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "fr": [
+            {
+                "format": null, 
+                "safe_value": "avast! - anti-virus", 
+                "value": "avast! - anti-virus"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "fr": [
+            {
+                "format": null, 
+                "safe_value": "Avast - antivirus", 
+                "value": "Avast - antivirus"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "fr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>avast!</strong> est un programme antivirus complet qui sert \u00e0 d\u00e9tecter et \u00e9liminer les virus et logiciels malveillants de votre ordinateur. Bien qu'<strong>avast!</strong> soit gratuit pour utilisation non commerciale sur un ordinateur familial ou personnel, votre copie gratuite <em>doit</em> \u00eatre enregistr\u00e9e apr\u00e8s l'installation, \u00e0 d\u00e9faut de quoi elle expirera apr\u00e8s 30 jours. L'enregistrement vous assurera \u00e9galement de recevoir automatiquement les mises \u00e0 jour du programme <strong>Avast!</strong>, ainsi que les plus r\u00e9centes d\u00e9finitions de virus au fur et \u00e0 mesure de leur publication.</p>\n", 
+                "value": "**avast!** est un programme antivirus complet qui sert \u00e0 d\u00e9tecter et \u00e9liminer les virus et logiciels malveillants de votre ordinateur. Bien qu'**avast!** soit gratuit pour utilisation non commerciale sur un ordinateur familial ou personnel, votre copie gratuite *doit* \u00eatre enregistr\u00e9e apr\u00e8s l'installation, \u00e0 d\u00e9faut de quoi elle expirera apr\u00e8s 30 jours. L'enregistrement vous assurera \u00e9galement de recevoir automatiquement les mises \u00e0 jour du programme **Avast!**, ainsi que les plus r\u00e9centes d\u00e9finitions de virus au fur et \u00e0 mesure de leur publication."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-09-29 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "fr": [
+            {
+                "format": null, 
+                "safe_value": "avast_principale", 
+                "value": "avast_principale"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "0"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "0"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5011": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/1906", 
+            "link_title": "avast! - Anti-Virus", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5011", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5011", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-15"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "1906", 
+    "num_revisions": "42", 
+    "path": "https://securityinabox.org/en/node/1906", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1453895816", 
+    "revision_uid": "228", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "fr": [
+            {
+                "format": null, 
+                "safe_value": "Avast - antivirus", 
+                "value": "Avast - antivirus"
+            }
+        ]
+    }, 
+    "title_original": "avast! - Anti-Virus", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442918905", 
+                "created": "1442918905", 
+                "entity_id": "1906", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "1906", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442235114", 
+                "created": "1441723903", 
+                "entity_id": "1906", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "1906", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442408335", 
+                "created": "1441896721", 
+                "entity_id": "1906", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "1906", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1441047372", 
+                "created": "1441030832", 
+                "entity_id": "1906", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "1906", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "fr": {
+                "changed": "1442833163", 
+                "created": "1442833163", 
+                "entity_id": "1906", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "1906", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1443713614", 
+                "created": "1443713614", 
+                "entity_id": "1906", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "1906", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "km": {
+                "changed": "1452692224", 
+                "created": "1452692224", 
+                "entity_id": "1906", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "1906", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443601149", 
+                "created": "1443601149", 
+                "entity_id": "1906", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "1906", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441047321", 
+                "created": "1440686340", 
+                "entity_id": "1906", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "1906", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "ru": {
+                "changed": "1453895816", 
+                "created": "1444173891", 
+                "entity_id": "1906", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "1906", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "vi": {
+                "changed": "1443522888", 
+                "created": "1443522888", 
+                "entity_id": "1906", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "1906", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441183186", 
+                "created": "1439499072", 
+                "entity_id": "1906", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "1906", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445270158", 
+                "created": "1444054816", 
+                "entity_id": "1906", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "1906", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "689e1e34-7434-49df-9419-c50cac6e381d", 
+    "vid": "13013", 
+    "vuuid": "3ba38052-96e6-4d72-91ee-4d104d01c323"
+}

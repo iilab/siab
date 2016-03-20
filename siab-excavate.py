@@ -23,7 +23,7 @@ Usage: %s [<nid>] <directory>
 Python dependencies: python-slugify,  python-xml, ???
 """ % argv[0]
 
-### List of underlying guides (not Community Guide "wrappers") to skip
+g### List of underlying guides (not Community Guide "wrappers") to skip
 skip_list = { '342', '2525' }
 
 ### DEBUG: All (underlying) Tactics Guide and Tool Guide nids
@@ -299,9 +299,6 @@ def construct_language_specific_legacy_page(lang, legacy_data):
 
 ### Fetch a single Legacy Tactics or Tool Guides and write its contents (including book children) to a json file
 def fetch_legacy_guide(nid, legacy_index):
-    ### TODO:
-    #
-    # - Split into language-versions and write to appropriate directories
 
     print "Fetching (lg: %s)" % nid
     
@@ -436,9 +433,6 @@ title: %s
 
     ### Format Tactics Guide Sections
     # TODO: Move chapter_element code to a function
-    # TODO: Get html tags out of text  (e.g. 5th "bullet under preventing untrusted network connections"
-    #       and first entry under "Further reading"    
-    # TODO: Get \r (carriage return) characters out of text
     snippet_position = 1
     snippet_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type)
     snippet_placeholder = "\n{{ snippet: ./%s }}\n\n"
@@ -521,7 +515,6 @@ title: %s
         if section['field_htb_chapter_feature_bottom']:
             ### DEBUG
             # print "has feature"
-            ### TODO: chapter_features need to work with 'en' as well as 'und'
             lang = 'en' if section['field_htb_chapter_feature_bottom'].has_key('en') else 'und'
             if section['field_htb_chapter_feature_bottom'][lang][0]['title'].split(" ")[0] == "Snippet":
                 ### DEBUG
@@ -561,7 +554,6 @@ title: %s
     write_output(output_path, output_filename, formatted_output)
 
 ### Format Markdown output for an English Tool Guide and send it to be written
-# TODO: WIP
 def output_tool_md(front_matter, output_data):
     guide_lang, guide_community, guide_type, guide_os, guide_weight, guide_title = front_matter
     formatted_output = """

@@ -1,0 +1,1611 @@
+{
+    "body": {
+        "fr": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Site Internet</strong></p>\n\n<p><a href=\"https://www.torproject.org/\"><strong>https://www.torproject.org</strong></a></p>\n\n<p><strong>Configuration requise</strong></p>\n\n<ul><li>Compatible avec toutes les versions de <strong>Windows</strong></li>\n<li>Une connexion Internet</li>\n<li>Compatible avec tous les navigateurs populaires, en particulier <strong>Mozilla Firefox</strong>           </li>\n</ul><p><strong>Versions utilis\u00e9es pour r\u00e9diger ce guide</strong></p>\n\n<ul><li>Tor Browser: 1.3.24 </li>\n</ul><p><strong>Licence</strong></p>\n\n<ul><li>Free/Libre Open Source Software</li>\n</ul><p><strong>Lecture pr\u00e9alable</strong></p>\n\n<ul><li>Livret pratique Security in-a-box, chapitre <a href=\"/fr/chapter-8\"><strong>8. Pr\u00e9server son anonymat et contourner la censure sur Internet</strong></a> </li>\n</ul><p><strong>Niveau</strong>: 1: D\u00e9butant, 2: Moyen, 3: <strong>Interm\u00e9diaire</strong>, 4: <strong>Exp\u00e9riment\u00e9</strong>, 5: Avanc\u00e9</p>\n\n<p><strong>Temps d\u2019apprentissage</strong>: 20 - 30 minutes</p>\n\n<p><strong>Ce que vous apportera l\u2019utilisation de cet outil</strong>:</p>\n\n<ul><li>La capacit\u00e9 de cacher votre identit\u00e9 num\u00e9rique sur Internet.</li>\n<li>La capacit\u00e9 de d\u00e9jouer vos <strong>fournisseurs de service Internet</strong> et les m\u00e9canismes de surveillance en dissimulant vos destinations en ligne. </li>\n<li>La capacit\u00e9 de contourner la censure et les r\u00e8gles de filtrage sur Internet.</li>\n</ul><p><strong>Autres programmes compatibles avec GNU Linux, Mac OS et/ou Microsoft Windows</strong>:</p>\n\n<p>Il existe des versions du client de r\u00e9seau de connexion anonyme <strong>Tor</strong> pour les syst\u00e8mes d'exploitation *GNU Linux**, <strong>Mac OS</strong> et <strong>Microsoft Windows</strong>. <strong>Tor</strong> est l'outil en son genre le plus recommand\u00e9 et le mieux test\u00e9. Nous vous pr\u00e9sentons n\u00e9anmoins d'autres solutions:</p>\n\n<ul><li><a href=\"http://hotspotshield.com/\"><strong>Hotspot Shield</strong></a> est une solution commerciale gratuite de <strong>R\u00e9seau priv\u00e9 virtuel</strong> (<strong>VPN</strong>)  pour <strong>Microsoft Windows</strong>.</li>\n<li><a href=\"http://www.dit-inc.us/freegate\"><strong>Dynaweb FreeGate</strong></a> est un outil de proxy gratuit pour <strong>Microsoft Windows</strong>.</li>\n<li><a href=\"http://www.ultrareach.com/\"><strong>UltraReach UltraSurf</strong></a> est un outil de proxy gratuit pour <strong>Microsoft Windows</strong>.</li>\n<li><a href=\"http://www.your-freedom.net/\"><strong>Your Freedom</strong></a> est un outil de proxy commercial qui offre \u00e9galement un service gratuit (quoique plus lent). Il est disponible en versions <strong>Linux</strong>, <strong>Mac OS</strong> et <strong>Microsoft Windows</strong>.</li>\n<li><a href=\"http://psiphon.ca/\"><strong>Psiphon</strong></a> est un proxy web et fonctionne donc avec tous les syst\u00e8mes d'exploitation.</li>\n</ul><p>Nous sugg\u00e9rons fortement de lire la documentation concue par  <a href=\"http://sesawe.net/\"><strong>Sesawe</strong></a>, une alliance mondiale vou\u00e9e \u00e0 la promotion de l'acc\u00e8s \u00e0 l'information sans censure sur Internet.</p>\n\n<h2>1.1 \u00c0 propos de cet outil</h2>\n\n<p><strong>Tor</strong> est un logiciel con\u00e7u pour accro\u00eetre le degr\u00e9 de s\u00e9curit\u00e9 et d\u2019anonymat de vos activit\u00e9s et habitudes de navigation sur Internet. Il agit en camouflant votre identit\u00e9 et en brouillant la trace de vos activit\u00e9s sur Internet, afin que les technologies de surveillance soient incapables de vous retracer. Que l\u2019anonymat soit important ou pas pour vous, <strong>Tor</strong> peut s\u2019av\u00e9rer un moyen utile et s\u00e9curitaire de promouvoir les libert\u00e9s en ligne et contourner les mesures de censure sur Internet lorsque vous naviguez (ou publiez) sur certains sites ou carnets.</p>\n\n<p><strong>Tor</strong> prot\u00e8ge votre anonymat en routant vos communications \u00e0 travers un r\u00e9seau d\u00e9centralis\u00e9 de serveurs/relais g\u00e9r\u00e9 par des b\u00e9n\u00e9voles un peu partout dans le monde. Cela emp\u00eache d\u2019\u00e9ventuels agents espions ou malveillants de surveiller votre connexion Internet pour savoir quels sites vous avez visit\u00e9s et/ou pour d\u00e9terminer votre position g\u00e9ographique (o\u00f9 vous vous trouvez, sur quel ordinateur vous travaillez, etc.). Quant aux administrateurs b\u00e9n\u00e9voles du r\u00e9seau <strong>Tor</strong>, certains d\u2019entre eux sont en mesure de savoir que vous utilisez le logiciel, et certains autres peuvent savoir que <em>quelqu\u2019un</em> est en train d\u2019acc\u00e9der aux sites que vous visitez, mais personne ne peut d\u00e9tenir ces deux renseignements en m\u00eame temps.</p>\n\n<p><strong>Tor</strong> peut camoufler vos tentatives de connexion \u00e0 un site en particulier, mais n\u2019a pas \u00e9t\u00e9 con\u00e7u pour cacher le contenu de vos communications. En cons\u00e9quence, <strong>Tor</strong> peut ajouter une couche suppl\u00e9mentaire de protection lorsque vous l\u2019utilisez en combinaison avec d\u2019autres services s\u00e9curis\u00e9s comme <strong>Riseup</strong> ou <strong>Gmail</strong>, mais vous ne devriez pas utiliser ce programme pour acc\u00e9der \u00e0 des fournisseurs de service de courrier \u00e9lectronique non s\u00e9curis\u00e9, comme <strong>Hotmail</strong> ou <strong>Yahoo</strong>, ou tout autre site qui envoie ou re\u00e7oit des renseignements sensibles par une connexion <em>http</em> non s\u00e9curis\u00e9e.</p>\n\n<p><strong>D\u00e9finitions</strong>:</p>\n\n<ul><li><p><strong>Port</strong>: Dans ce guide, le terme \u00ab port \u00bb d\u00e9signe un point d\u2019entr\u00e9e \u00e0 travers lequel un logiciel peut communiquer avec des services se trouvant sur d\u2019autres ordinateurs mis en r\u00e9seau. Si une URL, comme <strong>www.google.com</strong>, vous fournit \u00ab l\u2019adresse \u00bb d\u2019un service, le port vous indique quelle \u00ab porte \u00bb utiliser lorsque vous arrivez \u00e0 la bonne destination. Lorsque vous naviguez sur Internet, vous utilisez habituellement le port 80 pour les sites non s\u00e9curis\u00e9s (<strong>http://mail.google.com</strong>) et le port 443 pour les sites s\u00e9curis\u00e9s (<strong>https://mail.google.com</strong>).</p></li>\n<li><p><strong>Proxy</strong>: Dans ce guide, le terme \u00ab proxy \u00bb d\u00e9signe un logiciel interm\u00e9diaire \u2013 sur votre ordinateur, votre r\u00e9seau local ou quelque part d\u2019autre sur Internet \u2013 qui contribue \u00e0 relayer votre communication jusqu\u2019\u00e0 sa destination finale.</p></li>\n<li><p><strong>Route</strong>: Dans ce guide, le terme \u00ab route \u00bb d\u00e9signe le chemin de communication sur Internet entre votre ordinateur et le serveur de destination.</p></li>\n<li><p><strong>Relais passerelle</strong>: Un relais passerelle (ou passerelle) est un serveur <strong>Tor</strong> qui facilite votre premi\u00e8re entr\u00e9e dans le r\u00e9seau de connexion anonyme <strong>Tor</strong>. Les passerelles sont optionnelles et sont con\u00e7ues pour \u00eatre utilis\u00e9es dans les pays o\u00f9 l\u2019acc\u00e8s \u00e0 <strong>Tor</strong> est bloqu\u00e9.</p></li>\n</ul>", 
+                "summary": "", 
+                "value": "**Site Internet**\r\n\t\t\t\r\n[**https://www.torproject.org**](https://www.torproject.org/)\r\n\t\t\t\r\n**Configuration requise**\r\n\r\n- Compatible avec toutes les versions de **Windows**\r\n- Une connexion Internet\r\n- Compatible avec tous les navigateurs populaires, en particulier **Mozilla Firefox**\t\t\t\r\n\r\n**Versions utilis\u00e9es pour r\u00e9diger ce guide**\r\n\r\n- Tor Browser: 1.3.24 \r\n\r\n**Licence** \r\n\r\n- Free/Libre Open Source Software\r\n\r\n**Lecture pr\u00e9alable** \r\n\r\n- Livret pratique Security in-a-box, chapitre [**8. Pr\u00e9server son anonymat et contourner la censure sur Internet**](/fr/chapter-8) \r\n\r\n**Niveau**: 1: D\u00e9butant, 2: Moyen, 3: **Interm\u00e9diaire**, 4: **Exp\u00e9riment\u00e9**, 5: Avanc\u00e9  \r\n\r\n**Temps d\u2019apprentissage**: 20 - 30 minutes \r\n\r\n**Ce que vous apportera l\u2019utilisation de cet outil**: \r\n\r\n- La capacit\u00e9 de cacher votre identit\u00e9 num\u00e9rique sur Internet.\r\n- La capacit\u00e9 de d\u00e9jouer vos **fournisseurs de service Internet** et les m\u00e9canismes de surveillance en dissimulant vos destinations en ligne. \r\n- La capacit\u00e9 de contourner la censure et les r\u00e8gles de filtrage sur Internet.\r\n\r\n**Autres programmes compatibles avec GNU Linux, Mac OS et/ou Microsoft Windows**:\r\n\r\nIl existe des versions du client de r\u00e9seau de connexion anonyme **Tor** pour les syst\u00e8mes d'exploitation *GNU Linux**, **Mac OS** et **Microsoft Windows**. **Tor** est l'outil en son genre le plus recommand\u00e9 et le mieux test\u00e9. Nous vous pr\u00e9sentons n\u00e9anmoins d'autres solutions: \r\n\r\n* [**Hotspot Shield**](http://hotspotshield.com/) est une solution commerciale gratuite de **R\u00e9seau priv\u00e9 virtuel** (**VPN**)  pour **Microsoft Windows**.\r\n* [**Dynaweb FreeGate**](http://www.dit-inc.us/freegate) est un outil de proxy gratuit pour **Microsoft Windows**.\r\n* [**UltraReach UltraSurf**](http://www.ultrareach.com/) est un outil de proxy gratuit pour **Microsoft Windows**.\r\n* [**Your Freedom**](http://www.your-freedom.net/) est un outil de proxy commercial qui offre \u00e9galement un service gratuit (quoique plus lent). Il est disponible en versions **Linux**, **Mac OS** et **Microsoft Windows**.\r\n* [**Psiphon**](http://psiphon.ca/) est un proxy web et fonctionne donc avec tous les syst\u00e8mes d'exploitation.\r\n\r\nNous sugg\u00e9rons fortement de lire la documentation concue par  [**Sesawe**](http://sesawe.net/), une alliance mondiale vou\u00e9e \u00e0 la promotion de l'acc\u00e8s \u00e0 l'information sans censure sur Internet.\r\n\r\n## 1.1 \u00c0 propos de cet outil ##\r\n\r\n**Tor** est un logiciel con\u00e7u pour accro\u00eetre le degr\u00e9 de s\u00e9curit\u00e9 et d\u2019anonymat de vos activit\u00e9s et habitudes de navigation sur Internet. Il agit en camouflant votre identit\u00e9 et en brouillant la trace de vos activit\u00e9s sur Internet, afin que les technologies de surveillance soient incapables de vous retracer. Que l\u2019anonymat soit important ou pas pour vous, **Tor** peut s\u2019av\u00e9rer un moyen utile et s\u00e9curitaire de promouvoir les libert\u00e9s en ligne et contourner les mesures de censure sur Internet lorsque vous naviguez (ou publiez) sur certains sites ou carnets. \r\n\r\n**Tor** prot\u00e8ge votre anonymat en routant vos communications \u00e0 travers un r\u00e9seau d\u00e9centralis\u00e9 de serveurs/relais g\u00e9r\u00e9 par des b\u00e9n\u00e9voles un peu partout dans le monde. Cela emp\u00eache d\u2019\u00e9ventuels agents espions ou malveillants de surveiller votre connexion Internet pour savoir quels sites vous avez visit\u00e9s et/ou pour d\u00e9terminer votre position g\u00e9ographique (o\u00f9 vous vous trouvez, sur quel ordinateur vous travaillez, etc.). Quant aux administrateurs b\u00e9n\u00e9voles du r\u00e9seau **Tor**, certains d\u2019entre eux sont en mesure de savoir que vous utilisez le logiciel, et certains autres peuvent savoir que *quelqu\u2019un* est en train d\u2019acc\u00e9der aux sites que vous visitez, mais personne ne peut d\u00e9tenir ces deux renseignements en m\u00eame temps. \r\n\r\n**Tor** peut camoufler vos tentatives de connexion \u00e0 un site en particulier, mais n\u2019a pas \u00e9t\u00e9 con\u00e7u pour cacher le contenu de vos communications. En cons\u00e9quence, **Tor** peut ajouter une couche suppl\u00e9mentaire de protection lorsque vous l\u2019utilisez en combinaison avec d\u2019autres services s\u00e9curis\u00e9s comme **Riseup** ou **Gmail**, mais vous ne devriez pas utiliser ce programme pour acc\u00e9der \u00e0 des fournisseurs de service de courrier \u00e9lectronique non s\u00e9curis\u00e9, comme **Hotmail** ou **Yahoo**, ou tout autre site qui envoie ou re\u00e7oit des renseignements sensibles par une connexion *http* non s\u00e9curis\u00e9e. \r\n\r\n**D\u00e9finitions**: \r\n\r\n- **Port**: Dans ce guide, le terme \u00ab port \u00bb d\u00e9signe un point d\u2019entr\u00e9e \u00e0 travers lequel un logiciel peut communiquer avec des services se trouvant sur d\u2019autres ordinateurs mis en r\u00e9seau. Si une URL, comme **www.google.com**, vous fournit \u00ab l\u2019adresse \u00bb d\u2019un service, le port vous indique quelle \u00ab porte \u00bb utiliser lorsque vous arrivez \u00e0 la bonne destination. Lorsque vous naviguez sur Internet, vous utilisez habituellement le port 80 pour les sites non s\u00e9curis\u00e9s (**http://mail.google.com**) et le port 443 pour les sites s\u00e9curis\u00e9s (**https://mail.google.com**). \r\n\r\n- **Proxy**: Dans ce guide, le terme \u00ab proxy \u00bb d\u00e9signe un logiciel interm\u00e9diaire \u2013 sur votre ordinateur, votre r\u00e9seau local ou quelque part d\u2019autre sur Internet \u2013 qui contribue \u00e0 relayer votre communication jusqu\u2019\u00e0 sa destination finale. \r\n\r\n- **Route**: Dans ce guide, le terme \u00ab route \u00bb d\u00e9signe le chemin de communication sur Internet entre votre ordinateur et le serveur de destination. \r\n\r\n- **Relais passerelle**: Un relais passerelle (ou passerelle) est un serveur **Tor** qui facilite votre premi\u00e8re entr\u00e9e dans le r\u00e9seau de connexion anonyme **Tor**. Les passerelles sont optionnelles et sont con\u00e7ues pour \u00eatre utilis\u00e9es dans les pays o\u00f9 l\u2019acc\u00e8s \u00e0 **Tor** est bloqu\u00e9.\r\n"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2067", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2067", 
+        "link_title": "Tor Browser - Digital Anonymity and Circumvention", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5213", 
+        "module": "book", 
+        "nid": "2067", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5213", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "Tor Browser - Digital Anonymity and Circumvention", 
+        "updated": "0", 
+        "weight": "0"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "fr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>2.0 Comment extraire le paquetage du navigateur Tor</h2>\n\n<p>Le <strong>paquetage du navigateur Tor</strong> contient tout ce dont vous avez besoin pour naviguer en s\u00e9curit\u00e9 sur Internet: le programme <strong>Tor</strong>, <strong>Polipo</strong>, <strong>Vidalia</strong>, la version portable de <strong>Firefox</strong> et le module compl\u00e9mentaire <strong>Torbutton</strong> pour <strong>Firefox</strong>. Ce paquetage ne requiert aucune installation; vousa n'avez qu'\u00e0 l'extraire et l'ex\u00e9cuter.</p>\n\n<p>Pour extraire le <strong>paquetage du navigateur Tor</strong>, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Double-cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/01.png\" alt=\"\" />; il est possible que la bo\u00eete de dialogue <em>Fichier ouvert - Avertissement de s\u00e9curit\u00e9</em> s'affiche. Le cas \u00e9ch\u00e9ant, <strong>cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/02.png\" alt=\"\" /> pour afficher la fen\u00eatre suivante:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/03.png\" alt=\"\" /></p>\n\n<p><em>Figure 1: La fen\u00eatre 7-Zip self-extracting archive</em></p>\n\n<p><strong>Note</strong>: Le <strong>paquetage du navigateur Tor</strong> ne s'installe pas automatiquement dans le r\u00e9pertoire <em>C:\\Program Files</em>, contrairement aux proc\u00e9dures d'installation de la majorit\u00e9 des outils que nous recommandons.</p>\n\n<p><strong>Important</strong>: Il est \u00e9galement possible d'installer et d'utiliser le <strong>paquetage du navigateur Tor</strong> sur une cl\u00e9 USB. Cela peut vous permettre de dissimuler le fait que vous utilisez <strong>Tor</strong> sur votre ordinateur.</p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong>, soit sur <img src=\"/sbox/screen/tor-fr/04.png\" alt=\"\" /> pour accepter le r\u00e9pertoire par d\u00e9faut, soit sur <img src=\"/sbox/screen/tor-fr/05.png\" alt=\"\" /> pour afficher la fen\u00eatre <em>Rechercher un dossier</em>:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/06.png\" alt=\"\" /></p>\n\n<p><em>Figure 2: La fen\u00eatre Rechercher un dossier</em></p>\n\n<p><strong>Troisi\u00e8me \u00e9tape</strong>. <strong>Naviguez</strong> jusqu'au dossier d\u00e9sir\u00e9 pour installer le <strong>paquetage du navigateur Tor</strong>, puis <strong>cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/07.png\" alt=\"\" /> pour confirmer votre choix, tel qu'illustr\u00e9 ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/tor-en/08.png\" alt=\"\" /></p>\n\n<p><em>Figure 3: Un exemple de chemin d'installation pour le paquetage du navigateur Tor</em></p>\n\n<p><strong>Quatri\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/04.png\" alt=\"\" /> pour lancer l'extraction des fichiers et dossiers du <strong>paquetage du navigateur Tor</strong> et afficher la fen\u00eatre de progression suivante:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/09.png\" alt=\"\" /></p>\n\n<p><em>Figure 4: La fen\u00eatre de progression de l'extraction</em></p>\n\n<p>Dans le pr\u00e9sent exemple, \u00e0 l'issue du processus d'extraction, le <strong>paquetage du navigateur Tor</strong> appara\u00eet dans le chemin de r\u00e9pertoire <em>C: Program Files\\Tor Browser</em>, tel qu'illustr\u00e9 ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/10.png\" alt=\"\" /></p>\n\n<p><em>Figure 5: Le paquetage du navigateur Tor install\u00e9 dans le r\u00e9pertoire Program Files</em></p>\n\n<p>Vous avez compl\u00e9t\u00e9 l'extraction du <strong>paquetage du navigateur Tor</strong>.</p>\n\n<p>Veuillez maintenant poursuivre la lecture du guide <a href=\"/fr/tor_reseau\"><strong>Comment acc\u00e9der \u00e0 Internet par l'interm\u00e9diaire du r\u00e9seau Tor</strong></a> pour commencer \u00e0 naviguer sur Internet de fa\u00e7on anonyme et s\u00e9curis\u00e9e.</p>\n", 
+                        "summary": "", 
+                        "value": "<a name=\"2.0\"></a>\r\n## 2.0 Comment extraire le paquetage du navigateur Tor ##\r\n\r\nLe **paquetage du navigateur Tor** contient tout ce dont vous avez besoin pour naviguer en s\u00e9curit\u00e9 sur Internet: le programme **Tor**, **Polipo**, **Vidalia**, la version portable de **Firefox** et le module compl\u00e9mentaire **Torbutton** pour **Firefox**. Ce paquetage ne requiert aucune installation; vousa n'avez qu'\u00e0 l'extraire et l'ex\u00e9cuter.\r\n\r\nPour extraire le **paquetage du navigateur Tor**, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous: \r\n\r\n**Premi\u00e8re \u00e9tape**. **Double-cliquez** sur ![](/sbox/screen/tor-fr/01.png); il est possible que la bo\u00eete de dialogue *Fichier ouvert - Avertissement de s\u00e9curit\u00e9* s'affiche. Le cas \u00e9ch\u00e9ant, **cliquez** sur ![](/sbox/screen/tor-fr/02.png) pour afficher la fen\u00eatre suivante:\r\n\r\n![](/sbox/screen/tor-fr/03.png)\r\n\r\n*Figure 1: La fen\u00eatre 7-Zip self-extracting archive*\r\n\r\n**Note**: Le **paquetage du navigateur Tor** ne s'installe pas automatiquement dans le r\u00e9pertoire *C:\\Program Files*, contrairement aux proc\u00e9dures d'installation de la majorit\u00e9 des outils que nous recommandons.\r\n\r\n**Important**: Il est \u00e9galement possible d'installer et d'utiliser le **paquetage du navigateur Tor** sur une cl\u00e9 USB. Cela peut vous permettre de dissimuler le fait que vous utilisez **Tor** sur votre ordinateur.\r\n\r\n**Deuxi\u00e8me \u00e9tape**. **Cliquez**, soit sur ![](/sbox/screen/tor-fr/04.png) pour accepter le r\u00e9pertoire par d\u00e9faut, soit sur ![](/sbox/screen/tor-fr/05.png) pour afficher la fen\u00eatre *Rechercher un dossier*:\r\n\r\n![](/sbox/screen/tor-fr/06.png)\r\n\r\n*Figure 2: La fen\u00eatre Rechercher un dossier*\r\n\r\n**Troisi\u00e8me \u00e9tape**. **Naviguez** jusqu'au dossier d\u00e9sir\u00e9 pour installer le **paquetage du navigateur Tor**, puis **cliquez** sur ![](/sbox/screen/tor-fr/07.png) pour confirmer votre choix, tel qu'illustr\u00e9 ci-dessous: \r\n\r\n![](/sbox/screen/tor-en/08.png)\r\n\r\n*Figure 3: Un exemple de chemin d'installation pour le paquetage du navigateur Tor*\r\n\r\n**Quatri\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/tor-fr/04.png) pour lancer l'extraction des fichiers et dossiers du **paquetage du navigateur Tor** et afficher la fen\u00eatre de progression suivante: \r\n\r\n![](/sbox/screen/tor-fr/09.png)\r\n\r\n*Figure 4: La fen\u00eatre de progression de l'extraction*\r\n\r\nDans le pr\u00e9sent exemple, \u00e0 l'issue du processus d'extraction, le **paquetage du navigateur Tor** appara\u00eet dans le chemin de r\u00e9pertoire *C: Program Files\\Tor Browser*, tel qu'illustr\u00e9 ci-dessous: \r\n\r\n![](/sbox/screen/tor-fr/10.png) \r\n\r\n*Figure 5: Le paquetage du navigateur Tor install\u00e9 dans le r\u00e9pertoire Program Files*\r\n\r\nVous avez compl\u00e9t\u00e9 l'extraction du **paquetage du navigateur Tor**.\r\n\r\nVeuillez maintenant poursuivre la lecture du guide [**Comment acc\u00e9der \u00e0 Internet par l'interm\u00e9diaire du r\u00e9seau Tor**](/fr/tor_reseau) pour commencer \u00e0 naviguer sur Internet de fa\u00e7on anonyme et s\u00e9curis\u00e9e."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2068", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2068", 
+                "link_title": "How to extract the Tor Browser", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5214", 
+                "module": "book", 
+                "nid": "2068", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5213", 
+                "p3": "5214", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5213", 
+                "router_path": "node/%", 
+                "title": "How to extract the Tor Browser", 
+                "updated": "0", 
+                "weight": "0"
+            }, 
+            "changed": "1456839675", 
+            "comment": "0", 
+            "created": "1441185797", 
+            "current_revision_id": "13413", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "tor_extraire", 
+                        "value": "tor_extraire"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5214": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2068", 
+                    "link_title": "How to extract the Tor Browser", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5214", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5213", 
+                    "p3": "5214", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5213", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "0"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2068", 
+            "num_revisions": "34", 
+            "path": "https://securityinabox.org/en/node/2068", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456839675", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Comment extraire le paquetage du navigateur Tor", 
+                        "value": "Comment extraire le paquetage du navigateur Tor"
+                    }
+                ]
+            }, 
+            "title_original": "How to extract the Tor Browser", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442936905", 
+                        "created": "1442936905", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454332084", 
+                        "created": "1441892028", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442504018", 
+                        "created": "1442504018", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442320333", 
+                        "created": "1441638777", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442848588", 
+                        "created": "1442848588", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1456839675", 
+                        "created": "1444395075", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455126755", 
+                        "created": "1455126755", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443628076", 
+                        "created": "1443628076", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441196108", 
+                        "created": "1441196108", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444191281", 
+                        "created": "1444191281", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443022488", 
+                        "created": "1443022488", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444835041", 
+                        "created": "1444731419", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446476989", 
+                        "created": "1441185797", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2068", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445440527", 
+                        "created": "1445440527", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "fb847a97-270f-4ac7-95a7-ede3ec63e75d", 
+            "vid": "13413", 
+            "vuuid": "423220ac-d847-448e-b368-23963acc2f7b"
+        }, 
+        {
+            "body": {
+                "fr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Sommaire des sections de cette page:</p>\n\n<ul><li><a href=\"#3.0\"><strong>3.0 \u00c0 propos de l'acc\u00e8s au r\u00e9seau Tor</strong></a></li>\n<li><a href=\"#3.1\"><strong>3.1 Comment se connecter au r\u00e9seau Tor</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 Comment v\u00e9rifier manuellement votre connexion au r\u00e9seau Tor</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 Comment naviguer sur Internet en utilisant Tor</strong></a></li>\n<li><a href=\"#3.3.1\"><strong>3.3.1 Comment configurer Mozilla Firefox pour fonctionner avec Tor</strong></a></li>\n<li><a href=\"#3.3.2\"><strong>3.3.2 Comment configurer Internet Explorer pour fonctionner avec Tor</strong></a></li>\n</ul><hr /><p><a name=\"3.0\" id=\"3.0\"></a></p>\n\n<h2>3.0 \u00c0 propos de l'acc\u00e8s au r\u00e9seau Tor</h2>\n\n<p>Pour commencer \u00e0 naviguer anonymement sur Internet, vous devez lancer le programme <strong>Navigateur Tor</strong>. Dans un premier temps, le programme connectera votre syst\u00e8me au r\u00e9seau <strong>Tor</strong>. Une fois que la connexion au r\u00e9seau <strong>Tor</strong> sera \u00e9tablie, le <strong>Navigateur Tor</strong> lancera automatiquement une instance distincte du <strong>Firefox portable</strong> qui est inclus dans le <strong>Paquetage du navigateur Tor</strong>.</p>\n\n<p><strong>Note</strong>: Il y a un compromis n\u00e9cessaire entre l'anonymat et la vitesse d'ex\u00e9cution. Puisque <strong>Tor</strong> facilite la navigation anonyme, son utilisation ralentira consid\u00e9rablement la navigation. <strong>Tor</strong> fait transiter votre navigation par les ordinateurs de nombreux b\u00e9n\u00e9voles situ\u00e9s un peu partout dans le monde afin de prot\u00e9ger votre s\u00e9curit\u00e9 et votre identit\u00e9.</p>\n\n<p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 Comment se connecter au r\u00e9seau Tor</h2>\n\n<p>Pour se connecter au r\u00e9seau <strong>Tor</strong>, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Naviguez</strong> jusqu'au dossier du <em>Navigateur Tor</em>, puis <strong>double-cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/30.png\" alt=\"\" /> pour afficher la fen\u00eatre suivante:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/24.png\" alt=\"\" /></p>\n\n<p><em>Figure 1: Le panneau de contr\u00f4le de Vidalia en cours de connexion au r\u00e9seau Tor</em></p>\n\n<p>Lorsque le <em>Panneau de contr\u00f4le de Vidalia</em> \u00e9tablit une connexion au r\u00e9seau <strong>Tor</strong>, un icone ressemblant \u00e0 un oignon jaune appara\u00eet dans la <em>barre des t\u00e2ches</em>, comme suit:  <img src=\"/sbox/screen/tor-fr/31.png\" alt=\"\" />. Une fois que la connexion a \u00e9t\u00e9 \u00e9tablie entre votre ordinateur et le r\u00e9seau <strong>Tor</strong>, l'icone devient vert: <img src=\"/sbox/screen/tor-fr/32.png\" alt=\"\" /></p>\n\n<p><strong>Note</strong>: Pour apprendre \u00e0 utiliser efficacement le <em>Panneau de contr\u00f4le de Vidalia</em>, veuillez consulter la page <a href=\"/fr/tor_vidaliacontrole\"><strong>Comment utiliser le Panneau de contr\u00f4le de Vidalia</strong></a>.</p>\n\n<p>Quelques secondes plus tard, le <strong>Navigateur Tor</strong> activera le navigateur <strong>Mozilla Firefox</strong> affichant la fen\u00eatre suivante:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/33.png\" alt=\"\" /></p>\n\n<p><em>Figure 2: Mozilla Firefox affichant l'onglet Are you using Tor?</em></p>\n\n<p>Chaque fois que vous lancez le programme <strong>Navigateur Tor</strong>, ce dernier active automatiquement le <em>Panneau de contr\u00f4le Vidalia</em> (<em>Figure 1</em>) et la fen\u00eatre <a href=\"https://check.torproject.org/\"><strong>https://check.torproject.org/</strong></a>  (<em>Figure 2</em>). Le module compl\u00e9mentaire <strong>Torbutton</strong> appara\u00eet \u00e9galement dans le coin inf\u00e9rieur droit de la fen\u00eatre, comme suit: <img src=\"/sbox/screen/tor-fr/34.png\" alt=\"\" /></p>\n\n<p><strong>Note</strong>: Par contre, si une fen\u00eatre de navigation de <strong>Mozilla Firefox</strong> \u00e9tait d\u00e9j\u00e0 ouverte lorsque vous avez lanc\u00e9 le <strong>Navigateur Tor</strong>, le <strong>Torbutton</strong> appara\u00eetra en mode d\u00e9sactiv\u00e9 dans cette m\u00eame fen\u00eatre, comme suit: <img src=\"/sbox/screen/tor-fr/35.png\" alt=\"\" /></p>\n\n<p>Le <strong>Torbutton</strong> est utilis\u00e9 pour configurer <strong>Firefox</strong> afin de se connecter ad\u00e9quatement au r\u00e9seau <strong>Tor</strong>. Vous n'avez qu'\u00e0 <strong>cliquer</strong> sur le <strong>Torbutton</strong> pour alterner entre les modes actif et inactif.</p>\n\n<p>Cependant, si vous <em>n'\u00eates pas</em> connect\u00e9 au r\u00e9seau <strong>Tor</strong>, le <strong>Torbutton</strong> sera d\u00e9sactiv\u00e9 et la fen\u00eatre suivante s'affichera:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/36.png\" alt=\"\" /></p>\n\n<p><em>Figure 3: Mozilla Firefox affichant l'onglet D\u00e9sol\u00e9, vous n'utilisez pas Tor</em></p>\n\n<p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 Comment v\u00e9rifier manuellement votre connexion au r\u00e9seau Tor</h2>\n\n<p>Pour v\u00e9rifier manuellement si vous \u00eates connect\u00e9 ou non au r\u00e9seau <strong>Tor</strong>, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Ouvrez</strong> le site Internet <a href=\"https://check.torproject.org/\"><strong>https://check.torproject.org/</strong></a>. Ce site confirmera si vous \u00eates connect\u00e9 ou non au r\u00e9seau <strong>tor</strong>.</p>\n\n<p>Si votre navigateur Internet est connect\u00e9 \u00e0 l'Internet par l'entremise du r\u00e9seau <strong>Tor</strong>, les sites qui sont bloqu\u00e9s ou restreints dans votre pays seront d\u00e9sormais accessibles, et vos activit\u00e9s en ligne seront priv\u00e9es et s\u00e9curis\u00e9es. Vous remarquerez peut-\u00eatre \u00e9galement que certaines pages Web, tel que <strong>www.google.com</strong>, se comporteront occasionnellement comme si vous vous trouviez dans un autre pays. Cela est normal lorsqu'on utilise <strong>Tor</strong>.</p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h2>3.3 Comment naviguer sur Internet en utilisant Tor</h2>\n\n<p>Bien qu'il vous soit possible de commencer imm\u00e9diatement \u00e0 naviguer sur Internet avec <strong>Firefox</strong> par l'entremise du r\u00e9seau <strong>Tor</strong>, nous vous recommandons de lire la section suivante pour r\u00e9gler <strong>Firefox</strong> de sorte que votre s\u00e9curit\u00e9 et votre anonymat en ligne soient optimis\u00e9es.</p>\n\n<p><a name=\"3.3.1\" id=\"3.3.1\"></a></p>\n\n<h3>3.3.1 Comment modifier les param\u00e8tres de Mozilla Firefox pour Tor</h3>\n\n<p>Le <strong>torbutton</strong> est un module compl\u00e9mentaire pour <strong>Mozilla Firefox</strong>. Il s'agit d'un petit programme con\u00e7u pour prot\u00e9ger l'anonymat et la s\u00e9curit\u00e9 de vos activit\u00e9s en ligne en bloquant certaines vuln\u00e9rabilit\u00e9s de <strong>Mozilla Firefox</strong>.</p>\n\n<p><strong>Important</strong>: Des sites malveillants, ou m\u00eame un serveur <strong>Tor</strong>, pourraient <em>quand-m\u00eame</em> r\u00e9v\u00e9ler des renseignements sur votre emplacement et vos activit\u00e9s en ligne, et ce, <em>m\u00eame</em> lorsque vous utilisez <strong>Tor</strong>. Heureusement, la configuration par d\u00e9faut de <strong>Torbutton</strong> est relativement s\u00e9curitaire; cependant, nous vous recommandons de modifier certains param\u00e8tres pour optimiser votre s\u00e9curit\u00e9 et la protection de votre vie priv\u00e9e.</p>\n\n<p><strong>Note</strong>: Les utilisateurs <strong>avanc\u00e9s</strong> qui ont une compr\u00e9hension approfondie des enjeux de s\u00e9curit\u00e9 associ\u00e9s aux navigateurs voudront peut-\u00eatre raffiner encore davantage leurs param\u00e8tres.</p>\n\n<p>La fen\u00eatre des <em>Pr\u00e9f\u00e9rences Torbutton</em> comporte trois onglets qui vous permettent de r\u00e9gler diverses options:</p>\n\n<ul><li>L'onglet <strong>Param\u00e8tres du proxy</strong></li>\n<li>L'onglet <strong>Param\u00e8tres de s\u00e9curit\u00e9</strong></li>\n<li>L'onglet <strong>Param\u00e8tres d'affichage</strong></li>\n</ul><p>Il est facile d'acc\u00e9der \u00e0 la fen\u00eatre des <em>Pr\u00e9f\u00e9rences Torbutton</em>, que <strong>Torbutton</strong> soit activ\u00e9 ou non. Pour afficher la fen\u00eatre des <em>Pr\u00e9f\u00e9rences Torbutton</em>, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez \u00e0 droite</strong> sur le <strong>Torbutton</strong> pour afficher son menu, comme suit:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/37.png\" alt=\"\" /></p>\n\n<p><em>Figure 4: Le menu de Torbutton</em></p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>. <strong>S\u00e9lectionnez</strong> l'item <em>Pr\u00e9f\u00e9rences...</em> pour afficher la fen\u00eatre suivante:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/38.png\" alt=\"\" /></p>\n\n<p><em>Figure 5: La fen\u00eatre des pr\u00e9f\u00e9rences de Torbutton affichant l'onglet Param\u00e8tres du proxy</em></p>\n\n<ul><li>L'onglet <strong>Param\u00e8tres du proxy</strong> </li>\n</ul><p>L'onglet <em>Param\u00e8tres du proxy</em> permet de d\u00e9terminer comment <strong>Firefox</strong> acc\u00e8de \u00e0 l'Internet quand le <strong>Torbutton</strong> est activ\u00e9. Vous ne devriez pas avoir \u00e0 changer quoi que ce soit dans cet onglet.</p>\n\n<ul><li>L'onglet <strong>Param\u00e8tres de s\u00e9curit\u00e9</strong> </li>\n</ul><p>L'onglet <em>Param\u00e8tres de s\u00e9curit\u00e9</em> est con\u00e7u pour les utilisateurs <em>exp\u00e9riment\u00e9s</em> et <em>avanc\u00e9s</em> qui ont une compr\u00e9hension approfondie des navigateurs et de la s\u00e9curit\u00e9 sur Internet. Ses param\u00e8tres par d\u00e9faut pr\u00e9sentent un niveau \u00e9lev\u00e9 de s\u00e9curit\u00e9 pour les utilisateurs moyens. Ces <em>Param\u00e8tres de s\u00e9curit\u00e9</em> vous permettent de d\u00e9terminer comment <strong>Torbutton</strong> g\u00e8re l'historique de navigation, la m\u00e9moire cache, les cookies et d'autres fonctions de <strong>firefox</strong>.</p>\n\n<p><img src=\"/sbox/screen/tor-fr/39.png\" alt=\"\" /></p>\n\n<p><em>Figure 6: L'onglet Param\u00e8tres de s\u00e9curit\u00e9</em></p>\n\n<p>L'option <em>D\u00e9sactiver les plugins pendant l'utilisation de Tor (indispensable)</em> est l'un des quelques param\u00e8tres de s\u00e9curit\u00e9 que vous pourriez devoir activer, quoique <em>temporairement</em>. Pour afficher des contenus vid\u00e9o en ligne avec <strong>Tor</strong>, y compris avec les services de <a href=\"http://www.dailymotion.com/\"><strong>DailyMotion</strong></a>, <a href=\"http://hub.witness.org/\"><strong>The Hub</strong></a> et <a href=\"http://www.youtube.com\"><strong>YouTube</strong></a>, vous devez <strong>d\u00e9cocher</strong> l'option <em>D\u00e9sactiver les plugins pendant l'utilisation de Tor</em>.</p>\n\n<p><strong>Note</strong>: Vous ne devriez activer que les plugins des sites de confiance, et vous devez retourner \u00e0 l'onglet <em>Param\u00e8tres de s\u00e9curit\u00e9</em> et <strong>re-cocher</strong> l'option <em>D\u00e9sactiver les plugins penadnt l'utilisation de Tor</em> lorsque vous aurez compl\u00e9t\u00e9 votre visite de ces sites.</p>\n\n<p>Pour plus d'information sur les fonctions particuli\u00e8res de chaque option de l'onglet <strong>Param\u00e8tres de s\u00e9curit\u00e9</strong>, veuillez consulter la page <a href=\"https://www.torproject.org/torbutton/\"><strong>Torbutton</strong></a>.</p>\n\n<ul><li>L'onglet <strong>Param\u00e8tres d'affichage</strong></li>\n</ul><p>L'onglet <em>Param\u00e8tres d'affichage</em> vous permet de d\u00e9terminer comment s'affiche le <strong>Torbutton</strong> dans la barre d\u2019\u00e9tat de <strong>Firefox</strong>, soit <img src=\"/sbox/screen/tor-fr/34.png\" alt=\"\" /> ou <img src=\"/sbox/screen/tor-fr/40.png\" alt=\"\" />, ou <img src=\"/sbox/screen/tor-fr/35.png\" alt=\"\" /> ou <img src=\"/sbox/screen/tor-fr/41.png\" alt=\"\" />. La fonctionnalit\u00e9 op\u00e8re de fa\u00e7on identique d\u2019une mani\u00e8re ou d\u2019une autre.</p>\n\n<p><img src=\"/sbox/screen/tor-fr/42.png\" alt=\"\" /></p>\n\n<p><em>Figure 7: L'onglet Param\u00e8tres d'affichage</em></p>\n\n<p><strong>Conseil</strong>: Lorsque vous avez termin\u00e9 votre consultation, assurez-vous de supprimer cotre cache de fichiers temporaires et vos cookies. Cela peut \u00eatre fait dans <strong>Firefox</strong> en <strong>s\u00e9lectionnant <em>Outils &gt; Supprimer l'historique r\u00e9cent...</em>, cochant</strong> toutes les options disponibles dans la fen\u00eatre qui s'affiche, puis en <strong>cliquant</strong> sur le bouton <em>Effacer maintenant</em>. Pour plus d'information \u00e0 ce sujet, veuillez consulter le chapitre du <strong>Guide pratique</strong> portant sur [<strong>Mozilla Firefox</strong>] (/fr/firefox_privacy_and_security).</p>\n\n<p>Pour plus dinformation sur le <strong>Torbutton</strong>, veuillez consulter la page <a href=\"https://www.torproject.org/torbutton/torbutton-faq.html.en\"><strong>Torbutton FAQ</strong></a>.</p>\n\n<p><a name=\"3.3.2\" id=\"3.3.2\"></a></p>\n\n<h3>3.3.2 Comment configurer Internet Explorer pour fonctionner avec Tor</h3>\n\n<p><strong>Note</strong>: Bien que <strong>Tor</strong> soit con\u00e7u pour fonctionner avec n'importe quel navigateur, <strong>Firefox</strong> et <strong>Tor</strong> constituent une combinaison id\u00e9ale pour \u00e9viter d'\u00eatre d\u00e9tect\u00e9 par des parties malveillantes ou hostiles. Id\u00e9alement, <strong>Internet Explorer</strong> ne devrait \u00eatre utilis\u00e9 qu'en dernier ressort!</p>\n\n<p>Cela dit, si vous \u00eates dans une situation o\u00f9 l'utilisation d'<strong>Internet Explorer</strong> est compl\u00e8tement in\u00e9vitable, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Ouvrez</strong> le navigateur <strong>Internet Explorer</strong>.</p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>. <strong>S\u00e9lectionnez Outils &gt; Options Internet</strong> pour afficher la fen\u00eatre <em>Options Internet</em>.</p>\n\n<p><strong>Troisi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur l'onglet <em>Connexions</em> pour afficher la fen\u00eatre illustr\u00e9e \u00e0 la <em>Figure 8</em> ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/43.png\" alt=\"\" /></p>\n\n<p><em>Figure 8: L'onglet Connexions de la fen\u00eatre Options Internet</em></p>\n\n<p><strong>Quatri\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/44.png\" alt=\"\" /> pour afficher la fen\u00eatre <em>Param\u00e8tres du r\u00e9seau local</em> illustr\u00e9e ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/45.png\" alt=\"\" /></p>\n\n<p><em>Figure 9: La fen\u00eatre des Param\u00e8tres du r\u00e9seau local</em></p>\n\n<p><strong>Cinqui\u00e8me \u00e9tape</strong>. <strong>Cochez</strong> l'option <em>Utiliser un serveur proxy...</em>, tel qu'illustr\u00e9 \u00e0 la <em>figure 9</em> ci-dessus, puis <strong>cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/46.png\" alt=\"\" /> pour afficher la fen\u00eatre des <em>Param\u00e8tres du proxy</em>.</p>\n\n<p><strong>Sixi\u00e8me \u00e9tape</strong>. <strong>Remplissez</strong> les zones des param\u00e8tres du proxy tel qu'illustr\u00e9 ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/47.png\" alt=\"\" /></p>\n\n<p><em>Figure 10: Un exemple de fen\u00eatre de param\u00e8tres du proxy</em></p>\n\n<p><strong>Septi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/07.png\" alt=\"\" /> sur chacune des fen\u00eatres de configuration ci-dessus pour sortir de la fen\u00eatre <strong>Options Internet</strong> et revenir au navigateur <strong>Internet Explorer</strong>.</p>\n\n<p><strong>Note</strong>: Vous devrez r\u00e9p\u00e9ter les <strong>\u00e9tapes 1 \u00e0 4</strong> pour cesser d'utiliser <strong>Tor</strong>. Au lieu de l'<strong>\u00e9tape 5</strong>, vous devriez <strong>d\u00e9sactiver</strong> l'option <em>Utiliser un serveur proxy...</em>.</p>\n\n<p><strong>Conseil</strong>: Vous devez vider le cache des fichiers Internet temporaires et supprimer les cookies et l'historique de navigation \u00e0 la fin de votre s\u00e9ance de navigation en suivant les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:</p>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>S\u00e9lectionnez Outils &gt; Options Internet</strong> pour afficher l'onglet <em>G\u00e9n\u00e9ral</em> par d\u00e9faut, tel qu'illustr\u00e9 ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/48.png\" alt=\"\" /></p>\n\n<p><em>Figure 11: L'onglet G\u00e9n\u00e9ral des Options Internet d'Internet Explorer</em></p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/49.png\" alt=\"\" /> dans la section <em>Historique de navigation</em> pour afficher la fen\u00eatre <em>Supprimer l'historique de navigation</em>:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/50.png\" alt=\"\" /></p>\n\n<p><em>Figure 12: la fen\u00eatre Supprimer l'historique de navigation</em></p>\n\n<p><strong>Troisi\u00e8me \u00e9tape</strong>. <strong>Cochez</strong> <em>Fichiers Internet temporaires</em>, <em>Cookies</em> et <em>Historique</em>.</p>\n\n<p><strong>Quatri\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/51.png\" alt=\"\" /> pour supprimer les Fichiers Internet temporaires, les Cookies et l'Historique de navigation.</p>\n\n<p><strong>Note:</strong> Pour acc\u00e9der au r\u00e9seau <strong>Tor</strong> avec <strong>Internet Explorer</strong>, vous devez laisser fonctionner le <strong>Navigateur Tor</strong> avec <strong>Vidalia</strong> connect\u00e9 au r\u00e9seau <strong>Tor</strong>.</p>\n", 
+                        "summary": "", 
+                        "value": "Sommaire des sections de cette page:\r\n\r\n- [**3.0 \u00c0 propos de l'acc\u00e8s au r\u00e9seau Tor**](#3.0)\r\n- [**3.1 Comment se connecter au r\u00e9seau Tor**](#3.1)\r\n- [**3.2 Comment v\u00e9rifier manuellement votre connexion au r\u00e9seau Tor**](#3.2)\r\n- [**3.3 Comment naviguer sur Internet en utilisant Tor**](#3.3)\r\n- [**3.3.1 Comment configurer Mozilla Firefox pour fonctionner avec Tor**](#3.3.1)\r\n- [**3.3.2 Comment configurer Internet Explorer pour fonctionner avec Tor**](#3.3.2)\r\n\r\n-------\r\n\r\n<a name=\"3.0\"></a>\r\n## 3.0 \u00c0 propos de l'acc\u00e8s au r\u00e9seau Tor ##\r\n\r\nPour commencer \u00e0 naviguer anonymement sur Internet, vous devez lancer le programme **Navigateur Tor**. Dans un premier temps, le programme connectera votre syst\u00e8me au r\u00e9seau **Tor**. Une fois que la connexion au r\u00e9seau **Tor** sera \u00e9tablie, le **Navigateur Tor** lancera automatiquement une instance distincte du **Firefox portable** qui est inclus dans le **Paquetage du navigateur Tor**.\r\n\r\n**Note**: Il y a un compromis n\u00e9cessaire entre l'anonymat et la vitesse d'ex\u00e9cution. Puisque **Tor** facilite la navigation anonyme, son utilisation ralentira consid\u00e9rablement la navigation. **Tor** fait transiter votre navigation par les ordinateurs de nombreux b\u00e9n\u00e9voles situ\u00e9s un peu partout dans le monde afin de prot\u00e9ger votre s\u00e9curit\u00e9 et votre identit\u00e9.\r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 Comment se connecter au r\u00e9seau Tor ##\r\n\r\nPour se connecter au r\u00e9seau **Tor**, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:\r\n\r\n**Premi\u00e8re \u00e9tape**. **Naviguez** jusqu'au dossier du *Navigateur Tor*, puis **double-cliquez** sur ![](/sbox/screen/tor-fr/30.png) pour afficher la fen\u00eatre suivante:\r\n\r\n![](/sbox/screen/tor-fr/24.png)\r\n\r\n*Figure 1: Le panneau de contr\u00f4le de Vidalia en cours de connexion au r\u00e9seau Tor*\r\n\r\nLorsque le *Panneau de contr\u00f4le de Vidalia* \u00e9tablit une connexion au r\u00e9seau **Tor**, un icone ressemblant \u00e0 un oignon jaune appara\u00eet dans la *barre des t\u00e2ches*, comme suit:  ![](/sbox/screen/tor-fr/31.png). Une fois que la connexion a \u00e9t\u00e9 \u00e9tablie entre votre ordinateur et le r\u00e9seau **Tor**, l'icone devient vert: ![](/sbox/screen/tor-fr/32.png)\r\n\r\n**Note**: Pour apprendre \u00e0 utiliser efficacement le *Panneau de contr\u00f4le de Vidalia*, veuillez consulter la page [**Comment utiliser le Panneau de contr\u00f4le de Vidalia**](/fr/tor_vidaliacontrole).\r\n\r\nQuelques secondes plus tard, le **Navigateur Tor** activera le navigateur **Mozilla Firefox** affichant la fen\u00eatre suivante:\r\n\r\n![](/sbox/screen/tor-fr/33.png)\r\n\r\n*Figure 2: Mozilla Firefox affichant l'onglet Are you using Tor?*\r\n\r\nChaque fois que vous lancez le programme **Navigateur Tor**, ce dernier active automatiquement le *Panneau de contr\u00f4le Vidalia* (*Figure 1*) et la fen\u00eatre [**https://check.torproject.org/**](https://check.torproject.org/)  (*Figure 2*). Le module compl\u00e9mentaire **Torbutton** appara\u00eet \u00e9galement dans le coin inf\u00e9rieur droit de la fen\u00eatre, comme suit: ![](/sbox/screen/tor-fr/34.png) \r\n\r\n**Note**: Par contre, si une fen\u00eatre de navigation de **Mozilla Firefox** \u00e9tait d\u00e9j\u00e0 ouverte lorsque vous avez lanc\u00e9 le **Navigateur Tor**, le **Torbutton** appara\u00eetra en mode d\u00e9sactiv\u00e9 dans cette m\u00eame fen\u00eatre, comme suit: ![](/sbox/screen/tor-fr/35.png)\r\n\r\nLe **Torbutton** est utilis\u00e9 pour configurer **Firefox** afin de se connecter ad\u00e9quatement au r\u00e9seau **Tor**. Vous n'avez qu'\u00e0 **cliquer** sur le **Torbutton** pour alterner entre les modes actif et inactif. \r\n\r\nCependant, si vous *n'\u00eates pas* connect\u00e9 au r\u00e9seau **Tor**, le **Torbutton** sera d\u00e9sactiv\u00e9 et la fen\u00eatre suivante s'affichera: \r\n\r\n![](/sbox/screen/tor-fr/36.png)\r\n\r\n*Figure 3: Mozilla Firefox affichant l'onglet D\u00e9sol\u00e9, vous n'utilisez pas Tor*\r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 Comment v\u00e9rifier manuellement votre connexion au r\u00e9seau Tor ##\r\n\r\nPour v\u00e9rifier manuellement si vous \u00eates connect\u00e9 ou non au r\u00e9seau **Tor**, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous: \r\n\r\n**Premi\u00e8re \u00e9tape**. **Ouvrez** le site Internet [**https://check.torproject.org/**](https://check.torproject.org/). Ce site confirmera si vous \u00eates connect\u00e9 ou non au r\u00e9seau **tor**.\r\n\r\nSi votre navigateur Internet est connect\u00e9 \u00e0 l'Internet par l'entremise du r\u00e9seau **Tor**, les sites qui sont bloqu\u00e9s ou restreints dans votre pays seront d\u00e9sormais accessibles, et vos activit\u00e9s en ligne seront priv\u00e9es et s\u00e9curis\u00e9es. Vous remarquerez peut-\u00eatre \u00e9galement que certaines pages Web, tel que **www.google.com**, se comporteront occasionnellement comme si vous vous trouviez dans un autre pays. Cela est normal lorsqu'on utilise **Tor**.\r\n\r\n<a name=\"3.3\"></a>\r\n## 3.3 Comment naviguer sur Internet en utilisant Tor ##\r\n\r\nBien qu'il vous soit possible de commencer imm\u00e9diatement \u00e0 naviguer sur Internet avec **Firefox** par l'entremise du r\u00e9seau **Tor**, nous vous recommandons de lire la section suivante pour r\u00e9gler **Firefox** de sorte que votre s\u00e9curit\u00e9 et votre anonymat en ligne soient optimis\u00e9es.\r\n\r\n<a name=\"3.3.1\"></a>\r\n### 3.3.1 Comment modifier les param\u00e8tres de Mozilla Firefox pour Tor ###\r\n\r\nLe **torbutton** est un module compl\u00e9mentaire pour **Mozilla Firefox**. Il s'agit d'un petit programme con\u00e7u pour prot\u00e9ger l'anonymat et la s\u00e9curit\u00e9 de vos activit\u00e9s en ligne en bloquant certaines vuln\u00e9rabilit\u00e9s de **Mozilla Firefox**. \r\n\r\n**Important**: Des sites malveillants, ou m\u00eame un serveur **Tor**, pourraient *quand-m\u00eame* r\u00e9v\u00e9ler des renseignements sur votre emplacement et vos activit\u00e9s en ligne, et ce, *m\u00eame* lorsque vous utilisez **Tor**. Heureusement, la configuration par d\u00e9faut de **Torbutton** est relativement s\u00e9curitaire; cependant, nous vous recommandons de modifier certains param\u00e8tres pour optimiser votre s\u00e9curit\u00e9 et la protection de votre vie priv\u00e9e.\r\n\r\n**Note**: Les utilisateurs **avanc\u00e9s** qui ont une compr\u00e9hension approfondie des enjeux de s\u00e9curit\u00e9 associ\u00e9s aux navigateurs voudront peut-\u00eatre raffiner encore davantage leurs param\u00e8tres.\r\n\r\nLa fen\u00eatre des *Pr\u00e9f\u00e9rences Torbutton* comporte trois onglets qui vous permettent de r\u00e9gler diverses options: \r\n\r\n- L'onglet **Param\u00e8tres du proxy**\r\n- L'onglet **Param\u00e8tres de s\u00e9curit\u00e9**\r\n- L'onglet **Param\u00e8tres d'affichage**\r\n\r\nIl est facile d'acc\u00e9der \u00e0 la fen\u00eatre des *Pr\u00e9f\u00e9rences Torbutton*, que **Torbutton** soit activ\u00e9 ou non. Pour afficher la fen\u00eatre des *Pr\u00e9f\u00e9rences Torbutton*, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:\r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez \u00e0 droite** sur le **Torbutton** pour afficher son menu, comme suit:\r\n\r\n![](/sbox/screen/tor-fr/37.png)\r\n\r\n*Figure 4: Le menu de Torbutton*\r\n\r\n**Deuxi\u00e8me \u00e9tape**. **S\u00e9lectionnez** l'item *Pr\u00e9f\u00e9rences...* pour afficher la fen\u00eatre suivante:\r\n\r\n![](/sbox/screen/tor-fr/38.png)\r\n\r\n*Figure 5: La fen\u00eatre des pr\u00e9f\u00e9rences de Torbutton affichant l'onglet Param\u00e8tres du proxy*\r\n\r\n- L'onglet **Param\u00e8tres du proxy** \r\n \r\nL'onglet *Param\u00e8tres du proxy* permet de d\u00e9terminer comment **Firefox** acc\u00e8de \u00e0 l'Internet quand le **Torbutton** est activ\u00e9. Vous ne devriez pas avoir \u00e0 changer quoi que ce soit dans cet onglet.\r\n\r\n- L'onglet **Param\u00e8tres de s\u00e9curit\u00e9** \r\n\r\nL'onglet *Param\u00e8tres de s\u00e9curit\u00e9* est con\u00e7u pour les utilisateurs *exp\u00e9riment\u00e9s* et *avanc\u00e9s* qui ont une compr\u00e9hension approfondie des navigateurs et de la s\u00e9curit\u00e9 sur Internet. Ses param\u00e8tres par d\u00e9faut pr\u00e9sentent un niveau \u00e9lev\u00e9 de s\u00e9curit\u00e9 pour les utilisateurs moyens. Ces *Param\u00e8tres de s\u00e9curit\u00e9* vous permettent de d\u00e9terminer comment **Torbutton** g\u00e8re l'historique de navigation, la m\u00e9moire cache, les cookies et d'autres fonctions de **firefox**.\r\n\r\n![](/sbox/screen/tor-fr/39.png)\r\n\r\n*Figure 6: L'onglet Param\u00e8tres de s\u00e9curit\u00e9*\r\n\r\nL'option *D\u00e9sactiver les plugins pendant l'utilisation de Tor (indispensable)* est l'un des quelques param\u00e8tres de s\u00e9curit\u00e9 que vous pourriez devoir activer, quoique *temporairement*. Pour afficher des contenus vid\u00e9o en ligne avec **Tor**, y compris avec les services de [**DailyMotion**](http://www.dailymotion.com/), [**The Hub**](http://hub.witness.org/) et [**YouTube**](http://www.youtube.com), vous devez **d\u00e9cocher** l'option *D\u00e9sactiver les plugins pendant l'utilisation de Tor*.\r\n\r\n**Note**: Vous ne devriez activer que les plugins des sites de confiance, et vous devez retourner \u00e0 l'onglet *Param\u00e8tres de s\u00e9curit\u00e9* et **re-cocher** l'option *D\u00e9sactiver les plugins penadnt l'utilisation de Tor* lorsque vous aurez compl\u00e9t\u00e9 votre visite de ces sites.\r\n\r\nPour plus d'information sur les fonctions particuli\u00e8res de chaque option de l'onglet **Param\u00e8tres de s\u00e9curit\u00e9**, veuillez consulter la page [**Torbutton**](https://www.torproject.org/torbutton/).\r\n\r\n- L'onglet **Param\u00e8tres d'affichage**\r\n\r\nL'onglet *Param\u00e8tres d'affichage* vous permet de d\u00e9terminer comment s'affiche le **Torbutton** dans la barre d\u2019\u00e9tat de **Firefox**, soit ![](/sbox/screen/tor-fr/34.png) ou ![](/sbox/screen/tor-fr/40.png), ou ![](/sbox/screen/tor-fr/35.png) ou ![](/sbox/screen/tor-fr/41.png). La fonctionnalit\u00e9 op\u00e8re de fa\u00e7on identique d\u2019une mani\u00e8re ou d\u2019une autre. \r\n\r\n![](/sbox/screen/tor-fr/42.png)\r\n\r\n*Figure 7: L'onglet Param\u00e8tres d'affichage*\r\n\r\n**Conseil**: Lorsque vous avez termin\u00e9 votre consultation, assurez-vous de supprimer cotre cache de fichiers temporaires et vos cookies. Cela peut \u00eatre fait dans **Firefox** en **s\u00e9lectionnant *Outils > Supprimer l'historique r\u00e9cent...*, cochant** toutes les options disponibles dans la fen\u00eatre qui s'affiche, puis en **cliquant** sur le bouton *Effacer maintenant*. Pour plus d'information \u00e0 ce sujet, veuillez consulter le chapitre du **Guide pratique** portant sur [**Mozilla Firefox**] (/fr/firefox_privacy_and_security).\r\n\r\nPour plus dinformation sur le **Torbutton**, veuillez consulter la page [**Torbutton FAQ**](https://www.torproject.org/torbutton/torbutton-faq.html.en).\r\n\r\n<a name=\"3.3.2\"></a>\r\n### 3.3.2 Comment configurer Internet Explorer pour fonctionner avec Tor ###\r\n\r\n**Note**: Bien que **Tor** soit con\u00e7u pour fonctionner avec n'importe quel navigateur, **Firefox** et **Tor** constituent une combinaison id\u00e9ale pour \u00e9viter d'\u00eatre d\u00e9tect\u00e9 par des parties malveillantes ou hostiles. Id\u00e9alement, **Internet Explorer** ne devrait \u00eatre utilis\u00e9 qu'en dernier ressort!\r\n\r\nCela dit, si vous \u00eates dans une situation o\u00f9 l'utilisation d'**Internet Explorer** est compl\u00e8tement in\u00e9vitable, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous: \r\n\r\n**Premi\u00e8re \u00e9tape**. **Ouvrez** le navigateur **Internet Explorer**. \r\n\r\n**Deuxi\u00e8me \u00e9tape**. **S\u00e9lectionnez Outils > Options Internet** pour afficher la fen\u00eatre *Options Internet*.\r\n\r\n**Troisi\u00e8me \u00e9tape**. **Cliquez** sur l'onglet *Connexions* pour afficher la fen\u00eatre illustr\u00e9e \u00e0 la *Figure 8* ci-dessous: \r\n\r\n![](/sbox/screen/tor-fr/43.png)\r\n\r\n*Figure 8: L'onglet Connexions de la fen\u00eatre Options Internet*\r\n\r\n**Quatri\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/tor-fr/44.png) pour afficher la fen\u00eatre *Param\u00e8tres du r\u00e9seau local* illustr\u00e9e ci-dessous: \r\n\r\n![](/sbox/screen/tor-fr/45.png)\r\n\r\n*Figure 9: La fen\u00eatre des Param\u00e8tres du r\u00e9seau local*\r\n\r\n**Cinqui\u00e8me \u00e9tape**. **Cochez** l'option *Utiliser un serveur proxy...*, tel qu'illustr\u00e9 \u00e0 la *figure 9* ci-dessus, puis **cliquez** sur ![](/sbox/screen/tor-fr/46.png) pour afficher la fen\u00eatre des *Param\u00e8tres du proxy*. \r\n\r\n**Sixi\u00e8me \u00e9tape**. **Remplissez** les zones des param\u00e8tres du proxy tel qu'illustr\u00e9 ci-dessous:\r\n\r\n![](/sbox/screen/tor-fr/47.png)\r\n\r\n*Figure 10: Un exemple de fen\u00eatre de param\u00e8tres du proxy*\r\n\r\n**Septi\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/tor-fr/07.png) sur chacune des fen\u00eatres de configuration ci-dessus pour sortir de la fen\u00eatre **Options Internet** et revenir au navigateur **Internet Explorer**.\r\n\r\n**Note**: Vous devrez r\u00e9p\u00e9ter les **\u00e9tapes 1 \u00e0 4** pour cesser d'utiliser **Tor**. Au lieu de l'**\u00e9tape 5**, vous devriez **d\u00e9sactiver** l'option *Utiliser un serveur proxy...*.\r\n\r\n**Conseil**: Vous devez vider le cache des fichiers Internet temporaires et supprimer les cookies et l'historique de navigation \u00e0 la fin de votre s\u00e9ance de navigation en suivant les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous: \r\n\r\n**Premi\u00e8re \u00e9tape**. **S\u00e9lectionnez Outils > Options Internet** pour afficher l'onglet *G\u00e9n\u00e9ral* par d\u00e9faut, tel qu'illustr\u00e9 ci-dessous:\r\n\r\n![](/sbox/screen/tor-fr/48.png)\r\n\r\n*Figure 11: L'onglet G\u00e9n\u00e9ral des Options Internet d'Internet Explorer*\r\n\r\n**Deuxi\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/tor-fr/49.png) dans la section *Historique de navigation* pour afficher la fen\u00eatre *Supprimer l'historique de navigation*:\r\n\r\n![](/sbox/screen/tor-fr/50.png)\r\n\r\n*Figure 12: la fen\u00eatre Supprimer l'historique de navigation*\r\n\r\n**Troisi\u00e8me \u00e9tape**. **Cochez** *Fichiers Internet temporaires*, *Cookies* et *Historique*.\r\n\r\n**Quatri\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/tor-fr/51.png) pour supprimer les Fichiers Internet temporaires, les Cookies et l'Historique de navigation.\r\n\r\n**Note:** Pour acc\u00e9der au r\u00e9seau **Tor** avec **Internet Explorer**, vous devez laisser fonctionner le **Navigateur Tor** avec **Vidalia** connect\u00e9 au r\u00e9seau **Tor**."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2069", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2069", 
+                "link_title": "How to access the Internet using the Tor Browser", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5215", 
+                "module": "book", 
+                "nid": "2069", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5213", 
+                "p3": "5215", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5213", 
+                "router_path": "node/%", 
+                "title": "How to access the Internet using the Tor Browser", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1456943678", 
+            "comment": "0", 
+            "created": "1441185925", 
+            "current_revision_id": "13444", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "tor_reseau", 
+                        "value": "tor_reseau"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5215": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2069", 
+                    "link_title": "How to access the Internet using the Tor Browser", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5215", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5213", 
+                    "p3": "5215", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5213", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2069", 
+            "num_revisions": "35", 
+            "path": "https://securityinabox.org/en/tor_anonymitynetwork", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456943678", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Comment acc\u00e9der \u00e0 Internet par l&#039;interm\u00e9diaire du r\u00e9seau Tor", 
+                        "value": "Comment acc\u00e9der \u00e0 Internet par l'interm\u00e9diaire du r\u00e9seau Tor"
+                    }
+                ]
+            }, 
+            "title_original": "How to access the Internet using the Tor Browser", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442937071", 
+                        "created": "1442937071", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442313966", 
+                        "created": "1441892121", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442504101", 
+                        "created": "1442504101", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1454341657", 
+                        "created": "1441638885", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1456943678", 
+                        "created": "1442849703", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1456839796", 
+                        "created": "1456839796", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "km": {
+                        "changed": "1455126868", 
+                        "created": "1455126868", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1453992913", 
+                        "created": "1443628149", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441196312", 
+                        "created": "1441196312", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444191334", 
+                        "created": "1444191334", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443022511", 
+                        "created": "1443022511", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1456919859", 
+                        "created": "1444395175", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "xx": {
+                        "changed": "1441185925", 
+                        "created": "1441185925", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2069", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445440730", 
+                        "created": "1445440730", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "fdbc8fda-1dff-4ded-bb4b-2e10ce1357f6", 
+            "vid": "13444", 
+            "vuuid": "4eaa98f0-354f-4a45-9f73-c6dd64c279cb"
+        }, 
+        {
+            "body": {
+                "fr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li><a href=\"#4.0\"><strong>4.0 \u00c0 propos du Panneau de contr\u00f4le de Vidalia</strong></a></li>\n<li><a href=\"#4.1\"><strong>4.1 Pour visualiser la connexion au r\u00e9seau Tor</strong></a></li>\n<li><a href=\"#4.2\"><strong>4.2 Pour visualiser et r\u00e9gler les param\u00e8tres du Panneau de contr\u00f4le de Vidalia</strong></a></li>\n<li><a href=\"#4.3\"><strong>4.3 Pour interrompre et relancer le service Tor</strong></a></li>\n</ul><hr /><p><a name=\"4.0\" id=\"4.0\"></a></p>\n\n<h2>4.0 \u00c0 propos du Panneau de contr\u00f4le de Vidalia</h2>\n\n<p>Le <em>Panneau de contr\u00f4le de Vidalia</em>, avec lequel vous \u00eates d\u00e9sormais familier, est le principal interface graphique du programme <strong>Tor</strong>. Le <em>Panneau de contr\u00f4le de Vidalia</em> vous permet de r\u00e9gler les param\u00e8tres principaux de <strong>Tor</strong> et de visualiser les param\u00e8tres de connexion.</p>\n\n<p>Pour ouvrir le <em>Panneau de contr\u00f4le de Vidalia</em>, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:</p>\n\n<p><strong>Si le Navigateur Tor est d\u00e9j\u00e0 en fonction</strong>, <strong>double-cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/32.png\" alt=\"\" /> pour lancer le <em>Panneau de contr\u00f4le de Vidalia</em>.</p>\n\n<p><strong>Conseil</strong>: Si vous cliquez \u00e0 droite sur l'icone repr\u00e9sentant un oignon vert, le <em>Panneau de contr\u00f4le de Vidalia</em> s'affichera sous forme de menu contextuel, tel qu'illustr\u00e9 ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/73.png\" alt=\"\" /></p>\n\n<p><em>Figure 1: Le menu contextuel du Panneau de contr\u00f4le de Vidalia</em></p>\n\n<p><strong>Si le Navigateur Tor n'est pas d\u00e9j\u00e0 en fonction</strong>, <strong>naviguez</strong> jusqu'au dossier du <strong>Navigateur Tor</strong>, puis <strong>double-cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/60.png\" alt=\"\" /> pour activer le <em>Panneau de contr\u00f4le de Vidalia</em> et vous connecter automatiquement au r\u00e9seau <strong>Tor</strong>, comme suit:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/61.png\" alt=\"\" /></p>\n\n<p><em>Figure 2: Le Panneau de contr\u00f4le de Vidalia affichant le message Connect\u00e9 au r\u00e9seau Tor</em></p>\n\n<p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h2>4.1 Pour visualiser la connexion au r\u00e9seau Tor</h2>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/62.png\" alt=\"\" /> pour afficher la fen\u00eatre suivante:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/63.png\" alt=\"\" /></p>\n\n<p><em>Figure 3: La carte du r\u00e9seau Tor</em></p>\n\n<p>La <em>Carte du r\u00e9seau Tor</em> liste tous les relais <strong>Tor</strong> disponibles qui composent actuellement le r\u00e9seau de connexion anonyme <strong>Tor</strong>. Le panneau de gauche liste ces serveurs en fonction de leur bande passante disponible et de leur situation g\u00e9ographique.</p>\n\n<ul><li><strong>Cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/64.png\" alt=\"\" /> pour lister ces serveurs en ordre ascendant ou descendant de la bande passante disponible, ou en ordre alphab\u00e9tique du pays d'origine.</li>\n</ul><p>Sous la mappemonde se trouvent deux panneaux, le panneau <em>Connexion</em> et le panneau ou s'affichent les d\u00e9tails du relais. Le panneau <em>Connexion</em> affiche les noms des serveurs <strong>Tor</strong> choisis au hasard comme relais de votre connexion anonyme.</p>\n\n<ul><li><strong>Choisissez</strong> un serveur dans la liste <em>Connexion</em> pour visualiser le trajet emprunt\u00e9 par votre connexion dans le r\u00e9seau <strong>Tor</strong>, illustr\u00e9 par des lignes vertes sur la carte.</li>\n</ul><p>Le panneau adjacent affiche les d\u00e9tails de connexion des serveurs relais list\u00e9s dans le panneau <em>Relais</em> \u00e0 gauche; \u00e0 la <em>Figure 3</em>, les d\u00e9tails de connexion d'un serveur relais situ\u00e9 au Canada, <em>zzzzzebra</em>, sont affich\u00e9es.</p>\n\n<p><strong>Note</strong>: La <em>Carte du r\u00e9seau Tor</em> sert \u00e0 illustrer comment <strong>Tor</strong> fonctionne en pr\u00e9sentant des id\u00e9es abstraites et des renseignements complexes sur un mode graphique.</p>\n\n<p><a name=\"4.2\" id=\"4.2\"></a></p>\n\n<h2>4.2 Pour visualiser et r\u00e9gler les param\u00e8tres du Panneau de contr\u00f4le de Vidalia</h2>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/65.png\" alt=\"\" /> pour afficher la fen\u00eatre suivante:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/66.png\" alt=\"\" /></p>\n\n<p><em>Figure 4: La fen\u00eatre des param\u00e8tres du Panneau de contr\u00f4le de Vidalia</em></p>\n\n<p>L'onglet <em>G\u00e9n\u00e9ral</em> vous permet d'indiquer si *Vidalia** doit \u00eatre lanc\u00e9 automatiquement \u00e0 chaque d\u00e9marrage de <strong>Windows</strong> et si <strong>Tor</strong> devrait \u00eatre \u00e9galement lanc\u00e9 \u00e0 ce moment.</p>\n\n<p>Si vous pr\u00e9f\u00e9rez lancer le programme <strong>Vidalia</strong> manuellement, vous n'avez qu'\u00e0 <strong>d\u00e9cocher</strong> l'option <em>Lancer Vidalia au d\u00e9marrage du syst\u00e8me</em>.</p>\n\n<p><strong>Note</strong>: Nous recommandons aux utilisateurs <strong>d\u00e9butants</strong> ou <strong>moyens</strong> d'accepter les param\u00e8tre par d\u00e9faut, tel qu'illustr\u00e9 \u00e0 la <em>Figure 4</em>.</p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/67.png\" alt=\"\" /> pour enregistrer vos param\u00e8tres.</p>\n\n<p>Bien que la langue par d\u00e9faut du programme <strong>Tor</strong> soit l'anglais, l'onglet <em>Interface</em> vous permet une autre langue d'interface pour le <em>Panneau de contr\u00f4le de Vidalia</em>. Cet onglet vous permet en outre de modifier l'apparence du programme.</p>\n\n<p><img src=\"/sbox/screen/tor-fr/68.png\" alt=\"\" /></p>\n\n<p><em>Figure 5: L'onglet Interface des param\u00e8tres du Panneau de contr\u00f4le de Vidalia</em></p>\n\n<p><a name=\"4.3\" id=\"4.3\"></a></p>\n\n<h2>4.3 Pour interrompre et relancer le service Tor</h2>\n\n<p><strong>Premi\u00e8re \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/69.png\" alt=\"\" /> dans le panneau <em>Raccourcis Vidalia</em> pour interrompre le programme <strong>Tor</strong>; la section <em>\u00c9tat</em> du <em>Panneau de contr\u00f4le de Vidalia</em> s'affiche alors comme suit:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/70.png\" alt=\"\" /></p>\n\n<p><em>Figure 6: La section de l'\u00e9tat de Tor affichant le message Tor est arr\u00eat\u00e9</em></p>\n\n<p><strong>Deuxi\u00e8me \u00e9tape</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/tor-fr/71.png\" alt=\"\" /> pour relancer le programme <strong>Tor</strong>; apr\u00e8s quelques secondes, la section <em>\u00c9tat</em> du <em>Panneau de contr\u00f4le de Vidalia</em> s'affiche alors comme suit:</p>\n\n<p><img src=\"/sbox/screen/tor-fr/72.png\" alt=\"\" /></p>\n\n<p><em>Figure 7: La section de l'\u00e9tat de Tor affichant le message Connect\u00e9 au r\u00e9seau Tor!</em></p>\n", 
+                        "summary": "", 
+                        "value": "- [**4.0 \u00c0 propos du Panneau de contr\u00f4le de Vidalia**](#4.0)\r\n- [**4.1 Pour visualiser la connexion au r\u00e9seau Tor**](#4.1)\r\n- [**4.2 Pour visualiser et r\u00e9gler les param\u00e8tres du Panneau de contr\u00f4le de Vidalia**](#4.2)\r\n- [**4.3 Pour interrompre et relancer le service Tor**](#4.3)\r\n\r\n-------\r\n\r\n<a name=\"4.0\"></a>\r\n## 4.0 \u00c0 propos du Panneau de contr\u00f4le de Vidalia ##\r\n\r\nLe *Panneau de contr\u00f4le de Vidalia*, avec lequel vous \u00eates d\u00e9sormais familier, est le principal interface graphique du programme **Tor**. Le *Panneau de contr\u00f4le de Vidalia* vous permet de r\u00e9gler les param\u00e8tres principaux de **Tor** et de visualiser les param\u00e8tres de connexion.\r\n\r\nPour ouvrir le *Panneau de contr\u00f4le de Vidalia*, suivez les \u00e9tapes \u00e9num\u00e9r\u00e9es ci-dessous:\r\n\r\n**Si le Navigateur Tor est d\u00e9j\u00e0 en fonction**, **double-cliquez** sur ![](/sbox/screen/tor-fr/32.png) pour lancer le *Panneau de contr\u00f4le de Vidalia*.\r\n\r\n**Conseil**: Si vous cliquez \u00e0 droite sur l'icone repr\u00e9sentant un oignon vert, le *Panneau de contr\u00f4le de Vidalia* s'affichera sous forme de menu contextuel, tel qu'illustr\u00e9 ci-dessous:\r\n\r\n![](/sbox/screen/tor-fr/73.png)\r\n\r\n*Figure 1: Le menu contextuel du Panneau de contr\u00f4le de Vidalia*\r\n\r\n**Si le Navigateur Tor n'est pas d\u00e9j\u00e0 en fonction**, **naviguez** jusqu'au dossier du **Navigateur Tor**, puis **double-cliquez** sur ![](/sbox/screen/tor-fr/60.png) pour activer le *Panneau de contr\u00f4le de Vidalia* et vous connecter automatiquement au r\u00e9seau **Tor**, comme suit:\r\n\r\n![](/sbox/screen/tor-fr/61.png)\r\n\r\n*Figure 2: Le Panneau de contr\u00f4le de Vidalia affichant le message Connect\u00e9 au r\u00e9seau Tor*\r\n\r\n<a name=\"4.1\"></a>\r\n## 4.1 Pour visualiser la connexion au r\u00e9seau Tor ##\r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez** sur ![](/sbox/screen/tor-fr/62.png) pour afficher la fen\u00eatre suivante:\r\n\r\n![](/sbox/screen/tor-fr/63.png)\r\n\r\n*Figure 3: La carte du r\u00e9seau Tor*\r\n\r\nLa *Carte du r\u00e9seau Tor* liste tous les relais **Tor** disponibles qui composent actuellement le r\u00e9seau de connexion anonyme **Tor**. Le panneau de gauche liste ces serveurs en fonction de leur bande passante disponible et de leur situation g\u00e9ographique.\r\n\r\n- **Cliquez** sur ![](/sbox/screen/tor-fr/64.png) pour lister ces serveurs en ordre ascendant ou descendant de la bande passante disponible, ou en ordre alphab\u00e9tique du pays d'origine.\r\n\r\nSous la mappemonde se trouvent deux panneaux, le panneau *Connexion* et le panneau ou s'affichent les d\u00e9tails du relais. Le panneau *Connexion* affiche les noms des serveurs **Tor** choisis au hasard comme relais de votre connexion anonyme.\r\n\r\n- **Choisissez** un serveur dans la liste *Connexion* pour visualiser le trajet emprunt\u00e9 par votre connexion dans le r\u00e9seau **Tor**, illustr\u00e9 par des lignes vertes sur la carte.\r\n\r\nLe panneau adjacent affiche les d\u00e9tails de connexion des serveurs relais list\u00e9s dans le panneau *Relais* \u00e0 gauche; \u00e0 la *Figure 3*, les d\u00e9tails de connexion d'un serveur relais situ\u00e9 au Canada, *zzzzzebra*, sont affich\u00e9es.\r\n\r\n**Note**: La *Carte du r\u00e9seau Tor* sert \u00e0 illustrer comment **Tor** fonctionne en pr\u00e9sentant des id\u00e9es abstraites et des renseignements complexes sur un mode graphique.\r\n\r\n<a name=\"4.2\"></a>\r\n## 4.2 Pour visualiser et r\u00e9gler les param\u00e8tres du Panneau de contr\u00f4le de Vidalia ##\r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez** sur ![](/sbox/screen/tor-fr/65.png) pour afficher la fen\u00eatre suivante:\r\n\r\n![](/sbox/screen/tor-fr/66.png)\r\n\r\n*Figure 4: La fen\u00eatre des param\u00e8tres du Panneau de contr\u00f4le de Vidalia*\r\n\r\nL'onglet *G\u00e9n\u00e9ral* vous permet d'indiquer si *Vidalia** doit \u00eatre lanc\u00e9 automatiquement \u00e0 chaque d\u00e9marrage de **Windows** et si **Tor** devrait \u00eatre \u00e9galement lanc\u00e9 \u00e0 ce moment. \r\n\r\nSi vous pr\u00e9f\u00e9rez lancer le programme **Vidalia** manuellement, vous n'avez qu'\u00e0 **d\u00e9cocher** l'option *Lancer Vidalia au d\u00e9marrage du syst\u00e8me*.\r\n\r\n**Note**: Nous recommandons aux utilisateurs **d\u00e9butants** ou **moyens** d'accepter les param\u00e8tre par d\u00e9faut, tel qu'illustr\u00e9 \u00e0 la *Figure 4*.\r\n\r\n**Deuxi\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/tor-fr/67.png) pour enregistrer vos param\u00e8tres.\r\n\r\nBien que la langue par d\u00e9faut du programme **Tor** soit l'anglais, l'onglet *Interface* vous permet une autre langue d'interface pour le *Panneau de contr\u00f4le de Vidalia*. Cet onglet vous permet en outre de modifier l'apparence du programme. \r\n\r\n![](/sbox/screen/tor-fr/68.png)\r\n\r\n*Figure 5: L'onglet Interface des param\u00e8tres du Panneau de contr\u00f4le de Vidalia*\r\n\r\n<a name=\"4.3\"></a>\r\n## 4.3 Pour interrompre et relancer le service Tor ##\r\n\r\n**Premi\u00e8re \u00e9tape**. **Cliquez** sur ![](/sbox/screen/tor-fr/69.png) dans le panneau *Raccourcis Vidalia* pour interrompre le programme **Tor**; la section *\u00c9tat* du *Panneau de contr\u00f4le de Vidalia* s'affiche alors comme suit:\r\n\r\n![](/sbox/screen/tor-fr/70.png)\r\n\r\n*Figure 6: La section de l'\u00e9tat de Tor affichant le message Tor est arr\u00eat\u00e9*\r\n\r\n**Deuxi\u00e8me \u00e9tape**. **Cliquez** sur ![](/sbox/screen/tor-fr/71.png) pour relancer le programme **Tor**; apr\u00e8s quelques secondes, la section *\u00c9tat* du *Panneau de contr\u00f4le de Vidalia* s'affiche alors comme suit:\r\n\r\n![](/sbox/screen/tor-fr/72.png)\r\n\r\n*Figure 7: La section de l'\u00e9tat de Tor affichant le message Connect\u00e9 au r\u00e9seau Tor!*"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2070", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2070", 
+                "link_title": "Using the Tor Browser", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5216", 
+                "module": "book", 
+                "nid": "2070", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5213", 
+                "p3": "5216", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5213", 
+                "router_path": "node/%", 
+                "title": "Using the Tor Browser", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1455127771", 
+            "comment": "0", 
+            "created": "1441185967", 
+            "current_revision_id": "13220", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "tor_vidaliacontrole", 
+                        "value": "tor_vidaliacontrole"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5216": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2070", 
+                    "link_title": "Using the Tor Browser", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5216", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5213", 
+                    "p3": "5216", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5213", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2070", 
+            "num_revisions": "21", 
+            "path": "https://securityinabox.org/en/tor_vidaliacontrol", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455127771", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Comment utiliser le panneau de contr\u00f4le de Vidalia", 
+                        "value": "Comment utiliser le panneau de contr\u00f4le de Vidalia"
+                    }
+                ]
+            }, 
+            "title_original": "Using the Tor Browser", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442937162", 
+                        "created": "1442937162", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442314041", 
+                        "created": "1441892207", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442504220", 
+                        "created": "1442504183", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452162651", 
+                        "created": "1441638983", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442849807", 
+                        "created": "1442849807", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444395268", 
+                        "created": "1444395268", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455127771", 
+                        "created": "1455127771", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443628460", 
+                        "created": "1443628460", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441196552", 
+                        "created": "1441196552", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444191389", 
+                        "created": "1444191389", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443022534", 
+                        "created": "1443022534", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444836542", 
+                        "created": "1444836542", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441185967", 
+                        "created": "1441185967", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2070", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445440953", 
+                        "created": "1445440591", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "ef29910a-e0b2-47a1-8813-8fc54520e04c", 
+            "vid": "13220", 
+            "vuuid": "91038fe7-525b-4331-8b82-eb83dcbde680"
+        }, 
+        {
+            "body": {
+                "fr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p><a name=\"6.0\" id=\"6.0\"></a></p>\n\n<h2>6.0 Faq et questions r\u00e9capitulatives</h2>\n\n<p><strong>Tor</strong> est un logiciel extr\u00eamement bien test\u00e9 et entretenu. Le r\u00e9seau de connexion anonyme <strong>Tor</strong> est utilis\u00e9 par des milliers de personnes, un peu partout sur la plan\u00e8te, et des am\u00e9liorations constantes en ont fait un syst\u00e8me de plus en plus stable et s\u00fbr. M\u00eame si certaines des explications apport\u00e9es dans ce guide peuvent sembler complexes, dans la plupart des cas, vous n\u2019aurez m\u00eame pas \u00e0 d\u00e9passer la section <a href=\"/fr/tor_reseau\"><strong>3.0 Comment acc\u00e9der \u00e0 Internet par l'interm\u00e9diaire du r\u00e9seau Tor</strong></a> pour \u00eatre en mesure d\u2019utiliser le programme normalement.</p>\n\n<p>Mansour a lu attentivement le <a href=\"/fr/chapter-8\"><strong>chapitre 8</strong></a> du livret pratique, qui porte sur les mesures de contournement de la censure, et il vient tout juste de terminer la lecture du Guide pratique <strong>Tor</strong>. Il lui reste cependant quelques questions pour Magda qui, elle, utilise <strong>Tor</strong> depuis plusieurs ann\u00e9es.</p>\n\n<div class=\"background\">\n\n<p><em><strong>Q</strong>: Pourquoi devrais-je utiliser <strong>Tor</strong>?</em></p>\n\n<p><em><strong>R</strong>: Bonne question. <strong>Tor</strong> est un outil fort pratique pour contourner la censure sur Internet afin d\u2019acc\u00e9der \u00e0 certains sites. Ce programme est aussi tr\u00e8s utile si l\u2019on souhaite cacher les sites que l\u2019on visite \u00e0 notre fournisseur de service Internet, ou encore si l\u2019on ne veut pas que les sites Internet puissent d\u00e9terminer o\u00f9 l\u2019on se trouve.</em></p>\n\n<p><em><strong>Q</strong>: Il y a un message d\u2019erreur dans le Journal des messages que je ne comprends pas. Que devrais-je faire?</em></p>\n\n<p><em><strong>R</strong>: Consulte le wiki <a href=\"https://trac.torproject.org/projects/tor/wiki/TheOnionRouter/TorFAQ\"><strong>Tor FAQ</strong></a> wiki pour voir si ton message s\u2019y trouve. Sinon, tu peux \u00e9galement <strong>cliquer</strong> sur <img src=\"/sbox/screen/tor-fr/88.png\" alt=\"\" /> dans le <strong>Panneau de contr\u00f4le de Vidalia</strong> et jeter un coup d'oeil au chapitre <a href=\"/fr/tor_vidaliacontrol\"><strong>R\u00e9solution des probl\u00e8mes courants sous Tor</strong></a>.</em></p>\n\n<p><strong>Q</strong>: <em>Lorsque je lance le <strong>Navigateur Tor</strong>, est-ce que tous mes autres programmes communiquent de fa\u00e7on anonyme via le <strong>R\u00e9seau Tor</strong>?</em></p>\n\n<p><strong>R</strong>: <em>Non, il est tr\u00e8s important de se rappeler qu'il faut se connecter au <strong>R\u00e9seau Tor</strong> uniquement avec le navigateur <strong>Firefox</strong> muni du module compl\u00e9mentaire <strong>Torbutton</strong>. Tous les autres programmes communiquent directement avec les autres serveurs sur Internet. Pour \u00eatre absolument certain de communiquer via le <strong>R\u00e9seau Tor</strong>, tu peux toujours v\u00e9rifier manuellement la connexion sur le site <strong>https://check.torproject.org</strong>. Par ailleurs, <strong>Tor</strong> s'appuie sur l'exercice de la prudence, du bon sens et du jugement de la part des utilisateurs lorsque ceux-ci visitent des sites inconnus ou peu familiers.</em></p>\n\n<p><strong>Q</strong>: <em>Est-ce que <strong>Tor</strong> prot\u00e8ge toutes les communications faites \u00e0 partir de mon navigateur <strong>Firefox</strong>?</em></p>\n\n<p><strong>R</strong>: <em><strong>Tor</strong> chiffre toutes les communication entre ton ordinateur et le r\u00e9seau <strong>Tor</strong>. Cependant, il faut tenir compte du fait que <strong>Tor</strong> ne peut pas chiffrer le trafic entre le r\u00e9seau <strong>Tor</strong> et le site Internet avec lequel tu communiques. Pour ce faire, <strong>tu dois utiliser le protocole HTTPS</strong> ou d'autres modes de chiffrement similaires, d'autant plus si tu attaches beaucoup d'importance \u00e0 la s\u00e9curit\u00e9 et au caract\u00e8re priv\u00e9 de tes renseignements!</em></p>\n\n</div>\n\n<p><a name=\"6.1\" id=\"6.1\"></a></p>\n\n<h2>6.1 Questions r\u00e9capitulatives</h2>\n\n<ul><li>Combien de serveurs <strong>Tor</strong> sont utilis\u00e9s pour \u00e9tablir une connexion via le r\u00e9seau <strong>Tor</strong>? </li>\n<li>O\u00f9 peut-on trouver davantage d\u2019information \u00e0 propos de ces serveurs?</li>\n<li>Quels param\u00e8tres doivent \u00eatre modifi\u00e9s dans votre navigateur Internet pour que celui-ci puisse acc\u00e9der \u00e0 des pages Internet via <strong>Tor</strong>?</li>\n<li>Quels sont les programmes qui doivent \u00eatre activ\u00e9s pour que vous soyez en mesure d\u2019acc\u00e9der au r\u00e9seau <strong>Tor</strong>?  </li>\n<li>Comment peut-on faire en sorte que l\u2019interface Vidalia ne soit pas lanc\u00e9e chaque fois que <strong>Windows</strong> d\u00e9marre?</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "<a name=\"6.0\"></a>\r\n## 6.0 Faq et questions r\u00e9capitulatives ##\r\n\r\n**Tor** est un logiciel extr\u00eamement bien test\u00e9 et entretenu. Le r\u00e9seau de connexion anonyme **Tor** est utilis\u00e9 par des milliers de personnes, un peu partout sur la plan\u00e8te, et des am\u00e9liorations constantes en ont fait un syst\u00e8me de plus en plus stable et s\u00fbr. M\u00eame si certaines des explications apport\u00e9es dans ce guide peuvent sembler complexes, dans la plupart des cas, vous n\u2019aurez m\u00eame pas \u00e0 d\u00e9passer la section [**3.0 Comment acc\u00e9der \u00e0 Internet par l'interm\u00e9diaire du r\u00e9seau Tor**](/fr/tor_reseau) pour \u00eatre en mesure d\u2019utiliser le programme normalement.\r\n\r\nMansour a lu attentivement le [**chapitre 8**](/fr/chapter-8) du livret pratique, qui porte sur les mesures de contournement de la censure, et il vient tout juste de terminer la lecture du Guide pratique **Tor**. Il lui reste cependant quelques questions pour Magda qui, elle, utilise **Tor** depuis plusieurs ann\u00e9es. \r\n\r\n<div class=\"background\" markdown=\"1\"> \r\n\r\n***Q**: Pourquoi devrais-je utiliser **Tor**?*\r\n\r\n***R**: Bonne question. **Tor** est un outil fort pratique pour contourner la censure sur Internet afin d\u2019acc\u00e9der \u00e0 certains sites. Ce programme est aussi tr\u00e8s utile si l\u2019on souhaite cacher les sites que l\u2019on visite \u00e0 notre fournisseur de service Internet, ou encore si l\u2019on ne veut pas que les sites Internet puissent d\u00e9terminer o\u00f9 l\u2019on se trouve.*\r\n\r\n***Q**: Il y a un message d\u2019erreur dans le Journal des messages que je ne comprends pas. Que devrais-je faire?*\r\n\r\n***R**: Consulte le wiki [**Tor FAQ**](https://trac.torproject.org/projects/tor/wiki/TheOnionRouter/TorFAQ) wiki pour voir si ton message s\u2019y trouve. Sinon, tu peux \u00e9galement **cliquer** sur ![](/sbox/screen/tor-fr/88.png) dans le **Panneau de contr\u00f4le de Vidalia** et jeter un coup d'oeil au chapitre [**R\u00e9solution des probl\u00e8mes courants sous Tor**](/fr/tor_vidaliacontrol).*\r\n\r\n**Q**: *Lorsque je lance le **Navigateur Tor**, est-ce que tous mes autres programmes communiquent de fa\u00e7on anonyme via le **R\u00e9seau Tor**?*\r\n\r\n**R**: *Non, il est tr\u00e8s important de se rappeler qu'il faut se connecter au **R\u00e9seau Tor** uniquement avec le navigateur **Firefox** muni du module compl\u00e9mentaire **Torbutton**. Tous les autres programmes communiquent directement avec les autres serveurs sur Internet. Pour \u00eatre absolument certain de communiquer via le **R\u00e9seau Tor**, tu peux toujours v\u00e9rifier manuellement la connexion sur le site **https://check.torproject.org**. Par ailleurs, **Tor** s'appuie sur l'exercice de la prudence, du bon sens et du jugement de la part des utilisateurs lorsque ceux-ci visitent des sites inconnus ou peu familiers.*\r\n\r\n**Q**: *Est-ce que **Tor** prot\u00e8ge toutes les communications faites \u00e0 partir de mon navigateur **Firefox**?*\r\n\r\n**R**: ***Tor** chiffre toutes les communication entre ton ordinateur et le r\u00e9seau **Tor**. Cependant, il faut tenir compte du fait que **Tor** ne peut pas chiffrer le trafic entre le r\u00e9seau **Tor** et le site Internet avec lequel tu communiques. Pour ce faire, **tu dois utiliser le protocole HTTPS** ou d'autres modes de chiffrement similaires, d'autant plus si tu attaches beaucoup d'importance \u00e0 la s\u00e9curit\u00e9 et au caract\u00e8re priv\u00e9 de tes renseignements!*\r\n\r\n</div>\r\n\r\n<a name=\"6.1\"></a>\r\n## 6.1 Questions r\u00e9capitulatives ##\r\n\r\n- Combien de serveurs **Tor** sont utilis\u00e9s pour \u00e9tablir une connexion via le r\u00e9seau **Tor**? \r\n- O\u00f9 peut-on trouver davantage d\u2019information \u00e0 propos de ces serveurs?\r\n- Quels param\u00e8tres doivent \u00eatre modifi\u00e9s dans votre navigateur Internet pour que celui-ci puisse acc\u00e9der \u00e0 des pages Internet via **Tor**?\r\n- Quels sont les programmes qui doivent \u00eatre activ\u00e9s pour que vous soyez en mesure d\u2019acc\u00e9der au r\u00e9seau **Tor**?  \r\n- Comment peut-on faire en sorte que l\u2019interface Vidalia ne soit pas lanc\u00e9e chaque fois que **Windows** d\u00e9marre?"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2071", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2071", 
+                "link_title": "Tor Browser FAQ", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5217", 
+                "module": "book", 
+                "nid": "2071", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5213", 
+                "p3": "5217", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5213", 
+                "router_path": "node/%", 
+                "title": "Tor Browser FAQ", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1455127869", 
+            "comment": "0", 
+            "created": "1441186063", 
+            "current_revision_id": "13221", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "tor_questions", 
+                        "value": "tor_questions"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5217": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2071", 
+                    "link_title": "Tor Browser FAQ", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5217", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5213", 
+                    "p3": "5217", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5213", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2071", 
+            "num_revisions": "28", 
+            "path": "https://securityinabox.org/en/tor_faq", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455127869", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Faq et questions r\u00e9capitulatives", 
+                        "value": "Faq et questions r\u00e9capitulatives"
+                    }
+                ]
+            }, 
+            "title_original": "Tor Browser FAQ", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442937501", 
+                        "created": "1442937233", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454333849", 
+                        "created": "1441893751", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442504317", 
+                        "created": "1442504317", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452163676", 
+                        "created": "1441639088", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1453996540", 
+                        "created": "1442849954", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444395498", 
+                        "created": "1444395498", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455127869", 
+                        "created": "1455127869", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1453992980", 
+                        "created": "1443630093", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441196647", 
+                        "created": "1441196647", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444191459", 
+                        "created": "1444191459", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443022560", 
+                        "created": "1443022560", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444835135", 
+                        "created": "1444731635", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1445441051", 
+                        "created": "1441186063", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2071", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445441159", 
+                        "created": "1445441159", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "cdcbf121-3a54-43b9-82fc-1025aa60d974", 
+            "vid": "13221", 
+            "vuuid": "8e987120-d823-44c8-bf8a-035526c99bc4"
+        }
+    ], 
+    "changed": "1457533247", 
+    "comment": "0", 
+    "created": "1441122857", 
+    "current_revision_id": "13534", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "fr": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "fr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Pour installer Tor</strong></p>\n\n<ul><li>*Lisez la courte <strong>Introduction</strong> aux <a href=\"/fr/handsonguides\"><strong>Guides pratiques</strong></a>**</li>\n<li><em><strong>Cliquez sur l'icone Tor ci-dessous</strong> et 'Ouvrez' ou 'Ex\u00e9cutez' l'assistant d'installation. Si n\u00e9cessaire, sauvegardez d'abord l'ex\u00e9cutable sur votre ordinateur, puis double-cliquez sur l'ic\u00f4ne pour lancer l'assistant.</em></li>\n<li><em>Lisez attentivement les 'Consignes d'installation' dans la prochaine section avant de poursuivre l'installation.</em></li>\n<li><em>Si vous avez sauvegard\u00e9 l'ex\u00e9cutable sur votre ordinateur, vous pouvez le supprimer apr\u00e8s l'installation.</em></li>\n</ul><p><strong>Tor</strong>:<br /><a href=\"/sbox/programs/tor-browser-fr.exe\"><img src=\"/sites/securityinabox.org/files/u12/tor.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Pour installer Tor**\r\n\r\n- *Lisez la courte **Introduction** aux [**Guides pratiques**](/fr/handsonguides)**\r\n- ***Cliquez sur l'icone Tor ci-dessous** et 'Ouvrez' ou 'Ex\u00e9cutez' l'assistant d'installation. Si n\u00e9cessaire, sauvegardez d'abord l'ex\u00e9cutable sur votre ordinateur, puis double-cliquez sur l'ic\u00f4ne pour lancer l'assistant.*\r\n- *Lisez attentivement les 'Consignes d'installation' dans la prochaine section avant de poursuivre l'installation.*\r\n- *Si vous avez sauvegard\u00e9 l'ex\u00e9cutable sur votre ordinateur, vous pouvez le supprimer apr\u00e8s l'installation.*\r\n\r\n**Tor**:  \r\n[![](/sites/securityinabox.org/files/u12/tor.png)](/sbox/programs/tor-browser-fr.exe)"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "fr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Pour t\u00e9l\u00e9charger Tor</strong></p>\n\n<ul><li><em>Lisez la courte <strong>Introduction</strong> aux <a href=\"/fr/handsonguides\"><strong>Guides pratiques</strong></a></em></li>\n<li><em><strong>Cliquez</strong> sur l'icone <strong>Tor</strong> ci-dessous pour ouvrir la page  <strong>https://www.torproject.org/easy-download.html</strong></em></li>\n<li><em><strong>D\u00e9filez</strong> vers le bas, puis <strong>cliquez</strong> sur le lien <strong>La version (en fran\u00e7ais) du Paquetage Tor pour Windows</strong></em></li>\n<li><em><strong>Sauvegardez</strong> le fichier ex\u00e9cutable sur votre ordinateur, puis <strong>double-cliquez</strong> dessus pour lancer l'installation</em></li>\n<li><em>Apr\u00e8s avoir compl\u00e9t\u00e9 l'installation de <strong>Tor Browser</strong>, vous pouvez supprimer l'ex\u00e9cutable d'installation.</em></li>\n</ul><p><strong>Tor</strong>:<br /><a href=\"https://www.torproject.org/easy-download.html\"><img src=\"/sites/securityinabox.org/files/u12/tor.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Pour t\u00e9l\u00e9charger Tor**\r\n\t\t\t\r\n- *Lisez la courte **Introduction** aux [**Guides pratiques**](/fr/handsonguides)*\r\n- ***Cliquez** sur l'icone **Tor** ci-dessous pour ouvrir la page  **https://www.torproject.org/easy-download.html***\r\n- ***D\u00e9filez** vers le bas, puis **cliquez** sur le lien **La version (en fran\u00e7ais) du Paquetage Tor pour Windows***\r\n- ***Sauvegardez** le fichier ex\u00e9cutable sur votre ordinateur, puis **double-cliquez** dessus pour lancer l'installation*\r\n- *Apr\u00e8s avoir compl\u00e9t\u00e9 l'installation de **Tor Browser**, vous pouvez supprimer l'ex\u00e9cutable d'installation.*\r\n\t\t\t\r\n**Tor**:  \r\n[![](/sites/securityinabox.org/files/u12/tor.png)](https://www.torproject.org/easy-download.html)\r\n"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "fr": [
+            {
+                "format": null, 
+                "safe_value": "Tor Browser - anonymity and circumventio", 
+                "value": "Tor Browser - anonymity and circumventio"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "fr": [
+            {
+                "format": null, 
+                "safe_value": "Tor - anonymat et contournement sur Internet", 
+                "value": "Tor - anonymat et contournement sur Internet"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "fr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Tor</strong> est un logiciel con\u00e7u pour accro\u00eetre le degr\u00e9 d\u2019anonymat de vos activit\u00e9s sur Internet. Il camoufle votre identit\u00e9 et prot\u00e8ge vos activit\u00e9s contre les technologies de surveillance sur Internet. <strong>Tor</strong> peut \u00e9galement \u00eatre employ\u00e9 pour contourner le filtrage et les m\u00e9thodes de censure de l'Internet.</p>\n", 
+                "value": "**Tor** est un logiciel con\u00e7u pour accro\u00eetre le degr\u00e9 d\u2019anonymat de vos activit\u00e9s sur Internet. Il camoufle votre identit\u00e9 et prot\u00e8ge vos activit\u00e9s contre les technologies de surveillance sur Internet. **Tor** peut \u00e9galement \u00eatre employ\u00e9 pour contourner le filtrage et les m\u00e9thodes de censure de l'Internet."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-09-29 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "fr": [
+            {
+                "format": null, 
+                "safe_value": "tor", 
+                "value": "tor"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "16"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "16"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5213": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2067", 
+            "link_title": "Tor Browser - Digital Anonymity and Circumvention", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5213", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5213", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "0"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2067", 
+    "num_revisions": "27", 
+    "path": "https://securityinabox.org/en/node/2067", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1457533247", 
+    "revision_uid": "141", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "fr": [
+            {
+                "format": null, 
+                "safe_value": "Tor - anonymat et contournement sur Internet", 
+                "value": "Tor - anonymat et contournement sur Internet"
+            }
+        ]
+    }, 
+    "title_original": "Tor Browser - Digital Anonymity and Circumvention", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442936747", 
+                "created": "1442936747", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442239249", 
+                "created": "1441891947", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442503918", 
+                "created": "1442503918", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1452099597", 
+                "created": "1441638672", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fr": {
+                "changed": "1453376516", 
+                "created": "1442848112", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1456839954", 
+                "created": "1444394973", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "km": {
+                "changed": "1455126058", 
+                "created": "1455126058", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443627775", 
+                "created": "1443627775", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441195835", 
+                "created": "1441195810", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444190764", 
+                "created": "1444190764", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1443016608", 
+                "created": "1443016608", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1457533247", 
+                "created": "1443526248", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441183403", 
+                "created": "1441122857", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2067", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445440005", 
+                "created": "1445440005", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "8c44f10a-7f43-49e0-9ee3-c926a5ea3e0a", 
+    "vid": "13534", 
+    "vuuid": "cdf316ef-c882-4436-b571-ab254f683a1d"
+}
