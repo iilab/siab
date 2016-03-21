@@ -692,8 +692,9 @@ title: %s
 
 """ % ( guide_lang, guide_community, guide_type, guide_weight, guide_title, output_data['body'][guide_lang][0]['value'] )
 
-    output_filename = "%s-000-%s.md" % ( guide_weight, slugify(guide_title) )
-    output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type)
+    output_guide_folder = "%s-%s" % ( guide_weight, slugify(guide_title) )
+    output_filename = "index.md" 
+    output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, output_guide_folder)
     write_output(output_path, output_filename, formatted_output)
 
     ### Output book_children
@@ -731,8 +732,8 @@ title: %s
 
 """ % ( guide_lang, guide_community, guide_type, book_child_weight, book_child_depth, book_child_title, book_child['body'][guide_lang][0]['value'] )
 
-            child_output_filename = "%s-%s-%s.md" % ( guide_weight, book_child_sorting_trick, slugify(book_child_title) )
-            child_output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type)
+            child_output_filename = "%s-%s.md" % ( book_child_sorting_trick, slugify(book_child_title) )
+            child_output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, output_guide_folder)
             write_output(child_output_path, child_output_filename, formatted_child_output)
 
 
@@ -759,8 +760,9 @@ title: %s
 
 """ % ( guide_lang, guide_community, guide_type, guide_os, guide_weight, guide_title, output_data['body'][guide_lang][0]['value'] )
 
-    output_filename = "%s-000-%s.md" % ( guide_weight, slugify(guide_title) )
-    output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, guide_os)
+    output_guide_folder = "%s-%s" % ( guide_weight, slugify(guide_title) )
+    output_filename = "index.md" 
+    output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, guide_os, output_guide_folder)
     write_output(output_path, output_filename, formatted_output)
 
     ### Output book_children
@@ -799,8 +801,8 @@ title: %s
 
 """ % ( guide_lang, guide_community, guide_type, guide_os, book_child_weight, book_child_depth, book_child_title, book_child['body'][guide_lang][0]['value'] )
 
-            child_output_filename = "%s-%s-%s.md" % ( guide_weight, book_child_sorting_trick, slugify(book_child_title) )
-            child_output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, guide_os)
+            child_output_filename = "%s-%s.md" % ( book_child_sorting_trick, slugify(book_child_title) )
+            child_output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, guide_os, output_guide_folder)
             write_output(child_output_path, child_output_filename, formatted_child_output)
 
 
