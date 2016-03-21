@@ -23,7 +23,7 @@ Usage: %s [<nid>] <directory>
 Python dependencies: python-slugify,  python-xml, ???
 """ % argv[0]
 
-g### List of underlying guides (not Community Guide "wrappers") to skip
+### List of underlying guides (not Community Guide "wrappers") to skip
 skip_list = { '342', '2525' }
 
 ### DEBUG: All (underlying) Tactics Guide and Tool Guide nids
@@ -434,9 +434,10 @@ title: %s
     ### Format Tactics Guide Sections
     # TODO: Move chapter_element code to a function
     snippet_position = 1
-    snippet_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type)
-    snippet_placeholder = "\n{{ snippet: ./%s }}\n\n"
-    tool_pointer_placeholder = "\n{{ tool: ../tools/%s }}\n\n"
+    snippet_output_guide_folder = "%s-%s" % ( guide_weight, slugify(guide_title) )
+    snippet_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, snippet_output_guide_folder, "snippets")
+    snippet_placeholder = "\n:[](snippets/%s)\n\n"
+    tool_pointer_placeholder = "\n:[](../../tools/%s)\n\n"
     for section in output_data['field_guide']['und'][0]['field_htb_chapter_element']['und']:
         section_body = ""
         ### DEBUG
@@ -462,10 +463,12 @@ title: %s
                 ### Snippet
                 ### DEBUG
                 # print "has snippet #%s" % snippet_position
-                snippet_filename = "%s-snippet_%s.md" % ( guide_weight, str(snippet_position).zfill(2) )
+                snippet_name = "snippet_%s" % str(snippet_position).zfill(2)
+                snippet_filename = "%s.md" % snippet_name
+                # TODO: Add front-matter to Snippet files?
                 snippet_content = section['field_htb_chapter_feature_top'][lang][0]['value'] + "\n"
                 write_output(snippet_path, snippet_filename, snippet_content)
-                section_body += snippet_placeholder % snippet_filename
+                section_body += snippet_placeholder % snippet_name
                 snippet_position = snippet_position + 1
             elif section['field_htb_chapter_feature_top'][lang][0].has_key('url'):
                 ### Tool Guide Pointer
@@ -477,8 +480,8 @@ title: %s
             else:
                 ### Still has a Snippet Placeholder in Drupal, but it hasn't been re-constructed, 
                 ### probably because there is no matching snippet in the Community Guide wrapper
-                snippet_filename = "%s-snippet_%s.md" % ( guide_weight, str(snippet_position).zfill(2) )
-                section_body += snippet_placeholder % snippet_filename
+                snippet_name = "snippet_%s" % str(snippet_position).zfill(2)
+                section_body += snippet_placeholder % snippet_name
                 snippet_position = snippet_position + 1                
 
         middle_text = section['field_htb_chapter_text']['en'][0]['value'] if section['field_htb_chapter_text'] else ""
@@ -491,10 +494,12 @@ title: %s
             if section['field_htb_chapter_feature'][lang][0]['title'].split(" ")[0] == "Snippet":
                 ### DEBUG
                 # print "has snippet #%s" % snippet_position
-                snippet_filename = "%s-snippet_%s.md" % ( guide_weight, str(snippet_position).zfill(2) )
+                snippet_name = "snippet_%s" % str(snippet_position).zfill(2)
+                snippet_filename = "%s.md" % snippet_name
+                # TODO: Add front-matter to Snippet files?
                 snippet_content = section['field_htb_chapter_feature'][lang][0]['value'] + "\n"
                 write_output(snippet_path, snippet_filename, snippet_content)
-                section_body += snippet_placeholder % snippet_filename
+                section_body += snippet_placeholder % snippet_name
                 snippet_position = snippet_position + 1
             elif section['field_htb_chapter_feature'][lang][0].has_key('url'):
                 ### DEBUG
@@ -505,8 +510,8 @@ title: %s
             else:
                 ### Still has a Snippet Placeholder in Drupal, but it hasn't been re-constructed, 
                 ### probably because there is no matching snippet in the Community Guide wrapper
-                snippet_filename = "%s-snippet_%s.md" % ( guide_weight, str(snippet_position).zfill(2) )
-                section_body += snippet_placeholder % snippet_filename
+                snippet_name = "snippet_%s" % str(snippet_position).zfill(2)
+                section_body += snippet_placeholder % snippet_name
                 snippet_position = snippet_position + 1                
 
         bottom_text = section['field_htb_chapter_text_two']['en'][0]['value'] if section['field_htb_chapter_text_two'] else ""
@@ -519,10 +524,12 @@ title: %s
             if section['field_htb_chapter_feature_bottom'][lang][0]['title'].split(" ")[0] == "Snippet":
                 ### DEBUG
                 # print "has snippet #%s" % snippet_position
-                snippet_filename = "%s-snippet_%s.md" % ( guide_weight, str(snippet_position).zfill(2) )
+                snippet_name = "snippet_%s" % str(snippet_position).zfill(2)
+                snippet_filename = "%s.md" % snippet_name
+                # TODO: Add front-matter to Snippet files?
                 snippet_content = section['field_htb_chapter_feature_bottom'][lang][0]['value'] + "\n"
                 write_output(snippet_path, snippet_filename, snippet_content)
-                section_body += snippet_placeholder % snippet_filename
+                section_body += snippet_placeholder % snippet_name
                 snippet_position = snippet_position + 1
             elif section['field_htb_chapter_feature_bottom'][lang][0].has_key('url'):
                 ### DEBUG
@@ -533,8 +540,8 @@ title: %s
             else:
                 ### Still has a Snippet Placeholder in Drupal, but it hasn't been re-constructed, 
                 ### probably because there is no matching snippet in the Community Guide wrapper
-                snippet_filename = "%s-snippet_%s.md" % ( guide_weight, str(snippet_position).zfill(2) )
-                section_body += snippet_placeholder % snippet_filename
+                snippet_name = "snippet_%s" % str(snippet_position).zfill(2)
+                section_body += snippet_placeholder % snippet_name
                 snippet_position = snippet_position + 1                
 
         formatted_output += """
@@ -549,8 +556,9 @@ title: %s
             formatted_output += "- %s\n" % reference['value']
     
     ### Write markdown-formatted guide
-    output_filename = "%s-%s.md" % ( guide_weight, slugify(guide_title) )
-    output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type)
+    output_filename = "index.md"
+    output_guide_folder = "%s-%s" % ( guide_weight, slugify(guide_title) )
+    output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, output_guide_folder)
     write_output(output_path, output_filename, formatted_output)
 
 ### Format Markdown output for an English Tool Guide and send it to be written
@@ -575,7 +583,8 @@ title: %s
     formatted_output += output_data['field_guide']['und'][0]['field_hog_introduction']['en'][0]['value'] + "\n\n"
 
     ### Format "Required reading"
-    required_reading_placeholder = "\n{{ required_reading: ../../%s }}\n\n"
+    # TODO: Won't currently work due to mismatch between long-names and short-names for Tactics Guides
+    required_reading_placeholder = "\n:[](../../../tactics/%s)\n\n"
     if output_data['field_guide']['und'][0]['field_hog_required_read']:
         formatted_output += "# Required reading\n\n"
         lang = 'en' if output_data['field_guide']['und'][0]['field_hog_required_read'].has_key('en') else 'und' 
@@ -585,9 +594,10 @@ title: %s
             formatted_output += required_reading_placeholder % read_link
 
     ### Format tool info
-    tool_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, guide_os)
-    tool_placeholder =  "\n{{ tool: ./%s }}\n\n"
-    tool_filename = "%s-tool.md" % guide_weight
+    tool_guide_folder = "%s-%s" % ( guide_weight, slugify(guide_title) )
+    tool_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, guide_os, tool_guide_folder)
+    tool_placeholder =  "\n:[](%s)\n\n"
+    tool_filename = "%s.md" % slugify(guide_title)
     tool_data = output_data['field_guide']['und'][0]['field_hog_tool']['und'][0]
     tool_content = ""
     tool_icon = tool_data['field_tool_logo']['en'][0]['filename']
@@ -619,7 +629,7 @@ title: %s
 
     ### Get tool content and put it in tool_content
     write_output(tool_path, tool_filename, tool_content)
-    formatted_output += tool_placeholder % tool_filename
+    formatted_output += tool_placeholder % slugify(guide_title)
 
     ### Format "What you will get from this guide"
     formatted_output += "# What you will get from this guide\n\n"
@@ -655,11 +665,13 @@ title: %s
         formatted_output += "\n# FAQ\n\n"
         formatted_output += output_data['field_guide']['und'][0]['field_hog_faq']['en'][0]['value']
 
-    output_filename = "%s-%s.md" % ( guide_weight, slugify(guide_title) )
-    output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, guide_os)
+    output_filename = "index.md"
+    output_guide_folder = "%s-%s" % ( guide_weight, slugify(guide_title) )
+    output_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, guide_os, output_guide_folder)
     write_output(output_path, output_filename, formatted_output)
 
 ### Format Markdown output for a Legacy Tactics Guide and send it to be written
+# TODO: Use index.md inside appropriately named folder
 def output_legacy_tactic_md(front_matter, output_data):
     guide_lang, guide_community, guide_type, guide_weight, guide_title = front_matter
     formatted_output = """
@@ -725,6 +737,7 @@ title: %s
 
 
 ### Format Markdown output for a Legacy Tool Guide and send it to be written
+# TODO: Use index.md inside appropriately named folder
 def output_legacy_tool_md(front_matter, output_data):
     guide_lang, guide_community, guide_type, guide_os, guide_weight, guide_title = front_matter
     formatted_output = """
@@ -811,7 +824,7 @@ def pp(json_data):
 
 if input_nid == "all":
     fetch_all_guides()
-    fetch_all_legacy_guides()
+    # fetch_all_legacy_guides()
 
 else:
     validate_nid(input_nid)
