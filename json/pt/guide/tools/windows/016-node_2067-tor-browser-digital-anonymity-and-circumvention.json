@@ -1,0 +1,1612 @@
+{
+    "body": {
+        "pt": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Site</strong></p>\n\n<p><a href=\"https://www.torproject.org/\"><strong>https://www.torproject.org</strong></a></p>\n\n<p><strong>Esta ferramenta requer</strong></p>\n\n<ul><li>Qualquer vers\u00e3o do <strong>Windows</strong> (XP ou mais recente)</li>\n<li>Uma conex\u00e3o de internet       </li>\n</ul><p><strong>Vers\u00e3o usada para este guia</strong></p>\n\n<ul><li>Navegador Tor: 3.6.2</li>\n</ul><p><strong>\u00daltima revis\u00e3o deste cap\u00edtulo</strong></p>\n\n<ul><li>Mar\u00e7o de 2014</li>\n</ul><p><strong>Licen\u00e7a de uso</strong></p>\n\n<ul><li>Software livre e de c\u00f3digo aberto (<a href=\"https://en.wikipedia.org/wiki/BSD_license\">Licen\u00e7a BSD</a>)</li>\n</ul><p><strong>Leitura requerida</strong></p>\n\n<ul><li>Cap\u00edtulo <a href=\"/pt/chapter-8\"><strong>8: Como se manter an\u00f4nimo e contornar a censura na internet</strong></a>, do <strong>Guia de Refer\u00eancia</strong>.</li>\n</ul><p><strong>O que voc\u00ea pode fazer com o programa</strong>:</p>\n\n<ul><li>Esconder sua identidade digital dos sites que visita</li>\n<li>Esconder seus destinos online do seu <strong>Provedor de Internet</strong> e outros mecanismos de vigil\u00e2ncia</li>\n<li>Contornar a censura na internet e regras de bloqueio</li>\n</ul><p><strong>GNU Linux, Mac OS e outros programas compat\u00edveis para Windows:</strong></p>\n\n<p>O <strong>Navegador Tor</strong> est\u00e1 dispon\u00edvel para os sistemas operacionais <strong>GNU Linux</strong>, <strong>Mac OS</strong>, <strong>Microsoft Windows</strong> e <strong>Android</strong>. O <strong>Tor</strong> \u00e9 a ferramenta mais recomendada e rigorosamente testada para manter o anonimato das suas atividades online. Mas gostar\u00edamos de listar aqui outras solu\u00e7\u00f5es recomendadas:</p>\n\n<ul><li><a href=\"https://help.riseup.net/en/riseup-vpn/\"><strong>Riseup VPN</strong></a> \u00e9 uma <strong>Virtual Private Network</strong> (<strong>VPN</strong>, ou rede privada virtual), um servidor proxy para <strong>Linux</strong>, <strong>MAC</strong>, <strong>Android</strong> e <strong>Microsoft Windows</strong>.</li>\n<li><a href=\"http://www.psiphon3.com/\"><strong>Psiphon3</strong></a> \u00e9 uma solu\u00e7\u00e3o livre comercial de <strong>Virtual Private Network</strong> (<strong>VPN</strong>, ou rede privada virtual) para <strong>Microsoft Windows</strong> e <strong>Android OS</strong>.</li>\n<li><a href=\"http://www.dit-inc.us/freegate\"><strong>Dynaweb FreeGate</strong></a> \u00e9 uma ferramenta livre de proxy para <strong>Microsoft Windows</strong>.</li>\n<li><a href=\"http://www.your-freedom.net/\"><strong>Your Freedom</strong></a> \u00e9 uma ferramenta comercial de proxy que tamb\u00e9m oferece um servi\u00e7o gr\u00e1tis (embora lento). Est\u00e1 dispon\u00edvel para <strong>Linux</strong>, <strong>Mac OS</strong> e <strong>Microsoft Windows</strong>.</li>\n</ul><h2>1.1 O que voc\u00ea precisa saber sobre a ferramenta antes de come\u00e7ar</h2>\n\n<p>O <strong>Navegador Tor</strong> \u00e9 uma ferramenta desenvolvida para aumentar a privacidade e seguran\u00e7a das suas atividades e h\u00e1bitos na Internet. Ele mascara sua identidade e sua navega\u00e7\u00e3o online de diversas formas de vigil\u00e2ncia na Internet. O <strong>Tor</strong> pode tamb\u00e9m ser \u00fatil como um meio seguro para contornar restri\u00e7\u00f5es eletr\u00f4nicas, assim voc\u00ea pode publicar ou acessar o seu blog e as suas not\u00edcias.</p>\n\n<p>O <strong>Tor</strong> protege seu <em>anonimato</em> ao rotear sua comunica\u00e7\u00e3o atrav\u00e9s de uma rede distribu\u00edda de servidores, gerida por volunt\u00e1rios do mundo todo. Ao usar o <strong>Tor</strong>, voc\u00ea esconde os sites que visita de potenciais observadores e oculta sua localiza\u00e7\u00e3o/identidade desses sites. O programa \u00e9 desenvolvido tamb\u00e9m para garantir que os servidores da rede <strong>Tor</strong> <strong>n\u00e3o saibam</strong> a sua localiza\u00e7\u00e3o assim como os sites que voc\u00ea est\u00e1 visitando.</p>\n\n<p>O <strong>Tor</strong> tamb\u00e9m toma medidas para criptografar a comunica\u00e7\u00e3o para e pela sua rede. <strong>Por\u00e9m</strong> tais medidas n\u00e3o podem se extender por todo o caminho at\u00e9 um site que esteja enviando e recebendo conte\u00fado, caso este utilize canais n\u00e3o criptografados (por exemplo, sem prover acesso https). Ainda assim, a vantagem de usar o <strong>Tor</strong> ao acessar tais sites \u00e9 que o programa torna sua comunica\u00e7\u00e3o segura at\u00e9 o momento entre o \u00faltimo servidor <strong>Tor</strong> e o site n\u00e3o-seguro, o que limita a chance de ter o conte\u00fado interceptado a apenas aquela \u00faltima etapa.</p>\n\n<p>O <strong>Navegador Tor</strong> consiste no programa <strong>Tor</strong> e uma vers\u00e3o modificada do navegador web <strong>Firefox</strong>, o qual \u00e9 desenvolvido para fornecer uma prote\u00e7\u00e3o extra ao us\u00e1-lo. O navegador inclui ainda os complementos <a href=\"/pt/firefox_noscript\"><strong>NoScript</strong></a> e <a href=\"/pt/firefox_others#5.1\"><strong>HTTPS-Everywhere</strong></a>.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Existe um balan\u00e7o entre anonimato e velocidade. Como o Tor facilita a navega\u00e7\u00e3o an\u00f4nima passando seu tr\u00e1fego atrav\u00e9s de computadores de volunt\u00e1rios e servidores em v\u00e1rias partes do mundo, isso ser\u00e1 definitivamente mais lento que usar outro navegador de internet no seu computador.</p>\n\n<p><strong>Defini\u00e7\u00f5es</strong>:</p>\n\n<ul><li><p><strong>Ponte</strong>: Uma Ponte ou \"Bridge Relay\", \u00e9 um servidor <strong>Tor</strong> que n\u00e3o \u00e9 publicamente anunciado. Se escolher usar uma ponte, o servidor poder\u00e1 prover acesso \u00e0 rede <strong>Tor</strong> mesmo se o <strong>Tor</strong> for bloqueado em seu pa\u00eds.</p></li>\n<li><p><strong>Porta:</strong> Neste cap\u00edtulo, a porta \u00e9 um ponto de acesso pelo qual o programa se comunica com o servi\u00e7o executado em outros computadores da rede. Se uma URL, como <strong>www.google.com</strong>, fosse o 'endere\u00e7o da rua' de um servi\u00e7o, ent\u00e3o, a porta seria a entrada que voc\u00ea usaria ao chegar no destino correto. Ao navegar na Rede, voc\u00ea geralmente usa a porta 80 para sites n\u00e3o seguros (<strong>http://mail.google.com</strong>) e a porta 443 para os seguros (<strong>https://mail.google.com</strong>).</p></li>\n<li><p><strong>Proxy:</strong> Um proxy \u00e9 um programa intermedi\u00e1rio que roda no seu computador, na sua rede local ou em algum outro lugar na Internet, e que ajuda a transmitir sua comunica\u00e7\u00e3o at\u00e9 o seu destino final.</p></li>\n<li><p><strong>Rota:</strong> Uma rota \u00e9 o caminho de comunica\u00e7\u00e3o na Internet entre o seu computador e o servidor de destino.</p></li>\n</ul>", 
+                "summary": "", 
+                "value": "**Site**\r\n\t\t\t\r\n[**https://www.torproject.org**](https://www.torproject.org/)\r\n\t\t\t\r\n**Esta ferramenta requer**\r\n\r\n- Qualquer vers\u00e3o do **Windows** (XP ou mais recente)\r\n- Uma conex\u00e3o de internet\t\t\r\n\r\n**Vers\u00e3o usada para este guia**\r\n\r\n- Navegador Tor: 3.6.2\r\n\r\n**\u00daltima revis\u00e3o deste cap\u00edtulo**\r\n\r\n- Mar\u00e7o de 2014\r\n\r\n**Licen\u00e7a de uso** \r\n\r\n- Software livre e de c\u00f3digo aberto ([Licen\u00e7a BSD](https://en.wikipedia.org/wiki/BSD_license))\r\n\r\n**Leitura requerida**\r\n\r\n- Cap\u00edtulo [**8: Como se manter an\u00f4nimo e contornar a censura na internet**](/pt/chapter-8), do **Guia de Refer\u00eancia**.\r\n\r\n\r\n**O que voc\u00ea pode fazer com o programa**:\r\n\r\n- Esconder sua identidade digital dos sites que visita\r\n- Esconder seus destinos online do seu **Provedor de Internet** e outros mecanismos de vigil\u00e2ncia\r\n- Contornar a censura na internet e regras de bloqueio\r\n\r\n**GNU Linux, Mac OS e outros programas compat\u00edveis para Windows:**\r\n\r\nO **Navegador Tor** est\u00e1 dispon\u00edvel para os sistemas operacionais **GNU Linux**, **Mac OS**, **Microsoft Windows** e **Android**. O **Tor** \u00e9 a ferramenta mais recomendada e rigorosamente testada para manter o anonimato das suas atividades online. Mas gostar\u00edamos de listar aqui outras solu\u00e7\u00f5es recomendadas:\r\n\r\n* [**Riseup VPN**](https://help.riseup.net/en/riseup-vpn/) \u00e9 uma **Virtual Private Network** (**VPN**, ou rede privada virtual), um servidor proxy para **Linux**, **MAC**, **Android** e **Microsoft Windows**.\r\n* [**Psiphon3**](http://www.psiphon3.com/) \u00e9 uma solu\u00e7\u00e3o livre comercial de **Virtual Private Network** (**VPN**, ou rede privada virtual) para **Microsoft Windows** e **Android OS**.\r\n* [**Dynaweb FreeGate**](http://www.dit-inc.us/freegate) \u00e9 uma ferramenta livre de proxy para **Microsoft Windows**.\r\n* [**Your Freedom**](http://www.your-freedom.net/) \u00e9 uma ferramenta comercial de proxy que tamb\u00e9m oferece um servi\u00e7o gr\u00e1tis (embora lento). Est\u00e1 dispon\u00edvel para **Linux**, **Mac OS** e **Microsoft Windows**.\r\n\r\n## 1.1 O que voc\u00ea precisa saber sobre a ferramenta antes de come\u00e7ar ##\r\n\r\nO **Navegador Tor** \u00e9 uma ferramenta desenvolvida para aumentar a privacidade e seguran\u00e7a das suas atividades e h\u00e1bitos na Internet. Ele mascara sua identidade e sua navega\u00e7\u00e3o online de diversas formas de vigil\u00e2ncia na Internet. O **Tor** pode tamb\u00e9m ser \u00fatil como um meio seguro para contornar restri\u00e7\u00f5es eletr\u00f4nicas, assim voc\u00ea pode publicar ou acessar o seu blog e as suas not\u00edcias.\r\n\r\nO **Tor** protege seu *anonimato* ao rotear sua comunica\u00e7\u00e3o atrav\u00e9s de uma rede distribu\u00edda de servidores, gerida por volunt\u00e1rios do mundo todo. Ao usar o **Tor**, voc\u00ea esconde os sites que visita de potenciais observadores e oculta sua localiza\u00e7\u00e3o/identidade desses sites. O programa \u00e9 desenvolvido tamb\u00e9m para garantir que os servidores da rede **Tor** **n\u00e3o saibam** a sua localiza\u00e7\u00e3o assim como os sites que voc\u00ea est\u00e1 visitando.\r\n\r\nO **Tor** tamb\u00e9m toma medidas para criptografar a comunica\u00e7\u00e3o para e pela sua rede. **Por\u00e9m** tais medidas n\u00e3o podem se extender por todo o caminho at\u00e9 um site que esteja enviando e recebendo conte\u00fado, caso este utilize canais n\u00e3o criptografados (por exemplo, sem prover acesso https). Ainda assim, a vantagem de usar o **Tor** ao acessar tais sites \u00e9 que o programa torna sua comunica\u00e7\u00e3o segura at\u00e9 o momento entre o \u00faltimo servidor **Tor** e o site n\u00e3o-seguro, o que limita a chance de ter o conte\u00fado interceptado a apenas aquela \u00faltima etapa.\r\n\r\nO **Navegador Tor** consiste no programa **Tor** e uma vers\u00e3o modificada do navegador web **Firefox**, o qual \u00e9 desenvolvido para fornecer uma prote\u00e7\u00e3o extra ao us\u00e1-lo. O navegador inclui ainda os complementos [**NoScript**](/pt/firefox_noscript) e [**HTTPS-Everywhere**](/pt/firefox_others#5.1). \r\n\r\n**Observa\u00e7\u00e3o**: Existe um balan\u00e7o entre anonimato e velocidade. Como o Tor facilita a navega\u00e7\u00e3o an\u00f4nima passando seu tr\u00e1fego atrav\u00e9s de computadores de volunt\u00e1rios e servidores em v\u00e1rias partes do mundo, isso ser\u00e1 definitivamente mais lento que usar outro navegador de internet no seu computador.\r\n\r\n**Defini\u00e7\u00f5es**:\r\n\r\n- **Ponte**: Uma Ponte ou \"Bridge Relay\", \u00e9 um servidor **Tor** que n\u00e3o \u00e9 publicamente anunciado. Se escolher usar uma ponte, o servidor poder\u00e1 prover acesso \u00e0 rede **Tor** mesmo se o **Tor** for bloqueado em seu pa\u00eds.\r\n\r\n- **Porta:** Neste cap\u00edtulo, a porta \u00e9 um ponto de acesso pelo qual o programa se comunica com o servi\u00e7o executado em outros computadores da rede. Se uma URL, como **www.google.com**, fosse o 'endere\u00e7o da rua' de um servi\u00e7o, ent\u00e3o, a porta seria a entrada que voc\u00ea usaria ao chegar no destino correto. Ao navegar na Rede, voc\u00ea geralmente usa a porta 80 para sites n\u00e3o seguros (**http://mail.google.com**) e a porta 443 para os seguros (**https://mail.google.com**).\r\n\r\n- **Proxy:** Um proxy \u00e9 um programa intermedi\u00e1rio que roda no seu computador, na sua rede local ou em algum outro lugar na Internet, e que ajuda a transmitir sua comunica\u00e7\u00e3o at\u00e9 o seu destino final.\r\n\r\n- **Rota:** Uma rota \u00e9 o caminho de comunica\u00e7\u00e3o na Internet entre o seu computador e o servidor de destino."
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2067", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2067", 
+        "link_title": "Tor Browser - Digital Anonymity and Circumvention", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5213", 
+        "module": "book", 
+        "nid": "2067", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5213", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "Tor Browser - Digital Anonymity and Circumvention", 
+        "updated": "0", 
+        "weight": "0"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>2.0 Como extrair o Navegador Tor</h2>\n\n<p>O <strong>Navegador Tor</strong> \u00e9 uma vers\u00e3o modificada do <strong>Firefox</strong> que fornecer\u00e1 tudo o que \u00e9 necess\u00e1rio para navegar pela internet de forma an\u00f4nima. Esse programa n\u00e3o requer nenhuma instala\u00e7\u00e3o; basta extra\u00ed-lo e execut\u00e1-lo.</p>\n\n<p>Para extrair o <strong>Navegador Tor</strong>, execute os seguintes passos:</p>\n\n<p><strong>Passo 1</strong>. D\u00ea um <strong>duplo clique</strong> em <img src=\"/sbox/screen/tor-pt/001.png\" alt=\"\" />; a caixa de di\u00e1logo <em>Abrir Arquivo - Alerta de Seguran\u00e7a</em> pode aparecer. Se isso acontecer, <strong>clique</strong> em <img src=\"/sbox/screen/tor-pt/002.png\" alt=\"\" /> para ativar o programa.</p>\n\n<p>A tela para selecionar a linguagem aparecer\u00e1 em seguida:</p>\n\n<p><img src=\"/sbox/screen/tor-pt/003.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: A tela da sele\u00e7\u00e3o de linguagem</em></p>\n\n<p><strong>Escolha</strong> a linguagem no menu expandido e <strong>clique</strong> no bot\u00e3o de OK para ativar a janela abaixo.</p>\n\n<p><strong>Passo 2</strong>: Escolha a localiza\u00e7\u00e3o do diret\u00f3rio para extrair o <strong>Navegador Tor</strong>.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: O <strong>Navegador Tor</strong> n\u00e3o \u00e9 instalado automaticamente no diret\u00f3rio <em>C:\\Program Files</em> (diferentemente da maioria dos procedimentos de instala\u00e7\u00e3o das nossas ferramentas recomendadas). Em vez disso, cria uma pasta na sua <em>\u00c1rea de Trabalho</em>.</p>\n\n<p><strong>Importante</strong>: Voc\u00ea tamb\u00e9m pode extrair e usar o <strong>Navegador Tor</strong> numa pasta diferente do computador ou em um pen drive, o que pode ajudar a esconder o fato de que voc\u00ea est\u00e1 usando <strong>Tor</strong> no seu computador.</p>\n\n<p><strong>Clique</strong> em <img src=\"/sbox/screen/tor-pt/004.png\" alt=\"\" /> para aceitar a <em>\u00c1rea de Trabalho</em> como pasta padr\u00e3o e ativar a janela a seguir. Alternativamente, <strong>clique</strong> em <img src=\"/sbox/screen/tor-pt/005.png\" alt=\"\" /> para ativar a janela <em>Procurar a Pasta</em> e navegar at\u00e9 a pasta desejada para extrair o <strong>Navegador Tor</strong>.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/008.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: Um exemplo da localiza\u00e7\u00e3o padr\u00e3o do diret\u00f3rio extra\u00eddo do Navegador Tor</em></p>\n\n<p><strong>Passo 3</strong>. <strong>Clique</strong> em <img src=\"/sbox/screen/tor-pt/004.png\" alt=\"\" /> para come\u00e7ar a extrair o <strong>Navegador Tor</strong>. Uma vez completado o processo, uma tela confirmando que o <strong>Navegador Tor</strong> foi instalado ser\u00e1 exibida, com a op\u00e7\u00e3o de execut\u00e1-lo.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/009.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: O processo de instala\u00e7\u00e3o realizado com sucesso</em></p>\n\n<p>Note que a op\u00e7\u00e3o <em>Executar o Navegador Tor</em> est\u00e1 selecionada na tela acima. Ao <strong>clicar</strong> no bot\u00e3o <em>Terminar</em>, o <strong>Navegador Tor</strong> ser\u00e1 iniciado automaticamente.</p>\n\n<p>Nesse exemplo, ap\u00f3s o processo de extra\u00e7\u00e3o haver finalizado, o <strong>Navegador Tor</strong> aparecer\u00e1 na sua <em>\u00c1rea de Trabalho</em>, em uma pasta chamada <em>Navegador Tor</em>. Para us\u00e1-lo, apenas d\u00ea um <strong>duplo clique</strong> em <img src=\"/sbox/screen/tor-pt/010.png\" alt=\"\" />, naquela pasta.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/011.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: O Navegador Tor extra\u00eddo para uma pasta na sua \u00c1rea de Trabalho</em></p>\n\n<p>Voc\u00ea extraiu com sucesso o <strong>Navegador Tor</strong>.</p>\n", 
+                        "summary": "", 
+                        "value": "<a name=\"2.0\"></a>\r\n## 2.0 Como extrair o Navegador Tor ##\r\n\r\nO **Navegador Tor** \u00e9 uma vers\u00e3o modificada do **Firefox** que fornecer\u00e1 tudo o que \u00e9 necess\u00e1rio para navegar pela internet de forma an\u00f4nima. Esse programa n\u00e3o requer nenhuma instala\u00e7\u00e3o; basta extra\u00ed-lo e execut\u00e1-lo.\r\n\r\nPara extrair o **Navegador Tor**, execute os seguintes passos:\r\n\r\n**Passo 1**. D\u00ea um **duplo clique** em ![](/sbox/screen/tor-pt/001.png); a caixa de di\u00e1logo *Abrir Arquivo - Alerta de Seguran\u00e7a* pode aparecer. Se isso acontecer, **clique** em ![](/sbox/screen/tor-pt/002.png) para ativar o programa.\r\n\r\nA tela para selecionar a linguagem aparecer\u00e1 em seguida:\r\n\r\n![](/sbox/screen/tor-pt/003.png)\r\n\r\n*Figura 1: A tela da sele\u00e7\u00e3o de linguagem*\r\n\r\n**Escolha** a linguagem no menu expandido e **clique** no bot\u00e3o de OK para ativar a janela abaixo.\r\n\r\n**Passo 2**: Escolha a localiza\u00e7\u00e3o do diret\u00f3rio para extrair o **Navegador Tor**.\r\n\r\n**Observa\u00e7\u00e3o**: O **Navegador Tor** n\u00e3o \u00e9 instalado automaticamente no diret\u00f3rio *C:\\Program Files* (diferentemente da maioria dos procedimentos de instala\u00e7\u00e3o das nossas ferramentas recomendadas). Em vez disso, cria uma pasta na sua *\u00c1rea de Trabalho*.\r\n\r\n**Importante**: Voc\u00ea tamb\u00e9m pode extrair e usar o **Navegador Tor** numa pasta diferente do computador ou em um pen drive, o que pode ajudar a esconder o fato de que voc\u00ea est\u00e1 usando **Tor** no seu computador.\r\n\r\n**Clique** em ![](/sbox/screen/tor-pt/004.png) para aceitar a *\u00c1rea de Trabalho* como pasta padr\u00e3o e ativar a janela a seguir. Alternativamente, **clique** em ![](/sbox/screen/tor-pt/005.png) para ativar a janela *Procurar a Pasta* e navegar at\u00e9 a pasta desejada para extrair o **Navegador Tor**.\r\n\r\n![](/sbox/screen/tor-pt/008.png)\r\n\r\n*Figura 2: Um exemplo da localiza\u00e7\u00e3o padr\u00e3o do diret\u00f3rio extra\u00eddo do Navegador Tor*\r\n\r\n**Passo 3**. **Clique** em ![](/sbox/screen/tor-pt/004.png) para come\u00e7ar a extrair o **Navegador Tor**. Uma vez completado o processo, uma tela confirmando que o **Navegador Tor** foi instalado ser\u00e1 exibida, com a op\u00e7\u00e3o de execut\u00e1-lo.\r\n\r\n![](/sbox/screen/tor-pt/009.png)\r\n\r\n*Figura 4: O processo de instala\u00e7\u00e3o realizado com sucesso*\r\n\r\nNote que a op\u00e7\u00e3o *Executar o Navegador Tor* est\u00e1 selecionada na tela acima. Ao **clicar** no bot\u00e3o *Terminar*, o **Navegador Tor** ser\u00e1 iniciado automaticamente.\r\n\r\nNesse exemplo, ap\u00f3s o processo de extra\u00e7\u00e3o haver finalizado, o **Navegador Tor** aparecer\u00e1 na sua *\u00c1rea de Trabalho*, em uma pasta chamada *Navegador Tor*. Para us\u00e1-lo, apenas d\u00ea um **duplo clique** em ![](/sbox/screen/tor-pt/010.png), naquela pasta.\r\n\r\n![](/sbox/screen/tor-pt/011.png) \r\n\r\n*Figura 5: O Navegador Tor extra\u00eddo para uma pasta na sua \u00c1rea de Trabalho*\r\n\r\nVoc\u00ea extraiu com sucesso o **Navegador Tor**."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2068", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2068", 
+                "link_title": "How to extract the Tor Browser", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5214", 
+                "module": "book", 
+                "nid": "2068", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5213", 
+                "p3": "5214", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5213", 
+                "router_path": "node/%", 
+                "title": "How to extract the Tor Browser", 
+                "updated": "0", 
+                "weight": "0"
+            }, 
+            "changed": "1456839675", 
+            "comment": "0", 
+            "created": "1441185797", 
+            "current_revision_id": "13413", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "tor_extract", 
+                        "value": "tor_extract"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5214": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2068", 
+                    "link_title": "How to extract the Tor Browser", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5214", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5213", 
+                    "p3": "5214", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5213", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "0"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2068", 
+            "num_revisions": "34", 
+            "path": "https://securityinabox.org/en/node/2068", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456839675", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como extrair o Navegador Tor", 
+                        "value": "Como extrair o Navegador Tor"
+                    }
+                ]
+            }, 
+            "title_original": "How to extract the Tor Browser", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442936905", 
+                        "created": "1442936905", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454332084", 
+                        "created": "1441892028", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442504018", 
+                        "created": "1442504018", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442320333", 
+                        "created": "1441638777", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442848588", 
+                        "created": "1442848588", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1456839675", 
+                        "created": "1444395075", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455126755", 
+                        "created": "1455126755", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443628076", 
+                        "created": "1443628076", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441196108", 
+                        "created": "1441196108", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444191281", 
+                        "created": "1444191281", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443022488", 
+                        "created": "1443022488", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444835041", 
+                        "created": "1444731419", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446476989", 
+                        "created": "1441185797", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2068", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445440527", 
+                        "created": "1445440527", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "fb847a97-270f-4ac7-95a7-ede3ec63e75d", 
+            "vid": "13413", 
+            "vuuid": "423220ac-d847-448e-b368-23963acc2f7b"
+        }, 
+        {
+            "body": {
+                "pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li><a href=\"#3.0\"><strong>3.0 Como se conectar \u00e0 Rede Tor</strong></a></li>\n<li><a href=\"#3.1.1\"><strong>3.1.1 - Acesso direto</strong></a></li>\n<li><a href=\"#3.1.2\"><strong>3.1.2 - Acesso restrito</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 Como reconfigurar o acesso \u00e0 Rede Tor</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 Como obter endere\u00e7os de ponte</strong></a></li>\n</ul><p><a name=\"3.0\" id=\"3.0\"></a></p>\n\n<h2>3.0 Como se conectar \u00e0 Rede Tor</h2>\n\n<p>Quando voc\u00ea iniciar o <strong>Navegador Tor</strong> pela primeira vez, a op\u00e7\u00e3o de como acessar a internet ser\u00e1 exibida:</p>\n\n<ul><li><p><a href=\"#3.1.1\">Acesso Direto</a>:  Selecione essa op\u00e7\u00e3o se o seu acesso \u00e0 internet n\u00e3o \u00e9 restrito e se o uso do <strong>Tor</strong> <strong>n\u00e3o \u00e9</strong> bloqueado, banido ou monitorado onde voc\u00ea est\u00e1.</p></li>\n<li><p><a href=\"#3.1.2\">Acesso Restrito</a>: Selecione essa op\u00e7\u00e3o se seu acesso \u00e0 internet \u00e9 restrito ou se o uso do <strong>Tor</strong> <strong>\u00e9</strong> bloqueado, banido ou monitorado onde voc\u00ea est\u00e1.</p></li>\n</ul><p>Essas op\u00e7\u00f5es podem ser modificadas a qualquer momento a partir do <strong>Navegador Tor</strong> sem precisar reinstalar o programa, o que talvez precise ser feito caso sua localiza\u00e7\u00e3o mude ou se voc\u00ea estiver visitando um pa\u00eds diferente.</p>\n\n<p>Posteriormente quando voc\u00ea iniciar o <strong>Navegador Tor</strong>, ele conectar\u00e1 com a rede <strong>Tor</strong> sem precisar de nenhuma configura\u00e7\u00e3o a mais.</p>\n\n<p><a name=\"3.1.1\" id=\"3.1.1\"></a></p>\n\n<h2>3.1.1 Como se conectar \u00e0 Rede Tor - Acesso direto</h2>\n\n<p>Para configurar o <strong>Navegador Tor</strong> para acessar a rede <strong>Tor</strong> diretamente, siga os seguintes passos:</p>\n\n<p><strong>Passo 1</strong>: <strong>Navegue</strong> at\u00e9 a pasta do <em>Navegador Tor</em> e d\u00ea <strong>dois cliques</strong> em <img src=\"/sbox/screen/tor-pt/010.png\" alt=\"\" /> para ativar a seguinte tela:</p>\n\n<p><img src=\"/sbox/screen/tor-pt/012.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: O painel de Configura\u00e7\u00f5es da Rede Tor</em></p>\n\n<p><strong>Passo 2</strong>: <strong>Clique</strong> no bot\u00e3o <img src=\"/sbox/screen/tor-pt/013.png\" alt=\"\" /> para abrir a janela de <strong>Status do Tor</strong>, que mostrar\u00e1 o progresso da conex\u00e3o do programa na <strong>Rede Tor</strong>.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/014.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: A janela de Status do Tor, mostrando o progresso da conex\u00e3o</em></p>\n\n<p>Um tempo depois, o <strong>Navegador Tor</strong> ativar\u00e1 uma nova janela mostrando a seguinte tela:</p>\n\n<p><img src=\"/sbox/screen/tor-pt/015.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: O Navegador Tor conectado com sucesso \u00e0 rede Tor</em></p>\n\n<p>Agora voc\u00ea pode navegar pela web com a prote\u00e7\u00e3o da <em>rede Tor</em>.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Toda vez que iniciar o <strong>Navegador Tor</strong>, a janela de <em>Status do Tor</em> (<em>Figura 2</em>) abrir\u00e1 automaticamente antes de iniciar o navegador (<em>Figura 3</em>).</p>\n\n<p><a name=\"3.1.2\" id=\"3.1.2\"></a></p>\n\n<h2>3.1.2 Como se conectar \u00e0 Rede Tor - Acesso restrito</h2>\n\n<p>Se voc\u00ea vive em um local onde \u00e9 arriscado ou n\u00e3o \u00e9 poss\u00edvel acessar a rede Tor diretamente, como descrito acima, pode configurar o programa para tentar contornar os obst\u00e1culos que est\u00e3o no caminho.</p>\n\n<p><strong>Passo 1</strong>: <strong>Navegue</strong> at\u00e9 a pasta do <em>Tor</em> e depois d\u00ea um <strong>clique duplo</strong> em <img src=\"/sbox/screen/tor-pt/010.png\" alt=\"\" /> para ativar a seguinte tela:</p>\n\n<p><img src=\"/sbox/screen/tor-pt/012.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: O painel de Configura\u00e7\u00f5es da Rede Tor</em></p>\n\n<p><strong>Passo 2</strong>: <strong>Clique</strong> no bot\u00e3o <img src=\"/sbox/screen/tor-pt/016.png\" alt=\"\" /> para abrir uma nova janela. Tr\u00eas breves perguntas de configura\u00e7\u00e3o ser\u00e3o exibidas para ajudar a acessar a <strong>Rede Tor</strong>.</p>\n\n<p><strong>Pergunta 1:</strong> <em>Acesso por proxy.</em>  Se voc\u00ea precisa acessar a internet por um proxy, selecione <strong>sim</strong> e, ent\u00e3o, pressione <img src=\"/sbox/screen/tor-pt/017.png\" alt=\"\" />. Se voc\u00ea n\u00e3o usa proxy, ent\u00e3o selecione <strong>n\u00e3o</strong> e pressione <img src=\"/sbox/screen/tor-pt/017.png\" alt=\"\" />.</p>\n\n<p>Se voc\u00ea selecionou <strong>sim</strong> acima, preencha as suas configura\u00e7\u00f5es de proxy na tela seguinte. Se n\u00e3o as souber, verifique no seu pr\u00f3prio navegador de internet.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/018.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: Tela de configura\u00e7\u00f5es de Proxy</em></p>\n\n<p><strong>Pergunta 2:</strong> <em>Portas restritas.</em> Se voc\u00ea est\u00e1 acessando a internet por um firewall que permite o acesso apenas por meio de certas portas (por exemplo, a <em>porta 80 ou 443</em> para navega\u00e7\u00e3o na rede), selecione <strong>sim</strong> e pressione <img src=\"/sbox/screen/tor-pt/017.png\" alt=\"\" /> para configur\u00e1-las. Caso contr\u00e1rio selecione <strong>n\u00e3o</strong> e pressione <img src=\"/sbox/screen/tor-pt/017.png\" alt=\"\" />.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/019.png\" alt=\"\" /></p>\n\n<p><em>Figura 6: Tela de configura\u00e7\u00e3o das portas restritas</em></p>\n\n<p><strong>Pergunta 3:</strong> <em>Conex\u00e3o de internet censurada.</em> Se voc\u00ea vive em um pa\u00eds que ativamente bloqueia ou monitora o tr\u00e1fego do <strong>Tor</strong>, pode configur\u00e1-lo para usar uma <em>Ponte</em> ('Bridge'), o que disfar\u00e7ar\u00e1 o fato de voc\u00ea estar usando o programa.</p>\n\n<p>Ap\u00f3s clicar em <img src=\"/sbox/screen/tor-pt/017.png\" alt=\"\" />, depois da <em>pergunta 2</em>, ser\u00e1 exibida uma tela que permite colar os <strong>endere\u00e7os de ponte</strong>. Veja a se\u00e7\u00e3o <a href=\"#3.3\">Como obter endere\u00e7os de ponte</a> para mais instru\u00e7\u00f5es.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/020.png\" alt=\"\" /></p>\n\n<p><em>Figura 7: Tela de configura\u00e7\u00e3o da Ponte do Tor</em></p>\n\n<p>Uma vez adicionados os <strong>endere\u00e7os de ponte</strong>, clique em <img src=\"/sbox/screen/tor-pt/021.png\" alt=\"\" /> para terminar a configura\u00e7\u00e3o e se conectar \u00e0 <strong>Rede Tor</strong>.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/014.png\" alt=\"\" /></p>\n\n<p><em>Figura 8: A janela de Status do Tor mostrando a conex\u00e3o em progresso</em></p>\n\n<p>Um tempo depois, o <strong>Navegador Tor</strong> ativar\u00e1 uma nova janela do navegador mostrando a seguinte tela:</p>\n\n<p><img src=\"/sbox/screen/tor-pt/015.png\" alt=\"\" /></p>\n\n<p><em>Figura 9: O Navegador Tor conectado com sucesso \u00e0 rede Tor</em></p>\n\n<p>Agora voc\u00ea pode navegar na rede com a prote\u00e7\u00e3o da <em>rede Tor</em>.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Toda vez que voc\u00ea iniciar o <strong>Navegador Tor</strong>, a janela de <em>Status do Tor</em> (<em>Figura 8</em>) ser\u00e1 aberta automaticamente antes de iniciar o navegador (<em>Figura 9</em>).</p>\n\n<p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 Como reconfigurar o acesso \u00e0 Rede Tor</h2>\n\n<p>A qualquer momento, se precisar acessar a <strong>Rede Tor</strong> de um modo diferente (por exemplo, se viajar para um pa\u00eds que bloqueia o Tor), voc\u00ea pode atualizar suas configura\u00e7\u00f5es pelo navegador. Clique no \u00edcone <img src=\"/sbox/screen/tor-pt/022.png\" alt=\"\" /> e selecione <em>Abrir as Configura\u00e7\u00f5es de Rede</em>.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/023.png\" alt=\"\" /></p>\n\n<p><em>Figura 10: As op\u00e7\u00f5es do Navegador Tor</em></p>\n\n<p>Ser\u00e1 exibida uma nova janela (<em>Figura 11</em>, abaixo), que permitir\u00e1 mudar como o <strong>Navegador Tor</strong> acessa a internet. Selecione as op\u00e7\u00f5es que deseja e mude as configura\u00e7\u00f5es. Uma vez que voc\u00ea esteja contente com as mudan\u00e7as, pressione <img src=\"/sbox/screen/tor-pt/024.png\" alt=\"\" /> e reinicie o <strong>Navegador Tor</strong>.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/025.png\" alt=\"\" /></p>\n\n<p><em>Figura 11: Op\u00e7\u00f5es do Navegador Tor</em></p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h2>3.3 Como obter endere\u00e7os de ponte</h2>\n\n<p>Para configurar o <strong>Navegador Tor</strong> para usar <strong>Pontes</strong> (ou 'bridges') \u00e9 necess\u00e1rio obter seus endere\u00e7os. H\u00e1 duas formas de se fazer isso:</p>\n\n<p><strong>Por e-mail</strong>:</p>\n\n<p>Para obter as pontes por e-mail, voc\u00ea precisar\u00e1 de uma conta do Gmail ou do Yahoo. Envie um e-mail para bridges@bridges.torproject.org com o assunto <em>get bridges</em>. Depois de alguns minutos voc\u00ea receber\u00e1 um e-mail com 3 pontes listadas e mais alguns detalhes.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/026.png\" alt=\"\" /></p>\n\n<p><em>Figura 12: E-mail com as pontes listadas</em></p>\n\n<p><strong>Via site</strong></p>\n\n<p>Se o seu acesso n\u00e3o estiver completamente restrito, \u00e9 poss\u00edvel obter os endere\u00e7os de <strong>ponte</strong> a partir do site do Tor, visitando o endere\u00e7o <a href=\"https://bridges.torproject.org/\">https://bridges.torproject.org/</a></p>\n\n<p>Depois de abrir a p\u00e1gina, \u00e9 preciso executar tr\u00eas passos:</p>\n\n<ul><li><p>Clique em <img src=\"/sbox/screen/tor-pt/027.png\" alt=\"\" />;</p></li>\n<li><p>Clique em <img src=\"/sbox/screen/tor-pt/028.png\" alt=\"\" />;</p></li>\n<li><p>Preencha o <em>captcha</em> e pressione <img src=\"/sbox/screen/tor-pt/029.png\" alt=\"\" />.</p></li>\n</ul><p>Uma vez inserido corretamente o <em>captcha</em> tr\u00eas endere\u00e7os de <strong>Ponte</strong> ser\u00e3o exibidos.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/030.png\" alt=\"\" /></p>\n\n<p><em>Figura 13: Endere\u00e7os de Ponte recebidos pelo site do Projeto Tor</em></p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: O <em>Banco de dados de Pontes</em> foi desenvolvido para evitar que uma \u00fanica pessoa descubra facilmente todos os endere\u00e7os. Em um primeiro momento, pode parecer que apenas os mesmos endere\u00e7os s\u00e3o fornecidos. Por\u00e9m, de tempos em tempos, o banco eventualmente prover\u00e1 novos endere\u00e7os.</p>\n\n<p>Depois de receber os endere\u00e7os de ponte, copie-os e cole-os no campo da janela, como mostrado na <em>Figura 7: Tela de configura\u00e7\u00e3o da Ponte do Tor</em> ou na <em>Figura 11: Op\u00e7\u00f5es do Navegador Tor</em>.</p>\n", 
+                        "summary": "", 
+                        "value": "- [**3.0 Como se conectar \u00e0 Rede Tor**](#3.0)\r\n- [**3.1.1 - Acesso direto**](#3.1.1)\r\n- [**3.1.2 - Acesso restrito**](#3.1.2)\r\n- [**3.2 Como reconfigurar o acesso \u00e0 Rede Tor**](#3.2)\r\n- [**3.3 Como obter endere\u00e7os de ponte**](#3.3)\r\n\r\n<a name=\"3.0\"></a>\r\n## 3.0 Como se conectar \u00e0 Rede Tor ##\r\n\r\nQuando voc\u00ea iniciar o **Navegador Tor** pela primeira vez, a op\u00e7\u00e3o de como acessar a internet ser\u00e1 exibida:\r\n\r\n- [Acesso Direto](#3.1.1):  Selecione essa op\u00e7\u00e3o se o seu acesso \u00e0 internet n\u00e3o \u00e9 restrito e se o uso do **Tor** **n\u00e3o \u00e9** bloqueado, banido ou monitorado onde voc\u00ea est\u00e1.\r\n\r\n- [Acesso Restrito](#3.1.2): Selecione essa op\u00e7\u00e3o se seu acesso \u00e0 internet \u00e9 restrito ou se o uso do **Tor** **\u00e9** bloqueado, banido ou monitorado onde voc\u00ea est\u00e1.\r\n\r\nEssas op\u00e7\u00f5es podem ser modificadas a qualquer momento a partir do **Navegador Tor** sem precisar reinstalar o programa, o que talvez precise ser feito caso sua localiza\u00e7\u00e3o mude ou se voc\u00ea estiver visitando um pa\u00eds diferente.\r\n\r\nPosteriormente quando voc\u00ea iniciar o **Navegador Tor**, ele conectar\u00e1 com a rede **Tor** sem precisar de nenhuma configura\u00e7\u00e3o a mais.\r\n\r\n\r\n<a name=\"3.1.1\"></a>\r\n## 3.1.1 Como se conectar \u00e0 Rede Tor - Acesso direto ##\r\n\r\nPara configurar o **Navegador Tor** para acessar a rede **Tor** diretamente, siga os seguintes passos:\r\n\r\n**Passo 1**: **Navegue** at\u00e9 a pasta do *Navegador Tor* e d\u00ea **dois cliques** em ![](/sbox/screen/tor-pt/010.png) para ativar a seguinte tela:\r\n\r\n![](/sbox/screen/tor-pt/012.png)\r\n\r\n*Figura 1: O painel de Configura\u00e7\u00f5es da Rede Tor*\r\n\r\n**Passo 2**: **Clique** no bot\u00e3o ![](/sbox/screen/tor-pt/013.png) para abrir a janela de **Status do Tor**, que mostrar\u00e1 o progresso da conex\u00e3o do programa na **Rede Tor**.\r\n\r\n![](/sbox/screen/tor-pt/014.png)\r\n\r\n*Figura 2: A janela de Status do Tor, mostrando o progresso da conex\u00e3o*\r\n\r\nUm tempo depois, o **Navegador Tor** ativar\u00e1 uma nova janela mostrando a seguinte tela:\r\n\r\n![](/sbox/screen/tor-pt/015.png)\r\n\r\n*Figura 3: O Navegador Tor conectado com sucesso \u00e0 rede Tor*\r\n\r\nAgora voc\u00ea pode navegar pela web com a prote\u00e7\u00e3o da *rede Tor*.\r\n\r\n**Observa\u00e7\u00e3o**: Toda vez que iniciar o **Navegador Tor**, a janela de *Status do Tor* (*Figura 2*) abrir\u00e1 automaticamente antes de iniciar o navegador (*Figura 3*).\r\n\r\n\r\n<a name=\"3.1.2\"></a>\r\n## 3.1.2 Como se conectar \u00e0 Rede Tor - Acesso restrito ##\r\n\r\nSe voc\u00ea vive em um local onde \u00e9 arriscado ou n\u00e3o \u00e9 poss\u00edvel acessar a rede Tor diretamente, como descrito acima, pode configurar o programa para tentar contornar os obst\u00e1culos que est\u00e3o no caminho.\r\n\r\n**Passo 1**: **Navegue** at\u00e9 a pasta do *Tor* e depois d\u00ea um **clique duplo** em ![](/sbox/screen/tor-pt/010.png) para ativar a seguinte tela:\r\n\r\n![](/sbox/screen/tor-pt/012.png)\r\n\r\n*Figura 4: O painel de Configura\u00e7\u00f5es da Rede Tor*\r\n\r\n**Passo 2**: **Clique** no bot\u00e3o ![](/sbox/screen/tor-pt/016.png) para abrir uma nova janela. Tr\u00eas breves perguntas de configura\u00e7\u00e3o ser\u00e3o exibidas para ajudar a acessar a **Rede Tor**.\r\n\r\n**Pergunta 1:** *Acesso por proxy.*  Se voc\u00ea precisa acessar a internet por um proxy, selecione **sim** e, ent\u00e3o, pressione ![](/sbox/screen/tor-pt/017.png). Se voc\u00ea n\u00e3o usa proxy, ent\u00e3o selecione **n\u00e3o** e pressione ![](/sbox/screen/tor-pt/017.png).\r\n\r\nSe voc\u00ea selecionou **sim** acima, preencha as suas configura\u00e7\u00f5es de proxy na tela seguinte. Se n\u00e3o as souber, verifique no seu pr\u00f3prio navegador de internet. \r\n\r\n![](/sbox/screen/tor-pt/018.png)\r\n\r\n*Figura 5: Tela de configura\u00e7\u00f5es de Proxy*\r\n\r\n**Pergunta 2:** *Portas restritas.* Se voc\u00ea est\u00e1 acessando a internet por um firewall que permite o acesso apenas por meio de certas portas (por exemplo, a *porta 80 ou 443* para navega\u00e7\u00e3o na rede), selecione **sim** e pressione ![](/sbox/screen/tor-pt/017.png) para configur\u00e1-las. Caso contr\u00e1rio selecione **n\u00e3o** e pressione ![](/sbox/screen/tor-pt/017.png). \r\n\r\n![](/sbox/screen/tor-pt/019.png)\r\n\r\n*Figura 6: Tela de configura\u00e7\u00e3o das portas restritas*\r\n\r\n**Pergunta 3:** *Conex\u00e3o de internet censurada.* Se voc\u00ea vive em um pa\u00eds que ativamente bloqueia ou monitora o tr\u00e1fego do **Tor**, pode configur\u00e1-lo para usar uma *Ponte* ('Bridge'), o que disfar\u00e7ar\u00e1 o fato de voc\u00ea estar usando o programa.\r\n\r\nAp\u00f3s clicar em ![](/sbox/screen/tor-pt/017.png), depois da *pergunta 2*, ser\u00e1 exibida uma tela que permite colar os **endere\u00e7os de ponte**. Veja a se\u00e7\u00e3o [Como obter endere\u00e7os de ponte](#3.3) para mais instru\u00e7\u00f5es.\r\n\r\n![](/sbox/screen/tor-pt/020.png)\r\n\r\n*Figura 7: Tela de configura\u00e7\u00e3o da Ponte do Tor*\r\n\r\nUma vez adicionados os **endere\u00e7os de ponte**, clique em ![](/sbox/screen/tor-pt/021.png) para terminar a configura\u00e7\u00e3o e se conectar \u00e0 **Rede Tor**.\r\n\r\n![](/sbox/screen/tor-pt/014.png)\r\n\r\n*Figura 8: A janela de Status do Tor mostrando a conex\u00e3o em progresso*\r\n\r\nUm tempo depois, o **Navegador Tor** ativar\u00e1 uma nova janela do navegador mostrando a seguinte tela:\r\n\r\n![](/sbox/screen/tor-pt/015.png)\r\n\r\n*Figura 9: O Navegador Tor conectado com sucesso \u00e0 rede Tor*\r\n\r\nAgora voc\u00ea pode navegar na rede com a prote\u00e7\u00e3o da *rede Tor*.\r\n\r\n**Observa\u00e7\u00e3o**: Toda vez que voc\u00ea iniciar o **Navegador Tor**, a janela de *Status do Tor* (*Figura 8*) ser\u00e1 aberta automaticamente antes de iniciar o navegador (*Figura 9*).\r\n\r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 Como reconfigurar o acesso \u00e0 Rede Tor ##\r\n\r\nA qualquer momento, se precisar acessar a **Rede Tor** de um modo diferente (por exemplo, se viajar para um pa\u00eds que bloqueia o Tor), voc\u00ea pode atualizar suas configura\u00e7\u00f5es pelo navegador. Clique no \u00edcone ![](/sbox/screen/tor-pt/022.png) e selecione *Abrir as Configura\u00e7\u00f5es de Rede*.\r\n\r\n![](/sbox/screen/tor-pt/023.png)\r\n\r\n*Figura 10: As op\u00e7\u00f5es do Navegador Tor*\r\n\r\nSer\u00e1 exibida uma nova janela (*Figura 11*, abaixo), que permitir\u00e1 mudar como o **Navegador Tor** acessa a internet. Selecione as op\u00e7\u00f5es que deseja e mude as configura\u00e7\u00f5es. Uma vez que voc\u00ea esteja contente com as mudan\u00e7as, pressione ![](/sbox/screen/tor-pt/024.png) e reinicie o **Navegador Tor**.\r\n\r\n![](/sbox/screen/tor-pt/025.png)\r\n\r\n*Figura 11: Op\u00e7\u00f5es do Navegador Tor*\r\n\r\n\r\n<a name=\"3.3\"></a>\r\n## 3.3 Como obter endere\u00e7os de ponte ###\r\n\r\nPara configurar o **Navegador Tor** para usar **Pontes** (ou 'bridges') \u00e9 necess\u00e1rio obter seus endere\u00e7os. H\u00e1 duas formas de se fazer isso:\r\n\r\n**Por e-mail**:\r\n\r\nPara obter as pontes por e-mail, voc\u00ea precisar\u00e1 de uma conta do Gmail ou do Yahoo. Envie um e-mail para bridges@bridges.torproject.org com o assunto *get bridges*. Depois de alguns minutos voc\u00ea receber\u00e1 um e-mail com 3 pontes listadas e mais alguns detalhes.\r\n\r\n![](/sbox/screen/tor-pt/026.png)\r\n\r\n*Figura 12: E-mail com as pontes listadas*\r\n\r\n**Via site**\r\n\r\nSe o seu acesso n\u00e3o estiver completamente restrito, \u00e9 poss\u00edvel obter os endere\u00e7os de **ponte** a partir do site do Tor, visitando o endere\u00e7o [https://bridges.torproject.org/](https://bridges.torproject.org/)\r\n\r\nDepois de abrir a p\u00e1gina, \u00e9 preciso executar tr\u00eas passos:\r\n\r\n- Clique em ![](/sbox/screen/tor-pt/027.png);\r\n\r\n- Clique em ![](/sbox/screen/tor-pt/028.png);\r\n\r\n- Preencha o *captcha* e pressione ![](/sbox/screen/tor-pt/029.png).\r\n\r\nUma vez inserido corretamente o *captcha* tr\u00eas endere\u00e7os de **Ponte** ser\u00e3o exibidos.\r\n\r\n![](/sbox/screen/tor-pt/030.png)\r\n\r\n*Figura 13: Endere\u00e7os de Ponte recebidos pelo site do Projeto Tor*\r\n\r\n**Observa\u00e7\u00e3o**: O *Banco de dados de Pontes* foi desenvolvido para evitar que uma \u00fanica pessoa descubra facilmente todos os endere\u00e7os. Em um primeiro momento, pode parecer que apenas os mesmos endere\u00e7os s\u00e3o fornecidos. Por\u00e9m, de tempos em tempos, o banco eventualmente prover\u00e1 novos endere\u00e7os.\r\n\r\nDepois de receber os endere\u00e7os de ponte, copie-os e cole-os no campo da janela, como mostrado na *Figura 7: Tela de configura\u00e7\u00e3o da Ponte do Tor* ou na *Figura 11: Op\u00e7\u00f5es do Navegador Tor*."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2069", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2069", 
+                "link_title": "How to access the Internet using the Tor Browser", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5215", 
+                "module": "book", 
+                "nid": "2069", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5213", 
+                "p3": "5215", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5213", 
+                "router_path": "node/%", 
+                "title": "How to access the Internet using the Tor Browser", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1456943678", 
+            "comment": "0", 
+            "created": "1441185925", 
+            "current_revision_id": "13444", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "tor_anonymitynetwork", 
+                        "value": "tor_anonymitynetwork"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5215": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2069", 
+                    "link_title": "How to access the Internet using the Tor Browser", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5215", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5213", 
+                    "p3": "5215", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5213", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2069", 
+            "num_revisions": "35", 
+            "path": "https://securityinabox.org/en/tor_anonymitynetwork", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456943678", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como acessar a internet usando o Navegador Tor", 
+                        "value": "Como acessar a internet usando o Navegador Tor"
+                    }
+                ]
+            }, 
+            "title_original": "How to access the Internet using the Tor Browser", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442937071", 
+                        "created": "1442937071", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442313966", 
+                        "created": "1441892121", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442504101", 
+                        "created": "1442504101", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1454341657", 
+                        "created": "1441638885", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1456943678", 
+                        "created": "1442849703", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1456839796", 
+                        "created": "1456839796", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "km": {
+                        "changed": "1455126868", 
+                        "created": "1455126868", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1453992913", 
+                        "created": "1443628149", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441196312", 
+                        "created": "1441196312", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444191334", 
+                        "created": "1444191334", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443022511", 
+                        "created": "1443022511", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1456919859", 
+                        "created": "1444395175", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "xx": {
+                        "changed": "1441185925", 
+                        "created": "1441185925", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2069", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445440730", 
+                        "created": "1445440730", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "fdbc8fda-1dff-4ded-bb4b-2e10ce1357f6", 
+            "vid": "13444", 
+            "vuuid": "4eaa98f0-354f-4a45-9f73-c6dd64c279cb"
+        }, 
+        {
+            "body": {
+                "pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li><a href=\"#4.0\"><strong>4.0 Usando o Navegador Tor</strong></a></li>\n<li><a href=\"#4.1\"><strong>4.1 Verifica\u00e7\u00e3o extra: o Navegador Tor est\u00e1 funcionando?</strong></a></li>\n<li><a href=\"#4.2\"><strong>4.2 Como criar uma nova identidade</strong></a></li>\n<li><a href=\"#4.3\"><strong>4.3 Como ativar o complemento NoScript</strong></a></li>\n<li><a href=\"#4.3\"><strong>4.3 Atualiza\u00e7\u00f5es do Navegador Tor</strong></a></li>\n</ul><p><a name=\"4.0\" id=\"4.0\"></a></p>\n\n<h2>4.0 Usando o Navegador Tor</h2>\n\n<p>O <strong>Navegador Tor</strong> foi desenvolvido para ser muito f\u00e1cil de usar. Na verdade, se voc\u00ea conhece qualquer navegador de internet, ser\u00e1 capaz de us\u00e1-lo, pois \u00e9 uma vers\u00e3o do <strong>Firefox</strong> modificada para prover mais privacidade e seguran\u00e7a.</p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: como o <strong>Navegador Tor</strong> \u00e9 desenvolvido com a privacidade em mente, \u00e9 configurado para n\u00e3o salvar nenhuma informa\u00e7\u00e3o no seu computador ou pen drive. Isso significa que quando voc\u00ea sai do programa, todo seu hist\u00f3rico de navega\u00e7\u00e3o \u00e9 esquecido.</p>\n\n<p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h2>4.1 Verifica\u00e7\u00e3o extra: o Navegador Tor est\u00e1 funcionando?</h2>\n\n<p>Assim como qualquer programa de contorno \u00e0 censura, \u00e9 recomendado fazer alguns testes simples para garantir que o <strong>Navegador Tor</strong> est\u00e1 funcionando. Isso pode ser feito acessando qualquer p\u00e1gina que tente identificar onde voc\u00ea est\u00e1 fisicamente com base no endere\u00e7o IP usado para visit\u00e1-la.</p>\n\n<p>H\u00e1 v\u00e1rios sites gratuitos que fazem isso, como: <a href=\"https://check.torproject.org\">check.torproject.org</a>, <a href=\"http://www.iplocation.net/\">iplocation.net</a>, <a href=\"http://www.ip2location.com/\">ip2location.com</a>, <a href=\"http://whatismyipaddress.com/\">whatismyipaddress.com</a> etc. Se voc\u00ea acessar qualquer um desses sites diretamente, sem usar o <strong>Navegador Tor</strong> ou outra ferramenta de contornar bloqueios, dever\u00e3o mostrar o seu endere\u00e7o IP real e indicar, de forma mais ou menos exata, sua localiza\u00e7\u00e3o f\u00edsica. No entanto, acessar os mesmos sites com o <strong>Navegador Tor</strong> ou outro programa circunven\u00e7\u00e3o, a localiza\u00e7\u00e3o e o endere\u00e7o IP exibidos dever\u00e3o ser diferentes.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/031.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: Firefox (acima) &amp; o Navegador Tor (abaixo) no mesmo computador mostrando a diferen\u00e7a entre o status do Tor e o endere\u00e7o IP</em></p>\n\n<p><a name=\"4.2\" id=\"4.2\"></a></p>\n\n<h2>4.2 Como criar uma nova identidade</h2>\n\n<p>Voc\u00ea pode criar uma <em>nova identidade</em> para seu navegador. Isso significa que uma s\u00e9rie aleat\u00f3ria de servidores proxy do <strong>Tor</strong> ser\u00e1 selecionada para voc\u00ea usar e far\u00e1 que voc\u00ea pare\u00e7a estar em uma localiza\u00e7\u00e3o nova para os servidores de rede. Para fazer isso, clique em <img src=\"/sbox/screen/tor-pt/022.png\" alt=\"\" /> e selecione <em>Nova Identidade</em> do menu. O <em>Navegador Tor</em> fechar\u00e1 momentaneamente, apagando seu <em>hist\u00f3rico de navega\u00e7\u00e3o</em> e os <em>cookies</em>, e reiniciar\u00e1. Uma vez reiniciado, voc\u00ea pode checar sua nova localiza\u00e7\u00e3o como descrito acima, na se\u00e7\u00e3o 4.1.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/032.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: Selecionando a Nova Identidade pelo menu TorButton</em></p>\n\n<p><a name=\"4.3\" id=\"4.3\"></a></p>\n\n<h2>4.3 Como ativar o complemento NoScript</h2>\n\n<p>O <strong>Navegador Tor</strong> vem com o complemento <strong>NoScript</strong> pr\u00e9-instalado. O <strong>NoScript</strong> pode ser uma prote\u00e7\u00e3o a mais contra sites maliciosos e impedir sua identidade real de vazar devido \u00e0 execu\u00e7\u00e3o de scripts pelo <strong>Navegador Tor</strong>. Entretanto, o <strong>NoScript</strong> vem desativado por padr\u00e3o, de modo que essa prote\u00e7\u00e3o adicional n\u00e3o est\u00e1 prontamente dispon\u00edvel.</p>\n\n<p>Se quiser habilitar a prote\u00e7\u00e3o extra proporcionada pelo <strong>NoScript</strong>, ative-o abrindo o menu <strong>NoScript</strong> e clicando em <em>Forbid Scripts Globally</em> ('Proibir scripts globalmente'). Configure as v\u00e1rias <em>op\u00e7\u00f5es</em> oferecidas.</p>\n\n<p>Recomendamos que voc\u00ea leia mais sobre o <a href=\"/pt/firefox_noscript\"><strong>complemento NoScript</strong> no cap\u00edtulo do <strong>FireFox</strong></a>.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/033.png\" alt=\"\" /></p>\n\n<p><em>Figura 3: Habilitando o NoScript ao selecionar a op\u00e7\u00e3o *Proibir scripts globalmente (recomendado)</em></p>\n\n<p><a name=\"4.4\" id=\"4.4\"></a></p>\n\n<h2>4.4 Atualiza\u00e7\u00f5es do Navegador Tor</h2>\n\n<p>No cap\u00edtulo do <strong><a href=\"/pt/chapter_1_4\">1.4 do Guia de Refer\u00eancia</a></strong>, explicamos qu\u00e3o importante \u00e9 manter seus programas atualizados. O <strong>Navegador Tor</strong> n\u00e3o \u00e9 exce\u00e7\u00e3o.</p>\n\n<p>Sempre que h\u00e1 uma atualiza\u00e7\u00e3o dispon\u00edvel, o <strong>Navegador Tor</strong> exibir\u00e1, ao ser iniciado, uma tela de aviso de que o navegador est\u00e1 desatualizado (<em>Figura 4</em>) e o caminho para o bot\u00e3o onde \u00e9 poss\u00edvel <strong>Baixar a atualiza\u00e7\u00e3o do Navegador Tor</strong>. O clique leva para a p\u00e1gina do <strong>Projeto Tor</strong>, onde \u00e9 poss\u00edvel baixar a \u00faltima atualiza\u00e7\u00e3o. Uma vez baixada, siga esse mesmo guia para instal\u00e1-la.</p>\n\n<p><img src=\"/sbox/screen/tor-pt/034.png\" alt=\"\" /></p>\n\n<p><em>Figura 4: O Navegador Tor mostrando que h\u00e1 uma atualiza\u00e7\u00e3o dispon\u00edvel</em></p>\n", 
+                        "summary": "", 
+                        "value": "- [**4.0 Usando o Navegador Tor**](#4.0)\r\n- [**4.1 Verifica\u00e7\u00e3o extra: o Navegador Tor est\u00e1 funcionando?**](#4.1)\r\n- [**4.2 Como criar uma nova identidade**](#4.2)\r\n- [**4.3 Como ativar o complemento NoScript**](#4.3)\r\n- [**4.3 Atualiza\u00e7\u00f5es do Navegador Tor**](#4.3)\r\n\r\n\r\n<a name=\"4.0\"></a>\r\n## 4.0 Usando o Navegador Tor ##\r\n\r\nO **Navegador Tor** foi desenvolvido para ser muito f\u00e1cil de usar. Na verdade, se voc\u00ea conhece qualquer navegador de internet, ser\u00e1 capaz de us\u00e1-lo, pois \u00e9 uma vers\u00e3o do **Firefox** modificada para prover mais privacidade e seguran\u00e7a.\r\n\r\n**Observa\u00e7\u00e3o**: como o **Navegador Tor** \u00e9 desenvolvido com a privacidade em mente, \u00e9 configurado para n\u00e3o salvar nenhuma informa\u00e7\u00e3o no seu computador ou pen drive. Isso significa que quando voc\u00ea sai do programa, todo seu hist\u00f3rico de navega\u00e7\u00e3o \u00e9 esquecido.\r\n\r\n\r\n<a name=\"4.1\"></a>\r\n## 4.1 Verifica\u00e7\u00e3o extra: o Navegador Tor est\u00e1 funcionando? ##\r\n\r\nAssim como qualquer programa de contorno \u00e0 censura, \u00e9 recomendado fazer alguns testes simples para garantir que o **Navegador Tor** est\u00e1 funcionando. Isso pode ser feito acessando qualquer p\u00e1gina que tente identificar onde voc\u00ea est\u00e1 fisicamente com base no endere\u00e7o IP usado para visit\u00e1-la.\r\n\r\nH\u00e1 v\u00e1rios sites gratuitos que fazem isso, como: [check.torproject.org](https://check.torproject.org), [iplocation.net](http://www.iplocation.net/), [ip2location.com](http://www.ip2location.com/), [whatismyipaddress.com](http://whatismyipaddress.com/) etc. Se voc\u00ea acessar qualquer um desses sites diretamente, sem usar o **Navegador Tor** ou outra ferramenta de contornar bloqueios, dever\u00e3o mostrar o seu endere\u00e7o IP real e indicar, de forma mais ou menos exata, sua localiza\u00e7\u00e3o f\u00edsica. No entanto, acessar os mesmos sites com o **Navegador Tor** ou outro programa circunven\u00e7\u00e3o, a localiza\u00e7\u00e3o e o endere\u00e7o IP exibidos dever\u00e3o ser diferentes.\r\n\r\n![](/sbox/screen/tor-pt/031.png)\r\n\r\n*Figura 1: Firefox (acima) & o Navegador Tor (abaixo) no mesmo computador mostrando a diferen\u00e7a entre o status do Tor e o endere\u00e7o IP*\r\n\r\n\r\n<a name=\"4.2\"></a>\r\n## 4.2 Como criar uma nova identidade ##\r\n\r\nVoc\u00ea pode criar uma *nova identidade* para seu navegador. Isso significa que uma s\u00e9rie aleat\u00f3ria de servidores proxy do **Tor** ser\u00e1 selecionada para voc\u00ea usar e far\u00e1 que voc\u00ea pare\u00e7a estar em uma localiza\u00e7\u00e3o nova para os servidores de rede. Para fazer isso, clique em ![](/sbox/screen/tor-pt/022.png) e selecione *Nova Identidade* do menu. O *Navegador Tor* fechar\u00e1 momentaneamente, apagando seu *hist\u00f3rico de navega\u00e7\u00e3o* e os *cookies*, e reiniciar\u00e1. Uma vez reiniciado, voc\u00ea pode checar sua nova localiza\u00e7\u00e3o como descrito acima, na se\u00e7\u00e3o 4.1.\r\n\r\n![](/sbox/screen/tor-pt/032.png)\r\n\r\n*Figura 2: Selecionando a Nova Identidade pelo menu TorButton*\r\n\r\n\r\n<a name=\"4.3\"></a>\r\n## 4.3 Como ativar o complemento NoScript ##\r\n\r\nO **Navegador Tor** vem com o complemento **NoScript** pr\u00e9-instalado. O **NoScript** pode ser uma prote\u00e7\u00e3o a mais contra sites maliciosos e impedir sua identidade real de vazar devido \u00e0 execu\u00e7\u00e3o de scripts pelo **Navegador Tor**. Entretanto, o **NoScript** vem desativado por padr\u00e3o, de modo que essa prote\u00e7\u00e3o adicional n\u00e3o est\u00e1 prontamente dispon\u00edvel.\r\n\r\nSe quiser habilitar a prote\u00e7\u00e3o extra proporcionada pelo **NoScript**, ative-o abrindo o menu **NoScript** e clicando em *Forbid Scripts Globally* ('Proibir scripts globalmente'). Configure as v\u00e1rias *op\u00e7\u00f5es* oferecidas.\r\n\r\nRecomendamos que voc\u00ea leia mais sobre o [**complemento NoScript** no cap\u00edtulo do **FireFox**](/pt/firefox_noscript). \r\n\r\n![](/sbox/screen/tor-pt/033.png)\r\n\r\n*Figura 3: Habilitando o NoScript ao selecionar a op\u00e7\u00e3o *Proibir scripts globalmente (recomendado)*\r\n\r\n\r\n<a name=\"4.4\"></a>\r\n## 4.4 Atualiza\u00e7\u00f5es do Navegador Tor ##\r\n\r\nNo cap\u00edtulo do **[1.4 do Guia de Refer\u00eancia](/pt/chapter_1_4)**, explicamos qu\u00e3o importante \u00e9 manter seus programas atualizados. O **Navegador Tor** n\u00e3o \u00e9 exce\u00e7\u00e3o.\r\n\r\nSempre que h\u00e1 uma atualiza\u00e7\u00e3o dispon\u00edvel, o **Navegador Tor** exibir\u00e1, ao ser iniciado, uma tela de aviso de que o navegador est\u00e1 desatualizado (*Figura 4*) e o caminho para o bot\u00e3o onde \u00e9 poss\u00edvel **Baixar a atualiza\u00e7\u00e3o do Navegador Tor**. O clique leva para a p\u00e1gina do **Projeto Tor**, onde \u00e9 poss\u00edvel baixar a \u00faltima atualiza\u00e7\u00e3o. Uma vez baixada, siga esse mesmo guia para instal\u00e1-la.\r\n\r\n![](/sbox/screen/tor-pt/034.png)\r\n\r\n*Figura 4: O Navegador Tor mostrando que h\u00e1 uma atualiza\u00e7\u00e3o dispon\u00edvel*\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2070", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2070", 
+                "link_title": "Using the Tor Browser", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5216", 
+                "module": "book", 
+                "nid": "2070", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5213", 
+                "p3": "5216", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5213", 
+                "router_path": "node/%", 
+                "title": "Using the Tor Browser", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1455127771", 
+            "comment": "0", 
+            "created": "1441185967", 
+            "current_revision_id": "13220", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "tor_vidaliacontrol", 
+                        "value": "tor_vidaliacontrol"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5216": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2070", 
+                    "link_title": "Using the Tor Browser", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5216", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5213", 
+                    "p3": "5216", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5213", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2070", 
+            "num_revisions": "21", 
+            "path": "https://securityinabox.org/en/tor_vidaliacontrol", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455127771", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Usando o Navegador Tor", 
+                        "value": "Usando o Navegador Tor"
+                    }
+                ]
+            }, 
+            "title_original": "Using the Tor Browser", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442937162", 
+                        "created": "1442937162", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442314041", 
+                        "created": "1441892207", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442504220", 
+                        "created": "1442504183", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452162651", 
+                        "created": "1441638983", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442849807", 
+                        "created": "1442849807", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444395268", 
+                        "created": "1444395268", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455127771", 
+                        "created": "1455127771", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443628460", 
+                        "created": "1443628460", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441196552", 
+                        "created": "1441196552", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444191389", 
+                        "created": "1444191389", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443022534", 
+                        "created": "1443022534", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444836542", 
+                        "created": "1444836542", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441185967", 
+                        "created": "1441185967", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2070", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445440953", 
+                        "created": "1445440591", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "ef29910a-e0b2-47a1-8813-8fc54520e04c", 
+            "vid": "13220", 
+            "vuuid": "91038fe7-525b-4331-8b82-eb83dcbde680"
+        }, 
+        {}, 
+        {
+            "body": {
+                "pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li><a href=\"#5.0\"><strong>5.0 Perguntas Frequentes</strong></a></li>\n<li><a href=\"#5.1\"><strong>5.1 Recursos adicionais</strong></a></li>\n</ul><p><a name=\"5.0\" id=\"5.0\"></a></p>\n\n<h2>5.0 Perguntas Frequentes</h2>\n\n<p>O <strong>Tor</strong> \u00e9 um programa maravilhosamente mantido e rigorosamente testado. A rede <strong>Tor</strong> \u00e9 usada por centenas de milhares de pessoas no mundo todo, e as melhorias cont\u00ednuas t\u00eam feito dele uma ferramenta incrivelmente segura e est\u00e1vel. Apesar de as explica\u00e7\u00f5es desse cap\u00edtulo parecerem ser complexas, em muitos casos voc\u00ea n\u00e3o precisar\u00e1 ler al\u00e9m da <a href=\"/pt/tor_anonymitynetwork\"><strong>Se\u00e7\u00e3o 3.1.1 Como se conectar \u00e0 Rede Tor - Acesso direto</strong></a> para faz\u00ea-lo funcionar corretamente.</p>\n\n<div class=\"background\">\n\n<p><em><strong>P</strong>: Por que eu deveria usar o <strong>Navegador Tor</strong>?</em></p>\n\n<p><em><strong>R</strong>: Boa pergunta. O <strong>Navegador Tor</strong> \u00e9 uma boa ferramenta se voc\u00ea precisar burlar a censura na internet para conseguir acessar certos sites. Tamb\u00e9m \u00e9 \u00fatil se voc\u00ea n\u00e3o quiser que seu Provedor de Internet saiba quais sites est\u00e1 visitando, ou se n\u00e3o quiser que esses sites saibam sua localiza\u00e7\u00e3o ou ponto de acesso.</em></p>\n\n<p><em><strong>P</strong>: Quando eu executo o <strong>Navegador Tor</strong>, todos os meus outros programas se comunicam anonimamente atrav\u00e9s da <strong>rede Tor</strong>?</em></p>\n\n<p><em><strong>R</strong>: N\u00e3o, \u00e9 muito importante lembrar que voc\u00ea deve acessar a <strong>rede Tor</strong> apenas a partir do <strong>Navegador Tor</strong>. Todos os seus outros programas se comunicam diretamente com os servidores na Internet. Para ter certeza absoluta que voc\u00ea est\u00e1 se comunicando por meio da <strong>rede Tor</strong>, cheque sempre manualmente no site <strong>https://check.torproject.org</strong>. O <strong>Tor</strong> tamb\u00e9m depende do seu exerc\u00edcio de precau\u00e7\u00e3o, bom senso e bom julgamento quando navega em sites novos ou n\u00e3o familiares.</em></p>\n\n<p><em><strong>P</strong>: O <strong>Tor</strong> protege toda e qualquer comunica\u00e7\u00e3o quando estou usando o <strong>Navegador Tor</strong>?</em></p>\n\n<p><em><strong>R</strong>: O <strong>Tor</strong> criptografar\u00e1 todas as suas comunica\u00e7\u00f5es entre voc\u00ea e *a parte interna</em> da rede <strong>Tor</strong>. No entanto, tenha em mente que o <strong>Tor</strong> n\u00e3o pode criptografar o tr\u00e1fego entre a rede <strong>Tor</strong> e o site de destino. Para isso, <strong>voc\u00ea deve usar o protocolo HTTPS</strong> ou outras formas similares - especialmente se voc\u00ea valoriza a privacidade e seguran\u00e7a da sua informa\u00e7\u00e3o!*</p>\n\n</div>\n\n<p><a name=\"5.1\" id=\"5.1\"></a></p>\n\n<h2>5.1 Recursos adicionais</h2>\n\n<ul><li>O <a href=\"https://www.torproject.org\">Projeto Tor</a> oferece um <a href=\"https://www.torproject.org/about/contact.html.en\">servi\u00e7o de suporte</a> (por email, IRC e telefone, entre outros) para pessoas que precisem de assist\u00eancia adicional. </li>\n<li>A p\u00e1gina oficial de <a href=\"https://www.torproject.org/docs/faq\">Perguntas Frequentes (FAQ) do Tor</a>.</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "- [**5.0 Perguntas Frequentes**](#5.0)\r\n- [**5.1 Recursos adicionais**](#5.1)\r\n\r\n<a name=\"5.0\"></a>\r\n## 5.0 Perguntas Frequentes ##\r\n\r\nO **Tor** \u00e9 um programa maravilhosamente mantido e rigorosamente testado. A rede **Tor** \u00e9 usada por centenas de milhares de pessoas no mundo todo, e as melhorias cont\u00ednuas t\u00eam feito dele uma ferramenta incrivelmente segura e est\u00e1vel. Apesar de as explica\u00e7\u00f5es desse cap\u00edtulo parecerem ser complexas, em muitos casos voc\u00ea n\u00e3o precisar\u00e1 ler al\u00e9m da [**Se\u00e7\u00e3o 3.1.1 Como se conectar \u00e0 Rede Tor - Acesso direto**](/pt/tor_anonymitynetwork) para faz\u00ea-lo funcionar corretamente.\r\n\r\n<div class=\"background\" markdown=\"1\"> \r\n***P**: Por que eu deveria usar o **Navegador Tor**?*\r\n\r\n***R**: Boa pergunta. O **Navegador Tor** \u00e9 uma boa ferramenta se voc\u00ea precisar burlar a censura na internet para conseguir acessar certos sites. Tamb\u00e9m \u00e9 \u00fatil se voc\u00ea n\u00e3o quiser que seu Provedor de Internet saiba quais sites est\u00e1 visitando, ou se n\u00e3o quiser que esses sites saibam sua localiza\u00e7\u00e3o ou ponto de acesso.*\r\n\r\n***P**: Quando eu executo o **Navegador Tor**, todos os meus outros programas se comunicam anonimamente atrav\u00e9s da **rede Tor**?*\r\n\r\n***R**: N\u00e3o, \u00e9 muito importante lembrar que voc\u00ea deve acessar a **rede Tor** apenas a partir do **Navegador Tor**. Todos os seus outros programas se comunicam diretamente com os servidores na Internet. Para ter certeza absoluta que voc\u00ea est\u00e1 se comunicando por meio da **rede Tor**, cheque sempre manualmente no site **https://check.torproject.org**. O **Tor** tamb\u00e9m depende do seu exerc\u00edcio de precau\u00e7\u00e3o, bom senso e bom julgamento quando navega em sites novos ou n\u00e3o familiares.*\r\n\r\n***P**: O **Tor** protege toda e qualquer comunica\u00e7\u00e3o quando estou usando o **Navegador Tor**?*\r\n\r\n***R**: O **Tor** criptografar\u00e1 todas as suas comunica\u00e7\u00f5es entre voc\u00ea e *a parte interna* da rede **Tor**. No entanto, tenha em mente que o **Tor** n\u00e3o pode criptografar o tr\u00e1fego entre a rede **Tor** e o site de destino. Para isso, **voc\u00ea deve usar o protocolo HTTPS** ou outras formas similares - especialmente se voc\u00ea valoriza a privacidade e seguran\u00e7a da sua informa\u00e7\u00e3o!*\r\n\r\n</div>\r\n\r\n<a name=\"5.1\"></a>\r\n## 5.1 Recursos adicionais ##\r\n\r\n- O [Projeto Tor](https://www.torproject.org) oferece um [servi\u00e7o de suporte](https://www.torproject.org/about/contact.html.en) (por email, IRC e telefone, entre outros) para pessoas que precisem de assist\u00eancia adicional. \r\n- A p\u00e1gina oficial de [Perguntas Frequentes (FAQ) do Tor](https://www.torproject.org/docs/faq).\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2071", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2071", 
+                "link_title": "Tor Browser FAQ", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5217", 
+                "module": "book", 
+                "nid": "2071", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5213", 
+                "p3": "5217", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5213", 
+                "router_path": "node/%", 
+                "title": "Tor Browser FAQ", 
+                "updated": "0", 
+                "weight": "5"
+            }, 
+            "changed": "1458458546", 
+            "comment": "0", 
+            "created": "1441186063", 
+            "current_revision_id": "13555", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "tor_faq", 
+                        "value": "tor_faq"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5217": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2071", 
+                    "link_title": "Tor Browser FAQ", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5217", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5213", 
+                    "p3": "5217", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5213", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "5"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2071", 
+            "num_revisions": "29", 
+            "path": "https://securityinabox.org/en/tor_faq", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1458458546", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Perguntas Frequentes relacionadas ao Navegador Tor", 
+                        "value": "Perguntas Frequentes relacionadas ao Navegador Tor"
+                    }
+                ]
+            }, 
+            "title_original": "Tor Browser FAQ", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442937501", 
+                        "created": "1442937233", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454333849", 
+                        "created": "1441893751", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442504317", 
+                        "created": "1442504317", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452163676", 
+                        "created": "1441639088", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1453996540", 
+                        "created": "1442849954", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444395498", 
+                        "created": "1444395498", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455127869", 
+                        "created": "1455127869", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1453992980", 
+                        "created": "1443630093", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441196647", 
+                        "created": "1441196647", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444191459", 
+                        "created": "1444191459", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443022560", 
+                        "created": "1443022560", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444835135", 
+                        "created": "1444731635", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1458458546", 
+                        "created": "1441186063", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2071", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445441159", 
+                        "created": "1445441159", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "cdcbf121-3a54-43b9-82fc-1025aa60d974", 
+            "vid": "13555", 
+            "vuuid": "c7e54925-a603-45b0-80ae-7919b54f5c67"
+        }
+    ], 
+    "changed": "1457533247", 
+    "comment": "0", 
+    "created": "1441122857", 
+    "current_revision_id": "13534", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "pt": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "pt": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Instalando o Navegador Tor</strong></p>\n\n<ul><li><em>Leia a breve Introdu\u00e7\u00e3o da se\u00e7\u00e3o de <a href=\"/pt/handsonguides\"><strong>Guias Pr\u00e1ticos</strong></a>.</em></li>\n<li><em><strong>Clique no \u00edcone do Tor abaixo</strong> e 'Abrir' ou 'Executar' o instalador. Caso seja necess\u00e1rio, salve o instalador primeiro, depois de encontr\u00e1-lo, d\u00ea dois cliques nele.</em></li>\n<li><em>Se tiver salvo o instalador no computador, voc\u00ea pode apag\u00e1-lo ap\u00f3s a instala\u00e7\u00e3o.</em></li>\n</ul><p><strong>Tor</strong>:<br /><a href=\"/sbox/programs/tor-browser-en.exe\"><img src=\"/sbox/screen/tor-pt/tor.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Instalando o Navegador Tor**\r\n\t\t\t\r\n- *Leia a breve Introdu\u00e7\u00e3o da se\u00e7\u00e3o de [**Guias Pr\u00e1ticos**](/pt/handsonguides).*\r\n- ***Clique no \u00edcone do Tor abaixo** e 'Abrir' ou 'Executar' o instalador. Caso seja necess\u00e1rio, salve o instalador primeiro, depois de encontr\u00e1-lo, d\u00ea dois cliques nele.*\r\n- *Se tiver salvo o instalador no computador, voc\u00ea pode apag\u00e1-lo ap\u00f3s a instala\u00e7\u00e3o.*\r\n\t\t\t\r\n**Tor**:  \r\n[![](/sbox/screen/tor-pt/tor.png)](/sbox/programs/tor-browser-en.exe)"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "pt": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Baixando o Navegador Tor</strong></p>\n\n<ul><li><em>Leia a breve Introdu\u00e7\u00e3o da se\u00e7\u00e3o de <a href=\"/pt/handsonguides\"><strong>Guias Pr\u00e1ticos</strong></a>.</em></li>\n<li><em><strong>Clique</strong> no \u00edcone do <strong>Tor</strong> ao lado para abrir <strong>https://www.torproject.org/projects/torbrowser.html.en#downloads-beta</strong></em></li>\n<li><em><strong>Des\u00e7a</strong> a p\u00e1gina e ent\u00e3o <strong>clique</strong> na tabela <strong>Stable Tor Browser</strong></em>, com as vers\u00f5es do programa, e escolha a vers\u00e3o com l\u00edngua em Portugu\u00eas</li>\n<li><em><strong>Salve</strong> o arquivo execut\u00e1vel, <strong>encontre-o</strong> e d\u00ea <strong>dois cliques</strong> nele</em></li>\n<li><em>Depois de extrair o <strong>Navegador Tor</strong>, voc\u00ea pode apagar o arquivo execut\u00e1vel salvo no computador</em></li>\n</ul><p><strong>Tor</strong>:<br /><a href=\"https://www.torproject.org/projects/torbrowser.html.en#downloads-beta\"><img src=\"/sbox/screen/tor-pt/tor.png\" alt=\"\" /></a></p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Se voc\u00ea est\u00e1 em um local onde o acesso ao site do <strong>Projeto Tor</strong> \u00e9 bloqueado, \u00e9 poss\u00edvel pedir uma c\u00f3pia do instalador do <strong>Tor Browser Bundle</strong> via e-mail. Para isso, mande uma mensagem para <strong>gettor@torproject.org</strong> com a vers\u00e3o que voc\u00ea quer do programa no corpo do e-mail. Por exemplo, <strong>windows</strong> caso tenha um computador que rode Windows, <strong>osx</strong> caso use uma m\u00e1quina Apple, ou <strong>linux</strong>, caso seu sistema seja baseado em Linux. Voc\u00ea receber\u00e1 uma mensagem de resposta com um link para baixar o instalador via <strong>Dropbox</strong>. Mais detalhes sobre essa funcionalidade est\u00e3o dispon\u00edveis no <a href=\"https://www.torproject.org/projects/gettor.html\">site do  Projeto Tor</a>.</p>\n", 
+                "value": "**Baixando o Navegador Tor**\r\n\t\t\t\r\n- *Leia a breve Introdu\u00e7\u00e3o da se\u00e7\u00e3o de [**Guias Pr\u00e1ticos**](/pt/handsonguides).*\r\n- ***Clique** no \u00edcone do **Tor** ao lado para abrir **https://www.torproject.org/projects/torbrowser.html.en#downloads-beta***\r\n- ***Des\u00e7a** a p\u00e1gina e ent\u00e3o **clique** na tabela **Stable Tor Browser***, com as vers\u00f5es do programa, e escolha a vers\u00e3o com l\u00edngua em Portugu\u00eas\r\n- ***Salve** o arquivo execut\u00e1vel, **encontre-o** e d\u00ea **dois cliques** nele*\r\n- *Depois de extrair o **Navegador Tor**, voc\u00ea pode apagar o arquivo execut\u00e1vel salvo no computador*\r\n\t\t\t\r\n**Tor**:  \r\n[![](/sbox/screen/tor-pt/tor.png)](https://www.torproject.org/projects/torbrowser.html.en#downloads-beta)\r\n\r\n**Observa\u00e7\u00e3o**: Se voc\u00ea est\u00e1 em um local onde o acesso ao site do **Projeto Tor** \u00e9 bloqueado, \u00e9 poss\u00edvel pedir uma c\u00f3pia do instalador do **Tor Browser Bundle** via e-mail. Para isso, mande uma mensagem para **gettor@torproject.org** com a vers\u00e3o que voc\u00ea quer do programa no corpo do e-mail. Por exemplo, **windows** caso tenha um computador que rode Windows, **osx** caso use uma m\u00e1quina Apple, ou **linux**, caso seu sistema seja baseado em Linux. Voc\u00ea receber\u00e1 uma mensagem de resposta com um link para baixar o instalador via **Dropbox**. Mais detalhes sobre essa funcionalidade est\u00e3o dispon\u00edveis no [site do  Projeto Tor](https://www.torproject.org/projects/gettor.html)."
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "Tor Browser - anonymity and circumventio", 
+                "value": "Tor Browser - anonymity and circumventio"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "Navegador Tor - Anonimato digital e contorno de censura", 
+                "value": "Navegador Tor - Anonimato digital e contorno de censura"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "pt": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p>O <strong>Navegador Tor</strong> \u00e9 desenvolvido para aumentar o anonimato de suas atividades na Internet. Ele disfar\u00e7a sua identidade e protege suas atividades online de muitas formas de vigil\u00e2ncia. O <strong>Tor</strong> tamb\u00e9m pode ser usado para furar bloqueios na rede.</p>\n", 
+                "value": "O **Navegador Tor** \u00e9 desenvolvido para aumentar o anonimato de suas atividades na Internet. Ele disfar\u00e7a sua identidade e protege suas atividades online de muitas formas de vigil\u00e2ncia. O **Tor** tamb\u00e9m pode ser usado para furar bloqueios na rede."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-09-29 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "tor_main", 
+                "value": "tor_main"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "16"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "16"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5213": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2067", 
+            "link_title": "Tor Browser - Digital Anonymity and Circumvention", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5213", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5213", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "0"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2067", 
+    "num_revisions": "27", 
+    "path": "https://securityinabox.org/en/node/2067", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1457533247", 
+    "revision_uid": "141", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "Navegador Tor - Anonimato digital e contorno de censura", 
+                "value": "Navegador Tor - Anonimato digital e contorno de censura"
+            }
+        ]
+    }, 
+    "title_original": "Tor Browser - Digital Anonymity and Circumvention", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442936747", 
+                "created": "1442936747", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442239249", 
+                "created": "1441891947", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442503918", 
+                "created": "1442503918", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1452099597", 
+                "created": "1441638672", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fr": {
+                "changed": "1453376516", 
+                "created": "1442848112", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1456839954", 
+                "created": "1444394973", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "km": {
+                "changed": "1455126058", 
+                "created": "1455126058", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443627775", 
+                "created": "1443627775", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441195835", 
+                "created": "1441195810", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444190764", 
+                "created": "1444190764", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1443016608", 
+                "created": "1443016608", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1457533247", 
+                "created": "1443526248", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441183403", 
+                "created": "1441122857", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2067", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445440005", 
+                "created": "1445440005", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "8c44f10a-7f43-49e0-9ee3-c926a5ea3e0a", 
+    "vid": "13534", 
+    "vuuid": "cdf316ef-c882-4436-b571-ab254f683a1d"
+}

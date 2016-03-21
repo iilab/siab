@@ -1,0 +1,813 @@
+{
+    "body": {
+        "pt": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Site</strong></p>\n\n<ul><li><a href=\"https://guardianproject.info/apps/orweb/\"><strong>Orweb</strong></a></li>\n</ul><p><strong>Requisitos do telefone</strong></p>\n\n<ul><li>Android 1.6 ou mais recente</li>\n<li><a href=\"/pt/orbot_main\">Orbot</a> pr\u00e9-instalado</li>\n</ul><p><strong>Vers\u00e3o utilizada para este guia</strong></p>\n\n<ul><li>0.6.1</li>\n</ul><p><strong>\u00daltima revis\u00e3o deste cap\u00edtulo</strong></p>\n\n<ul><li>Julho de 2014</li>\n</ul><p><strong>Licen\u00e7a de Uso</strong></p>\n\n<ul><li><a href=\"https://en.wikipedia.org/wiki/GPLv2\">GPLv2</a> - Software livre e de c\u00f3digo aberto (FOSS)</li>\n</ul><p><strong>Leitura Requerida</strong></p>\n\n<ul><li>Cap\u00edtulo <a href=\"/pt/chapter-8\"><strong>8. Como manter o anonimato e contornar a censura na internet</strong></a>, do Guia de Refer\u00eancia</li>\n<li>Cap\u00edtulo <a href=\"/pt/chapter-10\"><strong>10. Como usar telefones celulares da forma mais segura poss\u00edvel</strong></a>, do Guia de Refer\u00eancia</li>\n<li>Cap\u00edtulo <a href=\"/pt/chapter-11\"><strong>11. Como usar smartphones da forma mais segura poss\u00edvel</strong></a>, do Guia de Refer\u00eancia</li>\n</ul><p><strong>O que voc\u00ea pode fazer com o aplicativo</strong></p>\n\n<ul><li>Ocultar sua identidade digital do rastreamento de sites que voc\u00ea visita.</li>\n<li>Ocultar os sites que voc\u00ea visita dos <em>Provedores de Internet</em> e outros mecanismos de vigil\u00e2ncia.</li>\n<li>Contornar a censura na internet e as regras de bloqueio.</li>\n</ul><p><strong>Outros aplicativos compat\u00edveis para Android, iPhone e Blackberry</strong>:</p>\n\n<ul><li>iOS: <a href=\"https://mike.tig.as/onionbrowser/\">OnionBrowser</a> (n\u00e3o-gratuito)</li>\n<li>Android: <a href=\"https://play.google.com/store/apps/details?id=org.mozilla.firefox\">Firefox</a> com <a href=\"https://addons.mozilla.org/en-US/mobile/addon/proxy-mobile/\">ProxyMobile</a></li>\n</ul><h3>1.1 O que voc\u00ea precisa saber sobre a ferramenta antes de come\u00e7ar</h3>\n\n<p><strong>Observa\u00e7\u00e3o:</strong> Existe um <a href=\"http://xordern.net/ip-leakage-of-mobile-tor-browsers.html\">bug</a> na vers\u00e3o atual do <strong>Orweb</strong> (0.6.1 e posteriores) que pode vazar informa\u00e7\u00f5es suas - como por exemplo seu endere\u00e7o de IP - para os administradores do site que voc\u00ea estiver visitando caso esteja assistindo v\u00eddeos em HTML5. O <strong>Orweb</strong> permitire contornar a censura na internet e escapar da vigil\u00e2ncia no seu <em>Provedor de Internet</em>, mas n\u00f3s n\u00e3o recomendamos seu uso para acessar sites que possam ser considerados hostis. Para mais informa\u00e7\u00f5es sobre o caso, veja a <a href=\"https://guardianproject.info/2014/06/30/recent-news-on-orweb-flaws/\">resposta</a> dos desenvolvedores.</p>\n\n<p>O <strong>Orweb</strong> s\u00f3 funcionar\u00e1 corretamente ap\u00f3s a instala\u00e7\u00e3o e configura\u00e7\u00e3o do <a href=\"/pt/Orbot_main\"><strong>Orbot</strong></a>.</p>\n\n<p>Lembre-se que se voc\u00ea criou um e-mail ou um blog anteriormente, sem utilizar o <strong>Orweb</strong>, o site ainda saber\u00e1 a sua real localiza\u00e7\u00e3o mesmo que voc\u00ea fa\u00e7a os pr\u00f3ximos acessos via <strong>Orweb</strong>.</p>\n\n<p>Se voc\u00ea quer um anonimato maior enquanto usa o <strong>Orweb</strong>, considere tomar mais alguns cuidados:</p>\n\n<ul><li>nunca acesse contas criadas em seu pr\u00f3prio nome</li>\n<li>nunca forne\u00e7a suas informa\u00e7\u00f5es pessoais</li>\n<li>nunca fa\u00e7a as mesmas coisas que voc\u00ea faria sem o anonimato.</li>\n</ul>", 
+                "summary": "", 
+                "value": "**Site**\r\n\r\n- [**Orweb**](https://guardianproject.info/apps/orweb/)\r\n\r\n**Requisitos do telefone**\r\n\r\n- Android 1.6 ou mais recente\r\n- [Orbot](/pt/orbot_main) pr\u00e9-instalado\r\n\r\n**Vers\u00e3o utilizada para este guia**\r\n\r\n- 0.6.1\r\n\r\n**\u00daltima revis\u00e3o deste cap\u00edtulo**\r\n\r\n- Julho de 2014\r\n\r\n**Licen\u00e7a de Uso** \r\n\r\n- [GPLv2](https://en.wikipedia.org/wiki/GPLv2) - Software livre e de c\u00f3digo aberto (FOSS)\r\n\r\n**Leitura Requerida**\r\n\r\n- Cap\u00edtulo [**8. Como manter o anonimato e contornar a censura na internet**](/pt/chapter-8), do Guia de Refer\u00eancia\r\n- Cap\u00edtulo [**10. Como usar telefones celulares da forma mais segura poss\u00edvel**](/pt/chapter-10), do Guia de Refer\u00eancia\r\n- Cap\u00edtulo [**11. Como usar smartphones da forma mais segura poss\u00edvel**](/pt/chapter-11), do Guia de Refer\u00eancia\r\n\r\n**O que voc\u00ea pode fazer com o aplicativo**\r\n\r\n- Ocultar sua identidade digital do rastreamento de sites que voc\u00ea visita.\r\n- Ocultar os sites que voc\u00ea visita dos *Provedores de Internet* e outros mecanismos de vigil\u00e2ncia.\r\n- Contornar a censura na internet e as regras de bloqueio.\r\n\r\n**Outros aplicativos compat\u00edveis para Android, iPhone e Blackberry**:\r\n\r\n- iOS: [OnionBrowser](https://mike.tig.as/onionbrowser/) (n\u00e3o-gratuito)\r\n- Android: [Firefox](https://play.google.com/store/apps/details?id=org.mozilla.firefox) com [ProxyMobile](https://addons.mozilla.org/en-US/mobile/addon/proxy-mobile/)\r\n\r\n\r\n### 1.1 O que voc\u00ea precisa saber sobre a ferramenta antes de come\u00e7ar ##\r\n\r\n**Observa\u00e7\u00e3o:** Existe um [bug](http://xordern.net/ip-leakage-of-mobile-tor-browsers.html) na vers\u00e3o atual do **Orweb** (0.6.1 e posteriores) que pode vazar informa\u00e7\u00f5es suas - como por exemplo seu endere\u00e7o de IP - para os administradores do site que voc\u00ea estiver visitando caso esteja assistindo v\u00eddeos em HTML5. O **Orweb** permitire contornar a censura na internet e escapar da vigil\u00e2ncia no seu *Provedor de Internet*, mas n\u00f3s n\u00e3o recomendamos seu uso para acessar sites que possam ser considerados hostis. Para mais informa\u00e7\u00f5es sobre o caso, veja a [resposta](https://guardianproject.info/2014/06/30/recent-news-on-orweb-flaws/) dos desenvolvedores.\r\n\r\nO **Orweb** s\u00f3 funcionar\u00e1 corretamente ap\u00f3s a instala\u00e7\u00e3o e configura\u00e7\u00e3o do [**Orbot**](/pt/Orbot_main).\r\n\r\nLembre-se que se voc\u00ea criou um e-mail ou um blog anteriormente, sem utilizar o **Orweb**, o site ainda saber\u00e1 a sua real localiza\u00e7\u00e3o mesmo que voc\u00ea fa\u00e7a os pr\u00f3ximos acessos via **Orweb**.\r\n\r\nSe voc\u00ea quer um anonimato maior enquanto usa o **Orweb**, considere tomar mais alguns cuidados:\r\n\r\n- nunca acesse contas criadas em seu pr\u00f3prio nome\r\n- nunca forne\u00e7a suas informa\u00e7\u00f5es pessoais\r\n- nunca fa\u00e7a as mesmas coisas que voc\u00ea faria sem o anonimato."
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1927", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2092", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2092", 
+        "link_title": "Orweb for Android Devices", 
+        "menu_name": "book-toc-1927", 
+        "mlid": "5238", 
+        "module": "book", 
+        "nid": "2092", 
+        "options": [], 
+        "p1": "5032", 
+        "p2": "5238", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5032", 
+        "router_path": "node/%", 
+        "title": "Orweb for Android Devices", 
+        "updated": "0", 
+        "weight": "9"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<h3>2.0 Como instalar o Orweb</h3>\n\n<p><strong>Passo 1:</strong> Em seu dispositivo Android, <strong>baixe</strong> e <strong>instale</strong> o aplicativo da Loja <a href=\"https://play.google.com/store/apps/details?id=info.guardianproject.browser\">Google Play</a> tocando em <img src=\"/sbox/screen/orweb-pt/002.png\" alt=\"\" /></p>\n\n<p><img src=\"/sbox/screen/orweb-pt/001.png\" alt=\"\" /></p>\n\n<p><em>Figura 1: O Orweb na Loja Google Play</em></p>\n\n<p><strong>Observa\u00e7\u00e3o:</strong> O <strong>Orweb</strong> tamb\u00e9m pode ser baixado diretamente do <a href=\"https://guardianproject.info/releases/orweb-latest.apk\">site dos desenvolvedores</a> ou de outras lojas de aplicativos como a <a href=\"https://f-droid.org/repository/browse/?fdfilter=orweb&amp;fdid=info.guardianproject.browser\">F-Droid</a>.</p>\n\n<p><strong>Passo 2:</strong> Antes que o processo de instala\u00e7\u00e3o se inicie, os tipos de acesso que o aplicativo ter\u00e1 sobre seu aparelho celular ser\u00e3o exibidos na tela. Revise cuidadosamente essas informa\u00e7\u00f5es. Quando estiver contente com as permiss\u00f5es que ser\u00e3o dadas, clique em <img src=\"/sbox/screen/orweb-pt/003.png\" alt=\"\" /> e a instala\u00e7\u00e3o ser\u00e1 conclu\u00edda; caso n\u00e3o concorde com as permiss\u00f5es requeridas, aperte o bot\u00e3o de voltar e a instala\u00e7\u00e3o ser\u00e1 cancelada.</p>\n\n<p><img src=\"/sbox/screen/orweb-pt/004.png\" alt=\"\" /></p>\n\n<p><em>Figura 2: As permiss\u00f5es necess\u00e1rias ao Orweb</em></p>\n\n<p><strong>Passo 3:</strong> Depois que o <strong>Orweb</strong> for baixado e instalado, pressione <img src=\"/sbox/screen/orweb-pt/005.png\" alt=\"\" /> para iniciar o aplicativo.</p>\n", 
+                        "summary": "", 
+                        "value": "### 2.0 Como instalar o Orweb ###\r\n\r\n**Passo 1:** Em seu dispositivo Android, **baixe** e **instale** o aplicativo da Loja [Google Play](https://play.google.com/store/apps/details?id=info.guardianproject.browser) tocando em ![](/sbox/screen/orweb-pt/002.png)\r\n\r\n![](/sbox/screen/orweb-pt/001.png)\r\n\r\n*Figura 1: O Orweb na Loja Google Play*\r\n\r\n**Observa\u00e7\u00e3o:** O **Orweb** tamb\u00e9m pode ser baixado diretamente do [site dos desenvolvedores](https://guardianproject.info/releases/orweb-latest.apk) ou de outras lojas de aplicativos como a [F-Droid](https://f-droid.org/repository/browse/?fdfilter=orweb&fdid=info.guardianproject.browser).\r\n\r\n**Passo 2:** Antes que o processo de instala\u00e7\u00e3o se inicie, os tipos de acesso que o aplicativo ter\u00e1 sobre seu aparelho celular ser\u00e3o exibidos na tela. Revise cuidadosamente essas informa\u00e7\u00f5es. Quando estiver contente com as permiss\u00f5es que ser\u00e3o dadas, clique em ![](/sbox/screen/orweb-pt/003.png) e a instala\u00e7\u00e3o ser\u00e1 conclu\u00edda; caso n\u00e3o concorde com as permiss\u00f5es requeridas, aperte o bot\u00e3o de voltar e a instala\u00e7\u00e3o ser\u00e1 cancelada.\r\n\r\n![](/sbox/screen/orweb-pt/004.png)\r\n\r\n*Figura 2: As permiss\u00f5es necess\u00e1rias ao Orweb*\r\n\r\n**Passo 3:** Depois que o **Orweb** for baixado e instalado, pressione ![](/sbox/screen/orweb-pt/005.png) para iniciar o aplicativo."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1927", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2093", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2093", 
+                "link_title": "Orweb - Installation", 
+                "menu_name": "book-toc-1927", 
+                "mlid": "5239", 
+                "module": "book", 
+                "nid": "2093", 
+                "options": [], 
+                "p1": "5032", 
+                "p2": "5238", 
+                "p3": "5239", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5238", 
+                "router_path": "node/%", 
+                "title": "Orweb - Installation", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1455724206", 
+            "comment": "0", 
+            "created": "1441192681", 
+            "current_revision_id": "13245", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "orweb_install", 
+                        "value": "orweb_install"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5239": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2093", 
+                    "link_title": "Orweb - Installation", 
+                    "menu_name": "book-toc-1927", 
+                    "mlid": "5239", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5032", 
+                    "p2": "5238", 
+                    "p3": "5239", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5238", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2093", 
+            "num_revisions": "11", 
+            "path": "https://securityinabox.org/en/orweb_install", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455724206", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Instala\u00e7\u00e3o do Orweb", 
+                        "value": "Instala\u00e7\u00e3o do Orweb"
+                    }
+                ]
+            }, 
+            "title_original": "Orweb - Installation", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "ar": {
+                        "changed": "1441797195", 
+                        "created": "1441797195", 
+                        "entity_id": "2093", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2093", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442419356", 
+                        "created": "1442419115", 
+                        "entity_id": "2093", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2093", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442940774", 
+                        "created": "1442940774", 
+                        "entity_id": "2093", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2093", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455724206", 
+                        "created": "1455724206", 
+                        "entity_id": "2093", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2093", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443783181", 
+                        "created": "1443783181", 
+                        "entity_id": "2093", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2093", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441297965", 
+                        "created": "1441297965", 
+                        "entity_id": "2093", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2093", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444196947", 
+                        "created": "1444196947", 
+                        "entity_id": "2093", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2093", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444392858", 
+                        "created": "1444392858", 
+                        "entity_id": "2093", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2093", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "xx": {
+                        "changed": "1441192681", 
+                        "created": "1441192681", 
+                        "entity_id": "2093", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2093", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445510467", 
+                        "created": "1445510467", 
+                        "entity_id": "2093", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2093", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "36cb7f52-2cce-4eb6-b0d3-4f5d219756ce", 
+            "vid": "13245", 
+            "vuuid": "1a3736ba-669b-4083-8eac-2242fe9b0ac3"
+        }, 
+        {
+            "body": {
+                "pt": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<h3>3. Como usar o Orweb</h3>\n\n<ul><li><a href=\"#3.0\"><strong>3.0 Uso b\u00e1sico</strong></a></li>\n<li><a href=\"#3.1\"><strong>3.1 Uso avan\u00e7ado</strong></a>\n\n<ul><li><a href=\"#3.1.1\"><strong>3.1.1 Como alterar a identifica\u00e7\u00e3o do dispositivo</strong></a></li>\n<li><a href=\"#3.1.2\"><strong>3.1.2 Como limpar o hist\u00f3rico de navega\u00e7\u00e3o</strong></a>\n\n<ul><li><a href=\"#3.1.2.1\"><strong>3.1.2.1 Manualmente</strong></a></li>\n<li><a href=\"#3.1.2.2\"><strong>3.1.2.2 Automaticamente</strong></a></li>\n</ul></li>\n<li><a href=\"#3.1.3\"><strong>3.1.3 Como limpar cookies</strong></a></li>\n</ul></li>\n</ul><p><a name=\"3.0\" id=\"3.0\"></a></p>\n\n<h2>3.0 Uso b\u00e1sico</h2>\n\n<h3>Usando o Orweb pela primeira vez</h3>\n\n<p><strong>Passo 1:</strong> Para abrir o Orweb, <strong>toque</strong> no \u00edcone do aplicativo.</p>\n\n<p><img src=\"/sbox/screen/orweb-pt/orweb.png\" alt=\"\" /></p>\n\n<p><strong>Passo 2:</strong> O <strong>Orweb</strong> ser\u00e1 iniciado e tentar\u00e1 se conectar automaticamente com o endere\u00e7o <em>https://check.torproject.org</em>, para verificar se a conex\u00e3o com a <strong>Rede Tor</strong> est\u00e1 realmente funcionando. Se for poss\u00edvel se conectar, ser\u00e1 exibida a mensagem <em>Your browser is configured to use Tor</em> (<em>Seu navegador est\u00e1 configurado para usar a Rede Tor</em>). Caso o <strong>Orweb</strong> n\u00e3o consiga se conectar ao site, voc\u00ea ver\u00e1 uma mensagem de erro no navegador. Se isso acontecer, verifique se o <a href=\"/pt/orbot_main/\">Orbot</a> est\u00e1 instalado e funcionando corretamente.</p>\n\n<p><img src=\"/sbox/screen/orweb-pt/006.png\" alt=\"\" /><img src=\"/sbox/screen/orweb-pt/007.png\" alt=\"\" /></p>\n\n<p>**Figuras 1 e 2: Telas do Orweb conectado com sucesso e do Orweb com falha na conex\u00e3o.</p>\n\n<p><strong>Passo 3:</strong> Para navegar na internet, <strong>toque</strong> na parte superior da tela, \u00e0 direita do \u00edcone <img src=\"/sbox/screen/orweb-pt/008.png\" alt=\"\" /> e digite o endere\u00e7o que voc\u00ea quer visitar. Pressione <strong>Go</strong> (<em>Ir</em>) no teclado virtual do dispositivo.</p>\n\n<p><img src=\"/sbox/screen/orweb-pt/009.png\" alt=\"\" /><img src=\"/sbox/screen/orweb-pt/010.png\" alt=\"\" /></p>\n\n<p>*Figuras 3 e 4: Navegando para uma nova p\u00e1gina.</p>\n\n<p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 Uso avan\u00e7ado</h2>\n\n<p><a name=\"3.1.1\" id=\"3.1.1\"></a></p>\n\n<h2>3.1.1 Como alterar a identifica\u00e7\u00e3o do dispositivo</h2>\n\n<p>Caso queira esconder a informa\u00e7\u00e3o sobre que tipo de dispositivo est\u00e1 usando para navegar na internet, o <strong>Orweb</strong> pode ser configurado para se passar por uma s\u00e9rie de outros dispositivos.</p>\n\n<p><strong>Passo 1</strong> <strong>Toque</strong> no \u00edcone do menu (<img src=\"/sbox/screen/orweb-pt/011.png\" alt=\"\" />), no canto superior direito da tela, e <strong>selecione</strong> <img src=\"/sbox/screen/orweb-pt/012.png\" alt=\"\" />.</p>\n\n<p><img src=\"/sbox/screen/orweb-pt/013.png\" alt=\"\" /></p>\n\n<p><em>Figura 5: O menu de Configura\u00e7\u00f5es (Settings)</em></p>\n\n<p><strong>Passo 2:</strong> Na se\u00e7\u00e3o de configura\u00e7\u00f5es (<em>settings</em>), des\u00e7a a barra de rolagem at\u00e9 a op\u00e7\u00e3o <strong>Privacy</strong> (<em>Privacidade</em>) e <strong>toque</strong> em <img src=\"/sbox/screen/orweb-pt/014.png\" alt=\"\" /></p>\n\n<p><img src=\"/sbox/screen/orweb-pt/015.png\" alt=\"\" /></p>\n\n<p><em>Figura 6: As op\u00e7\u00f5es de Identifica\u00e7\u00e3o de Dispositivo (User Agent)</em></p>\n\n<p><strong>Passo 3:</strong> Voc\u00ea poder\u00e1 escolher de uma lista de <em>Identifica\u00e7\u00e3o de Dispositivos</em> (<em>User Agents</em>). <strong>Selecione</strong> a op\u00e7\u00e3o desejada (Ex. Selecione <em>iPhone</em> e toda vez que visitar um site, ele pensar\u00e1 que voc\u00ea est\u00e1 usando um <em>iPhone</em>).</p>\n\n<p><img src=\"/sbox/screen/orweb-pt/016.png\" alt=\"\" /></p>\n\n<p><em>Figura 7: A lista de Identifica\u00e7\u00f5es (User Agents) poss\u00edveis</em></p>\n\n<p><a name=\"3.1.2\" id=\"3.1.2\"></a></p>\n\n<h1>3.1.2 Como limpar o hist\u00f3rico de navega\u00e7\u00e3o</h1>\n\n<p><a name=\"3.1.2.1\" id=\"3.1.2.1\"></a></p>\n\n<h2>3.1.2.1 Manualmente</h2>\n\n<p>Para limpar manualmente o hist\u00f3rico de navega\u00e7\u00e3o, o cache do navegador e esconder os sites visitados pelo celular, <strong>toque</strong> no \u00edcone do menu (<img src=\"/sbox/screen/orweb-pt/011.png\" alt=\"\" />) e pressione <img src=\"/sbox/screen/orweb-pt/017.png\" alt=\"\" />.</p>\n\n<p><a name=\"3.1.2.2\" id=\"3.1.2.2\"></a></p>\n\n<h2>3.1.2.2 Automaticamente</h2>\n\n<p>Para remover automaticamente o hist\u00f3rico de navega\u00e7\u00e3o e o cache ao mudar de p\u00e1gina:</p>\n\n<p><strong>Passo 1:</strong> <strong>Toque</strong> no \u00edcone do menu (<img src=\"/sbox/screen/orweb-pt/011.png\" alt=\"\" />) e em seguida em <img src=\"/sbox/screen/orweb-pt/012.png\" alt=\"\" />.</p>\n\n<p><strong>Passo 2:</strong> Na tela de configura\u00e7\u00f5es (<em>settings</em>), des\u00e7a a barra de rolagem e <strong>selecione</strong> <em>Clear Back History</em> (<em>Limpar todo o hist\u00f3rico</em>).</p>\n\n<p><img src=\"/sbox/screen/orweb-pt/018.png\" alt=\"\" /></p>\n\n<p><em>Figura 8: Configurando a op\u00e7\u00e3o de Limpar todo o hist\u00f3rico (Clear Back History)</em></p>\n\n<p><strong>Observa\u00e7\u00e3o</strong>: Ao selecionar esta op\u00e7\u00e3o, n\u00e3o ser\u00e1 mais poss\u00edvel usar o bot\u00e3o de Voltar para rever as p\u00e1ginas visitadas anteriormente.</p>\n\n<p><a name=\"3.1.3\" id=\"3.1.3\"></a></p>\n\n<h2>3.1.3 Como limpar cookies</h2>\n\n<p><strong>Observa\u00e7\u00e3o:</strong> Apagar os cookies te desconectar\u00e1 de todos os sites nos quais voc\u00ea efetuou login.</p>\n\n<p><strong>Passo 1:</strong> <strong>Toque</strong> no \u00edcone do menu (<img src=\"/sbox/screen/orweb-pt/011.png\" alt=\"\" />), no canto superior direito da tela, e <strong>selecione</strong> <strong>Settings</strong> (<em>Configura\u00e7\u00f5es</em>).</p>\n\n<p><strong>Passo 2:</strong> Des\u00e7a a barra de rolagem at\u00e9 a se\u00e7\u00e3o <strong>Cookies</strong> e pressione <img src=\"/sbox/screen/orweb-pt/019.png\" alt=\"\" />.</p>\n\n<p><strong>Passo 3:</strong> <strong>Toque</strong> em <img src=\"/sbox/screen/orweb-pt/020.png\" alt=\"\" /> para confirmar a exclus\u00e3o dos cookies.</p>\n\n<p><img src=\"/sbox/screen/orweb-pt/021.png\" alt=\"\" /></p>\n\n<p><em>Figura 9: Confirmar a exclus\u00e3o de cookies</em></p>\n", 
+                        "summary": "", 
+                        "value": "### 3. Como usar o Orweb ###\r\n\r\n- [**3.0 Uso b\u00e1sico**](#3.0)\r\n- [**3.1 Uso avan\u00e7ado**](#3.1)\r\n    - [**3.1.1 Como alterar a identifica\u00e7\u00e3o do dispositivo**](#3.1.1)\r\n    - [**3.1.2 Como limpar o hist\u00f3rico de navega\u00e7\u00e3o**](#3.1.2)\r\n        - [**3.1.2.1 Manualmente**](#3.1.2.1)\r\n        - [**3.1.2.2 Automaticamente**](#3.1.2.2)\r\n    - [**3.1.3 Como limpar cookies**](#3.1.3)\r\n\r\n<a name=\"3.0\"></a>\r\n## 3.0 Uso b\u00e1sico ##\r\n\r\n### Usando o Orweb pela primeira vez ###\r\n\r\n**Passo 1:** Para abrir o Orweb, **toque** no \u00edcone do aplicativo.\r\n\r\n![](/sbox/screen/orweb-pt/orweb.png)\r\n\r\n**Passo 2:** O **Orweb** ser\u00e1 iniciado e tentar\u00e1 se conectar automaticamente com o endere\u00e7o *https://check.torproject.org*, para verificar se a conex\u00e3o com a **Rede Tor** est\u00e1 realmente funcionando. Se for poss\u00edvel se conectar, ser\u00e1 exibida a mensagem *Your browser is configured to use Tor* (*Seu navegador est\u00e1 configurado para usar a Rede Tor*). Caso o **Orweb** n\u00e3o consiga se conectar ao site, voc\u00ea ver\u00e1 uma mensagem de erro no navegador. Se isso acontecer, verifique se o [Orbot](/pt/orbot_main/) est\u00e1 instalado e funcionando corretamente.\r\n\r\n![](/sbox/screen/orweb-pt/006.png) ![](/sbox/screen/orweb-pt/007.png)\r\n\r\n**Figuras 1 e 2: Telas do Orweb conectado com sucesso e do Orweb com falha na conex\u00e3o.\r\n\r\n**Passo 3:** Para navegar na internet, **toque** na parte superior da tela, \u00e0 direita do \u00edcone ![](/sbox/screen/orweb-pt/008.png) e digite o endere\u00e7o que voc\u00ea quer visitar. Pressione **Go** (*Ir*) no teclado virtual do dispositivo.\r\n\r\n![](/sbox/screen/orweb-pt/009.png) ![](/sbox/screen/orweb-pt/010.png)\r\n\r\n*Figuras 3 e 4: Navegando para uma nova p\u00e1gina.\r\n\r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 Uso avan\u00e7ado ##\r\n\r\n<a name=\"3.1.1\"></a>\r\n## 3.1.1 Como alterar a identifica\u00e7\u00e3o do dispositivo ##\r\n\r\nCaso queira esconder a informa\u00e7\u00e3o sobre que tipo de dispositivo est\u00e1 usando para navegar na internet, o **Orweb** pode ser configurado para se passar por uma s\u00e9rie de outros dispositivos.\r\n\r\n**Passo 1** **Toque** no \u00edcone do menu (![](/sbox/screen/orweb-pt/011.png)), no canto superior direito da tela, e **selecione** ![](/sbox/screen/orweb-pt/012.png).\r\n\r\n![](/sbox/screen/orweb-pt/013.png)\r\n\r\n*Figura 5: O menu de Configura\u00e7\u00f5es (Settings)*\r\n\r\n**Passo 2:** Na se\u00e7\u00e3o de configura\u00e7\u00f5es (*settings*), des\u00e7a a barra de rolagem at\u00e9 a op\u00e7\u00e3o **Privacy** (*Privacidade*) e **toque** em ![](/sbox/screen/orweb-pt/014.png)\r\n\r\n![](/sbox/screen/orweb-pt/015.png)\r\n\r\n*Figura 6: As op\u00e7\u00f5es de Identifica\u00e7\u00e3o de Dispositivo (User Agent)*\r\n\r\n**Passo 3:** Voc\u00ea poder\u00e1 escolher de uma lista de *Identifica\u00e7\u00e3o de Dispositivos* (*User Agents*). **Selecione** a op\u00e7\u00e3o desejada (Ex. Selecione *iPhone* e toda vez que visitar um site, ele pensar\u00e1 que voc\u00ea est\u00e1 usando um *iPhone*).\r\n\r\n![](/sbox/screen/orweb-pt/016.png)\r\n\r\n*Figura 7: A lista de Identifica\u00e7\u00f5es (User Agents) poss\u00edveis*\r\n\r\n\r\n<a name=\"3.1.2\"></a>\r\n# 3.1.2 Como limpar o hist\u00f3rico de navega\u00e7\u00e3o ##\r\n\r\n<a name=\"3.1.2.1\"></a>\r\n## 3.1.2.1 Manualmente ##\r\n\r\nPara limpar manualmente o hist\u00f3rico de navega\u00e7\u00e3o, o cache do navegador e esconder os sites visitados pelo celular, **toque** no \u00edcone do menu (![](/sbox/screen/orweb-pt/011.png)) e pressione ![](/sbox/screen/orweb-pt/017.png).\r\n\r\n\r\n<a name=\"3.1.2.2\"></a>\r\n## 3.1.2.2 Automaticamente ##\r\n\r\nPara remover automaticamente o hist\u00f3rico de navega\u00e7\u00e3o e o cache ao mudar de p\u00e1gina:\r\n\r\n**Passo 1:** **Toque** no \u00edcone do menu (![](/sbox/screen/orweb-pt/011.png)) e em seguida em ![](/sbox/screen/orweb-pt/012.png).\r\n\r\n**Passo 2:** Na tela de configura\u00e7\u00f5es (*settings*), des\u00e7a a barra de rolagem e **selecione** *Clear Back History* (*Limpar todo o hist\u00f3rico*).\r\n\r\n![](/sbox/screen/orweb-pt/018.png)\r\n\r\n*Figura 8: Configurando a op\u00e7\u00e3o de Limpar todo o hist\u00f3rico (Clear Back History)*\r\n\r\n**Observa\u00e7\u00e3o**: Ao selecionar esta op\u00e7\u00e3o, n\u00e3o ser\u00e1 mais poss\u00edvel usar o bot\u00e3o de Voltar para rever as p\u00e1ginas visitadas anteriormente.\r\n\r\n\r\n<a name=\"3.1.3\"></a>\r\n## 3.1.3 Como limpar cookies ##\r\n\r\n**Observa\u00e7\u00e3o:** Apagar os cookies te desconectar\u00e1 de todos os sites nos quais voc\u00ea efetuou login.\r\n\r\n**Passo 1:** **Toque** no \u00edcone do menu (![](/sbox/screen/orweb-pt/011.png)), no canto superior direito da tela, e **selecione** **Settings** (*Configura\u00e7\u00f5es*).\r\n\r\n**Passo 2:** Des\u00e7a a barra de rolagem at\u00e9 a se\u00e7\u00e3o **Cookies** e pressione ![](/sbox/screen/orweb-pt/019.png).\r\n\r\n**Passo 3:** **Toque** em ![](/sbox/screen/orweb-pt/020.png) para confirmar a exclus\u00e3o dos cookies.\r\n\r\n![](/sbox/screen/orweb-pt/021.png)\r\n\r\n*Figura 9: Confirmar a exclus\u00e3o de cookies*"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1927", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2094", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2094", 
+                "link_title": "Orweb - Usage", 
+                "menu_name": "book-toc-1927", 
+                "mlid": "5240", 
+                "module": "book", 
+                "nid": "2094", 
+                "options": [], 
+                "p1": "5032", 
+                "p2": "5238", 
+                "p3": "5240", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5238", 
+                "router_path": "node/%", 
+                "title": "Orweb - Usage", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1455725420", 
+            "comment": "0", 
+            "created": "1441192974", 
+            "current_revision_id": "13247", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "orweb_usage", 
+                        "value": "orweb_usage"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5240": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2094", 
+                    "link_title": "Orweb - Usage", 
+                    "menu_name": "book-toc-1927", 
+                    "mlid": "5240", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5032", 
+                    "p2": "5238", 
+                    "p3": "5240", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5238", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2094", 
+            "num_revisions": "9", 
+            "path": "https://securityinabox.org/en/node/2094", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455725420", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "pt": [
+                    {
+                        "format": null, 
+                        "safe_value": "Como usar o Orweb", 
+                        "value": "Como usar o Orweb"
+                    }
+                ]
+            }, 
+            "title_original": "Orweb - Usage", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "ar": {
+                        "changed": "1441797310", 
+                        "created": "1441797310", 
+                        "entity_id": "2094", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2094", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442419298", 
+                        "created": "1442419298", 
+                        "entity_id": "2094", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2094", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455725420", 
+                        "created": "1455725359", 
+                        "entity_id": "2094", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2094", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1451992723", 
+                        "created": "1441298037", 
+                        "entity_id": "2094", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2094", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444197001", 
+                        "created": "1444197001", 
+                        "entity_id": "2094", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2094", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444392904", 
+                        "created": "1444392904", 
+                        "entity_id": "2094", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2094", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "xx": {
+                        "changed": "1441192974", 
+                        "created": "1441192974", 
+                        "entity_id": "2094", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2094", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "1c838c3a-0dfc-45bc-a370-63b4a0ad4e58", 
+            "vid": "13247", 
+            "vuuid": "9bfa4b36-6acc-4655-bb20-6a5bee1021f2"
+        }
+    ], 
+    "changed": "1455724009", 
+    "comment": "0", 
+    "created": "1441192616", 
+    "current_revision_id": "13244", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "pt": [
+            {
+                "tid": "114"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": [], 
+    "field_legacy_online_installation": {
+        "pt": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Como baixar o Orweb</strong></p>\n\n<p><strong>A partir da p\u00e1gina oficial</strong></p>\n\n<ul><li><em>Leia a breve Introdu\u00e7\u00e3o da se\u00e7\u00e3o de <a href=\"/pt/handsonguides\"><strong>Guias Pr\u00e1ticos</strong></a></em></li>\n<li><em><strong>Toque</strong> no \u00edcone do <strong>Orweb</strong> abaixo para abrir o site <strong>https://guardianproject.info/apps/</strong></em></li>\n<li><em>Use a barra de rolagem at\u00e9 encontrar o \u00edcone do <strong>Orweb</strong> e ent\u00e3o <strong>toque</strong> em <strong>Download App</strong></em></li>\n<li><em><strong>Toque</strong> no bot\u00e3o <strong>Instalar</strong> na Loja Google Play</em></li>\n<li><em>Depois de instalado, toque Abrir para iniciar o aplicativo</em></li>\n</ul><p><strong>A partir da Loja Google Play</strong></p>\n\n<ul><li><em>Voc\u00ea tamb\u00e9m pode instalar o <strong>Orweb</strong> da Loja <a href=\"https://market.android.com/details?id=info.guardianproject.browser\"><strong>Google Play</strong></a></em> </li>\n<li><em>Depois de instalado, clique Abrir para iniciar o aplicativo</em></li>\n</ul><p><strong>Orweb</strong>\n<a href=\"https://guardianproject.info/apps/\"><img src=\"/sbox/screen/orweb-pt/06.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Como baixar o Orweb**\r\n\r\n**A partir da p\u00e1gina oficial**\r\n\r\n- *Leia a breve Introdu\u00e7\u00e3o da se\u00e7\u00e3o de [**Guias Pr\u00e1ticos**](/pt/handsonguides)*\r\n- ***Toque** no \u00edcone do **Orweb** abaixo para abrir o site **https://guardianproject.info/apps/***\r\n- *Use a barra de rolagem at\u00e9 encontrar o \u00edcone do **Orweb** e ent\u00e3o **toque** em **Download App***\r\n- ***Toque** no bot\u00e3o **Instalar** na Loja Google Play*\r\n- *Depois de instalado, toque Abrir para iniciar o aplicativo*\r\n\r\n**A partir da Loja Google Play**\r\n\r\n- *Voc\u00ea tamb\u00e9m pode instalar o **Orweb** da Loja [**Google Play**](https://market.android.com/details?id=info.guardianproject.browser)* \r\n- *Depois de instalado, clique Abrir para iniciar o aplicativo*\r\n\r\n**Orweb**\r\n[![](/sbox/screen/orweb-pt/06.png)](https://guardianproject.info/apps/)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "Android: Orweb", 
+                "value": "Android: Orweb"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "Android: Orweb", 
+                "value": "Android: Orweb"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "pt": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p>O <strong>Orweb</strong> \u00e9 um aplicativo para smartphones Android, criado pelo <a href=\"https://guardianproject.info/\">Guardian Project</a> para navegar na internet de forma an\u00f4nima e ser utilizado em conjunto com o <a href=\"/pt/Orbot_main\"><strong>Orbot</strong></a>.</p>\n", 
+                "value": "O **Orweb** \u00e9 um aplicativo para smartphones Android, criado pelo [Guardian Project](https://guardianproject.info/) para navegar na internet de forma an\u00f4nima e ser utilizado em conjunto com o [**Orbot**](/pt/Orbot_main)."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-09-29 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "orweb_main", 
+                "value": "orweb_main"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "29"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "29"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5238": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2092", 
+            "link_title": "Orweb for Android Devices", 
+            "menu_name": "book-toc-1927", 
+            "mlid": "5238", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5032", 
+            "p2": "5238", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5032", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "9"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2092", 
+    "num_revisions": "11", 
+    "path": "https://securityinabox.org/en/orweb_main", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1455724009", 
+    "revision_uid": "228", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "pt": [
+            {
+                "format": null, 
+                "safe_value": "\ufeffOrweb para dispositivos Android", 
+                "value": "\ufeffOrweb para dispositivos Android"
+            }
+        ]
+    }, 
+    "title_original": "Orweb for Android Devices", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "ar": {
+                "changed": "1441797052", 
+                "created": "1441797052", 
+                "entity_id": "2092", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2092", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442418960", 
+                "created": "1442418960", 
+                "entity_id": "2092", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2092", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fr": {
+                "changed": "1442940717", 
+                "created": "1442940717", 
+                "entity_id": "2092", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "2092", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "km": {
+                "changed": "1455724009", 
+                "created": "1455724009", 
+                "entity_id": "2092", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2092", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443783103", 
+                "created": "1443783103", 
+                "entity_id": "2092", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2092", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441297890", 
+                "created": "1441297890", 
+                "entity_id": "2092", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2092", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444196903", 
+                "created": "1444196903", 
+                "entity_id": "2092", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2092", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "vi": {
+                "changed": "1444392772", 
+                "created": "1443528784", 
+                "entity_id": "2092", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2092", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441192616", 
+                "created": "1441192616", 
+                "entity_id": "2092", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2092", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445510414", 
+                "created": "1445510414", 
+                "entity_id": "2092", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2092", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "dba5d264-2af6-431c-a387-f12f44a06717", 
+    "vid": "13244", 
+    "vuuid": "5eba8f60-d927-40a7-af73-4b0f70a73d41"
+}

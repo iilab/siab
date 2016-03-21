@@ -1,0 +1,837 @@
+{
+    "body": {
+        "fr": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Page d'accueil</strong></p>\n\n<ul><li><a href=\"http://www.keepassdroid.com\"><strong>KeePassDroid</strong></a></li>\n</ul><p><strong>Mat\u00e9riel requis</strong></p>\n\n<ul><li>Android 1.5 ou plus r\u00e9cent</li>\n</ul><p><strong>Version utilis\u00e9e dans ce guide</strong></p>\n\n<ul><li>1.9.8</li>\n</ul><p><strong>Licence</strong></p>\n\n<ul><li>Freeware GPL-V2</li>\n</ul><p><strong>Lecture requise</strong></p>\n\n<ul><li>Livret pratique, chapitre <a href=\"https://securityinabox.org/fr/chapter-3\"><strong>3. Cr\u00e9er et sauvegarder des mots de passe s\u00fbrs</strong></a></li>\n<li>Guides pratiques <a href=\"https://securityinabox.org/fr/keepass_principale\"><strong>KeePass - Stockage de mots de passe</strong></a></li>\n</ul><p><strong>Temps n\u00e9cessaire pour commencer \u00e0 utiliser cet outil</strong> : 10 minutes</p>\n\n<p><strong>Ce que vous obtenez en retour</strong>:</p>\n\n<ul><li>La facult\u00e9 de sauvegarder tous vos mots de passe dans une base de donn\u00e9es pratique et s\u00fbre</li>\n<li>La facult\u00e9 de cr\u00e9er et de stocker plusieurs mots de passe forts sans pour autant devoir les m\u00e9moriser</li>\n<li>La facult\u00e9 de partager vos fichiers de base de donn\u00e9es de mots de passe KeePass entre votre appareil mobile et votre ordinateur</li>\n</ul><h2>1.1 Ce que vous devez savoir sur cet outil avant de commencer</h2>\n\n<p><strong>KeePassDroid</strong> est un outil puissant et facile \u00e0 utiliser qui vous permet de stocker et g\u00e9rer vos mots de passe dans une base de donn\u00e9es hautement s\u00e9curis\u00e9e. Vous pouvez copier votre fichier actuel de base de donn\u00e9es Keepass de votre ordinateur vers l'application <strong>KeePassDroid</strong> de votre appareil mobile.\n<strong>Notez</strong> : Avant de copier et d'ouvrir votre base de donn\u00e9es de mots de passe sur votre appareil mobile, sachez que la s\u00fbret\u00e9 et la protection dispens\u00e9es par votre appareil mobile n'\u00e9galent pas celles de votre ordinateur.\nLa base de donn\u00e9es est prot\u00e9g\u00e9e par un 'mot de passe ma\u00eetre' que vous cr\u00e9ez. Ce mot de passe est \u00e9galement utilis\u00e9 pour chiffrer la totalit\u00e9 du contenu de la base de donn\u00e9es. Vous pouvez stocker des mots de passe d\u00e9j\u00e0 existants dans <strong>KeePassDroid</strong> ou lui en faire g\u00e9n\u00e9rer un nouveau. <strong>KeePassDroid</strong> ne n\u00e9cessite aucune configuration pr\u00e9alable et ne comporte pas d'instructions d'installation sp\u00e9cifiques. Il est pr\u00eat quand vous l'\u00eates !</p>\n", 
+                "summary": "", 
+                "value": "**Page d'accueil**\r\n\r\n- [**KeePassDroid**](http://www.keepassdroid.com)\r\n\r\n**Mat\u00e9riel requis**\r\n\r\n- Android 1.5 ou plus r\u00e9cent\r\n\r\n**Version utilis\u00e9e dans ce guide**\r\n\r\n- 1.9.8\r\n\r\n**Licence** \r\n\r\n- Freeware GPL-V2\r\n\r\n**Lecture requise**\r\n\r\n- Livret pratique, chapitre [**3. Cr\u00e9er et sauvegarder des mots de passe s\u00fbrs**](https://securityinabox.org/fr/chapter-3)\r\n- Guides pratiques [**KeePass - Stockage de mots de passe**](https://securityinabox.org/fr/keepass_principale)\r\n\r\n**Temps n\u00e9cessaire pour commencer \u00e0 utiliser cet outil** : 10 minutes \r\n\r\n**Ce que vous obtenez en retour**: \r\n\r\n- La facult\u00e9 de sauvegarder tous vos mots de passe dans une base de donn\u00e9es pratique et s\u00fbre\r\n- La facult\u00e9 de cr\u00e9er et de stocker plusieurs mots de passe forts sans pour autant devoir les m\u00e9moriser\r\n- La facult\u00e9 de partager vos fichiers de base de donn\u00e9es de mots de passe KeePass entre votre appareil mobile et votre ordinateur\r\n\r\n\r\n## 1.1 Ce que vous devez savoir sur cet outil avant de commencer ##\r\n\r\n**KeePassDroid** est un outil puissant et facile \u00e0 utiliser qui vous permet de stocker et g\u00e9rer vos mots de passe dans une base de donn\u00e9es hautement s\u00e9curis\u00e9e. Vous pouvez copier votre fichier actuel de base de donn\u00e9es Keepass de votre ordinateur vers l'application **KeePassDroid** de votre appareil mobile.\r\n**Notez** : Avant de copier et d'ouvrir votre base de donn\u00e9es de mots de passe sur votre appareil mobile, sachez que la s\u00fbret\u00e9 et la protection dispens\u00e9es par votre appareil mobile n'\u00e9galent pas celles de votre ordinateur.\r\nLa base de donn\u00e9es est prot\u00e9g\u00e9e par un 'mot de passe ma\u00eetre' que vous cr\u00e9ez. Ce mot de passe est \u00e9galement utilis\u00e9 pour chiffrer la totalit\u00e9 du contenu de la base de donn\u00e9es. Vous pouvez stocker des mots de passe d\u00e9j\u00e0 existants dans **KeePassDroid** ou lui en faire g\u00e9n\u00e9rer un nouveau. **KeePassDroid** ne n\u00e9cessite aucune configuration pr\u00e9alable et ne comporte pas d'instructions d'installation sp\u00e9cifiques. Il est pr\u00eat quand vous l'\u00eates !"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1927", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2087", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2087", 
+        "link_title": "KeePassDroid for Android Devices", 
+        "menu_name": "book-toc-1927", 
+        "mlid": "5233", 
+        "module": "book", 
+        "nid": "2087", 
+        "options": [], 
+        "p1": "5032", 
+        "p2": "5233", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5032", 
+        "router_path": "node/%", 
+        "title": "KeePassDroid for Android Devices", 
+        "updated": "0", 
+        "weight": "6"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "fr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<hr /><h2>2. Comment installer et utiliser KeePassDroid</h2>\n\n<p>Liste des sections :</p>\n\n<ul><li><a href=\"#2.0\"><strong>2.0 Comment installer KeePassDroid</strong></a></li>\n<li><a href=\"#2.1\"><strong>2.1 Comment cr\u00e9er une nouvelle base de donn\u00e9es de mots de passe</strong></a></li>\n<li><a href=\"#2.2\"><strong>2.2 Comment ajouter un groupe et une entr\u00e9e</strong></a></li>\n<li><a href=\"#2.3\"><strong>2.3 Comment modifier une entr\u00e9e</strong></a></li>\n<li><a href=\"#2.4\"><strong>2.4 Comment g\u00e9n\u00e9rer des mots de passe al\u00e9atoires</strong></a></li>\n<li><a href=\"#2.5\"><strong>2.5 Comment verrouiller la base de donn\u00e9es KeePassDroid</strong></a></li>\n<li><a href=\"#2.6\"><strong>2.6 Comment cr\u00e9er une sauvegarde du fichier de la base de mots de passe</strong></a></li>\n<li><a href=\"#2.7\"><strong>2.7 Comment r\u00e9initialiser votre mot de passe ma\u00eetre</strong></a></li>\n</ul><hr /><p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>2.0 Comment installer KeePassDroid</h2>\n\n<p><strong>\u00c9tape 1</strong>. <strong>T\u00e9l\u00e9chargez</strong> l'application \u00e0 partir de <a href=\"https://play.google.com/store/apps/details?id=com.android.keepass\"><strong>Google Play</strong></a>.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/01.png\" alt=\"\" /></p>\n\n<p><em>Graphique 1 : Versions de KeyPassDroid</em></p>\n\n<p><strong>\u00c9tape 2</strong>. Une fois le t\u00e9l\u00e9chargement effectu\u00e9, cliquez sur <strong>Package installer</strong> (installeur du paquetage, puis <strong>cliquez</strong> sur <em>Install</em> (installer).</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/02.png\" alt=\"\" /></p>\n\n<p><em>Graphique 2 : Autorisations n\u00e9cessaires pour KeyPassDroid</em></p>\n\n<p><strong>\u00c9tape 3</strong>. <strong>Cliquez</strong> sur <em>Open</em> (ouvrir) comme montr\u00e9 dans la capture d'\u00e9cran ci-dessous pour activer <strong>KeePassDroid</strong>.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/03.png\" alt=\"\" /></p>\n\n<p><em>Graphique 3 : \u00c9cran de l'application install\u00e9e.</em></p>\n\n<p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1 Comment cr\u00e9er une nouvelle base de donn\u00e9es de mots de passe</h2>\n\n<p>Dans les sections qui suivent, vous allez apprendre \u00e0 cr\u00e9er un mot de passe ma\u00eetre, sauvegarder votre base de donn\u00e9es nouvellement cr\u00e9\u00e9e, g\u00e9n\u00e9rer un mot de passe al\u00e9atoire pour un programme particulier et cr\u00e9er une copie de sauvegarde de la base de donn\u00e9es.</p>\n\n<p>Pour ouvrir <strong>KeePassDroid</strong>, il vous faut cliquer sur l'ic\u00f4ne de l'application.</p>\n\n<p><img src=\"/sites/securityinabox.org/files/u12/keepass.gif\" alt=\"\" /></p>\n\n<p>Cr\u00e9er une nouvelle base de donn\u00e9es de mots de passe implique deux \u00e9tapes : vous devez d\u00e9terminer un mot de passe ma\u00eetre unique et complexe, que vous allez utiliser pour verrouiller et d\u00e9verrouiller votre base de donn\u00e9es de mots de passe. Vous devez ensuite sauvegarder cette base de donn\u00e9es de mots de passe.</p>\n\n<p>Pour cr\u00e9er une nouvelle base de donn\u00e9es de mots de passe, suivez les \u00e9tapes suivantes :</p>\n\n<p><strong>\u00c9tape 1</strong>. Pour cr\u00e9er une nouvelle base de donn\u00e9es de mots de passe, <strong>cliquez</strong> sur <em>create</em> (cr\u00e9er).</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/04.png\" alt=\"\" /></p>\n\n<p><em>Graphique 4: \u00c9cran d'ouverture/cr\u00e9ation de la base de donn\u00e9es.</em></p>\n\n<p>L'\u00e9cran <em>Enter database password</em> (Entrer le mot de passe de la base de donn\u00e9es) sera activ\u00e9 comme ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/05.png\" alt=\"\" /></p>\n\n<p><em>Graphique 5 : \u00c9cran Entrer le mot de passe de la base de donn\u00e9es.</em></p>\n\n<p><strong>\u00c9tape 2</strong>. <strong>Tapez</strong> le mot de passe ma\u00eetre que vous avez invent\u00e9 dans les champs <em>password</em> (mot de passe) et <em>confirm password</em> (confirmer le mot de passe), comme indiqu\u00e9 ci-dessous:</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/06.png\" alt=\"\" /></p>\n\n<p><em>Graphique 6 : Entrer un mot de passe</em></p>\n\n<p><strong>Conseil</strong>: Assurez-vous d'avoir bien cr\u00e9\u00e9 un mot de passe ma\u00eetre fort. Consultez <a href=\"https://securityinabox.org/fr/chapter-3\"><strong>3. Cr\u00e9er et sauvegarder des mots de passe s\u00fbrs</strong></a> pour plus d'informations \u00e0 ce sujet.</p>\n\n<p><strong>\u00c9tape 3</strong>. Cliquez sur <strong>OK</strong> pour activer l'\u00e9cran suivant</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/07.png\" alt=\"\" /></p>\n\n<p><em>Graphique 7 : \u00c9cran d'accueil de KeePassDroid</em></p>\n\n<p>F\u00e9licitations ! Vous venez de cr\u00e9er une base de donn\u00e9es de mots de passe s\u00e9curis\u00e9e. Vous pouvez maintenant commencer \u00e0 y d\u00e9poser tous vos mots de passe actuels et futurs.</p>\n\n<p><strong>Note</strong>: Vous pouvez \u00e9galement copier les fichiers de base de donn\u00e9es <strong>KeePass</strong> existants de votre ordinateur vers votre appareil Android, puis les ouvrir avec <strong>KeePassDroid</strong>.</p>\n\n<p><a name=\"2.2\" id=\"2.2\"></a></p>\n\n<h2>2.2. Comment ajouter un groupe et une entr\u00e9e</h2>\n\n<p><strong>KeePassDroid</strong> conserve les entr\u00e9es de mots de passe en groupes pour garder votre information organis\u00e9e, les groupes par d\u00e9faut sont <strong>Email</strong> et <strong>Internet</strong>, mais vous pouvez cr\u00e9er votre propre groupe en <strong>cliquant</strong> sur <em>Add Group</em> (ajouter un groupe) et en tapant le nom du groupe, puis sur <em>OK</em> pour activer l'\u00e9cran suivant :</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/09.png\" alt=\"\" /><img src=\"/sbox/screen/keepassdroid-en/10.png\" alt=\"\" /></p>\n\n<p><em>Graphiques 8 et 9 : Ajouter un nouveau groupe</em></p>\n\n<p>L'\u00e9cran <strong>Add entry</strong> (ajouter une entr\u00e9e) vous permet d'ajouter des informations de compte, des mots de passe et autres d\u00e9tails importants dans votre base de donn\u00e9es nouvellement cr\u00e9\u00e9e. Dans l'exemple qui suit, vous allez ajouter des entr\u00e9es pour stocker les mots de passe et noms d'utilisateur pour d'autres sites web et comptes de messagerie.</p>\n\n<p><strong>\u00c9tape 1</strong>. <strong>Cliquez</strong> sur <em>Add Entry</em> (ajouter une entr\u00e9e) pour activer l'\u00e9cran <em>Add Entry</em> comme suit :</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/11.png\" alt=\"\" /><img src=\"/sbox/screen/keepassdroid-en/12.png\" alt=\"\" /></p>\n\n<p><em>Graphiques 10 et 11 : Ajouter une entr\u00e9e de mot de passe.</em></p>\n\n<p><strong>Note</strong>: L'\u00e9cran <em>Ajouter une entr\u00e9e</em> pr\u00e9sente plusieurs champs \u00e0 compl\u00e9ter. Aucun de ces champs n'est obligatoire ; l'information fournie ici est \u00e0 utiliser \u00e0 votre guise. Elle peut s'av\u00e9rer utile si vous recherchez une entr\u00e9e particuli\u00e8re.</p>\n\n<p>Ces diff\u00e9rentes zones de textes vous sont bri\u00e8vement expliqu\u00e9es ci-dessous :</p>\n\n<p><strong>Name</strong> (nom) : Un nom pour sp\u00e9ficier l'entr\u00e9e du mot de passe. Par exemple, votre mot de passe gmail.</p>\n\n<p><strong>Username</strong> (nom d'utilisateur) : Le nom d'utilisateur associ\u00e9 \u00e0 l'entr\u00e9e du mot de passe. Par exemple, securitybox@gmail.com</p>\n\n<p><strong>URL</strong> : Le site Internet associ\u00e9 \u00e0 l'entr\u00e9e du mot de passe. Par exemple, https://mail.google.com</p>\n\n<p><strong>Password</strong> (mot de passe) : Cette fonction g\u00e9n\u00e8re un mot de passe al\u00e9atoire lorsque l'\u00e9cran <em>Add an entry</em> (ajouter une entr\u00e9e) est activ\u00e9. Vous pouvez utiliser cette fonction si vous souhaitez modifier un mot de passe existant par un mot de passe g\u00e9n\u00e9r\u00e9 par KeePassDroid. Comme KeePassDroid s'en souviendra toujours pour vous, il ne vous est pas m\u00eame n\u00e9cessaire de voir le mot de passe. Un mot de passe g\u00e9n\u00e9r\u00e9 de fa\u00e7on al\u00e9atoire est consid\u00e9r\u00e9 comme fort (c'est \u00e0 dire qu'il sera difficile \u00e0 un intrus de le deviner ou de le cracker).</p>\n\n<p>La section suivante d\u00e9crit comment g\u00e9n\u00e9rer un mot de passe al\u00e9atoire. Vous pouvez bien s\u00fbr remplacer le mot de passe par d\u00e9faut par un mot que vous avez cr\u00e9\u00e9 vous-m\u00eame. Par exemple, si vous cr\u00e9ez une entr\u00e9e pour un compte d\u00e9j\u00e0 existant, vous entrerez le mot de passe correct ici.</p>\n\n<p><strong>Confirm passwords</strong> (confirmer les mots de passe) : La confirmation du mot de passe.</p>\n\n<p><strong>Comments</strong> (commentaires) : C'est ici que vous inscrivez l'information descriptive ou g\u00e9n\u00e9rale du compte ou du site pour lequel vous stockez des informations. Par exemple : Param\u00e8tres du serveur de messagerie : <em>POP3 SSL, pop.gmail.com, Port 995; SMTP TLS, smtp.gmail.com, Port: 465</em></p>\n\n<p><strong>Note</strong> : Le fait de cr\u00e9er ou de modifier les entr\u00e9es de mot de passe dans <strong>KeePassDroid</strong> ne change en rien vos mots de passe courants ! Consid\u00e9rez <strong>KeePassDroid</strong> comme un carnet d'adresses \u00e9lectroniques s\u00fbr pour vos mots de passe. Il ne stocke que ce que vous y \u00e9crivez, rien d'autre.</p>\n\n<p><strong>\u00c9tape 2</strong>. Cliquez sur <strong>save</strong> pour sauvegarder vos modifications de l'\u00e9cran d'ajout d'entr\u00e9es.</p>\n\n<p>Votre nouvelle entr\u00e9e appara\u00eet alors dans le groupe.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/13.png\" alt=\"\" /></p>\n\n<p><em>Graphique 12 : Nouvelle entr\u00e9e apparaissant dans le groupe nouvellement cr\u00e9\u00e9.</em></p>\n\n<p><a name=\"2.3\" id=\"2.3\"></a></p>\n\n<h2>2.3 Comment modifier une entr\u00e9e</h2>\n\n<p>Vous pouvez modifier une entr\u00e9e existante dans <strong>KeePassDroid</strong> \u00e0 tout moment. Vous pouvez changer votre mot de passe (il est g\u00e9n\u00e9ralement conseill\u00e9 de changer de mot de passe tous les trois ou six mois pour plus de s\u00e9curit\u00e9) ou modifier d'autres d\u00e9tails stock\u00e9s dans l'entr\u00e9e du mot de passe.</p>\n\n<p>Pour modifier une entr\u00e9e, effectuez les \u00e9tapes suivantes :</p>\n\n<p><strong>\u00c9tape 1</strong>. <strong>S\u00e9lectionnez</strong> le <em>groupe</em> correct pour activer les entr\u00e9es auxquelles il est associ\u00e9.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/14.png\" alt=\"\" /></p>\n\n<p><em>Graphique 13 : Liste de groupes.</em></p>\n\n<p><strong>\u00c9tape 2</strong>. <strong>S\u00e9lectionnez</strong> l'entr\u00e9e correspondante, puis <strong>cliquez</strong> sur l'entr\u00e9e s\u00e9lectionn\u00e9e pour activer la fen\u00eatre suivante :</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/15.png\" alt=\"\" /></p>\n\n<p><em>Graphique 14 : Aper\u00e7u de l'entr\u00e9e.</em></p>\n\n<p><strong>\u00c9tape 3</strong>. <strong>Cliquez</strong> sur <strong>Edit</strong> (modifier), vous pouvez maintenant modifier l'information donn\u00e9e. Ceci effectu\u00e9, <strong>cliquez</strong> sur <strong>save</strong> (enregistrer) pour conserver les modifications n\u00e9cessaires \u00e0 l'information, y compris le mot de passe.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/16.png\" alt=\"\" /></p>\n\n<p><em>Graphique 15 : Modifier l'info.</em></p>\n\n<p>Pour \u00e9changer un mot de passe existant (que vous avez cr\u00e9\u00e9 vous-m\u00eame au pr\u00e9alable) contre un mot de passe g\u00e9n\u00e9r\u00e9 et recommand\u00e9 par <strong>KeePassDroid</strong>, veuillez lire la section suivante.</p>\n\n<p><a name=\"2.4\" id=\"2.4\"></a></p>\n\n<h2>2.4 Comment g\u00e9n\u00e9rer des mots de passe al\u00e9atoires</h2>\n\n<p>Les mots de passe al\u00e9atoires longs sont consid\u00e9r\u00e9s comme forts dans le domaine de la s\u00e9curit\u00e9. Leur caract\u00e8re al\u00e9atoire est bas\u00e9 sur des principes math\u00e9matiques et ne peut pas \u00eatre simplement 'devin\u00e9' par quelqu'un cherchant \u00e0 cracker l'un de vos comptes. KeePass fournit un g\u00e9n\u00e9rateur de mots de passe facilitant cette proc\u00e9dure. Comme il vous a \u00e9t\u00e9 montr\u00e9 ci-dessus, un mot de passe al\u00e9atoire est automatiquement g\u00e9n\u00e9r\u00e9 lorsque vous ajoutez une entr\u00e9e. Cette section d\u00e9crit comment en g\u00e9n\u00e9rer un vous-m\u00eame.</p>\n\n<p><strong>Note</strong> : Le <em>g\u00e9n\u00e9rateur de mots de passe</em> peut \u00eatre activ\u00e9 \u00e0 partir des \u00e9crans <em>Add Entry</em> (ajouter une entr\u00e9e) et <em>Edit Entry</em> (modifier une entr\u00e9e).</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/17.png\" alt=\"\" /></p>\n\n<p><em>Graphique 16 : Info sur l'entr\u00e9e de mots de passe.</em></p>\n\n<p><strong>\u00c9tape 1</strong>. <strong>Cliquez</strong> la touche <img src=\"/sbox/screen/keepassdroid-en/18.png\" alt=\"\" /> soit \u00e0 partir de l'\u00e9cran <em>Add Entry</em> soit de l'\u00e9cran <em>Edit Entry</em> pour activer l'\u00e9cran du <em>g\u00e9n\u00e9rateur de mots de passe</em> comme suit :</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/19.png\" alt=\"\" /></p>\n\n<p><em>Graphique 17 : Options pour la g\u00e9n\u00e9ration de mots de passe.</em></p>\n\n<p>L'\u00e9cran du g\u00e9n\u00e9rateur de mots de passe offre plusieurs crit\u00e8res quant \u00e0 la cr\u00e9ation d'un mot de passe. Vous pouvez entre autres sp\u00e9cifier la longueur du mot de passe souhait\u00e9, le type de caract\u00e8res que vous souhaitez utiliser. \u00c0 titre exemplaire, nous allons s\u00e9lectionner les options suivantes :</p>\n\n<ul><li><strong>Longueur</strong> d'au moins 16 caract\u00e8res</li>\n<li><strong>Cochez</strong> Upper-case Letter (lettre majuscule)</li>\n<li><strong>Cochez</strong> Lower-case Letter (lettre minuscule)</li>\n<li><strong>Cochez</strong> Digits (chiffres)</li>\n<li><strong>Cochez</strong> Minus (tirets)</li>\n<li><strong>Cochez</strong> Brackets (parenth\u00e8ses)</li>\n<li><strong>Cochez</strong> Underline (soulignages)</li>\n</ul><p><img src=\"/sbox/screen/keepassdroid-en/19.png\" alt=\"\" /></p>\n\n<p><em>Graphique 18 : Options pour la cr\u00e9ation de mots de passe</em></p>\n\n<p><strong>\u00c9tape 2</strong>. <strong>Cliquez</strong> sur <img src=\"/sbox/screen/keepassdroid-en/20.png\" alt=\"\" /> pour d\u00e9marrer la proc\u00e9dure. Une fois termin\u00e9e, <strong>KeePassDroid</strong> affichera le mot de passe g\u00e9n\u00e9r\u00e9.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/21.png\" alt=\"\" /></p>\n\n<p><em>Graphique 19 : Exemple de mot de passe al\u00e9atoire.</em></p>\n\n<p><strong>\u00c9tape 3</strong>. <strong>Cliquez</strong> sur <em>Accept</em> (accepter) pour activer l'\u00e9cran suivant :</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/22.png\" alt=\"\" /></p>\n\n<p><em>Graphique 20 : Informations de l'entr\u00e9e</em></p>\n\n<p><strong>Note</strong>: Vous pouvez afficher le mot de passe g\u00e9n\u00e9r\u00e9 en s\u00e9lectionnant l'option correspondante dans le menu. Toutefois, comme nous l'avons \u00e9voqu\u00e9 ci-dessus, ceci constitue un risque quant \u00e0 la s\u00e9curit\u00e9. Par essence, il n'est pas n\u00e9cessaire de voir le mot de passe g\u00e9n\u00e9r\u00e9. Nous revenons sur ce sujet dans la section <a href=\"https://securityinabox.org/fr/keepass_motsdepasse\"><strong>3.0 Comment utiliser les mots de passe</strong></a>.</p>\n\n<p><strong>\u00c9tape 4</strong>. <strong>Cliquez</strong> sur <em>Save</em> (enregistrer) pour accepter le mot de passe et retourner \u00e0 l'\u00e9cran <em>Entry</em> (entr\u00e9e), comme suit :</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/23.png\" alt=\"\" /></p>\n\n<p><em>Graphique 21 : \u00c9cran d'entr\u00e9e</em></p>\n\n<p><a name=\"2.5\" id=\"2.5\"></a></p>\n\n<h2>2.5 Comment verrouiller la base de donn\u00e9es KeePassDroid</h2>\n\n<p><strong>\u00c9tape 1</strong>. <strong>Cliquez</strong> sur la touche <strong>Menu</strong> pour activer l'\u00e9cran suivant :</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/24.png\" alt=\"\" /></p>\n\n<p><em>Graphique 22 : Options du menu</em></p>\n\n<p><strong>\u00c9tape 2</strong>. <strong>Cliquez</strong> sur <em>Lock Database</em> (verrouiller la base de donn\u00e9es) pour d\u00e9sactiver la console <strong>KeePassDroid</strong> comme ci-dessous :</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/25.png\" alt=\"\" /></p>\n\n<p><em>Graphique 23 : Base de donn\u00e9es verrouill\u00e9e</em></p>\n\n<p>Il vous faut entrer votre mot de passe \u00e0 nouveau pour acc\u00e9der \u00e0 votre base de donn\u00e9es <strong>KeePassDroid</strong>.</p>\n\n<p><a name=\"2.6\" id=\"2.6\"></a></p>\n\n<h2>2.6 Comment cr\u00e9er une sauvegarde du fichier de la base de mots de passe</h2>\n\n<p>Le fichier de la base de donn\u00e9es <strong>KeePassDroid</strong> de votre t\u00e9l\u00e9phone Android est indiqu\u00e9 par son extension de fichier .kdb. Vous pouvez copier ce fichier sur votre ordinateur ou votre cl\u00e9 USB. Personne d'autre que vous ne sera en \u00e9tat d'ouvrir cette base de donn\u00e9es sans le mot de passe ma\u00eetre.</p>\n\n<p><strong>Note</strong> : Pour ouvrir la base de donn\u00e9es <strong>KeePassDroid</strong> que vous avez copi\u00e9e depuis votre appareil Android sur votre ordinateur, vous devez vous assurer que le programme KeePass a bien \u00e9t\u00e9 install\u00e9 sur votre ordinateur ou que vous en avez la version portable sur votre cl\u00e9 USB.</p>\n\n<p>Consultez s'il vous pla\u00eet <a href=\"https://securityinabox.org/en/keepass_portable\"><strong>Portable KeePass</strong></a> pour plus d'informations.</p>\n\n<p><a name=\"2.7\" id=\"2.7\"></a></p>\n\n<h2>2.7 Comment r\u00e9initialiser votre mot de passe ma\u00eetre</h2>\n\n<p>Vous pouvez modifier le mot de passe principal \u00e0 tout moment. Ceci peut \u00eatre effectu\u00e9 une fois que vous avez ouvert la base de donn\u00e9es de mots de passe.</p>\n\n<p><strong>\u00c9tape 1</strong>. <strong>S\u00e9lectionnez</strong> la base de donn\u00e9es et <strong>cliquez</strong> sur <em>Menu</em> pour activer l'\u00e9cran suivant :</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/26.png\" alt=\"\" /></p>\n\n<p><em>Graphique 24 : Options du menu</em></p>\n\n<p><strong>\u00c9tape 2</strong>. <strong>Cliquez</strong> sur <strong>Change Master key</strong> (modifier la cl\u00e9 principale) pour activer l'\u00e9cran suivant :</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/27.png\" alt=\"\" /></p>\n\n<p><em>Graphique 25 : Entrer un nouveau mot de passe.</em></p>\n\n<p><strong>\u00c9tape 3</strong>. Entrez votre mot de passe dans les champs <strong>Password</strong> (mot de passe) et <strong>Confirm Password</strong> (confirmer le mot de passe), puis <strong>cliquez</strong> sur OK.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/28.png\" alt=\"\" /></p>\n\n<p><em>Graphique 26 : Entrer un nouveau mot de passe</em></p>\n\n<h2>3.0 Comment utiliser les mots de passe KeePassDroid</h2>\n\n<p>Puisqu'un mot de passe s\u00e9curis\u00e9 est difficile \u00e0 m\u00e9moriser, <strong>KeePassDroid</strong> vous permet de le copier depuis la base de donn\u00e9es et de le coller directement dans le compte ou le site Internet qui le requiert.</p>\n\n<p>Pour plus de s\u00e9curit\u00e9, vous pouvez faire en sorte que le mot de passe copi\u00e9 dans le presse-papier n'y reste que <strong>30 secondes</strong>, <strong>1 minute</strong>, ou <strong>5 minutes</strong> de sorte que vous puissiez y coller le mot de passe correspondant sans devoir vous d\u00e9p\u00eacher avant qu'il ne soit automatiquement effac\u00e9 du presse-papier.</p>\n\n<p>Vous pouvez voir ces options dans l'\u00e9cran suivant en allant \u00e0 : <strong>Menu</strong> &gt; <strong>Settings</strong> (param\u00e8tres) &gt; <strong>Application</strong> &gt; <strong>Clipboard timeout</strong> (d\u00e9lai presse-papier)</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/29.png\" alt=\"\" /></p>\n\n<p><em>Graphique 27 : Options d\u00e9lai du presse-papier.</em></p>\n\n<h3>Copier un mot de passe KeePassDroid</h3>\n\n<p><strong>\u00c9tape 1</strong>. Cliquez dans <strong>Menu</strong> sur le mot de passe requis pour activer l'\u00e9cran suivant :</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/30.png\" alt=\"\" /></p>\n\n<p><em>Graphique 28 : Options mots de passe</em></p>\n\n<p><strong>\u00c9tape 2</strong>. <strong>S\u00e9lectionnez</strong> <img src=\"/sbox/screen/keepassdroid-en/31.png\" alt=\"\" /></p>\n\n<p><strong>\u00c9tape 3</strong>. <strong>Ouvrez</strong> le compte ou le site aff\u00e9rent et <strong>collez</strong> le mot de passe dans le champ correspondant en cliquant et maintenant le champ correspondant, puis s\u00e9lectionnez <em>Paste</em> (coller) :</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/32.png\" alt=\"\" /></p>\n\n<p><em>Graphique 29 : Options \u00e9dition de texte</em></p>\n\n<p><strong>Note</strong>: Si vous utilisez <strong>KeePassDroid</strong> tout le temps, vous n'avez jamais r\u00e9ellement besoin de voir ou de conna\u00eetre votre mot de passe. Les fonctions copier/coller suffisent \u00e0 le d\u00e9placer depuis la base de donn\u00e9es vers la fen\u00eatre requise. Si vous utilisez la fonction <em>G\u00e9n\u00e9rateur al\u00e9atoire</em> puis transf\u00e9rez le mot de passe vers le processus d'inscription d'un nouveau compte de messagerie, vous utiliserez un mot de passe que vous n'avez jamais vu. Et il continue de remplir sa t\u00e2che !</p>\n\n<h3>Verrouiller la base de donn\u00e9es selon un d\u00e9lai</h3>\n\n<p>Il vous est \u00e9galement possible de verrouiller votre base de donn\u00e9es lorsque l'application est rest\u00e9e inactive durant un temps d\u00e9termin\u00e9. Ceci peut \u00eatre affectu\u00e9 en allant \u00e0 :</p>\n\n<p><strong>Menu</strong> &gt; <strong>Settings</strong> (param\u00e8tres) &gt; <strong>Application</strong> <strong>Cliquez</strong> sur <strong>Application timeout</strong> (d\u00e9lai application) pour activer ce qui suit :</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en/33.png\" alt=\"\" /></p>\n\n<p><em>Graphique 30 :</em> Options D\u00e9lai de l'application.</p>\n\n<p><strong>S\u00e9lectionnez</strong> le d\u00e9lai de verrouillage de votre base de donn\u00e9es.</p>\n", 
+                        "summary": "", 
+                        "value": "-----\r\n\r\n## 2. Comment installer et utiliser KeePassDroid\r\n\r\nListe des sections :\r\n\r\n- [**2.0 Comment installer KeePassDroid**](#2.0)\r\n- [**2.1 Comment cr\u00e9er une nouvelle base de donn\u00e9es de mots de passe**](#2.1)\r\n- [**2.2 Comment ajouter un groupe et une entr\u00e9e**](#2.2)\r\n- [**2.3 Comment modifier une entr\u00e9e**](#2.3)\r\n- [**2.4 Comment g\u00e9n\u00e9rer des mots de passe al\u00e9atoires**](#2.4)\r\n- [**2.5 Comment verrouiller la base de donn\u00e9es KeePassDroid**](#2.5)\r\n- [**2.6 Comment cr\u00e9er une sauvegarde du fichier de la base de mots de passe**](#2.6)\r\n- [**2.7 Comment r\u00e9initialiser votre mot de passe ma\u00eetre**](#2.7)\r\n\r\n-------\r\n\r\n<a name=\"2.0\"></a>\r\n## 2.0 Comment installer KeePassDroid ##\r\n\r\n**\u00c9tape 1**. **T\u00e9l\u00e9chargez** l'application \u00e0 partir de [**Google Play**](https://play.google.com/store/apps/details?id=com.android.keepass).\r\n\r\n![](/sbox/screen/keepassdroid-en/01.png)\r\n\r\n*Graphique 1 : Versions de KeyPassDroid*\r\n\r\n**\u00c9tape 2**. Une fois le t\u00e9l\u00e9chargement effectu\u00e9, cliquez sur **Package installer** (installeur du paquetage, puis **cliquez** sur *Install* (installer).\r\n\r\n![](/sbox/screen/keepassdroid-en/02.png)\r\n\r\n*Graphique 2 : Autorisations n\u00e9cessaires pour KeyPassDroid*\r\n\r\n**\u00c9tape 3**. **Cliquez** sur *Open* (ouvrir) comme montr\u00e9 dans la capture d'\u00e9cran ci-dessous pour activer **KeePassDroid**.\r\n\r\n![](/sbox/screen/keepassdroid-en/03.png)\r\n\r\n*Graphique 3 : \u00c9cran de l'application install\u00e9e.*\r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1 Comment cr\u00e9er une nouvelle base de donn\u00e9es de mots de passe ##\r\n\r\nDans les sections qui suivent, vous allez apprendre \u00e0 cr\u00e9er un mot de passe ma\u00eetre, sauvegarder votre base de donn\u00e9es nouvellement cr\u00e9\u00e9e, g\u00e9n\u00e9rer un mot de passe al\u00e9atoire pour un programme particulier et cr\u00e9er une copie de sauvegarde de la base de donn\u00e9es.\r\n\r\nPour ouvrir **KeePassDroid**, il vous faut cliquer sur l'ic\u00f4ne de l'application.\r\n\r\n![](/sites/securityinabox.org/files/u12/keepass.gif)\r\n\r\nCr\u00e9er une nouvelle base de donn\u00e9es de mots de passe implique deux \u00e9tapes : vous devez d\u00e9terminer un mot de passe ma\u00eetre unique et complexe, que vous allez utiliser pour verrouiller et d\u00e9verrouiller votre base de donn\u00e9es de mots de passe. Vous devez ensuite sauvegarder cette base de donn\u00e9es de mots de passe.\r\n\r\nPour cr\u00e9er une nouvelle base de donn\u00e9es de mots de passe, suivez les \u00e9tapes suivantes :\r\n\r\n**\u00c9tape 1**. Pour cr\u00e9er une nouvelle base de donn\u00e9es de mots de passe, **cliquez** sur *create* (cr\u00e9er). \r\n\r\n![](/sbox/screen/keepassdroid-en/04.png)\r\n\r\n*Graphique 4: \u00c9cran d'ouverture/cr\u00e9ation de la base de donn\u00e9es.*\r\n\r\nL'\u00e9cran *Enter database password* (Entrer le mot de passe de la base de donn\u00e9es) sera activ\u00e9 comme ci-dessous:\r\n\r\n![](/sbox/screen/keepassdroid-en/05.png)\r\n\r\n*Graphique 5 : \u00c9cran Entrer le mot de passe de la base de donn\u00e9es.*\r\n\r\n**\u00c9tape 2**. **Tapez** le mot de passe ma\u00eetre que vous avez invent\u00e9 dans les champs *password* (mot de passe) et *confirm password* (confirmer le mot de passe), comme indiqu\u00e9 ci-dessous:\r\n\r\n![](/sbox/screen/keepassdroid-en/06.png)\r\n\r\n*Graphique 6 : Entrer un mot de passe*\r\n\r\n**Conseil**: Assurez-vous d'avoir bien cr\u00e9\u00e9 un mot de passe ma\u00eetre fort. Consultez [**3. Cr\u00e9er et sauvegarder des mots de passe s\u00fbrs**](https://securityinabox.org/fr/chapter-3) pour plus d'informations \u00e0 ce sujet.\r\n\r\n**\u00c9tape 3**. Cliquez sur **OK** pour activer l'\u00e9cran suivant\r\n\r\n![](/sbox/screen/keepassdroid-en/07.png)\r\n\r\n*Graphique 7 : \u00c9cran d'accueil de KeePassDroid*\r\n\r\nF\u00e9licitations ! Vous venez de cr\u00e9er une base de donn\u00e9es de mots de passe s\u00e9curis\u00e9e. Vous pouvez maintenant commencer \u00e0 y d\u00e9poser tous vos mots de passe actuels et futurs.\r\n\r\n**Note**: Vous pouvez \u00e9galement copier les fichiers de base de donn\u00e9es **KeePass** existants de votre ordinateur vers votre appareil Android, puis les ouvrir avec **KeePassDroid**.\r\n\r\n<a name=\"2.2\"></a>\r\n## 2.2. Comment ajouter un groupe et une entr\u00e9e ##\r\n\r\n**KeePassDroid** conserve les entr\u00e9es de mots de passe en groupes pour garder votre information organis\u00e9e, les groupes par d\u00e9faut sont **Email** et **Internet**, mais vous pouvez cr\u00e9er votre propre groupe en **cliquant** sur *Add Group* (ajouter un groupe) et en tapant le nom du groupe, puis sur *OK* pour activer l'\u00e9cran suivant : \r\n\r\n![](/sbox/screen/keepassdroid-en/09.png) ![](/sbox/screen/keepassdroid-en/10.png)\r\n\r\n*Graphiques 8 et 9 : Ajouter un nouveau groupe*\r\n\r\nL'\u00e9cran **Add entry** (ajouter une entr\u00e9e) vous permet d'ajouter des informations de compte, des mots de passe et autres d\u00e9tails importants dans votre base de donn\u00e9es nouvellement cr\u00e9\u00e9e. Dans l'exemple qui suit, vous allez ajouter des entr\u00e9es pour stocker les mots de passe et noms d'utilisateur pour d'autres sites web et comptes de messagerie.\r\n\r\n**\u00c9tape 1**. **Cliquez** sur *Add Entry* (ajouter une entr\u00e9e) pour activer l'\u00e9cran *Add Entry* comme suit :\r\n\r\n![](/sbox/screen/keepassdroid-en/11.png) ![](/sbox/screen/keepassdroid-en/12.png)\r\n\r\n*Graphiques 10 et 11 : Ajouter une entr\u00e9e de mot de passe.*\r\n\r\n**Note**: L'\u00e9cran *Ajouter une entr\u00e9e* pr\u00e9sente plusieurs champs \u00e0 compl\u00e9ter. Aucun de ces champs n'est obligatoire ; l'information fournie ici est \u00e0 utiliser \u00e0 votre guise. Elle peut s'av\u00e9rer utile si vous recherchez une entr\u00e9e particuli\u00e8re.\r\n\r\nCes diff\u00e9rentes zones de textes vous sont bri\u00e8vement expliqu\u00e9es ci-dessous :\r\n\r\n**Name** (nom) : Un nom pour sp\u00e9ficier l'entr\u00e9e du mot de passe. Par exemple, votre mot de passe gmail.\r\n\r\n**Username** (nom d'utilisateur) : Le nom d'utilisateur associ\u00e9 \u00e0 l'entr\u00e9e du mot de passe. Par exemple, securitybox@gmail.com\r\n\r\n**URL** : Le site Internet associ\u00e9 \u00e0 l'entr\u00e9e du mot de passe. Par exemple, https://mail.google.com\r\n\r\n**Password** (mot de passe) : Cette fonction g\u00e9n\u00e8re un mot de passe al\u00e9atoire lorsque l'\u00e9cran *Add an entry* (ajouter une entr\u00e9e) est activ\u00e9. Vous pouvez utiliser cette fonction si vous souhaitez modifier un mot de passe existant par un mot de passe g\u00e9n\u00e9r\u00e9 par KeePassDroid. Comme KeePassDroid s'en souviendra toujours pour vous, il ne vous est pas m\u00eame n\u00e9cessaire de voir le mot de passe. Un mot de passe g\u00e9n\u00e9r\u00e9 de fa\u00e7on al\u00e9atoire est consid\u00e9r\u00e9 comme fort (c'est \u00e0 dire qu'il sera difficile \u00e0 un intrus de le deviner ou de le cracker).\r\n\r\nLa section suivante d\u00e9crit comment g\u00e9n\u00e9rer un mot de passe al\u00e9atoire. Vous pouvez bien s\u00fbr remplacer le mot de passe par d\u00e9faut par un mot que vous avez cr\u00e9\u00e9 vous-m\u00eame. Par exemple, si vous cr\u00e9ez une entr\u00e9e pour un compte d\u00e9j\u00e0 existant, vous entrerez le mot de passe correct ici.\r\n\r\n**Confirm passwords** (confirmer les mots de passe) : La confirmation du mot de passe.\r\n\r\n**Comments** (commentaires) : C'est ici que vous inscrivez l'information descriptive ou g\u00e9n\u00e9rale du compte ou du site pour lequel vous stockez des informations. Par exemple : Param\u00e8tres du serveur de messagerie : *POP3 SSL, pop.gmail.com, Port 995; SMTP TLS, smtp.gmail.com, Port: 465*\r\n\r\n**Note** : Le fait de cr\u00e9er ou de modifier les entr\u00e9es de mot de passe dans **KeePassDroid** ne change en rien vos mots de passe courants ! Consid\u00e9rez **KeePassDroid** comme un carnet d'adresses \u00e9lectroniques s\u00fbr pour vos mots de passe. Il ne stocke que ce que vous y \u00e9crivez, rien d'autre.\r\n\r\n**\u00c9tape 2**. Cliquez sur **save** pour sauvegarder vos modifications de l'\u00e9cran d'ajout d'entr\u00e9es.\r\n\r\nVotre nouvelle entr\u00e9e appara\u00eet alors dans le groupe.\r\n\r\n![](/sbox/screen/keepassdroid-en/13.png)\r\n\r\n*Graphique 12 : Nouvelle entr\u00e9e apparaissant dans le groupe nouvellement cr\u00e9\u00e9.*\r\n\r\n<a name=\"2.3\"></a>\r\n## 2.3 Comment modifier une entr\u00e9e ##\r\n\r\nVous pouvez modifier une entr\u00e9e existante dans **KeePassDroid** \u00e0 tout moment. Vous pouvez changer votre mot de passe (il est g\u00e9n\u00e9ralement conseill\u00e9 de changer de mot de passe tous les trois ou six mois pour plus de s\u00e9curit\u00e9) ou modifier d'autres d\u00e9tails stock\u00e9s dans l'entr\u00e9e du mot de passe. \r\n\r\nPour modifier une entr\u00e9e, effectuez les \u00e9tapes suivantes :\r\n\r\n**\u00c9tape 1**. **S\u00e9lectionnez** le *groupe* correct pour activer les entr\u00e9es auxquelles il est associ\u00e9.\r\n\r\n![](/sbox/screen/keepassdroid-en/14.png)\r\n\r\n*Graphique 13 : Liste de groupes.*\r\n\r\n**\u00c9tape 2**. **S\u00e9lectionnez** l'entr\u00e9e correspondante, puis **cliquez** sur l'entr\u00e9e s\u00e9lectionn\u00e9e pour activer la fen\u00eatre suivante : \r\n\r\n![](/sbox/screen/keepassdroid-en/15.png)\r\n\r\n*Graphique 14 : Aper\u00e7u de l'entr\u00e9e.*\r\n\r\n**\u00c9tape 3**. **Cliquez** sur **Edit** (modifier), vous pouvez maintenant modifier l'information donn\u00e9e. Ceci effectu\u00e9, **cliquez** sur **save** (enregistrer) pour conserver les modifications n\u00e9cessaires \u00e0 l'information, y compris le mot de passe.\r\n\r\n![](/sbox/screen/keepassdroid-en/16.png)\r\n\r\n*Graphique 15 : Modifier l'info.*\r\n\r\nPour \u00e9changer un mot de passe existant (que vous avez cr\u00e9\u00e9 vous-m\u00eame au pr\u00e9alable) contre un mot de passe g\u00e9n\u00e9r\u00e9 et recommand\u00e9 par **KeePassDroid**, veuillez lire la section suivante.\r\n\r\n<a name=\"2.4\"></a>\r\n## 2.4 Comment g\u00e9n\u00e9rer des mots de passe al\u00e9atoires ##\r\n\r\nLes mots de passe al\u00e9atoires longs sont consid\u00e9r\u00e9s comme forts dans le domaine de la s\u00e9curit\u00e9. Leur caract\u00e8re al\u00e9atoire est bas\u00e9 sur des principes math\u00e9matiques et ne peut pas \u00eatre simplement 'devin\u00e9' par quelqu'un cherchant \u00e0 cracker l'un de vos comptes. KeePass fournit un g\u00e9n\u00e9rateur de mots de passe facilitant cette proc\u00e9dure. Comme il vous a \u00e9t\u00e9 montr\u00e9 ci-dessus, un mot de passe al\u00e9atoire est automatiquement g\u00e9n\u00e9r\u00e9 lorsque vous ajoutez une entr\u00e9e. Cette section d\u00e9crit comment en g\u00e9n\u00e9rer un vous-m\u00eame.\r\n\r\n**Note** : Le *g\u00e9n\u00e9rateur de mots de passe* peut \u00eatre activ\u00e9 \u00e0 partir des \u00e9crans *Add Entry* (ajouter une entr\u00e9e) et *Edit Entry* (modifier une entr\u00e9e).\r\n\r\n![](/sbox/screen/keepassdroid-en/17.png)\r\n\r\n*Graphique 16 : Info sur l'entr\u00e9e de mots de passe.*\r\n\r\n**\u00c9tape 1**. **Cliquez** la touche ![](/sbox/screen/keepassdroid-en/18.png) soit \u00e0 partir de l'\u00e9cran *Add Entry* soit de l'\u00e9cran *Edit Entry* pour activer l'\u00e9cran du *g\u00e9n\u00e9rateur de mots de passe* comme suit :\r\n\r\n![](/sbox/screen/keepassdroid-en/19.png)\r\n\r\n*Graphique 17 : Options pour la g\u00e9n\u00e9ration de mots de passe.*\r\n\r\nL'\u00e9cran du g\u00e9n\u00e9rateur de mots de passe offre plusieurs crit\u00e8res quant \u00e0 la cr\u00e9ation d'un mot de passe. Vous pouvez entre autres sp\u00e9cifier la longueur du mot de passe souhait\u00e9, le type de caract\u00e8res que vous souhaitez utiliser. \u00c0 titre exemplaire, nous allons s\u00e9lectionner les options suivantes :\r\n\r\n- **Longueur** d'au moins 16 caract\u00e8res\r\n- **Cochez** Upper-case Letter (lettre majuscule)\r\n- **Cochez** Lower-case Letter (lettre minuscule)\r\n- **Cochez** Digits (chiffres)\r\n- **Cochez** Minus (tirets)\r\n- **Cochez** Brackets (parenth\u00e8ses)\r\n- **Cochez** Underline (soulignages)\r\n\r\n![](/sbox/screen/keepassdroid-en/19.png)\r\n\r\n*Graphique 18 : Options pour la cr\u00e9ation de mots de passe*\r\n\r\n**\u00c9tape 2**. **Cliquez** sur ![](/sbox/screen/keepassdroid-en/20.png) pour d\u00e9marrer la proc\u00e9dure. Une fois termin\u00e9e, **KeePassDroid** affichera le mot de passe g\u00e9n\u00e9r\u00e9.\r\n\r\n![](/sbox/screen/keepassdroid-en/21.png)\r\n\r\n*Graphique 19 : Exemple de mot de passe al\u00e9atoire.*\r\n\r\n**\u00c9tape 3**. **Cliquez** sur *Accept* (accepter) pour activer l'\u00e9cran suivant :\r\n\r\n![](/sbox/screen/keepassdroid-en/22.png)\r\n\r\n*Graphique 20 : Informations de l'entr\u00e9e*\r\n\r\n**Note**: Vous pouvez afficher le mot de passe g\u00e9n\u00e9r\u00e9 en s\u00e9lectionnant l'option correspondante dans le menu. Toutefois, comme nous l'avons \u00e9voqu\u00e9 ci-dessus, ceci constitue un risque quant \u00e0 la s\u00e9curit\u00e9. Par essence, il n'est pas n\u00e9cessaire de voir le mot de passe g\u00e9n\u00e9r\u00e9. Nous revenons sur ce sujet dans la section [**3.0 Comment utiliser les mots de passe**](https://securityinabox.org/fr/keepass_motsdepasse).\r\n\r\n**\u00c9tape 4**. **Cliquez** sur *Save* (enregistrer) pour accepter le mot de passe et retourner \u00e0 l'\u00e9cran *Entry* (entr\u00e9e), comme suit :\r\n\r\n![](/sbox/screen/keepassdroid-en/23.png)\r\n\r\n*Graphique 21 : \u00c9cran d'entr\u00e9e*\r\n\r\n<a name=\"2.5\"></a>\r\n## 2.5 Comment verrouiller la base de donn\u00e9es KeePassDroid ##\r\n\r\n**\u00c9tape 1**. **Cliquez** sur la touche **Menu** pour activer l'\u00e9cran suivant :\r\n\r\n![](/sbox/screen/keepassdroid-en/24.png)\r\n\r\n*Graphique 22 : Options du menu*\r\n\r\n**\u00c9tape 2**. **Cliquez** sur *Lock Database* (verrouiller la base de donn\u00e9es) pour d\u00e9sactiver la console **KeePassDroid** comme ci-dessous :\r\n\r\n![](/sbox/screen/keepassdroid-en/25.png)\r\n\r\n*Graphique 23 : Base de donn\u00e9es verrouill\u00e9e*\r\n\r\nIl vous faut entrer votre mot de passe \u00e0 nouveau pour acc\u00e9der \u00e0 votre base de donn\u00e9es **KeePassDroid**.\r\n\r\n<a name=\"2.6\"></a>\r\n## 2.6 Comment cr\u00e9er une sauvegarde du fichier de la base de mots de passe ##\r\n\r\nLe fichier de la base de donn\u00e9es **KeePassDroid** de votre t\u00e9l\u00e9phone Android est indiqu\u00e9 par son extension de fichier .kdb. Vous pouvez copier ce fichier sur votre ordinateur ou votre cl\u00e9 USB. Personne d'autre que vous ne sera en \u00e9tat d'ouvrir cette base de donn\u00e9es sans le mot de passe ma\u00eetre.\r\n\r\n**Note** : Pour ouvrir la base de donn\u00e9es **KeePassDroid** que vous avez copi\u00e9e depuis votre appareil Android sur votre ordinateur, vous devez vous assurer que le programme KeePass a bien \u00e9t\u00e9 install\u00e9 sur votre ordinateur ou que vous en avez la version portable sur votre cl\u00e9 USB.\r\n\r\nConsultez s'il vous pla\u00eet [**Portable KeePass**](https://securityinabox.org/en/keepass_portable) pour plus d'informations.\r\n\r\n<a name=\"2.7\"></a>\r\n## 2.7 Comment r\u00e9initialiser votre mot de passe ma\u00eetre ##\r\n\r\nVous pouvez modifier le mot de passe principal \u00e0 tout moment. Ceci peut \u00eatre effectu\u00e9 une fois que vous avez ouvert la base de donn\u00e9es de mots de passe.\r\n\r\n**\u00c9tape 1**. **S\u00e9lectionnez** la base de donn\u00e9es et **cliquez** sur *Menu* pour activer l'\u00e9cran suivant :\r\n\r\n![](/sbox/screen/keepassdroid-en/26.png)\r\n\r\n*Graphique 24 : Options du menu*\r\n\r\n**\u00c9tape 2**. **Cliquez** sur **Change Master key** (modifier la cl\u00e9 principale) pour activer l'\u00e9cran suivant :\r\n\r\n![](/sbox/screen/keepassdroid-en/27.png)\r\n\r\n*Graphique 25 : Entrer un nouveau mot de passe.*\r\n\r\n**\u00c9tape 3**. Entrez votre mot de passe dans les champs **Password** (mot de passe) et **Confirm Password** (confirmer le mot de passe), puis **cliquez** sur OK.\r\n\r\n![](/sbox/screen/keepassdroid-en/28.png)\r\n\r\n*Graphique 26 : Entrer un nouveau mot de passe*\r\n\r\n## 3.0 Comment utiliser les mots de passe KeePassDroid ##\r\n\r\nPuisqu'un mot de passe s\u00e9curis\u00e9 est difficile \u00e0 m\u00e9moriser, **KeePassDroid** vous permet de le copier depuis la base de donn\u00e9es et de le coller directement dans le compte ou le site Internet qui le requiert. \r\n\r\nPour plus de s\u00e9curit\u00e9, vous pouvez faire en sorte que le mot de passe copi\u00e9 dans le presse-papier n'y reste que **30 secondes**, **1 minute**, ou **5 minutes** de sorte que vous puissiez y coller le mot de passe correspondant sans devoir vous d\u00e9p\u00eacher avant qu'il ne soit automatiquement effac\u00e9 du presse-papier. \r\n\r\nVous pouvez voir ces options dans l'\u00e9cran suivant en allant \u00e0 : **Menu** > **Settings** (param\u00e8tres) > **Application** > **Clipboard timeout** (d\u00e9lai presse-papier)\r\n\r\n![](/sbox/screen/keepassdroid-en/29.png)\r\n\r\n*Graphique 27 : Options d\u00e9lai du presse-papier.*\r\n\r\n### Copier un mot de passe KeePassDroid\r\n\r\n**\u00c9tape 1**. Cliquez dans **Menu** sur le mot de passe requis pour activer l'\u00e9cran suivant :\r\n\r\n![](/sbox/screen/keepassdroid-en/30.png)\r\n\r\n*Graphique 28 : Options mots de passe*\r\n\r\n**\u00c9tape 2**. **S\u00e9lectionnez** ![](/sbox/screen/keepassdroid-en/31.png)\r\n\r\n**\u00c9tape 3**. **Ouvrez** le compte ou le site aff\u00e9rent et **collez** le mot de passe dans le champ correspondant en cliquant et maintenant le champ correspondant, puis s\u00e9lectionnez *Paste* (coller) :\r\n\r\n![](/sbox/screen/keepassdroid-en/32.png)\r\n\r\n*Graphique 29 : Options \u00e9dition de texte*\r\n\r\n**Note**: Si vous utilisez **KeePassDroid** tout le temps, vous n'avez jamais r\u00e9ellement besoin de voir ou de conna\u00eetre votre mot de passe. Les fonctions copier/coller suffisent \u00e0 le d\u00e9placer depuis la base de donn\u00e9es vers la fen\u00eatre requise. Si vous utilisez la fonction *G\u00e9n\u00e9rateur al\u00e9atoire* puis transf\u00e9rez le mot de passe vers le processus d'inscription d'un nouveau compte de messagerie, vous utiliserez un mot de passe que vous n'avez jamais vu. Et il continue de remplir sa t\u00e2che !\r\n\r\n### Verrouiller la base de donn\u00e9es selon un d\u00e9lai\r\n\r\nIl vous est \u00e9galement possible de verrouiller votre base de donn\u00e9es lorsque l'application est rest\u00e9e inactive durant un temps d\u00e9termin\u00e9. Ceci peut \u00eatre affectu\u00e9 en allant \u00e0 :\r\n\r\n**Menu** > **Settings** (param\u00e8tres) > **Application** **Cliquez** sur **Application timeout** (d\u00e9lai application) pour activer ce qui suit :\r\n\r\n\r\n![](/sbox/screen/keepassdroid-en/33.png)\r\n\r\n*Graphique 30 :* Options D\u00e9lai de l'application.\r\n\r\n**S\u00e9lectionnez** le d\u00e9lai de verrouillage de votre base de donn\u00e9es."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1927", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2096", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2096", 
+                "link_title": "KeePassDroid - Basic Usage", 
+                "menu_name": "book-toc-1927", 
+                "mlid": "5242", 
+                "module": "book", 
+                "nid": "2096", 
+                "options": [], 
+                "p1": "5032", 
+                "p2": "5233", 
+                "p3": "5242", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5233", 
+                "router_path": "node/%", 
+                "title": "KeePassDroid - Basic Usage", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1455554919", 
+            "comment": "0", 
+            "created": "1441193524", 
+            "current_revision_id": "13237", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "keepassdroid_basic_use", 
+                        "value": "keepassdroid_basic_use"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5242": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2096", 
+                    "link_title": "KeePassDroid - Basic Usage", 
+                    "menu_name": "book-toc-1927", 
+                    "mlid": "5242", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5032", 
+                    "p2": "5233", 
+                    "p3": "5242", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5233", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2096", 
+            "num_revisions": "10", 
+            "path": "https://securityinabox.org/en/keepassdroid_basic_use", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455554919", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "KeePassDroid - Basic Usage", 
+                        "value": "KeePassDroid - Basic Usage"
+                    }
+                ]
+            }, 
+            "title_original": "KeePassDroid - Basic Usage", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "ar": {
+                        "changed": "1441797640", 
+                        "created": "1441797640", 
+                        "entity_id": "2096", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2096", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442419961", 
+                        "created": "1442419961", 
+                        "entity_id": "2096", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2096", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442590862", 
+                        "created": "1442590862", 
+                        "entity_id": "2096", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2096", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455554919", 
+                        "created": "1455554919", 
+                        "entity_id": "2096", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2096", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443781139", 
+                        "created": "1443781139", 
+                        "entity_id": "2096", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2096", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441297362", 
+                        "created": "1441297362", 
+                        "entity_id": "2096", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2096", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444196513", 
+                        "created": "1444196513", 
+                        "entity_id": "2096", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2096", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444391552", 
+                        "created": "1444391552", 
+                        "entity_id": "2096", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2096", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "xx": {
+                        "changed": "1441193524", 
+                        "created": "1441193524", 
+                        "entity_id": "2096", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2096", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445508271", 
+                        "created": "1445508271", 
+                        "entity_id": "2096", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2096", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "719e9256-eccd-48ea-afd8-32c3328e740f", 
+            "vid": "13237", 
+            "vuuid": "e07ff09d-10d5-44f7-8b1e-ce81b52b7cd0"
+        }, 
+        {
+            "body": {
+                "fr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<h2>3. Advanced KeePassDroid usage</h2>\n\n<ul><li><a href=\"#3.0\"><strong>3.0 How to Edit an Entry</strong></a></li>\n<li><a href=\"#3.1\"><strong>3.1 How to Generate Random Passwords</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 How to Lock the KeePassDroid database</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 How to Create a Backup of the Password Database file</strong></a></li>\n<li><a href=\"#3.4\"><strong>3.4 How to Reset Your Master Password</strong></a></li>\n<li><a href=\"#3.5\"><strong>3.5 Changing Timeouts</strong></a>\n\n<ul><li><a href=\"#3.5.1\"><strong>3.5.1 Clipboard Timeout</strong></a></li>\n<li><a href=\"#3.5.2\"><strong>3.5.2 Lock Database Timeout</strong></a></li>\n</ul></li>\n</ul><p><a name=\"3.0\" id=\"3.0\"></a></p>\n\n<h2>3.0 How to Edit an Entry</h2>\n\n<p>You can change your password or modify other details stored in the entry. It is generally considered good security practice to change a password every three to six months.</p>\n\n<p><strong>Step 1</strong>. <strong>Tap</strong> the <em>Group</em> that contains the entry you wish to edit and then <strong>tap</strong> the entry to view its contents.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en-1/020.png\" alt=\"\" /></p>\n\n<p><em>Figure 1: Entry Contents.</em></p>\n\n<p><strong>Step 2</strong>. <strong>Tap</strong> <img src=\"/sbox/screen/keepassdroid-en-1/021.png\" alt=\"\" /> to start editing the information.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en-1/023.png\" alt=\"\" /></p>\n\n<p><em>Figure 2: Edit information.</em></p>\n\n<p><strong>Step 3</strong>. When you have finished, <strong>tap</strong> <img src=\"/sbox/screen/keepassdroid-en-1/022.png\" alt=\"\" /> to save all changes.</p>\n\n<p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 How to Generate Random Passwords</h2>\n\n<p>Long, randomly-generated passwords are strong and secure as their generation is based on mathematical principles and cannot be simply guessed by someone who is trying to break into one of your accounts. <strong>KeePassDroid</strong> supplies a <em>Password Generator</em>, to help you with this process.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en-1/024.png\" alt=\"\" /></p>\n\n<p><em>Figure 3: Edit password entry screen</em></p>\n\n<p><strong>Step 1</strong>. <strong>Tap</strong> the button <img src=\"/sbox/screen/keepassdroid-en-1/025.png\" alt=\"\" /> from within either the <em>Add Entry</em> or <em>Edit Entry</em> screen (Fig. 3 above), to activate the <em>Password Generator</em> screen as follows:</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en-1/026.png\" alt=\"\" /></p>\n\n<p><em>Figure 4: Password Generator.</em></p>\n\n<p>The <em>Password Generator</em> screen automatically gives you a random, short 8-character password. However, we recommend that you use a longer password. You generate a longer, more secure password by selecting the following options as in our example:</p>\n\n<ul><li><strong>Length</strong> at least 16-characters</li>\n<li><strong>Check</strong> Upper-case Letter</li>\n<li><strong>Check</strong> Lower-case Letter</li>\n<li><strong>Check</strong> Digits</li>\n<li><strong>Check</strong> Minus</li>\n<li><strong>Check</strong> Underline </li>\n<li><strong>Check</strong> Brackets</li>\n</ul><p><strong>Note:</strong> To generate passwords longer than 16-characters, replace the number in the field with your desired figure.</p>\n\n<p>See Fig. 4 above.</p>\n\n<p><strong>Step 2</strong>. <strong>Tap</strong> <img src=\"/sbox/screen/keepassdroid-en-1/027.png\" alt=\"\" /> to have <strong>KeePassDroid</strong> generate a new random password.</p>\n\n<p><strong>Step 3</strong>. <strong>Tap</strong> <img src=\"/sbox/screen/keepassdroid-en-1/028.png\" alt=\"\" /> to copy the generated password into your account entry and bring you back to the edit screen.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en-1/029.png\" alt=\"\" /></p>\n\n<p><em>Figure 5: Entry information</em></p>\n\n<p><strong>Step 4</strong>. <strong>Tap</strong> <img src=\"/sbox/screen/keepassdroid-en-1/030.png\" alt=\"\" /> to accept the password and return to the <em>Entry</em> screen as follows:</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en-1/031.png\" alt=\"\" /></p>\n\n<p><em>Figure 6: Entry screen</em></p>\n\n<p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 How to Lock the KeePassDroid database</h2>\n\n<p><strong>Step 1</strong>. <strong>Tap</strong> on the <strong>Lock icon</strong> (<img src=\"/sbox/screen/keepassdroid-en-1/032.png\" alt=\"\" />) which is at the top of the main screens while <strong>KeePassDroid</strong> is open. This will instantly lock your database. You will be presented with the following screen requiring you to enter your <em>master password</em> to unlock.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en-1/033.png\" alt=\"\" /></p>\n\n<p><em>Figure 7: Locked Database</em></p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h2>3.3 How to Create a Backup of the Password Database</h2>\n\n<p>The <strong>KeePassDroid</strong> database file on your Android device is denoted by its <em>.kdb</em> file extension. You can copy this file to your computer or your USB memory stick. No one else will be able to open the database without the master password.</p>\n\n<p>By default, the database is stored in a folder named <em>keepass</em> on your phone. The exact location is <em>/mnt/sdcard/keepass</em>.</p>\n\n<p><strong>Note</strong>: You need to have KeePass installed on your computer, or a portable version of KeePass located on your USB memory stick, to be able to open your database which you copied from your Android device.</p>\n\n<p>Please see <a href=\"/en/keepass_main\"><strong>KeePass chapter</strong></a> for more information.</p>\n\n<p><a name=\"3.4\" id=\"3.4\"></a></p>\n\n<h2>3.4 How to Reset your Master Password</h2>\n\n<p>You can change the Master Password at any time. This can be done once you have opened the password database.</p>\n\n<p><strong>Step 1</strong>. <strong>tap</strong> the menu icon (<img src=\"/sbox/screen/keepassdroid-en-1/016.png\" alt=\"\" />) found on the top right of the main screens.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en-1/034.png\" alt=\"\" /></p>\n\n<p><em>Figure 8: Menu options</em></p>\n\n<p><strong>Step 2</strong>. <strong>Tap</strong> <img src=\"/sbox/screen/keepassdroid-en-1/035.png\" alt=\"\" /> to activate the following screen:</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en-1/036.png\" alt=\"\" /></p>\n\n<p><em>Figure 9: Enter a new password.</em></p>\n\n<p><strong>Step 3</strong>. Type in your new master password in the <strong>Password</strong> and the <strong>Confirm Password</strong> fields, Then <strong>tap</strong> OK.</p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en-1/037.png\" alt=\"\" /></p>\n\n<p><em>Figure 10: Enter a new password</em></p>\n\n<p><a name=\"3.5\" id=\"3.5\"></a></p>\n\n<h2>3.5 Changing Timeouts</h2>\n\n<p><a name=\"3.5.1\" id=\"3.5.1\"></a></p>\n\n<h3>3.5.1 Clipboard timeout</h3>\n\n<p>For greater security, the password is copied to the clipboard for a limited duration before it is automatically cleared from the clipboard. You have the option to change this duration to <strong>30 seconds</strong>, <strong>1 minute</strong> or <strong>5 minutes</strong>.</p>\n\n<p>There is also an option <strong>Never</strong> but we recommend that you do not select this.</p>\n\n<p>You can see these options in the following screen by going to: <strong>Menu</strong> (<img src=\"/sbox/screen/keepassdroid-en-1/016.png\" alt=\"\" />) &gt; <strong>Settings</strong> &gt; <strong>Application</strong> &gt; <strong>Clipboard timeout</strong></p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en-1/038.png\" alt=\"\" /></p>\n\n<p><em>Figure 11: Clipboard timeout options.</em></p>\n\n<p><a name=\"3.5.2\" id=\"3.5.2\"></a></p>\n\n<h3>3.5.2 Lock Database Timeout</h3>\n\n<p>You also have the option to lock your database when the application is inactive for a specific time. Your database will automatically lock after 5 minutes of not being used. If you wish to shorten this, <strong>tap</strong>: <strong>Menu</strong> (<img src=\"/sbox/screen/keepassdroid-en-1/016.png\" alt=\"\" />) &gt; <strong>Settings</strong> &gt; <strong>Application</strong> &gt; <strong>Application timeout</strong></p>\n\n<p><img src=\"/sbox/screen/keepassdroid-en-1/039.png\" alt=\"\" /></p>\n\n<p><em>Figure 12:</em> Application timeout options.</p>\n\n<p><strong>Select</strong> <strong>30 seconds</strong>, <strong>1 minute</strong> or, the default <strong>5 minutes</strong>. As before, there is an option to <strong>Never</strong> timeout, but we recommend against using this.</p>\n", 
+                        "summary": "", 
+                        "value": "## 3. Advanced KeePassDroid usage\r\n\r\n- [**3.0 How to Edit an Entry**](#3.0)\r\n- [**3.1 How to Generate Random Passwords**](#3.1)\r\n- [**3.2 How to Lock the KeePassDroid database**](#3.2)\r\n- [**3.3 How to Create a Backup of the Password Database file**](#3.3)\r\n- [**3.4 How to Reset Your Master Password**](#3.4)\r\n- [**3.5 Changing Timeouts**](#3.5)\r\n    - [**3.5.1 Clipboard Timeout**](#3.5.1)\r\n    - [**3.5.2 Lock Database Timeout**](#3.5.2)\r\n    \r\n\r\n<a name=\"3.0\"></a>\r\n## 3.0 How to Edit an Entry ##\r\n\r\nYou can change your password or modify other details stored in the entry. It is generally considered good security practice to change a password every three to six months.\r\n\r\n**Step 1**. **Tap** the *Group* that contains the entry you wish to edit and then **tap** the entry to view its contents.\r\n\r\n![](/sbox/screen/keepassdroid-en-1/020.png)\r\n\r\n*Figure 1: Entry Contents.*\r\n\r\n**Step 2**. **Tap** ![](/sbox/screen/keepassdroid-en-1/021.png) to start editing the information. \r\n\r\n![](/sbox/screen/keepassdroid-en-1/023.png)\r\n\r\n*Figure 2: Edit information.*\r\n\r\n**Step 3**. When you have finished, **tap** ![](/sbox/screen/keepassdroid-en-1/022.png) to save all changes.\r\n\r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 How to Generate Random Passwords ##\r\n\r\nLong, randomly-generated passwords are strong and secure as their generation is based on mathematical principles and cannot be simply guessed by someone who is trying to break into one of your accounts. **KeePassDroid** supplies a *Password Generator*, to help you with this process. \r\n\r\n![](/sbox/screen/keepassdroid-en-1/024.png)\r\n\r\n*Figure 3: Edit password entry screen*\r\n\r\n**Step 1**. **Tap** the button ![](/sbox/screen/keepassdroid-en-1/025.png) from within either the *Add Entry* or *Edit Entry* screen (Fig. 3 above), to activate the *Password Generator* screen as follows:\r\n\r\n![](/sbox/screen/keepassdroid-en-1/026.png)\r\n\r\n*Figure 4: Password Generator.*\r\n\r\nThe *Password Generator* screen automatically gives you a random, short 8-character password. However, we recommend that you use a longer password. You generate a longer, more secure password by selecting the following options as in our example: \r\n\r\n\r\n- **Length** at least 16-characters\r\n- **Check** Upper-case Letter\r\n- **Check** Lower-case Letter\r\n- **Check** Digits\r\n- **Check** Minus\r\n- **Check** Underline \r\n- **Check** Brackets\r\n\r\n**Note:** To generate passwords longer than 16-characters, replace the number in the field with your desired figure. \r\n\r\nSee Fig. 4 above.\r\n\r\n**Step 2**. **Tap** ![](/sbox/screen/keepassdroid-en-1/027.png) to have **KeePassDroid** generate a new random password.\r\n\r\n**Step 3**. **Tap** ![](/sbox/screen/keepassdroid-en-1/028.png) to copy the generated password into your account entry and bring you back to the edit screen.\r\n\r\n![](/sbox/screen/keepassdroid-en-1/029.png)\r\n\r\n*Figure 5: Entry information*\r\n\r\n**Step 4**. **Tap** ![](/sbox/screen/keepassdroid-en-1/030.png) to accept the password and return to the *Entry* screen as follows:\r\n\r\n![](/sbox/screen/keepassdroid-en-1/031.png)\r\n\r\n*Figure 6: Entry screen*\r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 How to Lock the KeePassDroid database ##\r\n\r\n**Step 1**. **Tap** on the **Lock icon** (![](/sbox/screen/keepassdroid-en-1/032.png)) which is at the top of the main screens while **KeePassDroid** is open. This will instantly lock your database. You will be presented with the following screen requiring you to enter your *master password* to unlock. \r\n\r\n![](/sbox/screen/keepassdroid-en-1/033.png)\r\n\r\n*Figure 7: Locked Database*\r\n\r\n<a name=\"3.3\"></a>\r\n## 3.3 How to Create a Backup of the Password Database ##\r\n\r\nThe **KeePassDroid** database file on your Android device is denoted by its *.kdb* file extension. You can copy this file to your computer or your USB memory stick. No one else will be able to open the database without the master password.\r\n\r\nBy default, the database is stored in a folder named *keepass* on your phone. The exact location is */mnt/sdcard/keepass*.\r\n\r\n**Note**: You need to have KeePass installed on your computer, or a portable version of KeePass located on your USB memory stick, to be able to open your database which you copied from your Android device. \r\n\r\nPlease see [**KeePass chapter**](/en/keepass_main) for more information.\r\n\r\n<a name=\"3.4\"></a>\r\n## 3.4 How to Reset your Master Password ##\r\n\r\nYou can change the Master Password at any time. This can be done once you have opened the password database.\r\n\r\n**Step 1**. **tap** the menu icon (![](/sbox/screen/keepassdroid-en-1/016.png)) found on the top right of the main screens. \r\n\r\n![](/sbox/screen/keepassdroid-en-1/034.png)\r\n\r\n*Figure 8: Menu options*\r\n\r\n**Step 2**. **Tap** ![](/sbox/screen/keepassdroid-en-1/035.png) to activate the following screen:\r\n\r\n![](/sbox/screen/keepassdroid-en-1/036.png)\r\n\r\n*Figure 9: Enter a new password.*\r\n\r\n**Step 3**. Type in your new master password in the **Password** and the **Confirm Password** fields, Then **tap** OK.\r\n\r\n![](/sbox/screen/keepassdroid-en-1/037.png)\r\n\r\n*Figure 10: Enter a new password*\r\n\r\n<a name=\"3.5\"></a>\r\n## 3.5 Changing Timeouts\r\n\r\n<a name=\"3.5.1\"></a>\r\n### 3.5.1 Clipboard timeout\r\n\r\nFor greater security, the password is copied to the clipboard for a limited duration before it is automatically cleared from the clipboard. You have the option to change this duration to **30 seconds**, **1 minute** or **5 minutes**.\r\n\r\nThere is also an option **Never** but we recommend that you do not select this.\r\n\r\nYou can see these options in the following screen by going to: **Menu** (![](/sbox/screen/keepassdroid-en-1/016.png)) > **Settings** > **Application** > **Clipboard timeout**\r\n\r\n![](/sbox/screen/keepassdroid-en-1/038.png)\r\n\r\n*Figure 11: Clipboard timeout options.*\r\n\r\n<a name=\"3.5.2\"></a>\r\n### 3.5.2 Lock Database Timeout\r\n\r\nYou also have the option to lock your database when the application is inactive for a specific time. Your database will automatically lock after 5 minutes of not being used. If you wish to shorten this, **tap**: **Menu** (![](/sbox/screen/keepassdroid-en-1/016.png)) > **Settings** > **Application** > **Application timeout**\r\n\r\n\r\n![](/sbox/screen/keepassdroid-en-1/039.png)\r\n\r\n*Figure 12:* Application timeout options.\r\n\r\n**Select** **30 seconds**, **1 minute** or, the default **5 minutes**. As before, there is an option to **Never** timeout, but we recommend against using this."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1927", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2097", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2097", 
+                "link_title": "KeePassDroid - Advanced usage", 
+                "menu_name": "book-toc-1927", 
+                "mlid": "5243", 
+                "module": "book", 
+                "nid": "2097", 
+                "options": [], 
+                "p1": "5032", 
+                "p2": "5233", 
+                "p3": "5243", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5233", 
+                "router_path": "node/%", 
+                "title": "KeePassDroid - Advanced usage", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1455555055", 
+            "comment": "0", 
+            "created": "1441193842", 
+            "current_revision_id": "13238", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "keepassdroid_advanced_use", 
+                        "value": "keepassdroid_advanced_use"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5243": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2097", 
+                    "link_title": "KeePassDroid - Advanced usage", 
+                    "menu_name": "book-toc-1927", 
+                    "mlid": "5243", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5032", 
+                    "p2": "5233", 
+                    "p3": "5243", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5233", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2097", 
+            "num_revisions": "9", 
+            "path": "https://securityinabox.org/en/node/2097", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455555055", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "fr": [
+                    {
+                        "format": null, 
+                        "safe_value": "KeePassDroid - Advanced usage", 
+                        "value": "KeePassDroid - Advanced usage"
+                    }
+                ]
+            }, 
+            "title_original": "KeePassDroid - Advanced usage", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "ar": {
+                        "changed": "1441797786", 
+                        "created": "1441797786", 
+                        "entity_id": "2097", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2097", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442419999", 
+                        "created": "1442419999", 
+                        "entity_id": "2097", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2097", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442590927", 
+                        "created": "1442590927", 
+                        "entity_id": "2097", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2097", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455555055", 
+                        "created": "1455555055", 
+                        "entity_id": "2097", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2097", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441297428", 
+                        "created": "1441297428", 
+                        "entity_id": "2097", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2097", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444196567", 
+                        "created": "1444196567", 
+                        "entity_id": "2097", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2097", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "vi": {
+                        "changed": "1444391756", 
+                        "created": "1444391756", 
+                        "entity_id": "2097", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2097", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "xx": {
+                        "changed": "1441193842", 
+                        "created": "1441193842", 
+                        "entity_id": "2097", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2097", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445508386", 
+                        "created": "1445508386", 
+                        "entity_id": "2097", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2097", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "00330016-7f3a-4034-8a7c-b40582bab5c5", 
+            "vid": "13238", 
+            "vuuid": "33f17edd-a936-4e54-a5c5-c3825b9e7b5e"
+        }
+    ], 
+    "changed": "1455813410", 
+    "comment": "0", 
+    "created": "1441192060", 
+    "current_revision_id": "13267", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "fr": [
+            {
+                "tid": "114"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": [], 
+    "field_legacy_online_installation": {
+        "fr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>T\u00e9l\u00e9charger KeePassDroid</strong></p>\n\n<p><strong>\u00c0 partir du site web officiel</strong></p>\n\n<ul><li><em>Lisez l'introduction courte des <a href=\"https://securityinabox.org/fr/handsonguides\"><strong>guides pratiques</strong></a></em></li>\n<li><em><strong>Cliquez</strong> sur l'ic\u00f4ne <strong>KeePassDroid</strong> ci-dessous pour ouvrir <strong>http://www.keepass.info/download.html</strong></em></li>\n<li><em><strong>D\u00e9filez vers le bas</strong> pour t\u00e9l\u00e9charger KeePassDroid</em></li>\n<li><em><strong>Transf\u00e9rez</strong> le fichier apk que vous avez t\u00e9l\u00e9charg\u00e9 vers votre appareil Android pour l'installer</em></li>\n</ul><p><strong>\u00c0 partir de Google Play</strong></p>\n\n<ul><li><em>Vous pouvez \u00e9galement installer <strong>KeePassDroid</strong> \u00e0 partir de <a href=\"https://play.google.com/store/apps/details?id=com.android.keepass\"><strong>Google Play</strong></a></em> </li>\n<li><em>Une fois install\u00e9e, cliquez sur Open (ouvrir) pour d\u00e9marrer l'application</em></li>\n</ul><p><strong>KeePassDroid</strong> :<br /><a href=\"http://www.keepass.info/download.html\"><img src=\"/sites/securityinabox.org/files/u12/keepass.gif\" alt=\"\" /></a></p>\n", 
+                "value": "**T\u00e9l\u00e9charger KeePassDroid**\r\n\r\n**\u00c0 partir du site web officiel**\r\n\r\n- *Lisez l'introduction courte des [**guides pratiques**](https://securityinabox.org/fr/handsonguides)*\r\n- ***Cliquez** sur l'ic\u00f4ne **KeePassDroid** ci-dessous pour ouvrir **http://www.keepass.info/download.html***\r\n- ***D\u00e9filez vers le bas** pour t\u00e9l\u00e9charger KeePassDroid*\r\n- ***Transf\u00e9rez** le fichier apk que vous avez t\u00e9l\u00e9charg\u00e9 vers votre appareil Android pour l'installer*\r\n\r\n**\u00c0 partir de Google Play**\r\n\r\n- *Vous pouvez \u00e9galement installer **KeePassDroid** \u00e0 partir de [**Google Play**](https://play.google.com/store/apps/details?id=com.android.keepass)* \r\n- *Une fois install\u00e9e, cliquez sur Open (ouvrir) pour d\u00e9marrer l'application*\r\n\r\n\r\n**KeePassDroid** :  \r\n[![](/sites/securityinabox.org/files/u12/keepass.gif)](http://www.keepass.info/download.html)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "fr": [
+            {
+                "format": null, 
+                "safe_value": "Android: KeePassDroid", 
+                "value": "Android: KeePassDroid"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "fr": [
+            {
+                "format": null, 
+                "safe_value": "Android: KeePassDroid", 
+                "value": "Android: KeePassDroid"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "fr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p>KeePassDroid est un outil de gestion de mot de passe pour votre appareil Android s\u00fbr et facile \u00e0 utiliser.</p>\n", 
+                "value": "KeePassDroid est un outil de gestion de mot de passe pour votre appareil Android s\u00fbr et facile \u00e0 utiliser."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-09-02 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "fr": [
+            {
+                "format": null, 
+                "safe_value": "keepassdroid_principale", 
+                "value": "keepassdroid_principale"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "25"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "25"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5233": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2087", 
+            "link_title": "KeePassDroid for Android Devices", 
+            "menu_name": "book-toc-1927", 
+            "mlid": "5233", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5032", 
+            "p2": "5233", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5032", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "6"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2087", 
+    "num_revisions": "13", 
+    "path": "https://securityinabox.org/en/keepassdroid_main", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1455813410", 
+    "revision_uid": "479", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "fr": [
+            {
+                "format": null, 
+                "safe_value": "KeePassDroid pour appareils Android", 
+                "value": "KeePassDroid pour appareils Android"
+            }
+        ]
+    }, 
+    "title_original": "KeePassDroid for Android Devices", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "ar": {
+                "changed": "1441797546", 
+                "created": "1441797546", 
+                "entity_id": "2087", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2087", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1455813410", 
+                "created": "1442417944", 
+                "entity_id": "2087", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2087", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fr": {
+                "changed": "1442590678", 
+                "created": "1442590678", 
+                "entity_id": "2087", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "2087", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "km": {
+                "changed": "1455554809", 
+                "created": "1455554809", 
+                "entity_id": "2087", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2087", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443780923", 
+                "created": "1443780923", 
+                "entity_id": "2087", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2087", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441297294", 
+                "created": "1441297294", 
+                "entity_id": "2087", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2087", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444196461", 
+                "created": "1444196461", 
+                "entity_id": "2087", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2087", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "vi": {
+                "changed": "1444391482", 
+                "created": "1443528045", 
+                "entity_id": "2087", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2087", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441192060", 
+                "created": "1441192060", 
+                "entity_id": "2087", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2087", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445508191", 
+                "created": "1445508191", 
+                "entity_id": "2087", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2087", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "e50f10e3-966c-4e32-96fe-30407e29b6c5", 
+    "vid": "13267", 
+    "vuuid": "6f88c6d7-83a3-444f-a51c-726fda3a1ee1"
+}

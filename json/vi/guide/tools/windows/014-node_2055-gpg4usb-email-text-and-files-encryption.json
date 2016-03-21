@@ -1,0 +1,1551 @@
+{
+    "body": {
+        "vi": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Trang ch\u1ee7</strong></p>\n\n<ul><li><a href=\"http://gpg4usb.org/\"><strong>http://gpg4usb.org/</strong></a></li>\n</ul><p><strong>Y\u00eau c\u1ea7u c\u1ea5u h\u00ecnh m\u00e1y t\u00ednh</strong></p>\n\n<ul><li>M\u1ecdi phi\u00ean b\u1ea3n Windows</li>\n</ul><p><strong>Phi\u00ean b\u1ea3n  s\u1eed d\u1ee5ng trong t\u00e0i li\u1ec7u n\u00e0y</strong></p>\n\n<p>-0.3.3</p>\n\n<p><strong>L\u1ea7n cu\u1ed1i ki\u1ec3m tra ch\u01b0\u01a1ng n\u00e0y</strong></p>\n\n<p>-Th\u00e1ng 7 n\u0103m 2014</p>\n\n<p><strong>B\u1ea3n quy\u1ec1n</strong></p>\n\n<ul><li>Ph\u1ea7n m\u1ec1m Mi\u1ec5n ph\u00ed v\u00e0 M\u00e3  ngu\u1ed3n M\u1edf</li>\n</ul><p><strong>Y\u00eau c\u1ea7u \u0111\u1ecdc th\u00eam</strong></p>\n\n<ul><li><p>S\u00e1ch H\u01b0\u1edbng d\u1eabn S\u1eed d\u1ee5ng  ch\u01b0\u01a1ng <a href=\"/vi/chuong-7\"><strong>7. B\u1ea3o  m\u1eadt Truy\u1ec1n th\u00f4ng Internet</strong></a></p></li>\n<li><p><a href=\"https://www.frontlinedefenders.org/esecman\"><strong>An ninh S\u1ed1 v\u00e0 S\u1ef1 Ri\u00eang t\u01b0 cho Nh\u1eefng nh\u00e0 B\u1ea3o v\u1ec7 Nh\u00e2n quy\u1ec1n</strong></a>, ch\u01b0\u01a1ng <strong>2.4 Cryptology - Public Key Encryption (trang 38)</strong></p></li>\n</ul><p><strong>Nh\u1eefng \u0111i\u1ec1u b\u1ea1n s\u1ebd \u0111\u1ea1t \u0111\u01b0\u1ee3c</strong>:</p>\n\n<ul><li>Kh\u1ea3 n\u0103ng m\u00e3 h\u00f3a t\u1ec7p v\u00e0 c\u00e1c tin nh\u1eafn v\u0103n b\u1ea3n khi b\u1ea1n \u1edf b\u1ea5t k\u1ef3 \u0111\u1ecba \u0111i\u1ec3m n\u00e0o (v\u00ed d\u1ee5, ttrong qu\u00e1n caf\u00e9  Internet hay t\u1ea1i n\u01a1i l\u00e0m vi\u1ec7c) </li>\n<li>Kh\u1ea3 n\u0103ng m\u00e3 h\u00f3a tin nh\u1eafn <em>ngo\u1ea1i tuy\u1ebfn</em> (khi kh\u00f4ng k\u1ebft n\u1ed1i v\u1edbi Internet) hay khi kh\u00f4ng th\u1ec3  truy c\u1eadp Internet, sau \u0111\u00f3 s\u1ebd g\u1eedi tin  nh\u1eafn \u0111i sau khi k\u1ebft n\u1ed1i m\u00e1y t\u00ednh v\u1edbi Internet sau \u0111\u00f3.</li>\n</ul><h2>1.1 Nh\u1eefng \u0111i\u1ec1u B\u1ea1n n\u00ean Bi\u1ebft v\u1ec1 C\u00f4ng c\u1ee5 n\u00e0y Tr\u01b0\u1edbc Khi B\u1eaft \u0111\u1ea7u</h2>\n\n<p><strong>gpg4usb</strong> l\u00e0 m\u1ed9t ch\u01b0\u01a1ng tr\u00ecnh g\u1ecdn nh\u1eb9, \u0111\u01a1n gi\u1ea3n v\u00e0 kh\u00f4ng c\u1ea7n c\u00e0i \u0111\u1eb7t cho ph\u00e9p b\u1ea1n m\u00e3 h\u00f3a v\u00e0 gi\u1ea3i m\u00e3 h\u00f3a c\u00e1c tin nh\u1eafn v\u0103n b\u1ea3n c\u0169ng nh\u01b0 c\u00e1c t\u1ec7p. <strong>gpg4usb</strong> d\u1ef1a tr\u00ean thu\u1eadt to\u00e1n m\u00e3  h\u00f3a v\u1edbi kh\u00f3a c\u00f4ng khai. Trong ph\u01b0\u01a1ng ph\u00e1p n\u00e0y, m\u1ed7i b\u00ean tham gia li\u00ean l\u1ea1c ph\u1ea3i t\u1ea1o m\u1ed9t c\u1eb7p kh\u00f3a cho ri\u00eang m\u00ecnh. Kh\u00f3a \u0111\u1ea7u ti\u00ean l\u00e0 kh\u00f3a ri\u00eang. Kh\u00f3a n\u00e0y \u0111\u01b0\u1ee3c b\u1ea3o v\u1ec7 b\u1edfi m\u1ed9t m\u1eadt kh\u1ea9u v\u00e0 \u0111\u01b0\u1ee3c c\u1ea5t gi\u1eef v\u00e0 <em>kh\u00f4ng bao gi\u1edd</em> \u0111\u01b0\u1ee3c ti\u1ebft l\u1ed9 cho b\u1ea5t k\u1ef3 ai .</p>\n\n<p>Kh\u00f3a th\u1ee9 hai l\u00e0 kh\u00f3a c\u00f4ng khai. Kh\u00f3a n\u00e0y c\u1ea7n \u0111\u01b0\u1ee3c chia s\u1ebb v\u1edbi b\u1ea5t k\u1ef3 ai b\u1ea1n mu\u1ed1n li\u00ean l\u1ea1c \u2013 v\u00e0 c\u00e1c \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c c\u1ee7a  b\u1ea1n c\u00f3 th\u1ec3 trao \u0111\u1ed5i kh\u00f3a c\u00f4ng khai c\u1ee7a h\u1ecd cho b\u1ea1n. M\u1ed9t khi c\u00f3 kh\u00f3a c\u00f4ng khai c\u1ee7a \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c, b\u1ea1n c\u00f3 th\u1ec3 th\u1ef1c hi\u1ec7n vi\u1ec7c g\u1eedi th\u01b0 \u0111i\u1ec7n t\u1eed \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a cho ng\u01b0\u1eddi n\u00e0y. Ch\u1ec9  m\u00ecnh \u0111\u1ed1i t\u00e1c n\u00e0y c\u00f3 th\u1ec3  m\u1edf \u0111\u01b0\u1ee3c tin nh\u1eafn \u0111\u00e3 m\u00e3 h\u00f3a do b\u1ea1n g\u1eedi b\u1edfi ch\u1ec9  m\u00ecnh ng\u01b0\u1eddi  n\u00e0y c\u00f3 kh\u00f3a ri\u00eang t\u01b0\u01a1ng  \u1ee9ng \u0111\u1ec3 gi\u1ea3i m\u00e3 tin nh\u1eafn.</p>\n\n<p>T\u01b0\u01a1ng t\u1ef1 nh\u01b0 v\u1eady, n\u1ebfu b\u1ea1n \u0111\u00ednh k\u00e8m m\u1ed9t b\u1ea3n sao kh\u00f3a c\u00f4ng khai c\u1ee7a b\u1ea1n cho c\u00e1c \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c qua th\u01b0 \u0111i\u1ec7n t\u1eed v\u00e0 c\u1ea5t gi\u1eef kh\u00f3a ri\u00eang t\u01b0\u01a1ng \u1ee9ng c\u1ee7a m\u00ecnh m\u1ed9t c\u00e1ch b\u00ed m\u1eadt, ch\u1ec9 m\u00ecnh b\u1ea1n c\u00f3 th\u1ec3 \u0111\u1ecdc c\u00e1c tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a t\u1eeb c\u00e1c \u0111\u1ed1i t\u00e1c n\u00e0y.</p>\n\n<p>B\u1ea1n c\u0169ng c\u00f3 th\u1ec3 k\u00fd s\u1ed1 l\u00ean c\u00e1c tin nh\u1eafn c\u1ee7a m\u00ecnh. Ng\u01b0\u1eddi nh\u1eadn tin nh\u1eafn c\u1ee7a b\u1ea1n c\u00f3 b\u1ea3n sao y h\u1ec7t c\u1ee7a kh\u00f3a c\u00f4ng khai c\u1ee7a b\u1ea1n s\u1ebd c\u00f3 th\u1ec3 x\u00e1c minh m\u1ed9t th\u01b0  \u0111i\u1ec7n t\u1eed \u0111\u01b0\u1ee3c g\u1eedi \u0111\u1ebfn t\u1eeb b\u1ea1n, v\u00e0 r\u1eb1ng n\u1ed9i dung c\u1ee7a th\u01b0 \u0111i\u1ec7n t\u1eed  n\u00e0y kh\u00f4ng b\u1ecb gi\u1ea3 m\u1ea1o trong  qu\u00e1  tr\u00ecnh  truy\u1ec1n \u0111\u1ebfn  ng\u01b0\u1eddi nh\u1eadn. M\u1ed9t c\u00e1ch t\u01b0\u01a1ng  t\u1ef1, n\u1ebfu b\u1ea1n c\u00f3  kh\u00f3a  c\u00f4ng khai c\u1ee7a m\u1ed9t \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c, b\u1ea1n c\u00f3 th\u1ec3 x\u00e1c minh ch\u1eef  k\u00fd s\u1ed1 c\u1ee7a ng\u01b0\u1eddi \u0111\u00f3 tr\u00ean tin nh\u1eafn g\u1eedi t\u1eeb ng\u01b0\u1eddi n\u00e0y.</p>\n\n<p><strong>gpg4usb</strong> cho ph\u00e9p b\u1ea1n t\u1ea1o v\u00e0 m\u00e3 h\u00f3a c\u1eb7p kh\u00f3a m\u00e3 h\u00f3a, xu\u1ea5t c\u00e1c kh\u00f3a c\u00f4ng khai  \u0111\u1ec3 chia s\u1ebb v\u1edbi c\u00e1c \u0111\u1ed1i  t\u00e1c li\u00ean l\u1ea1c, so\u1ea1n tin  nh\u1eafn v\u00e0 m\u00e3 h\u00f3a tin nh\u1eafn  n\u00e0y. B\u1ea1n c\u00f3 th\u1ec3 \u0111\u01a1n gi\u1ea3n th\u1ef1c hi\u1ec7n vi\u1ec7c sao ch\u00e9p v\u00e0  d\u00e1n kh\u00f3a c\u00f4ng khai v\u00e0/ho\u1eb7c tin nh\u1eafn \u0111\u00e3 \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a t\u1eeb <strong>gpg4usb</strong> v\u00e0o th\u01b0 \u0111i\u1ec7n t\u1eed c\u1ee7a m\u00ecnh ho\u1eb7c l\u01b0u  v\u00e0o th\u00e0nh m\u1ed9t t\u1ec7p v\u0103n  b\u1ea3n \u0111\u1ec3 g\u1eedi \u0111i sau \u0111\u00f3. C\u00e1c t\u00e0i li\u1ec7u v\u00e0 c\u00e1c  t\u1ec7p c\u0169ng  c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a.</p>\n\n<p><strong>L\u01b0u \u00fd</strong>: H\u00e3y \u0111\u1ec3 \u00fd t\u1edbi c\u00e1c t\u00e0i li\u1ec7u ho\u1eb7c t\u1ec7p nguy\u00ean b\u1ea3n kh\u00f4ng \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a c\u00f3 th\u1ec3 v\u1eabn t\u1ed3n t\u1ea1i tr\u00ean m\u00e1y t\u00ednh c\u1ee7a b\u1ea1n, v\u00ec v\u1eady c\u1ea3 b\u1ea1n v\u00e0 c\u00e1c \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c c\u1ea7n ph\u1ea3i nh\u1edb x\u00f3a ch\u00fang \u0111i khi c\u1ea7n thi\u1ebft</p>\n\n<p><strong>gpg4usb</strong> cho ph\u00e9p b\u1ea1n trao \u0111\u1ed5i kh\u00f3a v\u00e0 c\u00e1c tin nh\u1eafn \u0111\u00e3 m\u00e3 h\u00f3a v\u1edbi c\u00e1c ch\u01b0\u01a1ng tr\u00ecnh <strong>GPG</strong> ho\u1eb7c <strong>PGP</strong> t\u01b0\u01a1ng t\u1ef1.</p>\n", 
+                "summary": "", 
+                "value": "**Trang ch\u1ee7**\r\n\r\n- [**http://gpg4usb.org/**](http://gpg4usb.org/)\r\n\r\n**Y\u00eau c\u1ea7u c\u1ea5u h\u00ecnh m\u00e1y t\u00ednh**\r\n\r\n- M\u1ecdi phi\u00ean b\u1ea3n Windows\r\n\r\n**Phi\u00ean b\u1ea3n  s\u1eed d\u1ee5ng trong t\u00e0i li\u1ec7u n\u00e0y**\r\n\r\n-0.3.3\r\n\r\n**L\u1ea7n cu\u1ed1i ki\u1ec3m tra ch\u01b0\u01a1ng n\u00e0y**\r\n\r\n-Th\u00e1ng 7 n\u0103m 2014\r\n\r\n**B\u1ea3n quy\u1ec1n**\r\n\r\n- Ph\u1ea7n m\u1ec1m Mi\u1ec5n ph\u00ed v\u00e0 M\u00e3  ngu\u1ed3n M\u1edf\r\n\r\n**Y\u00eau c\u1ea7u \u0111\u1ecdc th\u00eam**\r\n\r\n- S\u00e1ch H\u01b0\u1edbng d\u1eabn S\u1eed d\u1ee5ng  ch\u01b0\u01a1ng [**7. B\u1ea3o  m\u1eadt Truy\u1ec1n th\u00f4ng Internet**](/vi/chuong-7)\r\n\r\n- [**An ninh S\u1ed1 v\u00e0 S\u1ef1 Ri\u00eang t\u01b0 cho Nh\u1eefng nh\u00e0 B\u1ea3o v\u1ec7 Nh\u00e2n quy\u1ec1n**](https://www.frontlinedefenders.org/esecman), ch\u01b0\u01a1ng **2.4 Cryptology - Public Key Encryption (trang 38)**\r\n\r\n**Nh\u1eefng \u0111i\u1ec1u b\u1ea1n s\u1ebd \u0111\u1ea1t \u0111\u01b0\u1ee3c**:\r\n\r\n- Kh\u1ea3 n\u0103ng m\u00e3 h\u00f3a t\u1ec7p v\u00e0 c\u00e1c tin nh\u1eafn v\u0103n b\u1ea3n khi b\u1ea1n \u1edf b\u1ea5t k\u1ef3 \u0111\u1ecba \u0111i\u1ec3m n\u00e0o (v\u00ed d\u1ee5, ttrong qu\u00e1n caf\u00e9  Internet hay t\u1ea1i n\u01a1i l\u00e0m vi\u1ec7c) \r\n- Kh\u1ea3 n\u0103ng m\u00e3 h\u00f3a tin nh\u1eafn *ngo\u1ea1i tuy\u1ebfn* (khi kh\u00f4ng k\u1ebft n\u1ed1i v\u1edbi Internet) hay khi kh\u00f4ng th\u1ec3  truy c\u1eadp Internet, sau \u0111\u00f3 s\u1ebd g\u1eedi tin  nh\u1eafn \u0111i sau khi k\u1ebft n\u1ed1i m\u00e1y t\u00ednh v\u1edbi Internet sau \u0111\u00f3.\r\n\r\n## 1.1 Nh\u1eefng \u0111i\u1ec1u B\u1ea1n n\u00ean Bi\u1ebft v\u1ec1 C\u00f4ng c\u1ee5 n\u00e0y Tr\u01b0\u1edbc Khi B\u1eaft \u0111\u1ea7u ##\r\n\r\n**gpg4usb** l\u00e0 m\u1ed9t ch\u01b0\u01a1ng tr\u00ecnh g\u1ecdn nh\u1eb9, \u0111\u01a1n gi\u1ea3n v\u00e0 kh\u00f4ng c\u1ea7n c\u00e0i \u0111\u1eb7t cho ph\u00e9p b\u1ea1n m\u00e3 h\u00f3a v\u00e0 gi\u1ea3i m\u00e3 h\u00f3a c\u00e1c tin nh\u1eafn v\u0103n b\u1ea3n c\u0169ng nh\u01b0 c\u00e1c t\u1ec7p. **gpg4usb** d\u1ef1a tr\u00ean thu\u1eadt to\u00e1n m\u00e3  h\u00f3a v\u1edbi kh\u00f3a c\u00f4ng khai. Trong ph\u01b0\u01a1ng ph\u00e1p n\u00e0y, m\u1ed7i b\u00ean tham gia li\u00ean l\u1ea1c ph\u1ea3i t\u1ea1o m\u1ed9t c\u1eb7p kh\u00f3a cho ri\u00eang m\u00ecnh. Kh\u00f3a \u0111\u1ea7u ti\u00ean l\u00e0 kh\u00f3a ri\u00eang. Kh\u00f3a n\u00e0y \u0111\u01b0\u1ee3c b\u1ea3o v\u1ec7 b\u1edfi m\u1ed9t m\u1eadt kh\u1ea9u v\u00e0 \u0111\u01b0\u1ee3c c\u1ea5t gi\u1eef v\u00e0 *kh\u00f4ng bao gi\u1edd* \u0111\u01b0\u1ee3c ti\u1ebft l\u1ed9 cho b\u1ea5t k\u1ef3 ai .\r\n\r\nKh\u00f3a th\u1ee9 hai l\u00e0 kh\u00f3a c\u00f4ng khai. Kh\u00f3a n\u00e0y c\u1ea7n \u0111\u01b0\u1ee3c chia s\u1ebb v\u1edbi b\u1ea5t k\u1ef3 ai b\u1ea1n mu\u1ed1n li\u00ean l\u1ea1c \u2013 v\u00e0 c\u00e1c \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c c\u1ee7a  b\u1ea1n c\u00f3 th\u1ec3 trao \u0111\u1ed5i kh\u00f3a c\u00f4ng khai c\u1ee7a h\u1ecd cho b\u1ea1n. M\u1ed9t khi c\u00f3 kh\u00f3a c\u00f4ng khai c\u1ee7a \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c, b\u1ea1n c\u00f3 th\u1ec3 th\u1ef1c hi\u1ec7n vi\u1ec7c g\u1eedi th\u01b0 \u0111i\u1ec7n t\u1eed \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a cho ng\u01b0\u1eddi n\u00e0y. Ch\u1ec9  m\u00ecnh \u0111\u1ed1i t\u00e1c n\u00e0y c\u00f3 th\u1ec3  m\u1edf \u0111\u01b0\u1ee3c tin nh\u1eafn \u0111\u00e3 m\u00e3 h\u00f3a do b\u1ea1n g\u1eedi b\u1edfi ch\u1ec9  m\u00ecnh ng\u01b0\u1eddi  n\u00e0y c\u00f3 kh\u00f3a ri\u00eang t\u01b0\u01a1ng  \u1ee9ng \u0111\u1ec3 gi\u1ea3i m\u00e3 tin nh\u1eafn.\r\n\r\nT\u01b0\u01a1ng t\u1ef1 nh\u01b0 v\u1eady, n\u1ebfu b\u1ea1n \u0111\u00ednh k\u00e8m m\u1ed9t b\u1ea3n sao kh\u00f3a c\u00f4ng khai c\u1ee7a b\u1ea1n cho c\u00e1c \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c qua th\u01b0 \u0111i\u1ec7n t\u1eed v\u00e0 c\u1ea5t gi\u1eef kh\u00f3a ri\u00eang t\u01b0\u01a1ng \u1ee9ng c\u1ee7a m\u00ecnh m\u1ed9t c\u00e1ch b\u00ed m\u1eadt, ch\u1ec9 m\u00ecnh b\u1ea1n c\u00f3 th\u1ec3 \u0111\u1ecdc c\u00e1c tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a t\u1eeb c\u00e1c \u0111\u1ed1i t\u00e1c n\u00e0y.\r\n\r\nB\u1ea1n c\u0169ng c\u00f3 th\u1ec3 k\u00fd s\u1ed1 l\u00ean c\u00e1c tin nh\u1eafn c\u1ee7a m\u00ecnh. Ng\u01b0\u1eddi nh\u1eadn tin nh\u1eafn c\u1ee7a b\u1ea1n c\u00f3 b\u1ea3n sao y h\u1ec7t c\u1ee7a kh\u00f3a c\u00f4ng khai c\u1ee7a b\u1ea1n s\u1ebd c\u00f3 th\u1ec3 x\u00e1c minh m\u1ed9t th\u01b0  \u0111i\u1ec7n t\u1eed \u0111\u01b0\u1ee3c g\u1eedi \u0111\u1ebfn t\u1eeb b\u1ea1n, v\u00e0 r\u1eb1ng n\u1ed9i dung c\u1ee7a th\u01b0 \u0111i\u1ec7n t\u1eed  n\u00e0y kh\u00f4ng b\u1ecb gi\u1ea3 m\u1ea1o trong  qu\u00e1  tr\u00ecnh  truy\u1ec1n \u0111\u1ebfn  ng\u01b0\u1eddi nh\u1eadn. M\u1ed9t c\u00e1ch t\u01b0\u01a1ng  t\u1ef1, n\u1ebfu b\u1ea1n c\u00f3  kh\u00f3a  c\u00f4ng khai c\u1ee7a m\u1ed9t \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c, b\u1ea1n c\u00f3 th\u1ec3 x\u00e1c minh ch\u1eef  k\u00fd s\u1ed1 c\u1ee7a ng\u01b0\u1eddi \u0111\u00f3 tr\u00ean tin nh\u1eafn g\u1eedi t\u1eeb ng\u01b0\u1eddi n\u00e0y.\r\n\r\n\r\n**gpg4usb** cho ph\u00e9p b\u1ea1n t\u1ea1o v\u00e0 m\u00e3 h\u00f3a c\u1eb7p kh\u00f3a m\u00e3 h\u00f3a, xu\u1ea5t c\u00e1c kh\u00f3a c\u00f4ng khai  \u0111\u1ec3 chia s\u1ebb v\u1edbi c\u00e1c \u0111\u1ed1i  t\u00e1c li\u00ean l\u1ea1c, so\u1ea1n tin  nh\u1eafn v\u00e0 m\u00e3 h\u00f3a tin nh\u1eafn  n\u00e0y. B\u1ea1n c\u00f3 th\u1ec3 \u0111\u01a1n gi\u1ea3n th\u1ef1c hi\u1ec7n vi\u1ec7c sao ch\u00e9p v\u00e0  d\u00e1n kh\u00f3a c\u00f4ng khai v\u00e0/ho\u1eb7c tin nh\u1eafn \u0111\u00e3 \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a t\u1eeb **gpg4usb** v\u00e0o th\u01b0 \u0111i\u1ec7n t\u1eed c\u1ee7a m\u00ecnh ho\u1eb7c l\u01b0u  v\u00e0o th\u00e0nh m\u1ed9t t\u1ec7p v\u0103n  b\u1ea3n \u0111\u1ec3 g\u1eedi \u0111i sau \u0111\u00f3. C\u00e1c t\u00e0i li\u1ec7u v\u00e0 c\u00e1c  t\u1ec7p c\u0169ng  c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a.\r\n\r\n**L\u01b0u \u00fd**: H\u00e3y \u0111\u1ec3 \u00fd t\u1edbi c\u00e1c t\u00e0i li\u1ec7u ho\u1eb7c t\u1ec7p nguy\u00ean b\u1ea3n kh\u00f4ng \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a c\u00f3 th\u1ec3 v\u1eabn t\u1ed3n t\u1ea1i tr\u00ean m\u00e1y t\u00ednh c\u1ee7a b\u1ea1n, v\u00ec v\u1eady c\u1ea3 b\u1ea1n v\u00e0 c\u00e1c \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c c\u1ea7n ph\u1ea3i nh\u1edb x\u00f3a ch\u00fang \u0111i khi c\u1ea7n thi\u1ebft\r\n\r\n**gpg4usb** cho ph\u00e9p b\u1ea1n trao \u0111\u1ed5i kh\u00f3a v\u00e0 c\u00e1c tin nh\u1eafn \u0111\u00e3 m\u00e3 h\u00f3a v\u1edbi c\u00e1c ch\u01b0\u01a1ng tr\u00ecnh **GPG** ho\u1eb7c **PGP** t\u01b0\u01a1ng t\u1ef1."
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2055", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2055", 
+        "link_title": "gpg4usb - email text and files encryption", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5201", 
+        "module": "book", 
+        "nid": "2055", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5201", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "gpg4usb - email text and files encryption", 
+        "updated": "0", 
+        "weight": "-2"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "vi": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>C\u00e1c m\u1ee5c trong trang n\u00e0y:</p>\n\n<ul><li><a href=\"#2.0\"><strong>2.0 H\u01b0\u1edbng d\u1eabn c\u00e0i \u0111\u1eb7t gpg4usb</strong></a></li>\n<li><a href=\"#2.1\"><strong>2.1 H\u01b0\u1edbng d\u1eabn T\u1ea1o m\u1ed9t C\u1eb7p Kh\u00f3a v\u1edbi gpg4usb</strong></a></li>\n</ul><hr /><p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>2.0 H\u01b0\u1edbng d\u1eabn c\u00e0i \u0111\u1eb7t gpg4usb</h2>\n\n<p><strong>gpg4usb</strong> l\u00e0 m\u1ed9t c\u00f4ng c\u1ee5 kh\u00f4ng y\u00eau c\u1ea7u ph\u1ea3i c\u00e0i \u0111\u1eb7t l\u00ean m\u00e1y t\u00ednh c\u1ee7a b\u1ea1n. Ph\u1ea7n m\u1ec1m n\u00e0y \u0111\u01b0\u1ee3c ph\u00e2n ph\u1ed1i d\u01b0\u1edbi d\u1ea1ng t\u1ec7p n\u00e9n zip v\u00e0 c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c gi\u1ea3i n\u00e9n tr\u1ef1c ti\u1ebfp l\u00ean m\u1ed9t \u1ed5 nh\u1edb USB ho\u1eb7c v\u00e0o m\u1ed9t th\u01b0 m\u1ee5c tr\u00ean m\u00e1y t\u00ednh c\u1ee7a b\u1ea1n; \u0111\u1ec3 b\u1eaft \u0111\u1ea7u ti\u1ebfn tr\u00ecnh c\u00e0i \u0111\u1eb7t h\u00e3y theo c\u00e1c b\u01b0\u1edbc sau:</p>\n\n<p><strong>B\u01b0\u1edbc 1</strong>. <strong>X\u00e1c \u0111\u1ecbnh</strong> th\u01b0 m\u1ee5c ch\u1ee9a t\u1ec7p n\u00e9n <strong>gpg4usb</strong>, v\u00e0 <strong>gi\u1ea3i n\u00e9n</strong> t\u1ea5t c\u1ea3 c\u00e1c t\u1ec7p v\u00e0o m\u1ed9t th\u1ebb nh\u1edb USB ho\u1eb7c l\u00ean m\u1ed9t th\u01b0 m\u1ee5c tr\u00ean m\u00e1y t\u00ednh c\u1ee7a b\u1ea1n:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/01.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 1: X\u00e1c \u0111\u1ecbnh th\u01b0 m\u1ee5c ch\u1ee9a ch\u01b0\u01a1ng tr\u00ecnh gpg4usb</em></p>\n\n<p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1 H\u01b0\u1edbng d\u1eabn T\u1ea1o m\u1ed9t C\u1eb7p Kh\u00f3a v\u1edbi gpg4usb</h2>\n\n<p>Tr\u01b0\u1edbc khi b\u1ea1n b\u1eaft \u0111\u1ea7u m\u00e3 h\u00f3a v\u00e0 gi\u1ea3i m\u00e3 th\u01b0 \u0111i\u1ec7n t\u1eed, c\u00e1c t\u00e0i li\u1ec7u, t\u1ec7p hay c\u00e1c tin nh\u1eafn v\u0103n b\u1ea3n, b\u1ea1n ph\u1ea3i th\u1ef1c hi\u1ec7n hai b\u01b0\u1edbc chu\u1ea9n b\u1ecb: tr\u01b0\u1edbc ti\u00ean b\u1ea1n c\u1ea7n t\u1ea1o ra ho\u1eb7c nh\u1eadp c\u1eb7p kh\u00f3a m\u00e3 h\u00f3a c\u1ee7a b\u1ea1n v\u00e0 ti\u1ebfp theo b\u1ea1n c\u1ea7n g\u1eedi kh\u00f3a c\u00f4ng khai c\u1ee7a m\u00ecnh cho c\u00e1c \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c \u0111\u1ed3ng th\u1eddi nh\u1eadn kh\u00f3a c\u00f4ng khai c\u1ee7a h\u1ecd v\u00e0 nh\u1eadp v\u00e0o keyring (x\u00e2u ch\u00eca kh\u00f3a, qu\u1ea3n l\u00fd c\u00e1c kh\u00f3a m\u00e3 h\u00f3a trong h\u1ec7 th\u1ed1ng c\u1ee7a b\u1ea1n) c\u1ee7a m\u00ecnh. Ch\u00fang t\u00f4i s\u1ebd h\u01b0\u1edbng d\u1eabn c\u00e1ch chia s\u1ebb kh\u00f3a c\u00f4ng khai trong trang k\u1ebf ti\u1ebfp. <strong>gpg4usb</strong> tr\u1ee3 gi\u00fap b\u1ea1n vi\u1ec7c sinh c\u1eb7p kh\u00f3a c\u1ee7a m\u00ecnh ngay khi kh\u1edfi \u0111\u1ed9ng ch\u01b0\u01a1ng tr\u00ecnh l\u1ea7n \u0111\u1ea7u. L\u01b0u \u00fd r\u1eb1ng b\u1ea1n lu\u00f4n c\u00f3 th\u1ec3 quay tr\u1edf l\u1ea1i trang tr\u1ee3 gi\u00fap <em>Getting Started</em> n\u00e0y t\u1eeb tr\u00ecnh \u0111\u01a1n <em>Tr\u1ee3 Gi\u00fap \u2192 Open Wizard</em>.</p>\n\n<p><strong>B\u01b0\u1edbc 1</strong>. \u0110\u1ec3 k\u00edch ho\u1ea1t ch\u01b0\u01a1ng tr\u00ecnh <strong>gpg4usb</strong> l\u1ea7n \u0111\u1ea7u ti\u00ean,  ** t\u00ecm t\u1edbi th\u01b0 m\u1ee5c v\u00e0 nh\u1ea5n \u0111\u00fap chu\u1ed9t** v\u00e0o <img src=\"/sbox/screen/gpg4usb-vi/02.png\" alt=\"\" /> \u0111\u1ec3 m\u1edf th\u01b0 m\u1ee5c <strong>gpg4usb</strong> sau \u0111\u00f3 <strong>nh\u1ea5n \u0111\u00fap chu\u1ed9t</strong> v\u00e0o <img src=\"/sbox/screen/gpg4usb-vi/03.png\" alt=\"\" />. C\u1eeda s\u1ed5 Getting Started s\u1ebd m\u1edf. H\u00e3y ch\u1ecdn ng\u00f4n ng\u1eef <strong>Ti\u1ebfng Vi\u1ec7t</strong> v\u00e0 nh\u1ea5n Next.</p>\n\n<p><strong>B\u01b0\u1edbc 2</strong>. Trong c\u1eeda s\u1ed5 <em>Choose your Action</em>, nh\u1ea5n v\u00e0o \u0111\u01b0\u1eddng d\u1eabn <em>Create a new key pair</em>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/04.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 2: C\u1eeda s\u1ed1 Ch\u1ecdn m\u1ed9t h\u00e0nh \u0111\u1ed9ng</em></p>\n\n<p>H\u00e3y l\u01b0u \u00fd c\u00e1c t\u00f9y ch\u1ecdn kh\u00e1c \u0111\u1ec3 nh\u1eadp c\u00e1c kh\u00f3a \u0111\u00e3 s\u1eb5n c\u00f3 trong c\u1eeda s\u1ed5 First Start Winzard. N\u1ebfu b\u1ea1n n\u00e2ng c\u1ea5p ph\u1ea7n m\u1ec1m t\u1eeb phi\u00ean b\u1ea3n c\u0169 c\u1ee7a gpg4usb, b\u1ea1n c\u00f3 th\u1ec3 ch\u1ecdn h\u00e0nh \u0111\u1ed9ng <em>import settings and/or keys from gpg4usb</em> (<em>nh\u1eadp c\u00e1c thi\u1ebft \u0111\u1eb7t v\u00e0/ho\u1eb7c kh\u00f3a t\u1eeb gpg4usb</em>). N\u1ebfu b\u1ea1n s\u1eed d\u1ee5ng <a href=\"https://securityinabox.org/vi/thunderbird-main\">Thunderbird with Enigmail</a>, b\u1ea1n c\u00f3 th\u1ec3 ch\u1ecdn h\u00e0nh \u0111\u1ed9ng <em>import keys from GnuPG</em> (<em>nh\u1eadp kh\u00f3a t\u1eeb GnuPG</em>). B\u1ea1n c\u0169ng c\u00f3 th\u1ec3 ch\u1ecdn nh\u1eadp c\u00e1c kh\u00f3a sau b\u1eb1ng c\u00e1ch m\u1edf c\u1eeda s\u1ed5 h\u1ed7 tr\u1ee3 t\u1eed tr\u00ecnh \u0111\u01a1n <em>Tr\u1ee3 Gi\u00fap -&gt; Open Winzard</em>.</p>\n\n<p><strong>B\u01b0\u1edbc 3.</strong> T\u1ea1i khung <em>Create a keypair</em> <strong>nh\u1ea5n v\u00e0o</strong> <em>Create New Key</em></p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/05.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 3: T\u1ea1o Kh\u00f3a M\u1edbi</em></p>\n\n<p><strong>B\u01b0\u1edbc 4</strong>. <strong>\u0110i\u1ec1n</strong> th\u00f4ng tin t\u01b0\u01a1ng \u1ee9ng v\u00e0o c\u00e1c tr\u01b0\u1eddng y\u00eau c\u1ea7u, c\u1eeda s\u1ed5 c\u00f3  d\u1ea1ng nh\u01b0 d\u01b0\u1edbi \u0111\u00e2y :</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/06.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 4: V\u00ed d\u1ee5 m\u1ed9t khung T\u1ea1o Kh\u00f3a \u0111\u01b0\u1ee3c \u0111i\u1ec1n \u0111\u1ea7y \u0111\u1ee7</em></p>\n\n<p><strong>Quan tr\u1ecdng:</strong>:\n- H\u00e3y \u0111\u1eb7t  m\u1ed9t m\u1eadt kh\u1ea9u m\u1ea1nh \u0111\u1ec3  b\u1ea3o v\u1ec7 kh\u00f3a ri\u00eang c\u1ee7a m\u00ecnh (h\u00e3y xem th\u00eam t\u1ea1i ch\u01b0\u01a1ng <a href=\"/vi/chuong-3\"><strong>3. L\u00e0m th\u1ebf n\u00e0o \u0111\u1ec3 t\u1ea1o v\u00e0 duy tr\u00ec m\u1eadt kh\u1ea9u b\u1ea3o m\u1eadt</strong></a>.\n- Ch\u00fang t\u00f4i khuy\u00ean b\u1ea1n s\u1eed d\u1ee5ng ng\u00e0y h\u1ebft h\u1ea1n cho kh\u00f3a sinh ra v\u00e0 \u0111\u1eb7t th\u1eddi gian h\u1ebft h\u1ea1n \u00edt h\u01a1n 5 n\u0103m.\n- Ch\u00fang t\u00f4i h\u1ebft s\u1ee9c khuy\u1ebfn c\u00e1o n\u00ean t\u1ea1o kh\u00f3a c\u00f3 \u0111\u1ed9 m\u1ea1nh t\u1ed1i thi\u1ec3u 2048 b\u00edt. Kh\u00f3a c\u00f3 \u0111\u1ed9 m\u1ea1nh l\u1edbn h\u01a1n s\u1ebd b\u1ea3o m\u1eadt h\u01a1n tuy nhi\u00ean s\u1ebd c\u1ea7n nhi\u1ec1u th\u1eddi gian h\u01a1n \u0111\u1ec3 sinh ra, m\u00e3 h\u00f3a v\u00e0 gi\u1ea3i m\u00e3</p>\n\n<p><strong>L\u01b0u \u00fd:</strong> B\u1ea1n kh\u00f4ng c\u1ea7n ph\u1ea3i s\u1eed d\u1ee5ng t\u00ean th\u1eadt hay \u0111\u1ecba ch\u1ec9 th\u01b0 \u0111i\u1ec7n t\u1eed th\u1eadt c\u1ee7a m\u00ecnh khi t\u1ea1o ra c\u1eb7p kh\u00f3a. Tuy nhi\u00ean, s\u1eed d\u1ee5ng \u0111\u1ecba ch\u1ec9 th\u01b0 \u0111i\u1ec7n t\u1eed b\u1ea1n s\u1eed d\u1ee5ng trong li\u00ean l\u1ea1c s\u1ebd gi\u00fap \u0111\u1ed1i t\u00e1c c\u1ee7a b\u1ea1n thu\u1eadn l\u1ee3i trong vi\u1ec7c th\u00eam v\u00e0 qu\u1ea3n l\u00fd kh\u00f3a c\u1ee7a b\u1ea1n t\u01b0\u01a1ng \u1ee9ng v\u1edbi t\u00e0i kho\u1ea3n li\u00ean l\u1ea1c.</p>\n\n<p><strong>B\u01b0\u1edbc 5</strong>. Nh\u1ea5n OK \u0111\u1ec3 t\u1ea1o c\u1eb7p kh\u00f3a.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/07.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 5: T\u1ea1o ra kh\u00f3a...</em></p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/08.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 6: Kh\u00f3a \u0111\u01b0\u1ee3c t\u1ea1o ra</em></p>\n\n<p><strong>B\u01b0\u1edbc 6</strong>.  <strong>Nh\u1ea5n</strong> OK \u0111\u1ec3 quay tr\u1edf v\u1ec1 c\u1eeda s\u1ed5 <strong>gpg4usb</strong>. Sau khi c\u1eb7p kh\u00f3a \u0111\u00e3 \u0111\u01b0\u1ee3c t\u1ea1o ra th\u00e0nh c\u00f4ng, b\u1ea1n c\u00f3 th\u1ec3 th\u1ea5y th\u00f4ng tin tr\u00ean c\u1eeda s\u1ed5 gi\u1ed1ng nh\u01b0 sau:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/09.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 7: Kh\u00f3a \u0111\u01b0\u1ee3c t\u1ea1o ra</em></p>\n\n<p>B\u1ea1n v\u1eeba t\u1ea1o th\u00e0nh c\u00f4ng m\u1ed9t c\u1eb7p kh\u00f3a m\u00e3 h\u00f3a, gi\u1edd b\u1ea1n s\u1ebd t\u00ecm hi\u1ec3u c\u00e1ch xu\u1ea5t kh\u00f3a c\u00f4ng khai \u0111\u1ec3 ch\u00eda s\u1ebb  v\u1edbi c\u00e1c \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c, v\u00e0 c\u00e1ch nh\u1eadp kh\u00f3a c\u00f4ng khai c\u1ee7a c\u00e1c \u0111\u1ed1i t\u00e1c n\u00e0y.</p>\n", 
+                        "summary": "", 
+                        "value": "C\u00e1c m\u1ee5c trong trang n\u00e0y:\r\n\r\n\r\n- [**2.0 H\u01b0\u1edbng d\u1eabn c\u00e0i \u0111\u1eb7t gpg4usb**](#2.0)\r\n- [**2.1 H\u01b0\u1edbng d\u1eabn T\u1ea1o m\u1ed9t C\u1eb7p Kh\u00f3a v\u1edbi gpg4usb**](#2.1)\r\n\r\n-------\r\n\r\n<a name=\"2.0\"></a>\r\n## 2.0 H\u01b0\u1edbng d\u1eabn c\u00e0i \u0111\u1eb7t gpg4usb ##\r\n\r\n**gpg4usb** l\u00e0 m\u1ed9t c\u00f4ng c\u1ee5 kh\u00f4ng y\u00eau c\u1ea7u ph\u1ea3i c\u00e0i \u0111\u1eb7t l\u00ean m\u00e1y t\u00ednh c\u1ee7a b\u1ea1n. Ph\u1ea7n m\u1ec1m n\u00e0y \u0111\u01b0\u1ee3c ph\u00e2n ph\u1ed1i d\u01b0\u1edbi d\u1ea1ng t\u1ec7p n\u00e9n zip v\u00e0 c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c gi\u1ea3i n\u00e9n tr\u1ef1c ti\u1ebfp l\u00ean m\u1ed9t \u1ed5 nh\u1edb USB ho\u1eb7c v\u00e0o m\u1ed9t th\u01b0 m\u1ee5c tr\u00ean m\u00e1y t\u00ednh c\u1ee7a b\u1ea1n; \u0111\u1ec3 b\u1eaft \u0111\u1ea7u ti\u1ebfn tr\u00ecnh c\u00e0i \u0111\u1eb7t h\u00e3y theo c\u00e1c b\u01b0\u1edbc sau:\r\n\r\n**B\u01b0\u1edbc 1**. **X\u00e1c \u0111\u1ecbnh** th\u01b0 m\u1ee5c ch\u1ee9a t\u1ec7p n\u00e9n **gpg4usb**, v\u00e0 **gi\u1ea3i n\u00e9n** t\u1ea5t c\u1ea3 c\u00e1c t\u1ec7p v\u00e0o m\u1ed9t th\u1ebb nh\u1edb USB ho\u1eb7c l\u00ean m\u1ed9t th\u01b0 m\u1ee5c tr\u00ean m\u00e1y t\u00ednh c\u1ee7a b\u1ea1n:\r\n\r\n![](/sbox/screen/gpg4usb-vi/01.png)\r\n\r\n*H\u00ecnh 1: X\u00e1c \u0111\u1ecbnh th\u01b0 m\u1ee5c ch\u1ee9a ch\u01b0\u01a1ng tr\u00ecnh gpg4usb*\r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1 H\u01b0\u1edbng d\u1eabn T\u1ea1o m\u1ed9t C\u1eb7p Kh\u00f3a v\u1edbi gpg4usb ##\r\n\r\nTr\u01b0\u1edbc khi b\u1ea1n b\u1eaft \u0111\u1ea7u m\u00e3 h\u00f3a v\u00e0 gi\u1ea3i m\u00e3 th\u01b0 \u0111i\u1ec7n t\u1eed, c\u00e1c t\u00e0i li\u1ec7u, t\u1ec7p hay c\u00e1c tin nh\u1eafn v\u0103n b\u1ea3n, b\u1ea1n ph\u1ea3i th\u1ef1c hi\u1ec7n hai b\u01b0\u1edbc chu\u1ea9n b\u1ecb: tr\u01b0\u1edbc ti\u00ean b\u1ea1n c\u1ea7n t\u1ea1o ra ho\u1eb7c nh\u1eadp c\u1eb7p kh\u00f3a m\u00e3 h\u00f3a c\u1ee7a b\u1ea1n v\u00e0 ti\u1ebfp theo b\u1ea1n c\u1ea7n g\u1eedi kh\u00f3a c\u00f4ng khai c\u1ee7a m\u00ecnh cho c\u00e1c \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c \u0111\u1ed3ng th\u1eddi nh\u1eadn kh\u00f3a c\u00f4ng khai c\u1ee7a h\u1ecd v\u00e0 nh\u1eadp v\u00e0o keyring (x\u00e2u ch\u00eca kh\u00f3a, qu\u1ea3n l\u00fd c\u00e1c kh\u00f3a m\u00e3 h\u00f3a trong h\u1ec7 th\u1ed1ng c\u1ee7a b\u1ea1n) c\u1ee7a m\u00ecnh. Ch\u00fang t\u00f4i s\u1ebd h\u01b0\u1edbng d\u1eabn c\u00e1ch chia s\u1ebb kh\u00f3a c\u00f4ng khai trong trang k\u1ebf ti\u1ebfp. **gpg4usb** tr\u1ee3 gi\u00fap b\u1ea1n vi\u1ec7c sinh c\u1eb7p kh\u00f3a c\u1ee7a m\u00ecnh ngay khi kh\u1edfi \u0111\u1ed9ng ch\u01b0\u01a1ng tr\u00ecnh l\u1ea7n \u0111\u1ea7u. L\u01b0u \u00fd r\u1eb1ng b\u1ea1n lu\u00f4n c\u00f3 th\u1ec3 quay tr\u1edf l\u1ea1i trang tr\u1ee3 gi\u00fap *Getting Started* n\u00e0y t\u1eeb tr\u00ecnh \u0111\u01a1n *Tr\u1ee3 Gi\u00fap \u2192 Open Wizard*.\r\n\r\n**B\u01b0\u1edbc 1**. \u0110\u1ec3 k\u00edch ho\u1ea1t ch\u01b0\u01a1ng tr\u00ecnh **gpg4usb** l\u1ea7n \u0111\u1ea7u ti\u00ean,  ** t\u00ecm t\u1edbi th\u01b0 m\u1ee5c v\u00e0 nh\u1ea5n \u0111\u00fap chu\u1ed9t** v\u00e0o ![](/sbox/screen/gpg4usb-vi/02.png) \u0111\u1ec3 m\u1edf th\u01b0 m\u1ee5c **gpg4usb** sau \u0111\u00f3 **nh\u1ea5n \u0111\u00fap chu\u1ed9t** v\u00e0o ![](/sbox/screen/gpg4usb-vi/03.png). C\u1eeda s\u1ed5 Getting Started s\u1ebd m\u1edf. H\u00e3y ch\u1ecdn ng\u00f4n ng\u1eef **Ti\u1ebfng Vi\u1ec7t** v\u00e0 nh\u1ea5n Next.\r\n\r\n**B\u01b0\u1edbc 2**. Trong c\u1eeda s\u1ed5 *Choose your Action*, nh\u1ea5n v\u00e0o \u0111\u01b0\u1eddng d\u1eabn *Create a new key pair*.\r\n\r\n![](/sbox/screen/gpg4usb-vi/04.png)\r\n\r\n*H\u00ecnh 2: C\u1eeda s\u1ed1 Ch\u1ecdn m\u1ed9t h\u00e0nh \u0111\u1ed9ng*\r\n\r\nH\u00e3y l\u01b0u \u00fd c\u00e1c t\u00f9y ch\u1ecdn kh\u00e1c \u0111\u1ec3 nh\u1eadp c\u00e1c kh\u00f3a \u0111\u00e3 s\u1eb5n c\u00f3 trong c\u1eeda s\u1ed5 First Start Winzard. N\u1ebfu b\u1ea1n n\u00e2ng c\u1ea5p ph\u1ea7n m\u1ec1m t\u1eeb phi\u00ean b\u1ea3n c\u0169 c\u1ee7a gpg4usb, b\u1ea1n c\u00f3 th\u1ec3 ch\u1ecdn h\u00e0nh \u0111\u1ed9ng *import settings and/or keys from gpg4usb* (*nh\u1eadp c\u00e1c thi\u1ebft \u0111\u1eb7t v\u00e0/ho\u1eb7c kh\u00f3a t\u1eeb gpg4usb*). N\u1ebfu b\u1ea1n s\u1eed d\u1ee5ng [Thunderbird with Enigmail](https://securityinabox.org/vi/thunderbird-main), b\u1ea1n c\u00f3 th\u1ec3 ch\u1ecdn h\u00e0nh \u0111\u1ed9ng *import keys from GnuPG* (*nh\u1eadp kh\u00f3a t\u1eeb GnuPG*). B\u1ea1n c\u0169ng c\u00f3 th\u1ec3 ch\u1ecdn nh\u1eadp c\u00e1c kh\u00f3a sau b\u1eb1ng c\u00e1ch m\u1edf c\u1eeda s\u1ed5 h\u1ed7 tr\u1ee3 t\u1eed tr\u00ecnh \u0111\u01a1n *Tr\u1ee3 Gi\u00fap -> Open Winzard*.\r\n\r\n**B\u01b0\u1edbc 3.** T\u1ea1i khung *Create a keypair* **nh\u1ea5n v\u00e0o** *Create New Key* \r\n\r\n![](/sbox/screen/gpg4usb-vi/05.png)\r\n\r\n*H\u00ecnh 3: T\u1ea1o Kh\u00f3a M\u1edbi*\r\n\r\n**B\u01b0\u1edbc 4**. **\u0110i\u1ec1n** th\u00f4ng tin t\u01b0\u01a1ng \u1ee9ng v\u00e0o c\u00e1c tr\u01b0\u1eddng y\u00eau c\u1ea7u, c\u1eeda s\u1ed5 c\u00f3  d\u1ea1ng nh\u01b0 d\u01b0\u1edbi \u0111\u00e2y :\r\n\r\n![](/sbox/screen/gpg4usb-vi/06.png)\r\n\r\n*H\u00ecnh 4: V\u00ed d\u1ee5 m\u1ed9t khung T\u1ea1o Kh\u00f3a \u0111\u01b0\u1ee3c \u0111i\u1ec1n \u0111\u1ea7y \u0111\u1ee7*\r\n\r\n**Quan tr\u1ecdng:**:\r\n- H\u00e3y \u0111\u1eb7t  m\u1ed9t m\u1eadt kh\u1ea9u m\u1ea1nh \u0111\u1ec3  b\u1ea3o v\u1ec7 kh\u00f3a ri\u00eang c\u1ee7a m\u00ecnh (h\u00e3y xem th\u00eam t\u1ea1i ch\u01b0\u01a1ng [**3. L\u00e0m th\u1ebf n\u00e0o \u0111\u1ec3 t\u1ea1o v\u00e0 duy tr\u00ec m\u1eadt kh\u1ea9u b\u1ea3o m\u1eadt**](/vi/chuong-3).\r\n- Ch\u00fang t\u00f4i khuy\u00ean b\u1ea1n s\u1eed d\u1ee5ng ng\u00e0y h\u1ebft h\u1ea1n cho kh\u00f3a sinh ra v\u00e0 \u0111\u1eb7t th\u1eddi gian h\u1ebft h\u1ea1n \u00edt h\u01a1n 5 n\u0103m.\r\n- Ch\u00fang t\u00f4i h\u1ebft s\u1ee9c khuy\u1ebfn c\u00e1o n\u00ean t\u1ea1o kh\u00f3a c\u00f3 \u0111\u1ed9 m\u1ea1nh t\u1ed1i thi\u1ec3u 2048 b\u00edt. Kh\u00f3a c\u00f3 \u0111\u1ed9 m\u1ea1nh l\u1edbn h\u01a1n s\u1ebd b\u1ea3o m\u1eadt h\u01a1n tuy nhi\u00ean s\u1ebd c\u1ea7n nhi\u1ec1u th\u1eddi gian h\u01a1n \u0111\u1ec3 sinh ra, m\u00e3 h\u00f3a v\u00e0 gi\u1ea3i m\u00e3\r\n\r\n**L\u01b0u \u00fd:** B\u1ea1n kh\u00f4ng c\u1ea7n ph\u1ea3i s\u1eed d\u1ee5ng t\u00ean th\u1eadt hay \u0111\u1ecba ch\u1ec9 th\u01b0 \u0111i\u1ec7n t\u1eed th\u1eadt c\u1ee7a m\u00ecnh khi t\u1ea1o ra c\u1eb7p kh\u00f3a. Tuy nhi\u00ean, s\u1eed d\u1ee5ng \u0111\u1ecba ch\u1ec9 th\u01b0 \u0111i\u1ec7n t\u1eed b\u1ea1n s\u1eed d\u1ee5ng trong li\u00ean l\u1ea1c s\u1ebd gi\u00fap \u0111\u1ed1i t\u00e1c c\u1ee7a b\u1ea1n thu\u1eadn l\u1ee3i trong vi\u1ec7c th\u00eam v\u00e0 qu\u1ea3n l\u00fd kh\u00f3a c\u1ee7a b\u1ea1n t\u01b0\u01a1ng \u1ee9ng v\u1edbi t\u00e0i kho\u1ea3n li\u00ean l\u1ea1c.\r\n\r\n**B\u01b0\u1edbc 5**. Nh\u1ea5n OK \u0111\u1ec3 t\u1ea1o c\u1eb7p kh\u00f3a. \r\n\r\n![](/sbox/screen/gpg4usb-vi/07.png)\r\n\r\n*H\u00ecnh 5: T\u1ea1o ra kh\u00f3a...* \r\n\r\n![](/sbox/screen/gpg4usb-vi/08.png)\r\n\r\n*H\u00ecnh 6: Kh\u00f3a \u0111\u01b0\u1ee3c t\u1ea1o ra*\r\n\r\n**B\u01b0\u1edbc 6**.  **Nh\u1ea5n** OK \u0111\u1ec3 quay tr\u1edf v\u1ec1 c\u1eeda s\u1ed5 **gpg4usb**. Sau khi c\u1eb7p kh\u00f3a \u0111\u00e3 \u0111\u01b0\u1ee3c t\u1ea1o ra th\u00e0nh c\u00f4ng, b\u1ea1n c\u00f3 th\u1ec3 th\u1ea5y th\u00f4ng tin tr\u00ean c\u1eeda s\u1ed5 gi\u1ed1ng nh\u01b0 sau: \r\n\r\n![](/sbox/screen/gpg4usb-vi/09.png)\r\n\r\n*H\u00ecnh 7: Kh\u00f3a \u0111\u01b0\u1ee3c t\u1ea1o ra*\r\n\r\nB\u1ea1n v\u1eeba t\u1ea1o th\u00e0nh c\u00f4ng m\u1ed9t c\u1eb7p kh\u00f3a m\u00e3 h\u00f3a, gi\u1edd b\u1ea1n s\u1ebd t\u00ecm hi\u1ec3u c\u00e1ch xu\u1ea5t kh\u00f3a c\u00f4ng khai \u0111\u1ec3 ch\u00eda s\u1ebb  v\u1edbi c\u00e1c \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c, v\u00e0 c\u00e1ch nh\u1eadp kh\u00f3a c\u00f4ng khai c\u1ee7a c\u00e1c \u0111\u1ed1i t\u00e1c n\u00e0y."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2056", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2056", 
+                "link_title": "How to Install gpg4usb and Generate a Key Pair", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5202", 
+                "module": "book", 
+                "nid": "2056", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5202", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "How to Install gpg4usb and Generate a Key Pair", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1455120164", 
+            "comment": "0", 
+            "created": "1441122201", 
+            "current_revision_id": "13206", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "vi": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb_huongdancaidat", 
+                        "value": "gpg4usb_huongdancaidat"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5202": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2056", 
+                    "link_title": "How to Install gpg4usb and Generate a Key Pair", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5202", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5202", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2056", 
+            "num_revisions": "18", 
+            "path": "https://securityinabox.org/en/gpg4usb-generatekey", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455120164", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "vi": [
+                    {
+                        "format": null, 
+                        "safe_value": "H\u01b0\u1edbng d\u1eabn C\u00e0i \u0111\u1eb7t gpg4usb v\u00e0 T\u1ea1o m\u1ed9t C\u1eb7p Kh\u00f3a", 
+                        "value": "H\u01b0\u1edbng d\u1eabn C\u00e0i \u0111\u1eb7t gpg4usb v\u00e0 T\u1ea1o m\u1ed9t C\u1eb7p Kh\u00f3a"
+                    }
+                ]
+            }, 
+            "title_original": "How to Install gpg4usb and Generate a Key Pair", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933342", 
+                        "created": "1442933342", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442247687", 
+                        "created": "1442247687", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506616", 
+                        "created": "1442506616", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1454338318", 
+                        "created": "1441633727", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733209", 
+                        "created": "1444733209", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455120164", 
+                        "created": "1455120164", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443788661", 
+                        "created": "1443788661", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192518", 
+                        "created": "1441192518", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444188984", 
+                        "created": "1444188984", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024179", 
+                        "created": "1443024179", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834215", 
+                        "created": "1444730139", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122201", 
+                        "created": "1441122201", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2056", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445442821", 
+                        "created": "1445442821", 
+                        "entity_id": "2056", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2056", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "663b9d6c-01ee-4dcf-8668-4333cc0bb63f", 
+            "vid": "13206", 
+            "vuuid": "7a9d19a2-fccc-421f-9156-a1c3475bd6da"
+        }, 
+        {
+            "body": {
+                "vi": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>C\u00e1c m\u1ee5c trong trang n\u00e0y:</p>\n\n<ul><li><a href=\"#3.1\"><strong>3.1 H\u01b0\u1edbng d\u1eabn Xu\u1ea5t Kh\u00f3a C\u00f4ng khai c\u1ee7a B\u1ea1n v\u1edbi gpg4usb</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 H\u01b0\u1edbng d\u1eabn Nh\u1eadp Kh\u00f3a C\u00f4ng khai c\u1ee7a \u0110\u1ed1i t\u00e1c li\u00ean l\u1ea1c v\u1edbi gpg4usb</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 H\u01b0\u1edbng d\u1eabn X\u00e1c Minh m\u1ed9t Kh\u00f3a C\u00f4ng khai s\u1eed d\u1ee5ng gpg4usb</strong></a></li>\n</ul><hr /><p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 H\u01b0\u1edbng d\u1eabn Xu\u1ea5t Kh\u00f3a C\u00f4ng khai c\u1ee7a B\u1ea1n v\u1edbi gpg4usb</h2>\n\n<p>B\u1ea1n ph\u1ea3i g\u1eedi kh\u00f3a c\u00f4ng khai c\u1ee7a m\u00ecnh cho \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c tr\u01b0\u1edbc khi anh ta c\u00f3 th\u1ec3 g\u1eedi c\u00e1c tin nh\u1eafn m\u00e3 h\u00f3a cho b\u1ea1n.</p>\n\n<p>\u0110\u1ec3 xu\u1ea5t kh\u00f3a c\u00f4ng khai c\u1ee7a m\u00ecnh v\u1edbi <strong>gpg4usb</strong>, h\u00e3y theo c\u00e1c b\u01b0\u1edbc sau:</p>\n\n<p><strong>B\u01b0\u1edbc 1</strong>. <strong>Nh\u1ea5n \u0111\u00fap v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/02.png\" alt=\"\" /> \u0111\u1ec3 m\u1edf th\u01b0 m\u1ee5c <strong>gpg4usb</strong></p>\n\n<p><strong>B\u01b0\u1edbc 2</strong>. <strong>Nh\u1ea5n v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/03.png\" alt=\"\" /> \u0111\u1ec3 k\u00edch ho\u1ea1t ch\u01b0\u01a1ng tr\u00ecnh <strong>gpg4usb</strong></p>\n\n<p><strong>B\u01b0\u1edbc 3</strong>. <strong>Nh\u1ea5n v\u00e0o bi\u1ec3u t\u01b0\u1ee3ng</strong> <img src=\"/sbox/screen/gpg4usb-vi/10a.png\" alt=\"\" /> \u0111\u1ec3 m\u1edf c\u1eeda s\u1ed5 sau:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/10.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 2: C\u1eeda s\u1ed5 Qu\u1ea3n l\u00fd Kh\u00f3a hi\u1ec3n th\u1ecb t\u1ea5t c\u1ea3 c\u00e1c kh\u00f3a</em></p>\n\n<p><strong>B\u01b0\u1edbc 4</strong>. Ch\u1ecdn kh\u00f3a t\u01b0\u01a1ng \u1ee9ng c\u1ee7a b\u1ea1n, nh\u01b0 trong <em>H\u00ecnh 2</em></p>\n\n<p><strong>B\u01b0\u1edbc 5</strong>. <strong>Ch\u1ecdn</strong> l\u1ec7nh <em>Xu\u1ea5t ra T\u1ec7p</em> trong tr\u00ecnh \u0111\u01a1n <strong>Kh\u00f3a</strong> nh\u01b0 d\u01b0\u1edbi \u0111\u00e2y:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/11.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 3: C\u1eeda s\u1ed5 Qu\u1ea3n l\u00fd Kh\u00f3a v\u1edbi l\u1ec7nh Xu\u1ea5t ra T\u1ec7p \u0111\u01b0\u1ee3c ch\u1ecdn</em></p>\n\n<p>C\u1eeda s\u1ed5 sau s\u1ebd \u0111\u01b0\u1ee3c k\u00edch ho\u1ea1t:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/12.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 3: C\u1eeda s\u1ed5 Ch\u1ecdn Th\u01b0 M\u1ee5c \u0111\u1ec3 xu\u1ea5t t\u1ec7p</em></p>\n\n<p><strong>B\u01b0\u1edbc 6</strong>. <strong>Nh\u1ea5n v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/13.png\" alt=\"\" /> \u0111\u1ec3 l\u01b0u c\u1eb7p kh\u00f3a v\u00e0o th\u01b0 m\u1ee5c ch\u01b0\u01a1ng tr\u00ecnh <strong>gpg4usb</strong>.</p>\n\n<p><strong>B\u01b0\u1edbc 7</strong>: <strong>G\u1eedi</strong> t\u1ec7p \u0111\u01b0\u1ee3c xu\u1ea5t ra g\u1ed3m kh\u00f3a c\u00f4ng khai c\u1ee7a b\u1ea1n cho \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c b\u1eb1ng c\u00e1ch \u0111\u00ednh k\u00e8m t\u1ec7p.</p>\n\n<p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 H\u01b0\u1edbng d\u1eabn Nh\u1eadp Kh\u00f3a C\u00f4ng khai c\u1ee7a \u0110\u1ed1i t\u00e1c li\u00ean l\u1ea1c v\u1edbi gpg4usb</h2>\n\n<p>Tr\u01b0\u1edbc khi c\u00f3 th\u1ec3 m\u00e3 h\u00f3a th\u00f4ng tin v\u00e0 g\u1eedi t\u1edbi \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c, b\u1ea1n c\u1ea7n nh\u1eadn v\u00e0 nh\u1eadp kh\u00f3a c\u00f4ng khai c\u1ee7a h\u1ecd. \u0110\u1ec3 nh\u1eadp Kh\u00f3a c\u00f4ng khai c\u1ee7a m\u1ed9t \u0111\u1ed1i t\u00e1c b\u1eb1ng <strong>gpg4usb</strong>, h\u00e3y th\u1ef1c hi\u1ec7n c\u00e1c b\u01b0\u1edbc sau:</p>\n\n<p><strong>B\u01b0\u1edbc 1</strong>. <strong>Nh\u1ea5n \u0111\u00fap chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/03.png\" alt=\"\" /> \u0111\u1ec3 kh\u1edfi \u0111\u1ed9ng <strong>gpg4usb</strong>.</p>\n\n<p><strong>B\u01b0\u1edbc 2</strong>. <strong>Nh\u1ea5n v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/14.png\" alt=\"\" /> \u0111\u1ec3 k\u00edch ho\u1ea1t c\u1eeda s\u1ed5 sau:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/15.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 4: H\u1ed9p tho\u1ea1i Nh\u1eadp Kh\u00f3a</em></p>\n\n<p><strong>B\u01b0\u1edbc 3</strong>. <strong>T\u00ecm t\u1edbi</strong> v\u00e0 ch\u1ecdn t\u1ec7p ch\u1ee9a kh\u00f3a b\u1ea1n mu\u1ed1n nh\u1eadp.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/16g.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 5: M\u1edf m\u1ed9t t\u1ec7p ch\u1ee9a Kh\u00f3a</em></p>\n\n<p><strong>B\u01b0\u1edbc 4</strong>. Nh\u1ea5n Open \u0111\u1ec3 m\u1edf c\u1eeda s\u1ed5 sau:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/16a.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 6: Th\u00f4ng tin chi ti\u1ebft Kh\u00f3a</em></p>\n\n<p><strong>B\u01b0\u1edbc 5</strong>. Nh\u1ea5n OK \u0111\u1ec3 \u0111\u00f3ng c\u1eeda s\u1ed5 n\u00e0y l\u1ea1i v\u00e0 quay tr\u1edf l\u1ea1i m\u00e0n h\u00ecnh ch\u00ednh c\u1ee7a <strong>gpg4usb</strong>. C\u1eeda s\u1ed5 n\u00e0y hi\u1ec3n th\u1ecb th\u00f4ng tin kh\u00f3a c\u00f4ng khai v\u1eeba nh\u1eadp v\u00e0o nh\u01b0 d\u01b0\u1edbi \u0111\u00e2y.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/16b.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 7: Giao di\u1ec7n gpg4usb hi\u1ec3n th\u1ecb kh\u00f3a c\u00f4ng khai v\u1eeba \u0111\u01b0\u1ee3c nh\u1eadp v\u00e0o li\u00ean quan t\u1edbi t\u00e0i kho\u1ea3n c\u1ee7a  \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c</em></p>\n\n<p>B\u1ea1n \u0111\u00e3 nh\u1eadp th\u00e0nh c\u00f4ng kh\u00f3a c\u00f4ng khai c\u1ee7a m\u1ed9t \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c, b\u1ea1n c\u1ea7n ph\u1ea3i ki\u1ec3m tra v\u00e0 k\u00fd s\u1ed1 kh\u00f3a v\u1eeba nh\u1eadp v\u00e0o n\u00e0y.</p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h2>3.3 H\u01b0\u1edbng d\u1eabn X\u00e1c Minh m\u1ed9t Kh\u00f3a C\u00f4ng khai s\u1eed d\u1ee5ng gpg4usb</h2>\n\n<p>B\u1ea1n ph\u1ea3i ki\u1ec3m tra m\u1ed9t kh\u00f3a \u0111\u01b0\u1ee3c nh\u1eadp v\u1ec1 th\u1ef1c s\u1ef1 thu\u1ed9c v\u1ec1 \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c \u0111\u00e3 g\u1eedi n\u00f3 cho b\u1ea1n sau \u0111\u00f3 x\u00e1c minh kh\u00f3a n\u00e0y ch\u01b0a h\u1ec1 b\u1ecb s\u1eeda \u0111\u1ed5i. \u0110\u00e2y l\u00e0 m\u1ed9t b\u01b0\u1edbc h\u1ebft s\u1ee9c quan tr\u1ecdng m\u00e0 b\u1ea1n v\u00e0 \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c n\u00ean th\u1ef1c hi\u1ec7n cho t\u1eebng kh\u00f3a c\u00f4ng khai nh\u1eadn \u0111\u01b0\u1ee3c.</p>\n\n<p>\u0110\u1ec3 ki\u1ec3m tra m\u1ed9t c\u1eb7p kh\u00f3a, h\u00e3y th\u1ef1c hi\u1ec7n c\u00e1c b\u01b0\u1edbc sau:</p>\n\n<p><strong>B\u01b0\u1edbc 1</strong>. <strong>Li\u00ean l\u1ea1c</strong> v\u1edbi \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c qua m\u1ed9t c\u00e1ch kh\u00e1c ngo\u00e0i th\u01b0 \u0111i\u1ec7n t\u1eed.</p>\n\n<p><strong>L\u01b0u \u00fd</strong>: B\u1ea1n c\u00f3 th\u1ec3 g\u1ecdi \u0111i\u1ec7n, nh\u1eafn tin ho\u1eb7c, <strong>G\u1ecdi \u0111i\u1ec7n qua Internet</strong> (<strong>VoIP</strong>) hay m\u1ed9t ph\u01b0\u01a1ng th\u1ee9c li\u00ean l\u1ea1c b\u1ea5t k\u1ef3 n\u00e0o kh\u00e1c, nh\u01b0ng lu\u00f4n ph\u1ea3i ch\u1eafc ch\u1eafn r\u1eb1ng m\u00ecnh \u0111ang n\u00f3i chuy\u1ec7n v\u1edbi \u0111\u00fang \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c c\u1ea7n x\u00e1c minh v\u1ec1 kh\u00f3a. V\u00ec l\u00fd do n\u00e0y, g\u1ecdi \u0111i\u1ec7n ho\u1eb7c g\u1eb7p m\u1eb7t tr\u1ef1c ti\u1ebfp t\u1ea1i th\u1eddi gian v\u00e0 \u0111\u1ecba \u0111i\u1ec3m ph\u00f9 h\u1ee3p \u0111\u1ea3m b\u1ea3o an to\u00e0n cho ph\u00e9p ch\u1eafc ch\u1eafn r\u1eb1ng ng\u01b0\u1eddi b\u1ea1n n\u00f3i chuy\u1ec7n \u0111\u01b0\u1ee3c x\u00e1c \u0111\u1ecbnh v\u1ec1 danh t\u00ednh.</p>\n\n<p><strong>B\u01b0\u1edbc 2</strong>. C\u1ea3 b\u1ea1n l\u1eabn \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c c\u1ea7n ki\u1ec3m tra 'd\u1ea5u tay s\u1ed1' c\u1ee7a kh\u00f3a c\u00f4ng khai c\u1ee7a c\u1ea3 hai \u0111\u00e3 trao \u0111\u1ed5i.</p>\n\n<p><strong>L\u01b0u \u00fd</strong>: M\u1ed9t d\u1ea5u v\u00e2n tay s\u1ed1 l\u00e0 d\u00e3y duy nh\u1ea5t c\u00e1c s\u1ed1 v\u00e0 ch\u1eef c\u00e1i x\u00e1c \u0111\u1ecbnh m\u1ed9t kh\u00f3a. D\u1ea5u v\u00e2n tay s\u1ed1 kh\u00f4ng ph\u1ea3i gi\u1eef b\u00ed m\u1eadt v\u00e0 c\u00f3 th\u1ec3 ghi l\u1ea1i \u0111\u1ec3 s\u1eed d\u1ee5ng v\u1edbi m\u1ee5c \u0111\u00edch ki\u1ec3m tra sau n\u00e0y khi c\u1ea7n.</p>\n\n<p>\u0110\u1ec3 ki\u1ec3m tra v\u00e2n tay s\u1ed1 c\u1ee7a m\u1ed9t kh\u00f3a m\u00e3 h\u00f3a b\u1ea1n v\u1eeba t\u1ea1o v\u00e0 c\u1ee7a kh\u00f3a c\u00f4ng khai c\u1ee7a \u0111\u1ed1i t\u00e1c b\u1ea1n v\u1eeba nh\u1eadp, h\u00e3y theo c\u00e1c b\u01b0\u1edbc sau:</p>\n\n<p><strong>B\u01b0\u1edbc 1</strong>. <strong>Ch\u1ecdn</strong> m\u1ed9t kh\u00f3a, <strong>nh\u1ea5n ph\u1ea3i chu\u1ed9t</strong> \u0111\u1ec3 m\u1edf tr\u00ecnh \u0111\u01a1n c\u1ea3m ng\u1eef c\u1ea3nh t\u01b0\u01a1ng \u1ee9ng.</p>\n\n<p><strong>B\u01b0\u1edbc 2</strong>. <strong>Ch\u1ecdn</strong> l\u1ec7nh <em>Hi\u1ec3n th\u1ecb th\u00f4ng tin Kh\u00f3a</em> nh\u01b0 trong <em>H\u00ecnh 8</em>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/17.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 8: Tr\u00ecnh \u0111\u01a1n t\u01b0\u01a1ng \u1ee9ng v\u1edbi kh\u00f3a c\u1ee7a \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c</em></p>\n\n<p><em>C\u1eeda s\u1ed5 sau s\u1ebd xu\u1ea5t hi\u1ec7n:</em></p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/18.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 9: Chi ti\u1ebft Kh\u00f3a v\u1edbi d\u1ea5u v\u00e2n tay \u1edf ph\u1ea7n cu\u1ed1i</em></p>\n\n<p><strong>B\u01b0\u1edbc 3</strong>. <strong>So s\u00e1nh</strong> d\u1ea5u v\u00e2n tay s\u1ed1 n\u00e0y v\u1edbi d\u1ea5u v\u00e2n tay s\u1ed1 hi\u1ec3n th\u1ecb trong ch\u01b0\u01a1ng tr\u00ecnh <strong>gpg4usb</strong> c\u1ee7a \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c.</p>\n\n<p>\u0110\u1ed1i t\u00e1c li\u00ean l\u1ea1c c\u1ee7a b\u1ea1n c\u0169ng c\u1ea7n th\u1ef1c hi\u1ec7n c\u00e1c b\u01b0\u1edbc tr\u00ean. X\u00e1c minh v\u00e2n tay s\u1ed1 cho t\u1eebng kh\u00f3a hai b\u00ean trao \u0111\u1ed5i \u0111\u1ec3 \u0111\u1ea3m b\u1ea3o ch\u00fang gi\u1ed1ng nh\u01b0 c\u1ee7a ng\u01b0\u1eddi g\u1eedi. N\u1ebfu ch\u00fang kh\u00f4ng tr\u00f9ng nhau, h\u00e3y trao \u0111\u1ed5i l\u1ea1i kh\u00f3a c\u00f4ng khai v\u00e0 th\u1ef1c hi\u1ec7n l\u1ea1i c\u00e1c b\u01b0\u1edbc x\u00e1c minh tr\u00ean.</p>\n\n<p>N\u1ebfu c\u00e1c d\u1ea5u v\u00e2n tay s\u1ed1 tr\u00f9ng nhau <em>ho\u00e0n to\u00e0n</em>, b\u1ea1n v\u00e0 \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c \u0111\u00e3 s\u1eb5n s\u00e0ng \u0111\u1ec3 g\u1eedi c\u00e1c tin nh\u1eafn v\u00e0 t\u1ec7p m\u00e3 h\u00f3a cho nhau.</p>\n", 
+                        "summary": "", 
+                        "value": "C\u00e1c m\u1ee5c trong trang n\u00e0y:\r\n\r\n- [**3.1 H\u01b0\u1edbng d\u1eabn Xu\u1ea5t Kh\u00f3a C\u00f4ng khai c\u1ee7a B\u1ea1n v\u1edbi gpg4usb**](#3.1)\r\n- [**3.2 H\u01b0\u1edbng d\u1eabn Nh\u1eadp Kh\u00f3a C\u00f4ng khai c\u1ee7a \u0110\u1ed1i t\u00e1c li\u00ean l\u1ea1c v\u1edbi gpg4usb**](#3.2)\r\n- [**3.3 H\u01b0\u1edbng d\u1eabn X\u00e1c Minh m\u1ed9t Kh\u00f3a C\u00f4ng khai s\u1eed d\u1ee5ng gpg4usb**](#3.3)\r\n\r\n-------\r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 H\u01b0\u1edbng d\u1eabn Xu\u1ea5t Kh\u00f3a C\u00f4ng khai c\u1ee7a B\u1ea1n v\u1edbi gpg4usb ##\r\n\r\nB\u1ea1n ph\u1ea3i g\u1eedi kh\u00f3a c\u00f4ng khai c\u1ee7a m\u00ecnh cho \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c tr\u01b0\u1edbc khi anh ta c\u00f3 th\u1ec3 g\u1eedi c\u00e1c tin nh\u1eafn m\u00e3 h\u00f3a cho b\u1ea1n.\r\n\r\n\u0110\u1ec3 xu\u1ea5t kh\u00f3a c\u00f4ng khai c\u1ee7a m\u00ecnh v\u1edbi **gpg4usb**, h\u00e3y theo c\u00e1c b\u01b0\u1edbc sau:\r\n\r\n**B\u01b0\u1edbc 1**. **Nh\u1ea5n \u0111\u00fap v\u00e0o** ![](/sbox/screen/gpg4usb-vi/02.png) \u0111\u1ec3 m\u1edf th\u01b0 m\u1ee5c **gpg4usb**\r\n\r\n**B\u01b0\u1edbc 2**. **Nh\u1ea5n v\u00e0o** ![](/sbox/screen/gpg4usb-vi/03.png) \u0111\u1ec3 k\u00edch ho\u1ea1t ch\u01b0\u01a1ng tr\u00ecnh **gpg4usb** \r\n\r\n**B\u01b0\u1edbc 3**. **Nh\u1ea5n v\u00e0o bi\u1ec3u t\u01b0\u1ee3ng** ![](/sbox/screen/gpg4usb-vi/10a.png) \u0111\u1ec3 m\u1edf c\u1eeda s\u1ed5 sau:\r\n\r\n![](/sbox/screen/gpg4usb-vi/10.png)\r\n\r\n*H\u00ecnh 2: C\u1eeda s\u1ed5 Qu\u1ea3n l\u00fd Kh\u00f3a hi\u1ec3n th\u1ecb t\u1ea5t c\u1ea3 c\u00e1c kh\u00f3a*\r\n\r\n**B\u01b0\u1edbc 4**. Ch\u1ecdn kh\u00f3a t\u01b0\u01a1ng \u1ee9ng c\u1ee7a b\u1ea1n, nh\u01b0 trong *H\u00ecnh 2*\r\n\r\n**B\u01b0\u1edbc 5**. **Ch\u1ecdn** l\u1ec7nh *Xu\u1ea5t ra T\u1ec7p* trong tr\u00ecnh \u0111\u01a1n **Kh\u00f3a** nh\u01b0 d\u01b0\u1edbi \u0111\u00e2y:\r\n\r\n![](/sbox/screen/gpg4usb-vi/11.png)\r\n\r\n*H\u00ecnh 3: C\u1eeda s\u1ed5 Qu\u1ea3n l\u00fd Kh\u00f3a v\u1edbi l\u1ec7nh Xu\u1ea5t ra T\u1ec7p \u0111\u01b0\u1ee3c ch\u1ecdn*\r\n\r\nC\u1eeda s\u1ed5 sau s\u1ebd \u0111\u01b0\u1ee3c k\u00edch ho\u1ea1t:\r\n\r\n![](/sbox/screen/gpg4usb-vi/12.png)\r\n\r\n*H\u00ecnh 3: C\u1eeda s\u1ed5 Ch\u1ecdn Th\u01b0 M\u1ee5c \u0111\u1ec3 xu\u1ea5t t\u1ec7p*\r\n\r\n**B\u01b0\u1edbc 6**. **Nh\u1ea5n v\u00e0o** ![](/sbox/screen/gpg4usb-vi/13.png) \u0111\u1ec3 l\u01b0u c\u1eb7p kh\u00f3a v\u00e0o th\u01b0 m\u1ee5c ch\u01b0\u01a1ng tr\u00ecnh **gpg4usb**.\r\n\r\n**B\u01b0\u1edbc 7**: **G\u1eedi** t\u1ec7p \u0111\u01b0\u1ee3c xu\u1ea5t ra g\u1ed3m kh\u00f3a c\u00f4ng khai c\u1ee7a b\u1ea1n cho \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c b\u1eb1ng c\u00e1ch \u0111\u00ednh k\u00e8m t\u1ec7p.\r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 H\u01b0\u1edbng d\u1eabn Nh\u1eadp Kh\u00f3a C\u00f4ng khai c\u1ee7a \u0110\u1ed1i t\u00e1c li\u00ean l\u1ea1c v\u1edbi gpg4usb ##\r\n\r\nTr\u01b0\u1edbc khi c\u00f3 th\u1ec3 m\u00e3 h\u00f3a th\u00f4ng tin v\u00e0 g\u1eedi t\u1edbi \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c, b\u1ea1n c\u1ea7n nh\u1eadn v\u00e0 nh\u1eadp kh\u00f3a c\u00f4ng khai c\u1ee7a h\u1ecd. \u0110\u1ec3 nh\u1eadp Kh\u00f3a c\u00f4ng khai c\u1ee7a m\u1ed9t \u0111\u1ed1i t\u00e1c b\u1eb1ng **gpg4usb**, h\u00e3y th\u1ef1c hi\u1ec7n c\u00e1c b\u01b0\u1edbc sau:\r\n\r\n**B\u01b0\u1edbc 1**. **Nh\u1ea5n \u0111\u00fap chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/03.png) \u0111\u1ec3 kh\u1edfi \u0111\u1ed9ng **gpg4usb**.\r\n\r\n**B\u01b0\u1edbc 2**. **Nh\u1ea5n v\u00e0o** ![](/sbox/screen/gpg4usb-vi/14.png) \u0111\u1ec3 k\u00edch ho\u1ea1t c\u1eeda s\u1ed5 sau:\r\n\r\n![](/sbox/screen/gpg4usb-vi/15.png)\r\n\r\n*H\u00ecnh 4: H\u1ed9p tho\u1ea1i Nh\u1eadp Kh\u00f3a*\r\n\r\n**B\u01b0\u1edbc 3**. **T\u00ecm t\u1edbi** v\u00e0 ch\u1ecdn t\u1ec7p ch\u1ee9a kh\u00f3a b\u1ea1n mu\u1ed1n nh\u1eadp.\r\n\r\n![](/sbox/screen/gpg4usb-vi/16g.png)\r\n\r\n*H\u00ecnh 5: M\u1edf m\u1ed9t t\u1ec7p ch\u1ee9a Kh\u00f3a*\r\n\r\n**B\u01b0\u1edbc 4**. Nh\u1ea5n Open \u0111\u1ec3 m\u1edf c\u1eeda s\u1ed5 sau:\r\n\r\n![](/sbox/screen/gpg4usb-vi/16a.png)\r\n\r\n*H\u00ecnh 6: Th\u00f4ng tin chi ti\u1ebft Kh\u00f3a*\r\n\r\n**B\u01b0\u1edbc 5**. Nh\u1ea5n OK \u0111\u1ec3 \u0111\u00f3ng c\u1eeda s\u1ed5 n\u00e0y l\u1ea1i v\u00e0 quay tr\u1edf l\u1ea1i m\u00e0n h\u00ecnh ch\u00ednh c\u1ee7a **gpg4usb**. C\u1eeda s\u1ed5 n\u00e0y hi\u1ec3n th\u1ecb th\u00f4ng tin kh\u00f3a c\u00f4ng khai v\u1eeba nh\u1eadp v\u00e0o nh\u01b0 d\u01b0\u1edbi \u0111\u00e2y. \r\n\r\n![](/sbox/screen/gpg4usb-vi/16b.png)\r\n\r\n*H\u00ecnh 7: Giao di\u1ec7n gpg4usb hi\u1ec3n th\u1ecb kh\u00f3a c\u00f4ng khai v\u1eeba \u0111\u01b0\u1ee3c nh\u1eadp v\u00e0o li\u00ean quan t\u1edbi t\u00e0i kho\u1ea3n c\u1ee7a  \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c*\r\n\r\nB\u1ea1n \u0111\u00e3 nh\u1eadp th\u00e0nh c\u00f4ng kh\u00f3a c\u00f4ng khai c\u1ee7a m\u1ed9t \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c, b\u1ea1n c\u1ea7n ph\u1ea3i ki\u1ec3m tra v\u00e0 k\u00fd s\u1ed1 kh\u00f3a v\u1eeba nh\u1eadp v\u00e0o n\u00e0y.\r\n\r\n<a name=\"3.3\"></a>\r\n## 3.3 H\u01b0\u1edbng d\u1eabn X\u00e1c Minh m\u1ed9t Kh\u00f3a C\u00f4ng khai s\u1eed d\u1ee5ng gpg4usb ##\r\n\r\nB\u1ea1n ph\u1ea3i ki\u1ec3m tra m\u1ed9t kh\u00f3a \u0111\u01b0\u1ee3c nh\u1eadp v\u1ec1 th\u1ef1c s\u1ef1 thu\u1ed9c v\u1ec1 \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c \u0111\u00e3 g\u1eedi n\u00f3 cho b\u1ea1n sau \u0111\u00f3 x\u00e1c minh kh\u00f3a n\u00e0y ch\u01b0a h\u1ec1 b\u1ecb s\u1eeda \u0111\u1ed5i. \u0110\u00e2y l\u00e0 m\u1ed9t b\u01b0\u1edbc h\u1ebft s\u1ee9c quan tr\u1ecdng m\u00e0 b\u1ea1n v\u00e0 \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c n\u00ean th\u1ef1c hi\u1ec7n cho t\u1eebng kh\u00f3a c\u00f4ng khai nh\u1eadn \u0111\u01b0\u1ee3c.\r\n\r\n\u0110\u1ec3 ki\u1ec3m tra m\u1ed9t c\u1eb7p kh\u00f3a, h\u00e3y th\u1ef1c hi\u1ec7n c\u00e1c b\u01b0\u1edbc sau:\r\n\r\n**B\u01b0\u1edbc 1**. **Li\u00ean l\u1ea1c** v\u1edbi \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c qua m\u1ed9t c\u00e1ch kh\u00e1c ngo\u00e0i th\u01b0 \u0111i\u1ec7n t\u1eed. \r\n\r\n**L\u01b0u \u00fd**: B\u1ea1n c\u00f3 th\u1ec3 g\u1ecdi \u0111i\u1ec7n, nh\u1eafn tin ho\u1eb7c, **G\u1ecdi \u0111i\u1ec7n qua Internet** (**VoIP**) hay m\u1ed9t ph\u01b0\u01a1ng th\u1ee9c li\u00ean l\u1ea1c b\u1ea5t k\u1ef3 n\u00e0o kh\u00e1c, nh\u01b0ng lu\u00f4n ph\u1ea3i ch\u1eafc ch\u1eafn r\u1eb1ng m\u00ecnh \u0111ang n\u00f3i chuy\u1ec7n v\u1edbi \u0111\u00fang \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c c\u1ea7n x\u00e1c minh v\u1ec1 kh\u00f3a. V\u00ec l\u00fd do n\u00e0y, g\u1ecdi \u0111i\u1ec7n ho\u1eb7c g\u1eb7p m\u1eb7t tr\u1ef1c ti\u1ebfp t\u1ea1i th\u1eddi gian v\u00e0 \u0111\u1ecba \u0111i\u1ec3m ph\u00f9 h\u1ee3p \u0111\u1ea3m b\u1ea3o an to\u00e0n cho ph\u00e9p ch\u1eafc ch\u1eafn r\u1eb1ng ng\u01b0\u1eddi b\u1ea1n n\u00f3i chuy\u1ec7n \u0111\u01b0\u1ee3c x\u00e1c \u0111\u1ecbnh v\u1ec1 danh t\u00ednh.\r\n\r\n**B\u01b0\u1edbc 2**. C\u1ea3 b\u1ea1n l\u1eabn \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c c\u1ea7n ki\u1ec3m tra 'd\u1ea5u tay s\u1ed1' c\u1ee7a kh\u00f3a c\u00f4ng khai c\u1ee7a c\u1ea3 hai \u0111\u00e3 trao \u0111\u1ed5i.  \r\n\r\n**L\u01b0u \u00fd**: M\u1ed9t d\u1ea5u v\u00e2n tay s\u1ed1 l\u00e0 d\u00e3y duy nh\u1ea5t c\u00e1c s\u1ed1 v\u00e0 ch\u1eef c\u00e1i x\u00e1c \u0111\u1ecbnh m\u1ed9t kh\u00f3a. D\u1ea5u v\u00e2n tay s\u1ed1 kh\u00f4ng ph\u1ea3i gi\u1eef b\u00ed m\u1eadt v\u00e0 c\u00f3 th\u1ec3 ghi l\u1ea1i \u0111\u1ec3 s\u1eed d\u1ee5ng v\u1edbi m\u1ee5c \u0111\u00edch ki\u1ec3m tra sau n\u00e0y khi c\u1ea7n.\r\n\r\n\u0110\u1ec3 ki\u1ec3m tra v\u00e2n tay s\u1ed1 c\u1ee7a m\u1ed9t kh\u00f3a m\u00e3 h\u00f3a b\u1ea1n v\u1eeba t\u1ea1o v\u00e0 c\u1ee7a kh\u00f3a c\u00f4ng khai c\u1ee7a \u0111\u1ed1i t\u00e1c b\u1ea1n v\u1eeba nh\u1eadp, h\u00e3y theo c\u00e1c b\u01b0\u1edbc sau:\r\n\r\n**B\u01b0\u1edbc 1**. **Ch\u1ecdn** m\u1ed9t kh\u00f3a, **nh\u1ea5n ph\u1ea3i chu\u1ed9t** \u0111\u1ec3 m\u1edf tr\u00ecnh \u0111\u01a1n c\u1ea3m ng\u1eef c\u1ea3nh t\u01b0\u01a1ng \u1ee9ng.\r\n\r\n**B\u01b0\u1edbc 2**. **Ch\u1ecdn** l\u1ec7nh *Hi\u1ec3n th\u1ecb th\u00f4ng tin Kh\u00f3a* nh\u01b0 trong *H\u00ecnh 8*. \r\n\r\n![](/sbox/screen/gpg4usb-vi/17.png)\r\n\r\n*H\u00ecnh 8: Tr\u00ecnh \u0111\u01a1n t\u01b0\u01a1ng \u1ee9ng v\u1edbi kh\u00f3a c\u1ee7a \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c*\r\n\r\n*C\u1eeda s\u1ed5 sau s\u1ebd xu\u1ea5t hi\u1ec7n:*\r\n\r\n![](/sbox/screen/gpg4usb-vi/18.png)\r\n\r\n*H\u00ecnh 9: Chi ti\u1ebft Kh\u00f3a v\u1edbi d\u1ea5u v\u00e2n tay \u1edf ph\u1ea7n cu\u1ed1i*\r\n\r\n**B\u01b0\u1edbc 3**. **So s\u00e1nh** d\u1ea5u v\u00e2n tay s\u1ed1 n\u00e0y v\u1edbi d\u1ea5u v\u00e2n tay s\u1ed1 hi\u1ec3n th\u1ecb trong ch\u01b0\u01a1ng tr\u00ecnh **gpg4usb** c\u1ee7a \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c.\r\n\r\n\u0110\u1ed1i t\u00e1c li\u00ean l\u1ea1c c\u1ee7a b\u1ea1n c\u0169ng c\u1ea7n th\u1ef1c hi\u1ec7n c\u00e1c b\u01b0\u1edbc tr\u00ean. X\u00e1c minh v\u00e2n tay s\u1ed1 cho t\u1eebng kh\u00f3a hai b\u00ean trao \u0111\u1ed5i \u0111\u1ec3 \u0111\u1ea3m b\u1ea3o ch\u00fang gi\u1ed1ng nh\u01b0 c\u1ee7a ng\u01b0\u1eddi g\u1eedi. N\u1ebfu ch\u00fang kh\u00f4ng tr\u00f9ng nhau, h\u00e3y trao \u0111\u1ed5i l\u1ea1i kh\u00f3a c\u00f4ng khai v\u00e0 th\u1ef1c hi\u1ec7n l\u1ea1i c\u00e1c b\u01b0\u1edbc x\u00e1c minh tr\u00ean.\r\n\r\nN\u1ebfu c\u00e1c d\u1ea5u v\u00e2n tay s\u1ed1 tr\u00f9ng nhau *ho\u00e0n to\u00e0n*, b\u1ea1n v\u00e0 \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c \u0111\u00e3 s\u1eb5n s\u00e0ng \u0111\u1ec3 g\u1eedi c\u00e1c tin nh\u1eafn v\u00e0 t\u1ec7p m\u00e3 h\u00f3a cho nhau."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2057", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2057", 
+                "link_title": "How to Export and Import Keys", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5203", 
+                "module": "book", 
+                "nid": "2057", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5203", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "How to Export and Import Keys", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1455120354", 
+            "comment": "0", 
+            "created": "1441122242", 
+            "current_revision_id": "13207", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "vi": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb_huongdanxuatnhapkhoa", 
+                        "value": "gpg4usb_huongdanxuatnhapkhoa"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5203": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2057", 
+                    "link_title": "How to Export and Import Keys", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5203", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5203", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2057", 
+            "num_revisions": "16", 
+            "path": "https://securityinabox.org/en/gpg4usb-keysimportexport", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455120354", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "vi": [
+                    {
+                        "format": null, 
+                        "safe_value": "H\u01b0\u1edbng d\u1eabn Xu\u1ea5t v\u00e0 Nh\u1eadp Kh\u00f3a", 
+                        "value": "H\u01b0\u1edbng d\u1eabn Xu\u1ea5t v\u00e0 Nh\u1eadp Kh\u00f3a"
+                    }
+                ]
+            }, 
+            "title_original": "How to Export and Import Keys", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933435", 
+                        "created": "1442933435", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442246357", 
+                        "created": "1442246357", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506690", 
+                        "created": "1442506690", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452097777", 
+                        "created": "1441633817", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733270", 
+                        "created": "1444733270", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455120354", 
+                        "created": "1455120354", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443788784", 
+                        "created": "1443788784", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192625", 
+                        "created": "1441192625", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444189052", 
+                        "created": "1444189052", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024203", 
+                        "created": "1443024203", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834259", 
+                        "created": "1444730205", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122242", 
+                        "created": "1441122242", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2057", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445442893", 
+                        "created": "1445442893", 
+                        "entity_id": "2057", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2057", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "927bdf66-af92-4bea-811d-b4b792b4602f", 
+            "vid": "13207", 
+            "vuuid": "1535d39a-166a-4f3a-b90d-335003b5c6ca"
+        }, 
+        {
+            "body": {
+                "vi": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>C\u00e1c m\u1ee5c trong trang n\u00e0y</p>\n\n<ul><li><a href=\"#4.0\"><strong>4.0 H\u01b0\u1edbng d\u1eabn M\u00e3 h\u00f3a Tin nh\u1eafn V\u0103n b\u1ea3n v\u1edbi gpg4usb</strong></a></li>\n<li><a href=\"#4.1\"><strong>4.1 H\u01b0\u1edbng d\u1eabn Gi\u1ea3i m\u00e3 h\u00f3a Tin nh\u1eafn V\u0103n b\u1ea3n v\u1edbi gpg4usb</strong></a></li>\n<li><a href=\"#4.2\"><strong>4.2 H\u01b0\u1edbng d\u1eabn M\u00e3 h\u00f3a T\u1ec7p v\u1edbi gpg4usb</strong></a></li>\n<li><a href=\"#4.3\"><strong>4.3 H\u01b0\u1edbng d\u1eabn Gi\u1ea3i m\u00e3 T\u1ec7p v\u1edbi gpg4usb</strong></a></li>\n</ul><hr /><p><a name=\"4.0\" id=\"4.0\"></a></p>\n\n<h2>4.0 H\u01b0\u1edbng d\u1eabn M\u00e3 h\u00f3a Tin nh\u1eafn V\u0103n b\u1ea3n v\u1edbi gpg4usb</h2>\n\n<p>Trong v\u00ed d\u1ee5 d\u01b0\u1edbi \u0111\u00e2y, Terrence s\u1ebd m\u00e3 h\u00f3a m\u1ed9t th\u01b0 \u0111i\u1ec7n t\u1eed g\u1eedi cho ng\u01b0\u1eddi b\u1ea1n l\u00e0 Salima theo c\u00e1c b\u01b0\u1edbc sau \u0111\u00e2y:</p>\n\n<p><strong>B\u01b0\u1edbc 1</strong>. <strong>Nh\u1ea5n \u0111\u00fap chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/03.png\" alt=\"\" /> \u0111\u1ec3 m\u1edf giao di\u1ec7n ch\u00ednh ch\u01b0\u01a1ng tr\u00ecnh <strong>gpg4usb</strong>.</p>\n\n<p><strong>B\u01b0\u1edbc 2</strong>. <strong>So\u1ea1n th\u1ea3o</strong> tin nh\u1eafn nh\u01b0 trong v\u00ed d\u1ee5 d\u01b0\u1edbi \u0111\u00e2y:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/19.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 1: C\u1eeda s\u1ed5 giao di\u1ec7n gpg4usb hi\u1ec3n th\u1ecb m\u1ed9t v\u00ed d\u1ee5 v\u1ec1 tin nh\u1eafn</em></p>\n\n<p><strong>B\u01b0\u1edbc 3</strong>. <strong>Ch\u1ecdn</strong> h\u1ed9p ch\u1ecdn t\u01b0\u01a1ng \u1ee9ng v\u1edbi \u0111\u1ecba ch\u1ec9 th\u01b0 \u0111i\u1ec7n t\u1eed c\u1ee7a ng\u01b0\u1eddi nh\u1eadn nh\u01b0 sau:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/20.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 2: Giao di\u1ec7n gpg4usb hi\u1ec3n th\u1ecb ng\u01b0\u1eddi nh\u1eadn \u0111\u01b0\u1ee3c ch\u1ecdn, \u0111\u01b0\u1ee3c t\u00f4 \u0111\u1eadm</em></p>\n\n<p><strong>L\u01b0u \u00fd:</strong> B\u1ea1n c\u00f3 th\u1ec3 m\u00e3 h\u00f3a m\u1ed9t tin nh\u1eafn cho nhi\u1ec1u h\u01a1n m\u1ed9t ng\u01b0\u1eddi nh\u1eadn v\u1edbi m\u1ed9t thao t\u00e1c \u0111\u01a1n gi\u1ea3n l\u00e0 ch\u1ecdn c\u00e1c h\u1ed9p ch\u1ecdn t\u01b0\u01a1ng \u1ee9ng trong khung <em>M\u00e3 h\u00f3a cho:</em>. \u0110\u1ed3ng th\u1eddi, c\u0169ng r\u1ea5t h\u1eefu \u00edch khi b\u1ea1n m\u00e3 h\u00f3a tin nh\u1eafn cho b\u1ea3n th\u00e2n m\u00ecnh \u0111\u1ec3 l\u01b0u gi\u1eef nh\u1eefng tin nh\u1eafn \u0111\u00e3 g\u1eedi \u0111i \u0111\u1ec3 c\u00f3 th\u1ec3 tham kh\u1ea3o sau n\u00e0y.</p>\n\n<p><strong>B\u01b0\u1edbc 4</strong>. <strong>Nh\u1ea5n chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/21.png\" alt=\"\" /> ho\u1eb7c <strong>ch\u1ecdn M\u00e3 h\u00f3a</strong> t\u1eeb tr\u00ecnh \u0111\u01a1n <strong>M\u00e3 h\u00f3a</strong> \u0111\u1ec3 m\u00e3 h\u00f3a tin nh\u1eafn nh\u01b0 trong h\u00ecnh d\u01b0\u1edbi \u0111\u00e2y:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/22.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 3: C\u1eeda s\u1ed5 giao di\u1ec7n gpg4usb hi\u1ec3n th\u1ecb m\u1ed9t v\u00ed d\u1ee5 tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a</em></p>\n\n<p><strong>B\u01b0\u1edbc 5</strong>. <strong>Nh\u1ea5n chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/23.png\" alt=\"\" /> \u0111\u1ec3 ch\u1ecdn to\u00e0n b\u1ed9 tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a, sau \u0111\u00f3 <strong>nh\u1ea5n chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/24.png\" alt=\"\" /> \u0111\u1ec3 ch\u00e9p \u0111o\u1ea1n m\u00e3 v\u00e0o b\u1ed9 nh\u1edb.</p>\n\n<p><strong>L\u01b0u \u00fd</strong>: M\u1ed9t c\u00e1ch kh\u00e1c b\u1ea1n c\u00f3 th\u1ec3 s\u1eed d\u1ee5ng t\u1ed5 h\u1ee3p ph\u00edm t\u1eaft cho t\u1eebng l\u1ec7nh tr\u00ean tr\u00ecnh \u0111\u01a1n, trong tr\u01b0\u1eddng h\u1ee3p n\u00e0y l\u00e0 <strong>Ctrl + E</strong> s\u1ebd m\u00e3 h\u00f3a tin nh\u1eafn, <strong>Ctri + A</strong> s\u1ebd ch\u1ecdn to\u00e0n b\u1ed9 tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a, v\u00e0 <strong>Ctrl + C</strong> s\u1ebd ch\u00e9p to\u00e0n b\u1ed9 tin nh\u1eafn v\u00e0o b\u1ed9 nh\u1edb.</p>\n\n<p><strong>B\u01b0\u1edbc 6</strong>. <strong>M\u1edf</strong> h\u1ed9p th\u01b0 c\u1ee7a b\u1ea1n v\u00e0 <strong>t\u1ea1o</strong> m\u1ed9t th\u01b0 m\u1edbi, sau \u0111\u00f3 <strong>ch\u00e9p</strong> tin nh\u1eafn t\u1eeb b\u1ed9 nh\u1edb v\u00e0o nh\u01b0 d\u01b0\u1edbi \u0111\u00e2y:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/25.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 4: V\u00ed d\u1ee5 m\u1ed9t tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a trong gpg4usb \u0111\u01b0\u1ee3c ch\u00e9p v\u00e0o tr\u00ecnh so\u1ea1n th\u1ea3o trong t\u00e0i kho\u1ea3n Gmail</em></p>\n\n<p><strong>L\u01b0u \u00fd</strong>: <strong>V\u0103n b\u1ea3n c\u00f3 \u0111\u1ecbnh d\u1ea1ng</strong> <strong>RTF</strong> c\u00f3 th\u1ec3 g\u00e2y l\u1ed7i \u0111\u1ecbnh d\u1ea1ng c\u1ee7a tin nh\u1eafn m\u00e3 h\u00f3a; do \u0111\u00f3, t\u1ed1t nh\u1ea5t n\u00ean so\u1ea1n th\u1ea3o tin nh\u1eafn c\u1ee7a b\u1ea1n d\u01b0\u1edbi d\u1ea1ng v\u0103n b\u1ea3n thu\u1ea7n. \u0110\u1ec3 chuy\u1ec3n \u0111\u1ed5i \u0111\u1ecbnh d\u1ea1ng <strong>RTF</strong> sang d\u1ea1ng thu\u1ea7n v\u0103n b\u1ea3n trong <strong>Gmail</strong> \u0111\u01a1n gi\u1ea3n ch\u1ec9 c\u1ea7n <strong>Nh\u1ea5n chu\u1ed9t v\u00e0o</strong> bi\u1ec3u t\u01b0\u1ee3ng <em>More Options</em> v\u00e0 <strong>ch\u1ecdn</strong> <em>Plain Text Mode</em> n\u1eb1m tr\u00ean tr\u00ecnh \u0111\u01a1n \u0111\u1ecbnh d\u1ea1ng ph\u00eda tr\u00ean khung so\u1ea1n th\u1ea3o nh\u01b0 d\u01b0\u1edbi \u0111\u00e2y:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/26.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 5: T\u00f9y ch\u1ecdn More Options c\u1ee7a Gmail</em></p>\n\n<p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h2>4.1 H\u01b0\u1edbng d\u1eabn Gi\u1ea3i M\u00e3 h\u00f3a Tin nh\u1eafn V\u0103n b\u1ea3n v\u1edbi gpg4usb</h2>\n\n<p>\u0110\u1ec3 gi\u1ea3i m\u00e3 tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a, h\u00e3y th\u1ef1c hi\u1ec7n c\u00e1c b\u01b0\u1edbc sau:</p>\n\n<p><strong>B\u01b0\u1edbc 1</strong>. <strong>Nh\u1ea5n \u0111\u00fap chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/03.png\" alt=\"\" /> \u0111\u1ec3 m\u1edf ch\u01b0\u01a1ng tr\u00ecnh <strong>gpg4usb</strong>.</p>\n\n<p><strong>B\u01b0\u1edbc 2</strong>. <strong>M\u1edf</strong> h\u1ed9p th\u01b0 \u0111i\u1ec7n t\u1eed c\u1ee7a b\u1ea1n, sau \u0111\u00f3 <strong>m\u1edf</strong> tin nh\u1eafn.</p>\n\n<p><strong>B\u01b0\u1edbc 3</strong>. <strong>Ch\u1ecdn</strong>, <strong>sao</strong> sau \u0111\u00f3 <strong>ch\u00e9p</strong> tin nh\u1eafn \u0111\u00e3 \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a v\u00e0o khung <em>untitled1.txt</em> c\u1ee7a giao di\u1ec7n <strong>gpg4usb</strong> nh\u01b0 sau:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/27.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 6: Giao di\u1ec7n gpg4usb hi\u1ec3n th\u1ecb tin nh\u1eafn c\u1ea7n gi\u1ea3i m\u00e3</em></p>\n\n<p><strong>L\u01b0u \u00fd</strong>: N\u1ebfu tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a ch\u1ee9a c\u00e1ch d\u00f2ng k\u00e9p nh\u01b0 trong <em>H\u00ecnh 6</em> b\u00ean d\u01b0\u1edbi, <strong>gpg4usb</strong> c\u00f3 th\u1ec3 kh\u00f4ng t\u1ef1 \u0111\u1ed9ng gi\u1ea3i m\u00e3 \u0111\u01b0\u1ee3c. \u0110\u1ec3 lo\u1ea1i b\u1ecf, <strong>ch\u1ecdn</strong> <img src=\"/sbox/screen/gpg4usb-vi/27b.png\" alt=\"\" /> t\u1eeb tr\u00ecnh \u0111\u01a1n <strong>So\u1ea1n th\u1ea3o</strong> v\u00e0 sau \u0111\u00f3 ti\u1ebfp t\u1ee5c ti\u1ebfn tr\u00ecnh gi\u1ea3i m\u00e3 tin nh\u1eafn trong <strong>B\u01b0\u1edbc 4</strong>.</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/28.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 7: Giao di\u1ec7n gpg4usb hi\u1ec3n th\u1ecb m\u1ed9t tin nh\u1eafn c\u1ea7n gi\u1ea3i m\u00e3 c\u00f3 ch\u1ee9a c\u00e1c c\u00e1ch d\u00f2ng k\u00e9p</em></p>\n\n<p><strong>B\u01b0\u1edbc 4</strong>. <strong>Nh\u1ea5n chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/29.png\" alt=\"\" /> v\u00e0 nh\u1eadp m\u1eadt kh\u1ea9u b\u1ea1n \u0111\u00e3 t\u1ea1o khi t\u1ea1o c\u1eb7p kh\u00f3a, nh\u01b0 trong h\u00ecnh sau:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/30.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 8: C\u1eeda s\u1ed5 Nh\u1eadp M\u1eadt kh\u1ea9u</em></p>\n\n<p><strong>B\u01b0\u1edbc 5</strong>. <strong>Nh\u1ea5n chu\u1ed9t v\u00e0o</strong> OK \u0111\u1ec3 k\u00edch ho\u1ea1t giao di\u1ec7n <strong>gpg4usb</strong> nh\u01b0 trong <em>H\u00ecnh 2</em> ph\u00eda tr\u00ean.</p>\n\n<p><a name=\"4.2\" id=\"4.2\"></a></p>\n\n<h2>4.2 H\u01b0\u1edbng d\u1eabn M\u00e3 h\u00f3a T\u1ec7p v\u1edbi gpg4usb</h2>\n\n<p>Ti\u1ebfn tr\u00ecnh m\u00e3 h\u00f3a m\u1ed9t t\u1ec7p c\u0169ng t\u01b0\u01a1ng t\u1ef1 nh\u01b0 vi\u1ec7c m\u00e3 h\u00f3a m\u1ed9t tin nh\u1eafn v\u0103n b\u1ea3n; trong v\u00ed d\u1ee5 d\u01b0\u1edbi \u0111\u00e2y, Salima s\u1ebd m\u00e3 h\u00f3a m\u1ed9t t\u1ec7p g\u1eedi cho Terence, theo c\u00e1c b\u01b0\u1edbc sau:</p>\n\n<p><strong>B\u01b0\u1edbc 1</strong>. <strong>Nh\u1ea5n \u0111\u00fap chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/03.png\" alt=\"\" /> \u0111\u1ec3 m\u1edf ch\u01b0\u01a1ng tr\u00ecnh <strong>gpg4usb</strong>.</p>\n\n<p><strong>B\u01b0\u1edbc 2</strong>. <strong>Nh\u1ea5n chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/31.png\" alt=\"\" /> \u0111\u1ec3 m\u1edf c\u1eeda s\u1ed5 sau:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/32.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 9: C\u1eeda s\u1ed5 M\u00e3 h\u00f3a / Gi\u1ea3i m\u00e3 T\u1ec7p, v\u1edbi t\u00f9y ch\u1ecdn Gi\u1ea3i m\u00e3 m\u1eb7c \u0111\u1ecbnh \u0111\u01b0\u1ee3c b\u1eadt</em></p>\n\n<p>C\u1eeda s\u1ed5 <em>M\u00e3 h\u00f3a / Gi\u1ea3i m\u00e3 T\u1ec7p</em> v\u1edbi thanh cu\u1ed9n (\u0111\u01b0\u1ee3c t\u00f4 \u0111\u1eadm) cho ph\u00e9p b\u1ea1n ch\u1ecdn t\u00e0i kho\u1ea3n th\u01b0 v\u00e0 kh\u00f3a m\u00e3 h\u00f3a t\u01b0\u01a1ng \u1ee9ng s\u1eed d\u1ee5ng \u0111\u1ec3 m\u00e3 h\u00f3a tin nh\u1eafn.</p>\n\n<p><strong>B\u01b0\u1edbc 3</strong>. <strong>Ch\u1ecdn</strong> n\u00fat <em>M\u00e3 h\u00f3a</em> v\u00e0 sau \u0111\u00f3 <strong>nh\u1ea5n chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/33.png\" alt=\"\" /> \u0111\u1ec3 m\u1edf c\u1eeda s\u1ed5 sau:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/34.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 10: C\u1eeda s\u1ed5 Duy\u1ec7t Th\u01b0 m\u1ee5c</em></p>\n\n<p><strong>B\u01b0\u1edbc 4</strong>. <strong>Nh\u1ea5n chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/35.png\" alt=\"\" /> \u0111\u1ec3 ch\u1ecdn t\u1ec7p c\u1ea7n m\u00e3 h\u00f3a v\u00e0 quay tr\u1edf l\u1ea1i c\u1eeda s\u1ed5 <em>M\u00e3 h\u00f3a / Gi\u1ea3i m\u00e3</em> nh\u01b0 sau:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/36.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 11: C\u1eeda s\u1ed5 M\u00e3 h\u00f3a / Gi\u1ea3i m\u00e3 T\u1ec7p hi\u1ec3n th\u1ecb t\u1ec7p \u0111\u01b0\u1ee3c ch\u1ecdn \u0111\u1ec3 m\u00e3 h\u00f3a</em></p>\n\n<p><strong>B\u01b0\u1edbc 5</strong>. <strong>Nh\u1ea5n chu\u1ed9t v\u00e0o</strong> OK \u0111\u1ec3 m\u1edf c\u1eeda s\u1ed5 sau:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/38.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 12: H\u1ed9p tho\u1ea1i th\u00f4ng b\u00e1o ho\u00e0n th\u00e0nh</em></p>\n\n<p>H\u1ed9p tho\u1ea1i th\u00f4ng b\u00e1o <em>Ho\u00e0n th\u00e0nh</em> cho b\u1ea1n bi\u1ebft n\u01a1i l\u01b0u t\u1ec7p v\u1eeba m\u00e3 h\u00f3a. M\u1ed9t t\u1ec7p \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c x\u00e1c \u0111\u1ecbnh b\u1eb1ng \u0111u\u00f4i <em>.asc</em>, v\u00ed d\u1ee5, <em>Meeting Minute.odt.asc</em>.</p>\n\n<p><strong>B\u01b0\u1edbc 6</strong>. <strong>Nh\u1ea5n chu\u1ed9t v\u00e0o</strong> OK \u0111\u1ec3 ho\u00e0n t\u1ea5t qu\u00e1 t\u00ecnh m\u00e3 h\u00f3a t\u1ec7p.</p>\n\n<p><strong>L\u01b0u \u00fd</strong>: B\u1ea1n c\u00f3 th\u1ec3 m\u00e3 h\u00f3a m\u1ed9t tin nh\u1eafn v\u0103n b\u1ea3n v\u00e0 g\u1eedi k\u00e8m v\u1edbi m\u1ed9t t\u1ec7p m\u00e3 h\u00f3a m\u1ed9t c\u00e1ch ri\u00eang bi\u1ec7t.</p>\n\n<p><strong>B\u01b0\u1edbc 7</strong>. S\u1eed d\u1ee5ng h\u1ed9p th\u01b0 c\u1ee7a b\u1ea1n, <strong>chuy\u1ec3n t\u1edbi</strong> th\u01b0 m\u1ee5c \u0111\u01b0\u1ee3c x\u00e1c \u0111\u1ecbnh trong h\u1ed9p tho\u1ea1i x\u00e1c nh\u1eadn <em>Ho\u00e0n th\u00e0nh</em> (<em>H\u00ecnh 12</em>), sau \u0111\u00f3 \u0111\u00ednh k\u00e8m t\u1ec7p m\u00e3 h\u00f3a v\u00e0o th\u01b0 \u0111i\u1ec7n t\u1eed b\u1ea1n mu\u1ed1n g\u1eedi \u0111i gi\u1ed1ng nh\u01b0 m\u1ed9t t\u1ec7p b\u00ecnh th\u01b0\u1eddng.</p>\n\n<p><strong>Quan tr\u1ecdng</strong>: H\u00e3y l\u01b0u \u00fd r\u1eb1ng t\u00ean c\u1ee7a t\u1ec7p s\u1ebd <strong>kh\u00f4ng \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a</strong>. H\u00e3y \u0111\u1ea3m b\u1ea3o r\u1eb1ng t\u00ean t\u1ec7p kh\u00f4ng ti\u1ebft l\u1ed9 b\u1ea5t c\u1ee9 th\u00f4ng tin quan tr\u1ecdng n\u00e0o! \u0110\u1eebng qu\u00ean r\u1eb1ng t\u1ec7p nguy\u00ean b\u1ea3n ch\u01b0a \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a v\u1eafn c\u00f2n n\u1eb1m tr\u00ean \u1ed5 \u0111\u0129a.</p>\n\n<p><a name=\"4.3\" id=\"4.3\"></a></p>\n\n<h2>4.3 H\u01b0\u1edbng d\u1eabn Gi\u1ea3i m\u00e3 T\u1ec7p v\u1edbi gpg4usb</h2>\n\n<p>Trong v\u00ed d\u1ee5 d\u01b0\u1edbi \u0111\u00e2y, Terence s\u1ebd gi\u1ea3i m\u00e3 t\u1ec7p nh\u1eadn \u0111\u01b0\u1ee3c t\u1eeb Salima, theo c\u00e1c b\u01b0\u1edbc sau:</p>\n\n<p><strong>B\u01b0\u1edbc 1</strong>. <strong>Nh\u1ea5n \u0111\u00fap chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/03.png\" alt=\"\" /> \u0111\u1ec3 k\u00edch ho\u1ea1t ch\u01b0\u01a1ng tr\u00ecnh <strong>gpg4usb</strong>.</p>\n\n<p><strong>B\u01b0\u1edbc 2</strong>. <strong>M\u1edf</strong> h\u1ed9p th\u01b0 c\u1ee7a b\u1ea1n, v\u00e0 <strong>m\u1edf</strong> tin nh\u1eafn v\u00e0 <strong>t\u1ea3i v\u1ec1</strong> t\u1ec7p \u0111\u00ednh k\u00e8m.</p>\n\n<p><strong>L\u01b0u \u00fd</strong>: N\u1ebfu \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c c\u1ee7a b\u1ea1n c\u00f3 g\u1eedi tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a c\u00f3 \u0111\u00ednh k\u00e8m theo t\u1ec7p m\u00e3 h\u00f3a, b\u1ea1n c\u00f3 th\u1ec3 gi\u1ea3i m\u00e3 tin nh\u1eafn n\u00e0y theo ph\u01b0\u01a1ng ph\u00e1p \u0111\u00e3 h\u01b0\u1edbng d\u1eabn t\u1ea1i m\u1ee5c <a href=\"https://securityinabox.org/vi/gpg4usb_mahoatep#4.1\"><strong>4.1 H\u01b0\u1edbng d\u1eabn Gi\u1ea3i M\u00e3 h\u00f3a Tin nh\u1eafn V\u0103n b\u1ea3n v\u1edbi gpg4usb</strong></a></p>\n\n<p><strong>B\u01b0\u1edbc 3</strong>. Trong giao di\u1ec7n <strong>gpg4usb</strong>  (nh\u01b0 trong <em>H\u00ecnh 1</em> ph\u00eda tr\u00ean), <strong>Nh\u1ea5n chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/31.png\" alt=\"\" /> \u0111\u1ec3 k\u00edch ho\u1ea1t c\u1eeda s\u1ed5 <strong>M\u00e3 h\u00f3a / Gi\u1ea3i m\u00e3 t\u1ec7p</strong>  (nh\u01b0 trong <em>H\u00ecnh 13</em> ph\u00eda tr\u00ean).</p>\n\n<p><strong>B\u01b0\u1edbc 4</strong>. <strong>Nh\u1ea5n chu\u1ed9t v\u00e0o</strong> <img src=\"/sbox/screen/gpg4usb-vi/33.png\" alt=\"\" /> \u0111\u1ec3 m\u1edf th\u01b0 m\u1ee5c ch\u1ee9a t\u1ec7p m\u00e3 h\u00f3a v\u1eeba t\u1ea3i v\u1ec1 nh\u01b0 d\u01b0\u1edbi \u0111\u00e2y:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/37.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 13: C\u1eeda s\u1ed5 M\u00e3 h\u00f3a / Gi\u1ea3i m\u00e3 hi\u1ec3n th\u1ecb \u0111\u01b0\u1eddng d\u1eabn t\u1edbi t\u1ec7p m\u00e3 h\u00f3a</em></p>\n\n<p><strong>B\u01b0\u1edbc 5</strong>. <strong>Nh\u1ea5n chu\u1ed9t v\u00e0o</strong> OK \u0111\u1ec3 k\u00edch ho\u1ea1t c\u1eeda s\u1ed5 sau:</p>\n\n<p><img src=\"/sbox/screen/gpg4usb-vi/39.png\" alt=\"\" /></p>\n\n<p><em>H\u00ecnh 14: H\u1ed9p tho\u1ea1i X\u00e1c nh\u1eadn Ho\u00e0n th\u00e0nh hi\u1ec3n th\u1ecb \u0111\u01b0\u1eddng d\u1eabn t\u1edbi t\u1ec7p \u0111\u01b0\u1ee3c gi\u1ea3i m\u00e3</em></p>\n\n<p><strong>Quan tr\u1ecdng</strong>: N\u1ebfu b\u1ea1n l\u00e0m vi\u1ec7c t\u1eeb m\u1ed9t qu\u00e1n caf\u00e9 Internet ho\u1eb7c s\u1eed d\u1ee5ng chung m\u1ed9t m\u00e1y t\u00ednh c\u00f3 nhi\u1ec1u ng\u01b0\u1eddi s\u1eed d\u1ee5ng, t\u1ed1t nh\u1ea5t h\u00e3y ch\u00e9p t\u1ec7p <em>.asc</em> v\u00e0o th\u1ebb nh\u1edb USB ho\u1eb7c \u1ed5 nh\u1edb di \u0111\u1ed9ng v\u00e0 gi\u1ea3i n\u00e9n t\u1ea1i nh\u00e0 trong \u0111i\u1ec7n ki\u1ec7n \u0111\u1ea3m b\u1ea3o t\u00ednh ri\u00eang t\u01b0.</p>\n", 
+                        "summary": "", 
+                        "value": "C\u00e1c m\u1ee5c trong trang n\u00e0y\r\n\r\n\r\n- [**4.0 H\u01b0\u1edbng d\u1eabn M\u00e3 h\u00f3a Tin nh\u1eafn V\u0103n b\u1ea3n v\u1edbi gpg4usb**](#4.0)\r\n- [**4.1 H\u01b0\u1edbng d\u1eabn Gi\u1ea3i m\u00e3 h\u00f3a Tin nh\u1eafn V\u0103n b\u1ea3n v\u1edbi gpg4usb**](#4.1)\r\n- [**4.2 H\u01b0\u1edbng d\u1eabn M\u00e3 h\u00f3a T\u1ec7p v\u1edbi gpg4usb**](#4.2)\r\n- [**4.3 H\u01b0\u1edbng d\u1eabn Gi\u1ea3i m\u00e3 T\u1ec7p v\u1edbi gpg4usb**](#4.3)\r\n\r\n-------\r\n\r\n<a name=\"4.0\"></a>\r\n## 4.0 H\u01b0\u1edbng d\u1eabn M\u00e3 h\u00f3a Tin nh\u1eafn V\u0103n b\u1ea3n v\u1edbi gpg4usb ##\r\n\r\nTrong v\u00ed d\u1ee5 d\u01b0\u1edbi \u0111\u00e2y, Terrence s\u1ebd m\u00e3 h\u00f3a m\u1ed9t th\u01b0 \u0111i\u1ec7n t\u1eed g\u1eedi cho ng\u01b0\u1eddi b\u1ea1n l\u00e0 Salima theo c\u00e1c b\u01b0\u1edbc sau \u0111\u00e2y:\r\n\r\n**B\u01b0\u1edbc 1**. **Nh\u1ea5n \u0111\u00fap chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/03.png) \u0111\u1ec3 m\u1edf giao di\u1ec7n ch\u00ednh ch\u01b0\u01a1ng tr\u00ecnh **gpg4usb**.\r\n\r\n**B\u01b0\u1edbc 2**. **So\u1ea1n th\u1ea3o** tin nh\u1eafn nh\u01b0 trong v\u00ed d\u1ee5 d\u01b0\u1edbi \u0111\u00e2y:\r\n\r\n![](/sbox/screen/gpg4usb-vi/19.png)\r\n\r\n*H\u00ecnh 1: C\u1eeda s\u1ed5 giao di\u1ec7n gpg4usb hi\u1ec3n th\u1ecb m\u1ed9t v\u00ed d\u1ee5 v\u1ec1 tin nh\u1eafn*\r\n\r\n**B\u01b0\u1edbc 3**. **Ch\u1ecdn** h\u1ed9p ch\u1ecdn t\u01b0\u01a1ng \u1ee9ng v\u1edbi \u0111\u1ecba ch\u1ec9 th\u01b0 \u0111i\u1ec7n t\u1eed c\u1ee7a ng\u01b0\u1eddi nh\u1eadn nh\u01b0 sau:\r\n\r\n![](/sbox/screen/gpg4usb-vi/20.png)\r\n\r\n*H\u00ecnh 2: Giao di\u1ec7n gpg4usb hi\u1ec3n th\u1ecb ng\u01b0\u1eddi nh\u1eadn \u0111\u01b0\u1ee3c ch\u1ecdn, \u0111\u01b0\u1ee3c t\u00f4 \u0111\u1eadm*\r\n\r\n**L\u01b0u \u00fd:** B\u1ea1n c\u00f3 th\u1ec3 m\u00e3 h\u00f3a m\u1ed9t tin nh\u1eafn cho nhi\u1ec1u h\u01a1n m\u1ed9t ng\u01b0\u1eddi nh\u1eadn v\u1edbi m\u1ed9t thao t\u00e1c \u0111\u01a1n gi\u1ea3n l\u00e0 ch\u1ecdn c\u00e1c h\u1ed9p ch\u1ecdn t\u01b0\u01a1ng \u1ee9ng trong khung *M\u00e3 h\u00f3a cho:*. \u0110\u1ed3ng th\u1eddi, c\u0169ng r\u1ea5t h\u1eefu \u00edch khi b\u1ea1n m\u00e3 h\u00f3a tin nh\u1eafn cho b\u1ea3n th\u00e2n m\u00ecnh \u0111\u1ec3 l\u01b0u gi\u1eef nh\u1eefng tin nh\u1eafn \u0111\u00e3 g\u1eedi \u0111i \u0111\u1ec3 c\u00f3 th\u1ec3 tham kh\u1ea3o sau n\u00e0y. \r\n\r\n**B\u01b0\u1edbc 4**. **Nh\u1ea5n chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/21.png) ho\u1eb7c **ch\u1ecdn M\u00e3 h\u00f3a** t\u1eeb tr\u00ecnh \u0111\u01a1n **M\u00e3 h\u00f3a** \u0111\u1ec3 m\u00e3 h\u00f3a tin nh\u1eafn nh\u01b0 trong h\u00ecnh d\u01b0\u1edbi \u0111\u00e2y:\r\n\r\n![](/sbox/screen/gpg4usb-vi/22.png)\r\n\r\n*H\u00ecnh 3: C\u1eeda s\u1ed5 giao di\u1ec7n gpg4usb hi\u1ec3n th\u1ecb m\u1ed9t v\u00ed d\u1ee5 tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a*\r\n\r\n**B\u01b0\u1edbc 5**. **Nh\u1ea5n chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/23.png) \u0111\u1ec3 ch\u1ecdn to\u00e0n b\u1ed9 tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a, sau \u0111\u00f3 **nh\u1ea5n chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/24.png) \u0111\u1ec3 ch\u00e9p \u0111o\u1ea1n m\u00e3 v\u00e0o b\u1ed9 nh\u1edb.\r\n\r\n**L\u01b0u \u00fd**: M\u1ed9t c\u00e1ch kh\u00e1c b\u1ea1n c\u00f3 th\u1ec3 s\u1eed d\u1ee5ng t\u1ed5 h\u1ee3p ph\u00edm t\u1eaft cho t\u1eebng l\u1ec7nh tr\u00ean tr\u00ecnh \u0111\u01a1n, trong tr\u01b0\u1eddng h\u1ee3p n\u00e0y l\u00e0 **Ctrl + E** s\u1ebd m\u00e3 h\u00f3a tin nh\u1eafn, **Ctri + A** s\u1ebd ch\u1ecdn to\u00e0n b\u1ed9 tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a, v\u00e0 **Ctrl + C** s\u1ebd ch\u00e9p to\u00e0n b\u1ed9 tin nh\u1eafn v\u00e0o b\u1ed9 nh\u1edb. \r\n\r\n\r\n**B\u01b0\u1edbc 6**. **M\u1edf** h\u1ed9p th\u01b0 c\u1ee7a b\u1ea1n v\u00e0 **t\u1ea1o** m\u1ed9t th\u01b0 m\u1edbi, sau \u0111\u00f3 **ch\u00e9p** tin nh\u1eafn t\u1eeb b\u1ed9 nh\u1edb v\u00e0o nh\u01b0 d\u01b0\u1edbi \u0111\u00e2y:\r\n\r\n![](/sbox/screen/gpg4usb-vi/25.png)\r\n\r\n*H\u00ecnh 4: V\u00ed d\u1ee5 m\u1ed9t tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a trong gpg4usb \u0111\u01b0\u1ee3c ch\u00e9p v\u00e0o tr\u00ecnh so\u1ea1n th\u1ea3o trong t\u00e0i kho\u1ea3n Gmail*\r\n\r\n**L\u01b0u \u00fd**: **V\u0103n b\u1ea3n c\u00f3 \u0111\u1ecbnh d\u1ea1ng** **RTF** c\u00f3 th\u1ec3 g\u00e2y l\u1ed7i \u0111\u1ecbnh d\u1ea1ng c\u1ee7a tin nh\u1eafn m\u00e3 h\u00f3a; do \u0111\u00f3, t\u1ed1t nh\u1ea5t n\u00ean so\u1ea1n th\u1ea3o tin nh\u1eafn c\u1ee7a b\u1ea1n d\u01b0\u1edbi d\u1ea1ng v\u0103n b\u1ea3n thu\u1ea7n. \u0110\u1ec3 chuy\u1ec3n \u0111\u1ed5i \u0111\u1ecbnh d\u1ea1ng **RTF** sang d\u1ea1ng thu\u1ea7n v\u0103n b\u1ea3n trong **Gmail** \u0111\u01a1n gi\u1ea3n ch\u1ec9 c\u1ea7n **Nh\u1ea5n chu\u1ed9t v\u00e0o** bi\u1ec3u t\u01b0\u1ee3ng *More Options* v\u00e0 **ch\u1ecdn** *Plain Text Mode* n\u1eb1m tr\u00ean tr\u00ecnh \u0111\u01a1n \u0111\u1ecbnh d\u1ea1ng ph\u00eda tr\u00ean khung so\u1ea1n th\u1ea3o nh\u01b0 d\u01b0\u1edbi \u0111\u00e2y:\r\n\r\n![](/sbox/screen/gpg4usb-vi/26.png)\r\n\r\n*H\u00ecnh 5: T\u00f9y ch\u1ecdn More Options c\u1ee7a Gmail*\r\n\r\n\r\n<a name=\"4.1\"></a>\r\n## 4.1 H\u01b0\u1edbng d\u1eabn Gi\u1ea3i M\u00e3 h\u00f3a Tin nh\u1eafn V\u0103n b\u1ea3n v\u1edbi gpg4usb ##\r\n\r\n\u0110\u1ec3 gi\u1ea3i m\u00e3 tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a, h\u00e3y th\u1ef1c hi\u1ec7n c\u00e1c b\u01b0\u1edbc sau:\r\n\r\n**B\u01b0\u1edbc 1**. **Nh\u1ea5n \u0111\u00fap chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/03.png) \u0111\u1ec3 m\u1edf ch\u01b0\u01a1ng tr\u00ecnh **gpg4usb**.\r\n\r\n**B\u01b0\u1edbc 2**. **M\u1edf** h\u1ed9p th\u01b0 \u0111i\u1ec7n t\u1eed c\u1ee7a b\u1ea1n, sau \u0111\u00f3 **m\u1edf** tin nh\u1eafn.\r\n\r\n**B\u01b0\u1edbc 3**. **Ch\u1ecdn**, **sao** sau \u0111\u00f3 **ch\u00e9p** tin nh\u1eafn \u0111\u00e3 \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a v\u00e0o khung *untitled1.txt* c\u1ee7a giao di\u1ec7n **gpg4usb** nh\u01b0 sau:\r\n\r\n![](/sbox/screen/gpg4usb-vi/27.png)\r\n\r\n*H\u00ecnh 6: Giao di\u1ec7n gpg4usb hi\u1ec3n th\u1ecb tin nh\u1eafn c\u1ea7n gi\u1ea3i m\u00e3*\r\n\r\n**L\u01b0u \u00fd**: N\u1ebfu tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a ch\u1ee9a c\u00e1ch d\u00f2ng k\u00e9p nh\u01b0 trong *H\u00ecnh 6* b\u00ean d\u01b0\u1edbi, **gpg4usb** c\u00f3 th\u1ec3 kh\u00f4ng t\u1ef1 \u0111\u1ed9ng gi\u1ea3i m\u00e3 \u0111\u01b0\u1ee3c. \u0110\u1ec3 lo\u1ea1i b\u1ecf, **ch\u1ecdn** ![](/sbox/screen/gpg4usb-vi/27b.png) t\u1eeb tr\u00ecnh \u0111\u01a1n **So\u1ea1n th\u1ea3o** v\u00e0 sau \u0111\u00f3 ti\u1ebfp t\u1ee5c ti\u1ebfn tr\u00ecnh gi\u1ea3i m\u00e3 tin nh\u1eafn trong **B\u01b0\u1edbc 4**.\r\n\r\n![](/sbox/screen/gpg4usb-vi/28.png)\r\n\r\n*H\u00ecnh 7: Giao di\u1ec7n gpg4usb hi\u1ec3n th\u1ecb m\u1ed9t tin nh\u1eafn c\u1ea7n gi\u1ea3i m\u00e3 c\u00f3 ch\u1ee9a c\u00e1c c\u00e1ch d\u00f2ng k\u00e9p*\r\n \r\n**B\u01b0\u1edbc 4**. **Nh\u1ea5n chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/29.png) v\u00e0 nh\u1eadp m\u1eadt kh\u1ea9u b\u1ea1n \u0111\u00e3 t\u1ea1o khi t\u1ea1o c\u1eb7p kh\u00f3a, nh\u01b0 trong h\u00ecnh sau:\r\n\r\n![](/sbox/screen/gpg4usb-vi/30.png)\r\n\r\n*H\u00ecnh 8: C\u1eeda s\u1ed5 Nh\u1eadp M\u1eadt kh\u1ea9u*\r\n\r\n**B\u01b0\u1edbc 5**. **Nh\u1ea5n chu\u1ed9t v\u00e0o** OK \u0111\u1ec3 k\u00edch ho\u1ea1t giao di\u1ec7n **gpg4usb** nh\u01b0 trong *H\u00ecnh 2* ph\u00eda tr\u00ean.\r\n\r\n<a name=\"4.2\"></a>\r\n## 4.2 H\u01b0\u1edbng d\u1eabn M\u00e3 h\u00f3a T\u1ec7p v\u1edbi gpg4usb ##\r\n\r\nTi\u1ebfn tr\u00ecnh m\u00e3 h\u00f3a m\u1ed9t t\u1ec7p c\u0169ng t\u01b0\u01a1ng t\u1ef1 nh\u01b0 vi\u1ec7c m\u00e3 h\u00f3a m\u1ed9t tin nh\u1eafn v\u0103n b\u1ea3n; trong v\u00ed d\u1ee5 d\u01b0\u1edbi \u0111\u00e2y, Salima s\u1ebd m\u00e3 h\u00f3a m\u1ed9t t\u1ec7p g\u1eedi cho Terence, theo c\u00e1c b\u01b0\u1edbc sau:\r\n\r\n**B\u01b0\u1edbc 1**. **Nh\u1ea5n \u0111\u00fap chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/03.png) \u0111\u1ec3 m\u1edf ch\u01b0\u01a1ng tr\u00ecnh **gpg4usb**.\r\n\r\n**B\u01b0\u1edbc 2**. **Nh\u1ea5n chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/31.png) \u0111\u1ec3 m\u1edf c\u1eeda s\u1ed5 sau:\r\n\r\n![](/sbox/screen/gpg4usb-vi/32.png)\r\n\r\n*H\u00ecnh 9: C\u1eeda s\u1ed5 M\u00e3 h\u00f3a / Gi\u1ea3i m\u00e3 T\u1ec7p, v\u1edbi t\u00f9y ch\u1ecdn Gi\u1ea3i m\u00e3 m\u1eb7c \u0111\u1ecbnh \u0111\u01b0\u1ee3c b\u1eadt*\r\n\r\nC\u1eeda s\u1ed5 *M\u00e3 h\u00f3a / Gi\u1ea3i m\u00e3 T\u1ec7p* v\u1edbi thanh cu\u1ed9n (\u0111\u01b0\u1ee3c t\u00f4 \u0111\u1eadm) cho ph\u00e9p b\u1ea1n ch\u1ecdn t\u00e0i kho\u1ea3n th\u01b0 v\u00e0 kh\u00f3a m\u00e3 h\u00f3a t\u01b0\u01a1ng \u1ee9ng s\u1eed d\u1ee5ng \u0111\u1ec3 m\u00e3 h\u00f3a tin nh\u1eafn.\r\n\r\n**B\u01b0\u1edbc 3**. **Ch\u1ecdn** n\u00fat *M\u00e3 h\u00f3a* v\u00e0 sau \u0111\u00f3 **nh\u1ea5n chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/33.png) \u0111\u1ec3 m\u1edf c\u1eeda s\u1ed5 sau:\r\n\r\n![](/sbox/screen/gpg4usb-vi/34.png)\r\n\r\n*H\u00ecnh 10: C\u1eeda s\u1ed5 Duy\u1ec7t Th\u01b0 m\u1ee5c*\r\n\r\n**B\u01b0\u1edbc 4**. **Nh\u1ea5n chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/35.png) \u0111\u1ec3 ch\u1ecdn t\u1ec7p c\u1ea7n m\u00e3 h\u00f3a v\u00e0 quay tr\u1edf l\u1ea1i c\u1eeda s\u1ed5 *M\u00e3 h\u00f3a / Gi\u1ea3i m\u00e3* nh\u01b0 sau:\r\n\r\n![](/sbox/screen/gpg4usb-vi/36.png)\r\n\r\n*H\u00ecnh 11: C\u1eeda s\u1ed5 M\u00e3 h\u00f3a / Gi\u1ea3i m\u00e3 T\u1ec7p hi\u1ec3n th\u1ecb t\u1ec7p \u0111\u01b0\u1ee3c ch\u1ecdn \u0111\u1ec3 m\u00e3 h\u00f3a*\r\n\r\n**B\u01b0\u1edbc 5**. **Nh\u1ea5n chu\u1ed9t v\u00e0o** OK \u0111\u1ec3 m\u1edf c\u1eeda s\u1ed5 sau:\r\n\r\n![](/sbox/screen/gpg4usb-vi/38.png)\r\n\r\n*H\u00ecnh 12: H\u1ed9p tho\u1ea1i th\u00f4ng b\u00e1o ho\u00e0n th\u00e0nh*\r\n\r\nH\u1ed9p tho\u1ea1i th\u00f4ng b\u00e1o *Ho\u00e0n th\u00e0nh* cho b\u1ea1n bi\u1ebft n\u01a1i l\u01b0u t\u1ec7p v\u1eeba m\u00e3 h\u00f3a. M\u1ed9t t\u1ec7p \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c x\u00e1c \u0111\u1ecbnh b\u1eb1ng \u0111u\u00f4i *.asc*, v\u00ed d\u1ee5, *Meeting Minute.odt.asc*. \r\n\r\n**B\u01b0\u1edbc 6**. **Nh\u1ea5n chu\u1ed9t v\u00e0o** OK \u0111\u1ec3 ho\u00e0n t\u1ea5t qu\u00e1 t\u00ecnh m\u00e3 h\u00f3a t\u1ec7p.\r\n\r\n**L\u01b0u \u00fd**: B\u1ea1n c\u00f3 th\u1ec3 m\u00e3 h\u00f3a m\u1ed9t tin nh\u1eafn v\u0103n b\u1ea3n v\u00e0 g\u1eedi k\u00e8m v\u1edbi m\u1ed9t t\u1ec7p m\u00e3 h\u00f3a m\u1ed9t c\u00e1ch ri\u00eang bi\u1ec7t. \r\n\r\n**B\u01b0\u1edbc 7**. S\u1eed d\u1ee5ng h\u1ed9p th\u01b0 c\u1ee7a b\u1ea1n, **chuy\u1ec3n t\u1edbi** th\u01b0 m\u1ee5c \u0111\u01b0\u1ee3c x\u00e1c \u0111\u1ecbnh trong h\u1ed9p tho\u1ea1i x\u00e1c nh\u1eadn *Ho\u00e0n th\u00e0nh* (*H\u00ecnh 12*), sau \u0111\u00f3 \u0111\u00ednh k\u00e8m t\u1ec7p m\u00e3 h\u00f3a v\u00e0o th\u01b0 \u0111i\u1ec7n t\u1eed b\u1ea1n mu\u1ed1n g\u1eedi \u0111i gi\u1ed1ng nh\u01b0 m\u1ed9t t\u1ec7p b\u00ecnh th\u01b0\u1eddng. \r\n\r\n**Quan tr\u1ecdng**: H\u00e3y l\u01b0u \u00fd r\u1eb1ng t\u00ean c\u1ee7a t\u1ec7p s\u1ebd **kh\u00f4ng \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a**. H\u00e3y \u0111\u1ea3m b\u1ea3o r\u1eb1ng t\u00ean t\u1ec7p kh\u00f4ng ti\u1ebft l\u1ed9 b\u1ea5t c\u1ee9 th\u00f4ng tin quan tr\u1ecdng n\u00e0o! \u0110\u1eebng qu\u00ean r\u1eb1ng t\u1ec7p nguy\u00ean b\u1ea3n ch\u01b0a \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a v\u1eafn c\u00f2n n\u1eb1m tr\u00ean \u1ed5 \u0111\u0129a.\r\n\r\n<a name=\"4.3\"></a>\r\n## 4.3 H\u01b0\u1edbng d\u1eabn Gi\u1ea3i m\u00e3 T\u1ec7p v\u1edbi gpg4usb ##\r\n\r\nTrong v\u00ed d\u1ee5 d\u01b0\u1edbi \u0111\u00e2y, Terence s\u1ebd gi\u1ea3i m\u00e3 t\u1ec7p nh\u1eadn \u0111\u01b0\u1ee3c t\u1eeb Salima, theo c\u00e1c b\u01b0\u1edbc sau:\r\n\r\n**B\u01b0\u1edbc 1**. **Nh\u1ea5n \u0111\u00fap chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/03.png) \u0111\u1ec3 k\u00edch ho\u1ea1t ch\u01b0\u01a1ng tr\u00ecnh **gpg4usb**.\r\n\r\n**B\u01b0\u1edbc 2**. **M\u1edf** h\u1ed9p th\u01b0 c\u1ee7a b\u1ea1n, v\u00e0 **m\u1edf** tin nh\u1eafn v\u00e0 **t\u1ea3i v\u1ec1** t\u1ec7p \u0111\u00ednh k\u00e8m.\r\n\r\n**L\u01b0u \u00fd**: N\u1ebfu \u0111\u1ed1i t\u00e1c li\u00ean l\u1ea1c c\u1ee7a b\u1ea1n c\u00f3 g\u1eedi tin nh\u1eafn \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a c\u00f3 \u0111\u00ednh k\u00e8m theo t\u1ec7p m\u00e3 h\u00f3a, b\u1ea1n c\u00f3 th\u1ec3 gi\u1ea3i m\u00e3 tin nh\u1eafn n\u00e0y theo ph\u01b0\u01a1ng ph\u00e1p \u0111\u00e3 h\u01b0\u1edbng d\u1eabn t\u1ea1i m\u1ee5c [**4.1 H\u01b0\u1edbng d\u1eabn Gi\u1ea3i M\u00e3 h\u00f3a Tin nh\u1eafn V\u0103n b\u1ea3n v\u1edbi gpg4usb**](https://securityinabox.org/vi/gpg4usb_mahoatep#4.1)\r\n\r\n**B\u01b0\u1edbc 3**. Trong giao di\u1ec7n **gpg4usb**  (nh\u01b0 trong *H\u00ecnh 1* ph\u00eda tr\u00ean), **Nh\u1ea5n chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/31.png) \u0111\u1ec3 k\u00edch ho\u1ea1t c\u1eeda s\u1ed5 **M\u00e3 h\u00f3a / Gi\u1ea3i m\u00e3 t\u1ec7p**  (nh\u01b0 trong *H\u00ecnh 13* ph\u00eda tr\u00ean). \r\n\r\n**B\u01b0\u1edbc 4**. **Nh\u1ea5n chu\u1ed9t v\u00e0o** ![](/sbox/screen/gpg4usb-vi/33.png) \u0111\u1ec3 m\u1edf th\u01b0 m\u1ee5c ch\u1ee9a t\u1ec7p m\u00e3 h\u00f3a v\u1eeba t\u1ea3i v\u1ec1 nh\u01b0 d\u01b0\u1edbi \u0111\u00e2y:\r\n\r\n![](/sbox/screen/gpg4usb-vi/37.png) \r\n\r\n*H\u00ecnh 13: C\u1eeda s\u1ed5 M\u00e3 h\u00f3a / Gi\u1ea3i m\u00e3 hi\u1ec3n th\u1ecb \u0111\u01b0\u1eddng d\u1eabn t\u1edbi t\u1ec7p m\u00e3 h\u00f3a*\r\n\r\n**B\u01b0\u1edbc 5**. **Nh\u1ea5n chu\u1ed9t v\u00e0o** OK \u0111\u1ec3 k\u00edch ho\u1ea1t c\u1eeda s\u1ed5 sau:\r\n\r\n![](/sbox/screen/gpg4usb-vi/39.png) \r\n\r\n*H\u00ecnh 14: H\u1ed9p tho\u1ea1i X\u00e1c nh\u1eadn Ho\u00e0n th\u00e0nh hi\u1ec3n th\u1ecb \u0111\u01b0\u1eddng d\u1eabn t\u1edbi t\u1ec7p \u0111\u01b0\u1ee3c gi\u1ea3i m\u00e3*\r\n\r\n**Quan tr\u1ecdng**: N\u1ebfu b\u1ea1n l\u00e0m vi\u1ec7c t\u1eeb m\u1ed9t qu\u00e1n caf\u00e9 Internet ho\u1eb7c s\u1eed d\u1ee5ng chung m\u1ed9t m\u00e1y t\u00ednh c\u00f3 nhi\u1ec1u ng\u01b0\u1eddi s\u1eed d\u1ee5ng, t\u1ed1t nh\u1ea5t h\u00e3y ch\u00e9p t\u1ec7p *.asc* v\u00e0o th\u1ebb nh\u1edb USB ho\u1eb7c \u1ed5 nh\u1edb di \u0111\u1ed9ng v\u00e0 gi\u1ea3i n\u00e9n t\u1ea1i nh\u00e0 trong \u0111i\u1ec7n ki\u1ec7n \u0111\u1ea3m b\u1ea3o t\u00ednh ri\u00eang t\u01b0."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2058", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2058", 
+                "link_title": "How to Encrypt and Decrypt Text and Files", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5204", 
+                "module": "book", 
+                "nid": "2058", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5204", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "How to Encrypt and Decrypt Text and Files", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1456953814", 
+            "comment": "0", 
+            "created": "1441122281", 
+            "current_revision_id": "13471", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "vi": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb_mahoatep", 
+                        "value": "gpg4usb_mahoatep"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5204": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2058", 
+                    "link_title": "How to Encrypt and Decrypt Text and Files", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5204", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5204", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2058", 
+            "num_revisions": "19", 
+            "path": "https://securityinabox.org/en/gpg4usb-encryptdecrypt", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456953814", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "vi": [
+                    {
+                        "format": null, 
+                        "safe_value": "H\u01b0\u1edbng d\u1eabn M\u00e3 h\u00f3a v\u00e0 Gi\u1ea3i m\u00e3 V\u0103n b\u1ea3n v\u00e0 T\u1ec7p", 
+                        "value": "H\u01b0\u1edbng d\u1eabn M\u00e3 h\u00f3a v\u00e0 Gi\u1ea3i m\u00e3 V\u0103n b\u1ea3n v\u00e0 T\u1ec7p"
+                    }
+                ]
+            }, 
+            "title_original": "How to Encrypt and Decrypt Text and Files", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933512", 
+                        "created": "1442933512", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454334177", 
+                        "created": "1442247427", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506774", 
+                        "created": "1442506774", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452097882", 
+                        "created": "1441633923", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1456953814", 
+                        "created": "1444733334", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455120475", 
+                        "created": "1455120475", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1456317301", 
+                        "created": "1443788863", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192711", 
+                        "created": "1441192711", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444189131", 
+                        "created": "1444189131", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024229", 
+                        "created": "1443024229", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834296", 
+                        "created": "1444730318", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122281", 
+                        "created": "1441122281", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2058", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445442983", 
+                        "created": "1445442983", 
+                        "entity_id": "2058", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2058", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "81b92808-4745-49d2-8adb-01d3abc61d18", 
+            "vid": "13471", 
+            "vuuid": "a47b45d9-f706-4f34-8ae5-79226dcb45eb"
+        }, 
+        {
+            "body": {
+                "vi": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>C\u00e1c m\u1ee5c trong trang n\u00e0y:</p>\n\n<ul><li><a href=\"#5.0\"><strong>5.0 C\u00e2u h\u1ecfi th\u01b0\u1eddng g\u1eb7p v\u00e0 T\u1ed5ng k\u1ebft</strong></a></li>\n<li><a href=\"#5.1\"><strong>5.1 C\u00e2u h\u1ecfi T\u1ed5ng k\u1ebft</strong></a></li>\n</ul><hr /><p>D\u00f9 Muhindo v\u00e0 Salima nh\u1eadn th\u1ea5y <strong>gpg4usb</strong> kh\u00e1 d\u1ec5 s\u1eed d\u1ee5ng, h\u1ecd v\u1eabn c\u00f3 m\u1ed9t s\u1ed1 th\u1eafc m\u1eafc v\u1ec1 c\u00e1ch s\u1eed d\u1ee5ng c\u00f4ng c\u1ee5 n\u00e0y.</p>\n\n<p><a name=\"5.0\" id=\"5.0\"></a></p>\n\n<h2>5.0 L\u00e0m th\u1ebf n\u00e0o \u0111\u1ec3 M\u00e3 h\u00f3a Tin nh\u1eafn v\u1edbi gpg4usb</h2>\n\n<div class=\"background\">\n\n<p><em><strong>Tr\u1ea3 l\u1eddi</strong>: C\u00f3 ph\u1ea3i <strong>gpg4usb</strong> b\u1eaft bu\u1ed9c ph\u1ea3i s\u1eed d\u1ee5ng tr\u00ean th\u1ebb nh\u1edb USB?</em></p>\n\n<p><em><strong>C\u00e2u h\u1ecfi</strong>: Kh\u00f4ng. Ch\u01b0\u01a1ng tr\u00ecnh c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c c\u00e0i \u0111\u1eb7t v\u00e0 k\u00edch ho\u1ea1t t\u1eeb \u1ed5 c\u1ee9ng m\u00e1y t\u00ednh.</em></p>\n\n<p><em><strong>Tr\u1ea3 l\u1eddi</strong>: C\u00f3 bao nhi\u00eau t\u00e0i kho\u1ea3n t\u00f4i c\u00f3 th\u1ec3 t\u1ea1o c\u00e1c c\u1eb7p kh\u00f3a?</em></p>\n\n<p><em><strong>C\u00e2u h\u1ecfi</strong>: B\u1ea1n mu\u1ed1n t\u1ea1o bao nhi\u00eau c\u0169ng \u0111\u01b0\u1ee3c</em></p>\n\n<p><em><strong>Tr\u1ea3 l\u1eddi</strong>: T\u00f4i th\u00edch t\u00ednh n\u0103ng \u0111\u01a1n gi\u1ea3n sao v\u00e0 ch\u00e9p c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng.</em></p>\n\n<p><em><strong>C\u00e2u h\u1ecfi</strong>: T\u1ea5t nhi\u00ean r\u1ed3i. Tuy nhi\u00ean, \u0111\u1eebng qu\u00ean r\u1eb1ng ti\u00eau \u0111\u1ec1 th\u01b0 \u0111i\u1ec7n t\u1eed c\u1ee7a b\u1ea1n s\u1ebd kh\u00f4ng \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a. V\u00ec v\u1eady, h\u00e3y c\u1ea9n th\u1eadn v\u00e0 kh\u00f4ng n\u00ean nh\u1eadp c\u00e1c ti\u00eau \u0111\u1ec1 c\u00f3 t\u00ednh m\u00f4 t\u1ea3 ho\u1eb7c c\u00f3 kh\u1ea3 n\u0103ng ti\u1ebft l\u1ed9 th\u00f4ng tin!</em></p>\n\n</div>\n\n<p><a name=\"5.1\" id=\"5.1\"></a></p>\n\n<h2>5.1 C\u00e2u h\u1ecfi T\u1ed5ng k\u1ebft</h2>\n\n<ul><li>S\u1ef1 kh\u00e1c nhau gi\u1eefa k\u00fd s\u1ed1 v\u00e0 x\u00e1c minh m\u1ed9t kh\u00f3a c\u00f4ng khai?</li>\n<li>V\u00e2n tay s\u1ed1 l\u00e0 g\u00ec v\u00e0 n\u00f3 \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng nh\u01b0 th\u1ebf n\u00e0o?</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "C\u00e1c m\u1ee5c trong trang n\u00e0y:\r\n\r\n- [**5.0 C\u00e2u h\u1ecfi th\u01b0\u1eddng g\u1eb7p v\u00e0 T\u1ed5ng k\u1ebft**](#5.0)\r\n- [**5.1 C\u00e2u h\u1ecfi T\u1ed5ng k\u1ebft**](#5.1)\r\n\r\n-------\r\n\r\nD\u00f9 Muhindo v\u00e0 Salima nh\u1eadn th\u1ea5y **gpg4usb** kh\u00e1 d\u1ec5 s\u1eed d\u1ee5ng, h\u1ecd v\u1eabn c\u00f3 m\u1ed9t s\u1ed1 th\u1eafc m\u1eafc v\u1ec1 c\u00e1ch s\u1eed d\u1ee5ng c\u00f4ng c\u1ee5 n\u00e0y.\r\n\r\n<a name=\"5.0\"></a>\r\n## 5.0 L\u00e0m th\u1ebf n\u00e0o \u0111\u1ec3 M\u00e3 h\u00f3a Tin nh\u1eafn v\u1edbi gpg4usb ##\r\n\r\n<div class=\"background\" markdown=\"1\"> \r\n\r\n***Tr\u1ea3 l\u1eddi**: C\u00f3 ph\u1ea3i **gpg4usb** b\u1eaft bu\u1ed9c ph\u1ea3i s\u1eed d\u1ee5ng tr\u00ean th\u1ebb nh\u1edb USB?*\r\n\r\n***C\u00e2u h\u1ecfi**: Kh\u00f4ng. Ch\u01b0\u01a1ng tr\u00ecnh c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c c\u00e0i \u0111\u1eb7t v\u00e0 k\u00edch ho\u1ea1t t\u1eeb \u1ed5 c\u1ee9ng m\u00e1y t\u00ednh.*\r\n\r\n***Tr\u1ea3 l\u1eddi**: C\u00f3 bao nhi\u00eau t\u00e0i kho\u1ea3n t\u00f4i c\u00f3 th\u1ec3 t\u1ea1o c\u00e1c c\u1eb7p kh\u00f3a?*\r\n\r\n***C\u00e2u h\u1ecfi**: B\u1ea1n mu\u1ed1n t\u1ea1o bao nhi\u00eau c\u0169ng \u0111\u01b0\u1ee3c*\r\n\r\n***Tr\u1ea3 l\u1eddi**: T\u00f4i th\u00edch t\u00ednh n\u0103ng \u0111\u01a1n gi\u1ea3n sao v\u00e0 ch\u00e9p c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng.*\r\n\r\n***C\u00e2u h\u1ecfi**: T\u1ea5t nhi\u00ean r\u1ed3i. Tuy nhi\u00ean, \u0111\u1eebng qu\u00ean r\u1eb1ng ti\u00eau \u0111\u1ec1 th\u01b0 \u0111i\u1ec7n t\u1eed c\u1ee7a b\u1ea1n s\u1ebd kh\u00f4ng \u0111\u01b0\u1ee3c m\u00e3 h\u00f3a. V\u00ec v\u1eady, h\u00e3y c\u1ea9n th\u1eadn v\u00e0 kh\u00f4ng n\u00ean nh\u1eadp c\u00e1c ti\u00eau \u0111\u1ec1 c\u00f3 t\u00ednh m\u00f4 t\u1ea3 ho\u1eb7c c\u00f3 kh\u1ea3 n\u0103ng ti\u1ebft l\u1ed9 th\u00f4ng tin!*\r\n\r\n</div>\r\n\r\n<a name=\"5.1\"></a>\r\n## 5.1 C\u00e2u h\u1ecfi T\u1ed5ng k\u1ebft ##\r\n\r\n- S\u1ef1 kh\u00e1c nhau gi\u1eefa k\u00fd s\u1ed1 v\u00e0 x\u00e1c minh m\u1ed9t kh\u00f3a c\u00f4ng khai?\r\n- V\u00e2n tay s\u1ed1 l\u00e0 g\u00ec v\u00e0 n\u00f3 \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng nh\u01b0 th\u1ebf n\u00e0o?"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2059", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2059", 
+                "link_title": "FAQ and Review", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5205", 
+                "module": "book", 
+                "nid": "2059", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5201", 
+                "p3": "5205", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5201", 
+                "router_path": "node/%", 
+                "title": "FAQ and Review", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1455121879", 
+            "comment": "0", 
+            "created": "1441122335", 
+            "current_revision_id": "13209", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "vi": [
+                    {
+                        "format": null, 
+                        "safe_value": "gpg4usb_cauhoitongket", 
+                        "value": "gpg4usb_cauhoitongket"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5205": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2059", 
+                    "link_title": "FAQ and Review", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5205", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5201", 
+                    "p3": "5205", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5201", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2059", 
+            "num_revisions": "15", 
+            "path": "https://securityinabox.org/en/gpg4usb-faq", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455121879", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "vi": [
+                    {
+                        "format": null, 
+                        "safe_value": "C\u00e2u h\u1ecfi th\u01b0\u1eddng g\u1eb7p v\u00e0 T\u1ed5ng k\u1ebft", 
+                        "value": "C\u00e2u h\u1ecfi th\u01b0\u1eddng g\u1eb7p v\u00e0 T\u1ed5ng k\u1ebft"
+                    }
+                ]
+            }, 
+            "title_original": "FAQ and Review", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442933622", 
+                        "created": "1442933622", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442246882", 
+                        "created": "1442246882", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442506854", 
+                        "created": "1442506854", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442325864", 
+                        "created": "1441634027", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444733392", 
+                        "created": "1444733392", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "km": {
+                        "changed": "1455121879", 
+                        "created": "1455121879", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443789030", 
+                        "created": "1443789030", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441192792", 
+                        "created": "1441192792", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444189237", 
+                        "created": "1444189237", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443024253", 
+                        "created": "1443024253", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444834357", 
+                        "created": "1444730386", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441122335", 
+                        "created": "1441122335", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2059", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445443061", 
+                        "created": "1445443061", 
+                        "entity_id": "2059", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2059", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "857e0192-b870-418f-9001-d60648efc330", 
+            "vid": "13209", 
+            "vuuid": "82ea3467-0eb9-4b93-b0aa-d561230213e7"
+        }
+    ], 
+    "changed": "1456953707", 
+    "comment": "0", 
+    "created": "1441122154", 
+    "current_revision_id": "13470", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "vi": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "vi": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>C\u00e0i \u0111\u1eb7t gpg4usb</strong></p>\n\n<ul><li><em><strong>Nh\u1ea5n chu\u1ed9t</strong> v\u00e0o bi\u1ec3u  t\u01b0\u1ee3ng <strong>gpg4usb</strong> b\u00ean d\u01b0\u1edbi \u0111\u1ec3 m\u1edf trang  <strong>http://gpg4usb.cpunk.de/download.html</strong></em></li>\n<li><em><strong>Nh\u1ea5n chu\u1ed9t</strong> v\u00e0o \u0111\u01b0\u1eddng  d\u1eabn <strong>gpg4usb-x.x.x.zip</strong> b\u00ean d\u01b0\u1edbi m\u1ee5c <strong>Filename</strong> \u0111\u1ec3 t\u1ea3i v\u1ec1  t\u1ec7p n\u00e9n zip.</em></li>\n<li><em><strong>Chuy\u1ec3n t\u1edbi</strong> th\u01b0 m\u1ee5c ch\u1ee9a t\u1ec7p gpg4usb-x.x.x.zip v\u1eeba t\u1ea3i  v\u1ec1, v\u00e0 <strong>gi\u1ea3i  n\u00e9n</strong> t\u1ec7p.</em> </li>\n<li><em>Sau  khi \u0111\u00e3 gi\u1ea3i  n\u00e9n  t\u1ea5t c\u1ea3 c\u00e1c t\u1ec7p, b\u1ea1n c\u00f3 th\u1ec3 x\u00f3a t\u1ec7p n\u00e9n .zip \u0111\u01b0\u1ee3c t\u1ea3i v\u1ec1</em></li>\n</ul><p><strong>gpg4usb</strong></p>\n\n<p><a href=\"http://gpg4usb.cpunk.de/download.html\"><img src=\"/sbox/screen/gpg4usb-vi/gpg4usb.png\" alt=\"\" /></a></p>\n", 
+                "value": "**C\u00e0i \u0111\u1eb7t gpg4usb**\r\n\r\n- ***Nh\u1ea5n chu\u1ed9t** v\u00e0o bi\u1ec3u  t\u01b0\u1ee3ng **gpg4usb** b\u00ean d\u01b0\u1edbi \u0111\u1ec3 m\u1edf trang  **http://gpg4usb.cpunk.de/download.html***\r\n- ***Nh\u1ea5n chu\u1ed9t** v\u00e0o \u0111\u01b0\u1eddng  d\u1eabn **gpg4usb-x.x.x.zip** b\u00ean d\u01b0\u1edbi m\u1ee5c **Filename** \u0111\u1ec3 t\u1ea3i v\u1ec1  t\u1ec7p n\u00e9n zip.*\r\n- ***Chuy\u1ec3n t\u1edbi** th\u01b0 m\u1ee5c ch\u1ee9a t\u1ec7p gpg4usb-x.x.x.zip v\u1eeba t\u1ea3i  v\u1ec1, v\u00e0 **gi\u1ea3i  n\u00e9n** t\u1ec7p.* \r\n- *Sau  khi \u0111\u00e3 gi\u1ea3i  n\u00e9n  t\u1ea5t c\u1ea3 c\u00e1c t\u1ec7p, b\u1ea1n c\u00f3 th\u1ec3 x\u00f3a t\u1ec7p n\u00e9n .zip \u0111\u01b0\u1ee3c t\u1ea3i v\u1ec1*\r\n\r\n**gpg4usb**\r\n\r\n[![](/sbox/screen/gpg4usb-vi/gpg4usb.png)](http://gpg4usb.cpunk.de/download.html)\r\n"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "vi": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>T\u1ea3i v\u1ec1 gpg4usb</strong></p>\n\n<ul><li><em><strong>Nh\u1ea5n chu\u1ed9t</strong> v\u00e0o bi\u1ec3u  t\u01b0\u1ee3ng <strong>gpg4usb</strong> b\u00ean d\u01b0\u1edbi \u0111\u1ec3 m\u1edf trang  <strong>http://gpg4usb.cpunk.de/download.html</strong></em></li>\n<li><em><strong>Nh\u1ea5n chu\u1ed9t</strong> v\u00e0o \u0111\u01b0\u1eddng  d\u1eabn <strong>gpg4usb-x.x.x.zip</strong> b\u00ean d\u01b0\u1edbi m\u1ee5c <strong>Filename</strong> \u0111\u1ec3 t\u1ea3i v\u1ec1  t\u1ec7p n\u00e9n zip.</em></li>\n<li><em><strong>Chuy\u1ec3n t\u1edbi</strong> th\u01b0 m\u1ee5c ch\u1ee9a t\u1ec7p gpg4usb-x.x.x.zip v\u1eeba t\u1ea3i  v\u1ec1, v\u00e0 <strong>gi\u1ea3i  n\u00e9n</strong> t\u1ec7p.</em> </li>\n<li><em>Sau  khi \u0111\u00e3 gi\u1ea3i  n\u00e9n  t\u1ea5t c\u1ea3 c\u00e1c t\u1ec7p, b\u1ea1n c\u00f3 th\u1ec3 x\u00f3a t\u1ec7p n\u00e9n .zip \u0111\u01b0\u1ee3c t\u1ea3i v\u1ec1</em></li>\n</ul><p><strong>gpg4usb</strong></p>\n\n<p><a href=\"http://gpg4usb.org/download.html\"><img src=\"/sbox/screen/gpg4usb-vi/gpg4usb.png\" alt=\"\" /></a></p>\n", 
+                "value": "**T\u1ea3i v\u1ec1 gpg4usb**\r\n\r\n- ***Nh\u1ea5n chu\u1ed9t** v\u00e0o bi\u1ec3u  t\u01b0\u1ee3ng **gpg4usb** b\u00ean d\u01b0\u1edbi \u0111\u1ec3 m\u1edf trang  **http://gpg4usb.cpunk.de/download.html***\r\n- ***Nh\u1ea5n chu\u1ed9t** v\u00e0o \u0111\u01b0\u1eddng  d\u1eabn **gpg4usb-x.x.x.zip** b\u00ean d\u01b0\u1edbi m\u1ee5c **Filename** \u0111\u1ec3 t\u1ea3i v\u1ec1  t\u1ec7p n\u00e9n zip.*\r\n- ***Chuy\u1ec3n t\u1edbi** th\u01b0 m\u1ee5c ch\u1ee9a t\u1ec7p gpg4usb-x.x.x.zip v\u1eeba t\u1ea3i  v\u1ec1, v\u00e0 **gi\u1ea3i  n\u00e9n** t\u1ec7p.* \r\n- *Sau  khi \u0111\u00e3 gi\u1ea3i  n\u00e9n  t\u1ea5t c\u1ea3 c\u00e1c t\u1ec7p, b\u1ea1n c\u00f3 th\u1ec3 x\u00f3a t\u1ec7p n\u00e9n .zip \u0111\u01b0\u1ee3c t\u1ea3i v\u1ec1*\r\n\r\n**gpg4usb**\r\n\r\n[![](/sbox/screen/gpg4usb-vi/gpg4usb.png)](http://gpg4usb.org/download.html)"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "vi": [
+            {
+                "format": null, 
+                "safe_value": "gpg4usb ", 
+                "value": "gpg4usb "
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "vi": [
+            {
+                "format": null, 
+                "safe_value": "gpg4usb - Ph\u1ea7n m\u1ec1m m\u00e3 h\u00f3a tin nh\u1eafn v\u00e0 t\u1ec7p", 
+                "value": "gpg4usb - Ph\u1ea7n m\u1ec1m m\u00e3 h\u00f3a tin nh\u1eafn v\u00e0 t\u1ec7p"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "vi": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>gpg4usb</strong> l\u00e0 ph\u1ea7n m\u1ec1m mi\u1ec5n ph\u00ed  m\u00e3 ngu\u1ed3n m\u1edf ch\u1ea1y kh\u00f4ng c\u1ea7n c\u00e0i \u0111\u1eb7t cho ph\u00e9p b\u1ea1n m\u00e3 h\u00f3a c\u00e1c tin nh\u1eafn v\u0103n b\u1ea3n v\u00e0 c\u00e1c t\u1ec7p. Ph\u1ea7n m\u1ec1m n\u00e0y s\u1eed d\u1ee5ng thu\u1eadt  to\u00e1n M\u00e3 h\u00f3a v\u1edbi Kh\u00f3a C\u00f4ng khai nh\u01b0 c\u00e1c ch\u01b0\u01a1ng tr\u00ecnh  <strong>GPG</strong> v\u00e0 <strong>PGP</strong> ph\u1ed5 bi\u1ebfn kh\u00e1c.</p>\n", 
+                "value": "**gpg4usb** l\u00e0 ph\u1ea7n m\u1ec1m mi\u1ec5n ph\u00ed  m\u00e3 ngu\u1ed3n m\u1edf ch\u1ea1y kh\u00f4ng c\u1ea7n c\u00e0i \u0111\u1eb7t cho ph\u00e9p b\u1ea1n m\u00e3 h\u00f3a c\u00e1c tin nh\u1eafn v\u0103n b\u1ea3n v\u00e0 c\u00e1c t\u1ec7p. Ph\u1ea7n m\u1ec1m n\u00e0y s\u1eed d\u1ee5ng thu\u1eadt  to\u00e1n M\u00e3 h\u00f3a v\u1edbi Kh\u00f3a C\u00f4ng khai nh\u01b0 c\u00e1c ch\u01b0\u01a1ng tr\u00ecnh  **GPG** v\u00e0 **PGP** ph\u1ed5 bi\u1ebfn kh\u00e1c."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-13 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "vi": [
+            {
+                "format": null, 
+                "safe_value": "gpg4usb_main", 
+                "value": "gpg4usb_main"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "14"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "14"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5201": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2055", 
+            "link_title": "gpg4usb - email text and files encryption", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5201", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5201", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-2"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2055", 
+    "num_revisions": "22", 
+    "path": "https://securityinabox.org/en/gpg4usb_portable", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1456953707", 
+    "revision_uid": "141", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "vi": [
+            {
+                "format": null, 
+                "safe_value": "gpg4usb - Ph\u1ea7n m\u1ec1m m\u00e3 h\u00f3a tin nh\u1eafn v\u00e0 t\u1ec7p", 
+                "value": "gpg4usb - Ph\u1ea7n m\u1ec1m m\u00e3 h\u00f3a tin nh\u1eafn v\u00e0 t\u1ec7p"
+            }
+        ]
+    }, 
+    "title_original": "gpg4usb - email text and files encryption", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1455887654", 
+                "created": "1442933243", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442246235", 
+                "created": "1442246235", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442506493", 
+                "created": "1442506493", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1442325310", 
+                "created": "1441633605", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1456953707", 
+                "created": "1444733145", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "km": {
+                "changed": "1455119984", 
+                "created": "1455119984", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1456155294", 
+                "created": "1443788580", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441192432", 
+                "created": "1441192432", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444187878", 
+                "created": "1444187878", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1443016516", 
+                "created": "1443016516", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1456929433", 
+                "created": "1443525988", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441183378", 
+                "created": "1441122154", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2055", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445442700", 
+                "created": "1445442700", 
+                "entity_id": "2055", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2055", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "4a066479-8db3-4fe8-b68d-d446add181e4", 
+    "vid": "13470", 
+    "vuuid": "6297f3f0-5177-4e3c-83d8-c466ee9994b0"
+}

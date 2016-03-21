@@ -24,7 +24,7 @@ Python dependencies: python-slugify,  python-xml, ???
 """ % argv[0]
 
 ### List of underlying guides (not Community Guide "wrappers") to skip
-skip_list = { '342', '2525' }
+skip_list = { '342', '2525', '1597' }
 
 ### DEBUG: All (underlying) Tactics Guide and Tool Guide nids
 # 
@@ -826,7 +826,7 @@ def pp(json_data):
 
 if input_nid == "all":
     fetch_all_guides()
-    # fetch_all_legacy_guides()
+    fetch_all_legacy_guides()
 
 else:
     validate_nid(input_nid)

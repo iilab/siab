@@ -1,0 +1,1356 @@
+{
+    "body": {
+        "id": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p>Ilegal akses ke informasi di komputer atau portable storage anda dapat saja dilakukan dari jarak jauh, hal ini dimungkinkan apabila si penyusup masuk ke data anda melalui jaringan internet atau cara lain, secara fisik, hal ini dapat terjadi karena orang tersebut menguasai hardware anda. Anda dapat melindungi diri dari kedua ancaman tersebut dengan meningkatkan keamanan fisik dan jaringan data anda, seperti yang telah dibahas di <a href=\"/id/chapter-1\"><strong><em>Bab 1: Cara melindungi komputer anda dari malware dan peretas (hacker)</em></strong></a> dan <a href=\"/id/chapter-2\"><strong><em>Bab 2: Cara melindungi informasi anda dari ancaman fisik</em></strong></a>. Sangat disarankan bagi anda untuk menggunakan beberapa lapis penjagaan, namun anda juga disarankan untuk tetap melindungi masing-masing berkas yang ada di komputer anda. Dengan demikian informasi penting anda akan tetap aman walaupun usaha pengamanan yang lain gagal.</p>\n\n<p>Ada dua cara pendekatan yang dapat dilakukan untuk mengamankan data anda. Pertama anda dapat mengenkripsi ( <em><a href=\"/id/glossary#Encryption\">encrypt</a></em>) berkas, dengan membuatnya tidak bisa terbaca oleh orang lain selain anda, atau anda dapat menyembunyikannya dengan harapan si penyusup tidak dapat menemukan informasi rahasia tersebut. Ada beberapa alat yang dapat membantu anda menerapkan dua pendekatan tersebut, salah satunya adalah aplikasi <a href=\"/id/glossary#FOSS\"><em>FOSS</em></a>  yang disebut <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a>, alat yang dapat mengenkripsi (<a href=\"/id/glossary#Encryption\">encrypt</a>) dan menyembunyikan berkas anda</p>\n\n<h3>Latar belakang</h3>\n\n<div class=\"background\">\n\n<p>Claudia dan Pablo bekerja di sebuah LSM hak asasi manusia di salah satu negara di Amerika Selatan. Selama berbulan-bulan mereka mengumpulkan kesaksian/pernyataan dari orang-orang yang menyaksikan pelanggaran hak asasi manusia yang dilakukan oleh anggota militer di daerah mereka. Jika informasi mengenai para saksi tersebut terbongkar maka akan membahayakan, baik pihak-pihak yang bersaksi maupun orang-orang yang bekerja di LSM tersebut. Saat ini informasi tersebut disimpan di sebuah lembar kerja dalam komputer Windows XP milik LSM yangjuga terhubung dengan internet. Karena sadar akan keamanan, Claudia telah menduplikasikan data yang ia simpan di dalam sebuah CD dan di simpan di suatu tempat di luar kantornya</p>\n\n</div>\n\n<h3>Yang dapat dipajari dari bab ini</h3>\n\n<ul><li>Cara mengenkripsi (<a href=\"/id/glossary#Encryption\"><em>encrypt</em></a>) informasi dalam komputer anda </li>\n<li>Risiko yang mungkin anda hadapi berkaitan dengan data yang dienkripsi (<a href=\"/id/glossary#Encryption\">encrypted</a>)</li>\n<li>Cara melindungi data dalam stik memori USB, jika saja data hilang atau dicuri</li>\n<li>Langkah yang dapat anda ambil untuk menyembunyikan informasi dari penyusup</li>\n</ul>", 
+                "summary": "", 
+                "value": "Ilegal akses ke informasi di komputer atau portable storage anda dapat saja dilakukan dari jarak jauh, hal ini dimungkinkan apabila si penyusup masuk ke data anda melalui jaringan internet atau cara lain, secara fisik, hal ini dapat terjadi karena orang tersebut menguasai hardware anda. Anda dapat melindungi diri dari kedua ancaman tersebut dengan meningkatkan keamanan fisik dan jaringan data anda, seperti yang telah dibahas di [***Bab 1: Cara melindungi komputer anda dari malware dan peretas (hacker)***](/id/chapter-1) dan [***Bab 2: Cara melindungi informasi anda dari ancaman fisik***](/id/chapter-2). Sangat disarankan bagi anda untuk menggunakan beberapa lapis penjagaan, namun anda juga disarankan untuk tetap melindungi masing-masing berkas yang ada di komputer anda. Dengan demikian informasi penting anda akan tetap aman walaupun usaha pengamanan yang lain gagal. \r\n\r\nAda dua cara pendekatan yang dapat dilakukan untuk mengamankan data anda. Pertama anda dapat mengenkripsi ( *[encrypt](/id/glossary#Encryption)*) berkas, dengan membuatnya tidak bisa terbaca oleh orang lain selain anda, atau anda dapat menyembunyikannya dengan harapan si penyusup tidak dapat menemukan informasi rahasia tersebut. Ada beberapa alat yang dapat membantu anda menerapkan dua pendekatan tersebut, salah satunya adalah aplikasi [*FOSS*](/id/glossary#FOSS)  yang disebut [*TrueCrypt*](/id/glossary#TrueCrypt), alat yang dapat mengenkripsi ([encrypt](/id/glossary#Encryption)) dan menyembunyikan berkas anda \r\n\r\n### Latar belakang ###\r\n<div class=\"background\" markdown=\"1\">\r\n\r\nClaudia dan Pablo bekerja di sebuah LSM hak asasi manusia di salah satu negara di Amerika Selatan. Selama berbulan-bulan mereka mengumpulkan kesaksian/pernyataan dari orang-orang yang menyaksikan pelanggaran hak asasi manusia yang dilakukan oleh anggota militer di daerah mereka. Jika informasi mengenai para saksi tersebut terbongkar maka akan membahayakan, baik pihak-pihak yang bersaksi maupun orang-orang yang bekerja di LSM tersebut. Saat ini informasi tersebut disimpan di sebuah lembar kerja dalam komputer Windows XP milik LSM yangjuga terhubung dengan internet. Karena sadar akan keamanan, Claudia telah menduplikasikan data yang ia simpan di dalam sebuah CD dan di simpan di suatu tempat di luar kantornya\r\n</div>\r\n\r\n###Yang dapat dipajari dari bab ini### \r\n\r\n* Cara mengenkripsi ([*encrypt*](/id/glossary#Encryption)) informasi dalam komputer anda \r\n* Risiko yang mungkin anda hadapi berkaitan dengan data yang dienkripsi ([encrypted](/id/glossary#Encryption))\r\n* Cara melindungi data dalam stik memori USB, jika saja data hilang atau dicuri\r\n* Langkah yang dapat anda ambil untuk menyembunyikan informasi dari penyusup \r\n"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1925", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/1940", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/1940", 
+        "link_title": "4. How to protect the sensitive files on your computer", 
+        "menu_name": "book-toc-1925", 
+        "mlid": "5085", 
+        "module": "book", 
+        "nid": "1940", 
+        "options": [], 
+        "p1": "5030", 
+        "p2": "5085", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5030", 
+        "router_path": "node/%", 
+        "title": "4. How to protect the sensitive files on your computer", 
+        "updated": "0", 
+        "weight": "4"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<div class=\"background\">\n\n<p>Pablo: Komputer saya kan sudah dilindungi dengan kata sandi masuk ke Windows! Apakah itu tidak cukup?</p>\n\n<p>Claudia: Sebenarnya kata sandi masuk Windows itu mudah sekali dibongkar. Siapa saja yang menggunakan komputermu, bisa menyalakannya kembali dan dengan menggunakan LiveCD bisa mengkopi semua data tanpa harus menembus kata sandimu. Jika mereka mengambil semua datamu, bahkan untuk waktu sebentar saja, masalahmu akan sangat besar. Selain kata sandi Windows, sebaiknya kamu juga jangan terlalu tergantung pada kata sandi Microsoft Word dan Adobe Acrobat.</p>\n\n</div>\n\n<p>Mengenkripsi (<a href=\"/id/glossary#Encryption\"><em>Encrypting</em></a>) informasi kurang lebih sama seperti menyimpannya di brankas yang terkunci. Hanya orang yang punya kuncinya atau tahu kombinasi nomor (dalam hal ini kunci atau sandi <a href=\"/id/glossary#Encryption\"><em>encryption</em></a>) yang bisa mengaksesnya. Analogi tersebut sesuai untuk <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a> dan alat sejenisnya yang dapat membuat wadah pengaman yang disebut 'encrypted volumes', sehingga anda tidak harus selalu melindungi setiap berkas setiap waktu. Anda dapat menyimpan banyak berkas dalam satu '<a href=\"/id/glossary#Encryption\"><em>encrypted</em></a> volume', tetapi berkas atau file program yang ditempatkan diluar program ini tidak akan terlindungi demikian juga dengan stik memori USB anda.</p>\n\n<div class=\"getstarted\">\n\n<p><strong>Hands-on: Petunjuk Memulai Penggunaan</strong> <a href=\"/truecrypt_main\"><strong><em>TrueCrypt</em></strong></a></p>\n\n</div>\n\n<p>Perangkat lunak (software) lain mungkin saja menyediakan enkripsi (<em><a href=\"/id/glossary#Encryption\">encryption</a></em>) yang sama kuatnya, tetapi <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a> dibuat khusus agar sistem penyimpanan berkas tersebut mudah digunakan. Selain itu, program ini juga dilengkapi dengan kemampuan untuk membawa <em><a href=\"/id/glossary#Encryption\">encrypted</a></em> volumes dalam media penyimpanan portabel, faktanya ini adalah perangkat <a href=\"/id/glossary#FOSS\"><em>FOSS</em></a> dan fitur penyangkalan (deniability) yang akan dijelaskan dalam bagian <a href=\"/id/chapter_4_2\"><strong><em>Menyembunyikan informasi rahasia anda</em></strong></a> dibawah ini, <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a> memiliki keunggulan yang berbeda dibandingkan dengan alat-alat enkripsi berhak paten (<a href=\"/id/glossary#Proprietary_software\"><em>proprietary</em></a> <a href=\"/id/glossary#Encryption\"><em>encryption</em></a>) seperti \u2018bitlocker\u2019 dari Windows XP.</p>\n\n<div class=\"background\">\n\n<p>Pablo: Nah, sekarang aku jadi khawatir. Bagaimana dengan pengguna (users) lain yang memakai komputerku? Apa mereka juga bisa membaca berkas yang ada di folder \u2018My Documents\u2019?</p>\n\n<p>Claudia: Aku suka cara berpikirmu! Kalau kata sandi Windows saja tidak dapat melindungi komputermu dari penyusup yang ada diluar, bagaimana mungkin kata sandi itu melindungi komputermu dari orang (user) lain yang punya akun di komputermu? Jadi folder My Documents-mu memang bisa dilihat oleh siapa saja, bahkan orang lain bisa dengan mudah membaca berkasmu yang tidak dienkripsi. Kamu benar, walaupun folder sudah di buat menjadi 'private' tetap saja tidak aman kecuali kamu meng-enkripsi-nya.</p>\n\n</div>\n\n<h3>Petunjuk untuk menggunakan enkripsi dengan aman</h3>\n\n<p>Menyimpan data rahasia bisa beresiko bagi anda dan orang lain yang bekerja dengan anda. Enkripsi (<em><a href=\"/id/glossary#Encryption\">Encryption</a></em>) memperkecil resiko tersebut tetapi tidak menghilangkannya. Langkah pertama untuk melindungi informasi sensitif adalah dengan mengurangi jumlahnya. Jika tidak ada alasan tertentu untuk menyimpan suatu berkas atau kategori informasi tertentu dalam suatu berkas, sebaiknya anda menghapusnya (lihat <a href=\"/id/chapter-6\"><strong><em>Bab 6: Cara menghancurkan informasi rahasia</em></strong></a>) untuk mengetahui cara melakukannya dengan aman. Langkah kedua adalah dengan cara menggunakan alat enkripsi (<a href=\"/id/glossary#Encryption\"><em>encryption</em></a>) yang baik, seperti <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a>.</p>\n\n<div class=\"background\">\n\n<p>Claudia:Mungkin kita tidak perlu menyimpan informasi yang dapat mengidentifikasi orang-orang yang memberi kesaksian pada kita. Menurutmu bagaimana?</p>\n\n<p>Pablo:Setuju! Mungkin sebaiknya kita menuliskannya sesedikit mungkin. Selain itu, kita harus memikirkan kode sederhana yang bisa kita gunakan untuk melindungi nama dan lokasi yang memang harus kita catat</p>\n\n</div>\n\n<p>Kembali ke analogi brankas sebelumnya, ada beberapa hal yang harus anda perhatikan saat menggunakan <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a> dan alat sejenisnya. Sebagaimanapun kokohnya brankas anda, akan menjadi tidak berguna jika anda membiarkan pintunya terbuka. Saat <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a> volume anda sudah terpasang (saat anda bisa mengakses isinya), data anda menjadi rentan, maka anda harus selalu menutupnya, kecuali saat anda sedang membaca atau memodifikasi berkas yang ada di dalamnya.</p>\n\n<p>Ada beberapa situasi dimana anda harus ingat untuk tidak meninggalkan <a href=\"/id/glossary#Encryption\"><em>encrypted</em></a> volumes anda 'terpasang (mounted)':</p>\n\n<ul><li>Putuskan sambungan saat anda hendak meninggalkan komputer anda. Tapi jika anda terbiasa membiarkan komputer anda menyala semalaman, anda harus memastikan bahwa anda tidak membiarkan berkas rahasia anda dapat diakses oleh penyusup, baik secara fisik atau jarak jauh.</li>\n<li>Putuskan sambungan ke komputer anda sebelum anda memasangnya dalam posisi \"sleep\". Hal ini juga berlaku jika anda hendak memasang komputer anda dalam posisi 'suspend' atau 'hibernation' yang biasanya hanya ada di laptop tapi juga tidak menutup kemungkinan terjadi di komputer anda.</li>\n<li>Putuskan sambungan sebelum orang lain menggunakan komputer anda. Saat anda membawa laptop dan melewati petugas pemeriksa atau perbatasan, sangatlah penting untuk memutuskan semua <a href=\"/id/glossary#Encryption\"><em>encrypted</em></a> volume dan mematikan komputer anda secara sempurna.</li>\n<li>Putuskan sambungan sebelum memasukkan stik memori USB atau perangkat penyimpan eksternal lain yang tidak terpercaya, termasuk perangkat milik teman atau kolega anda.</li>\n<li>Jika anda menyimpan  <a href=\"/id/glossary#Encryption\"><em>encrypted</em></a> volume  di dalam stik memori USB, ingatlah bahwa mencabut perangkat tersebut tidak secara langsung memutuskan enkripsi volume tersebut. Bahkan saat anda terburu-buru, anda harus tetap mematikan 'enkripsi volume' secara sempurna, lalu memutuskan sambungan 'external drive atau stik memory, baru anda dapat mencabutnya dari komputer anda. Sebaiknya anda berlatih sampai anda menemukan cara terbaik untuk melakukannya dengan cepat.</li>\n</ul><p>Jika anda memutuskan untuk menyimpan <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a> volume  dalam stik memori USB, anda juga dapat menyimpan salinan program <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a> di dalamnya. Dengan demikian anda dapat mengakses data anda melalui komputer lain. Tetapi, aturan main yang sama tetap berlaku: jika anda tidak yakin komputer tersebut bebas <a href=\"/id/glossary#Malware\"><em>malware</em></a>, anda sebaiknya tidak mengetikkan kata sandi atau mengakses data rahasia anda.</p>\n", 
+                        "summary": "", 
+                        "value": "<div class=\"background\" markdown=\"1\">\r\nPablo: Komputer saya kan sudah dilindungi dengan kata sandi masuk ke Windows! Apakah itu tidak cukup?\r\n\r\nClaudia: Sebenarnya kata sandi masuk Windows itu mudah sekali dibongkar. Siapa saja yang menggunakan komputermu, bisa menyalakannya kembali dan dengan menggunakan LiveCD bisa mengkopi semua data tanpa harus menembus kata sandimu. Jika mereka mengambil semua datamu, bahkan untuk waktu sebentar saja, masalahmu akan sangat besar. Selain kata sandi Windows, sebaiknya kamu juga jangan terlalu tergantung pada kata sandi Microsoft Word dan Adobe Acrobat.\r\n</div>\r\n\r\nMengenkripsi ([*Encrypting*](/id/glossary#Encryption)) informasi kurang lebih sama seperti menyimpannya di brankas yang terkunci. Hanya orang yang punya kuncinya atau tahu kombinasi nomor (dalam hal ini kunci atau sandi [*encryption*](/id/glossary#Encryption)) yang bisa mengaksesnya. Analogi tersebut sesuai untuk [*TrueCrypt*](/id/glossary#TrueCrypt) dan alat sejenisnya yang dapat membuat wadah pengaman yang disebut 'encrypted volumes', sehingga anda tidak harus selalu melindungi setiap berkas setiap waktu. Anda dapat menyimpan banyak berkas dalam satu '[*encrypted*](/id/glossary#Encryption) volume', tetapi berkas atau file program yang ditempatkan diluar program ini tidak akan terlindungi demikian juga dengan stik memori USB anda.\r\n\r\n<div class=\"getstarted\" markdown=\"1\">\r\n**Hands-on: Petunjuk Memulai Penggunaan** [***TrueCrypt***](/truecrypt_main)\r\n</div>\r\n\r\nPerangkat lunak (software) lain mungkin saja menyediakan enkripsi (*[encryption](/id/glossary#Encryption)*) yang sama kuatnya, tetapi [*TrueCrypt*](/id/glossary#TrueCrypt) dibuat khusus agar sistem penyimpanan berkas tersebut mudah digunakan. Selain itu, program ini juga dilengkapi dengan kemampuan untuk membawa *[encrypted](/id/glossary#Encryption)* volumes dalam media penyimpanan portabel, faktanya ini adalah perangkat [*FOSS*](/id/glossary#FOSS) dan fitur penyangkalan (deniability) yang akan dijelaskan dalam bagian [***Menyembunyikan informasi rahasia anda***](/id/chapter_4_2) dibawah ini, [*TrueCrypt*](/id/glossary#TrueCrypt) memiliki keunggulan yang berbeda dibandingkan dengan alat-alat enkripsi berhak paten ([*proprietary*](/id/glossary#Proprietary_software) [*encryption*](/id/glossary#Encryption)) seperti \u2018bitlocker\u2019 dari Windows XP.\r\n\r\n<div class=\"background\" markdown=\"1\">\r\nPablo: Nah, sekarang aku jadi khawatir. Bagaimana dengan pengguna (users) lain yang memakai komputerku? Apa mereka juga bisa membaca berkas yang ada di folder \u2018My Documents\u2019?\r\n\r\nClaudia: Aku suka cara berpikirmu! Kalau kata sandi Windows saja tidak dapat melindungi komputermu dari penyusup yang ada diluar, bagaimana mungkin kata sandi itu melindungi komputermu dari orang (user) lain yang punya akun di komputermu? Jadi folder My Documents-mu memang bisa dilihat oleh siapa saja, bahkan orang lain bisa dengan mudah membaca berkasmu yang tidak dienkripsi. Kamu benar, walaupun folder sudah di buat menjadi 'private' tetap saja tidak aman kecuali kamu meng-enkripsi-nya.\r\n</i>\r\n</div>\r\n\r\n### Petunjuk untuk menggunakan enkripsi dengan aman ###\r\n\r\nMenyimpan data rahasia bisa beresiko bagi anda dan orang lain yang bekerja dengan anda. Enkripsi (*[Encryption](/id/glossary#Encryption)*) memperkecil resiko tersebut tetapi tidak menghilangkannya. Langkah pertama untuk melindungi informasi sensitif adalah dengan mengurangi jumlahnya. Jika tidak ada alasan tertentu untuk menyimpan suatu berkas atau kategori informasi tertentu dalam suatu berkas, sebaiknya anda menghapusnya (lihat [***Bab 6: Cara menghancurkan informasi rahasia***](/id/chapter-6)) untuk mengetahui cara melakukannya dengan aman. Langkah kedua adalah dengan cara menggunakan alat enkripsi ([*encryption*](/id/glossary#Encryption)) yang baik, seperti [*TrueCrypt*](/id/glossary#TrueCrypt). \r\n  \r\n<div class=\"background\" markdown=\"1\">\r\nClaudia:Mungkin kita tidak perlu menyimpan informasi yang dapat mengidentifikasi orang-orang yang memberi kesaksian pada kita. Menurutmu bagaimana?\r\n\r\nPablo:Setuju! Mungkin sebaiknya kita menuliskannya sesedikit mungkin. Selain itu, kita harus memikirkan kode sederhana yang bisa kita gunakan untuk melindungi nama dan lokasi yang memang harus kita catat \t\t\t\r\n</div>\r\n\r\nKembali ke analogi brankas sebelumnya, ada beberapa hal yang harus anda perhatikan saat menggunakan [*TrueCrypt*](/id/glossary#TrueCrypt) dan alat sejenisnya. Sebagaimanapun kokohnya brankas anda, akan menjadi tidak berguna jika anda membiarkan pintunya terbuka. Saat [*TrueCrypt*](/id/glossary#TrueCrypt) volume anda sudah terpasang (saat anda bisa mengakses isinya), data anda menjadi rentan, maka anda harus selalu menutupnya, kecuali saat anda sedang membaca atau memodifikasi berkas yang ada di dalamnya.\r\n\r\nAda beberapa situasi dimana anda harus ingat untuk tidak meninggalkan [*encrypted*](/id/glossary#Encryption) volumes anda 'terpasang (mounted)':\r\n\r\n* Putuskan sambungan saat anda hendak meninggalkan komputer anda. Tapi jika anda terbiasa membiarkan komputer anda menyala semalaman, anda harus memastikan bahwa anda tidak membiarkan berkas rahasia anda dapat diakses oleh penyusup, baik secara fisik atau jarak jauh.\r\n* Putuskan sambungan ke komputer anda sebelum anda memasangnya dalam posisi \"sleep\". Hal ini juga berlaku jika anda hendak memasang komputer anda dalam posisi 'suspend' atau 'hibernation' yang biasanya hanya ada di laptop tapi juga tidak menutup kemungkinan terjadi di komputer anda.\r\n* Putuskan sambungan sebelum orang lain menggunakan komputer anda. Saat anda membawa laptop dan melewati petugas pemeriksa atau perbatasan, sangatlah penting untuk memutuskan semua [*encrypted*](/id/glossary#Encryption) volume dan mematikan komputer anda secara sempurna.\r\n* Putuskan sambungan sebelum memasukkan stik memori USB atau perangkat penyimpan eksternal lain yang tidak terpercaya, termasuk perangkat milik teman atau kolega anda.\r\n* Jika anda menyimpan  [*encrypted*](/id/glossary#Encryption) volume  di dalam stik memori USB, ingatlah bahwa mencabut perangkat tersebut tidak secara langsung memutuskan enkripsi volume tersebut. Bahkan saat anda terburu-buru, anda harus tetap mematikan 'enkripsi volume' secara sempurna, lalu memutuskan sambungan 'external drive atau stik memory, baru anda dapat mencabutnya dari komputer anda. Sebaiknya anda berlatih sampai anda menemukan cara terbaik untuk melakukannya dengan cepat.\r\n\r\nJika anda memutuskan untuk menyimpan [*TrueCrypt*](/id/glossary#TrueCrypt) volume  dalam stik memori USB, anda juga dapat menyimpan salinan program [*TrueCrypt*](/id/glossary#TrueCrypt) di dalamnya. Dengan demikian anda dapat mengakses data anda melalui komputer lain. Tetapi, aturan main yang sama tetap berlaku: jika anda tidak yakin komputer tersebut bebas [*malware*](/id/glossary#Malware), anda sebaiknya tidak mengetikkan kata sandi atau mengakses data rahasia anda.  \r\n \r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1941", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1941", 
+                "link_title": "\u1780\u17b6\u179a\u1792\u17d2\u179c\u17be\u1780\u17bc\u178a\u1793\u17b8\u1799\u1780\u1798\u17d2\u1798\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5086", 
+                "module": "book", 
+                "nid": "1941", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5085", 
+                "p3": "5086", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5085", 
+                "router_path": "node/%", 
+                "title": "\u1780\u17b6\u179a\u1792\u17d2\u179c\u17be\u1780\u17bc\u178a\u1793\u17b8\u1799\u1780\u1798\u17d2\u1798\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1452271807", 
+            "comment": "0", 
+            "created": "1441102942", 
+            "current_revision_id": "12770", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_4_1", 
+                        "value": "chapter_4_1"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5086": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1941", 
+                    "link_title": "\u1780\u17b6\u179a\u1792\u17d2\u179c\u17be\u1780\u17bc\u178a\u1793\u17b8\u1799\u1780\u1798\u17d2\u1798\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5086", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5085", 
+                    "p3": "5086", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5085", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1941", 
+            "num_revisions": "24", 
+            "path": "https://securityinabox.org/en/node/1941", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452271807", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Meng-enskripsi data anda ", 
+                        "value": "Meng-enskripsi data anda "
+                    }
+                ]
+            }, 
+            "title_original": "Encrypting your information", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442915662", 
+                        "created": "1442915662", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442226935", 
+                        "created": "1441803951", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443095737", 
+                        "created": "1443095737", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442410495", 
+                        "created": "1442410495", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451910455", 
+                        "created": "1441205210", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089078", 
+                        "created": "1442759311", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695033", 
+                        "created": "1443695033", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452271807", 
+                        "created": "1452271807", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443102573", 
+                        "created": "1443102573", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113191", 
+                        "created": "1441113191", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443720175", 
+                        "created": "1443719264", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444394814", 
+                        "created": "1444394814", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100019", 
+                        "created": "1443100019", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443091933", 
+                        "created": "1443091933", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441102942", 
+                        "created": "1441102942", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577341", 
+                        "created": "1443601748", 
+                        "entity_id": "1941", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "307aa775-e4c6-4ba2-b5e8-b6754aa35de7", 
+            "vid": "12770", 
+            "vuuid": "40362f67-019c-4f71-98be-f9574a8312cf"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Menjaga keamanan adalah hal yang sangat mutlak, baik saat anda menyimpan sesuatu di rumah maupun dikantor, bahkan saat anda membawa sesuatu di kantong anda. Banyak orang memiliki kekhawatiran bahwa dengan menggunakan enkripsi (<a href=\"/id/glossary#Encryption\"><em>encryption</em></a>) akan menyusahkan diri mereka. Walaupun izin resmi untuk meng-enkripsi (<a href=\"/id/glossary#Encryption\"><em>encrypt</em></a>) data lebih banyak daripada tidaknya, tapi tetap saja orang jarang menggunakannya. Pada dasarnya terdapat dua alasan mengapa anda mungkin mengurungkan diri dari menggunakan  <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a>: resiko menjadi \"tertuduh\" dan resiko terbongkarnya lokasi informasi rahasia anda</p>\n\n<h3><strong>Mempertimbangkan resiko menjadi 'tertuduh'</strong></h3>\n\n<p>Di beberapa negara enkripsi (<a href=\"/id/glossary#Encryption\"><em>Encryption</em></a>) dianggap ilegal. Hal ini berarti mengunduh, menginstal dan menggunakan software enkripsi dianggap sebagai tindak kriminal. Dan jika informasi yang anda miliki harus dilindungi dari kelompok-kelompok tertentu atau misalnya dari polisi, militer, atau badan intelijen, maka melanggar peraturan tersebut dapat memberikan alasan bagi mereka untuk menginvestigasi atau mengintimidasi kegiatan organisasi anda. Kenyataannya, ancaman ini bisa saja tidak berhubungan dengan keabsahan dari alat yang digunakan. Apapun yang berkaitan dengan perangkat lunak (software) enkripsi (<a href=\"/id/glossary#Encryption\"><em>encryption</em></a>) bisa saja digunakan untuk menuduh anda telah melakukan tindak kriminal atau spionase (tanpa memperhatikan apa sebenarnya yang ada dalam <a href=\"/id/glossary#Encryption\"><em>encrypted</em></a> volume anda), karena itu sebaiknya anda juga mempertimbangkan dengan cermat apakah penggunaan alat tersebut sesuai dengan keadaan anda.</p>\n\n<p>Jika hal itu yang terjadi, anda memiliki beberapa pilihan:</p>\n\n<ul><li>Anda dapat menghindari penggunaan perangkat lunak (software) perlindungan data, itu berarti anda hanya dapat menyimpan informasi yang bersifat umum atau anda harus menciptakan sebuah sistem kode yang terdiri dari kata-kata untuk melindungi elemen-elemen kunci dari berkas rahasia anda.</li>\n<li>Anda dapat mengandalkan sebuah teknik yang disebut <a href=\"/id/glossary#Steganography\"><em>steganography</em></a> untuk menyembunyikan informasi rahasia anda, daripada mengenkripsinya. Ada alat-alat yang dapat membantu anda dengan teknik ini, tetapi menggunakannya membutuhkan persiapan yang matang, selain itu anda juga akan tetap beresiko menjadi \"tertuduh\" saat ada orang yang mengetahui \"alat\" yang anda gunakan.</li>\n<li>Anda dapat mencoba menyimpan informasi rahasia anda di akun webmail yang aman, tetapi ini membutuhkan sambungan jaringan yang terpercaya dan pengetahuan komputer serta layanan internet tingkat tinggi. Tehnik ini mengasumsikan bahwa melakukan enkripsi (<a href=\"/id/glossary#Encryption\"><em>encryption</em></a>) di jaringan lebih meringankan dibandingkan dengan melakukan enkripsi (<a href=\"/id/glossary#Encryption\"><em>encryption</em></a>) berkas sehingga anda juga dapat menghindari ketidak sengajaan tertinggal salinan data di harddrive komputer tersebut.</li>\n<li>Anda dapat menyimpan informasi rahasia di luar komputer dengan menyimpannya di stik memori USB atau portabel hard drive. Namun perangkat jenis itu biasanya lebih rentan terhadap pencurian dan perampasan, jadi sebaiknya hindari membawa perangkat tersebut dengan data yang tidak terenkripsi.</li>\n</ul><p>Jika perlu, anda dapat menggunakan beberapa taktik tersebut secara bersamaan. Meskipun anda takut dianggap melakukan tindakan kriminal, menggunakan <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a> tetap merupakan cara yang paling aman, sambil menyamarkan <a href=\"/id/glossary#Encryption\"><em>encrypted</em></a> volume anda sebaik mungkin.</p>\n\n<p>Jika anda ingin membuat encryted volume anda tidak terlalu mencolok, anda dapat mengubah namanya agar terlihat seperti berkas lain. Salah satu caranya adalah dengan mengubah jenis file ekstensinya menjadi '.iso' sehingga terlihat seperti sebuah file CD, cara ini sangat dianjurkan untuk file berukuran besar hingga kisaran 700MB. Jenis file ekstensi lainnya dapat digunakan untuk volume data yang lebih kecil. Hal ini seperti menyembunyikan brankas dibalik salah satu lukisan di dinding kantor anda. Walaupun ada kemungkinan brangkas tersebut ditemukan jika di cari dengan teliti, namun setidaknya cara ini dapat memberikan perlindungan yang lebih aman. Anda juga dapat mengganti nama program <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a>, asumsikan saja anda menyimpannya sama seperti anda menyimpan berkas biasa di hard drive atau stik memori USB, bukan menginstalnya sebagai program. <a href=\"/truecrypt_main\"><strong><em>Panduan TrueCrypt</em></strong></a> menjelaskan lebih lanjut tentang cara ini.</p>\n\n<h3><strong>Mempertimbangkan resiko teridentifikasinya informasi rahasia anda</strong></h3>\n\n<p>Seringkali, anda mungkin tidak terlalu kuatir ketika anda \"tertangkap\" karena anda memiliki perangkat lunak (software) <a href=\"/id/glossary#Encryption\"><em>encryption</em></a> dikomputer atau usb anda namun kekuatiran terbesar akan timbul karena encryted volume anda akan dengan sangat jelas menginformasikan dimana anda menyimpan data/informasi rahasia yang anda lindungi tersebut. Walapun mungkin tidak ada yang dapat membacanya, namun mereka akan mengetahui bahwa data tersebut ada disana dan anda telah melakukan sesuatu untuk melindungi data tersebut. Hal ini dapat berakibat pada intimidasi, pemerasan, interogasi dan penyiksaan dari mereka yang menginginkan akses ke informasi tersebut. Pada saat seperti ini fitur penyangkalan (deniability) <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt's</em></a> sangat memainkan peranan penting, pembahasan selengkapnya ada dibawah ini.</p>\n\n<p>Fitur penyangkalan <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt's</em></a> adalah salah satu fitur yang tidak ditawarkan oleh alat enkripsi (<a href=\"/id/glossary#Encryption\"><em>encryption</em></a>) lainnya. Fitur ini dapat dianggap sebagai bentuk khusus dari steganografi (<a href=\"/id/glossary#Steganography\"><em>steganography</em></a>) yang dapat menyamarkan informasi rahasia anda sehingga terlihat seperti data lain yang tidak sensitif dan tersembunyi. Hal ini analoginya sama seperti saat anda memasang 'ruang tipuan' pada brankas kantor anda. Jika seseorang mencuri kunci atau memaksa anda memberikan kombinasi angka kuncinya, ia akan menemukan umpan yang telah anda buat berada dalam 'ruang tipuan' brankas tersebut, tetapi tidak dapat menemukan informasi yang sebenarnya.</p>\n\n<p>Hanya anda yang mengetahui adanya bagian tersembunyi di dalam brankas anda. Dengan demikian anda bisa meyakinkan mereka bahwa anda sudah memberitahukan semua informasi yang anda punya dan menyangkal bahwa masih ada rahasia yang anda lindungi, hal ini juga dapat membantu anda di saat anda terpaksa harus memberitahukan kata sandinya dengan alasan apapun. Beberapa alasan yang mengharuskan anda memberikan kata sandi misalnya ancaman hukuman atau fisik terhadap anda, kolega, teman, dan anggota keluarga. Tujuan dari penyangkalan ini adalah untuk memberikan kesempatan bagi anda untuk menyelamatkan diri dari bahaya yang mungkin timbul saat anda memilih untuk tetap melindungi data anda. Seperti yang dibahas dalam bagian <a href=\"#Mempertimbangkan_resiko_menjadi_'tertuduh'\"><strong><em>Mempertimbangkan resiko menjadi 'tertuduh'</em></strong></a>, biar bagaimanapun,  fitur ini \nsedikit banyak bermanfaat saat brangkas anda tertangkap karena konsekuensi dari fitur ini sungguh tidak terduga.</p>\n\n<p>Fitur penyangkalan <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt's</em></a> bekerja dengan cara menyimpan 'hidden volume' di dalam  <a href=\"/id/glossary#Encryption\"><em>encrypted</em></a> volume biasa. Anda dapat membuka 'hidden volume' ini dengan cara memasukkan kata sandi lainnya, berbeda dari kata sandi yang biasa anda gunakan. Bahkan jika penyusup yang canggih pun berhasil mengakses standar volume anda, ia tidak akan dapat membuktikan ada 'hidden volume' didalamnya. Sangat mungkin orang tersebut mengetahui bahwa <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a> dapat menyembunyikan informasi dengan cara ini, dan tidak ada jaminan ancaman tersebut akan berhenti walaupun anda sudah memberikan kata sandi perangkap anda. Banyak orang menggunakan <a href=\"/id/glossary#TrueCrypt\"><em>TrueCrypt</em></a> tanpa mengaktifkan fitur penyangkalannya, dan biasanya tidak mungkin memastikan, bahkan setelah dianalisa,  apakah (<a href=\"/id/glossary#Encryption\"><em>encrypted</em></a>) volume memiliki 'ruang tipuan' tersebut. Maka, anda harus memastikan agar anda tidak mengungkap hidden volume karena hal-hal non tehnis,  seperti membiarkannya terbuka atau mengijinkan salah satu aplikasi membuat jalan pintas (shortcut)ke salah satu file yang berada di volume tersebut. Bagian <a href=\"/id/chapter_4_3\"><strong><em>Bacaan lanjutan</em></strong></a> di bawah ini mengarahkan anda ke berbagai informasi yang lebih lengkap mengenai hal ini.</p>\n\n<div class=\"background\">\n\n<p>Claudia: Baiklah, kalau begitu kita simpan saja berkas-berkas tidak penting di standard volume dan kita pindahkan semua berkas kesaksian ke hidden volume. Kamu punya berkas PDF atau file lama yang bisa kita gunakan?</p>\n\n<p>Pablo: Wah, pikiran kita sama. Maksudku, kita harus memberikan kata sandi perangkap kalau tidak ada pilihan lain. Tapi supaya meyakinkan, kita harus membuat berkas-berkas itu terlihat penting, betul kan? Kalau tidak, percuma saja kan mengenkripsinya? Mungkin kita bisa masukkan dokumen-dokumen keuangan atau daftar situs-situs web kata sandi.</p>\n\n</div>\n", 
+                        "summary": "", 
+                        "value": "Menjaga keamanan adalah hal yang sangat mutlak, baik saat anda menyimpan sesuatu di rumah maupun dikantor, bahkan saat anda membawa sesuatu di kantong anda. Banyak orang memiliki kekhawatiran bahwa dengan menggunakan enkripsi ([*encryption*](/id/glossary#Encryption)) akan menyusahkan diri mereka. Walaupun izin resmi untuk meng-enkripsi ([*encrypt*](/id/glossary#Encryption)) data lebih banyak daripada tidaknya, tapi tetap saja orang jarang menggunakannya. Pada dasarnya terdapat dua alasan mengapa anda mungkin mengurungkan diri dari menggunakan  [*TrueCrypt*](/id/glossary#TrueCrypt): resiko menjadi \"tertuduh\" dan resiko terbongkarnya lokasi informasi rahasia anda\r\n\r\n### **Mempertimbangkan resiko menjadi 'tertuduh'** ###\r\n\r\nDi beberapa negara enkripsi ([*Encryption*](/id/glossary#Encryption)) dianggap ilegal. Hal ini berarti mengunduh, menginstal dan menggunakan software enkripsi dianggap sebagai tindak kriminal. Dan jika informasi yang anda miliki harus dilindungi dari kelompok-kelompok tertentu atau misalnya dari polisi, militer, atau badan intelijen, maka melanggar peraturan tersebut dapat memberikan alasan bagi mereka untuk menginvestigasi atau mengintimidasi kegiatan organisasi anda. Kenyataannya, ancaman ini bisa saja tidak berhubungan dengan keabsahan dari alat yang digunakan. Apapun yang berkaitan dengan perangkat lunak (software) enkripsi ([*encryption*](/id/glossary#Encryption)) bisa saja digunakan untuk menuduh anda telah melakukan tindak kriminal atau spionase (tanpa memperhatikan apa sebenarnya yang ada dalam [*encrypted*](/id/glossary#Encryption) volume anda), karena itu sebaiknya anda juga mempertimbangkan dengan cermat apakah penggunaan alat tersebut sesuai dengan keadaan anda.  \r\n\r\nJika hal itu yang terjadi, anda memiliki beberapa pilihan:\r\n\r\n* Anda dapat menghindari penggunaan perangkat lunak (software) perlindungan data, itu berarti anda hanya dapat menyimpan informasi yang bersifat umum atau anda harus menciptakan sebuah sistem kode yang terdiri dari kata-kata untuk melindungi elemen-elemen kunci dari berkas rahasia anda.\r\n* Anda dapat mengandalkan sebuah teknik yang disebut [*steganography*](/id/glossary#Steganography) untuk menyembunyikan informasi rahasia anda, daripada mengenkripsinya. Ada alat-alat yang dapat membantu anda dengan teknik ini, tetapi menggunakannya membutuhkan persiapan yang matang, selain itu anda juga akan tetap beresiko menjadi \"tertuduh\" saat ada orang yang mengetahui \"alat\" yang anda gunakan.\r\n* Anda dapat mencoba menyimpan informasi rahasia anda di akun webmail yang aman, tetapi ini membutuhkan sambungan jaringan yang terpercaya dan pengetahuan komputer serta layanan internet tingkat tinggi. Tehnik ini mengasumsikan bahwa melakukan enkripsi ([*encryption*](/id/glossary#Encryption)) di jaringan lebih meringankan dibandingkan dengan melakukan enkripsi ([*encryption*](/id/glossary#Encryption)) berkas sehingga anda juga dapat menghindari ketidak sengajaan tertinggal salinan data di harddrive komputer tersebut.\r\n* Anda dapat menyimpan informasi rahasia di luar komputer dengan menyimpannya di stik memori USB atau portabel hard drive. Namun perangkat jenis itu biasanya lebih rentan terhadap pencurian dan perampasan, jadi sebaiknya hindari membawa perangkat tersebut dengan data yang tidak terenkripsi.\r\n\r\nJika perlu, anda dapat menggunakan beberapa taktik tersebut secara bersamaan. Meskipun anda takut dianggap melakukan tindakan kriminal, menggunakan [*TrueCrypt*](/id/glossary#TrueCrypt) tetap merupakan cara yang paling aman, sambil menyamarkan [*encrypted*](/id/glossary#Encryption) volume anda sebaik mungkin. \r\n\r\nJika anda ingin membuat encryted volume anda tidak terlalu mencolok, anda dapat mengubah namanya agar terlihat seperti berkas lain. Salah satu caranya adalah dengan mengubah jenis file ekstensinya menjadi '.iso' sehingga terlihat seperti sebuah file CD, cara ini sangat dianjurkan untuk file berukuran besar hingga kisaran 700MB. Jenis file ekstensi lainnya dapat digunakan untuk volume data yang lebih kecil. Hal ini seperti menyembunyikan brankas dibalik salah satu lukisan di dinding kantor anda. Walaupun ada kemungkinan brangkas tersebut ditemukan jika di cari dengan teliti, namun setidaknya cara ini dapat memberikan perlindungan yang lebih aman. Anda juga dapat mengganti nama program [*TrueCrypt*](/id/glossary#TrueCrypt), asumsikan saja anda menyimpannya sama seperti anda menyimpan berkas biasa di hard drive atau stik memori USB, bukan menginstalnya sebagai program. [***Panduan TrueCrypt***](/truecrypt_main) menjelaskan lebih lanjut tentang cara ini.    \r\n\t\r\n### **Mempertimbangkan resiko teridentifikasinya informasi rahasia anda** ###\r\n\r\nSeringkali, anda mungkin tidak terlalu kuatir ketika anda \"tertangkap\" karena anda memiliki perangkat lunak (software) [*encryption*](/id/glossary#Encryption) dikomputer atau usb anda namun kekuatiran terbesar akan timbul karena encryted volume anda akan dengan sangat jelas menginformasikan dimana anda menyimpan data/informasi rahasia yang anda lindungi tersebut. Walapun mungkin tidak ada yang dapat membacanya, namun mereka akan mengetahui bahwa data tersebut ada disana dan anda telah melakukan sesuatu untuk melindungi data tersebut. Hal ini dapat berakibat pada intimidasi, pemerasan, interogasi dan penyiksaan dari mereka yang menginginkan akses ke informasi tersebut. Pada saat seperti ini fitur penyangkalan (deniability) [*TrueCrypt's*](/id/glossary#TrueCrypt) sangat memainkan peranan penting, pembahasan selengkapnya ada dibawah ini.\r\n\r\nFitur penyangkalan [*TrueCrypt's*](/id/glossary#TrueCrypt) adalah salah satu fitur yang tidak ditawarkan oleh alat enkripsi ([*encryption*](/id/glossary#Encryption)) lainnya. Fitur ini dapat dianggap sebagai bentuk khusus dari steganografi ([*steganography*](/id/glossary#Steganography)) yang dapat menyamarkan informasi rahasia anda sehingga terlihat seperti data lain yang tidak sensitif dan tersembunyi. Hal ini analoginya sama seperti saat anda memasang 'ruang tipuan' pada brankas kantor anda. Jika seseorang mencuri kunci atau memaksa anda memberikan kombinasi angka kuncinya, ia akan menemukan umpan yang telah anda buat berada dalam 'ruang tipuan' brankas tersebut, tetapi tidak dapat menemukan informasi yang sebenarnya.\r\n\r\nHanya anda yang mengetahui adanya bagian tersembunyi di dalam brankas anda. Dengan demikian anda bisa meyakinkan mereka bahwa anda sudah memberitahukan semua informasi yang anda punya dan menyangkal bahwa masih ada rahasia yang anda lindungi, hal ini juga dapat membantu anda di saat anda terpaksa harus memberitahukan kata sandinya dengan alasan apapun. Beberapa alasan yang mengharuskan anda memberikan kata sandi misalnya ancaman hukuman atau fisik terhadap anda, kolega, teman, dan anggota keluarga. Tujuan dari penyangkalan ini adalah untuk memberikan kesempatan bagi anda untuk menyelamatkan diri dari bahaya yang mungkin timbul saat anda memilih untuk tetap melindungi data anda. Seperti yang dibahas dalam bagian [***Mempertimbangkan resiko menjadi 'tertuduh'***](#Mempertimbangkan_resiko_menjadi_'tertuduh'), biar bagaimanapun,  fitur ini \r\nsedikit banyak bermanfaat saat brangkas anda tertangkap karena konsekuensi dari fitur ini sungguh tidak terduga.\r\n\r\nFitur penyangkalan [*TrueCrypt's*](/id/glossary#TrueCrypt) bekerja dengan cara menyimpan 'hidden volume' di dalam  [*encrypted*](/id/glossary#Encryption) volume biasa. Anda dapat membuka 'hidden volume' ini dengan cara memasukkan kata sandi lainnya, berbeda dari kata sandi yang biasa anda gunakan. Bahkan jika penyusup yang canggih pun berhasil mengakses standar volume anda, ia tidak akan dapat membuktikan ada 'hidden volume' didalamnya. Sangat mungkin orang tersebut mengetahui bahwa [*TrueCrypt*](/id/glossary#TrueCrypt) dapat menyembunyikan informasi dengan cara ini, dan tidak ada jaminan ancaman tersebut akan berhenti walaupun anda sudah memberikan kata sandi perangkap anda. Banyak orang menggunakan [*TrueCrypt*](/id/glossary#TrueCrypt) tanpa mengaktifkan fitur penyangkalannya, dan biasanya tidak mungkin memastikan, bahkan setelah dianalisa,  apakah ([*encrypted*](/id/glossary#Encryption)) volume memiliki 'ruang tipuan' tersebut. Maka, anda harus memastikan agar anda tidak mengungkap hidden volume karena hal-hal non tehnis,  seperti membiarkannya terbuka atau mengijinkan salah satu aplikasi membuat jalan pintas (shortcut)ke salah satu file yang berada di volume tersebut. Bagian [***Bacaan lanjutan***](/id/chapter_4_3) di bawah ini mengarahkan anda ke berbagai informasi yang lebih lengkap mengenai hal ini. \r\n\r\n<div class=\"background\" markdown=\"1\">\r\nClaudia: Baiklah, kalau begitu kita simpan saja berkas-berkas tidak penting di standard volume dan kita pindahkan semua berkas kesaksian ke hidden volume. Kamu punya berkas PDF atau file lama yang bisa kita gunakan?\r\n\r\nPablo: Wah, pikiran kita sama. Maksudku, kita harus memberikan kata sandi perangkap kalau tidak ada pilihan lain. Tapi supaya meyakinkan, kita harus membuat berkas-berkas itu terlihat penting, betul kan? Kalau tidak, percuma saja kan mengenkripsinya? Mungkin kita bisa masukkan dokumen-dokumen keuangan atau daftar situs-situs web kata sandi. \r\n</div>"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1942", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1942", 
+                "link_title": "\u1780\u17b6\u179a\u179b\u17b6\u1780\u17cb\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u179f\u17be\u1794\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5087", 
+                "module": "book", 
+                "nid": "1942", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5085", 
+                "p3": "5087", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5085", 
+                "router_path": "node/%", 
+                "title": "\u1780\u17b6\u179a\u179b\u17b6\u1780\u17cb\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u179f\u17be\u1794\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1452271865", 
+            "comment": "0", 
+            "created": "1441103039", 
+            "current_revision_id": "12771", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_4_2", 
+                        "value": "chapter_4_2"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5087": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1942", 
+                    "link_title": "\u1780\u17b6\u179a\u179b\u17b6\u1780\u17cb\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u179f\u17be\u1794\u179a\u1794\u179f\u17cb\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5087", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5085", 
+                    "p3": "5087", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5085", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1942", 
+            "num_revisions": "23", 
+            "path": "https://securityinabox.org/en/node/1942", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452271865", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Menyembunyikan informasi rahasia anda ", 
+                        "value": "Menyembunyikan informasi rahasia anda "
+                    }
+                ]
+            }, 
+            "title_original": "Hiding your sensitive information", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442915736", 
+                        "created": "1442915736", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227010", 
+                        "created": "1441804055", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443095770", 
+                        "created": "1443095770", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442410580", 
+                        "created": "1442410580", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451911200", 
+                        "created": "1441205267", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089146", 
+                        "created": "1442759331", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695051", 
+                        "created": "1443695051", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452271865", 
+                        "created": "1452271865", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1452177958", 
+                        "created": "1443102650", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113412", 
+                        "created": "1441113412", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443719893", 
+                        "created": "1443719893", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444394899", 
+                        "created": "1444394899", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100039", 
+                        "created": "1443100039", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092039", 
+                        "created": "1443092039", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441103039", 
+                        "created": "1441103039", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577382", 
+                        "created": "1443601774", 
+                        "entity_id": "1942", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "938065a3-94cc-4d68-a61d-3b850cb1f379", 
+            "vid": "12771", 
+            "vuuid": "2ff8b4c2-d9c7-45f5-babb-4a2fc908e93e"
+        }, 
+        {
+            "body": {
+                "id": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li>Untuk informasi tambahan tentang mengamankan berkas anda, lihat bab mengenai <a href=\"http://www.frontlinedefenders.org/manual/en/esecman/chapter2_4.html\">Cryptology</a>, bab mengenai <a href=\"http://www.frontlinedefenders.org/manual/en/esecman/chapter2_8.html\">Steganography</a> dan bab Studi Kasus 3 (<a href=\"http://www.frontlinedefenders.org/manual/en/esecman/chapter4_2.html\">Case Study 3</a>) dari Buku Keamanan dan Kerahasiaan Digital untuk Pembela Hak Asasi Manusia (<a href=\"http://www.frontlinedefenders.org/manual/en/esecman\">Digital Security and Privacy for Human Rights Defenders</a>).</li>\n<li>Tanya-jawab TrueCrypt (<a href=\"http://www.truecrypt.org/faq.php\">TrueCrypt FAQ</a>) memberikan jawaban untuk sejumlah pertanyaan umum tentang TrueCrypt.</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "* Untuk informasi tambahan tentang mengamankan berkas anda, lihat bab mengenai [Cryptology](http://www.frontlinedefenders.org/manual/en/esecman/chapter2_4.html), bab mengenai [Steganography](http://www.frontlinedefenders.org/manual/en/esecman/chapter2_8.html) dan bab Studi Kasus 3 ([Case Study 3](http://www.frontlinedefenders.org/manual/en/esecman/chapter4_2.html)) dari Buku Keamanan dan Kerahasiaan Digital untuk Pembela Hak Asasi Manusia ([Digital Security and Privacy for Human Rights Defenders](http://www.frontlinedefenders.org/manual/en/esecman)).\r\n* Tanya-jawab TrueCrypt ([TrueCrypt FAQ](http://www.truecrypt.org/faq.php)) memberikan jawaban untuk sejumlah pertanyaan umum tentang TrueCrypt. \r\n\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1943", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1943", 
+                "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5088", 
+                "module": "book", 
+                "nid": "1943", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5085", 
+                "p3": "5088", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5085", 
+                "router_path": "node/%", 
+                "title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1452271930", 
+            "comment": "0", 
+            "created": "1441103094", 
+            "current_revision_id": "12772", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_4_3", 
+                        "value": "chapter_4_3"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5088": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1943", 
+                    "link_title": "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5088", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5085", 
+                    "p3": "5088", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5085", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1943", 
+            "num_revisions": "19", 
+            "path": "https://securityinabox.org/en/node/1943", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452271930", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "id": [
+                    {
+                        "format": null, 
+                        "safe_value": "Bacaan Lanjutan", 
+                        "value": "Bacaan Lanjutan"
+                    }
+                ]
+            }, 
+            "title_original": "Further reading", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442915799", 
+                        "created": "1442915799", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443095860", 
+                        "created": "1443095860", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442410657", 
+                        "created": "1442410657", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441205371", 
+                        "created": "1441205371", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447089193", 
+                        "created": "1442759348", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443695086", 
+                        "created": "1443695086", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452271930", 
+                        "created": "1452271930", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443102751", 
+                        "created": "1443102751", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441113524", 
+                        "created": "1441113524", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443720007", 
+                        "created": "1443720007", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444394983", 
+                        "created": "1444394983", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100057", 
+                        "created": "1443100057", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092145", 
+                        "created": "1443092145", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441103094", 
+                        "created": "1441103094", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444577433", 
+                        "created": "1443601812", 
+                        "entity_id": "1943", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "9e143f55-e2d8-4af4-8a8f-0b1548b12359", 
+            "vid": "12772", 
+            "vuuid": "d234accd-4c7d-452c-b4f5-28acefa12bb3"
+        }
+    ], 
+    "changed": "1455879594", 
+    "comment": "0", 
+    "created": "1441102845", 
+    "current_revision_id": "13271", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_menu_title": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "4. How to protect the sensitive files on", 
+                "value": "4. How to protect the sensitive files on"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "4. Cara melindungi berkas penting di komputer ", 
+                "value": "4. Cara melindungi berkas penting di komputer "
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-09 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "chapter-4", 
+                "value": "chapter-4"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "4"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "4"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5085": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/1940", 
+            "link_title": "4. How to protect the sensitive files on your computer", 
+            "menu_name": "book-toc-1925", 
+            "mlid": "5085", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5030", 
+            "p2": "5085", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5030", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "4"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "1940", 
+    "num_revisions": "27", 
+    "path": "https://securityinabox.org/en/node/1940", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1455879594", 
+    "revision_uid": "479", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "id": [
+            {
+                "format": null, 
+                "safe_value": "4. Cara melindungi berkas penting di komputer ", 
+                "value": "4. Cara melindungi berkas penting di komputer "
+            }
+        ]
+    }, 
+    "title_original": "4. How to protect the sensitive files on your computer", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442915564", 
+                "created": "1442915564", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442226854", 
+                "created": "1441803866", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "bo": {
+                "changed": "1443093686", 
+                "created": "1443093686", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "bo", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "es": {
+                "changed": "1442410420", 
+                "created": "1442410420", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1441205100", 
+                "created": "1441205100", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "fr": {
+                "changed": "1447089025", 
+                "created": "1442759170", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }, 
+            "id": {
+                "changed": "1455879594", 
+                "created": "1442925555", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }, 
+            "km": {
+                "changed": "1452271709", 
+                "created": "1452271709", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443102393", 
+                "created": "1443102393", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441112828", 
+                "created": "1441112828", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1443719195", 
+                "created": "1443719195", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "th": {
+                "changed": "1444394711", 
+                "created": "1444394711", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "th", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "tr": {
+                "changed": "1443012697", 
+                "created": "1443012697", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1443089014", 
+                "created": "1443088530", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1443012216", 
+                "created": "1441102845", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "1940", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1444577233", 
+                "created": "1443601722", 
+                "entity_id": "1940", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "1940", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_how_to_booklet_chapter", 
+    "uid": "70", 
+    "uuid": "e90ba1ed-c482-4f27-8052-4db852063d19", 
+    "vid": "13271", 
+    "vuuid": "f9599d7a-de57-4e6e-9d99-e4675b980f9a"
+}

@@ -1,0 +1,761 @@
+{
+    "body": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Homepage</strong></p>\n\n<ul><li><a href=\"https://jitsi.org/\"><strong>https://jitsi.org/</strong></a></li>\n</ul><p><strong>Computer Requirements</strong></p>\n\n<ul><li>All Windows Versions</li>\n</ul><p><strong>Version used in this guide</strong></p>\n\n<ul><li>2.4</li>\n</ul><p><strong>Last revision of this chapter</strong></p>\n\n<ul><li>January 2014</li>\n</ul><p><strong>License</strong></p>\n\n<ul><li>Free and Open-Source Software</li>\n</ul><p><strong>What you will get in return</strong>:</p>\n\n<ul><li>The ability to have a private and secure integrated communications system, that includes video chat sessions.</li>\n<li>The ability to encrypt your communication independently of your account providers.</li>\n<li>The ability to register and use different accounts (e.g. <strong>Facebook</strong>, <strong>Google Talk</strong>, <strong>Yahoo Messenger</strong>) simultaneously.</li>\n</ul><p><strong>GNU Linux, Mac OS and other Microsoft Windows Compatible Programs</strong>:</p>\n\n<p><strong>Jitsi</strong> is available for <strong>GNU Linux</strong>, <strong>Mac OS</strong>, as well as <strong>MS Windows</strong> (and soon for <strong>Android OS</strong>). Other programs that <strong>Jitsi</strong> can communicate with using independent <strong>OTR</strong> or <strong>ZRTP</strong> encryption are recommended below:</p>\n\n<ul><li><p>For <strong>text messaging</strong>: <a href=\"/en/pidgin_main\"><strong>Pidgin</strong></a> (<strong>MS Windows</strong> and <strong>GNU Linux</strong>), <a href=\"http://www.miranda-im.org/\"><strong>Miranda</strong></a> (<strong>MS Windows</strong>), <a href=\"https://adium.im/\"><strong>Adium</strong></a> (<strong>Mac OS X</strong>), <a href=\"https://guardianproject.info/apps/chatsecure/\"><strong>ChatSecure</strong></a> (<strong>Android OS</strong> and <strong>iOS</strong> formerly known as <a href=\"/en/Gibberbot_main\"><strong>Gibberbot</strong></a>)</p></li>\n<li><p>For <strong>voice calls</strong>: <strong>CSipSimple</strong> (<strong>Android OS</strong>), <a href=\"http://www.linphone.org/\"><strong>Linphone</strong></a> (<strong>GNU Linux</strong>, <strong>MS Windows</strong>, <strong>Mac OS X</strong>, <strong>Android OS</strong>, <strong>iOS</strong>, and others.)</p></li>\n</ul><p><strong>1.1 Things you should know about this tool before you start</strong></p>\n\n<p><strong>Jitsi</strong> supports many different account types and communication protocols and can thus communicate with correspondents who use different programs. Some of those programs will offer similar features to improve the security of your communication (like programs mentioned in section above), which support independent text and voice encryption (<strong>OTR</strong> and <strong>ZRTP</strong>). Other programs, especially proprietary ones (for instance <strong>Facebook</strong> chat or <strong>Google Talk</strong> ), may not have those features implemented. However, you will still be able to communicate with contacts who are using those proprietary programs with help of **Jitsi* just without the added benefits of **Jitsi's* security features.</p>\n\n<p>Regardless of whether you communicate by text, voice or video, providers of services like <strong>Facebook Chat</strong>, <strong>Google Talk</strong>, <strong>Yahoo! Messanger</strong>, <strong>Skype</strong> or <strong>Viber</strong> have access to your communication sessions and may offer this access to third-parties, such as corporations or governments. <strong>Jitsi</strong> lets you communicate in a private and safe manner using your existing accounts with the help of added encryption. This makes the content of your communication inaccessible to account providers and potential third-parties. In order to protect your private chat sessions and conversations, <strong>Jitsi</strong> uses cryptographic methods including <strong>Off-the-Record</strong> (<a href=\"/en/glossary#OTR\"><strong>OTR</strong></a>) for text chats, and <strong>ZRTP/SRTP</strong> for voice calls.</p>\n\n<p>Another notable difference between <strong>Jitsi</strong> and programs like <strong>Skype</strong> is that it enables users to keep using their existing accounts from different service providers, independent of the program developers. This also means that you need to set up an account prior to being able to use <strong>Jitsi</strong>.</p>\n\n<p><strong>Note</strong>: <strong>Jitsi</strong> uses <strong>Java</strong> programming language. As such, the Java program must be installed on your computer in order for it to work. <strong>Oracle Java</strong> is known to contain many security vulnerabilities that may let remote users assume control of your computer and install spyware to access or monitor all your communication and data. It is <strong>strongly</strong> advised that you minimise the number of programs able to use Java on your computer. Please refer to <a href=\"/en/firefox_addons#3.2\"><strong>Disabling Java associated plugins in Firefox</strong></a> and refer to <a href=\"https://www.java.com/en/download/help/disable_browser.xml\"><strong>steps to disable Java for all browsers on your computer</strong></a>. However as you will see later in this chapter, despite the use of <strong>Java</strong>, there are a number of security benefits when using <strong>Jitsi</strong>.</p>\n", 
+                "summary": "", 
+                "value": "**Homepage**\r\n\r\n- [**https://jitsi.org/**](https://jitsi.org/)\r\n\r\n**Computer Requirements**\r\n\r\n- All Windows Versions\r\n\r\n**Version used in this guide**\r\n\r\n- 2.4\r\n\r\n**Last revision of this chapter**\r\n\r\n- January 2014\r\n\r\n**License**\r\n\r\n- Free and Open-Source Software\r\n\r\n**What you will get in return**: \r\n\r\n- The ability to have a private and secure integrated communications system, that includes video chat sessions.\r\n- The ability to encrypt your communication independently of your account providers.\r\n- The ability to register and use different accounts (e.g. **Facebook**, **Google Talk**, **Yahoo Messenger**) simultaneously.\r\n\r\n**GNU Linux, Mac OS and other Microsoft Windows Compatible Programs**:\r\n\r\n**Jitsi** is available for **GNU Linux**, **Mac OS**, as well as **MS Windows** (and soon for **Android OS**). Other programs that **Jitsi** can communicate with using independent **OTR** or **ZRTP** encryption are recommended below:\r\n\r\n- For **text messaging**: [**Pidgin**](/en/pidgin_main) (**MS Windows** and **GNU Linux**), [**Miranda**](http://www.miranda-im.org/) (**MS Windows**), [**Adium**](https://adium.im/) (**Mac OS X**), [**ChatSecure**](https://guardianproject.info/apps/chatsecure/) (**Android OS** and **iOS** formerly known as [**Gibberbot**](/en/Gibberbot_main)) \r\n\r\n- For **voice calls**: **CSipSimple** (**Android OS**), [**Linphone**](http://www.linphone.org/) (**GNU Linux**, **MS Windows**, **Mac OS X**, **Android OS**, **iOS**, and others.)\r\n\r\n**1.1 Things you should know about this tool before you start**\r\n\r\n**Jitsi** supports many different account types and communication protocols and can thus communicate with correspondents who use different programs. Some of those programs will offer similar features to improve the security of your communication (like programs mentioned in section above), which support independent text and voice encryption (**OTR** and **ZRTP**). Other programs, especially proprietary ones (for instance **Facebook** chat or **Google Talk** ), may not have those features implemented. However, you will still be able to communicate with contacts who are using those proprietary programs with help of **Jitsi* just without the added benefits of **Jitsi's* security features.\r\n\r\nRegardless of whether you communicate by text, voice or video, providers of services like **Facebook Chat**, **Google Talk**, **Yahoo! Messanger**, **Skype** or **Viber** have access to your communication sessions and may offer this access to third-parties, such as corporations or governments. **Jitsi** lets you communicate in a private and safe manner using your existing accounts with the help of added encryption. This makes the content of your communication inaccessible to account providers and potential third-parties. In order to protect your private chat sessions and conversations, **Jitsi** uses cryptographic methods including **Off-the-Record** ([**OTR**](/en/glossary#OTR)) for text chats, and **ZRTP/SRTP** for voice calls.\r\n\r\nAnother notable difference between **Jitsi** and programs like **Skype** is that it enables users to keep using their existing accounts from different service providers, independent of the program developers. This also means that you need to set up an account prior to being able to use **Jitsi**.\r\n\r\n**Note**: **Jitsi** uses **Java** programming language. As such, the Java program must be installed on your computer in order for it to work. **Oracle Java** is known to contain many security vulnerabilities that may let remote users assume control of your computer and install spyware to access or monitor all your communication and data. It is **strongly** advised that you minimise the number of programs able to use Java on your computer. Please refer to [**Disabling Java associated plugins in Firefox**](/en/firefox_addons#3.2) and refer to [**steps to disable Java for all browsers on your computer**](https://www.java.com/en/download/help/disable_browser.xml). However as you will see later in this chapter, despite the use of **Java**, there are a number of security benefits when using **Jitsi**."
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2045", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2045", 
+        "link_title": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5191", 
+        "module": "book", 
+        "nid": "2045", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5191", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+        "updated": "0", 
+        "weight": "-4"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bu sayfadaki b\u00f6l\u00fcmlerin listesi:</p>\n\n<ul><li><a href=\"#2.1\"><strong>2.1 Jitsi nas\u0131l kurulur?</strong></a></li>\n<li><a href=\"#2.2\"><strong>2.2 Jitsi\u2019ye farkl\u0131 hesaplar  nas\u0131l eklenir?</strong></a></li>\n<li><a href=\"#2.2.1\"><strong>2.2.1 Gmail-Google hesab\u0131 nas\u0131l eklenir?</strong></a></li>\n<li><a href=\"#2.2.2\"><strong>2.2.2 Yeni Jabber/XMPP veya SIP hesab\u0131na kaydolmak ve bunu Jitsi\u2019ye eklemek</strong></a></li>\n<li><a href=\"#2.2.3\"><strong>2.2.3 Facebook hesab\u0131 nas\u0131l eklenir?</strong></a></li>\n<li><a href=\"#2.3\"><strong>2.3 Jitsi ile nas\u0131l hesap parolas\u0131 de\u011fi\u015ftirilir?</strong></a></li>\n<li><a href=\"#2.4\"><strong>2.4 G\u00fcvenli\u011fini artt\u0131rmak i\u00e7in Jitsi nas\u0131l yap\u0131land\u0131r\u0131l\u0131r?</strong></a></li>\n<li><a href=\"#2.4.1\"><strong>2.4.1 Arama ve sohbet ge\u00e7mi\u015fini devre d\u0131\u015f\u0131 b\u0131rakma ve silme</strong></a></li>\n<li><a href=\"#2.4.2\"><strong>2.4.2 Yaz\u0131l\u0131 sohbette \u00f6zel mesaj iste\u011fi</strong></a></li>\n<li><a href=\"#2.4.3\"><strong>2.4.3 Ana parola ile hesaplar\u0131n\u0131z\u0131n parolalar\u0131n\u0131 koruma</strong></a></li>\n</ul><p><a name=\"2.1\" id=\"2.1\"></a></p>\n\n<h2>2.1 Jitsi nas\u0131l kurulur?</h2>\n\n<p>Jitsi\u2019yi kurmak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <img src=\"/sbox/screen/jitsi-en/02.png\" alt=\"\" />'ye \u00e7ift t\u0131klay\u0131n, 'Dosyay\u0131 A\u00e7 \u2013 G\u00fcvenlik Uyar\u0131s\u0131' kutusu g\u00f6r\u00fcn\u00fcrse <em>Winows Kurulum</em> ekran\u0131n\u0131 etkinle\u015ftirmek i\u00e7in \u00c7al\u0131\u015ft\u0131r\u2019\u0131 <strong>t\u0131klay\u0131n</strong>. Bu sizi, <em>Jitsi Kurulum Sihirbaz\u0131na Ho\u015fgeldiniz</em> penceresine g\u00f6t\u00fcrecek.</p>\n\n<p><strong>2. Ad\u0131m</strong>. <em>Son Kullan\u0131c\u0131 Lisans Anla\u015fmas\u0131</em> penceresini etkinle\u015ftirmek i\u00e7in <img src=\"/sbox/screen/jitsi-en/04.png\" alt=\"\" />'i <strong>t\u0131klay\u0131n</strong>, <em>Lisans Anla\u015fas\u0131ndaki maddeleri kabul ediiyorum\u2019u</em> t\u0131klay\u0131n ve <em>Hedef Klas\u00f6r</em> penceresini etkinle\u015ftirmek i\u00e7in  <img src=\"/sbox/screen/jitsi-en/04.png\" alt=\"\" />'i <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><strong>3. Ad\u0131m</strong>. <em>Ek G\u00f6revler</em> penceresini etkinle\u015ftirmek i\u00e7in <img src=\"/sbox/screen/jitsi-en/04.png\" alt=\"\" />'i <strong>t\u0131klay\u0131n</strong> ve verili ayarlar\u0131 oldu\u011fu gibi <strong>kabul edin</strong>.</p>\n\n<p><strong>Not</strong>: <em>Bilgisayar a\u00e7\u0131ld\u0131\u011f\u0131nda ya da yeniden ba\u015flad\u0131\u011f\u0131nda otomatik olarak ba\u015fla</em> se\u00e7ene\u011fini se\u00e7mek bilgisayar\u0131n\u0131z\u0131n genel h\u0131z\u0131n\u0131 d\u00fc\u015f\u00fcrebilir, \u00f6zellikle de bilgisayar\u0131n\u0131z a\u00e7\u0131ld\u0131\u011f\u0131nda ba\u015flamas\u0131 i\u00e7in programlanm\u0131\u015f birden fazla uygulaman\u0131z varsa.</p>\n\n<p><strong>4. Ad\u0131m</strong>. <em>Jitsi\u2019yi Kurmaya Haz\u0131r</em> penceresini etkinle\u015ftirmek i\u00e7in  <img src=\"/sbox/screen/jitsi-en/04.png\" alt=\"\" />'i <strong>t\u0131klay\u0131n</strong> ve kurulum ilerleme \u00e7ubu\u011funu g\u00f6steren <em>Jitsi\u2019yi Kuruluyor</em> penceresini etkinle\u015ftirmek i\u00e7in  <img src=\"/sbox/screen/jitsi-en/05.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><strong>5. Ad\u0131m</strong>. Kurulum i\u015flemini tamamlamak ve a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi <strong>Jitsi</strong> <em>Giri\u015f yap</em> penceresini otomatik olarak a\u00e7mak i\u00e7in <img src=\"/sbox/screen/jitsi-en/06.png\" alt=\"\" />'i <strong>t\u0131klay\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/07.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 1: Jitsi Giri\u015f yap penceresi</em></p>\n\n<p><strong>Not</strong>: Jitsi\u2019nin ilk defa kuruldu\u011fu ve ba\u015flat\u0131ld\u0131\u011f\u0131 baz\u0131 durumlarda, <em>Windows G\u00fcvenlik Uyar\u0131s\u0131</em> ekran\u0131 belirebilir (a\u015fa\u011f\u0131da <em>\u015eekil 2</em>). <strong>MS Windows</strong> i\u015fletim sistemi i\u00e7in bu uyar\u0131 normaldir. <strong>Jitsi'yi</strong> kullanmaya devam etmek bir sorun yaratmaz. D\u00fc\u011fmelerden herhangi birine basmasan\u0131z ve uyar\u0131 penceresini kapatsan\u0131z bile, <strong>Jitsi</strong>, <strong>Jabber/XMPP</strong> veya <strong>SIP</strong>, <strong>Google Sohbet</strong>, <strong>Facebook Sohbet</strong>, veya <strong>Yahoo Messenger</strong> gibi ola\u011fan kamusal servisleri kullanarak ileti\u015fim kurmaya yetkindir. Fakat, <strong>Ula\u015f\u0131ma izin ver</strong> d\u00fc\u011fmesini t\u0131klamak, <strong>Registrarless SIP Hesaplar\u0131</strong> isimli, geli\u015fmi\u015f bir <strong>Jitsi</strong> \u00f6zelli\u011finin \u00e7al\u0131\u015fmas\u0131n\u0131 sa\u011flar. Bu \u00f6zel hesaplarla ilgili daha fazla bilgi i\u00e7in, l\u00fctfen <a href=\"https://jitsi.org/Documentation/RegistrarlessSIPAccount\"><strong>Registrarless SIP Accounts</strong></a> sayfas\u0131na bak\u0131n.</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/08.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 2: Windows G\u00fcvenlik Uyar\u0131s\u0131 ekran\u0131</em></p>\n\n<p><strong>6. Ad\u0131m</strong>. <strong>A\u00e7\u0131k</strong> ve <strong>\u00d6zel</strong> a\u011flar kutular\u0131n\u0131n <strong>her ikisini</strong> de i\u015faretleyin ve <strong>Jitsi Giri\u015f yap</strong> penceresini (yukar\u0131daki <em>\u015eekil 1\u2019de</em> g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi) veya ana kullan\u0131c\u0131 aray\u00fcz penceresini (a\u015fa\u011f\u0131daki <em>\u015eekil 4\u2019te</em> g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi) g\u00f6rmek i\u00e7in <em>Eri\u015fime \u0130zin Ver\u2019i</em> <strong>t\u0131klay\u0131n</strong>.</p>\n\n<p><a name=\"2.2\" id=\"2.2\"></a></p>\n\n<h2>Jitsi\u2019ye farkl\u0131 hesaplar  nas\u0131l eklenir?</h2>\n\n<p>Bu k\u0131s\u0131m, farkl\u0131 tipteki hesaplar\u0131n nas\u0131l <strong>Jitsi\u2019ye</strong> eklenece\u011fi ile ilgilidir. <strong>Jitsi</strong>, bir\u00e7ok farkl\u0131 hesap tipini destekler. A\u015fa\u011f\u0131da belirtti\u011fimiz hesaplar genellikle <strong>Jabber/XMPP</strong> ve <strong>SIP</strong> ileti\u015fim protokollerine dayal\u0131d\u0131r. Bir\u00e7ok servisin yan\u0131 s\u0131ra, <strong>Jitsi</strong>, <strong>Gmail</strong> veya <strong>Facebook</strong> hesaplar\u0131n\u0131z\u0131 da kullanman\u0131za izin verir. Bunlar Internet\u2019te kullan\u0131lan en pop\u00fcler servisler oldu\u011fu i\u00e7in, onlar\u0131 <strong>Jitsi\u2019ye</strong> nas\u0131l ekleyebilece\u011finiz a\u015fa\u011f\u0131da g\u00f6sterilmi\u015ftir. Ayn\u0131 zamanda, bu hesaplar\u0131 kullan\u0131rken, hesap sunucular\u0131n\u0131z taraf\u0131ndan sunulan\u0131n \u00fcst\u00fcne <strong>Jitsi\u2019nin</strong> ba\u011f\u0131ms\u0131z \u015fifrelemesini kullanarak g\u00fcvenli\u011finizi nas\u0131l artt\u0131raca\u011f\u0131n\u0131z konusunda da bilgi verilmi\u015ftir. Fakat akl\u0131n\u0131zda bulundurun ki, <strong>Jitsi</strong> \u015fifrelemesi ile bile, <strong>Google</strong> veya <strong>Facebook</strong> gibi hesap sunucular\u0131 ileti\u015fim halinde oldu\u011funuzu (ve b\u00fcy\u00fck ihtimalle kimlerle ileti\u015fim kurdu\u011funuzu) takip eder ve \u015firketler ve h\u00fck\u00fcmetler gibi \u00fc\u00e7\u00fcnc\u00fc taraflarla bilgilerinizi payla\u015fabilir. Bu y\u00fczden, hassas bilgilerin dahil oldu\u011fu ileti\u015fimler i\u00e7in, <strong>Jitsi</strong> \u015fifrelemesi olsa bile, bu hesaplar\u0131 kullanmamak daha iyi olabilir. Bu b\u00f6l\u00fcmde ayn\u0131 zamanda, nas\u0131l daha g\u00fcvenli hesaplar (Jabber/XMPP veya SIP) yaratabilece\u011finizi ve bunlar\u0131 <strong>Jitsi\u2019ye</strong> nas\u0131l ekleyece\u011finizi de anlat\u0131yoruz ve bu hesaplar\u0131 kullanman\u0131z\u0131 tavsiye ediyoruz.</p>\n\n<p><a name=\"2.2.1\" id=\"2.2.1\"></a></p>\n\n<h3>Gmail-Google hesab\u0131 nas\u0131l eklenir?</h3>\n\n<p><strong>Not</strong>: A\u015fa\u011f\u0131daki \u00f6rnek bir <strong>Google Talk</strong> hesab\u0131ndan al\u0131nm\u0131\u015ft\u0131r. Yukar\u0131daki <em>\u015eekil 1\u2019de</em> listelenen di\u011fer ileti\u015fim protokollerinin kurulumu benzerdir. \u0130leti\u015fim veya baz\u0131 \u00f6zellikler (<strong>Jitsi</strong> ba\u011f\u0131ms\u0131z \u015fifreleme veya yaz\u0131l\u0131 sohbet ve ses \u2013 <strong>OTR</strong> ve <strong>ZRTP</strong>), farkl\u0131 hesap sunucular\u0131 (Facebook, Gmail, Yahoo ve benzeri) aras\u0131nda \u00e7al\u0131\u015fmayabilir. Fakat, ayn\u0131 servis sunucusuna sahip hesaplar aras\u0131ndaki ileti\u015fimde \u00e7al\u0131\u015fmal\u0131d\u0131r.</p>\n\n<p><strong>1. Ad\u0131m</strong>. <strong>Ba\u015fla &gt; Jitsi'yi</strong> <strong>se\u00e7in</strong> \u2013 veya <strong>Jitsi</strong> masa\u00fcst\u00fc ikonuna <strong>\u00e7ift t\u0131kayarak</strong> <strong>Jitsi'yi</strong> a\u00e7\u0131n.</p>\n\n<p><strong>2. Ad\u0131m</strong>. <em>Giri\u015f yap\u0131n</em> penceresine, <strong>Gmail</strong> hesab\u0131n\u0131za ait, sohbet ama\u00e7l\u0131 kullanmak istedi\u011finiz kullan\u0131c\u0131 ad\u0131 ve parolas\u0131n\u0131 <strong>yaz\u0131n</strong>. A\u015fa\u011f\u0131daki gibi g\u00f6r\u00fcnecektir:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/09.png\" alt=\"\" /></p>\n\n<p><em>Jitsi \u2018Giri\u015f Yap\u2019 penceresi (boyutu de\u011fi\u015ftirilmi\u015f)</em></p>\n\n<p><strong>Not</strong>: Ayn\u0131 anda farkl\u0131 protokoller kullanarak birden fazla hesap ekleyebilirsiniz.</p>\n\n<p><strong>3. Ad\u0131m</strong>. Hesab\u0131n\u0131z\u0131n sohbet penceresini a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi etkinle\u015ftirmek i\u00e7in  <img src=\"/sbox/screen/jitsi-en/09s.png\" alt=\"Sign in\" />'i <strong>t\u0131klay\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/10.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 4: Gmail hesab\u0131n\u0131 ekledikten sonra Jitsi ana penceresi \u00f6rne\u011fi</em></p>\n\n<p><strong>Not</strong>: <em>Giri\u015f yap</em> penceresini kapatt\u0131ysan\u0131z ya da ba\u015fka bir hesap eklemek istiyorsan\u0131z, bunu <strong><em>Klas\u00f6r</em>  &gt; <em>Yeni hesap ekle...</em></strong> men\u00fcs\u00fcn\u00fc <strong>se\u00e7erek</strong> ekleyebilirsiniz. Yeni pencerede, <strong>A\u011f\u2019\u0131</strong> <strong>Google Talk</strong> olarak <strong>se\u00e7in</strong> ve <strong>Gmail</strong> hesab\u0131n\u0131z\u0131n kullan\u0131c\u0131 ad\u0131 ve parolas\u0131n\u0131 a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi yaz\u0131n:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/11.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 5: \u2018Yeni hesap ekle\u2019 penceresi</em></p>\n\n<p><strong>Gmail</strong> hesab\u0131n\u0131z\u0131 <strong>Jitsi\u2019ye</strong> kaydetti\u011finizden emin olmak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:</p>\n\n<p><strong>1. Ad\u0131m</strong>. A\u015fa\u011f\u0131daki pencereyi etkinle\u015ftirmek i\u00e7in men\u00fcden <strong><em>Ara\u00e7lar</em> &gt; <em>Se\u00e7enekler\u2019i</em></strong> <strong>se\u00e7in</strong>:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/12.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 6: Yeni kay\u0131tl\u0131 Gmail hesab\u0131n\u0131 g\u00f6steren Se\u00e7enekler men\u00fcs\u00fc (boyutu de\u011fi\u015ftirilmi\u015f)</em></p>\n\n<p><strong>Not</strong>: Gmail hesab\u0131n\u0131za eri\u015fimi korumak i\u00e7in <a href=\"https://support.google.com/accounts/answer/180744?hl=tr\"><strong>2 ad\u0131ml\u0131 do\u011frulama</strong></a> kullan\u0131yorsan\u0131z, her zamanki parolan\u0131z ile <strong>Jitsi\u2019den</strong> giri\u015f yapmay\u0131 denedi\u011finiz zaman a\u015fa\u011f\u0131daki gibi bir mesaj ile kar\u015f\u0131la\u015fabilirsiniz. <strong>Jitsi</strong> kullanarak giri\u015f yapmak i\u00e7in, \u2018uygulamaya \u00f6zel parola\u2019 \u00fcretmeniz gerekir. Bunu nas\u0131l yapabilece\u011finizi \u00f6\u011frenmek i\u00e7in <a href=\"https://support.google.com/accounts/answer/185833?hl=tr\">Google'un y\u00f6nergelerini takip ederek</a> \u00f6\u011frenin..</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/13.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 7: Google Talk giri\u015f kimlik do\u011frulama ba\u015far\u0131s\u0131z \u00f6rne\u011fi</em></p>\n\n<p><a name=\"2.2.2\" id=\"2.2.2\"></a></p>\n\n<h3>2.2.2 Yeni Jabber/XMPP veya SIP hesab\u0131na kaydolmak ve bunu Jitsi\u2019ye eklemek</h3>\n\n<p><strong>Jabber/XMPP</strong> ve <strong>SIP</strong>, yaz\u0131l\u0131 ve sesli ileti\u015fim a\u00e7\u0131k standartlar\u0131d\u0131r. Jitsi ile birlikte kullanabilece\u011finiz, bedava hesap sunan bir\u00e7ok <a href=\"https://xmpp.net/directory.php\">sunucu</a> vard\u0131r. A\u015fa\u011f\u0131da, hassas bilgi i\u00e7eren ileti\u015fimde kullanabilece\u011finiz baz\u0131 sunucular tavsiye ediyoruz. Akl\u0131n\u0131zda tutun ki, <a href=\"http://xmpp.org/xmpp-software/servers/\">Jabber/XMPP sunucu yaz\u0131l\u0131m\u0131</a> (<a href=\"http://www.process-one.net/en/ejabberd/\">ejabberd</a> veya <a href=\"http://prosody.im/\">Prosody IM</a> gibi) indirmek de m\u00fcmk\u00fcnd\u00fcr. Bunlar\u0131 kendi sunucu bilgisayar\u0131n\u0131za indirebilir, grup, topluluk ve organizasyon \u00fcyelerini aras\u0131nda g\u00fczl\u00fc ve g\u00fcvenli ileti\u015fim kurmak i\u00e7in kullanabilirsiniz.</p>\n\n<ul><li><strong>Riseup.net</strong> Jabber/XMPP hesab\u0131</li>\n</ul><p><a href=\"/en/riseup_main\">Riseup.net g\u00fcvenli e-posta servisi </a> (Amerika bazl\u0131d\u0131r) \u00fczerinde hesab\u0131n\u0131z varsa , bu hesab\u0131 Jitsi\u2019ye ekleyerek, <a href=\"https://www.riseup.net/en/chat\">Jabber/XMPP a\u011f\u0131 \u00fczerinden ileti\u015fim kurmak</a> i\u00e7in kullanabilirsiniz. Var olan Jabber/XMPP hesab\u0131n\u0131 nas\u0131l ekleyece\u011finizi \u00f6\u011frenmek i\u00e7in a\u015fa\u011f\u0131ya bak\u0131n.</p>\n\n<ul><li><strong>Jabber.ccc.de</strong> ve di\u011fer Jabber/XMPP hesaplar\u0131</li>\n</ul><p>Bir hesab\u0131 Jabber.ccc.de sunucusu \u00fczerine (Almanya bazl\u0131d\u0131r) kaydetmek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <strong>Jitsi\u2019de</strong> men\u00fcden <em>Dosya</em> &gt; <em>Yeni hesap ekle...</em>'yi <strong>se\u00e7in</strong>. Yeni a\u00e7\u0131lan pencerede, <strong><em>A\u011f: XMPP\u2019yi</em> se\u00e7in</strong> ve <strong>Yeni XMPP hesab\u0131 a\u00e7</strong> se\u00e7ene\u011fini <strong>i\u015faretleyin</strong>. Sunucuya jabber.ccc.de <strong>yaz\u0131n</strong>, yaratmak istedi\u011finiz XMPP kullan\u0131c\u0131 ad\u0131n\u0131 <strong>yaz\u0131n</strong> ve <em>Parola</em>, ard\u0131ndan da <em>Parolay\u0131 Onayla</em> alanlar\u0131n\u0131 <strong>doldurun</strong>. Ekran a\u015fa\u011f\u0131daki gibi g\u00f6r\u00fcnecektir:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/14.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 8: \u2018Yeni XMPP hesab\u0131 yarat\u2019 se\u00e7ili \u2018Yeni hesap a\u00e7\u2019 penceresi \u00f6rne\u011fi</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. Ekle\u2019y\u0131 <strong>t\u0131klay\u0131n</strong>. Ba\u015far\u0131l\u0131 bir kay\u0131t i\u015fleminden sonra yukar\u0131daki <em>\u015eekil 4\u2019e</em> benzeyen bir pencere g\u00f6receksiniz.</p>\n\n<p>Kullan\u0131c\u0131 ad\u0131n\u0131z ba\u015fkas\u0131 taraf\u0131ndan al\u0131nm\u0131\u015fsa, kay\u0131t i\u015flemi, <em>Bir hata y\u00fcz\u00fcnden kay\u0131t i\u015fleminiz tamamlanamad\u0131: Veriler onaylanam\u0131yor.</em> mesaj\u0131 vererek ba\u015far\u0131s\u0131z olacakt\u0131r. Farkl\u0131 bir kullan\u0131c\u0131 ad\u0131 se\u00e7erek i\u015flemi yeniden tekrar edebilirsiniz.</p>\n\n<p>Jabber.ccc.de hesab\u0131n\u0131za 12 aydan uzun bir s\u00fcre giri\u015f yapmazsan\u0131z, hesab\u0131n\u0131z otomatik olarak sunucudan kald\u0131r\u0131lacak ve kullan\u0131c\u0131 ad\u0131n\u0131z ba\u015fkalar\u0131n\u0131n kullan\u0131m\u0131na a\u00e7\u0131lacakt\u0131r.</p>\n\n<p>Bahsedilmeye de\u011fer bir ba\u015fka Jabber/XMPP sunucusu ise <strong>jit.si\u2019dir</strong>. Bu sunucu <strong>Jitsi</strong> program\u0131n\u0131 geli\u015ftirenler taraf\u0131ndan korunur.  <a href=\"https://jit.si\"><strong>jit.si</strong></a> ve di\u011fer Jabber/XMPP sunucular\u0131nda yukar\u0131daki b\u00f6l\u00fcmde anlat\u0131ld\u0131\u011f\u0131 gibi hesap olu\u015fturabilirsiniz. IM Observatory, <a href=\"https://xmpp.net/directory.php\">kamusal Jabber/XMPP sunucular\u0131n\u0131n listesini</a> tutar ve herhangi bir Jabber/XMPP sunucusunun <a href=\"https://xmpp.net/index.php\">g\u00fcvenli\u011fini test etmenizi sa\u011flar</a>.</p>\n\n<ul><li><strong>ostel.co</strong> SIP hesab\u0131</li>\n</ul><p><strong>SIP</strong> hesaplar\u0131na <strong>Jitsi</strong> program\u0131n\u0131n i\u00e7inden kay\u0131t olunamaz. <strong>Ostel.co</strong> sunucusu (Amerika bazl\u0131d\u0131r) kendi <a href=\"https://ostel.co/users/sign_up\">web sayfalar\u0131nda</a> kay\u0131t olma hizmeti sunar. Bir kullan\u0131c\u0131 ad\u0131 ve parola <strong>se\u00e7tikten</strong> ve e-posta adresinizi belirttikten sonra web sayfas\u0131ndaki <em>Giri\u015f Yap</em> d\u00fc\u011fmesine <strong>bas\u0131n</strong>. Ba\u015far\u0131l\u0131 bir \u015fekilde kay\u0131t yapt\u0131ktan sonra Jitsi program\u0131na geri <strong>d\u00f6n\u00fcn</strong>. Men\u00fcden <em>Dosya</em>  &gt; <em>Yeni hesap ekle\u2019yi</em> <strong>se\u00e7in</strong> <strong>A\u011f: SIP\u2019yi se\u00e7in</strong> ve kullan\u0131c\u0131 ad\u0131n\u0131z\u0131 (\u00f6rne\u011fin, terence.the.tester@ostel.co) ve web kayd\u0131 esnas\u0131nda yaratt\u0131\u011f\u0131n\u0131z parolay\u0131 <strong>girin</strong>, ard\u0131ndan <strong><em>Ekle\u2019yi</em> t\u0131klay\u0131n</strong>. \u00d6rnek olarak a\u015fa\u011f\u0131daki g\u00f6r\u00fcnt\u00fcye bakabilirsiniz:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/15.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 9: SIP hesab\u0131 i\u00e7in \u2018Yeni hesap ekle\u2019 penceresi \u00f6rne\u011fi</em></p>\n\n<ul><li><strong>Var olan Jabber/XMPP veya SIP hesaplar\u0131n\u0131 Jitsi\u2019ye eklemek</strong></li>\n</ul><p>Hali haz\u0131rda Jabber/XMPP veya SIP hesab\u0131n\u0131z varsa, onlar\u0131, men\u00fcden <strong><em>Dosya</em> &gt; <em>Yeni Hesap ekleyin...</em>\u2019i se\u00e7erek</strong> ve uygun olan <strong>A\u011f\u2019\u0131</strong> (hesap t\u00fcr\u00fcne ba\u011fl\u0131 olarak XMPP veya SIP) belirleyerek <strong>Jitsi\u2019ye</strong> ekleyebilirsiniz.</p>\n\n<p><a name=\"2.2.3\" id=\"2.2.3\"></a></p>\n\n<h3>2.2.3 Facebook hesab\u0131 nas\u0131l eklenir?</h3>\n\n<p><strong>Jitsi\u2019nin</strong> Facebook sohbetinize ba\u011flanabilmesi i\u00e7in, <strong>Facebook\u2019taki</strong> iki ayar\u0131 de\u011fi\u015ftirmeniz gerekebilir</p>\n\n<ul><li><strong>Facebook Kullan\u0131c\u0131 ad\u0131</strong></li>\n</ul><p><strong>Facebook</strong>, <strong>Jitsi\u2019nin</strong> Facebook sohbete ba\u011flanabilmesi i\u00e7in bir kullan\u0131c\u0131 ad\u0131 ister. Bir\u00e7ok <strong>Facebook</strong> kullan\u0131c\u0131s\u0131n\u0131n zaten bir kullan\u0131c\u0131 ad\u0131 vard\u0131r. Kullan\u0131c\u0131 ad\u0131n\u0131za bakmak i\u00e7in <strong>Facebook</strong> hesab\u0131n\u0131za <strong>girin</strong>. Zaman T\u00fcneli veya Sayfan\u0131z\u0131 g\u00f6r\u00fcnt\u00fcledi\u011finizde konum \u00e7ubu\u011funda https://www.facebook.com/ 'dan sonra g\u00f6r\u00fcnen kullan\u0131c\u0131 ad\u0131n\u0131zd\u0131r. Ayn\u0131 zamanda, Ki\u015fisel hesab\u0131n\u0131z\u0131n <strong>Facebook</strong> e-posta adresinde de kullan\u0131c\u0131 ad\u0131n\u0131z\u0131 g\u00f6rebilirsiniz (\u00f6rne\u011fin, kullan\u0131c\u0131ad\u0131@facebook.com). Kullan\u0131c\u0131 ad\u0131n\u0131z\u0131 g\u00f6rmek, de\u011fi\u015ftirmek veya ilk defa almak i\u00e7in <em>Hesap Ayarlar\u0131</em> &gt; <em>Genel</em> b\u00f6l\u00fcm\u00fcne gidebilir veya <a href=\"https://www.facebook.com/username\">https://www.facebook.com/username</a> sayfas\u0131n\u0131 ziyaret edebilirsiniz. Kullan\u0131c\u0131 ad\u0131 olu\u015ftururken, <strong>Facebook</strong> hesap onaylaman\u0131z\u0131 ger\u00e7ekle\u015ftirirken cep telefonu numaran\u0131za mesaj g\u00f6ndermeyi \u015fart ko\u015fabilir. Daha fazla detay i\u00e7in, <a href=\"https://www.facebook.com/help/329992603752372/\">Facebook'un kullan\u0131c\u0131 ad\u0131 ile ilgili a\u00e7\u0131klamalar\u0131na</a> bakabilirsiniz</p>\n\n<ul><li><strong>Uygulama Ayarlar\u0131</strong></li>\n</ul><p><strong>Jitsi</strong> Facebook Sohbete ba\u011flanmadan \u00f6nce <strong>Facebook\u2019un</strong> \u2018uygulama platformu\u2019 etkinle\u015ftirilmeli. <strong>Facebook</strong> <em>Hesap Ayarlar\u0131 &gt; Uygulamalar</em> b\u00f6l\u00fcm\u00fcne gidin ve <em>Kulland\u0131\u011f\u0131n\u0131z uygulamalar</em> i\u00e7in <em>A\u00e7\u0131k</em> se\u00e7ene\u011finin i\u015faretli oldu\u011fundan emin olun. Bunu yapmak, hesab\u0131n\u0131z i\u00e7in \u2018uygulama platformunu\u2019 a\u00e7acakt\u0131r.</p>\n\n<p><strong>Akl\u0131n\u0131zda tutun</strong> ki, <strong>Facebook\u2019un</strong> \u2018uygulama platformu\u2019nu a\u00e7mak <strong>Facebook</strong> verilerinizin b\u00fcy\u00fck bir k\u0131sm\u0131n\u0131 \u00fc\u00e7\u00fcnc\u00fc taraf uygulama geli\u015ftiricilerine a\u00e7\u0131k hale getirir. Bu \u015fekilde, verileriniz sadece kulland\u0131\u011f\u0131n\u0131z <strong>Facebook</strong> uygulamalar\u0131na de\u011fil, arkada\u015flar\u0131n\u0131z\u0131n kulland\u0131\u011f\u0131 <strong>Facebook</strong> uygulamalar\u0131na da a\u00e7\u0131k hale gelir. <strong>Facebook\u2019un</strong> \u2018uygulama platformu\u2019nu etkinle\u015ftirdikten sonra, \u2018Ba\u015fkalar\u0131n\u0131n kulland\u0131\u011f\u0131 uygulamalar\u2019\u0131n alt\u0131ndaki ayarlar\u0131 kontrol edin. Bu ayarlar, arkada\u015flar\u0131n\u0131z\u0131n kulland\u0131\u011f\u0131 uygulamalardan baz\u0131 ki\u015fisel verilerinizi saklayabilmenizi sa\u011flar. Ne yaz\u0131k ki, <strong>Facebook</strong> b\u00fct\u00fcn ki\u015fisel bilgilerinizi saklaman\u0131za izin vermez. Baz\u0131 bilgi kategorileri (arkada\u015f listeniz, cinsiyetiniz ve kamuya a\u00e7\u0131k hale getirdi\u011finiz bilgiler gibi), <strong>Facebook</strong> \u2018uygulama Platformu\u2019 \u2018a\u00e7\u0131k\u2019 oldu\u011fu s\u00fcrece g\u00f6r\u00fcn\u00fcr hale gelir. Bu durumun g\u00fcvenli\u011finiz i\u00e7in ne derece \u00f6nemli oldu\u011funa karar vermek size kalm\u0131\u015ft\u0131r.</p>\n\n<p>\u015eimdi <strong>Facebook</strong> hesab\u0131n\u0131z\u0131 <strong>Jitsi\u2019ye</strong> eklemeye haz\u0131r hale geldiniz. Bunu yapmak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz:</p>\n\n<p><strong>1. Ad\u0131m</strong>. Ana men\u00fcden <strong><em>Dosya \u2013 Yeni hesap ekle...\u2019yi</em> se\u00e7in</strong></p>\n\n<p><strong>2. Ad\u0131m</strong>. Yeni Hesap Ekle diyalo\u011funda <strong>A\u011f</strong> men\u00fcs\u00fcnden <em>Facebook\u2019u</em> se\u00e7in. <strong>Kullan\u0131c\u0131 ad\u0131 ve parolan\u0131z\u0131 girin</strong> ve <strong>\u2018Ekle\u2019yi t\u0131klay\u0131n</strong>.</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/16.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 10: Facebook hesab\u0131 i\u00e7in \u2018Yeni Hesap Ekle\u2019 penceresi \u00f6rne\u011fi</em></p>\n\n<p><a name=\"2.3\" id=\"2.3\"></a></p>\n\n<h2>2.3 Jitsi ile nas\u0131l hesap parolas\u0131 de\u011fi\u015ftirilir?</h2>\n\n<p>Ki\u015finin sahip oldu\u011fu her hesab\u0131n parolas\u0131n\u0131 nas\u0131l de\u011fi\u015ftirece\u011fini bilmesi g\u00fcvenlik a\u00e7\u0131s\u0131ndan \u00f6nemli bir konudur. Jitsi ile kullanabilece\u011finiz hesaplar\u0131n bir \u00e7o\u011funun ayarlar\u0131n\u0131n i\u00e7inde parola de\u011fi\u015ftirme se\u00e7ene\u011fi vard\u0131r ve bunlar web ara y\u00fcz\u00fc \u00fczerinden eri\u015filebilirlerdir. Fakat, baz\u0131 Jabber/XMPP ve SIP hesaplar\u0131n\u0131n bu ayarlara ula\u015fabilecek web aray\u00fczleri yoktur. Bu durumlarda, Jitsi kullanarak parolan\u0131z\u0131 de\u011fi\u015ftirmek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edebilirsiniz:</p>\n\n<p><strong>1. Ad\u0131m</strong>. Men\u00fcden <strong><em>Ara\u00e7lar</em> &gt; <em>Se\u00e7enekler\u2019i</em> se\u00e7in</strong> ve <strong><em>Hesaplar</em></strong> sekmesini <strong>se\u00e7in</strong></p>\n\n<p><img src=\"/sbox/screen/jitsi-en/17.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 11: Bir hesap se\u00e7ili Se\u00e7enekler penceresi</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. A\u015fa\u011f\u0131da g\u00f6r\u00fcnen pencereyi etkinle\u015ftirmek i\u00e7in alt k\u0131s\u0131mdaki <strong><em>D\u00fczenle\u2019yi</em> t\u0131klay\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/18.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 12: Alt k\u0131s\u0131mda Hesap parolan\u0131z\u0131 de\u011fi\u015ftirin se\u00e7ene\u011fi ile birlikte Hesap Kay\u0131t Sihirbaz\u0131</em></p>\n\n<p><strong>3. Ad\u0131m</strong>. <em>Hesap parolas\u0131 de\u011fi\u015ftirme penceresini</em> etkinle\u015ftirmek i\u00e7in <strong><em>Hesap Parolas\u0131 De\u011fi\u015ftir\u2019i</em> t\u0131klay\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/19.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 13: Hesap parolas\u0131 de\u011fi\u015ftirme penceresi</em></p>\n\n<p><strong>4. Ad\u0131m</strong>. <strong><em>Yeni parolan\u0131z\u0131</em> girin ve <em>yeniden</em> girin</strong>. Bu pencereyi kapatmak i\u00e7in <strong><em>OK'yi</em> t\u0131klay\u0131n</strong>.</p>\n\n<p><strong>5. Ad\u0131m</strong>. Hesap Kay\u0131t Sihirbaz\u0131n\u0131 kapat\u0131n.</p>\n\n<p><a name=\"2.4\" id=\"2.4\"></a></p>\n\n<h2>2.4 G\u00fcvenli\u011fini artt\u0131rmak i\u00e7in Jitsi nas\u0131l yap\u0131land\u0131r\u0131l\u0131r?</h2>\n\n<p><a name=\"2.4.1\" id=\"2.4.1\"></a></p>\n\n<h3>2.4.1 Arama ve sohbet ge\u00e7mi\u015fini devre d\u0131\u015f\u0131 b\u0131rakma ve silme</h3>\n\n<p><strong>Jitsi</strong> verili olarak gelen ve giden ses/video arama bilgilerini ve yaz\u0131l\u0131 sohbetlerinizin (g\u00f6nderdi\u011finiz ve size gelen t\u00fcm mesajlar) tarihini kay\u0131t alt\u0131na al\u0131r. Ses/video aramalar\u0131na ana Jitsi penceresindeki saat ikonunu <strong>t\u0131klayarak</strong> ula\u015fabilirsiniz:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/20.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 14: Arama ge\u00e7mi\u015fi d\u00fc\u011fmesi i\u015faretli Jitsi ana penceresinin \u00fcst k\u0131sm\u0131</em></p>\n\n<p>Birisi ile sohbet ederken yaz\u0131l\u0131 sohbet penceresindeki kum saatine <strong>t\u0131klayarak</strong> sohbet tarihinizi g\u00f6rebilirsiniz</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/21.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 15: Sohbet ge\u00e7mi\u015fi i\u015faretli Sohbet penceresi</em></p>\n\n<p>Bu bilgiler bilgisayar\u0131n\u0131z\u0131n diskinde toplan\u0131r ve saklan\u0131r. <strong>Yaz\u0131l\u0131 sohbetinizi OTR kullanarak \u015fifrelemi\u015f olsan\u0131z bile, g\u00f6nderdi\u011finiz ve ald\u0131\u011f\u0131n\u0131z t\u00fcm yaz\u0131l\u0131 mesajlar bilgisayar\u0131n\u0131zda a\u00e7\u0131k metin format\u0131nda saklan\u0131r</strong>. Ayn\u0131 bilgiler sohbet etti\u011finiz ki\u015filerin bilgisayarlar\u0131nda da kay\u0131t alt\u0131na al\u0131n\u0131r.</p>\n\n<p>Jitsi\u2019nin bu bilgileri toplamas\u0131n\u0131 engellemek i\u00e7in (ve hali haz\u0131rda saklanm\u0131\u015f olan bilgileri silmek i\u00e7in), <strong>siz ve temas halinde oldu\u011funuz ki\u015filer a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip etmelidir</strong>.</p>\n\n<h4>Jitsi\u2019nin bu bilgileri toplamas\u0131n\u0131 engellemek i\u00e7in:</h4>\n\n<p><strong>1. Ad\u0131m</strong>. Men\u00fcden <strong><em>Ara\u00e7lar</em> &gt; <em>Se\u00e7enekler\u2019i</em> se\u00e7in</strong>. <strong><em>Genel</em></strong> sekmesini <strong>se\u00e7in</strong> ve <strong><em>Sohbet ge\u00e7mi\u015fi kaydet</em></strong> se\u00e7ene\u011finin i\u015faretini a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi <strong>kald\u0131r\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/22.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 16: \u2018Se\u00e7enekler\u2019 penceresi, \u2018Genel\u2019 sekmesi ve i\u015fareti kald\u0131r\u0131lm\u0131\u015f \u2018Sohbet ge\u00e7mi\u015fini kaydet\u2019</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. <em>Se\u00e7enekler</em> penceresinde, \u00f6nce <strong><em>Geli\u015fmi\u015f</em></strong> sekmesini <strong>se\u00e7in</strong>, daha sonra <strong><em>Kay\u0131t</em></strong> b\u00f6l\u00fcm\u00fcn\u00fc <strong>se\u00e7in</strong> ve <strong><em>Paket giri\u015fini etkinle\u015ftir</em></strong> se\u00e7ene\u011finin a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi <strong>i\u015faretini kald\u0131r\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/23.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 17: 'Se\u00e7enekler' penceresinde, \u2018Geli\u015fmi\u015f\u2019 sekmesi, Paket kayd\u0131n\u0131 etkinle\u015ftir i\u015fareti kald\u0131r\u0131lm\u0131\u015f durumda</em></p>\n\n<p>Yapt\u0131\u011f\u0131n\u0131z de\u011fi\u015fiklikler, <strong>Jitsi\u2019yi</strong> yeniden ba\u015flatt\u0131\u011f\u0131n\u0131zda etkinle\u015fecektir. .</p>\n\n<h4>Hali haz\u0131rda kaydedilmi\u015f olan arama ve yaz\u0131l\u0131 mesaj bilgilerinizi silmek i\u00e7in:</h4>\n\n<p><strong>1. Ad\u0131m</strong>. <strong>Jitsi\u2019yi</strong> kapat\u0131n.</p>\n\n<p><strong>2. Ad\u0131m</strong>. <em>history_ver1.0</em> ad\u0131ndaki ge\u00e7mi\u015f klas\u00f6r\u00fcn\u00fcn t\u00fcm\u00fcn\u00fc, <strong>Jitsi</strong> <em>kullan\u0131c\u0131 profili</em> klas\u00f6r\u00fcnden silin. \u0130sterseniz <em>history_ver1.0</em> klas\u00f6r\u00fcn\u00fcn alt-klas\u00f6rlerinden birini de silebilirsiniz. <em>Kullan\u0131c\u0131 profili</em> ve <em>kay\u0131t tarihi</em> klas\u00f6rlerinin konumu i\u015fletim sistemine g\u00f6re de\u011fi\u015fir:</p>\n\n<ul><li>Windows XP ve \u00f6nceki versiyonlar\u0131nda bulundu\u011fu yer: <em>C:\\Belgeler ve Ayarlar\\Uygulama Verileri\\Jitsi\\tarih_ver1.0</em></li>\n<li>Windows Vista, 7, 8\u2019de bulundu\u011fu yer: <em>C:\\Kullan\u0131c\u0131lar\\&lt;&lt;Windows giri\u015f/kullan\u0131c\u0131 ad\u0131&gt;\\UygulamaVerileri\\Gezici\\Jitsi\\tarih_ver1.0</em> (\u2018Uygulama Verileri\u2019 dosyas\u0131 sakl\u0131 olabilir. <a href=\"http://windows.microsoft.com/tr-tr/windows/show-hidden-files#show-hidden-files=windows-7\">Sakl\u0131 dosyalar\u0131 nas\u0131l g\u00f6rece\u011finiz ile ilgili bilgi i\u00e7in buraya bak\u0131n\u0131z</a>)</li>\n<li>Mac OS X\u2019te bulundu\u011fu yer: ana klas\u00f6rden <em>~/K\u00fct\u00fcphane/Uygulama Destek/Jitsi/tarih_ver1.0</em></li>\n<li>Linux\u2019ta bulundu\u011fu yer: ana klas\u00f6rden <em>~/.jitsi/tarih_ver1.0</em> (<strong>Not</strong>: \u2018jitsi\u2019 klas\u00f6r\u00fc sakl\u0131 olabilir. <a href=\"http://itsfoss.com/hide-folders-and-show-hidden-files-in-ubuntu-beginner-trick/\">Ubuntu\u2019daki gizli klas\u00f6rleri nas\u0131l g\u00f6rece\u011finiz ile ilgili bilgi i\u00e7in buraya bak\u0131n\u0131z</a>). </li>\n</ul><p>Bilgileri g\u00fcvenli bir \u015fekilde imha i\u00e7in <a href=\"/tr/chapter-6\">Hassas bilgiler nas\u0131l imha edilir</a> b\u00f6l\u00fcm\u00fcne de bakabilirsiniz.</p>\n\n<p><a name=\"2.4.2\" id=\"2.4.2\"></a></p>\n\n<h3>2.4.2 Yaz\u0131l\u0131 sohbette \u00f6zel mesaj \u015fart\u0131</h3>\n\n<p><strong>Jitsi\u2019yi</strong> <a href=\"/en/glossary#OTR\"><em>OTR</em></a> <a href=\"/en/glossary#encryption\"><em>\u015fifrelemesi</em></a> kullanarak gizli ve \u015fifrelenmi\u015f yaz\u0131l\u0131 mesajla\u015fma uygulayacak \u015fekilde kurman\u0131z\u0131 tavsiye ederiz. Bunu yapmak i\u00e7in, men\u00fcden <strong><em>Ara\u00e7lar</em>  &gt; <em>Se\u00e7enekler\u2019i</em> se\u00e7in</strong>, <strong><em>G\u00fcvenlik</em></strong> se\u00e7mesini <strong>se\u00e7in</strong>, <strong><em>Sohbet</em></strong> alt-sekmesini <strong>se\u00e7in</strong> ve ekran\u0131n alt\u0131ndaki <strong><em>\u00d6zel mesajla\u015fma \u015fart\u0131 koy</em></strong> se\u00e7ene\u011fini a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc \u015fekilde <strong>i\u015faretleyin</strong>:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/24.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 18: \u2018\u00d6zel mesajla\u015fma \u015fart\u0131 koy\u2019 se\u00e7ili, \u2018Se\u00e7enekler\u2019 penceresi,'G\u00fcvenlik' sekmesi \u2018Sohbet\u2019 alt-sekmesi</em></p>\n\n<p><a name=\"2.4.3\" id=\"2.4.3\"></a></p>\n\n<h3>2.4.3 Ana parola ile hesaplar\u0131n\u0131z\u0131n parolalar\u0131n\u0131 koruma</h3>\n\n<p>Jitsi\u2019nin hesaplar\u0131n\u0131z\u0131n parolalar\u0131n\u0131 hat\u0131rlamas\u0131na izin vermemek en iyisidir. Kullan\u0131m kolayl\u0131\u011f\u0131 a\u00e7\u0131s\u0131ndan tersini yaparsan\u0131z, bilgisayar\u0131n\u0131z\u0131 kullanan herhangi biri Jitsi\u2019yi ba\u015flatarak t\u00fcm hesaplar\u0131n\u0131za giri\u015f yapabilir. Ayn\u0131 zamanda, <em>Se\u00e7enekler</em> penceresinde parolalar\u0131n\u0131z\u0131 g\u00f6rebilir. Bu y\u00fczden, hesap parolalar\u0131n\u0131z\u0131 g\u00fc\u00e7l\u00fc bir <strong>ana parola</strong> ile koruman\u0131z\u0131 <strong>\u015fiddetle tavsiye ederiz</strong>. Ana parolay\u0131 olu\u015fturdulunca, Jitsi her ba\u015flat\u0131ld\u0131\u011f\u0131nda size bu parolay\u0131 soracakt\u0131r.</p>\n\n<p><strong>1. Ad\u0131m</strong>. Men\u00fcden <em>Ara\u00e7lar</em> &gt; <em>Se\u00e7enekler\u2019i</em> se\u00e7erek <em>Se\u00e7enekler</em> penceresini <strong>a\u00e7\u0131n</strong>, <strong><em>G\u00fcvenlik</em></strong> sekmesini <strong>se\u00e7in</strong>, <strong><em>Parolalar</em></strong> alt-sekmesini <strong>se\u00e7in</strong> ve <strong><em>Ana Parola</em></strong> penceresini etkinle\u015ftirmek i\u00e7in <strong><em>Ana parola Kullan\u2019\u0131</em></strong> <strong>i\u015faretleyin</strong>.</p>\n\n<p><strong>2. Ad\u0131m</strong>. A\u015fa\u011f\u0131daki resimde g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi, a\u00e7\u0131lan pencereye <strong>parolan\u0131z\u0131 girin</strong>. G\u00fc\u00e7l\u00fc parolalar olu\u015fturmak konusunda daha fazla bilgi i\u00e7in, <a href=\"/en/chapter-3\"><strong><em>G\u00fcvenli \u015fifreler nas\u0131l olu\u015fturulur ve muhafaza edilir</em></strong></a> b\u00f6l\u00fcm\u00fcne bak\u0131n.</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/25.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 19: \u2018Ana Parola\u2019 penceresi</em></p>\n\n<p><strong>3. Ad\u0131m</strong>. Parolay\u0131 onaylamak i\u00e7in <strong><em>'OK'i</em> t\u0131klay\u0131n</strong> ve <strong><em>Ana Parola ba\u015far\u0131l\u0131 bir \u015fekilde olu\u015fturuldu</em></strong> yaz\u0131s\u0131n\u0131 i\u00e7eren pencereyi etkinle\u015ftirin. Pencereyi kapatmak i\u00e7in <strong><em>'OK'i</em> t\u0131klay\u0131n</strong> ve <em>Se\u00e7enekler</em> penceresine geri d\u00f6n\u00fcn. Bu pencere a\u015fa\u011f\u0131daki gibi g\u00f6r\u00fcnecektir:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/26.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 20: \u2018Se\u00e7enekler\u2019 penceresi, \u2018G\u00fcvenlik\u2019 sekmesi, \u2018Parolalar\u2019 alt-sekmesi, \u2018Ana parola kullan\u2019 se\u00e7ene\u011fi i\u015faretli</em></p>\n\n<p><strong>Not</strong>: <strong><em>Ana Parolay\u0131 De\u011fi\u015ftir</em></strong> d\u00fc\u011fmesi ana parolay\u0131 de\u011fi\u015ftirmenize izin verir, <strong><em>Kaydedilen Parolalar...</em></strong> d\u00fc\u011fmesi Jitsi taraf\u0131ndan hat\u0131rlanan parolalara eri\u015fmenizi ve gerekti\u011fi zaman onlar\u0131 silmenizi sa\u011flar.</p>\n", 
+                        "summary": "", 
+                        "value": "Bu sayfadaki b\u00f6l\u00fcmlerin listesi:\r\n\r\n- [**2.1 Jitsi nas\u0131l kurulur?**](#2.1)\r\n- [**2.2 Jitsi\u2019ye farkl\u0131 hesaplar  nas\u0131l eklenir?**](#2.2)\r\n- [**2.2.1 Gmail-Google hesab\u0131 nas\u0131l eklenir?**](#2.2.1)\r\n- [**2.2.2 Yeni Jabber/XMPP veya SIP hesab\u0131na kaydolmak ve bunu Jitsi\u2019ye eklemek**](#2.2.2)\r\n- [**2.2.3 Facebook hesab\u0131 nas\u0131l eklenir?**](#2.2.3)\r\n- [**2.3 Jitsi ile nas\u0131l hesap parolas\u0131 de\u011fi\u015ftirilir?**](#2.3)\r\n- [**2.4 G\u00fcvenli\u011fini artt\u0131rmak i\u00e7in Jitsi nas\u0131l yap\u0131land\u0131r\u0131l\u0131r?**](#2.4)\r\n- [**2.4.1 Arama ve sohbet ge\u00e7mi\u015fini devre d\u0131\u015f\u0131 b\u0131rakma ve silme**](#2.4.1)\r\n- [**2.4.2 Yaz\u0131l\u0131 sohbette \u00f6zel mesaj iste\u011fi**](#2.4.2)\r\n- [**2.4.3 Ana parola ile hesaplar\u0131n\u0131z\u0131n parolalar\u0131n\u0131 koruma**](#2.4.3)\r\n\r\n<a name=\"2.1\"></a>\r\n## 2.1 Jitsi nas\u0131l kurulur? ##\r\n\r\nJitsi\u2019yi kurmak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz:\r\n\r\n**1. Ad\u0131m**. ![](/sbox/screen/jitsi-en/02.png)'ye \u00e7ift t\u0131klay\u0131n, 'Dosyay\u0131 A\u00e7 \u2013 G\u00fcvenlik Uyar\u0131s\u0131' kutusu g\u00f6r\u00fcn\u00fcrse *Winows Kurulum* ekran\u0131n\u0131 etkinle\u015ftirmek i\u00e7in \u00c7al\u0131\u015ft\u0131r\u2019\u0131 **t\u0131klay\u0131n**. Bu sizi, *Jitsi Kurulum Sihirbaz\u0131na Ho\u015fgeldiniz* penceresine g\u00f6t\u00fcrecek.   \r\n\r\n**2. Ad\u0131m**. *Son Kullan\u0131c\u0131 Lisans Anla\u015fmas\u0131* penceresini etkinle\u015ftirmek i\u00e7in ![](/sbox/screen/jitsi-en/04.png)'i **t\u0131klay\u0131n**, *Lisans Anla\u015fas\u0131ndaki maddeleri kabul ediiyorum\u2019u* t\u0131klay\u0131n ve *Hedef Klas\u00f6r* penceresini etkinle\u015ftirmek i\u00e7in  ![](/sbox/screen/jitsi-en/04.png)'i **t\u0131klay\u0131n**. \r\n\r\n**3. Ad\u0131m**. *Ek G\u00f6revler* penceresini etkinle\u015ftirmek i\u00e7in ![](/sbox/screen/jitsi-en/04.png)'i **t\u0131klay\u0131n** ve verili ayarlar\u0131 oldu\u011fu gibi **kabul edin**. \r\n\r\n**Not**: *Bilgisayar a\u00e7\u0131ld\u0131\u011f\u0131nda ya da yeniden ba\u015flad\u0131\u011f\u0131nda otomatik olarak ba\u015fla* se\u00e7ene\u011fini se\u00e7mek bilgisayar\u0131n\u0131z\u0131n genel h\u0131z\u0131n\u0131 d\u00fc\u015f\u00fcrebilir, \u00f6zellikle de bilgisayar\u0131n\u0131z a\u00e7\u0131ld\u0131\u011f\u0131nda ba\u015flamas\u0131 i\u00e7in programlanm\u0131\u015f birden fazla uygulaman\u0131z varsa. \r\n\r\n**4. Ad\u0131m**. *Jitsi\u2019yi Kurmaya Haz\u0131r* penceresini etkinle\u015ftirmek i\u00e7in  ![](/sbox/screen/jitsi-en/04.png)'i **t\u0131klay\u0131n** ve kurulum ilerleme \u00e7ubu\u011funu g\u00f6steren *Jitsi\u2019yi Kuruluyor* penceresini etkinle\u015ftirmek i\u00e7in  ![](/sbox/screen/jitsi-en/05.png)\u2019\u0131 **t\u0131klay\u0131n**. \r\n\r\n**5. Ad\u0131m**. Kurulum i\u015flemini tamamlamak ve a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi **Jitsi** *Giri\u015f yap* penceresini otomatik olarak a\u00e7mak i\u00e7in ![](/sbox/screen/jitsi-en/06.png)'i **t\u0131klay\u0131n**:\r\n\r\n![](/sbox/screen/jitsi-en/07.png)\r\n\r\n*\u015eekil 1: Jitsi Giri\u015f yap penceresi*\r\n\r\n**Not**: Jitsi\u2019nin ilk defa kuruldu\u011fu ve ba\u015flat\u0131ld\u0131\u011f\u0131 baz\u0131 durumlarda, *Windows G\u00fcvenlik Uyar\u0131s\u0131* ekran\u0131 belirebilir (a\u015fa\u011f\u0131da *\u015eekil 2*). **MS Windows** i\u015fletim sistemi i\u00e7in bu uyar\u0131 normaldir. **Jitsi'yi** kullanmaya devam etmek bir sorun yaratmaz. D\u00fc\u011fmelerden herhangi birine basmasan\u0131z ve uyar\u0131 penceresini kapatsan\u0131z bile, **Jitsi**, **Jabber/XMPP** veya **SIP**, **Google Sohbet**, **Facebook Sohbet**, veya **Yahoo Messenger** gibi ola\u011fan kamusal servisleri kullanarak ileti\u015fim kurmaya yetkindir. Fakat, **Ula\u015f\u0131ma izin ver** d\u00fc\u011fmesini t\u0131klamak, **Registrarless SIP Hesaplar\u0131** isimli, geli\u015fmi\u015f bir **Jitsi** \u00f6zelli\u011finin \u00e7al\u0131\u015fmas\u0131n\u0131 sa\u011flar. Bu \u00f6zel hesaplarla ilgili daha fazla bilgi i\u00e7in, l\u00fctfen [**Registrarless SIP Accounts**](https://jitsi.org/Documentation/RegistrarlessSIPAccount) sayfas\u0131na bak\u0131n. \r\n\r\n![](/sbox/screen/jitsi-en/08.png)\r\n\r\n*\u015eekil 2: Windows G\u00fcvenlik Uyar\u0131s\u0131 ekran\u0131*\r\n\r\n**6. Ad\u0131m**. **A\u00e7\u0131k** ve **\u00d6zel** a\u011flar kutular\u0131n\u0131n **her ikisini** de i\u015faretleyin ve **Jitsi Giri\u015f yap** penceresini (yukar\u0131daki *\u015eekil 1\u2019de* g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi) veya ana kullan\u0131c\u0131 aray\u00fcz penceresini (a\u015fa\u011f\u0131daki *\u015eekil 4\u2019te* g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi) g\u00f6rmek i\u00e7in *Eri\u015fime \u0130zin Ver\u2019i* **t\u0131klay\u0131n**.\r\n\r\n<a name=\"2.2\"></a>\r\n## Jitsi\u2019ye farkl\u0131 hesaplar  nas\u0131l eklenir? ##\r\n\r\nBu k\u0131s\u0131m, farkl\u0131 tipteki hesaplar\u0131n nas\u0131l **Jitsi\u2019ye** eklenece\u011fi ile ilgilidir. **Jitsi**, bir\u00e7ok farkl\u0131 hesap tipini destekler. A\u015fa\u011f\u0131da belirtti\u011fimiz hesaplar genellikle **Jabber/XMPP** ve **SIP** ileti\u015fim protokollerine dayal\u0131d\u0131r. Bir\u00e7ok servisin yan\u0131 s\u0131ra, **Jitsi**, **Gmail** veya **Facebook** hesaplar\u0131n\u0131z\u0131 da kullanman\u0131za izin verir. Bunlar Internet\u2019te kullan\u0131lan en pop\u00fcler servisler oldu\u011fu i\u00e7in, onlar\u0131 **Jitsi\u2019ye** nas\u0131l ekleyebilece\u011finiz a\u015fa\u011f\u0131da g\u00f6sterilmi\u015ftir. Ayn\u0131 zamanda, bu hesaplar\u0131 kullan\u0131rken, hesap sunucular\u0131n\u0131z taraf\u0131ndan sunulan\u0131n \u00fcst\u00fcne **Jitsi\u2019nin** ba\u011f\u0131ms\u0131z \u015fifrelemesini kullanarak g\u00fcvenli\u011finizi nas\u0131l artt\u0131raca\u011f\u0131n\u0131z konusunda da bilgi verilmi\u015ftir. Fakat akl\u0131n\u0131zda bulundurun ki, **Jitsi** \u015fifrelemesi ile bile, **Google** veya **Facebook** gibi hesap sunucular\u0131 ileti\u015fim halinde oldu\u011funuzu (ve b\u00fcy\u00fck ihtimalle kimlerle ileti\u015fim kurdu\u011funuzu) takip eder ve \u015firketler ve h\u00fck\u00fcmetler gibi \u00fc\u00e7\u00fcnc\u00fc taraflarla bilgilerinizi payla\u015fabilir. Bu y\u00fczden, hassas bilgilerin dahil oldu\u011fu ileti\u015fimler i\u00e7in, **Jitsi** \u015fifrelemesi olsa bile, bu hesaplar\u0131 kullanmamak daha iyi olabilir. Bu b\u00f6l\u00fcmde ayn\u0131 zamanda, nas\u0131l daha g\u00fcvenli hesaplar (Jabber/XMPP veya SIP) yaratabilece\u011finizi ve bunlar\u0131 **Jitsi\u2019ye** nas\u0131l ekleyece\u011finizi de anlat\u0131yoruz ve bu hesaplar\u0131 kullanman\u0131z\u0131 tavsiye ediyoruz. \r\n\r\n<a name=\"2.2.1\"></a>\r\n### Gmail-Google hesab\u0131 nas\u0131l eklenir? ###\r\n\r\n**Not**: A\u015fa\u011f\u0131daki \u00f6rnek bir **Google Talk** hesab\u0131ndan al\u0131nm\u0131\u015ft\u0131r. Yukar\u0131daki *\u015eekil 1\u2019de* listelenen di\u011fer ileti\u015fim protokollerinin kurulumu benzerdir. \u0130leti\u015fim veya baz\u0131 \u00f6zellikler (**Jitsi** ba\u011f\u0131ms\u0131z \u015fifreleme veya yaz\u0131l\u0131 sohbet ve ses \u2013 **OTR** ve **ZRTP**), farkl\u0131 hesap sunucular\u0131 (Facebook, Gmail, Yahoo ve benzeri) aras\u0131nda \u00e7al\u0131\u015fmayabilir. Fakat, ayn\u0131 servis sunucusuna sahip hesaplar aras\u0131ndaki ileti\u015fimde \u00e7al\u0131\u015fmal\u0131d\u0131r. \r\n\r\n**1. Ad\u0131m**. **Ba\u015fla > Jitsi'yi** **se\u00e7in** \u2013 veya **Jitsi** masa\u00fcst\u00fc ikonuna **\u00e7ift t\u0131kayarak** **Jitsi'yi** a\u00e7\u0131n. \r\n\r\n**2. Ad\u0131m**. *Giri\u015f yap\u0131n* penceresine, **Gmail** hesab\u0131n\u0131za ait, sohbet ama\u00e7l\u0131 kullanmak istedi\u011finiz kullan\u0131c\u0131 ad\u0131 ve parolas\u0131n\u0131 **yaz\u0131n**. A\u015fa\u011f\u0131daki gibi g\u00f6r\u00fcnecektir:\r\n\r\n![](/sbox/screen/jitsi-en/09.png)\r\n\r\n*Jitsi \u2018Giri\u015f Yap\u2019 penceresi (boyutu de\u011fi\u015ftirilmi\u015f)*\r\n\r\n**Not**: Ayn\u0131 anda farkl\u0131 protokoller kullanarak birden fazla hesap ekleyebilirsiniz.\r\n\r\n**3. Ad\u0131m**. Hesab\u0131n\u0131z\u0131n sohbet penceresini a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi etkinle\u015ftirmek i\u00e7in  ![Sign in](/sbox/screen/jitsi-en/09s.png)'i **t\u0131klay\u0131n**: \r\n\r\n![](/sbox/screen/jitsi-en/10.png)\r\n\r\n*\u015eekil 4: Gmail hesab\u0131n\u0131 ekledikten sonra Jitsi ana penceresi \u00f6rne\u011fi*\r\n\r\n**Not**: *Giri\u015f yap* penceresini kapatt\u0131ysan\u0131z ya da ba\u015fka bir hesap eklemek istiyorsan\u0131z, bunu ***Klas\u00f6r*  > *Yeni hesap ekle...*** men\u00fcs\u00fcn\u00fc **se\u00e7erek** ekleyebilirsiniz. Yeni pencerede, **A\u011f\u2019\u0131** **Google Talk** olarak **se\u00e7in** ve **Gmail** hesab\u0131n\u0131z\u0131n kullan\u0131c\u0131 ad\u0131 ve parolas\u0131n\u0131 a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi yaz\u0131n:\r\n\r\n![](/sbox/screen/jitsi-en/11.png)\r\n\r\n*\u015eekil 5: \u2018Yeni hesap ekle\u2019 penceresi*\r\n\r\n**Gmail** hesab\u0131n\u0131z\u0131 **Jitsi\u2019ye** kaydetti\u011finizden emin olmak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:\r\n\r\n**1. Ad\u0131m**. A\u015fa\u011f\u0131daki pencereyi etkinle\u015ftirmek i\u00e7in men\u00fcden ***Ara\u00e7lar* > *Se\u00e7enekler\u2019i*** **se\u00e7in**:\r\n\r\n![](/sbox/screen/jitsi-en/12.png)\r\n\r\n*\u015eekil 6: Yeni kay\u0131tl\u0131 Gmail hesab\u0131n\u0131 g\u00f6steren Se\u00e7enekler men\u00fcs\u00fc (boyutu de\u011fi\u015ftirilmi\u015f)*\r\n\r\n**Not**: Gmail hesab\u0131n\u0131za eri\u015fimi korumak i\u00e7in [**2 ad\u0131ml\u0131 do\u011frulama**](https://support.google.com/accounts/answer/180744?hl=tr) kullan\u0131yorsan\u0131z, her zamanki parolan\u0131z ile **Jitsi\u2019den** giri\u015f yapmay\u0131 denedi\u011finiz zaman a\u015fa\u011f\u0131daki gibi bir mesaj ile kar\u015f\u0131la\u015fabilirsiniz. **Jitsi** kullanarak giri\u015f yapmak i\u00e7in, \u2018uygulamaya \u00f6zel parola\u2019 \u00fcretmeniz gerekir. Bunu nas\u0131l yapabilece\u011finizi \u00f6\u011frenmek i\u00e7in [Google'un y\u00f6nergelerini takip ederek](https://support.google.com/accounts/answer/185833?hl=tr) \u00f6\u011frenin.. \r\n\r\n![](/sbox/screen/jitsi-en/13.png)\r\n\r\n*\u015eekil 7: Google Talk giri\u015f kimlik do\u011frulama ba\u015far\u0131s\u0131z \u00f6rne\u011fi*\r\n\r\n<a name=\"2.2.2\"></a>\r\n### 2.2.2 Yeni Jabber/XMPP veya SIP hesab\u0131na kaydolmak ve bunu Jitsi\u2019ye eklemek ###\r\n\r\n**Jabber/XMPP** ve **SIP**, yaz\u0131l\u0131 ve sesli ileti\u015fim a\u00e7\u0131k standartlar\u0131d\u0131r. Jitsi ile birlikte kullanabilece\u011finiz, bedava hesap sunan bir\u00e7ok [sunucu](https://xmpp.net/directory.php) vard\u0131r. A\u015fa\u011f\u0131da, hassas bilgi i\u00e7eren ileti\u015fimde kullanabilece\u011finiz baz\u0131 sunucular tavsiye ediyoruz. Akl\u0131n\u0131zda tutun ki, [Jabber/XMPP sunucu yaz\u0131l\u0131m\u0131](http://xmpp.org/xmpp-software/servers/) ([ejabberd](http://www.process-one.net/en/ejabberd/) veya [Prosody IM](http://prosody.im/) gibi) indirmek de m\u00fcmk\u00fcnd\u00fcr. Bunlar\u0131 kendi sunucu bilgisayar\u0131n\u0131za indirebilir, grup, topluluk ve organizasyon \u00fcyelerini aras\u0131nda g\u00fczl\u00fc ve g\u00fcvenli ileti\u015fim kurmak i\u00e7in kullanabilirsiniz.\r\n\r\n* **Riseup.net** Jabber/XMPP hesab\u0131\r\n\r\n[Riseup.net g\u00fcvenli e-posta servisi ](/en/riseup_main) (Amerika bazl\u0131d\u0131r) \u00fczerinde hesab\u0131n\u0131z varsa , bu hesab\u0131 Jitsi\u2019ye ekleyerek, [Jabber/XMPP a\u011f\u0131 \u00fczerinden ileti\u015fim kurmak](https://www.riseup.net/en/chat) i\u00e7in kullanabilirsiniz. Var olan Jabber/XMPP hesab\u0131n\u0131 nas\u0131l ekleyece\u011finizi \u00f6\u011frenmek i\u00e7in a\u015fa\u011f\u0131ya bak\u0131n. \r\n\r\n* **Jabber.ccc.de** ve di\u011fer Jabber/XMPP hesaplar\u0131\r\n\r\nBir hesab\u0131 Jabber.ccc.de sunucusu \u00fczerine (Almanya bazl\u0131d\u0131r) kaydetmek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz:\r\n\r\n**1. Ad\u0131m**. **Jitsi\u2019de** men\u00fcden *Dosya* > *Yeni hesap ekle...*'yi **se\u00e7in**. Yeni a\u00e7\u0131lan pencerede, ***A\u011f: XMPP\u2019yi* se\u00e7in** ve **Yeni XMPP hesab\u0131 a\u00e7** se\u00e7ene\u011fini **i\u015faretleyin**. Sunucuya jabber.ccc.de **yaz\u0131n**, yaratmak istedi\u011finiz XMPP kullan\u0131c\u0131 ad\u0131n\u0131 **yaz\u0131n** ve *Parola*, ard\u0131ndan da *Parolay\u0131 Onayla* alanlar\u0131n\u0131 **doldurun**. Ekran a\u015fa\u011f\u0131daki gibi g\u00f6r\u00fcnecektir:\r\n\r\n![](/sbox/screen/jitsi-en/14.png)\r\n\r\n*\u015eekil 8: \u2018Yeni XMPP hesab\u0131 yarat\u2019 se\u00e7ili \u2018Yeni hesap a\u00e7\u2019 penceresi \u00f6rne\u011fi*\r\n\r\n**2. Ad\u0131m**. Ekle\u2019y\u0131 **t\u0131klay\u0131n**. Ba\u015far\u0131l\u0131 bir kay\u0131t i\u015fleminden sonra yukar\u0131daki *\u015eekil 4\u2019e* benzeyen bir pencere g\u00f6receksiniz. \r\n\r\nKullan\u0131c\u0131 ad\u0131n\u0131z ba\u015fkas\u0131 taraf\u0131ndan al\u0131nm\u0131\u015fsa, kay\u0131t i\u015flemi, *Bir hata y\u00fcz\u00fcnden kay\u0131t i\u015fleminiz tamamlanamad\u0131: Veriler onaylanam\u0131yor.* mesaj\u0131 vererek ba\u015far\u0131s\u0131z olacakt\u0131r. Farkl\u0131 bir kullan\u0131c\u0131 ad\u0131 se\u00e7erek i\u015flemi yeniden tekrar edebilirsiniz. \r\n\r\nJabber.ccc.de hesab\u0131n\u0131za 12 aydan uzun bir s\u00fcre giri\u015f yapmazsan\u0131z, hesab\u0131n\u0131z otomatik olarak sunucudan kald\u0131r\u0131lacak ve kullan\u0131c\u0131 ad\u0131n\u0131z ba\u015fkalar\u0131n\u0131n kullan\u0131m\u0131na a\u00e7\u0131lacakt\u0131r. \r\n\r\nBahsedilmeye de\u011fer bir ba\u015fka Jabber/XMPP sunucusu ise **jit.si\u2019dir**. Bu sunucu **Jitsi** program\u0131n\u0131 geli\u015ftirenler taraf\u0131ndan korunur.  [**jit.si**](https://jit.si) ve di\u011fer Jabber/XMPP sunucular\u0131nda yukar\u0131daki b\u00f6l\u00fcmde anlat\u0131ld\u0131\u011f\u0131 gibi hesap olu\u015fturabilirsiniz. IM Observatory, [kamusal Jabber/XMPP sunucular\u0131n\u0131n listesini](https://xmpp.net/directory.php) tutar ve herhangi bir Jabber/XMPP sunucusunun [g\u00fcvenli\u011fini test etmenizi sa\u011flar](https://xmpp.net/index.php). \r\n\r\n* **ostel.co** SIP hesab\u0131\r\n\r\n**SIP** hesaplar\u0131na **Jitsi** program\u0131n\u0131n i\u00e7inden kay\u0131t olunamaz. **Ostel.co** sunucusu (Amerika bazl\u0131d\u0131r) kendi [web sayfalar\u0131nda](https://ostel.co/users/sign_up) kay\u0131t olma hizmeti sunar. Bir kullan\u0131c\u0131 ad\u0131 ve parola **se\u00e7tikten** ve e-posta adresinizi belirttikten sonra web sayfas\u0131ndaki *Giri\u015f Yap* d\u00fc\u011fmesine **bas\u0131n**. Ba\u015far\u0131l\u0131 bir \u015fekilde kay\u0131t yapt\u0131ktan sonra Jitsi program\u0131na geri **d\u00f6n\u00fcn**. Men\u00fcden *Dosya*  > *Yeni hesap ekle\u2019yi* **se\u00e7in** **A\u011f: SIP\u2019yi se\u00e7in** ve kullan\u0131c\u0131 ad\u0131n\u0131z\u0131 (\u00f6rne\u011fin, terence.the.tester@ostel.co) ve web kayd\u0131 esnas\u0131nda yaratt\u0131\u011f\u0131n\u0131z parolay\u0131 **girin**, ard\u0131ndan ***Ekle\u2019yi* t\u0131klay\u0131n**. \u00d6rnek olarak a\u015fa\u011f\u0131daki g\u00f6r\u00fcnt\u00fcye bakabilirsiniz: \r\n\r\n![](/sbox/screen/jitsi-en/15.png)\r\n\r\n*\u015eekil 9: SIP hesab\u0131 i\u00e7in \u2018Yeni hesap ekle\u2019 penceresi \u00f6rne\u011fi*\r\n\r\n* **Var olan Jabber/XMPP veya SIP hesaplar\u0131n\u0131 Jitsi\u2019ye eklemek**\r\n\r\nHali haz\u0131rda Jabber/XMPP veya SIP hesab\u0131n\u0131z varsa, onlar\u0131, men\u00fcden ***Dosya* > *Yeni Hesap ekleyin...*\u2019i se\u00e7erek** ve uygun olan **A\u011f\u2019\u0131** (hesap t\u00fcr\u00fcne ba\u011fl\u0131 olarak XMPP veya SIP) belirleyerek **Jitsi\u2019ye** ekleyebilirsiniz.\r\n\r\n<a name=\"2.2.3\"></a>\r\n### 2.2.3 Facebook hesab\u0131 nas\u0131l eklenir? ###\r\n\r\n**Jitsi\u2019nin** Facebook sohbetinize ba\u011flanabilmesi i\u00e7in, **Facebook\u2019taki** iki ayar\u0131 de\u011fi\u015ftirmeniz gerekebilir\r\n\r\n* **Facebook Kullan\u0131c\u0131 ad\u0131**\r\n\r\n**Facebook**, **Jitsi\u2019nin** Facebook sohbete ba\u011flanabilmesi i\u00e7in bir kullan\u0131c\u0131 ad\u0131 ister. Bir\u00e7ok **Facebook** kullan\u0131c\u0131s\u0131n\u0131n zaten bir kullan\u0131c\u0131 ad\u0131 vard\u0131r. Kullan\u0131c\u0131 ad\u0131n\u0131za bakmak i\u00e7in **Facebook** hesab\u0131n\u0131za **girin**. Zaman T\u00fcneli veya Sayfan\u0131z\u0131 g\u00f6r\u00fcnt\u00fcledi\u011finizde konum \u00e7ubu\u011funda https://www.facebook.com/ 'dan sonra g\u00f6r\u00fcnen kullan\u0131c\u0131 ad\u0131n\u0131zd\u0131r. Ayn\u0131 zamanda, Ki\u015fisel hesab\u0131n\u0131z\u0131n **Facebook** e-posta adresinde de kullan\u0131c\u0131 ad\u0131n\u0131z\u0131 g\u00f6rebilirsiniz (\u00f6rne\u011fin, kullan\u0131c\u0131ad\u0131@facebook.com). Kullan\u0131c\u0131 ad\u0131n\u0131z\u0131 g\u00f6rmek, de\u011fi\u015ftirmek veya ilk defa almak i\u00e7in *Hesap Ayarlar\u0131* > *Genel* b\u00f6l\u00fcm\u00fcne gidebilir veya [https://www.facebook.com/username](https://www.facebook.com/username) sayfas\u0131n\u0131 ziyaret edebilirsiniz. Kullan\u0131c\u0131 ad\u0131 olu\u015ftururken, **Facebook** hesap onaylaman\u0131z\u0131 ger\u00e7ekle\u015ftirirken cep telefonu numaran\u0131za mesaj g\u00f6ndermeyi \u015fart ko\u015fabilir. Daha fazla detay i\u00e7in, [Facebook'un kullan\u0131c\u0131 ad\u0131 ile ilgili a\u00e7\u0131klamalar\u0131na](https://www.facebook.com/help/329992603752372/) bakabilirsiniz\r\n\r\n* **Uygulama Ayarlar\u0131**\r\n\r\n**Jitsi** Facebook Sohbete ba\u011flanmadan \u00f6nce **Facebook\u2019un** \u2018uygulama platformu\u2019 etkinle\u015ftirilmeli. **Facebook** *Hesap Ayarlar\u0131 > Uygulamalar* b\u00f6l\u00fcm\u00fcne gidin ve *Kulland\u0131\u011f\u0131n\u0131z uygulamalar* i\u00e7in *A\u00e7\u0131k* se\u00e7ene\u011finin i\u015faretli oldu\u011fundan emin olun. Bunu yapmak, hesab\u0131n\u0131z i\u00e7in \u2018uygulama platformunu\u2019 a\u00e7acakt\u0131r. \r\n\r\n**Akl\u0131n\u0131zda tutun** ki, **Facebook\u2019un** \u2018uygulama platformu\u2019nu a\u00e7mak **Facebook** verilerinizin b\u00fcy\u00fck bir k\u0131sm\u0131n\u0131 \u00fc\u00e7\u00fcnc\u00fc taraf uygulama geli\u015ftiricilerine a\u00e7\u0131k hale getirir. Bu \u015fekilde, verileriniz sadece kulland\u0131\u011f\u0131n\u0131z **Facebook** uygulamalar\u0131na de\u011fil, arkada\u015flar\u0131n\u0131z\u0131n kulland\u0131\u011f\u0131 **Facebook** uygulamalar\u0131na da a\u00e7\u0131k hale gelir. **Facebook\u2019un** \u2018uygulama platformu\u2019nu etkinle\u015ftirdikten sonra, \u2018Ba\u015fkalar\u0131n\u0131n kulland\u0131\u011f\u0131 uygulamalar\u2019\u0131n alt\u0131ndaki ayarlar\u0131 kontrol edin. Bu ayarlar, arkada\u015flar\u0131n\u0131z\u0131n kulland\u0131\u011f\u0131 uygulamalardan baz\u0131 ki\u015fisel verilerinizi saklayabilmenizi sa\u011flar. Ne yaz\u0131k ki, **Facebook** b\u00fct\u00fcn ki\u015fisel bilgilerinizi saklaman\u0131za izin vermez. Baz\u0131 bilgi kategorileri (arkada\u015f listeniz, cinsiyetiniz ve kamuya a\u00e7\u0131k hale getirdi\u011finiz bilgiler gibi), **Facebook** \u2018uygulama Platformu\u2019 \u2018a\u00e7\u0131k\u2019 oldu\u011fu s\u00fcrece g\u00f6r\u00fcn\u00fcr hale gelir. Bu durumun g\u00fcvenli\u011finiz i\u00e7in ne derece \u00f6nemli oldu\u011funa karar vermek size kalm\u0131\u015ft\u0131r. \r\n\r\n\u015eimdi **Facebook** hesab\u0131n\u0131z\u0131 **Jitsi\u2019ye** eklemeye haz\u0131r hale geldiniz. Bunu yapmak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz: \r\n\r\n**1. Ad\u0131m**. Ana men\u00fcden ***Dosya \u2013 Yeni hesap ekle...\u2019yi* se\u00e7in**\r\n\r\n**2. Ad\u0131m**. Yeni Hesap Ekle diyalo\u011funda **A\u011f** men\u00fcs\u00fcnden *Facebook\u2019u* se\u00e7in. **Kullan\u0131c\u0131 ad\u0131 ve parolan\u0131z\u0131 girin** ve **\u2018Ekle\u2019yi t\u0131klay\u0131n**. \r\n \r\n![](/sbox/screen/jitsi-en/16.png)\r\n\r\n*\u015eekil 10: Facebook hesab\u0131 i\u00e7in \u2018Yeni Hesap Ekle\u2019 penceresi \u00f6rne\u011fi*\r\n\r\n\r\n<a name=\"2.3\"></a>\r\n## 2.3 Jitsi ile nas\u0131l hesap parolas\u0131 de\u011fi\u015ftirilir? ##\r\n\r\nKi\u015finin sahip oldu\u011fu her hesab\u0131n parolas\u0131n\u0131 nas\u0131l de\u011fi\u015ftirece\u011fini bilmesi g\u00fcvenlik a\u00e7\u0131s\u0131ndan \u00f6nemli bir konudur. Jitsi ile kullanabilece\u011finiz hesaplar\u0131n bir \u00e7o\u011funun ayarlar\u0131n\u0131n i\u00e7inde parola de\u011fi\u015ftirme se\u00e7ene\u011fi vard\u0131r ve bunlar web ara y\u00fcz\u00fc \u00fczerinden eri\u015filebilirlerdir. Fakat, baz\u0131 Jabber/XMPP ve SIP hesaplar\u0131n\u0131n bu ayarlara ula\u015fabilecek web aray\u00fczleri yoktur. Bu durumlarda, Jitsi kullanarak parolan\u0131z\u0131 de\u011fi\u015ftirmek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edebilirsiniz:\r\n\r\n**1. Ad\u0131m**. Men\u00fcden ***Ara\u00e7lar* > *Se\u00e7enekler\u2019i* se\u00e7in** ve ***Hesaplar*** sekmesini **se\u00e7in**\r\n\r\n![](/sbox/screen/jitsi-en/17.png)\r\n\r\n*\u015eekil 11: Bir hesap se\u00e7ili Se\u00e7enekler penceresi*\r\n\r\n**2. Ad\u0131m**. A\u015fa\u011f\u0131da g\u00f6r\u00fcnen pencereyi etkinle\u015ftirmek i\u00e7in alt k\u0131s\u0131mdaki ***D\u00fczenle\u2019yi* t\u0131klay\u0131n**:\r\n\r\n![](/sbox/screen/jitsi-en/18.png)\r\n\r\n*\u015eekil 12: Alt k\u0131s\u0131mda Hesap parolan\u0131z\u0131 de\u011fi\u015ftirin se\u00e7ene\u011fi ile birlikte Hesap Kay\u0131t Sihirbaz\u0131*\r\n\r\n**3. Ad\u0131m**. *Hesap parolas\u0131 de\u011fi\u015ftirme penceresini* etkinle\u015ftirmek i\u00e7in ***Hesap Parolas\u0131 De\u011fi\u015ftir\u2019i* t\u0131klay\u0131n**:\r\n\r\n![](/sbox/screen/jitsi-en/19.png)\r\n\r\n*\u015eekil 13: Hesap parolas\u0131 de\u011fi\u015ftirme penceresi*\r\n\r\n**4. Ad\u0131m**. ***Yeni parolan\u0131z\u0131* girin ve *yeniden* girin**. Bu pencereyi kapatmak i\u00e7in ***OK'yi* t\u0131klay\u0131n**. \r\n\r\n**5. Ad\u0131m**. Hesap Kay\u0131t Sihirbaz\u0131n\u0131 kapat\u0131n.\r\n\r\n<a name=\"2.4\"></a>\r\n## 2.4 G\u00fcvenli\u011fini artt\u0131rmak i\u00e7in Jitsi nas\u0131l yap\u0131land\u0131r\u0131l\u0131r? ##\r\n\r\n<a name=\"2.4.1\"></a>\r\n### 2.4.1 Arama ve sohbet ge\u00e7mi\u015fini devre d\u0131\u015f\u0131 b\u0131rakma ve silme ###\r\n\r\n**Jitsi** verili olarak gelen ve giden ses/video arama bilgilerini ve yaz\u0131l\u0131 sohbetlerinizin (g\u00f6nderdi\u011finiz ve size gelen t\u00fcm mesajlar) tarihini kay\u0131t alt\u0131na al\u0131r. Ses/video aramalar\u0131na ana Jitsi penceresindeki saat ikonunu **t\u0131klayarak** ula\u015fabilirsiniz:\r\n\r\n![](/sbox/screen/jitsi-en/20.png)\r\n\r\n*\u015eekil 14: Arama ge\u00e7mi\u015fi d\u00fc\u011fmesi i\u015faretli Jitsi ana penceresinin \u00fcst k\u0131sm\u0131*\r\n\r\nBirisi ile sohbet ederken yaz\u0131l\u0131 sohbet penceresindeki kum saatine **t\u0131klayarak** sohbet tarihinizi g\u00f6rebilirsiniz\r\n\r\n![](/sbox/screen/jitsi-en/21.png)\r\n\r\n*\u015eekil 15: Sohbet ge\u00e7mi\u015fi i\u015faretli Sohbet penceresi*\r\n\r\nBu bilgiler bilgisayar\u0131n\u0131z\u0131n diskinde toplan\u0131r ve saklan\u0131r. **Yaz\u0131l\u0131 sohbetinizi OTR kullanarak \u015fifrelemi\u015f olsan\u0131z bile, g\u00f6nderdi\u011finiz ve ald\u0131\u011f\u0131n\u0131z t\u00fcm yaz\u0131l\u0131 mesajlar bilgisayar\u0131n\u0131zda a\u00e7\u0131k metin format\u0131nda saklan\u0131r**. Ayn\u0131 bilgiler sohbet etti\u011finiz ki\u015filerin bilgisayarlar\u0131nda da kay\u0131t alt\u0131na al\u0131n\u0131r. \r\n\r\nJitsi\u2019nin bu bilgileri toplamas\u0131n\u0131 engellemek i\u00e7in (ve hali haz\u0131rda saklanm\u0131\u015f olan bilgileri silmek i\u00e7in), **siz ve temas halinde oldu\u011funuz ki\u015filer a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip etmelidir**.\r\n\r\n#### Jitsi\u2019nin bu bilgileri toplamas\u0131n\u0131 engellemek i\u00e7in: ####\r\n\r\n**1. Ad\u0131m**. Men\u00fcden ***Ara\u00e7lar* > *Se\u00e7enekler\u2019i* se\u00e7in**. ***Genel*** sekmesini **se\u00e7in** ve ***Sohbet ge\u00e7mi\u015fi kaydet*** se\u00e7ene\u011finin i\u015faretini a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi **kald\u0131r\u0131n**:\r\n\r\n![](/sbox/screen/jitsi-en/22.png)\r\n\r\n*\u015eekil 16: \u2018Se\u00e7enekler\u2019 penceresi, \u2018Genel\u2019 sekmesi ve i\u015fareti kald\u0131r\u0131lm\u0131\u015f \u2018Sohbet ge\u00e7mi\u015fini kaydet\u2019*\r\n\r\n**2. Ad\u0131m**. *Se\u00e7enekler* penceresinde, \u00f6nce ***Geli\u015fmi\u015f*** sekmesini **se\u00e7in**, daha sonra ***Kay\u0131t*** b\u00f6l\u00fcm\u00fcn\u00fc **se\u00e7in** ve ***Paket giri\u015fini etkinle\u015ftir*** se\u00e7ene\u011finin a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi **i\u015faretini kald\u0131r\u0131n**:\r\n\r\n![](/sbox/screen/jitsi-en/23.png)\r\n\r\n*\u015eekil 17: 'Se\u00e7enekler' penceresinde, \u2018Geli\u015fmi\u015f\u2019 sekmesi, Paket kayd\u0131n\u0131 etkinle\u015ftir i\u015fareti kald\u0131r\u0131lm\u0131\u015f durumda*\r\n\r\nYapt\u0131\u011f\u0131n\u0131z de\u011fi\u015fiklikler, **Jitsi\u2019yi** yeniden ba\u015flatt\u0131\u011f\u0131n\u0131zda etkinle\u015fecektir. .\r\n\r\n#### Hali haz\u0131rda kaydedilmi\u015f olan arama ve yaz\u0131l\u0131 mesaj bilgilerinizi silmek i\u00e7in: ####\r\n\r\n**1. Ad\u0131m**. **Jitsi\u2019yi** kapat\u0131n. \r\n\r\n**2. Ad\u0131m**. *history_ver1.0* ad\u0131ndaki ge\u00e7mi\u015f klas\u00f6r\u00fcn\u00fcn t\u00fcm\u00fcn\u00fc, **Jitsi** *kullan\u0131c\u0131 profili* klas\u00f6r\u00fcnden silin. \u0130sterseniz *history_ver1.0* klas\u00f6r\u00fcn\u00fcn alt-klas\u00f6rlerinden birini de silebilirsiniz. *Kullan\u0131c\u0131 profili* ve *kay\u0131t tarihi* klas\u00f6rlerinin konumu i\u015fletim sistemine g\u00f6re de\u011fi\u015fir:\r\n\r\n* Windows XP ve \u00f6nceki versiyonlar\u0131nda bulundu\u011fu yer: *C:\\Belgeler ve Ayarlar\\<Windows giri\u015f/kullan\u0131c\u0131 ad\u0131>\\Uygulama Verileri\\Jitsi\\tarih_ver1.0*\r\n* Windows Vista, 7, 8\u2019de bulundu\u011fu yer: *C:\\Kullan\u0131c\u0131lar\\<&lt;Windows giri\u015f/kullan\u0131c\u0131 ad\u0131&gt;\\UygulamaVerileri\\Gezici\\Jitsi\\tarih_ver1.0* (\u2018Uygulama Verileri\u2019 dosyas\u0131 sakl\u0131 olabilir. [Sakl\u0131 dosyalar\u0131 nas\u0131l g\u00f6rece\u011finiz ile ilgili bilgi i\u00e7in buraya bak\u0131n\u0131z](http://windows.microsoft.com/tr-tr/windows/show-hidden-files#show-hidden-files=windows-7))\r\n* Mac OS X\u2019te bulundu\u011fu yer: ana klas\u00f6rden *~/K\u00fct\u00fcphane/Uygulama Destek/Jitsi/tarih_ver1.0*\r\n* Linux\u2019ta bulundu\u011fu yer: ana klas\u00f6rden *~/.jitsi/tarih_ver1.0* (**Not**: \u2018jitsi\u2019 klas\u00f6r\u00fc sakl\u0131 olabilir. [Ubuntu\u2019daki gizli klas\u00f6rleri nas\u0131l g\u00f6rece\u011finiz ile ilgili bilgi i\u00e7in buraya bak\u0131n\u0131z](http://itsfoss.com/hide-folders-and-show-hidden-files-in-ubuntu-beginner-trick/)). \r\n\r\nBilgileri g\u00fcvenli bir \u015fekilde imha i\u00e7in [Hassas bilgiler nas\u0131l imha edilir](/tr/chapter-6) b\u00f6l\u00fcm\u00fcne de bakabilirsiniz. \r\n\r\n<a name=\"2.4.2\"></a>\r\n### 2.4.2 Yaz\u0131l\u0131 sohbette \u00f6zel mesaj \u015fart\u0131 ###\r\n\r\n**Jitsi\u2019yi** [*OTR*](/en/glossary#OTR) [*\u015fifrelemesi*](/en/glossary#encryption) kullanarak gizli ve \u015fifrelenmi\u015f yaz\u0131l\u0131 mesajla\u015fma uygulayacak \u015fekilde kurman\u0131z\u0131 tavsiye ederiz. Bunu yapmak i\u00e7in, men\u00fcden ***Ara\u00e7lar*  > *Se\u00e7enekler\u2019i* se\u00e7in**, ***G\u00fcvenlik*** se\u00e7mesini **se\u00e7in**, ***Sohbet*** alt-sekmesini **se\u00e7in** ve ekran\u0131n alt\u0131ndaki ***\u00d6zel mesajla\u015fma \u015fart\u0131 koy*** se\u00e7ene\u011fini a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc \u015fekilde **i\u015faretleyin**:\r\n\r\n![](/sbox/screen/jitsi-en/24.png)\r\n\r\n*\u015eekil 18: \u2018\u00d6zel mesajla\u015fma \u015fart\u0131 koy\u2019 se\u00e7ili, \u2018Se\u00e7enekler\u2019 penceresi,'G\u00fcvenlik' sekmesi \u2018Sohbet\u2019 alt-sekmesi*\r\n\r\n<a name=\"2.4.3\"></a>\r\n### 2.4.3 Ana parola ile hesaplar\u0131n\u0131z\u0131n parolalar\u0131n\u0131 koruma ###\r\n\r\nJitsi\u2019nin hesaplar\u0131n\u0131z\u0131n parolalar\u0131n\u0131 hat\u0131rlamas\u0131na izin vermemek en iyisidir. Kullan\u0131m kolayl\u0131\u011f\u0131 a\u00e7\u0131s\u0131ndan tersini yaparsan\u0131z, bilgisayar\u0131n\u0131z\u0131 kullanan herhangi biri Jitsi\u2019yi ba\u015flatarak t\u00fcm hesaplar\u0131n\u0131za giri\u015f yapabilir. Ayn\u0131 zamanda, *Se\u00e7enekler* penceresinde parolalar\u0131n\u0131z\u0131 g\u00f6rebilir. Bu y\u00fczden, hesap parolalar\u0131n\u0131z\u0131 g\u00fc\u00e7l\u00fc bir **ana parola** ile koruman\u0131z\u0131 **\u015fiddetle tavsiye ederiz**. Ana parolay\u0131 olu\u015fturdulunca, Jitsi her ba\u015flat\u0131ld\u0131\u011f\u0131nda size bu parolay\u0131 soracakt\u0131r. \r\n\r\n**1. Ad\u0131m**. Men\u00fcden *Ara\u00e7lar* > *Se\u00e7enekler\u2019i* se\u00e7erek *Se\u00e7enekler* penceresini **a\u00e7\u0131n**, ***G\u00fcvenlik*** sekmesini **se\u00e7in**, ***Parolalar*** alt-sekmesini **se\u00e7in** ve ***Ana Parola*** penceresini etkinle\u015ftirmek i\u00e7in ***Ana parola Kullan\u2019\u0131*** **i\u015faretleyin**. \r\n\r\n**2. Ad\u0131m**. A\u015fa\u011f\u0131daki resimde g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi, a\u00e7\u0131lan pencereye **parolan\u0131z\u0131 girin**. G\u00fc\u00e7l\u00fc parolalar olu\u015fturmak konusunda daha fazla bilgi i\u00e7in, [***G\u00fcvenli \u015fifreler nas\u0131l olu\u015fturulur ve muhafaza edilir***](/en/chapter-3) b\u00f6l\u00fcm\u00fcne bak\u0131n. \r\n\r\n![](/sbox/screen/jitsi-en/25.png)\r\n\r\n*\u015eekil 19: \u2018Ana Parola\u2019 penceresi*\r\n\r\n**3. Ad\u0131m**. Parolay\u0131 onaylamak i\u00e7in ***'OK'i* t\u0131klay\u0131n** ve ***Ana Parola ba\u015far\u0131l\u0131 bir \u015fekilde olu\u015fturuldu*** yaz\u0131s\u0131n\u0131 i\u00e7eren pencereyi etkinle\u015ftirin. Pencereyi kapatmak i\u00e7in ***'OK'i* t\u0131klay\u0131n** ve *Se\u00e7enekler* penceresine geri d\u00f6n\u00fcn. Bu pencere a\u015fa\u011f\u0131daki gibi g\u00f6r\u00fcnecektir: \r\n\r\n![](/sbox/screen/jitsi-en/26.png)\r\n\r\n*\u015eekil 20: \u2018Se\u00e7enekler\u2019 penceresi, \u2018G\u00fcvenlik\u2019 sekmesi, \u2018Parolalar\u2019 alt-sekmesi, \u2018Ana parola kullan\u2019 se\u00e7ene\u011fi i\u015faretli*\t\r\n\r\n**Not**: ***Ana Parolay\u0131 De\u011fi\u015ftir*** d\u00fc\u011fmesi ana parolay\u0131 de\u011fi\u015ftirmenize izin verir, ***Kaydedilen Parolalar...*** d\u00fc\u011fmesi Jitsi taraf\u0131ndan hat\u0131rlanan parolalara eri\u015fmenizi ve gerekti\u011fi zaman onlar\u0131 silmenizi sa\u011flar. \r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2046", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2046", 
+                "link_title": "Jitsi - How to Install and Add Different Accounts in Jitsi", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5192", 
+                "module": "book", 
+                "nid": "2046", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5191", 
+                "p3": "5192", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5191", 
+                "router_path": "node/%", 
+                "title": "Jitsi - How to Install and Add Different Accounts in Jitsi", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1455116973", 
+            "comment": "0", 
+            "created": "1441121536", 
+            "current_revision_id": "13196", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "jitsi_account", 
+                        "value": "jitsi_account"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5192": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2046", 
+                    "link_title": "Jitsi - How to Install and Add Different Accounts in Jitsi", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5192", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5191", 
+                    "p3": "5192", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5191", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2046", 
+            "num_revisions": "13", 
+            "path": "https://securityinabox.org/en/jitsi_account", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455116973", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Jitsi- Jitsi Nas\u0131l Kurulur ve Jitsi\u2019ye Farkl\u0131 Hesaplar  Nas\u0131l Eklenir?", 
+                        "value": "Jitsi- Jitsi Nas\u0131l Kurulur ve Jitsi\u2019ye Farkl\u0131 Hesaplar  Nas\u0131l Eklenir?"
+                    }
+                ]
+            }, 
+            "title_original": "Jitsi - How to Install and Add Different Accounts in Jitsi", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "es": {
+                        "changed": "1442498524", 
+                        "created": "1442498524", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455116973", 
+                        "created": "1455116973", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1454343548", 
+                        "created": "1441193267", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444181024", 
+                        "created": "1444181024", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021510", 
+                        "created": "1443021510", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444729125", 
+                        "created": "1444729125", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2046", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446138339", 
+                        "created": "1441121536", 
+                        "entity_id": "2046", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2046", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "609d23a6-ce20-498c-80bd-2673b48949f3", 
+            "vid": "13196", 
+            "vuuid": "2aedc2a9-9922-4ff4-b4d2-6750ddae967d"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Bu sayfadaki b\u00f6l\u00fcmlerin listesi:</p>\n\n<ul><li><a href=\"#3.1\"><strong>3.1 Jitsi\u2019ye ki\u015fi (arkada\u015f) ekleme</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 OTR \u015fifreleme ile yaz\u0131l\u0131 sohbet (Anl\u0131k Mesajla\u015fma)</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 ZRTP \u015fifreleme ile sesli ve g\u00f6r\u00fcnt\u00fcl\u00fc sohbet</strong></a></li>\n</ul><p><a name=\"3.1\" id=\"3.1\"></a></p>\n\n<h2>3.1 Jitsi\u2019ye ki\u015fi (arkada\u015f) ekleme</h2>\n\n<p>Jitsi\u2019ye bir hesap ekledikten ve giri\u015f yapt\u0131ktan sonra, daha fazla ki\u015fi eklemeye ve onlarla ileti\u015fim kurmaya haz\u0131rs\u0131n\u0131z.</p>\n\n<p>Jitsi\u2019ye bir kontakt eklemek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz:</p>\n\n<p><strong>0. Ad\u0131m</strong>. <strong>Ba\u015fla &gt; Jitsi\u2019yi se\u00e7erek</strong> veya masa\u00fcst\u00fcndeki <strong>Jitsi</strong> ikonuna <strong>\u00e7ift t\u0131klayarak</strong> Jitsi ana penceresin a\u00e7\u0131n.</p>\n\n<p><strong>1. Ad\u0131m</strong>. <strong><em>Dosya</em> &gt; <em>Kontakt ekle...</em>\u2019yi se\u00e7in</strong> ve a\u015fa\u011f\u0131da g\u00f6r\u00fcnen pencereyi a\u00e7\u0131n:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/30.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 1: Kontakt ekle penceresi</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. Ki\u015fiyi hangi hesab\u0131n\u0131za eklemek istedi\u011finizi <strong>se\u00e7in</strong> (\u00f6rne\u011fin, erance.the.tester@jit.si).</p>\n\n<p><strong>\u0130ste\u011fe ba\u011fl\u0131</strong>: Ki\u015fiyi belli arkada\u015flar\u0131n\u0131zdan olu\u015fan bir <em>gruba</em> da ekleyebilirsiniz. Fakat \u00f6nce bu grubu olu\u015fturmal\u0131s\u0131n\u0131z. Bunu men\u00fcden <strong><em>Dosya</em> \u2013 <em>Grup olu\u015ftur...'u</em> se\u00e7erek</strong> yapabilirsiniz.</p>\n\n<p><strong><em>Kimlik veya Numara</em></strong> alan\u0131na ki\u015finin kullan\u0131c\u0131 ad\u0131 veya adresini <strong>yaz\u0131n</strong> (\u00f6rne\u011fin, sally.the.doer@jit.si).</p>\n\n<p>Ki\u015fi i\u00e7in, <strong>Jitsi</strong> ana penceresindeki arkada\u015f listenizde g\u00f6r\u00fcnecek bir isim veya rumuz se\u00e7ebilirsiniz. Bunu <strong><em>G\u00f6r\u00fcnen isim</em></strong> alan\u0131na <strong>yazabilirsiniz</strong>.</p>\n\n<p><strong>3. Ad\u0131m</strong>. <em>Ki\u015fi ekleme</em> penceresini kapatmak ve Jitsi ana sayfas\u0131na geri d\u00f6nmek i\u00e7in <em>Ekle\u2019yi</em> <strong>t\u0131klay\u0131n</strong>. Arkada\u015f listenizde yeni eklenen ki\u015fileri, \u2018kimlik do\u011frulama bekleniyor\u2019 notu ile birlikte, a\u015fa\u011f\u0131daki gibi g\u00f6receksiniz:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/31.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 2: Kimlik do\u011frulama bekleyen yeni eklenmi\u015f ki\u015fileri g\u00f6steren Jitsi ana sayfas\u0131</em></p>\n\n<p><strong>4. Ad\u0131m</strong>. Ekledi\u011finiz ki\u015fi (sally.the.doer@jit.si) kendi hesab\u0131na giri\u015f yapt\u0131\u011f\u0131 zaman onu arkada\u015f listenize eklemek istedi\u011finizi s\u00f6yleyen a\u00e7\u0131l\u0131r bir pencere ile kar\u015f\u0131la\u015facak.</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/32.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 3: Yeni eklenen ki\u015fiye kimlik do\u011frulama iste\u011fi g\u00f6nderen pencere</em></p>\n\n<p>Ekledi\u011finiz ki\u015fi, <em>Yoksay\u2019\u0131</em> se\u00e7ebilir, bu durumda g\u00f6nderdi\u011finiz istek yetkilendirilmeyi beklemeye devam edecektir. Bunu yapmas\u0131 halinde, iste\u011finizin <em>reddedildi\u011fine</em> dair bilgi alacaks\u0131n\u0131z. <em>\u2018Do\u011frulama\u2019y\u0131</em> se\u00e7erse, ekledi\u011finiz ki\u015finin yetkilendirme iste\u011finizi kabul etti\u011fine dair bilgi alacaks\u0131n\u0131z ve ki\u015fi arkada\u015f listenizde aktif hale gelecek:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/33.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 4: Yetkilendirilmi\u015f yeni ki\u015fiyi g\u00f6steren Jitsi ana penceresi</em></p>\n\n<p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 OTR \u015fifreleme ile yaz\u0131l\u0131 sohbet (Anl\u0131k Mesajla\u015fma)</h2>\n\n<p>Ki\u015fiyi ekleyip kimlik do\u011frulad\u0131ktan sonra arkada\u015f listenizde isminin \u00fczerine t\u0131klay\u0131p yaz\u0131l\u0131, sesli veya g\u00f6r\u00fcnt\u00fcl\u00fc sohbet ba\u015flatabilir, isminin alt\u0131ndaki uygun ikonu se\u00e7erek masa\u00fcst\u00fc payla\u015f\u0131m\u0131nda bulunabilirsiniz:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/34.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 5: Jitsi ana sayfas\u0131nda se\u00e7ili ki\u015filer ve yaz\u0131l\u0131, sesli veya g\u00f6r\u00fcnt\u00fcl\u00fc sohbet ve masa\u00fcst\u00fc payla\u015f\u0131m\u0131 ikonlar\u0131</em></p>\n\n<p><strong>1. Ad\u0131m</strong>. \u015eimdi Jitsi\u2019nin en \u00f6nemli \u00f6zelliklerinden bir tanesine de\u011finece\u011fiz: mesajlar\u0131n\u0131z\u0131 <a href=\"/tr/glossary#OTR\"><em>OTR</em></a> kullanarak \u015fifreleme ve b\u00f6ylelikle g\u00fcvenli bir \u015fekilde yaz\u0131l\u0131 sohbet etme. OTR, bu k\u0131lavuzdaki di\u011fer b\u00f6l\u00fcmlerde incelenmi\u015f olan <a href=\"/tr/glossary#PGP\"><em>GPG/PGP</em></a>'ye benzer bir \u015fekilde \u00e7al\u0131\u015f\u0131r. Ayn\u0131 PGP gibi, hem sizin hem de ileti\u015fim halinde oldu\u011funuz ki\u015finin ileti\u015fiminizi \u015fifrelemeden \u00f6nce, \u015fifreleme anahtarlar\u0131n\u0131z\u0131 olu\u015fturmak i\u00e7in <strong>Jitsi\u2019yi</strong> yap\u0131land\u0131rman\u0131z gerekir. Bunu, men\u00fcden <strong><em>Ara\u00e7lar</em></strong> &gt; <strong><em>Se\u00e7enekler\u2019i</em></strong> <strong>se\u00e7erek</strong> yapabilirsiniz. Ard\u0131ndan, <strong><em>G\u00fcvenlik</em></strong> sekmesini ve <strong><em>Sohbet</em></strong> alt-sekmesini <strong>se\u00e7in</strong>. A\u015fa\u011f\u0131da g\u00f6r\u00fcnene benzer bir pencere ile kar\u015f\u0131la\u015facaks\u0131n\u0131z:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/35.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 6: Yaz\u0131l\u0131 sohbetleriniz i\u00e7in \u015fifreli anahtarlar olu\u015fturabilece\u011finiz sohbet se\u00e7enekleri penceresinin bir k\u0131sm\u0131</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. <strong><em>Olu\u015ftur</em></strong> d\u00fc\u011fmesine <strong>bas\u0131n</strong>. Olu\u015fturulan anahtar\u0131n parmak izini g\u00f6receksiniz:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/36.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 7: Olu\u015fturulmu\u015f OTR \u015fifreli yaz\u0131l\u0131 sohbetinizin parmak izini g\u00f6steren sohbet se\u00e7enekleri penceresinin bir k\u0131sm\u0131</em></p>\n\n<p>Her hesap i\u00e7in bir anahtar olu\u015fturulur. Yeni bir hesap ekledi\u011finiz veya Jitsi\u2019yi ba\u015fka bir cihaza indirdi\u011finiz zaman bu i\u015flemi yeniden yapman\u0131z gerekir. Var olan anahtarlar\u0131 oraya ta\u015f\u0131yamazs\u0131n\u0131z.</p>\n\n<p>\u015eimdi ileti\u015fim kurmaya haz\u0131rs\u0131n\u0131z:</p>\n\n<p><strong>3. Ad\u0131m</strong>. Jitsi ana sayfas\u0131ndan bir <strong>ki\u015fi se\u00e7in</strong> ve <em>mesaj g\u00f6nder</em> ikonunu <strong>t\u0131klay\u0131n</strong> (ki\u015finin isminin alt\u0131ndaki soldaki ilk ikon). A\u015fa\u011f\u0131daki yaz\u0131l\u0131 sohbet penceresi a\u00e7\u0131lacakt\u0131r:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/37.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 8: OTR \u015fifrelenmi\u015f yaz\u0131l\u0131 sohbet penceresi, i\u015faretli fakat devreye girmemi\u015f</em></p>\n\n<p>Pencerenin sa\u011f \u00fcst k\u00f6\u015fesindeki asma kilide ve <em>Sohbeti OTR ile \u015fifrele</em> ikonuna dikkat ediniz. \u00c7ok kolay g\u00f6ze \u00e7arpmayan bu ikon sohbetin \u015fifreli olup olmad\u0131\u011f\u0131 konusunda bilgi verir. Resimdeki anahtar a\u00e7\u0131k (kilidin g\u00f6vdesi ve kolu aras\u0131nda \u00e7ok k\u00fc\u00e7\u00fck bir bo\u015fluk var!).</p>\n\n<p><strong>4. Ad\u0131m</strong>. <strong><em>Sohbeti OTR ile \u015fifrele</em> ikonunu t\u0131klay\u0131n</strong>. Pencerede olan de\u011fi\u015fikliklere dikkat edin</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/38.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 9: Sohbeti OTR ile \u015fifrele ikonunu t\u0131klad\u0131ktan sonra yaz\u0131l\u0131 sohbet penceresi</em></p>\n\n<p>Asma kilidin \u015fimdi kapal\u0131 oldu\u011funu g\u00f6rebilirsiniz. Bu, ileti\u015fim kurdu\u011funuz ki\u015fi ile birbirinize g\u00f6nderdi\u011finiz mesajlar\u0131n \u015fifreli oldu\u011fu anlam\u0131na gelir. Bunun <em>onaylanmam\u0131\u015f gizli bir ileti\u015fim</em> oldu\u011funa dair bir mesaj alacaks\u0131n\u0131z, sally.the.doer@jit.si\u2019nin <em>kimli\u011fini do\u011frulaman\u0131z</em> gerekir</p>\n\n<p><strong>5. Ad\u0131m</strong>. <strong><em>sally.the.doer@jit.si\u2019nin kimli\u011fini do\u011frulaman\u0131z</em></strong> i\u00e7in <strong>ba\u011flant\u0131ya t\u0131klay\u0131n</strong> ve <em>Arkada\u015f\u0131n\u0131n Kimli\u011fini Do\u011frula</em> penceresini a\u00e7\u0131n:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/39.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 10: Siz ve ileti\u015fimde oldu\u011funuz ki\u015finin parmak izlerini g\u00f6steren Arkada\u015f\u0131n\u0131n Kimli\u011fini Do\u011frula penceresi</em></p>\n\n<p>\u0130leti\u015fimde oldu\u011funuz ki\u015fi ile anahtarlar\u0131n\u0131z\u0131n parmak izlerini, bu yaz\u0131l\u0131 sohbet d\u0131\u015f\u0131ndaki ba\u015fka bir kanal \u00fczerinden kar\u015f\u0131la\u015ft\u0131rman\u0131z\u0131 isteyen mesaja dikkat edin. Bunu yaparak, ileti\u015fim kurdu\u011funuz ki\u015finin ger\u00e7ekten o oldu\u011fundan emin olabilirsiniz. Anahtar kar\u015f\u0131la\u015ft\u0131rmas\u0131 yapmak i\u00e7in en iyi y\u00f6ntem y\u00fcz y\u00fcze olmak ya da g\u00f6r\u00fcnt\u00fcl\u00fc veya sesli ileti\u015fim kurmakt\u0131r. Bu y\u00f6ntemlerle kar\u015f\u0131n\u0131zdaki ki\u015finin kimli\u011fini do\u011frulamak daha kolayd\u0131r. Parmak izlerini kar\u015f\u0131la\u015ft\u0131rd\u0131ktan sonra, a\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r men\u00fcden <strong><em>Parmak izini do\u011frulad\u0131m</em></strong> se\u00e7ene\u011fini <strong>se\u00e7in</strong> ve <strong><em>Arkada\u015f\u0131n\u0131n Kimli\u011fini Do\u011frula\u2019y\u0131</em> t\u0131klay\u0131n</strong>:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/40.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 11: Parmak izini \u2018do\u011fruluyorum\u2019 se\u00e7ene\u011fini se\u00e7tikten sonra Arkada\u015f\u0131n Kimli\u011fini Do\u011frula penceresinin bir k\u0131sm\u0131</em></p>\n\n<p><em>Arkada\u015f\u0131n\u0131 Do\u011frula</em> penceresini kapatmak sizi sohbet penceresine g\u00f6t\u00fcrecektir:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/41.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 12: Do\u011frulanm\u0131\u015f OTR \u015fifreleme ile Yaz\u0131l\u0131 sohbet penceresi</em></p>\n\n<p>Asma kilidin art\u0131k beyaz \u00fcnlem i\u015fareti i\u00e7eren turuncu \u00fc\u00e7geni g\u00f6stermedi\u011fini g\u00f6rebilirsiniz. Bu arkada\u015f\u0131n\u0131z\u0131n kimli\u011finiz do\u011frulad\u0131\u011f\u0131n\u0131z anlam\u0131na gelir. <strong>Kimlik do\u011frulama her ki\u015fi i\u00e7in bir kere yap\u0131lmal\u0131d\u0131r</strong>. \u00dcnlem i\u015faretli \u00fc\u00e7gen yeniden belirirse, kimli\u011fini do\u011frulamad\u0131\u011f\u0131n\u0131z birisi ile sohbet ediyorsunuz demektir. Bu, arkada\u015f\u0131n\u0131z ba\u015fka bir \u015fifrelenmi\u015f anahtar ile (farkl\u0131 bir Jitsi kurulumu veya OTR taraf\u0131ndan etkin k\u0131l\u0131nm\u0131\u015f ba\u015fka bir program) farkl\u0131 bir cihaz kulland\u0131\u011f\u0131nda ger\u00e7ekle\u015febilir. Bu durumda, ileti\u015fim kurdu\u011funuz ki\u015finin kimli\u011finden emin olmak i\u00e7in  birbirinizin kimliklerini yeniden do\u011frulaman\u0131z gerekir.</p>\n\n<p><strong>Jitsi</strong> ayn\u0131 anda birden fazla ki\u015fi ile sohbet etmenize olanak sa\u011flar. OTR \u015fifreleme ise bir ki\u015fi ile sohbet ederken \u00e7al\u0131\u015f\u0131r.</p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h2>3.3 ZRTP \u015fifreleme ile sesli ve g\u00f6r\u00fcnt\u00fcl\u00fc sohbet</h2>\n\n<p><strong>Jitsi</strong>, ZRTP adl\u0131 a\u00e7\u0131k bir standart taraf\u0131ndan ba\u011f\u0131ms\u0131z olarak \u015fifrelenebilen sesli ve g\u00f6r\u00fcnt\u00fcl\u00fc sohbet imkan\u0131 sa\u011flar. Oturumu a\u00e7mak i\u00e7in:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <strong>Jitsi</strong> ileti\u015fim listesinden ileti\u015fim kuraca\u011f\u0131n\u0131z ki\u015fiye <strong>t\u0131klay\u0131n</strong> ve ses (ki\u015finin isminin alt\u0131ndaki soldan ikinci ikon) veya video (\u00fc\u00e7\u00fcnc\u00fc) ikona t\u0131klay\u0131n. Yukar\u0131daki \u015eekil 5 bunu nas\u0131l yapaca\u011f\u0131n\u0131z\u0131 g\u00f6sterir. <strong>Jitsi\u2019nin</strong> ba\u011flant\u0131y\u0131 kurdu\u011funu g\u00f6steren yeni bir pencere a\u00e7\u0131lacakt\u0131r:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/42.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 13: \u00c7alma stat\u00fcs\u00fc belirten arama penceresi</em></p>\n\n<p>\u0130leti\u015fim kurdu\u011funuz ki\u015fi gelen arama bildirimini g\u00f6recektir:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/43.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 14: Gelen arama bildirimi</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. Arkada\u015f\u0131n\u0131z <strong>aramay\u0131 kabul ederse</strong> ba\u011flant\u0131 kurdu\u011funuza dair bilgilendirileceksiniz:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/44.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 15: ZRTP \u015fifrelemesiz gelen arama penceresi</em></p>\n\n<p>K\u0131rm\u0131z\u0131 asma kilidin a\u00e7\u0131k oldu\u011funu g\u00f6rebilirsiniz. Bu, araman\u0131z\u0131n hen\u00fcz ZRTP ile \u015fifrelenmemi\u015f oldu\u011funu g\u00f6sterir.</p>\n\n<p><strong>3. Ad\u0131m</strong>. <strong>Bekle...</strong> Sizin ve ileti\u015fim kurdu\u011funuz ki\u015finin programlar\u0131n\u0131n \u015fifrelenmi\u015f bir ba\u011flant\u0131 kurmas\u0131 bir s\u00fcre alabilir. Bu i\u015flem ba\u015far\u0131 ile ger\u00e7ekle\u015firse,turuncu bir arka planda, a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi kapal\u0131 bir asma kilit ile birlikte <em>zrtp</em> harflerini g\u00f6receksiniz. Bu ba\u011flant\u0131y\u0131 kurmay\u0131 ba\u015faramazlarsa, sohbet etmeye devam edebilirsiniz, fakat sohbetiniz \u015fifrelenmemi\u015f olur. Ba\u011flant\u0131y\u0131 kesip <strong>Jitsi\u2019yi</strong> yeniden ba\u015flatabilir ve programlar\u0131n \u015fifreli bir ba\u011flant\u0131 kurmalay\u0131 yeniden denemesine izin verebilirsiniz. Farkl\u0131 sunuculara sahip (Google ve Jit.si gibi) hesaplar aras\u0131ndaki aramalarda ZRTP\u2019nin \u00e7al\u0131\u015fmama olas\u0131l\u0131\u011f\u0131 vard\u0131r.</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/45.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 16: Etkinle\u015fmi\u015f fakat do\u011frulanmam\u0131\u015f ZRTP \u015fifreleme ile Arama penceresinin bir k\u0131sm\u0131</em></p>\n\n<p><strong>4. Ad\u0131m</strong>. <em>zrtp</em> harflerinin ve asma kilidin alt\u0131ndaki k\u0131s\u0131mda \u2018Partneriniz ile k\u0131yaslay\u0131n\u2019 yazan ve 4 karakter ile devam eden bir mesaj <strong>g\u00f6receksiniz</strong>. Bu harfleri ileti\u015fimde oldu\u011funuz ki\u015fiye <strong>okuyun</strong> ve onda da ayn\u0131 karakterlerin olup olmad\u0131\u011f\u0131n\u0131 sorun. E\u011fer varsa ileti\u015fiminiz \u015fifrelenmi\u015f demektir ve kimse bu ileti\u015fime dahil olamaz. <strong><em>Onayla\u2019y\u0131</em> t\u0131klayabilirsiniz</strong>. Turuncu <em>zrtp</em> alan\u0131 ye\u015file d\u00f6necektir:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/46.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 17: Devreye girmi\u015f ve onaylanm\u0131\u015f ZRTP \u015fifrelemesi ile Arama ekran\u0131n\u0131n bir k\u0131sm\u0131</em></p>\n\n<p><strong>5. Ad\u0131m</strong>. Siyah k\u0131sm\u0131n sa\u011f \u00fcst k\u00f6\u015fesindeki beyaz x i\u015faretine t\u0131klayarak pencerenin siyah onaylama k\u0131sm\u0131n\u0131 kapatabilirsiniz:</p>\n\n<p><img src=\"/sbox/screen/jitsi-en/47.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 18: Devreye girmi\u015f ve onaylanm\u0131\u015f ZRTP \u015fifrelemesi ile Arama ekran\u0131n\u0131n bir k\u0131sm\u0131</em></p>\n\n<p><strong>Jitsi</strong>, birden fazla ki\u015fi ile sesli ve g\u00f6r\u00fcnt\u00fcl\u00fc sohbet etmenize olanak sa\u011flar. Dikkat edin ki bu t\u00fcr ileti\u015fim esnas\u0131nda, ZRTP \u015fifreleme, aramay\u0131 ba\u015flatan ki\u015fi ve di\u011fer taraflar aras\u0131nda devreye girebilir, di\u011fer kat\u0131l\u0131mc\u0131lar\u0131n kendi aralar\u0131nda de\u011fil.</p>\n", 
+                        "summary": "", 
+                        "value": "Bu sayfadaki b\u00f6l\u00fcmlerin listesi:\r\n\r\n- [**3.1 Jitsi\u2019ye ki\u015fi (arkada\u015f) ekleme**](#3.1)\r\n- [**3.2 OTR \u015fifreleme ile yaz\u0131l\u0131 sohbet (Anl\u0131k Mesajla\u015fma)**](#3.2)\r\n- [**3.3 ZRTP \u015fifreleme ile sesli ve g\u00f6r\u00fcnt\u00fcl\u00fc sohbet**](#3.3)\r\n\r\n\r\n<a name=\"3.1\"></a>\r\n## 3.1 Jitsi\u2019ye ki\u015fi (arkada\u015f) ekleme  ##\r\n\r\nJitsi\u2019ye bir hesap ekledikten ve giri\u015f yapt\u0131ktan sonra, daha fazla ki\u015fi eklemeye ve onlarla ileti\u015fim kurmaya haz\u0131rs\u0131n\u0131z. \r\n\r\nJitsi\u2019ye bir kontakt eklemek i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip ediniz:\r\n\r\n**0. Ad\u0131m**. **Ba\u015fla > Jitsi\u2019yi se\u00e7erek** veya masa\u00fcst\u00fcndeki **Jitsi** ikonuna **\u00e7ift t\u0131klayarak** Jitsi ana penceresin a\u00e7\u0131n. \r\n\r\n**1. Ad\u0131m**. ***Dosya* > *Kontakt ekle...*\u2019yi se\u00e7in** ve a\u015fa\u011f\u0131da g\u00f6r\u00fcnen pencereyi a\u00e7\u0131n: \r\n\r\n![](/sbox/screen/jitsi-en/30.png)\r\n\r\n*\u015eekil 1: Kontakt ekle penceresi*\r\n\r\n**2. Ad\u0131m**. Ki\u015fiyi hangi hesab\u0131n\u0131za eklemek istedi\u011finizi **se\u00e7in** (\u00f6rne\u011fin, erance.the.tester@jit.si).\r\n\r\n**\u0130ste\u011fe ba\u011fl\u0131**: Ki\u015fiyi belli arkada\u015flar\u0131n\u0131zdan olu\u015fan bir *gruba* da ekleyebilirsiniz. Fakat \u00f6nce bu grubu olu\u015fturmal\u0131s\u0131n\u0131z. Bunu men\u00fcden ***Dosya* \u2013 *Grup olu\u015ftur...'u* se\u00e7erek** yapabilirsiniz. \r\n\r\n***Kimlik veya Numara*** alan\u0131na ki\u015finin kullan\u0131c\u0131 ad\u0131 veya adresini **yaz\u0131n** (\u00f6rne\u011fin, sally.the.doer@jit.si).\r\n\r\nKi\u015fi i\u00e7in, **Jitsi** ana penceresindeki arkada\u015f listenizde g\u00f6r\u00fcnecek bir isim veya rumuz se\u00e7ebilirsiniz. Bunu ***G\u00f6r\u00fcnen isim*** alan\u0131na **yazabilirsiniz**. \r\n \r\n\r\n**3. Ad\u0131m**. *Ki\u015fi ekleme* penceresini kapatmak ve Jitsi ana sayfas\u0131na geri d\u00f6nmek i\u00e7in *Ekle\u2019yi* **t\u0131klay\u0131n**. Arkada\u015f listenizde yeni eklenen ki\u015fileri, \u2018kimlik do\u011frulama bekleniyor\u2019 notu ile birlikte, a\u015fa\u011f\u0131daki gibi g\u00f6receksiniz: \r\n\r\n![](/sbox/screen/jitsi-en/31.png)\r\n\r\n*\u015eekil 2: Kimlik do\u011frulama bekleyen yeni eklenmi\u015f ki\u015fileri g\u00f6steren Jitsi ana sayfas\u0131*\r\n \r\n**4. Ad\u0131m**. Ekledi\u011finiz ki\u015fi (sally.the.doer@jit.si) kendi hesab\u0131na giri\u015f yapt\u0131\u011f\u0131 zaman onu arkada\u015f listenize eklemek istedi\u011finizi s\u00f6yleyen a\u00e7\u0131l\u0131r bir pencere ile kar\u015f\u0131la\u015facak. \r\n\r\n![](/sbox/screen/jitsi-en/32.png)\r\n\r\n*\u015eekil 3: Yeni eklenen ki\u015fiye kimlik do\u011frulama iste\u011fi g\u00f6nderen pencere*\r\n\r\nEkledi\u011finiz ki\u015fi, *Yoksay\u2019\u0131* se\u00e7ebilir, bu durumda g\u00f6nderdi\u011finiz istek yetkilendirilmeyi beklemeye devam edecektir. Bunu yapmas\u0131 halinde, iste\u011finizin *reddedildi\u011fine* dair bilgi alacaks\u0131n\u0131z. *\u2018Do\u011frulama\u2019y\u0131* se\u00e7erse, ekledi\u011finiz ki\u015finin yetkilendirme iste\u011finizi kabul etti\u011fine dair bilgi alacaks\u0131n\u0131z ve ki\u015fi arkada\u015f listenizde aktif hale gelecek: \r\n\r\n![](/sbox/screen/jitsi-en/33.png)\r\n\r\n*\u015eekil 4: Yetkilendirilmi\u015f yeni ki\u015fiyi g\u00f6steren Jitsi ana penceresi*\r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 OTR \u015fifreleme ile yaz\u0131l\u0131 sohbet (Anl\u0131k Mesajla\u015fma)\r\n\r\nKi\u015fiyi ekleyip kimlik do\u011frulad\u0131ktan sonra arkada\u015f listenizde isminin \u00fczerine t\u0131klay\u0131p yaz\u0131l\u0131, sesli veya g\u00f6r\u00fcnt\u00fcl\u00fc sohbet ba\u015flatabilir, isminin alt\u0131ndaki uygun ikonu se\u00e7erek masa\u00fcst\u00fc payla\u015f\u0131m\u0131nda bulunabilirsiniz:\r\n\r\n![](/sbox/screen/jitsi-en/34.png)\r\n\r\n*\u015eekil 5: Jitsi ana sayfas\u0131nda se\u00e7ili ki\u015filer ve yaz\u0131l\u0131, sesli veya g\u00f6r\u00fcnt\u00fcl\u00fc sohbet ve masa\u00fcst\u00fc payla\u015f\u0131m\u0131 ikonlar\u0131*\r\n\r\n**1. Ad\u0131m**. \u015eimdi Jitsi\u2019nin en \u00f6nemli \u00f6zelliklerinden bir tanesine de\u011finece\u011fiz: mesajlar\u0131n\u0131z\u0131 [*OTR*](/tr/glossary#OTR) kullanarak \u015fifreleme ve b\u00f6ylelikle g\u00fcvenli bir \u015fekilde yaz\u0131l\u0131 sohbet etme. OTR, bu k\u0131lavuzdaki di\u011fer b\u00f6l\u00fcmlerde incelenmi\u015f olan [*GPG/PGP*](/tr/glossary#PGP)'ye benzer bir \u015fekilde \u00e7al\u0131\u015f\u0131r. Ayn\u0131 PGP gibi, hem sizin hem de ileti\u015fim halinde oldu\u011funuz ki\u015finin ileti\u015fiminizi \u015fifrelemeden \u00f6nce, \u015fifreleme anahtarlar\u0131n\u0131z\u0131 olu\u015fturmak i\u00e7in **Jitsi\u2019yi** yap\u0131land\u0131rman\u0131z gerekir. Bunu, men\u00fcden ***Ara\u00e7lar*** > ***Se\u00e7enekler\u2019i*** **se\u00e7erek** yapabilirsiniz. Ard\u0131ndan, ***G\u00fcvenlik*** sekmesini ve ***Sohbet*** alt-sekmesini **se\u00e7in**. A\u015fa\u011f\u0131da g\u00f6r\u00fcnene benzer bir pencere ile kar\u015f\u0131la\u015facaks\u0131n\u0131z: \r\n\r\n![](/sbox/screen/jitsi-en/35.png)\r\n\r\n*\u015eekil 6: Yaz\u0131l\u0131 sohbetleriniz i\u00e7in \u015fifreli anahtarlar olu\u015fturabilece\u011finiz sohbet se\u00e7enekleri penceresinin bir k\u0131sm\u0131*\r\n\r\n**2. Ad\u0131m**. ***Olu\u015ftur*** d\u00fc\u011fmesine **bas\u0131n**. Olu\u015fturulan anahtar\u0131n parmak izini g\u00f6receksiniz: \r\n\r\n![](/sbox/screen/jitsi-en/36.png)\r\n\r\n*\u015eekil 7: Olu\u015fturulmu\u015f OTR \u015fifreli yaz\u0131l\u0131 sohbetinizin parmak izini g\u00f6steren sohbet se\u00e7enekleri penceresinin bir k\u0131sm\u0131*\r\n\r\nHer hesap i\u00e7in bir anahtar olu\u015fturulur. Yeni bir hesap ekledi\u011finiz veya Jitsi\u2019yi ba\u015fka bir cihaza indirdi\u011finiz zaman bu i\u015flemi yeniden yapman\u0131z gerekir. Var olan anahtarlar\u0131 oraya ta\u015f\u0131yamazs\u0131n\u0131z. \r\n\r\n\u015eimdi ileti\u015fim kurmaya haz\u0131rs\u0131n\u0131z: \r\n\r\n**3. Ad\u0131m**. Jitsi ana sayfas\u0131ndan bir **ki\u015fi se\u00e7in** ve *mesaj g\u00f6nder* ikonunu **t\u0131klay\u0131n** (ki\u015finin isminin alt\u0131ndaki soldaki ilk ikon). A\u015fa\u011f\u0131daki yaz\u0131l\u0131 sohbet penceresi a\u00e7\u0131lacakt\u0131r: \r\n\r\n![](/sbox/screen/jitsi-en/37.png)\r\n\r\n*\u015eekil 8: OTR \u015fifrelenmi\u015f yaz\u0131l\u0131 sohbet penceresi, i\u015faretli fakat devreye girmemi\u015f*\r\n\r\nPencerenin sa\u011f \u00fcst k\u00f6\u015fesindeki asma kilide ve *Sohbeti OTR ile \u015fifrele* ikonuna dikkat ediniz. \u00c7ok kolay g\u00f6ze \u00e7arpmayan bu ikon sohbetin \u015fifreli olup olmad\u0131\u011f\u0131 konusunda bilgi verir. Resimdeki anahtar a\u00e7\u0131k (kilidin g\u00f6vdesi ve kolu aras\u0131nda \u00e7ok k\u00fc\u00e7\u00fck bir bo\u015fluk var!). \r\n\r\n**4. Ad\u0131m**. ***Sohbeti OTR ile \u015fifrele* ikonunu t\u0131klay\u0131n**. Pencerede olan de\u011fi\u015fikliklere dikkat edin\r\n\r\n![](/sbox/screen/jitsi-en/38.png)\r\n\r\n*\u015eekil 9: Sohbeti OTR ile \u015fifrele ikonunu t\u0131klad\u0131ktan sonra yaz\u0131l\u0131 sohbet penceresi*\r\n\r\nAsma kilidin \u015fimdi kapal\u0131 oldu\u011funu g\u00f6rebilirsiniz. Bu, ileti\u015fim kurdu\u011funuz ki\u015fi ile birbirinize g\u00f6nderdi\u011finiz mesajlar\u0131n \u015fifreli oldu\u011fu anlam\u0131na gelir. Bunun *onaylanmam\u0131\u015f gizli bir ileti\u015fim* oldu\u011funa dair bir mesaj alacaks\u0131n\u0131z, sally.the.doer@jit.si\u2019nin *kimli\u011fini do\u011frulaman\u0131z* gerekir\r\n\r\n**5. Ad\u0131m**. ***sally.the.doer@jit.si\u2019nin kimli\u011fini do\u011frulaman\u0131z*** i\u00e7in **ba\u011flant\u0131ya t\u0131klay\u0131n** ve *Arkada\u015f\u0131n\u0131n Kimli\u011fini Do\u011frula* penceresini a\u00e7\u0131n: \r\n\r\n![](/sbox/screen/jitsi-en/39.png)\r\n\r\n*\u015eekil 10: Siz ve ileti\u015fimde oldu\u011funuz ki\u015finin parmak izlerini g\u00f6steren Arkada\u015f\u0131n\u0131n Kimli\u011fini Do\u011frula penceresi*\r\n\r\n\u0130leti\u015fimde oldu\u011funuz ki\u015fi ile anahtarlar\u0131n\u0131z\u0131n parmak izlerini, bu yaz\u0131l\u0131 sohbet d\u0131\u015f\u0131ndaki ba\u015fka bir kanal \u00fczerinden kar\u015f\u0131la\u015ft\u0131rman\u0131z\u0131 isteyen mesaja dikkat edin. Bunu yaparak, ileti\u015fim kurdu\u011funuz ki\u015finin ger\u00e7ekten o oldu\u011fundan emin olabilirsiniz. Anahtar kar\u015f\u0131la\u015ft\u0131rmas\u0131 yapmak i\u00e7in en iyi y\u00f6ntem y\u00fcz y\u00fcze olmak ya da g\u00f6r\u00fcnt\u00fcl\u00fc veya sesli ileti\u015fim kurmakt\u0131r. Bu y\u00f6ntemlerle kar\u015f\u0131n\u0131zdaki ki\u015finin kimli\u011fini do\u011frulamak daha kolayd\u0131r. Parmak izlerini kar\u015f\u0131la\u015ft\u0131rd\u0131ktan sonra, a\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r men\u00fcden ***Parmak izini do\u011frulad\u0131m*** se\u00e7ene\u011fini **se\u00e7in** ve ***Arkada\u015f\u0131n\u0131n Kimli\u011fini Do\u011frula\u2019y\u0131* t\u0131klay\u0131n**:\r\n\r\n![](/sbox/screen/jitsi-en/40.png)\r\n\r\n*\u015eekil 11: Parmak izini \u2018do\u011fruluyorum\u2019 se\u00e7ene\u011fini se\u00e7tikten sonra Arkada\u015f\u0131n Kimli\u011fini Do\u011frula penceresinin bir k\u0131sm\u0131*\r\n\r\n*Arkada\u015f\u0131n\u0131 Do\u011frula* penceresini kapatmak sizi sohbet penceresine g\u00f6t\u00fcrecektir:\r\n\r\n![](/sbox/screen/jitsi-en/41.png)\r\n\r\n*\u015eekil 12: Do\u011frulanm\u0131\u015f OTR \u015fifreleme ile Yaz\u0131l\u0131 sohbet penceresi*\r\n\r\nAsma kilidin art\u0131k beyaz \u00fcnlem i\u015fareti i\u00e7eren turuncu \u00fc\u00e7geni g\u00f6stermedi\u011fini g\u00f6rebilirsiniz. Bu arkada\u015f\u0131n\u0131z\u0131n kimli\u011finiz do\u011frulad\u0131\u011f\u0131n\u0131z anlam\u0131na gelir. **Kimlik do\u011frulama her ki\u015fi i\u00e7in bir kere yap\u0131lmal\u0131d\u0131r**. \u00dcnlem i\u015faretli \u00fc\u00e7gen yeniden belirirse, kimli\u011fini do\u011frulamad\u0131\u011f\u0131n\u0131z birisi ile sohbet ediyorsunuz demektir. Bu, arkada\u015f\u0131n\u0131z ba\u015fka bir \u015fifrelenmi\u015f anahtar ile (farkl\u0131 bir Jitsi kurulumu veya OTR taraf\u0131ndan etkin k\u0131l\u0131nm\u0131\u015f ba\u015fka bir program) farkl\u0131 bir cihaz kulland\u0131\u011f\u0131nda ger\u00e7ekle\u015febilir. Bu durumda, ileti\u015fim kurdu\u011funuz ki\u015finin kimli\u011finden emin olmak i\u00e7in  birbirinizin kimliklerini yeniden do\u011frulaman\u0131z gerekir.\r\n\r\n**Jitsi** ayn\u0131 anda birden fazla ki\u015fi ile sohbet etmenize olanak sa\u011flar. OTR \u015fifreleme ise bir ki\u015fi ile sohbet ederken \u00e7al\u0131\u015f\u0131r. \r\n\r\n<a name=\"3.3\"></a>\r\n## 3.3 ZRTP \u015fifreleme ile sesli ve g\u00f6r\u00fcnt\u00fcl\u00fc sohbet ##\r\n\r\n**Jitsi**, ZRTP adl\u0131 a\u00e7\u0131k bir standart taraf\u0131ndan ba\u011f\u0131ms\u0131z olarak \u015fifrelenebilen sesli ve g\u00f6r\u00fcnt\u00fcl\u00fc sohbet imkan\u0131 sa\u011flar. Oturumu a\u00e7mak i\u00e7in:\r\n\r\n**1. Ad\u0131m**. **Jitsi** ileti\u015fim listesinden ileti\u015fim kuraca\u011f\u0131n\u0131z ki\u015fiye **t\u0131klay\u0131n** ve ses (ki\u015finin isminin alt\u0131ndaki soldan ikinci ikon) veya video (\u00fc\u00e7\u00fcnc\u00fc) ikona t\u0131klay\u0131n. Yukar\u0131daki \u015eekil 5 bunu nas\u0131l yapaca\u011f\u0131n\u0131z\u0131 g\u00f6sterir. **Jitsi\u2019nin** ba\u011flant\u0131y\u0131 kurdu\u011funu g\u00f6steren yeni bir pencere a\u00e7\u0131lacakt\u0131r:\r\n\r\n![](/sbox/screen/jitsi-en/42.png)\r\n\r\n*\u015eekil 13: \u00c7alma stat\u00fcs\u00fc belirten arama penceresi*\r\n\r\n\u0130leti\u015fim kurdu\u011funuz ki\u015fi gelen arama bildirimini g\u00f6recektir:\r\n\r\n![](/sbox/screen/jitsi-en/43.png)\r\n\r\n*\u015eekil 14: Gelen arama bildirimi*\r\n\r\n**2. Ad\u0131m**. Arkada\u015f\u0131n\u0131z **aramay\u0131 kabul ederse** ba\u011flant\u0131 kurdu\u011funuza dair bilgilendirileceksiniz: \r\n\r\n![](/sbox/screen/jitsi-en/44.png)\r\n\r\n*\u015eekil 15: ZRTP \u015fifrelemesiz gelen arama penceresi*\r\n\r\nK\u0131rm\u0131z\u0131 asma kilidin a\u00e7\u0131k oldu\u011funu g\u00f6rebilirsiniz. Bu, araman\u0131z\u0131n hen\u00fcz ZRTP ile \u015fifrelenmemi\u015f oldu\u011funu g\u00f6sterir. \r\n\r\n**3. Ad\u0131m**. **Bekle...** Sizin ve ileti\u015fim kurdu\u011funuz ki\u015finin programlar\u0131n\u0131n \u015fifrelenmi\u015f bir ba\u011flant\u0131 kurmas\u0131 bir s\u00fcre alabilir. Bu i\u015flem ba\u015far\u0131 ile ger\u00e7ekle\u015firse,turuncu bir arka planda, a\u015fa\u011f\u0131da g\u00f6r\u00fcnd\u00fc\u011f\u00fc gibi kapal\u0131 bir asma kilit ile birlikte *zrtp* harflerini g\u00f6receksiniz. Bu ba\u011flant\u0131y\u0131 kurmay\u0131 ba\u015faramazlarsa, sohbet etmeye devam edebilirsiniz, fakat sohbetiniz \u015fifrelenmemi\u015f olur. Ba\u011flant\u0131y\u0131 kesip **Jitsi\u2019yi** yeniden ba\u015flatabilir ve programlar\u0131n \u015fifreli bir ba\u011flant\u0131 kurmalay\u0131 yeniden denemesine izin verebilirsiniz. Farkl\u0131 sunuculara sahip (Google ve Jit.si gibi) hesaplar aras\u0131ndaki aramalarda ZRTP\u2019nin \u00e7al\u0131\u015fmama olas\u0131l\u0131\u011f\u0131 vard\u0131r. \r\n\r\n![](/sbox/screen/jitsi-en/45.png)\r\n\r\n*\u015eekil 16: Etkinle\u015fmi\u015f fakat do\u011frulanmam\u0131\u015f ZRTP \u015fifreleme ile Arama penceresinin bir k\u0131sm\u0131*\r\n\r\n**4. Ad\u0131m**. *zrtp* harflerinin ve asma kilidin alt\u0131ndaki k\u0131s\u0131mda \u2018Partneriniz ile k\u0131yaslay\u0131n\u2019 yazan ve 4 karakter ile devam eden bir mesaj **g\u00f6receksiniz**. Bu harfleri ileti\u015fimde oldu\u011funuz ki\u015fiye **okuyun** ve onda da ayn\u0131 karakterlerin olup olmad\u0131\u011f\u0131n\u0131 sorun. E\u011fer varsa ileti\u015fiminiz \u015fifrelenmi\u015f demektir ve kimse bu ileti\u015fime dahil olamaz. ***Onayla\u2019y\u0131* t\u0131klayabilirsiniz**. Turuncu *zrtp* alan\u0131 ye\u015file d\u00f6necektir: \r\n\r\n![](/sbox/screen/jitsi-en/46.png)\r\n\r\n*\u015eekil 17: Devreye girmi\u015f ve onaylanm\u0131\u015f ZRTP \u015fifrelemesi ile Arama ekran\u0131n\u0131n bir k\u0131sm\u0131*\r\n\r\n**5. Ad\u0131m**. Siyah k\u0131sm\u0131n sa\u011f \u00fcst k\u00f6\u015fesindeki beyaz x i\u015faretine t\u0131klayarak pencerenin siyah onaylama k\u0131sm\u0131n\u0131 kapatabilirsiniz: \r\n\r\n![](/sbox/screen/jitsi-en/47.png)\r\n\r\n*\u015eekil 18: Devreye girmi\u015f ve onaylanm\u0131\u015f ZRTP \u015fifrelemesi ile Arama ekran\u0131n\u0131n bir k\u0131sm\u0131*\r\n\r\n**Jitsi**, birden fazla ki\u015fi ile sesli ve g\u00f6r\u00fcnt\u00fcl\u00fc sohbet etmenize olanak sa\u011flar. Dikkat edin ki bu t\u00fcr ileti\u015fim esnas\u0131nda, ZRTP \u015fifreleme, aramay\u0131 ba\u015flatan ki\u015fi ve di\u011fer taraflar aras\u0131nda devreye girebilir, di\u011fer kat\u0131l\u0131mc\u0131lar\u0131n kendi aralar\u0131nda de\u011fil."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2047", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2047", 
+                "link_title": "Jitsi - Add contacts and communicate text & voice", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5193", 
+                "module": "book", 
+                "nid": "2047", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5191", 
+                "p3": "5193", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5191", 
+                "router_path": "node/%", 
+                "title": "Jitsi - Add contacts and communicate text & voice", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1455117062", 
+            "comment": "0", 
+            "created": "1441121583", 
+            "current_revision_id": "13197", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "jitsi_communicate", 
+                        "value": "jitsi_communicate"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5193": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2047", 
+                    "link_title": "Jitsi - Add contacts and communicate text & voice", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5193", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5191", 
+                    "p3": "5193", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5191", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2047", 
+            "num_revisions": "9", 
+            "path": "https://securityinabox.org/en/jitsi_communicate", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455117062", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Jitsi \u2013 Ki\u015fi ekleme ve yaz\u0131l\u0131 ve sesli ileti\u015fim kurma", 
+                        "value": "Jitsi \u2013 Ki\u015fi ekleme ve yaz\u0131l\u0131 ve sesli ileti\u015fim kurma"
+                    }
+                ]
+            }, 
+            "title_original": "Jitsi - Add contacts and communicate text & voice", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "es": {
+                        "changed": "1442498676", 
+                        "created": "1442498676", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455117062", 
+                        "created": "1455117062", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441193486", 
+                        "created": "1441193486", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444181060", 
+                        "created": "1444181060", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443021533", 
+                        "created": "1443021533", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444729180", 
+                        "created": "1444729180", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2047", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446206682", 
+                        "created": "1441121583", 
+                        "entity_id": "2047", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2047", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "bd49a0d8-dc77-4cc6-a339-5e74de093b65", 
+            "vid": "13197", 
+            "vuuid": "89dee112-daa7-447a-95a8-f0c676035751"
+        }
+    ], 
+    "changed": "1456930417", 
+    "comment": "0", 
+    "created": "1441121486", 
+    "current_revision_id": "13439", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "tr": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Installing Jitsi</strong></p>\n\n<ul><li><em>K\u0131sa <a href=\"/en/handsonguides\"><strong>Uygulamal\u0131 Rehberler\u2019in</strong></a>] Giri\u015f b\u00f6l\u00fcm\u00fcn\u00fc okuyun</em></li>\n<li><em>A\u015fa\u011f\u0131daki <strong>Jitsi</strong> ikonunu <strong>t\u0131klay\u0131n</strong> ve kurulumcuyu 'A\u00e7\u2019\u0131n, ya da '\u00c7al\u0131\u015ft\u0131r\u2019\u0131n. Gerekirse, kurulumcuyu \u00f6ce kaydedin, sonra kaydetti\u011finiz yere gidip \u00fczerine \u00e7ift t\u0131klay\u0131n</em> </li>\n<li><em>Devam etmeden \u00f6nce bir sonraki b\u00f6l\u00fcmdeki Kurulum Bilgileri\u2019ni okuyun</em></li>\n<li>*Kurulumcuyu bilgisayar\u0131n\u0131za kaydettiyseniz, kurulumdan sonra silebilirsiniz. *</li>\n</ul><p><strong>Jitsi</strong>:<br /><a href=\"/sbox/programs/jitsi.exe\"><img src=\"/sbox/screen/jitsi-en/01.pngf\" alt=\"\" /></a></p>\n", 
+                "value": "**Installing Jitsi**\r\n\r\n- *K\u0131sa [**Uygulamal\u0131 Rehberler\u2019in**](/en/handsonguides)] Giri\u015f b\u00f6l\u00fcm\u00fcn\u00fc okuyun*\r\n- *A\u015fa\u011f\u0131daki **Jitsi** ikonunu **t\u0131klay\u0131n** ve kurulumcuyu 'A\u00e7\u2019\u0131n, ya da '\u00c7al\u0131\u015ft\u0131r\u2019\u0131n. Gerekirse, kurulumcuyu \u00f6ce kaydedin, sonra kaydetti\u011finiz yere gidip \u00fczerine \u00e7ift t\u0131klay\u0131n* \r\n- *Devam etmeden \u00f6nce bir sonraki b\u00f6l\u00fcmdeki Kurulum Bilgileri\u2019ni okuyun*\r\n- *Kurulumcuyu bilgisayar\u0131n\u0131za kaydettiyseniz, kurulumdan sonra silebilirsiniz. *\r\n\r\n**Jitsi**:  \r\n[![](/sbox/screen/jitsi-en/01.pngf)](/sbox/programs/jitsi.exe)\r\n"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Ana Sayfa</strong></p>\n\n<ul><li><a href=\"https://jitsi.org/\"><strong>https://jitsi.org/</strong></a></li>\n</ul><p><strong>Bilgisayar Gereksinimleri</strong></p>\n\n<ul><li>T\u00fcm Windows S\u00fcr\u00fcmleri</li>\n</ul><p><strong>Bu Rehberde Kullan\u0131lan S\u00fcr\u00fcm</strong></p>\n\n<ul><li>2.4</li>\n</ul><p><strong>Bu b\u00f6l\u00fcm\u00fcn son g\u00fcncellenme tarihi</strong></p>\n\n<ul><li>Ocak 2014</li>\n</ul><p><strong>Lisans</strong></p>\n\n<ul><li>\u00dccretsiz ve A\u00e7\u0131k kaynak yaz\u0131l\u0131m</li>\n</ul><p><strong>Buradan sa\u011fl\u0131yaca\u011f\u0131n\u0131z faydalar</strong>:</p>\n\n<ul><li>Video sohbet oturumlar\u0131n\u0131 da i\u00e7eren gizli ve g\u00fcvenli entegre ileti\u015fim sistemine sahip olmak.</li>\n<li>\u0130leti\u015fiminizi hesap sunucular\u0131n\u0131zdan ba\u011f\u0131ms\u0131z olarak \u015fifreleme imkan\u0131. </li>\n<li>Ayn\u0131 anda farkl\u0131 hesaplar\u0131 (\u00f6rne\u011fin <strong>Facebook</strong>, <strong>Google Talk</strong>, <strong>Yahoo Messenger</strong>) kullanma imkan\u0131. </li>\n</ul><p><strong>GNU Linux, Mac OS ve Microsoft Windows ile \u00e7al\u0131\u015fan di\u011fer programlar</strong>:</p>\n\n<p><strong>Jitsi</strong>, <strong>GNU Linux</strong>, <strong>Mac OS</strong> ve <strong>MS Windows</strong> ile \u00e7al\u0131\u015f\u0131r (yak\u0131n zamanda <strong>Android OS</strong> ile de). <strong>Jitsi\u2019nin</strong> ba\u011f\u0131ms\u0131z <strong>OTR</strong> veya <strong>ZRTP</strong> \u015fifrelemeleri kullanarak ileti\u015fim kurabildi\u011fi di\u011fer programlar a\u015fa\u011f\u0131daki gibidir: \nYaz\u0131l\u0131 mesaj i\u00e7in: <a href=\"/tr/pidgin_main\"><strong>Pidgin</strong></a> (<strong>MS Windows</strong> ve <strong>GNU Linux</strong>),  <a href=\"http://www.miranda-im.org/\"><strong>Miranda</strong></a> (<strong>MS Windows)</strong>, <a href=\"https://adium.im/\"><strong>Adium</strong></a> (<strong>Mac OS X</strong>), <a href=\"https://guardianproject.info/apps/chatsecure/\"><strong>ChatSecure</strong></a> (<strong>Android OS</strong> and <strong>iOS</strong> daha \u00f6nce <a href=\"/en/Gibberbot_main\"><strong>Gibberbot</strong></a> olarak bilinirdi).\nVideo aramalar\u0131 i\u00e7in: <strong>CSipSimple</strong> (<strong>Android OS</strong>), <a href=\"http://www.linphone.org/\"><strong>Linphone</strong></a> (<strong>GNU Linux</strong>, <strong>MS Windows</strong>, <strong>Mac OS X</strong>, <strong>Android OS</strong>, <strong>iOS</strong>, ve di\u011ferleri.)</p>\n\n<p><strong>.1 Ba\u015flamadan once bu ara\u00e7la ilgili bilmeniz gerekenler</strong></p>\n\n<p><strong>Jitsi</strong>, bir\u00e7ok farkl\u0131 hesap \u00e7e\u015fidini ve ileti\u015fim protokol\u00fcn\u00fc destekler ve b\u00f6ylelikle farkl\u0131 programlar kullanan ki\u015filerle ileti\u015fim kurman\u0131z\u0131 sa\u011flar. Bu programlardan baz\u0131lar\u0131, benzer \u015fekilde ileti\u015fimizin g\u00fcvenli\u011fini sa\u011flamak i\u00e7in, ba\u011f\u0131ms\u0131z metin ve ses \u015fifrelemeyi (<strong>OTR ve ZRTP</strong>) destekleyen \u00e7e\u015fitli \u00f6zellikler sunar (yukar\u0131da adi ge\u00e7en programlar gibi). Fakat, \u00f6zellikle tescilli olan di\u011fer programlar (<strong>Facebook</strong> sohbet veya <strong>Google Talk</strong> gibi) bu \u00f6zelliklere sahip olmayabilir. Yine de, bu tescilli programlar\u0131 kullanan ki\u015filer ile <strong>Jitsi\u2019nin</strong> yard\u0131m\u0131 ile ileti\u015fim kurabilirsiniz, fakat bu durumda <strong>Jitsi\u2019nin</strong> ek g\u00fcvenlik \u00f6zelliklerinden faydalanamazs\u0131n\u0131z.</p>\n\n<p><strong>Facebook Sohbet</strong>, <strong>Google Talk</strong>, <strong>Yanoo! Messenger</strong>, <strong>Skype</strong> veya <strong>Viber</strong> gibi servislerin sunucular\u0131 metin, ses veya video ile kurdu\u011funuz ileti\u015fimlerin oturumlar\u0131na eri\u015febilir ve gerekti\u011fini d\u00fc\u015f\u00fcnd\u00fckleri zaman bunlar\u0131, \u015firketler ve h\u00fck\u00fcmetler gibi \u00fc\u00e7\u00fcnc\u00fc taraflar ile payla\u015fabilir. <strong>Jitsi</strong>, var olan hesaplar\u0131n\u0131z\u0131 kullan\u0131rken bunlara ek \u015fifreleme getirerek daha gizli ve g\u00fcvenli \u015fekilde ileti\u015fim kurman\u0131z\u0131 sa\u011flar. Bu \u015fekilde, ileti\u015fiminizin i\u00e7eri\u011fi hesap sunucular\u0131n\u0131n ve potansiyel \u00fc\u00e7\u00fcnc\u00fc taraflar\u0131n eri\u015fimine kapal\u0131 olur. \u00d6zel sohbet oturumlar\u0131n\u0131z ve ileti\u015fimlerinizi korumak i\u00e7in, <strong>Jitsi</strong>, yaz\u0131l\u0131 sohbetler i\u00e7in <strong>Off-the-Record</strong> (<a href=\"/tr/glossary#OTR\"><strong>OTR</strong></a>) ve sesli aramalar i\u00e7in <strong>ZRTP/SRTP</strong> gibi kriptograifk y\u00f6ntemler kullan\u0131r.</p>\n\n<p><strong>Jitsi</strong> ve <strong>Skype</strong> gibi programlar\u0131n aras\u0131ndaki en \u00f6nemli farklardan bir di\u011feri, <strong>Jitsi\u2019nin</strong> kullan\u0131c\u0131lar\u0131n\u0131 program geli\u015ftiricilerden ba\u011f\u0131ms\u0131z bir \u015fekilde farkl\u0131 servis sunucular\u0131na ba\u011fl\u0131 hesaplar\u0131n\u0131 kullanmalar\u0131n\u0131 sa\u011flamas\u0131d\u0131r. Bu demektir ki, <strong>Jitsi</strong> kullanmadan \u00f6nce bir hesap olu\u015fturman\u0131z gerekir.</p>\n\n<p><strong>Not</strong>: <strong>Jitsi</strong>, <strong>Java</strong> programlama dilini kullan\u0131r. Bu y\u00fczden, \u00e7al\u0131\u015fmas\u0131 i\u00e7in Java program\u0131n\u0131n bilgisayar\u0131n\u0131za kurulu olmas\u0131 gerekir. <strong>Oracle Java\u2019n\u0131n</strong> bir\u00e7ok g\u00fcvenlik zaaf\u0131 oldu\u011fu bilinmektedir, bunlar arac\u0131l\u0131\u011f\u0131yla bilgisayar\u0131n\u0131z\u0131n y\u00f6netimi uzaktan eri\u015fimli kullan\u0131c\u0131lar taraf\u0131ndan ele ge\u00e7irilebilir ve ileti\u015fim ve verilerinize eri\u015fmek i\u00e7in bilgisayar\u0131n\u0131za casus yaz\u0131l\u0131m kurulabilir. Bilgisayar\u0131n\u0131zda Java kullanabilen programlar\u0131n say\u0131s\u0131n\u0131 m\u00fcmk\u00fcn oldu\u011funca aza indirmenizi <em>\u015fiddetle</em> tavsiye ederiz. L\u00fctfen, <a href=\"/en/firefox_addons#3.2\"><strong>Firefox\u2019ta Java ile ili\u015fkili eklentileri devre d\u0131\u015f\u0131 b\u0131rakmak</strong></a> ve <a href=\"https://www.java.com/tr/download/help/disable_browser.xml\"><strong>bilgisayar\u0131n\u0131zdaki t\u00fcm taray\u0131c\u0131lar i\u00e7in Java\u2019y\u0131 devre d\u0131\u015f\u0131 b\u0131rakma ad\u0131mlar\u0131\u2019na</strong></a> bak\u0131n. Fakat, bu b\u00f6l\u00fcmde daha sonra g\u00f6rece\u011finiz gibi, <strong>Java</strong> gerektirmesine ra\u011fmen, <strong>Jitsi</strong> kullanman\u0131n \u00e7e\u015fitli g\u00fcvenlik faydalar\u0131 vard\u0131r.</p>\n", 
+                "value": "**Ana Sayfa**\r\n\r\n- [**https://jitsi.org/**](https://jitsi.org/)\r\n\r\n**Bilgisayar Gereksinimleri**\r\n\r\n- T\u00fcm Windows S\u00fcr\u00fcmleri\r\n\r\n**Bu Rehberde Kullan\u0131lan S\u00fcr\u00fcm**\r\n\r\n- 2.4\r\n\r\n**Bu b\u00f6l\u00fcm\u00fcn son g\u00fcncellenme tarihi**\r\n\r\n- Ocak 2014\r\n\r\n**Lisans**\r\n\r\n- \u00dccretsiz ve A\u00e7\u0131k kaynak yaz\u0131l\u0131m\r\n\r\n**Buradan sa\u011fl\u0131yaca\u011f\u0131n\u0131z faydalar**: \r\n\r\n- Video sohbet oturumlar\u0131n\u0131 da i\u00e7eren gizli ve g\u00fcvenli entegre ileti\u015fim sistemine sahip olmak.\r\n- \u0130leti\u015fiminizi hesap sunucular\u0131n\u0131zdan ba\u011f\u0131ms\u0131z olarak \u015fifreleme imkan\u0131. \r\n- Ayn\u0131 anda farkl\u0131 hesaplar\u0131 (\u00f6rne\u011fin **Facebook**, **Google Talk**, **Yahoo Messenger**) kullanma imkan\u0131. \r\n\r\n**GNU Linux, Mac OS ve Microsoft Windows ile \u00e7al\u0131\u015fan di\u011fer programlar**:\r\n\r\n**Jitsi**, **GNU Linux**, **Mac OS** ve **MS Windows** ile \u00e7al\u0131\u015f\u0131r (yak\u0131n zamanda **Android OS** ile de). **Jitsi\u2019nin** ba\u011f\u0131ms\u0131z **OTR** veya **ZRTP** \u015fifrelemeleri kullanarak ileti\u015fim kurabildi\u011fi di\u011fer programlar a\u015fa\u011f\u0131daki gibidir: \r\nYaz\u0131l\u0131 mesaj i\u00e7in: [**Pidgin**](/tr/pidgin_main) (**MS Windows** ve **GNU Linux**),  [**Miranda**](http://www.miranda-im.org/) (**MS Windows)**, [**Adium**](https://adium.im/) (**Mac OS X**), [**ChatSecure**](https://guardianproject.info/apps/chatsecure/) (**Android OS** and **iOS** daha \u00f6nce [**Gibberbot**](/en/Gibberbot_main) olarak bilinirdi).\r\nVideo aramalar\u0131 i\u00e7in: **CSipSimple** (**Android OS**), [**Linphone**](http://www.linphone.org/) (**GNU Linux**, **MS Windows**, **Mac OS X**, **Android OS**, **iOS**, ve di\u011ferleri.)\r\n\r\n**.1 Ba\u015flamadan once bu ara\u00e7la ilgili bilmeniz gerekenler**\r\n\r\n**Jitsi**, bir\u00e7ok farkl\u0131 hesap \u00e7e\u015fidini ve ileti\u015fim protokol\u00fcn\u00fc destekler ve b\u00f6ylelikle farkl\u0131 programlar kullanan ki\u015filerle ileti\u015fim kurman\u0131z\u0131 sa\u011flar. Bu programlardan baz\u0131lar\u0131, benzer \u015fekilde ileti\u015fimizin g\u00fcvenli\u011fini sa\u011flamak i\u00e7in, ba\u011f\u0131ms\u0131z metin ve ses \u015fifrelemeyi (**OTR ve ZRTP**) destekleyen \u00e7e\u015fitli \u00f6zellikler sunar (yukar\u0131da adi ge\u00e7en programlar gibi). Fakat, \u00f6zellikle tescilli olan di\u011fer programlar (**Facebook** sohbet veya **Google Talk** gibi) bu \u00f6zelliklere sahip olmayabilir. Yine de, bu tescilli programlar\u0131 kullanan ki\u015filer ile **Jitsi\u2019nin** yard\u0131m\u0131 ile ileti\u015fim kurabilirsiniz, fakat bu durumda **Jitsi\u2019nin** ek g\u00fcvenlik \u00f6zelliklerinden faydalanamazs\u0131n\u0131z.\r\n\r\n**Facebook Sohbet**, **Google Talk**, **Yanoo! Messenger**, **Skype** veya **Viber** gibi servislerin sunucular\u0131 metin, ses veya video ile kurdu\u011funuz ileti\u015fimlerin oturumlar\u0131na eri\u015febilir ve gerekti\u011fini d\u00fc\u015f\u00fcnd\u00fckleri zaman bunlar\u0131, \u015firketler ve h\u00fck\u00fcmetler gibi \u00fc\u00e7\u00fcnc\u00fc taraflar ile payla\u015fabilir. **Jitsi**, var olan hesaplar\u0131n\u0131z\u0131 kullan\u0131rken bunlara ek \u015fifreleme getirerek daha gizli ve g\u00fcvenli \u015fekilde ileti\u015fim kurman\u0131z\u0131 sa\u011flar. Bu \u015fekilde, ileti\u015fiminizin i\u00e7eri\u011fi hesap sunucular\u0131n\u0131n ve potansiyel \u00fc\u00e7\u00fcnc\u00fc taraflar\u0131n eri\u015fimine kapal\u0131 olur. \u00d6zel sohbet oturumlar\u0131n\u0131z ve ileti\u015fimlerinizi korumak i\u00e7in, **Jitsi**, yaz\u0131l\u0131 sohbetler i\u00e7in **Off-the-Record** ([**OTR**](/tr/glossary#OTR)) ve sesli aramalar i\u00e7in **ZRTP/SRTP** gibi kriptograifk y\u00f6ntemler kullan\u0131r. \r\n\r\n**Jitsi** ve **Skype** gibi programlar\u0131n aras\u0131ndaki en \u00f6nemli farklardan bir di\u011feri, **Jitsi\u2019nin** kullan\u0131c\u0131lar\u0131n\u0131 program geli\u015ftiricilerden ba\u011f\u0131ms\u0131z bir \u015fekilde farkl\u0131 servis sunucular\u0131na ba\u011fl\u0131 hesaplar\u0131n\u0131 kullanmalar\u0131n\u0131 sa\u011flamas\u0131d\u0131r. Bu demektir ki, **Jitsi** kullanmadan \u00f6nce bir hesap olu\u015fturman\u0131z gerekir. \r\n\r\n**Not**: **Jitsi**, **Java** programlama dilini kullan\u0131r. Bu y\u00fczden, \u00e7al\u0131\u015fmas\u0131 i\u00e7in Java program\u0131n\u0131n bilgisayar\u0131n\u0131za kurulu olmas\u0131 gerekir. **Oracle Java\u2019n\u0131n** bir\u00e7ok g\u00fcvenlik zaaf\u0131 oldu\u011fu bilinmektedir, bunlar arac\u0131l\u0131\u011f\u0131yla bilgisayar\u0131n\u0131z\u0131n y\u00f6netimi uzaktan eri\u015fimli kullan\u0131c\u0131lar taraf\u0131ndan ele ge\u00e7irilebilir ve ileti\u015fim ve verilerinize eri\u015fmek i\u00e7in bilgisayar\u0131n\u0131za casus yaz\u0131l\u0131m kurulabilir. Bilgisayar\u0131n\u0131zda Java kullanabilen programlar\u0131n say\u0131s\u0131n\u0131 m\u00fcmk\u00fcn oldu\u011funca aza indirmenizi *\u015fiddetle* tavsiye ederiz. L\u00fctfen, [**Firefox\u2019ta Java ile ili\u015fkili eklentileri devre d\u0131\u015f\u0131 b\u0131rakmak**](/en/firefox_addons#3.2) ve [**bilgisayar\u0131n\u0131zdaki t\u00fcm taray\u0131c\u0131lar i\u00e7in Java\u2019y\u0131 devre d\u0131\u015f\u0131 b\u0131rakma ad\u0131mlar\u0131\u2019na**](https://www.java.com/tr/download/help/disable_browser.xml) bak\u0131n. Fakat, bu b\u00f6l\u00fcmde daha sonra g\u00f6rece\u011finiz gibi, **Java** gerektirmesine ra\u011fmen, **Jitsi** kullanman\u0131n \u00e7e\u015fitli g\u00fcvenlik faydalar\u0131 vard\u0131r."
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "Jitsi - Secure Audio, Video and Text Com", 
+                "value": "Jitsi - Secure Audio, Video and Text Com"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "Jitsi \u2013 G\u00fcvenli Sesli, G\u00f6r\u00fcnt\u00fcl\u00fc ve Anl\u0131k Mesajla\u015fma", 
+                "value": "Jitsi \u2013 G\u00fcvenli Sesli, G\u00f6r\u00fcnt\u00fcl\u00fc ve Anl\u0131k Mesajla\u015fma"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Jitsi</strong>, internet \u00fczerinden <strong>Anl\u0131k Mesajla\u015fma</strong> (Instan Messaging, <strong>IM</strong>),  i\u015fitsel ve g\u00f6rsel sohbeti destekleyen, farkl\u0131 sunucularla \u00e7al\u0131\u015fabilen, <a href=\"/tr/glossary#FOSS\"><strong>\u00fccretsiz ve a\u00e7\u0131k kaynak kodlu</strong></a> bir   platformdur. En pop\u00fcler ve s\u0131kl\u0131kla kullan\u0131lan <strong>IM</strong> ve telefonculuk protokollerini destekler. Bunlara <strong>SIP</strong> ( <strong>Session Initiated Protocol</strong>, Oturumla Ba\u015flat\u0131lan Protokol), <strong>Jabber/XMPP</strong> (<strong>Facebook</strong> ve <strong>Google Talk</strong>), <strong>AIM</strong>, <strong>ICQ</strong>, <strong>MSN</strong> ve <strong>Yahoo! Messenger</strong> dahildir. Yaz\u0131l\u0131 sohbetlere <a href=\"/tr/glossary#OTR\"><strong>OTR</strong> <strong>(Off-the-Record)</strong></a> protokol\u00fc \u00fczerinden ek bir ba\u011f\u0131ms\u0131z \u015fifrelemenin yan\u0131nda, ve i\u015fitsel ve g\u00f6rsel (<strong>ZRTP</strong>, <strong>SRTP</strong>) oturumlar sunar. <strong>Jitsi</strong>, <strong>Microsoft Windows</strong>, <strong>Mac OS</strong> ve <strong>Linux</strong> \u00fczerinden \u00e7al\u0131\u015f\u0131r. Ayr\u0131ca <strong>Android</strong> versiyonu da geli\u015ftirilmektedir.</p>\n", 
+                "value": "**Jitsi**, internet \u00fczerinden **Anl\u0131k Mesajla\u015fma** (Instan Messaging, **IM**),  i\u015fitsel ve g\u00f6rsel sohbeti destekleyen, farkl\u0131 sunucularla \u00e7al\u0131\u015fabilen, [**\u00fccretsiz ve a\u00e7\u0131k kaynak kodlu**](/tr/glossary#FOSS) bir   platformdur. En pop\u00fcler ve s\u0131kl\u0131kla kullan\u0131lan **IM** ve telefonculuk protokollerini destekler. Bunlara **SIP** ( **Session Initiated Protocol**, Oturumla Ba\u015flat\u0131lan Protokol), **Jabber/XMPP** (**Facebook** ve **Google Talk**), **AIM**, **ICQ**, **MSN** ve **Yahoo! Messenger** dahildir. Yaz\u0131l\u0131 sohbetlere [**OTR** **(Off-the-Record)**](/tr/glossary#OTR) protokol\u00fc \u00fczerinden ek bir ba\u011f\u0131ms\u0131z \u015fifrelemenin yan\u0131nda, ve i\u015fitsel ve g\u00f6rsel (**ZRTP**, **SRTP**) oturumlar sunar. **Jitsi**, **Microsoft Windows**, **Mac OS** ve **Linux** \u00fczerinden \u00e7al\u0131\u015f\u0131r. Ayr\u0131ca **Android** versiyonu da geli\u015ftirilmektedir. "
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-09-29 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "jitsi_main", 
+                "value": "jitsi_main"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "12"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "12"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5191": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2045", 
+            "link_title": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5191", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5191", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "-4"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2045", 
+    "num_revisions": "23", 
+    "path": "https://securityinabox.org/en/jitsi", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1456930417", 
+    "revision_uid": "141", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "Jitsi \u2013 G\u00fcvenli Sesli, G\u00f6r\u00fcnt\u00fcl\u00fc ve Anl\u0131k Mesajla\u015fma", 
+                "value": "Jitsi \u2013 G\u00fcvenli Sesli, G\u00f6r\u00fcnt\u00fcl\u00fc ve Anl\u0131k Mesajla\u015fma"
+            }
+        ]
+    }, 
+    "title_original": "Jitsi - Secure Audio, Video and Instant Text Messaging ", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "es": {
+                "changed": "1442498418", 
+                "created": "1442498418", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "km": {
+                "changed": "1455116722", 
+                "created": "1455116722", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441193003", 
+                "created": "1441193003", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444180883", 
+                "created": "1444180883", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1455874911", 
+                "created": "1443015977", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1456930417", 
+                "created": "1443525711", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1455116881", 
+                "created": "1441121486", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2045", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445434736", 
+                "created": "1445434736", 
+                "entity_id": "2045", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2045", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "c64c289a-517c-42ba-bc85-a98292e5bed2", 
+    "vid": "13439", 
+    "vuuid": "d305ec49-63c6-4c46-8576-10aab48735f4"
+}
