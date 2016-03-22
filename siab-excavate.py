@@ -431,7 +431,7 @@ def validate_nid(nid):
     if legacy_index.has_key(nid):
         fetch_legacy_guide(nid, legacy_index)
     else:
-        fetch_guide(nid, set())
+        fetch_guide(nid, dict())
 
 ### Format json output and send it to be written
 def output_json(output_path, output_filename, output_data, ascii):
@@ -469,8 +469,8 @@ title: %s
     snippet_position = 1
     snippet_output_guide_folder = "%s-%s" % ( guide_weight, slugify(guide_title) )
     snippet_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, snippet_output_guide_folder, "snippets")
-    snippet_placeholder = "\n:[](snippets/%s)\n\n"
-    tool_pointer_placeholder = "\n:[](../../tools/%s)\n\n"
+    snippet_placeholder = "\n:[%s](snippets/%s)\n\n"
+    tool_pointer_placeholder = "\n:[%s](../../tools/%s)\n\n"
     for section in output_data['field_guide']['und'][0]['field_htb_chapter_element']['und']:
         section_body = ""
         ### DEBUG
@@ -501,20 +501,21 @@ title: %s
                 # TODO: Add front-matter to Snippet files?
                 snippet_content = section['field_htb_chapter_feature_top'][lang][0]['value'] + "\n"
                 write_output(snippet_path, snippet_filename, snippet_content)
-                section_body += snippet_placeholder % snippet_name
+                section_body += snippet_placeholder % ( "Snippet", snippet_name )
                 snippet_position = snippet_position + 1
             elif section['field_htb_chapter_feature_top'][lang][0].has_key('url'):
                 ### Tool Guide Pointer
                 ### DEBUG
                 # print "has tool link"
+                tool_title = section['field_htb_chapter_feature_top'][lang][0]['title']
                 tool_url = section['field_htb_chapter_feature_top'][lang][0]['url'].split("/")
                 tool_link = os.path.join(tool_url[6], tool_url[5])
-                section_body += tool_pointer_placeholder % tool_link
+                section_body += tool_pointer_placeholder % ( "Hands-on: get started with %s" % tool_title, tool_link )
             else:
                 ### Still has a Snippet Placeholder in Drupal, but it hasn't been re-constructed, 
                 ### probably because there is no matching snippet in the Community Guide wrapper
                 snippet_name = "snippet_%s" % str(snippet_position).zfill(2)
-                section_body += snippet_placeholder % snippet_name
+                section_body += snippet_placeholder % ( "Snippet", snippet_name )
                 snippet_position = snippet_position + 1                
 
         middle_text = section['field_htb_chapter_text']['en'][0]['value'] if section['field_htb_chapter_text'] else ""
@@ -532,19 +533,20 @@ title: %s
                 # TODO: Add front-matter to Snippet files?
                 snippet_content = section['field_htb_chapter_feature'][lang][0]['value'] + "\n"
                 write_output(snippet_path, snippet_filename, snippet_content)
-                section_body += snippet_placeholder % snippet_name
+                section_body += snippet_placeholder % ( "Snippet", snippet_name )
                 snippet_position = snippet_position + 1
             elif section['field_htb_chapter_feature'][lang][0].has_key('url'):
                 ### DEBUG
                 # print "has tool link"
+                tool_title = section['field_htb_chapter_feature'][lang][0]['title']
                 tool_url = section['field_htb_chapter_feature'][lang][0]['url'].split("/")
                 tool_link = os.path.join(tool_url[6], tool_url[5])
-                section_body += tool_pointer_placeholder % tool_link
+                section_body += tool_pointer_placeholder % ( "Hands-on: get started with %s" % tool_title, tool_link )
             else:
                 ### Still has a Snippet Placeholder in Drupal, but it hasn't been re-constructed, 
                 ### probably because there is no matching snippet in the Community Guide wrapper
                 snippet_name = "snippet_%s" % str(snippet_position).zfill(2)
-                section_body += snippet_placeholder % snippet_name
+                section_body += snippet_placeholder % ( "Snippet", snippet_name )
                 snippet_position = snippet_position + 1                
 
         bottom_text = section['field_htb_chapter_text_two']['en'][0]['value'] if section['field_htb_chapter_text_two'] else ""
@@ -562,19 +564,20 @@ title: %s
                 # TODO: Add front-matter to Snippet files?
                 snippet_content = section['field_htb_chapter_feature_bottom'][lang][0]['value'] + "\n"
                 write_output(snippet_path, snippet_filename, snippet_content)
-                section_body += snippet_placeholder % snippet_name
+                section_body += snippet_placeholder % ( "Snippet", snippet_name )
                 snippet_position = snippet_position + 1
             elif section['field_htb_chapter_feature_bottom'][lang][0].has_key('url'):
                 ### DEBUG
                 # print "has tool link"
+                tool_title = section['field_htb_chapter_feature_bottom'][lang][0]['title']
                 tool_url = section['field_htb_chapter_feature_bottom'][lang][0]['url'].split("/")
                 tool_link = os.path.join(tool_url[6], tool_url[5])
-                section_body += tool_pointer_placeholder % tool_link
+                section_body += tool_pointer_placeholder % ( "Hands-on: get started with %s" % tool_title, tool_link )
             else:
                 ### Still has a Snippet Placeholder in Drupal, but it hasn't been re-constructed, 
                 ### probably because there is no matching snippet in the Community Guide wrapper
                 snippet_name = "snippet_%s" % str(snippet_position).zfill(2)
-                section_body += snippet_placeholder % snippet_name
+                section_body += snippet_placeholder % ( "Snippet", snippet_name )
                 snippet_position = snippet_position + 1                
 
         formatted_output += """
@@ -617,19 +620,19 @@ title: %s
 
     ### Format "Required reading"
     # TODO: Links won't currently work due to mismatch between long-names and short-names for Tactics Guides
-    required_reading_placeholder = "\n:[](../../../tactics/%s)\n\n"
+    required_reading_placeholder = "\n:[%s](../../../tactics/%s)\n\n"
     if output_data['field_guide']['und'][0]['field_hog_required_read']:
         formatted_output += "# Required reading\n\n"
         lang = 'en' if output_data['field_guide']['und'][0]['field_hog_required_read'].has_key('en') else 'und' 
         for required_read in output_data['field_guide']['und'][0]['field_hog_required_read'][lang]:
             read_url = required_read['url'].split("/")
             read_link = os.path.join(read_url[5])
-            formatted_output += required_reading_placeholder % read_link
+            formatted_output += required_reading_placeholder % ( required_read['title'], read_link )
 
     ### Format tool info
     tool_guide_folder = "%s-%s" % ( guide_weight, slugify(guide_title) )
     tool_path = os.path.join(output_directory, "md", guide_lang, guide_community, guide_type, guide_os, tool_guide_folder)
-    tool_placeholder =  "\n:[](%s)\n\n"
+    tool_placeholder =  "\n:[%s](%s)\n\n"
     tool_filename = "%s.md" % slugify(guide_title)
     tool_data = output_data['field_guide']['und'][0]['field_hog_tool']['und'][0]
     tool_content = ""
@@ -662,7 +665,7 @@ title: %s
 
     ### Get tool content and put it in tool_content
     write_output(tool_path, tool_filename, tool_content)
-    formatted_output += tool_placeholder % slugify(guide_title)
+    formatted_output += tool_placeholder % ( guide_title, slugify(guide_title) )
 
     ### Format "What you will get from this guide"
     formatted_output += "# What you will get from this guide\n\n"
