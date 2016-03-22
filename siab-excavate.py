@@ -28,12 +28,12 @@ skip_list = { '342', '2525', '1597' }
 
 ### DEBUG: All (underlying) Tactics Guide and Tool Guide nids
 # 
-# skip_list = { '342', '2525', '1420', '1434', '380', '436', '396', '140', '578', '1466', '2243','2186', '465', '2219', \
-#                   '2222', '473', '597', '484', '620', '494', '638', '656', '512', '527', '674', '693', '539', \
-#                   '707', '549', '2216', '2250', '1489', '2225', '2228', '712', '768', '785', '2178', '2182', '2247', \
-#                   '2141', '818', '1402', '1008', '1026', '1032', '1047', '1056', '1064', '1074', '1407', '1185', '1326', \
-#                   '1082', '1084', '1119', '1154', '1333', '1085', '1104', '1107', '1113', '1115', '1117', '2394', '2409' \
-#                   '2398', '2405', '2422', '2412', '2429' }
+skip_list = { '342', '2525', '1420', '436', '396', '140', '578', '1466', '2243','2186', '465', '2219', \
+                  '2222', '473', '597', '484', '620', '494', '638', '656', '512', '527', '674', '693', '539', \
+                  '707', '549', '2216', '2250', '1489', '2225', '2228', '712', '768', '785', '2178', '2182', '2247', \
+                  '2141', '818', '1402', '1008', '1026', '1032', '1047', '1056', '1064', '1074', '1407', \
+                  '1085', '1104', '1107', '1113', '1115', '1117', '2394', '2409', \
+                  '2398', '2405', '2422', '2412', '2429', '1597' }  # '380', '1434', '1082', '1084', '1154', '1326', '1333', '1185', '1119'
 
 ### List of legacy Tactics and Tool Guides to skip
 legacy_skip_list = { '2086', '2099', '2119', '2152', '2116', '2121', '2124', '2127', '2128', '2133' }
@@ -181,6 +181,9 @@ def construct_community(nid):
     return output_dict
 
 ### Fetch a Tactics or Tool Guide and write its content to a json file
+# 
+# TODO: This "already fetched" logic is a bit tortured. Would be cleaner to follow the Drupal data model
+#       and separate underlying content entirely from CG wrappers...
 def fetch_guide(nid, underlying_guides_already_fetched):
 
     ### Get top-level Community Guide "wrapper"
@@ -188,11 +191,13 @@ def fetch_guide(nid, underlying_guides_already_fetched):
     ### The nid of the underlying guide wrapped by this Community Tactics or Tool Guide
     underlying_guide = cg_data['field_guide']['und'][0]['target_id']
 
-    ### Avoid fetching the rest of the guide if we've already fetched a ("guide" community) guide with the same underlying content
-    if underlying_guide not in underlying_guides_already_fetched:
+    if underlying_guide in skip_list:
+        ### Avoid fetching the rest of the guide if it's on the skip_list
+        print "Skipping (cg: %s) <- (g: %s) or already have the underlying content." % ( nid, underlying_guide )        
 
-        print "Fetching (cg: %s) <- (g: %s)" % ( nid, underlying_guide )
-
+    else: 
+        print "Fetching or stubbing out (cg: %s) <- (g: %s)" % ( nid, underlying_guide )
+    
         ### Replace underlying Guide nid-stub with data from the nid specified as "field_guide" in the Community Guide wrapper
         cg_data['field_guide']['und'] = [fetch_nid('en', guide['target_id']) for guide in cg_data['field_guide']['und']]
 
@@ -201,18 +206,19 @@ def fetch_guide(nid, underlying_guides_already_fetched):
             [construct_community(community_nid['target_id']) for community_nid in cg_data['field_relevant_community']['en']]
         output_community_segment = slugify(cg_data['field_relevant_community']['en'][0]['value'])
 
-        ### Determine whether we're fetching a Tactics Guide or a Tool Guide and get remaining content accordingly
+        ### Determine whether we're fetching a Tactics Guide or a Tool Guide. If we have not yet seen this underlying content
+        ### fetch it. If we have, create a YAML stub
         guide_type = cg_data['field_guide']['und'][0]['type']
         if guide_type == "how_to_booklet_chapter":
-            cg_data = fetch_tag(cg_data)
             output_title_field = "field_htb_translatable_title"
             output_type_segment = "tactics"
             output_os_segment = ""
+            cg_data = cg_data if underlying_guides_already_fetched.has_key(underlying_guide) else fetch_tag(cg_data)
         elif guide_type == "hands_on_guide":
-            cg_data = fetch_tog(cg_data)
             output_type_segment = "tools"
             output_os_segment = cg_data['path'].split("/").pop()
             output_title_field = "field_hog_translatable_title"
+            cg_data = cg_data if underlying_guides_already_fetched.has_key(underlying_guide) else fetch_tog(cg_data)
         else:
             print "Attempted to fetch a node that is neither a Community Tactics Guide nor a Community Tool Guide"
             exit(2)
@@ -229,19 +235,46 @@ def fetch_guide(nid, underlying_guides_already_fetched):
         ### Write guide as .json
         output_json(output_path, output_filename, cg_data, False)
 
-        ### Write guide as markdown
-        if output_type_segment == "tactics":
-            front_matter = [ "en", output_community_segment, output_type_segment, output_ordinal, guide_title ]
-            output_tactic_md( front_matter, cg_data)
-        elif output_type_segment == "tools":
-            front_matter = [ "en", output_community_segment, output_type_segment, output_os_segment, output_ordinal, guide_title ]
-            output_tool_md( front_matter, cg_data)
+        ### Assemble remaining namespace values to output .md stub or as master source for future community guides 
+        ### based on this underlying content
+        output_filename = "index.md"
+        output_guide_folder = "%s-%s" % ( output_ordinal, output_title )
+        output_path = os.path.join(output_directory, "md", "en", output_community_segment, output_type_segment)
+        output_path = os.path.join(output_path, output_os_segment) if guide_type == 'hands_on_guide' else output_path
+        output_path = os.path.join(output_path, output_guide_folder)
 
-    else:
-        print "Skipping (cg: %s) <- (g: %s) or already have the underlying content." % ( nid, underlying_guide )
+        ### Create .md YAML stub and output snippets if underlying content has already been fetched
+        if underlying_guides_already_fetched.has_key(underlying_guide):
+            content_source = underlying_guides_already_fetched[underlying_guide]
+            front_matter = "---\nsource: %s\n---\n" % content_source
+            formatted_output = front_matter
+            write_output(output_path, output_filename, formatted_output)
+            ### Write out snippets for non-master community guide wrappers
+            if output_type_segment == "tactics" and cg_data['field_guide_snippets']:
+                output_path = os.path.join(output_path, "snippets")
+                snippet_position = 1
+                for snippet in cg_data['field_guide_snippets']['und']:
+                    snippet_filename = "snippet_%s" % str(snippet_position).zfill(2)
+                    write_output(output_path, snippet_filename, snippet['value'])
+                    snippet_position = snippet_position + 1
 
-    ### Return nid of underlying guide so we can update our list of guides not to fetch again
-    return underlying_guide
+        else:
+            ### Assemble absolute URL to this .md file as master source for future community guides based upon it
+            content_source_folder = output_guide_folder
+            content_source = os.path.join("/", output_community_segment, output_type_segment)
+            content_source = os.path.join(content_source, output_os_segment) if guide_type == 'hands_on_guide' else content_source
+            content_source = os.path.join(content_source, content_source_folder)
+    
+            ### Write guide as markdown if this is the first time we've seen this underlying content
+            if output_type_segment == "tactics":
+                front_matter = [ "en", output_community_segment, output_type_segment, output_ordinal, guide_title ]
+                output_tactic_md( front_matter, cg_data)
+            elif output_type_segment == "tools":
+                front_matter = [ "en", output_community_segment, output_type_segment, output_os_segment, output_ordinal, guide_title ]
+                output_tool_md( front_matter, cg_data)
+
+        ### Return nid of underlying guide and source of "master" so we can update our list of guides not to fetch again
+        return ( underlying_guide, content_source )
 
 ### Fetch all Tactics and Tool Guides and write their contents to a json file
 def fetch_all_guides():
@@ -268,14 +301,14 @@ Press <Ctrl>-C to exit\n""" % len(guides))
 
 
     ### A running list of the underlying Tactics and Tactics guides that we have already fetched and printed
-    underlying_guides_already_fetched = set()
-
-    ### List of underlying guides to skip
-    underlying_guides_already_fetched = skip_list
+    underlying_guides_already_fetched = dict()
 
     ### Fetch all guides
     for guide in guides:
-        underlying_guides_already_fetched.add(fetch_guide(guide, underlying_guides_already_fetched))
+        guide_to_cg_map = fetch_guide(guide, underlying_guides_already_fetched)
+        if guide_to_cg_map:
+            underlying_nid, source_url = guide_to_cg_map
+            underlying_guides_already_fetched[underlying_nid] = source_url
 
     print "\nFetched %s guides" % len(underlying_guides_already_fetched)
 
@@ -583,7 +616,7 @@ title: %s
     formatted_output += output_data['field_guide']['und'][0]['field_hog_introduction']['en'][0]['value'] + "\n\n"
 
     ### Format "Required reading"
-    # TODO: Won't currently work due to mismatch between long-names and short-names for Tactics Guides
+    # TODO: Links won't currently work due to mismatch between long-names and short-names for Tactics Guides
     required_reading_placeholder = "\n:[](../../../tactics/%s)\n\n"
     if output_data['field_guide']['und'][0]['field_hog_required_read']:
         formatted_output += "# Required reading\n\n"
@@ -671,7 +704,6 @@ title: %s
     write_output(output_path, output_filename, formatted_output)
 
 ### Format Markdown output for a Legacy Tactics Guide and send it to be written
-# TODO: Use index.md inside appropriately named folder
 def output_legacy_tactic_md(front_matter, output_data):
     guide_lang, guide_community, guide_type, guide_weight, guide_title = front_matter
     formatted_output = """
@@ -738,7 +770,6 @@ title: %s
 
 
 ### Format Markdown output for a Legacy Tool Guide and send it to be written
-# TODO: Use index.md inside appropriately named folder
 def output_legacy_tool_md(front_matter, output_data):
     guide_lang, guide_community, guide_type, guide_os, guide_weight, guide_title = front_matter
     formatted_output = """
@@ -826,7 +857,7 @@ def pp(json_data):
 
 if input_nid == "all":
     fetch_all_guides()
-    fetch_all_legacy_guides()
+    # fetch_all_legacy_guides()
 
 else:
     validate_nid(input_nid)
@@ -835,6 +866,9 @@ else:
 ### TODO
 ### 
 #
+# - Deal with Snippets more gracefully
+#   - Fetch Community-specific Snippets
+# 
 # - Improve Markdown output
 #   - All files should use short titles rather than long ones
 #     - bug: administrative title value may only be displayed through .../xx/api/node/####.json, 
@@ -844,10 +878,6 @@ else:
 # 
 # - Improve fetch_legacy_guide(nid)
 #   - Deal with three-level books such as the Social Networking Tactics Guide (w/out including top-level HtB, HoG and Mobile book roots
-# 
-# - Deal with Snippets more gracefully
-#   - Fetch Community-specific Snippets
-#   - (data model) Make sure different communities can choose different places for their snippets
 # 
 # - Data structure
 #   - Media

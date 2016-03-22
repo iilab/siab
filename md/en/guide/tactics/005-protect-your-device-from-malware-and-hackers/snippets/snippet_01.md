@@ -1,3 +1,0 @@
-**Background scenario**
-
-**Assani** is a human rights activist in a Francophone African country. His two teenage children, **Salima** and **Muhindo**, have offered to help him with some routine computer work he has been asked to do. After seeing the state of his computer, they offer to teach him the basics of how to keep it healthy and functional. Assani also likes the idea of using Free and Open Source Software, but he's not sure whether that would be more or less secure, so he asks for their advice.

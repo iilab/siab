@@ -1,3 +1,0 @@
-***Human Rights Defender Testimonies***
-
-*"“In our campaign to fight the construction of a mega-dam and establishment of vast plantations along the Omo River in Ethiopia, activities which will drastically reduce the flow of the river and how much water comes into Lake Turkana, thus leading to catastrophic shrinkage and increase of salinity of the lake, we use both Twitter and Facebook to raise awareness and rally support for our cause. A particularly vocal supporter of the dam always attacks us on our Facebook page terming us enemies of Ethiopia and agents of the west who have been paid by Western governments to keep Ethiopians poor.” -- Anonymous Environmental Rights Defender
