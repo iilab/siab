@@ -1,0 +1,318 @@
+{
+    "changed": "1450282333", 
+    "comment": "0", 
+    "created": "1433158068", 
+    "current_revision_id": "12183", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_cg_translated_guide_title": {
+        "und": [
+            {
+                "vargs": "[node:nid]", 
+                "vname": "get_translated_guide_title|default"
+            }
+        ]
+    }, 
+    "field_edit_guide_link": {
+        "und": [
+            {
+                "vargs": "", 
+                "vname": "get_edit_link_to_referenced_guide|default"
+            }
+        ]
+    }, 
+    "field_guide": {
+        "und": [
+            {
+                "changed": "1452602050", 
+                "comment": "0", 
+                "created": "1410721694", 
+                "current_revision_id": "12686", 
+                "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+                "field_htb_chapter_element": {
+                    "und": [
+                        {
+                            "target_id": "474"
+                        }, 
+                        {
+                            "target_id": "475"
+                        }, 
+                        {
+                            "target_id": "476"
+                        }, 
+                        {
+                            "target_id": "477"
+                        }, 
+                        {
+                            "target_id": "478"
+                        }, 
+                        {
+                            "target_id": "479"
+                        }, 
+                        {
+                            "target_id": "480"
+                        }
+                    ]
+                }, 
+                "field_htb_further_reading": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>More information on backup and data recovery can be found in the <em>2.3 Information Backup, Destruction and Recovery</em> chapter of the <a href=\"http://www.frontlinedefenders.org/esecman\">Digital Security and Privacy for Human Rights Defenders</a> book.</p>\n", 
+                            "value": "More information on backup and data recovery can be found in the *2.3 Information Backup, Destruction and Recovery* chapter of the [Digital Security and Privacy for Human Rights Defenders](http://www.frontlinedefenders.org/esecman) book."
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>Note that online backup brings new risks. At minimum, <strong>remember to encrypt your sensitive information separately yourself</strong> before you upload it to\nthe server. Assuming you do the step above, there are free online data storage services as a convenient way to back up your information. Some\noptions include: <a href=\"https://spideroak.com/\">SpiderOak</a>, <a href=\"https://drive.google.com/start\">Google\nDrive</a>, <a href=\"https://tahoe-lafs.org/trac/tahoe-lafs\">tahoe-lafs</a>.</p>\n", 
+                            "value": "Note that online backup brings new risks. At minimum, **remember to encrypt your sensitive information separately yourself** before you upload it to\r\nthe server. Assuming you do the step above, there are free online data storage services as a convenient way to back up your information. Some\r\noptions include: [SpiderOak](https://spideroak.com/), [Google\r\nDrive](https://drive.google.com/start), [tahoe-lafs](https://tahoe-lafs.org/trac/tahoe-lafs). "
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>There is an excellent article on data recovery in <a href=\"http://en.wikipedia.org/wiki/Data_recovery\">Wikipedia</a>.</p>\n", 
+                            "value": "There is an excellent article on data recovery in [Wikipedia](http://en.wikipedia.org/wiki/Data_recovery)."
+                        }
+                    ]
+                }, 
+                "field_htb_introduction": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>Each new method of storing or transferring digital information tends to introduce several new ways in which the information in question can be lost, taken or destroyed. Years of work can disappear in an instant, as a result of theft, momentary carelessness, the confiscation of computer hardware, or simply because digital storage technology is inherently fragile. There is a common saying among computer support professionals: \"it's not a question of <em>if</em> you will lose your data; it's a question of <em>when</em>.\" So, <em>when</em> this happens to you, it is extremely important that you already have an up-to-date backup and a well-tested means of restoring it. The day you are reminded about the importance of a backup system is generally the day after you needed to have one in place.</p>\n\n<p>Although it is one of the most basic elements of secure computing, formulating an effective backup policy is not as simple as it sounds. It can be a significant planning hurdle for a number of reasons: the need to store original data and backups in different physical locations, the importance of keeping backups confidential the challenge of coordinating among different people who share information with one another using their own portable storage devices. In addition to backup and file-recovery tactics, this guide addresses two specific tools, <a href=\"/en/glossary#Cobian_Backup\"><em>Cobian Backup</em></a> and <a href=\"/en/glossary#Recuva\"><em>Recuva</em></a>.</p>\n", 
+                            "value": "Each new method of storing or transferring digital information tends to introduce several new ways in which the information in question can be lost, taken or destroyed. Years of work can disappear in an instant, as a result of theft, momentary carelessness, the confiscation of computer hardware, or simply because digital storage technology is inherently fragile. There is a common saying among computer support professionals: &quot;it's not a question of *if* you will lose your data; it's a question of *when*.&quot; So, *when* this happens to you, it is extremely important that you already have an up-to-date backup and a well-tested means of restoring it. The day you are reminded about the importance of a backup system is generally the day after you needed to have one in place.\r\n\r\nAlthough it is one of the most basic elements of secure computing, formulating an effective backup policy is not as simple as it sounds. It can be a significant planning hurdle for a number of reasons: the need to store original data and backups in different physical locations, the importance of keeping backups confidential the challenge of coordinating among different people who share information with one another using their own portable storage devices. In addition to backup and file-recovery tactics, this guide addresses two specific tools, [*Cobian Backup*](/en/glossary#Cobian_Backup) and [*Recuva*](/en/glossary#Recuva). "
+                        }
+                    ]
+                }, 
+                "field_htb_learning_goals": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to organise and back up your information</p>\n", 
+                            "value": "How to organise and back up your information"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>Where you should store your backups</p>\n", 
+                            "value": "Where you should store your backups"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How you can manage your backups securely</p>\n", 
+                            "value": "How you can manage your backups securely"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to recover files that have been deleted accidentally</p>\n", 
+                            "value": "How to recover files that have been deleted accidentally"
+                        }
+                    ]
+                }, 
+                "field_htb_required_reading_link": {
+                    "und": [
+                        {
+                            "vargs": "[node:nid]", 
+                            "vname": "get_htb_pointer|default"
+                        }
+                    ]
+                }, 
+                "field_htb_translatable_title": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "Recover from information loss", 
+                            "value": "Recover from information loss"
+                        }
+                    ]
+                }, 
+                "field_summary": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "Back up your devices and data", 
+                            "value": "Back up your devices and data"
+                        }
+                    ]
+                }, 
+                "is_current": true, 
+                "is_pending": false, 
+                "language": "en", 
+                "log": "", 
+                "menu_node_links": [], 
+                "metatags": {
+                    "en": {
+                        "robots": {
+                            "value": {
+                                "follow": 0, 
+                                "index": 0, 
+                                "noarchive": "noarchive", 
+                                "nofollow": "nofollow", 
+                                "noimageindex": "noimageindex", 
+                                "noindex": "noindex", 
+                                "noodp": "noodp", 
+                                "nosnippet": "nosnippet", 
+                                "notranslate": "notranslate", 
+                                "noydir": "noydir"
+                            }
+                        }
+                    }
+                }, 
+                "name": "chris", 
+                "nid": "473", 
+                "num_revisions": "19", 
+                "path": "https://securityinabox.org/en/how-to/recover-information-loss", 
+                "picture": "100", 
+                "print_html_display": 1, 
+                "print_html_display_comment": 0, 
+                "print_html_display_urllist": 1, 
+                "print_pdf_display": 1, 
+                "print_pdf_display_comment": 0, 
+                "print_pdf_display_urllist": 1, 
+                "print_pdf_orientation": null, 
+                "print_pdf_size": null, 
+                "promote": "0", 
+                "revision_moderation": true, 
+                "revision_timestamp": "1452602050", 
+                "revision_uid": "1", 
+                "status": "1", 
+                "sticky": "0", 
+                "title": "Backup", 
+                "tnid": "0", 
+                "translate": "0", 
+                "translations": {
+                    "data": {
+                        "en": {
+                            "changed": "1451989871", 
+                            "created": "1410721694", 
+                            "entity_id": "473", 
+                            "entity_type": "node", 
+                            "language": "en", 
+                            "revision_id": null, 
+                            "source": "", 
+                            "status": "1", 
+                            "translate": "0", 
+                            "uid": "70"
+                        }
+                    }, 
+                    "original": "en"
+                }, 
+                "type": "how_to_booklet_chapter", 
+                "uid": "70", 
+                "uuid": "6b62d5f1-28c7-4e64-bd00-b33413ef85f7", 
+                "vid": "12686", 
+                "vuuid": "4041b45d-9e76-40fb-aebd-ea16115ca243"
+            }
+        ]
+    }, 
+    "field_guide_snippets": {
+        "und": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p>I think backup is a very tangible thing. When we lose it from one place, we can get it from our backup. Backup is very beautiful. We say that “this is our everything – our data is our everything” - if we have data loss as WHRDs, everything is lost. We are crazy about our data. — Anonymous Human rights Defender</p>\n", 
+                "value": "I think backup is a very tangible thing. When we lose it from one place, we can get it from our backup. Backup is very beautiful. We say that “this is our everything – our data is our everything” - if we have data loss as WHRDs, everything is lost. We are crazy about our data. — Anonymous Human rights Defender"
+            }, 
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p>Recently, I had an unfortunate accident where my laptop went for a swim in a lake. I also made the rookie mistake of having my backup in the same bag that fell into the lake so I lost both of them. The only positive is that I had a backup from 3 months before so that made life a little easier to bear. Now, Cobian and I are best friends. I do a weekly backup every weekend on two different devices so I am prepared for most eventualities. — Anonymous Human rights Defender</p>\n", 
+                "value": "Recently, I had an unfortunate accident where my laptop went for a swim in a lake. I also made the rookie mistake of having my backup in the same bag that fell into the lake so I lost both of them. The only positive is that I had a backup from 3 months before so that made life a little easier to bear. Now, Cobian and I are best friends. I do a weekly backup every weekend on two different devices so I am prepared for most eventualities. — Anonymous Human rights Defender"
+            }, 
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p>When I connect the protection of the physical threats with the tools for recovering and backing up my information, the secure circle is becoming stronger so I can sleep better. At least the digital info can survive all the major risks that can happen to the office. It could be crushed but you have all the archive of your information and work, on your back up disc that you keep at home or on even safer place. What makes it even more interesting is how easy is to use Cobian Backup. Like all of us I have lost valuable data  and I had to recover it. So thanks to Recuva, I m not doing my back up every day anymore. I can be more relaxed. — Anonymous Human rights Defender</p>\n", 
+                "value": "When I connect the protection of the physical threats with the tools for recovering and backing up my information, the secure circle is becoming stronger so I can sleep better. At least the digital info can survive all the major risks that can happen to the office. It could be crushed but you have all the archive of your information and work, on your back up disc that you keep at home or on even safer place. What makes it even more interesting is how easy is to use Cobian Backup. Like all of us I have lost valuable data  and I had to recover it. So thanks to Recuva, I m not doing my back up every day anymore. I can be more relaxed. — Anonymous Human rights Defender"
+            }
+        ]
+    }, 
+    "field_hog_categories": [], 
+    "field_htb_categories": {
+        "en": [
+            {
+                "tid": "89"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "en": [
+            {
+                "format": null, 
+                "safe_value": "Recover from information loss", 
+                "value": "Recover from information loss"
+            }
+        ]
+    }, 
+    "field_relevant_community": {
+        "en": [
+            {
+                "title": "For women human rights defenders", 
+                "value": "women-hrds"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "0"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "25"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "25"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "en", 
+    "log": "", 
+    "menu_node_links": [], 
+    "name": "chris", 
+    "nid": "1663", 
+    "num_revisions": "6", 
+    "path": "https://securityinabox.org/en/women-hrds/backup", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1450282333", 
+    "revision_uid": "228", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": "03-Backup", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "en": {
+                "changed": "1450282333", 
+                "created": "1433158068", 
+                "entity_id": "1663", 
+                "entity_type": "node", 
+                "language": "en", 
+                "revision_id": null, 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }
+        }, 
+        "original": "en"
+    }, 
+    "type": "community_guide", 
+    "uid": "70", 
+    "uuid": "e1dd8ccf-d27e-4874-95e0-a327e20956ac", 
+    "vid": "12183", 
+    "vuuid": "7e3ae456-8a9c-4841-afc2-ded71da273a3"
+}

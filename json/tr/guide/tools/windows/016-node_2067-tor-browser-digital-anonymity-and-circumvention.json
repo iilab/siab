@@ -1,0 +1,1612 @@
+{
+    "body": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_summary": "", 
+                "safe_value": "<p><strong>Ana Sayfa</strong></p>\n\n<p><a href=\"https://www.torproject.org/\"><strong>https://www.torproject.org</strong></a></p>\n\n<p><strong>Bilgisayar Gereksinimleri</strong></p>\n\n<ul><li>\u0130nternet ba\u011flant\u0131s\u0131</li>\n<li>B\u00fct\u00fcn Windows s\u00fcr\u00fcmleri (XP ve sonras\u0131ndakiler)</li>\n</ul><p><strong>Bu rehberde kullan\u0131lan s\u00fcr\u00fcmler</strong></p>\n\n<ul><li>Tor Taray\u0131c\u0131: 3.5.3</li>\n</ul><p><strong>Bu b\u00f6l\u00fcm\u00fcn son g\u00fcncellenme tarihi</strong></p>\n\n<ul><li>Mart 2014</li>\n</ul><p><strong>Lisans</strong>:</p>\n\n<ul><li>\u00dccretsiz ve A\u00e7\u0131k-Kaynak Yaz\u0131l\u0131m</li>\n</ul><p><strong>Gerekli Okuma</strong></p>\n\n<ul><li>Nas\u0131l Yapmal\u0131 Kitap\u00e7\u0131\u011f\u0131n\u0131n <a href=\"/tr/chapter-8\"><strong>8. \u0130nternette nas\u0131l anonim kal\u0131n\u0131r ve internet sans\u00fcr\u00fc nas\u0131l a\u015f\u0131l\u0131r</strong></a> b\u00f6l\u00fcm\u00fc</li>\n</ul><p><strong>Buradan sa\u011flayaca\u011f\u0131n\u0131z faydalar</strong>:</p>\n\n<ul><li>Ziyaret etti\u011finiz websitelerinden digital kimli\u011finizi gizleme yetisi</li>\n<li><strong>\u0130nternet Servis Sa\u011flay\u0131c\u0131lar\u0131</strong> (<strong>Internet Service Providers, ISPs</strong>) ve di\u011fer g\u00f6zetleme mekanizmalar\u0131ndan \u00e7evrimi\u00e7i taramalar\u0131n\u0131z\u0131 gizleme yetisi</li>\n<li>\u0130nternet sans\u00fcr ve filtreleme kurallar\u0131n\u0131 atlatma yetisi</li>\n</ul><p><strong>GNU Linux, Mac ve Microsoft Windows\u2019a Uyumlu Di\u011fer Programlar</strong></p>\n\n<p>Tor Taray\u0131c\u0131 GNU Linux, Mac OS, Microsoft Windows ve Android i\u015fletim sistemleri i\u00e7in ula\u015f\u0131mdad\u0131r. Tor \u00e7evrimi\u00e7i aktivitelerinizin anonimli\u011fini korumak i\u00e7in en \u00e7ok tavsiye edilen ve dikkatli bir \u015fekilde test edilen ara\u00e7t\u0131r. Yine de tavsiye edilen di\u011fer \u00e7\u00f6z\u00fcmlerden baz\u0131lar\u0131n\u0131 da burada listelemek isteriz.</p>\n\n<ul><li><a href=\"https://help.riseup.net/en/riseup-vpn/\"><strong>Riseup VPN</strong></a> <strong>Linux</strong>, <strong>MAC</strong>, <strong>Android</strong> ve <strong>Microsoft Windows</strong> i\u00e7in \u00fccretsiz bir Sanal Gizli A\u011f (<strong>Virtual Private Network</strong>, <strong>VPN</strong>) proxy sunucusudur.</li>\n<li><a href=\"http://www.psiphon3.com/\"><strong>Psiphon3</strong></a> <strong>Microsoft Windows</strong> ve <strong>Android OS</strong> \u00fccretsiz ticari bir <strong>Sanal Gizli A\u011f</strong> (<strong>VPN</strong>) \u00e7\u00f6z\u00fcm\u00fcd\u00fcr.</li>\n<li><a href=\"http://www.dit-inc.us/freegate\"><strong>Dynaweb FreeGate</strong></a> <strong>Microsoft Windows</strong> i\u00e7in \u00fccretsiz bir proxy arac\u0131d\u0131r.</li>\n<li><a href=\"http://www.your-freedom.net/\"><strong>Your Freedom</strong></a> da \u00fccretsiz (ama daha yava\u015f) bir servis sunan ticari bir proxy arac\u0131d\u0131r. <strong>Linux</strong>, <strong>Mac OS</strong> ve <strong>Microsoft Windows</strong> i\u00e7in ula\u015f\u0131ma a\u00e7\u0131kt\u0131r.</li>\n</ul><h2>1.1 Ba\u015flamadan \u00f6nce bu ara\u00e7 hakk\u0131nda bilmeniz gerekenler</h2>\n\n<p><strong>Tor Taray\u0131c\u0131</strong> internet aktiviteleriniz ve al\u0131\u015fkanl\u0131klar\u0131n\u0131z\u0131n gizlili\u011fi ve g\u00fcvenli\u011fini art\u0131rmak i\u00e7in tasarlanm\u0131\u015f bir yaz\u0131l\u0131m arac\u0131d\u0131r. Kimli\u011finizi ve \u00e7evrimi\u00e7i taramalar\u0131n\u0131z\u0131 internet g\u00f6zetlemecili\u011finin pek \u00e7ok formundan saklar. <strong>Tor</strong> elektronik k\u0131s\u0131tlamalar\u0131 atlatman\u0131n da g\u00fcvenli bir yolu olarak faydan\u0131za sunulur ki bloglara ya da haberlere ula\u015f\u0131m\u0131n\u0131z ya da bunlar\u0131 yay\u0131nlaman\u0131z m\u00fcmk\u00fcn olsun.</p>\n\n<p><strong>Tor</strong> d\u00fcnyan\u0131n her yerine yay\u0131lm\u0131\u015f g\u00f6n\u00fcll\u00fclerin \u00e7al\u0131\u015ft\u0131rd\u0131\u011f\u0131 sunucu a\u011f\u0131 i\u00e7inde ileti\u015fimleri rotaland\u0131rarak <em>anonimli\u011finizi</em> korur. <strong>Tor\u2019u</strong> kullanmak ziyaret etti\u011finiz siteleri potansiyel g\u00f6zetlemecilerden saklad\u0131\u011f\u0131 gibi, sizin kimli\u011finizi ve bulundu\u011funuz yeri o ziyaret etti\u011finiz sitelerden gizler. Yaz\u0131l\u0131m, <strong>Tor</strong> a\u011f\u0131 i\u00e7indeki sunucular\u0131n hi\u00e7birinin <strong>hem</strong> yerinizi <strong>hem de</strong> ziyaret etti\u011finiz siteleri <strong>bilmemesini</strong> sa\u011fl\u0131yacak \u015fekilde tasarlanm\u0131\u015ft\u0131r.</p>\n\n<p><strong>Tor</strong> kendisine gelen ve kendi a\u011f\u0131 i\u00e7inde ilerleyen ileti\u015fimin de \u015fifrelenmesi i\u00e7in ad\u0131mlar atmaktat\u0131r, <strong>fakat</strong> bu \u00f6nlem \u015fifrelenmemi\u015f kanallardan (https ula\u015f\u0131m\u0131 vermeyen) i\u00e7erik al\u0131p g\u00f6nderen bir websiteye kadar i\u015fleyemez. Yine de bu t\u00fcr sitelere <strong>Tor</strong> kullanarak ula\u015fman\u0131n faydas\u0131 <strong>Tor\u2019un</strong> ileti\u015fiminizi <strong>Tor sunucular\u0131ndan</strong> o g\u00fcvenliksiz sitelere at\u0131lan son ad\u0131ma kadar ileti\u015fiminizi koruyor olmas\u0131d\u0131r. B\u00f6ylece ileti\u015fiminizin i\u00e7eri\u011finin g\u00f6zlenme ihtimali sadece bu son ad\u0131ma k\u0131s\u0131tlan\u0131r.</p>\n\n<p>Tor Taray\u0131c\u0131 Paketi Tor yaz\u0131l\u0131m\u0131 ve kullan\u0131m\u0131 esnas\u0131nda ekstra g\u00fcvenlik sa\u011flamas\u0131 i\u00e7in tasarlanm\u0131\u015f Firefox web taray\u0131c\u0131s\u0131n modifiye edilmi\u015f bir s\u00fcr\u00fcm\u00fcn\u00fc i\u00e7erir. Bu aket ayn\u0131 zamanda <a href=\"/tr/firefox_noscript\"><strong>NoScript</strong></a> and <a href=\"/tr/firefox_others#5.1\"><strong>HTTPS-Everywhere</strong></a> eklentilerini de bar\u0131nd\u0131r\u0131r.</p>\n\n<p><strong>Not</strong>: Anonimli\u011fin korunmas\u0131 bir miktar h\u0131z kayb\u0131 pahas\u0131na sa\u011flan\u0131r.  Tor taramalar\u0131n\u0131z\u0131n ananimli\u011fini intenet trafi\u011finizi d\u00fcnyan\u0131n farkl\u0131 yerlerindeki g\u00f6n\u00fcll\u00fclerin bilgisayarlar\u0131 ve sunucular\u0131 aras\u0131nda doland\u0131rarak korudu\u011fu i\u00e7in kesinlikle bilgisayar\u0131n\u0131zdaki di\u011fer web taray\u0131c\u0131lar\u0131ndan daha yava\u015f i\u015fleyecektir.</p>\n\n<p><strong>Tan\u0131mlar</strong>:</p>\n\n<ul><li><p><strong>K\u00f6pr\u00fc Dura\u011f\u0131</strong>: K\u00f6pr\u00fc Dura\u011f\u0131 kayna\u011f\u0131 gizli tutulan bir <strong>Tor</strong> sunucusudur. Bir k\u00f6pr\u00fc kullanmay\u0131 se\u00e7erseniz, sunucu size <strong>Tor</strong> a\u011f\u0131na ula\u015fma imkan\u0131 verir, <strong>Tor</strong> bulundu\u011funuz \u00fclkede engellenmi\u015f olsa bile.</p></li>\n<li><p><strong>Port</strong>: Bu b\u00f6l\u00fcmde, port  yaz\u0131l\u0131m\u0131n a\u011fdaki di\u011fer bilgisayarlarda \u00e7al\u0131\u015fan servislerle ileti\u015fiminin kuruldu\u011fu bir ula\u015f\u0131m noktas\u0131d\u0131r. Bir URL, mesela <strong>www.google.com</strong>, bir servisin sokak adresini bilmenizi sa\u011fl\u0131yorsa, port size hedefinize ula\u015ft\u0131\u011f\u0131n\u0131zda hangi kap\u0131y\u0131 kullanman\u0131z gerekti\u011fini s\u00f6yler. \u0130nternet taramalar\u0131 esnas\u0131nda g\u00fcvenli olmayan siteler i\u00e7in (<strong>http://mail.google.com</strong>) genelde port 80 kullan\u0131l\u0131rken, port 443 g\u00fcvenli siteler i\u00e7in kullan\u0131l\u0131r (<strong>https://mail.google.com</strong>).</p></li>\n<li><p><strong>Proxy:</strong> Proxy bilgisayar\u0131n\u0131zda, yerel a\u011f\u0131n\u0131zda ya da internette ba\u015fka bir yerde \u00e7al\u0131\u015fan bir arac\u0131 yaz\u0131l\u0131md\u0131r, ileti\u015fiminizin hedefinie giderken y\u00f6nlendirilmesine yard\u0131mc\u0131 olur.</p></li>\n<li><p><strong>Rota</strong>: Rota bilgisayar\u0131n\u0131z ile hedef sunucu aras\u0131ndaki internet ileti\u015fim yoludur.</p></li>\n</ul>", 
+                "summary": "", 
+                "value": "**Ana Sayfa**\r\n\r\n[**https://www.torproject.org**](https://www.torproject.org/)\r\n\r\n**Bilgisayar Gereksinimleri**\r\n\r\n- \u0130nternet ba\u011flant\u0131s\u0131\r\n- B\u00fct\u00fcn Windows s\u00fcr\u00fcmleri (XP ve sonras\u0131ndakiler)\r\n\r\n**Bu rehberde kullan\u0131lan s\u00fcr\u00fcmler**\r\n\r\n- Tor Taray\u0131c\u0131: 3.5.3\r\n\r\n**Bu b\u00f6l\u00fcm\u00fcn son g\u00fcncellenme tarihi**\r\n\r\n- Mart 2014\r\n\r\n**Lisans**: \r\n\r\n- \u00dccretsiz ve A\u00e7\u0131k-Kaynak Yaz\u0131l\u0131m\r\n\r\n**Gerekli Okuma**\r\n\r\n- Nas\u0131l Yapmal\u0131 Kitap\u00e7\u0131\u011f\u0131n\u0131n [**8. \u0130nternette nas\u0131l anonim kal\u0131n\u0131r ve internet sans\u00fcr\u00fc nas\u0131l a\u015f\u0131l\u0131r**](/tr/chapter-8) b\u00f6l\u00fcm\u00fc\r\n\r\n**Buradan sa\u011flayaca\u011f\u0131n\u0131z faydalar**: \r\n\r\n- Ziyaret etti\u011finiz websitelerinden digital kimli\u011finizi gizleme yetisi\r\n- **\u0130nternet Servis Sa\u011flay\u0131c\u0131lar\u0131** (**Internet Service Providers, ISPs**) ve di\u011fer g\u00f6zetleme mekanizmalar\u0131ndan \u00e7evrimi\u00e7i taramalar\u0131n\u0131z\u0131 gizleme yetisi\r\n- \u0130nternet sans\u00fcr ve filtreleme kurallar\u0131n\u0131 atlatma yetisi\r\n\r\n**GNU Linux, Mac ve Microsoft Windows\u2019a Uyumlu Di\u011fer Programlar**\r\n\r\nTor Taray\u0131c\u0131 GNU Linux, Mac OS, Microsoft Windows ve Android i\u015fletim sistemleri i\u00e7in ula\u015f\u0131mdad\u0131r. Tor \u00e7evrimi\u00e7i aktivitelerinizin anonimli\u011fini korumak i\u00e7in en \u00e7ok tavsiye edilen ve dikkatli bir \u015fekilde test edilen ara\u00e7t\u0131r. Yine de tavsiye edilen di\u011fer \u00e7\u00f6z\u00fcmlerden baz\u0131lar\u0131n\u0131 da burada listelemek isteriz.\r\n\t\t\r\n* [**Riseup VPN**](https://help.riseup.net/en/riseup-vpn/) **Linux**, **MAC**, **Android** ve **Microsoft Windows** i\u00e7in \u00fccretsiz bir Sanal Gizli A\u011f (**Virtual Private Network**, **VPN**) proxy sunucusudur.\r\n* [**Psiphon3**](http://www.psiphon3.com/) **Microsoft Windows** ve **Android OS** \u00fccretsiz ticari bir **Sanal Gizli A\u011f** (**VPN**) \u00e7\u00f6z\u00fcm\u00fcd\u00fcr.\r\n* [**Dynaweb FreeGate**](http://www.dit-inc.us/freegate) **Microsoft Windows** i\u00e7in \u00fccretsiz bir proxy arac\u0131d\u0131r.\r\n* [**Your Freedom**](http://www.your-freedom.net/) da \u00fccretsiz (ama daha yava\u015f) bir servis sunan ticari bir proxy arac\u0131d\u0131r. **Linux**, **Mac OS** ve **Microsoft Windows** i\u00e7in ula\u015f\u0131ma a\u00e7\u0131kt\u0131r.\r\n\r\n## 1.1 Ba\u015flamadan \u00f6nce bu ara\u00e7 hakk\u0131nda bilmeniz gerekenler ##\r\n\r\n**Tor Taray\u0131c\u0131** internet aktiviteleriniz ve al\u0131\u015fkanl\u0131klar\u0131n\u0131z\u0131n gizlili\u011fi ve g\u00fcvenli\u011fini art\u0131rmak i\u00e7in tasarlanm\u0131\u015f bir yaz\u0131l\u0131m arac\u0131d\u0131r. Kimli\u011finizi ve \u00e7evrimi\u00e7i taramalar\u0131n\u0131z\u0131 internet g\u00f6zetlemecili\u011finin pek \u00e7ok formundan saklar. **Tor** elektronik k\u0131s\u0131tlamalar\u0131 atlatman\u0131n da g\u00fcvenli bir yolu olarak faydan\u0131za sunulur ki bloglara ya da haberlere ula\u015f\u0131m\u0131n\u0131z ya da bunlar\u0131 yay\u0131nlaman\u0131z m\u00fcmk\u00fcn olsun.\r\n\r\n**Tor** d\u00fcnyan\u0131n her yerine yay\u0131lm\u0131\u015f g\u00f6n\u00fcll\u00fclerin \u00e7al\u0131\u015ft\u0131rd\u0131\u011f\u0131 sunucu a\u011f\u0131 i\u00e7inde ileti\u015fimleri rotaland\u0131rarak *anonimli\u011finizi* korur. **Tor\u2019u** kullanmak ziyaret etti\u011finiz siteleri potansiyel g\u00f6zetlemecilerden saklad\u0131\u011f\u0131 gibi, sizin kimli\u011finizi ve bulundu\u011funuz yeri o ziyaret etti\u011finiz sitelerden gizler. Yaz\u0131l\u0131m, **Tor** a\u011f\u0131 i\u00e7indeki sunucular\u0131n hi\u00e7birinin **hem** yerinizi **hem de** ziyaret etti\u011finiz siteleri **bilmemesini** sa\u011fl\u0131yacak \u015fekilde tasarlanm\u0131\u015ft\u0131r.\r\n\r\n**Tor** kendisine gelen ve kendi a\u011f\u0131 i\u00e7inde ilerleyen ileti\u015fimin de \u015fifrelenmesi i\u00e7in ad\u0131mlar atmaktat\u0131r, **fakat** bu \u00f6nlem \u015fifrelenmemi\u015f kanallardan (https ula\u015f\u0131m\u0131 vermeyen) i\u00e7erik al\u0131p g\u00f6nderen bir websiteye kadar i\u015fleyemez. Yine de bu t\u00fcr sitelere **Tor** kullanarak ula\u015fman\u0131n faydas\u0131 **Tor\u2019un** ileti\u015fiminizi **Tor sunucular\u0131ndan** o g\u00fcvenliksiz sitelere at\u0131lan son ad\u0131ma kadar ileti\u015fiminizi koruyor olmas\u0131d\u0131r. B\u00f6ylece ileti\u015fiminizin i\u00e7eri\u011finin g\u00f6zlenme ihtimali sadece bu son ad\u0131ma k\u0131s\u0131tlan\u0131r.\r\n\r\nTor Taray\u0131c\u0131 Paketi Tor yaz\u0131l\u0131m\u0131 ve kullan\u0131m\u0131 esnas\u0131nda ekstra g\u00fcvenlik sa\u011flamas\u0131 i\u00e7in tasarlanm\u0131\u015f Firefox web taray\u0131c\u0131s\u0131n modifiye edilmi\u015f bir s\u00fcr\u00fcm\u00fcn\u00fc i\u00e7erir. Bu aket ayn\u0131 zamanda [**NoScript**](/tr/firefox_noscript) and [**HTTPS-Everywhere**](/tr/firefox_others#5.1) eklentilerini de bar\u0131nd\u0131r\u0131r. \r\n\r\n**Not**: Anonimli\u011fin korunmas\u0131 bir miktar h\u0131z kayb\u0131 pahas\u0131na sa\u011flan\u0131r.  Tor taramalar\u0131n\u0131z\u0131n ananimli\u011fini intenet trafi\u011finizi d\u00fcnyan\u0131n farkl\u0131 yerlerindeki g\u00f6n\u00fcll\u00fclerin bilgisayarlar\u0131 ve sunucular\u0131 aras\u0131nda doland\u0131rarak korudu\u011fu i\u00e7in kesinlikle bilgisayar\u0131n\u0131zdaki di\u011fer web taray\u0131c\u0131lar\u0131ndan daha yava\u015f i\u015fleyecektir.\r\n\r\n**Tan\u0131mlar**: \r\n\r\n- **K\u00f6pr\u00fc Dura\u011f\u0131**: K\u00f6pr\u00fc Dura\u011f\u0131 kayna\u011f\u0131 gizli tutulan bir **Tor** sunucusudur. Bir k\u00f6pr\u00fc kullanmay\u0131 se\u00e7erseniz, sunucu size **Tor** a\u011f\u0131na ula\u015fma imkan\u0131 verir, **Tor** bulundu\u011funuz \u00fclkede engellenmi\u015f olsa bile.\r\n\r\n- **Port**: Bu b\u00f6l\u00fcmde, port  yaz\u0131l\u0131m\u0131n a\u011fdaki di\u011fer bilgisayarlarda \u00e7al\u0131\u015fan servislerle ileti\u015fiminin kuruldu\u011fu bir ula\u015f\u0131m noktas\u0131d\u0131r. Bir URL, mesela **www.google.com**, bir servisin sokak adresini bilmenizi sa\u011fl\u0131yorsa, port size hedefinize ula\u015ft\u0131\u011f\u0131n\u0131zda hangi kap\u0131y\u0131 kullanman\u0131z gerekti\u011fini s\u00f6yler. \u0130nternet taramalar\u0131 esnas\u0131nda g\u00fcvenli olmayan siteler i\u00e7in (**http://mail.google.com**) genelde port 80 kullan\u0131l\u0131rken, port 443 g\u00fcvenli siteler i\u00e7in kullan\u0131l\u0131r (**https://mail.google.com**). \r\n\r\n- **Proxy:** Proxy bilgisayar\u0131n\u0131zda, yerel a\u011f\u0131n\u0131zda ya da internette ba\u015fka bir yerde \u00e7al\u0131\u015fan bir arac\u0131 yaz\u0131l\u0131md\u0131r, ileti\u015fiminizin hedefinie giderken y\u00f6nlendirilmesine yard\u0131mc\u0131 olur.\r\n\r\n- **Rota**: Rota bilgisayar\u0131n\u0131z ile hedef sunucu aras\u0131ndaki internet ileti\u015fim yoludur."
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1928", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/2067", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/2067", 
+        "link_title": "Tor Browser - Digital Anonymity and Circumvention", 
+        "menu_name": "book-toc-1928", 
+        "mlid": "5213", 
+        "module": "book", 
+        "nid": "2067", 
+        "options": [], 
+        "p1": "5034", 
+        "p2": "5213", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5034", 
+        "router_path": "node/%", 
+        "title": "Tor Browser - Digital Anonymity and Circumvention", 
+        "updated": "0", 
+        "weight": "0"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p><a name=\"2.0\" id=\"2.0\"></a></p>\n\n<h2>2.0 Tor Taray\u0131c\u0131 Nas\u0131l Paketinden \u00c7\u0131kart\u0131l\u0131r</h2>\n\n<p><strong>Tor Taray\u0131c\u0131</strong> internette anonim bir \u015fekilde gezinmeniz i\u00e7in ihtiyac\u0131n\u0131z olan her\u015feyi sunan <strong>Firefox\u2019un</strong> modifiye edilmi\u015f bir versiyonudur. Bu paket kurulum gerektirmez, sadece paketinden \u00e7\u0131kart\u0131lmas\u0131 ve \u00e7al\u0131\u015ft\u0131r\u0131lmas\u0131 gerekir.</p>\n\n<p><strong>Tor Taray\u0131c\u0131'y\u0131</strong> paketinden \u00e7\u0131karmak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:</p>\n\n<p><strong>1. Ad\u0131m</strong>. <img src=\"/sbox/screen/tor-tr/001.png\" alt=\"\" />\u2019ye <strong>\u00e7ift t\u0131klay\u0131n</strong>. <em>Dosyay\u0131 A\u00e7 \u2013 G\u00fcvenlik Uyar\u0131s\u0131</em> kutusu a\u00e7\u0131l\u0131rsa <img src=\"/sbox/screen/tor-tr/002.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> program\u0131 etkinle\u015ftirin.</p>\n\n<p>Bundan sonra dil se\u00e7imi ekran\u0131 belirecek.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/003.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 1: Dil se\u00e7imi ekran\u0131</em></p>\n\n<p>A\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r men\u00fcden dilinizi <strong>se\u00e7in</strong> (hen\u00fcz T\u00fcrk\u00e7e s\u00fcr\u00fcm\u00fc olmadi\u011fi i\u00e7in \u0130ngilizce s\u00fcr\u00fcm\u00fc se\u00e7ebilirsiniz) ve Tamam\u2019\u0131 <strong>t\u0131klayarak</strong> a\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirin.</p>\n\n<p><strong>2. Ad\u0131m</strong>.<strong>Tor Taray\u0131c\u0131'y\u0131</strong> \u00e7\u0131kartmak istedi\u011finiz yeri <strong>se\u00e7in</strong>.</p>\n\n<p>Not: <strong>Tor Taray\u0131c\u0131</strong> C: \\Programlar klas\u00f6r\u00fcne kurulmaz (tavsiye etti\u011fimiz ara\u00e7lar\u0131n \u00e7o\u011funun kurulum prosed\u00fcrlerinin aksine) bunun yerine <em>Masa\u00fcst\u00fcnde</em> bir klas\u00f6r yarat\u0131r.</p>\n\n<p><strong>\u00d6nemli</strong>: <strong>Tor Taray\u0131c\u0131\u2019y\u0131</strong> bilgisayar\u0131n\u0131zda ba\u015fka bir dosya ya daa USB bellek \u00e7ubu\u011funa da \u00e7\u0131kartabilir ve oradan kullanabilirsiniz. Bu bilgisayar\u0131n\u0131zda <strong>Tor</strong> kulland\u0131\u011f\u0131n\u0131z ger\u00e7e\u011fini saklaman\u0131za yard\u0131mc\u0131 olabilir.</p>\n\n<p>Ya <img src=\"/sbox/screen/tor-tr/004.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> verili se\u00e7enek olan <em>Masa\u00fcst\u00fc\u2019n\u00fc</em> kabul edin ve a\u015fa\u011f\u0131daki pencereyi etkinle\u015ftirin, ya da, <img src=\"/sbox/screen/tor-tr/005.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> <em>Klas\u00f6re G\u00f6z At</em> penceresini etkinle\u015ftirin ve <strong>Tor Taray\u0131c\u0131\u2019y\u0131</strong> \u00e7\u0131kartmak istedi\u011finizi yere do\u011fru ilerleyin.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/008.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 2: Tor Taray\u0131c\u0131 i\u00e7in verili olan \u00e7\u0131karma yerinin bir \u00f6rne\u011fi</em></p>\n\n<p><strong>3. Ad\u0131m</strong>. <img src=\"/sbox/screen/tor-tr/004.png\" alt=\"\" />\u2019\u0131 <strong>t\u0131klayarak</strong> <strong>Tor Taray\u0131c\u0131\u2019y\u0131</strong> \u00e7\u0131kartmaya ba\u015fkay\u0131n. \u00c7\u0131kartma i\u015flemi bitti\u011finde <strong>Tor Taray\u0131c\u0131\u2019n\u0131n</strong> kuruldu\u011funu teyit eden ve onu hemen ba\u015flatma se\u00e7ene\u011fini sunan bir ekran a\u00e7\u0131lacak.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/009.png\" alt=\"\" /></p>\n\n<p><em>3. \u015eekil: \u00c7\u0131kartma i\u015flemi ba\u015far\u0131yla tamamland\u0131</em></p>\n\n<p>Dikkat edin ki yukar\u0131daki \u015fekilde <em>Tor Taray\u0131c\u0131\u2019y\u0131 \u00c7al\u0131\u015ft\u0131r</em> se\u00e7ene\u011fi i\u015faretlenmi\u015f. <em>Bitir</em> d\u00fc\u011fmesini <strong>t\u0131klad\u0131\u011f\u0131n\u0131zda Tor Taray\u0131c\u0131</strong> otomatik olarak a\u00e7\u0131lacak.</p>\n\n<p>Bu \u00f6rnekte, <strong>Tor Taray\u0131c\u0131</strong> \u00e7\u0131kartma i\u015flemi tamamland\u0131ktan sonra, <em>Masa\u00fcst\u00fcnde</em> <strong>Tor Taray\u0131c\u0131</strong> isimli bir klas\u00f6rde bulunacak. Ne zaman <strong>Tor Taray\u0131c\u0131\u2019y\u0131</strong> kullanmak isterseniz <img src=\"/sbox/screen/tor-tr/010.png\" alt=\"\" />\u2019ye <strong>\u00e7ift t\u0131klaman\u0131z</strong> yeterli.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/011.png\" alt=\"\" /></p>\n\n<p><em>4. \u015eekil: Masa\u00fcst\u00fcnde bir klas\u00f6re \u00e7\u0131kart\u0131lm\u0131\u015f Tor Taray\u0131c\u0131</em></p>\n\n<p>\u015eimdi <strong>Tor Taray\u0131c\u0131\u2019y\u0131</strong> ba\u015far\u0131yla \u00e7\u0131kartt\u0131n\u0131z.</p>\n", 
+                        "summary": "", 
+                        "value": "<a name=\"2.0\"></a>\r\n## 2.0 Tor Taray\u0131c\u0131 Nas\u0131l Paketinden \u00c7\u0131kart\u0131l\u0131r ##\r\n\r\n**Tor Taray\u0131c\u0131** internette anonim bir \u015fekilde gezinmeniz i\u00e7in ihtiyac\u0131n\u0131z olan her\u015feyi sunan **Firefox\u2019un** modifiye edilmi\u015f bir versiyonudur. Bu paket kurulum gerektirmez, sadece paketinden \u00e7\u0131kart\u0131lmas\u0131 ve \u00e7al\u0131\u015ft\u0131r\u0131lmas\u0131 gerekir.\r\n\r\n**Tor Taray\u0131c\u0131'y\u0131** paketinden \u00e7\u0131karmak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip edin:\r\n\r\n**1. Ad\u0131m**. ![](/sbox/screen/tor-tr/001.png)\u2019ye **\u00e7ift t\u0131klay\u0131n**. *Dosyay\u0131 A\u00e7 \u2013 G\u00fcvenlik Uyar\u0131s\u0131* kutusu a\u00e7\u0131l\u0131rsa ![](/sbox/screen/tor-tr/002.png)\u2019\u0131 **t\u0131klayarak** program\u0131 etkinle\u015ftirin. \r\n\r\nBundan sonra dil se\u00e7imi ekran\u0131 belirecek.\r\n\r\n![](/sbox/screen/tor-tr/003.png)\r\n\r\n*\u015eekil 1: Dil se\u00e7imi ekran\u0131*\r\n\r\nA\u015fa\u011f\u0131 a\u00e7\u0131l\u0131r men\u00fcden dilinizi **se\u00e7in** (hen\u00fcz T\u00fcrk\u00e7e s\u00fcr\u00fcm\u00fc olmadi\u011fi i\u00e7in \u0130ngilizce s\u00fcr\u00fcm\u00fc se\u00e7ebilirsiniz) ve Tamam\u2019\u0131 **t\u0131klayarak** a\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirin.\r\n\r\n**2. Ad\u0131m**.**Tor Taray\u0131c\u0131'y\u0131** \u00e7\u0131kartmak istedi\u011finiz yeri **se\u00e7in**.\r\n\r\nNot: **Tor Taray\u0131c\u0131** C: \\Programlar klas\u00f6r\u00fcne kurulmaz (tavsiye etti\u011fimiz ara\u00e7lar\u0131n \u00e7o\u011funun kurulum prosed\u00fcrlerinin aksine) bunun yerine *Masa\u00fcst\u00fcnde* bir klas\u00f6r yarat\u0131r.\r\n\r\n**\u00d6nemli**: **Tor Taray\u0131c\u0131\u2019y\u0131** bilgisayar\u0131n\u0131zda ba\u015fka bir dosya ya daa USB bellek \u00e7ubu\u011funa da \u00e7\u0131kartabilir ve oradan kullanabilirsiniz. Bu bilgisayar\u0131n\u0131zda **Tor** kulland\u0131\u011f\u0131n\u0131z ger\u00e7e\u011fini saklaman\u0131za yard\u0131mc\u0131 olabilir.\r\n\r\nYa ![](/sbox/screen/tor-tr/004.png)\u2019\u0131 **t\u0131klayarak** verili se\u00e7enek olan *Masa\u00fcst\u00fc\u2019n\u00fc* kabul edin ve a\u015fa\u011f\u0131daki pencereyi etkinle\u015ftirin, ya da, ![](/sbox/screen/tor-tr/005.png)\u2019\u0131 **t\u0131klayarak** *Klas\u00f6re G\u00f6z At* penceresini etkinle\u015ftirin ve **Tor Taray\u0131c\u0131\u2019y\u0131** \u00e7\u0131kartmak istedi\u011finizi yere do\u011fru ilerleyin.\r\n\r\n![](/sbox/screen/tor-tr/008.png)\r\n\r\n*\u015eekil 2: Tor Taray\u0131c\u0131 i\u00e7in verili olan \u00e7\u0131karma yerinin bir \u00f6rne\u011fi*\r\n\r\n**3. Ad\u0131m**. ![](/sbox/screen/tor-tr/004.png)\u2019\u0131 **t\u0131klayarak** **Tor Taray\u0131c\u0131\u2019y\u0131** \u00e7\u0131kartmaya ba\u015fkay\u0131n. \u00c7\u0131kartma i\u015flemi bitti\u011finde **Tor Taray\u0131c\u0131\u2019n\u0131n** kuruldu\u011funu teyit eden ve onu hemen ba\u015flatma se\u00e7ene\u011fini sunan bir ekran a\u00e7\u0131lacak.\r\n\r\n![](/sbox/screen/tor-tr/009.png)\r\n\r\n*3. \u015eekil: \u00c7\u0131kartma i\u015flemi ba\u015far\u0131yla tamamland\u0131*\r\n\r\nDikkat edin ki yukar\u0131daki \u015fekilde *Tor Taray\u0131c\u0131\u2019y\u0131 \u00c7al\u0131\u015ft\u0131r* se\u00e7ene\u011fi i\u015faretlenmi\u015f. *Bitir* d\u00fc\u011fmesini **t\u0131klad\u0131\u011f\u0131n\u0131zda Tor Taray\u0131c\u0131** otomatik olarak a\u00e7\u0131lacak.\r\n\r\nBu \u00f6rnekte, **Tor Taray\u0131c\u0131** \u00e7\u0131kartma i\u015flemi tamamland\u0131ktan sonra, *Masa\u00fcst\u00fcnde* **Tor Taray\u0131c\u0131** isimli bir klas\u00f6rde bulunacak. Ne zaman **Tor Taray\u0131c\u0131\u2019y\u0131** kullanmak isterseniz ![](/sbox/screen/tor-tr/010.png)\u2019ye **\u00e7ift t\u0131klaman\u0131z** yeterli.\r\n\r\n![](/sbox/screen/tor-tr/011.png) \r\n\r\n*4. \u015eekil: Masa\u00fcst\u00fcnde bir klas\u00f6re \u00e7\u0131kart\u0131lm\u0131\u015f Tor Taray\u0131c\u0131*\r\n\r\n\u015eimdi **Tor Taray\u0131c\u0131\u2019y\u0131** ba\u015far\u0131yla \u00e7\u0131kartt\u0131n\u0131z."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2068", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2068", 
+                "link_title": "How to extract the Tor Browser", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5214", 
+                "module": "book", 
+                "nid": "2068", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5213", 
+                "p3": "5214", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5213", 
+                "router_path": "node/%", 
+                "title": "How to extract the Tor Browser", 
+                "updated": "0", 
+                "weight": "0"
+            }, 
+            "changed": "1456839675", 
+            "comment": "0", 
+            "created": "1441185797", 
+            "current_revision_id": "13413", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "tor_extract", 
+                        "value": "tor_extract"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5214": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2068", 
+                    "link_title": "How to extract the Tor Browser", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5214", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5213", 
+                    "p3": "5214", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5213", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "0"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2068", 
+            "num_revisions": "34", 
+            "path": "https://securityinabox.org/en/node/2068", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456839675", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Tor Taray\u0131c\u0131 nas\u0131l paketinden \u00e7\u0131kart\u0131l\u0131r?", 
+                        "value": "Tor Taray\u0131c\u0131 nas\u0131l paketinden \u00e7\u0131kart\u0131l\u0131r?"
+                    }
+                ]
+            }, 
+            "title_original": "How to extract the Tor Browser", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442936905", 
+                        "created": "1442936905", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454332084", 
+                        "created": "1441892028", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442504018", 
+                        "created": "1442504018", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1442320333", 
+                        "created": "1441638777", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442848588", 
+                        "created": "1442848588", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1456839675", 
+                        "created": "1444395075", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455126755", 
+                        "created": "1455126755", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443628076", 
+                        "created": "1443628076", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441196108", 
+                        "created": "1441196108", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444191281", 
+                        "created": "1444191281", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443022488", 
+                        "created": "1443022488", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444835041", 
+                        "created": "1444731419", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446476989", 
+                        "created": "1441185797", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2068", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445440527", 
+                        "created": "1445440527", 
+                        "entity_id": "2068", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2068", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "fb847a97-270f-4ac7-95a7-ede3ec63e75d", 
+            "vid": "13413", 
+            "vuuid": "423220ac-d847-448e-b368-23963acc2f7b"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li><a href=\"#3.0\"><strong>3.0 Tor A\u011f\u0131\u2019na Nas\u0131l Ba\u011flanabilirsiniz?</strong></a></li>\n<li><a href=\"#3.1.1\"><strong>3.1.1 - Direkt Eri\u015fim</strong></a></li>\n<li><a href=\"#3.1.2\"><strong>3.1.2 - K\u0131s\u0131t\u0131l\u0131 Eri\u015fim</strong></a></li>\n<li><a href=\"#3.2\"><strong>3.2 Tor A\u011f\u0131na Eri\u015fimi Yeniden Yap\u0131land\u0131rma</strong></a></li>\n<li><a href=\"#3.3\"><strong>3.3 K\u00f6pr\u00fc Adreslerini Alma</strong></a></li>\n</ul><p><a name=\"3.0\" id=\"3.0\"></a></p>\n\n<h2>3.0 Tor A\u011f\u0131\u2019na Nas\u0131l Ba\u011flanabilirsiniz?</h2>\n\n<p><strong>Tor Taray\u0131c\u0131\u2019y\u0131</strong> ilk defa \u00e7al\u0131\u015ft\u0131rd\u0131\u011f\u0131n\u0131zda internete nas\u0131l ba\u011flanmak istedi\u011finiz sorulacak:</p>\n\n<ul><li><p><a href=\"#3.1.1\">Direkt Eri\u015fim</a>:  Bu se\u00e7enek bulundu\u011funuz yerde internete eri\u015fimin\u0131z k\u0131s\u0131tlanmam\u0131\u015f ve <strong>Tor</strong> kullan\u0131m\u0131 bloke edilmemi\u015f, yasaklanmam\u0131\u015f, ya da kontrol alt\u0131nda tutulmam\u0131\u015f ise se\u00e7ilmelidir.</p></li>\n<li><p><a href=\"#3.1.2\">K\u0131s\u0131nt\u0131l\u0131 Eri\u015fim</a>: Bu se\u00e7enek bulundu\u011funuz yerde internete eri\u015fiminiz k\u0131s\u0131tlanm\u0131\u015f ise ya da <strong>Tor</strong> kullan\u0131m\u0131 bloke edilmi\u015f, yasaklanm\u0131\u015f ya da kontrol alt\u0131na al\u0131nm\u0131\u015f ise se\u00e7ilmelidir.</p></li>\n</ul><p>Bu ayarlar <strong>Tor</strong> Taray\u0131c\u0131\u2019n\u0131n i\u00e7inden, yaz\u0131l\u0131m\u0131 yeniden kurmadan, herhangi bir zamanda de\u011fi\u015ftirilebilir. Bu, bulundu\u011funuz konumdaki \u015fartlar de\u011fi\u015fti\u011fi zaman ya da farkl\u0131 bir \u00fclkeyi ziyaret ediyorsan\u0131z yapman\u0131z gereken bir \u015fey olabilir.</p>\n\n<p>Daha sonra, <strong>Tor Taray\u0131c\u0131\u2019y\u0131</strong> ba\u015flatt\u0131\u011f\u0131n\u0131z zaman, ek bir yap\u0131land\u0131rma gerektirmeden <strong>Tor</strong> a\u011f\u0131na ba\u011flanman\u0131z\u0131 sa\u011flayacakt\u0131r.</p>\n\n<p><a name=\"3.1.1\" id=\"3.1.1\"></a></p>\n\n<h2>3.1.1 Tor A\u011f\u0131na Nas\u0131l Ba\u011flanabilirsiniz? - Direkt Eri\u015fim</h2>\n\n<p><strong>Tor Taray\u0131c\u0131\u2019y\u0131</strong>, <strong>Tor</strong> a\u011f\u0131na direkt olarak eri\u015fecek \u015fekilde yap\u0131land\u0131rmak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip etmelisiniz:</p>\n\n<p><strong>1.Ad\u0131m</strong>. <em>Tor Taray\u0131c\u0131</em> klas\u00f6r\u00fcne <strong>gidin</strong> ve <img src=\"/sbox/screen/tor-tr/010.png\" alt=\"\" />\u2019yi <strong>\u00e7ift t\u0131klay\u0131n</strong>. A\u015fa\u011f\u0131daki ekran\u0131 g\u00f6receksiniz:</p>\n\n<p><img src=\"/sbox/screen/tor-tr/012.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 1: Tor A\u011f Ayarlar\u0131 paneli</em></p>\n\n<p><strong>2. Ad\u0131m</strong>. <img src=\"/sbox/screen/tor-tr/013.png\" alt=\"\" /> d\u00fc\u011fmesini <strong>t\u0131klay\u0131n</strong> ve <strong>Tor Stat\u00fcs\u00fc</strong> penceresini a\u00e7\u0131n. Bu pencereden, yaz\u0131l\u0131m\u0131n <strong>Tor A\u011f\u0131na</strong> ba\u011flanma geli\u015fimini g\u00f6rebilirsiniz.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/014.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 2: Tor stat\u00fcs\u00fc penceresi ve ba\u011flanma geli\u015fimi</em></p>\n\n<p>Birka\u00e7 saniye sonra, <strong>Tor Taray\u0131c\u0131</strong>, a\u015fa\u011f\u0131daki ekran\u0131 g\u00f6steren yeni bir taray\u0131c\u0131 penceresini etkin k\u0131lacakt\u0131r:</p>\n\n<p><img src=\"/sbox/screen/tor-tr/015.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 3: Tor a\u011f\u0131na ba\u015far\u0131l\u0131 bir \u015fekilde ba\u011flanm\u0131\u015f Tor Taray\u0131c\u0131</em></p>\n\n<p>\u015eimdi, web\u2019i <em>Tor a\u011f\u0131</em> g\u00fcvenli\u011fi ile tarayabilirsiniz.</p>\n\n<p><strong>Not</strong>: <strong>Tor Taray\u0131c\u0131'y\u0131</strong> her ba\u015flatt\u0131\u011f\u0131n\u0131zda, <em>Tor Taray\u0131c\u0131</em> ba\u015flamadan \u00f6nce (\u015eekil 3) otomatik olarak Tor Stat\u00fcs\u00fc penceresi (\u015eekil 2) a\u00e7\u0131lacakt\u0131r.</p>\n\n<p><a name=\"3.1.2\" id=\"3.1.2\"></a></p>\n\n<h2>3.1.2 Tor A\u011f\u0131na Nas\u0131l Ba\u011flanabilirsiniz? - K\u0131s\u0131tl\u0131 Eri\u015fim</h2>\n\n<p>Tor A\u011f\u0131na eri\u015fimin, yukar\u0131da tarif edildi\u011fi gibi, m\u00fcmk\u00fcn olmad\u0131\u011f\u0131 ya da riskli oldu\u011fu bir b\u00f6lgede ya\u015f\u0131yorsan\u0131z, Tor\u2019u bu engelleri a\u015facak \u015fekilde yap\u0131land\u0131rmay\u0131 deneyebilirsiniz.</p>\n\n<p><strong>1. Ad\u0131m</strong>: <em>Tor Taray\u0131c\u0131</em> klas\u00f6r\u00fcne idin, <img src=\"/sbox/screen/tor-tr/010.png\" alt=\"\" />\u2019y\u0131 <strong>\u00e7ift t\u0131klay\u0131n</strong> ve a\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirin:</p>\n\n<p><img src=\"/sbox/screen/tor-tr/012.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 4: Tor A\u011f\u0131 Ayarlar paneli</em></p>\n\n<p><strong>2. Ad\u0131m</strong>: <img src=\"/sbox/screen/tor-tr/016.png\" alt=\"\" /> d\u00fc\u011fmesini <strong>t\u0131klay\u0131n</strong> ve yeni bir pencere a\u00e7\u0131n. <strong>Tor A\u011f\u0131na</strong> eri\u015fmenize yard\u0131mc\u0131 olacak \u00fc\u00e7 k\u0131sa yap\u0131land\u0131rma sorusu sorulacak.</p>\n\n<p><strong>1. Soru</strong>: <em>Proxy Eri\u015fimi;</em> \u0130nternete proxy \u00fczerinden eri\u015fmeniz gerekiyorsa <strong>evet\u2019i</strong> i\u015faretleyin ve <img src=\"/sbox/screen/tor-tr/017.png\" alt=\"\" />\u2019e bas\u0131n. Proxy kullanm\u0131yorsan\u0131z, <strong>hay\u0131r\u2019\u0131</strong> i\u015faretleyin ve <img src=\"/sbox/screen/tor-tr/017.png\" alt=\"\" />\u2019e bas\u0131n.</p>\n\n<p>Yukar\u0131da <strong>evet\u2019i</strong> i\u015faretlediyseniz, bir sonraki ekranda proxy ayarlar\u0131n\u0131z\u0131 girin. Proxy ayarlar\u0131n\u0131z\u0131 bilmiyorsan\u0131z, her zaman kulland\u0131\u011f\u0131n\u0131z taray\u0131c\u0131 ayarlar\u0131na bak\u0131n. <strong>Firefox\u2019ta</strong> ayarlar\u0131, <em>Ba\u011flant\u0131 Ayarlar\u0131</em> b\u00f6l\u00fcm\u00fcnde <em>Se\u00e7enekler</em>&gt;<em>Geli\u015fmi\u015f</em>&gt;<em>A\u011f</em> sekmesi\u2019nde bulabilirsiniz. Di\u011fer taray\u0131c\u0131larda, <em>\u0130nternet Se\u00e7enekleri</em> b\u00f6l\u00fcm\u00fcne bakabilirsiniz. Daha fazla yard\u0131m i\u00e7in taray\u0131c\u0131n\u0131zdaki <em>Yard\u0131m</em> \u00f6zelli\u011fini kullanabilirsiniz.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/018.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 5: Proxy ayarlar\u0131 ekran\u0131</em></p>\n\n<p><strong>Soru 2</strong>: <strong>K\u0131s\u0131tl\u0131 Portlar</strong>, \u0130nternet\u2019e, web tarama i\u00e7in, <em>port 80 ya da 443</em> gibi, sadece belli portlara eri\u015fime olanak veren bir g\u00fcvenlik duvar\u0131 \u00fczerinden eri\u015fiyorsan\u0131z, <strong>evet\u2019i</strong> se\u00e7in ve portlar\u0131 yap\u0131land\u0131rmak i\u00e7in <img src=\"/sbox/screen/tor-tr/017.png\" alt=\"\" />\u2019ye bas\u0131n. Durum bu de\u011filse, <strong>hay\u0131r\u2019\u0131</strong> se\u00e7in ve <img src=\"/sbox/screen/tor-tr/017.png\" alt=\"\" />\u2019e bas\u0131n.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/019.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 6: Port k\u0131s\u0131tlama yap\u0131land\u0131rma ekran\u0131</em></p>\n\n<p><strong>Soru 3</strong>: <em>Sans\u00fcrl\u00fc \u0130nternet ba\u011flant\u0131s\u0131</em>, <strong>Tor</strong> trafi\u011fini aktif olarak engelleyen veya denetleyen bir \u00fclkede ya\u015f\u0131yorsan\u0131z, <strong>Tor</strong> kulland\u0131\u011f\u0131n\u0131z\u0131 gizleyen bir <em>K\u00f6pr\u00fc</em> kullanarak <strong>Tor Taray\u0131c\u0131s\u0131\u2019n\u0131</strong> yap\u0131land\u0131rabilirsiniz.</p>\n\n<p><em>2. sorudan</em> sonra <img src=\"/sbox/screen/tor-tr/017.png\" alt=\"\" />\u2019i t\u0131klay\u0131nca, <em>K\u00f6pr\u00fc adreslerini</em> girmenize izin veren bir ekranla kar\u015f\u0131la\u015facaks\u0131n\u0131z. K\u00f6pr\u00fc adresleri almak ile ilgili daha fazla bilgi almak i\u00e7in <a href=\"#3.3\">K\u00f6pr\u00fc Adresleri Alma</a> b\u00f6l\u00fcm\u00fcne bakabilirsiniz.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/020.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 7: Tor Bridge etkinle\u015ftirme ekran\u0131</em></p>\n\n<p><em>K\u00f6pr\u00fc adreslerini</em> ekledikten sonra yap\u0131land\u0131rman\u0131z\u0131 bitirmek i\u00e7in <img src=\"/sbox/screen/tor-tr/021.png\" alt=\"\" />\u2019i t\u0131klay\u0131n ve <strong>Tor A\u011f\u0131na</strong> ba\u011flan\u0131n.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/014.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 8: Tor Stat\u00fcs\u00fc pencereleri ve ba\u011flant\u0131 geli\u015fimi</em></p>\n\n<p>Birka\u00e7 saniye sonra, <strong>Tor Taray\u0131c\u0131</strong>, a\u015fa\u011f\u0131daki ekran\u0131 g\u00f6steren yeni bir taray\u0131c\u0131 penceresi etkinle\u015ftirecek:</p>\n\n<p><img src=\"/sbox/screen/tor-tr/015.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 9: Tor a\u011f\u0131na ba\u015far\u0131l\u0131 bir \u015fekilde ba\u011flanm\u0131\u015f Tor Taray\u0131c\u0131</em></p>\n\n<p>\u015eimdi <em>Tor a\u011f\u0131</em> korumas\u0131 ile web\u2019i tarayabilirsiniz.</p>\n\n<p><strong>Not</strong>: <strong>Tor Taray\u0131c\u0131'y\u0131</strong> her ba\u015flatt\u0131\u011f\u0131n\u0131zda, <em>Tor Taray\u0131c\u0131'dan</em> \u00f6nce (<em>\u015eekil 9</em>) otomatik olarak <em>Tor Stat\u00fc penceresi</em> a\u00e7\u0131lacakt\u0131r (<em>\u015eekil 8</em>).</p>\n\n<p><a name=\"3.2\" id=\"3.2\"></a></p>\n\n<h2>3.2 Tor A\u011f\u0131na eri\u015fimi yeniden yap\u0131land\u0131rma</h2>\n\n<p>Herhangi bir noktada, <strong>Tor A\u011f\u0131'na</strong> farkl\u0131 bir \u015fekilde ba\u011flanman\u0131z gerekti\u011finde mesela Tor\u2019a eri\u015fimi engelleyen bir \u00fclkeye gitti\u011finiz zaman, Tor A\u011f\u0131na farkl\u0131 bir \u015fekilde eri\u015fmeniz gerekti\u011finde, taray\u0131c\u0131 i\u00e7erisinde ayarlar\u0131n\u0131z g\u00fcncelleyebilirsiniz. <img src=\"/sbox/screen/tor-tr/022.png\" alt=\"\" />  ikonunu t\u0131klay\u0131n ve <em>A\u011f Ayarlar\u0131n\u0131 A\u00e7\u2019\u0131</em> se\u00e7in.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/023.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 10: Tor Taray\u0131c\u0131 se\u00e7enekleri</em></p>\n\n<p><strong>Tor Taray\u0131c\u0131\u2019n\u0131n</strong> \u0130nternet\u2019e eri\u015fme \u015feklini de\u011fi\u015ftirmenize olanak veren yeni bir pencere a\u00e7\u0131lacak (<em>\u015eekil 11</em>). \u0130stedi\u011finiz se\u00e7enekleri i\u015faretleyin ve ayarlar\u0131 de\u011fi\u015ftirin. \u0130stedi\u011finiz de\u011fi\u015fiklikleri yapt\u0131ktan sonra <img src=\"/sbox/screen/tor-tr/024.png\" alt=\"\" />\u2019e bas\u0131n ve <strong>Tor Taray\u0131c\u0131\u2019y\u0131</strong> yeniden ba\u015flat\u0131n.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/025.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 11: Tor Taray\u0131c\u0131 se\u00e7enekleri</em></p>\n\n<p><a name=\"3.3\" id=\"3.3\"></a></p>\n\n<h2>3.3 K\u00f6pr\u00fc Adreslerini Alma</h2>\n\n<p><strong>Tor Taray\u0131c\u0131\u2019y\u0131</strong> <strong>K\u00f6pr\u00fcleri</strong> kullanmak \u00fczere yap\u0131land\u0131rmak i\u00e7in k\u00f6pr\u00fc adresleri alman\u0131z gerekir. Bunu yapman\u0131n iki yolu vard\u0131r:</p>\n\n<p><strong>E-posta</strong>:</p>\n\n<p>K\u00f6pr\u00fcleri E-posta yoluyla almak i\u00e7in, Gmail ya da Yahoo hesab\u0131na sahip olman\u0131z gerekir. bridges@bridges.torproject.org adresine <em>get bridges</em> konulu bir e-posta g\u00f6nderin. Birka\u00e7 dakika sonra, 3 k\u00f6pr\u00fcn\u00fcn ve di\u011fer detaylar\u0131n yer ald\u0131\u011f\u0131 bir e-posta alacaks\u0131n\u0131z.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/026.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 12: K\u00f6pr\u00fcleri g\u00f6steren e-posta</em></p>\n\n<p><strong>Web Sitesi</strong>:</p>\n\n<p>Eri\u015fiminiz tamamen k\u0131s\u0131tl\u0131 de\u011filse  <a href=\"https://bridges.torproject.org/\">https://bridges.torproject.org/</a> websitesine giderek <strong>k\u00f6pr\u00fc</strong> adresleri alabilirsiniz.</p>\n\n<p>Websitesini a\u00e7t\u0131ktan sonra \u00fc\u00e7 ad\u0131m takip etmelisiniz:</p>\n\n<ul><li><p><img src=\"/sbox/screen/tor-tr/027.png\" alt=\"\" />'\u0131 t\u0131klay\u0131n</p></li>\n<li><p><img src=\"/sbox/screen/tor-tr/028.png\" alt=\"\" />'\u0131 t\u0131klay\u0131n</p></li>\n<li><p><em>Captcha'y\u0131</em> girin ve press <img src=\"/sbox/screen/tor-tr/029.png\" alt=\"\" />'a bas\u0131n</p></li>\n</ul><p><em>Captcha\u2019y\u0131</em> do\u011fru bir \u015fekilde girdi\u011finizde <strong>K\u00f6pr\u00fc</strong> adresleri size verilecek.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/030.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 13: Tor Projesi websitesinden al\u0131nm\u0131\u015f K\u00f6pr\u00fc adresleri</em></p>\n\n<p><strong>Not</strong>: <em>K\u00f6pr\u00fc Veri Taban\u0131</em> birilerinin t\u00fcm k\u00f6pr\u00fc adreslerini kolayca \u00f6\u011frenmesini engellemek \u00fczere tasarlanm\u0131\u015ft\u0131r.  \u0130lk ba\u015fta size her seferinde ayn\u0131 k\u00f6pr\u00fcleri veriyor gibi g\u00f6r\u00fcnebilir. Bir s\u00fcre sonra, yeni adresler sunmaya ba\u015flayacakt\u0131r.</p>\n\n<p>K\u00f6pr\u00fc adreslerini ald\u0131ktan sonra onlar\u0131 <em>\u015eekil 7: K\u00f6pr\u00fc yap\u0131land\u0131rma ekran\u0131</em> veya <em>\u015eekil 11: Tor Taray\u0131c\u0131 se\u00e7enekleri</em>'nde g\u00f6r\u00fclen pencerelerdeki alanlara yap\u0131\u015ft\u0131r\u0131n.</p>\n", 
+                        "summary": "", 
+                        "value": "- [**3.0 Tor A\u011f\u0131\u2019na Nas\u0131l Ba\u011flanabilirsiniz?**](#3.0)\r\n- [**3.1.1 - Direkt Eri\u015fim**](#3.1.1)\r\n- [**3.1.2 - K\u0131s\u0131t\u0131l\u0131 Eri\u015fim**](#3.1.2)\r\n- [**3.2 Tor A\u011f\u0131na Eri\u015fimi Yeniden Yap\u0131land\u0131rma**](#3.2)\r\n- [**3.3 K\u00f6pr\u00fc Adreslerini Alma**](#3.3)\r\n\r\n<a name=\"3.0\"></a>\r\n## 3.0 Tor A\u011f\u0131\u2019na Nas\u0131l Ba\u011flanabilirsiniz? ##\r\n\r\n**Tor Taray\u0131c\u0131\u2019y\u0131** ilk defa \u00e7al\u0131\u015ft\u0131rd\u0131\u011f\u0131n\u0131zda internete nas\u0131l ba\u011flanmak istedi\u011finiz sorulacak:\r\n\r\n- [Direkt Eri\u015fim](#3.1.1):  Bu se\u00e7enek bulundu\u011funuz yerde internete eri\u015fimin\u0131z k\u0131s\u0131tlanmam\u0131\u015f ve **Tor** kullan\u0131m\u0131 bloke edilmemi\u015f, yasaklanmam\u0131\u015f, ya da kontrol alt\u0131nda tutulmam\u0131\u015f ise se\u00e7ilmelidir.\r\n\r\n- [K\u0131s\u0131nt\u0131l\u0131 Eri\u015fim](#3.1.2): Bu se\u00e7enek bulundu\u011funuz yerde internete eri\u015fiminiz k\u0131s\u0131tlanm\u0131\u015f ise ya da **Tor** kullan\u0131m\u0131 bloke edilmi\u015f, yasaklanm\u0131\u015f ya da kontrol alt\u0131na al\u0131nm\u0131\u015f ise se\u00e7ilmelidir.\r\n\r\nBu ayarlar **Tor** Taray\u0131c\u0131\u2019n\u0131n i\u00e7inden, yaz\u0131l\u0131m\u0131 yeniden kurmadan, herhangi bir zamanda de\u011fi\u015ftirilebilir. Bu, bulundu\u011funuz konumdaki \u015fartlar de\u011fi\u015fti\u011fi zaman ya da farkl\u0131 bir \u00fclkeyi ziyaret ediyorsan\u0131z yapman\u0131z gereken bir \u015fey olabilir.\r\n\r\nDaha sonra, **Tor Taray\u0131c\u0131\u2019y\u0131** ba\u015flatt\u0131\u011f\u0131n\u0131z zaman, ek bir yap\u0131land\u0131rma gerektirmeden **Tor** a\u011f\u0131na ba\u011flanman\u0131z\u0131 sa\u011flayacakt\u0131r.\r\n\r\n\r\n<a name=\"3.1.1\"></a>\r\n## 3.1.1 Tor A\u011f\u0131na Nas\u0131l Ba\u011flanabilirsiniz? - Direkt Eri\u015fim##\r\n\r\n**Tor Taray\u0131c\u0131\u2019y\u0131**, **Tor** a\u011f\u0131na direkt olarak eri\u015fecek \u015fekilde yap\u0131land\u0131rmak i\u00e7in a\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip etmelisiniz:\r\n\r\n**1.Ad\u0131m**. *Tor Taray\u0131c\u0131* klas\u00f6r\u00fcne **gidin** ve ![](/sbox/screen/tor-tr/010.png)\u2019yi **\u00e7ift t\u0131klay\u0131n**. A\u015fa\u011f\u0131daki ekran\u0131 g\u00f6receksiniz:\r\n\r\n![](/sbox/screen/tor-tr/012.png)\r\n\r\n*\u015eekil 1: Tor A\u011f Ayarlar\u0131 paneli*\r\n\r\n\r\n**2. Ad\u0131m**. ![](/sbox/screen/tor-tr/013.png) d\u00fc\u011fmesini **t\u0131klay\u0131n** ve **Tor Stat\u00fcs\u00fc** penceresini a\u00e7\u0131n. Bu pencereden, yaz\u0131l\u0131m\u0131n **Tor A\u011f\u0131na** ba\u011flanma geli\u015fimini g\u00f6rebilirsiniz.\r\n\r\n![](/sbox/screen/tor-tr/014.png)\r\n\r\n*\u015eekil 2: Tor stat\u00fcs\u00fc penceresi ve ba\u011flanma geli\u015fimi*\r\n\r\nBirka\u00e7 saniye sonra, **Tor Taray\u0131c\u0131**, a\u015fa\u011f\u0131daki ekran\u0131 g\u00f6steren yeni bir taray\u0131c\u0131 penceresini etkin k\u0131lacakt\u0131r:\r\n\r\n![](/sbox/screen/tor-tr/015.png)\r\n\r\n*\u015eekil 3: Tor a\u011f\u0131na ba\u015far\u0131l\u0131 bir \u015fekilde ba\u011flanm\u0131\u015f Tor Taray\u0131c\u0131*\r\n\r\n\u015eimdi, web\u2019i *Tor a\u011f\u0131* g\u00fcvenli\u011fi ile tarayabilirsiniz.\r\n\r\n**Not**: **Tor Taray\u0131c\u0131'y\u0131** her ba\u015flatt\u0131\u011f\u0131n\u0131zda, *Tor Taray\u0131c\u0131* ba\u015flamadan \u00f6nce (\u015eekil 3) otomatik olarak Tor Stat\u00fcs\u00fc penceresi (\u015eekil 2) a\u00e7\u0131lacakt\u0131r. \r\n\r\n<a name=\"3.1.2\"></a>\r\n## 3.1.2 Tor A\u011f\u0131na Nas\u0131l Ba\u011flanabilirsiniz? - K\u0131s\u0131tl\u0131 Eri\u015fim##\r\n\r\nTor A\u011f\u0131na eri\u015fimin, yukar\u0131da tarif edildi\u011fi gibi, m\u00fcmk\u00fcn olmad\u0131\u011f\u0131 ya da riskli oldu\u011fu bir b\u00f6lgede ya\u015f\u0131yorsan\u0131z, Tor\u2019u bu engelleri a\u015facak \u015fekilde yap\u0131land\u0131rmay\u0131 deneyebilirsiniz.\r\n\r\n**1. Ad\u0131m**: *Tor Taray\u0131c\u0131* klas\u00f6r\u00fcne idin, ![](/sbox/screen/tor-tr/010.png)\u2019y\u0131 **\u00e7ift t\u0131klay\u0131n** ve a\u015fa\u011f\u0131daki ekran\u0131 etkinle\u015ftirin:\r\n\r\n![](/sbox/screen/tor-tr/012.png)\r\n\r\n*\u015eekil 4: Tor A\u011f\u0131 Ayarlar paneli*\r\n\r\n**2. Ad\u0131m**: ![](/sbox/screen/tor-tr/016.png) d\u00fc\u011fmesini **t\u0131klay\u0131n** ve yeni bir pencere a\u00e7\u0131n. **Tor A\u011f\u0131na** eri\u015fmenize yard\u0131mc\u0131 olacak \u00fc\u00e7 k\u0131sa yap\u0131land\u0131rma sorusu sorulacak. \r\n\r\n**1. Soru**: *Proxy Eri\u015fimi;* \u0130nternete proxy \u00fczerinden eri\u015fmeniz gerekiyorsa **evet\u2019i** i\u015faretleyin ve ![](/sbox/screen/tor-tr/017.png)\u2019e bas\u0131n. Proxy kullanm\u0131yorsan\u0131z, **hay\u0131r\u2019\u0131** i\u015faretleyin ve ![](/sbox/screen/tor-tr/017.png)\u2019e bas\u0131n. \r\n\r\nYukar\u0131da **evet\u2019i** i\u015faretlediyseniz, bir sonraki ekranda proxy ayarlar\u0131n\u0131z\u0131 girin. Proxy ayarlar\u0131n\u0131z\u0131 bilmiyorsan\u0131z, her zaman kulland\u0131\u011f\u0131n\u0131z taray\u0131c\u0131 ayarlar\u0131na bak\u0131n. **Firefox\u2019ta** ayarlar\u0131, *Ba\u011flant\u0131 Ayarlar\u0131* b\u00f6l\u00fcm\u00fcnde *Se\u00e7enekler*>*Geli\u015fmi\u015f*>*A\u011f* sekmesi\u2019nde bulabilirsiniz. Di\u011fer taray\u0131c\u0131larda, *\u0130nternet Se\u00e7enekleri* b\u00f6l\u00fcm\u00fcne bakabilirsiniz. Daha fazla yard\u0131m i\u00e7in taray\u0131c\u0131n\u0131zdaki *Yard\u0131m* \u00f6zelli\u011fini kullanabilirsiniz. \r\n\r\n![](/sbox/screen/tor-tr/018.png)\r\n\r\n*\u015eekil 5: Proxy ayarlar\u0131 ekran\u0131*\r\n\r\n**Soru 2**: **K\u0131s\u0131tl\u0131 Portlar**, \u0130nternet\u2019e, web tarama i\u00e7in, *port 80 ya da 443* gibi, sadece belli portlara eri\u015fime olanak veren bir g\u00fcvenlik duvar\u0131 \u00fczerinden eri\u015fiyorsan\u0131z, **evet\u2019i** se\u00e7in ve portlar\u0131 yap\u0131land\u0131rmak i\u00e7in ![](/sbox/screen/tor-tr/017.png)\u2019ye bas\u0131n. Durum bu de\u011filse, **hay\u0131r\u2019\u0131** se\u00e7in ve ![](/sbox/screen/tor-tr/017.png)\u2019e bas\u0131n. \r\n\r\n![](/sbox/screen/tor-tr/019.png)\r\n\r\n*\u015eekil 6: Port k\u0131s\u0131tlama yap\u0131land\u0131rma ekran\u0131*\r\n\r\n**Soru 3**: *Sans\u00fcrl\u00fc \u0130nternet ba\u011flant\u0131s\u0131*, **Tor** trafi\u011fini aktif olarak engelleyen veya denetleyen bir \u00fclkede ya\u015f\u0131yorsan\u0131z, **Tor** kulland\u0131\u011f\u0131n\u0131z\u0131 gizleyen bir *K\u00f6pr\u00fc* kullanarak **Tor Taray\u0131c\u0131s\u0131\u2019n\u0131** yap\u0131land\u0131rabilirsiniz. \r\n\r\n*2. sorudan* sonra ![](/sbox/screen/tor-tr/017.png)\u2019i t\u0131klay\u0131nca, *K\u00f6pr\u00fc adreslerini* girmenize izin veren bir ekranla kar\u015f\u0131la\u015facaks\u0131n\u0131z. K\u00f6pr\u00fc adresleri almak ile ilgili daha fazla bilgi almak i\u00e7in [K\u00f6pr\u00fc Adresleri Alma](#3.3) b\u00f6l\u00fcm\u00fcne bakabilirsiniz. \r\n\r\n![](/sbox/screen/tor-tr/020.png)\r\n\r\n*\u015eekil 7: Tor Bridge etkinle\u015ftirme ekran\u0131*\r\n\r\n*K\u00f6pr\u00fc adreslerini* ekledikten sonra yap\u0131land\u0131rman\u0131z\u0131 bitirmek i\u00e7in ![](/sbox/screen/tor-tr/021.png)\u2019i t\u0131klay\u0131n ve **Tor A\u011f\u0131na** ba\u011flan\u0131n. \r\n\r\n![](/sbox/screen/tor-tr/014.png)\r\n\r\n*\u015eekil 8: Tor Stat\u00fcs\u00fc pencereleri ve ba\u011flant\u0131 geli\u015fimi*\r\n\r\nBirka\u00e7 saniye sonra, **Tor Taray\u0131c\u0131**, a\u015fa\u011f\u0131daki ekran\u0131 g\u00f6steren yeni bir taray\u0131c\u0131 penceresi etkinle\u015ftirecek:\r\n\r\n![](/sbox/screen/tor-tr/015.png)\r\n\r\n*\u015eekil 9: Tor a\u011f\u0131na ba\u015far\u0131l\u0131 bir \u015fekilde ba\u011flanm\u0131\u015f Tor Taray\u0131c\u0131*\r\n\r\n\u015eimdi *Tor a\u011f\u0131* korumas\u0131 ile web\u2019i tarayabilirsiniz. \r\n\r\n**Not**: **Tor Taray\u0131c\u0131'y\u0131** her ba\u015flatt\u0131\u011f\u0131n\u0131zda, *Tor Taray\u0131c\u0131'dan* \u00f6nce (*\u015eekil 9*) otomatik olarak *Tor Stat\u00fc penceresi* a\u00e7\u0131lacakt\u0131r (*\u015eekil 8*).\r\n\r\n<a name=\"3.2\"></a>\r\n## 3.2 Tor A\u011f\u0131na eri\u015fimi yeniden yap\u0131land\u0131rma ##\r\n\r\nHerhangi bir noktada, **Tor A\u011f\u0131'na** farkl\u0131 bir \u015fekilde ba\u011flanman\u0131z gerekti\u011finde mesela Tor\u2019a eri\u015fimi engelleyen bir \u00fclkeye gitti\u011finiz zaman, Tor A\u011f\u0131na farkl\u0131 bir \u015fekilde eri\u015fmeniz gerekti\u011finde, taray\u0131c\u0131 i\u00e7erisinde ayarlar\u0131n\u0131z g\u00fcncelleyebilirsiniz. ![](/sbox/screen/tor-tr/022.png)  ikonunu t\u0131klay\u0131n ve *A\u011f Ayarlar\u0131n\u0131 A\u00e7\u2019\u0131* se\u00e7in.\r\n\r\n![](/sbox/screen/tor-tr/023.png)\r\n\r\n*\u015eekil 10: Tor Taray\u0131c\u0131 se\u00e7enekleri*\r\n\r\n**Tor Taray\u0131c\u0131\u2019n\u0131n** \u0130nternet\u2019e eri\u015fme \u015feklini de\u011fi\u015ftirmenize olanak veren yeni bir pencere a\u00e7\u0131lacak (*\u015eekil 11*). \u0130stedi\u011finiz se\u00e7enekleri i\u015faretleyin ve ayarlar\u0131 de\u011fi\u015ftirin. \u0130stedi\u011finiz de\u011fi\u015fiklikleri yapt\u0131ktan sonra ![](/sbox/screen/tor-tr/024.png)\u2019e bas\u0131n ve **Tor Taray\u0131c\u0131\u2019y\u0131** yeniden ba\u015flat\u0131n. \r\n\r\n![](/sbox/screen/tor-tr/025.png)\r\n\r\n*\u015eekil 11: Tor Taray\u0131c\u0131 se\u00e7enekleri*\r\n\r\n<a name=\"3.3\"></a>\r\n## 3.3 K\u00f6pr\u00fc Adreslerini Alma ###\r\n\r\n**Tor Taray\u0131c\u0131\u2019y\u0131** **K\u00f6pr\u00fcleri** kullanmak \u00fczere yap\u0131land\u0131rmak i\u00e7in k\u00f6pr\u00fc adresleri alman\u0131z gerekir. Bunu yapman\u0131n iki yolu vard\u0131r: \r\n\r\n**E-posta**:\r\n\r\nK\u00f6pr\u00fcleri E-posta yoluyla almak i\u00e7in, Gmail ya da Yahoo hesab\u0131na sahip olman\u0131z gerekir. bridges@bridges.torproject.org adresine *get bridges* konulu bir e-posta g\u00f6nderin. Birka\u00e7 dakika sonra, 3 k\u00f6pr\u00fcn\u00fcn ve di\u011fer detaylar\u0131n yer ald\u0131\u011f\u0131 bir e-posta alacaks\u0131n\u0131z. \r\n\r\n![](/sbox/screen/tor-tr/026.png)\r\n\r\n*\u015eekil 12: K\u00f6pr\u00fcleri g\u00f6steren e-posta*\r\n\r\n**Web Sitesi**:\r\n\r\nEri\u015fiminiz tamamen k\u0131s\u0131tl\u0131 de\u011filse  [https://bridges.torproject.org/](https://bridges.torproject.org/) websitesine giderek **k\u00f6pr\u00fc** adresleri alabilirsiniz. \r\n\r\nWebsitesini a\u00e7t\u0131ktan sonra \u00fc\u00e7 ad\u0131m takip etmelisiniz:\r\n\r\n- ![](/sbox/screen/tor-tr/027.png)'\u0131 t\u0131klay\u0131n\r\n\r\n- ![](/sbox/screen/tor-tr/028.png)'\u0131 t\u0131klay\u0131n\r\n\r\n- *Captcha'y\u0131* girin ve press ![](/sbox/screen/tor-tr/029.png)'a bas\u0131n\r\n\r\n*Captcha\u2019y\u0131* do\u011fru bir \u015fekilde girdi\u011finizde **K\u00f6pr\u00fc** adresleri size verilecek. \r\n\r\n![](/sbox/screen/tor-tr/030.png)\r\n\r\n*\u015eekil 13: Tor Projesi websitesinden al\u0131nm\u0131\u015f K\u00f6pr\u00fc adresleri*\r\n\r\n\r\n**Not**: *K\u00f6pr\u00fc Veri Taban\u0131* birilerinin t\u00fcm k\u00f6pr\u00fc adreslerini kolayca \u00f6\u011frenmesini engellemek \u00fczere tasarlanm\u0131\u015ft\u0131r.  \u0130lk ba\u015fta size her seferinde ayn\u0131 k\u00f6pr\u00fcleri veriyor gibi g\u00f6r\u00fcnebilir. Bir s\u00fcre sonra, yeni adresler sunmaya ba\u015flayacakt\u0131r. \r\n\r\nK\u00f6pr\u00fc adreslerini ald\u0131ktan sonra onlar\u0131 *\u015eekil 7: K\u00f6pr\u00fc yap\u0131land\u0131rma ekran\u0131* veya *\u015eekil 11: Tor Taray\u0131c\u0131 se\u00e7enekleri*'nde g\u00f6r\u00fclen pencerelerdeki alanlara yap\u0131\u015ft\u0131r\u0131n.\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2069", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2069", 
+                "link_title": "How to access the Internet using the Tor Browser", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5215", 
+                "module": "book", 
+                "nid": "2069", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5213", 
+                "p3": "5215", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5213", 
+                "router_path": "node/%", 
+                "title": "How to access the Internet using the Tor Browser", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1456943678", 
+            "comment": "0", 
+            "created": "1441185925", 
+            "current_revision_id": "13444", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "tor_anonymitynetwork", 
+                        "value": "tor_anonymitynetwork"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5215": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2069", 
+                    "link_title": "How to access the Internet using the Tor Browser", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5215", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5213", 
+                    "p3": "5215", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5213", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2069", 
+            "num_revisions": "35", 
+            "path": "https://securityinabox.org/en/tor_anonymitynetwork", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456943678", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Tor Taray\u0131c\u0131\u2019y\u0131 Kullanarak \u0130nternete Nas\u0131l Ula\u015fabilirsiniz?", 
+                        "value": "Tor Taray\u0131c\u0131\u2019y\u0131 Kullanarak \u0130nternete Nas\u0131l Ula\u015fabilirsiniz?"
+                    }
+                ]
+            }, 
+            "title_original": "How to access the Internet using the Tor Browser", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442937071", 
+                        "created": "1442937071", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442313966", 
+                        "created": "1441892121", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442504101", 
+                        "created": "1442504101", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1454341657", 
+                        "created": "1441638885", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1456943678", 
+                        "created": "1442849703", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1456839796", 
+                        "created": "1456839796", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "km": {
+                        "changed": "1455126868", 
+                        "created": "1455126868", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1453992913", 
+                        "created": "1443628149", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441196312", 
+                        "created": "1441196312", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444191334", 
+                        "created": "1444191334", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443022511", 
+                        "created": "1443022511", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1456919859", 
+                        "created": "1444395175", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "xx": {
+                        "changed": "1441185925", 
+                        "created": "1441185925", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2069", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445440730", 
+                        "created": "1445440730", 
+                        "entity_id": "2069", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2069", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "fdbc8fda-1dff-4ded-bb4b-2e10ce1357f6", 
+            "vid": "13444", 
+            "vuuid": "4eaa98f0-354f-4a45-9f73-c6dd64c279cb"
+        }, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li><a href=\"#4.0\"><strong>4.0 Tor Taray\u0131c\u0131 Kullan\u0131m\u0131</strong></a></li>\n<li><a href=\"#4.1\"><strong>4.1 Tor Taray\u0131c\u0131'n\u0131n \u00e7al\u0131\u015f\u0131p \u00e7al\u0131\u015fmad\u0131\u011f\u0131na dair ek kontrol</strong></a></li>\n<li><a href=\"#4.2\"><strong>4.2 Yeni bir kimlik Nas\u0131l Yarat\u0131l\u0131r?</strong></a></li>\n<li><a href=\"#4.3\"><strong>4.3 NoScript eklentisinin etkinle\u015ftirilmesi</strong></a></li>\n<li><a href=\"#4.3\"><strong>4.3 Tor Taray\u0131c\u0131 g\u00fcncellemeleri</strong></a></li>\n</ul><p><a name=\"4.0\" id=\"4.0\"></a></p>\n\n<h2>4.0 Tor Taray\u0131c\u0131 Kullan\u0131m\u0131</h2>\n\n<p><strong>Tor Taray\u0131c\u0131</strong> kullan\u0131m\u0131 kolay olmak \u00fczere tasarlanm\u0131\u015ft\u0131r. <strong>Firefox\u2019un</strong> daha fazla gizlilik ve g\u00fcvenlik sa\u011flamak amac\u0131 ile de\u011fi\u015ftirilmi\u015f bir versiyonu oldu\u011fu i\u00e7in, herhangi bir web taray\u0131c\u0131s\u0131 kullanmay\u0131 biliyorsan\u0131z, <strong>Tor Taray\u0131c\u0131'y\u0131</strong> kullanman\u0131z olduk\u00e7a kolay olacakt\u0131r.</p>\n\n<p><strong>Not:</strong> Tor Taray\u0131c\u0131 gizlilik ama\u00e7l\u0131 tasarland\u0131\u011f\u0131 i\u00e7in, hard diskinize veya USB \u00e7ubu\u011funa bilgi kaydetmemek \u00fczere yap\u0131land\u0131r\u0131lm\u0131\u015ft\u0131r. Bu \u015fu anlama gelir, Tor Taray\u0131c\u0131\u2019ndan \u00e7\u0131kt\u0131\u011f\u0131n\u0131z zaman t\u00fcm tarama tarihiniz silinir.</p>\n\n<p><a name=\"4.1\" id=\"4.1\"></a></p>\n\n<h2>4.1 4.1 Tor Taray\u0131c\u0131'n\u0131n \u00e7al\u0131\u015f\u0131p \u00e7al\u0131\u015fmad\u0131\u011f\u0131na dair ek kontrol</h2>\n\n<p>Her atlat\u0131c\u0131 yaz\u0131l\u0131m i\u00e7in oldu\u011fu gibi, <strong>Tor Tarayc\u0131\u2019n\u0131n</strong> iyi \u00e7al\u0131\u015ft\u0131\u011f\u0131ndan emin olmak i\u00e7in basit ba\u011f\u0131ms\u0131z testler yapman\u0131z\u0131 \u00f6neririz. Bunu, siteyi ziyaret etti\u011finiz IP adresi \u00fczerinden konumunuzu belirlemeye \u00e7al\u0131\u015fan herhangi bir web sitesine giderek yapabilirsiniz.</p>\n\n<p>Bunu \u00fccretsiz yapan birka\u00e7 web sitesi vard\u0131r, \u00f6rne\u011fin <a href=\"https://check.torproject.org\">check.torproject.org</a>, <a href=\"http://www.iplocation.net/\">iplocation.net</a>, <a href=\"http://www.ip2location.com/\">ip2location.com</a>, <a href=\"http://whatismyipaddress.com/\">whatismyipaddress.com</a>. Bu sitelere <strong>Tor Taray\u0131c\u0131</strong> veya herhangi benzeri bir \u00f6nleyici ara\u00e7 kullanmadan eri\u015fti\u011finiz zaman ger\u00e7ek IP adresinizi g\u00f6sterirler ve konumunuzu a\u015fa\u011f\u0131 yukar\u0131 do\u011fru olan bir \u015fekilde belirlerler. Fakat bu sitelere <strong>Tor Taray\u0131c\u0131s\u0131</strong> veya herhangi benzeri bir atlat\u0131c\u0131 ara\u00e7 kullanarak eri\u015firseniz, konum ve IP adresinin farkl\u0131 g\u00f6r\u00fcnd\u00fc\u011f\u00fcn\u00fc g\u00f6receksiniz.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/031.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 1: Ayn\u0131 bilgisayarda, Tor stat\u00fcs\u00fc ve IP adres farklar\u0131n\u0131 g\u00f6steren Firefox (yukar\u0131da) ve Tor Taray\u0131c\u0131s\u0131 (a\u015fa\u011f\u0131da)</em></p>\n\n<p><a name=\"4.2\" id=\"4.2\"></a></p>\n\n<h2>4.2 Yeni bir kimlik Nas\u0131l Yarat\u0131l\u0131r?</h2>\n\n<p>Taray\u0131c\u0131n\u0131zda kullanmak \u00fczere <em>yeni bir kimlik</em> yaratabilirsiniz. Bu demektir ki, kullanman\u0131z i\u00e7in bir dizi yeni ve rastgele <strong>Tor</strong> proxy sunucusu se\u00e7ilecektir. Bu sayede web sunucular\u0131na yeni bir konumdan ula\u015f\u0131yor gibi g\u00f6r\u00fcneceksiniz. Bunu yapmak i\u00e7in <img src=\"/sbox/screen/tor-tr/022.png\" alt=\"\" />\u2019e <strong>t\u0131klay\u0131n</strong> ve men\u00fcden <em>Yeni Kimlik\u2019i</em> se\u00e7in. <strong>Tor Taray\u0131c\u0131</strong> k\u0131sa bir s\u00fcre i\u00e7in kapanacak, <em>tarama ge\u00e7mi\u015finizi</em> ve <em>\u00e7erezlerinizi</em> silerek yeniden a\u00e7\u0131lacakt\u0131r. Taray\u0131c\u0131 yeniden ba\u015flad\u0131ktan sonra 4.1 b\u00f6l\u00fcm\u00fcnde tarif edildi\u011fi gibi yeni konumunuza bakabilirsiniz.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/032.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 2: TorButton men\u00fcs\u00fcnden Yeni Kimlik se\u00e7imi</em></p>\n\n<p><a name=\"4.3\" id=\"4.3\"></a></p>\n\n<h2>4.3 NoScript eklentisinin etkinle\u015ftirilmesi</h2>\n\n<p><strong>Tor Taray\u0131c\u0131</strong> \u00f6nceden y\u00fcklenmi\u015f <strong>NoScript</strong> eklentisi ile birlikte gelir. <strong>NoScript</strong>, <strong>Tor Taray\u0131c\u0131'da</strong> komut \u00e7al\u0131\u015fmas\u0131 yaparak zararl\u0131 web sitelerine ve ger\u00e7ek kimli\u011finizi if\u015fa etmeye kar\u015f\u0131 ek koruma sa\u011flar. Fakat, <strong>NoScript</strong> <strong>Tor Taray\u0131c\u0131\u2019da</strong> verili olarak devre d\u0131\u015f\u0131 b\u0131rak\u0131lm\u0131\u015ft\u0131r, bu y\u00fczden de sa\u011flad\u0131\u011f\u0131 ek koruma hemen haz\u0131r de\u011fildir.</p>\n\n<p><strong>NoScript\u2019in</strong> getirdi\u011fi ek korumalard\u0131 etkinle\u015ftirmek istiyorsan\u0131z, bunu <strong>NoScript</strong> men\u00fcs\u00fcn\u00fc a\u00e7\u0131p <em>Global olarak Komutlar\u0131 Engelle\u2019yi</em> t\u0131klayarak ve sundu\u011fu \u00e7e\u015fitli <em>se\u00e7enekleri</em> yap\u0131land\u0131rarak yapabilirsiniz.</p>\n\n<p><a href=\"/tr/firefox_noscript\"><strong>Firefox</strong> b\u00f6l\u00fcm\u00fcnden <strong>NoScript</strong></a> hakk\u0131nda daha \u00e7ok bilgi edinmenizi tavsiye ederiz.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/033.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 3: Global olarak Komutlar\u0131 Engelle (tavsiye edilen) se\u00e7ene\u011fini se\u00e7erek NoScript\u2019in etkinle\u015ftirili\u015fi</em></p>\n\n<p><a name=\"4.4\" id=\"4.4\"></a></p>\n\n<h2>4.4 Tor Browser updates</h2>\n\n<p><a href=\"/tr/chapter_1_4\"><strong>Nas\u0131l Yapmakl\u0131 Kitap\u00e7\u0131\u011f\u0131 1.4 k\u0131sm\u0131nda</strong></a> yaz\u0131l\u0131mlar\u0131n\u0131z\u0131 g\u00fcncellemenin ne kadar \u00f6nemli oldu\u011fundan bahsetmi\u015ftik. Bu durum <strong>Tor Taray\u0131c\u0131</strong> i\u00e7in de ge\u00e7erlidir. Yeni bir g\u00fcncelleme haz\u0131r oldu\u011funda <strong>Tor Taray\u0131c\u0131'y\u0131</strong> a\u00e7arken taray\u0131c\u0131n\u0131z\u0131n g\u00fcncellenmeye ihtiyac\u0131 oldu\u011funa dair bir uyar\u0131 alacaks\u0131n\u0131z (<em>\u015eekil 4</em>) ve <em>Tor Taray\u0131c\u0131 G\u00fcncellemesini \u0130ndir\u2019i</em> t\u0131klaman\u0131z istenecek. Bu \u015fekilde, en son s\u00fcr\u00fcm\u00fcne ula\u015fabilece\u011finiz <strong>Tor Projesi</strong> web sitesine y\u00f6nlendirileceksiniz. Son s\u00fcr\u00fcm\u00fc indirdikten sonra bu k\u0131lavuzu kullanarak g\u00fcncellenmi\u015f Tor Taray\u0131c\u0131'y\u0131 kurabilirsiniz.</p>\n\n<p><img src=\"/sbox/screen/tor-tr/034.png\" alt=\"\" /></p>\n\n<p><em>\u015eekil 4: G\u00fcncelleme oldu\u011funu g\u00f6steren Tor Taray\u0131c\u0131</em></p>\n", 
+                        "summary": "", 
+                        "value": "- [**4.0 Tor Taray\u0131c\u0131 Kullan\u0131m\u0131**](#4.0)\r\n- [**4.1 Tor Taray\u0131c\u0131'n\u0131n \u00e7al\u0131\u015f\u0131p \u00e7al\u0131\u015fmad\u0131\u011f\u0131na dair ek kontrol**](#4.1)\r\n- [**4.2 Yeni bir kimlik Nas\u0131l Yarat\u0131l\u0131r?**](#4.2)\r\n- [**4.3 NoScript eklentisinin etkinle\u015ftirilmesi**](#4.3)\r\n- [**4.3 Tor Taray\u0131c\u0131 g\u00fcncellemeleri**](#4.3)\r\n\r\n\r\n<a name=\"4.0\"></a>\r\n## 4.0 Tor Taray\u0131c\u0131 Kullan\u0131m\u0131 ##\r\n\r\n**Tor Taray\u0131c\u0131** kullan\u0131m\u0131 kolay olmak \u00fczere tasarlanm\u0131\u015ft\u0131r. **Firefox\u2019un** daha fazla gizlilik ve g\u00fcvenlik sa\u011flamak amac\u0131 ile de\u011fi\u015ftirilmi\u015f bir versiyonu oldu\u011fu i\u00e7in, herhangi bir web taray\u0131c\u0131s\u0131 kullanmay\u0131 biliyorsan\u0131z, **Tor Taray\u0131c\u0131'y\u0131** kullanman\u0131z olduk\u00e7a kolay olacakt\u0131r. \r\n\r\n**Not:** Tor Taray\u0131c\u0131 gizlilik ama\u00e7l\u0131 tasarland\u0131\u011f\u0131 i\u00e7in, hard diskinize veya USB \u00e7ubu\u011funa bilgi kaydetmemek \u00fczere yap\u0131land\u0131r\u0131lm\u0131\u015ft\u0131r. Bu \u015fu anlama gelir, Tor Taray\u0131c\u0131\u2019ndan \u00e7\u0131kt\u0131\u011f\u0131n\u0131z zaman t\u00fcm tarama tarihiniz silinir. \r\n\r\n<a name=\"4.1\"></a>\r\n## 4.1 4.1 Tor Taray\u0131c\u0131'n\u0131n \u00e7al\u0131\u015f\u0131p \u00e7al\u0131\u015fmad\u0131\u011f\u0131na dair ek kontrol ##\r\n\r\nHer atlat\u0131c\u0131 yaz\u0131l\u0131m i\u00e7in oldu\u011fu gibi, **Tor Tarayc\u0131\u2019n\u0131n** iyi \u00e7al\u0131\u015ft\u0131\u011f\u0131ndan emin olmak i\u00e7in basit ba\u011f\u0131ms\u0131z testler yapman\u0131z\u0131 \u00f6neririz. Bunu, siteyi ziyaret etti\u011finiz IP adresi \u00fczerinden konumunuzu belirlemeye \u00e7al\u0131\u015fan herhangi bir web sitesine giderek yapabilirsiniz. \r\n\r\nBunu \u00fccretsiz yapan birka\u00e7 web sitesi vard\u0131r, \u00f6rne\u011fin [check.torproject.org](https://check.torproject.org), [iplocation.net](http://www.iplocation.net/), [ip2location.com](http://www.ip2location.com/), [whatismyipaddress.com](http://whatismyipaddress.com/). Bu sitelere **Tor Taray\u0131c\u0131** veya herhangi benzeri bir \u00f6nleyici ara\u00e7 kullanmadan eri\u015fti\u011finiz zaman ger\u00e7ek IP adresinizi g\u00f6sterirler ve konumunuzu a\u015fa\u011f\u0131 yukar\u0131 do\u011fru olan bir \u015fekilde belirlerler. Fakat bu sitelere **Tor Taray\u0131c\u0131s\u0131** veya herhangi benzeri bir atlat\u0131c\u0131 ara\u00e7 kullanarak eri\u015firseniz, konum ve IP adresinin farkl\u0131 g\u00f6r\u00fcnd\u00fc\u011f\u00fcn\u00fc g\u00f6receksiniz. \r\n\r\n![](/sbox/screen/tor-tr/031.png)\r\n\r\n*\u015eekil 1: Ayn\u0131 bilgisayarda, Tor stat\u00fcs\u00fc ve IP adres farklar\u0131n\u0131 g\u00f6steren Firefox (yukar\u0131da) ve Tor Taray\u0131c\u0131s\u0131 (a\u015fa\u011f\u0131da)*\r\n\r\n<a name=\"4.2\"></a>\r\n## 4.2 Yeni bir kimlik Nas\u0131l Yarat\u0131l\u0131r? ##\r\n\r\nTaray\u0131c\u0131n\u0131zda kullanmak \u00fczere *yeni bir kimlik* yaratabilirsiniz. Bu demektir ki, kullanman\u0131z i\u00e7in bir dizi yeni ve rastgele **Tor** proxy sunucusu se\u00e7ilecektir. Bu sayede web sunucular\u0131na yeni bir konumdan ula\u015f\u0131yor gibi g\u00f6r\u00fcneceksiniz. Bunu yapmak i\u00e7in ![](/sbox/screen/tor-tr/022.png)\u2019e **t\u0131klay\u0131n** ve men\u00fcden *Yeni Kimlik\u2019i* se\u00e7in. **Tor Taray\u0131c\u0131** k\u0131sa bir s\u00fcre i\u00e7in kapanacak, *tarama ge\u00e7mi\u015finizi* ve *\u00e7erezlerinizi* silerek yeniden a\u00e7\u0131lacakt\u0131r. Taray\u0131c\u0131 yeniden ba\u015flad\u0131ktan sonra 4.1 b\u00f6l\u00fcm\u00fcnde tarif edildi\u011fi gibi yeni konumunuza bakabilirsiniz. \r\n\r\n![](/sbox/screen/tor-tr/032.png)\r\n\r\n*\u015eekil 2: TorButton men\u00fcs\u00fcnden Yeni Kimlik se\u00e7imi*\r\n\r\n<a name=\"4.3\"></a>\r\n## 4.3 NoScript eklentisinin etkinle\u015ftirilmesi ##\r\n\r\n**Tor Taray\u0131c\u0131** \u00f6nceden y\u00fcklenmi\u015f **NoScript** eklentisi ile birlikte gelir. **NoScript**, **Tor Taray\u0131c\u0131'da** komut \u00e7al\u0131\u015fmas\u0131 yaparak zararl\u0131 web sitelerine ve ger\u00e7ek kimli\u011finizi if\u015fa etmeye kar\u015f\u0131 ek koruma sa\u011flar. Fakat, **NoScript** **Tor Taray\u0131c\u0131\u2019da** verili olarak devre d\u0131\u015f\u0131 b\u0131rak\u0131lm\u0131\u015ft\u0131r, bu y\u00fczden de sa\u011flad\u0131\u011f\u0131 ek koruma hemen haz\u0131r de\u011fildir. \r\n\r\n**NoScript\u2019in** getirdi\u011fi ek korumalard\u0131 etkinle\u015ftirmek istiyorsan\u0131z, bunu **NoScript** men\u00fcs\u00fcn\u00fc a\u00e7\u0131p *Global olarak Komutlar\u0131 Engelle\u2019yi* t\u0131klayarak ve sundu\u011fu \u00e7e\u015fitli *se\u00e7enekleri* yap\u0131land\u0131rarak yapabilirsiniz. \r\n\r\n[**Firefox** b\u00f6l\u00fcm\u00fcnden **NoScript**](/tr/firefox_noscript) hakk\u0131nda daha \u00e7ok bilgi edinmenizi tavsiye ederiz.\r\n\r\n![](/sbox/screen/tor-tr/033.png)\r\n\r\n*\u015eekil 3: Global olarak Komutlar\u0131 Engelle (tavsiye edilen) se\u00e7ene\u011fini se\u00e7erek NoScript\u2019in etkinle\u015ftirili\u015fi*\r\n\r\n<a name=\"4.4\"></a>\r\n## 4.4 Tor Browser updates ##\r\n\r\n[**Nas\u0131l Yapmakl\u0131 Kitap\u00e7\u0131\u011f\u0131 1.4 k\u0131sm\u0131nda**](/tr/chapter_1_4) yaz\u0131l\u0131mlar\u0131n\u0131z\u0131 g\u00fcncellemenin ne kadar \u00f6nemli oldu\u011fundan bahsetmi\u015ftik. Bu durum **Tor Taray\u0131c\u0131** i\u00e7in de ge\u00e7erlidir. Yeni bir g\u00fcncelleme haz\u0131r oldu\u011funda **Tor Taray\u0131c\u0131'y\u0131** a\u00e7arken taray\u0131c\u0131n\u0131z\u0131n g\u00fcncellenmeye ihtiyac\u0131 oldu\u011funa dair bir uyar\u0131 alacaks\u0131n\u0131z (*\u015eekil 4*) ve *Tor Taray\u0131c\u0131 G\u00fcncellemesini \u0130ndir\u2019i* t\u0131klaman\u0131z istenecek. Bu \u015fekilde, en son s\u00fcr\u00fcm\u00fcne ula\u015fabilece\u011finiz **Tor Projesi** web sitesine y\u00f6nlendirileceksiniz. Son s\u00fcr\u00fcm\u00fc indirdikten sonra bu k\u0131lavuzu kullanarak g\u00fcncellenmi\u015f Tor Taray\u0131c\u0131'y\u0131 kurabilirsiniz. \r\n\r\n![](/sbox/screen/tor-tr/034.png)\r\n\r\n*\u015eekil 4: G\u00fcncelleme oldu\u011funu g\u00f6steren Tor Taray\u0131c\u0131*"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2070", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2070", 
+                "link_title": "Using the Tor Browser", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5216", 
+                "module": "book", 
+                "nid": "2070", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5213", 
+                "p3": "5216", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5213", 
+                "router_path": "node/%", 
+                "title": "Using the Tor Browser", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1455127771", 
+            "comment": "0", 
+            "created": "1441185967", 
+            "current_revision_id": "13220", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "tor_vidaliacontrol", 
+                        "value": "tor_vidaliacontrol"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5216": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2070", 
+                    "link_title": "Using the Tor Browser", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5216", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5213", 
+                    "p3": "5216", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5213", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2070", 
+            "num_revisions": "21", 
+            "path": "https://securityinabox.org/en/tor_vidaliacontrol", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455127771", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Tor Taray\u0131c\u0131 Kullan\u0131m\u0131", 
+                        "value": "Tor Taray\u0131c\u0131 Kullan\u0131m\u0131"
+                    }
+                ]
+            }, 
+            "title_original": "Using the Tor Browser", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442937162", 
+                        "created": "1442937162", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442314041", 
+                        "created": "1441892207", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442504220", 
+                        "created": "1442504183", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452162651", 
+                        "created": "1441638983", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1442849807", 
+                        "created": "1442849807", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444395268", 
+                        "created": "1444395268", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455127771", 
+                        "created": "1455127771", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443628460", 
+                        "created": "1443628460", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441196552", 
+                        "created": "1441196552", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444191389", 
+                        "created": "1444191389", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443022534", 
+                        "created": "1443022534", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444836542", 
+                        "created": "1444836542", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441185967", 
+                        "created": "1441185967", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2070", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445440953", 
+                        "created": "1445440591", 
+                        "entity_id": "2070", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2070", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "ef29910a-e0b2-47a1-8813-8fc54520e04c", 
+            "vid": "13220", 
+            "vuuid": "91038fe7-525b-4331-8b82-eb83dcbde680"
+        }, 
+        {}, 
+        {
+            "body": {
+                "tr": [
+                    {
+                        "format": "filtered_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li><a href=\"#5.0\"><strong>5.0 S\u0131k\u00e7a Sorulan Sorular</strong></a></li>\n<li><a href=\"#5.1\"><strong>5.1 Ek Kaynaklar</strong></a></li>\n</ul><p><a name=\"5.0\" id=\"5.0\"></a></p>\n\n<h2>5.0 S\u0131k\u00e7a Sorulan Sorular</h2>\n\n<p><strong>Tor</strong> olduk\u00e7a ba\u015far\u0131l\u0131 bir \u015fekilde bak\u0131m\u0131 yap\u0131lan ve test edilen bir yaz\u0131l\u0131md\u0131r. <strong>Tor a\u011f\u0131n\u0131</strong>, d\u00fcnya \u00e7ap\u0131nda y\u00fcz binlerce insan kullan\u0131r ve daha g\u00fcvenli ve g\u00fcvenilir olmas\u0131 i\u00e7in s\u00fcrekli olarak \u00e7e\u015fitli \u015fekillerde geli\u015ftirilir. Bu b\u00f6l\u00fcmdeki a\u00e7\u0131klamalar kar\u0131\u015f\u0131k gibi g\u00f6r\u00fcnse de \u00e7o\u011fu zaman <strong>Tor Taray\u0131c\u0131\u2019y\u0131</strong> \u00e7al\u0131\u015ft\u0131rmak i\u00e7in <a href=\"/tr/tor_anonymitynetwork\"><strong>3.1.1 Tor A\u011f\u0131na Nas\u0131l Ba\u011flan\u0131l\u0131r? Direkt Eri\u015fim b\u00f6l\u00fcm\u00fcn\u00fc</strong></a> okuman\u0131za gerek bile kalmaz.</p>\n\n<div class=\"background\">\n\n<p><em><strong>Soru</strong>: Tor Taray\u0131c\u0131'y\u0131 Neden Kullanmal\u0131y\u0131m?</em></p>\n\n<p><em><strong>Cevap</strong>: \u0130yi soru. Belli siteleri eri\u015fimdeki \u0130nternet sans\u00fcr\u00fcn\u00fc a\u015fmak istiyorsan\u0131z <strong>Tor Taray\u0131c\u0131</strong> \u00e7ok iyi bir ara\u00e7t\u0131r. \u0130nternet Servis Sa\u011flay\u0131c\u0131n\u0131z\u0131n (ISP) hangi sitelerde dola\u015ft\u0131\u011f\u0131n\u0131z\u0131 bilmesini istemiyorsan\u0131z veya bu sitelerin sizin konum be ba\u015flang\u0131\u00e7 noktan\u0131z\u0131 bilmesini istemiyorsan\u0131z <strong>Tor Taray\u0131c\u0131</strong> kullanmak olduk\u00e7a faydal\u0131d\u0131r. .</em></p>\n\n<p><em><strong>Soru</strong>: <strong>Tor Taray\u0131c\u0131\u2019y\u0131</strong> ba\u015flatt\u0131\u011f\u0131m zaman, di\u011fer b\u00fct\u00fcn programlar\u0131m <strong>Tor a\u011f\u0131</strong> \u00fczerinden anonim olarak m\u0131 ba\u011flant\u0131 kurar?</em></p>\n\n<p><em><strong>Cevap</strong>: Hay\u0131r, <strong>Tor a\u011f\u0131na</strong> sadece <strong>Tor Taray\u0131c\u0131\u2019dan</strong> eri\u015fmeniz gerekti\u011fini unutmaman\u0131z gerekir. Di\u011fer b\u00fct\u00fcn programlar\u0131n\u0131z \u0130nternet \u00fczerindeki sunucular ile direkt olarak ba\u011flant\u0131 kurar. <strong>Tor a\u011f\u0131</strong> \u00fczerinden ba\u011flant\u0131 kurdu\u011funuzdan emin olmak i\u00e7in, <strong>https://check.torproject.org</strong> sitesini ziyaret edebilirsiniz. <strong>Tor</strong>, ayn\u0131 zamanda, yeni ve daha \u00f6nceden ziyaret etmedi\u011finiz web siteleri hakk\u0131nda sizin temkin, sa\u011fduyu ve yarg\u0131lama g\u00fcc\u00fcn\u00fcze dayan\u0131r.</em></p>\n\n<p><em><strong>Soru</strong>: <strong>Tor</strong>, <strong>Tor Taray\u0131c\u0131</strong> kullanarak t\u00fcm ileti\u015fimleri koruma alt\u0131na al\u0131r m\u0131?</em></p>\n\n<p><em><strong>Cevap</strong>: <strong>Tor</strong>, sizinle <strong>Tor a\u011f\u0131</strong> aras\u0131ndaki ve <strong>Tor a\u011f\u0131</strong> i\u00e7erisindeki t\u00fcm ileti\u015fimleri \u015fifreler. Fakat, unutmay\u0131n ki, <strong>Tor</strong>, <strong>Tor a\u011f\u0131</strong> ve ba\u011flant\u0131 kurdu\u011funuz siteler aras\u0131ndaki trafi\u011fi \u015fifreleyemez. Bunun i\u00e7in <strong>HTTPS protokol\u00fc</strong> veya benzer ba\u015fka \u015fifreleme y\u00f6ntemleri kullanmal\u0131s\u0131n\u0131z, \u00f6zellikle de bilgilerinizin gizlilik ve g\u00fcvenli\u011fi \u00f6nemliyse!</em></p>\n\n</div>\n\n<p><a name=\"5.1\" id=\"5.1\"></a></p>\n\n<h2>5.1 Ek Kaynaklar</h2>\n\n<ul><li><a href=\"https://www.torproject.org\">Tor Projesi</a> ek destek ihtiyac\u0131nda olan insanlar i\u00e7in (e-posta, IRC, Telefon ve benzeri y\u00f6ntemler ile) <a href=\"https://www.torproject.org/about/contact.html.en\">destek servisi</a> sa\u011flar.  </li>\n<li>Resmi <a href=\"https://www.torproject.org/docs/faq\">Tor S\u0131k\u00e7a Sorulan Sorular Sayfas\u0131</a>.</li>\n</ul>", 
+                        "summary": "", 
+                        "value": "- [**5.0 S\u0131k\u00e7a Sorulan Sorular**](#5.0)\r\n- [**5.1 Ek Kaynaklar**](#5.1)\r\n\r\n<a name=\"5.0\"></a>\r\n## 5.0 S\u0131k\u00e7a Sorulan Sorular ##\r\n\r\n**Tor** olduk\u00e7a ba\u015far\u0131l\u0131 bir \u015fekilde bak\u0131m\u0131 yap\u0131lan ve test edilen bir yaz\u0131l\u0131md\u0131r. **Tor a\u011f\u0131n\u0131**, d\u00fcnya \u00e7ap\u0131nda y\u00fcz binlerce insan kullan\u0131r ve daha g\u00fcvenli ve g\u00fcvenilir olmas\u0131 i\u00e7in s\u00fcrekli olarak \u00e7e\u015fitli \u015fekillerde geli\u015ftirilir. Bu b\u00f6l\u00fcmdeki a\u00e7\u0131klamalar kar\u0131\u015f\u0131k gibi g\u00f6r\u00fcnse de \u00e7o\u011fu zaman **Tor Taray\u0131c\u0131\u2019y\u0131** \u00e7al\u0131\u015ft\u0131rmak i\u00e7in [**3.1.1 Tor A\u011f\u0131na Nas\u0131l Ba\u011flan\u0131l\u0131r? Direkt Eri\u015fim b\u00f6l\u00fcm\u00fcn\u00fc**](/tr/tor_anonymitynetwork) okuman\u0131za gerek bile kalmaz. \r\n\r\n<div class=\"background\" markdown=\"1\"> \r\n\r\n***Soru**: Tor Taray\u0131c\u0131'y\u0131 Neden Kullanmal\u0131y\u0131m?*\r\n\r\n***Cevap**: \u0130yi soru. Belli siteleri eri\u015fimdeki \u0130nternet sans\u00fcr\u00fcn\u00fc a\u015fmak istiyorsan\u0131z **Tor Taray\u0131c\u0131** \u00e7ok iyi bir ara\u00e7t\u0131r. \u0130nternet Servis Sa\u011flay\u0131c\u0131n\u0131z\u0131n (ISP) hangi sitelerde dola\u015ft\u0131\u011f\u0131n\u0131z\u0131 bilmesini istemiyorsan\u0131z veya bu sitelerin sizin konum be ba\u015flang\u0131\u00e7 noktan\u0131z\u0131 bilmesini istemiyorsan\u0131z **Tor Taray\u0131c\u0131** kullanmak olduk\u00e7a faydal\u0131d\u0131r. .*\r\n\r\n***Soru**: **Tor Taray\u0131c\u0131\u2019y\u0131** ba\u015flatt\u0131\u011f\u0131m zaman, di\u011fer b\u00fct\u00fcn programlar\u0131m **Tor a\u011f\u0131** \u00fczerinden anonim olarak m\u0131 ba\u011flant\u0131 kurar?*\r\n\r\n***Cevap**: Hay\u0131r, **Tor a\u011f\u0131na** sadece **Tor Taray\u0131c\u0131\u2019dan** eri\u015fmeniz gerekti\u011fini unutmaman\u0131z gerekir. Di\u011fer b\u00fct\u00fcn programlar\u0131n\u0131z \u0130nternet \u00fczerindeki sunucular ile direkt olarak ba\u011flant\u0131 kurar. **Tor a\u011f\u0131** \u00fczerinden ba\u011flant\u0131 kurdu\u011funuzdan emin olmak i\u00e7in, **https://check.torproject.org** sitesini ziyaret edebilirsiniz. **Tor**, ayn\u0131 zamanda, yeni ve daha \u00f6nceden ziyaret etmedi\u011finiz web siteleri hakk\u0131nda sizin temkin, sa\u011fduyu ve yarg\u0131lama g\u00fcc\u00fcn\u00fcze dayan\u0131r.*\r\n\r\n***Soru**: **Tor**, **Tor Taray\u0131c\u0131** kullanarak t\u00fcm ileti\u015fimleri koruma alt\u0131na al\u0131r m\u0131?*\r\n\r\n***Cevap**: **Tor**, sizinle **Tor a\u011f\u0131** aras\u0131ndaki ve **Tor a\u011f\u0131** i\u00e7erisindeki t\u00fcm ileti\u015fimleri \u015fifreler. Fakat, unutmay\u0131n ki, **Tor**, **Tor a\u011f\u0131** ve ba\u011flant\u0131 kurdu\u011funuz siteler aras\u0131ndaki trafi\u011fi \u015fifreleyemez. Bunun i\u00e7in **HTTPS protokol\u00fc** veya benzer ba\u015fka \u015fifreleme y\u00f6ntemleri kullanmal\u0131s\u0131n\u0131z, \u00f6zellikle de bilgilerinizin gizlilik ve g\u00fcvenli\u011fi \u00f6nemliyse!*\r\n\r\n</div>\r\n\r\n<a name=\"5.1\"></a>\r\n## 5.1 Ek Kaynaklar##\r\n\r\n- [Tor Projesi](https://www.torproject.org) ek destek ihtiyac\u0131nda olan insanlar i\u00e7in (e-posta, IRC, Telefon ve benzeri y\u00f6ntemler ile) [destek servisi](https://www.torproject.org/about/contact.html.en) sa\u011flar.  \r\n- Resmi [Tor S\u0131k\u00e7a Sorulan Sorular Sayfas\u0131](https://www.torproject.org/docs/faq)."
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1928", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/2071", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/2071", 
+                "link_title": "Tor Browser FAQ", 
+                "menu_name": "book-toc-1928", 
+                "mlid": "5217", 
+                "module": "book", 
+                "nid": "2071", 
+                "options": [], 
+                "p1": "5034", 
+                "p2": "5213", 
+                "p3": "5217", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5213", 
+                "router_path": "node/%", 
+                "title": "Tor Browser FAQ", 
+                "updated": "0", 
+                "weight": "5"
+            }, 
+            "changed": "1458458546", 
+            "comment": "0", 
+            "created": "1441186063", 
+            "current_revision_id": "13555", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "tor_faq", 
+                        "value": "tor_faq"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5217": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/2071", 
+                    "link_title": "Tor Browser FAQ", 
+                    "menu_name": "book-toc-1928", 
+                    "mlid": "5217", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5034", 
+                    "p2": "5213", 
+                    "p3": "5217", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5213", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "5"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "2071", 
+            "num_revisions": "29", 
+            "path": "https://securityinabox.org/en/tor_faq", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1458458546", 
+            "revision_uid": "141", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "tr": [
+                    {
+                        "format": null, 
+                        "safe_value": "Tor Taray\u0131c\u0131 - S\u0131k\u00e7a Sorulan Sorular", 
+                        "value": "Tor Taray\u0131c\u0131 - S\u0131k\u00e7a Sorulan Sorular"
+                    }
+                ]
+            }, 
+            "title_original": "Tor Browser FAQ", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442937501", 
+                        "created": "1442937233", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1454333849", 
+                        "created": "1441893751", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "es": {
+                        "changed": "1442504317", 
+                        "created": "1442504317", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452163676", 
+                        "created": "1441639088", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fr": {
+                        "changed": "1453996540", 
+                        "created": "1442849954", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "id": {
+                        "changed": "1444395498", 
+                        "created": "1444395498", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "km": {
+                        "changed": "1455127869", 
+                        "created": "1455127869", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1453992980", 
+                        "created": "1443630093", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441196647", 
+                        "created": "1441196647", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1444191459", 
+                        "created": "1444191459", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "tr": {
+                        "changed": "1443022560", 
+                        "created": "1443022560", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1444835135", 
+                        "created": "1444731635", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1458458546", 
+                        "created": "1441186063", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "2071", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1445441159", 
+                        "created": "1445441159", 
+                        "entity_id": "2071", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "2071", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "cdcbf121-3a54-43b9-82fc-1025aa60d974", 
+            "vid": "13555", 
+            "vuuid": "c7e54925-a603-45b0-80ae-7919b54f5c67"
+        }
+    ], 
+    "changed": "1457533247", 
+    "comment": "0", 
+    "created": "1441122857", 
+    "current_revision_id": "13534", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_legacy_hog_category": {
+        "tr": [
+            {
+                "tid": "115"
+            }
+        ]
+    }, 
+    "field_legacy_offline_installatio": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Tor Taray\u0131c\u0131y\u0131 Kurma</strong></p>\n\n<ul><li><em>K\u0131sa <a href=\"/tr/handsonguides\">Uygulamal\u0131 Rehberler\u2019in</a> Giri\u015f b\u00f6l\u00fcm\u00fcn\u00fc okuyun</em></li>\n<li><em>A\u015fa\u011f\u0131daki <strong>Tor</strong> ikonunu <strong>t\u0131klay\u0131n</strong> ve kurucuyu \u2018A\u00e7\u0131n\u2019 ya da \u2018\u00c7al\u0131\u015ft\u0131r\u0131n\u2019. Gerekirse, \u00f6nce kurulumcuyu kaydedin, sonra kaydetti\u011finiz yeri bulup \u00fcst\u00fcne \u00e7ift t\u0131klay\u0131n</em></li>\n<li><em>Kurucuyu bilgisayar\u0131n\u0131za kaydettiyseniz, kurulumdan sonra silebilirsiniz</em></li>\n</ul><p><strong>Tor</strong>:<br /><a href=\"/sbox/programs/tor-browser-en.exe\"><img src=\"/sites/securityinabox.org/files/u12/tor.png\" alt=\"\" /></a></p>\n", 
+                "value": "**Tor Taray\u0131c\u0131y\u0131 Kurma**\r\n\r\n- *K\u0131sa [Uygulamal\u0131 Rehberler\u2019in](/tr/handsonguides) Giri\u015f b\u00f6l\u00fcm\u00fcn\u00fc okuyun*\r\n- *A\u015fa\u011f\u0131daki **Tor** ikonunu **t\u0131klay\u0131n** ve kurucuyu \u2018A\u00e7\u0131n\u2019 ya da \u2018\u00c7al\u0131\u015ft\u0131r\u0131n\u2019. Gerekirse, \u00f6nce kurulumcuyu kaydedin, sonra kaydetti\u011finiz yeri bulup \u00fcst\u00fcne \u00e7ift t\u0131klay\u0131n*\r\n- *Kurucuyu bilgisayar\u0131n\u0131za kaydettiyseniz, kurulumdan sonra silebilirsiniz*\r\n\t\t\t\r\n**Tor**:  \r\n[![](/sites/securityinabox.org/files/u12/tor.png)](/sbox/programs/tor-browser-en.exe)"
+            }
+        ]
+    }, 
+    "field_legacy_online_installation": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Tor Taray\u0131c\u0131'y\u0131 \u0130ndirme</strong></p>\n\n<ul><li><em>K\u0131sa  <a href=\"/tr/handsonguides\"><strong>Uygulamal\u0131 Rehberler'in</strong></a> giri\u015f b\u00f6l\u00fcm\u00fcn\u00fc okuyun</em></li>\n<li><em>A\u015fa\u011f\u0131daki <strong>Tor</strong> ikonunu <strong>t\u0131klayarak https://www.torproject.org/easy-download.html.en</strong> sayfas\u0131n\u0131 a\u00e7\u0131n</em></li>\n<li><em>Sayfay\u0131 <strong>a\u015fa\u011f\u0131 kayd\u0131r\u0131n</strong> ve <strong>Microsoft Windows i\u00e7in Tor Taray\u0131c\u0131</strong> linkini t\u0131klay\u0131n</em></li>\n<li><em>\u00c7al\u0131\u015ft\u0131r\u0131labilir dosyay\u0131 <strong>kaydedin</strong> ve yerini <strong>bulup</strong> \u00fcst\u00fcne <strong>\u00e7ift t\u0131klay\u0131n</strong></em></li>\n<li><em><strong>Tor Taray\u0131c\u0131\u2019y\u0131</strong> paketinden \u00e7\u0131kartt\u0131ktan sonra bilgisayar\u0131n\u0131za kaydetti\u011finiz bu \u00e7al\u0131\u015ft\u0131r\u0131labilir dosyay\u0131 silebilirsiniz</em></li>\n</ul><p><strong>Tor</strong>:<br /><a href=\"https://www.torproject.org/easy-download.html.en\"><img src=\"/sites/securityinabox.org/files/u12/tor.png\" alt=\"\" /></a></p>\n\n<p><strong>Not</strong>:<strong>Tor Projesi</strong> websitesine ula\u015f\u0131m\u0131n engellendi\u011fi bir b\u00f6lgedeyseniz, <strong>Tor Taray\u0131c\u0131 Paketi\u2019nin</strong> kopyas\u0131n\u0131 e-posta ile talep edebilirsiniz. Bunu yapmak i\u00e7in <strong>gettor@torproject.org</strong> adresine talep etti\u011finiz tor versiyonunu da belirtti\u011finiz bir e-posta at\u0131n. Mesela bilgisayar\u0131n\u0131z Windows\u2019la \u00e7al\u0131\u015f\u0131yorsa <strong>windows</strong>, Apple\u2019la \u00e7al\u0131\u015f\u0131yorsa <strong>osx</strong> ya da Linux\u2019la \u00e7al\u0131\u015f\u0131yorsa <strong>linux</strong> versiyonu diyebilirsiniz. <strong>Dropbox</strong> arac\u0131l\u0131\u011f\u0131yla kurucuyu indirebilece\u011finiz bir linki i\u00e7eren bir e-posta cevab\u0131 alacaks\u0131n\u0131z. Bu \u00f6zelli\u011fe dair daha fazla detay\u0131 <a href=\"https://www.torproject.org/projects/gettor.html\"><strong>Tor Projesi websitesinde</strong></a> bulabilirsiniz.</p>\n", 
+                "value": "**Tor Taray\u0131c\u0131'y\u0131 \u0130ndirme**\r\n\t\t\t\r\n- *K\u0131sa  [**Uygulamal\u0131 Rehberler'in**](/tr/handsonguides) giri\u015f b\u00f6l\u00fcm\u00fcn\u00fc okuyun*\r\n- *A\u015fa\u011f\u0131daki **Tor** ikonunu **t\u0131klayarak https://www.torproject.org/easy-download.html.en** sayfas\u0131n\u0131 a\u00e7\u0131n*\r\n- *Sayfay\u0131 **a\u015fa\u011f\u0131 kayd\u0131r\u0131n** ve **Microsoft Windows i\u00e7in Tor Taray\u0131c\u0131** linkini t\u0131klay\u0131n*\r\n- *\u00c7al\u0131\u015ft\u0131r\u0131labilir dosyay\u0131 **kaydedin** ve yerini **bulup** \u00fcst\u00fcne **\u00e7ift t\u0131klay\u0131n***\r\n- ***Tor Taray\u0131c\u0131\u2019y\u0131** paketinden \u00e7\u0131kartt\u0131ktan sonra bilgisayar\u0131n\u0131za kaydetti\u011finiz bu \u00e7al\u0131\u015ft\u0131r\u0131labilir dosyay\u0131 silebilirsiniz*\r\n\t\t\t\r\n**Tor**:  \r\n[![](/sites/securityinabox.org/files/u12/tor.png)](https://www.torproject.org/easy-download.html.en)\r\n\r\n**Not**:**Tor Projesi** websitesine ula\u015f\u0131m\u0131n engellendi\u011fi bir b\u00f6lgedeyseniz, **Tor Taray\u0131c\u0131 Paketi\u2019nin** kopyas\u0131n\u0131 e-posta ile talep edebilirsiniz. Bunu yapmak i\u00e7in **gettor@torproject.org** adresine talep etti\u011finiz tor versiyonunu da belirtti\u011finiz bir e-posta at\u0131n. Mesela bilgisayar\u0131n\u0131z Windows\u2019la \u00e7al\u0131\u015f\u0131yorsa **windows**, Apple\u2019la \u00e7al\u0131\u015f\u0131yorsa **osx** ya da Linux\u2019la \u00e7al\u0131\u015f\u0131yorsa **linux** versiyonu diyebilirsiniz. **Dropbox** arac\u0131l\u0131\u011f\u0131yla kurucuyu indirebilece\u011finiz bir linki i\u00e7eren bir e-posta cevab\u0131 alacaks\u0131n\u0131z. Bu \u00f6zelli\u011fe dair daha fazla detay\u0131 [**Tor Projesi websitesinde**](https://www.torproject.org/projects/gettor.html) bulabilirsiniz."
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "Tor Browser - anonymity and circumventio", 
+                "value": "Tor Browser - anonymity and circumventio"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "Tor Taray\u0131c\u0131 - Digital Anonimlik ve Atlatma", 
+                "value": "Tor Taray\u0131c\u0131 - Digital Anonimlik ve Atlatma"
+            }
+        ]
+    }, 
+    "field_short_description": {
+        "tr": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Tor Taray\u0131c\u0131</strong> internetteki etkinliklerinizin anonimli\u011fini art\u0131rmak i\u00e7in tasarlanm\u0131\u015ft\u0131r. Kimli\u011finizi gizler ve \u00e7evrimi\u00e7i etkinliklerinizi internet g\u00f6zetlemecili\u011finin bir\u00e7ok \u015feklinden korur. <strong>Tor</strong> internet filtrelerini atlatman\u0131z\u0131 da sa\u011flar.</p>\n", 
+                "value": "**Tor Taray\u0131c\u0131** internetteki etkinliklerinizin anonimli\u011fini art\u0131rmak i\u00e7in tasarlanm\u0131\u015ft\u0131r. Kimli\u011finizi gizler ve \u00e7evrimi\u00e7i etkinliklerinizi internet g\u00f6zetlemecili\u011finin bir\u00e7ok \u015feklinden korur. **Tor** internet filtrelerini atlatman\u0131z\u0131 da sa\u011flar."
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-09-29 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "tor_main", 
+                "value": "tor_main"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "16"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "16"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5213": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/2067", 
+            "link_title": "Tor Browser - Digital Anonymity and Circumvention", 
+            "menu_name": "book-toc-1928", 
+            "mlid": "5213", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5034", 
+            "p2": "5213", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5034", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "0"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "2067", 
+    "num_revisions": "27", 
+    "path": "https://securityinabox.org/en/node/2067", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1457533247", 
+    "revision_uid": "141", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "tr": [
+            {
+                "format": null, 
+                "safe_value": "Tor Taray\u0131c\u0131 - Digital Anonimlik ve Atlatma", 
+                "value": "Tor Taray\u0131c\u0131 - Digital Anonimlik ve Atlatma"
+            }
+        ]
+    }, 
+    "title_original": "Tor Browser - Digital Anonymity and Circumvention", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442936747", 
+                "created": "1442936747", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442239249", 
+                "created": "1441891947", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "es": {
+                "changed": "1442503918", 
+                "created": "1442503918", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1452099597", 
+                "created": "1441638672", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fr": {
+                "changed": "1453376516", 
+                "created": "1442848112", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "id": {
+                "changed": "1456839954", 
+                "created": "1444394973", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "km": {
+                "changed": "1455126058", 
+                "created": "1455126058", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443627775", 
+                "created": "1443627775", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441195835", 
+                "created": "1441195810", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1444190764", 
+                "created": "1444190764", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "tr": {
+                "changed": "1443016608", 
+                "created": "1443016608", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1457533247", 
+                "created": "1443526248", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441183403", 
+                "created": "1441122857", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": "2067", 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1445440005", 
+                "created": "1445440005", 
+                "entity_id": "2067", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": "2067", 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_hands_on_guide", 
+    "uid": "70", 
+    "uuid": "8c44f10a-7f43-49e0-9ee3-c926a5ea3e0a", 
+    "vid": "13534", 
+    "vuuid": "cdf316ef-c882-4436-b571-ab254f683a1d"
+}

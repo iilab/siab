@@ -1,0 +1,316 @@
+{
+    "changed": "1418228323", 
+    "comment": "0", 
+    "created": "1410725010", 
+    "current_revision_id": "1523", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_cg_translated_guide_title": {
+        "und": [
+            {
+                "vargs": "[node:nid]", 
+                "vname": "get_translated_guide_title|default"
+            }
+        ]
+    }, 
+    "field_edit_guide_link": [], 
+    "field_guide": {
+        "und": [
+            {
+                "changed": "1452602050", 
+                "comment": "0", 
+                "created": "1410721694", 
+                "current_revision_id": "12686", 
+                "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+                "field_htb_chapter_element": {
+                    "und": [
+                        {
+                            "target_id": "474"
+                        }, 
+                        {
+                            "target_id": "475"
+                        }, 
+                        {
+                            "target_id": "476"
+                        }, 
+                        {
+                            "target_id": "477"
+                        }, 
+                        {
+                            "target_id": "478"
+                        }, 
+                        {
+                            "target_id": "479"
+                        }, 
+                        {
+                            "target_id": "480"
+                        }
+                    ]
+                }, 
+                "field_htb_further_reading": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>More information on backup and data recovery can be found in the <em>2.3 Information Backup, Destruction and Recovery</em> chapter of the <a href=\"http://www.frontlinedefenders.org/esecman\">Digital Security and Privacy for Human Rights Defenders</a> book.</p>\n", 
+                            "value": "More information on backup and data recovery can be found in the *2.3 Information Backup, Destruction and Recovery* chapter of the [Digital Security and Privacy for Human Rights Defenders](http://www.frontlinedefenders.org/esecman) book."
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>Note that online backup brings new risks. At minimum, <strong>remember to encrypt your sensitive information separately yourself</strong> before you upload it to\nthe server. Assuming you do the step above, there are free online data storage services as a convenient way to back up your information. Some\noptions include: <a href=\"https://spideroak.com/\">SpiderOak</a>, <a href=\"https://drive.google.com/start\">Google\nDrive</a>, <a href=\"https://tahoe-lafs.org/trac/tahoe-lafs\">tahoe-lafs</a>.</p>\n", 
+                            "value": "Note that online backup brings new risks. At minimum, **remember to encrypt your sensitive information separately yourself** before you upload it to\r\nthe server. Assuming you do the step above, there are free online data storage services as a convenient way to back up your information. Some\r\noptions include: [SpiderOak](https://spideroak.com/), [Google\r\nDrive](https://drive.google.com/start), [tahoe-lafs](https://tahoe-lafs.org/trac/tahoe-lafs). "
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>There is an excellent article on data recovery in <a href=\"http://en.wikipedia.org/wiki/Data_recovery\">Wikipedia</a>.</p>\n", 
+                            "value": "There is an excellent article on data recovery in [Wikipedia](http://en.wikipedia.org/wiki/Data_recovery)."
+                        }
+                    ]
+                }, 
+                "field_htb_introduction": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>Each new method of storing or transferring digital information tends to introduce several new ways in which the information in question can be lost, taken or destroyed. Years of work can disappear in an instant, as a result of theft, momentary carelessness, the confiscation of computer hardware, or simply because digital storage technology is inherently fragile. There is a common saying among computer support professionals: \"it's not a question of <em>if</em> you will lose your data; it's a question of <em>when</em>.\" So, <em>when</em> this happens to you, it is extremely important that you already have an up-to-date backup and a well-tested means of restoring it. The day you are reminded about the importance of a backup system is generally the day after you needed to have one in place.</p>\n\n<p>Although it is one of the most basic elements of secure computing, formulating an effective backup policy is not as simple as it sounds. It can be a significant planning hurdle for a number of reasons: the need to store original data and backups in different physical locations, the importance of keeping backups confidential the challenge of coordinating among different people who share information with one another using their own portable storage devices. In addition to backup and file-recovery tactics, this guide addresses two specific tools, <a href=\"/en/glossary#Cobian_Backup\"><em>Cobian Backup</em></a> and <a href=\"/en/glossary#Recuva\"><em>Recuva</em></a>.</p>\n", 
+                            "value": "Each new method of storing or transferring digital information tends to introduce several new ways in which the information in question can be lost, taken or destroyed. Years of work can disappear in an instant, as a result of theft, momentary carelessness, the confiscation of computer hardware, or simply because digital storage technology is inherently fragile. There is a common saying among computer support professionals: &quot;it's not a question of *if* you will lose your data; it's a question of *when*.&quot; So, *when* this happens to you, it is extremely important that you already have an up-to-date backup and a well-tested means of restoring it. The day you are reminded about the importance of a backup system is generally the day after you needed to have one in place.\r\n\r\nAlthough it is one of the most basic elements of secure computing, formulating an effective backup policy is not as simple as it sounds. It can be a significant planning hurdle for a number of reasons: the need to store original data and backups in different physical locations, the importance of keeping backups confidential the challenge of coordinating among different people who share information with one another using their own portable storage devices. In addition to backup and file-recovery tactics, this guide addresses two specific tools, [*Cobian Backup*](/en/glossary#Cobian_Backup) and [*Recuva*](/en/glossary#Recuva). "
+                        }
+                    ]
+                }, 
+                "field_htb_learning_goals": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to organise and back up your information</p>\n", 
+                            "value": "How to organise and back up your information"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>Where you should store your backups</p>\n", 
+                            "value": "Where you should store your backups"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How you can manage your backups securely</p>\n", 
+                            "value": "How you can manage your backups securely"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to recover files that have been deleted accidentally</p>\n", 
+                            "value": "How to recover files that have been deleted accidentally"
+                        }
+                    ]
+                }, 
+                "field_htb_required_reading_link": {
+                    "und": [
+                        {
+                            "vargs": "[node:nid]", 
+                            "vname": "get_htb_pointer|default"
+                        }
+                    ]
+                }, 
+                "field_htb_translatable_title": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "Recover from information loss", 
+                            "value": "Recover from information loss"
+                        }
+                    ]
+                }, 
+                "field_summary": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "Back up your devices and data", 
+                            "value": "Back up your devices and data"
+                        }
+                    ]
+                }, 
+                "is_current": true, 
+                "is_pending": false, 
+                "language": "en", 
+                "log": "", 
+                "menu_node_links": [], 
+                "metatags": {
+                    "en": {
+                        "robots": {
+                            "value": {
+                                "follow": 0, 
+                                "index": 0, 
+                                "noarchive": "noarchive", 
+                                "nofollow": "nofollow", 
+                                "noimageindex": "noimageindex", 
+                                "noindex": "noindex", 
+                                "noodp": "noodp", 
+                                "nosnippet": "nosnippet", 
+                                "notranslate": "notranslate", 
+                                "noydir": "noydir"
+                            }
+                        }
+                    }
+                }, 
+                "name": "chris", 
+                "nid": "473", 
+                "num_revisions": "19", 
+                "path": "https://securityinabox.org/en/how-to/recover-information-loss", 
+                "picture": "100", 
+                "print_html_display": 1, 
+                "print_html_display_comment": 0, 
+                "print_html_display_urllist": 1, 
+                "print_pdf_display": 1, 
+                "print_pdf_display_comment": 0, 
+                "print_pdf_display_urllist": 1, 
+                "print_pdf_orientation": null, 
+                "print_pdf_size": null, 
+                "promote": "0", 
+                "revision_moderation": true, 
+                "revision_timestamp": "1452602050", 
+                "revision_uid": "1", 
+                "status": "1", 
+                "sticky": "0", 
+                "title": "Backup", 
+                "tnid": "0", 
+                "translate": "0", 
+                "translations": {
+                    "data": {
+                        "en": {
+                            "changed": "1451989871", 
+                            "created": "1410721694", 
+                            "entity_id": "473", 
+                            "entity_type": "node", 
+                            "language": "en", 
+                            "revision_id": null, 
+                            "source": "", 
+                            "status": "1", 
+                            "translate": "0", 
+                            "uid": "70"
+                        }
+                    }, 
+                    "original": "en"
+                }, 
+                "type": "how_to_booklet_chapter", 
+                "uid": "70", 
+                "uuid": "6b62d5f1-28c7-4e64-bd00-b33413ef85f7", 
+                "vid": "12686", 
+                "vuuid": "4041b45d-9e76-40fb-aebd-ea16115ca243"
+            }
+        ]
+    }, 
+    "field_guide_snippets": {
+        "und": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong>Elena</strong> is an environmentalist in a Russian-speaking country, where she has begun to create a website that will rely on creative presentation of images, videos, maps and stories to highlight the extent of illegal deforestation in the region. She has been collecting documents, media files and geographic information about logging for years, and most of it is stored on an old Windows computer in the office of the NGO where she works. While designing a website around this information, she has come to realize its importance and to worry about preserving it in the event that her computer should be damaged, especially if it should happen before she gets everything copied up to the website. Other members of her organization sometimes use the computer, so she also wants to learn how to restore her files if someone accidentally deletes the folder containing her work. She asks her nephew <strong>Nikolai</strong> to help her develop a backup strategy.</p>\n", 
+                "value": "**Elena** is an environmentalist in a Russian-speaking country, where she has begun to create a website that will rely on creative presentation of images, videos, maps and stories to highlight the extent of illegal deforestation in the region. She has been collecting documents, media files and geographic information about logging for years, and most of it is stored on an old Windows computer in the office of the NGO where she works. While designing a website around this information, she has come to realize its importance and to worry about preserving it in the event that her computer should be damaged, especially if it should happen before she gets everything copied up to the website. Other members of her organization sometimes use the computer, so she also wants to learn how to restore her files if someone accidentally deletes the folder containing her work. She asks her nephew **Nikolai** to help her develop a backup strategy."
+            }, 
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong><em>Elena:</em></strong> I know backup is important, Nikolai, but doesn't that mean I should have someone else set it up for me? I mean, am I really going to have the time, resources and expertise to do this on my own?</p>\n\n<p><strong><em>Nikolai:</em></strong> You'll be fine. Coming up with a good backup plan takes a bit of thought, but it doesn't take all that much time or money. And, compared with losing all of your information, you can hardly call it inconvenient, right? Besides, backup is definitely one of those things that you should manage yourself. Unless the people who normally help you out with tech support are extremely reliable and extremely well-informed about where you keep your digital information, you're better off setting things up on your own.</p>\n", 
+                "value": "***Elena:*** I know backup is important, Nikolai, but doesn't that mean I should have someone else set it up for me? I mean, am I really going to have the time, resources and expertise to do this on my own?\r\n\r\n***Nikolai:*** You'll be fine. Coming up with a good backup plan takes a bit of thought, but it doesn't take all that much time or money. And, compared with losing all of your information, you can hardly call it inconvenient, right? Besides, backup is definitely one of those things that you should manage yourself. Unless the people who normally help you out with tech support are extremely reliable and extremely well-informed about where you keep your digital information, you're better off setting things up on your own."
+            }, 
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong><em>Elena:</em></strong> I know some people who keep all of their important documents on Gmail, by attaching them to 'draft' messages or emails to themselves. Would that count as a 'second physical location' for my files?</p>\n\n<p><strong><em>Nikolai:</em></strong> It might help you recover if you lose one or two very important documents, but it's pretty awkward. Honestly, how many documents per week would you be willing to back up like that? Plus, you need to consider whether or not those attachments are safe, especially if you're at all worried about your email being monitored. Unless you're connecting to Gmail securely, this is a bit like handing over your sensitive information on a silver platter. Using an HTTPS connection to Gmail in order to back up small Truecrypt volumes or KeePass database files would be pretty safe, because they're encrypted, but I really wouldn't recommend this as a general-purpose backup strategy.</p>\n", 
+                "value": "***Elena:*** I know some people who keep all of their important documents on Gmail, by attaching them to 'draft' messages or emails to themselves. Would that count as a 'second physical location' for my files?\r\n\r\n***Nikolai:*** It might help you recover if you lose one or two very important documents, but it's pretty awkward. Honestly, how many documents per week would you be willing to back up like that? Plus, you need to consider whether or not those attachments are safe, especially if you're at all worried about your email being monitored. Unless you're connecting to Gmail securely, this is a bit like handing over your sensitive information on a silver platter. Using an HTTPS connection to Gmail in order to back up small Truecrypt volumes or KeePass database files would be pretty safe, because they're encrypted, but I really wouldn't recommend this as a general-purpose backup strategy."
+            }, 
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p><strong><em>Elena:</em></strong> Alright, so I made an encrypted backup while I was at work, and I put it on a CD. Cobian is scheduled to update my backup in a few days. My desk at work has a drawer that locks, and I'm planning to keep these backup CDs in there so they won't get lost or broken.</p>\n\n<p><strong><em>Nikolai:</em></strong> But what if your office burns down? Computer, desk, backup CDs and all? Or, what if your website forum gets used to plan some giant environmental demonstration, the authorities crack down, things get out of hand, and the organisation is raided? I doubt your little desk lock will keep the police from confiscating those CDs. What about keeping them at home, or asking a friend to store them for you?</p>\n", 
+                "value": "***Elena:*** Alright, so I made an encrypted backup while I was at work, and I put it on a CD. Cobian is scheduled to update my backup in a few days. My desk at work has a drawer that locks, and I'm planning to keep these backup CDs in there so they won't get lost or broken.\r\n\r\n***Nikolai:*** But what if your office burns down? Computer, desk, backup CDs and all? Or, what if your website forum gets used to plan some giant environmental demonstration, the authorities crack down, things get out of hand, and the organisation is raided? I doubt your little desk lock will keep the police from confiscating those CDs. What about keeping them at home, or asking a friend to store them for you?\r\n"
+            }
+        ]
+    }, 
+    "field_hog_categories": [], 
+    "field_htb_categories": {
+        "en": [
+            {
+                "tid": "89"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "en": [
+            {
+                "format": null, 
+                "safe_value": "Recover from information loss", 
+                "value": "Recover from information loss"
+            }
+        ]
+    }, 
+    "field_relevant_community": {
+        "en": [
+            {
+                "title": "Tools and tactics for the LGBTI community in the Middle-East and North Africa", 
+                "value": "lgbti mena"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "25"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "25"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "en", 
+    "log": "", 
+    "menu_node_links": [], 
+    "name": "chris", 
+    "nid": "483", 
+    "num_revisions": "1", 
+    "path": "https://securityinabox.org/en/lgbti-mena/backup", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1418228323", 
+    "revision_uid": "184", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": "01-Backup", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "en": {
+                "changed": "1418228323", 
+                "created": "1410725010", 
+                "entity_id": "483", 
+                "entity_type": "node", 
+                "language": "en", 
+                "revision_id": null, 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }
+        }, 
+        "original": "en"
+    }, 
+    "type": "community_guide", 
+    "uid": "70", 
+    "uuid": "8ca049f7-51cd-4611-a56a-e0c3e6d5e355", 
+    "vid": "1523", 
+    "vuuid": "f94dcc4a-2fd4-47a2-b2f0-d3271a40ec9f"
+}

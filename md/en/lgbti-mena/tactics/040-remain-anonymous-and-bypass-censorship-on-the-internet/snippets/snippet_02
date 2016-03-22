@@ -1,0 +1,3 @@
+***Mansour:*** So, if I find one day that I can't access the blog, but a friend in another country can still see it just fine, does that mean the government has blocked it?
+
+***Magda:*** Not necessarily. There could be some problem that only affects people who are trying to reach the website from here. Or, it could be some issue with your computer that only shows up on certain types of webpages. You're on the right track, though. You could also try visiting it yourself while using a circumvention tool. After all, most of these tools rely on external proxy servers, which is a bit like asking a friend in another country to test a website for you, except you get to do it yourself.

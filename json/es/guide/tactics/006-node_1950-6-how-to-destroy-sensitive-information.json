@@ -1,0 +1,2014 @@
+{
+    "body": {
+        "es": [
+            {
+                "format": "full_html", 
+                "safe_summary": "", 
+                "safe_value": "<p>Los cap\u00edtulos anteriores se han ocupado de varias herramientas y h\u00e1bitos que pueden ayudarte a proteger tus datos sensibles, pero \u00bfqu\u00e9 ocurre cuando decides que ya no necesitas conservar una parte de tu informaci\u00f3n? Si determinas, por ejemplo, que tus copias cifradas de respaldo de un archivo en particular son suficientes, y deseas borrar la copia maestra, \u00bfCu\u00e1l es la mejor forma de hacerlo? Lamentablemente, la respuesta es m\u00e1s complicada de lo que crees. Cuando borras un archivo, incluso antes de vaciar la <strong>Papelera de Reciclaje</strong>, los contenidos de dicho archivo se mantienen en tu disco duro y pueden ser recuperados por cualquiera que tenga un poco de suerte y las herramientas adecuadas.</p>\n<p>Con el fin de garantizar que la informaci\u00f3n borrada no termine en las manos equivocadas tendr\u00e1s que confiar en un software especial que elimine los datos de manera segura y permanente. El <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> es una de tales herramientas, y se abordar\u00e1 m\u00e1s adelante. Utilizar el Eraser es un poco como hacer trizas un documento de papel en vez de simplemente arrojarlo dentro de una papelera y esperar que nadie lo encuentre. Y, por supuesto, el borrado archivos es solo un ejemplo de una situaci\u00f3n en la cual podr\u00edas necesitar destruir datos sensibles. Si consideras los detalles que alguien, particularmente un adversario poderoso y motivado pol\u00edticamente, podr\u00eda descubrir sobre ti o tu organizaci\u00f3n al leer ciertos archivos que pensaste que hab\u00edas borrado, podr\u00edas probablemente pensar en algunos cuantos ejemplos m\u00e1s: destruir respaldos obsoletos, <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n permanente\"><em>eliminar permanentemente</em></a> los datos de viejos disco duros antes de regalarlos, borrar viejas cuentas de usuario, y limpiar tu historial de navegaci\u00f3n, por mencionar unos cuantos. La otra herramienta descrita en este capitulo es el <a href=\"/es/glossary#CCleaner\" title=\"CCleaner\"><em>CCleaner</em></a>, que te puede ayudar a afrontar el reto de borrar los muchos archivos temporales que tu sistema operativo y las aplicaciones crean cada vez que los usas.</p>\n<p>\u00a0</p>\n<h3 id=\"Contexto\">Contexto</h3>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td><em>Elena es una activista medioambiental en un pa\u00eds de habla rusa, donde mantiene un crecientemente popular sitio web que hace hincapi\u00e9 en la magnitud de la deforestaci\u00f3n ilegal en la regi\u00f3n. Ella ha creado un respaldo de la informaci\u00f3n utilizada para crear el sitio web, y mantiene copias de este en casa, en la oficina y en su nueva computadora port\u00e1til. Hace poco, ha empezado a almacenar copias de los registros de visita de los servidores web y de la base de datos que contiene la informaci\u00f3n de los usuarios que han posteado mensajes en el foro. Elena pronto har\u00e1 un viaje internacional, para asistir a una gran conferencia mundial de activistas medioambientales, algunos de los cuales han informado que sus computadoras port\u00e1tiles les fueron requisadas durante aproximadamente una hora en los pasos fronterizos. Para proteger su informaci\u00f3n sensible, y la seguridad de los participantes m\u00e1s pol\u00edticos de su foro, ella ha trasladado sus respaldos de casa y de la oficina a un volumen <span class=\"wiki\">TrueCrypt</span> y ha eliminado la copia que hab\u00eda en su computadora port\u00e1til. Le pidi\u00f3 consejo a su sobrino Nikolai, y \u00e9l le advirti\u00f3 que tiene que hacer algo m\u00e1s que s\u00f3lo borrar su viejo respaldo si le preocupa la retenci\u00f3n de su computadora a cargo de los funcionarios de fronteras.</em></td>\n</tr></tbody></table><p>\u00a0</p>\n<h3 id=\"Quepuedesaprender\">\u00bfQu\u00e9 puedes aprender de este cap\u00edtulo?</h3>\n<ul><li>Eliminar de manera permanente informaci\u00f3n sensible de tu computadora</li>\n<li>Eliminar informaci\u00f3n almacenada en tus dispositivos de almacenamiento extra\u00edbles tales como CDs y memorias USB</li>\n<li>Evitar que alguien sepa qu\u00e9 documentos has estado viendo previamente en tu computadora</li>\n<li>Mantener tu computadora de modo que los archivos borrados no puedan ser recuperados en el futuro</li>\n</ul><p>\u00a0</p>\n", 
+                "summary": "", 
+                "value": "<p>Los cap\u00edtulos anteriores se han ocupado de varias herramientas y h\u00e1bitos que pueden ayudarte a proteger tus datos sensibles, pero \u00bfqu\u00e9 ocurre cuando decides que ya no necesitas conservar una parte de tu informaci\u00f3n? Si determinas, por ejemplo, que tus copias cifradas de respaldo de un archivo en particular son suficientes, y deseas borrar la copia maestra, \u00bfCu\u00e1l es la mejor forma de hacerlo? Lamentablemente, la respuesta es m\u00e1s complicada de lo que crees. Cuando borras un archivo, incluso antes de vaciar la <strong>Papelera de Reciclaje</strong>, los contenidos de dicho archivo se mantienen en tu disco duro y pueden ser recuperados por cualquiera que tenga un poco de suerte y las herramientas adecuadas.</p>\r\n\r\n<p>Con el fin de garantizar que la informaci\u00f3n borrada no termine en las manos equivocadas tendr\u00e1s que confiar en un software especial que elimine los datos de manera segura y permanente. El <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> es una de tales herramientas, y se abordar\u00e1 m\u00e1s adelante. Utilizar el Eraser es un poco como hacer trizas un documento de papel en vez de simplemente arrojarlo dentro de una papelera y esperar que nadie lo encuentre. Y, por supuesto, el borrado archivos es solo un ejemplo de una situaci\u00f3n en la cual podr\u00edas necesitar destruir datos sensibles. Si consideras los detalles que alguien, particularmente un adversario poderoso y motivado pol\u00edticamente, podr\u00eda descubrir sobre ti o tu organizaci\u00f3n al leer ciertos archivos que pensaste que hab\u00edas borrado, podr\u00edas probablemente pensar en algunos cuantos ejemplos m\u00e1s: destruir respaldos obsoletos, <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n permanente\"><em>eliminar permanentemente</em></a> los datos de viejos disco duros antes de regalarlos, borrar viejas cuentas de usuario, y limpiar tu historial de navegaci\u00f3n, por mencionar unos cuantos. La otra herramienta descrita en este capitulo es el <a href=\"/es/glossary#CCleaner\" title=\"CCleaner\"><em>CCleaner</em></a>, que te puede ayudar a afrontar el reto de borrar los muchos archivos temporales que tu sistema operativo y las aplicaciones crean cada vez que los usas.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3 id=\"Contexto\">Contexto</h3>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><em>Elena es una activista medioambiental en un pa\u00eds de habla rusa, donde mantiene un crecientemente popular sitio web que hace hincapi\u00e9 en la magnitud de la deforestaci\u00f3n ilegal en la regi\u00f3n. Ella ha creado un respaldo de la informaci\u00f3n utilizada para crear el sitio web, y mantiene copias de este en casa, en la oficina y en su nueva computadora port\u00e1til. Hace poco, ha empezado a almacenar copias de los registros de visita de los servidores web y de la base de datos que contiene la informaci\u00f3n de los usuarios que han posteado mensajes en el foro. Elena pronto har\u00e1 un viaje internacional, para asistir a una gran conferencia mundial de activistas medioambientales, algunos de los cuales han informado que sus computadoras port\u00e1tiles les fueron requisadas durante aproximadamente una hora en los pasos fronterizos. Para proteger su informaci\u00f3n sensible, y la seguridad de los participantes m\u00e1s pol\u00edticos de su foro, ella ha trasladado sus respaldos de casa y de la oficina a un volumen <span class=\"wiki\">TrueCrypt</span> y ha eliminado la copia que hab\u00eda en su computadora port\u00e1til. Le pidi\u00f3 consejo a su sobrino Nikolai, y \u00e9l le advirti\u00f3 que tiene que hacer algo m\u00e1s que s\u00f3lo borrar su viejo respaldo si le preocupa la retenci\u00f3n de su computadora a cargo de los funcionarios de fronteras.</em></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3 id=\"Quepuedesaprender\">\u00bfQu\u00e9 puedes aprender de este cap\u00edtulo?</h3>\r\n\r\n<ul>\r\n\t<li>Eliminar de manera permanente informaci\u00f3n sensible de tu computadora</li>\r\n\t<li>Eliminar informaci\u00f3n almacenada en tus dispositivos de almacenamiento extra\u00edbles tales como CDs y memorias USB</li>\r\n\t<li>Evitar que alguien sepa qu\u00e9 documentos has estado viendo previamente en tu computadora</li>\r\n\t<li>Mantener tu computadora de modo que los archivos borrados no puedan ser recuperados en el futuro</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n"
+            }
+        ]
+    }, 
+    "book": {
+        "bid": "1925", 
+        "customized": "0", 
+        "depth": "2", 
+        "expanded": "0", 
+        "external": "0", 
+        "has_children": "1", 
+        "hidden": "0", 
+        "href": "node/1950", 
+        "i18n_tsid": "0", 
+        "language": "und", 
+        "link_path": "node/1950", 
+        "link_title": "\u17e6. \u179a\u1794\u17c0\u1794\u1794\u17c6\u1795\u17d2\u179b\u17b6\u1789\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u179f\u17be\u1794", 
+        "menu_name": "book-toc-1925", 
+        "mlid": "5095", 
+        "module": "book", 
+        "nid": "1950", 
+        "options": [], 
+        "p1": "5030", 
+        "p2": "5095", 
+        "p3": "0", 
+        "p4": "0", 
+        "p5": "0", 
+        "p6": "0", 
+        "p7": "0", 
+        "p8": "0", 
+        "p9": "0", 
+        "plid": "5030", 
+        "router_path": "node/%", 
+        "title": "\u17e6. \u179a\u1794\u17c0\u1794\u1794\u17c6\u1795\u17d2\u179b\u17b6\u1789\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u179f\u17be\u1794", 
+        "updated": "0", 
+        "weight": "6"
+    }, 
+    "book_children": [
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "full_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Desde una perspectiva puramente t\u00e9cnica no existe en tu computadora una funci\u00f3n de borrado propiamente dicha. Por supuesto puedes arrastrar un archivo a la <strong>Papelera de Reciclaje</strong> y vaciarla, pero todo esto en realidad simplemente borra el icono, elimina el nombre del archivo de una especie de \u00edndice de todo el contenido en tu computadora y le dice a Windows que puede utilizar ese espacio para algo m\u00e1s. Sin embargo, hasta que esto ocurra, dicho espacio ser\u00e1 ocupado por los contenidos de la informaci\u00f3n borrada, algo muy parecido a un gabinete de archivos al que se le ha sacado todas sus etiquetas pero todav\u00eda contiene todos los archivos originales. Es por esto que si cuentas con el software adecuado y act\u00faas con prisa, puedes recuperar la informaci\u00f3n que borraste por accidente, como se trat\u00f3 en el cap\u00edtulo <a href=\"/es/chapter-5\" title=\"5. Recuperar informaci\u00f3n perdida\"><strong>5. Recuperar informaci\u00f3n perdida</strong></a>.</p>\n<p>Debes tener en cuenta que cada vez que usas tu computadora, se crean archivos y estos mismos son borrados de manera insegura, sin tu conocimiento. Sup\u00f3n, por ejemplo, que est\u00e1s escribiendo un informe extenso. Este te podr\u00eda tomar una semana, trabajando muchas horas a diario, y cada vez que el documento es guardado, Windows crear\u00e1 una nueva copia del documento y lo almacenar\u00e1 en tu disco duro. Despu\u00e9s de unos cuantos d\u00edas de editado, puedes sin saberlo haber guardado muchas versiones del documento, todas en diferentes etapas de avance.</p>\n<p>Por supuesto, Windows generalmente borra las versiones antiguas de un archivo, pero no busca la ubicaci\u00f3n exacta del original para sobrescribirlo de manera segura cuando se hace una nueva copia. En vez de ello, este simplemente pone la \u00faltima versi\u00f3n en una nueva secci\u00f3n del hipot\u00e9tico gabinete de archivos mencionado anteriormente, es decir, traslada la etiqueta de la vieja secci\u00f3n a la nueva, y deja el anterior borrador donde estaba hasta que otro programa requiera utilizar ese espacio. Est\u00e1 claro que, si t\u00fa tienes una buena raz\u00f3n para destruir todos los rastros de dicho documento de tu gabinete de archivos, el borrar la \u00faltima copia no ser\u00e1 suficiente, y simplemente el botar la etiqueta ser\u00eda mucho peor.</p>\n<p>Tambi\u00e9n debes recordar, que los discos duros de la computadora no son los \u00fanicos dispositivos que almacenan informaci\u00f3n digital. Los CDs, DVDs, las memorias extra\u00edbles USB, los disquetes, las tarjetas de memoria flash de los tel\u00e9fonos m\u00f3viles y los discos duros externos tienen los mismos problemas, y no debes confiar simplemente en una simple operaci\u00f3n de borrar o reescribir para hacer desaparecer informaci\u00f3n sensible de cualquiera de ellos.</p>\n<p>\u00a0</p>\n", 
+                        "summary": "", 
+                        "value": "<p>Desde una perspectiva puramente t\u00e9cnica no existe en tu computadora una funci\u00f3n de borrado propiamente dicha. Por supuesto puedes arrastrar un archivo a la <strong>Papelera de Reciclaje</strong> y vaciarla, pero todo esto en realidad simplemente borra el icono, elimina el nombre del archivo de una especie de \u00edndice de todo el contenido en tu computadora y le dice a Windows que puede utilizar ese espacio para algo m\u00e1s. Sin embargo, hasta que esto ocurra, dicho espacio ser\u00e1 ocupado por los contenidos de la informaci\u00f3n borrada, algo muy parecido a un gabinete de archivos al que se le ha sacado todas sus etiquetas pero todav\u00eda contiene todos los archivos originales. Es por esto que si cuentas con el software adecuado y act\u00faas con prisa, puedes recuperar la informaci\u00f3n que borraste por accidente, como se trat\u00f3 en el cap\u00edtulo <a href=\"/es/chapter-5\" title=\"5. Recuperar informaci\u00f3n perdida\"><strong>5. Recuperar informaci\u00f3n perdida</strong></a>.</p>\r\n\r\n<p>Debes tener en cuenta que cada vez que usas tu computadora, se crean archivos y estos mismos son borrados de manera insegura, sin tu conocimiento. Sup\u00f3n, por ejemplo, que est\u00e1s escribiendo un informe extenso. Este te podr\u00eda tomar una semana, trabajando muchas horas a diario, y cada vez que el documento es guardado, Windows crear\u00e1 una nueva copia del documento y lo almacenar\u00e1 en tu disco duro. Despu\u00e9s de unos cuantos d\u00edas de editado, puedes sin saberlo haber guardado muchas versiones del documento, todas en diferentes etapas de avance.</p>\r\n\r\n<p>Por supuesto, Windows generalmente borra las versiones antiguas de un archivo, pero no busca la ubicaci\u00f3n exacta del original para sobrescribirlo de manera segura cuando se hace una nueva copia. En vez de ello, este simplemente pone la \u00faltima versi\u00f3n en una nueva secci\u00f3n del hipot\u00e9tico gabinete de archivos mencionado anteriormente, es decir, traslada la etiqueta de la vieja secci\u00f3n a la nueva, y deja el anterior borrador donde estaba hasta que otro programa requiera utilizar ese espacio. Est\u00e1 claro que, si t\u00fa tienes una buena raz\u00f3n para destruir todos los rastros de dicho documento de tu gabinete de archivos, el borrar la \u00faltima copia no ser\u00e1 suficiente, y simplemente el botar la etiqueta ser\u00eda mucho peor.</p>\r\n\r\n<p>Tambi\u00e9n debes recordar, que los discos duros de la computadora no son los \u00fanicos dispositivos que almacenan informaci\u00f3n digital. Los CDs, DVDs, las memorias extra\u00edbles USB, los disquetes, las tarjetas de memoria flash de los tel\u00e9fonos m\u00f3viles y los discos duros externos tienen los mismos problemas, y no debes confiar simplemente en una simple operaci\u00f3n de borrar o reescribir para hacer desaparecer informaci\u00f3n sensible de cualquiera de ellos.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1951", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1951", 
+                "link_title": "\u1780\u17b6\u179a\u179b\u17bb\u1794\u1785\u17c4\u179b\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5096", 
+                "module": "book", 
+                "nid": "1951", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5095", 
+                "p3": "5096", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5095", 
+                "router_path": "node/%", 
+                "title": "\u1780\u17b6\u179a\u179b\u17bb\u1794\u1785\u17c4\u179b\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793", 
+                "updated": "0", 
+                "weight": "1"
+            }, 
+            "changed": "1452605239", 
+            "comment": "0", 
+            "created": "1441104182", 
+            "current_revision_id": "12792", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_6_1", 
+                        "value": "chapter_6_1"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5096": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1951", 
+                    "link_title": "\u1780\u17b6\u179a\u179b\u17bb\u1794\u1785\u17c4\u179b\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5096", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5095", 
+                    "p3": "5096", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5095", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "1"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1951", 
+            "num_revisions": "31", 
+            "path": "https://securityinabox.org/en/node/1951", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452605239", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Borrar informaci\u00f3n", 
+                        "value": "Borrar informaci\u00f3n"
+                    }
+                ]
+            }, 
+            "title_original": "Deleting information", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916537", 
+                        "created": "1442916537", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227343", 
+                        "created": "1441806113", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096262", 
+                        "created": "1443096262", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442412827", 
+                        "created": "1442412827", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1441207342", 
+                        "created": "1441207342", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447107990", 
+                        "created": "1442761307", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443705733", 
+                        "created": "1443705733", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452605239", 
+                        "created": "1452605239", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443456615", 
+                        "created": "1443456615", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441115364", 
+                        "created": "1441115364", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443798708", 
+                        "created": "1443798708", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444395696", 
+                        "created": "1444395696", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100564", 
+                        "created": "1443100564", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092863", 
+                        "created": "1443092863", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446485531", 
+                        "created": "1441104182", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444578190", 
+                        "created": "1443623099", 
+                        "entity_id": "1951", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "5f71dd11-df03-45b8-83b4-4d0b0a834a5f", 
+            "vid": "12792", 
+            "vuuid": "f777d71f-60e2-432f-8870-b3682e20b8b8"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "full_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Cuando utilizas una herramienta de borrado seguro - tal como aquellas recomendadas en este capitulo - ser\u00eda m\u00e1s preciso decir que est\u00e1s reemplazando, o 'sobrescribiendo', tu informaci\u00f3n sensible, en vez de simplemente borrarla. Si imaginas que dichos documentos, en el gabinete de archivos deficientemente etiquetado que mencionamos antes, est\u00e1n escritos a l\u00e1piz, entonces un software de borrado seguro no s\u00f3lo borra el contenido, sino que garabatea sobre cada palabra. Y - en forma muy parecida al trazo de la mina de un l\u00e1piz - la informaci\u00f3n digital puede todav\u00eda leerse, aunque con dificultad, incluso despu\u00e9s de que haya sido borrada y se haya escrito algo sobre ella. Debido a esto las herramientas recomendadas aqu\u00ed sobrescriben archivos m\u00faltiples veces con datos aleatorios. A este proceso se le llama <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a>, y cuantas m\u00e1s veces la informaci\u00f3n sea sobrescrita, mayor es la dificultad para que alguien pueda recuperar el contenido original. Los expertos coinciden generalmente en que se deben hacer tres o m\u00e1s pasadas \u2014 algunos est\u00e1ndares recomiendan siete o m\u00e1s. El software de eliminaci\u00f3n permanente de datos se ocupa de esto autom\u00e1ticamente, pero puedes cambiar el n\u00famero de veces en que la informaci\u00f3n ser\u00e1 sobrescrita si quieres.</p>\n<p>\u00a0</p>\n<h3 id=\"Eliminararchivos\">Eliminar permanentemente archivos</h3>\n<p>Existen dos maneras comunes de <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> datos sensibles de tu disco duro o de tu dispositivo de almacenamiento. Puedes eliminar permanentemente un archivo o puedes eliminar permanentemente todo el espacio 'no asignado' en la unidad. Cuando tomes esta decisi\u00f3n, puede ser \u00fatil considerar nuestro ejemplo previo del extenso informe que haya podido dejar copias incompletas esparcidas en todo tu disco duro aunque s\u00f3lo un archivo es visible. Si eliminas permanentemente el archivo mismo, garantizas que la actual versi\u00f3n est\u00e1 completamente eliminada, pero dejas las otras copias donde est\u00e1n. De hecho, no existe manera de apuntar directamente a dichas copias, debido a que las mismas no est\u00e1n visibles sin la utilizaci\u00f3n de un software especial. Sin embargo, al eliminar permanentemente todo el espacio en blanco de tu dispositivo de almacenamiento, te aseguras de que toda la informaci\u00f3n anteriormente borrada sea destruida. Regresando a la met\u00e1fora del gabinete de archivos, este procedimiento es comparable a buscar en el gabinete, y despu\u00e9s borrar y garabatear sobre cada documento cuya etiqueta haya sido retirada.</p>\n<p>El <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> es una herramienta de borrado segura, libre y de c\u00f3digo abierto, que es extremadamente f\u00e1cil de usar. Con el Eraser puedes <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> archivos en tres formas diferentes: seleccionando un solo archivo, seleccionando el contenido de la <strong>Papelera de Reciclaje</strong>, o eliminando permanentemente todo el espacio no asignado en la unidad. El Eraser puede tambi\u00e9n eliminar permanentemente los contenidos del <a href=\"/es/glossary#Archivo_intercambio\" title=\"Archivo de paginaci\u00f3n o intercambio\"><em>archivo de paginaci\u00f3n o intercambio</em></a> de Windows, lo cual se abordar\u00e1 a continuaci\u00f3n.</p>\n<p>\u00a0</p>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td><img align=\"middle\" height=\"63\" src=\"/sites/securitybkp.ngoinabox.org/files/u9/hand_web_trans.png\" width=\"60\" /><strong>Parte Pr\u00e1ctica: Empieza con la <a href=\"/es/eraser_principal\" title=\"Gu\u00eda del Eraser\"><strong>Gu\u00eda del Eraser</strong></a></strong></td>\n</tr></tbody></table><p>\u00a0</p>\n<p>Aunque las herramientas de borrado seguro no da\u00f1ar\u00e1n ning\u00fan archivo visible a menos que t\u00fa expresamente los elimines permanentemente, es importante ser cuidadoso con un software como este. Despu\u00e9s de todo los accidentes ocurren, es por ello que la gente considera muy \u00fatiles la <strong>Papelera de Reciclaje</strong> y las herramientas de recuperaci\u00f3n de datos. Si te acostumbras a <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> tus datos cada vez que borras algo, te encontraras sin forma de recuperarte de un simple error. Aseg\u00farate siempre de tener un respaldo seguro antes de eliminar permanentemente grandes cantidades de datos de tu computadora.</p>\n<p>\u00a0</p>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td><em>Elena: S\u00e9 que los programas de procesamiento de texto como Microsoft Word y Open Office a veces realizan copias temporales de archivos mientras est\u00e1s trabajando en ellos. Existen otros programas que hagan lo mismo, o \u00bfdebo solamente preocuparme sobre los archivos que yo he creado y borrado?</em>\n<p>\t\t\t<em>Nikolai: En realidad, existen muchos lugares en tu computadora donde los programas dejan rastros de tu informaci\u00f3n personal y de tus actividades en l\u00ednea. Te hablo de los sitios web que has visitado, los borradores de correos electr\u00f3nicos que has escrito recientemente y otras cosas parecidas. Todo esto podr\u00eda ser sensible, dependiendo de cu\u00e1n a menudo utilizas esa computadora.</em></p></td>\n</tr></tbody></table><p>\u00a0</p>\n<h3 id=\"Eliminardatostemporales\">Eliminar permanentemente datos temporales</h3>\n<p>La opci\u00f3n que permite al <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> todo el espacio no asignado de una unidad no es tan arriesgado como parece, debido a que s\u00f3lo elimina permanentemente contenido borrado anteriormente. Los archivos visibles normalmente no se ver\u00e1n afectados. Por otro lado, este mismo hecho sirve para resaltar un aspecto diferente: el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> no puede ayudarte a limpiar la informaci\u00f3n sensible que no ha sido borrada pero que pudiera estar extremadamente bien oculta. Los archivos que contienen dichos datos pueden estar metidos en carpetas oscuras, por ejemplo, o almacenados con nombres sin significado. Este no es un gran problema para documentos electr\u00f3nicos, pero puede ser importante para informaci\u00f3n que se recolecta autom\u00e1ticamente cada vez que utilizas tu computadora. Ejemplos de ello incluyen:</p>\n<ul><li>Datos temporales registrados por tu navegador navegas por p\u00e1ginas web, incluyendo texto, im\u00e1genes, <a href=\"/es/glossary#Cookie\" title=\"Cookie\"><em>cookies</em></a>, informaci\u00f3n de cuentas, datos personales utilizados para llenar formularios en l\u00ednea y el historial de sitios web visitados.</li>\n</ul><ul><li>Archivos temporales guardados por varias aplicaciones con el fin de ayudarte a recobrarlos en caso se cuelgue tu computadora antes de que guardes tu trabajo. Estos archivos pueden contener texto, im\u00e1genes, datos de hojas de c\u00e1lculo y los nombres de otros archivos, entre otra informaci\u00f3n potencialmente sensible.</li>\n</ul><ul><li>Archivos y enlaces almacenados por Windows por conveniencia, tales como accesos directos a aplicaciones que has utilizado recientemente, enlaces a carpetas que preferir\u00edas ocultas y, por supuesto, los contenidos de tu <strong>Papelera de Reciclaje</strong> si olvidaste vaciarla.</li>\n</ul><ul><li>El <a href=\"/es/glossary#Archivo_intercambio\" title=\"Archivo de paginaci\u00f3n o de intercambio\"><em>archivo de paginaci\u00f3n o de intercambio</em></a> de Windows. Cuando la memoria de tu computadora est\u00e1 llena, por ejemplo como cuando has estado ejecutando muchos programas al mismo tiempo en una vieja computadora, Windows a veces copia los datos que est\u00e1s utilizando en un archivo extenso llamado <a href=\"/es/glossary#Archivo_intercambio\" title=\"Archivo de paginaci\u00f3n o de intercambio\"><em>archivo de paginaci\u00f3n o de intercambio</em></a>. Como resultado de ello este archivo puede contener casi todo, incluyendo las p\u00e1ginas web, los contenidos de los documentos, las contrase\u00f1as o las claves de cifrado. Incluso cuando apagas tu computadora, el archivo de paginaci\u00f3n o intercambio no se elimina, por ello debes <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminarlo permanentemente</em></a> de forma manual.</li>\n</ul><p>Con el fin de eliminar archivos temporales comunes de tu computadora, puedes utilizar la herramienta de software libre llamada <a href=\"/es/glossary#CCleaner\" title=\"CCleaner\"><em>CCleaner</em></a>, la cual fue dise\u00f1ada para realizar la limpieza despu\u00e9s de utilizar programas como el Internet Explorer, Mozilla <a href=\"/es/glossary#Firefox\" title=\"Firefox\"><em>Firefox</em></a> y las aplicaciones de Microsoft Office \u2014 todas las cuales son conocidas por exponer informaci\u00f3n potencialmente sensible \u2014 as\u00ed como el mismo Windows. El <a href=\"/es/glossary#CCleaner\" title=\"CCleaner\"><em>CCleaner</em></a> puede borrar archivos de forma segura, lo cual te ahorra el tener que <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> el espacio no asignado de la unidad, usando el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a>, despu\u00e9s de utilizarlo.</p>\n<p>\u00a0</p>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td><img align=\"middle\" height=\"63\" src=\"/sites/securitybkp.ngoinabox.org/files/u9/hand_web_trans.png\" width=\"60\" /><strong>Parte Pr\u00e1ctica: Empieza con la <a href=\"/es/ccleaner_principal\" title=\"Gu\u00eda del CCleaner\"><strong>Gu\u00eda del CCleaner</strong></a></strong></td>\n</tr></tbody></table><p>\u00a0</p>\n", 
+                        "summary": "", 
+                        "value": "<p>Cuando utilizas una herramienta de borrado seguro - tal como aquellas recomendadas en este capitulo - ser\u00eda m\u00e1s preciso decir que est\u00e1s reemplazando, o 'sobrescribiendo', tu informaci\u00f3n sensible, en vez de simplemente borrarla. Si imaginas que dichos documentos, en el gabinete de archivos deficientemente etiquetado que mencionamos antes, est\u00e1n escritos a l\u00e1piz, entonces un software de borrado seguro no s\u00f3lo borra el contenido, sino que garabatea sobre cada palabra. Y - en forma muy parecida al trazo de la mina de un l\u00e1piz - la informaci\u00f3n digital puede todav\u00eda leerse, aunque con dificultad, incluso despu\u00e9s de que haya sido borrada y se haya escrito algo sobre ella. Debido a esto las herramientas recomendadas aqu\u00ed sobrescriben archivos m\u00faltiples veces con datos aleatorios. A este proceso se le llama <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a>, y cuantas m\u00e1s veces la informaci\u00f3n sea sobrescrita, mayor es la dificultad para que alguien pueda recuperar el contenido original. Los expertos coinciden generalmente en que se deben hacer tres o m\u00e1s pasadas \u2014 algunos est\u00e1ndares recomiendan siete o m\u00e1s. El software de eliminaci\u00f3n permanente de datos se ocupa de esto autom\u00e1ticamente, pero puedes cambiar el n\u00famero de veces en que la informaci\u00f3n ser\u00e1 sobrescrita si quieres.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3 id=\"Eliminararchivos\">Eliminar permanentemente archivos</h3>\r\n\r\n<p>Existen dos maneras comunes de <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> datos sensibles de tu disco duro o de tu dispositivo de almacenamiento. Puedes eliminar permanentemente un archivo o puedes eliminar permanentemente todo el espacio 'no asignado' en la unidad. Cuando tomes esta decisi\u00f3n, puede ser \u00fatil considerar nuestro ejemplo previo del extenso informe que haya podido dejar copias incompletas esparcidas en todo tu disco duro aunque s\u00f3lo un archivo es visible. Si eliminas permanentemente el archivo mismo, garantizas que la actual versi\u00f3n est\u00e1 completamente eliminada, pero dejas las otras copias donde est\u00e1n. De hecho, no existe manera de apuntar directamente a dichas copias, debido a que las mismas no est\u00e1n visibles sin la utilizaci\u00f3n de un software especial. Sin embargo, al eliminar permanentemente todo el espacio en blanco de tu dispositivo de almacenamiento, te aseguras de que toda la informaci\u00f3n anteriormente borrada sea destruida. Regresando a la met\u00e1fora del gabinete de archivos, este procedimiento es comparable a buscar en el gabinete, y despu\u00e9s borrar y garabatear sobre cada documento cuya etiqueta haya sido retirada.</p>\r\n\r\n<p>El <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> es una herramienta de borrado segura, libre y de c\u00f3digo abierto, que es extremadamente f\u00e1cil de usar. Con el Eraser puedes <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> archivos en tres formas diferentes: seleccionando un solo archivo, seleccionando el contenido de la <strong>Papelera de Reciclaje</strong>, o eliminando permanentemente todo el espacio no asignado en la unidad. El Eraser puede tambi\u00e9n eliminar permanentemente los contenidos del <a href=\"/es/glossary#Archivo_intercambio\" title=\"Archivo de paginaci\u00f3n o intercambio\"><em>archivo de paginaci\u00f3n o intercambio</em></a> de Windows, lo cual se abordar\u00e1 a continuaci\u00f3n.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><img align=\"middle\" height=\"63\" src=\"/sites/securitybkp.ngoinabox.org/files/u9/hand_web_trans.png\" width=\"60\" /> <strong>Parte Pr\u00e1ctica: Empieza con la <a href=\"/es/eraser_principal\" title=\"Gu\u00eda del Eraser\"><strong>Gu\u00eda del Eraser</strong></a></strong></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Aunque las herramientas de borrado seguro no da\u00f1ar\u00e1n ning\u00fan archivo visible a menos que t\u00fa expresamente los elimines permanentemente, es importante ser cuidadoso con un software como este. Despu\u00e9s de todo los accidentes ocurren, es por ello que la gente considera muy \u00fatiles la <strong>Papelera de Reciclaje</strong> y las herramientas de recuperaci\u00f3n de datos. Si te acostumbras a <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> tus datos cada vez que borras algo, te encontraras sin forma de recuperarte de un simple error. Aseg\u00farate siempre de tener un respaldo seguro antes de eliminar permanentemente grandes cantidades de datos de tu computadora.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><em>Elena: S\u00e9 que los programas de procesamiento de texto como Microsoft Word y Open Office a veces realizan copias temporales de archivos mientras est\u00e1s trabajando en ellos. Existen otros programas que hagan lo mismo, o \u00bfdebo solamente preocuparme sobre los archivos que yo he creado y borrado?</em><br />\r\n\t\t\t<br />\r\n\t\t\t<em>Nikolai: En realidad, existen muchos lugares en tu computadora donde los programas dejan rastros de tu informaci\u00f3n personal y de tus actividades en l\u00ednea. Te hablo de los sitios web que has visitado, los borradores de correos electr\u00f3nicos que has escrito recientemente y otras cosas parecidas. Todo esto podr\u00eda ser sensible, dependiendo de cu\u00e1n a menudo utilizas esa computadora.</em></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3 id=\"Eliminardatostemporales\">Eliminar permanentemente datos temporales</h3>\r\n\r\n<p>La opci\u00f3n que permite al <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> todo el espacio no asignado de una unidad no es tan arriesgado como parece, debido a que s\u00f3lo elimina permanentemente contenido borrado anteriormente. Los archivos visibles normalmente no se ver\u00e1n afectados. Por otro lado, este mismo hecho sirve para resaltar un aspecto diferente: el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> no puede ayudarte a limpiar la informaci\u00f3n sensible que no ha sido borrada pero que pudiera estar extremadamente bien oculta. Los archivos que contienen dichos datos pueden estar metidos en carpetas oscuras, por ejemplo, o almacenados con nombres sin significado. Este no es un gran problema para documentos electr\u00f3nicos, pero puede ser importante para informaci\u00f3n que se recolecta autom\u00e1ticamente cada vez que utilizas tu computadora. Ejemplos de ello incluyen:</p>\r\n\r\n<ul>\r\n\t<li>Datos temporales registrados por tu navegador navegas por p\u00e1ginas web, incluyendo texto, im\u00e1genes, <a href=\"/es/glossary#Cookie\" title=\"Cookie\"><em>cookies</em></a>, informaci\u00f3n de cuentas, datos personales utilizados para llenar formularios en l\u00ednea y el historial de sitios web visitados.</li>\r\n</ul>\r\n\r\n<ul>\r\n\t<li>Archivos temporales guardados por varias aplicaciones con el fin de ayudarte a recobrarlos en caso se cuelgue tu computadora antes de que guardes tu trabajo. Estos archivos pueden contener texto, im\u00e1genes, datos de hojas de c\u00e1lculo y los nombres de otros archivos, entre otra informaci\u00f3n potencialmente sensible.</li>\r\n</ul>\r\n\r\n<ul>\r\n\t<li>Archivos y enlaces almacenados por Windows por conveniencia, tales como accesos directos a aplicaciones que has utilizado recientemente, enlaces a carpetas que preferir\u00edas ocultas y, por supuesto, los contenidos de tu <strong>Papelera de Reciclaje</strong> si olvidaste vaciarla.</li>\r\n</ul>\r\n\r\n<ul>\r\n\t<li>El <a href=\"/es/glossary#Archivo_intercambio\" title=\"Archivo de paginaci\u00f3n o de intercambio\"><em>archivo de paginaci\u00f3n o de intercambio</em></a> de Windows. Cuando la memoria de tu computadora est\u00e1 llena, por ejemplo como cuando has estado ejecutando muchos programas al mismo tiempo en una vieja computadora, Windows a veces copia los datos que est\u00e1s utilizando en un archivo extenso llamado <a href=\"/es/glossary#Archivo_intercambio\" title=\"Archivo de paginaci\u00f3n o de intercambio\"><em>archivo de paginaci\u00f3n o de intercambio</em></a>. Como resultado de ello este archivo puede contener casi todo, incluyendo las p\u00e1ginas web, los contenidos de los documentos, las contrase\u00f1as o las claves de cifrado. Incluso cuando apagas tu computadora, el archivo de paginaci\u00f3n o intercambio no se elimina, por ello debes <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminarlo permanentemente</em></a> de forma manual.</li>\r\n</ul>\r\n\r\n<p>Con el fin de eliminar archivos temporales comunes de tu computadora, puedes utilizar la herramienta de software libre llamada <a href=\"/es/glossary#CCleaner\" title=\"CCleaner\"><em>CCleaner</em></a>, la cual fue dise\u00f1ada para realizar la limpieza despu\u00e9s de utilizar programas como el Internet Explorer, Mozilla <a href=\"/es/glossary#Firefox\" title=\"Firefox\"><em>Firefox</em></a> y las aplicaciones de Microsoft Office \u2014 todas las cuales son conocidas por exponer informaci\u00f3n potencialmente sensible \u2014 as\u00ed como el mismo Windows. El <a href=\"/es/glossary#CCleaner\" title=\"CCleaner\"><em>CCleaner</em></a> puede borrar archivos de forma segura, lo cual te ahorra el tener que <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> el espacio no asignado de la unidad, usando el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a>, despu\u00e9s de utilizarlo.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><img align=\"middle\" height=\"63\" src=\"/sites/securitybkp.ngoinabox.org/files/u9/hand_web_trans.png\" width=\"60\" /> <strong>Parte Pr\u00e1ctica: Empieza con la <a href=\"/es/ccleaner_principal\" title=\"Gu\u00eda del CCleaner\"><strong>Gu\u00eda del CCleaner</strong></a></strong></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1952", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1952", 
+                "link_title": "\u1780\u17b6\u179a\u179b\u17bb\u1794\u1787\u17c6\u179a\u17c7\u200b\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793 \u178a\u17c4\u1799\u1794\u17d2\u179a\u17be\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u179b\u17bb\u1794\u17af\u1780\u179f\u17b6\u179a\u178a\u17c2\u179b\u179f\u17bb\u179c\u178f\u17d2\u1790\u17b7\u1797\u17b6\u1796", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5097", 
+                "module": "book", 
+                "nid": "1952", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5095", 
+                "p3": "5097", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5095", 
+                "router_path": "node/%", 
+                "title": "\u1780\u17b6\u179a\u179b\u17bb\u1794\u1787\u17c6\u179a\u17c7\u200b\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793 \u178a\u17c4\u1799\u1794\u17d2\u179a\u17be\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u179b\u17bb\u1794\u17af\u1780\u179f\u17b6\u179a\u178a\u17c2\u179b\u179f\u17bb\u179c\u178f\u17d2\u1790\u17b7\u1797\u17b6\u1796", 
+                "updated": "0", 
+                "weight": "2"
+            }, 
+            "changed": "1452605329", 
+            "comment": "0", 
+            "created": "1441104235", 
+            "current_revision_id": "12793", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_6_2", 
+                        "value": "chapter_6_2"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5097": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1952", 
+                    "link_title": "\u1780\u17b6\u179a\u179b\u17bb\u1794\u1787\u17c6\u179a\u17c7\u200b\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793 \u178a\u17c4\u1799\u1794\u17d2\u179a\u17be\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u179b\u17bb\u1794\u17af\u1780\u179f\u17b6\u179a\u178a\u17c2\u179b\u179f\u17bb\u179c\u178f\u17d2\u1790\u17b7\u1797\u17b6\u1796", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5097", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5095", 
+                    "p3": "5097", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5095", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "2"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1952", 
+            "num_revisions": "33", 
+            "path": "https://securityinabox.org/en/node/1952", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452605329", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Eliminar permanentemente informaci\u00f3n con herramientas seguras de borrado ", 
+                        "value": "Eliminar permanentemente informaci\u00f3n con herramientas seguras de borrado "
+                    }
+                ]
+            }, 
+            "title_original": "Wiping information with secure deletion tools", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916644", 
+                        "created": "1442916644", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227376", 
+                        "created": "1441806403", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096281", 
+                        "created": "1443096281", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442412970", 
+                        "created": "1442412970", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1452092517", 
+                        "created": "1441206901", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447108035", 
+                        "created": "1442761333", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443705750", 
+                        "created": "1443705750", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452605329", 
+                        "created": "1452605329", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443456724", 
+                        "created": "1443456724", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441115517", 
+                        "created": "1441115517", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443799458", 
+                        "created": "1443799099", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444396115", 
+                        "created": "1444396115", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100588", 
+                        "created": "1443100588", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443092935", 
+                        "created": "1443092935", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446485336", 
+                        "created": "1441104235", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444578608", 
+                        "created": "1443623130", 
+                        "entity_id": "1952", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "6d5954b9-7cba-4f9f-8f06-aaac55ce662a", 
+            "vid": "12793", 
+            "vuuid": "4f87bced-4efc-4b9b-a225-721d26fba79b"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "full_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Ahora est\u00e1s familiarizado con algunas de las formas en las cuales la informaci\u00f3n puede ser expuesta en tu computadora o en un dispositivo de almacenamiento, incluso si eres diligente en cuanto al borrado de archivos sensibles. Tambi\u00e9n sabes que herramientas puedes utilizar para <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> dicha informaci\u00f3n. Existen unos cuantos pasos simples que debes seguir, especialmente si es la primera vez que est\u00e1s utilizando estas herramientas, con el fin de garantizar que tu unidad sea limpiada de manera segura y efectiva:</p>\n<ul><li>Crea un respaldo cifrado de tus archivos m\u00e1s importantes, como se trat\u00f3 en el cap\u00edtulo<a href=\"/es/chapter-5\" title=\"5. Recuperar informaci\u00f3n perdida\"><strong> 5. Recuperar informaci\u00f3n perdida</strong></a><strong>.</strong></li>\n<li>Cierra todos los programas innecesarios y descon\u00e9ctate de Internet.</li>\n<li>Borra todos los archivos innecesarios, de todos los dispositivos de almacenamiento, y vac\u00eda la <em>Papelera de Reciclaje</em>.</li>\n<li><a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>Elimina permanentemente</em></a> los archivos temporales utilizando el <a href=\"/es/glossary#CCleaner\" title=\"CCleaner\"><em>CCleaner</em></a><em>.</em></li>\n<li><a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>Elimina permanentemente</em></a> el <a href=\"/es/glossary#Archivo_intercambio\" title=\"Archivo de paginaci\u00f3n o de intercambio\"><em>archivo de paginaci\u00f3n o de intercambio</em></a> de Windows utilizando el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a>.</li>\n<li><a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>Elimina permanentemente</em></a> todo el espacio libre de tu computadora y de otros dispositivos de almacenamiento utilizando el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a>. Podr\u00edas necesitar que este procedimiento se ejecute durante la noche, pues puede ser muy lento.</li>\n</ul><p>Luego, debes habituarte a:</p>\n<ul><li>Utilizar peri\u00f3dicamente el <a href=\"/es/glossary#CCleaner\" title=\"CCleaner\"><em>CCleaner</em></a> para <em><a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a></em> tus archivos temporales</li>\n<li><a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>Eliminar permanentemente</em></a> los documentos electr\u00f3nicos sensibles utilizando el<em> </em><a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a>, en vez de utilizar la <em>Papelera de Reciclaje</em> o la funci\u00f3n de borrado de Windows</li>\n<li>Utilizar peri\u00f3dicamente el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> para <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> el archivo de paginaci\u00f3n o de intercambio de Windows</li>\n<li>Utilizar peri\u00f3dicamente el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> para <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> todo el espacio no asignado en tus discos duros, memorias extra\u00edbles USB, y cualquier otro dispositivo de almacenamiento que pudiera tener informaci\u00f3n sensible borrada recientemente. Entre ellos se puede incluir disquetes, CDs regrabables, DVDs regrabables y tarjetas de memoria flash de c\u00e1maras, tel\u00e9fonos m\u00f3viles o reproductores port\u00e1tiles de m\u00fasica.</li>\n</ul><p>\u00a0</p>\n", 
+                        "summary": "", 
+                        "value": "<p>Ahora est\u00e1s familiarizado con algunas de las formas en las cuales la informaci\u00f3n puede ser expuesta en tu computadora o en un dispositivo de almacenamiento, incluso si eres diligente en cuanto al borrado de archivos sensibles. Tambi\u00e9n sabes que herramientas puedes utilizar para <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> dicha informaci\u00f3n. Existen unos cuantos pasos simples que debes seguir, especialmente si es la primera vez que est\u00e1s utilizando estas herramientas, con el fin de garantizar que tu unidad sea limpiada de manera segura y efectiva:</p>\r\n\r\n<ul>\r\n\t<li>Crea un respaldo cifrado de tus archivos m\u00e1s importantes, como se trat\u00f3 en el cap\u00edtulo<a href=\"/es/chapter-5\" title=\"5. Recuperar informaci\u00f3n perdida\"><strong> 5. Recuperar informaci\u00f3n perdida</strong></a><strong>.</strong></li>\r\n\t<li>Cierra todos los programas innecesarios y descon\u00e9ctate de Internet.</li>\r\n\t<li>Borra todos los archivos innecesarios, de todos los dispositivos de almacenamiento, y vac\u00eda la <em>Papelera de Reciclaje</em>.</li>\r\n\t<li><a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>Elimina permanentemente</em></a> los archivos temporales utilizando el <a href=\"/es/glossary#CCleaner\" title=\"CCleaner\"><em>CCleaner</em></a><em>.</em></li>\r\n\t<li><a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>Elimina permanentemente</em></a> el <a href=\"/es/glossary#Archivo_intercambio\" title=\"Archivo de paginaci\u00f3n o de intercambio\"><em>archivo de paginaci\u00f3n o de intercambio</em></a> de Windows utilizando el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a>.</li>\r\n\t<li><a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>Elimina permanentemente</em></a> todo el espacio libre de tu computadora y de otros dispositivos de almacenamiento utilizando el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a>. Podr\u00edas necesitar que este procedimiento se ejecute durante la noche, pues puede ser muy lento.</li>\r\n</ul>\r\n\r\n<p>Luego, debes habituarte a:</p>\r\n\r\n<ul>\r\n\t<li>Utilizar peri\u00f3dicamente el <a href=\"/es/glossary#CCleaner\" title=\"CCleaner\"><em>CCleaner</em></a> para <em><a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a></em> tus archivos temporales</li>\r\n\t<li><a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>Eliminar permanentemente</em></a> los documentos electr\u00f3nicos sensibles utilizando el<em> </em><a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a>, en vez de utilizar la <em>Papelera de Reciclaje</em> o la funci\u00f3n de borrado de Windows</li>\r\n\t<li>Utilizar peri\u00f3dicamente el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> para <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> el archivo de paginaci\u00f3n o de intercambio de Windows</li>\r\n\t<li>Utilizar peri\u00f3dicamente el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> para <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> todo el espacio no asignado en tus discos duros, memorias extra\u00edbles USB, y cualquier otro dispositivo de almacenamiento que pudiera tener informaci\u00f3n sensible borrada recientemente. Entre ellos se puede incluir disquetes, CDs regrabables, DVDs regrabables y tarjetas de memoria flash de c\u00e1maras, tel\u00e9fonos m\u00f3viles o reproductores port\u00e1tiles de m\u00fasica.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1953", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1953", 
+                "link_title": "Tips on using secure deletion tools effectively", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5098", 
+                "module": "book", 
+                "nid": "1953", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5095", 
+                "p3": "5098", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5095", 
+                "router_path": "node/%", 
+                "title": "Tips on using secure deletion tools effectively", 
+                "updated": "0", 
+                "weight": "3"
+            }, 
+            "changed": "1456314032", 
+            "comment": "0", 
+            "created": "1441104275", 
+            "current_revision_id": "13349", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_6_3", 
+                        "value": "chapter_6_3"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5098": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1953", 
+                    "link_title": "Tips on using secure deletion tools effectively", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5098", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5095", 
+                    "p3": "5098", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5095", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "3"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1953", 
+            "num_revisions": "36", 
+            "path": "https://securityinabox.org/en/node/1953", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1456314032", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Consejos para utilizar de manera efectiva las herramientas seguras de borrado", 
+                        "value": "Consejos para utilizar de manera efectiva las herramientas seguras de borrado"
+                    }
+                ]
+            }, 
+            "title_original": "Tips on using secure deletion tools effectively", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916713", 
+                        "created": "1442916713", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227423", 
+                        "created": "1441806731", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096318", 
+                        "created": "1443096318", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442413032", 
+                        "created": "1442413032", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451916396", 
+                        "created": "1441207536", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1456314032", 
+                        "created": "1442761361", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1455879870", 
+                        "created": "1443705772", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452607855", 
+                        "created": "1452607855", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443456791", 
+                        "created": "1443456791", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441115594", 
+                        "created": "1441115594", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443799894", 
+                        "created": "1443799894", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444396214", 
+                        "created": "1444396214", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100615", 
+                        "created": "1443100615", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443093042", 
+                        "created": "1443093042", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446483456", 
+                        "created": "1441104275", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1953", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444578650", 
+                        "created": "1443623162", 
+                        "entity_id": "1953", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1953", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "e12c5748-b077-4889-9df2-68dbbf76d5ca", 
+            "vid": "13349", 
+            "vuuid": "b62f6991-2c46-458b-9c97-a3e4e37b0da3"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "full_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<p>Podr\u00edas ocasionalmente necesitar <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> todos los contenidos de un dispositivo de almacenamiento. Cuando vendes o regalas una vieja computadora, lo mejor es retirar el disco duro y que el nuevo due\u00f1o de la computadora adquiera un para s\u00ed mismo. Sin embargo, si esta no es una opci\u00f3n, debes al menos eliminar permanentemente los contenidos del disco de manera rigurosa con el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> antes de entregarlo. Incluso en el caso en el que conserves el disco, probablemente quieras eliminar permanentemente su contenido de todas maneras, sin importar si pretendes reutilizarlo o desecharlo. De manera similar, si compras un nuevo disco duro, debes eliminar permanentemente los contenidos del antiguo despu\u00e9s de copiar tus datos y hacer un respaldo seguro de este. Si lo que pretendes es tirar o reciclar un viejo disco duro, tambi\u00e9n debes considerar destruirlo f\u00edsicamente. (Muchos profesionales de soporte t\u00e9cnico de computadoras recomiendan unos cuantos golpes fuertes con un martillo antes de desechar cualquier dispositivo de almacenamiento que alguna vez contuvo informaci\u00f3n sensible.)</p>\n<p>En cualquiera de las situaciones descritas anteriormente, necesitar\u00e1s utilizar el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> para <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> el contenido total de un disco duro, lo cual es imposible mientras el sistema operativo se est\u00e9 ejecutando en ese disco en particular. La manera m\u00e1s f\u00e1cil de tratar este asunto es sacar el disco y colocarlo en una 'cubierta de disco' externa USB la cual puedes luego conectar a cualquier computadora que tenga instalado el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a>. De esta forma, puedes borrar el contenido completo del disco externo y luego utilizar el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> para eliminar permanentemente todo su espacio no asignado. Afortunadamente, esto no es algo que tengas que hacer a menudo, pues puede tomar bastante tiempo.</p>\n<p>En vez de <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> los datos que han sido almacenados en un CD o DVD regrabable, es mejor destruir el disco mismo. Si es necesario, puedes crear uno nuevo que contenga cualquier informaci\u00f3n que desees mantener. Y, por supuesto, esta es la \u00fanica manera de 'borrar' el contenido de un disco no regrabable. Es sorprendentemente dif\u00edcil destruir completamente los contenidos de un CD o DVD. Seguramente has escuchado historias sobre informaci\u00f3n recuperada de tales discos incluso despu\u00e9s de que fueran cortados en peque\u00f1os pedazos. Aunque estas historias son ciertas, reconstruir la informaci\u00f3n de esta manera toma mucho tiempo y pericia. Debes juzgar por ti mismo si es probable o no que alguien invierta ese nivel de recursos con el fin de acceder a tus datos. Normalmente, un par de fuertes tijeras o una fuerte cortadora de papel har\u00e1 un buen trabajo. Si deseas tomar precauciones adicionales, puedes mezclar las piezas resultantes y disponer de ellas en varias ubicaciones alejadas de tu casa u oficina.</p>\n<p>\u00a0</p>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\"><tbody><tr><td><em>Elena: Todav\u00eda tengo un viejo CD de respaldo de los registros del servidor web, y escuch\u00e9 que puedes borrar un CD coloc\u00e1ndolo en el microondas. Sin embargo, esto me suena a una mala idea. \u00bfLas personas en realidad hacen esto? \u00bfRealmente funciona?</em>\n<p>\t\t\t<em>Nikolai: Me imagino que destruye los datos de manera muy efectiva, pero no podr\u00eda saberlo, porque \u00a1nunca pondr\u00eda un CD en un microondas! Est\u00e1s en lo correcto. Eso suena como una muy mala idea. Incluso si el metal no da\u00f1a tu microondas o inicia un incendio, te apuesto que el pl\u00e1stico emitir\u00e1 humos muy insalubres. Pensando en ello, no recomendar\u00eda tampoco quemar CDs en un fuego.</em></p></td>\n</tr></tbody></table><p>\u00a0</p>\n<p>\u00a0</p>\n", 
+                        "summary": "", 
+                        "value": "<p>Podr\u00edas ocasionalmente necesitar <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> todos los contenidos de un dispositivo de almacenamiento. Cuando vendes o regalas una vieja computadora, lo mejor es retirar el disco duro y que el nuevo due\u00f1o de la computadora adquiera un para s\u00ed mismo. Sin embargo, si esta no es una opci\u00f3n, debes al menos eliminar permanentemente los contenidos del disco de manera rigurosa con el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> antes de entregarlo. Incluso en el caso en el que conserves el disco, probablemente quieras eliminar permanentemente su contenido de todas maneras, sin importar si pretendes reutilizarlo o desecharlo. De manera similar, si compras un nuevo disco duro, debes eliminar permanentemente los contenidos del antiguo despu\u00e9s de copiar tus datos y hacer un respaldo seguro de este. Si lo que pretendes es tirar o reciclar un viejo disco duro, tambi\u00e9n debes considerar destruirlo f\u00edsicamente. (Muchos profesionales de soporte t\u00e9cnico de computadoras recomiendan unos cuantos golpes fuertes con un martillo antes de desechar cualquier dispositivo de almacenamiento que alguna vez contuvo informaci\u00f3n sensible.)</p>\r\n\r\n<p>En cualquiera de las situaciones descritas anteriormente, necesitar\u00e1s utilizar el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> para <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> el contenido total de un disco duro, lo cual es imposible mientras el sistema operativo se est\u00e9 ejecutando en ese disco en particular. La manera m\u00e1s f\u00e1cil de tratar este asunto es sacar el disco y colocarlo en una 'cubierta de disco' externa USB la cual puedes luego conectar a cualquier computadora que tenga instalado el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a>. De esta forma, puedes borrar el contenido completo del disco externo y luego utilizar el <a href=\"/es/glossary#Eraser\" title=\"Eraser\"><em>Eraser</em></a> para eliminar permanentemente todo su espacio no asignado. Afortunadamente, esto no es algo que tengas que hacer a menudo, pues puede tomar bastante tiempo.</p>\r\n\r\n<p>En vez de <a href=\"/es/glossary#Eliminacion\" title=\"Eliminaci\u00f3n\"><em>eliminar permanentemente</em></a> los datos que han sido almacenados en un CD o DVD regrabable, es mejor destruir el disco mismo. Si es necesario, puedes crear uno nuevo que contenga cualquier informaci\u00f3n que desees mantener. Y, por supuesto, esta es la \u00fanica manera de 'borrar' el contenido de un disco no regrabable. Es sorprendentemente dif\u00edcil destruir completamente los contenidos de un CD o DVD. Seguramente has escuchado historias sobre informaci\u00f3n recuperada de tales discos incluso despu\u00e9s de que fueran cortados en peque\u00f1os pedazos. Aunque estas historias son ciertas, reconstruir la informaci\u00f3n de esta manera toma mucho tiempo y pericia. Debes juzgar por ti mismo si es probable o no que alguien invierta ese nivel de recursos con el fin de acceder a tus datos. Normalmente, un par de fuertes tijeras o una fuerte cortadora de papel har\u00e1 un buen trabajo. Si deseas tomar precauciones adicionales, puedes mezclar las piezas resultantes y disponer de ellas en varias ubicaciones alejadas de tu casa u oficina.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><em>Elena: Todav\u00eda tengo un viejo CD de respaldo de los registros del servidor web, y escuch\u00e9 que puedes borrar un CD coloc\u00e1ndolo en el microondas. Sin embargo, esto me suena a una mala idea. \u00bfLas personas en realidad hacen esto? \u00bfRealmente funciona?</em><br />\r\n\t\t\t<br />\r\n\t\t\t<em>Nikolai: Me imagino que destruye los datos de manera muy efectiva, pero no podr\u00eda saberlo, porque \u00a1nunca pondr\u00eda un CD en un microondas! Est\u00e1s en lo correcto. Eso suena como una muy mala idea. Incluso si el metal no da\u00f1a tu microondas o inicia un incendio, te apuesto que el pl\u00e1stico emitir\u00e1 humos muy insalubres. Pensando en ello, no recomendar\u00eda tampoco quemar CDs en un fuego.</em></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1954", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1954", 
+                "link_title": "\u178a\u17c6\u1794\u17bc\u1793\u17d2\u1798\u17b6\u1793\u17a2\u17c6\u1796\u17b8 \u1780\u17b6\u179a\u179b\u17bb\u1794\u1787\u17c6\u179a\u17c7\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u1791\u17b6\u17c6\u1784\u179f\u17d2\u179a\u17bb\u1784\u1785\u17c1\u1789\u1796\u17b8\u17a7\u1794\u1780\u179a\u178e\u17cd\u1795\u17d2\u1791\u17bb\u1780\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u1798\u17bd\u1799", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5099", 
+                "module": "book", 
+                "nid": "1954", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5095", 
+                "p3": "5099", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5095", 
+                "router_path": "node/%", 
+                "title": "\u178a\u17c6\u1794\u17bc\u1793\u17d2\u1798\u17b6\u1793\u17a2\u17c6\u1796\u17b8 \u1780\u17b6\u179a\u179b\u17bb\u1794\u1787\u17c6\u179a\u17c7\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u1791\u17b6\u17c6\u1784\u179f\u17d2\u179a\u17bb\u1784\u1785\u17c1\u1789\u1796\u17b8\u17a7\u1794\u1780\u179a\u178e\u17cd\u1795\u17d2\u1791\u17bb\u1780\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u1798\u17bd\u1799", 
+                "updated": "0", 
+                "weight": "4"
+            }, 
+            "changed": "1452608753", 
+            "comment": "0", 
+            "created": "1441104319", 
+            "current_revision_id": "12797", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_6_4", 
+                        "value": "chapter_6_4"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5099": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1954", 
+                    "link_title": "\u178a\u17c6\u1794\u17bc\u1793\u17d2\u1798\u17b6\u1793\u17a2\u17c6\u1796\u17b8 \u1780\u17b6\u179a\u179b\u17bb\u1794\u1787\u17c6\u179a\u17c7\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u1791\u17b6\u17c6\u1784\u179f\u17d2\u179a\u17bb\u1784\u1785\u17c1\u1789\u1796\u17b8\u17a7\u1794\u1780\u179a\u178e\u17cd\u1795\u17d2\u1791\u17bb\u1780\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u1798\u17bd\u1799", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5099", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5095", 
+                    "p3": "5099", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5095", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "4"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1954", 
+            "num_revisions": "31", 
+            "path": "https://securityinabox.org/en/node/1954", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1452608753", 
+            "revision_uid": "228", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Consejos para eliminar permanentemente el contenido completo de un dispositivo de almacenamiento", 
+                        "value": "Consejos para eliminar permanentemente el contenido completo de un dispositivo de almacenamiento"
+                    }
+                ]
+            }, 
+            "title_original": "Tips on wiping the entire contents of a storage device", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1442916777", 
+                        "created": "1442916777", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ar": {
+                        "changed": "1442227463", 
+                        "created": "1441806847", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "ar", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096357", 
+                        "created": "1443096357", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442413119", 
+                        "created": "1442413119", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451917225", 
+                        "created": "1441207615", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447108341", 
+                        "created": "1442761391", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443705790", 
+                        "created": "1443705790", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452608753", 
+                        "created": "1452608694", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443456852", 
+                        "created": "1443456852", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441115725", 
+                        "created": "1441115725", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443800081", 
+                        "created": "1443800081", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444396288", 
+                        "created": "1444396288", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100685", 
+                        "created": "1443100685", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443093106", 
+                        "created": "1443093106", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1446483368", 
+                        "created": "1441104319", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": null, 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444578765", 
+                        "created": "1443623191", 
+                        "entity_id": "1954", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": null, 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "492acc6e-2aa6-4d66-8de8-f6059acd1105", 
+            "vid": "12797", 
+            "vuuid": "8c385253-4790-4263-9106-78e9895bbadd"
+        }, 
+        {
+            "body": {
+                "es": [
+                    {
+                        "format": "full_html", 
+                        "safe_summary": "", 
+                        "safe_value": "<ul><li>Aunque no utiliza t\u00e9cnicas de borrado seguro para eliminarlos permanentemente, el Mozilla Firefox tiene incorporada una manera de borrar muchos de sus archivos temporales. Esta caracter\u00edstica se describe en la Secci\u00f3n de la <a href=\"/es/firefox_principal\" title=\"Gu\u00eda del Firefox\"><strong>Gu\u00eda del Firefox</strong></a> y en el <a href=\"https://support.mozilla.org/es/kb/Limpiar%20informaci\u00f3n%20privada\" title=\"Deleting personal information in Firefox\">sitio web del Mozilla Firefox</a> [1].</li>\n<li>La secci\u00f3n de <a href=\"http://www.ccleaner.com/help/faq\" title=\"CCleaner FAQ\">Preguntas Frecuentes del CCleaner</a> [2] proporciona informaci\u00f3n adicional sobre la instalaci\u00f3n y el uso de esta herramienta.</li>\n<li>Aunque la mayor parte de este ensayo es muy t\u00e9cnico, la introducci\u00f3n de Peter Guttmann a su <a href=\"http://www.usenix.org/publications/library/proceedings/sec96/full_papers/gutmann/\" title=\"Gutmann on secure deletion\">Borrado Seguro de Datos de Memorias Magn\u00e9ticas y Transistorizadas</a> [3] merece la pena ser le\u00eddo, pues el <a href=\"http://es.wikipedia.org/wiki/M\u00e9todo_Gutmann\" title=\"Gutmann method\">m\u00e9todo</a> [4] que describe ha tenido una gran influencia en los desarrolladores del Eraser y de otras herramientas de remoci\u00f3n segura de archivos.</li>\n</ul><p>\u00a0</p>\n<h3>Referencias</h3>\n<p>[1] <a href=\"https://support.mozilla.org/es/kb/Limpiar%20informaci\">https://support.mozilla.org/es/kb/Limpiar%20informaci</a>\u00f3n%20privada<br />\n[2] <a href=\"http://www.ccleaner.com/help/faq\">www.ccleaner.com/help/faq</a><br />\n[3] <a href=\"http://www.usenix.org/publications/library/proceedings/sec96/full_papers/gutmann\">www.usenix.org/publications/library/proceedings/sec96/full_papers/gutmann</a><br />\n[4] <a href=\"http://www.es.wikipedia.org/wiki/M\">www.es.wikipedia.org/wiki/M</a>\u00e9todo_Gutmann</p>\n<p>\u00a0</p>\n", 
+                        "summary": "", 
+                        "value": "<ul>\r\n\t<li>Aunque no utiliza t\u00e9cnicas de borrado seguro para eliminarlos permanentemente, el Mozilla Firefox tiene incorporada una manera de borrar muchos de sus archivos temporales. Esta caracter\u00edstica se describe en la Secci\u00f3n de la <a href=\"/es/firefox_principal\" title=\"Gu\u00eda del Firefox\"><strong>Gu\u00eda del Firefox</strong></a> y en el <a href=\"https://support.mozilla.org/es/kb/Limpiar%20informaci\u00f3n%20privada\" title=\"Deleting personal information in Firefox\">sitio web del Mozilla Firefox</a> [1].</li>\r\n\t<li>La secci\u00f3n de <a href=\"http://www.ccleaner.com/help/faq\" title=\"CCleaner FAQ\">Preguntas Frecuentes del CCleaner</a> [2] proporciona informaci\u00f3n adicional sobre la instalaci\u00f3n y el uso de esta herramienta.</li>\r\n\t<li>Aunque la mayor parte de este ensayo es muy t\u00e9cnico, la introducci\u00f3n de Peter Guttmann a su <a href=\"http://www.usenix.org/publications/library/proceedings/sec96/full_papers/gutmann/\" title=\"Gutmann on secure deletion\">Borrado Seguro de Datos de Memorias Magn\u00e9ticas y Transistorizadas</a> [3] merece la pena ser le\u00eddo, pues el <a href=\"http://es.wikipedia.org/wiki/M\u00e9todo_Gutmann\" title=\"Gutmann method\">m\u00e9todo</a> [4] que describe ha tenido una gran influencia en los desarrolladores del Eraser y de otras herramientas de remoci\u00f3n segura de archivos.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Referencias</h3>\r\n\r\n<p>[1] https://support.mozilla.org/es/kb/Limpiar%20informaci\u00f3n%20privada<br />\r\n[2] www.ccleaner.com/help/faq<br />\r\n[3] www.usenix.org/publications/library/proceedings/sec96/full_papers/gutmann<br />\r\n[4] www.es.wikipedia.org/wiki/M\u00e9todo_Gutmann</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                    }
+                ]
+            }, 
+            "book": {
+                "bid": "1925", 
+                "customized": "0", 
+                "depth": "3", 
+                "expanded": "0", 
+                "external": "0", 
+                "has_children": "0", 
+                "hidden": "0", 
+                "href": "node/1955", 
+                "i18n_tsid": "0", 
+                "language": "und", 
+                "link_path": "node/1955", 
+                "link_title": "Further reading", 
+                "menu_name": "book-toc-1925", 
+                "mlid": "5100", 
+                "module": "book", 
+                "nid": "1955", 
+                "options": [], 
+                "p1": "5030", 
+                "p2": "5095", 
+                "p3": "5100", 
+                "p4": "0", 
+                "p5": "0", 
+                "p6": "0", 
+                "p7": "0", 
+                "p8": "0", 
+                "p9": "0", 
+                "plid": "5095", 
+                "router_path": "node/%", 
+                "title": "Further reading", 
+                "updated": "0", 
+                "weight": "5"
+            }, 
+            "changed": "1455881979", 
+            "comment": "0", 
+            "created": "1441104360", 
+            "current_revision_id": "13278", 
+            "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+            "field_url_path": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "chapter_6_6", 
+                        "value": "chapter_6_6"
+                    }
+                ]
+            }, 
+            "is_current": true, 
+            "is_pending": false, 
+            "language": "xx", 
+            "log": "", 
+            "menu_node_links": {
+                "5100": {
+                    "customized": "0", 
+                    "depth": "3", 
+                    "expanded": "0", 
+                    "external": "0", 
+                    "has_children": "0", 
+                    "hidden": "0", 
+                    "i18n_tsid": "0", 
+                    "language": "und", 
+                    "link_path": "node/1955", 
+                    "link_title": "Further reading", 
+                    "menu_name": "book-toc-1925", 
+                    "mlid": "5100", 
+                    "module": "book", 
+                    "options": "a:0:{}", 
+                    "p1": "5030", 
+                    "p2": "5095", 
+                    "p3": "5100", 
+                    "p4": "0", 
+                    "p5": "0", 
+                    "p6": "0", 
+                    "p7": "0", 
+                    "p8": "0", 
+                    "p9": "0", 
+                    "plid": "5095", 
+                    "router_path": "node/%", 
+                    "updated": "0", 
+                    "weight": "5"
+                }
+            }, 
+            "name": "chris", 
+            "nid": "1955", 
+            "num_revisions": "22", 
+            "path": "https://securityinabox.org/en/node/1955", 
+            "picture": "100", 
+            "print_html_display": 1, 
+            "print_html_display_comment": 0, 
+            "print_html_display_urllist": 1, 
+            "print_pdf_display": 1, 
+            "print_pdf_display_comment": 0, 
+            "print_pdf_display_urllist": 1, 
+            "print_pdf_orientation": "", 
+            "print_pdf_size": "", 
+            "promote": "1", 
+            "revision_moderation": false, 
+            "revision_timestamp": "1455881979", 
+            "revision_uid": "479", 
+            "status": "1", 
+            "sticky": "0", 
+            "title": null, 
+            "title_field": {
+                "es": [
+                    {
+                        "format": null, 
+                        "safe_value": "Lecturas Adicionales", 
+                        "value": "Lecturas Adicionales"
+                    }
+                ]
+            }, 
+            "title_original": "Further reading", 
+            "tnid": "0", 
+            "translate": "0", 
+            "translations": {
+                "data": {
+                    "am": {
+                        "changed": "1455881979", 
+                        "created": "1442916870", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "am", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "bo": {
+                        "changed": "1443096362", 
+                        "created": "1443096362", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "bo", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "es": {
+                        "changed": "1442413243", 
+                        "created": "1442413243", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "es", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "fa": {
+                        "changed": "1451917320", 
+                        "created": "1441207665", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "fa", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "fr": {
+                        "changed": "1447108382", 
+                        "created": "1442761407", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "fr", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }, 
+                    "id": {
+                        "changed": "1443705810", 
+                        "created": "1443705810", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "id", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "km": {
+                        "changed": "1452609764", 
+                        "created": "1452609764", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "km", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "my": {
+                        "changed": "1443457010", 
+                        "created": "1443457010", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "my", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "pt-pt": {
+                        "changed": "1441115788", 
+                        "created": "1441115788", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "pt-pt", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "228"
+                    }, 
+                    "ru": {
+                        "changed": "1443799706", 
+                        "created": "1443799706", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "ru", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "th": {
+                        "changed": "1444396359", 
+                        "created": "1444396359", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "th", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "tr": {
+                        "changed": "1443100747", 
+                        "created": "1443100747", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "tr", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "340"
+                    }, 
+                    "vi": {
+                        "changed": "1443093176", 
+                        "created": "1443093176", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "vi", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "343"
+                    }, 
+                    "xx": {
+                        "changed": "1441104360", 
+                        "created": "1441104360", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "xx", 
+                        "revision_id": "1955", 
+                        "source": "", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "70"
+                    }, 
+                    "zh-hans": {
+                        "changed": "1444578835", 
+                        "created": "1443623221", 
+                        "entity_id": "1955", 
+                        "entity_type": "node", 
+                        "language": "zh-hans", 
+                        "revision_id": "1955", 
+                        "source": "xx", 
+                        "status": "1", 
+                        "translate": "0", 
+                        "uid": "141"
+                    }
+                }, 
+                "original": "xx"
+            }, 
+            "type": "legacy_subsidiary_content", 
+            "uid": "70", 
+            "uuid": "badf7089-f3d7-48f4-b6f3-db483312dba1", 
+            "vid": "13278", 
+            "vuuid": "28601ef3-3cc2-4d06-a468-7188ee67e5bb"
+        }
+    ], 
+    "changed": "1452605109", 
+    "comment": "0", 
+    "created": "1441104103", 
+    "current_revision_id": "12791", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_menu_title": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "6. How to destroy sensitive information", 
+                "value": "6. How to destroy sensitive information"
+            }
+        ]
+    }, 
+    "field_menu_title_long": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "6. Destruir informaci\u00f3n sensible", 
+                "value": "6. Destruir informaci\u00f3n sensible"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_summary": [], 
+    "field_updated_on": {
+        "und": [
+            {
+                "date_type": "datetime", 
+                "timezone": "Europe/Berlin", 
+                "timezone_db": "Europe/Berlin", 
+                "value": "2015-10-09 00:00:00"
+            }
+        ]
+    }, 
+    "field_url_path": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "chapter-6", 
+                "value": "chapter-6"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "6"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "6"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "xx", 
+    "log": "", 
+    "menu_node_links": {
+        "5095": {
+            "customized": "0", 
+            "depth": "2", 
+            "expanded": "0", 
+            "external": "0", 
+            "has_children": "1", 
+            "hidden": "0", 
+            "i18n_tsid": "0", 
+            "language": "und", 
+            "link_path": "node/1950", 
+            "link_title": "\u17e6. \u179a\u1794\u17c0\u1794\u1794\u17c6\u1795\u17d2\u179b\u17b6\u1789\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179a\u179f\u17be\u1794", 
+            "menu_name": "book-toc-1925", 
+            "mlid": "5095", 
+            "module": "book", 
+            "options": "a:0:{}", 
+            "p1": "5030", 
+            "p2": "5095", 
+            "p3": "0", 
+            "p4": "0", 
+            "p5": "0", 
+            "p6": "0", 
+            "p7": "0", 
+            "p8": "0", 
+            "p9": "0", 
+            "plid": "5030", 
+            "router_path": "node/%", 
+            "updated": "0", 
+            "weight": "6"
+        }
+    }, 
+    "name": "chris", 
+    "nid": "1950", 
+    "num_revisions": "21", 
+    "path": "https://securityinabox.org/en/node/1950", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1452605109", 
+    "revision_uid": "228", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": null, 
+    "title_field": {
+        "es": [
+            {
+                "format": null, 
+                "safe_value": "6. Destruir informaci\u00f3n sensible", 
+                "value": "6. Destruir informaci\u00f3n sensible"
+            }
+        ]
+    }, 
+    "title_original": "6. How to destroy sensitive information", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "am": {
+                "changed": "1442916463", 
+                "created": "1442916463", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "am", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ar": {
+                "changed": "1442227308", 
+                "created": "1441806002", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "ar", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "bo": {
+                "changed": "1443093968", 
+                "created": "1443093968", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "bo", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "es": {
+                "changed": "1442412751", 
+                "created": "1442412751", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "es", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "fa": {
+                "changed": "1441206837", 
+                "created": "1441206837", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "fa", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "fr": {
+                "changed": "1447107793", 
+                "created": "1442761286", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "fr", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }, 
+            "id": {
+                "changed": "1443693204", 
+                "created": "1443693204", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "id", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "km": {
+                "changed": "1452605109", 
+                "created": "1452605109", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "km", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "my": {
+                "changed": "1443103426", 
+                "created": "1443103426", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "my", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "pt-pt": {
+                "changed": "1441115215", 
+                "created": "1441115215", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "pt-pt", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "228"
+            }, 
+            "ru": {
+                "changed": "1443798629", 
+                "created": "1443798629", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "ru", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "th": {
+                "changed": "1444395607", 
+                "created": "1444395607", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "th", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "tr": {
+                "changed": "1443014688", 
+                "created": "1443014688", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "tr", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "340"
+            }, 
+            "vi": {
+                "changed": "1443093297", 
+                "created": "1443093297", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "vi", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "343"
+            }, 
+            "xx": {
+                "changed": "1441104103", 
+                "created": "1441104103", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "xx", 
+                "revision_id": null, 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }, 
+            "zh-hans": {
+                "changed": "1444577876", 
+                "created": "1443623073", 
+                "entity_id": "1950", 
+                "entity_type": "node", 
+                "language": "zh-hans", 
+                "revision_id": null, 
+                "source": "xx", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "141"
+            }
+        }, 
+        "original": "xx"
+    }, 
+    "type": "legacy_how_to_booklet_chapter", 
+    "uid": "70", 
+    "uuid": "d931ee68-c96e-4d0c-b530-bcf140ca9d1d", 
+    "vid": "12791", 
+    "vuuid": "24935096-6cbb-4b46-87e0-abf1b546dcf0"
+}

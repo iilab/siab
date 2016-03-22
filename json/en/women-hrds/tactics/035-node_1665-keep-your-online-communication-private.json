@@ -1,0 +1,376 @@
+{
+    "changed": "1449808422", 
+    "comment": "0", 
+    "created": "1433158283", 
+    "current_revision_id": "11835", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_cg_translated_guide_title": {
+        "und": [
+            {
+                "vargs": "[node:nid]", 
+                "vname": "get_translated_guide_title|default"
+            }
+        ]
+    }, 
+    "field_edit_guide_link": {
+        "und": [
+            {
+                "vargs": "", 
+                "vname": "get_edit_link_to_referenced_guide|default"
+            }
+        ]
+    }, 
+    "field_guide": {
+        "und": [
+            {
+                "changed": "1452602050", 
+                "comment": "0", 
+                "created": "1410727778", 
+                "current_revision_id": "5553", 
+                "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+                "field_htb_chapter_element": {
+                    "und": [
+                        {
+                            "target_id": "495"
+                        }, 
+                        {
+                            "target_id": "496"
+                        }, 
+                        {
+                            "target_id": "497"
+                        }, 
+                        {
+                            "target_id": "498"
+                        }, 
+                        {
+                            "target_id": "499"
+                        }, 
+                        {
+                            "target_id": "500"
+                        }, 
+                        {
+                            "target_id": "501"
+                        }, 
+                        {
+                            "target_id": "502"
+                        }, 
+                        {
+                            "target_id": "503"
+                        }, 
+                        {
+                            "target_id": "504"
+                        }, 
+                        {
+                            "target_id": "505"
+                        }, 
+                        {
+                            "target_id": "506"
+                        }, 
+                        {
+                            "target_id": "508"
+                        }
+                    ]
+                }, 
+                "field_htb_further_reading": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>To learn more about faking an email identity, refer to the <em>2.5 Spoofing</em> section of the <a href=\"http://www.frontlinedefenders.org/esecman\">Digital Security and Privacy for Human Rights Defenders</a> book.</p>\n", 
+                            "value": "To learn more about faking an email identity, refer to the *2.5 Spoofing* section of the [Digital Security and Privacy for Human Rights Defenders](http://www.frontlinedefenders.org/esecman) book. "
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>In addition to the <em>Riseup</em> and <em>Thunderbird</em> Hands-on Guides, there are a number of websites that explain how to use your email program with various popular email providers while leaving a copy of your messages on the mail server:</p>\n", 
+                            "value": "In addition to the *Riseup* and *Thunderbird* Hands-on Guides, there are a number of websites that explain how to use your email program with various popular email providers while leaving a copy of your messages on the mail server:"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>The <a href=\"https://help.riseup.net/en/email-clients\">Riseup website</a></p>\n", 
+                            "value": "The [Riseup website](https://help.riseup.net/en/email-clients)"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>Instructions on <a href=\"https://mail.google.com/support/bin/topic.py?topic=12769\">using Gmail</a></p>\n", 
+                            "value": "Instructions on [using Gmail](https://mail.google.com/support/bin/topic.py?topic=12769)"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>Instructions on  <a href=\"http://email.about.com/od/mozillathunderbirdtips/qt/et_gmail_addr.htm\">how to import your gmail contacts into Thunderbird</a></p>\n", 
+                            "value": "Instructions on  [how to import your gmail contacts into Thunderbird](http://email.about.com/od/mozillathunderbirdtips/qt/et_gmail_addr.htm) "
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>For details on how to use other email services in this way, search the help section of the provider's website for keywords like 'POP', 'IMAP' and 'SMTP'.</p>\n", 
+                            "value": "For details on how to use other email services in this way, search the help section of the provider's website for keywords like 'POP', 'IMAP' and 'SMTP'."
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>There is a well-known attack on the security of SSL encryption known as the  <a href=\"https://secure.wikimedia.org/wikipedia/en/wiki/Man-in-the-middle_attack\">Man in the Middle attack</a></p>\n", 
+                            "value": "There is a well-known attack on the security of SSL encryption known as the  [Man in the Middle attack](https://secure.wikimedia.org/wikipedia/en/wiki/Man-in-the-middle_attack)"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>The <a href=\"https://www.google.com/intl/en/privacy/privacy-policy.html\">Gmail Privacy Policy</a>, which you must accept when creating a Gmail account, explains that, \"Google maintains and processes your Gmail account and its contents to provide the Gmail service to you and to improve our services.\" In fact, all email providers scan your messages, to some extent, so that they can offer anti-spam services and other such features. Gmail goes a bit futher, however, in order to provide 'targeted advertising' based on the actual content of your email. This could be dangerous if information stored by Google were to be intentionally or accidentally exposed.</p>\n", 
+                            "value": "The [Gmail Privacy Policy](https://www.google.com/intl/en/privacy/privacy-policy.html), which you must accept when creating a Gmail account, explains that, &quot;Google maintains and processes your Gmail account and its contents to provide the Gmail service to you and to improve our services.&quot; In fact, all email providers scan your messages, to some extent, so that they can offer anti-spam services and other such features. Gmail goes a bit futher, however, in order to provide 'targeted advertising' based on the actual content of your email. This could be dangerous if information stored by Google were to be intentionally or accidentally exposed."
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>A series of interviews in 2008 addressed the  <a href=\"http://news.cnet.com/8301-13578_3-9962106-38.html\">privacy and encryption policies</a> of several major instant messaging services.</p>\n", 
+                            "value": "A series of interviews in 2008 addressed the  [privacy and encryption policies](http://news.cnet.com/8301-13578_3-9962106-38.html) of several major instant messaging services. "
+                        }
+                    ]
+                }, 
+                "field_htb_introduction": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>The convenience, cost-effectiveness and flexibility of email and instant messaging make them extremely valuable for individuals and organizations with even the most limited access to the Internet. For those with faster and more reliable connections, software such as <a href=\"https://jitsi.org/\"><em>Jitsi</em></a>, <a href=\"/en/glossary#Skype\"><em>Skype</em></a> and other <em>Voice-over-IP</em> <a href=\"/en/glossary#VoIP\"><em>VoIP</em></a> tools also share these characteristics. Unfortunately, these digital alternatives to traditional means of communication can not always be relied upon to keep sensitive information private. Of course, this is nothing new. Postal mail, telephone calls and text messages are all vulnerable as well, particularly when used by those who may have been targeted for surveillance by the authorities.</p>\n", 
+                            "value": "The convenience, cost-effectiveness and flexibility of email and instant messaging make them extremely valuable for individuals and organizations with even the most limited access to the Internet. For those with faster and more reliable connections, software such as [*Jitsi*](https://jitsi.org/), [*Skype*](/en/glossary#Skype) and other *Voice-over-IP* [*VoIP*](/en/glossary#VoIP) tools also share these characteristics. Unfortunately, these digital alternatives to traditional means of communication can not always be relied upon to keep sensitive information private. Of course, this is nothing new. Postal mail, telephone calls and text messages are all vulnerable as well, particularly when used by those who may have been targeted for surveillance by the authorities. "
+                        }
+                    ]
+                }, 
+                "field_htb_learning_goals": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>Why most webmail and instant messaging services are not secure</p>\n", 
+                            "value": "Why most webmail and instant messaging services are not secure"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to create a new and more secure email account</p>\n", 
+                            "value": "How to create a new and more secure email account"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to improve the security in your current email account</p>\n", 
+                            "value": "How to improve the security in your current email account"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to use a secure instant messaging service</p>\n", 
+                            "value": "How to use a secure instant messaging service"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>What to do if you think someone might be accessing your email</p>\n", 
+                            "value": "What to do if you think someone might be accessing your email"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to verify the identity of an email correspondent</p>\n", 
+                            "value": "How to verify the identity of an email correspondent"
+                        }
+                    ]
+                }, 
+                "field_htb_required_reading_link": {
+                    "und": [
+                        {
+                            "vargs": "[node:nid]", 
+                            "vname": "get_htb_pointer|default"
+                        }
+                    ]
+                }, 
+                "field_htb_translatable_title": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "Keep your online communication private", 
+                            "value": "Keep your online communication private"
+                        }
+                    ]
+                }, 
+                "field_summary": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "Encrypted chat and email", 
+                            "value": "Encrypted chat and email"
+                        }
+                    ]
+                }, 
+                "is_current": true, 
+                "is_pending": false, 
+                "language": "en", 
+                "log": "", 
+                "menu_node_links": [], 
+                "metatags": {
+                    "en": {
+                        "robots": {
+                            "value": {
+                                "follow": 0, 
+                                "index": 0, 
+                                "noarchive": "noarchive", 
+                                "nofollow": "nofollow", 
+                                "noimageindex": "noimageindex", 
+                                "noindex": "noindex", 
+                                "noodp": "noodp", 
+                                "nosnippet": "nosnippet", 
+                                "notranslate": "notranslate", 
+                                "noydir": "noydir"
+                            }
+                        }
+                    }
+                }, 
+                "name": "chris", 
+                "nid": "494", 
+                "num_revisions": "19", 
+                "path": "https://securityinabox.org/en/how-to/keep-your-online-communication-private", 
+                "picture": "100", 
+                "print_html_display": 1, 
+                "print_html_display_comment": 0, 
+                "print_html_display_urllist": 1, 
+                "print_pdf_display": 1, 
+                "print_pdf_display_comment": 0, 
+                "print_pdf_display_urllist": 1, 
+                "print_pdf_orientation": null, 
+                "print_pdf_size": null, 
+                "promote": "0", 
+                "revision_moderation": true, 
+                "revision_timestamp": "1452602050", 
+                "revision_uid": "1", 
+                "status": "1", 
+                "sticky": "0", 
+                "title": "Secure communication", 
+                "tnid": "0", 
+                "translate": "0", 
+                "translations": {
+                    "data": {
+                        "en": {
+                            "changed": "1429022924", 
+                            "created": "1410727778", 
+                            "entity_id": "494", 
+                            "entity_type": "node", 
+                            "language": "en", 
+                            "revision_id": null, 
+                            "source": "", 
+                            "status": "1", 
+                            "translate": "0", 
+                            "uid": "70"
+                        }
+                    }, 
+                    "original": "en"
+                }, 
+                "type": "how_to_booklet_chapter", 
+                "uid": "70", 
+                "uuid": "13c7b59f-9a4b-40ee-9694-f7a24147cd0c", 
+                "vid": "5553", 
+                "vuuid": "d1619d8e-6188-4460-8693-71ede0d50e96"
+            }
+        ]
+    }, 
+    "field_guide_snippets": {
+        "und": [
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p>We're in the digital age and that's the most important means of communication. The postal services aren't even safe! But we call, we send emails, we send messages and that's how we communicate. If you can't protect that, you can't protect yourself, so it's best you're aware, informed, trained to be able to use these tools for your own benefit to protect yourself and protect your family. You're not only protecting yourself, you're protecting those you love. — Anonymous Human rights Defender</p>\n", 
+                "value": "We're in the digital age and that's the most important means of communication. The postal services aren't even safe! But we call, we send emails, we send messages and that's how we communicate. If you can't protect that, you can't protect yourself, so it's best you're aware, informed, trained to be able to use these tools for your own benefit to protect yourself and protect your family. You're not only protecting yourself, you're protecting those you love. — Anonymous Human rights Defender"
+            }, 
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p>Using GPG totally changed me. It is not just the feeling that I use the same tool that was used by someone so brave as to expose the NSA surveillance, but also knowing that someone could be annoyed just because they can't read my mails, or just making it harder for someone who can eventually decrypt them, apart from making me feel more secure, well it gives me great pleasure. — Anonymous Human rights Defender</p>\n", 
+                "value": "Using GPG totally changed me. It is not just the feeling that I use the same tool that was used by someone so brave as to expose the NSA surveillance, but also knowing that someone could be annoyed just because they can't read my mails, or just making it harder for someone who can eventually decrypt them, apart from making me feel more secure, well it gives me great pleasure. — Anonymous Human rights Defender"
+            }, 
+            {
+                "format": "filtered_html", 
+                "safe_value": "<p>I love that encryption! I love it! The idea that you can relate with someone without a third party knowing what is happening, you can code your languages, your communication, wow! [...] I came to find that when we communicate with each other there is a Big Brother somewhere who somehow [can get] this information. Jitsi enables the coding of this information so even that Big Brother cannot decode it. It's useful because it makes your communication private, so it's just between you and the person you're addressing.  — Anonymous Human rights Defender</p>\n", 
+                "value": "I love that encryption! I love it! The idea that you can relate with someone without a third party knowing what is happening, you can code your languages, your communication, wow! [...] I came to find that when we communicate with each other there is a Big Brother somewhere who somehow [can get] this information. Jitsi enables the coding of this information so even that Big Brother cannot decode it. It's useful because it makes your communication private, so it's just between you and the person you're addressing.  — Anonymous Human rights Defender"
+            }
+        ]
+    }, 
+    "field_hog_categories": [], 
+    "field_htb_categories": {
+        "en": [
+            {
+                "tid": "90"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "en": [
+            {
+                "format": null, 
+                "safe_value": "Keep your online communication private", 
+                "value": "Keep your online communication private"
+            }
+        ]
+    }, 
+    "field_relevant_community": {
+        "en": [
+            {
+                "title": "For women human rights defenders", 
+                "value": "women-hrds"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "35"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "35"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "en", 
+    "log": "", 
+    "menu_node_links": [], 
+    "name": "chris", 
+    "nid": "1665", 
+    "num_revisions": "4", 
+    "path": "https://securityinabox.org/en/women-hrds/secure-communication", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1449808422", 
+    "revision_uid": "70", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": "03-secure-communication", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "en": {
+                "changed": "1449808422", 
+                "created": "1433158283", 
+                "entity_id": "1665", 
+                "entity_type": "node", 
+                "language": "en", 
+                "revision_id": null, 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }
+        }, 
+        "original": "en"
+    }, 
+    "type": "community_guide", 
+    "uid": "70", 
+    "uuid": "f0147e86-1637-4ef9-a68f-bebaa54299a5", 
+    "vid": "11835", 
+    "vuuid": "51cdda34-8cb4-4fef-b467-aff22f1f299b"
+}

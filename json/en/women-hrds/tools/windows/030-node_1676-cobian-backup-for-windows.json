@@ -1,0 +1,347 @@
+{
+    "changed": "1449808301", 
+    "comment": "0", 
+    "created": "1433242120", 
+    "current_revision_id": "11825", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_cg_translated_guide_title": {
+        "und": [
+            {
+                "vargs": "[node:nid]", 
+                "vname": "get_translated_guide_title|default"
+            }
+        ]
+    }, 
+    "field_edit_guide_link": {
+        "und": [
+            {
+                "vargs": "", 
+                "vname": "get_edit_link_to_referenced_guide|default"
+            }
+        ]
+    }, 
+    "field_guide": {
+        "und": [
+            {
+                "changed": "1452600772", 
+                "comment": "0", 
+                "created": "1411362161", 
+                "current_revision_id": "5489", 
+                "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+                "field_get_started_with_markdown": [], 
+                "field_hog_element": {
+                    "und": [
+                        {
+                            "target_id": "622"
+                        }, 
+                        {
+                            "target_id": "623"
+                        }, 
+                        {
+                            "target_id": "624"
+                        }, 
+                        {
+                            "target_id": "625"
+                        }, 
+                        {
+                            "target_id": "626"
+                        }, 
+                        {
+                            "target_id": "627"
+                        }, 
+                        {
+                            "target_id": "628"
+                        }, 
+                        {
+                            "target_id": "629"
+                        }, 
+                        {
+                            "target_id": "630"
+                        }, 
+                        {
+                            "target_id": "631"
+                        }, 
+                        {
+                            "target_id": "632"
+                        }, 
+                        {
+                            "target_id": "633"
+                        }, 
+                        {
+                            "target_id": "634"
+                        }, 
+                        {
+                            "target_id": "635"
+                        }, 
+                        {
+                            "target_id": "636"
+                        }, 
+                        {
+                            "target_id": "637"
+                        }
+                    ]
+                }, 
+                "field_hog_faq": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p><strong><em>Q</em></strong>: If I have my archive of files on a DVD, can I decompress and decrypt my files on a computer other than my own? What about using them in an Internet cafe?</p>\n\n<p><strong><em>A</em></strong>: You can restore your archive, whether it is encrypted or compressed, on any computer running the <strong>Cobian Backup</strong> program.</p>\n\n<p><strong><em>Q</em></strong>: I have a real problem with lack of computer space. I'm not sure how much space I can save by compressing my files. Can you give me some simple examples?</p>\n\n<p><strong><em>A</em></strong>: Most space on your computer is usually taken up by photos, video and audio files. You can see how much room they take up on your computer by right-clicking on the folder that stores them and choosing properties. If you do not have much space left on your computer, consider creating an archive of these files, and then removing the originals from your computer.</p>\n\n<p><strong><em>Q</em></strong>: I'm always being asked to update programs I get from the Internet. If a new version of <strong>Cobian Backup</strong> comes along and I download it, I'm worried that I'll lose access to my compressed and encrypted files. Should I download updates?</p>\n\n<p><strong><em>A</em></strong>: You should always download the latest updates as they often provide security and operational upgrades. <strong>Cobian Backup</strong> will continue to work well on your computer, and any new version will always be compatible with any backup you made using an older one.</p>\n\n<p><strong><em>Q</em></strong>: Won't the fact that I have this program on my computer make it obvious that I have encrypted material?</p>\n\n<p><strong><em>A</em></strong>: You do not need to keep an encrypted backup on your computer. <strong>Cobian Backup</strong> is not a well-known program for data encryption, as that is not its main feature.</p>\n\n<p><strong><em>Q</em></strong>: Is it better to use this program or* <strong>TrueCrypt</strong> *for encrypting files?</p>\n\n<p><strong><em>A</em></strong>: Its preferable that you use <strong>TrueCrypt</strong> to encrypt files on your computer. The encryption mechanism is stronger and you have the possibility of adding and deleting files from the encrypted volume. You can also backup a <strong>TrueCrypt</strong> volume using <strong>Cobian Backup</strong>.</p>\n\n<p><strong><em>Q</em></strong>: Are there any extra things I need to know if I implement the 'Backup to ftp server' option?</p>\n\n<p><strong><em>A</em></strong>: You need to know whether your provider offers the <strong>FTP</strong> service and the necessary login details. It is preferable that you use the secure version of <strong>FTP</strong> known as <strong>SFTP</strong>, if this is offered by your provider.</p>\n", 
+                            "value": "***Q***: If I have my archive of files on a DVD, can I decompress and decrypt my files on a computer other than my own? What about using them in an Internet cafe?\r\n\r\n***A***: You can restore your archive, whether it is encrypted or compressed, on any computer running the **Cobian Backup** program.\r\n\r\n***Q***: I have a real problem with lack of computer space. I'm not sure how much space I can save by compressing my files. Can you give me some simple examples?\r\n\r\n***A***: Most space on your computer is usually taken up by photos, video and audio files. You can see how much room they take up on your computer by right-clicking on the folder that stores them and choosing properties. If you do not have much space left on your computer, consider creating an archive of these files, and then removing the originals from your computer.\r\n\r\n***Q***: I'm always being asked to update programs I get from the Internet. If a new version of **Cobian Backup** comes along and I download it, I'm worried that I'll lose access to my compressed and encrypted files. Should I download updates?\r\n\r\n***A***: You should always download the latest updates as they often provide security and operational upgrades. **Cobian Backup** will continue to work well on your computer, and any new version will always be compatible with any backup you made using an older one.\r\n\r\n***Q***: Won't the fact that I have this program on my computer make it obvious that I have encrypted material?\r\n\r\n***A***: You do not need to keep an encrypted backup on your computer. **Cobian Backup** is not a well-known program for data encryption, as that is not its main feature.\r\n\r\n***Q***: Is it better to use this program or* **TrueCrypt** *for encrypting files?\r\n\r\n***A***: Its preferable that you use **TrueCrypt** to encrypt files on your computer. The encryption mechanism is stronger and you have the possibility of adding and deleting files from the encrypted volume. You can also backup a **TrueCrypt** volume using **Cobian Backup**.\r\n\r\n***Q***: Are there any extra things I need to know if I implement the 'Backup to ftp server' option?\r\n\r\n***A***: You need to know whether your provider offers the **FTP** service and the necessary login details. It is preferable that you use the secure version of **FTP** known as **SFTP**, if this is offered by your provider."
+                        }
+                    ]
+                }, 
+                "field_hog_get_started_with_link": {
+                    "und": [
+                        {
+                            "vargs": "[node:nid]", 
+                            "vname": "get_hog_pointer|default"
+                        }
+                    ]
+                }, 
+                "field_hog_introduction": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p><strong>Cobian Backup</strong> is used for creating archives of your digital files. They can be stored on your computer, office network, removable devices or Internet servers.</p>\n", 
+                            "value": "**Cobian Backup** is used for creating archives of your digital files. They can be stored on your computer, office network, removable devices or Internet servers."
+                        }
+                    ]
+                }, 
+                "field_hog_required_read": {
+                    "und": [
+                        {
+                            "target_id": "473"
+                        }
+                    ]
+                }, 
+                "field_hog_review_questions": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<ul><li>What is the difference between an incremental and a differential backup?</li>\n<li>What is the best way to secure your backup?</li>\n<li>How can you fit a 1GB backup onto a CD disk?</li>\n<li>How can you restore just one file from a backup?</li>\n<li>Is it possible to create an automated task for your computer to update the weekly backup every Friday afternoon? How do you do it?</li>\n</ul>", 
+                            "value": "- What is the difference between an incremental and a differential backup?\r\n- What is the best way to secure your backup?\r\n- How can you fit a 1GB backup onto a CD disk?\r\n- How can you restore just one file from a backup?\r\n- Is it possible to create an automated task for your computer to update the weekly backup every Friday afternoon? How do you do it? "
+                        }
+                    ]
+                }, 
+                "field_hog_tool": {
+                    "und": [
+                        {
+                            "target_id": "621"
+                        }
+                    ]
+                }, 
+                "field_hog_translatable_title": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "Cobian Backup for Windows", 
+                            "value": "Cobian Backup for Windows"
+                        }
+                    ]
+                }, 
+                "field_hog_what_you_get": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>The ability to back up all documents, files and folders.</p>\n", 
+                            "value": "The ability to back up all documents, files and folders."
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>The ability to compress and decompress your backup files.</p>\n", 
+                            "value": "The ability to compress and decompress your backup files."
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>The ability to encrypt and decrypt your archived files.</p>\n", 
+                            "value": "The ability to encrypt and decrypt your archived files."
+                        }
+                    ]
+                }, 
+                "field_summary": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "Safely archive your data and devices", 
+                            "value": "Safely archive your data and devices"
+                        }
+                    ]
+                }, 
+                "field_updated_on": {
+                    "und": [
+                        {
+                            "date_type": "datetime", 
+                            "timezone": "Europe/Berlin", 
+                            "timezone_db": "Europe/Berlin", 
+                            "value": "2011-12-09 00:00:00"
+                        }
+                    ]
+                }, 
+                "field_weight_in_lists": [], 
+                "is_current": true, 
+                "is_pending": false, 
+                "language": "en", 
+                "log": "", 
+                "menu_node_links": [], 
+                "metatags": {
+                    "en": {
+                        "robots": {
+                            "value": {
+                                "follow": 0, 
+                                "index": 0, 
+                                "noarchive": "noarchive", 
+                                "nofollow": "nofollow", 
+                                "noimageindex": "noimageindex", 
+                                "noindex": "noindex", 
+                                "noodp": "noodp", 
+                                "nosnippet": "nosnippet", 
+                                "notranslate": "notranslate", 
+                                "noydir": "noydir"
+                            }
+                        }
+                    }
+                }, 
+                "name": "chris", 
+                "nid": "620", 
+                "num_revisions": "18", 
+                "path": "https://securityinabox.org/en/hands-on/cobian-backup-windows", 
+                "picture": "100", 
+                "print_html_display": 1, 
+                "print_html_display_comment": 0, 
+                "print_html_display_urllist": 1, 
+                "print_pdf_display": 1, 
+                "print_pdf_display_comment": 0, 
+                "print_pdf_display_urllist": 1, 
+                "print_pdf_orientation": null, 
+                "print_pdf_size": null, 
+                "promote": "0", 
+                "revision_moderation": true, 
+                "revision_timestamp": "1452600772", 
+                "revision_uid": "3", 
+                "status": "1", 
+                "sticky": "0", 
+                "title": "Cobian", 
+                "tnid": "0", 
+                "translate": "0", 
+                "translations": {
+                    "data": {
+                        "en": {
+                            "changed": "1426581919", 
+                            "created": "1411362161", 
+                            "entity_id": "620", 
+                            "entity_type": "node", 
+                            "language": "en", 
+                            "revision_id": null, 
+                            "source": "", 
+                            "status": "1", 
+                            "translate": "0", 
+                            "uid": "70"
+                        }
+                    }, 
+                    "original": "en"
+                }, 
+                "type": "hands_on_guide", 
+                "uid": "70", 
+                "uuid": "c1e940ef-c502-4f68-b1b6-406a50e9834a", 
+                "vid": "5489", 
+                "vuuid": "7d865960-c894-47e2-95b5-a311eb5e2908"
+            }
+        ]
+    }, 
+    "field_guide_snippets": [], 
+    "field_hog_categories": {
+        "und": [
+            {
+                "tid": "94"
+            }
+        ]
+    }, 
+    "field_htb_categories": [], 
+    "field_menu_title": {
+        "en": [
+            {
+                "format": null, 
+                "safe_value": "Cobian Backup", 
+                "value": "Cobian Backup"
+            }
+        ]
+    }, 
+    "field_relevant_community": {
+        "en": [
+            {
+                "title": "For women human rights defenders", 
+                "value": "women-hrds"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "30"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "30"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "en", 
+    "log": "", 
+    "menu_node_links": [], 
+    "name": "chris", 
+    "nid": "1676", 
+    "num_revisions": "2", 
+    "path": "https://securityinabox.org/en/women-hrds/cobian/windows", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1449808301", 
+    "revision_uid": "70", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": "03-Cobian-win", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "en": {
+                "changed": "1449808301", 
+                "created": "1433242120", 
+                "entity_id": "1676", 
+                "entity_type": "node", 
+                "language": "en", 
+                "revision_id": null, 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }
+        }, 
+        "original": "en"
+    }, 
+    "type": "community_guide", 
+    "uid": "70", 
+    "uuid": "9e7a56d1-439a-4359-8a75-5befe8071247", 
+    "vid": "11825", 
+    "vuuid": "910a352c-cccb-4c22-9592-54310cc780da"
+}

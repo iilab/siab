@@ -1,0 +1,251 @@
+{
+    "changed": "1416962237", 
+    "comment": "0", 
+    "created": "1416962237", 
+    "current_revision_id": "3018", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_cg_translated_guide_title": {
+        "und": [
+            {
+                "vargs": "[node:nid]", 
+                "vname": "get_translated_guide_title|default"
+            }
+        ]
+    }, 
+    "field_edit_guide_link": [], 
+    "field_guide": {
+        "und": [
+            {
+                "changed": "1454366136", 
+                "comment": "0", 
+                "created": "1416749672", 
+                "current_revision_id": "13141", 
+                "data": "a:6:{s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";s:7:\"contact\";i:1;}", 
+                "field_htb_chapter_element": {
+                    "und": [
+                        {
+                            "target_id": "1152"
+                        }, 
+                        {
+                            "target_id": "1150"
+                        }, 
+                        {
+                            "target_id": "1151"
+                        }, 
+                        {
+                            "target_id": "1153"
+                        }
+                    ]
+                }, 
+                "field_htb_further_reading": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>For more information on metadata removal tools, have a look at the following:</p>\n\n<p><a href=\"https://en.wikipedia.org/wiki/Comparison_of_metadata_editors\"><em>Comparison of metadata editors</em></a></p>\n", 
+                            "value": "For more information on metadata removal tools, have a look at the following:\r\n\r\n[*Comparison of metadata editors*](https://en.wikipedia.org/wiki/Comparison_of_metadata_editors)"
+                        }
+                    ]
+                }, 
+                "field_htb_introduction": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>Metadata is information about a file (such as a word document, a PDF, a picture, music file etc.) that is stored within the file itself. This information can include the time and date a file was created, the username of the people who created or edited it, information about the device that created it, and other kinds of information. As a result of this, the metadata in a file could tell someone who created a file, on what computer or device, when, and in what location.</p>\n\n<p>While this information is generated automatically by many devices (like cameras, computers, and phones) it can be edited and manipulated by those who know where to look. This can also be a good thing, as it means you can take control over the metadata you choose to share when you share files.</p>\n\n<p>Let's take pictures as an example. When you take a picture with your digital camera, what happens? If your camera or phone knows where you are, then that information (in the form of GPS coordinates) can be saved in the metadata of the file. If your camera knows what time it is, it records the date and time the picture was taken. If your camera or phone has a serial number that may be recorded in metadata as well. Digital image file formats such as TIFF (Tagged Image File Format) and JPEG (Joint Photographic Experts Group) created by digital cameras or smartphones, contain metadata in a format called EXIF (Exchangeable image file format) which could include all of the above information and even a thumbnail of the original image.</p>\n\n<p>Other files such as text documents include metadata too. A text document's metadata, for example, may contain information about how long the document is, who the author is, when the document was written, and a short summary of the document.</p>\n\n<p>Metadata can be very useful in helping to organise non-sensitive information. For those who share sensitive or media widely, however, unknowingly attaching information to files can be very dangerous. If you take a picture of a police officer doing something illegal, and share it on the internet without taking care to scrub metadata from the file first, the data may be used to identify who took the picture (in this case, you).</p>\n\n<p>In order to ensure that this won't happen, it's important to learn how to \"scrub\" or remove metadata from files when necessary. In part, we have to rely on a special software that removes metadata securely from files. <a href=\"../metanull/windows\"><em>Metanull</em></a> removes metadata from images, is one such tool, and is discussed below. Furthermore, there are many non-technical, but rather behavioural, ways that we can stop meta-data getting into files in the first place.</p>\n", 
+                            "value": "Metadata is information about a file (such as a word document, a PDF, a picture, music file etc.) that is stored within the file itself. This information can include the time and date a file was created, the username of the people who created or edited it, information about the device that created it, and other kinds of information. As a result of this, the metadata in a file could tell someone who created a file, on what computer or device, when, and in what location.\r\n\r\nWhile this information is generated automatically by many devices (like cameras, computers, and phones) it can be edited and manipulated by those who know where to look. This can also be a good thing, as it means you can take control over the metadata you choose to share when you share files. \r\n\r\nLet's take pictures as an example. When you take a picture with your digital camera, what happens? If your camera or phone knows where you are, then that information (in the form of GPS coordinates) can be saved in the metadata of the file. If your camera knows what time it is, it records the date and time the picture was taken. If your camera or phone has a serial number that may be recorded in metadata as well. Digital image file formats such as TIFF (Tagged Image File Format) and JPEG (Joint Photographic Experts Group) created by digital cameras or smartphones, contain metadata in a format called EXIF (Exchangeable image file format) which could include all of the above information and even a thumbnail of the original image. \r\n\r\nOther files such as text documents include metadata too. A text document's metadata, for example, may contain information about how long the document is, who the author is, when the document was written, and a short summary of the document.\r\n\r\nMetadata can be very useful in helping to organise non-sensitive information. For those who share sensitive or media widely, however, unknowingly attaching information to files can be very dangerous. If you take a picture of a police officer doing something illegal, and share it on the internet without taking care to scrub metadata from the file first, the data may be used to identify who took the picture (in this case, you). \r\n\r\nIn order to ensure that this won't happen, it's important to learn how to \"scrub\" or remove metadata from files when necessary. In part, we have to rely on a special software that removes metadata securely from files. [*Metanull*](../metanull/windows) removes metadata from images, is one such tool, and is discussed below. Furthermore, there are many non-technical, but rather behavioural, ways that we can stop meta-data getting into files in the first place."
+                        }
+                    ]
+                }, 
+                "field_htb_learning_goals": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to remove or edit the metadata from files such as image files</p>\n", 
+                            "value": "How to remove or edit the metadata from files such as image files"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to upload photos on the internet without revealing the hidden data in it</p>\n", 
+                            "value": "How to upload photos on the internet without revealing the hidden data in it"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>How to prevent adding metadata to your files</p>\n", 
+                            "value": "How to prevent adding metadata to your files"
+                        }
+                    ]
+                }, 
+                "field_htb_required_reading_link": {
+                    "und": [
+                        {
+                            "vargs": "[node:nid]", 
+                            "vname": "get_htb_pointer|default"
+                        }
+                    ]
+                }, 
+                "field_htb_translatable_title": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "How to remove hidden information from files", 
+                            "value": "How to remove hidden information from files"
+                        }
+                    ]
+                }, 
+                "field_summary": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "Delete metadata effectively ", 
+                            "value": "Delete metadata effectively "
+                        }
+                    ]
+                }, 
+                "is_current": true, 
+                "is_pending": false, 
+                "language": "en", 
+                "log": "", 
+                "menu_node_links": [], 
+                "name": "asta", 
+                "nid": "1154", 
+                "num_revisions": "6", 
+                "path": "https://securityinabox.org/en/how-to/remove-hidden-information-files", 
+                "picture": "0", 
+                "print_html_display": 1, 
+                "print_html_display_comment": 0, 
+                "print_html_display_urllist": 1, 
+                "print_pdf_display": 1, 
+                "print_pdf_display_comment": 0, 
+                "print_pdf_display_urllist": 1, 
+                "print_pdf_orientation": null, 
+                "print_pdf_size": null, 
+                "promote": "0", 
+                "revision_moderation": true, 
+                "revision_timestamp": "1454366136", 
+                "revision_uid": "1", 
+                "status": "1", 
+                "sticky": "0", 
+                "title": "Remove metadata", 
+                "tnid": "0", 
+                "translate": "0", 
+                "translations": {
+                    "data": {
+                        "en": {
+                            "changed": "1454366136", 
+                            "created": "1416749672", 
+                            "entity_id": "1154", 
+                            "entity_type": "node", 
+                            "language": "en", 
+                            "revision_id": "1154", 
+                            "source": "", 
+                            "status": "1", 
+                            "translate": "0", 
+                            "uid": "184"
+                        }
+                    }, 
+                    "original": "en"
+                }, 
+                "type": "how_to_booklet_chapter", 
+                "uid": "184", 
+                "uuid": "0fd479a1-d78a-4df7-9acb-e7e53c291422", 
+                "vid": "13141", 
+                "vuuid": "d85c78a2-2aff-4610-be01-6af291e4fac0"
+            }
+        ]
+    }, 
+    "field_guide_snippets": [], 
+    "field_hog_categories": [], 
+    "field_htb_categories": {
+        "en": [
+            {
+                "tid": "93"
+            }
+        ]
+    }, 
+    "field_menu_title": {
+        "en": [
+            {
+                "format": null, 
+                "safe_value": "Remove metadata from files", 
+                "value": "Remove metadata from files"
+            }
+        ]
+    }, 
+    "field_relevant_community": {
+        "en": [
+            {
+                "title": "For the LGBTI community in Sub-Saharan Africa", 
+                "value": "lgbti africa"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "25"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "25"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "en", 
+    "log": "", 
+    "menu_node_links": [], 
+    "name": "chris", 
+    "nid": "1187", 
+    "num_revisions": "1", 
+    "path": "https://securityinabox.org/en/lgbti-africa/remove-metadata", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1416962237", 
+    "revision_uid": "70", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": "02-remove metadata", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "en": {
+                "changed": "1416962237", 
+                "created": "1416962237", 
+                "entity_id": "1187", 
+                "entity_type": "node", 
+                "language": "en", 
+                "revision_id": null, 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }
+        }, 
+        "original": "en"
+    }, 
+    "type": "community_guide", 
+    "uid": "70", 
+    "uuid": "34f8f2ed-e77b-4f20-a346-8c8657b374c6", 
+    "vid": "3018", 
+    "vuuid": "b6d9e712-38b9-488c-ab80-1c18502bce8e"
+}

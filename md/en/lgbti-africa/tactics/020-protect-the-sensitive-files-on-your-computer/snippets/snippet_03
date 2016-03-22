@@ -1,0 +1,3 @@
+***Pablo:*** Alright, now you have me worried. What about other users on the same computer? Does this mean they can read files in the 'My Documents' folder?
+
+***Claudia:*** I like the way you're thinking! If your Windows password doesn't protect you from intruders, how can it protect you from other people with accounts on the same computer? In fact, your My Documents folder is normally visible to anybody, so other users wouldn't even have to do anything clever to read your unencrypted files. You're right, though, even if the folder is made 'private,' you're still not safe unless you use some kind of encryption.

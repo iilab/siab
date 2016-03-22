@@ -1,0 +1,316 @@
+{
+    "changed": "1417759162", 
+    "comment": "0", 
+    "created": "1417759162", 
+    "current_revision_id": "3234", 
+    "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+    "field_cg_translated_guide_title": {
+        "und": [
+            {
+                "vargs": "[node:nid]", 
+                "vname": "get_translated_guide_title|default"
+            }
+        ]
+    }, 
+    "field_edit_guide_link": [], 
+    "field_guide": {
+        "und": [
+            {
+                "changed": "1457457674", 
+                "comment": "0", 
+                "created": "1411447033", 
+                "current_revision_id": "13528", 
+                "data": "a:6:{s:7:\"overlay\";i:1;s:16:\"ckeditor_default\";s:1:\"t\";s:20:\"ckeditor_show_toggle\";s:1:\"t\";s:14:\"ckeditor_width\";s:4:\"100%\";s:13:\"ckeditor_lang\";s:2:\"en\";s:18:\"ckeditor_auto_lang\";s:1:\"t\";}", 
+                "field_get_started_with_markdown": [], 
+                "field_hog_element": {
+                    "und": [
+                        {
+                            "target_id": "820"
+                        }, 
+                        {
+                            "target_id": "821"
+                        }, 
+                        {
+                            "target_id": "822"
+                        }, 
+                        {
+                            "target_id": "823"
+                        }, 
+                        {
+                            "target_id": "824"
+                        }, 
+                        {
+                            "target_id": "825"
+                        }, 
+                        {
+                            "target_id": "826"
+                        }, 
+                        {
+                            "target_id": "827"
+                        }, 
+                        {
+                            "target_id": "828"
+                        }, 
+                        {
+                            "target_id": "829"
+                        }, 
+                        {
+                            "target_id": "830"
+                        }, 
+                        {
+                            "target_id": "831"
+                        }, 
+                        {
+                            "target_id": "832"
+                        }, 
+                        {
+                            "target_id": "833"
+                        }, 
+                        {
+                            "target_id": "834"
+                        }
+                    ]
+                }, 
+                "field_hog_faq": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p><strong><em>Q</em></strong>: Why should I use the <strong>Tor Browser</strong>?</p>\n\n<p><strong><em>A</em></strong>: The <strong>Tor Browser</strong> is a useful tool if you need to circumvent Internet censorship in order to access certain websites. It's also useful if you don't want your Internet Service Provider (ISP) to know what websites you're visiting, or if you don't want those websites to know your location on the Internet.</p>\n\n<p><strong><em>Q</em></strong>: When I run the <strong>Tor Browser</strong>, do all of my other programs communicate anonymously through the Tor network?</p>\n\n<p><strong><em>A</em></strong>: No, it is important to remember that, by default, the <strong>Tor Browser</strong> only sends its own traffic through Tor network. Your other programs communicate directly with service providers on the Internet. You can verify that you are communicating over the Tor network by loading the <em>Tor Check</em> page at <strong>https://check.torproject.org</strong>. Tor also assumes that you will exercise of caution, common sense and good judgement when browsing new or unfamiliar websites.</p>\n\n<p><strong><em>Q</em></strong>: Is my <strong>Tor Browser</strong> traffic encrypted?</p>\n\n<p><strong><em>A</em></strong>: Tor will encrypt all of your communication <em>within</em> the Tor network. Keep in mind, however, that <em>Tor cannot encrypt your traffic after it leaves the Tor network.</em>  To protect the data you send and receive between your Tor <em>exit node</em> and the website with which you are communicating, <em>you are still relying on HTTPS</em>.</p>\n\n<ul><li><a href=\"https://www.torproject.org/docs/faq.html.en\"><strong>The <em>Tor Project</em> FAQ</strong></a></li>\n<li><a href=\"https://www.torproject.org/about/contact.html.en#support\"><strong>The <em>Tor Project</em> help desk</strong></a></li>\n</ul>", 
+                            "value": "***Q***: Why should I use the **Tor Browser**?\r\n\r\n***A***: The **Tor Browser** is a useful tool if you need to circumvent Internet censorship in order to access certain websites. It's also useful if you don't want your Internet Service Provider (ISP) to know what websites you're visiting, or if you don't want those websites to know your location on the Internet.\r\n\r\n***Q***: When I run the **Tor Browser**, do all of my other programs communicate anonymously through the Tor network?\r\n\r\n***A***: No, it is important to remember that, by default, the **Tor Browser** only sends its own traffic through Tor network. Your other programs communicate directly with service providers on the Internet. You can verify that you are communicating over the Tor network by loading the *Tor Check* page at **https://check.torproject.org**. Tor also assumes that you will exercise of caution, common sense and good judgement when browsing new or unfamiliar websites.\r\n\r\n***Q***: Is my **Tor Browser** traffic encrypted?\r\n\r\n***A***: Tor will encrypt all of your communication *within* the Tor network. Keep in mind, however, that *Tor cannot encrypt your traffic after it leaves the Tor network.*  To protect the data you send and receive between your Tor *exit node* and the website with which you are communicating, *you are still relying on HTTPS*.\r\n\r\n- [**The *Tor Project* FAQ**](https://www.torproject.org/docs/faq.html.en)\r\n- [**The *Tor Project* help desk**](https://www.torproject.org/about/contact.html.en#support)\r\n"
+                        }
+                    ]
+                }, 
+                "field_hog_get_started_with_link": {
+                    "und": [
+                        {
+                            "vargs": "[node:nid]", 
+                            "vname": "get_hog_pointer|default"
+                        }
+                    ]
+                }, 
+                "field_hog_introduction": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>The <strong>Tor Browser</strong> keeps your online activities private. It disguises your identity and protects your Web traffic from many forms of Internet surveillance. <strong>Tor</strong> can also be used to bypass Internet filters.</p>\n", 
+                            "value": "The **Tor Browser** keeps your online activities private. It disguises your identity and protects your Web traffic from many forms of Internet surveillance. **Tor** can also be used to bypass Internet filters."
+                        }
+                    ]
+                }, 
+                "field_hog_required_read": {
+                    "und": [
+                        {
+                            "target_id": "512"
+                        }
+                    ]
+                }, 
+                "field_hog_review_questions": [], 
+                "field_hog_tool": {
+                    "und": [
+                        {
+                            "target_id": "819"
+                        }
+                    ]
+                }, 
+                "field_hog_translatable_title": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "TorBrowser for Windows - Digital Anonymity and Circumvention", 
+                            "value": "TorBrowser for Windows - Digital Anonymity and Circumvention"
+                        }
+                    ]
+                }, 
+                "field_hog_what_you_get": {
+                    "en": [
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>The ability to hide your location on the Internet from the websites you visit</p>\n", 
+                            "value": "The ability to hide your location on the Internet from the websites you visit"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>The ability to conceal which websites you visit from <strong>Internet Service Providers (ISPs)</strong> and surveillance programmes</p>\n", 
+                            "value": "The ability to conceal which websites you visit from **Internet Service Providers (ISPs)** and surveillance programmes"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>The ability to bypass Internet censorship and filtering rules</p>\n", 
+                            "value": "The ability to bypass Internet censorship and filtering rules"
+                        }, 
+                        {
+                            "format": "filtered_html", 
+                            "safe_value": "<p>Protection from insecure and potentially malicious websites through the <em>HTTPS Everywhere</em> and <em>NoScript</em> browser add-ons</p>\n", 
+                            "value": "Protection from insecure and potentially malicious websites through the *HTTPS Everywhere* and *NoScript* browser add-ons"
+                        }
+                    ]
+                }, 
+                "field_summary": {
+                    "en": [
+                        {
+                            "format": null, 
+                            "safe_value": "Bypass censorship and browse the web anonymously", 
+                            "value": "Bypass censorship and browse the web anonymously"
+                        }
+                    ]
+                }, 
+                "field_updated_on": {
+                    "und": [
+                        {
+                            "date_type": "datetime", 
+                            "timezone": "Europe/Berlin", 
+                            "timezone_db": "Europe/Berlin", 
+                            "value": "2014-03-27 00:00:00"
+                        }
+                    ]
+                }, 
+                "field_weight_in_lists": [], 
+                "is_current": true, 
+                "is_pending": false, 
+                "language": "en", 
+                "log": "", 
+                "menu_node_links": [], 
+                "name": "chris", 
+                "nid": "818", 
+                "num_revisions": "26", 
+                "path": "https://securityinabox.org/en/hands-on/torbrowser-windows-digital-anonymity-and-circumvention", 
+                "picture": "100", 
+                "print_html_display": 1, 
+                "print_html_display_comment": 0, 
+                "print_html_display_urllist": 1, 
+                "print_pdf_display": 1, 
+                "print_pdf_display_comment": 0, 
+                "print_pdf_display_urllist": 1, 
+                "print_pdf_orientation": null, 
+                "print_pdf_size": null, 
+                "promote": "0", 
+                "revision_moderation": true, 
+                "revision_timestamp": "1457457674", 
+                "revision_uid": "343", 
+                "status": "1", 
+                "sticky": "0", 
+                "title": "TorBrowser", 
+                "tnid": "0", 
+                "translate": "0", 
+                "translations": {
+                    "data": {
+                        "en": {
+                            "changed": "1457457674", 
+                            "created": "1411447033", 
+                            "entity_id": "818", 
+                            "entity_type": "node", 
+                            "language": "en", 
+                            "revision_id": "818", 
+                            "source": "", 
+                            "status": "1", 
+                            "translate": "0", 
+                            "uid": "70"
+                        }
+                    }, 
+                    "original": "en"
+                }, 
+                "type": "hands_on_guide", 
+                "uid": "70", 
+                "uuid": "6d4364f1-41b5-4428-8199-927199959e5a", 
+                "vid": "13528", 
+                "vuuid": "49543ac2-8a36-4276-b31d-f3498595e306"
+            }
+        ]
+    }, 
+    "field_guide_snippets": [], 
+    "field_hog_categories": {
+        "und": [
+            {
+                "tid": "94"
+            }
+        ]
+    }, 
+    "field_htb_categories": [], 
+    "field_menu_title": {
+        "en": [
+            {
+                "format": null, 
+                "safe_value": "Tor Browser - anonymity &amp; circumvention", 
+                "value": "Tor Browser - anonymity & circumvention"
+            }
+        ]
+    }, 
+    "field_relevant_community": {
+        "en": [
+            {
+                "title": "For environmental rights defenders in Sub-Saharan Africa", 
+                "value": "eco rights africa"
+            }
+        ]
+    }, 
+    "field_show_in_menu": {
+        "und": [
+            {
+                "value": "1"
+            }
+        ]
+    }, 
+    "field_weight_in_lists": {
+        "und": [
+            {
+                "value": "75"
+            }
+        ]
+    }, 
+    "field_weight_in_menu": {
+        "und": [
+            {
+                "value": "75"
+            }
+        ]
+    }, 
+    "is_current": true, 
+    "is_pending": false, 
+    "language": "en", 
+    "log": "", 
+    "menu_node_links": [], 
+    "name": "chris", 
+    "nid": "1300", 
+    "num_revisions": "1", 
+    "path": "https://securityinabox.org/en/eco-rights-africa/torbrowser/windows", 
+    "picture": "100", 
+    "print_html_display": 1, 
+    "print_html_display_comment": 0, 
+    "print_html_display_urllist": 1, 
+    "print_pdf_display": 1, 
+    "print_pdf_display_comment": 0, 
+    "print_pdf_display_urllist": 1, 
+    "print_pdf_orientation": "", 
+    "print_pdf_size": "", 
+    "promote": "1", 
+    "revision_moderation": false, 
+    "revision_timestamp": "1417759162", 
+    "revision_uid": "70", 
+    "status": "1", 
+    "sticky": "0", 
+    "title": "04-TorBrowser-win", 
+    "tnid": "0", 
+    "translate": "0", 
+    "translations": {
+        "data": {
+            "en": {
+                "changed": "1417759162", 
+                "created": "1417759162", 
+                "entity_id": "1300", 
+                "entity_type": "node", 
+                "language": "en", 
+                "revision_id": null, 
+                "source": "", 
+                "status": "1", 
+                "translate": "0", 
+                "uid": "70"
+            }
+        }, 
+        "original": "en"
+    }, 
+    "type": "community_guide", 
+    "uid": "70", 
+    "uuid": "f5913e86-72e8-49d9-a10c-5873d7cfd3e9", 
+    "vid": "3234", 
+    "vuuid": "2de413ae-ec22-4e31-97ab-bfd8500c3948"
+}
