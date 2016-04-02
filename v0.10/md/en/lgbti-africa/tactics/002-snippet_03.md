@@ -1,6 +1,0 @@
-***Human Rights Defender Testimonies***
-
-*"I love that encryption! I love it! The idea that you can relate with someone without a third party knowing what is happening, you can code your languages, your communication, wow! [...]  I came to find that when we communicate with each other there is a 'Big Brother' somewhere who somehow [can get] this information. [**Jitsi**](jitsi/windows) enables the coding of this information so even that 'Big Brother' cannot decode it. It's useful because it makes your communication private, so it's just between you and the person you're addressing."* — Anonymous Human Rights Defender
-
-*"Last month, an ex of mine outed me to my family. My mother was very curious but she had no proof. Because my phone and computer had a password, she could not check anything without me being there. When I noticed she liked to look over my shoulder, I cleaned all my browsing history and put all my pictures and videos inside a [**TrueCrypt**](truecrypt/windows) file. I was using [**TextSecure**](textsecure/android) so all my messages were safe. [...] Also, because my ex had shared her password with me, it was easy to delete everything on her phone when we broke up: pictures, texts, emails. I am now very happy that I learned not to share my password!"* — Anonymous Human Rights Defender
-

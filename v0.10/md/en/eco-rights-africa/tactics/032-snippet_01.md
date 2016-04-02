@@ -1,2 +1,0 @@
-“We are trying to negotiate for the release of a local pastor from Bahi District in Dodoma, who was arrested and jailed for 6 months for opposing uranium prospecting in Bahi. The pastor was accused of inciting the local population and the District Commissioner ordered his arrest. In a country where court cases can take months or even years, the pastor was jailed within two weeks of his arrest which makes this action very unusual.” – Anonymous Human Rights Defender, Tanzania
-

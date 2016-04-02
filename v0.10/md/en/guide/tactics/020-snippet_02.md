@@ -1,3 +1,0 @@
-***Pablo:*** But my computer is already protected by the Windows login password! Isn't that good enough?
-
-***Claudia:*** Actually, Windows login passwords are usually quite easy to break. Plus, anybody who gets his hands on your computer for long enough to restart it with a LiveCD in the drive can copy your data without even having to worry about the password. If they manage to take it away for a while, then you're in even worse trouble. It's not just Windows passwords you need to worry about, either. You shouldn't trust Microsoft Word or Adobe Acrobat passwords either.
