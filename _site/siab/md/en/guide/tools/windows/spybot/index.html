@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+       &middot; Security in a Box
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/siab/public/css/poole.css">
+  <link rel="stylesheet" href="/siab/public/css/syntax.css">
+  <link rel="stylesheet" href="/siab/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <!--
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/siab/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/siab/public/favicon.ico"> -->
+  <link rel="icon" type="image/svg+xml" href="images/icon.svg">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/siab/atom.xml">
+</head>
+
+  <body>
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/siab">
+          Security in a Box
+        </a>
+      </h1>
+      <p class="lead">Content as Code work on SIAB.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/siab/">Home</a>
+
+
+
+                                                                                                                                              <a class="sidebar-nav-item" href="/siab/section.md">A Section</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                        
+      <a class="sidebar-nav-item" href="https://github.com/contentascode/docsmith-init">GitHub project</a>
+
+    </nav>
+
+    <p>&copy; 1969. All rights reserved.</p>
+  </div>
+</div>
+
+    <div class="content container">
+
+    <div>
+      <small>
+        <div style="float:left"><a href="/siab/">Home</a>
+        </div>
+
+        <div style="float:right"><em><a href="https://github.com/contentascode/docsmith-init/edit/master/">Edit this page</a> - <a href="https://github.com/contentascode/docsmith-init/commits/master/">View page history</a> - <a href="https://github.com/contentascode/docsmith-init/tree/master/">View page source</a></em>
+        </div>
+      </small>
+    </div>
+
+    <div class="page" style="clear:both">
+      <h1 class="page-title"></h1>
+      <p><strong>Spybot Search &amp; Destroy</strong> is used to detect and remove different kinds of malware, adware and spyware from your computer. It offers free updates and lets you immunise your Internet browser against future infection by known malware.</p>
+<h1 id="required-reading">Required reading</h1>
+<p><a href="../../../tactics/malware">Protect your device from malware and hackers</a></p>
+<p><img src="https://securityinabox.org/sites/securityinabox.org/files/media/tool/logo/spybot_logo-hr.png" /><br />
+<a href="http://www.safer-networking.org/">Project website</a><br />
+<a href="http://www.safer-networking.org/mirrors/">DOWNLOAD LINK</a><br />
+Version used in this guide: 2.4<br />
+License: Free Proprietary Software<br />
+System requirements:</p>
+<ul>
+<li>All Windows versions</li>
+</ul>
+<h1 id="what-you-will-get-from-this-guide">What you will get from this guide</h1>
+<ul>
+<li>The ability to <strong>remove</strong> different kinds of malware and/or spyware</li>
+<li>The ability to <strong>immunise</strong> your computer system <strong><em>before</em></strong> it becomes infected with malicious problems and threats</li>
+</ul>
+<h1 id="introduction-to-spybot">1. Introduction to Spybot</h1>
+<h2 id="other-tools-like-spybot">1.0 Other tools like Spybot</h2>
+<p>To protect operating systems like <strong>GNU Linux</strong> and <strong>Mac OS</strong>, we recommend that you:</p>
+<p><strong>1)</strong> regularly update your operating system, and all the programs installed upon it;<br />
+<strong>2)</strong> use anti-virus program listed in the <a href="../avast/windows"><em>Avast</em></a> guide;<br />
+<strong>3)</strong> use a firewall program listed in the <a href="../comodo/windows"><em>Comodo</em></a> guide;<br />
+<strong>4)</strong> use a secure browser like <a href="../firefox/windows"><em>Firefox</em></a> with the <a href="../firefox/windows#801"><em>NoScript</em></a> add-on to prevent downloaded scripts from starting up.</p>
+<p>These preventive measures are important to keep your <strong>GNU Linux</strong> or <strong>Mac OS</strong> computer protected.</p>
+<p>The spyware and malware protection for computers running <strong>Microsoft Windows</strong> is a very important issue. There are thousands of new malware being created every day. Attack methods are becoming increasingly sophisticated. The preventive measures outlined in the previous paragraph are <strong>mandatory</strong> for all computers running <strong>Microsoft Windows</strong>. In addition, we strongly recommend the usage of <strong>Spybot</strong> as described in this chapter.</p>
+<p>However, if your computer gets infected despite these precautions, and you find yourself requiring additional Microsoft Windows tools, we recommend the following:</p>
+<ul>
+<li>Install <a href="http://superantispyware.com"><strong>SuperAntiSpyware</strong></a>, update the spyware definitions, and then scan your computer;</li>
+<li>Install <a href="http://www.malwarebytes.org/"><strong>Malwarebytes Anti-Malware</strong></a>, perform a <em>Quick Scan</em> and then a <em>Scan</em> when it finishes running, remove any detected malware displayed in <em>Show Results</em>;</li>
+<li>Use other free anti-spyware programs like: <strong>Microsoft <a href="http://windows.microsoft.com/en-US/windows7/products/features/windows-defender">Windows</a> <a href="http://www.microsoft.com/security/pc-security/windows-defender.aspx">Defender</a></strong>, <a href="http://www.lavasoft.com/"><strong>Ad-Aware Internet Security</strong></a> or <a href="http://www.javacoolsoftware.com/spywareblaster.html"><strong>SpywareBlaster</strong></a>.</li>
+</ul>
+<h2 id="things-you-should-know-about-spybot-before-you-start">1.1 Things you should know about Spybot before you start</h2>
+<p><strong>Spybot S&amp;D</strong> is a popular free program used to detect and remove different kinds of adware, malware and spyware from your computer system. It also lets you immunise your system against adware, malware and spyware, preventing them from infecting your computer once <strong>Spybot</strong> is installed.</p>
+<p><strong>Spybot S&amp;D</strong> is not an anti-virus tool. It can however run along side anti-virus software to enhance security of your PC.</p>
+<p>Adware is any software which displays advertising material on your computer. Certain kinds of adware function remarkably like spyware and can be invasive of your privacy and security.</p>
+<p>Malware (e.g. trojans and worms) is any kind of program designed to harm or hijack the operation of your computer without your consent or knowledge.</p>
+<p>Spyware is any kind of program that collects data, observes and records your private information and tracks your Internet habits. Like malware, it frequently runs on your computer secretly. As such, installing a program like <strong>Spybot</strong> will help you to protect your system and yourself.</p>
+<p><strong>Note</strong>: <strong>Windows Vista, 7 and 8</strong> have a built-in anti-spyware program called <strong>Windows Defender</strong>. However, it seems to allow <strong>Spybot</strong> to work without any conflict.</p>
+<h1 id="how-to-install-and-use-spybot">2. How to Install and Use Spybot</h1>
+<p>Once <strong>Spybot</strong> is installed, you can use it to identify and remove spyware by following three basic steps:</p>
+<ol>
+<li>Updating the <em>Detection Rules</em> and <em>Immunization databases</em> with the most recent updates from <strong>Spybot</strong>.</li>
+<li>Immunising your system based on up-to-date immunisation databases.</li>
+<li>Scanning for threats. This involves checking your system for spyware infestations, based on up-to-date detection rules, and removing them.</li>
+</ol>
+<p><strong>Note</strong>: For a brief overview of key advanced options, please refer to the <a href="#449"><strong>Advanced Options</strong></a> section.</p>
+<h2 id="how-to-install-spybot">2.1 How to Install Spybot</h2>
+<p><strong>Step 1</strong>. <strong>Double click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_01.png" />; the <em>Open File - Security Warning</em> dialog box may appear. If it does, <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_71.png" /> to activate the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_03.png" /></p>
+<p><em>Figure 1: The Select Setup Language screen</em></p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_04.png" /> to activate the <em>Setup - Spybot Password Safe – Welcome to the Spybot - Search &amp; Destroy Setup Wizard</em> screen.</p>
+<p><strong>Step 3</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_05.png" /> at the <em>Donations Welcome</em> screen choosing the default option <em>I am installing Spybot for personal use, and will decide later</em>.</p>
+<p><strong>Step 4</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_05.png" /> at the <em>Installation and Usage Mode</em> screen choosing the default option <em>I want to be protected without having to attend it myself</em>.</p>
+<p><strong>Step 5</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_05.png" /> at the <em>License Agreement</em> screen. Please read the <em>License Agreement</em> before proceeding with the rest of the installation process.</p>
+<p><strong>Step 6</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_06.png" /> at the <em>Ready to Install</em> screen to begin the installation:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_07.png" /></p>
+<p><em>Figure 2: Installing</em></p>
+<p><strong>Step 7</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot1_08.png" /> to complete the installation process and launch <strong>Spybot - Search &amp; Destroy</strong>.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_09.png" /></p>
+<p><em>Figure 3: Completing the Spybot - Search &amp; Destroy Setup Wizard</em></p>
+<p>By default, the <em>Check for new malware signatures</em> is selected as shown above. <strong>Note</strong> - If an Internet connection is not available during the install, <strong>untick</strong> this box and review the <em>Section 2.3</em> .</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_10.png" /></p>
+<p><em>Figure 4: Update (Spybot - Search &amp; Destroy 2.4)</em></p>
+<p><strong>Step 8</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot1_11.png" /> to activate the screen below.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_12.png" /></p>
+<p><em>Figure 5: Checking for Antispyware updates</em></p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_13.png" /></p>
+<p><em>Figure 6: Antispyware updates completed</em></p>
+<h2 id="use-spybot-for-the-first-time">2.2 Use Spybot for the first time</h2>
+<p>After you have completed the installation and set-up process, <strong>Spybot</strong> will automatically launch itself to the <strong>Start Center</strong></p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_17.png" /></p>
+<p><em>Figure 7: Start Center</em></p>
+<p>Alternatively, Spybot Start Center can be launched either from <strong>Start &gt; All Programs &gt; Spybot - Search &amp; Destroy 2 &gt; Spybot S&amp;D Start Center</strong> or <strong>double click</strong> the Spybot Desktop icon</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_14.png" /></p>
+<p>Before you begin, it is strongly advised that you create a backup of the registry. For an overview of the <strong>Windows Registry</strong>, please refer to <a href="../ccleaner/windows"><strong>CCleaner</strong></a> for more information.</p>
+<p>Follow the steps below to create a backup of your computers registry</p>
+<p><strong>Step 1</strong>. <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_16.png" /> to display the <em>Advanced Tools</em> option.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_15a.png" /></p>
+<p><em>Figure 8: Advanced Tools</em></p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_18.png" /> .</p>
+<p><strong>Step 3</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_19.png" /> in the <em>Startup Tools</em> window</p>
+<p><strong>Step 4</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_20.png" /> as shown below</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_21.png" /></p>
+<p><em>Figure 9: Startup Tools</em></p>
+<p><strong>Step 5</strong>. <strong>Select</strong> a location and file name as shown in <em>figure 10</em> below at the <em>Folder to save to</em> window</p>
+<p><strong>Step 6</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_23.png" /></p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_22.png" /></p>
+<p><em>Figure 10: Folder to save to</em></p>
+<h2 id="how-to-update-the-spybot-detection-rules-and-immunization-databases">2.3 How to Update the Spybot Detection Rules and Immunization Databases</h2>
+<p><strong>Important</strong>: It is absolutely vital that you keep <strong>Spybot</strong> up to date with the latest definitions. The automated update feature is not available in the free version of <em>Spybot</em> so you must run this updated manually following the steps below:</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_24.png" /> in the <em>Start Center</em> to activate the <em>Updater</em>;</p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_25.png" /> to activate as shown below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_26.png" /></p>
+<p><em>Figure 11: Updater window</em></p>
+<p>Click <em>Show Details</em> to view a list of successfully downloaded updates.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_27.png" /></p>
+<p><em>Figure 12: Download and install updates</em></p>
+<h2 id="how-to-immunise-your-system">2.4 How to Immunise Your System</h2>
+<p><strong>Spybot</strong> helps shield your computer from known spyware by &quot;immunising&quot; it. This is like receiving a vaccination against infectious new diseases.</p>
+<p>To immunise your computer system, follow these steps:</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_28.png" /> from the <strong>Start Center</strong> to activate the <em>Immunization</em> window below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_29.png" /></p>
+<p><em>Figure 13: Immunization window</em></p>
+<p><strong>Note</strong>: If you have left your browser open for some reason, the following screen will appear before you begin the immunisation process:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_31.png" /></p>
+<p><em>Figure 14: The Open Browser Detected</em></p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_32.png" /> to begin checking for immunized files (if you have not yet immunized your system, few or no immunized files will be found) :</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_33.png" /></p>
+<p><em>Figure 15: Immunization check finished</em></p>
+<p><strong>Step 3</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_34.png" /> to begin immunising your system. Immunization make take several minutes to run.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_35.png" /></p>
+<p><em>Figure 16: Immunizing your system now...</em></p>
+<p><strong>Step 4</strong>. <strong>Click</strong> <em>Show Details</em> to view detail as shown below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_36.png" /></p>
+<p><em>Figure 17: Apply Passive Protection</em></p>
+<p><strong>Note</strong>: You can reverse or undo the immunisation process if you suspect that immunising your system has negatively affected the overall performance of your computer. You may <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_30.png" /> to reverse the immunisation process and restore your system to its previous state.</p>
+<h2 id="how-to-scan-for-threats">2.5 How to Scan for Threats</h2>
+<p><strong>Reminder</strong>: Before you begin checking for potential threats, please run the <strong>Spybot</strong> <em>Updater</em>.</p>
+<p>To check for potential threats, follow these steps:</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_14.png" /> to launch the <strong>Spybot</strong> <em>Start Center</em></p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_37.png" /> to activate the screen below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_38.png" /></p>
+<p><em>Figure 18: System Scan (Spybot - Search &amp; Destroy)</em></p>
+<p><strong>Step 3</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_40.png" /> to begin scanning your system. <em>Note - If you have a lot of data, files, programmes etc. this could take 20 minutes to an hour</em></p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_39.png" /></p>
+<p><em>Figure 19: System Scan (Spybot - Search &amp; Destroy)</em></p>
+<p>After the scan has been completed, the number and kinds of potential malware found will be listed as shown below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_41.png" /></p>
+<p><em>Figure 20: Scan for malware displaying potential malware</em></p>
+<p><strong>Step 4</strong>. <strong>Select</strong> the file and review the <em>Details</em> box on the left of the screen for each potential threat found to determine if the malware is a genuine threat.</p>
+<p><strong>Remember</strong> - a <em>false positive</em> means that a harmless file, folder, program or registry key could be categorised as malware. Deleting such could cause an issue an issue to another program.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_42.png" /></p>
+<p><em>Figure 21: Scan for malware - Details</em></p>
+<p><strong>Tip</strong>: The <em>Threat Level</em> is displayed by a colour indicator bar. An <em>Estimated Danger</em> rating of <em>Marginal</em> or <em>Very Low</em> will display as green. As the <em>Threat Level</em> moves from <em>Medium</em> to <em>High</em>, the colour indicator will change from orange to red. At a glance, it will be easy to gauge the potential threat. For example, most Browsers used <em>Tracking Cookies</em> when you visit a website. If the information they store is not excessive, the <em>Estimated Danger</em> rating my be <em>Marginal</em> or <em>Very Low</em>. You may choose to keep the cookies for certain websites for convenience.</p>
+<p><strong>Step 5</strong>. If you choose to delete a file or files <strong>select</strong> the file and <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_44.png" /></p>
+<p>You can also choose to to scan individual files and folders using the <strong>File Scan</strong> option in the <em>Start Center</em> - the process is similar to the <strong>System Scan</strong> described above.</p>
+<p><strong>Note</strong>: It is generally a good idea to scan your system for problems every week.</p>
+<h2 id="how-to-disable-tracking-cookies">2.6 How to Disable Tracking Cookies</h2>
+<p>A <em>tracking Cookie</em> is a small file saved on your computer by an Internet browser when you visit a website. A cookie can store information that can identify you to a particular website. This can include information such as username, password, personal data used to fill online forms, browsing habits etc. While Cookies provide convenience when browsing, this poses a risk to your anonymity online.</p>
+<p><em>Spybot Search &amp; Destroy</em> allows you to disable <em>tracking cookies</em> in all installed browsers from one central location.</p>
+<p>Disable <em>tracking cookies</em> using the following steps:</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_37.png" /> to launch the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_65.png" /></p>
+<p><em>Figure 22: The Spybot Search &amp; Destroy - Tracking Cookies</em></p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_66.png" /> to display the browser profiles on your computer as shown below. <em>Note - there may be other browser profiles on your computer</em>.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_67.png" /></p>
+<p><em>Figure 23: The Spybot Search &amp; Destroy - Blocking Third Party Cookies</em></p>
+<p><strong>Step 3</strong>. <strong>Select</strong> the profile and click <img src="/sites/siabnext.ttc.io/files/media/spybot_68.png" />:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_69.png" /></p>
+<p><em>Figure 24 : The Spybot Search &amp; Destroy - Tracking Cookies Disabled</em></p>
+<p>To re-enable <em>Tracking Cookies</em>, <strong>click</strong> on the drop-down arrow beside <img src="/sites/siabnext.ttc.io/files/media/spybot_66.png" /> and <strong>select</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_70.png" />.</p>
+<h2 id="how-to-use-the-recovery-tool">2.7 How to Use the Recovery tool</h2>
+<p>The <em>Quarantine</em> tool allows you to recover or retrieve any previously deleted or repaired item. This is possible because <strong>Spybot</strong> will create a backup for every item it has previously deleted. If a deleted file causes your computer to malfunction, it is possible to restore it using the <em>Quarantine</em> tool.</p>
+<p>To recover a previously deleted item, perform the following steps:</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_45.png" /> from the <em>Start Center</em> to launch the screen below :</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_46.png" /></p>
+<p><em>Figure 25: Quarantine (Spybot - Search &amp; Destroy)</em></p>
+<p><strong>Step 2</strong>. <strong>Check</strong> the items you would like to recover from the list of previously deleted items, and then <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_47.png" />.</p>
+<p><strong>Step 3</strong>. Alternatively, <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_48.png" /> to remove checked files completely. However, be aware that purged items are not recoverable.</p>
+<h1 id="how-to-use-spybot-in-advanced-mode">3. How to Use Spybot in Advanced Mode</h1>
+<p><strong>Spybot</strong> has <em>Default</em> and <em>Advanced</em> sections. The <em>Advanced Mode</em> lets you configure settings and perform additional tasks.</p>
+<h2 id="how-to-enable-advanced-mode">3.1 How to Enable Advanced Mode</h2>
+<p><strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_16.png" /> in the <em>Start Center</em> window to display the <em>Advanced Tools</em> and <em>Professional Tools</em> options.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_15a.png" /></p>
+<p><em>Figure 1: Advanced Tools</em></p>
+<p>The free version of <em>Spybot</em> only allows you to use some of the options available in the <em>Advanced Tools</em> and <em>Professional Tools</em> sections:</p>
+<ul>
+<li><p><strong>Report Creator</strong> can be used to assist <em>Spybot</em> Technical Support teams in the event that you need help with <em>Spybot</em> software. The level of support available will usually depend on the version of software you are running - paid verse free for example. While support forums are a useful source of knowledge to help decide if a file is harmful or not, we do recommend caution before submitting any files or logs from your computer if anonymity is a concern for you.</p></li>
+<li><p><strong>Settings</strong> section lets you configure Language, Scope of scanning, Browsers Spybot-S&amp;D will scan, etc..</p></li>
+<li><p><strong>Startup Tools</strong> section lets you review in details processes active on your computer, programs that are run when your computer is starting, your system scheduled tasks, plugins, system services, installed programs, etc..</p></li>
+<li><p><strong>Rootkit Scan</strong> section checks your computer operating system for presence of <em>rootkits</em>, malicious programs that hide at the system level, which makes them undetectable by standard anti-malware tools.</p></li>
+</ul>
+<h2 id="advanced-mode---rootkit-scan">3.2 Advanced Mode - Rootkit Scan</h2>
+<p>The <strong>Rootkit Scan</strong> can be used to flag suspicious files and registry entries for further analysis or for removing them. The steps below will show how to perform a <em>Rootkit Scan</em>.</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_61.png" /> from the <em>Advanced Tools</em> pane to activate the window below. Note <em>Quick scan test results</em>.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_57.png" /></p>
+<p><em>Figure 5: Rootkit Scan</em></p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_58.png" />.</p>
+<p><strong>Step 3</strong>. <strong>Select</strong> the drives and registry entries you wish to scan. We recommend selecting all of the items available. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_04.png" />. <em>Note</em> this scan can take long time (perhaps about an hour) to complete.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_59.png" /></p>
+<p><em>Figure 6: Rootkit Scan - select drives</em></p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_60.png" /></p>
+<p><em>Figure 7: Rootkit Scan in progress</em></p>
+<p>When the scan has completed, <em>Search for rootkits</em> will display any suspicious files found. You can then review the findings and options to determine if the file is legitimate.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_62.png" /></p>
+<p><em>Figure 7: Search for rootkits</em></p>
+<p><strong>Step 4</strong>. <strong>Right click</strong> any found items to display the options:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_63.png" /></p>
+<p><em>Figure 8: rootkits scan options</em></p>
+<p><strong>Step 5</strong>. <strong>Select</strong> <em>Show properties</em> to display details.</p>
+<p><strong>Step 6</strong>. <strong>Select</strong> <em>Scan file for malware</em> if this option is available. This will activate the <em>File Scan</em> window. The result of the scan will be shown as below.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_64.png" /></p>
+<p><em>Figure 9: File Scan - clean file</em></p>
+<p><strong>Note</strong> Items with rootkit properties detected are not necessarily malware. Deleting such could cause an issue to another program. Refer to section <strong>2.5 How to Scan for Threats</strong> and <strong>2.6 How to Restore a File</strong> when dealing with files found during the <em>Rootkit Scan</em>.</p>
+<p><strong>Step 7</strong>. When you sure that the item found is suspicious you may <strong>Delete</strong> it from your system.</p>
+<p>If you are not sure about the found items, you may ask for ‘help’ in Spybot <a href="http://forums.spybot.info/forumdisplay.php?f=46">RootAlyzer Forum</a> before you delete anything. The deletion is final and can not be recovered through the Quarantine. If you still want to remove the found items it is strongly recommended to <a href="http://windows.microsoft.com/en-us/windows/system-restore-faq">create a system restore point</a> before doing that.</p>
+<h1 id="portable-spybot">4. Portable Spybot</h1>
+<p><strong>Portable Spybot - Search &amp; Destroy</strong> is used to detect and remove different kinds of adware, malware and spyware from your computer. It offers free updates and lets you immunise your Internet browser against future infection by known malware.</p>
+<h2 id="differences-between-the-installed-and-portable-versions-of-spybot---search-destroy">4.1 Differences between the Installed and Portable Versions of Spybot - Search &amp; Destroy</h2>
+<p>Given that portable tools are not installed on a local computer, their existence and use may remain undetected. However, keep in mind that your external device or USB memory stick, and portable tools are only as safe as the computer you are using, and may risk being exposed to adware, malware, spyware and viruses.</p>
+<p>There are no other differences between <strong>Portable Spybot</strong> and the version designed to be installed on a local computer.</p>
+<p><strong>Note:</strong> Please review the portable rescue tools for removing the viruses, adware, malware and spyware in the avast! chapter in <a href="../avast/windows"><strong>Advanced Virus Removal Methods</strong></a> section of <em>How to Scan for and Deal with Viruses Using avast!</em>.</p>
+<h2 id="how-to-download-and-extract-portable-spybot---search-destroy">4.2 How to Download and Extract Portable Spybot - Search &amp; Destroy</h2>
+<p>To begin downloading and extracting <strong>Portable Spybot - Search &amp; Destroy</strong>, perform the following steps:</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <a href="http://portableapps.com/apps/security/spybot_portable"><strong>http://portableapps.com/apps/security/spybot_portable</strong></a> to be directed to the appropriate download site.</p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_remv_02.png" /> to activate its associated <strong>Source Forge</strong> download page;</p>
+<p><strong>Step 3</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_remv_03.png" /> to save the <img src="/sites/siabnext.ttc.io/files/media/spybot_remv_04.png" /> installation file to your computer, and then <strong>navigate</strong> to it.</p>
+<p><strong>Step 4</strong>. <strong>Double click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_remv_04.png" />; the <em>Open File - Security Warning</em> dialog box may appear; if it does, <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_remv_05.png" /> to activate the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_remv_06.png" /></p>
+<p><em>Figure 1: The Language Installer window</em></p>
+<p><strong>Step 5</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_remv_07.png" /> to activate the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_remv_08.png" /></p>
+<p><em>Figure 2: The Spybot - Search &amp; Destroy, Portable Edition | Portableapps.com Installer window</em></p>
+<p><strong>Step 6</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_remv_09.png" /> to activate the <em>License Agreement</em> window.</p>
+<p><strong>Step 7</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_remv_10.png" /> after you have read the <em>License Agreement</em> to activate the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_remv_11.png" /></p>
+<p><em>Figure 3: The Choose Install Location window</em></p>
+<p><strong>Step 8</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_remv_12.png" /> to activate a screen resembling the following:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_remv_13.png" /></p>
+<p><em>Figure 4: The Browse for Folder window</em></p>
+<p><strong>Step 9</strong>. <strong>Navigate</strong> to your destination external drive or USB memory stick, as shown in <em>Figure 4</em> above, then <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_remv_07.png" /> to confirm the location of the <strong>Spybot - Search &amp; Destroy Portable</strong> file, and return to the <em>Choose Install Location</em> window.</p>
+<p><strong>Step 10</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_port_en_14.png" /> to begin installing the <strong>Spybot - Search &amp; Destroy Portable</strong> program, then<br />
+<strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_remv_15.png" /> to complete the installation process, and then <strong>navigate</strong> to the removable drive or USB memory stick which the <strong>Portable Spybot - Search &amp; Destroy</strong> program was saved.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/spybot_remv_16.png" /></p>
+<p><em>Figure 5: The newly installed Portable Spybot - Search &amp; Destroy program with its folder highlighted in blue</em></p>
+<p><strong>Step 11</strong>. <strong>Open</strong> the <strong>Portable Spybot - Search &amp; Destroy</strong> folder, and then <strong>double click</strong> <img src="/sites/siabnext.ttc.io/files/media/spybot_remv_17.png" /> to begin launch <strong>Portable Spybot - Search &amp; Destroy</strong>.</p>
+<p>After you have successfully extracted <strong>Portable Spybot - Search &amp; Destroy</strong>, please refer to the <a href="../spybot/windows"><strong>Spybot - Search &amp; Destroy</strong></a> chapter to begin using it.</p>
+<h1 id="faq">FAQ</h1>
+<p><strong><em>Q: What happens to the spyware programs Spybot has found in past searches if I uninstall the program? Do they remain on my computer in 'quarantine', or have they actually been removed?</em></strong></p>
+<p><strong><em>A</em></strong>: <em>When you uninstall <strong>Spybot</strong>, it will delete all items held in quarantine as well.</em></p>
+<p><strong><em>Q: Can I prevent cookies and trackers from being fixed or removed?</em></strong></p>
+<p><strong><em>A</em></strong>: <em>There are a couple of ways to protect useful cookies and trackers. After <strong>Spybot</strong> has scanned your system, it will list any suspicious files or potential threats detected. <strong>Click</strong> on each item to reveal more information, and to help you decide what you want to either delete or keep. Alternatively,</em> <strong>open Spybot Start Center</strong> <em>and</em> <strong>select &gt; Advanced User Mode &gt; Settings</strong>. <em>Here, you can specify with greater accuracy which items you would like to omit from your search and destroy missions.</em></p>
+<p><strong><em>Q: Is Spybot difficult to uninstall?</em></strong></p>
+<p><strong><em>A</em></strong>: <em>Actually, it's pretty easy. Simply</em> <strong>Select &gt; Start &gt; All Programs &gt; Spybot - Search &amp; Destroy 2 &gt; Uninstall Spybot-S&amp;D</strong>.</p>
+<p><strong><em>Q: How come Spybot doesn't automatically update its detection rules and immunization databases when I open it?</em></strong></p>
+<p><strong><em>A</em></strong>: <em>Automatic updates happen in professional version of <strong>Spybot</strong>. Given that you are using a free version, some features are unavailable. Still, manually updating the <strong>Spybot</strong> detection rules and immunisation databases is relatively easy.</em></p>
+
+    </div>
+
+    </div>
+
+  </body>
+</html>

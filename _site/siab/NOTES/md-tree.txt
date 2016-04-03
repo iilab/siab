@@ -1,0 +1,3581 @@
+md
+|-- am
+|   `-- guide
+|       |-- tactics
+|       |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|       |   |   |-- 010-viruses.md
+|       |   |   |-- 020-spyware.md
+|       |   |   |-- 030-firewalls.md
+|       |   |   |-- 040-keeping-your-software-up-to-date.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+|       |   |   |-- 010-assessing-your-risks.md
+|       |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+|       |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|       |   |   |-- 040-creating-your-physical-security-policy.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+|       |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|       |   |   |-- 020-remembering-and-recording-secure-passwords.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- 010-encrypting-your-information.md
+|       |   |   |-- 020-hiding-your-sensitive-information.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 005-5-how-to-recover-from-information-loss
+|       |   |   |-- 010-identifying-and-organising-your-information.md
+|       |   |   |-- 020-defining-your-backup-strategy.md
+|       |   |   |-- 030-creating-a-digital-backup.md
+|       |   |   |-- 040-recovering-from-accidental-file-deletion.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 006-6-how-to-destroy-sensitive-information
+|       |   |   |-- 010-deleting-information.md
+|       |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|       |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|       |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 007-7-how-to-keep-your-internet-communication-private
+|       |   |   |-- 010-securing-your-email.md
+|       |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|       |   |   |-- 030-securing-other-internet-communication-tools.md
+|       |   |   |-- 040-advanced-email-security.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- 010-understanding-internet-censorship.md
+|       |   |   |-- 020-understanding-censorship-circumvention.md
+|       |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|       |   |   |-- 040-specific-circumvention-proxies.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+|       |   |   |-- 020-posting-personal-details.md
+|       |   |   |-- 030-social-networking-tools.md
+|       |   |   `-- index.md
+|       |   `-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|       |       |-- 010-mobile-devices-and-security.md
+|       |       |-- 020-mobility-and-the-vulnerability-of-information.md
+|       |       |-- 030-best-practices-for-phone-security.md
+|       |       |-- 040-basic-functions-trackability-and-anonymity.md
+|       |       |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|       |       |-- 060-functions-beyond-speech-and-messages.md
+|       |       |-- 070-further-reading.md
+|       |       `-- index.md
+|       `-- tools
+|           |-- internet
+|           |   `-- 010-riseup-secure-email-service
+|           |       |-- 010-how-to-create-a-riseup-account.md
+|           |       |-- 020-how-to-log-into-your-riseup-account.md
+|           |       |-- 030-how-to-change-your-account-settings.md
+|           |       |-- 040-faq-and-review.md
+|           |       `-- index.md
+|           `-- windows
+|               |-- 000-avast-anti-virus
+|               |   |-- 010-how-to-install-register-and-configure-avast.md
+|               |   |-- 020-how-to-manually-update-and-use-additional-options-in-avast.md
+|               |   |-- 030-how-to-scan-for-and-deal-with-viruses-using-avast.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 001-spybot-anti-spyware
+|               |   |-- 010-how-to-install-and-use-spybot.md
+|               |   |-- 020-how-to-use-spybot-in-advanced-mode.md
+|               |   |-- 030-portable-spybot.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 003-comodo-firewall
+|               |   |-- 010-how-to-install-and-launch-comodo-firewall.md
+|               |   |-- 030-advanced-configurations-and-settings.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 004-keepass-secure-password-storage
+|               |   |-- 010-how-to-install-and-use-keepass.md
+|               |   |-- 020-using-keepass-passwords.md
+|               |   |-- 030-portable-keepass.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 005-truecrypt-secure-file-storage
+|               |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+|               |   |-- 020-how-to-mount-the-standard-volume.md
+|               |   |-- 030-how-to-back-up-your-volume.md
+|               |   |-- 040-hidden-volumes.md
+|               |   |-- 050-portable-truecrypt.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               |-- 006-cobian-backup-secure-file-backup
+|               |   |-- 010-how-to-install-cobian-backup-and-archive-your-files.md
+|               |   |-- 020-how-to-compress-and-decompress-your-files.md
+|               |   |-- 030-how-to-encrypt-your-backup-file.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 007-recuva-file-recovery
+|               |   |-- 010-how-to-install-recuva.md
+|               |   |-- 020-how-to-perform-different-scans-using-recuva.md
+|               |   |-- 030-how-to-recover-and-securely-overwrite-files-using-recuva.md
+|               |   |-- 040-portable-recuva.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 008-eraser-secure-file-removal
+|               |   |-- 010-how-to-install-and-configure-eraser.md
+|               |   |-- 020-how-to-use-eraser.md
+|               |   |-- 030-portable-eraser.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+|               |   |-- 040-portable-ccleaner.md
+|               |   `-- index.md
+|               |-- 011-pidgin-with-otr-secure-instant-messaging
+|               |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+|               |   |-- 020-how-to-use-otr-to-initiate-a-secure-messaging-session-in-pidgin.md
+|               |   |-- 040-portable-pidgin-and-otr.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+|               |   |-- 010-how-to-install-thunderbird.md
+|               |   |-- 020-how-to-configure-important-thunderbird-settings.md
+|               |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+|               |   |-- 040-portable-thunderbird-with-gpg-and-enigmail.md
+|               |   |-- 060-faq.md
+|               |   `-- index.md
+|               |-- 014-gpg4usb-email-text-and-files-encryption
+|               |   |-- 010-how-to-install-gpg4usb-and-generate-a-key-pair.md
+|               |   |-- 020-how-to-export-and-import-keys.md
+|               |   |-- 030-how-to-encrypt-and-decrypt-text-and-files.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 015-firefox-with-add-ons-secure-web-browser
+|               |   |-- 010-how-to-install-and-configure-firefox.md
+|               |   |-- 020-how-to-install-firefox-add-ons.md
+|               |   |-- 030-how-to-use-the-noscript-add-on.md
+|               |   |-- 040-more-useful-firefox-add-ons.md
+|               |   |-- 050-portable-firefox.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               `-- 016-tor-browser-digital-anonymity-and-circumvention
+|                   |-- 000-how-to-extract-the-tor-browser.md
+|                   |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+|                   |-- 030-using-the-tor-browser.md
+|                   |-- 050-tor-browser-faq.md
+|                   `-- index.md
+|-- ar
+|   `-- guide
+|       |-- tactics
+|       |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|       |   |   |-- 010-viruses.md
+|       |   |   |-- 020-spyware.md
+|       |   |   |-- 030-firewalls.md
+|       |   |   |-- 040-keeping-your-software-up-to-date.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+|       |   |   |-- 010-assessing-your-risks.md
+|       |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+|       |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|       |   |   |-- 040-creating-your-physical-security-policy.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+|       |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|       |   |   |-- 020-remembering-and-recording-secure-passwords.md
+|       |   |   `-- index.md
+|       |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- 010-encrypting-your-information.md
+|       |   |   |-- 020-hiding-your-sensitive-information.md
+|       |   |   `-- index.md
+|       |   |-- 005-5-how-to-recover-from-information-loss
+|       |   |   |-- 010-identifying-and-organising-your-information.md
+|       |   |   |-- 020-defining-your-backup-strategy.md
+|       |   |   |-- 030-creating-a-digital-backup.md
+|       |   |   |-- 040-recovering-from-accidental-file-deletion.md
+|       |   |   `-- index.md
+|       |   |-- 006-6-how-to-destroy-sensitive-information
+|       |   |   |-- 010-deleting-information.md
+|       |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|       |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|       |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|       |   |   `-- index.md
+|       |   |-- 007-7-how-to-keep-your-internet-communication-private
+|       |   |   |-- 010-securing-your-email.md
+|       |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|       |   |   |-- 030-securing-other-internet-communication-tools.md
+|       |   |   |-- 040-advanced-email-security.md
+|       |   |   `-- index.md
+|       |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- 010-understanding-internet-censorship.md
+|       |   |   |-- 020-understanding-censorship-circumvention.md
+|       |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|       |   |   |-- 040-specific-circumvention-proxies.md
+|       |   |   `-- index.md
+|       |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+|       |   |   |-- 020-posting-personal-details.md
+|       |   |   `-- index.md
+|       |   |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|       |   |   |-- 010-mobile-devices-and-security.md
+|       |   |   |-- 020-mobility-and-the-vulnerability-of-information.md
+|       |   |   |-- 030-best-practices-for-phone-security.md
+|       |   |   |-- 040-basic-functions-trackability-and-anonymity.md
+|       |   |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|       |   |   |-- 060-functions-beyond-speech-and-messages.md
+|       |   |   |-- 070-further-reading.md
+|       |   |   `-- index.md
+|       |   `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+|       |       |-- 010-platforms-setup-and-installation.md
+|       |       |-- 020-communicating-voice-and-messages-via-smartphone.md
+|       |       |-- 030-storing-information-on-your-smartphone.md
+|       |       |-- 040-sending-emails-from-smartphones.md
+|       |       |-- 050-capturing-media-with-smartphones.md
+|       |       |-- 060-accessing-the-internet-securely-from-smartphones.md
+|       |       |-- 070-advanced-smartphone-security.md
+|       |       `-- index.md
+|       `-- tools
+|           |-- android
+|           |   |-- 025-keepassdroid-for-android-devices
+|           |   |   |-- 010-keepassdroid-basic-usage.md
+|           |   |   |-- 020-keepassdroid-advanced-usage.md
+|           |   |   `-- index.md
+|           |   |-- 027-orbot-and-orfox-for-android-devices
+|           |   |   |-- 010-orbot-and-orfox-installation.md
+|           |   |   |-- 020-orbot-and-orfox-usage.md
+|           |   |   `-- index.md
+|           |   |-- 029-orweb-for-android-devices
+|           |   |   |-- 010-orweb-installation.md
+|           |   |   |-- 020-orweb-usage.md
+|           |   |   `-- index.md
+|           |   `-- 031-textsecure-for-android-devices
+|           |       `-- index.md
+|           |-- internet
+|           |   |-- 010-riseup-secure-email-service
+|           |   |   |-- 010-how-to-create-a-riseup-account.md
+|           |   |   |-- 020-how-to-log-into-your-riseup-account.md
+|           |   |   |-- 030-how-to-change-your-account-settings.md
+|           |   |   |-- 040-faq-and-review.md
+|           |   |   `-- index.md
+|           |   `-- 017-social-networking-tools-facebook-twitter-and-others
+|           |       |-- 010-facebook-security-guide.md
+|           |       |-- 020-twitter-security-guide.md
+|           |       |-- 030-youtube.md
+|           |       |-- 040-flickr.md
+|           |       `-- index.md
+|           `-- windows
+|               |-- 000-avast-anti-virus
+|               |   |-- 010-how-to-install-register-and-configure-avast.md
+|               |   |-- 020-how-to-manually-update-and-use-additional-options-in-avast.md
+|               |   |-- 030-how-to-scan-for-and-deal-with-viruses-using-avast.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 001-spybot-anti-spyware
+|               |   |-- 010-how-to-install-and-use-spybot.md
+|               |   |-- 020-how-to-use-spybot-in-advanced-mode.md
+|               |   |-- 030-portable-spybot.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 003-comodo-firewall
+|               |   |-- 010-how-to-install-and-launch-comodo-firewall.md
+|               |   |-- 020-how-to-use-comodo-firewall.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 004-keepass-secure-password-storage
+|               |   |-- 010-how-to-install-and-use-keepass.md
+|               |   |-- 020-using-keepass-passwords.md
+|               |   |-- 030-portable-keepass.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 005-truecrypt-secure-file-storage
+|               |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+|               |   |-- 020-how-to-mount-the-standard-volume.md
+|               |   |-- 040-hidden-volumes.md
+|               |   |-- 050-portable-truecrypt.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               |-- 006-cobian-backup-secure-file-backup
+|               |   |-- 010-how-to-install-cobian-backup-and-archive-your-files.md
+|               |   |-- 020-how-to-compress-and-decompress-your-files.md
+|               |   |-- 030-how-to-encrypt-your-backup-file.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 007-recuva-file-recovery
+|               |   |-- 010-how-to-install-recuva.md
+|               |   |-- 020-how-to-perform-different-scans-using-recuva.md
+|               |   |-- 030-how-to-recover-and-securely-overwrite-files-using-recuva.md
+|               |   |-- 040-portable-recuva.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 008-eraser-secure-file-removal
+|               |   |-- 010-how-to-install-and-configure-eraser.md
+|               |   |-- 020-how-to-use-eraser.md
+|               |   |-- 030-portable-eraser.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+|               |   |-- 010-how-to-install-and-configure-ccleaner.md
+|               |   |-- 020-how-to-delete-temporary-files-in-ccleaner.md
+|               |   |-- 030-how-to-clean-the-windows-registry-in-ccleaner.md
+|               |   |-- 040-portable-ccleaner.md
+|               |   |-- 050-advanced-options-faq-and-review.md
+|               |   `-- index.md
+|               |-- 011-pidgin-with-otr-secure-instant-messaging
+|               |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+|               |   |-- 020-how-to-use-otr-to-initiate-a-secure-messaging-session-in-pidgin.md
+|               |   |-- 040-portable-pidgin-and-otr.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+|               |   |-- 010-how-to-install-thunderbird.md
+|               |   |-- 020-how-to-configure-important-thunderbird-settings.md
+|               |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+|               |   |-- 040-portable-thunderbird-with-gpg-and-enigmail.md
+|               |   |-- 060-faq.md
+|               |   `-- index.md
+|               |-- 014-gpg4usb-email-text-and-files-encryption
+|               |   |-- 010-how-to-install-gpg4usb-and-generate-a-key-pair.md
+|               |   |-- 020-how-to-export-and-import-keys.md
+|               |   |-- 030-how-to-encrypt-and-decrypt-text-and-files.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 015-firefox-with-add-ons-secure-web-browser
+|               |   |-- 010-how-to-install-and-configure-firefox.md
+|               |   |-- 020-how-to-install-firefox-add-ons.md
+|               |   |-- 030-how-to-use-the-noscript-add-on.md
+|               |   |-- 040-more-useful-firefox-add-ons.md
+|               |   |-- 050-portable-firefox.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               `-- 016-tor-browser-digital-anonymity-and-circumvention
+|                   |-- 000-how-to-extract-the-tor-browser.md
+|                   |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+|                   |-- 030-using-the-tor-browser.md
+|                   |-- 050-tor-browser-faq.md
+|                   `-- index.md
+|-- bo
+|   `-- guide
+|       `-- tactics
+|           |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|           |   |-- 010-viruses.md
+|           |   |-- 020-spyware.md
+|           |   |-- 030-firewalls.md
+|           |   |-- 040-keeping-your-software-up-to-date.md
+|           |   |-- 050-further-reading.md
+|           |   `-- index.md
+|           |-- 002-2-how-to-protect-your-information-from-physical-threats
+|           |   |-- 010-assessing-your-risks.md
+|           |   |-- 020-protecting-your-information-from-physical-intruders.md
+|           |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|           |   |-- 040-creating-your-physical-security-policy.md
+|           |   |-- 050-further-reading.md
+|           |   `-- index.md
+|           |-- 003-3-how-to-create-and-maintain-secure-passwords
+|           |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|           |   |-- 020-remembering-and-recording-secure-passwords.md
+|           |   |-- 030-further-reading.md
+|           |   `-- index.md
+|           |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|           |   |-- 010-encrypting-your-information.md
+|           |   |-- 020-hiding-your-sensitive-information.md
+|           |   |-- 030-further-reading.md
+|           |   `-- index.md
+|           |-- 005-5-how-to-recover-from-information-loss
+|           |   |-- 010-identifying-and-organising-your-information.md
+|           |   |-- 020-defining-your-backup-strategy.md
+|           |   |-- 030-creating-a-digital-backup.md
+|           |   |-- 040-recovering-from-accidental-file-deletion.md
+|           |   |-- 050-further-reading.md
+|           |   `-- index.md
+|           |-- 006-6-how-to-destroy-sensitive-information
+|           |   |-- 010-deleting-information.md
+|           |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|           |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|           |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|           |   |-- 050-further-reading.md
+|           |   `-- index.md
+|           |-- 007-7-how-to-keep-your-internet-communication-private
+|           |   |-- 010-securing-your-email.md
+|           |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|           |   |-- 030-securing-other-internet-communication-tools.md
+|           |   |-- 040-advanced-email-security.md
+|           |   |-- 050-further-reading.md
+|           |   `-- index.md
+|           |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|           |   |-- 010-understanding-internet-censorship.md
+|           |   |-- 020-understanding-censorship-circumvention.md
+|           |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|           |   |-- 040-specific-circumvention-proxies.md
+|           |   |-- 050-further-reading.md
+|           |   `-- index.md
+|           |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|           |   |-- 010-general-tips-on-using-social-networking-tools.md
+|           |   |-- 020-posting-personal-details.md
+|           |   `-- index.md
+|           |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|           |   |-- 010-mobile-devices-and-security.md
+|           |   |-- 020-mobility-and-the-vulnerability-of-information.md
+|           |   |-- 040-basic-functions-trackability-and-anonymity.md
+|           |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|           |   |-- 060-functions-beyond-speech-and-messages.md
+|           |   |-- 070-further-reading.md
+|           |   `-- index.md
+|           `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+|               |-- 010-platforms-setup-and-installation.md
+|               |-- 020-communicating-voice-and-messages-via-smartphone.md
+|               |-- 030-storing-information-on-your-smartphone.md
+|               |-- 040-sending-emails-from-smartphones.md
+|               |-- 050-capturing-media-with-smartphones.md
+|               |-- 060-accessing-the-internet-securely-from-smartphones.md
+|               |-- 070-advanced-smartphone-security.md
+|               `-- index.md
+|-- en
+|   |-- eco-rights-africa
+|   |   |-- tactics
+|   |   |   |-- 002-how-to-assess-your-digital-security-risk
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       `-- snippet_01
+|   |   |   |-- 005-protect-your-device-from-malware-and-hackers
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       |-- snippet_04
+|   |   |   |       `-- snippet_05
+|   |   |   |-- 010-protect-your-information-from-physical-threats
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       `-- snippet_03
+|   |   |   |-- 015-create-and-maintain-secure-passwords
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       `-- snippet_03
+|   |   |   |-- 020-protect-the-sensitive-files-on-your-computer
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       |-- snippet_04
+|   |   |   |       `-- snippet_05
+|   |   |   |-- 024-basic-computer-hygiene
+|   |   |   |   `-- index.md
+|   |   |   |-- 025-recover-from-information-loss
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       `-- snippet_04
+|   |   |   |-- 028-how-to-secure-your-online-collaborations
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01.md
+|   |   |   |       |-- snippet_02.md
+|   |   |   |       `-- snippet_03.md
+|   |   |   |-- 030-destroy-sensitive-information
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       `-- snippet_03
+|   |   |   |-- 030-how-to-secure-your-files-in-cloud-storage
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       `-- snippet_01.md
+|   |   |   |-- 032-how-to-make-a-distress-call-in-emergencies
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       `-- snippet_01.md
+|   |   |   |-- 035-keep-your-online-communication-private
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       |-- snippet_04
+|   |   |   |       |-- snippet_05
+|   |   |   |       |-- snippet_06
+|   |   |   |       `-- snippet_07
+|   |   |   |-- 036-protect-your-evidence
+|   |   |   |   `-- index.md
+|   |   |   |-- 040-remain-anonymous-and-bypass-censorship-on-the-internet
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       `-- snippet_02
+|   |   |   |-- 045-protect-yourself-and-your-data-when-using-social-networking-sites
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       `-- snippet_01
+|   |   |   |-- 050-use-mobile-phones-as-securely-as-possible
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       |-- snippet_04
+|   |   |   |       |-- snippet_05
+|   |   |   |       `-- snippet_06
+|   |   |   `-- 055-use-smartphones-as-securely-as-possible
+|   |   |       `-- index.md
+|   |   `-- tools
+|   |       |-- android
+|   |       |   |-- 089-basic-android-security-setup-guide
+|   |       |   |   `-- index.md
+|   |       |   |-- 090-android-privacy-guard-apg-for-android-devices
+|   |       |   |   `-- index.md
+|   |       |   |-- 093-k9-with-apg-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 094-keepassdroid-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 095-obscuracam-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 096-orbot-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 097-orweb-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 098-textsecure-for-android
+|   |       |   |   `-- index.md
+|   |       |   `-- 100-redphone
+|   |       |       `-- index.md
+|   |       |-- internet
+|   |       |   |-- 075-crabgrass-secure-online-collaboration
+|   |       |   |   `-- index.md
+|   |       |   |-- 080-riseup-secure-email-service
+|   |       |   |   `-- index.md
+|   |       |   `-- 081-social-networking-platforms
+|   |       |       `-- index.md
+|   |       `-- windows
+|   |           |-- 005-avast-anti-malware
+|   |           |   `-- index.md
+|   |           |-- 010-spybot-for-windows-anti-spyware
+|   |           |   `-- index.md
+|   |           |-- 015-comodo-for-windows-network-firewall
+|   |           |   `-- index.md
+|   |           |-- 019-keepass-secure-password-manager
+|   |           |   `-- index.md
+|   |           |-- 025-truecrypt-for-windows-secure-file-storage
+|   |           |   `-- index.md
+|   |           |-- 030-cobian-backup-for-windows
+|   |           |   `-- index.md
+|   |           |-- 035-recuva-for-windows-file-recovery
+|   |           |   `-- index.md
+|   |           |-- 040-eraser-for-windows-secure-file-removal
+|   |           |   `-- index.md
+|   |           |-- 045-ccleaner-for-windows-secure-file-deletion-and-session-cleanup
+|   |           |   `-- index.md
+|   |           |-- 050-pidgin-with-otr-for-windows-secure-instant-messaging
+|   |           |   `-- index.md
+|   |           |-- 055-jitsi-for-windows-secure-instant-messaging-and-voip
+|   |           |   `-- index.md
+|   |           |-- 060-thunderbird-enigmail-and-openpgp-for-windows-secure-email
+|   |           |   `-- index.md
+|   |           |-- 065-gpg4usb-for-windows-email-and-file-encryption
+|   |           |   `-- index.md
+|   |           |-- 070-firefox-and-security-add-ons-for-windows-secure-web-browser
+|   |           |   `-- index.md
+|   |           `-- 075-torbrowser-for-windows-digital-anonymity-and-circumvention
+|   |               `-- index.md
+|   |-- guide
+|   |   |-- tactics
+|   |   |   |-- 005-protect-your-device-from-malware-and-hackers
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01.md
+|   |   |   |       |-- snippet_02.md
+|   |   |   |       |-- snippet_03.md
+|   |   |   |       |-- snippet_04.md
+|   |   |   |       `-- snippet_05.md
+|   |   |   |-- 010-protect-your-information-from-physical-threats
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01.md
+|   |   |   |       |-- snippet_02.md
+|   |   |   |       `-- snippet_03.md
+|   |   |   |-- 015-create-and-maintain-secure-passwords
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01.md
+|   |   |   |       |-- snippet_02.md
+|   |   |   |       `-- snippet_03.md
+|   |   |   |-- 020-protect-the-sensitive-files-on-your-computer
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01.md
+|   |   |   |       |-- snippet_02.md
+|   |   |   |       |-- snippet_03.md
+|   |   |   |       |-- snippet_04.md
+|   |   |   |       `-- snippet_05.md
+|   |   |   |-- 025-recover-from-information-loss
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01.md
+|   |   |   |       |-- snippet_02.md
+|   |   |   |       |-- snippet_03.md
+|   |   |   |       `-- snippet_04.md
+|   |   |   |-- 030-destroy-sensitive-information
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01.md
+|   |   |   |       |-- snippet_02.md
+|   |   |   |       `-- snippet_03.md
+|   |   |   |-- 035-keep-your-online-communication-private
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01.md
+|   |   |   |       |-- snippet_02.md
+|   |   |   |       |-- snippet_03.md
+|   |   |   |       |-- snippet_04.md
+|   |   |   |       |-- snippet_05.md
+|   |   |   |       |-- snippet_06.md
+|   |   |   |       `-- snippet_07.md
+|   |   |   |-- 040-remain-anonymous-and-bypass-censorship-on-the-internet
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01.md
+|   |   |   |       `-- snippet_02.md
+|   |   |   |-- 045-protect-yourself-and-your-data-when-using-social-networking-sites
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       `-- snippet_01.md
+|   |   |   |-- 050-use-mobile-phones-as-securely-as-possible
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01.md
+|   |   |   |       |-- snippet_02.md
+|   |   |   |       |-- snippet_03.md
+|   |   |   |       |-- snippet_04.md
+|   |   |   |       |-- snippet_05.md
+|   |   |   |       `-- snippet_06.md
+|   |   |   `-- 055-use-smartphones-as-securely-as-possible
+|   |   |       `-- index.md
+|   |   `-- tools
+|   |       |-- android
+|   |       |   |-- 000-basic-android-security-setup-guide
+|   |       |   |   |-- basic-android-security-setup-guide.md
+|   |       |   |   `-- index.md
+|   |       |   |-- 090-android-privacy-guard-apg-for-android-devices
+|   |       |   |   |-- android-privacy-guard-apg-for-android-devices.md
+|   |       |   |   `-- index.md
+|   |       |   |-- 093-k9-with-apg-for-android
+|   |       |   |   |-- index.md
+|   |       |   |   `-- k9-with-apg-for-android.md
+|   |       |   |-- 094-keepassdroid-for-android
+|   |       |   |   |-- index.md
+|   |       |   |   `-- keepassdroid-for-android.md
+|   |       |   |-- 095-obscuracam-for-android
+|   |       |   |   |-- index.md
+|   |       |   |   `-- obscuracam-for-android.md
+|   |       |   |-- 096-orbot-for-android
+|   |       |   |   |-- index.md
+|   |       |   |   `-- orbot-for-android.md
+|   |       |   |-- 097-orweb-for-android
+|   |       |   |   |-- index.md
+|   |       |   |   `-- orweb-for-android.md
+|   |       |   |-- 098-textsecure-for-android
+|   |       |   |   |-- index.md
+|   |       |   |   `-- textsecure-for-android.md
+|   |       |   `-- 100-redphone
+|   |       |       |-- index.md
+|   |       |       `-- redphone.md
+|   |       |-- internet
+|   |       |   |-- 050-riseup-secure-email-service
+|   |       |   |   |-- index.md
+|   |       |   |   `-- riseup-secure-email-service.md
+|   |       |   `-- 081-social-networking-platforms
+|   |       |       |-- index.md
+|   |       |       `-- social-networking-platforms.md
+|   |       |-- linux
+|   |       |   |-- 019-keepassx-for-linux-secure-password-manager
+|   |       |   |   |-- index.md
+|   |       |   |   `-- keepassx-for-linux-secure-password-manager.md
+|   |       |   |-- 025-veracrypt-for-linux-secure-file-storage
+|   |       |   |   |-- index.md
+|   |       |   |   `-- veracrypt-for-linux-secure-file-storage.md
+|   |       |   |-- 060-jitsi-for-linux-secure-instant-messaging-and-voip
+|   |       |   |   |-- index.md
+|   |       |   |   `-- jitsi-for-linux-secure-instant-messaging-and-voip.md
+|   |       |   |-- 065-thunderbird-enigmail-and-openpgp-for-linux-secure-email
+|   |       |   |   |-- index.md
+|   |       |   |   `-- thunderbird-enigmail-and-openpgp-for-linux-secure-email.md
+|   |       |   |-- 075-firefox-and-security-add-ons-for-linux-secure-web-browser
+|   |       |   |   |-- firefox-and-security-add-ons-for-linux-secure-web-browser.md
+|   |       |   |   `-- index.md
+|   |       |   `-- 080-tor-browser-for-linux-online-anonymity-and-circumvention
+|   |       |       |-- index.md
+|   |       |       `-- tor-browser-for-linux-online-anonymity-and-circumvention.md
+|   |       |-- os-x
+|   |       |   |-- 019-keepassx-for-mac-os-x-secure-password-manager
+|   |       |   |   |-- index.md
+|   |       |   |   `-- keepassx-for-mac-os-x-secure-password-manager.md
+|   |       |   |-- 025-veracrypt-for-mac-os-x-secure-file-storage
+|   |       |   |   |-- index.md
+|   |       |   |   `-- veracrypt-for-mac-os-x-secure-file-storage.md
+|   |       |   |-- 060-jitsi-for-mac-os-x-secure-instant-messaging-and-voip
+|   |       |   |   |-- index.md
+|   |       |   |   `-- jitsi-for-mac-os-x-secure-instant-messaging-and-voip.md
+|   |       |   |-- 065-thunderbird-enigmail-and-openpgp-for-mac-os-x-secure-email
+|   |       |   |   |-- index.md
+|   |       |   |   `-- thunderbird-enigmail-and-openpgp-for-mac-os-x-secure-email.md
+|   |       |   |-- 075-firefox-and-security-add-ons-for-mac-os-x-secure-web-browser
+|   |       |   |   |-- firefox-and-security-add-ons-for-mac-os-x-secure-web-browser.md
+|   |       |   |   `-- index.md
+|   |       |   `-- 080-tor-browser-for-mac-os-x-online-anonymity-and-circumvention
+|   |       |       |-- index.md
+|   |       |       `-- tor-browser-for-mac-os-x-online-anonymity-and-circumvention.md
+|   |       `-- windows
+|   |           |-- 005-avast-anti-malware
+|   |           |   |-- avast-anti-malware.md
+|   |           |   `-- index.md
+|   |           |-- 010-spybot-for-windows-anti-spyware
+|   |           |   |-- index.md
+|   |           |   `-- spybot-for-windows-anti-spyware.md
+|   |           |-- 015-comodo-for-windows-network-firewall
+|   |           |   |-- comodo-for-windows-network-firewall.md
+|   |           |   `-- index.md
+|   |           |-- 019-keepass-secure-password-manager
+|   |           |   |-- index.md
+|   |           |   `-- keepass-secure-password-manager.md
+|   |           |-- 025-truecrypt-for-windows-secure-file-storage
+|   |           |   |-- index.md
+|   |           |   `-- truecrypt-for-windows-secure-file-storage.md
+|   |           |-- 030-cobian-backup-for-windows
+|   |           |   |-- cobian-backup-for-windows.md
+|   |           |   `-- index.md
+|   |           |-- 035-recuva-for-windows-file-recovery
+|   |           |   |-- index.md
+|   |           |   `-- recuva-for-windows-file-recovery.md
+|   |           |-- 040-eraser-for-windows-secure-file-removal
+|   |           |   |-- eraser-for-windows-secure-file-removal.md
+|   |           |   `-- index.md
+|   |           |-- 045-ccleaner-for-windows-secure-file-deletion-and-session-cleanup
+|   |           |   |-- ccleaner-for-windows-secure-file-deletion-and-session-cleanup.md
+|   |           |   `-- index.md
+|   |           |-- 055-pidgin-with-otr-for-windows-secure-instant-messaging
+|   |           |   |-- index.md
+|   |           |   `-- pidgin-with-otr-for-windows-secure-instant-messaging.md
+|   |           |-- 060-jitsi-for-windows-secure-instant-messaging-and-voip
+|   |           |   |-- index.md
+|   |           |   `-- jitsi-for-windows-secure-instant-messaging-and-voip.md
+|   |           |-- 065-thunderbird-enigmail-and-openpgp-for-windows-secure-email
+|   |           |   |-- index.md
+|   |           |   `-- thunderbird-enigmail-and-openpgp-for-windows-secure-email.md
+|   |           |-- 070-gpg4usb-for-windows-email-and-file-encryption
+|   |           |   |-- gpg4usb-for-windows-email-and-file-encryption.md
+|   |           |   `-- index.md
+|   |           |-- 075-firefox-and-security-add-ons-for-windows-secure-web-browser
+|   |           |   |-- firefox-and-security-add-ons-for-windows-secure-web-browser.md
+|   |           |   `-- index.md
+|   |           `-- 080-torbrowser-for-windows-digital-anonymity-and-circumvention
+|   |               |-- index.md
+|   |               `-- torbrowser-for-windows-digital-anonymity-and-circumvention.md
+|   |-- lgbti-africa
+|   |   |-- tactics
+|   |   |   |-- 002-digital-threats-to-the-lgbti-community
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01.md
+|   |   |   |       |-- snippet_02.md
+|   |   |   |       |-- snippet_03.md
+|   |   |   |       |-- snippet_04.md
+|   |   |   |       |-- snippet_05.md
+|   |   |   |       |-- snippet_06.md
+|   |   |   |       `-- snippet_07.md
+|   |   |   |-- 004-how-to-assess-your-digital-security-risk
+|   |   |   |   `-- index.md
+|   |   |   |-- 005-protect-your-device-from-malware-and-hackers
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       |-- snippet_04
+|   |   |   |       `-- snippet_05
+|   |   |   |-- 006-using-internet-cafes-as-securely-as-possible
+|   |   |   |   `-- index.md
+|   |   |   |-- 008-protect-yourself-and-your-data-when-using-lgbt-dating-sites
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       `-- snippet_02
+|   |   |   |-- 010-protect-your-information-from-physical-threats
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       `-- snippet_03
+|   |   |   |-- 015-create-and-maintain-secure-passwords
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       `-- snippet_03
+|   |   |   |-- 020-protect-the-sensitive-files-on-your-computer
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       |-- snippet_04
+|   |   |   |       `-- snippet_05
+|   |   |   |-- 025-how-to-remove-hidden-information-from-files
+|   |   |   |   `-- index.md
+|   |   |   |-- 025-recover-from-information-loss
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       `-- snippet_04
+|   |   |   |-- 030-destroy-sensitive-information
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       `-- snippet_03
+|   |   |   |-- 035-keep-your-online-communication-private
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       |-- snippet_04
+|   |   |   |       |-- snippet_05
+|   |   |   |       |-- snippet_06
+|   |   |   |       `-- snippet_07
+|   |   |   |-- 040-remain-anonymous-and-bypass-censorship-on-the-internet
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       `-- snippet_02
+|   |   |   |-- 045-protect-yourself-and-your-data-when-using-social-networking-sites
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       `-- snippet_01
+|   |   |   |-- 050-use-mobile-phones-as-securely-as-possible
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       |-- snippet_04
+|   |   |   |       |-- snippet_05
+|   |   |   |       `-- snippet_06
+|   |   |   `-- 055-use-smartphones-as-securely-as-possible
+|   |   |       `-- index.md
+|   |   `-- tools
+|   |       |-- android
+|   |       |   |-- 089-basic-android-security-setup-guide
+|   |       |   |   `-- index.md
+|   |       |   |-- 090-android-privacy-guard-apg-for-android-devices
+|   |       |   |   `-- index.md
+|   |       |   |-- 092-k9-with-apg-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 093-keepassdroid-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 094-obscuracam-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 095-orbot-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 096-orweb-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 097-textsecure-for-android
+|   |       |   |   `-- index.md
+|   |       |   `-- 100-redphone
+|   |       |       `-- index.md
+|   |       |-- internet
+|   |       |   |-- 002-crabgrass-secure-online-collaboration
+|   |       |   |   `-- index.md
+|   |       |   |-- 010-riseup-secure-email-service
+|   |       |   |   `-- index.md
+|   |       |   `-- 081-social-networking-platforms
+|   |       |       `-- index.md
+|   |       `-- windows
+|   |           |-- 001-metanull-image-metadata-removal-for-windows
+|   |           |   `-- index.md
+|   |           |-- 005-avast-anti-malware
+|   |           |   `-- index.md
+|   |           |-- 011-spybot-for-windows-anti-spyware
+|   |           |   `-- index.md
+|   |           |-- 015-comodo-for-windows-network-firewall
+|   |           |   `-- index.md
+|   |           |-- 019-keepass-secure-password-manager
+|   |           |   `-- index.md
+|   |           |-- 025-truecrypt-for-windows-secure-file-storage
+|   |           |   `-- index.md
+|   |           |-- 030-cobian-backup-for-windows
+|   |           |   `-- index.md
+|   |           |-- 035-recuva-for-windows-file-recovery
+|   |           |   `-- index.md
+|   |           |-- 040-eraser-for-windows-secure-file-removal
+|   |           |   `-- index.md
+|   |           |-- 045-ccleaner-for-windows-secure-file-deletion-and-session-cleanup
+|   |           |   `-- index.md
+|   |           |-- 050-pidgin-with-otr-for-windows-secure-instant-messaging
+|   |           |   `-- index.md
+|   |           |-- 055-jitsi-for-windows-secure-instant-messaging-and-voip
+|   |           |   `-- index.md
+|   |           |-- 060-thunderbird-enigmail-and-openpgp-for-windows-secure-email
+|   |           |   `-- index.md
+|   |           |-- 065-gpg4usb-for-windows-email-and-file-encryption
+|   |           |   `-- index.md
+|   |           |-- 070-firefox-and-security-add-ons-for-windows-secure-web-browser
+|   |           |   `-- index.md
+|   |           `-- 070-torbrowser-for-windows-digital-anonymity-and-circumvention
+|   |               `-- index.md
+|   |-- lgbti-mena
+|   |   |-- tactics
+|   |   |   |-- 002-social-and-legal-context
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01.md
+|   |   |   |       |-- snippet_02.md
+|   |   |   |       |-- snippet_03.md
+|   |   |   |       |-- snippet_04.md
+|   |   |   |       `-- snippet_05.md
+|   |   |   |-- 004-how-to-assess-your-digital-security-risk
+|   |   |   |   `-- index.md
+|   |   |   |-- 005-protect-your-device-from-malware-and-hackers
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       |-- snippet_04
+|   |   |   |       `-- snippet_05
+|   |   |   |-- 006-protect-yourself-and-your-data-when-using-lgbt-dating-sites
+|   |   |   |   `-- index.md
+|   |   |   |-- 010-protect-your-information-from-physical-threats
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       `-- snippet_03
+|   |   |   |-- 015-create-and-maintain-secure-passwords
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       `-- snippet_03
+|   |   |   |-- 020-how-to-remove-hidden-information-from-files
+|   |   |   |   `-- index.md
+|   |   |   |-- 020-protect-the-sensitive-files-on-your-computer
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       |-- snippet_04
+|   |   |   |       `-- snippet_05
+|   |   |   |-- 025-recover-from-information-loss
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       `-- snippet_04
+|   |   |   |-- 030-destroy-sensitive-information
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       `-- snippet_03
+|   |   |   |-- 035-keep-your-online-communication-private
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       |-- snippet_04
+|   |   |   |       |-- snippet_05
+|   |   |   |       |-- snippet_06
+|   |   |   |       `-- snippet_07
+|   |   |   |-- 040-remain-anonymous-and-bypass-censorship-on-the-internet
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       `-- snippet_02
+|   |   |   |-- 045-protect-yourself-and-your-data-when-using-social-networking-sites
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       `-- snippet_01
+|   |   |   |-- 050-use-mobile-phones-as-securely-as-possible
+|   |   |   |   |-- index.md
+|   |   |   |   `-- snippets
+|   |   |   |       |-- snippet_01
+|   |   |   |       |-- snippet_02
+|   |   |   |       |-- snippet_03
+|   |   |   |       |-- snippet_04
+|   |   |   |       |-- snippet_05
+|   |   |   |       `-- snippet_06
+|   |   |   `-- 055-use-smartphones-as-securely-as-possible
+|   |   |       `-- index.md
+|   |   `-- tools
+|   |       |-- android
+|   |       |   |-- 089-basic-android-security-setup-guide
+|   |       |   |   `-- index.md
+|   |       |   |-- 090-android-privacy-guard-apg-for-android-devices
+|   |       |   |   `-- index.md
+|   |       |   |-- 093-k9-with-apg-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 094-keepassdroid-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 095-obscuracam-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 096-orbot-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 097-orweb-for-android
+|   |       |   |   `-- index.md
+|   |       |   |-- 098-textsecure-for-android
+|   |       |   |   `-- index.md
+|   |       |   `-- 100-redphone
+|   |       |       `-- index.md
+|   |       |-- internet
+|   |       |   |-- 010-crabgrass-secure-online-collaboration
+|   |       |   |   |-- crabgrass-secure-online-collaboration.md
+|   |       |   |   `-- index.md
+|   |       |   |-- 050-riseup-secure-email-service
+|   |       |   |   `-- index.md
+|   |       |   `-- 081-social-networking-platforms
+|   |       |       `-- index.md
+|   |       `-- windows
+|   |           |-- 001-metanull-image-metadata-removal-for-windows
+|   |           |   |-- index.md
+|   |           |   `-- metanull-image-metadata-removal-for-windows.md
+|   |           |-- 005-avast-anti-malware
+|   |           |   `-- index.md
+|   |           |-- 010-spybot-for-windows-anti-spyware
+|   |           |   `-- index.md
+|   |           |-- 015-comodo-for-windows-network-firewall
+|   |           |   `-- index.md
+|   |           |-- 019-keepass-secure-password-manager
+|   |           |   `-- index.md
+|   |           |-- 025-truecrypt-for-windows-secure-file-storage
+|   |           |   `-- index.md
+|   |           |-- 030-cobian-backup-for-windows
+|   |           |   `-- index.md
+|   |           |-- 035-recuva-for-windows-file-recovery
+|   |           |   `-- index.md
+|   |           |-- 040-eraser-for-windows-secure-file-removal
+|   |           |   `-- index.md
+|   |           |-- 045-ccleaner-for-windows-secure-file-deletion-and-session-cleanup
+|   |           |   `-- index.md
+|   |           |-- 050-pidgin-with-otr-for-windows-secure-instant-messaging
+|   |           |   `-- index.md
+|   |           |-- 055-jitsi-for-windows-secure-instant-messaging-and-voip
+|   |           |   `-- index.md
+|   |           |-- 060-thunderbird-enigmail-and-openpgp-for-windows-secure-email
+|   |           |   `-- index.md
+|   |           |-- 065-gpg4usb-for-windows-email-and-file-encryption
+|   |           |   `-- index.md
+|   |           |-- 070-firefox-and-security-add-ons-for-windows-secure-web-browser
+|   |           |   `-- index.md
+|   |           `-- 075-torbrowser-for-windows-digital-anonymity-and-circumvention
+|   |               `-- index.md
+|   `-- women-hrds
+|       |-- tactics
+|       |   |-- 001-digital-security-for-women-human-rights-defenders
+|       |   |   `-- index.md
+|       |   |-- 003-case-1-the-price-of-exposing-corruption
+|       |   |   `-- index.md
+|       |   |-- 005-case-2-security-as-a-shared-process
+|       |   |   `-- index.md
+|       |   |-- 007-case-3-undermined-by-surveillance
+|       |   |   `-- index.md
+|       |   |-- 009-risk-assessment
+|       |   |   `-- index.md
+|       |   |-- 011-basic-computer-hygiene
+|       |   |   `-- index.md
+|       |   |-- 012-online-violence-and-social-media
+|       |   |   `-- index.md
+|       |   |-- 013-protect-your-device-from-malware-and-hackers
+|       |   |   |-- index.md
+|       |   |   `-- snippets
+|       |   |       |-- snippet_01
+|       |   |       `-- snippet_02
+|       |   |-- 014-protect-your-information-from-physical-threats
+|       |   |   |-- index.md
+|       |   |   `-- snippets
+|       |   |       |-- snippet_01
+|       |   |       |-- snippet_02
+|       |   |       `-- snippet_03
+|       |   |-- 015-create-and-maintain-secure-passwords
+|       |   |   |-- index.md
+|       |   |   `-- snippets
+|       |   |       |-- snippet_01
+|       |   |       |-- snippet_02
+|       |   |       `-- snippet_03
+|       |   |-- 020-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- index.md
+|       |   |   `-- snippets
+|       |   |       |-- snippet_01
+|       |   |       |-- snippet_02
+|       |   |       |-- snippet_03
+|       |   |       `-- snippet_04
+|       |   |-- 025-recover-from-information-loss
+|       |   |   |-- index.md
+|       |   |   `-- snippets
+|       |   |       |-- snippet_01
+|       |   |       |-- snippet_02
+|       |   |       `-- snippet_03
+|       |   |-- 030-destroy-sensitive-information
+|       |   |   |-- index.md
+|       |   |   `-- snippets
+|       |   |       |-- snippet_01
+|       |   |       |-- snippet_02
+|       |   |       `-- snippet_03
+|       |   |-- 035-keep-your-online-communication-private
+|       |   |   |-- index.md
+|       |   |   `-- snippets
+|       |   |       |-- snippet_01
+|       |   |       |-- snippet_02
+|       |   |       `-- snippet_03
+|       |   |-- 040-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- index.md
+|       |   |   `-- snippets
+|       |   |       `-- snippet_01
+|       |   |-- 045-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- index.md
+|       |   |   `-- snippets
+|       |   |       `-- snippet_01
+|       |   |-- 050-use-mobile-phones-as-securely-as-possible
+|       |   |   |-- index.md
+|       |   |   `-- snippets
+|       |   |       |-- snippet_01
+|       |   |       `-- snippet_02
+|       |   `-- 055-use-smartphones-as-securely-as-possible
+|       |       |-- index.md
+|       |       `-- snippets
+|       |           `-- snippet_01
+|       `-- tools
+|           |-- android
+|           |   |-- 089-basic-android-security-setup-guide
+|           |   |   `-- index.md
+|           |   |-- 090-android-privacy-guard-apg-for-android-devices
+|           |   |   `-- index.md
+|           |   |-- 093-k9-with-apg-for-android
+|           |   |   `-- index.md
+|           |   |-- 094-keepassdroid-for-android
+|           |   |   `-- index.md
+|           |   |-- 095-obscuracam-for-android
+|           |   |   `-- index.md
+|           |   |-- 096-orbot-for-android
+|           |   |   `-- index.md
+|           |   |-- 097-orweb-for-android
+|           |   |   `-- index.md
+|           |   |-- 098-textsecure-for-android
+|           |   |   `-- index.md
+|           |   `-- 100-redphone
+|           |       `-- index.md
+|           |-- internet
+|           |   |-- 050-riseup-secure-email-service
+|           |   |   `-- index.md
+|           |   `-- 081-social-networking-platforms
+|           |       `-- index.md
+|           `-- windows
+|               |-- 005-avast-anti-malware
+|               |   `-- index.md
+|               |-- 010-spybot-for-windows-anti-spyware
+|               |   `-- index.md
+|               |-- 015-comodo-for-windows-network-firewall
+|               |   `-- index.md
+|               |-- 019-keepass-secure-password-manager
+|               |   `-- index.md
+|               |-- 025-truecrypt-for-windows-secure-file-storage
+|               |   `-- index.md
+|               |-- 030-cobian-backup-for-windows
+|               |   `-- index.md
+|               |-- 035-recuva-for-windows-file-recovery
+|               |   `-- index.md
+|               |-- 040-eraser-for-windows-secure-file-removal
+|               |   `-- index.md
+|               |-- 045-ccleaner-for-windows-secure-file-deletion-and-session-cleanup
+|               |   `-- index.md
+|               |-- 050-pidgin-with-otr-for-windows-secure-instant-messaging
+|               |   `-- index.md
+|               |-- 055-jitsi-for-windows-secure-instant-messaging-and-voip
+|               |   `-- index.md
+|               |-- 060-thunderbird-enigmail-and-openpgp-for-windows-secure-email
+|               |   `-- index.md
+|               |-- 065-gpg4usb-for-windows-email-and-file-encryption
+|               |   `-- index.md
+|               |-- 070-firefox-and-security-add-ons-for-windows-secure-web-browser
+|               |   `-- index.md
+|               `-- 075-torbrowser-for-windows-digital-anonymity-and-circumvention
+|                   `-- index.md
+|-- es
+|   `-- guide
+|       |-- tactics
+|       |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|       |   |   |-- 010-viruses.md
+|       |   |   |-- 020-spyware.md
+|       |   |   |-- 030-firewalls.md
+|       |   |   |-- 040-keeping-your-software-up-to-date.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+|       |   |   |-- 010-assessing-your-risks.md
+|       |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+|       |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|       |   |   |-- 040-creating-your-physical-security-policy.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+|       |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|       |   |   |-- 020-remembering-and-recording-secure-passwords.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- 010-encrypting-your-information.md
+|       |   |   |-- 020-hiding-your-sensitive-information.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 005-5-how-to-recover-from-information-loss
+|       |   |   |-- 010-identifying-and-organising-your-information.md
+|       |   |   |-- 020-defining-your-backup-strategy.md
+|       |   |   |-- 030-creating-a-digital-backup.md
+|       |   |   |-- 040-recovering-from-accidental-file-deletion.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 006-6-how-to-destroy-sensitive-information
+|       |   |   |-- 010-deleting-information.md
+|       |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|       |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|       |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 007-7-how-to-keep-your-internet-communication-private
+|       |   |   |-- 010-securing-your-email.md
+|       |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|       |   |   |-- 030-securing-other-internet-communication-tools.md
+|       |   |   |-- 040-advanced-email-security.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- 010-understanding-internet-censorship.md
+|       |   |   |-- 020-understanding-censorship-circumvention.md
+|       |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|       |   |   |-- 040-specific-circumvention-proxies.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+|       |   |   |-- 020-posting-personal-details.md
+|       |   |   |-- 030-social-networking-tools.md
+|       |   |   `-- index.md
+|       |   |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|       |   |   |-- 010-mobile-devices-and-security.md
+|       |   |   |-- 020-mobility-and-the-vulnerability-of-information.md
+|       |   |   |-- 030-best-practices-for-phone-security.md
+|       |   |   |-- 040-basic-functions-trackability-and-anonymity.md
+|       |   |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|       |   |   |-- 060-functions-beyond-speech-and-messages.md
+|       |   |   |-- 070-further-reading.md
+|       |   |   `-- index.md
+|       |   `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+|       |       |-- 010-platforms-setup-and-installation.md
+|       |       |-- 020-communicating-voice-and-messages-via-smartphone.md
+|       |       |-- 030-storing-information-on-your-smartphone.md
+|       |       |-- 040-sending-emails-from-smartphones.md
+|       |       |-- 050-capturing-media-with-smartphones.md
+|       |       |-- 060-accessing-the-internet-securely-from-smartphones.md
+|       |       |-- 070-advanced-smartphone-security.md
+|       |       `-- index.md
+|       `-- tools
+|           |-- android
+|           |   |-- 025-keepassdroid-for-android-devices
+|           |   |   |-- 010-keepassdroid-basic-usage.md
+|           |   |   |-- 020-keepassdroid-advanced-usage.md
+|           |   |   `-- index.md
+|           |   |-- 026-obscuracam-for-android-devices
+|           |   |   |-- 010-obscuracam-installation-and-usage.md
+|           |   |   `-- index.md
+|           |   |-- 027-orbot-and-orfox-for-android-devices
+|           |   |   |-- 010-orbot-and-orfox-installation.md
+|           |   |   |-- 020-orbot-and-orfox-usage.md
+|           |   |   `-- index.md
+|           |   |-- 029-orweb-for-android-devices
+|           |   |   |-- 010-orweb-installation.md
+|           |   |   |-- 020-orweb-usage.md
+|           |   |   `-- index.md
+|           |   `-- 031-textsecure-for-android-devices
+|           |       |-- 010-textsecure-installation-configuration-and-first-time-setup.md
+|           |       |-- 020-textsecure-sending-receiving-messages-and-additional-settings.md
+|           |       `-- index.md
+|           |-- internet
+|           |   |-- 010-riseup-secure-email-service
+|           |   |   |-- 010-how-to-create-a-riseup-account.md
+|           |   |   |-- 020-how-to-log-into-your-riseup-account.md
+|           |   |   |-- 030-how-to-change-your-account-settings.md
+|           |   |   |-- 040-faq-and-review.md
+|           |   |   `-- index.md
+|           |   `-- 017-social-networking-tools-facebook-twitter-and-others
+|           |       |-- 010-facebook-security-guide.md
+|           |       |-- 020-twitter-security-guide.md
+|           |       |-- 030-youtube.md
+|           |       |-- 040-flickr.md
+|           |       `-- index.md
+|           `-- windows
+|               |-- 000-avast-anti-virus
+|               |   |-- 010-how-to-install-register-and-configure-avast.md
+|               |   |-- 020-how-to-manually-update-and-use-additional-options-in-avast.md
+|               |   |-- 030-how-to-scan-for-and-deal-with-viruses-using-avast.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 001-spybot-anti-spyware
+|               |   |-- 010-how-to-install-and-use-spybot.md
+|               |   |-- 020-how-to-use-spybot-in-advanced-mode.md
+|               |   |-- 030-portable-spybot.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 003-comodo-firewall
+|               |   |-- 010-how-to-install-and-launch-comodo-firewall.md
+|               |   |-- 020-how-to-use-comodo-firewall.md
+|               |   |-- 030-advanced-configurations-and-settings.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 004-keepass-secure-password-storage
+|               |   |-- 010-how-to-install-and-use-keepass.md
+|               |   |-- 020-using-keepass-passwords.md
+|               |   |-- 030-portable-keepass.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 005-truecrypt-secure-file-storage
+|               |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+|               |   |-- 020-how-to-mount-the-standard-volume.md
+|               |   |-- 030-how-to-back-up-your-volume.md
+|               |   |-- 040-hidden-volumes.md
+|               |   |-- 050-portable-truecrypt.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               |-- 006-cobian-backup-secure-file-backup
+|               |   |-- 010-how-to-install-cobian-backup-and-archive-your-files.md
+|               |   |-- 020-how-to-compress-and-decompress-your-files.md
+|               |   |-- 030-how-to-encrypt-your-backup-file.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 007-recuva-file-recovery
+|               |   |-- 010-how-to-install-recuva.md
+|               |   |-- 020-how-to-perform-different-scans-using-recuva.md
+|               |   |-- 030-how-to-recover-and-securely-overwrite-files-using-recuva.md
+|               |   |-- 040-portable-recuva.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 008-eraser-secure-file-removal
+|               |   |-- 010-how-to-install-and-configure-eraser.md
+|               |   |-- 020-how-to-use-eraser.md
+|               |   |-- 030-portable-eraser.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+|               |   |-- 010-how-to-install-and-configure-ccleaner.md
+|               |   |-- 020-how-to-delete-temporary-files-in-ccleaner.md
+|               |   |-- 030-how-to-clean-the-windows-registry-in-ccleaner.md
+|               |   |-- 040-portable-ccleaner.md
+|               |   |-- 050-advanced-options-faq-and-review.md
+|               |   `-- index.md
+|               |-- 011-pidgin-with-otr-secure-instant-messaging
+|               |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+|               |   |-- 020-how-to-use-otr-to-initiate-a-secure-messaging-session-in-pidgin.md
+|               |   |-- 040-portable-pidgin-and-otr.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 012-jitsi-secure-audio-video-and-instant-text-messaging
+|               |   |-- 010-jitsi-how-to-install-and-add-different-accounts-in-jitsi.md
+|               |   |-- 020-jitsi-add-contacts-and-communicate-text-voice.md
+|               |   `-- index.md
+|               |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+|               |   |-- 010-how-to-install-thunderbird.md
+|               |   |-- 020-how-to-configure-important-thunderbird-settings.md
+|               |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+|               |   |-- 040-portable-thunderbird-with-gpg-and-enigmail.md
+|               |   |-- 050-torbirdy-adding-digital-anonymity-and-circumvention-to-thunderbird.md
+|               |   |-- 060-faq.md
+|               |   `-- index.md
+|               |-- 014-gpg4usb-email-text-and-files-encryption
+|               |   |-- 010-how-to-install-gpg4usb-and-generate-a-key-pair.md
+|               |   |-- 020-how-to-export-and-import-keys.md
+|               |   |-- 030-how-to-encrypt-and-decrypt-text-and-files.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 015-firefox-with-add-ons-secure-web-browser
+|               |   |-- 010-how-to-install-and-configure-firefox.md
+|               |   |-- 020-how-to-install-firefox-add-ons.md
+|               |   |-- 030-how-to-use-the-noscript-add-on.md
+|               |   |-- 040-more-useful-firefox-add-ons.md
+|               |   |-- 050-portable-firefox.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               `-- 016-tor-browser-digital-anonymity-and-circumvention
+|                   |-- 000-how-to-extract-the-tor-browser.md
+|                   |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+|                   |-- 030-using-the-tor-browser.md
+|                   |-- 040-tor-common-problems.md
+|                   |-- 050-tor-browser-faq.md
+|                   `-- index.md
+|-- fa
+|   `-- guide
+|       |-- tactics
+|       |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|       |   |   |-- 010-viruses.md
+|       |   |   |-- 020-spyware.md
+|       |   |   |-- 030-firewalls.md
+|       |   |   |-- 040-keeping-your-software-up-to-date.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+|       |   |   |-- 010-assessing-your-risks.md
+|       |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+|       |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|       |   |   |-- 040-creating-your-physical-security-policy.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+|       |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|       |   |   |-- 020-remembering-and-recording-secure-passwords.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- 010-encrypting-your-information.md
+|       |   |   |-- 020-hiding-your-sensitive-information.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 005-5-how-to-recover-from-information-loss
+|       |   |   |-- 010-identifying-and-organising-your-information.md
+|       |   |   |-- 020-defining-your-backup-strategy.md
+|       |   |   |-- 030-creating-a-digital-backup.md
+|       |   |   |-- 040-recovering-from-accidental-file-deletion.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 006-6-how-to-destroy-sensitive-information
+|       |   |   |-- 010-deleting-information.md
+|       |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|       |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|       |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 007-7-how-to-keep-your-internet-communication-private
+|       |   |   |-- 010-securing-your-email.md
+|       |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|       |   |   |-- 030-securing-other-internet-communication-tools.md
+|       |   |   |-- 040-advanced-email-security.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- 010-understanding-internet-censorship.md
+|       |   |   |-- 020-understanding-censorship-circumvention.md
+|       |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|       |   |   |-- 040-specific-circumvention-proxies.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+|       |   |   |-- 020-posting-personal-details.md
+|       |   |   |-- 030-social-networking-tools.md
+|       |   |   `-- index.md
+|       |   |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|       |   |   |-- 010-mobile-devices-and-security.md
+|       |   |   |-- 020-mobility-and-the-vulnerability-of-information.md
+|       |   |   |-- 030-best-practices-for-phone-security.md
+|       |   |   |-- 040-basic-functions-trackability-and-anonymity.md
+|       |   |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|       |   |   |-- 060-functions-beyond-speech-and-messages.md
+|       |   |   |-- 070-further-reading.md
+|       |   |   `-- index.md
+|       |   `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+|       |       |-- 010-platforms-setup-and-installation.md
+|       |       |-- 020-communicating-voice-and-messages-via-smartphone.md
+|       |       |-- 030-storing-information-on-your-smartphone.md
+|       |       |-- 040-sending-emails-from-smartphones.md
+|       |       |-- 050-capturing-media-with-smartphones.md
+|       |       |-- 060-accessing-the-internet-securely-from-smartphones.md
+|       |       |-- 070-advanced-smartphone-security.md
+|       |       `-- index.md
+|       `-- tools
+|           |-- internet
+|           |   |-- 010-riseup-secure-email-service
+|           |   |   |-- 010-how-to-create-a-riseup-account.md
+|           |   |   |-- 020-how-to-log-into-your-riseup-account.md
+|           |   |   |-- 030-how-to-change-your-account-settings.md
+|           |   |   |-- 040-faq-and-review.md
+|           |   |   `-- index.md
+|           |   `-- 017-social-networking-tools-facebook-twitter-and-others
+|           |       |-- 010-facebook-security-guide.md
+|           |       |-- 020-twitter-security-guide.md
+|           |       |-- 030-youtube.md
+|           |       |-- 040-flickr.md
+|           |       `-- index.md
+|           `-- windows
+|               |-- 000-avast-anti-virus
+|               |   |-- 010-how-to-install-register-and-configure-avast.md
+|               |   |-- 020-how-to-manually-update-and-use-additional-options-in-avast.md
+|               |   |-- 030-how-to-scan-for-and-deal-with-viruses-using-avast.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 001-spybot-anti-spyware
+|               |   |-- 010-how-to-install-and-use-spybot.md
+|               |   |-- 020-how-to-use-spybot-in-advanced-mode.md
+|               |   |-- 030-portable-spybot.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 003-comodo-firewall
+|               |   |-- 010-how-to-install-and-launch-comodo-firewall.md
+|               |   |-- 020-how-to-use-comodo-firewall.md
+|               |   |-- 030-advanced-configurations-and-settings.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 004-keepass-secure-password-storage
+|               |   |-- 010-how-to-install-and-use-keepass.md
+|               |   |-- 020-using-keepass-passwords.md
+|               |   |-- 030-portable-keepass.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 005-truecrypt-secure-file-storage
+|               |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+|               |   |-- 020-how-to-mount-the-standard-volume.md
+|               |   |-- 030-how-to-back-up-your-volume.md
+|               |   |-- 040-hidden-volumes.md
+|               |   |-- 050-portable-truecrypt.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               |-- 006-cobian-backup-secure-file-backup
+|               |   |-- 010-how-to-install-cobian-backup-and-archive-your-files.md
+|               |   |-- 020-how-to-compress-and-decompress-your-files.md
+|               |   |-- 030-how-to-encrypt-your-backup-file.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 007-recuva-file-recovery
+|               |   |-- 010-how-to-install-recuva.md
+|               |   |-- 020-how-to-perform-different-scans-using-recuva.md
+|               |   |-- 030-how-to-recover-and-securely-overwrite-files-using-recuva.md
+|               |   |-- 040-portable-recuva.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 008-eraser-secure-file-removal
+|               |   |-- 010-how-to-install-and-configure-eraser.md
+|               |   |-- 020-how-to-use-eraser.md
+|               |   |-- 030-portable-eraser.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+|               |   |-- 010-how-to-install-and-configure-ccleaner.md
+|               |   |-- 020-how-to-delete-temporary-files-in-ccleaner.md
+|               |   |-- 030-how-to-clean-the-windows-registry-in-ccleaner.md
+|               |   |-- 040-portable-ccleaner.md
+|               |   |-- 050-advanced-options-faq-and-review.md
+|               |   `-- index.md
+|               |-- 011-pidgin-with-otr-secure-instant-messaging
+|               |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+|               |   |-- 020-how-to-use-otr-to-initiate-a-secure-messaging-session-in-pidgin.md
+|               |   |-- 040-portable-pidgin-and-otr.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+|               |   |-- 010-how-to-install-thunderbird.md
+|               |   |-- 020-how-to-configure-important-thunderbird-settings.md
+|               |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+|               |   |-- 040-portable-thunderbird-with-gpg-and-enigmail.md
+|               |   |-- 060-faq.md
+|               |   `-- index.md
+|               |-- 014-gpg4usb-email-text-and-files-encryption
+|               |   |-- 010-how-to-install-gpg4usb-and-generate-a-key-pair.md
+|               |   |-- 020-how-to-export-and-import-keys.md
+|               |   |-- 030-how-to-encrypt-and-decrypt-text-and-files.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 015-firefox-with-add-ons-secure-web-browser
+|               |   |-- 010-how-to-install-and-configure-firefox.md
+|               |   |-- 020-how-to-install-firefox-add-ons.md
+|               |   |-- 030-how-to-use-the-noscript-add-on.md
+|               |   |-- 040-more-useful-firefox-add-ons.md
+|               |   |-- 050-portable-firefox.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               `-- 016-tor-browser-digital-anonymity-and-circumvention
+|                   |-- 000-how-to-extract-the-tor-browser.md
+|                   |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+|                   |-- 030-using-the-tor-browser.md
+|                   |-- 050-tor-browser-faq.md
+|                   `-- index.md
+|-- fr
+|   `-- guide
+|       |-- tactics
+|       |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|       |   |   |-- 010-viruses.md
+|       |   |   |-- 020-spyware.md
+|       |   |   |-- 030-firewalls.md
+|       |   |   |-- 040-keeping-your-software-up-to-date.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+|       |   |   |-- 010-assessing-your-risks.md
+|       |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+|       |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|       |   |   |-- 040-creating-your-physical-security-policy.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+|       |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|       |   |   |-- 020-remembering-and-recording-secure-passwords.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- 010-encrypting-your-information.md
+|       |   |   |-- 020-hiding-your-sensitive-information.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 005-5-how-to-recover-from-information-loss
+|       |   |   |-- 010-identifying-and-organising-your-information.md
+|       |   |   |-- 020-defining-your-backup-strategy.md
+|       |   |   |-- 030-creating-a-digital-backup.md
+|       |   |   |-- 040-recovering-from-accidental-file-deletion.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 006-6-how-to-destroy-sensitive-information
+|       |   |   |-- 010-deleting-information.md
+|       |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|       |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|       |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 007-7-how-to-keep-your-internet-communication-private
+|       |   |   |-- 010-securing-your-email.md
+|       |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|       |   |   |-- 030-securing-other-internet-communication-tools.md
+|       |   |   |-- 040-advanced-email-security.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- 010-understanding-internet-censorship.md
+|       |   |   |-- 020-understanding-censorship-circumvention.md
+|       |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|       |   |   |-- 040-specific-circumvention-proxies.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+|       |   |   |-- 020-posting-personal-details.md
+|       |   |   |-- 030-social-networking-tools.md
+|       |   |   `-- index.md
+|       |   |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|       |   |   |-- 010-mobile-devices-and-security.md
+|       |   |   |-- 020-mobility-and-the-vulnerability-of-information.md
+|       |   |   |-- 030-best-practices-for-phone-security.md
+|       |   |   |-- 040-basic-functions-trackability-and-anonymity.md
+|       |   |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|       |   |   |-- 060-functions-beyond-speech-and-messages.md
+|       |   |   |-- 070-further-reading.md
+|       |   |   `-- index.md
+|       |   `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+|       |       |-- 010-platforms-setup-and-installation.md
+|       |       |-- 020-communicating-voice-and-messages-via-smartphone.md
+|       |       |-- 030-storing-information-on-your-smartphone.md
+|       |       |-- 040-sending-emails-from-smartphones.md
+|       |       |-- 050-capturing-media-with-smartphones.md
+|       |       |-- 070-advanced-smartphone-security.md
+|       |       `-- index.md
+|       `-- tools
+|           |-- android
+|           |   |-- 025-keepassdroid-for-android-devices
+|           |   |   |-- 010-keepassdroid-basic-usage.md
+|           |   |   |-- 020-keepassdroid-advanced-usage.md
+|           |   |   `-- index.md
+|           |   |-- 026-obscuracam-for-android-devices
+|           |   |   |-- 010-obscuracam-installation-and-usage.md
+|           |   |   `-- index.md
+|           |   |-- 027-orbot-and-orfox-for-android-devices
+|           |   |   |-- 010-orbot-and-orfox-installation.md
+|           |   |   |-- 020-orbot-and-orfox-usage.md
+|           |   |   `-- index.md
+|           |   |-- 029-orweb-for-android-devices
+|           |   |   |-- 010-orweb-installation.md
+|           |   |   `-- index.md
+|           |   `-- 031-textsecure-for-android-devices
+|           |       |-- 010-textsecure-installation-configuration-and-first-time-setup.md
+|           |       `-- index.md
+|           |-- internet
+|           |   |-- 010-riseup-secure-email-service
+|           |   |   |-- 010-how-to-create-a-riseup-account.md
+|           |   |   |-- 020-how-to-log-into-your-riseup-account.md
+|           |   |   |-- 030-how-to-change-your-account-settings.md
+|           |   |   |-- 040-faq-and-review.md
+|           |   |   `-- index.md
+|           |   `-- 017-social-networking-tools-facebook-twitter-and-others
+|           |       |-- 010-facebook-security-guide.md
+|           |       |-- 020-twitter-security-guide.md
+|           |       |-- 030-youtube.md
+|           |       |-- 040-flickr.md
+|           |       `-- index.md
+|           `-- windows
+|               |-- 000-avast-anti-virus
+|               |   |-- 010-how-to-install-register-and-configure-avast.md
+|               |   |-- 020-how-to-manually-update-and-use-additional-options-in-avast.md
+|               |   |-- 030-how-to-scan-for-and-deal-with-viruses-using-avast.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 001-spybot-anti-spyware
+|               |   |-- 010-how-to-install-and-use-spybot.md
+|               |   |-- 020-how-to-use-spybot-in-advanced-mode.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 003-comodo-firewall
+|               |   |-- 010-how-to-install-and-launch-comodo-firewall.md
+|               |   |-- 020-how-to-use-comodo-firewall.md
+|               |   |-- 030-advanced-configurations-and-settings.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 004-keepass-secure-password-storage
+|               |   |-- 010-how-to-install-and-use-keepass.md
+|               |   |-- 020-using-keepass-passwords.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 005-truecrypt-secure-file-storage
+|               |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+|               |   |-- 020-how-to-mount-the-standard-volume.md
+|               |   |-- 030-how-to-back-up-your-volume.md
+|               |   |-- 040-hidden-volumes.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               |-- 006-cobian-backup-secure-file-backup
+|               |   |-- 010-how-to-install-cobian-backup-and-archive-your-files.md
+|               |   |-- 020-how-to-compress-and-decompress-your-files.md
+|               |   |-- 030-how-to-encrypt-your-backup-file.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 007-recuva-file-recovery
+|               |   |-- 010-how-to-install-recuva.md
+|               |   |-- 020-how-to-perform-different-scans-using-recuva.md
+|               |   |-- 030-how-to-recover-and-securely-overwrite-files-using-recuva.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 008-eraser-secure-file-removal
+|               |   |-- 010-how-to-install-and-configure-eraser.md
+|               |   |-- 020-how-to-use-eraser.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+|               |   |-- 010-how-to-install-and-configure-ccleaner.md
+|               |   |-- 020-how-to-delete-temporary-files-in-ccleaner.md
+|               |   |-- 030-how-to-clean-the-windows-registry-in-ccleaner.md
+|               |   |-- 050-advanced-options-faq-and-review.md
+|               |   `-- index.md
+|               |-- 011-pidgin-with-otr-secure-instant-messaging
+|               |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+|               |   |-- 020-how-to-use-otr-to-initiate-a-secure-messaging-session-in-pidgin.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+|               |   |-- 010-how-to-install-thunderbird.md
+|               |   |-- 020-how-to-configure-important-thunderbird-settings.md
+|               |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+|               |   |-- 060-faq.md
+|               |   `-- index.md
+|               |-- 015-firefox-with-add-ons-secure-web-browser
+|               |   |-- 010-how-to-install-and-configure-firefox.md
+|               |   |-- 020-how-to-install-firefox-add-ons.md
+|               |   |-- 030-how-to-use-the-noscript-add-on.md
+|               |   |-- 040-more-useful-firefox-add-ons.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               `-- 016-tor-browser-digital-anonymity-and-circumvention
+|                   |-- 000-how-to-extract-the-tor-browser.md
+|                   |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+|                   |-- 030-using-the-tor-browser.md
+|                   |-- 040-tor-common-problems.md
+|                   |-- 050-tor-browser-faq.md
+|                   `-- index.md
+|-- id
+|   `-- guide
+|       |-- tactics
+|       |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|       |   |   |-- 010-viruses.md
+|       |   |   |-- 020-spyware.md
+|       |   |   |-- 030-firewalls.md
+|       |   |   |-- 040-keeping-your-software-up-to-date.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+|       |   |   |-- 010-assessing-your-risks.md
+|       |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+|       |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|       |   |   |-- 040-creating-your-physical-security-policy.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+|       |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|       |   |   |-- 020-remembering-and-recording-secure-passwords.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- 010-encrypting-your-information.md
+|       |   |   |-- 020-hiding-your-sensitive-information.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 005-5-how-to-recover-from-information-loss
+|       |   |   |-- 010-identifying-and-organising-your-information.md
+|       |   |   |-- 020-defining-your-backup-strategy.md
+|       |   |   |-- 030-creating-a-digital-backup.md
+|       |   |   |-- 040-recovering-from-accidental-file-deletion.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 006-6-how-to-destroy-sensitive-information
+|       |   |   |-- 010-deleting-information.md
+|       |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|       |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|       |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 007-7-how-to-keep-your-internet-communication-private
+|       |   |   |-- 010-securing-your-email.md
+|       |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|       |   |   |-- 030-securing-other-internet-communication-tools.md
+|       |   |   |-- 040-advanced-email-security.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- 010-understanding-internet-censorship.md
+|       |   |   |-- 020-understanding-censorship-circumvention.md
+|       |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|       |   |   |-- 040-specific-circumvention-proxies.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+|       |   |   |-- 020-posting-personal-details.md
+|       |   |   |-- 030-social-networking-tools.md
+|       |   |   `-- index.md
+|       |   `-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|       |       |-- 010-mobile-devices-and-security.md
+|       |       |-- 020-mobility-and-the-vulnerability-of-information.md
+|       |       |-- 030-best-practices-for-phone-security.md
+|       |       |-- 040-basic-functions-trackability-and-anonymity.md
+|       |       |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|       |       |-- 060-functions-beyond-speech-and-messages.md
+|       |       |-- 070-further-reading.md
+|       |       `-- index.md
+|       `-- tools
+|           |-- internet
+|           |   |-- 010-riseup-secure-email-service
+|           |   |   |-- 010-how-to-create-a-riseup-account.md
+|           |   |   |-- 020-how-to-log-into-your-riseup-account.md
+|           |   |   |-- 030-how-to-change-your-account-settings.md
+|           |   |   |-- 040-faq-and-review.md
+|           |   |   `-- index.md
+|           |   `-- 017-social-networking-tools-facebook-twitter-and-others
+|           |       |-- 030-youtube.md
+|           |       |-- 040-flickr.md
+|           |       `-- index.md
+|           `-- windows
+|               |-- 000-avast-anti-virus
+|               |   |-- 010-how-to-install-register-and-configure-avast.md
+|               |   |-- 020-how-to-manually-update-and-use-additional-options-in-avast.md
+|               |   |-- 030-how-to-scan-for-and-deal-with-viruses-using-avast.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 001-spybot-anti-spyware
+|               |   |-- 010-how-to-install-and-use-spybot.md
+|               |   |-- 020-how-to-use-spybot-in-advanced-mode.md
+|               |   |-- 030-portable-spybot.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 003-comodo-firewall
+|               |   |-- 010-how-to-install-and-launch-comodo-firewall.md
+|               |   |-- 020-how-to-use-comodo-firewall.md
+|               |   |-- 030-advanced-configurations-and-settings.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 004-keepass-secure-password-storage
+|               |   |-- 010-how-to-install-and-use-keepass.md
+|               |   |-- 020-using-keepass-passwords.md
+|               |   |-- 030-portable-keepass.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 005-truecrypt-secure-file-storage
+|               |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+|               |   |-- 020-how-to-mount-the-standard-volume.md
+|               |   |-- 030-how-to-back-up-your-volume.md
+|               |   |-- 040-hidden-volumes.md
+|               |   |-- 050-portable-truecrypt.md
+|               |   `-- index.md
+|               |-- 006-cobian-backup-secure-file-backup
+|               |   |-- 010-how-to-install-cobian-backup-and-archive-your-files.md
+|               |   |-- 020-how-to-compress-and-decompress-your-files.md
+|               |   |-- 030-how-to-encrypt-your-backup-file.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 007-recuva-file-recovery
+|               |   |-- 010-how-to-install-recuva.md
+|               |   |-- 020-how-to-perform-different-scans-using-recuva.md
+|               |   |-- 030-how-to-recover-and-securely-overwrite-files-using-recuva.md
+|               |   |-- 040-portable-recuva.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 008-eraser-secure-file-removal
+|               |   |-- 010-how-to-install-and-configure-eraser.md
+|               |   |-- 020-how-to-use-eraser.md
+|               |   |-- 030-portable-eraser.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+|               |   |-- 010-how-to-install-and-configure-ccleaner.md
+|               |   |-- 020-how-to-delete-temporary-files-in-ccleaner.md
+|               |   |-- 030-how-to-clean-the-windows-registry-in-ccleaner.md
+|               |   |-- 040-portable-ccleaner.md
+|               |   |-- 050-advanced-options-faq-and-review.md
+|               |   `-- index.md
+|               |-- 011-pidgin-with-otr-secure-instant-messaging
+|               |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+|               |   |-- 020-how-to-use-otr-to-initiate-a-secure-messaging-session-in-pidgin.md
+|               |   |-- 040-portable-pidgin-and-otr.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+|               |   |-- 010-how-to-install-thunderbird.md
+|               |   |-- 020-how-to-configure-important-thunderbird-settings.md
+|               |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+|               |   |-- 060-faq.md
+|               |   `-- index.md
+|               |-- 014-gpg4usb-email-text-and-files-encryption
+|               |   |-- 010-how-to-install-gpg4usb-and-generate-a-key-pair.md
+|               |   |-- 020-how-to-export-and-import-keys.md
+|               |   |-- 030-how-to-encrypt-and-decrypt-text-and-files.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 015-firefox-with-add-ons-secure-web-browser
+|               |   |-- 010-how-to-install-and-configure-firefox.md
+|               |   |-- 020-how-to-install-firefox-add-ons.md
+|               |   |-- 030-how-to-use-the-noscript-add-on.md
+|               |   |-- 040-more-useful-firefox-add-ons.md
+|               |   |-- 050-portable-firefox.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               `-- 016-tor-browser-digital-anonymity-and-circumvention
+|                   |-- 000-how-to-extract-the-tor-browser.md
+|                   |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+|                   |-- 030-using-the-tor-browser.md
+|                   |-- 050-tor-browser-faq.md
+|                   `-- index.md
+|-- km
+|   `-- guide
+|       |-- tactics
+|       |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|       |   |   |-- 010-viruses.md
+|       |   |   |-- 020-spyware.md
+|       |   |   |-- 030-firewalls.md
+|       |   |   |-- 040-keeping-your-software-up-to-date.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+|       |   |   |-- 010-assessing-your-risks.md
+|       |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+|       |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|       |   |   |-- 040-creating-your-physical-security-policy.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+|       |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|       |   |   |-- 020-remembering-and-recording-secure-passwords.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- 010-encrypting-your-information.md
+|       |   |   |-- 020-hiding-your-sensitive-information.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 005-5-how-to-recover-from-information-loss
+|       |   |   |-- 010-identifying-and-organising-your-information.md
+|       |   |   |-- 020-defining-your-backup-strategy.md
+|       |   |   |-- 030-creating-a-digital-backup.md
+|       |   |   |-- 040-recovering-from-accidental-file-deletion.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 006-6-how-to-destroy-sensitive-information
+|       |   |   |-- 010-deleting-information.md
+|       |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|       |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|       |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 007-7-how-to-keep-your-internet-communication-private
+|       |   |   |-- 010-securing-your-email.md
+|       |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|       |   |   |-- 030-securing-other-internet-communication-tools.md
+|       |   |   |-- 040-advanced-email-security.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- 010-understanding-internet-censorship.md
+|       |   |   |-- 020-understanding-censorship-circumvention.md
+|       |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|       |   |   |-- 040-specific-circumvention-proxies.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+|       |   |   |-- 020-posting-personal-details.md
+|       |   |   |-- 030-social-networking-tools.md
+|       |   |   `-- index.md
+|       |   |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|       |   |   |-- 010-mobile-devices-and-security.md
+|       |   |   |-- 020-mobility-and-the-vulnerability-of-information.md
+|       |   |   |-- 030-best-practices-for-phone-security.md
+|       |   |   |-- 040-basic-functions-trackability-and-anonymity.md
+|       |   |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|       |   |   |-- 060-functions-beyond-speech-and-messages.md
+|       |   |   |-- 070-further-reading.md
+|       |   |   `-- index.md
+|       |   `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+|       |       |-- 010-platforms-setup-and-installation.md
+|       |       |-- 020-communicating-voice-and-messages-via-smartphone.md
+|       |       |-- 030-storing-information-on-your-smartphone.md
+|       |       |-- 040-sending-emails-from-smartphones.md
+|       |       |-- 050-capturing-media-with-smartphones.md
+|       |       |-- 060-accessing-the-internet-securely-from-smartphones.md
+|       |       |-- 070-advanced-smartphone-security.md
+|       |       `-- index.md
+|       `-- tools
+|           |-- android
+|           |   |-- 025-keepassdroid-for-android-devices
+|           |   |   |-- 010-keepassdroid-basic-usage.md
+|           |   |   |-- 020-keepassdroid-advanced-usage.md
+|           |   |   `-- index.md
+|           |   |-- 026-obscuracam-for-android-devices
+|           |   |   `-- index.md
+|           |   |-- 027-orbot-and-orfox-for-android-devices
+|           |   |   |-- 010-orbot-and-orfox-installation.md
+|           |   |   |-- 020-orbot-and-orfox-usage.md
+|           |   |   `-- index.md
+|           |   |-- 029-orweb-for-android-devices
+|           |   |   |-- 010-orweb-installation.md
+|           |   |   |-- 020-orweb-usage.md
+|           |   |   `-- index.md
+|           |   `-- 031-textsecure-for-android-devices
+|           |       |-- 010-textsecure-installation-configuration-and-first-time-setup.md
+|           |       |-- 020-textsecure-sending-receiving-messages-and-additional-settings.md
+|           |       `-- index.md
+|           |-- internet
+|           |   |-- 010-riseup-secure-email-service
+|           |   |   |-- 010-how-to-create-a-riseup-account.md
+|           |   |   |-- 020-how-to-log-into-your-riseup-account.md
+|           |   |   |-- 030-how-to-change-your-account-settings.md
+|           |   |   |-- 040-faq-and-review.md
+|           |   |   `-- index.md
+|           |   `-- 017-social-networking-tools-facebook-twitter-and-others
+|           |       |-- 010-facebook-security-guide.md
+|           |       |-- 020-twitter-security-guide.md
+|           |       |-- 030-youtube.md
+|           |       |-- 040-flickr.md
+|           |       `-- index.md
+|           `-- windows
+|               |-- 000-avast-anti-virus
+|               |   |-- 010-how-to-install-register-and-configure-avast.md
+|               |   |-- 020-how-to-manually-update-and-use-additional-options-in-avast.md
+|               |   |-- 030-how-to-scan-for-and-deal-with-viruses-using-avast.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 001-spybot-anti-spyware
+|               |   |-- 010-how-to-install-and-use-spybot.md
+|               |   |-- 020-how-to-use-spybot-in-advanced-mode.md
+|               |   |-- 030-portable-spybot.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 003-comodo-firewall
+|               |   |-- 010-how-to-install-and-launch-comodo-firewall.md
+|               |   |-- 020-how-to-use-comodo-firewall.md
+|               |   |-- 030-advanced-configurations-and-settings.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 004-keepass-secure-password-storage
+|               |   |-- 010-how-to-install-and-use-keepass.md
+|               |   |-- 020-using-keepass-passwords.md
+|               |   |-- 030-portable-keepass.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 005-truecrypt-secure-file-storage
+|               |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+|               |   |-- 020-how-to-mount-the-standard-volume.md
+|               |   |-- 030-how-to-back-up-your-volume.md
+|               |   |-- 040-hidden-volumes.md
+|               |   |-- 050-portable-truecrypt.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               |-- 006-cobian-backup-secure-file-backup
+|               |   |-- 010-how-to-install-cobian-backup-and-archive-your-files.md
+|               |   |-- 020-how-to-compress-and-decompress-your-files.md
+|               |   |-- 030-how-to-encrypt-your-backup-file.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 007-recuva-file-recovery
+|               |   |-- 010-how-to-install-recuva.md
+|               |   |-- 020-how-to-perform-different-scans-using-recuva.md
+|               |   |-- 030-how-to-recover-and-securely-overwrite-files-using-recuva.md
+|               |   |-- 040-portable-recuva.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 008-eraser-secure-file-removal
+|               |   |-- 010-how-to-install-and-configure-eraser.md
+|               |   |-- 020-how-to-use-eraser.md
+|               |   |-- 030-portable-eraser.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+|               |   |-- 010-how-to-install-and-configure-ccleaner.md
+|               |   |-- 030-how-to-clean-the-windows-registry-in-ccleaner.md
+|               |   |-- 040-portable-ccleaner.md
+|               |   |-- 050-advanced-options-faq-and-review.md
+|               |   `-- index.md
+|               |-- 011-pidgin-with-otr-secure-instant-messaging
+|               |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+|               |   `-- index.md
+|               |-- 012-jitsi-secure-audio-video-and-instant-text-messaging
+|               |   |-- 010-jitsi-how-to-install-and-add-different-accounts-in-jitsi.md
+|               |   |-- 020-jitsi-add-contacts-and-communicate-text-voice.md
+|               |   `-- index.md
+|               |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+|               |   |-- 010-how-to-install-thunderbird.md
+|               |   |-- 020-how-to-configure-important-thunderbird-settings.md
+|               |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+|               |   |-- 040-portable-thunderbird-with-gpg-and-enigmail.md
+|               |   |-- 050-torbirdy-adding-digital-anonymity-and-circumvention-to-thunderbird.md
+|               |   |-- 060-faq.md
+|               |   `-- index.md
+|               |-- 014-gpg4usb-email-text-and-files-encryption
+|               |   |-- 010-how-to-install-gpg4usb-and-generate-a-key-pair.md
+|               |   |-- 020-how-to-export-and-import-keys.md
+|               |   |-- 030-how-to-encrypt-and-decrypt-text-and-files.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 015-firefox-with-add-ons-secure-web-browser
+|               |   |-- 010-how-to-install-and-configure-firefox.md
+|               |   |-- 020-how-to-install-firefox-add-ons.md
+|               |   |-- 030-how-to-use-the-noscript-add-on.md
+|               |   |-- 040-more-useful-firefox-add-ons.md
+|               |   |-- 050-portable-firefox.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               `-- 016-tor-browser-digital-anonymity-and-circumvention
+|                   |-- 000-how-to-extract-the-tor-browser.md
+|                   |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+|                   |-- 030-using-the-tor-browser.md
+|                   |-- 050-tor-browser-faq.md
+|                   `-- index.md
+|-- my
+|   `-- guide
+|       |-- tactics
+|       |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|       |   |   |-- 010-viruses.md
+|       |   |   |-- 020-spyware.md
+|       |   |   |-- 030-firewalls.md
+|       |   |   |-- 040-keeping-your-software-up-to-date.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+|       |   |   |-- 010-assessing-your-risks.md
+|       |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+|       |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|       |   |   |-- 040-creating-your-physical-security-policy.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+|       |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|       |   |   |-- 020-remembering-and-recording-secure-passwords.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- 010-encrypting-your-information.md
+|       |   |   |-- 020-hiding-your-sensitive-information.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 005-5-how-to-recover-from-information-loss
+|       |   |   |-- 010-identifying-and-organising-your-information.md
+|       |   |   |-- 020-defining-your-backup-strategy.md
+|       |   |   |-- 030-creating-a-digital-backup.md
+|       |   |   |-- 040-recovering-from-accidental-file-deletion.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 006-6-how-to-destroy-sensitive-information
+|       |   |   |-- 010-deleting-information.md
+|       |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|       |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|       |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 007-7-how-to-keep-your-internet-communication-private
+|       |   |   |-- 010-securing-your-email.md
+|       |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|       |   |   |-- 030-securing-other-internet-communication-tools.md
+|       |   |   |-- 040-advanced-email-security.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- 010-understanding-internet-censorship.md
+|       |   |   |-- 020-understanding-censorship-circumvention.md
+|       |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|       |   |   |-- 040-specific-circumvention-proxies.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+|       |   |   |-- 020-posting-personal-details.md
+|       |   |   |-- 030-social-networking-tools.md
+|       |   |   `-- index.md
+|       |   |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|       |   |   |-- 010-mobile-devices-and-security.md
+|       |   |   |-- 020-mobility-and-the-vulnerability-of-information.md
+|       |   |   |-- 030-best-practices-for-phone-security.md
+|       |   |   |-- 040-basic-functions-trackability-and-anonymity.md
+|       |   |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|       |   |   |-- 060-functions-beyond-speech-and-messages.md
+|       |   |   |-- 070-further-reading.md
+|       |   |   `-- index.md
+|       |   `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+|       |       |-- 010-platforms-setup-and-installation.md
+|       |       |-- 020-communicating-voice-and-messages-via-smartphone.md
+|       |       |-- 030-storing-information-on-your-smartphone.md
+|       |       |-- 040-sending-emails-from-smartphones.md
+|       |       |-- 050-capturing-media-with-smartphones.md
+|       |       |-- 060-accessing-the-internet-securely-from-smartphones.md
+|       |       |-- 070-advanced-smartphone-security.md
+|       |       `-- index.md
+|       `-- tools
+|           |-- android
+|           |   |-- 025-keepassdroid-for-android-devices
+|           |   |   |-- 010-keepassdroid-basic-usage.md
+|           |   |   `-- index.md
+|           |   |-- 026-obscuracam-for-android-devices
+|           |   |   |-- 010-obscuracam-installation-and-usage.md
+|           |   |   `-- index.md
+|           |   |-- 027-orbot-and-orfox-for-android-devices
+|           |   |   |-- 010-orbot-and-orfox-installation.md
+|           |   |   `-- index.md
+|           |   |-- 029-orweb-for-android-devices
+|           |   |   |-- 010-orweb-installation.md
+|           |   |   `-- index.md
+|           |   `-- 031-textsecure-for-android-devices
+|           |       |-- 010-textsecure-installation-configuration-and-first-time-setup.md
+|           |       `-- index.md
+|           |-- internet
+|           |   |-- 010-riseup-secure-email-service
+|           |   |   |-- 010-how-to-create-a-riseup-account.md
+|           |   |   |-- 020-how-to-log-into-your-riseup-account.md
+|           |   |   |-- 030-how-to-change-your-account-settings.md
+|           |   |   |-- 040-faq-and-review.md
+|           |   |   `-- index.md
+|           |   `-- 017-social-networking-tools-facebook-twitter-and-others
+|           |       |-- 010-facebook-security-guide.md
+|           |       |-- 020-twitter-security-guide.md
+|           |       |-- 030-youtube.md
+|           |       |-- 040-flickr.md
+|           |       `-- index.md
+|           `-- windows
+|               |-- 000-avast-anti-virus
+|               |   |-- 010-how-to-install-register-and-configure-avast.md
+|               |   |-- 020-how-to-manually-update-and-use-additional-options-in-avast.md
+|               |   |-- 030-how-to-scan-for-and-deal-with-viruses-using-avast.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 001-spybot-anti-spyware
+|               |   |-- 010-how-to-install-and-use-spybot.md
+|               |   |-- 020-how-to-use-spybot-in-advanced-mode.md
+|               |   |-- 030-portable-spybot.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 003-comodo-firewall
+|               |   |-- 010-how-to-install-and-launch-comodo-firewall.md
+|               |   |-- 020-how-to-use-comodo-firewall.md
+|               |   |-- 030-advanced-configurations-and-settings.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 004-keepass-secure-password-storage
+|               |   |-- 010-how-to-install-and-use-keepass.md
+|               |   |-- 020-using-keepass-passwords.md
+|               |   |-- 030-portable-keepass.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 005-truecrypt-secure-file-storage
+|               |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+|               |   |-- 020-how-to-mount-the-standard-volume.md
+|               |   |-- 040-hidden-volumes.md
+|               |   |-- 050-portable-truecrypt.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               |-- 006-cobian-backup-secure-file-backup
+|               |   |-- 010-how-to-install-cobian-backup-and-archive-your-files.md
+|               |   |-- 020-how-to-compress-and-decompress-your-files.md
+|               |   |-- 030-how-to-encrypt-your-backup-file.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 007-recuva-file-recovery
+|               |   |-- 010-how-to-install-recuva.md
+|               |   |-- 020-how-to-perform-different-scans-using-recuva.md
+|               |   |-- 040-portable-recuva.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 008-eraser-secure-file-removal
+|               |   |-- 010-how-to-install-and-configure-eraser.md
+|               |   |-- 020-how-to-use-eraser.md
+|               |   |-- 030-portable-eraser.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+|               |   |-- 010-how-to-install-and-configure-ccleaner.md
+|               |   |-- 020-how-to-delete-temporary-files-in-ccleaner.md
+|               |   |-- 030-how-to-clean-the-windows-registry-in-ccleaner.md
+|               |   |-- 040-portable-ccleaner.md
+|               |   |-- 050-advanced-options-faq-and-review.md
+|               |   `-- index.md
+|               |-- 011-pidgin-with-otr-secure-instant-messaging
+|               |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+|               |   |-- 020-how-to-use-otr-to-initiate-a-secure-messaging-session-in-pidgin.md
+|               |   |-- 040-portable-pidgin-and-otr.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+|               |   |-- 010-how-to-install-thunderbird.md
+|               |   |-- 020-how-to-configure-important-thunderbird-settings.md
+|               |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+|               |   |-- 040-portable-thunderbird-with-gpg-and-enigmail.md
+|               |   |-- 060-faq.md
+|               |   `-- index.md
+|               |-- 014-gpg4usb-email-text-and-files-encryption
+|               |   |-- 010-how-to-install-gpg4usb-and-generate-a-key-pair.md
+|               |   |-- 020-how-to-export-and-import-keys.md
+|               |   |-- 030-how-to-encrypt-and-decrypt-text-and-files.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 015-firefox-with-add-ons-secure-web-browser
+|               |   |-- 010-how-to-install-and-configure-firefox.md
+|               |   |-- 020-how-to-install-firefox-add-ons.md
+|               |   |-- 030-how-to-use-the-noscript-add-on.md
+|               |   |-- 040-more-useful-firefox-add-ons.md
+|               |   |-- 050-portable-firefox.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               `-- 016-tor-browser-digital-anonymity-and-circumvention
+|                   |-- 000-how-to-extract-the-tor-browser.md
+|                   |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+|                   |-- 030-using-the-tor-browser.md
+|                   |-- 050-tor-browser-faq.md
+|                   `-- index.md
+|-- pt
+|   `-- guide
+|       |-- tactics
+|       |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|       |   |   |-- 010-viruses.md
+|       |   |   |-- 020-spyware.md
+|       |   |   |-- 030-firewalls.md
+|       |   |   |-- 040-keeping-your-software-up-to-date.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+|       |   |   |-- 010-assessing-your-risks.md
+|       |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+|       |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|       |   |   |-- 040-creating-your-physical-security-policy.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+|       |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|       |   |   |-- 020-remembering-and-recording-secure-passwords.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- 010-encrypting-your-information.md
+|       |   |   |-- 020-hiding-your-sensitive-information.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 005-5-how-to-recover-from-information-loss
+|       |   |   |-- 010-identifying-and-organising-your-information.md
+|       |   |   |-- 020-defining-your-backup-strategy.md
+|       |   |   |-- 030-creating-a-digital-backup.md
+|       |   |   |-- 040-recovering-from-accidental-file-deletion.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 006-6-how-to-destroy-sensitive-information
+|       |   |   |-- 010-deleting-information.md
+|       |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|       |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|       |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 007-7-how-to-keep-your-internet-communication-private
+|       |   |   |-- 010-securing-your-email.md
+|       |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|       |   |   |-- 030-securing-other-internet-communication-tools.md
+|       |   |   |-- 040-advanced-email-security.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- 010-understanding-internet-censorship.md
+|       |   |   |-- 020-understanding-censorship-circumvention.md
+|       |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|       |   |   |-- 040-specific-circumvention-proxies.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+|       |   |   |-- 020-posting-personal-details.md
+|       |   |   |-- 030-social-networking-tools.md
+|       |   |   `-- index.md
+|       |   |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|       |   |   |-- 010-mobile-devices-and-security.md
+|       |   |   |-- 020-mobility-and-the-vulnerability-of-information.md
+|       |   |   |-- 030-best-practices-for-phone-security.md
+|       |   |   |-- 040-basic-functions-trackability-and-anonymity.md
+|       |   |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|       |   |   |-- 060-functions-beyond-speech-and-messages.md
+|       |   |   |-- 070-further-reading.md
+|       |   |   `-- index.md
+|       |   `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+|       |       |-- 010-platforms-setup-and-installation.md
+|       |       |-- 020-communicating-voice-and-messages-via-smartphone.md
+|       |       |-- 030-storing-information-on-your-smartphone.md
+|       |       |-- 040-sending-emails-from-smartphones.md
+|       |       |-- 050-capturing-media-with-smartphones.md
+|       |       |-- 060-accessing-the-internet-securely-from-smartphones.md
+|       |       |-- 070-advanced-smartphone-security.md
+|       |       `-- index.md
+|       `-- tools
+|           |-- android
+|           |   |-- 025-keepassdroid-for-android-devices
+|           |   |   |-- 010-keepassdroid-basic-usage.md
+|           |   |   |-- 020-keepassdroid-advanced-usage.md
+|           |   |   `-- index.md
+|           |   |-- 027-orbot-and-orfox-for-android-devices
+|           |   |   |-- 010-orbot-and-orfox-installation.md
+|           |   |   |-- 020-orbot-and-orfox-usage.md
+|           |   |   `-- index.md
+|           |   `-- 029-orweb-for-android-devices
+|           |       |-- 010-orweb-installation.md
+|           |       |-- 020-orweb-usage.md
+|           |       `-- index.md
+|           |-- internet
+|           |   |-- 010-riseup-secure-email-service
+|           |   |   |-- 010-how-to-create-a-riseup-account.md
+|           |   |   |-- 020-how-to-log-into-your-riseup-account.md
+|           |   |   |-- 030-how-to-change-your-account-settings.md
+|           |   |   |-- 040-faq-and-review.md
+|           |   |   `-- index.md
+|           |   `-- 017-social-networking-tools-facebook-twitter-and-others
+|           |       |-- 010-facebook-security-guide.md
+|           |       |-- 020-twitter-security-guide.md
+|           |       |-- 030-youtube.md
+|           |       |-- 040-flickr.md
+|           |       `-- index.md
+|           `-- windows
+|               |-- 000-avast-anti-virus
+|               |   |-- 010-how-to-install-register-and-configure-avast.md
+|               |   |-- 020-how-to-manually-update-and-use-additional-options-in-avast.md
+|               |   |-- 030-how-to-scan-for-and-deal-with-viruses-using-avast.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 001-spybot-anti-spyware
+|               |   |-- 010-how-to-install-and-use-spybot.md
+|               |   |-- 020-how-to-use-spybot-in-advanced-mode.md
+|               |   |-- 030-portable-spybot.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 004-keepass-secure-password-storage
+|               |   |-- 010-how-to-install-and-use-keepass.md
+|               |   |-- 020-using-keepass-passwords.md
+|               |   |-- 030-portable-keepass.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 005-truecrypt-secure-file-storage
+|               |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+|               |   |-- 020-how-to-mount-the-standard-volume.md
+|               |   |-- 030-how-to-back-up-your-volume.md
+|               |   |-- 040-hidden-volumes.md
+|               |   |-- 050-portable-truecrypt.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+|               |   |-- 010-how-to-install-and-configure-ccleaner.md
+|               |   |-- 020-how-to-delete-temporary-files-in-ccleaner.md
+|               |   |-- 030-how-to-clean-the-windows-registry-in-ccleaner.md
+|               |   |-- 040-portable-ccleaner.md
+|               |   |-- 050-advanced-options-faq-and-review.md
+|               |   `-- index.md
+|               |-- 011-pidgin-with-otr-secure-instant-messaging
+|               |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+|               |   |-- 020-how-to-use-otr-to-initiate-a-secure-messaging-session-in-pidgin.md
+|               |   |-- 040-portable-pidgin-and-otr.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 012-jitsi-secure-audio-video-and-instant-text-messaging
+|               |   |-- 010-jitsi-how-to-install-and-add-different-accounts-in-jitsi.md
+|               |   |-- 020-jitsi-add-contacts-and-communicate-text-voice.md
+|               |   `-- index.md
+|               |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+|               |   |-- 010-how-to-install-thunderbird.md
+|               |   |-- 020-how-to-configure-important-thunderbird-settings.md
+|               |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+|               |   |-- 040-portable-thunderbird-with-gpg-and-enigmail.md
+|               |   |-- 050-torbirdy-adding-digital-anonymity-and-circumvention-to-thunderbird.md
+|               |   |-- 060-faq.md
+|               |   `-- index.md
+|               |-- 014-gpg4usb-email-text-and-files-encryption
+|               |   |-- 010-how-to-install-gpg4usb-and-generate-a-key-pair.md
+|               |   |-- 020-how-to-export-and-import-keys.md
+|               |   |-- 030-how-to-encrypt-and-decrypt-text-and-files.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 015-firefox-with-add-ons-secure-web-browser
+|               |   |-- 010-how-to-install-and-configure-firefox.md
+|               |   |-- 020-how-to-install-firefox-add-ons.md
+|               |   |-- 030-how-to-use-the-noscript-add-on.md
+|               |   |-- 040-more-useful-firefox-add-ons.md
+|               |   |-- 050-portable-firefox.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               `-- 016-tor-browser-digital-anonymity-and-circumvention
+|                   |-- 000-how-to-extract-the-tor-browser.md
+|                   |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+|                   |-- 030-using-the-tor-browser.md
+|                   |-- 050-tor-browser-faq.md
+|                   `-- index.md
+|-- ru
+|   `-- guide
+|       |-- tactics
+|       |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|       |   |   |-- 010-viruses.md
+|       |   |   |-- 020-spyware.md
+|       |   |   |-- 030-firewalls.md
+|       |   |   |-- 040-keeping-your-software-up-to-date.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+|       |   |   |-- 010-assessing-your-risks.md
+|       |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+|       |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|       |   |   |-- 040-creating-your-physical-security-policy.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+|       |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|       |   |   |-- 020-remembering-and-recording-secure-passwords.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- 010-encrypting-your-information.md
+|       |   |   |-- 020-hiding-your-sensitive-information.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 005-5-how-to-recover-from-information-loss
+|       |   |   |-- 010-identifying-and-organising-your-information.md
+|       |   |   |-- 020-defining-your-backup-strategy.md
+|       |   |   |-- 030-creating-a-digital-backup.md
+|       |   |   |-- 040-recovering-from-accidental-file-deletion.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 006-6-how-to-destroy-sensitive-information
+|       |   |   |-- 010-deleting-information.md
+|       |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|       |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|       |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 007-7-how-to-keep-your-internet-communication-private
+|       |   |   |-- 010-securing-your-email.md
+|       |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|       |   |   |-- 030-securing-other-internet-communication-tools.md
+|       |   |   |-- 040-advanced-email-security.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- 010-understanding-internet-censorship.md
+|       |   |   |-- 020-understanding-censorship-circumvention.md
+|       |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|       |   |   |-- 040-specific-circumvention-proxies.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+|       |   |   |-- 020-posting-personal-details.md
+|       |   |   |-- 030-social-networking-tools.md
+|       |   |   `-- index.md
+|       |   |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|       |   |   |-- 010-mobile-devices-and-security.md
+|       |   |   |-- 020-mobility-and-the-vulnerability-of-information.md
+|       |   |   |-- 030-best-practices-for-phone-security.md
+|       |   |   |-- 040-basic-functions-trackability-and-anonymity.md
+|       |   |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|       |   |   |-- 060-functions-beyond-speech-and-messages.md
+|       |   |   |-- 070-further-reading.md
+|       |   |   `-- index.md
+|       |   `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+|       |       |-- 010-platforms-setup-and-installation.md
+|       |       |-- 020-communicating-voice-and-messages-via-smartphone.md
+|       |       |-- 030-storing-information-on-your-smartphone.md
+|       |       |-- 040-sending-emails-from-smartphones.md
+|       |       |-- 050-capturing-media-with-smartphones.md
+|       |       |-- 060-accessing-the-internet-securely-from-smartphones.md
+|       |       |-- 070-advanced-smartphone-security.md
+|       |       `-- index.md
+|       `-- tools
+|           |-- android
+|           |   |-- 025-keepassdroid-for-android-devices
+|           |   |   |-- 010-keepassdroid-basic-usage.md
+|           |   |   |-- 020-keepassdroid-advanced-usage.md
+|           |   |   `-- index.md
+|           |   |-- 026-obscuracam-for-android-devices
+|           |   |   |-- 010-obscuracam-installation-and-usage.md
+|           |   |   `-- index.md
+|           |   |-- 027-orbot-and-orfox-for-android-devices
+|           |   |   |-- 010-orbot-and-orfox-installation.md
+|           |   |   |-- 020-orbot-and-orfox-usage.md
+|           |   |   `-- index.md
+|           |   |-- 029-orweb-for-android-devices
+|           |   |   |-- 010-orweb-installation.md
+|           |   |   |-- 020-orweb-usage.md
+|           |   |   `-- index.md
+|           |   `-- 031-textsecure-for-android-devices
+|           |       |-- 010-textsecure-installation-configuration-and-first-time-setup.md
+|           |       |-- 020-textsecure-sending-receiving-messages-and-additional-settings.md
+|           |       `-- index.md
+|           |-- internet
+|           |   |-- 010-riseup-secure-email-service
+|           |   |   |-- 010-how-to-create-a-riseup-account.md
+|           |   |   |-- 020-how-to-log-into-your-riseup-account.md
+|           |   |   |-- 030-how-to-change-your-account-settings.md
+|           |   |   |-- 040-faq-and-review.md
+|           |   |   `-- index.md
+|           |   `-- 017-social-networking-tools-facebook-twitter-and-others
+|           |       |-- 010-facebook-security-guide.md
+|           |       |-- 020-twitter-security-guide.md
+|           |       |-- 030-youtube.md
+|           |       |-- 040-flickr.md
+|           |       `-- index.md
+|           `-- windows
+|               |-- 000-avast-anti-virus
+|               |   |-- 010-how-to-install-register-and-configure-avast.md
+|               |   |-- 020-how-to-manually-update-and-use-additional-options-in-avast.md
+|               |   |-- 030-how-to-scan-for-and-deal-with-viruses-using-avast.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 001-spybot-anti-spyware
+|               |   |-- 010-how-to-install-and-use-spybot.md
+|               |   |-- 020-how-to-use-spybot-in-advanced-mode.md
+|               |   |-- 030-portable-spybot.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 003-comodo-firewall
+|               |   |-- 010-how-to-install-and-launch-comodo-firewall.md
+|               |   |-- 020-how-to-use-comodo-firewall.md
+|               |   |-- 030-advanced-configurations-and-settings.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 004-keepass-secure-password-storage
+|               |   |-- 010-how-to-install-and-use-keepass.md
+|               |   |-- 020-using-keepass-passwords.md
+|               |   |-- 030-portable-keepass.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 005-truecrypt-secure-file-storage
+|               |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+|               |   |-- 020-how-to-mount-the-standard-volume.md
+|               |   |-- 030-how-to-back-up-your-volume.md
+|               |   |-- 040-hidden-volumes.md
+|               |   |-- 050-portable-truecrypt.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               |-- 006-cobian-backup-secure-file-backup
+|               |   |-- 010-how-to-install-cobian-backup-and-archive-your-files.md
+|               |   |-- 020-how-to-compress-and-decompress-your-files.md
+|               |   |-- 030-how-to-encrypt-your-backup-file.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 007-recuva-file-recovery
+|               |   |-- 010-how-to-install-recuva.md
+|               |   |-- 020-how-to-perform-different-scans-using-recuva.md
+|               |   |-- 030-how-to-recover-and-securely-overwrite-files-using-recuva.md
+|               |   |-- 040-portable-recuva.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 008-eraser-secure-file-removal
+|               |   |-- 010-how-to-install-and-configure-eraser.md
+|               |   |-- 020-how-to-use-eraser.md
+|               |   |-- 030-portable-eraser.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+|               |   |-- 010-how-to-install-and-configure-ccleaner.md
+|               |   |-- 020-how-to-delete-temporary-files-in-ccleaner.md
+|               |   |-- 030-how-to-clean-the-windows-registry-in-ccleaner.md
+|               |   |-- 040-portable-ccleaner.md
+|               |   |-- 050-advanced-options-faq-and-review.md
+|               |   `-- index.md
+|               |-- 011-pidgin-with-otr-secure-instant-messaging
+|               |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+|               |   |-- 020-how-to-use-otr-to-initiate-a-secure-messaging-session-in-pidgin.md
+|               |   |-- 040-portable-pidgin-and-otr.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 012-jitsi-secure-audio-video-and-instant-text-messaging
+|               |   |-- 010-jitsi-how-to-install-and-add-different-accounts-in-jitsi.md
+|               |   |-- 020-jitsi-add-contacts-and-communicate-text-voice.md
+|               |   `-- index.md
+|               |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+|               |   |-- 010-how-to-install-thunderbird.md
+|               |   |-- 020-how-to-configure-important-thunderbird-settings.md
+|               |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+|               |   |-- 040-portable-thunderbird-with-gpg-and-enigmail.md
+|               |   |-- 050-torbirdy-adding-digital-anonymity-and-circumvention-to-thunderbird.md
+|               |   |-- 060-faq.md
+|               |   `-- index.md
+|               |-- 014-gpg4usb-email-text-and-files-encryption
+|               |   |-- 010-how-to-install-gpg4usb-and-generate-a-key-pair.md
+|               |   |-- 020-how-to-export-and-import-keys.md
+|               |   |-- 030-how-to-encrypt-and-decrypt-text-and-files.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 015-firefox-with-add-ons-secure-web-browser
+|               |   |-- 010-how-to-install-and-configure-firefox.md
+|               |   |-- 020-how-to-install-firefox-add-ons.md
+|               |   |-- 030-how-to-use-the-noscript-add-on.md
+|               |   |-- 040-more-useful-firefox-add-ons.md
+|               |   |-- 050-portable-firefox.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               `-- 016-tor-browser-digital-anonymity-and-circumvention
+|                   |-- 000-how-to-extract-the-tor-browser.md
+|                   |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+|                   |-- 030-using-the-tor-browser.md
+|                   |-- 050-tor-browser-faq.md
+|                   `-- index.md
+|-- th
+|   `-- guide
+|       `-- tactics
+|           |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|           |   |-- 010-viruses.md
+|           |   |-- 020-spyware.md
+|           |   |-- 030-firewalls.md
+|           |   |-- 040-keeping-your-software-up-to-date.md
+|           |   |-- 050-further-reading.md
+|           |   `-- index.md
+|           |-- 002-2-how-to-protect-your-information-from-physical-threats
+|           |   |-- 010-assessing-your-risks.md
+|           |   |-- 020-protecting-your-information-from-physical-intruders.md
+|           |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|           |   |-- 040-creating-your-physical-security-policy.md
+|           |   |-- 050-further-reading.md
+|           |   `-- index.md
+|           |-- 003-3-how-to-create-and-maintain-secure-passwords
+|           |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|           |   |-- 020-remembering-and-recording-secure-passwords.md
+|           |   |-- 030-further-reading.md
+|           |   `-- index.md
+|           |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|           |   |-- 010-encrypting-your-information.md
+|           |   |-- 020-hiding-your-sensitive-information.md
+|           |   |-- 030-further-reading.md
+|           |   `-- index.md
+|           |-- 005-5-how-to-recover-from-information-loss
+|           |   |-- 010-identifying-and-organising-your-information.md
+|           |   |-- 020-defining-your-backup-strategy.md
+|           |   |-- 030-creating-a-digital-backup.md
+|           |   |-- 040-recovering-from-accidental-file-deletion.md
+|           |   |-- 050-further-reading.md
+|           |   `-- index.md
+|           |-- 006-6-how-to-destroy-sensitive-information
+|           |   |-- 010-deleting-information.md
+|           |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|           |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|           |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|           |   |-- 050-further-reading.md
+|           |   `-- index.md
+|           |-- 007-7-how-to-keep-your-internet-communication-private
+|           |   `-- index.md
+|           |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|           |   |-- 010-understanding-internet-censorship.md
+|           |   |-- 020-understanding-censorship-circumvention.md
+|           |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|           |   |-- 040-specific-circumvention-proxies.md
+|           |   |-- 050-further-reading.md
+|           |   `-- index.md
+|           |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|           |   |-- 010-general-tips-on-using-social-networking-tools.md
+|           |   |-- 020-posting-personal-details.md
+|           |   `-- index.md
+|           |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|           |   |-- 010-mobile-devices-and-security.md
+|           |   |-- 020-mobility-and-the-vulnerability-of-information.md
+|           |   |-- 030-best-practices-for-phone-security.md
+|           |   |-- 040-basic-functions-trackability-and-anonymity.md
+|           |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|           |   |-- 060-functions-beyond-speech-and-messages.md
+|           |   |-- 070-further-reading.md
+|           |   `-- index.md
+|           `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+|               |-- 010-platforms-setup-and-installation.md
+|               |-- 020-communicating-voice-and-messages-via-smartphone.md
+|               |-- 030-storing-information-on-your-smartphone.md
+|               |-- 040-sending-emails-from-smartphones.md
+|               |-- 050-capturing-media-with-smartphones.md
+|               |-- 060-accessing-the-internet-securely-from-smartphones.md
+|               |-- 070-advanced-smartphone-security.md
+|               `-- index.md
+|-- tr
+|   `-- guide
+|       |-- tactics
+|       |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|       |   |   |-- 010-viruses.md
+|       |   |   |-- 020-spyware.md
+|       |   |   |-- 030-firewalls.md
+|       |   |   |-- 040-keeping-your-software-up-to-date.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+|       |   |   |-- 010-assessing-your-risks.md
+|       |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+|       |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|       |   |   |-- 040-creating-your-physical-security-policy.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+|       |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|       |   |   |-- 020-remembering-and-recording-secure-passwords.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- 010-encrypting-your-information.md
+|       |   |   |-- 020-hiding-your-sensitive-information.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 005-5-how-to-recover-from-information-loss
+|       |   |   |-- 010-identifying-and-organising-your-information.md
+|       |   |   |-- 020-defining-your-backup-strategy.md
+|       |   |   |-- 030-creating-a-digital-backup.md
+|       |   |   |-- 040-recovering-from-accidental-file-deletion.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 006-6-how-to-destroy-sensitive-information
+|       |   |   |-- 010-deleting-information.md
+|       |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|       |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|       |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 007-7-how-to-keep-your-internet-communication-private
+|       |   |   |-- 010-securing-your-email.md
+|       |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|       |   |   |-- 030-securing-other-internet-communication-tools.md
+|       |   |   |-- 040-advanced-email-security.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- 010-understanding-internet-censorship.md
+|       |   |   |-- 020-understanding-censorship-circumvention.md
+|       |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|       |   |   |-- 040-specific-circumvention-proxies.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+|       |   |   |-- 020-posting-personal-details.md
+|       |   |   `-- index.md
+|       |   |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|       |   |   |-- 010-mobile-devices-and-security.md
+|       |   |   |-- 020-mobility-and-the-vulnerability-of-information.md
+|       |   |   |-- 030-best-practices-for-phone-security.md
+|       |   |   |-- 040-basic-functions-trackability-and-anonymity.md
+|       |   |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|       |   |   |-- 060-functions-beyond-speech-and-messages.md
+|       |   |   `-- index.md
+|       |   `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+|       |       |-- 010-platforms-setup-and-installation.md
+|       |       |-- 020-communicating-voice-and-messages-via-smartphone.md
+|       |       |-- 030-storing-information-on-your-smartphone.md
+|       |       |-- 040-sending-emails-from-smartphones.md
+|       |       |-- 050-capturing-media-with-smartphones.md
+|       |       |-- 060-accessing-the-internet-securely-from-smartphones.md
+|       |       |-- 070-advanced-smartphone-security.md
+|       |       `-- index.md
+|       `-- tools
+|           |-- internet
+|           |   |-- 010-riseup-secure-email-service
+|           |   |   |-- 010-how-to-create-a-riseup-account.md
+|           |   |   |-- 020-how-to-log-into-your-riseup-account.md
+|           |   |   |-- 030-how-to-change-your-account-settings.md
+|           |   |   |-- 040-faq-and-review.md
+|           |   |   `-- index.md
+|           |   `-- 017-social-networking-tools-facebook-twitter-and-others
+|           |       |-- 010-facebook-security-guide.md
+|           |       |-- 020-twitter-security-guide.md
+|           |       |-- 030-youtube.md
+|           |       |-- 040-flickr.md
+|           |       `-- index.md
+|           `-- windows
+|               |-- 005-truecrypt-secure-file-storage
+|               |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+|               |   |-- 020-how-to-mount-the-standard-volume.md
+|               |   |-- 030-how-to-back-up-your-volume.md
+|               |   |-- 040-hidden-volumes.md
+|               |   |-- 050-portable-truecrypt.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+|               |   |-- 010-how-to-install-and-configure-ccleaner.md
+|               |   |-- 020-how-to-delete-temporary-files-in-ccleaner.md
+|               |   |-- 030-how-to-clean-the-windows-registry-in-ccleaner.md
+|               |   |-- 040-portable-ccleaner.md
+|               |   |-- 050-advanced-options-faq-and-review.md
+|               |   `-- index.md
+|               |-- 011-pidgin-with-otr-secure-instant-messaging
+|               |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+|               |   |-- 020-how-to-use-otr-to-initiate-a-secure-messaging-session-in-pidgin.md
+|               |   |-- 040-portable-pidgin-and-otr.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 012-jitsi-secure-audio-video-and-instant-text-messaging
+|               |   |-- 010-jitsi-how-to-install-and-add-different-accounts-in-jitsi.md
+|               |   |-- 020-jitsi-add-contacts-and-communicate-text-voice.md
+|               |   `-- index.md
+|               |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+|               |   |-- 010-how-to-install-thunderbird.md
+|               |   |-- 020-how-to-configure-important-thunderbird-settings.md
+|               |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+|               |   |-- 040-portable-thunderbird-with-gpg-and-enigmail.md
+|               |   |-- 050-torbirdy-adding-digital-anonymity-and-circumvention-to-thunderbird.md
+|               |   |-- 060-faq.md
+|               |   `-- index.md
+|               |-- 014-gpg4usb-email-text-and-files-encryption
+|               |   |-- 010-how-to-install-gpg4usb-and-generate-a-key-pair.md
+|               |   |-- 020-how-to-export-and-import-keys.md
+|               |   |-- 030-how-to-encrypt-and-decrypt-text-and-files.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 015-firefox-with-add-ons-secure-web-browser
+|               |   |-- 010-how-to-install-and-configure-firefox.md
+|               |   |-- 020-how-to-install-firefox-add-ons.md
+|               |   |-- 030-how-to-use-the-noscript-add-on.md
+|               |   |-- 040-more-useful-firefox-add-ons.md
+|               |   |-- 050-portable-firefox.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               `-- 016-tor-browser-digital-anonymity-and-circumvention
+|                   |-- 000-how-to-extract-the-tor-browser.md
+|                   |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+|                   |-- 030-using-the-tor-browser.md
+|                   |-- 050-tor-browser-faq.md
+|                   `-- index.md
+|-- vi
+|   `-- guide
+|       |-- tactics
+|       |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|       |   |   |-- 010-viruses.md
+|       |   |   |-- 020-spyware.md
+|       |   |   |-- 030-firewalls.md
+|       |   |   |-- 040-keeping-your-software-up-to-date.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+|       |   |   |-- 010-assessing-your-risks.md
+|       |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+|       |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|       |   |   |-- 040-creating-your-physical-security-policy.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+|       |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|       |   |   |-- 020-remembering-and-recording-secure-passwords.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- 010-encrypting-your-information.md
+|       |   |   |-- 020-hiding-your-sensitive-information.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 005-5-how-to-recover-from-information-loss
+|       |   |   |-- 010-identifying-and-organising-your-information.md
+|       |   |   |-- 020-defining-your-backup-strategy.md
+|       |   |   |-- 040-recovering-from-accidental-file-deletion.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 006-6-how-to-destroy-sensitive-information
+|       |   |   |-- 010-deleting-information.md
+|       |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|       |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|       |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 007-7-how-to-keep-your-internet-communication-private
+|       |   |   |-- 010-securing-your-email.md
+|       |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|       |   |   |-- 030-securing-other-internet-communication-tools.md
+|       |   |   |-- 040-advanced-email-security.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- 010-understanding-internet-censorship.md
+|       |   |   |-- 020-understanding-censorship-circumvention.md
+|       |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|       |   |   |-- 040-specific-circumvention-proxies.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+|       |   |   |-- 020-posting-personal-details.md
+|       |   |   |-- 030-social-networking-tools.md
+|       |   |   `-- index.md
+|       |   |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|       |   |   |-- 010-mobile-devices-and-security.md
+|       |   |   |-- 020-mobility-and-the-vulnerability-of-information.md
+|       |   |   |-- 030-best-practices-for-phone-security.md
+|       |   |   |-- 040-basic-functions-trackability-and-anonymity.md
+|       |   |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|       |   |   |-- 060-functions-beyond-speech-and-messages.md
+|       |   |   |-- 070-further-reading.md
+|       |   |   `-- index.md
+|       |   `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+|       |       |-- 010-platforms-setup-and-installation.md
+|       |       |-- 020-communicating-voice-and-messages-via-smartphone.md
+|       |       |-- 030-storing-information-on-your-smartphone.md
+|       |       |-- 040-sending-emails-from-smartphones.md
+|       |       |-- 050-capturing-media-with-smartphones.md
+|       |       |-- 060-accessing-the-internet-securely-from-smartphones.md
+|       |       |-- 070-advanced-smartphone-security.md
+|       |       `-- index.md
+|       `-- tools
+|           |-- android
+|           |   |-- 025-keepassdroid-for-android-devices
+|           |   |   |-- 010-keepassdroid-basic-usage.md
+|           |   |   |-- 020-keepassdroid-advanced-usage.md
+|           |   |   `-- index.md
+|           |   |-- 026-obscuracam-for-android-devices
+|           |   |   |-- 010-obscuracam-installation-and-usage.md
+|           |   |   `-- index.md
+|           |   |-- 027-orbot-and-orfox-for-android-devices
+|           |   |   |-- 010-orbot-and-orfox-installation.md
+|           |   |   |-- 020-orbot-and-orfox-usage.md
+|           |   |   `-- index.md
+|           |   |-- 029-orweb-for-android-devices
+|           |   |   |-- 010-orweb-installation.md
+|           |   |   |-- 020-orweb-usage.md
+|           |   |   `-- index.md
+|           |   `-- 031-textsecure-for-android-devices
+|           |       |-- 010-textsecure-installation-configuration-and-first-time-setup.md
+|           |       |-- 020-textsecure-sending-receiving-messages-and-additional-settings.md
+|           |       `-- index.md
+|           |-- internet
+|           |   |-- 010-riseup-secure-email-service
+|           |   |   |-- 010-how-to-create-a-riseup-account.md
+|           |   |   |-- 020-how-to-log-into-your-riseup-account.md
+|           |   |   |-- 030-how-to-change-your-account-settings.md
+|           |   |   |-- 040-faq-and-review.md
+|           |   |   `-- index.md
+|           |   `-- 017-social-networking-tools-facebook-twitter-and-others
+|           |       |-- 010-facebook-security-guide.md
+|           |       |-- 020-twitter-security-guide.md
+|           |       |-- 030-youtube.md
+|           |       |-- 040-flickr.md
+|           |       `-- index.md
+|           `-- windows
+|               |-- 000-avast-anti-virus
+|               |   |-- 010-how-to-install-register-and-configure-avast.md
+|               |   |-- 020-how-to-manually-update-and-use-additional-options-in-avast.md
+|               |   |-- 030-how-to-scan-for-and-deal-with-viruses-using-avast.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 001-spybot-anti-spyware
+|               |   |-- 010-how-to-install-and-use-spybot.md
+|               |   |-- 020-how-to-use-spybot-in-advanced-mode.md
+|               |   |-- 030-portable-spybot.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 003-comodo-firewall
+|               |   |-- 010-how-to-install-and-launch-comodo-firewall.md
+|               |   |-- 020-how-to-use-comodo-firewall.md
+|               |   |-- 030-advanced-configurations-and-settings.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 004-keepass-secure-password-storage
+|               |   |-- 010-how-to-install-and-use-keepass.md
+|               |   |-- 020-using-keepass-passwords.md
+|               |   |-- 030-portable-keepass.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 005-truecrypt-secure-file-storage
+|               |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+|               |   |-- 020-how-to-mount-the-standard-volume.md
+|               |   |-- 030-how-to-back-up-your-volume.md
+|               |   |-- 040-hidden-volumes.md
+|               |   |-- 050-portable-truecrypt.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               |-- 006-cobian-backup-secure-file-backup
+|               |   |-- 010-how-to-install-cobian-backup-and-archive-your-files.md
+|               |   |-- 020-how-to-compress-and-decompress-your-files.md
+|               |   |-- 030-how-to-encrypt-your-backup-file.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 007-recuva-file-recovery
+|               |   |-- 010-how-to-install-recuva.md
+|               |   |-- 020-how-to-perform-different-scans-using-recuva.md
+|               |   |-- 030-how-to-recover-and-securely-overwrite-files-using-recuva.md
+|               |   |-- 040-portable-recuva.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 008-eraser-secure-file-removal
+|               |   |-- 010-how-to-install-and-configure-eraser.md
+|               |   |-- 020-how-to-use-eraser.md
+|               |   |-- 030-portable-eraser.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+|               |   |-- 010-how-to-install-and-configure-ccleaner.md
+|               |   |-- 020-how-to-delete-temporary-files-in-ccleaner.md
+|               |   |-- 030-how-to-clean-the-windows-registry-in-ccleaner.md
+|               |   |-- 040-portable-ccleaner.md
+|               |   |-- 050-advanced-options-faq-and-review.md
+|               |   `-- index.md
+|               |-- 011-pidgin-with-otr-secure-instant-messaging
+|               |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+|               |   |-- 020-how-to-use-otr-to-initiate-a-secure-messaging-session-in-pidgin.md
+|               |   |-- 040-portable-pidgin-and-otr.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 012-jitsi-secure-audio-video-and-instant-text-messaging
+|               |   |-- 010-jitsi-how-to-install-and-add-different-accounts-in-jitsi.md
+|               |   |-- 020-jitsi-add-contacts-and-communicate-text-voice.md
+|               |   `-- index.md
+|               |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+|               |   |-- 010-how-to-install-thunderbird.md
+|               |   |-- 020-how-to-configure-important-thunderbird-settings.md
+|               |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+|               |   |-- 040-portable-thunderbird-with-gpg-and-enigmail.md
+|               |   |-- 050-torbirdy-adding-digital-anonymity-and-circumvention-to-thunderbird.md
+|               |   |-- 060-faq.md
+|               |   `-- index.md
+|               |-- 014-gpg4usb-email-text-and-files-encryption
+|               |   |-- 010-how-to-install-gpg4usb-and-generate-a-key-pair.md
+|               |   |-- 020-how-to-export-and-import-keys.md
+|               |   |-- 030-how-to-encrypt-and-decrypt-text-and-files.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 015-firefox-with-add-ons-secure-web-browser
+|               |   |-- 010-how-to-install-and-configure-firefox.md
+|               |   |-- 020-how-to-install-firefox-add-ons.md
+|               |   |-- 030-how-to-use-the-noscript-add-on.md
+|               |   |-- 040-more-useful-firefox-add-ons.md
+|               |   |-- 050-portable-firefox.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               `-- 016-tor-browser-digital-anonymity-and-circumvention
+|                   |-- 000-how-to-extract-the-tor-browser.md
+|                   |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+|                   |-- 030-using-the-tor-browser.md
+|                   |-- 050-tor-browser-faq.md
+|                   `-- index.md
+|-- xx
+|   `-- guide
+|       |-- tactics
+|       |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+|       |   |   |-- 010-viruses.md
+|       |   |   |-- 020-spyware.md
+|       |   |   |-- 030-firewalls.md
+|       |   |   |-- 040-keeping-your-software-up-to-date.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+|       |   |   |-- 010-assessing-your-risks.md
+|       |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+|       |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+|       |   |   |-- 040-creating-your-physical-security-policy.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+|       |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+|       |   |   |-- 020-remembering-and-recording-secure-passwords.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+|       |   |   |-- 010-encrypting-your-information.md
+|       |   |   |-- 020-hiding-your-sensitive-information.md
+|       |   |   |-- 030-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 005-5-how-to-recover-from-information-loss
+|       |   |   |-- 010-identifying-and-organising-your-information.md
+|       |   |   |-- 020-defining-your-backup-strategy.md
+|       |   |   |-- 030-creating-a-digital-backup.md
+|       |   |   |-- 040-recovering-from-accidental-file-deletion.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 006-6-how-to-destroy-sensitive-information
+|       |   |   |-- 010-deleting-information.md
+|       |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+|       |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+|       |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 007-7-how-to-keep-your-internet-communication-private
+|       |   |   |-- 010-securing-your-email.md
+|       |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+|       |   |   |-- 030-securing-other-internet-communication-tools.md
+|       |   |   |-- 040-advanced-email-security.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+|       |   |   |-- 010-understanding-internet-censorship.md
+|       |   |   |-- 020-understanding-censorship-circumvention.md
+|       |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+|       |   |   |-- 040-specific-circumvention-proxies.md
+|       |   |   |-- 050-further-reading.md
+|       |   |   `-- index.md
+|       |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+|       |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+|       |   |   |-- 020-posting-personal-details.md
+|       |   |   |-- 030-social-networking-tools.md
+|       |   |   `-- index.md
+|       |   |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+|       |   |   |-- 010-mobile-devices-and-security.md
+|       |   |   |-- 020-mobility-and-the-vulnerability-of-information.md
+|       |   |   |-- 030-best-practices-for-phone-security.md
+|       |   |   |-- 040-basic-functions-trackability-and-anonymity.md
+|       |   |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+|       |   |   |-- 060-functions-beyond-speech-and-messages.md
+|       |   |   |-- 070-further-reading.md
+|       |   |   `-- index.md
+|       |   `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+|       |       |-- 010-platforms-setup-and-installation.md
+|       |       |-- 020-communicating-voice-and-messages-via-smartphone.md
+|       |       |-- 030-storing-information-on-your-smartphone.md
+|       |       |-- 040-sending-emails-from-smartphones.md
+|       |       |-- 050-capturing-media-with-smartphones.md
+|       |       |-- 060-accessing-the-internet-securely-from-smartphones.md
+|       |       |-- 070-advanced-smartphone-security.md
+|       |       `-- index.md
+|       `-- tools
+|           |-- android
+|           |   |-- 025-keepassdroid-for-android-devices
+|           |   |   |-- 010-keepassdroid-basic-usage.md
+|           |   |   |-- 020-keepassdroid-advanced-usage.md
+|           |   |   `-- index.md
+|           |   |-- 026-obscuracam-for-android-devices
+|           |   |   |-- 010-obscuracam-installation-and-usage.md
+|           |   |   `-- index.md
+|           |   |-- 027-orbot-and-orfox-for-android-devices
+|           |   |   |-- 010-orbot-and-orfox-installation.md
+|           |   |   |-- 020-orbot-and-orfox-usage.md
+|           |   |   `-- index.md
+|           |   |-- 029-orweb-for-android-devices
+|           |   |   |-- 010-orweb-installation.md
+|           |   |   |-- 020-orweb-usage.md
+|           |   |   `-- index.md
+|           |   `-- 031-textsecure-for-android-devices
+|           |       |-- 010-textsecure-installation-configuration-and-first-time-setup.md
+|           |       |-- 020-textsecure-sending-receiving-messages-and-additional-settings.md
+|           |       `-- index.md
+|           |-- internet
+|           |   |-- 010-riseup-secure-email-service
+|           |   |   |-- 010-how-to-create-a-riseup-account.md
+|           |   |   |-- 020-how-to-log-into-your-riseup-account.md
+|           |   |   |-- 030-how-to-change-your-account-settings.md
+|           |   |   |-- 040-faq-and-review.md
+|           |   |   `-- index.md
+|           |   `-- 017-social-networking-tools-facebook-twitter-and-others
+|           |       |-- 010-facebook-security-guide.md
+|           |       |-- 020-twitter-security-guide.md
+|           |       |-- 030-youtube.md
+|           |       |-- 040-flickr.md
+|           |       `-- index.md
+|           `-- windows
+|               |-- 000-avast-anti-virus
+|               |   |-- 010-how-to-install-register-and-configure-avast.md
+|               |   |-- 020-how-to-manually-update-and-use-additional-options-in-avast.md
+|               |   |-- 030-how-to-scan-for-and-deal-with-viruses-using-avast.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 001-spybot-anti-spyware
+|               |   |-- 010-how-to-install-and-use-spybot.md
+|               |   |-- 020-how-to-use-spybot-in-advanced-mode.md
+|               |   |-- 030-portable-spybot.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 003-comodo-firewall
+|               |   |-- 010-how-to-install-and-launch-comodo-firewall.md
+|               |   |-- 020-how-to-use-comodo-firewall.md
+|               |   |-- 030-advanced-configurations-and-settings.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 004-keepass-secure-password-storage
+|               |   |-- 010-how-to-install-and-use-keepass.md
+|               |   |-- 020-using-keepass-passwords.md
+|               |   |-- 030-portable-keepass.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 005-truecrypt-secure-file-storage
+|               |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+|               |   |-- 020-how-to-mount-the-standard-volume.md
+|               |   |-- 030-how-to-back-up-your-volume.md
+|               |   |-- 040-hidden-volumes.md
+|               |   |-- 050-portable-truecrypt.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               |-- 006-cobian-backup-secure-file-backup
+|               |   |-- 010-how-to-install-cobian-backup-and-archive-your-files.md
+|               |   |-- 020-how-to-compress-and-decompress-your-files.md
+|               |   |-- 030-how-to-encrypt-your-backup-file.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 007-recuva-file-recovery
+|               |   |-- 010-how-to-install-recuva.md
+|               |   |-- 020-how-to-perform-different-scans-using-recuva.md
+|               |   |-- 030-how-to-recover-and-securely-overwrite-files-using-recuva.md
+|               |   |-- 040-portable-recuva.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 008-eraser-secure-file-removal
+|               |   |-- 010-how-to-install-and-configure-eraser.md
+|               |   |-- 020-how-to-use-eraser.md
+|               |   |-- 030-portable-eraser.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+|               |   |-- 010-how-to-install-and-configure-ccleaner.md
+|               |   |-- 020-how-to-delete-temporary-files-in-ccleaner.md
+|               |   |-- 030-how-to-clean-the-windows-registry-in-ccleaner.md
+|               |   |-- 040-portable-ccleaner.md
+|               |   |-- 050-advanced-options-faq-and-review.md
+|               |   `-- index.md
+|               |-- 011-pidgin-with-otr-secure-instant-messaging
+|               |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+|               |   |-- 020-how-to-use-otr-to-initiate-a-secure-messaging-session-in-pidgin.md
+|               |   |-- 040-portable-pidgin-and-otr.md
+|               |   |-- 050-faq-and-review.md
+|               |   `-- index.md
+|               |-- 012-jitsi-secure-audio-video-and-instant-text-messaging
+|               |   |-- 010-jitsi-how-to-install-and-add-different-accounts-in-jitsi.md
+|               |   |-- 020-jitsi-add-contacts-and-communicate-text-voice.md
+|               |   `-- index.md
+|               |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+|               |   |-- 010-how-to-install-thunderbird.md
+|               |   |-- 020-how-to-configure-important-thunderbird-settings.md
+|               |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+|               |   |-- 040-portable-thunderbird-with-gpg-and-enigmail.md
+|               |   |-- 050-torbirdy-adding-digital-anonymity-and-circumvention-to-thunderbird.md
+|               |   |-- 060-faq.md
+|               |   `-- index.md
+|               |-- 014-gpg4usb-email-text-and-files-encryption
+|               |   |-- 010-how-to-install-gpg4usb-and-generate-a-key-pair.md
+|               |   |-- 020-how-to-export-and-import-keys.md
+|               |   |-- 030-how-to-encrypt-and-decrypt-text-and-files.md
+|               |   |-- 040-faq-and-review.md
+|               |   `-- index.md
+|               |-- 015-firefox-with-add-ons-secure-web-browser
+|               |   |-- 010-how-to-install-and-configure-firefox.md
+|               |   |-- 020-how-to-install-firefox-add-ons.md
+|               |   |-- 020-secure-web-browser-v-secure-browsing.md
+|               |   |-- 030-how-to-use-the-noscript-add-on.md
+|               |   |-- 040-more-useful-firefox-add-ons.md
+|               |   |-- 050-portable-firefox.md
+|               |   |-- 060-faq-and-review.md
+|               |   `-- index.md
+|               `-- 016-tor-browser-digital-anonymity-and-circumvention
+|                   |-- 000-how-to-extract-the-tor-browser.md
+|                   |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+|                   |-- 030-using-the-tor-browser.md
+|                   |-- 040-tor-common-problems.md
+|                   |-- 050-tor-browser-faq.md
+|                   `-- index.md
+`-- zh
+    `-- guide
+        |-- tactics
+        |   |-- 001-1-how-to-protect-your-computer-from-malware-and-hackers
+        |   |   |-- 010-viruses.md
+        |   |   |-- 020-spyware.md
+        |   |   |-- 030-firewalls.md
+        |   |   |-- 040-keeping-your-software-up-to-date.md
+        |   |   |-- 050-further-reading.md
+        |   |   `-- index.md
+        |   |-- 002-2-how-to-protect-your-information-from-physical-threats
+        |   |   |-- 010-assessing-your-risks.md
+        |   |   |-- 020-protecting-your-information-from-physical-intruders.md
+        |   |   |-- 030-maintaining-a-healthy-environment-for-your-computer-hardware.md
+        |   |   |-- 040-creating-your-physical-security-policy.md
+        |   |   |-- 050-further-reading.md
+        |   |   `-- index.md
+        |   |-- 003-3-how-to-create-and-maintain-secure-passwords
+        |   |   |-- 010-selecting-and-maintaining-secure-passwords.md
+        |   |   |-- 020-remembering-and-recording-secure-passwords.md
+        |   |   |-- 030-further-reading.md
+        |   |   `-- index.md
+        |   |-- 004-4-how-to-protect-the-sensitive-files-on-your-computer
+        |   |   |-- 010-encrypting-your-information.md
+        |   |   |-- 020-hiding-your-sensitive-information.md
+        |   |   |-- 030-further-reading.md
+        |   |   `-- index.md
+        |   |-- 005-5-how-to-recover-from-information-loss
+        |   |   |-- 010-identifying-and-organising-your-information.md
+        |   |   |-- 020-defining-your-backup-strategy.md
+        |   |   |-- 030-creating-a-digital-backup.md
+        |   |   |-- 040-recovering-from-accidental-file-deletion.md
+        |   |   |-- 050-further-reading.md
+        |   |   `-- index.md
+        |   |-- 006-6-how-to-destroy-sensitive-information
+        |   |   |-- 010-deleting-information.md
+        |   |   |-- 020-wiping-information-with-secure-deletion-tools.md
+        |   |   |-- 030-tips-on-using-secure-deletion-tools-effectively.md
+        |   |   |-- 040-tips-on-wiping-the-entire-contents-of-a-storage-device.md
+        |   |   |-- 050-further-reading.md
+        |   |   `-- index.md
+        |   |-- 007-7-how-to-keep-your-internet-communication-private
+        |   |   |-- 010-securing-your-email.md
+        |   |   |-- 020-tips-on-responding-to-suspected-email-hacking-and-surveillance.md
+        |   |   |-- 030-securing-other-internet-communication-tools.md
+        |   |   |-- 040-advanced-email-security.md
+        |   |   |-- 050-further-reading.md
+        |   |   `-- index.md
+        |   |-- 008-8-how-to-remain-anonymous-and-bypass-censorship-on-the-internet
+        |   |   |-- 010-understanding-internet-censorship.md
+        |   |   |-- 020-understanding-censorship-circumvention.md
+        |   |   |-- 030-anonymity-networks-and-basic-proxy-servers.md
+        |   |   |-- 040-specific-circumvention-proxies.md
+        |   |   |-- 050-further-reading.md
+        |   |   `-- index.md
+        |   |-- 009-9-how-to-protect-yourself-and-your-data-when-using-social-networking-sites
+        |   |   |-- 010-general-tips-on-using-social-networking-tools.md
+        |   |   |-- 020-posting-personal-details.md
+        |   |   |-- 030-social-networking-tools.md
+        |   |   `-- index.md
+        |   |-- 010-10-how-to-use-mobile-phones-as-securely-as-possible
+        |   |   |-- 010-mobile-devices-and-security.md
+        |   |   |-- 020-mobility-and-the-vulnerability-of-information.md
+        |   |   |-- 030-best-practices-for-phone-security.md
+        |   |   |-- 040-basic-functions-trackability-and-anonymity.md
+        |   |   |-- 050-dmnaakdmnngjaaqksr-sms-saarjaaqksr.md
+        |   |   |-- 060-functions-beyond-speech-and-messages.md
+        |   |   |-- 070-further-reading.md
+        |   |   `-- index.md
+        |   `-- 011-11-how-to-use-smartphones-as-securely-as-possible
+        |       |-- 010-platforms-setup-and-installation.md
+        |       |-- 020-communicating-voice-and-messages-via-smartphone.md
+        |       |-- 030-storing-information-on-your-smartphone.md
+        |       |-- 040-sending-emails-from-smartphones.md
+        |       |-- 050-capturing-media-with-smartphones.md
+        |       |-- 060-accessing-the-internet-securely-from-smartphones.md
+        |       |-- 070-advanced-smartphone-security.md
+        |       `-- index.md
+        `-- tools
+            |-- android
+            |   |-- 025-keepassdroid-for-android-devices
+            |   |   |-- 010-keepassdroid-basic-usage.md
+            |   |   |-- 020-keepassdroid-advanced-usage.md
+            |   |   `-- index.md
+            |   |-- 026-obscuracam-for-android-devices
+            |   |   |-- 010-obscuracam-installation-and-usage.md
+            |   |   `-- index.md
+            |   |-- 027-orbot-and-orfox-for-android-devices
+            |   |   |-- 010-orbot-and-orfox-installation.md
+            |   |   |-- 020-orbot-and-orfox-usage.md
+            |   |   `-- index.md
+            |   |-- 029-orweb-for-android-devices
+            |   |   |-- 010-orweb-installation.md
+            |   |   `-- index.md
+            |   `-- 031-textsecure-for-android-devices
+            |       |-- 010-textsecure-installation-configuration-and-first-time-setup.md
+            |       |-- 020-textsecure-sending-receiving-messages-and-additional-settings.md
+            |       `-- index.md
+            |-- internet
+            |   `-- 010-riseup-secure-email-service
+            |       |-- 010-how-to-create-a-riseup-account.md
+            |       |-- 030-how-to-change-your-account-settings.md
+            |       |-- 040-faq-and-review.md
+            |       `-- index.md
+            `-- windows
+                |-- 000-avast-anti-virus
+                |   |-- 010-how-to-install-register-and-configure-avast.md
+                |   |-- 020-how-to-manually-update-and-use-additional-options-in-avast.md
+                |   |-- 030-how-to-scan-for-and-deal-with-viruses-using-avast.md
+                |   |-- 040-faq-and-review.md
+                |   `-- index.md
+                |-- 001-spybot-anti-spyware
+                |   |-- 010-how-to-install-and-use-spybot.md
+                |   |-- 020-how-to-use-spybot-in-advanced-mode.md
+                |   |-- 030-portable-spybot.md
+                |   |-- 040-faq-and-review.md
+                |   `-- index.md
+                |-- 003-comodo-firewall
+                |   |-- 010-how-to-install-and-launch-comodo-firewall.md
+                |   |-- 020-how-to-use-comodo-firewall.md
+                |   |-- 030-advanced-configurations-and-settings.md
+                |   |-- 040-faq-and-review.md
+                |   `-- index.md
+                |-- 004-keepass-secure-password-storage
+                |   |-- 010-how-to-install-and-use-keepass.md
+                |   |-- 020-using-keepass-passwords.md
+                |   |-- 030-portable-keepass.md
+                |   |-- 040-faq-and-review.md
+                |   `-- index.md
+                |-- 005-truecrypt-secure-file-storage
+                |   |-- 010-how-to-install-truecrypt-and-create-standard-volumes.md
+                |   |-- 020-how-to-mount-the-standard-volume.md
+                |   |-- 030-how-to-back-up-your-volume.md
+                |   |-- 040-hidden-volumes.md
+                |   |-- 060-faq-and-review.md
+                |   `-- index.md
+                |-- 006-cobian-backup-secure-file-backup
+                |   |-- 010-how-to-install-cobian-backup-and-archive-your-files.md
+                |   |-- 020-how-to-compress-and-decompress-your-files.md
+                |   |-- 030-how-to-encrypt-your-backup-file.md
+                |   |-- 040-faq-and-review.md
+                |   `-- index.md
+                |-- 007-recuva-file-recovery
+                |   |-- 010-how-to-install-recuva.md
+                |   |-- 020-how-to-perform-different-scans-using-recuva.md
+                |   |-- 030-how-to-recover-and-securely-overwrite-files-using-recuva.md
+                |   `-- index.md
+                |-- 008-eraser-secure-file-removal
+                |   |-- 010-how-to-install-and-configure-eraser.md
+                |   |-- 020-how-to-use-eraser.md
+                |   |-- 030-portable-eraser.md
+                |   |-- 040-faq-and-review.md
+                |   `-- index.md
+                |-- 009-ccleaner-secure-file-deletion-and-work-session-wiping
+                |   |-- 010-how-to-install-and-configure-ccleaner.md
+                |   |-- 020-how-to-delete-temporary-files-in-ccleaner.md
+                |   |-- 040-portable-ccleaner.md
+                |   `-- index.md
+                |-- 011-pidgin-with-otr-secure-instant-messaging
+                |   |-- 010-how-to-install-the-pidgin-and-otr-software-and-then-register-and-set-up-your-account-to-pidgin.md
+                |   |-- 020-how-to-use-otr-to-initiate-a-secure-messaging-session-in-pidgin.md
+                |   |-- 040-portable-pidgin-and-otr.md
+                |   |-- 050-faq-and-review.md
+                |   `-- index.md
+                |-- 012-jitsi-secure-audio-video-and-instant-text-messaging
+                |   `-- index.md
+                |-- 013-thunderbird-with-enigmail-and-gpg-secure-email-client
+                |   |-- 010-how-to-install-thunderbird.md
+                |   |-- 030-how-to-use-enigmail-with-gnupg-in-thunderbird.md
+                |   |-- 040-portable-thunderbird-with-gpg-and-enigmail.md
+                |   |-- 060-faq.md
+                |   `-- index.md
+                |-- 014-gpg4usb-email-text-and-files-encryption
+                |   |-- 010-how-to-install-gpg4usb-and-generate-a-key-pair.md
+                |   |-- 020-how-to-export-and-import-keys.md
+                |   |-- 030-how-to-encrypt-and-decrypt-text-and-files.md
+                |   |-- 040-faq-and-review.md
+                |   `-- index.md
+                |-- 015-firefox-with-add-ons-secure-web-browser
+                |   |-- 010-how-to-install-and-configure-firefox.md
+                |   |-- 020-how-to-install-firefox-add-ons.md
+                |   |-- 030-how-to-use-the-noscript-add-on.md
+                |   |-- 040-more-useful-firefox-add-ons.md
+                |   |-- 050-portable-firefox.md
+                |   |-- 060-faq-and-review.md
+                |   `-- index.md
+                `-- 016-tor-browser-digital-anonymity-and-circumvention
+                    |-- 000-how-to-extract-the-tor-browser.md
+                    |-- 020-how-to-access-the-internet-using-the-tor-browser.md
+                    |-- 030-using-the-tor-browser.md
+                    |-- 050-tor-browser-faq.md
+                    `-- index.md
+
+854 directories, 2724 files

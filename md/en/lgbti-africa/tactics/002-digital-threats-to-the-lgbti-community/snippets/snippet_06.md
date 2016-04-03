@@ -1,4 +1,0 @@
-***Human Rights Defender Testimonies***
-
-*"We have been worried about viruses. We got the free anti-virus and anti-spyware, and this has helped secure us. I think this is the longest period we have not had to bring any computer engineer into our office to check our computers, just blowing air into it, and installing all sorts of software to clean, reformat and all that. We used to lose so much through those reformatting processes because when we don’t have access, we go to internet cafés and we pick viruses from there and they end up in our system: then all kinds of trouble will start. But since we were trained and the access we got to free anti virus, anti spyware, and our general change of attitude in the office, we have not invited anybody: not once to come into our offices and check the stomach of our computers."*
-— Anonymous Human Rights Defender

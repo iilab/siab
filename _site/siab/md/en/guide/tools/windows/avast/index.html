@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+       &middot; Security in a Box
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/siab/public/css/poole.css">
+  <link rel="stylesheet" href="/siab/public/css/syntax.css">
+  <link rel="stylesheet" href="/siab/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <!--
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/siab/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/siab/public/favicon.ico"> -->
+  <link rel="icon" type="image/svg+xml" href="images/icon.svg">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/siab/atom.xml">
+</head>
+
+  <body>
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/siab">
+          Security in a Box
+        </a>
+      </h1>
+      <p class="lead">Content as Code work on SIAB.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/siab/">Home</a>
+
+
+
+                                                                                                                                              <a class="sidebar-nav-item" href="/siab/section.md">A Section</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                        
+      <a class="sidebar-nav-item" href="https://github.com/contentascode/docsmith-init">GitHub project</a>
+
+    </nav>
+
+    <p>&copy; 1969. All rights reserved.</p>
+  </div>
+</div>
+
+    <div class="content container">
+
+    <div>
+      <small>
+        <div style="float:left"><a href="/siab/">Home</a>
+        </div>
+
+        <div style="float:right"><em><a href="https://github.com/contentascode/docsmith-init/edit/master/">Edit this page</a> - <a href="https://github.com/contentascode/docsmith-init/commits/master/">View page history</a> - <a href="https://github.com/contentascode/docsmith-init/tree/master/">View page source</a></em>
+        </div>
+      </small>
+    </div>
+
+    <div class="page" style="clear:both">
+      <h1 class="page-title"></h1>
+      <p><strong>avast!</strong> is a full-featured anti-malware program that detects and removes malware from your computer or removable storage device. Although <strong>avast!</strong> is free for non-commercial use a personal computer, your free copy <em>must</em> be registered after installation. If you do not register <em>avast!</em> within 30 days, both the software itself and the list of malware that it can recognize will quickly become out of date.</p>
+<h1 id="required-reading">Required reading</h1>
+<p><a href="../../../tactics/malware">Protect your device from malware and hackers</a></p>
+<p><img src="https://securityinabox.org/sites/securityinabox.org/files/media/tool/logo/avast-logo-hr.png" /><br />
+<a href="http://www.avast.com">Project website</a><br />
+<a href="http://www.avast.com/index#upgrade">DOWNLOAD LINK</a><br />
+Version used in this guide: 10.0<br />
+License: Free Proprietary Software<br />
+System requirements:</p>
+<ul>
+<li>Microsoft Windows</li>
+</ul>
+<h1 id="what-you-will-get-from-this-guide">What you will get from this guide</h1>
+<ul>
+<li>The ability to scan for and remove malware from your computer.</li>
+<li>The ability to protect your computer from new malware infections.</li>
+<li>The ability to update both <em>avast!</em> itself and the list of malware that it can detect and remove.</li>
+</ul>
+<h1 id="introduction-to-avast">1. Introduction to avast!</h1>
+<h2 id="other-tools-like-avast">1.0 Other tools like avast!</h2>
+<p>Although we recommend <strong>avast! Free Antivirus</strong> in this chapter, there are other free anti-malware programs compatible with <strong>Microsoft Windows</strong> that are worth recommending as well:</p>
+<ul>
+<li><a href="https://www.avira.com/en/avira-free-antivirus"><strong>Avira Free Antivirus</strong></a>;</li>
+<li><a href="http://free.avg.com/"><strong>AVG Anti-Virus Free</strong></a>;</li>
+<li><a href="http://www.bitdefender.com/solutions/free.html"><strong>Bitdefender Antivirus Free Edition</strong></a>;</li>
+</ul>
+<p>Also if you can afford to purchase a commercial version of the anti-virus software for <strong>Microsoft Windows</strong> it may offer you more complete protection.</p>
+<p>Although operating systems like <strong>GNU Linux</strong> and <strong>Mac OS</strong> are more resistant towards viruses, there are compelling reasons for installing an anti-malware program on them. Firstly, there is increasing number of viruses created for these operating systems, and secondly, you may risk spreading viruses that run on MS Windows unknowingly, even if your own system remains immune to them.</p>
+<p><strong>Mac OS</strong> or <strong>Google Android</strong> users can install free versions of <strong>Avast!</strong>, <strong>Avira</strong> or <strong>AVG</strong>.</p>
+<p>At present, unfortunately, there are no anti-virus programs that we are comfortable recommending for <strong>Linux</strong>. We see this as a strong insecurity and increasing need for <strong>Linux</strong> operating system.</p>
+<h2 id="things-you-should-know-about-avast-before-you-start">1.1 Things you should know about avast! before you start</h2>
+<p>Computer viruses are malicious programs that can destroy files, spy on your activity, slow your computer down and use your address book to locate and infect other computers. <strong>avast!</strong> can protect your system against viruses that might infect your computer through downloads from the Internet, email attachments, or transfers from removable media (CDs, DVDs, USB memory sticks, etc).</p>
+<ul>
+<li><p>Make sure that you do not have two anti-virus programs installed and running at the same time. If you are currently using a different program and you want to switch to <strong>avast!</strong>, you must first uninstall the other anti-virus program before installing <strong>avast!</strong>.</p></li>
+<li><p>New malware and viruses are being developed all the time. The <strong>avast!</strong> database and program itself must be kept up-to-date to effectively protect your computer.</p></li>
+<li><p>Among the more insidious viruses are those which can actually prevent the installation or running of <strong>avast!</strong>, and/or viruses that <strong>avast!</strong> can fail to detect and delete. In these kinds of situations, fairly advanced methods are required, and some of those are discussed in the <a href="#1464">Advanced Virus Removal Methods</a> section.</p></li>
+</ul>
+<h1 id="install-and-configure-avast">2. Install and configure avast!</h1>
+<h2 id="install-avast">2.0 Install avast!</h2>
+<p><strong>Step 1</strong>. <strong>Double click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-01.png" />. The <em>Open File - Security Warning</em> dialog box may appear. If it does, <strong>click</strong> <em>Yes</em> to activate <em>avast! Installation</em> as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-03.png" /></p>
+<p><em>Figure 1: The Free Antivirus Setup-avast! Installation screen</em></p>
+<p><strong>Step 2</strong>. <strong>Unselect</strong> <em>Yes, install Dropbox</em> as shown in <em>figure 1</em> and <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-04.png" />.</p>
+<p>Note: Selecting <em>Custom installation</em> will allow you to change language settings for your avast!. Otherwise you are able to use <em>Regular installation</em>.</p>
+<p><strong>Step 3</strong> Accept the default installation folder and <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-05.png" /> to activate the following dialog box:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-06.png" /></p>
+<p><em>Figure 2: The 'Which components do you want to install?' window</em></p>
+<p><strong>Step 4</strong> <strong>Select</strong> a language, accept all other defaults and <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-05.png" />.</p>
+<p><strong>Step 5</strong> After reading the license agreement <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-05.png" /> at the <em>Please Do Not Skip - Read it Carefully</em> screen to begin the installation. The <em>opt-out</em> option will be discussed later in this chapter.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-07.png" /></p>
+<p><em>Figure 3: Install the product window</em></p>
+<p><strong>Step 6</strong> <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-08.png" /> to complete the installation. <strong>avast!</strong> will launch a quick scan of your computer as shown below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-09.png" /></p>
+<p><em>Figure 4: !avast quick scan</em></p>
+<p><em>Note</em> Refer to section 4.7 How to Deal with Viruses if !avast detects infected files during the quick scan shown in <em>figure 4</em>.</p>
+<p>Once the quick scan has completed, the <strong>!avast</strong> homepage will display as shown in the screen below. You have now completed the install of <strong>!avast</strong>.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-10.png" /></p>
+<p><em>Figure 5: Thank you for installing !avast Free Antivirus</em></p>
+<p><strong>Important</strong> You <em>must</em> register your copy of the software, to ensure that the software engines, virus definitions and the program itself are updated on a regular basis. This is described in the next section.</p>
+<h2 id="register-avast">2.1 Register avast!</h2>
+<p><strong>Note</strong>: If you do not register your copy of <strong>avast!</strong> it will stop working after 30 days. You must be connected to the Internet to register <strong>avast!</strong>.</p>
+<p>To register your copy of <strong>avast!</strong> perform the following steps:</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-11.png" /> at the <em>figure 5</em> above to activate the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-12.png" /></p>
+<p><em>Figure 9: Select your level of protection</em></p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-13.png" /> under the <em>Standard protection</em> column as highlighted above in <em>figure 9</em>.</p>
+<p><strong>Step 3</strong>. At the <em>Register your !avast Free Antivirus</em> enter your email address as shown in following screen and <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-15.png" />.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-14.png" /></p>
+<p><em>Figure 10: The Register your !avast Free Antivirus screen</em></p>
+<p><strong>Note</strong>: <em>Your email</em> is the only <em>mandatory</em> text field.</p>
+<p><strong>Step 4</strong>. <strong>Click</strong> <em>Stay with basic protection</em> as highlighted in the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-16.png" /></p>
+<p><em>Figure 11: The Thank you for registering with avast! screen</em></p>
+<p>You have now completed registering of your copy of <strong>avast!</strong></p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-17.png" /></p>
+<p><em>Figure 12: You Are Protected screen</em></p>
+<h2 id="opt-out-of-the-avast-communitiy">2.2 Opt out of the avast! communitiy</h2>
+<p>During the avast! installation process, avast! will automatically enable the <em>Participate in the avast! community</em> option. For reasons of internet privacy and security, it is recommended that you disable this option as shown in the following steps:</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-18.png" /> from the left hand column of the avast! home screen.</p>
+<p><strong>Step 2</strong>. From the <em>General</em> tab <strong>unselect</strong> the <em>Participate in the Avast community</em> as shown in the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-19.png" /></p>
+<p><em>Figure 13: The Participate in the Avast community screen</em></p>
+<p>Once avast! is installed and running on your computer, you can configure the options below as required.</p>
+<h2 id="disable-ssl-scanning">2.3 Disable SSL scanning</h2>
+<p>By default, <strong>avast!</strong> <em>Mail Shield</em> tool will scan all email including SSL/TLS encrypted connections. This can can cause issues for some email clients such as <strong>Thunderbird</strong>. SSL scanning of email connections can be disabled to prevent <strong>avast!</strong> from interfering with email clients.</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-18.png" /> from the left hand column of the !avast home screen</p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-29.png" /> and <strong>select</strong> <em>Mail Shield</em> and <em>Customize</em> as shown below.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-30.png" /></p>
+<p><em>Figure 14: Mail Shield - Customise</em></p>
+<p><strong>Step 3</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-31.png" /> and <strong>unselect</strong> <em>SSL Scanning</em> as shown below.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-32.png" /></p>
+<p><em>Figure 15: SSL Scanning option</em></p>
+<h2 id="disable-voiceover-sounds-optional">2.4 Disable voiceover sounds (optional)</h2>
+<p>By default, <strong>avast!</strong> will enable 'Voiceover' sounds where available. This can be disabled by following the steps below.</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-18.png" /> from the left hand column of the !avast home screen.</p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-33.png" /> and <strong>select</strong> the <em>Sound</em> settings arrow as highlighted below.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-34.png" /></p>
+<p><em>Figure 16: Sound settings</em></p>
+<p><strong>Step 3</strong>. <strong>Unselect</strong> <em>Use voiceover sounds (where available)</em> as shown above.</p>
+<h1 id="update-avast">3. Update avast!</h1>
+<p><strong>avast!</strong> runs silently in the background on your computer, automatically downloading and updating its virus definitions every time you connect to the Internet. However, in situations where your internet access is discontinuous, restricted or temporary in some way, performing a manual update may be necessary.</p>
+<p>There are two ways of updating <strong>avast!</strong> manually: The first is through the <strong>avast!</strong> main user interface, and the second is through a pop-up menu that appears whenever you right click the <strong>avast!</strong> icon located in the <em>System Tray</em>.</p>
+<p><strong>Note</strong>: It is advisable <strong>not</strong> to disable automatically download updates unless necessary.</p>
+<h2 id="option-1-manually-update-avast-using-the-main-screen">3.1 (Option 1) Manually update avast! using the main screen</h2>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-22.png" /> to activate the <strong>avast!</strong> main user interface:</p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-18.png" /> and then <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-20.png" /> to activate the following screen and display the Program and Virus Definitions versions:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-24.png" /></p>
+<p><em>Figure 1: The Update window</em></p>
+<p><strong>Step 3</strong>: <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-25.png" /> to update the <em>Program version</em> as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-27.png" /></p>
+<p><em>Figure 2: Update the program</em></p>
+<p><strong>Step 4</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-25.png" /> to update the Virus Definition as following:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-26.png" /></p>
+<p><em>Figure 3: Updating the Virus Definition</em></p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-23.png" /></p>
+<p><em>Figure 4: You Are Protected Status</em></p>
+<h2 id="option-2-manually-update-avast-using-the-pop-up-menu">3.2 (Option 2) Manually update avast! using the pop-up menu</h2>
+<p>The <strong>avast!</strong> program upgrade and virus definition updates can be performed through the <strong>avast!</strong> pop-up menu. The pop-up menu can be used to directly access the <em>UPDATE</em> screen as shown in <em>figure 2</em>.</p>
+<p><strong>Step 1</strong>. <strong>Right click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-22.png" /> in the <em>System Tray</em> to activate the following pop-up menu:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-28.png" /></p>
+<p><em>Figure 5: The avast! pop-up menu</em></p>
+<p><strong>Step 2</strong>: <strong>Select Update &gt; Engine and virus definitions</strong> to activate <em>Figure 3</em> in <strong>step 3</strong> above.</p>
+<p><strong>Step 3</strong>: <strong>Select Update &gt; Program</strong> to activate <em>Figure 4</em> in <strong>step 3</strong> above.</p>
+<h1 id="additional-features-of-avast">4. Additional features of avast!</h1>
+<p><strong>avast!</strong> offers additional tools that help manage the health of your computer and keep software up to date. The following sections describe the <strong>avast!</strong> <em>Software Updater</em>, <em>Browser Cleanup</em> and <em>Rescue Disk</em>.</p>
+<h2 id="software-updater">4.1 Software updater</h2>
+<p><em>Software Updater</em> can monitor and update software running on your computer.</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-57.png" /> and <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-104.png" /> to begin the scan. If the scan detects out of date software it will display as shown below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-105.png" /></p>
+<p><em>Figure 6 : Out of date software</em></p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-40.png" /> to begin updating the application.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-38.png" /></p>
+<p><em>Figure 7: Software updated</em></p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-106.png" /></p>
+<p><em>Figure 8: Updated software list</em></p>
+<h2 id="browser-cleanup">4.2 Browser cleanup</h2>
+<p><em>Browser Cleanup</em> can detect and remove unwanted or malicious add-ons installed in your computers Internet browsers. Such add-ons can spy on your activity, cause an annoyance and slow down your browser. To review and remove unwanted add-ons:</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-35.png" /> from the left hand column of the avast! main screen.</p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-41.png" /> to activate the <em>Browser Cleanup</em> as shown below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-42.png" /></p>
+<p><em>Figure 9 : Browser Cleanup screen</em></p>
+<p><strong>Step 3</strong>. <strong>Select</strong> the browser icon from the left hand menu to show add-ons per browser as shown below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-44.png" /></p>
+<p><em>Figure 10 : Add-ons listed for Internet Explorer</em></p>
+<p><strong>Step 4</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-45.png" /> for the chosen add-on.</p>
+<p><strong>Step 5</strong>. <strong>Click</strong> <em>Yes</em> at the prompt <em>Do you really want to permanently remove these add-ons</em> to activate the screen below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-46.png" /></p>
+<p><em>Figure 11 : Add-ons has been removed</em></p>
+<h2 id="rescue-disk">4.3 Rescue disk</h2>
+<p><em>Rescue Disk</em> allows you to create the USB or CD which you can use to start your computer with. This USB/CD contains avast! installation. To create the rescue disk your computer needs to be connected to the internet. But after the rescue disk is ready you can use it to scan any computer even if it is not connected to the Internet. This is useful in a situation when a different computer is infected with a virus that prevents normal functioning of the computers system, avast! or other anti-virus program. The Rescue Disk and the Boot-time Scan options are the most complete and thorough scan of a computer system avast! has to offer. The steps below describe how to create a <em>Rescue Disk</em> using a USB flash drive.</p>
+<p><strong>Note</strong> <em>Rescue Disk</em> requires downloading large files from the Internet. It also requires an empty USB flash drive with a minimum of 500MB size or a CD/DVD and CD/DVD writer.</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-35.png" /> from the left hand column of the !avast main screen.</p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-47.png" /> to activate the <em>Rescue Disk</em> option as shown below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-48.png" /></p>
+<p><em>Figure 12 : Rescue Disk screen.</em></p>
+<p><strong>Step 3</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-49.png" /> to activate the screen shown below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-50.png" /></p>
+<p><em>Figure 13 : Create Rescue Disk</em></p>
+<p><strong>Step 4</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-51.png" /> and then <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-53.png" /> to begin creating a <em>Rescue Disk</em> as shown below.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-54.png" /></p>
+<p><em>Figure 14 : Creating a Rescue Disk</em></p>
+<p><em>Note</em>: A Rescue Disk can take up to 30 minutes to create.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-55.png" /></p>
+<p><em>Figure 15 : Rescue Disk successfully created</em></p>
+<p>You have now created Rescue Disk. The <a href="#1464"><strong>Advanced Virus Removal Methods</strong></a> section describes how to use it.</p>
+<p>Also visit the <a href="http://www.avast.com/faq.php?article=AVKB114#articleContent"><strong>avast! FAQ</strong></a> for further information on using avast! <em>Rescue Disk</em></p>
+<h1 id="scan-for-malware-with-avast">5. Scan for malware with avast!</h1>
+<p>There are two basic parts to dealing with malware and other assorted viruses when using <strong>avast!</strong>. The first is scanning your computer to identify such threats. The second involves either deleting or moving such threats to the <strong>avast!</strong> <em>Virus Chest</em>. Deleting and/or moving malware and viruses to the <em>Virus Chest</em> effectively prevents them from interacting with other programs or files on the computer.</p>
+<p>It may seem unusual to store malware or viruses in the <em>Virus Chest</em>. However, if they have attached themselves to important or sensitive information, you may want to recover or save that infected document, file or program as far as possible. Also in rare instances, <strong>avast!</strong> may misidentify legitimate files or programs as being malware or a virus, events referred to as 'false positives', those files or programs might be important to you or your computer operation, and you may want to examine them carefully, cure and recover.</p>
+<p>The <strong>avast!</strong> <em>Virus Chest</em> is an electronic 'dead zone' or 'quarantine', where you can examine the virus and determine its potential threat by either researching it on the Internet, or submitting it to a virus laboratory - an option available in <strong>avast!</strong> when you right-click a virus listed in the <em>Virus Chest</em>. Double clicking a virus in the <em>Virus Chest</em> will <em>not</em> activate or run the malware or virus because the <em>Virus Chest</em> keeps it isolated from the rest of your system.</p>
+<p><strong>Tip</strong>: Alternatively, you can transfer important or sensitive information to the <strong>avast!</strong> <em>Virus Chest</em> to keep it safe during a virus attack.</p>
+<h2 id="a-short-guide-to-dealing-with-virus-outbreaks">5.1 A short guide to dealing with virus outbreaks</h2>
+<p>There are a number of precautions you can take to limit hostile or malicious threats to your computer system; for instance using updated anti-virus or anti-spyware programs like <strong>avast!</strong> and <strong>Spybot</strong>, avoiding dubious or problematic web sites or documents sent to you, or exercising extreme cation when inserting removable media to your computer. Please read more about those steps under <a href="../malware#384">Preventing virus infection</a> in the <a href="../malware">Protect your device from malware and hackers</a> guide. However, despite the precautions we sometimes find our computer infected by a virus. The following points are offered for consideration when dealing with a virus attack:</p>
+<ul>
+<li><p>Disconnect your computer from the Internet or the local network - physically. If you have a wireless connection, disconnect your computer from the wireless network itself. If possible, switch off and/or remove your wireless card. You should disconnect from the Internet all computers that are sharing a local network with your computer.</p></li>
+<li><p>Schedule a boot-time scan for all computers on the local network. Write down the names of any viruses that you find, so that you can research them - and then delete them, or move them to the <strong>avast!</strong> <em>Virus Chest</em>. To learn how to perform a boot-time scan, please refer to the <a href="#1461"><strong>Perform a Boot-time Scan</strong></a> section.</p></li>
+<li><p>Even if a virus has been either deleted or repaired, repeat the previous step, and run boot-time scans on <em>all</em> computers, until <strong>avast!</strong> no longer displays any warning messages. Depending on the severity of the malware or virus attack, you may not have to perform a boot-time scan more than once.</p></li>
+</ul>
+<p>For more information about dealing with malware or virus outbreaks, please refer to the <a href="#1464"><strong>Advanced Virus Removal Methods</strong></a> section.</p>
+<h2 id="the-main-user-interface-of-avast">5.2 The main user interface of avast!</h2>
+<p>The <strong>avast!</strong> main user interface displays numerous tabs on the left side of the window including: <em>Overview</em>, <em>Scan</em>, <em>Tools</em>, and <em>Settings</em>. All the <em>Scan</em>, <em>Tools</em> and <em>Settings</em> tabs contain a menu of items discussed below.</p>
+<p>To launch the main user interface <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-22.png" /> from the system tray (usually bottom-right corner of your computer screen):</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-56.png" /></p>
+<p><em>Figure 1: The Main User Interface</em></p>
+<p>The following list briefly describes the functions of the main tabs and sub menus:</p>
+<p><strong>Overview</strong>: The main user interface page displays the working status of <strong>avast!</strong>.</p>
+<p><strong>Scan</strong>: This tab can be used to launch different scanning options including:</p>
+<ul>
+<li><em>Smart scan</em> can perform scans below one-by-one;</li>
+<li><em>Scan for viruses</em> like: <em>Quick Scan</em>, <em>Full System Scan</em>, <em>Removable Media Scan</em>, <em>Select Folder to Scan</em> and <em>Boot-time Scan</em> - discussed in details below;</li>
+<li><em>Scan for outdated software</em>;</li>
+<li><em>Scan for network threats</em> can check the security configuration of your home router and advise of settings that may need to be updated;</li>
+<li><em>Scan for performance issues</em> - is only fully available in paid version of avast!.</li>
+</ul>
+<p><strong>Tools</strong>: This tab features a sub menu of tools including <em>Software Update</em>, <em>Browser Cleanup</em> and <em>Rescue Disk</em> described in <a href="#1451"><strong>Additional features of avast!</strong></a>.</p>
+<p><strong>Settings</strong>: This tab features a menu including <em>General</em>, <em>Active Protection</em>, <em>Antivirus</em> and <em>Update</em> as described below:</p>
+<ul>
+<li><p><strong>General</strong> includes a section on 'Maintenance' were you can configure the <em>Logs</em> and <em>Virus Chest</em> size and history.</p></li>
+<li><p><strong>Active Protection</strong> menu allows you configure settings for <em>File System</em>, <em>Mail</em> and <em>Web</em> scanning. <strong>Note</strong> it is recommended that you do not change the default settings unless you understand the impact of enabling/disable specific settings.</p></li>
+<li><p><strong>Antivirus</strong> menu allows you to configure global settings for scanning including <em>Exclusions</em> and <em>Alerts</em>.</p></li>
+<li><p><strong>Update</strong> menu displays the current <em>Program</em> and <em>Virus Definitions</em> installed and allow manual update of both as described in <a href="#1450"><strong>Manually update avast! using the main screen!</strong></a>.</p></li>
+</ul>
+<h2 id="various-scanning-options">5.3 Various scanning options</h2>
+<p>In this section, you will learn about the available scan options, and how to use them. You will also learn how to perform a full system scan and a folder scan, as well as a boot-time scan.</p>
+<p>The <em>Scan</em> pane displays the five scan options available in <strong>avast!</strong>; to view them:</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-57.png" /></p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-95.png" /> to activate the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-96.png" /></p>
+<p><em>Figure 2: The Scan tab displaying the default Quick Scan option</em></p>
+<p>The following brief descriptions will help you to choose the appropriate scan option:</p>
+<p><strong>Quick scan</strong>: This option is recommended for users with a limited amount of time in which to scan for a potential or suspected threat.</p>
+<p><strong>Full system scan</strong>: This option is recommended when users have sufficient time to schedule a thorough scan of your system. It is also recommended if this is the first time you are using an anti-virus software on your computer. The duration of this scan depends on the number of documents, files, folders and hard drives on your computer, and the computer speed. Please refer to the <a href="#1459"><strong>Perform a full system scan</strong></a> section.</p>
+<p><strong>Removable media scan</strong>: This option is recommended for scanning external hard drives, USB flash drives, and other media, particularly those which are not your own. It will scan any removable device for malicious programs that automatically run whenever the device is connected.</p>
+<p><strong>Select folder to scan</strong>: This option is recommended for scanning either a specific folder or multiple folders, especially if you know or suspect, that a particular file or folder might be infected. Please refer to the <a href="#1460"><strong>Perform a folder scan</strong></a> section.</p>
+<p><strong>Boot-time scan</strong>: The boot-time scan lets you perform a full scan of your hard drive before the <strong>Microsoft Windows</strong> operating system fully starts running. This option is recommended for a complete and thorough scan of your computer system and may require some time. Please refer to section <a href="#1461"><strong>Perform a boot-time scan</strong></a> section.</p>
+<p><strong>Tip</strong>: <strong>Clicking</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-59.png" /> lets you see and refine the details of the given scan, for instance, the areas being scanned.</p>
+<h2 id="perform-a-full-system-scan">5.4 Perform a full system scan</h2>
+<p><strong>Step 1</strong>. <strong>Select</strong> <em>Full System scan</em> option from the menu (see figure 2 above).</p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-60.png" /> to activate the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-61.png" /></p>
+<p><em>Figure 3: The Scan pane displaying Full system scan/scan running...</em></p>
+<p>After the full system scan has been completed, and if a threat to your computer has been found, the <em>Full system scan</em> pane may resemble the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-62.png" /></p>
+<p><em>Figure 4: The Scan complete item displaying infected files found</em></p>
+<p>If the full system scan has revealed any threats <strong>click</strong> on <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-69.png" /> button to open result page. Please refer to the <a href="#1462"><strong>Dealing with viruses</strong></a> section for further steps.</p>
+<h2 id="perform-a-folder-scan">5.5 Perform a folder scan</h2>
+<p><strong>Step 1</strong>. <strong>Select <em>Select folder to scan</em></strong> option from the menu (see figure 2 above).</p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-60.png" /> to activate the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-63.png" /></p>
+<p><em>Figure 5: The Select the areas dialog box</em></p>
+<p>The <em>Select the areas</em> dialog box lets you specify the folder you would like to scan. You can select more than one folder for scanning purposes. As you check the boxes besides each folder, the folder path is displayed in the <em>Selected paths:</em> text field.</p>
+<p><strong>Step 3</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-64.png" /> to begin scanning your folders, and activate the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-65.png" /></p>
+<p><em>Figure 6: The Folder scan in progress.</em></p>
+<p><strong>Tip</strong>: <strong>avast!</strong> lets you scan individual folders though a pop-up menu that appears whenever you right-click on a folder. Simply <strong>Select</strong> <em><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-66.png" /> Scan...</em> which appears besides the name of the folder you would like to scan for viruses.</p>
+<p>If the folder scan has revealed any threats <strong>click</strong> on <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-69.png" /> button to open result page. please refer to the <a href="#1462"><strong>Dealing with Viruses</strong></a> section for further steps.</p>
+<h2 id="perform-a-boot-time-scan">5.6 Perform a boot-time scan</h2>
+<p>The <strong>avast!</strong> boot-time scan lets you perform a full scan of your hard drive before the <strong>Microsoft Windows</strong> operating system fully starts running. At the moment the boot-time scan is performed, all (or majority) of malware programs and viruses are still dormant, that is, they have not had the opportunity to activate themselves, or interact with other system processes yet. As such, they may be easier exposed and removed. The boot-time scan also directly accesses the disk, bypassing the drivers for the <strong>Windows</strong> file system, which may be infected. This further helps find more viruses and 'rootkits' - the name for a particularly malignant form of malware.</p>
+<p>It is <strong>strongly recommended</strong> that you run a boot-time scan even if there is only a remote suspicion that your computer system may be compromised or infected. The <strong>boot-time</strong> and <strong>rescue disk</strong> scans (described in the <a href="#1454">Rescue Disk</a> section) are the most thorough scans that avast! has to offer. The boot-time scan may require some time, depending on your computer speed and the amount of data and number of hard drives you may have.</p>
+<p>To scan your system at boot time, perform the following steps:</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-57.png" /> to activate the <em>Scan</em> pane.</p>
+<p><strong>Step 2</strong>. <strong>Select</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-67.png" /> option from the drop down menu.</p>
+<p><strong>Step 3</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-60.png" /> to schedule a boot-time scan the next time you start your computer.</p>
+<p><strong>Step 3</strong>. <strong>Restart your computer</strong> to start scanning.</p>
+<p><strong>Note</strong>: A boot-time scan starts before the operating system and interface are fully loaded; as such the progress of the scanning is displayed in the text on your screen as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-68.png" /></p>
+<p><em>Figure 7: The avast! Boot-time scheduled scan</em></p>
+<p><strong>avast!</strong> will prompt you for a response if viruses are detected. You select possible actions by pressing keys with appropriate numbers on your keyboard. We recommend that you <strong>select key 2</strong> <em>Fix all automatically</em> to let avast! deal with all the viruses automatically.</p>
+<p>Note that moving infected file to the virus chest or removing it may result in some information or functionality of your system being inaccessible. In extreme situation, when a virus infected files vital for the functioning of the operating system, moving to chest or removing this file may result in your computer not being able to successfully start operating system again.</p>
+<h2 id="dealing-with-viruses">5.7 Dealing with viruses</h2>
+<p>The previous sections demonstrated how to scan for viruses using avast!. If it finds a virus, avast! will let you know as shown in <em>figure 8</em>. To begin dealing with any malware or viruses detected during a scan, perform the following steps:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-100.png" /></p>
+<p><em>Figure 8: The Scan completed - threat detected</em></p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-69.png" /> to activate the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-70.png" /></p>
+<p><em>Figure 9: The SCAN RESULTS window displaying THREAT DETECTED! warning</em></p>
+<p><strong>Step 2</strong>. To display the drop-down list of possible actions to be applied, <strong>click</strong> the arrow beneath <em>Actions</em> as shown below.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-72.png" /></p>
+<p><em>Figure 10: Actions - Move to chest</em></p>
+<p><strong>Note</strong>: In this exercise, we are concerned with moving infected files to the <em>Quarantine(Virus Chest)</em>. However, the drop-down list displays three other options and they are described below:</p>
+<p><strong>Repair</strong>: This action will attempt to repair the infected file.</p>
+<p><strong>Delete</strong>: This action will delete - permanently - the infected file.</p>
+<p><strong>Do nothing</strong>: This action means exactly what it says, and is <em>definitely not recommended</em> for treating potentially harmful malware or virus threats.</p>
+<p><strong>Step 3</strong>. <strong>Select</strong> the <em>Move to Chest</em> item, and then <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-71.png" />.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-73.png" /></p>
+<p><em>Figure 11: The detected threat has been moved to the Quarantine (Virus Chest)</em></p>
+<p><strong>avast!</strong> is also constantly monitoring the computer for viruses and malware in the background as you continue to work.<br />
+When <em>avast!</em> detects malware or a suspicious file, it will alert you with a message similar to the screen shot below.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-81.png" /></p>
+<p><em>Figure 12: The Virus found</em></p>
+<p>The default action will move the file to the <em>Quarantine (Virus Chest)</em>. The next section describes how to deal with any malware or viruses detected during a scan that have been moved to the <em>Quarantine Virus Chest</em>.</p>
+<h2 id="using-the-virus-chest">5.8 Using the Virus Chest</h2>
+<p>During the <strong>avast!</strong> installation process, the <strong>avast!</strong> <em>Virus Chest</em> was created on your hard drive. The <em>Virus Chest</em> is a special folder isolated from the rest of your computer system, and used to store malware and viruses detected during the scan, as well as infected or threatened documents, files or folders.</p>
+<p>You can access content of the <em>Virus Chest</em> and decide how to deal with the files collected there:</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-57.png" /> and <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-74.png" /> to activate the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-75.png" /></p>
+<p><em>Figure 13: The Virus Chest displaying one virus</em></p>
+<p><strong>Step 2</strong>: <strong>Right click</strong> on each item to display the menu of actions that can be applied to a selected file as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-76.png" /></p>
+<p><em>Figure 14: The pop-up menu of actions for viruses in the Virus Chest</em></p>
+<p><strong>Note</strong>: Double clicking an item in the <em>Virus Chest</em> will not activate, open or run it. It will only display the file properties, basically the same information you would obtain by selecting <em>Properties</em> from the pop-up menu.</p>
+<p>The following list describes the actions used to deal with viruses in the pop-up menu as follows:</p>
+<p><strong>Delete</strong>: The file will be deleted from the <em>Virus Chest</em> irreversibly.</p>
+<p><strong>Restore</strong>: The file will be restored to its original location.</p>
+<p><strong>Extract</strong>: The file will copied to a folder you will specify.</p>
+<p><strong>Scan</strong>: The file will be scanned.</p>
+<p><strong>Submit to virus lab...</strong>: Selecting this option will activate a virus submission form for you to fill out and submit the file for further analysis to avast! company lab. Do not submit files that may contain sensitive information!</p>
+<p><strong>Properties</strong>: This option will reveal more details about the file.</p>
+<p><strong>Add...</strong>: This option lets you browse your system for other files you would like to add to the <em>Virus Chest</em>. This is potentially very useful if you have files you would like to protect during a virus outbreak.</p>
+<p><strong>Refresh all files</strong>: This option will update the list of the files in the <em>Virus Chest</em>, so that you will be able to view the latest files.</p>
+<h2 id="advanced-virus-removal-methods">5.9 Advanced virus removal methods</h2>
+<p>Sometimes the protection offered by <strong>avast!</strong>, <strong>Comodo Firewall</strong> and <strong>Spybot</strong> is simply not sufficient; despite best efforts, our computer system may become infected by malware and other viruses. In the <a href="#1456"><strong>Short guide to dealing with virus outbreaks</strong></a>, a few methods were offered for dealing with persistent malware and viruses. However, there <em>is</em> more that can be done to eliminate such threats from your computer.</p>
+<p><strong>Method A: Using Anti-malware Rescue CDs/DVDs or USB</strong></p>
+<p>Some anti-malware software companies offer a free anti-virus 'rescue' CD/DVD. These can be downloaded in ISO image format (that is, a format that can be easily burned onto a CD or DVD or put on USB memory).</p>
+<p>To begin using these anti-malware rescue CDs/DVDs/USB, perform the following tasks:</p>
+<ol>
+<li><p>Download specific rescue ISO (see the list below) and burn the anti-malware rescue program to a CD/DVD or put it on USB. <br><br />
+<em>You can use free program like <a href="http://www.imgburn.com/"><strong>ImgBurn</strong></a> to burn the image to the disk. Or you can use free program like <a href="http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/"><strong>Universal USB Installer</strong></a> to put the image on the USB</em><br><br />
+<strong>Note:</strong> It is best to perform this step on some other, not infected computer if you can.</p></li>
+<li><p>Insert the disk to CD/DVD player or connect USB to infected computers, and then restart your computer from this USB or CD/DVD. <br><br />
+<em>Often you can do this by pressing key F10 or F12 or Esc on your keyboard just after switching on the computer. Pay special attention to the instruction on the screen of your computer while it starts to learn how to do this on your computer. Search in the internet for the instructions on how to start (boot) your computer from USB or CD/DVD. Instructions may differ for each computer.</em></p></li>
+<li><p>Once the infected computer starts from the USB/CD/DVD re-connect it to the Internet so that the anti-malware rescue program will be able to update its virus definitions if necessary. <br><br />
+<em>It may be better to connect to the Internet using cable connection if available</em>.</p></li>
+<li><p>Begin scanning your computer hard drives to remove infections and malware threats.</p></li>
+</ol>
+<p>The following is a list of anti-virus rescue images available for free:</p>
+<ul>
+<li><a href="https://www.avira.com/en/download/product/avira-rescue-system"><strong>Avira AntiVir Rescue CD</strong></a></li>
+<li><a href="http://www.avg.com/us-en/avg-rescue-cd"><strong>AVG Rescue CD</strong></a></li>
+<li><a href="http://www.bitdefender.com/support/How-to-create-a-BitDefender-Rescue-CD-627.html"><strong>BitDefender Rescue CD</strong></a></li>
+<li><a href="http://www.f-secure.com/en/web/labs_global/rescue-cd"><strong>F-Secure Rescue CD</strong></a></li>
+<li><a href="http://support.kaspersky.com/viruses/rescuedisk/"><strong>Kaspersky Rescue CD</strong></a></li>
+<li><a href="http://www.freedrweb.com/livecd/"><strong>Dr.Web Live Rescue CD</strong></a></li>
+</ul>
+<p>You may also find following resources with additional tools and methods very interesting and helpful:</p>
+<ul>
+<li><a href="http://malwaretips.com/blogs/malware-removal-guide-for-windows/"><strong>How to easily clean an infected computer (Malware Removal Guide)</strong></a></li>
+<li><a href="http://www.selectrealsecurity.com/malware-removal-guide"><strong>Malware Removal Guide for Windows</strong></a></li>
+</ul>
+<p><strong>Note:</strong> You can use each tool listed above separately to maximise your ability to effectively clean your computer.</p>
+<p><strong>Method B: Re-Installing the Microsoft Windows Operating System</strong></p>
+<p>In rare instances, a virus infection can be <em>so</em> destructive that the software tools recommended earlier may be rendered useless. In situations like this, we recommend that you perform the following tasks:</p>
+<p><em><strong>Note</strong>: Before you begin, make sure you have all the appropriate license or serial numbers, and installation copies for the <strong>MS Windows</strong> operating system and other programs you require. This procedure may be time consuming but worth the effort if you can't eliminate malware and virus threats the other way.</em></p>
+<ol>
+<li><p>Create a backup copy of all your personal files on the computer.</p></li>
+<li><p>Reinstall the <strong>Microsoft Windows</strong> operating system formatting the entire disk.</p></li>
+<li><p>Update the <strong>Microsoft Windows</strong> operating system after the installation has been completed.</p></li>
+<li><p>Install <strong>avast!</strong> (or your preferred anti-virus program) and update it.</p></li>
+<li><p>Install whatever programs you require. Remember to download the latest versions and all the updates for each program. <br><br><strong>Note</strong>: Under no circumstances should you connect your backup disk to your computer <em>before</em> you have successfully performed these tasks. You might risk infecting your computer again.</p></li>
+<li><p>Connect your backup disk to your computer and scan it thoroughly to detect and eliminate any existing problems.</p></li>
+<li><p>After you have detected and deleted any problems, you may copy your files from the backup disk to the computer hard drive.</p></li>
+</ol>
+<h2 id="perform-a-smart-scan">5.10 Perform a Smart Scan</h2>
+<p><em>Smart Scan</em> can perform several scans discussed in this chapter all at once. This is a convenient way to run a 'health check' for malware detection, software updater and network security. In the example below, Smart Scan detects some out of date software that requires updating.</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-57.png" /> and <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-36.png" /> to activate the screen shown below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-84.png" /></p>
+<p><em>Figure 19 : Smart Scan</em></p>
+<p>When <em>Smart Scan</em> has completed, the status of each scan will be displayed as shown in the screen below.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-85.png" /></p>
+<p><em>Figure 20 : Smart Scan - Issues found</em></p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-86.png" /> to begin reviewing any issues detected. <em>Note GrimeFighter is not available in the free version of avast!</em></p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-39.png" /></p>
+<p><em>Figure 21 : Software Updater screen</em></p>
+<p><strong>Step 3</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/avast-en-win-40.png" /> to begin updating each application that needs this.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/avast-en-win-38.png" /></p>
+<p><em>Figure 22: Software updated</em></p>
+<p><strong>Step 4</strong>. Follow steps 1 to 3 above to reassess the health of your computer.</p>
+<h1 id="faq">FAQ</h1>
+<p><strong>Q</strong>: <em>If I have to use a computer in an Internet café that doesn't have a virus cleaner installed on it, how can I be sure that my documents will not be infected?</em></p>
+<p><strong>A</strong>: <em>Using public computers is always risky, as you have no way of knowing what kinds of malicious software may be lurking on them. Avoid using public computers for private or sensitive work unless you have absolutely no other alternative.</em></p>
+<p><strong>Q</strong>: <em>I have several computers on a network - but a slow Internet connection. How can I download the virus definition updates and share them with all of my computers?</em></p>
+<p><strong>A</strong>: <em>You can <a href="http://www.avast.com/download-update"><strong>download the latest virus definition updates</strong></a> (VPS - Virus Protection Software) from avast! website. Make sure you download updates for your program version. After downloading the update file, use it on each computer needing updates.</em></p>
+<p><strong>Q</strong>: <em>What happens to the files in the Virus Chest if I uninstall <strong>avast!?</strong></em></p>
+<p><strong>A</strong>: <em>All files in the Virus Chest will be deleted if you uninstall the program</em>.</p>
+
+    </div>
+
+    </div>
+
+  </body>
+</html>

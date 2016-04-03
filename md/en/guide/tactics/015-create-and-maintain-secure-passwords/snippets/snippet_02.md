@@ -1,3 +1,0 @@
-***Mansour:*** What if I trust someone? It's OK for me to tell you my password, right?
-
-***Magda:*** Well, first of all, just because you trust somebody with your password doesn't necessarily mean you trust them to take good care of it, right? Even though I wouldn't do anything bad with your password, I might write it down and lose it or something. That could even be how I got into this mess! And besides, it's not all about trust. If you're the only one who knows your password, then you don't have to waste your time worrying about who to blame if the account gets broken into. Right now, for example, I feel pretty confident that somebody actually guessed or 'cracked' my password, because I never wrote it down or shared it with anyone.

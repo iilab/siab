@@ -1,3 +1,0 @@
-***Shingai:*** We want to put a brief summary of our security policy into this grant application, but we also need to make sure the policy itself is thorough. What should we include in it?
-
-***Otto:*** I'm afraid I can't recommend a one-size-fits-all solution to the challenge of physical security. The specifics of a good policy almost always depend on a particular organisation's individual circumstances. Here's a piece of general advice, though: when you're trying to come up with a plan, you need to observe your work environment very carefully and think creatively about where your weak points might be and what you can do to strengthen them.

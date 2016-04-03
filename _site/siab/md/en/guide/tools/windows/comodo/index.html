@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+       &middot; Security in a Box
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/siab/public/css/poole.css">
+  <link rel="stylesheet" href="/siab/public/css/syntax.css">
+  <link rel="stylesheet" href="/siab/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <!--
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/siab/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/siab/public/favicon.ico"> -->
+  <link rel="icon" type="image/svg+xml" href="images/icon.svg">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/siab/atom.xml">
+</head>
+
+  <body>
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/siab">
+          Security in a Box
+        </a>
+      </h1>
+      <p class="lead">Content as Code work on SIAB.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/siab/">Home</a>
+
+
+
+                                                                                                                                              <a class="sidebar-nav-item" href="/siab/section.md">A Section</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                        
+      <a class="sidebar-nav-item" href="https://github.com/contentascode/docsmith-init">GitHub project</a>
+
+    </nav>
+
+    <p>&copy; 1969. All rights reserved.</p>
+  </div>
+</div>
+
+    <div class="content container">
+
+    <div>
+      <small>
+        <div style="float:left"><a href="/siab/">Home</a>
+        </div>
+
+        <div style="float:right"><em><a href="https://github.com/contentascode/docsmith-init/edit/master/">Edit this page</a> - <a href="https://github.com/contentascode/docsmith-init/commits/master/">View page history</a> - <a href="https://github.com/contentascode/docsmith-init/tree/master/">View page source</a></em>
+        </div>
+      </small>
+    </div>
+
+    <div class="page" style="clear:both">
+      <h1 class="page-title"></h1>
+      <p><strong>COMODO Firewall</strong> is a full featured and renowned firewall, free for personal use. It helps to protect your computer from unauthorised connections to and from the Internet. This chapter is designed to address the needs of both the <strong>Beginner</strong> and <strong>Advanced</strong> user.</p>
+<h1 id="required-reading">Required reading</h1>
+<p><a href="../../../tactics/malware">Protect your device from malware and hackers</a></p>
+<p><img src="https://securityinabox.org/sites/securityinabox.org/files/media/tool/logo/comodo-logo-hr.png" /><br />
+<a href="https://personalfirewall.comodo.com/">Project website</a><br />
+<a href="https://download.comodo.com/cis/download/installs/2000/partners/cfw_installer_5732_83.exe">Download link</a><br />
+Version used in this guide: 5.7.32<br />
+License: Free Proprietary Software<br />
+System requirements:</p>
+<ul>
+<li>Microsoft Windows</li>
+<li>Administrator rights required for installation</li>
+</ul>
+<h1 id="what-you-will-get-from-this-guide">What you will get from this guide</h1>
+<ul>
+<li>The ability to effectively and efficiently protect your computer and network security from hostile parties, Internet hackers, malware, viruses and other software or system threats.</li>
+<li>The ability to manage all requests made by programs residing on your computer when accessing the Internet, through an easily configurable software interface.</li>
+</ul>
+<h1 id="introduction-to-comodo">1. Introduction to Comodo</h1>
+<h2 id="other-tools-like-comodo">1.0 Other tools like Comodo</h2>
+<p><strong>GNU Linux, Mac OS and other Microsoft Windows Compatible Programs:</strong></p>
+<p><strong>GNU/Linux</strong> comes with a built-in firewall (<a href="http://www.netfilter.org/"><strong>netfilter/iptables</strong></a>) and very good network security setup. There are various user-friendly interfaces to the built-in firewall, we particularly recommend <a href="https://help.ubuntu.com/community/Gufw"><strong>GUFW</strong></a> (<strong>Graphical Uncomplicated Firewall</strong>) (see <a href="http://blog.bodhizazen.net/linux/firewall-ubuntu-gufw/"><strong>more information</strong></a>).</p>
+<p><strong>Mac OS</strong> has a reliable and strong internal firewall, that can be complemented by various additional interface add-ons which improve its existing capabilities, among them: <a href="http://www.hanynet.com/noobproof/"><strong>NoobProof</strong></a> or <a href="http://www.lobotomo.com/products/IPSecuritas/"><strong>IPSecuritas</strong></a>. For users with a budget, we recommend <a href="http://www.obdev.at/products/littlesnitch/index.html"><strong>Little Snitch</strong></a>, to extend your Internet privacy and security and personal information protection to the next level.</p>
+<p>Apart from <strong>COMODO Firewall</strong>, there are many excellent alternatives for <strong>Microsoft Windows</strong>. Users may find either <a href="http://www.zonealarm.com/security/en-us/zonealarm-pc-security-free-firewall.htm"><strong>ZoneAlarm Free Firewall</strong></a> or <a href="http://free.agnitum.com/"><strong>Outpost Firewall Free</strong></a> equally effective substitutes.</p>
+<h2 id="things-you-should-know-about-comodo-before-you-start">1.1 Things you should know about Comodo before you start</h2>
+<p>A firewall acts like a doorman or guard for your computer. It has a set of rules about what information should be let in and what information should be let out of your computer. A firewall is the first program that receives and analyses incoming information from the Internet and the last program that scans outgoing information to the Internet.</p>
+<p>It prevents hackers or other intruders from accessing personal information stored on your computer, and prevents malware programs from sending information to the Internet without your authorisation. <strong>COMODO Firewall</strong> is a well-known and respected firewall software. It is free software, which means you can use it without purchasing a license.</p>
+<p>Running a custom firewall program may initially require considerable time and effort to ensure that all the settings are correct and suited to the way you use your computer. After an initial learning period, the firewall will work seamlessly, requiring minimal intervention on your part.</p>
+<p><strong>Warning</strong>!: Never access the Internet without a firewall installed and running on your computer! Even if your Internet modem or router has its own firewall, it is strongly recommended that you have one installed on your computer as well.</p>
+<h1 id="overview-of-the-comodo-firewall-installation">2. Overview of the COMODO Firewall Installation</h1>
+<p>Installing <strong>COMODO Firewall</strong> is divided into two stages: the first involves manually disabling the <strong>Windows Firewall</strong>, and the second is the actual <strong>COMODO Firewall</strong> software installation.</p>
+<p>Ideally, you should only use one firewall program for your computer system at any given time. If you are currently using another firewall on your computer, it must be uninstalled before you install <strong>COMODO Firewall</strong>, so as to eliminate potential software conflicts between similar types of programs.</p>
+<h2 id="disable-the-windows-firewall">2.1 Disable the Windows Firewall</h2>
+<p>To disable the <strong>Windows Firewall</strong> program, perform the following steps:</p>
+<p><strong>Step 1</strong>: <strong>Select Start &gt; Control Panel &gt; Windows Firewall</strong> to activate the <strong>Windows Firewall</strong> screen.</p>
+<p><strong>Step 2</strong>. <strong>Check</strong> the <em>Off (not recommended)</em> option to disable the <strong>Windows Firewall</strong> as shown in <em>Figure 1</em> below:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-01.png" /></p>
+<p><em>Figure 1. The Windows Firewall with the Off option enabled</em></p>
+<p><strong>Step 3</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-02.png" /> to complete disabling the <em>Windows Firewall</em>.</p>
+<p><a name="2.2"></a></p>
+<h2 id="install-comodo-firewall">2.2 Install Comodo Firewall</h2>
+<p><strong>Note</strong>: <strong>COMODO Firewall</strong> does not automatically uninstall older or previously existing versions of its software. It must be manually uninstalled it before you begin installing the latest version.</p>
+<p>To begin installing <strong>COMODO Firewall</strong>, perform the following steps:</p>
+<p><strong>Step 1</strong>. <strong>Double click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-03.png" /> to begin the installation process. The <em>Open File - Security Warning</em> dialog box may appear. If it does, <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-04.png" /> to activate the following confirmation dialog box:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-05.png" /></p>
+<p><em>Figure 2: The Select the language confirmation dialog box</em></p>
+<p><strong>Step 2</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-06.png" /> to activate the <em>End User License Agreement</em>. Please read the <em>End User License Agreement</em> before proceeding with the rest of the installation process, and then <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-07.png" /> to activate the <em>Free Registration</em> screen.</p>
+<p><strong>Step 3</strong>: Do <strong>not</strong> enter your email address into the <em>Enter your email address (optional)</em> text field; simply <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-09.png" /> to activate the <em>Extracting the Packages</em> screen.</p>
+<p>After the extraction process has been completed, the <em>Firewall Setup Destination Folder</em> appears.</p>
+<p><strong>Step 4</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-09.png" /> to accept the default path and activate the <em>Firewall security level selection</em> screen, and then check the <em>Firewall Only</em> option as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-11.png" /></p>
+<p><em>Figure 3: The Firewall Security level selection screen</em></p>
+<p><strong><em>Definition of Firewall Security Level Options</em></strong></p>
+<p>Each firewall security level option caters to users of different levels. Each option balances different kinds of protection with complexity of usage, as well as the number of security alerts you may receive. A brief description of each security level is provided as follows:</p>
+<ul>
+<li><p><strong>Firewall Only</strong> mode: This option lets you run <strong>COMODO Firewall</strong> without the <em>Defense +</em> feature enabled. It readily identifies popular applications which are relatively safe (like web browsers and email clients), reducing the number of security alerts you may receive. It offers general explanations of why a particular alert screen has appeared. In addition, the actions to be undertaken are relatively simple.</p></li>
+<li><p><strong>Firewall with Optimum Proactive Defense</strong> mode: This option combines the solid protection of the <em>Firewall Only</em> mode with the <em>Defense+</em> feature enabled. <em>Defense+</em> offers active protection against malware designed to circumvent different firewalls. The <em>COMODO Firewall Alerts</em> offer more in-depth explanations of why a certain application or request is being blocked, and you have the option of partially isolating or 'sandboxing' a suspicious file or program.</p></li>
+<li><p><strong>Firewall with Maximum Proactive Defense</strong> mode: This option combines the security of the <em>Firewall with Optimum Proactive Defense</em> option with 'anti-leak' protection against more 'passive' security threats, for instance details about open ports on your computer being sent over the Internet. The sandbox feature is fully automated.</p></li>
+</ul>
+<p><strong>Step 6</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-09.png" /> to activate the <em>COMODO Secure DNS Configuration</em> screen, with the <em>I would like to use COMODO Secure DNS Servers</em> option enabled as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-12.png" /></p>
+<p><em>Figure 4: The COMODO Secure DNS Configuration screen</em></p>
+<p><strong>Important</strong>: Although no <strong>Domain Name System</strong> (<strong>DNS</strong>) server is ever completely secure, the advantages of using the <strong>COMODO Secure DNS Servers</strong> outweigh the disadvantages. It offers additional protection from <em>pharming</em> and <em>phishing</em>, which are two popular methods used by malicious forces to 'hijack' or redirect your computer to a dangerous or hostile site. <strong>COMODO Secure DNS Servers</strong> may also protect you from government interference, while being easy to set up during the installation process, and by facilitating safer access to web sites which are registered with <strong>COMODO</strong>. For instance, accidentally typing in the wrong URL will activate a message from the <strong>COMODO Secure DNS Servers</strong> resembling the following:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-126.png" /></p>
+<p><em>Figure 5: A typical example of a COMODO Secure DNS Server notification</em></p>
+<p><strong>Step 7</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-09.png" /> to activate the <em>Ready to Install COMODO Firewall</em> screen, and then <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-13.png" /> to begin the installation process, and activate the <em>Installing COMODO Firewall</em> screen. After the installation process has been completed, it will activate the <em>Completed the COMODO Firewall Setup Wizard</em> screen.</p>
+<p><strong>Step 8</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-14.png" /> to activate the <em>Done</em> confirmation screen, and then <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-14.png" /> to activate the following confirmation dialog box:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-15.png" /></p>
+<p><em>Figure 6: The Firewall Installer confirmation dialog box</em></p>
+<p><strong>Step 9</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-16.png" /> to restart your computer, and complete the <strong>COMODO Firewall</strong> installation procedure.</p>
+<p>After your computer restarts itself, the The <em>New Private Network Detected!</em> screen appears as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-17.png" /></p>
+<p><em>Figure 7: The COMODO Firewall New Private Network Detected! screen</em></p>
+<p><strong>Tip</strong>: If you are working in a LAN environment, simply check the <em>I would like to be fully accessible to other PCs in this network</em> option to enable file/folder/printer and/or Internet connection sharing.</p>
+<p><strong>Step 10</strong>. Either <strong>type</strong> in a name in the <em>Give a name to this network for your network</em> text field or simply accept the default name offered as shown in <em>Figure 7</em> above. Leave the options listed under <em>Step 2 - Decide if you want to trust the other PCs in this network</em> unchecked, and then <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-06.png" /> to complete the installation.</p>
+<p>The <strong>COMODO Firewall</strong> desktop icon and the <strong>COMODO Firewall</strong> connectivity icon simultaneously appear with <em>figure 7</em>. Before you connect to the Internet, the connectivity icon appears in the <em>System Tray</em> as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-18.png" /></p>
+<p><em>Figure 8: The COMODO Firewall connectivity icon outlined in black in the System Tray</em></p>
+<p>Going online or launching on-line related programs (for instance, web browsers) will trigger a series of light orange downwards-pointing arrowheads and/or light green upwards-pointing arrowheads, indicating incoming and outgoing Internet connection requests, and are depicted as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-19.png" /></p>
+<p><em>Figure 9: The COMODO Firewall connectivity icon in action</em></p>
+<p>After <strong>COMODO Firewall</strong> has been running for a few moments, the <em>COMODO Message Center</em> pop-up message appears as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-20.png" /></p>
+<p><em>Figure 10: The COMODO Message Center pop-up screen</em></p>
+<p><strong>Note</strong>: <strong>Click</strong> the <em>Learn more</em> hyperlink to be directed to the <strong>COMODO</strong> forums community-based help.</p>
+<p><strong>Tip</strong>: <strong>Right-click</strong> the <strong>COMODO Firewall</strong> connectivity icon in the <em>System Tray</em> (as displayed in <em>figure 8</em>) to activate the following pop-up menu, and its associated sub-menus as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-127.png" /></p>
+<p><em>Figure 11: The connectivity icon Configuration menu and sub-menu</em></p>
+<p>The connectivity icon menu lets you change the <strong>COMODO Firewall</strong> products you are using. <strong>Selecting</strong> the <em>Configuration</em> item activates the <em>Manage My Configurations</em> sub-menu where you can <strong>select</strong> either <em>COMODO - Proactive Security</em> or <em>COMODO - Internet Security</em> to enable the sandboxing feature.</p>
+<p>In addition, each product may have its security level adjusted from within the connectivity icon pop-up menu as follows; these security levels are discussed in greater detail in sections <strong>4.1 The Firewall Behavior Settings window</strong> and <strong>4.2 The Defense+ Settings window</strong>.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-128.png" /></p>
+<p><em>Figure 12: The connectivity icon Firewall Security Level sub-menu</em></p>
+<h1 id="how-to-use-comodo-firewall">3. How to Use Comodo Firewall</h1>
+<h2 id="allow-and-block-access-using-comodo-firewall">3.0 Allow and Block Access Using Comodo Firewall</h2>
+<p>A firewall is a program designed to protect your computer from malicious hackers and malware. Both of these may attempt to directly access your computer, or send information from your computer to a third party. <strong>Comodo Firewall</strong> must be configured to 'learn' or record which applications are 'safe' and permit access to them, while blocking requests from unsafe software and rogue processes to your system. It may take a little experience over time to determine which requests are legitimate, and which are threats.</p>
+<p>Every time <strong>Comodo Firewall</strong> receives a connection request, it activates a pop-up <em>Firewall Alert</em> prompting you to either <em>Allow</em> or <em>Block</em> access to your system to and from the Internet. The exercise that follows involving a safe program like <strong>Firefox</strong> will help you to become more familiar with firewall alerts and how to use them. Although exceptions are made sometimes for requests from universally accepted browsers and email programs, each time a connection request is made a <em>Firewall Alert</em> resembling the following appears:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-21.png" /></p>
+<p><em>Figure 1: An example of a COMODO Firewall Alert</em></p>
+<p>A firewall is simply a set of rules for monitoring inbound and outbound traffic. Every time you click <em>Allow</em> or <em>Block</em> <strong>COMODO Firewall</strong> generates a rule for that process or program network connection request. <strong>COMODO Firewall</strong> does this for both new or unrecognised processes and programs, as well as those listed in the <em>Trusted Software Vendors</em> list, in the <em>Defense+ - Tasks &gt; Computer Security Policy</em> window.</p>
+<p><strong>Remember my answer</strong>: This option is used to record whether you allowed or blocked a certain program from accessing <strong>COMODO Firewall</strong>. It will automatically allow or block connection requests from this program the next time it attempts to connect to your computer, based on whatever choice you have specified here.</p>
+<p><strong>Important</strong>: We strongly recommend disabling the <em>Remember my answer option</em> when you first start using <strong>COMODO Firewall</strong>. Decide whether to allow or block different connection requests, and then observe how or if your decision affects your system operation. Enable the <em>Remember my answer</em> option if and <em>only</em> if you are completely sure of your decision.</p>
+<p><strong>Tip</strong>: Being strict about limiting access to you system is the best approach to computer security. Do not hesitate to block any suspicious or unidentifiable requests. If this causes a normal program to stop functioning correctly, you can allow the process to run next time you receive a firewall alert.</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-26.png" /> to activate the <em>Properties</em> window to learn more about the process or program requesting access, in this case, <strong>Firefox</strong>:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-27.png" /></p>
+<p><em>Figure 2: The firefox.exe Properties screen</em></p>
+<p><strong>Step 2</strong>: <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-02.png" /> to close the program <em>Properties</em> screen.</p>
+<p><strong>Step 3</strong>:<br />
+If you have either determined a request is unsafe, or are simply uncertain about it, based on the information displayed in the program <em>Properties</em> screen, <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-29.png" /> to direct <strong>COMODO Firewall</strong> to deny access to your system.<br />
+OR:<br />
+If you have determined that a legitimate program is making a non-malicious request, based on the information displayed in the program <em>Properties</em> screen, then <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-28.png" /> to allow it access to your system.</p>
+<p><strong>Step 4</strong>. <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-28.png" /> to allow <strong>Firefox</strong> to access your system through <strong>COMODO Firewall</strong>.</p>
+<p><strong>Step 5</strong>. Given that <strong>Firefox</strong> is a safe program, <strong>check</strong> the <img src="/sites/siabnext.ttc.io/files/media/comodo-win-30.png" /> option so that <strong>COMODO Firewall</strong> will allow <strong>Firefox</strong> to automatically access your system the next time.</p>
+<p><strong>Note</strong>: The <em>Allow</em> button lets you manually grant access to a process or program on a case-by-case basis.</p>
+<p><strong>Tip</strong>: <strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-31.png" /> to access the extensive <strong>COMODO Firewall</strong> help files online.</p>
+<p>Your ability to make the correct allow or block decisions will improve as you become more confident and experienced in using <strong>COMODO Firewall</strong>.</p>
+<p><a name="3.1"></a></p>
+<h2 id="open-the-comodo-firewall-main-user-interface">3.1 Open the Comodo Firewall Main User Interface</h2>
+<p><strong>COMODO Firewall</strong> will automatically start working after you have installed and restarted your system. It features an extensive control panel with numerous customisable features and options. <strong>Beginner</strong> level users will quickly learn how to deal with <strong>COMODO Firewall</strong> security alerts, while <strong>Experienced</strong> and <strong>Advanced</strong> users will learn about more complex firewall configuration and management.</p>
+<p><strong>Note</strong>: All the examples shown here are based on <strong>COMODO Firewall</strong> in <strong>Optimum Defense</strong> mode. This means that the <em>Defense+</em> host intrusion prevention system is automatically enabled. If you have installed <strong>COMODO Firewall</strong> using the <em>Firewall only</em> option, <em>Defense+</em> will not be enabled.</p>
+<p>To open the <strong>COMODO Firewall</strong> main user interface, perform this step:</p>
+<p><strong>Step 1</strong>. <strong>Select Start &gt; Programs &gt; Comodo &gt; Firewall &gt; Comodo Firewall</strong>.</p>
+<p><strong>Note</strong>: Alternatively, you can either <strong>double-click</strong> the desktop icon, or <strong>double click</strong> the <strong>COMODO Firewall</strong> icon in the <em>System Tray</em> to open the main user interface. In addition, you may <strong>right-click</strong> the <strong>COMODO Firewall</strong> icon to activate its pop-up menu, and then <strong>select</strong> <em>Open</em> as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-35.png" /></p>
+<p><em>Figure 3: The COMODO Firewall connectivity icon pop-up menu</em></p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-36.png" /></p>
+<p><em>Figure 4: The Comodo Firewall user interface in the default Summary mode</em></p>
+<p><a name="3.2"></a></p>
+<h2 id="an-overview-of-the-comodo-firewall-main-user-interface">3.2 An Overview of the Comodo Firewall Main User Interface</h2>
+<p>The <em>Firewall</em> pane displays a clear and concise summary of inbound and outbound requests from processes and programs attempting to get through the <strong>COMODO Firewall</strong>. Quite typically, there are more outbound requests than inbound. The default operating mode is <em>Safe Mode</em>, and different operating modes will be outlined later in this section. <em>Traffic</em> displays the different processes and programs in operation, and the number of requests being made in terms of percentages.</p>
+<p><strong>Click</strong><img src="/sites/siabnext.ttc.io/files/media/comodo-win-37.png" /> to activate the corresponding detailed summary of the outbound requests <em>at a given moment</em> as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-38.png" /></p>
+<p><em>Figure 5: An example of the Active Connections window displaying Internet traffic details</em></p>
+<p><strong>Click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-39.png" /> to activate a similar <em>Active Connections</em> window for the inbound requests <em>at a given moment</em>.</p>
+<h2 id="the-comodo-firewall-status-icons">3.3 The COMODO Firewall Status icons</h2>
+<p>Both <strong>COMODO Firewall</strong> and <strong>Defense+</strong> work together; if both programs are running, the indicator at the left of the main user interface appears as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-69.png" /></p>
+<p><em>Figure 6: The green COMODO Firewall status icon</em></p>
+<p>If either program is disabled, the status icon will indicate whether the firewall or proactive protection component is disabled as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-70.png" /></p>
+<p><em>Figure 7: The yellow COMODO Firewall disabled status icon</em></p>
+<p>However if both programs have been disabled, the status icon will appear as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-71.png" /></p>
+<p><em>Figure 8: The yellow COMODO Firewall multiple protections disabled status icon</em></p>
+<h1 id="advanced-configuration-and-settings">4. Advanced Configuration and Settings</h1>
+<h2 id="access-the-firewall-behavior-and-defense-settings-windows">4.0 Access the Firewall Behavior and Defense+ Settings windows</h2>
+<p>The <strong>COMODO Firewall</strong> main user interface is divided into two panes, the <em>Firewall</em> pane and the <em>Defense+</em> pane.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-80.png" /></p>
+<p><em>Figure 1: The COMODO Firewall main user interface displaying both the Firewall and Defense+ panes</em></p>
+<p>The <em>Firewall Behavior Settings</em> and the <em>Defense+ Settings</em> windows can be accessed by <strong>clicking</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-43.png" /> in either pane to activate their associated windows and their tabs.</p>
+<p>Alternatively, you may access either of them by performing the following steps:</p>
+<p><strong>Step 1</strong>. <strong>Open</strong> the <strong>COMODO Firewall</strong> main user interface.</p>
+<p><strong>Step 2</strong>. <strong>Click</strong> either</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-60.png" /> OR <img src="/sites/siabnext.ttc.io/files/media/comodo-win-81.png" /></p>
+<p>to activate the <em>Firewall Tasks</em> or <em>Defense+ Tasks</em> panes respectively.</p>
+<p><strong>Step 3</strong>. <strong>Click</strong> either</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-82.png" /> OR <img src="/sites/siabnext.ttc.io/files/media/comodo-win-83.png" /></p>
+<p>to activate the <em>Firewall Behavior Settings</em> tab or <em>Defense+ Settings</em> tab respectively.</p>
+<p><strong>Tip</strong>: The <em>Firewall Security Level</em>, <em>Defense+ Security Level</em> and <em>Sandbox Security Level</em> which are described in the following sections can be easily and effectively set using the <strong>COMODO Firewall</strong> connectivity icon located in the <em>System Tray</em>. <strong>Right click</strong> the connectivity icon to activate the pop-up menu and sub-menu as follows:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-84.png" /></p>
+<p><em>Figure 2: The connectivity icon pop-up menu and the Firewall Security Level sub-menu</em></p>
+<p><a name="4.1"></a></p>
+<h2 id="the-firewall-behavior-settings-window">4.1 The Firewall Behavior Settings window</h2>
+<p>The <strong>Firewall Behavior Settings</strong> window lets you customize firewall security by using a variety of features and options, including the firewall security level, the number and type of security alerts received and packet analysis and monitoring.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-44.png" /></p>
+<p><em>Figure 3: The Firewall Behavior Settings window - General Settings tab</em></p>
+<p>The <em>General Settings</em> tab lets you specify the level of security you think appropriate for <strong>COMODO Firewall</strong>. The slider lets you adjust the level of security among the following options.</p>
+<ul>
+<li><p><strong>Block All</strong>: This mode stops all Internet-related traffic and overrides any firewall configurations and rules you have specified. It will neither generate traffic rules for applications, nor record or 'learn' their behaviours.</p></li>
+<li><p><strong>Custom Policy</strong>: This mode applies <em>only</em> the user-defined <strong>COMODO Firewall</strong> security policies and network traffic policies that you have previously defined in the <em>Firewall Tasks &gt; Network Security Policy</em> and the <em>Defense+ Tasks &gt; Computer Security Policy</em> windows.</p></li>
+<li><p><strong>Safe Mode</strong>: This mode is the default setting for the <strong>COMODO Firewall</strong>, including the <em>Optimum Proactive Defense</em> and <em>Maximum Proactive Defense</em> installations.</p></li>
+</ul>
+<p><strong>Tip</strong>: <strong>COMODO Firewall</strong> maintains an internal list of commonly used applications and files verified as safe, and does not issue pop-up alerts for them.</p>
+<p><strong>Warning</strong>: Both the <em>Training Mode</em> and <em>Disabled Mode</em> are not recommended as they may compromise the effectiveness of <strong>COMODO Firewall</strong> and expose your system to the risk of infection.</p>
+<h2 id="the-defense-settings-window">4.2 The Defense+ Settings window</h2>
+<p><strong>Note</strong>: The features and options described in this section require a profound understanding of firewalls and related security issues, and is designed largely with the <strong>Advanced</strong> user in mind.</p>
+<p><strong>Important</strong>: If you checked either the <em>Firewall with Optimum Proactive Defense</em> or the <em>Firewall with Maximum Proactive Defense</em> options during the <strong>COMODO Firewall</strong> installation process, the <em>Defense+</em> host intrusion prevention system was automatically enabled. However, if you checked the <em>Firewall Only</em> option, the <em>Defense+</em> system can still be manually enabled. The <em>Defense+</em> option must be enabled in order for many of the features documented here to work.</p>
+<p>The <strong>COMODO Firewall</strong> <em>Defense+</em> is a host intrusion prevention system. Any computer connected to a network is technically speaking, a host computer. The <em>Defense+</em> system constantly monitors the activities of all executable files currently residing on your computer. An executable file is simply an application or program, or a part if it, and typically but not exclusively, is identified by the following file extensions: <em>.bat</em>, <em>.exe</em>, <em>.dll</em>, <em>.sys</em>, and others.</p>
+<h3 id="the-defense-settings---general-settings-tab">4.2.1 The Defense+ Settings - General Settings tab</h3>
+<p>To manually enable the <em>Defense+</em> system and activate the <em>Defense+ Settings</em> window, perform the following steps:</p>
+<p><strong>Step 1</strong>. <strong>Click</strong> the <em>Defense+</em> tab in the <strong>COMODO Firewall</strong> main user interface and then <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-50.png" /> to activate the following screen:</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-51.png" /></p>
+<p><em>Figure 6: The Defense+ window displaying the default General Settings tab</em></p>
+<p><strong>Step 2</strong>. <strong>Move</strong> the slider up the scale to <em>Safe Mode</em> and then <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-06.png" /> to enable the <em>Defense+</em> system as shown above in <em>Figure 6</em>.</p>
+<p>The <em>Defense+ Security Level</em> resembles the <em>Firewall Behavior Security Level</em> which offers similar options, and lets you use a slider to choose the optimal level of host intrusion protection for your system.</p>
+<p><strong>Paranoid Mode</strong>: This mode is the highest available level of security, and monitors all and any executable files apart from those you have specified as safe, including those on the <em>Trusted Software Vendor</em> list. It generates the greatest number of security alerts, and system activity is filtered through your configuration settings.</p>
+<p><strong>Safe Mode</strong>: This mode will automatically 'learn' the behaviours of different application executables, while monitoring critical system activity. Every uncertified application will generate a <em>Security Alert</em> whenever it runs. This mode is the most widely recommended for the majority of users.</p>
+<ul>
+<li><p>The <em>Block all unknown requests if the application is closed</em> option automatically blocks all requests from unknown applications and programs, and those you did not specify in your <em>Computer Security Policy</em>).</p></li>
+<li><p>The <em>Deactivate the Defense+ permanently (Requires a system restart)</em> option lets you manually disable the <em>Defense+</em> host intrusion prevention system. This option is generally not recommended.</p></li>
+</ul>
+<h3 id="the-defense-settings---execution-control-settings-tab">4.2.2 The Defense+ Settings - Execution Control Settings tab</h3>
+<p>The <em>Execution Control Settings</em> tab limits the extent to which a suspicious or unknown file can access your system resources and execute itself, and submits them for analysis.</p>
+<p><img src="/sites/siabnext.ttc.io/files/media/comodo-win-54.png" /></p>
+<p><em>Figure 7: The Defense+ Execution Control Settings tab</em></p>
+<p><strong>Tip</strong>: <strong>Advanced</strong> users may create exclusions to the aforementioned tasks by clicking <img src="/sites/siabnext.ttc.io/files/media/comodo-win-55.png" /> to activate the <em>Exclusions</em> pane, and browsing for or selecting different processes or programs for exclusion.</p>
+<p><strong>Note</strong>: <strong>Experienced</strong> and <strong>Advanced</strong> users are strongly encouraged to <strong>click</strong> <img src="/sites/siabnext.ttc.io/files/media/comodo-win-47.png" /> to access the extensive <strong>COMODO</strong> online help concerning the <em>Execution Control Settings</em>, <em>Sandbox Settings</em> and <em>Monitoring Settings</em> tabs. Alternatively, you can refer to **<a href="http://help.comodo.com/topic-72-1-155-1074-Introduction-to-Comodo-Internet-Security.html**" class="uri">http://help.comodo.com/topic-72-1-155-1074-Introduction-to-Comodo-Internet-Security.html**</a> to choose from a list of online help topics.</p>
+<h1 id="faq">FAQ</h1>
+<p><strong><em>Q</em></strong>: If I don’t use a firewall, what kinds of threats I would be exposed to? What are the different kinds of programs that can get onto my computer, and what harm could they do?</p>
+<p><strong><em>A</em></strong>: There are countless programs that could enter your computer from the Internet, if it operates without a firewall. For instance, there are 'scanners' designed to search for computers without working firewalls, and report their addresses to malicious (or commercial) parties. Additionally, there are programs which can 'hijack' your system, and use it to conduct fraudulent business transactions or send spam without your consent or knowledge - and you may end up being framed for illegal activities you didn't commit!</p>
+<p><strong><em>Q</em></strong>: If <strong>COMODO Firewall</strong> keeps out all these programs, why do I also need an anti-virus program and an anti-spyware program?</p>
+<p><strong><em>A</em></strong>: A firewall works to specifically restrict access to and from the Internet. It prevents a program or hacker from getting into your system, but cannot protect you from malware that you might download through email, Web pages or external disks. <strong>COMODO Firewall</strong> also includes <strong>Defense+</strong>, an anti-host intrusion prevention system which monitors the kinds of executable files you allow to run on your system. Anti-virus and anti-spyware programs complement and support a good firewall to prevent non-firewall related infections. And, of course, these tools can often remove existing malware already installed on your computer.</p>
+<p><strong><em>Q</em></strong>: Are there any kinds of malware I need to watch out for which resemble <strong>Windows</strong> programs (or other friendly programs), but which are actually malware?</p>
+<p><strong><em>A</em></strong>: Unfortunately, there are many such programs. You need to be extra careful about the origins of any software that you download or<br />
+install. Ideally, you should not install any software that is not absolutely relevant and necessary to your work, especially on computers that hold a lot of your sensitive data. Here is where the <strong>COMODO Defense+</strong> host-intrusion prevention system can prove very useful; by cross-comparing any new executable files from applications you have recently installed against a list of Trusted Software Vendors, as well as automatically submitting potentially malicious software for analysis, it can greatly enhance your Internet privacy and security.</p>
+<p><strong><em>Q</em></strong>: How good is <strong>COMODO Firewall</strong> at keeping out hackers?</p>
+<p><strong><em>A</em></strong>: <strong>COMODO Firewall</strong> does offer the potential for in-depth and refined control over access to your <strong>Windows</strong> platform. A firewall is only as powerful its configuration. Despite some initial challenges, you are strongly encouraged to persist in using it. Keep learning about <strong>COMODO Firewall</strong>; as your experience grows, you will reap the full benefits of its wide-ranging protection.</p>
+
+    </div>
+
+    </div>
+
+  </body>
+</html>

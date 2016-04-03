@@ -1,0 +1,16 @@
+source: .
+implementation: docsmith
+generate:
+  metalsmith:
+    config: metalsmith.json
+integrate:
+  travis:
+    branch: 'versions/*'
+    build: npm
+    validate:
+      - links
+publish:
+  url: 'http://contentascode.github.io'
+  baseurl: /siab
+  redirects:
+    "/sites/siabnext.ttc.io": "https://securityinabox.org/sites/siabnext.ttc.io/"
